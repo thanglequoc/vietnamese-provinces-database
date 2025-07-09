@@ -2,6 +2,16 @@
 ![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)
 
 [Đọc phiên bản tiếng Việt](README_vi.md)
+
+## ❗️ Dataset is temporary outdated
+
+This dataset is currently awaiting for update from the upstream data from the [**General Statistics Office of Vietnam**][source goverment API].  
+At the moment it does not include the breaking change of re-organizing the country administrative unit.  
+The initiative of this project strictly forward the unit code definition from the General Statistics Office of Vietnam, so the we cannot infer or define a unit code (id) on our own.  
+We will consider to temporary rely on the previous unit code to define the new dataset if it's necessary.  
+
+----
+
 # Vietnamese Provinces Database
 
 A complete SQL database of Vietnamese administrative units, includes all **63 Vietnamese provinces** and associated districts, wards sub-divisions.  
