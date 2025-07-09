@@ -2,6 +2,16 @@
 ![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)
 
 [Read in English version](README.md)
+
+## ❗️ Dữ liệu chưa được cập nhật
+
+
+Bộ dữ liệu này hiện tại chưa được cập nhật, vì lí do dữ liệu đầu nguồn về tỉnh thành Việt Nam chưa được cập nhật trên API của [Tổng cục thống kê Việt Nam][source goverment API].  
+Do vậy, hiện tại bộ dữ liệu này chưa có cập nhật mới nhất về thay đổi sáp nhập tỉnh thành 2 cấp gần đây.  
+Chủ trương của dataset SQL tỉnh thành Việt Nam này sẽ bám sát hoàn toàn vào dữ liệu từ Tổng cục thống kê từ tên gọi đến mã định danh, nên mặc dù đã có văn bản cụ thể các tỉnh thành sau sáp nhập, chúng tôi cũng không thể tự ý tuỳ tiện đặt ra hoặc quy định các mã định danh (id) cho các tỉnh thành.    
+
+----
+
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
 Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **63 tỉnh thành** và các Quận huyện, phường xã liên quan.  
