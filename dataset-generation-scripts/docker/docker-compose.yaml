@@ -1,15 +1,15 @@
 services:
-  postgres:
-    container_name: vn_provinces_postgres_container
-    image: postgres
+  postgres-gis:
+    platform: linux/amd64
+    container_name: vn_provinces_postgres_gis_container
+    image: postgis/postgis
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root
       PGDATA: /data/postgres
     volumes:
-       - postgres:/data/postgres
+       - postgres-gis:/data/postgres
     ports:
       - "15432:5432"
-
 volumes:
-  postgres:
+  postgres-gis:

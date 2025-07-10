@@ -7,12 +7,13 @@ import (
 
 	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
 	dataset_file_writer "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer"
+	"github.com/thanglequoc-vn-provinces/v2/gis"
 )
 
 /*
 Generate the Vietnamese Provinces Dataset SQL files
 */
-func ReadAndGenerateSQLDatasets() {
+func ReadAndGenerateSQLDatasets(gisData []gis.ProvinceGIS) {
 
 	// Clean up the output folder
 	os.RemoveAll("./output")
@@ -28,7 +29,7 @@ func ReadAndGenerateSQLDatasets() {
 	postgresMySQLDatasetFileWriter := dataset_file_writer.PostgresMySQLDatasetFileWriter{
 		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
 	}
-	err := postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards)
+	err := postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards, gisData)
 	if err != nil {
 		log.Fatal("Unable to generate Postgresql-MySQL Dataset", err)
 	} else {
@@ -39,7 +40,7 @@ func ReadAndGenerateSQLDatasets() {
 	mssqlDatasetFileWriter := dataset_file_writer.MssqlDatasetFileWriter{
 		OutputFilePath: "./output/mssql_generated_ImportData_vn_units_%s.sql",
 	}
-	err = mssqlDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards)
+	err = mssqlDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards, gisData)
 	if err != nil {
 		log.Fatal("Unable to generate Mssql Dataset", err)
 	} else {
@@ -50,7 +51,7 @@ func ReadAndGenerateSQLDatasets() {
 	oracleDatasetFileWriter := dataset_file_writer.OracleDatasetFileWriter{
 		OutputFilePath: "./output/oracle_generated_ImportData_vn_units_%s.sql",
 	}
-	err = oracleDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards)
+	err = oracleDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, districts, wards, gisData)
 	if err != nil {
 		log.Fatal("Unable to generate Oracle Dataset", err)
 	} else {

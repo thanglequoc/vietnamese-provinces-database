@@ -96,3 +96,12 @@ ALTER TABLE wards ADD CONSTRAINT wards_district_code_fkey FOREIGN KEY (district_
 
 CREATE INDEX idx_wards_district ON wards(district_code);
 CREATE INDEX idx_wards_unit ON wards(administrative_unit_id);
+
+-- CREATE gis TABLE
+CREATE TABLE vn_gis (
+	code varchar(20) NOT NULL,
+	level varchar(20) NOT NULL,
+	bbox geometry(Polygon, 4326),
+	gis_geom geometry(Multipolygon, 4326),
+	CONSTRAINT vn_gis_pkey PRIMARY KEY (code)
+)

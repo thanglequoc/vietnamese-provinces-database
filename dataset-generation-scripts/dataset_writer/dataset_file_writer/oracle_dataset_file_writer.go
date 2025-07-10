@@ -3,13 +3,20 @@ package dataset_writer
 import (
 	"bufio"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
 	"log"
 	"os"
+	"strings"
 	"time"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
+	"github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer/helper"
+	gis "github.com/thanglequoc-vn-provinces/v2/gis"
 )
 
 const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,administrative_region_id) VALUES('%s','%s','%s','%s','%s','%s',%d,%d)"
+
+const insertOracleGISTemplate string = "INSERT INTO vn_gis(code,unit_level,bbox, temp_wkt) VALUES "
+const insertOracleGISValueTemplate string = "('%s','%s', sde.st_geomfromtext('POLYGON((%s, %s, %s, %s, %s))', 4326) ,%s);\n"
 
 type OracleDatasetFileWriter struct {
 	OutputFilePath string
@@ -20,7 +27,8 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	administrativeUnits []vn_common.AdministrativeUnit,
 	provinces []vn_common.Province,
 	districts []vn_common.District,
-	wards []vn_common.Ward) error {
+	wards []vn_common.Ward,
+	gisData []gis.ProvinceGIS) error {
 
 	fileTimeSuffix := getFileTimeSuffix()
 	outputFilePath := fmt.Sprintf(w.OutputFilePath, fileTimeSuffix)
@@ -138,5 +146,81 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 	dataWriter.Flush()
 	file.Close()
+
+	writeOracleGISDataToFile(gisData)
 	return nil
+}
+
+func writeOracleGISDataToFile(gisData []gis.ProvinceGIS) {
+	fileTimeSuffix := getFileTimeSuffix()
+	outputFilePath := fmt.Sprintf("./output/oracle_generated_ImportGISData_vn_units_%s.sql", fileTimeSuffix)
+	file, err := os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal("Unable to write to file", err)
+		panic(err)
+	}
+	defer file.Close()
+
+	dataWriter := bufio.NewWriter(file)
+	dataWriter.WriteString("/* === Vietnamese Provinces Database - GIS Dataset for Oracle === */\n")
+	dataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
+	dataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	dataWriter.WriteString("/* =============================================== */\n\n")
+	
+	// ring order: bottom left -> going around -> bottom left again
+	for _, g := range gisData {
+		dataWriter.WriteString(insertOracleGISTemplate)
+		dataWriter.WriteString(fmt.Sprintf(insertOracleGISValueTemplate, 
+			g.LevelId, 
+			"province",
+			gis.ToCoordinateStr(g.BBox.BottomLeftLng, g.BBox.BottomLeftLat),
+			gis.ToCoordinateStr(g.BBox.TopLeftLng, g.BBox.TopLeftLat),
+			gis.ToCoordinateStr(g.BBox.TopRightLng, g.BBox.TopRightLat),
+			gis.ToCoordinateStr(g.BBox.BottomRightLng, g.BBox.BottomRightLat),
+			gis.ToCoordinateStr(g.BBox.BottomLeftLng, g.BBox.BottomLeftLat), // repeat the bottom left again to close the polygon ring,
+			toOracleMultiPolygon(g.Coordinates[0][0]),
+			),
+		)
+
+		// district in province
+		for _, gd := range g.Districts {
+			dataWriter.WriteString(insertOracleGISTemplate)
+			dataWriter.WriteString(fmt.Sprintf(insertOracleGISValueTemplate, 
+				gd.LevelId, 
+				"district",
+				gis.ToCoordinateStr(gd.BBox.BottomLeftLng, gd.BBox.BottomLeftLat),
+				gis.ToCoordinateStr(gd.BBox.TopLeftLng, gd.BBox.TopLeftLat),
+				gis.ToCoordinateStr(gd.BBox.TopRightLng, gd.BBox.TopRightLat),
+				gis.ToCoordinateStr(gd.BBox.BottomRightLng, gd.BBox.BottomRightLat),
+				gis.ToCoordinateStr(gd.BBox.BottomLeftLng, gd.BBox.BottomLeftLat), // repeat the bottom left again to close the polygon ring,
+				toOracleMultiPolygon(gd.Coordinates[0][0]),
+				),
+			)
+		}
+	}
+
+	dataWriter.Flush()
+}
+
+func toOracleMultiPolygon(ringCoordinates gis.GisLinearRingCoordinate) string {
+	var template = "MULTIPOLYGON(((%s)))"
+
+	var sb strings.Builder
+	for _, p := range ringCoordinates.GisPoints {
+		sb.WriteString(gis.ToCoordinateStr(p.Longitude, p.Latitude))
+		sb.WriteString(",")
+	}
+	// repeat the first point to close the ring
+	firstPoint := ringCoordinates.GisPoints[0]
+	sb.WriteString(gis.ToCoordinateStr(firstPoint.Longitude, firstPoint.Latitude))
+	return formatToClobAppend(fmt.Sprintf(template, sb.String()))
+}
+
+// Insert into table (clob_column) values ( to_clob( 'chunk 1' ) || to_clob( 'chunk 2' ) );
+func formatToClobAppend(gisStr string) string {
+	chunks := helper.Chunks(gisStr, 3000)
+	for i, v := range chunks {
+		chunks[i] = "to_clob('" + v + "')"
+	}
+	return strings.Join(chunks, " || ")
 }

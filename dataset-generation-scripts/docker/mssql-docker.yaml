@@ -1,0 +1,21 @@
+# @ Thanglequoc: SQL Server doesn't work on Mac M1, we need to use Azure 
+
+version: '3.8'
+
+services:
+  mssql:
+    container_name: azuresqledge
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    restart: always
+    environment:
+      ACCEPT_EULA: "1"
+      MSSQL_SA_PASSWORD: "Root123456@thangle"
+    ports:
+      - 1433:1433
+    volumes:
+      - my-volume:/var/opt/mssql
+
+volumes:
+  my-volume:
+
+
