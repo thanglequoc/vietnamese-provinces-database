@@ -3,12 +3,13 @@
 
 [Read in English version](README.md)
 
-## ❗️ Dữ liệu chưa được cập nhật
-
+## ❗️ Tác giả đang tiến hành cập nhật dữ liệu 
 
 Bộ dữ liệu này hiện tại chưa được cập nhật, vì lí do dữ liệu đầu nguồn về tỉnh thành Việt Nam chưa được cập nhật trên API của [Tổng cục thống kê Việt Nam][source goverment API].  
 Do vậy, hiện tại bộ dữ liệu này chưa có cập nhật mới nhất về thay đổi sáp nhập tỉnh thành 2 cấp gần đây.  
-Chủ trương của dataset SQL tỉnh thành Việt Nam này sẽ bám sát hoàn toàn vào dữ liệu từ Tổng cục thống kê từ tên gọi đến mã định danh, nên mặc dù đã có văn bản cụ thể các tỉnh thành sau sáp nhập, chúng tôi cũng không thể tự ý tuỳ tiện đặt ra hoặc quy định các mã định danh (id) cho các tỉnh thành.    
+Chủ trương của dataset SQL tỉnh thành Việt Nam này sẽ bám sát hoàn toàn vào dữ liệu từ Tổng cục thống kê từ tên gọi đến mã định danh, nên mặc dù đã có văn bản cụ thể các tỉnh thành sau sáp nhập, tác giả cũng không thể tự ý tuỳ tiện đặt ra hoặc quy định các mã định danh (id) cho các tỉnh thành.  
+Để không mất thêm thời gian chờ đợi dữ liệu upstream từ GSO, Tác giả của dự án đang chủ động cập nhật dữ liệu theo nghị quyết [19/2025/QĐ-TTg](https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx). Rất mong anh em cộng đồng thông cảm chờ đợi thêm một thời gian ngắn nữa.  
+
 
 ----
 
