@@ -3,12 +3,10 @@
 
 [Đọc phiên bản tiếng Việt](README_vi.md)
 
-## ❗️ Dataset is temporary outdated
-
+## ❗️ Dataset is temporary outdated, updating is In Progress
 This dataset is currently awaiting for update from the upstream data from the [**General Statistics Office of Vietnam**][source goverment API].  
 At the moment it does not include the breaking change of re-organizing the country administrative unit.  
-The initiative of this project strictly forward the unit code definition from the General Statistics Office of Vietnam, so the we cannot infer or define a unit code (id) on our own.  
-We will consider to temporary rely on the previous unit code to define the new dataset if it's necessary.  
+Since the GSO SOAP API is still outdated, the author is actively follow the latest decree [19/2025/QĐ-TTg](https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx) to work on the data patch
 
 ----
 
