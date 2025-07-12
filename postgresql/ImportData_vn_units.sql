@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for PostgreSQL/MySQL === */
-/* Created at:  Sat, 01 Mar 2025 21:28:48 +0700 */
+/* Created at:  Sat, 12 Jul 2025 11:09:42 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -609,7 +609,7 @@ INSERT INTO districts(code,name,name_en,full_name,full_name_en,code_name,provinc
 ('678','Đức Trọng','Duc Trong','Huyện Đức Trọng','Duc Trong District','duc_trong','68',7),
 ('679','Di Linh','Di Linh','Huyện Di Linh','Di Linh District','di_linh','68',7),
 ('680','Bảo Lâm','Bao Lam','Huyện Bảo Lâm','Bao Lam District','bao_lam','68',7),
-('682','Đạ Tẻh','Da Teh','Huyện Đạ Tẻh','Da Teh District','da_teh','68',7),
+('682','Đạ Huoai','Da Huoai','Huyện Đạ Huoai','Da Huoai District','da_huoai','68',7),
 ('688','Phước Long','Phuoc Long','Thị xã Phước Long','Phuoc Long Town','phuoc_long','70',6),
 ('689','Đồng Xoài','Dong Xoai','Thành phố Đồng Xoài','Dong Xoai City','dong_xoai','70',4),
 ('690','Bình Long','Binh Long','Thị xã Bình Long','Binh Long Town','binh_long','70',6),
@@ -1140,7 +1140,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,district_co
 INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,district_code,administrative_unit_id) VALUES
 ('00709','Kim Linh','Kim Linh','Xã Kim Linh','Kim Linh Commune','kim_linh','030',10),
 ('00913','Vị Xuyên','Vi Xuyen','Thị trấn Vị Xuyên','Vi Xuyen Township','vi_xuyen','030',9),
-('00916','Nông Trường Việt Lâm','Nong Truong Viet Lam','Thị trấn Nông Trường Việt Lâm','Nong Truong Viet Lam Township','nong_truong_viet_lam','030',9),
+('00916','Nông trường Việt Lâm','Nong truong Viet Lam','Thị trấn Nông trường Việt Lâm','Nong truong Viet Lam Township','nong_truong_viet_lam','030',9),
 ('00919','Minh Tân','Minh Tan','Xã Minh Tân','Minh Tan Commune','minh_tan','030',10),
 ('00922','Thuận Hoà','Thuan Hoa','Xã Thuận Hoà','Thuan Hoa Commune','thuan_hoa','030',10),
 ('00925','Tùng Bá','Tung Ba','Xã Tùng Bá','Tung Ba Commune','tung_ba','030',10),
@@ -10869,7 +10869,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,district_co
 ('31241','Thạnh Tiến','Thanh Tien','Xã Thạnh Tiến','Thanh Tien Commune','thanh_tien','924',10),
 ('31243','Thạnh Thắng','Thanh Thang','Xã Thạnh Thắng','Thanh Thang Commune','thanh_thang','924',10),
 ('31244','Thạnh Lợi','Thanh Loi','Xã Thạnh Lợi','Thanh Loi Commune','thanh_loi','924',10),
-('31246','Thạnh Qưới','Thanh Quoi','Xã Thạnh Qưới','Thanh Quoi Commune','thanh_quoi','924',10),
+('31246','Thạnh Quới','Thanh Quoi','Xã Thạnh Quới','Thanh Quoi Commune','thanh_quoi','924',10),
 ('31252','Thạnh Lộc','Thanh Loc','Xã Thạnh Lộc','Thanh Loc Commune','thanh_loc','924',10),
 ('31222','Trung An','Trung An','Xã Trung An','Trung An Commune','trung_an','925',10),
 ('31225','Trung Thạnh','Trung Thanh','Xã Trung Thạnh','Trung Thanh Commune','trung_thanh','925',10),

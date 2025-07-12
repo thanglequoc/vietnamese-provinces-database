@@ -13,13 +13,10 @@ INSERT INTO administrative_regions (id,"name",name_en,code_name,code_name_en) VA
 
 -- DATA for administrative_units
 INSERT INTO administrative_units (id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES
+	 -- Level 1
 	 (1,'Thành phố trực thuộc trung ương','Municipality','Thành phố','City','thanh_pho_truc_thuoc_trung_uong','municipality'),
 	 (2,'Tỉnh','Province','Tỉnh','Province','tinh','province'),
-	 (3,'Thành phố thuộc thành phố trực thuộc trung ương','Municipal city','Thành phố','City','thanh_pho_thuoc_thanh_pho_truc_thuoc_trung_uong','municipal_city'),
-	 (4,'Thành phố thuộc tỉnh','Provincial city','Thành phố','City','thanh_pho_thuoc_tinh','provincial_city'),
-	 (5,'Quận','Urban district','Quận','District','quan','urban_district'),
-	 (6,'Thị xã','District-level town','Thị xã','Town','thi_xa','district_level_town'),
-	 (7,'Huyện','District','Huyện','District','huyen','district'),
-	 (8,'Phường','Ward','Phường','Ward','phuong','ward'),
-	 (9,'Thị trấn','Commune-level town','Thị trấn','Township','thi_tran','commune_level_town'),
-	 (10,'Xã','Commune','Xã','Commune','xa','commune');
+  -- Level 2
+	 (3,'Phường','Ward','Phường','Ward','phuong','ward'),
+	 (4,'Xã','Commune','Xã','Commune','xa','commune'),
+	 (5,'Đặc khu tại hải đảo','Special administrative region','Đặc khu','Special administrative region','dac_khu','special_administrative_region');
