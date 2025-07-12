@@ -1,6 +1,10 @@
 DROP TABLE IF EXISTS wards_tmp;
 DROP TABLE IF EXISTS districts_tmp;
 DROP TABLE IF EXISTS provinces_tmp;
+
+DROP TABLE IF EXISTS wards_tmp_decree;
+DROP TABLE IF EXISTS provinces_tmp_decree;
+
 DROP TABLE IF EXISTS wards;
 DROP TABLE IF EXISTS districts;
 DROP TABLE IF EXISTS provinces;
@@ -45,7 +49,6 @@ CREATE TABLE provinces_tmp (
 
 
 -- provinces foreign keys
-
 ALTER TABLE provinces_tmp ADD CONSTRAINT provinces_tmp_administrative_region_id_fkey FOREIGN KEY (administrative_region_id) REFERENCES administrative_regions(id);
 ALTER TABLE provinces_tmp ADD CONSTRAINT provinces_tmp_administrative_unit_id_fkey FOREIGN KEY (administrative_unit_id) REFERENCES administrative_units(id);
 CREATE INDEX idx_provinces_tmp_region ON provinces_tmp(administrative_region_id);
@@ -67,9 +70,27 @@ CREATE TABLE wards_tmp (
 -- wards_tmp foreign keys
 ALTER TABLE wards_tmp ADD CONSTRAINT wards_tmp_administrative_unit_id_fkey FOREIGN KEY (administrative_unit_id) REFERENCES administrative_units(id);
 ALTER TABLE wards_tmp ADD CONSTRAINT wards_tmp_province_code_fkey FOREIGN KEY (province_code) REFERENCES provinces_tmp(code);
-
 CREATE INDEX idx_wards_tmp_province ON wards_tmp(province_code);
 CREATE INDEX idx_wards_tmp_tmp_unit ON wards_tmp(administrative_unit_id);
+
+
+-- CREATE provinces_tmp_decree TABLE
+CREATE TABLE provinces_tmp_decree (
+    code varchar(20) NOT NULL,
+    "name" varchar(255) NOT NULL,
+    CONSTRAINT provinces_tmp_decree_pkey PRIMARY KEY (code)
+);
+
+-- CREATE wards_tmp_decree TABLE
+CREATE TABLE wards_tmp_decree (
+    code varchar(20) NOT NULL,
+    "name" varchar(255) NOT NULL,
+		province_code varchar(20) NOT NULL,
+    CONSTRAINT wards_tmp_decree_pkey PRIMARY KEY (code)
+);
+
+-- wards_tmp_decree foreign keys
+ALTER TABLE wards_tmp_decree ADD CONSTRAINT wards_tmp_decree_province_code_fkey FOREIGN KEY (province_code) REFERENCES provinces_tmp_decree(code);
 
 -- -----------------------------------------------------------------
 
