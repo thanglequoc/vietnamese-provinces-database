@@ -1,3 +1,4 @@
+-- Quang Ninh (22) wards data
 INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
 ('06652', 'Phường Hà Tu', '22'),
 ('06658', 'Phường Cao Xanh', '22'),
