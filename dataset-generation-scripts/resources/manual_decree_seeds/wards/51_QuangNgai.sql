@@ -1,4 +1,4 @@
--- Da Nang (51) wards data
+-- Quang Ngai (51) wards data
 INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
 ('21025', 'Phường Cẩm Thành', '51'),
 ('21028', 'Phường Nghĩa Lộ', '51'),
