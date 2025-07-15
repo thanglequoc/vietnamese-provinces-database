@@ -1,6 +1,7 @@
 package dumper
 
 import (
+	"bufio"
 	"context"
 	"fmt"
 	"os"
@@ -8,7 +9,6 @@ import (
 	"strings"
 	"time"
 	"unicode"
-	"bufio"
 
 	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
 	"golang.org/x/text/runes"
@@ -16,20 +16,22 @@ import (
 	"golang.org/x/text/unicode/norm"
 
 	data_downloader "github.com/thanglequoc-vn-provinces/v2/dvhcvn_data_downloader"
-)
 
+	"io/fs"
+	"path/filepath"
+)
 
 func BeginDumpingDataWithDvhcvnDirectSource() {
 	fmt.Print("(Optional) Please specify the data date (dd/MM/YYYY). Leave empty to go with default option: ")
 
-	reader := bufio.NewReader(os.Stdin)	
+	reader := bufio.NewReader(os.Stdin)
 
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.TrimSpace(userInput)
 	fmt.Println("Selected date: ", userInput)
 
 	var dataSetTime time.Time
-	if (len(strings.TrimSpace(userInput)) == 0) {
+	if len(strings.TrimSpace(userInput)) == 0 {
 		fmt.Println("No input is recorded, using tomorrow as the default day...")
 		dataSetTime = time.Now().Add(time.Hour * 24)
 	} else {
@@ -42,6 +44,30 @@ func BeginDumpingDataWithDvhcvnDirectSource() {
 	insertToDistricts(dvhcvnUnits.DistrictData)
 	insertToWards(dvhcvnUnits.WardData)
 	fmt.Println("📥 Dumper operation finished")
+}
+
+// Dump the SQL script from the manual database degree seed
+func DumpFromManualSeed() {
+	fmt.Println("Dumping data from manual database degree seed...")
+	vn_common.ExecuteSQLScript("./resources/manual_decree_seeds/province_decree.sql")
+
+	wardSeedRootFolder := "./resources/manual_decree_seeds/wards"
+	err := filepath.WalkDir(wardSeedRootFolder, func(path string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+		if !d.IsDir() && filepath.Ext(path) == ".sql" {
+			fmt.Printf("Executing script: %s\n", path)
+			vn_common.ExecuteSQLScript(path)
+		}
+		return nil
+	})
+	if err != nil {
+		fmt.Printf("Error walking through manual decree seeds: %v\n", err)
+	}
+
+	// Thing to do: Manual inject data to the database
+
 }
 
 func insertToWards(dvhcvnWardModels []data_downloader.DvhcvnWardModel) {
@@ -170,14 +196,12 @@ func insertToProvinces(dvhcvnProvinceModels []data_downloader.DvhcvnProvinceMode
 	fmt.Printf("Inserted %d provinces to tables\n", len(dvhcvnProvinceModels))
 }
 
-
-
 /*
 Determine the province administrative unit id from its name
 */
 func getAdministrativeUnit_ProvinceLevel(provinceFullName string) int {
 	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[provinceFullName]
-	if (matchSpecialCase) {
+	if matchSpecialCase {
 		return specialUnit
 	}
 
@@ -195,10 +219,10 @@ Determine the district administrative unit id from its name
 */
 func getAdministrativeUnit_DistrictLevel(districtFullName string) int {
 	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[districtFullName]
-	if (matchSpecialCase) {
+	if matchSpecialCase {
 		return specialUnit
 	}
-	
+
 	if strings.HasPrefix(districtFullName, "Thành phố") {
 		return 4
 	}
@@ -219,7 +243,7 @@ Determine the ward administrative unit id from its name
 */
 func getAdministrativeUnit_WardLevel(wardFullName string) int {
 	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[wardFullName]
-	if (matchSpecialCase) {
+	if matchSpecialCase {
 		return specialUnit
 	}
 
