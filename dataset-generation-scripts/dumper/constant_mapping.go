@@ -37,7 +37,12 @@ var AdministrativeUnitNamesShortNameMap_en = map[int]string{
 /*
 Mapping definition for the province code and the region that it belongs to
 Define as constant mapping since the province geographical data would likely to be never changed
+
+NOTE: After the major province merge, ProvinceRegionMap is no longer accurate as one province may span across 3 regions now
+E.g: Vĩnh Phúc, Phú Thọ, Hòa Bình => Phú Thọ
+URL: https://vi.wikipedia.org/wiki/Sáp_nhập_tỉnh,_thành_Việt_Nam_2025
 */
+
 var ProvinceRegionMap = map[string]int {
 	"01": 3,
 	"26": 3,
@@ -102,13 +107,4 @@ var ProvinceRegionMap = map[string]int {
 	"93": 8,
 	"94": 8,
 	"95": 8,
-}
-
-/*
-Handle Special administrative unit mapping for some corner case that cannot be detect just
-by evaluating the prefix of the name
-At the moment, there is only one Municipal city is special
-*/
-var SpecialAdministrativeUnitMap = map[string]int {
-	"Thành phố Thủ Đức": 3,
 }

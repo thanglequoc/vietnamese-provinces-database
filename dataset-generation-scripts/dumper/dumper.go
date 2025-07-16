@@ -21,6 +21,7 @@ import (
 	"path/filepath"
 )
 
+// Temporary deprecated, API upstream data is not up to date
 func BeginDumpingDataWithDvhcvnDirectSource() {
 	fmt.Print("(Optional) Please specify the data date (dd/MM/YYYY). Leave empty to go with default option: ")
 
@@ -40,16 +41,16 @@ func BeginDumpingDataWithDvhcvnDirectSource() {
 
 	dvhcvnUnits := data_downloader.FetchDvhcvnData(dataSetTime)
 
-	insertToProvinces(dvhcvnUnits.ProvinceData)
-	insertToDistricts(dvhcvnUnits.DistrictData)
-	insertToWards(dvhcvnUnits.WardData)
+	fmt.Println(dvhcvnUnits)
+	// insertToProvinces(dvhcvnUnits.ProvinceData)
+	// insertToWards(dvhcvnUnits.WardData)
 	fmt.Println("📥 Dumper operation finished")
 }
 
 // Dump the SQL script from the manual database degree seed
 func DumpFromManualSeed() {
 	fmt.Println("Dumping data from manual database degree seed...")
-	vn_common.ExecuteSQLScript("./resources/manual_decree_seeds/province_decree.sql")
+	vn_common.ExecuteSQLScript("./resources/manual_decree_seeds/provinces_seed.sql")
 
 	wardSeedRootFolder := "./resources/manual_decree_seeds/wards"
 	err := filepath.WalkDir(wardSeedRootFolder, func(path string, d fs.DirEntry, err error) error {
@@ -66,18 +67,22 @@ func DumpFromManualSeed() {
 		fmt.Printf("Error walking through manual decree seeds: %v\n", err)
 	}
 
-	// Thing to do: Manual inject data to the database
-
+	// Thing to do: Manual inject data to the database - Done
+	// Read from the insert data, construct the dvhcvn data
+	seedProvinces := vn_common.GetAllSeedProvinces()
+	seedWards := vn_common.GetAllSeedWards()
+	insertToProvinces(seedProvinces)
+	insertToWards(seedWards)
+	fmt.Println("📥 Dumper operation finished")
 }
 
-func insertToWards(dvhcvnWardModels []data_downloader.DvhcvnWardModel) {
+func insertToWards(seedWardModels []vn_common.SeedWard) {
 	db := vn_common.GetPostgresDBConnection()
 	ctx := context.Background()
 	totalWard := 0
 
-	for _, w := range dvhcvnWardModels {
-
-		wardFullName := removeWhiteSpaces(w.WardName)
+	for _, w := range seedWardModels {
+		wardFullName := removeWhiteSpaces(w.Name)
 		administrativeUnitLevel := getAdministrativeUnit_WardLevel(wardFullName)
 		unitName := AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
@@ -95,14 +100,14 @@ func insertToWards(dvhcvnWardModels []data_downloader.DvhcvnWardModel) {
 		}
 
 		wardModel := &vn_common.Ward{
-			Code:                 w.WardCode,
+			Code:                 w.Code,
 			Name:                 wardShortName,
 			NameEn:               wardShortNameEn,
 			FullName:             wardFullName,
 			FullNameEn:           wardFullNameEn,
 			CodeName:             codeName,
 			AdministrativeUnitId: administrativeUnitLevel,
-			DistrictCode:         w.DistrictCode,
+			ProvinceCode:         w.ProvinceCode,
 		}
 
 		_, err := db.NewInsert().Model(wardModel).Exec(ctx)
@@ -116,56 +121,12 @@ func insertToWards(dvhcvnWardModels []data_downloader.DvhcvnWardModel) {
 	fmt.Printf("Inserted %d wards to tables\n", totalWard)
 }
 
-func insertToDistricts(dvhcvnDistrictModels []data_downloader.DvhcvnDistrictModel) {
+func insertToProvinces(seedProvinceModels []vn_common.SeedProvince) {
 	db := vn_common.GetPostgresDBConnection()
 	ctx := context.Background()
 
-	for _, d := range dvhcvnDistrictModels {
-
-		districtFullName := removeWhiteSpaces(d.DistrictName)
-		administrativeUnitLevel := getAdministrativeUnit_DistrictLevel(districtFullName)
-		unitName := AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
-		unitName_en := AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
-		districtShortName := strings.Trim(strings.Replace(districtFullName, unitName, "", 1), " ")
-		codeName := toCodeName(districtShortName)
-		districtShortNameEn := normalizeString(districtShortName)
-
-		// Case when district name is a number
-		isNumber, _ := regexp.MatchString("[0-9]+", districtShortName)
-		var districtFullNameEn string
-		if isNumber {
-			districtFullNameEn = unitName_en + " " + districtShortNameEn
-		} else {
-			districtFullNameEn = districtShortNameEn + " " + unitName_en
-		}
-
-		districtModel := &vn_common.District{
-			Code:                 d.DistrictCode,
-			Name:                 districtShortName,
-			NameEn:               districtShortNameEn,
-			FullName:             districtFullName,
-			FullNameEn:           districtFullNameEn,
-			CodeName:             codeName,
-			AdministrativeUnitId: administrativeUnitLevel,
-			ProvinceCode:         d.ProvinceCode,
-		}
-
-		_, err := db.NewInsert().Model(districtModel).Exec(ctx)
-		if err != nil {
-			fmt.Println(err)
-			panic("Exception happens while inserting into districts table")
-		}
-	}
-
-	fmt.Printf("Inserted %d districts to tables\n", len(dvhcvnDistrictModels))
-}
-
-func insertToProvinces(dvhcvnProvinceModels []data_downloader.DvhcvnProvinceModel) {
-	db := vn_common.GetPostgresDBConnection()
-	ctx := context.Background()
-
-	for _, p := range dvhcvnProvinceModels {
-		provinceFullName := removeWhiteSpaces(p.ProvinceName)
+	for _, p := range seedProvinceModels {
+		provinceFullName := removeWhiteSpaces(p.Name)
 		administrativeUnitLevel := getAdministrativeUnit_ProvinceLevel(provinceFullName)
 		unitName := AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
@@ -173,17 +134,15 @@ func insertToProvinces(dvhcvnProvinceModels []data_downloader.DvhcvnProvinceMode
 		codeName := toCodeName(provinceShortName)
 		provinceShortNameEn := normalizeString(provinceShortName)
 		provinceFullNameEn := provinceShortNameEn + " " + unitName_en
-		regionId := ProvinceRegionMap[p.ProvinceCode]
 
 		provinceModel := &vn_common.Province{
-			Code:                   p.ProvinceCode,
+			Code:                   p.Code,
 			Name:                   provinceShortName,
 			NameEn:                 provinceShortNameEn,
 			FullName:               provinceFullName,
 			FullNameEn:             provinceFullNameEn,
 			CodeName:               codeName,
 			AdministrativeUnitId:   administrativeUnitLevel,
-			AdministrativeRegionId: regionId,
 		}
 
 		_, err := db.NewInsert().Model(provinceModel).Exec(ctx)
@@ -193,18 +152,13 @@ func insertToProvinces(dvhcvnProvinceModels []data_downloader.DvhcvnProvinceMode
 		}
 	}
 
-	fmt.Printf("Inserted %d provinces to tables\n", len(dvhcvnProvinceModels))
+	fmt.Printf("Inserted %d provinces to tables\n", len(seedProvinceModels))
 }
 
 /*
 Determine the province administrative unit id from its name
 */
 func getAdministrativeUnit_ProvinceLevel(provinceFullName string) int {
-	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[provinceFullName]
-	if matchSpecialCase {
-		return specialUnit
-	}
-
 	if strings.HasPrefix(provinceFullName, "Thành phố") {
 		return 1
 	}
@@ -215,46 +169,17 @@ func getAdministrativeUnit_ProvinceLevel(provinceFullName string) int {
 }
 
 /*
-Determine the district administrative unit id from its name
-*/
-func getAdministrativeUnit_DistrictLevel(districtFullName string) int {
-	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[districtFullName]
-	if matchSpecialCase {
-		return specialUnit
-	}
-
-	if strings.HasPrefix(districtFullName, "Thành phố") {
-		return 4
-	}
-	if strings.HasPrefix(districtFullName, "Quận") {
-		return 5
-	}
-	if strings.HasPrefix(districtFullName, "Thị xã") {
-		return 6
-	}
-	if strings.HasPrefix(districtFullName, "Huyện") {
-		return 7
-	}
-	panic("Unable to determine administrative unit name from district: " + districtFullName)
-}
-
-/*
 Determine the ward administrative unit id from its name
 */
 func getAdministrativeUnit_WardLevel(wardFullName string) int {
-	specialUnit, matchSpecialCase := SpecialAdministrativeUnitMap[wardFullName]
-	if matchSpecialCase {
-		return specialUnit
-	}
-
 	if strings.HasPrefix(wardFullName, "Phường") {
-		return 8
-	}
-	if strings.HasPrefix(wardFullName, "Thị trấn") {
-		return 9
+		return 3
 	}
 	if strings.HasPrefix(wardFullName, "Xã") {
-		return 10
+		return 4
+	}
+	if strings.HasPrefix(wardFullName, "Đặc khu") {
+		return 5
 	}
 	panic("Unable to determine administrative unit name from ward: " + wardFullName)
 }
