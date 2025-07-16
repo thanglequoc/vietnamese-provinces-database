@@ -1,5 +1,5 @@
 -- Quang Ngai (51) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('21025', 'Phường Cẩm Thành', '51'),
 ('21028', 'Phường Nghĩa Lộ', '51'),
 ('21172', 'Phường Trương Quang Trọng', '51'),

@@ -1,5 +1,5 @@
 -- Tay Ninh (80) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('25459', 'Phường Tân Ninh', '80'),
 ('25480', 'Phường Bình Minh', '80'),
 ('25567', 'Phường Ninh Thạnh', '80'),

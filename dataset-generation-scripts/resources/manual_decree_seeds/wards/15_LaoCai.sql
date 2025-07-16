@@ -1,5 +1,5 @@
 -- Lao Cai (15) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('02647', 'Phường Lào Cai', '15'),
 ('02671', 'Phường Cam Đường', '15'),
 ('03006', 'Phường Sa Pa', '15'),

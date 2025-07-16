@@ -1,5 +1,5 @@
 -- Tuyen Quang (08) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('00691', 'Phường Hà Giang 2', '08'),
 ('00694', 'Phường Hà Giang 1', '08'),
 ('02212', 'Phường Nông Tiến', '08'),

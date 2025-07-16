@@ -1,5 +1,5 @@
 -- Hue (46) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('19753', 'Phường Phú Xuân', '46'),
 ('19774', 'Phường Kim Long', '46'),
 ('19777', 'Phường Vỹ Dạ', '46'),

@@ -1,5 +1,5 @@
 -- Dong Nai (75) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('25195', 'Phường Bình Phước', '75'),
 ('25210', 'Phường Đồng Xoài', '75'),
 ('25217', 'Phường Phước Long', '75'),

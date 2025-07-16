@@ -1,5 +1,5 @@
 -- Thai Nguyen (19) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('01840', 'Phường Đức Xuân', '19'),
 ('01843', 'Phường Bắc Kạn', '19'),
 ('05443', 'Phường Phan Đình Phùng', '19'),

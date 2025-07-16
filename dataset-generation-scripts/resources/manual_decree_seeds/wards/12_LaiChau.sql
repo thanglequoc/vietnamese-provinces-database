@@ -1,5 +1,5 @@
 -- Lai Chau (12) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('03388', 'Phường Đoàn Kết', '12'),
 ('03408', 'Phường Tân Phong', '12'),
 ('03390', 'Xã Bình Lư', '12'),

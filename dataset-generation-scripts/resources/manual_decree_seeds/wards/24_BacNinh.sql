@@ -1,5 +1,5 @@
 -- Bac Ninh (24) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('07210', 'Phường Bắc Giang', '24'),
 ('07228', 'Phường Đa Mai', '24'),
 ('07525', 'Phường Chũ', '24'),

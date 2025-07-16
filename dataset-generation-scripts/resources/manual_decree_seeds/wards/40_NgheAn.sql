@@ -1,5 +1,5 @@
 -- Nghe An (40) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('16681', 'Phường Thành Vinh', '40'),
 ('16690', 'Phường Trường Vinh', '40'),
 ('16702', 'Phường Vinh Phú', '40'),

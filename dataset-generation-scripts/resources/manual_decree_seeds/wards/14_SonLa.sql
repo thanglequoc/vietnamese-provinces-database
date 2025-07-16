@@ -1,5 +1,5 @@
 -- Son La (14) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('03646', 'Phường Tô Hiệu', '14'),
 ('03664', 'Phường Chiềng An', '14'),
 ('03670', 'Phường Chiềng Cơi', '14'),

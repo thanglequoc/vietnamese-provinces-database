@@ -1,5 +1,5 @@
 -- Cao Bang (04) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('01273', 'Phường Thục Phán', '04'),
 ('01279', 'Phường Nùng Trí Cao', '04'),
 ('01288', 'Phường Tân Giang', '04'),

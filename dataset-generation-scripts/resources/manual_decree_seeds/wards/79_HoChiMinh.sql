@@ -1,5 +1,5 @@
 -- Ho Chi Minh (79) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('25747', 'Phường Thủ Dầu Một', '79'),
 ('25750', 'Phường Phú Lợi', '79'),
 ('25760', 'Phường Bình Dương', '79'),

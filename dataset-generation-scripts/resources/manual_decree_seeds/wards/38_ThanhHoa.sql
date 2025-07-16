@@ -1,5 +1,5 @@
 -- Thanh Hoa (38) wards data
-INSERT INTO wards_tmp_decree (code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed (code, name, province_code) VALUES
 ('14758', 'Phường Hàm Rồng', '38'),
 ('14797', 'Phường Hạc Thành', '38'),
 ('14812', 'Phường Bỉm Sơn', '38'),

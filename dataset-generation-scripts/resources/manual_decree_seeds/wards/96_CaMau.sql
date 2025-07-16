@@ -1,5 +1,5 @@
 -- Ca Mau (96) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('31825', 'Phường Bạc Liêu', '96'),
 ('31834', 'Phường Vĩnh Trạch', '96'),
 ('31840', 'Phường Hiệp Thành', '96'),

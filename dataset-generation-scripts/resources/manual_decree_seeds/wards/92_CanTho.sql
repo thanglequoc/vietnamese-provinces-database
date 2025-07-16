@@ -1,5 +1,5 @@
 -- Can Tho (92) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('31120', 'Phường Cái Khế', '92'),
 ('31135', 'Phường Ninh Kiều', '92'),
 ('31147', 'Phường Tân An', '92'),

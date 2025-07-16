@@ -1,5 +1,5 @@
 -- Phu Tho (25) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('04792', 'Phường Tân Hòa', '25'),
 ('04795', 'Phường Hòa Bình', '25'),
 ('04828', 'Phường Thống Nhất', '25'),

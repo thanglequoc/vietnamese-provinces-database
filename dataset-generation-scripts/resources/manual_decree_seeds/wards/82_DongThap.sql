@@ -1,5 +1,5 @@
 -- Dong Thap (82) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('28249', 'Phường Đạo Thạnh', '82'),
 ('28261', 'Phường Mỹ Tho', '82'),
 ('28270', 'Phường Thới Sơn', '82'),

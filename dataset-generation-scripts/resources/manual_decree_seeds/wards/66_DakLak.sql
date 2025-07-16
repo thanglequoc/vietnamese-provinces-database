@@ -1,5 +1,5 @@
 -- DaK Lak (66) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('22015', 'Phường Tuy Hòa', '66'),
 ('22045', 'Phường Bình Kiến', '66'),
 ('22051', 'Phường Sông Cầu', '66'),

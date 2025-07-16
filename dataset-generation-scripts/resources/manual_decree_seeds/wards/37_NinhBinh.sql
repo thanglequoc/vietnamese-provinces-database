@@ -1,5 +1,5 @@
 -- Ninh Binh (37) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('13285', 'Phường Phủ Lý', '37'),
 ('13291', 'Phường Phù Vân', '37'),
 ('13318', 'Phường Châu Sơn', '37'),

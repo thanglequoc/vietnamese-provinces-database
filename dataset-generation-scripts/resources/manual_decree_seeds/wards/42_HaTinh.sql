@@ -1,5 +1,5 @@
 -- Ha Tinh (42) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('18073', 'Phường Thành Sen', '42'),
 ('18100', 'Phường Trần Phú', '42'),
 ('18115', 'Phường Bắc Hồng Lĩnh', '42'),

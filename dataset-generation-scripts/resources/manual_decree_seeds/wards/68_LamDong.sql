@@ -1,5 +1,5 @@
 -- Lam Dong (68) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('22918', 'Phường Mũi Né', '68'),
 ('22924', 'Phường Phú Thủy', '68'),
 ('22933', 'Phường Hàm Thắng', '68'),

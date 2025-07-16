@@ -1,4 +1,4 @@
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('28756', 'Phường Phú Khương', '86'),
 ('28777', 'Phường An Hội', '86'),
 ('28783', 'Phường Sơn Đông', '86'),

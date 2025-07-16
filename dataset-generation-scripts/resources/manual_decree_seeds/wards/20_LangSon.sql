@@ -1,5 +1,5 @@
 -- Lang Son (20) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('05977', 'Phường Đông Kinh', '20'),
 ('05983', 'Phường Lương Văn Tri', '20'),
 ('05986', 'Phường Tam Thanh', '20'),

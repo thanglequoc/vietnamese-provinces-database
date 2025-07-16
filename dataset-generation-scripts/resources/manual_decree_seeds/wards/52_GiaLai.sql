@@ -1,5 +1,5 @@
 -- Gia Lai (52) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('21553', 'Phường Quy Nhơn Bắc', '51'),
 ('21583', 'Phường Quy Nhơn', '51'),
 ('21589', 'Phường Quy Nhơn Tây', '51'),

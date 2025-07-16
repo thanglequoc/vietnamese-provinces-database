@@ -1,4 +1,4 @@
-INSERT INTO provinces_tmp_decree(code, name) VALUES
+INSERT INTO provinces_tmp_seed(code, name) VALUES
 ('01', 'Thành phố Hà Nội'),
 ('04', 'Tỉnh Cao Bằng'),
 ('08', 'Tỉnh Tuyên Quang'),

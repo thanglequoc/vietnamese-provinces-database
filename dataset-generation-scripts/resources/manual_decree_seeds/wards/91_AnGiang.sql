@@ -1,5 +1,5 @@
 -- An Giang (91) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('30292', 'Phường Bình Đức', '91'),
 ('30301', 'Phường Mỹ Thới', '91'),
 ('30307', 'Phường Long Xuyên', '91'),

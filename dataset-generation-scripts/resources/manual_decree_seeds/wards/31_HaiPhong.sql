@@ -1,5 +1,5 @@
 -- Hai Phong (31) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('10507', 'Phường Thành Đông', '31'),
 ('10525', 'Phường Hải Dương', '31'),
 ('10532', 'Phường Lê Thanh Nghị', '31'),

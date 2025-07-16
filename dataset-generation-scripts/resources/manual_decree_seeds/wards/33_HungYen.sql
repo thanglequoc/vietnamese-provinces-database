@@ -1,5 +1,5 @@
 -- Hung Yen (33) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('11953', 'Phường Phố Hiến', '33'),
 ('11980', 'Phường Hồng Châu', '33'),
 ('11983', 'Phường Sơn Nam', '33'),

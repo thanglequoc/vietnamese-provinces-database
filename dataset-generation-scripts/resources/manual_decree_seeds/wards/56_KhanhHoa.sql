@@ -1,5 +1,5 @@
 -- Khanh Hoa (56) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('22333', 'Phường Bắc Nha Trang', '56'),
 ('22366', 'Phường Nha Trang', '56'),
 ('22390', 'Phường Tây Nha Trang', '56'),

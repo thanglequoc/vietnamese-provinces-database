@@ -1,5 +1,5 @@
 -- Dien Bien (11) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('03127', 'Phường Điện Biên Phủ', '11'),
 ('03151', 'Phường Mường Lay', '11'),
 ('03334', 'Phường Mường Thanh', '11'),

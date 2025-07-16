@@ -1,5 +1,5 @@
 -- Quang Tri (44) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('18859', 'Phường Đồng Thuận', '44'),
 ('18871', 'Phường Đồng Sơn', '44'),
 ('18880', 'Phường Đồng Hới', '44'),

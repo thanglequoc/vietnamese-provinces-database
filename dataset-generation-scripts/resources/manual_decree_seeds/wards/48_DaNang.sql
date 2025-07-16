@@ -1,5 +1,5 @@
 -- Da Nang (48) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('20194', 'Phường Hải Vân', '48'),
 ('20197', 'Phường Liên Chiểu', '48'),
 ('20200', 'Phường Hòa Khánh', '48'),

@@ -1,5 +1,5 @@
 -- Ha Noi (01) wards data
-INSERT INTO wards_tmp_decree(code, name, province_code) VALUES
+INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('00004', 'Phường Ba Đình', '01'),
 ('00008', 'Phường Ngọc Hà', '01'),
 ('00025', 'Phường Giảng Võ', '01'),
