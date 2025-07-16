@@ -43,7 +43,6 @@ func GetAllAdministrativeRegions() []AdministrativeRegion {
 	err := db.NewSelect().Model(&result).Scan(ctx)
 	if err != nil {
 		log.Fatal("Unable to query administrative regions", err)
-		panic(err)
 	}
 	return result
 }
@@ -55,20 +54,6 @@ func GetAllProvinces() []Province {
 	err := db.NewSelect().Model(&result).Relation("AdministrativeUnit").Relation("AdministrativeRegion").Relation("District").Relation("District.AdministrativeUnit").Relation("District.Ward").Relation("District.Ward.AdministrativeUnit").Scan(ctx)
 	if err != nil {
 		log.Fatal("Unable to query provinces", err)
-		panic(err)
-	}
-	return result
-}
-
-// method to get all districts
-func GetAllDistricts() []District {
-	db := GetPostgresDBConnection()
-	var result []District
-	ctx := context.Background()
-	err := db.NewSelect().Model(&result).Scan(ctx)
-	if err != nil {
-		log.Fatal("Unable to query districts", err)
-		panic(err)
 	}
 	return result
 }
@@ -81,7 +66,29 @@ func GetAllWards() []Ward {
 	err := db.NewSelect().Model(&result).Scan(ctx)
 	if err != nil {
 		log.Fatal("Unable to query wards", err)
-		panic(err)
+	}
+	return result
+}
+
+// Get all decree provinces
+func GetAllSeedProvinces() []SeedProvince {
+	db := GetPostgresDBConnection()
+	var result []SeedProvince
+	ctx := context.Background()
+	err := db.NewSelect().Model(&result).Scan(ctx)
+	if err != nil {
+		log.Fatal("Unable to query seed provinces", err)
+	}
+	return result
+}
+
+func GetAllSeedWards() []SeedWard {
+	db := GetPostgresDBConnection()
+	var result []SeedWard
+	ctx := context.Background()
+	err := db.NewSelect().Model(&result).Scan(ctx)
+	if err != nil {
+		log.Fatal("Unable to query seed wards", err)
 	}
 	return result
 }
