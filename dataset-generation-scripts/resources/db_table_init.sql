@@ -43,15 +43,12 @@ CREATE TABLE provinces_tmp (
 	full_name_en varchar(255) NULL,
 	code_name varchar(255) NULL,
 	administrative_unit_id integer NULL,
-	administrative_region_id integer NULL,
 	CONSTRAINT provinces_tmp_pkey PRIMARY KEY (code)
 );
 
 
 -- provinces foreign keys
-ALTER TABLE provinces_tmp ADD CONSTRAINT provinces_tmp_administrative_region_id_fkey FOREIGN KEY (administrative_region_id) REFERENCES administrative_regions(id);
 ALTER TABLE provinces_tmp ADD CONSTRAINT provinces_tmp_administrative_unit_id_fkey FOREIGN KEY (administrative_unit_id) REFERENCES administrative_units(id);
-CREATE INDEX idx_provinces_tmp_region ON provinces_tmp(administrative_region_id);
 CREATE INDEX idx_provinces_tmp_unit ON provinces_tmp(administrative_unit_id);
 
 -- CREATE wards_tmp TABLE
