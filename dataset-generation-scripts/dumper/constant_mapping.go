@@ -16,38 +16,22 @@ var AdministrativeUnitNames [8]string = [...]string{
 Short name definition of Administrative Unit from top to bottom
 - Municipality (Thành phố trực thuộc trung ương)
 - Province (Tỉnh)
-- Municipal city (Thành phố thuộc thành phố trực thuộc trung ương)
-- Provincial city (Thành phố thuộc tỉnh)
-- Urban district (Quận)
-- District-level town (Thị xã)
-- District (Huyện)
-- Ward (Phường)
-- Commune-level town (Thị trấn)
 - Commune (Xã)
+- Special administrative region (Đặc khu)
 */
-var AdministrativeUnitNamesShortNameMap_vn = map[int]string {
+var AdministrativeUnitNamesShortNameMap_vn = map[int]string{
 	1: "Thành phố",
 	2: "Tỉnh",
-	3: "Thành phố",
-	4: "Thành phố",
-	5: "Quận",
-	6: "Thị xã",
-	7: "Huyện",
-	8: "Phường",
-	9: "Thị trấn",
-	10: "Xã",
+	3: "Phường",
+	4: "Xã",
+	5: "Đặc khu tại hải đảo",
 }
-var AdministrativeUnitNamesShortNameMap_en = map[int]string {
+var AdministrativeUnitNamesShortNameMap_en = map[int]string{
 	1: "City",
 	2: "Province",
-	3: "City",
-	4: "City",
-	5: "District",
-	6: "Town",
-	7: "District",
-	8: "Ward",
-	9: "Township",
-	10: "Commune",
+	3: "Ward",
+	4: "Commune",
+	5: "Special administrative region",
 }
 
 /*
