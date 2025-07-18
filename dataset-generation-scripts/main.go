@@ -2,7 +2,7 @@ package main
 
 import (
 	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
-	// dataset_writer "github.com/thanglequoc-vn-provinces/v2/dataset_writer"
+	dataset_writer "github.com/thanglequoc-vn-provinces/v2/dataset_writer"
 	dumper "github.com/thanglequoc-vn-provinces/v2/dumper"
 )
 
@@ -12,5 +12,5 @@ func main() {
 	vn_common.BootstrapTemporaryDatasetStructure()
 	dumper.DumpFromManualSeed()
 	// dumper.BeginDumpingDataWithDvhcvnDirectSource()
-	// dataset_writer.ReadAndGenerateSQLDatasets()
+	dataset_writer.ReadAndGenerateSQLDatasets()
 }

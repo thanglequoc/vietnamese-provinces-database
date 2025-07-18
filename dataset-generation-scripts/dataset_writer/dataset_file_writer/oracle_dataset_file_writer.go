@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,administrative_region_id) VALUES('%s','%s','%s','%s','%s','%s',%d,%d)"
+const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s',%d)"
 
 type OracleDatasetFileWriter struct {
 	OutputFilePath string
@@ -19,7 +19,6 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	regions []vn_common.AdministrativeRegion,
 	administrativeUnits []vn_common.AdministrativeUnit,
 	provinces []vn_common.Province,
-	districts []vn_common.District,
 	wards []vn_common.Ward) error {
 
 	fileTimeSuffix := getFileTimeSuffix()
@@ -65,7 +64,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertProvinceOracleTemplate, p.Code, escapeSingleQuote(p.Name), escapeSingleQuote(p.NameEn), escapeSingleQuote(p.FullName),
-				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId, p.AdministrativeRegionId))
+				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
@@ -81,34 +80,8 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	}
 	dataWriter.WriteString("-- ----------------------------------\n\n")
 
-	const insertDistrictOracleTemplate string = "\tINTO districts(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s','%s',%d)"
-	dataWriter.WriteString("-- DATA for districts --\n")
-	counter = 0
-	isAppending = false
-	for i, d := range districts {
-		if !isAppending {
-			dataWriter.WriteString("INSERT ALL\n")
-		}
-		dataWriter.WriteString(
-			fmt.Sprintf(insertDistrictOracleTemplate, d.Code, escapeSingleQuote(d.Name), escapeSingleQuote(d.NameEn), escapeSingleQuote(d.FullName),
-				escapeSingleQuote(d.FullNameEn), d.CodeName, d.ProvinceCode, d.AdministrativeUnitId))
-		counter++
-
-		// the batch insert statement batch reach limit, break and create a new batch insert statement
-		// In oracle, the last insert batch statement require a dummy select after multiple INSERT ALL INTO statements
-		if counter == batchInsertItemSize || i == len(districts)-1 {
-			isAppending = false
-			dataWriter.WriteString("\n\tSELECT 1 FROM DUAL;\n\n")
-			counter = 0 // reset counter
-		} else {
-			dataWriter.WriteString("\n")
-			isAppending = true
-		}
-	}
-	dataWriter.WriteString("-- ----------------------------------\n\n")
-
 	// ward insert statement
-	const insertWardOracleTemplate string = "\tINTO wards(code,name,name_en,full_name,full_name_en,code_name,district_code,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s','%s',%d)"
+	const insertWardOracleTemplate string = "\tINTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s','%s',%d)"
 
 	dataWriter.WriteString("-- DATA for wards --\n")
 	counter = 0
@@ -119,7 +92,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertWardOracleTemplate, d.Code, escapeSingleQuote(d.Name), escapeSingleQuote(d.NameEn), escapeSingleQuote(d.FullName),
-				escapeSingleQuote(d.FullNameEn), d.CodeName, d.DistrictCode, d.AdministrativeUnitId))
+				escapeSingleQuote(d.FullNameEn), d.CodeName, d.ProvinceCode, d.AdministrativeUnitId))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
