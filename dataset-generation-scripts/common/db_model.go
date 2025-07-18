@@ -35,7 +35,7 @@ type Province struct {
 	AdministrativeUnitId int `bun:"administrative_unit_id"`
 
 	// Province has many Wards
-	Ward []*Ward `bun:"rel:has-many,join:code=province_code"`
+	Wards []*Ward `bun:"rel:has-many,join:code=province_code"`
 	AdministrativeUnit AdministrativeUnit `bun:"rel:belongs-to,join:administrative_unit_id=id"`
 }
 
@@ -58,7 +58,7 @@ type SeedProvince struct {
 	Name string `bun:"name"`
 
 	// Province has many wards
-	SeedWard []*SeedWard `bun:"rel:has-many,join:code=province_code"`
+	SeedWards []*SeedWard `bun:"rel:has-many,join:code=province_code"`
 }
 
 type SeedWard struct {
