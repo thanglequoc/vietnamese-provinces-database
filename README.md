@@ -1,4 +1,4 @@
-![Repository Banner](https://i.imgur.com/nWlKT5I.png)
+![Repository Banner](https://i.imgur.com/6s3XsAA.png)
 ![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)
 
 [Đọc phiên bản tiếng Việt](README_vi.md)
@@ -13,7 +13,7 @@ If you find this repository helpful, please consider giving it a ⭐ — it help
 ## Overview
 
 The author(s) of this repository is not associated with the **General Statistics Office of Vietnam**, nor the Vietnamese government.  
-The data of provinces, districts and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
+The data of provinces and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
 **Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document decree 19/2025/QĐ-TTg
 
 This dataset also include additional information apart from the original provinces, wards data from the original data. Please see section [Additional change make by this repository](#additional-change-make-by-this-repository).  
@@ -23,7 +23,7 @@ This dataset also include additional information apart from the original provinc
 
 The Vietnamese Government may issue decree from time to time to adjust the administrative unit structure. You can track the latest issued decrees [here][decree issued page].  
 
-The following tables contains the list of issued decree, its effected date from, tracked from the earliest version of this dataset.
+The following table contains a list of issued decrees and their effective dates, tracked from the earliest version of this dataset.
 
 |Issued Decree|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
@@ -42,13 +42,13 @@ The following tables contains the list of issued decree, its effected date from,
 |[387/NQ-UBTVQH15][decree 387/NQ-UBTVQH15]|22/09/2021|01/11/2021|v1.0.0
 
 
-### Additional change make by this repository
+### Additional Changes Made by This Repository
 
-- Add `administrative_regions` table
-- Add `administrative_units` table
-- Define the administrative unit province and ward data
-- Generate the English name for the provinces, and wards, offer both full and short forms
-- Generate the code name (slug) for the provinces and wards
+- Added `administrative_regions` table  
+- Added `administrative_units` table  
+- Assigned administrative units to province and ward data  
+- Generated English names for provinces and wards, offering both full and short forms  
+- Generated code names (slugs) for provinces and wards  
 
 ## Installation
 
