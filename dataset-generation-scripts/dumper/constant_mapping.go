@@ -1,15 +1,12 @@
 package dumper
 
 
-var AdministrativeUnitNames [8]string = [...]string{
+var AdministrativeUnitNames [5]string = [...]string{
 	"Thành phố",
 	"Tỉnh",
-	"Quận",
-	"Thị xã",
-	"Huyện",
 	"Phường",
-	"Thị trấn",
 	"Xã",
+	"Đặc khu",
 }
 
 /*
@@ -24,7 +21,7 @@ var AdministrativeUnitNamesShortNameMap_vn = map[int]string{
 	2: "Tỉnh",
 	3: "Phường",
 	4: "Xã",
-	5: "Đặc khu tại hải đảo",
+	5: "Đặc khu",
 }
 var AdministrativeUnitNamesShortNameMap_en = map[int]string{
 	1: "City",

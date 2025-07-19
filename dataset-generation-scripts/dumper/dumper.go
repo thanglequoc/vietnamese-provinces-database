@@ -91,7 +91,7 @@ func insertToWards(seedWardModels []vn_common.SeedWard) {
 		wardShortNameEn := normalizeString(wardShortName)
 
 		// Case when ward name is a number
-		isNumber, _ := regexp.MatchString("[0-9]+", wardShortName)
+		isNumber, _ := regexp.MatchString(`^[0-9]+$`, wardShortName)
 		var wardFullNameEn string
 		if isNumber {
 			wardFullNameEn = unitName_en + " " + wardShortNameEn
