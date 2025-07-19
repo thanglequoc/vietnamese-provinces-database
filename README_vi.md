@@ -3,38 +3,32 @@
 
 [Read in English version](README.md)
 
-## ❗️ Tác giả đang tiến hành cập nhật dữ liệu 
-
-Bộ dữ liệu này hiện tại chưa được cập nhật, vì lí do dữ liệu đầu nguồn về tỉnh thành Việt Nam chưa được cập nhật trên API của [Tổng cục thống kê Việt Nam][source goverment API].  
-Do vậy, hiện tại bộ dữ liệu này chưa có cập nhật mới nhất về thay đổi sáp nhập tỉnh thành 2 cấp gần đây.  
-Chủ trương của dataset SQL tỉnh thành Việt Nam này sẽ bám sát hoàn toàn vào dữ liệu từ Tổng cục thống kê từ tên gọi đến mã định danh, nên mặc dù đã có văn bản cụ thể các tỉnh thành sau sáp nhập, tác giả cũng không thể tự ý tuỳ tiện đặt ra hoặc quy định các mã định danh (id) cho các tỉnh thành.  
-Để không mất thêm thời gian chờ đợi dữ liệu upstream từ GSO, Tác giả của dự án đang chủ động cập nhật dữ liệu theo nghị quyết [19/2025/QĐ-TTg](https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx). Rất mong anh em cộng đồng thông cảm chờ đợi thêm một thời gian ngắn nữa.  
-
-
-----
-
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
-Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **63 tỉnh thành** và các Quận huyện, phường xã liên quan.  
-Dữ liệu được cập nhật theo nghị định gần nhất: [1365/NQ-UBTVQH15][source government decree]  
-Hãy để lại một ngôi sao :star: trên dự án này nếu bạn thấy nó hữu ích, và để nhận những thông báo về các bản release mới nhất. Điều này giúp khích lệ tinh thần của chúng tôi để chúng tôi tiếp tục cống hiến thêm các sản phẩm mã nguồn mở phục vụ cộng đồng.  
+Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **34 tỉnh thành** và các Quận huyện, phường xã liên quan.  
+Dữ liệu được cập nhật theo nghị định gần nhất: [19/2025/QĐ-TTg][source government decree]  
+
+Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ để ủng hộ nhé — điều đó sẽ tiếp thêm động lực để chúng tôi tiếp tục cải tiến và mang đến những công cụ giá trị cho cộng đồng. Ngoài ra, việc "star" repo cũng giúp bạn dễ dàng theo dõi các bản cập nhật trong tương lai.
 
 ## Tổng quan
 
 Tác giả của dự án không làm việc, hay đại diện cho **Tổng cục Thống kê Việt Nam**, lẫn chính phủ nước Việt Nam.
 Dữ liệu của Tỉnh thành, Quận huyện và Phường xã được tổng kết và hệ thống dựa trên dữ liệu tỉnh thành được cung cấp bởi [API từ trang web Đơn vị hành chính của Tổng cục Thống kê Việt Nam][source goverment API].  
+
+**Lưu ý**: Do API SOAP của Tổng cục Thống kê (GSO) chưa được cập nhật theo thay đổi mới nhất liên quan đến việc tách thành 34 tỉnh, nên dữ liệu mới nhất hoàn toàn dựa trên văn bản chính thức Nghị định 19/2025/QĐ-TTg.
+
 Ngoài ra, cơ sở dữ liệu này còn có thêm những thông tin bổ sung, xin xem chi tiết trong phần **Các thay đổi thêm** ngay bên dưới.  
 
 ### Các phiên bản của bộ dữ liệu và Nghị định của Chính phủ
 
 Chính phủ Việt Nam có thể ban hành những nghị định để thay đổi cấu trúc của các đơn vị hành chính Việt Nam theo thời gian. Bạn có thể theo dõi danh mục nghị định thay đổi đơn vị được ban hành tại [đây][decree issued page].
 
-Bộ dữ liệu này sẽ liên tục được cập nhật theo **nghị định gần nhất có hiệu lực**. Để kiểm tra trạng thái và cập nhật bộ dữ liệu hành chính Việt Nam của bạn, hãy làm theo hướng dẫn ở phần [Làm sao để cập nhật bộ dữ liệu của tôi?](#làm-sao-để-cập-nhật-bộ-dữ-liệu-của-tôi).
-
 Bảng dưới thông kê các nghị định đã được ban hành, cùng thời gian có hiệu lực, cùng phiên bản của bộ dữ liệu tỉnh thành Việt Nam từ phiên bản đầu tiên.
 
 |Nghị định|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|[19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]|30/06/2025|01/07/2025|v3.0.0|
+|Sửa chính tả, cutoff dữ liệu trước  19/2025/QĐ-TTg|15/01/2025|01/03/2025|v2.4.1
 |[1365/NQ-UBTVQH15][decree 1365/NQ-UBTVQH15]|15/01/2025|01/03/2025|v2.4.0
 |[1314/NQ-UBTVQH15][decree 1314/NQ-UBTVQH15]|30/11/2024|01/01/2025|v2.3.0
 |[1203/NQ-UBTVQH15][decree 1203/NQ-UBTVQH15]|28/09/2024|01/11/2024|v2.2.0
@@ -52,8 +46,8 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 - Thêm bảng quan hệ `administrative_regions`
 - Thêm bảng quan hệ `administrative_units`
-- Đặt dữ liệu tên đơn vị hành chính và khu vực cho các giá trị tỉnh thành, quận huyện, phường xã  
-- Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, quận huyện, phường xã  
+- Đặt dữ liệu tên đơn vị hành chính cho các giá trị tỉnh thành, phường xã  
+- Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, phường xã  
 - Tạo mã từ tên các tỉnh thành, quận huyện, phường xã  
 
 ## Hướng dẫn cài đặt
@@ -396,3 +390,4 @@ Bản đồ Việt Nam dùng làm banner từ [vietcentertourist](https://vietce
 [decree 1203/NQ-UBTVQH15]: https://thuvienphapluat.vn/banan/tin-tuc/nghi-quyet-ve-sap-xep-don-vi-hanh-chinh-tai-63-tinh-thanh-pho-giai-doan-20232025-11897  
 [decree 1314/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx
 [decree 1365/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1365-NQ-UBTVQH15-2025-thanh-lap-cac-phuong-thuoc-thi-xa-Phu-My-Vung-Tau-640985.aspx
+[decree 19/2025/QĐ-TTg]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx
