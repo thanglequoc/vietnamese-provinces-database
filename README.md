@@ -3,35 +3,32 @@
 
 [Đọc phiên bản tiếng Việt](README_vi.md)
 
-## ❗️ Dataset is temporary outdated, updating is In Progress
-This dataset is currently awaiting for update from the upstream data from the [**General Statistics Office of Vietnam**][source goverment API].  
-At the moment it does not include the breaking change of re-organizing the country administrative unit.  
-Since the GSO SOAP API is still outdated, the author is actively follow the latest decree [19/2025/QĐ-TTg](https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx) to work on the data patch
-
-----
-
 # Vietnamese Provinces Database
 
-A complete SQL database of Vietnamese administrative units, includes all **63 Vietnamese provinces** and associated districts, wards sub-divisions.  
-Data is updated as of the most recent effective decree: [1365/NQ-UBTVQH15][source government decree]  
-Don't forget to leave a :star: if you find this repository helpful, and to keep track of the latest release of this dataset in the future. It's would help to cheer us up so we can deliver valuable product to support our community.
+A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
+Data is updated as of the most recent effective decree: [19/2025/QĐ-TTg][source government decree]  
+
+If you find this repository helpful, please consider giving it a ⭐ — it helps us stay motivated to keep improving and delivering valuable tools for the community. Also, starring the repo makes it easier to stay updated with future releases.
 
 ## Overview
 
 The author(s) of this repository is not associated with the **General Statistics Office of Vietnam**, nor the Vietnamese government.  
 The data of provinces, districts and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
-This dataset also include additional information apart from the original provinces, districts and wards data from the original data. Please see section [Additional change make by this repository](#additional-change-make-by-this-repository)
+**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document decree 19/2025/QĐ-TTg
+
+This dataset also include additional information apart from the original provinces, wards data from the original data. Please see section [Additional change make by this repository](#additional-change-make-by-this-repository).  
+
 
 ### Dataset releases and Government issued decrees
 
-The Vietnamese Government may issues decree time to time to change the administrative unit structure. You can track the latest issued decrees [here][decree issued page].  
-
-This dataset will be gradually updated to keep up with the latest **effective** decree. To check the status of your dataset and how to keep the dataset up-to-date, see section [How to update the existing dataset?](#how-to-update-the-existing-dataset).
+The Vietnamese Government may issue decree from time to time to adjust the administrative unit structure. You can track the latest issued decrees [here][decree issued page].  
 
 The following tables contains the list of issued decree, its effected date from, tracked from the earliest version of this dataset.
 
 |Issued Decree|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
+|[19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]|30/06/2025|01/07/2025|v3.0.0|
+|Grammar-correction, data cutoff before 19/2025/QĐ-TTg|15/01/2025|01/03/2025|v2.4.1
 |[1365/NQ-UBTVQH15][decree 1365/NQ-UBTVQH15]|15/01/2025|01/03/2025|v2.4.0
 |[1318/NQ-UBTVQH15][decree 1314/NQ-UBTVQH15]|30/11/2024|01/01/2025|v2.3.0
 |[1203/NQ-UBTVQH15][decree 1203/NQ-UBTVQH15]|28/09/2024|01/11/2024|v2.2.0
@@ -49,9 +46,9 @@ The following tables contains the list of issued decree, its effected date from,
 
 - Add `administrative_regions` table
 - Add `administrative_units` table
-- Define the administrative unit and associated region for province, district and ward data
-- Generate the English name for the provinces, districts and wards, offer both full and short forms
-- Generate the code name for the provinces, districts and wards
+- Define the administrative unit province and ward data
+- Generate the English name for the provinces, and wards, offer both full and short forms
+- Generate the code name (slug) for the provinces and wards
 
 ## Installation
 
@@ -395,3 +392,5 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 1203/NQ-UBTVQH15]: https://thuvienphapluat.vn/banan/tin-tuc/nghi-quyet-ve-sap-xep-don-vi-hanh-chinh-tai-63-tinh-thanh-pho-giai-doan-20232025-11897  
 [decree 1314/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx
 [decree 1365/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1365-NQ-UBTVQH15-2025-thanh-lap-cac-phuong-thuoc-thi-xa-Phu-My-Vung-Tau-640985.aspx
+
+[decree 19/2025/QĐ-TTg]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-19-2025-QD-TTg-Bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-Viet-Nam-663707.aspx
