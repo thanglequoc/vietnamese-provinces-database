@@ -33,28 +33,9 @@ type Province struct {
 	FullNameEn string `bun:"full_name_en"`
 	CodeName string `bun:"code_name"`
 	AdministrativeUnitId int `bun:"administrative_unit_id"`
-	AdministrativeRegionId int `bun:"administrative_region_id"`
 
-	// Province has many Districts
-	District []*District `bun:"rel:has-many,join:code=province_code"`
-
-	AdministrativeUnit AdministrativeUnit `bun:"rel:belongs-to,join:administrative_unit_id=id"`
-	AdministrativeRegion AdministrativeRegion `bun:"rel:belongs-to,join:administrative_region_id=id"`
-}
-
-type District struct {
-	bun.BaseModel `bun:"table:districts_tmp,alias:d"`
-	Code string `bun:"code,pk"`
-	Name string `bun:"name,notnull"`
-	NameEn string `bun:"name_en,notnull"`
-	FullName string `bun:"full_name,notnull"`
-	FullNameEn string `bun:"full_name_en"`
-	CodeName string `bun:"code_name"`
-	ProvinceCode string `bun:"province_code"`
-	AdministrativeUnitId int `bun:"administrative_unit_id"`
-
-	// District has many Wards
-	Ward []*Ward `bun:"rel:has-many,join:code=district_code"`
+	// Province has many Wards
+	Wards []*Ward `bun:"rel:has-many,join:code=province_code"`
 	AdministrativeUnit AdministrativeUnit `bun:"rel:belongs-to,join:administrative_unit_id=id"`
 }
 
@@ -66,8 +47,23 @@ type Ward struct {
 	FullName string `bun:"full_name,notnull"`
 	FullNameEn string `bun:"full_name_en"`
 	CodeName string `bun:"code_name"`
-	DistrictCode string `bun:"district_code"`
+	ProvinceCode string `bun:"province_code"`
 	AdministrativeUnitId int `bun:"administrative_unit_id"`
-
 	AdministrativeUnit AdministrativeUnit `bun:"rel:belongs-to,join:administrative_unit_id=id"`
+}
+
+type SeedProvince struct {
+	bun.BaseModel `bun:"table:provinces_tmp_seed,alias:ps"`
+	Code string `bun:"code,pk"`
+	Name string `bun:"name"`
+
+	// Province has many wards
+	SeedWards []*SeedWard `bun:"rel:has-many,join:code=province_code"`
+}
+
+type SeedWard struct {
+	bun.BaseModel `bun:"table:wards_tmp_seed,alias:ws"`
+	Code string `bun:"code,pk"`
+	Name string `bun:"name"`
+	ProvinceCode string `bun:"province_code"`
 }

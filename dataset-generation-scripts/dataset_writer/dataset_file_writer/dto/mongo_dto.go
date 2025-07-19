@@ -9,23 +9,8 @@ type MongoProvinceModel struct {
 	FullNameEn string
 	CodeName string
 	AdministrativeUnitId int
-	AdministrativeRegionId int
 
-	District []MongoDistrictModel
-}
-
-type MongoDistrictModel struct {
-	Type string
-	Code string
-	Name string
-	NameEn string
-	FullName string
-	FullNameEn string
-	CodeName string
-	ProvinceCode string
-	AdministrativeUnitId int
-
-	Ward []MongoWardModel
+	Wards []MongoWardModel
 }
 
 type MongoWardModel struct {
@@ -36,6 +21,6 @@ type MongoWardModel struct {
 	FullName string
 	FullNameEn string
 	CodeName string
-	DistrictCode string
+	ProvinceCode string
 	AdministrativeUnitId int
 }

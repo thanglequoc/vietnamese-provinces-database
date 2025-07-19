@@ -11,7 +11,6 @@ type DatasetFileWriter interface {
 		regions []vn_common.AdministrativeRegion,
 		administrativeUnits []vn_common.AdministrativeUnit,
 		provinces []vn_common.Province,
-		districts []vn_common.District,
 		wards []vn_common.Ward) error
 }
 

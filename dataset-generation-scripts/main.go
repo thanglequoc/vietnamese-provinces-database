@@ -10,6 +10,7 @@ func main() {
 	// pre-run
 	// Refresh temporary dataset, import existing dataset
 	vn_common.BootstrapTemporaryDatasetStructure()
-	dumper.BeginDumpingDataWithDvhcvnDirectSource()
+	dumper.DumpFromManualSeed()
+	// dumper.BeginDumpingDataWithDvhcvnDirectSource()
 	dataset_writer.ReadAndGenerateSQLDatasets()
 }

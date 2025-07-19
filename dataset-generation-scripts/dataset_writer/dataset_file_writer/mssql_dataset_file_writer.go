@@ -20,15 +20,14 @@ const insertAdministrativeRegionTemplateMsSql string = "INSERT INTO administrati
 const insertAdministrativeUnitMsSqlTemplate string = "INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(%d,N'%s',N'%s',N'%s',N'%s',N'%s',N'%s');"
 
 // province insert statement
-const insertProvinceValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s',%d,%d)"
+const insertProvinceValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s',%d)"
 
-const insertDistrictWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s','%s',%d)"
+const insertProvinceWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s','%s',%d)"
 
 func (w *MssqlDatasetFileWriter) WriteToFile(
 	regions []vn_common.AdministrativeRegion,
 	administrativeUnits []vn_common.AdministrativeUnit,
 	provinces []vn_common.Province,
-	districts []vn_common.District,
 	wards []vn_common.Ward) error {
 
 	fileTimeSuffix := getFileTimeSuffix()
@@ -74,35 +73,11 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 		}
 		dataWriterMsSql.WriteString(
 			fmt.Sprintf(insertProvinceValueMsSqlTemplate, p.Code, escapeSingleQuote(p.Name), escapeSingleQuote(p.NameEn), escapeSingleQuote(p.FullName),
-				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId, p.AdministrativeRegionId))
+				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
 		if counter == batchInsertItemSize || i == len(provinces)-1 {
-			isAppending = false
-			dataWriterMsSql.WriteString(";\n\n")
-			counter = 0 // reset counter
-		} else {
-			dataWriterMsSql.WriteString(",\n")
-			isAppending = true
-		}
-	}
-	dataWriterMsSql.WriteString("-- ----------------------------------\n\n")
-
-	dataWriterMsSql.WriteString("-- DATA for districts --\n")
-	counter = 0
-	isAppending = false
-	for i, d := range districts {
-		if !isAppending {
-			dataWriterMsSql.WriteString(insertDistrictTemplate + "\n")
-		}
-		dataWriterMsSql.WriteString(
-			fmt.Sprintf(insertDistrictWardValueMsSqlTemplate, d.Code, escapeSingleQuote(d.Name), escapeSingleQuote(d.NameEn), escapeSingleQuote(d.FullName),
-				escapeSingleQuote(d.FullNameEn), d.CodeName, d.ProvinceCode, d.AdministrativeUnitId))
-		counter++
-
-		// the batch insert statement batch reach limit, break and create a new batch insert statement
-		if counter == batchInsertItemSize || i == len(districts)-1 {
 			isAppending = false
 			dataWriterMsSql.WriteString(";\n\n")
 			counter = 0 // reset counter
@@ -121,8 +96,8 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 			dataWriterMsSql.WriteString(insertWardTemplate + "\n")
 		}
 		dataWriterMsSql.WriteString(
-			fmt.Sprintf(insertDistrictWardValueMsSqlTemplate, w.Code, escapeSingleQuote(w.Name), escapeSingleQuote(w.NameEn), escapeSingleQuote(w.FullName),
-				escapeSingleQuote(w.FullNameEn), w.CodeName, w.DistrictCode, w.AdministrativeUnitId))
+			fmt.Sprintf(insertProvinceWardValueMsSqlTemplate, w.Code, escapeSingleQuote(w.Name), escapeSingleQuote(w.NameEn), escapeSingleQuote(w.FullName),
+				escapeSingleQuote(w.FullNameEn), w.CodeName, w.ProvinceCode, w.AdministrativeUnitId))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement

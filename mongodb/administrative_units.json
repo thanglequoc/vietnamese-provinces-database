@@ -19,51 +19,6 @@
  },
  {
   "Id": 3,
-  "FullName": "Thành phố thuộc thành phố trực thuộc trung ương",
-  "FullNameEn": "Municipal city",
-  "ShortName": "Thành phố",
-  "ShortNameEn": "City",
-  "CodeName": "thanh_pho_thuoc_thanh_pho_truc_thuoc_trung_uong",
-  "CodeNameEn": "municipal_city"
- },
- {
-  "Id": 4,
-  "FullName": "Thành phố thuộc tỉnh",
-  "FullNameEn": "Provincial city",
-  "ShortName": "Thành phố",
-  "ShortNameEn": "City",
-  "CodeName": "thanh_pho_thuoc_tinh",
-  "CodeNameEn": "provincial_city"
- },
- {
-  "Id": 5,
-  "FullName": "Quận",
-  "FullNameEn": "Urban district",
-  "ShortName": "Quận",
-  "ShortNameEn": "District",
-  "CodeName": "quan",
-  "CodeNameEn": "urban_district"
- },
- {
-  "Id": 6,
-  "FullName": "Thị xã",
-  "FullNameEn": "District-level town",
-  "ShortName": "Thị xã",
-  "ShortNameEn": "Town",
-  "CodeName": "thi_xa",
-  "CodeNameEn": "district_level_town"
- },
- {
-  "Id": 7,
-  "FullName": "Huyện",
-  "FullNameEn": "District",
-  "ShortName": "Huyện",
-  "ShortNameEn": "District",
-  "CodeName": "huyen",
-  "CodeNameEn": "district"
- },
- {
-  "Id": 8,
   "FullName": "Phường",
   "FullNameEn": "Ward",
   "ShortName": "Phường",
@@ -72,21 +27,21 @@
   "CodeNameEn": "ward"
  },
  {
-  "Id": 9,
-  "FullName": "Thị trấn",
-  "FullNameEn": "Commune-level town",
-  "ShortName": "Thị trấn",
-  "ShortNameEn": "Township",
-  "CodeName": "thi_tran",
-  "CodeNameEn": "commune_level_town"
- },
- {
-  "Id": 10,
+  "Id": 4,
   "FullName": "Xã",
   "FullNameEn": "Commune",
   "ShortName": "Xã",
   "ShortNameEn": "Commune",
   "CodeName": "xa",
   "CodeNameEn": "commune"
+ },
+ {
+  "Id": 5,
+  "FullName": "Đặc khu tại hải đảo",
+  "FullNameEn": "Special administrative region",
+  "ShortName": "Đặc khu",
+  "ShortNameEn": "Special administrative region",
+  "CodeName": "dac_khu",
+  "CodeNameEn": "special_administrative_region"
  }
 ]

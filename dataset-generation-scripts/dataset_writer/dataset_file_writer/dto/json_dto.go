@@ -1,117 +1,72 @@
 package dto
 
 type JsonProvinceModel struct {
-	Type string
-	Code string
-	Name string
-	NameEn string
-	FullName string
+	Type       string
+	Code       string
+	Name       string
+	NameEn     string
+	FullName   string
 	FullNameEn string
-	CodeName string
-
-	// Administrative Region props 
-	AdministrativeRegionId int
-	AdministrativeRegionName string
-	AdministrativeRegionNameEn string
+	CodeName   string
 
 	// Administrative Unit props
-	AdministrativeUnitId int
-	AdministrativeUnitShortName string
-	AdministrativeUnitFullName string
+	AdministrativeUnitId          int
+	AdministrativeUnitShortName   string
+	AdministrativeUnitFullName    string
 	AdministrativeUnitShortNameEn string
-	AdministrativeUnitFullNameEn string
+	AdministrativeUnitFullNameEn  string
 
-	District []JsonDistrictModel
-}
-
-type JsonDistrictModel struct {
-	Type string
-	Code string
-	Name string
-	NameEn string
-	FullName string
-	FullNameEn string
-	CodeName string
-	ProvinceCode string
-
-	// Administrative Unit props
-	AdministrativeUnitId int
-	AdministrativeUnitShortName string
-	AdministrativeUnitFullName string
-	AdministrativeUnitShortNameEn string
-	AdministrativeUnitFullNameEn string
-
-	Ward []JsonWardModel
+	Wards []JsonWardModel
 }
 
 type JsonWardModel struct {
-	Type string
-	Code string
-	Name string
-	NameEn string
-	FullName string
-	FullNameEn string
-	CodeName string
-	DistrictCode string
-	
+	Type         string
+	Code         string
+	Name         string
+	NameEn       string
+	FullName     string
+	FullNameEn   string
+	CodeName     string
+	ProvinceCode string
+
 	// Administrative Unit props
-	AdministrativeUnitId int
-	AdministrativeUnitShortName string
-	AdministrativeUnitFullName string
+	AdministrativeUnitId          int
+	AdministrativeUnitShortName   string
+	AdministrativeUnitFullName    string
 	AdministrativeUnitShortNameEn string
-	AdministrativeUnitFullNameEn string
+	AdministrativeUnitFullNameEn  string
 }
 
 // JSON Simplified version
 type JsonProvinceSimplifiedModel struct {
-	Code string
-	Name string
-	NameEn string
-	FullName string
+	Code       string
+	Name       string
+	NameEn     string
+	FullName   string
 	FullNameEn string
-	CodeName string
-	District []JsonDistrictSimplifiedModel
-}
-
-type JsonDistrictSimplifiedModel struct {
-	Code string
-	Name string
-	NameEn string
-	FullName string
-	FullNameEn string
-	CodeName string
-	ProvinceCode string
-
-	Ward []JsonWardSimplifiedModel
+	CodeName   string
+	Wards      []JsonWardSimplifiedModel
 }
 
 type JsonWardSimplifiedModel struct {
-	Code string
-	Name string
-	NameEn string
-	FullName string
-	FullNameEn string
-	CodeName string
-	DistrictCode string
+	Code         string
+	Name         string
+	NameEn       string
+	FullName     string
+	FullNameEn   string
+	CodeName     string
+	ProvinceCode string
 }
 
 // VN only Simplified version
 type JsonProvinceVNSimplifiedModel struct {
-	Code string
+	Code     string
 	FullName string
-	District []JsonDistrictVNSimplifiedModel
-}
-
-type JsonDistrictVNSimplifiedModel struct {
-	Code string
-	FullName string
-	ProvinceCode string
-
-	Ward []JsonWardVNSimplifiedModel
+	Wards    []JsonWardVNSimplifiedModel
 }
 
 type JsonWardVNSimplifiedModel struct {
-	Code string
-	FullName string
-	DistrictCode string
+	Code         string
+	FullName     string
+	ProvinceCode string
 }

@@ -1,59 +1,45 @@
 package dumper
 
 
-var AdministrativeUnitNames [8]string = [...]string{
+var AdministrativeUnitNames [5]string = [...]string{
 	"Thành phố",
 	"Tỉnh",
-	"Quận",
-	"Thị xã",
-	"Huyện",
 	"Phường",
-	"Thị trấn",
 	"Xã",
+	"Đặc khu",
 }
 
 /*
 Short name definition of Administrative Unit from top to bottom
 - Municipality (Thành phố trực thuộc trung ương)
 - Province (Tỉnh)
-- Municipal city (Thành phố thuộc thành phố trực thuộc trung ương)
-- Provincial city (Thành phố thuộc tỉnh)
-- Urban district (Quận)
-- District-level town (Thị xã)
-- District (Huyện)
-- Ward (Phường)
-- Commune-level town (Thị trấn)
 - Commune (Xã)
+- Special administrative region (Đặc khu)
 */
-var AdministrativeUnitNamesShortNameMap_vn = map[int]string {
+var AdministrativeUnitNamesShortNameMap_vn = map[int]string{
 	1: "Thành phố",
 	2: "Tỉnh",
-	3: "Thành phố",
-	4: "Thành phố",
-	5: "Quận",
-	6: "Thị xã",
-	7: "Huyện",
-	8: "Phường",
-	9: "Thị trấn",
-	10: "Xã",
+	3: "Phường",
+	4: "Xã",
+	5: "Đặc khu",
 }
-var AdministrativeUnitNamesShortNameMap_en = map[int]string {
+var AdministrativeUnitNamesShortNameMap_en = map[int]string{
 	1: "City",
 	2: "Province",
-	3: "City",
-	4: "City",
-	5: "District",
-	6: "Town",
-	7: "District",
-	8: "Ward",
-	9: "Township",
-	10: "Commune",
+	3: "Ward",
+	4: "Commune",
+	5: "Special administrative region",
 }
 
 /*
 Mapping definition for the province code and the region that it belongs to
 Define as constant mapping since the province geographical data would likely to be never changed
+
+NOTE: After the major province merge, ProvinceRegionMap is no longer accurate as one province may span across 3 regions now
+E.g: Vĩnh Phúc, Phú Thọ, Hòa Bình => Phú Thọ
+URL: https://vi.wikipedia.org/wiki/Sáp_nhập_tỉnh,_thành_Việt_Nam_2025
 */
+
 var ProvinceRegionMap = map[string]int {
 	"01": 3,
 	"26": 3,
@@ -118,13 +104,4 @@ var ProvinceRegionMap = map[string]int {
 	"93": 8,
 	"94": 8,
 	"95": 8,
-}
-
-/*
-Handle Special administrative unit mapping for some corner case that cannot be detect just
-by evaluating the prefix of the name
-At the moment, there is only one Municipal city is special
-*/
-var SpecialAdministrativeUnitMap = map[string]int {
-	"Thành phố Thủ Đức": 3,
 }
