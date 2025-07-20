@@ -185,7 +185,7 @@ The `provinces` table contains a list of **first administrative tier - the provi
 |..|...........|...........|.....................|................|...........|..|..|
 
 ### `wards` table
-![Commune level](https://i.imgur.com/B5w1adp.jpg)
+[![Commune level](https://i.postimg.cc/5NfSpCG4/ward-structure.avif)](https://postimg.cc/mh69gtBJ)
 The `wards` table contains a list of **second administrative tier - the commune level** units, includes **3321** wards, communes and special administrative region.  
 
 #### Table definition
