@@ -14,7 +14,7 @@ If you find this repository helpful, please consider giving it a ⭐ — it help
 
 The author(s) of this repository is not associated with the **General Statistics Office of Vietnam**, nor the Vietnamese government.  
 The data of provinces and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
-**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document decree 19/2025/QĐ-TTg
+**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document decree [19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]
 
 This dataset also include additional information apart from the original provinces, wards data from the original data. Please see section [Additional change make by this repository](#additional-change-make-by-this-repository).  
 
@@ -255,7 +255,7 @@ Along with traditional SQL dataset, the Vietnamese Provinces Database also comes
 
 ### What is the original data source that this repository develope from?
 The data of provinces and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
-**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document 19/2025/QĐ-TTg
+**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document [19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]
 
 ### How are the primary keys defined?
 
