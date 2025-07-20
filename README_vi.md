@@ -15,7 +15,7 @@ Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ để �
 Tác giả của dự án không làm việc, hay đại diện cho **Tổng cục Thống kê Việt Nam**, lẫn chính phủ nước Việt Nam.
 Dữ liệu của Tỉnh thành, Quận huyện và Phường xã được tổng kết và hệ thống dựa trên dữ liệu tỉnh thành được cung cấp bởi [API từ trang web Đơn vị hành chính của Tổng cục Thống kê Việt Nam][source goverment API].  
 
-**Lưu ý**: Do API SOAP của Tổng cục Thống kê (GSO) chưa được cập nhật theo thay đổi mới nhất liên quan đến việc tách thành 34 tỉnh, nên dữ liệu mới nhất hoàn toàn dựa trên văn bản chính thức Nghị định 19/2025/QĐ-TTg.
+**Lưu ý**: Do API SOAP của Tổng cục Thống kê (GSO) chưa được cập nhật theo thay đổi mới nhất liên quan đến việc tách thành 34 tỉnh, nên dữ liệu mới nhất hoàn toàn dựa trên văn bản chính thức Nghị định [19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg].
 
 Ngoài ra, cơ sở dữ liệu này còn có thêm những thông tin bổ sung, xin xem chi tiết trong phần **Các thay đổi thêm** ngay bên dưới.  
 
@@ -48,7 +48,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 - Thêm bảng quan hệ `administrative_units`
 - Đặt dữ liệu tên đơn vị hành chính cho các giá trị tỉnh thành, phường xã  
 - Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, phường xã  
-- Tạo mã từ tên các tỉnh thành, quận huyện, phường xã  
+- Tạo mã từ tên các tỉnh thành, phường xã  
 
 ## Hướng dẫn cài đặt
 
@@ -98,7 +98,7 @@ Sau đó chạy tiếp tệp `ImportData_vn_units.sql` để nạp dữ liệu v
 
 ## Lược đồ quan hệ
 
-![VN_administrative_units db](https://i.imgur.com/sa0k4rt.png)
+![VN_administrative_units db](https://i.imgur.com/XEIgaXV.png)
 
 ### Bảng quan hệ `administrative_regions`
 
@@ -130,9 +130,9 @@ Bảng quan hệ `administrative_regions` chứa danh sách **8** khu vực đ�
 
 ### Bảng quan hệ `administrative_units`
 
-![VN Units](https://i.imgur.com/j35ELsL.png)  
+![VN Units](https://i.imgur.com/U0Warh3.png)  
 
-Bảng quan hệ `administrative_units` chứa danh sách các đơn vị hành chính với định danh `id` được xếp dựa trên bậc của từng phân cấp hành chính từ lớn đến nhỏ.  
+Bảng quan hệ `administrative_units` chứa danh sách các đơn vị hành chính với định danh `id` được xếp theo 2 phân cấp đơn vị hành chính.  
 
 #### Cấu trúc bảng dữ liệu
 
@@ -152,19 +152,13 @@ Bảng quan hệ `administrative_units` chứa danh sách các đơn vị hành 
 |--|---------|------------|----------|-------------|---------|------------|
 |1|Thành phố trực thuộc trung ương|Municipality|Thành phố|City|thanh_pho_truc_thuoc_trung_uong|municipality|
 |2|Tỉnh|Province|Tỉnh|Province|tinh|province|
-|3|Thành phố thuộc thành phố trực thuộc trung ương|Municipal city|Thành phố|City|thanh_pho_thuoc_thanh_pho_truc_thuoc_trung_uong|municipal_city|
-|4|Thành phố thuộc tỉnh|Provincial city|Thành phố|City|thanh_pho_thuoc_tinh|provincial_city|
-|5|Quận|Urban district|Quận|District|quan|urban_district|
-|6|Thị xã|District-level town|Thị xã|Town|thi_xa|district_level_town|
-|7|Huyện|District|Huyện|District|huyen|district|
-|8|Phường|Ward|Phường|Ward|phuong|ward|
-|9|Thị trấn|Commune-level town|Thị trấn|Township|thi_tran|commune_level_town|
-|10|Xã|Commune|Xã|Commune|xa|commune|
+|3|Phường|Ward|Phường|Ward|phuong|ward|
+|4|Xã|Commune|Xã|Commune|xa|commune|
+|5|Đặc khu tại hải đảo|Special administrative region|Đặc khu|Special administrative region|dac_khu|special_administrative_region|
 
 ### Bảng quan hệ `provinces`
-![Provincial level](https://i.imgur.com/wNgbRqb.jpg)  
-Bảng quan hệ `provinces` chứa danh sách đơn vị hành chính **cấp 1 - Tỉnh thành**, bao gồm **63** thành phố trực thuộc trung ương và tỉnh.  
-Mã đơn vị `code` và `full_name` dựa trên tệp tin CSV gốc.  
+![Provincial level](https://i.imgur.com/cLTRHkf.png)  
+Bảng quan hệ `provinces` chứa danh sách đơn vị hành chính **cấp 1 - Tỉnh thành**, bao gồm **34** thành phố trực thuộc trung ương và tỉnh.  
 
 #### Cấu trúc bảng dữ liệu
 
@@ -177,24 +171,21 @@ Mã đơn vị `code` và `full_name` dựa trên tệp tin CSV gốc.
 |`full_name_en`|varchar(255)|Tên tiếng Anh đầy đủ kèm tên đơn vị hành chính||
 |`code_name`|varchar(255)|Tên mã dựa trên cột `name`, tạo theo định dạng chữ thường xếp gạch||
 |`administrative_unit_id`|integer|Mã đơn vị hành chính của đối tượng|Khoá ngoại, liên kết đến bảng `administrative_units.id` |
-|`administrative_region_id`|integer|Mã vùng địa lý mà đối tượng thuộc về|Khoá ngoại, liên kết đến bảng `administrative_regions.id`|
+
 
 #### Dữ liệu mẫu
 
-|code|name|name_en|full_name|full_name_en|code_name|administrative_unit_id|administrative_region_id|
-|----|----|-------|---------|------------|---------|----------------------|------------------------|
-|01|Hà Nội|Ha Noi|Thành phố Hà Nội|Ha Noi City|ha_noi|1|3|
-|30|Hải Dương|Hai Duong|Tỉnh Hải Dương|Hai Duong Province|hai_duong|2|3|
-|46|Thừa Thiên Huế|Thua Thien Hue|Tỉnh Thừa Thiên Huế|Thua Thien Hue Province|thua_thien_hue|2|4|
-|48|Đà Nẵng|Da Nang|Thành phố Đà Nẵng|Da Nang City|da_nang|1|5|
-|79|Hồ Chí Minh|Ho Chi Minh|Thành phố Hồ Chí Minh|Ho Chi Minh City|ho_chi_minh|1|7|
+|code|name|name_en|full_name|full_name_en|code_name|administrative_unit_id|
+|----|----|-------|---------|------------|---------|----------------------|
+|01|Hà Nội|Ha Noi|Thành phố Hà Nội|Ha Noi City|ha_noi|1|
+|56|Khánh Hòa|Khanh Hoa|Tỉnh Khánh Hòa|Khanh Hoa Province|khanh_hoa|2|
+|79|Hồ Chí Minh|Ho Chi Minh|Thành phố Hồ Chí Minh|Ho Chi Minh City|ho_chi_minh|1|
+|96|Cà Mau|Ca Mau|Tỉnh Cà Mau|Ca Mau Province|ca_mau|2|
 |..|...........|...........|.....................|................|...........|..|..|
 
-### Bảng quan hệ `districts`
-
-![District level](https://i.imgur.com/B0OKHvB.jpg)
-Bảng quan hệ `districts` chứa danh sách đơn vị hành chính **cấp 2 - Quận huyện**, bao gồm **705** thành phố thuộc thành phố trung ương, quận, thị xã, huyện và thành phố trực thuộc tỉnh.  
-Mã đơn vị `code` và `full_name` dựa trên tệp tin CSV gốc.  
+### Bảng quan hệ `wards`
+[![Commune level](https://i.postimg.cc/5NfSpCG4/ward-structure.avif)](https://postimg.cc/mh69gtBJ)
+Bảng quan hệ `wards` chứa danh sách **đơn vị hành chính cấp 2**, bao gồm **3321** xã phường, đặc khu.
 
 #### Cấu trúc bảng dữ liệu
 
@@ -206,161 +197,77 @@ Mã đơn vị `code` và `full_name` dựa trên tệp tin CSV gốc.
 |`full_name`|varchar(255)|Tên tiếng Việt đầy đủ kèm tên đơn vị hành chính||
 |`full_name_en`|varchar(255)|Tên tiếng Anh đầy đủ kèm tên đơn vị hành chính||
 |`code_name`|varchar(255)|Tên mã dựa trên cột `name`, tạo theo định dạng chữ thường xếp gạch||
-|`province_code`|integer|Mã tỉnh thành (`province`) mà đối tượng quận huyện này thuộc về|Khoá ngoại, liên kết đến bảng `provinces.code`|
-|`administrative_unit_id`|integer|Mã đơn vị hành chính của đối tượng|Khoá ngoại, liên kết đến bảng `administrative_units.id` |
+|`province_code`|integer|Mã tỉnh thành (`province`) mà đối tượng phường xã này thuộc về|Khoá ngoại, liên kết đến bảng `provinces.code`|
+|`administrative_unit_id`|integer|Mã đơn vị hành chính của đối tượng|Foreign Key, references to `administrative_units.id` |
 
 #### Dữ liệu mẫu
 
 |code|name|name_en|full_name|full_name_en|code_name|province_code|administrative_unit_id|
 |----|----|-------|---------|------------|---------|-------------|----------------------|
-|001|Ba Đình|Ba Dinh|Quận Ba Đình|Ba Dinh District|ba_dinh|01|5|
-|002|Hoàn Kiếm|Hoan Kiem|Quận Hoàn Kiếm|Hoan Kiem District|hoan_kiem|01|5|
-|003|Tây Hồ|Tay Ho|Quận Tây Hồ|Tay Ho District|tay_ho|01|5|
-|004|Long Biên|Long Bien|Quận Long Biên|Long Bien District|long_bien|01|5|
-|005|Cầu Giấy|Cau Giay|Quận Cầu Giấy|Cau Giay District|cau_giay|01|5|
-|...|........|........|.............|.................|........|..|..|
-
-### Bảng quan hệ `wards`
-![Commune level](https://i.imgur.com/B5w1adp.jpg)
-Bảng quan hệ `wards` chứa danh sách **đơn vị hành chính cấp 3 - cấp Phường xã**, bao gồm **10599** phường, xã và thị trấn.
-Mã đơn vị `code` và `full_name` dựa trên tệp tin CSV gốc.  
-
-#### Cấu trúc bảng dữ liệu
-
-|Cột|Kiểu dữ liệu|Ý nghĩa|Ràng buộc|
-|------|-----------|---------|------------|
-|`code`|varchar(20)|Mã đơn vị chính thức, quy ước bởi chính phủ|Khoá chính|
-|`name`|varchar(255)|Tên tiếng Việt||
-|`name_en`|varchar(255)|Tên tiếng Anh||
-|`full_name`|varchar(255)|Tên tiếng Việt đầy đủ kèm tên đơn vị hành chính||
-|`full_name_en`|varchar(255)|Tên tiếng Anh đầy đủ kèm tên đơn vị hành chính||
-|`code_name`|varchar(255)|Tên mã dựa trên cột `name`, tạo theo định dạng chữ thường xếp gạch||
-|`district_code`|integer|Mã quận huyện (`district`) mà đối tượng phường xã này thuộc về|Khoá ngoại, liên kết đến bảng `districts.code`|
-|`administrative_unit_id`|integer|Mã đơn vị hành chính của đối tượng|Foreign Key, references to `administrative_units.id` |
-
-#### Dữ liệu mẫu
-
-|code|name|name_en|full_name|full_name_en|code_name|district_code|administrative_unit_id|
-|----|----|-------|---------|------------|---------|-------------|----------------------|
-|25942|Dĩ An|Di An|Phường Dĩ An|Di An Ward|di_an|724|8|
-|25945|Tân Bình|Tan Binh|Phường Tân Bình|Tan Binh Ward|tan_binh|724|8|
-|25948|Tân Đông Hiệp|Tan Dong Hiep|Phường Tân Đông Hiệp|Tan Dong Hiep Ward|tan_dong_hiep|724|8|
-|25951|Bình An|Binh An|Phường Bình An|Binh An Ward|binh_an|724|8|
-|25954|Bình Thắng|Binh Thang|Phường Bình Thắng|Binh Thang Ward|binh_thang|724|8|
-|-----|-----|-------|---------|-----------|----------|---|--|
+|25920|Tân Hiệp|Tan Hiep|Phường Tân Hiệp|Tan Hiep Ward|tan_hiep|79|3|
+|25942|Dĩ An|Di An|Phường Dĩ An|Di An Ward|di_an|79|3|
+|25945|Tân Đông Hiệp|Tan Dong Hiep|Phường Tân Đông Hiệp|Tan Dong Hiep Ward|tan_dong_hiep|79|3|
+|25951|Đông Hòa|Dong Hoa|Phường Đông Hòa|Dong Hoa Ward|dong_hoa|79|3|
+|25966|Lái Thiêu|Lai Thieu|Phường Lái Thiêu|Lai Thieu Ward|lai_thieu|79|3|
+|25969|Thuận Giao|Thuan Giao|Phường Thuận Giao|Thuan Giao Ward|thuan_giao|79|3|
+|25975|An Phú|An Phu|Phường An Phú|An Phu Ward|an_phu|79|3|
 
 ## Câu truy vấn SQL mẫu
 
 Bạn có thể dễ dàng viết các câu truy vấn để lấy, lọc dữ liệu tương ứng bằng cách tạo các kết (`JOIN`) giữa các bảng dựa trên giá trị khoá chính, khoá ngoại.  
 Phía sau là một vài câu truy vấn mẫu để tham khảo:  
 
-### Tìm toàn bộ Tỉnh thành theo khu vực địa lý
-
-Tìm toàn bộ tỉnh thành thuộc vùng **Duyên hải Nam Trung Bộ** (định danh `id` của vùng = 5)
-
-```sql
-SELECT p.code, p."name" , p.full_name , p.full_name_en ,au.full_name as administrative_unit_name
-FROM provinces p
-INNER JOIN administrative_units au 
-ON p.administrative_unit_id = au.id 
-WHERE p.administrative_region_id = 5
-ORDER BY code;
-```
-
-|code|name|full_name|full_name_en|administrative_unit_name|
-|----|----|---------|------------|------------------------|
-|48|Đà Nẵng|Thành phố Đà Nẵng|Da Nang City|Thành phố trực thuộc trung ương|
-|49|Quảng Nam|Tỉnh Quảng Nam|Quang Nam Province|Tỉnh|
-|51|Quảng Ngãi|Tỉnh Quảng Ngãi|Quang Ngai Province|Tỉnh|
-|52|Bình Định|Tỉnh Bình Định|Binh Dinh Province|Tỉnh|
-|54|Phú Yên|Tỉnh Phú Yên|Phu Yen Province|Tỉnh|
-|56|Khánh Hòa|Tỉnh Khánh Hòa|Khanh Hoa Province|Tỉnh|
-|58|Ninh Thuận|Tỉnh Ninh Thuận|Ninh Thuan Province|Tỉnh|
-|60|Bình Thuận|Tỉnh Bình Thuận|Binh Thuan Province|Tỉnh|
-
-### Tìm toàn bộ quận huyện thuộc tỉnh
-
-Tìm toàn bộ quận huyện thuộc **tỉnh Khánh Hoà**
-
-```sql
-SELECT d.code, d."name" , d.full_name , d.full_name_en ,au.full_name as administrative_unit_name
-FROM districts d 
-INNER JOIN administrative_units au 
-ON d.administrative_unit_id = au.id
-WHERE d.province_code = '56' -- Khanh Hoa province code
-ORDER BY d.code;
-```
-
-|code|name|full_name|full_name_en|administrative_unit_name|
-|----|----|---------|------------|------------------------|
-|568|Nha Trang|Thành phố Nha Trang|Nha Trang City|Thành phố thuộc tỉnh|
-|569|Cam Ranh|Thành phố Cam Ranh|Cam Ranh City|Thành phố thuộc tỉnh|
-|570|Cam Lâm|Huyện Cam Lâm|Cam Lam District|Huyện|
-|571|Vạn Ninh|Huyện Vạn Ninh|Van Ninh District|Huyện|
-|572|Ninh Hòa|Thị xã Ninh Hòa|Ninh Hoa Town|Thị xã|
-|573|Khánh Vĩnh|Huyện Khánh Vĩnh|Khanh Vinh District|Huyện|
-|574|Diên Khánh|Huyện Diên Khánh|Dien Khanh District|Huyện|
-|575|Khánh Sơn|Huyện Khánh Sơn|Khanh Son District|Huyện|
-|576|Trường Sa|Huyện Trường Sa|Truong Sa District|Huyện|
-
 ### Tìm toàn bộ xã phường thuộc quận huyện
 
-Tìm toàn bộ xã phường thuộc **huyện Ninh Hoà**  
+Tìm toàn bộ xã phường thuộc **tỉnh Khánh Hoà**  
 
 ```sql
 SELECT w.code, w."name" , w.full_name , w.full_name_en ,au.full_name as administrative_unit_name
 FROM wards w 
 INNER JOIN administrative_units au 
 ON w.administrative_unit_id = au.id
-WHERE w.district_code = '572' -- Ninh Hoa town code
+WHERE w.province_code = '56' -- Khanh Hoa province code
 ORDER BY w.code;
 ```
 
 |code|name|full_name|full_name_en|administrative_unit_name|
 |----|----|---------|------------|------------------------|
-|22528|Ninh Hiệp|Phường Ninh Hiệp|Ninh Hiep Ward|Phường|
-|22531|Ninh Sơn|Xã Ninh Sơn|Ninh Son Commune|Xã|
-|22534|Ninh Tây|Xã Ninh Tây|Ninh Tay Commune|Xã|
-|22537|Ninh Thượng|Xã Ninh Thượng|Ninh Thuong Commune|Xã|
-|22540|Ninh An|Xã Ninh An|Ninh An Commune|Xã|
-|22543|Ninh Hải|Phường Ninh Hải|Ninh Hai Ward|Phường|
-|22546|Ninh Thọ|Xã Ninh Thọ|Ninh Tho Commune|Xã|
-|-----|--------|-----------|------|-----|
-(Các dòng kết quả tiếp theo đã được lược bớt để dễ đọc)
+|22333|Bắc Nha Trang|Phường Bắc Nha Trang|Bac Nha Trang Ward|Phường|
+|22366|Nha Trang|Phường Nha Trang|Nha Trang Ward|Phường|
+|22390|Tây Nha Trang|Phường Tây Nha Trang|Tay Nha Trang Ward|Phường|
+|22402|Nam Nha Trang|Phường Nam Nha Trang|Nam Nha Trang Ward|Phường|
+|22411|Bắc Cam Ranh|Phường Bắc Cam Ranh|Bac Cam Ranh Ward|Phường|
+|22420|Cam Ranh|Phường Cam Ranh|Cam Ranh Ward|Phường|
+|22423|Ba Ngòi|Phường Ba Ngòi|Ba Ngoi Ward|Phường|
+|22432|Cam Linh|Phường Cam Linh|Cam Linh Ward|Phường|
+
+## Dữ liệu định dạng Non-SQL
+
+Ngoài định dạng SQL, dataset tỉnh thành Việt Nam này cũng cung cấp thêm dưới các định dạng sau:
+
+- Dạng **JSON**, bao gồm bản đầy đủ, tối giản, và tốn giản chỉ có tiếng Việt
+- **MongoDB**
+- **Redis**
 
 ## Câu hỏi thường gặp
 
 ### Dự án này xây dựng dữ liệu từ đâu?
 
-Dữ liệu của Tỉnh thành, Quận huyện và Phường xã được tổng kết và hệ thống dựa trên tệp tin CSV (Excel) tải trực tiếp từ [trang web Đơn vị hành chính của Tổng cục Thống kê Việt Nam][source danhmuchanhchinh gov]  
-Bạn có thể truy cập trang web trên, đánh dấu vào ô **Quận Huyện, Phường Xã**, và bấm nút **Xuất Excel** để tải về tệp CSV (Excel).  
+Dữ liệu về các tỉnh và phường được tạo dựa trên [API dữ liệu tỉnh do Tổng cục Thống kê Việt Nam cung cấp trên website chính thức][source goverment API].
+Lưu ý: Do API SOAP của Tổng cục Thống kê chưa được cập nhật theo thay đổi mới nhất liên quan đến việc chia tách 34 tỉnh. Vì vậy, dữ liệu mới nhất hoàn toàn dựa trên văn bản [Nghị định 19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg].
 
 ### Các khoá định danh được định nghĩa dựa trên đâu?
 
 |Bảng quan hệ|Khoá chính|
 |-----|-----------|
 |`administrative_regions`|Khoá chính: `id`. Tăng dần `1` đến `8` theo vị trí vùng địa lý hướng từ Bắc vào Nam
-|`administrative_units`|Khoá chính: `id`. Tăng dần từ `1` đến `10` theo phân cấp bậc đơn vị hành chính
+|`administrative_units`|Khoá chính: `id`. Tăng dần từ `1` đến `5` theo phân cấp bậc đơn vị hành chính
 |`provinces`|Khoá chính: `code`. Được quy ước theo đối tượng **Tỉnh thành** do chính phủ ban hành
-|`districts`|Khoá chính: `code`. Được quy ước theo đối tượng **Quận huyện** do chính phủ ban hành
 |`wards`|Khoá chính: `code`. Được quy ước theo đối tượng **Phường xã** do chính phủ ban hành
 
-### Tôi không thể tìm thấy Quận 2, Quận 9 và Quận Thủ Đức trong cơ sở dữ liệu này?
+### Tại sao mối quan hệ giữa tỉnh và vùng hành chính (region) bị loại bỏ từ phiên bản v3.0.0?
 
-Quận 2, Quận 9 và Quận Thủ Đức đã chính thức sáp nhập thành thành phố Thủ Đức, là thành phố trực thuộc thành phố Hồ Chí Minh từ đầu năm 2021. 
-Tất cả các Phường xã của 3 quận kể trên được liên kết trực tiếp đến cùng một đối tượng Quận huyện là `Thành phố Thủ Đức`, mã định danh `code` là `769`
-
-### Làm sao để cập nhật bộ dữ liệu của tôi?
-
-Chính phủ Việt Nam có thể ban hành nghị định để thay đổi tổ chức hành chính của Việt Nam theo thời gian.  
-Để kiểm tra trạng thái của bộ dữ liệu ở máy của bạn, hãy chạy tệp [patch_checker.sql](patch/patch_checker.sql), và chạy thủ công những bản vá theo từng nghị định trong thư mục [patch](./patch/)  
-Ví dụ kết quả khi chạy lệnh kiểm tra `patch_checker`
-
-|nghidinh_469_nq_ubtvqh15|vietnamese_provinces_dataset_up_to_date|
-|------------------------|---------------------------------------|
-|true|true|
-
-Hoặc bạn có thể làm mới lại toàn bộ dữ liệu hành chính Việt Nam của bạn bằng cách gỡ toàn bộ các liên kết khoá ngoại đến các bảng thuộc bộ dữ liệu hành chính Việt Nam, rồi xoá toàn bộ các bảng dữ liệu hành chính hiện tại, tạo và nạp lại các bảng và bộ dữ liệu hành chính mới nhất, và tái khai báo lại các liên kết khoá ngoại từ các bảng dữ liệu hiện hành của bạn.
+Sau khi số lượng tỉnh được sáp nhập còn 37, các tỉnh mới — chẳng hạn như Phú Thọ, được hình thành từ Vĩnh Phúc, Phú Thọ và Hòa Bình — hiện nay trải dài trên nhiều vùng hành chính trước đây. Do các tỉnh cũ thuộc các vùng khác nhau, nên việc xác định vùng hành chính cho tỉnh mới không còn chính xác nữa.
 
 ### Tôi tìm thấy một vài lỗi trong tệp dữ liệu SQL này?
 
