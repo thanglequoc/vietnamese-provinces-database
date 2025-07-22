@@ -10333,688 +10333,689 @@
     "Code": "21548",
     "FullName": "Đặc khu Lý Sơn",
     "ProvinceCode": "51"
-   },
-   {
-    "Code": "21553",
-    "FullName": "Phường Quy Nhơn Bắc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21583",
-    "FullName": "Phường Quy Nhơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21589",
-    "FullName": "Phường Quy Nhơn Tây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21592",
-    "FullName": "Phường Quy Nhơn Nam",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21601",
-    "FullName": "Phường Quy Nhơn Đông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21637",
-    "FullName": "Phường Tam Quan",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21640",
-    "FullName": "Phường Bồng Sơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21655",
-    "FullName": "Phường Hoài Nhơn Bắc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21661",
-    "FullName": "Phường Hoài Nhơn Tây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21664",
-    "FullName": "Phường Hoài Nhơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21670",
-    "FullName": "Phường Hoài Nhơn Đông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21673",
-    "FullName": "Phường Hoài Nhơn Nam",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21907",
-    "FullName": "Phường Bình Định",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21910",
-    "FullName": "Phường An Nhơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21925",
-    "FullName": "Phường An Nhơn Bắc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21934",
-    "FullName": "Phường An Nhơn Đông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21943",
-    "FullName": "Phường An Nhơn Nam",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23563",
-    "FullName": "Phường Diên Hồng",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23575",
-    "FullName": "Phường Pleiku",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23584",
-    "FullName": "Phường Thống Nhất",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23586",
-    "FullName": "Phường Hội Phú",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23602",
-    "FullName": "Phường An Phú",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23614",
-    "FullName": "Phường An Bình",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23617",
-    "FullName": "Phường An Khê",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24044",
-    "FullName": "Phường Ayun Pa",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21607",
-    "FullName": "Xã Nhơn Châu",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21609",
-    "FullName": "Xã An Lão",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21616",
-    "FullName": "Xã An Vinh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21622",
-    "FullName": "Xã An Toàn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21628",
-    "FullName": "Xã An Hòa",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21688",
-    "FullName": "Xã Hoài Ân",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21697",
-    "FullName": "Xã Ân Hảo",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21703",
-    "FullName": "Xã Vạn Đức",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21715",
-    "FullName": "Xã Ân Tường",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21727",
-    "FullName": "Xã Kim Sơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21730",
-    "FullName": "Xã Phù Mỹ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21733",
-    "FullName": "Xã Bình Dương",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21739",
-    "FullName": "Xã Phù Mỹ Bắc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21751",
-    "FullName": "Xã Phù Mỹ Đông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21757",
-    "FullName": "Xã Phù Mỹ Tây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21769",
-    "FullName": "Xã An Lương",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21775",
-    "FullName": "Xã Phù Mỹ Nam",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21786",
-    "FullName": "Xã Vĩnh Thạnh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21787",
-    "FullName": "Xã Vĩnh Sơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21796",
-    "FullName": "Xã Vĩnh Thịnh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21805",
-    "FullName": "Xã Vĩnh Quang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21808",
-    "FullName": "Xã Tây Sơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21817",
-    "FullName": "Xã Bình Hiệp",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21820",
-    "FullName": "Xã Bình Khê",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21829",
-    "FullName": "Xã Bình An",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21835",
-    "FullName": "Xã Bình Phú",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21853",
-    "FullName": "Xã Phù Cát",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21859",
-    "FullName": "Xã Đề Gi",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21868",
-    "FullName": "Xã Hội Sơn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21871",
-    "FullName": "Xã Hòa Hội",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21880",
-    "FullName": "Xã Cát Tiến",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21892",
-    "FullName": "Xã Xuân An",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21901",
-    "FullName": "Xã Ngô Mây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21940",
-    "FullName": "Xã An Nhơn Tây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21952",
-    "FullName": "Xã Tuy Phước",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21964",
-    "FullName": "Xã Tuy Phước Bắc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21970",
-    "FullName": "Xã Tuy Phước Đông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21985",
-    "FullName": "Xã Tuy Phước Tây",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21994",
-    "FullName": "Xã Vân Canh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21997",
-    "FullName": "Xã Canh Liên",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "22006",
-    "FullName": "Xã Canh Vinh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23590",
-    "FullName": "Xã Biển Hồ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23611",
-    "FullName": "Xã Gào",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23629",
-    "FullName": "Xã Cửu An",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23638",
-    "FullName": "Xã Kbang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23644",
-    "FullName": "Xã Đak Rong",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23647",
-    "FullName": "Xã Sơn Lang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23650",
-    "FullName": "Xã Krong",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23668",
-    "FullName": "Xã Tơ Tung",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23674",
-    "FullName": "Xã Kông Bơ La",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23677",
-    "FullName": "Xã Đak Đoa",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23683",
-    "FullName": "Xã Đak Sơmei",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23701",
-    "FullName": "Xã Kon Gang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23710",
-    "FullName": "Xã Ia Băng",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23714",
-    "FullName": "Xã KDang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23722",
-    "FullName": "Xã Chư Păh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23728",
-    "FullName": "Xã Ia Khươl",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23734",
-    "FullName": "Xã Ia Ly",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23938",
-    "FullName": "Xã Ia Mơ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23749",
-    "FullName": "Xã Ia Phí",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23764",
-    "FullName": "Xã Ia Grai",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23767",
-    "FullName": "Xã Ia Hrung",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23776",
-    "FullName": "Xã Ia Krái",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23782",
-    "FullName": "Xã Ia O",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23788",
-    "FullName": "Xã Ia Chia",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23794",
-    "FullName": "Xã Mang Yang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23798",
-    "FullName": "Xã Ayun",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23799",
-    "FullName": "Xã Hra",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23812",
-    "FullName": "Xã Lơ Pang",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23818",
-    "FullName": "Xã Kon Chiêng",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23824",
-    "FullName": "Xã Kông Chro",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23830",
-    "FullName": "Xã Chư Krey",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23833",
-    "FullName": "Xã Ya Ma",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23839",
-    "FullName": "Xã SRó",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23842",
-    "FullName": "Xã Đăk Song",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23851",
-    "FullName": "Xã Chơ Long",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23857",
-    "FullName": "Xã Đức Cơ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23866",
-    "FullName": "Xã Ia Krêl",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23869",
-    "FullName": "Xã Ia Dơk",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23872",
-    "FullName": "Xã Ia Dom",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23881",
-    "FullName": "Xã Ia Pnôn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23884",
-    "FullName": "Xã Ia Nan",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23887",
-    "FullName": "Xã Chư Prông",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23896",
-    "FullName": "Xã Bàu Cạn",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23908",
-    "FullName": "Xã Ia Tôr",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23911",
-    "FullName": "Xã Ia Boòng",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23917",
-    "FullName": "Xã Ia Púch",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23926",
-    "FullName": "Xã Ia Pia",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23935",
-    "FullName": "Xã Ia Lâu",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23941",
-    "FullName": "Xã Chư Sê",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23942",
-    "FullName": "Xã Chư Pưh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23947",
-    "FullName": "Xã Bờ Ngoong",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23954",
-    "FullName": "Xã Al Bá",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23971",
-    "FullName": "Xã Ia Hrú",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23977",
-    "FullName": "Xã Ia Ko",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23986",
-    "FullName": "Xã Ia Le",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23995",
-    "FullName": "Xã Đak Pơ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24007",
-    "FullName": "Xã Ya Hội",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24013",
-    "FullName": "Xã Pờ Tó",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24022",
-    "FullName": "Xã Ia Pa",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24028",
-    "FullName": "Xã Ia Tul",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24043",
-    "FullName": "Xã Phú Thiện",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24049",
-    "FullName": "Xã Chư A Thai",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24061",
-    "FullName": "Xã Ia Hiao",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24065",
-    "FullName": "Xã Ia Rbol",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24073",
-    "FullName": "Xã Ia Sao",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24076",
-    "FullName": "Xã Phú Túc",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24100",
-    "FullName": "Xã Ia Dreh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24109",
-    "FullName": "Xã Uar",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "24112",
-    "FullName": "Xã Ia Rsai",
-    "ProvinceCode": "51"
    }
   ]
  },
  {
   "Code": "52",
   "FullName": "Tỉnh Gia Lai",
-  "Wards": null
+  "Wards": [
+   {
+    "Code": "21553",
+    "FullName": "Phường Quy Nhơn Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21583",
+    "FullName": "Phường Quy Nhơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21589",
+    "FullName": "Phường Quy Nhơn Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21592",
+    "FullName": "Phường Quy Nhơn Nam",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21601",
+    "FullName": "Phường Quy Nhơn Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21637",
+    "FullName": "Phường Tam Quan",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21640",
+    "FullName": "Phường Bồng Sơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21655",
+    "FullName": "Phường Hoài Nhơn Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21661",
+    "FullName": "Phường Hoài Nhơn Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21664",
+    "FullName": "Phường Hoài Nhơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21670",
+    "FullName": "Phường Hoài Nhơn Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21673",
+    "FullName": "Phường Hoài Nhơn Nam",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21907",
+    "FullName": "Phường Bình Định",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21910",
+    "FullName": "Phường An Nhơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21925",
+    "FullName": "Phường An Nhơn Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21934",
+    "FullName": "Phường An Nhơn Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21943",
+    "FullName": "Phường An Nhơn Nam",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23563",
+    "FullName": "Phường Diên Hồng",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23575",
+    "FullName": "Phường Pleiku",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23584",
+    "FullName": "Phường Thống Nhất",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23586",
+    "FullName": "Phường Hội Phú",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23602",
+    "FullName": "Phường An Phú",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23614",
+    "FullName": "Phường An Bình",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23617",
+    "FullName": "Phường An Khê",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24044",
+    "FullName": "Phường Ayun Pa",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21607",
+    "FullName": "Xã Nhơn Châu",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21609",
+    "FullName": "Xã An Lão",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21616",
+    "FullName": "Xã An Vinh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21622",
+    "FullName": "Xã An Toàn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21628",
+    "FullName": "Xã An Hòa",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21688",
+    "FullName": "Xã Hoài Ân",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21697",
+    "FullName": "Xã Ân Hảo",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21703",
+    "FullName": "Xã Vạn Đức",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21715",
+    "FullName": "Xã Ân Tường",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21727",
+    "FullName": "Xã Kim Sơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21730",
+    "FullName": "Xã Phù Mỹ",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21733",
+    "FullName": "Xã Bình Dương",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21739",
+    "FullName": "Xã Phù Mỹ Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21751",
+    "FullName": "Xã Phù Mỹ Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21757",
+    "FullName": "Xã Phù Mỹ Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21769",
+    "FullName": "Xã An Lương",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21775",
+    "FullName": "Xã Phù Mỹ Nam",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21786",
+    "FullName": "Xã Vĩnh Thạnh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21787",
+    "FullName": "Xã Vĩnh Sơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21796",
+    "FullName": "Xã Vĩnh Thịnh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21805",
+    "FullName": "Xã Vĩnh Quang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21808",
+    "FullName": "Xã Tây Sơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21817",
+    "FullName": "Xã Bình Hiệp",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21820",
+    "FullName": "Xã Bình Khê",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21829",
+    "FullName": "Xã Bình An",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21835",
+    "FullName": "Xã Bình Phú",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21853",
+    "FullName": "Xã Phù Cát",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21859",
+    "FullName": "Xã Đề Gi",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21868",
+    "FullName": "Xã Hội Sơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21871",
+    "FullName": "Xã Hòa Hội",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21880",
+    "FullName": "Xã Cát Tiến",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21892",
+    "FullName": "Xã Xuân An",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21901",
+    "FullName": "Xã Ngô Mây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21940",
+    "FullName": "Xã An Nhơn Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21952",
+    "FullName": "Xã Tuy Phước",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21964",
+    "FullName": "Xã Tuy Phước Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21970",
+    "FullName": "Xã Tuy Phước Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21985",
+    "FullName": "Xã Tuy Phước Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21994",
+    "FullName": "Xã Vân Canh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21997",
+    "FullName": "Xã Canh Liên",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "22006",
+    "FullName": "Xã Canh Vinh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23590",
+    "FullName": "Xã Biển Hồ",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23611",
+    "FullName": "Xã Gào",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23629",
+    "FullName": "Xã Cửu An",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23638",
+    "FullName": "Xã Kbang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23644",
+    "FullName": "Xã Đak Rong",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23647",
+    "FullName": "Xã Sơn Lang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23650",
+    "FullName": "Xã Krong",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23668",
+    "FullName": "Xã Tơ Tung",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23674",
+    "FullName": "Xã Kông Bơ La",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23677",
+    "FullName": "Xã Đak Đoa",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23683",
+    "FullName": "Xã Đak Sơmei",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23701",
+    "FullName": "Xã Kon Gang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23710",
+    "FullName": "Xã Ia Băng",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23714",
+    "FullName": "Xã KDang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23722",
+    "FullName": "Xã Chư Păh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23728",
+    "FullName": "Xã Ia Khươl",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23734",
+    "FullName": "Xã Ia Ly",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23938",
+    "FullName": "Xã Ia Mơ",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23749",
+    "FullName": "Xã Ia Phí",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23764",
+    "FullName": "Xã Ia Grai",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23767",
+    "FullName": "Xã Ia Hrung",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23776",
+    "FullName": "Xã Ia Krái",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23782",
+    "FullName": "Xã Ia O",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23788",
+    "FullName": "Xã Ia Chia",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23794",
+    "FullName": "Xã Mang Yang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23798",
+    "FullName": "Xã Ayun",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23799",
+    "FullName": "Xã Hra",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23812",
+    "FullName": "Xã Lơ Pang",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23818",
+    "FullName": "Xã Kon Chiêng",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23824",
+    "FullName": "Xã Kông Chro",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23830",
+    "FullName": "Xã Chư Krey",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23833",
+    "FullName": "Xã Ya Ma",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23839",
+    "FullName": "Xã SRó",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23842",
+    "FullName": "Xã Đăk Song",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23851",
+    "FullName": "Xã Chơ Long",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23857",
+    "FullName": "Xã Đức Cơ",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23866",
+    "FullName": "Xã Ia Krêl",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23869",
+    "FullName": "Xã Ia Dơk",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23872",
+    "FullName": "Xã Ia Dom",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23881",
+    "FullName": "Xã Ia Pnôn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23884",
+    "FullName": "Xã Ia Nan",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23887",
+    "FullName": "Xã Chư Prông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23896",
+    "FullName": "Xã Bàu Cạn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23908",
+    "FullName": "Xã Ia Tôr",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23911",
+    "FullName": "Xã Ia Boòng",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23917",
+    "FullName": "Xã Ia Púch",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23926",
+    "FullName": "Xã Ia Pia",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23935",
+    "FullName": "Xã Ia Lâu",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23941",
+    "FullName": "Xã Chư Sê",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23942",
+    "FullName": "Xã Chư Pưh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23947",
+    "FullName": "Xã Bờ Ngoong",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23954",
+    "FullName": "Xã Al Bá",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23971",
+    "FullName": "Xã Ia Hrú",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23977",
+    "FullName": "Xã Ia Ko",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23986",
+    "FullName": "Xã Ia Le",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23995",
+    "FullName": "Xã Đak Pơ",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24007",
+    "FullName": "Xã Ya Hội",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24013",
+    "FullName": "Xã Pờ Tó",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24022",
+    "FullName": "Xã Ia Pa",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24028",
+    "FullName": "Xã Ia Tul",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24043",
+    "FullName": "Xã Phú Thiện",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24049",
+    "FullName": "Xã Chư A Thai",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24061",
+    "FullName": "Xã Ia Hiao",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24065",
+    "FullName": "Xã Ia Rbol",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24073",
+    "FullName": "Xã Ia Sao",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24076",
+    "FullName": "Xã Phú Túc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24100",
+    "FullName": "Xã Ia Dreh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24109",
+    "FullName": "Xã Uar",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "24112",
+    "FullName": "Xã Ia Rsai",
+    "ProvinceCode": "52"
+   }
+  ]
  },
  {
   "Code": "56",
