@@ -4,10 +4,11 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
 	"os"
 
-	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer/helper"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+
+	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 )
 
 type JSONDatasetFileWriter struct {

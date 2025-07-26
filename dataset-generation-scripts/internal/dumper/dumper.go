@@ -4,21 +4,19 @@ import (
 	"bufio"
 	"context"
 	"fmt"
+	"io/fs"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 	"time"
 	"unicode"
 
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	data_downloader "github.com/thanglequoc-vn-provinces/v2/internal/dvhcvn_data_downloader"
 	"golang.org/x/text/runes"
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
-
-	data_downloader "github.com/thanglequoc-vn-provinces/v2/dvhcvn_data_downloader"
-
-	"io/fs"
-	"path/filepath"
 )
 
 // Temporary deprecated, API upstream data is not up to date
@@ -136,13 +134,13 @@ func insertToProvinces(seedProvinceModels []vn_common.SeedProvince) {
 		provinceFullNameEn := provinceShortNameEn + " " + unitName_en
 
 		provinceModel := &vn_common.Province{
-			Code:                   p.Code,
-			Name:                   provinceShortName,
-			NameEn:                 provinceShortNameEn,
-			FullName:               provinceFullName,
-			FullNameEn:             provinceFullNameEn,
-			CodeName:               codeName,
-			AdministrativeUnitId:   administrativeUnitLevel,
+			Code:                 p.Code,
+			Name:                 provinceShortName,
+			NameEn:               provinceShortNameEn,
+			FullName:             provinceFullName,
+			FullNameEn:           provinceFullNameEn,
+			CodeName:             codeName,
+			AdministrativeUnitId: administrativeUnitLevel,
 		}
 
 		_, err := db.NewInsert().Model(provinceModel).Exec(ctx)
