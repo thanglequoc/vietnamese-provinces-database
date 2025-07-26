@@ -1,4 +1,4 @@
-package dumper
+package config
 
 
 var AdministrativeUnitNames [5]string = [...]string{

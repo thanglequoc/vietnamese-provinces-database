@@ -14,7 +14,6 @@ import (
 )
 
 func GetPostgresDBConnection() *bun.DB {
-
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal("Error loading .env file")
