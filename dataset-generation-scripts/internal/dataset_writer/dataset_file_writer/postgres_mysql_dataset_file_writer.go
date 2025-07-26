@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
 )
 
 type PostgresMySQLDatasetFileWriter struct {

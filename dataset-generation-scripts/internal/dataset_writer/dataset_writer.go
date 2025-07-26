@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
-	dataset_file_writer "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+	dataset_file_writer "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
 )
 
 /*

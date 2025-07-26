@@ -3,7 +3,7 @@ package fetcher
 import (
 	"encoding/json"
 	"net/http"
-	"github.com/thanglequoc-vn-provinces/v2/sapnhap_bando/dto"
+	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
 )
 
 const GET_ALL_PROVINCES_URL = "https://sapnhap.bando.com.vn/pcotinh"

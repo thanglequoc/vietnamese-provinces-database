@@ -1,8 +1,8 @@
 package helper
 
 import (
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
-	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer/dto"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 )
 
 func ConvertToJsonProvinceModel(provinces []vn_common.Province) []dataset_file_writer_dto.JsonProvinceModel {

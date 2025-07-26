@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
 )
 
 const hsetAdministrativeUnitTemplate string = "HSET administrativeUnit:%d id %d fullName \"%s\" fullNameEn \"%s\" shortName \"%s\" shortNameEn \"%s\" codeName \"%s\"\n"
