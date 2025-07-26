@@ -1,7 +1,7 @@
 package main
 
 import (
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	dataset_writer "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer"
 	dumper "github.com/thanglequoc-vn-provinces/v2/internal/dumper"
 )

@@ -3,10 +3,11 @@ package dataset_writer
 import (
 	"bufio"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
 	"log"
 	"os"
 	"time"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 )
 
 const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s',%d)"

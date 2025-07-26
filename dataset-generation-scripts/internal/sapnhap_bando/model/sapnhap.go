@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/thanglequoc-vn-provinces/v2/internal/common"
+	common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	"github.com/uptrace/bun"
 )
 

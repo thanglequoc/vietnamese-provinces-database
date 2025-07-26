@@ -1,9 +1,10 @@
 package dataset_writer
 
 import (
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
 	"strings"
 	"time"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 )
 
 type DatasetFileWriter interface {

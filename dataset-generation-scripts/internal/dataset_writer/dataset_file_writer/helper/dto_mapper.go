@@ -1,7 +1,7 @@
 package helper
 
 import (
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 )
 

@@ -3,10 +3,11 @@ package dataset_writer
 import (
 	"bufio"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
 	"log"
 	"os"
 	"time"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 )
 
 type MssqlDatasetFileWriter struct {

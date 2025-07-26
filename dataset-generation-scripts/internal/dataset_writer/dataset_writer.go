@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	dataset_file_writer "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
 )
 
@@ -79,7 +79,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// Redis
-	redisDatasetFileWriter := dataset_file_writer.RedisDatasetFileWriter {
+	redisDatasetFileWriter := dataset_file_writer.RedisDatasetFileWriter{
 		OutputFolderPath: "./output/redis",
 	}
 	err = redisDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)

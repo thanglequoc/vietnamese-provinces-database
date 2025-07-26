@@ -4,11 +4,6 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
-	data_downloader "github.com/thanglequoc-vn-provinces/v2/internal/dvhcvn_data_downloader"
-	"golang.org/x/text/runes"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
 	"io/fs"
 	"os"
 	"path/filepath"
@@ -16,6 +11,12 @@ import (
 	"strings"
 	"time"
 	"unicode"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	data_downloader "github.com/thanglequoc-vn-provinces/v2/internal/dvhcvn_data_downloader"
+	"golang.org/x/text/runes"
+	"golang.org/x/text/transform"
+	"golang.org/x/text/unicode/norm"
 )
 
 // Temporary deprecated, API upstream data is not up to date

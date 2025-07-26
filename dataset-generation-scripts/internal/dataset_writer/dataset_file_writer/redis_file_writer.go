@@ -4,7 +4,8 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/common"
+
+	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 )
 
 const hsetAdministrativeUnitTemplate string = "HSET administrativeUnit:%d id %d fullName \"%s\" fullNameEn \"%s\" shortName \"%s\" shortNameEn \"%s\" codeName \"%s\"\n"
@@ -26,18 +27,18 @@ func (w *RedisDatasetFileWriter) WriteToFile(
 	administrativeUnits []vn_common.AdministrativeUnit,
 	provinces []vn_common.Province,
 	wards []vn_common.Ward) error {
-	
+
 	os.MkdirAll(w.OutputFolderPath, 0746)
 	fileTimeSuffix := getFileTimeSuffix()
-	
+
 	redisDatasetFilePath := fmt.Sprintf("%s/redis_vn_provinces_dataset_%s.redis", w.OutputFolderPath, fileTimeSuffix)
 	redisDatasetFile, err := os.OpenFile(redisDatasetFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if (err != nil) {
+	if err != nil {
 		return err
 	}
 
 	dataWriter := bufio.NewWriter(redisDatasetFile)
-	
+
 	for _, a := range administrativeUnits {
 		dataWriter.WriteString(generateAdministrativeRecord(a))
 	}
@@ -45,7 +46,7 @@ func (w *RedisDatasetFileWriter) WriteToFile(
 	for _, r := range regions {
 		dataWriter.WriteString(generateRegionRecord(r))
 	}
-	
+
 	for _, p := range provinces {
 		dataWriter.WriteString(generateProvinceRecord(p))
 	}
@@ -77,5 +78,5 @@ func generateWardRecord(w vn_common.Ward) string {
 }
 
 func generateProvinceWardRelationship(w vn_common.Ward) string {
-	return fmt.Sprintf(saddProvinceWardTemplate, w.ProvinceCode , w.Code) + fmt.Sprintf(hsetProvinceWardVnTemplate, w.ProvinceCode, w.Code, w.FullName) + fmt.Sprintf(hsetProvinceWardEnTemplate, w.ProvinceCode, w.Code, w.FullNameEn) 
+	return fmt.Sprintf(saddProvinceWardTemplate, w.ProvinceCode, w.Code) + fmt.Sprintf(hsetProvinceWardVnTemplate, w.ProvinceCode, w.Code, w.FullName) + fmt.Sprintf(hsetProvinceWardEnTemplate, w.ProvinceCode, w.Code, w.FullNameEn)
 }
