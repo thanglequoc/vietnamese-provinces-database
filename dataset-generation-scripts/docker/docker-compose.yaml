@@ -1,7 +1,7 @@
 services:
-  postgres:
+  postgres-postgis:
     container_name: vn_provinces_postgres_container
-    image: postgres
+    image: postgis/postgis
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: root

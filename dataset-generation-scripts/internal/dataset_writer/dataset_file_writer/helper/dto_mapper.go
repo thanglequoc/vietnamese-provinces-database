@@ -1,11 +1,11 @@
 package helper
 
 import (
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
-	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer/dto"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
+	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 )
 
-func ConvertToJsonProvinceModel(provinces []vn_common.Province) []dataset_file_writer_dto.JsonProvinceModel {
+func ConvertToJsonProvinceModel(provinces []model.Province) []dataset_file_writer_dto.JsonProvinceModel {
 	var result []dataset_file_writer_dto.JsonProvinceModel
 	for _, province := range provinces {
 		p := dataset_file_writer_dto.JsonProvinceModel{
@@ -25,7 +25,7 @@ func ConvertToJsonProvinceModel(provinces []vn_common.Province) []dataset_file_w
 		}
 
 		if len(province.Wards) != 0 {
-			wards := make([]vn_common.Ward, len(province.Wards))
+			wards := make([]model.Ward, len(province.Wards))
 			for i, w := range province.Wards {
 				wards[i] = *w
 			}
@@ -36,7 +36,7 @@ func ConvertToJsonProvinceModel(provinces []vn_common.Province) []dataset_file_w
 	return result
 }
 
-func ConvertToJsonProvinceSimplifiedModel(provinces []vn_common.Province) []dataset_file_writer_dto.JsonProvinceSimplifiedModel {
+func ConvertToJsonProvinceSimplifiedModel(provinces []model.Province) []dataset_file_writer_dto.JsonProvinceSimplifiedModel {
 	var result []dataset_file_writer_dto.JsonProvinceSimplifiedModel
 	for _, province := range provinces {
 		p := dataset_file_writer_dto.JsonProvinceSimplifiedModel{
@@ -49,7 +49,7 @@ func ConvertToJsonProvinceSimplifiedModel(provinces []vn_common.Province) []data
 		}
 
 		if len(province.Wards) != 0 {
-			wards := make([]vn_common.Ward, len(province.Wards))
+			wards := make([]model.Ward, len(province.Wards))
 			for i, w := range province.Wards {
 				wards[i] = *w
 			}
@@ -60,7 +60,7 @@ func ConvertToJsonProvinceSimplifiedModel(provinces []vn_common.Province) []data
 	return result
 }
 
-func ConvertToJsonProvinceVNSimplifiedModel(provinces []vn_common.Province) []dataset_file_writer_dto.JsonProvinceVNSimplifiedModel {
+func ConvertToJsonProvinceVNSimplifiedModel(provinces []model.Province) []dataset_file_writer_dto.JsonProvinceVNSimplifiedModel {
 	var result []dataset_file_writer_dto.JsonProvinceVNSimplifiedModel
 	for _, province := range provinces {
 		p := dataset_file_writer_dto.JsonProvinceVNSimplifiedModel{
@@ -69,7 +69,7 @@ func ConvertToJsonProvinceVNSimplifiedModel(provinces []vn_common.Province) []da
 		}
 
 		if len(province.Wards) != 0 {
-			wards := make([]vn_common.Ward, len(province.Wards))
+			wards := make([]model.Ward, len(province.Wards))
 			for i, w := range province.Wards {
 				wards[i] = *w
 			}
@@ -80,7 +80,7 @@ func ConvertToJsonProvinceVNSimplifiedModel(provinces []vn_common.Province) []da
 	return result
 }
 
-func ConvertToMongoProvinceModel(provinces []vn_common.Province) []dataset_file_writer_dto.MongoProvinceModel {
+func ConvertToMongoProvinceModel(provinces []model.Province) []dataset_file_writer_dto.MongoProvinceModel {
 	var result []dataset_file_writer_dto.MongoProvinceModel
 	for _, province := range provinces {
 		p := dataset_file_writer_dto.MongoProvinceModel{
@@ -95,7 +95,7 @@ func ConvertToMongoProvinceModel(provinces []vn_common.Province) []dataset_file_
 		}
 
 		if len(province.Wards) != 0 {
-			wards := make([]vn_common.Ward, len(province.Wards))
+			wards := make([]model.Ward, len(province.Wards))
 			for i, w := range province.Wards {
 				wards[i] = *w
 			}
@@ -107,7 +107,7 @@ func ConvertToMongoProvinceModel(provinces []vn_common.Province) []dataset_file_
 	return result
 }
 
-func ConvertToJsonWardModel(wards []vn_common.Ward) []dataset_file_writer_dto.JsonWardModel {
+func ConvertToJsonWardModel(wards []model.Ward) []dataset_file_writer_dto.JsonWardModel {
 	var result []dataset_file_writer_dto.JsonWardModel
 
 	for _, ward := range wards {
@@ -133,7 +133,7 @@ func ConvertToJsonWardModel(wards []vn_common.Ward) []dataset_file_writer_dto.Js
 	return result
 }
 
-func ConvertToJsonWardSimplifiedModel(wards []vn_common.Ward) []dataset_file_writer_dto.JsonWardSimplifiedModel {
+func ConvertToJsonWardSimplifiedModel(wards []model.Ward) []dataset_file_writer_dto.JsonWardSimplifiedModel {
 	var result []dataset_file_writer_dto.JsonWardSimplifiedModel
 
 	for _, ward := range wards {
@@ -152,7 +152,7 @@ func ConvertToJsonWardSimplifiedModel(wards []vn_common.Ward) []dataset_file_wri
 	return result
 }
 
-func ConvertToJsonWardVNSimplifiedModel(wards []vn_common.Ward) []dataset_file_writer_dto.JsonWardVNSimplifiedModel {
+func ConvertToJsonWardVNSimplifiedModel(wards []model.Ward) []dataset_file_writer_dto.JsonWardVNSimplifiedModel {
 	var result []dataset_file_writer_dto.JsonWardVNSimplifiedModel
 	for _, ward := range wards {
 		w := dataset_file_writer_dto.JsonWardVNSimplifiedModel{
@@ -165,7 +165,7 @@ func ConvertToJsonWardVNSimplifiedModel(wards []vn_common.Ward) []dataset_file_w
 	return result
 }
 
-func ConvertToMongoWardModel(wards []vn_common.Ward) []dataset_file_writer_dto.MongoWardModel {
+func ConvertToMongoWardModel(wards []model.Ward) []dataset_file_writer_dto.MongoWardModel {
 	var result []dataset_file_writer_dto.MongoWardModel
 
 	for _, ward := range wards {

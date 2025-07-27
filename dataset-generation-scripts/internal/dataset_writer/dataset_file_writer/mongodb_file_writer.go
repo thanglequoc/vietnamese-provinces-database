@@ -4,10 +4,9 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	vn_common "github.com/thanglequoc-vn-provinces/v2/common"
+	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"os"
-
-	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/dataset_writer/dataset_file_writer/helper"
 )
 
 type MongoDBDatasetFileWriter struct {
@@ -15,10 +14,10 @@ type MongoDBDatasetFileWriter struct {
 }
 
 func (w *MongoDBDatasetFileWriter) WriteToFile(
-	regions []vn_common.AdministrativeRegion,
-	administrativeUnits []vn_common.AdministrativeUnit,
-	provinces []vn_common.Province,
-	wards []vn_common.Ward) error {
+	regions []model.AdministrativeRegion,
+	administrativeUnits []model.AdministrativeUnit,
+	provinces []model.Province,
+	wards []model.Ward) error {
 
 	os.MkdirAll(w.OutputFolderPath, 0746)
 	fileTimeSuffix := getFileTimeSuffix()
@@ -26,7 +25,7 @@ func (w *MongoDBDatasetFileWriter) WriteToFile(
 	// Write file administrative units
 	administrativeUnitsFilePath := fmt.Sprintf("%s/administrative_units_%s.json", w.OutputFolderPath, fileTimeSuffix)
 	administrativeUnitsFile, err := os.OpenFile(administrativeUnitsFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if (err != nil) {
+	if err != nil {
 		return err
 	}
 
@@ -39,7 +38,7 @@ func (w *MongoDBDatasetFileWriter) WriteToFile(
 	// Write file administrative regions
 	administrativeRegionsFilePath := fmt.Sprintf("%s/administrative_regions_%s.json", w.OutputFolderPath, fileTimeSuffix)
 	administrativeRegionsFile, err := os.OpenFile(administrativeRegionsFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if (err != nil) {
+	if err != nil {
 		return err
 	}
 
@@ -49,16 +48,15 @@ func (w *MongoDBDatasetFileWriter) WriteToFile(
 	dataWriter.Flush()
 	administrativeRegionsFile.Close()
 
-
 	// Write file to provinces (complete) data
 	dataProvinceMongoPath := fmt.Sprintf("%s/mongo_data_vn_unit_%s.json", w.OutputFolderPath, fileTimeSuffix)
 	dataProvinceMongoFile, err := os.OpenFile(dataProvinceMongoPath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if (err != nil) {
+	if err != nil {
 		return err
 	}
 	dataWriter = bufio.NewWriter(dataProvinceMongoFile)
 	provinceData := file_writer_helper.ConvertToMongoProvinceModel(provinces)
-	
+
 	data, _ = json.MarshalIndent(provinceData, "", " ")
 	dataWriter.Write(data)
 	dataWriter.Flush()
