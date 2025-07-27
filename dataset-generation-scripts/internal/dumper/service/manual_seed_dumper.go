@@ -33,9 +33,9 @@ func NewManualSeedDumperService() *ManualSeedDumperService {
 
 /* Bootstrap the manual seed data onto the temporary database for safe keeping and cross reference */
 func (s *ManualSeedDumperService) BootstrapManualSeedDataToDatabase() error {
-	db.ExecuteSQLScript("./resources/manual_decree_seeds/provinces_seed.sql")
+	db.ExecuteSQLScript("./resources/manual_seeds/provinces_seed.sql")
 
-	wardSeedRootFolder := "./resources/manual_decree_seeds/wards"
+	wardSeedRootFolder := "./resources/manual_seeds/wards"
 	err := filepath.WalkDir(wardSeedRootFolder, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			return err

@@ -2,9 +2,11 @@ package repository
 
 import (
 	"context"
+	"log"
+	"strings"
+
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"github.com/uptrace/bun"
-	"log"
 )
 
 type VnProvincesTmpRepository struct {
@@ -74,4 +76,16 @@ func (r *VnProvincesTmpRepository) InsertProvince(ctx context.Context, province 
 		return err
 	}
 	return nil
+}
+
+func (r *VnProvincesTmpRepository) FindProvinceByName(ctx context.Context, name string) (*model.Province, error) {
+	var province model.Province
+	err := r.db.NewSelect().
+		Model(&province).
+		Where("LOWER(name) = ?", strings.ToLower(name)).
+		Scan(ctx)
+	if err != nil {
+		return nil, err
+	}
+	return &province, nil
 }

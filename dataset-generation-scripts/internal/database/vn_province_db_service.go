@@ -1,4 +1,4 @@
-package common
+package database
 
 import (
 	"context"
@@ -6,8 +6,12 @@ import (
 	"os"
 )
 
+const cleanUpScript = "./resources/fresh_cleanup.sql"
 const pathToTableInitFile = "./resources/db_table_init.sql"
 const pathToRegionAdministrativeInitFile = "./resources/db_region_administrative_unit.sql"
+
+// GIS data structure scripts
+const pathToSapNhapTables = "./resources/gis/sapnhap_bando_tables.sql"
 
 /*
 Bootstrap the Temporary Dataset Structure
@@ -15,7 +19,13 @@ Bootstrap the Temporary Dataset Structure
 We may skip this this in the future
 */
 func BootstrapTemporaryDatasetStructure() {
-	err := ExecuteSQLScript(pathToTableInitFile)
+	err := ExecuteSQLScript(cleanUpScript)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("DB Fresh cleanup script executed")
+	
+	err = ExecuteSQLScript(pathToTableInitFile)
 	if err != nil {
 		panic(err)
 	}
@@ -26,6 +36,17 @@ func BootstrapTemporaryDatasetStructure() {
 		panic(err)
 	}
 	fmt.Println("Data for regions & administrative unit persisted")
+}
+
+/*
+Bootstrap GIS related data structure
+*/
+func BootstrapGISDataStructure() {
+	err := ExecuteSQLScript(pathToSapNhapTables)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("GIS related data structure created")
 }
 
 // Useful method to execute SQL script located in this project

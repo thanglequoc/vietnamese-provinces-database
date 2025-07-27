@@ -1,7 +1,7 @@
 package model
 
 import (
-	common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"github.com/uptrace/bun"
 )
 
@@ -19,5 +19,5 @@ type SapNhapSiteProvince struct {
 	TruocSN        string          `bun:"truocsapnhap"`
 	Con            string          `bun:"con"`
 	VNProvinceCode string          `bun:"vn_province_code,notnull"`
-	Province       common.Province `bun:"rel:belongs-to,join:vn_province_code=code"`
+	Province       model.Province `bun:"rel:belongs-to,join:vn_province_code=code"`
 }
