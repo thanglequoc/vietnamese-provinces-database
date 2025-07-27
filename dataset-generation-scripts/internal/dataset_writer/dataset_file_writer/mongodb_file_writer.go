@@ -4,10 +4,9 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"os"
-
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
+	"os"
 )
 
 type MongoDBDatasetFileWriter struct {
@@ -15,10 +14,10 @@ type MongoDBDatasetFileWriter struct {
 }
 
 func (w *MongoDBDatasetFileWriter) WriteToFile(
-	regions []vn_common.AdministrativeRegion,
-	administrativeUnits []vn_common.AdministrativeUnit,
-	provinces []vn_common.Province,
-	wards []vn_common.Ward) error {
+	regions []model.AdministrativeRegion,
+	administrativeUnits []model.AdministrativeUnit,
+	provinces []model.Province,
+	wards []model.Ward) error {
 
 	os.MkdirAll(w.OutputFolderPath, 0746)
 	fileTimeSuffix := getFileTimeSuffix()

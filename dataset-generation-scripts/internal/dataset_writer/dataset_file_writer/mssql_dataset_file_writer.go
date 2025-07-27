@@ -6,8 +6,7 @@ import (
 	"log"
 	"os"
 	"time"
-
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 type MssqlDatasetFileWriter struct {
@@ -26,10 +25,10 @@ const insertProvinceValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','
 const insertProvinceWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s','%s',%d)"
 
 func (w *MssqlDatasetFileWriter) WriteToFile(
-	regions []vn_common.AdministrativeRegion,
-	administrativeUnits []vn_common.AdministrativeUnit,
-	provinces []vn_common.Province,
-	wards []vn_common.Ward) error {
+	regions []model.AdministrativeRegion,
+	administrativeUnits []model.AdministrativeUnit,
+	provinces []model.Province,
+	wards []model.Ward) error {
 
 	fileTimeSuffix := getFileTimeSuffix()
 	outputFilePath := fmt.Sprintf(w.OutputFilePath, fileTimeSuffix)

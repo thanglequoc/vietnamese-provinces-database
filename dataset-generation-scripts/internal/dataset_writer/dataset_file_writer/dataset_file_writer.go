@@ -4,15 +4,15 @@ import (
 	"strings"
 	"time"
 
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 type DatasetFileWriter interface {
 	WriteToFile(
-		regions []vn_common.AdministrativeRegion,
-		administrativeUnits []vn_common.AdministrativeUnit,
-		provinces []vn_common.Province,
-		wards []vn_common.Ward) error
+		regions []model.AdministrativeRegion,
+		administrativeUnits []model.AdministrativeUnit,
+		provinces []model.Province,
+		wards []model.Ward) error
 }
 
 func getFileTimeSuffix() string {

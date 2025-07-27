@@ -29,9 +29,11 @@ func BeginDumpingDataWithDvhcvnDirectSource() {
 	}
 
 	dvhcvnUnits := data_downloader.FetchDvhcvnData(dataSetTime)
-
+	// TODO @thangle: Temporary not use the data fetch from DVHCVN, use the manual seed data instead
 	fmt.Println(dvhcvnUnits)
+}
 
+func DumpFromManualSeed() {
 	manualSeedDumperSvc := service.NewManualSeedDumperService()
 	manualSeedDumperSvc.BootstrapManualSeedDataToDatabase()
 	manualSeedDumperSvc.DumpToVNProvinceFromManualSeed()

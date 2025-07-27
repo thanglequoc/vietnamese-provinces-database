@@ -1,7 +1,9 @@
 package common
 
 import (
+	"context"
 	"fmt"
+	"os"
 )
 
 const pathToTableInitFile = "./resources/db_table_init.sql"
@@ -24,4 +26,21 @@ func BootstrapTemporaryDatasetStructure() {
 		panic(err)
 	}
 	fmt.Println("Data for regions & administrative unit persisted")
+}
+
+// Useful method to execute SQL script located in this project
+func ExecuteSQLScript(pathToSQL string) error {
+	bytesVal, err := os.ReadFile(pathToSQL)
+	if err != nil {
+		panic(err)
+	}
+	query := string(bytesVal)
+	db := GetPostgresDBConnection()
+	ctx := context.Background()
+	_, err = db.ExecContext(ctx, query)
+	ctx.Done()
+	if err != nil {
+		return err
+	}
+	return nil
 }

@@ -3,11 +3,10 @@ package dataset_writer
 import (
 	"bufio"
 	"fmt"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"log"
 	"os"
 	"time"
-
-	vn_common "github.com/thanglequoc-vn-provinces/v2/internal/database"
 )
 
 type PostgresMySQLDatasetFileWriter struct {
@@ -31,10 +30,10 @@ const insertDistrictWardValueTemplate string = "('%s','%s','%s','%s','%s','%s','
 const batchInsertItemSize int = 50
 
 func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
-	regions []vn_common.AdministrativeRegion,
-	administrativeUnits []vn_common.AdministrativeUnit,
-	provinces []vn_common.Province,
-	wards []vn_common.Ward) error {
+	regions []model.AdministrativeRegion,
+	administrativeUnits []model.AdministrativeUnit,
+	provinces []model.Province,
+	wards []model.Ward) error {
 
 	fileTimeSuffix := getFileTimeSuffix()
 	outputFilePath := fmt.Sprintf(w.OutputFilePath, fileTimeSuffix)
