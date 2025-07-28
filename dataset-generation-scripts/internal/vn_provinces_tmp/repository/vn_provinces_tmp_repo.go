@@ -89,3 +89,15 @@ func (r *VnProvincesTmpRepository) FindProvinceByName(ctx context.Context, name 
 	}
 	return &province, nil
 }
+
+func (r *VnProvincesTmpRepository) FindWardByName(ctx context.Context, name string, provinceCode string) (*model.Ward, error) {
+	var ward model.Ward
+	err := r.db.NewSelect().
+		Model(&ward).
+		Where("name = ? AND province_code = ?", name, provinceCode).
+		Scan(ctx)
+	if err != nil {
+		return nil, err
+	}
+	return &ward, nil
+}

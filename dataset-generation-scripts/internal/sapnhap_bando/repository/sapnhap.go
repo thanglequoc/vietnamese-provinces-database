@@ -38,3 +38,14 @@ func (r *SapNhapRepository) InsertSapNhapSiteProvince(province *model.SapNhapSit
 	}
 	return nil
 }
+
+// Insert new sapnhap ward data
+func (r *SapNhapRepository) InsertSapNhapSiteWard(ward *model.SapNhapSiteWard) error {
+	_, err := r.db.NewInsert().
+		Model(ward).
+		Exec(context.Background())
+	if err != nil {
+		return err
+	}
+	return nil
+}
