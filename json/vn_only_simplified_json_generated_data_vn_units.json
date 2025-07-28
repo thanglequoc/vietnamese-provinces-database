@@ -3518,7 +3518,7 @@
    },
    {
     "Code": "06367",
-    "FullName": "Xã Vũ Lãng",
+    "FullName": "Xã Vũ Lăng",
     "ProvinceCode": "20"
    },
    {
@@ -4726,7 +4726,7 @@
    },
    {
     "Code": "07996",
-    "FullName": "Xã Băng Luân",
+    "FullName": "Xã Bằng Luân",
     "ProvinceCode": "25"
    },
    {
@@ -9349,7 +9349,7 @@
    },
    {
     "Code": "20137",
-    "FullName": "Xã Chân Mây-Lăng Cô",
+    "FullName": "Xã Chân Mây - Lăng Cô",
     "ProvinceCode": "46"
    },
    {
@@ -9510,7 +9510,7 @@
    },
    {
     "Code": "20364",
-    "FullName": "Xã Chiến Đàn",
+    "FullName": "Xã Chiên Đàn",
     "ProvinceCode": "48"
    },
    {
@@ -9540,7 +9540,7 @@
    },
    {
     "Code": "20458",
-    "FullName": "Xã A vương",
+    "FullName": "Xã Avương",
     "ProvinceCode": "48"
    },
    {
@@ -12621,7 +12621,7 @@
    },
    {
     "Code": "25231",
-    "FullName": "Xã Đa Kia 1",
+    "FullName": "Xã Đa Kia",
     "ProvinceCode": "75"
    },
    {
@@ -14253,7 +14253,7 @@
    },
    {
     "Code": "28144",
-    "FullName": "Xã Long Hưu",
+    "FullName": "Xã Long Hựu",
     "ProvinceCode": "80"
    },
    {
@@ -14307,6 +14307,11 @@
   "Code": "82",
   "FullName": "Tỉnh Đồng Tháp",
   "Wards": [
+   {
+    "Code": "29944",
+    "FullName": "Xã An Phước",
+    "ProvinceCode": "82"
+   },
    {
     "Code": "28249",
     "FullName": "Phường Đạo Thạnh",
@@ -14640,11 +14645,6 @@
    {
     "Code": "29938",
     "FullName": "Xã Tân Thành",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29944",
-    "FullName": "Xã An Phước",
     "ProvinceCode": "82"
    },
    {
@@ -15911,7 +15911,7 @@
    },
    {
     "Code": "31027",
-    "FullName": "Xã u Minh Thượng",
+    "FullName": "Xã U Minh Thượng",
     "ProvinceCode": "91"
    },
    {
