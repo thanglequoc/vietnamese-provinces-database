@@ -21,5 +21,10 @@ func DumpDataFromSapNhapBando() {
 		panic(err)
 	}
 
+	if err := sapNhapService.BootstrapSapNhapSiteWards(); err != nil {
+		log.Fatalf("Failed to dump SapNhapSiteWards: %v", err)
+		panic(err)
+	}
+
 	log.Println("🗺️ Data dump from SapNhap Bando completed successfully")
 }

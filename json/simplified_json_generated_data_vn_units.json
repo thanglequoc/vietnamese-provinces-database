@@ -6326,9 +6326,9 @@
    },
    {
     "Code": "06367",
-    "Name": "Vũ Lãng",
+    "Name": "Vũ Lăng",
     "NameEn": "Vu Lang",
-    "FullName": "Xã Vũ Lãng",
+    "FullName": "Xã Vũ Lăng",
     "FullNameEn": "Vu Lang Commune",
     "CodeName": "vu_lang",
     "ProvinceCode": "20"
@@ -8498,9 +8498,9 @@
    },
    {
     "Code": "07996",
-    "Name": "Băng Luân",
+    "Name": "Bằng Luân",
     "NameEn": "Bang Luan",
-    "FullName": "Xã Băng Luân",
+    "FullName": "Xã Bằng Luân",
     "FullNameEn": "Bang Luan Commune",
     "CodeName": "bang_luan",
     "ProvinceCode": "25"
@@ -16813,11 +16813,11 @@
    },
    {
     "Code": "20137",
-    "Name": "Chân Mây-Lăng Cô",
-    "NameEn": "Chan May-Lang Co",
-    "FullName": "Xã Chân Mây-Lăng Cô",
-    "FullNameEn": "Chan May-Lang Co Commune",
-    "CodeName": "chan_may-lang_co",
+    "Name": "Chân Mây - Lăng Cô",
+    "NameEn": "Chan May - Lang Co",
+    "FullName": "Xã Chân Mây - Lăng Cô",
+    "FullNameEn": "Chan May - Lang Co Commune",
+    "CodeName": "chan_may_lang_co",
     "ProvinceCode": "46"
    },
    {
@@ -17102,9 +17102,9 @@
    },
    {
     "Code": "20364",
-    "Name": "Chiến Đàn",
+    "Name": "Chiên Đàn",
     "NameEn": "Chien Dan",
-    "FullName": "Xã Chiến Đàn",
+    "FullName": "Xã Chiên Đàn",
     "FullNameEn": "Chien Dan Commune",
     "CodeName": "chien_dan",
     "ProvinceCode": "48"
@@ -17156,11 +17156,11 @@
    },
    {
     "Code": "20458",
-    "Name": "A vương",
-    "NameEn": "A vuong",
-    "FullName": "Xã A vương",
-    "FullNameEn": "A vuong Commune",
-    "CodeName": "a_vuong",
+    "Name": "Avương",
+    "NameEn": "Avuong",
+    "FullName": "Xã Avương",
+    "FullNameEn": "Avuong Commune",
+    "CodeName": "avuong",
     "ProvinceCode": "48"
    },
    {
@@ -22697,11 +22697,11 @@
    },
    {
     "Code": "25231",
-    "Name": "Đa Kia 1",
-    "NameEn": "Da Kia 1",
-    "FullName": "Xã Đa Kia 1",
-    "FullNameEn": "Da Kia 1 Commune",
-    "CodeName": "da_kia_1",
+    "Name": "Đa Kia",
+    "NameEn": "Da Kia",
+    "FullName": "Xã Đa Kia",
+    "FullNameEn": "Da Kia Commune",
+    "CodeName": "da_kia",
     "ProvinceCode": "75"
    },
    {
@@ -25633,9 +25633,9 @@
    },
    {
     "Code": "28144",
-    "Name": "Long Hưu",
+    "Name": "Long Hựu",
     "NameEn": "Long Huu",
-    "FullName": "Xã Long Hưu",
+    "FullName": "Xã Long Hựu",
     "FullNameEn": "Long Huu Commune",
     "CodeName": "long_huu",
     "ProvinceCode": "80"
@@ -25731,6 +25731,15 @@
   "FullNameEn": "Dong Thap Province",
   "CodeName": "dong_thap",
   "Wards": [
+   {
+    "Code": "29944",
+    "Name": "An Phước",
+    "NameEn": "An Phuoc",
+    "FullName": "Xã An Phước",
+    "FullNameEn": "An Phuoc Commune",
+    "CodeName": "an_phuoc",
+    "ProvinceCode": "82"
+   },
    {
     "Code": "28249",
     "Name": "Đạo Thạnh",
@@ -26332,15 +26341,6 @@
     "FullName": "Xã Tân Thành",
     "FullNameEn": "Tan Thanh Commune",
     "CodeName": "tan_thanh",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29944",
-    "Name": "An Phước",
-    "NameEn": "An Phuoc",
-    "FullName": "Xã An Phước",
-    "FullNameEn": "An Phuoc Commune",
-    "CodeName": "an_phuoc",
     "ProvinceCode": "82"
    },
    {
@@ -28615,10 +28615,10 @@
    },
    {
     "Code": "31027",
-    "Name": "u Minh Thượng",
-    "NameEn": "u Minh Thuong",
-    "FullName": "Xã u Minh Thượng",
-    "FullNameEn": "u Minh Thuong Commune",
+    "Name": "U Minh Thượng",
+    "NameEn": "U Minh Thuong",
+    "FullName": "Xã U Minh Thượng",
+    "FullNameEn": "U Minh Thuong Commune",
     "CodeName": "u_minh_thuong",
     "ProvinceCode": "91"
    },

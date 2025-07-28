@@ -35,7 +35,7 @@ INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('20107', 'Xã Phú Lộc', '46'),
 ('20122', 'Xã Vinh Lộc', '46'),
 ('20131', 'Xã Hưng Lộc', '46'),
-('20137', 'Xã Chân Mây-Lăng Cô', '46'),
+('20137', 'Xã Chân Mây - Lăng Cô', '46'),
 ('20140', 'Xã Lộc An', '46'),
 ('20161', 'Xã Khe Tre', '46'),
 ('20179', 'Xã Nam Đông', '46'),
