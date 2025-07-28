@@ -25,7 +25,7 @@ INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('26380', 'Phường Long Hưng', '75'),
 ('25222', 'Xã Bù Gia Mập', '75'),
 ('25225', 'Xã Đăk Ơ', '75'),
-('25231', 'Xã Đa Kia 1', '75'),
+('25231', 'Xã Đa Kia', '75'),
 ('25246', 'Xã Bình Tân', '75'),
 ('25252', 'Xã Phú Riềng', '75'),
 ('25255', 'Xã Long Hà', '75'),

@@ -92,7 +92,7 @@ INSERT INTO wards_tmp_seed(code, name, province_code) VALUES
 ('31012', 'Xã Vĩnh Hòa', '91'),
 ('31018', 'Xã An Minh', '91'),
 ('31024', 'Xã Đông Hòa', '91'),
-('31027', 'Xã u Minh Thượng', '91'),
+('31027', 'Xã U Minh Thượng', '91'),
 ('31031', 'Xã Tân Thạnh', '91'),
 ('31036', 'Xã Đông Hưng', '91'),
 ('31042', 'Xã Vân Khánh', '91'),
