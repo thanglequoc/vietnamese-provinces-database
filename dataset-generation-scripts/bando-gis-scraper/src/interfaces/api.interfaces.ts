@@ -12,3 +12,12 @@ export interface CgiBinQGISMapServiceResponse {
     };
   }[];
 }
+
+export interface APIInterceptedRequest {
+  url: string;
+  method: string;
+  headers: Record<string, string>;
+  postData?: string;
+  response?: any;
+  timestamp: number;
+}

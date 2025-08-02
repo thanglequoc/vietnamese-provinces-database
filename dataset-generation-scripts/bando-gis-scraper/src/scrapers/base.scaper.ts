@@ -1,4 +1,0 @@
-
-export abstract class BaseScraper {
-  
-}
