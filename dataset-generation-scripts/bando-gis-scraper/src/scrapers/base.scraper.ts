@@ -18,6 +18,7 @@ export abstract class BaseScraper {
     await this.browserService.initialize();
     this.page = this.browserService.getPage();
     await this.apiInterceptorService.setupInterceptor(this.page);
+    await this.navigateToSapNhapBanDoSite();
   }
 
   protected async navigateToSapNhapBanDoSite(): Promise<void> {
