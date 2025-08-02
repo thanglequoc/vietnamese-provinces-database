@@ -42,7 +42,6 @@ export class APIInterceptorService {
   private isGISRelatedRequest(url: string): boolean {
     const gisRequestEndpointPattern = [
       'email.bando.com.vn/cgi-bin/qgis_mapserv.fcgi.exe',
-      ''
     ]
     return gisRequestEndpointPattern.some(pattern => url.toLowerCase().includes(pattern.toLowerCase()))
   }
