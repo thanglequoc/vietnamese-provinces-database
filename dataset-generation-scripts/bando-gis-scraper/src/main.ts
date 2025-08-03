@@ -17,14 +17,14 @@ async function main() {
 
   try {
     await gisScraper.initialize();
-    
+
 
   } catch (error) {
     console.error('💥 Fatal error:', error);
     stats.endTime = new Date();
     stats.duration = stats.endTime.getTime() - stats.startTime.getTime();
   } finally {
-
+    
   }
 
 }

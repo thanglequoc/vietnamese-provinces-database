@@ -9,7 +9,9 @@ export class APIInterceptorService {
       const request = route.request();
       const url = request.url();
 
-      if (this.isGISRelatedRequest(url)) {
+      if (this.shouldInterceptRequest(url)) {
+        console.log("Intercepted URL: ", url)
+        
         const interceptedRequest: APIInterceptedRequest = {
           url: url,
           method: request.method(),
@@ -39,10 +41,11 @@ export class APIInterceptorService {
     })
   }
 
-  private isGISRelatedRequest(url: string): boolean {
-    const gisRequestEndpointPattern = [
-      'email.bando.com.vn/cgi-bin/qgis_mapserv.fcgi.exe',
-    ]
-    return gisRequestEndpointPattern.some(pattern => url.toLowerCase().includes(pattern.toLowerCase()))
+  private shouldInterceptRequest(url: string): boolean {
+    const gisServerEndpoint = 'email.bando.com.vn/cgi-bin/qgis_mapserv.fcgi.exe'
+    if (url.includes(gisServerEndpoint) && url.includes('INFO_FORMAT=application%2Fjson')) {
+      return true;
+    }
+    return false;
   }
 }
