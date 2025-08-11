@@ -2,6 +2,7 @@ import { BaseScraper } from "./base.scraper";
 
 import { ProvinceData } from "../interfaces/scraper.interfaces"
 import { SCRAPER_CONFIG } from "../config";
+import { Locator } from "@playwright/test";
 
 // TODO @thangle: Implement the GIS scraper
 export class BandoGISScraper extends BaseScraper {
@@ -11,31 +12,40 @@ export class BandoGISScraper extends BaseScraper {
     const provinces = await this.getProvinceList()
     console.log(`Found ${provinces.length} provinces`);
 
+    
+
   }
 
   private async getProvinceList(): Promise<ProvinceData[]> {
     if (!this.page) throw new Error('Page not initialized');
 
-    const provinces: ProvinceData[] = [];
+    console.log('🏛️ Collecting all provinces from Tabulator virtual table...');
 
-    const provinceTableSelector = await this.page.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
-    if (provinceTableSelector.length === 0) {
-      throw new Error('Unable to locate the province table');
-    }
-    const provinceTable = provinceTableSelector[0];
-
-    const rows = await provinceTable.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW).all();
-    for (const row of rows) {
+    const itemExtractor = async (row: Locator): Promise<ProvinceData> => {
       const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
-
       if (cells.length >= 3) {
         const stt = await cells[0].textContent() || '';
         const ten = await cells[1].textContent() || '';
         const truocsn = await cells[2].textContent() || '';
 
-        provinces.push({ stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() });
+        return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
       }
+      throw new Error('Invalid row structure');
+    };
+
+    // Get the first table (provinces) and scroll through it
+    const provinceTables = await this.page.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
+    if (provinceTables.length === 0) {
+      throw new Error('Province table not found');
     }
+
+    // Use the Tabulator-aware scrolling method from base class
+    const provinces = await this.scrollAndCollectAllItems(
+      SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE, // Target first table
+      SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
+      itemExtractor,
+      SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER
+    );
 
     return provinces;
   }

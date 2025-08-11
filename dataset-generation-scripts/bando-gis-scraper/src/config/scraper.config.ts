@@ -6,17 +6,31 @@ export const SCRAPER_CONFIG = {
     PROVINCE_ROW: '.tabulator-row[role="row"]',
     WARD_TABLE: '.tabulator-table[role="rowgroup"]',
     WARD_ROW: '.tabulator-row[role="row"]',
-    CELL: '.tabulator-cell[role="gridcell"]'
+    CELL: '.tabulator-cell[role="gridcell"]',
+    // Tabulator specific selectors
+    TABLE_HOLDER: '.tabulator-tableholder',
+    TABULATOR_ROOT: '.tabulator'
   },
   TIMEOUTS: {
     PAGE_LOAD: 30000,
     ELEMENT_WAIT: 10000,
     REQUEST_WAIT: 5000,
-    BETWEEN_CLICKS: 1000
+    BETWEEN_CLICKS: 1000,
+    SCROLL_WAIT: 2000,
+    STABILIZATION_WAIT: 1000
   },
   RETRY: {
     MAX_ATTEMPTS: 3,
     DELAY: 2000
+  },
+  SCROLLING: {
+    SCROLL_STEP: 200, // Smaller steps for Tabulator virtual scrolling
+    MAX_SCROLL_ATTEMPTS: 50, // Reduced for virtual tables
+    SCROLL_DELAY: 300, // Faster response for virtual scrolling
+    STABILITY_CHECK_ATTEMPTS: 3,
+    DUPLICATE_CHECK_THRESHOLD: 3, // Lower threshold for virtual scrolling
+    VIRTUAL_SCROLL_WAIT: 200, // Wait for virtual scroll updates
+    ESTIMATED_ROW_HEIGHT: 29 // Based on your HTML structure
   }
 };
 
