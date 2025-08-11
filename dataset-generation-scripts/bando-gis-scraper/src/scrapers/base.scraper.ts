@@ -1,4 +1,4 @@
-import { Page } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 import { APIInterceptorService } from "../services/api-interceptor.service";
 import { BrowserService } from "../services/browser.service";
 import { SCRAPER_CONFIG } from "../config";

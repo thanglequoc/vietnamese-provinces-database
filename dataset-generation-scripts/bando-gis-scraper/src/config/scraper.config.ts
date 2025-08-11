@@ -2,7 +2,7 @@
 export const SCRAPER_CONFIG = {
   BASE_URL: 'https://sapnhap.bando.com.vn/',
   SELECTORS: {
-    PROVINCE_TABLE: '.tabulator-table[role="rowgroup"]',
+    PROVINCE_TABLE: '#bangtinh .tabulator-table[role="rowgroup"]',
     PROVINCE_ROW: '.tabulator-row[role="row"]',
     WARD_TABLE: '.tabulator-table[role="rowgroup"]',
     WARD_ROW: '.tabulator-row[role="row"]',

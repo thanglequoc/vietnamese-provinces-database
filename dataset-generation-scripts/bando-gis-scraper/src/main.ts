@@ -18,6 +18,8 @@ async function main() {
   try {
     await gisScraper.initialize();
 
+    const result = gisScraper.scrapeAll();
+
 
   } catch (error) {
     console.error('💥 Fatal error:', error);
