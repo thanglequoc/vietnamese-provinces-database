@@ -12,8 +12,62 @@ export class BandoGISScraper extends BaseScraper {
     const provinces = await this.getProvinceList()
     console.log(`Found ${provinces.length} provinces`);
 
-    
+    for (let i = 0; i < provinces.length; i++) {
+      const province = provinces[i];
+      console.log(`Processing province ${i + 1}/${provinces.length}: ${province.ten}`);
 
+      try {
+        // click on the province and get both GIS and info data
+        const provinceData = await this.clickProvinceAndGetGIS(i, provinces[i]);
+      } catch (err) {
+        console.log("TODO @thangle: Improving...")
+      }
+    }
+  }
+
+  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<void> {
+    if (!this.page) throw new Error('Page not initialized');
+
+    return await this.retryOperation(async () => {
+      // Set user action context and clear previous interceptor tracking data
+      this.apiInterceptorService.setUserAction('province_click');
+      this.apiInterceptorService.clearInterceptedData();
+
+      const timestamp = Date.now();
+
+      // Scroll to make the target province visible and get its current index
+      const itemExtractor = async (row: Locator): Promise<ProvinceData> => {
+        const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
+        if (cells.length >= 3) {
+          const stt = await cells[0].textContent() || '';
+          const ten = await cells[1].textContent() || '';
+          const truocsn = await cells[2].textContent() || '';
+          return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+        }
+        throw new Error('Invalid row structure');
+      };
+
+      const visibleIndex = await this.scrollToItem(
+        SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE,
+        SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
+        itemExtractor,
+        targetProvince,
+        SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER
+      );
+
+      // Now click on the visible row
+      const provinceTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
+      const provinceTable = provinceTables[0];
+      const rows = await provinceTable.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW).all();
+
+      if (visibleIndex >= rows.length) {
+        throw new Error(`Province visible index ${visibleIndex} out of bounds`);
+      }
+
+      console.log(`🎯 Clicking on province "${targetProvince.ten}" at visible index ${visibleIndex}`);
+      await rows[visibleIndex].click();
+      await this.waitForNetworkIdle();
+    })
   }
 
   private async getProvinceList(): Promise<ProvinceData[]> {
