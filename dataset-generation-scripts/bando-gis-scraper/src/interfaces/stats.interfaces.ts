@@ -1,12 +1,10 @@
 export interface ScrapingStats {
   totalProvinces: number;
-  processedProvinces: number;
   totalWards: number;
-  processedWards: number;
-  apiResponsesCaptured: number;
-  errors: ScrapingError[];
-  startTime: number;
-  endTime?: number;
+  successfulRequests: number;
+  failedRequests: number;
+  startTime: Date;
+  endTime?: Date;
   duration?: number;
 }
 

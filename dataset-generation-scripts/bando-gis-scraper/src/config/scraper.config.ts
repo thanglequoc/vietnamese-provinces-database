@@ -1,17 +1,36 @@
-import { ScrapingConfig } from "../interfaces/scraper.intefaces";
 
-export const DEFAULT_CONFIG: Required<ScrapingConfig> = {
-  websiteUrl: process.env.BANDO_WEBSITE_URL || '',
-  headless: process.env.NODE_ENV === 'production',
-  delayBetweenClicks: parseInt(process.env.DELAY_BETWEEN_CLICKS || '1500'),
-  delayBetweenProvinces: parseInt(process.env.DELAY_BETWEEN_PROVINCES || '3000'),
-  outputFile: process.env.OUTPUT_FILE || 'vietnamese_gis_data.json',
-  maxRetries: parseInt(process.env.MAX_RETRIES || '3'),
-  timeout: parseInt(process.env.TIMEOUT || '30000'),
-  userAgent: process.env.USER_AGENT || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  viewport: {
-    width: parseInt(process.env.VIEWPORT_WIDTH || '1400'),
-    height: parseInt(process.env.VIEWPORT_HEIGHT || '900')
+export const SCRAPER_CONFIG = {
+  BASE_URL: 'https://sapnhap.bando.com.vn/',
+  SELECTORS: {
+    PROVINCE_TABLE: '#bangtinh .tabulator-table[role="rowgroup"]',
+    PROVINCE_ROW: '.tabulator-row[role="row"]',
+    WARD_TABLE: '.tabulator-table[role="rowgroup"]',
+    WARD_ROW: '.tabulator-row[role="row"]',
+    CELL: '.tabulator-cell[role="gridcell"]',
+    // Tabulator specific selectors
+    TABLE_HOLDER: '.tabulator-tableholder',
+    TABULATOR_ROOT: '.tabulator'
+  },
+  TIMEOUTS: {
+    PAGE_LOAD: 30000,
+    ELEMENT_WAIT: 10000,
+    REQUEST_WAIT: 5000,
+    BETWEEN_CLICKS: 1000,
+    SCROLL_WAIT: 2000,
+    STABILIZATION_WAIT: 1000
+  },
+  RETRY: {
+    MAX_ATTEMPTS: 3,
+    DELAY: 2000
+  },
+  SCROLLING: {
+    SCROLL_STEP: 200, // Smaller steps for Tabulator virtual scrolling
+    MAX_SCROLL_ATTEMPTS: 50, // Reduced for virtual tables
+    SCROLL_DELAY: 300, // Faster response for virtual scrolling
+    STABILITY_CHECK_ATTEMPTS: 3,
+    DUPLICATE_CHECK_THRESHOLD: 3, // Lower threshold for virtual scrolling
+    VIRTUAL_SCROLL_WAIT: 200, // Wait for virtual scroll updates
+    ESTIMATED_ROW_HEIGHT: 29 // Based on your HTML structure
   }
 };
 

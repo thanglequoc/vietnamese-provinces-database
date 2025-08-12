@@ -1,18 +1,34 @@
 import path from "path";
-import { DEFAULT_CONFIG } from "./config";
-import { ScrapingConfig } from "./interfaces";
+import { ScrapingStats } from "./interfaces";
+import { BandoGISScraper } from "./scrapers/bando-gis.scrapers";
 
 async function main() {
   console.log("Starting web scraping activity...")
 
-  const config: ScrapingConfig = {
-    ...DEFAULT_CONFIG,
-    websiteUrl: process.env.TARGET_WEBSITE_URL || 'YOUR_WEBSITE_URL_HERE',
-    headless: process.env.NODE_ENV === 'production',
-    outputFile: path.join('output', 'vietnamese_gis_complete.json')
+  const gisScraper = new BandoGISScraper();
+
+  const stats: ScrapingStats = {
+    totalProvinces: 0,
+    totalWards: 0,
+    successfulRequests: 0,
+    failedRequests: 0,
+    startTime: new Date()
   };
 
-  
+  try {
+    await gisScraper.initialize();
+
+    const result = gisScraper.scrapeAll();
+
+
+  } catch (error) {
+    console.error('💥 Fatal error:', error);
+    stats.endTime = new Date();
+    stats.duration = stats.endTime.getTime() - stats.startTime.getTime();
+  } finally {
+    
+  }
+
 }
 
 if (require.main === module) {
