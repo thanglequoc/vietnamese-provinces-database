@@ -1,8 +1,18 @@
 import { Page, Route } from "@playwright/test";
-import { APIInterceptedRequest } from "../interfaces";
+import { APIInterceptedRequest, ResponseType } from "../interfaces";
 
 export class APIInterceptorService {
   private interceptedRequests: APIInterceptedRequest[] = [];
+  private currentUserAction: 'province_click' | 'ward_click' | 'page_load' = 'page_load'
+
+  // Categorized response storage
+    private responsesByType: Map<ResponseType, any[]> = new Map([
+      [ResponseType.PROVINCE_INFO, []],
+      [ResponseType.WARD_INFO, []],
+      [ResponseType.PROVINCE_GIS, []],
+      [ResponseType.WARD_GIS, []],
+      [ResponseType.UNKNOWN, []]
+    ]);
 
   async setupInterceptor(page: Page): Promise<void> {
     await page.route('**/*', async (route: Route) => {
@@ -50,5 +60,22 @@ export class APIInterceptorService {
       return true;
     }
     return false;
+  }
+
+  setUserAction(action: 'province_click' | 'ward_click' | 'page_load'): void {
+    this.currentUserAction = action;
+  }
+
+  // Clear data with optional type filter
+  clearInterceptedData(type?: ResponseType): void {
+    if (type) {
+      this.responsesByType.set(type, []);
+      this.interceptedRequests = this.interceptedRequests.filter(req => req.responseType !== type);
+    } else {
+      this.interceptedRequests = [];
+      this.responsesByType.forEach((_, key) => {
+        this.responsesByType.set(key, []);
+      });
+    }
   }
 }

@@ -20,4 +20,14 @@ export interface APIInterceptedRequest {
   postData?: string;
   response?: any;
   timestamp: number;
+  responseType?: ResponseType;
+  userAction?: 'province_click' | 'ward_click' | 'page_load';
+}
+
+export enum ResponseType {
+  PROVINCE_INFO = 'province_info',
+  WARD_INFO = 'ward_info',
+  PROVINCE_GIS = 'province_gis',
+  WARD_GIS = 'ward_gis',
+  UNKNOWN = 'unknown'
 }
