@@ -3,6 +3,7 @@ import { BaseScraper } from "./base.scraper";
 import { ProvinceData } from "../interfaces/scraper.interfaces"
 import { SCRAPER_CONFIG } from "../config";
 import { Locator } from "@playwright/test";
+import { ProvinceGISServerResponse, ResponseType } from "../interfaces";
 
 // TODO @thangle: Implement the GIS scraper
 export class BandoGISScraper extends BaseScraper {
@@ -25,7 +26,7 @@ export class BandoGISScraper extends BaseScraper {
     }
   }
 
-  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<void> {
+  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<{ gisData?: ProvinceGISServerResponse}> {
     if (!this.page) throw new Error('Page not initialized');
 
     return await this.retryOperation(async () => {
@@ -67,6 +68,13 @@ export class BandoGISScraper extends BaseScraper {
       console.log(`🎯 Clicking on province "${targetProvince.ten}" at visible index ${visibleIndex}`);
       await rows[visibleIndex].click();
       await this.waitForNetworkIdle();
+
+      // Get responsed that came after the click
+      const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.PROVINCE_GIS);
+
+      return {
+        gisData: gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined,
+      }
     })
   }
 

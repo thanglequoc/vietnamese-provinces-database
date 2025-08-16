@@ -32,8 +32,19 @@ export class APIInterceptorService {
         try {
           const response = await route.fetch();
           const responseData = await response.json();
+          const responseType = this.classifyResponseType(url, responseData);
+          
           interceptedRequest.response = responseData;
+          interceptedRequest.responseType = responseType;
+
           this.interceptedRequests.push(interceptedRequest);
+
+          // also store response by types
+          this.responsesByType.get(responseType)?.push({
+            ...interceptedRequest,
+            responseType: responseType
+          })
+
           
           await route.fulfill({
             response: response,
@@ -77,5 +88,33 @@ export class APIInterceptorService {
         this.responsesByType.set(key, []);
       });
     }
+  }
+
+  // Get responses since a specific timestamp (useful for getting responses after a click)
+  getResponsesSince(timestamp: number, type?: ResponseType): any[] {
+    let responses = this.interceptedRequests.filter(req => req.timestamp > timestamp);
+    
+    if (type) {
+      responses = responses.filter(req => req.responseType === type);
+    }
+    
+    return responses;
+  }
+
+  private classifyResponseType(url: string, responseData: any): ResponseType {
+    const urlLower = url.toLowerCase();
+
+    const responseDataJsonString = JSON.stringify(responseData);
+
+    // Is GIS Server response
+    if (urlLower.includes('email.bando.com.vn/cgi-bin/qgis_mapserv.fcgi.exe')) {
+      if (responseDataJsonString.includes('"matinh"')) {
+        return ResponseType.PROVINCE_GIS
+      } else {
+        return ResponseType.WARD_GIS
+      }
+    }
+
+    return ResponseType.UNKNOWN;
   }
 }

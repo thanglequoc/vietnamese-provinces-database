@@ -31,3 +31,30 @@ export enum ResponseType {
   WARD_GIS = 'ward_gis',
   UNKNOWN = 'unknown'
 }
+
+interface FeatureCollection<T> {
+  features: Feature<T>[];
+  type: "FeatureCollection";
+}
+
+interface Feature<T> {
+  geometry: null;
+  id: string;
+  properties: T;
+  type: "Feature";
+}
+
+interface ProvinceProperties {
+  matinh: string;
+}
+
+interface WardProperties {
+  matinhxa: string;
+  maxa: number;
+}
+
+// Unioned responses
+export type ProvinceGISServerResponse = FeatureCollection<ProvinceProperties>;
+export type WardGISServerResponse = FeatureCollection<WardProperties>;
+// If you want a single type that can be either:
+export type GISMapServerResponse = ProvinceGISServerResponse | WardGISServerResponse;
