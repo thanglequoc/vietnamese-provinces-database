@@ -4,11 +4,12 @@ export const SCRAPER_CONFIG = {
   SELECTORS: {
     PROVINCE_TABLE: '#bangtinh .tabulator-table[role="rowgroup"]',
     PROVINCE_ROW: '.tabulator-row[role="row"]',
-    WARD_TABLE: '.tabulator-table[role="rowgroup"]',
+    WARD_TABLE: '#bangxa .tabulator-table[role="rowgroup"]',
     WARD_ROW: '.tabulator-row[role="row"]',
     CELL: '.tabulator-cell[role="gridcell"]',
     // Tabulator specific selectors
-    TABLE_HOLDER: '.tabulator-tableholder',
+    PROVINCE_TABLE_HOLDER: '#bangtinh .tabulator-tableholder',
+    WARD_TABLE_HOLDER: '#bangxa .tabulator-tableholder',
     TABULATOR_ROOT: '.tabulator'
   },
   TIMEOUTS: {

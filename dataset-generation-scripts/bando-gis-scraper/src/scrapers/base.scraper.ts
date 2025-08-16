@@ -70,7 +70,7 @@ export abstract class BaseScraper {
     tableSelector: string,
     rowSelector: string,
     itemExtractor: (row: Locator) => Promise<T>,
-    containerSelector?: string
+    containerSelector: string
   ): Promise<T[]> {
     if (!this.page) throw new Error('Page not initialized');
 
@@ -84,9 +84,7 @@ export abstract class BaseScraper {
     console.log(`📜 Starting Tabulator virtual scroll collection from ${tableSelector}`);
 
     // Find the scrollable container
-    const scrollContainer = containerSelector 
-      ? this.page.locator(containerSelector).first()
-      : this.page.locator(SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER).first();
+    const scrollContainer = this.page.locator(containerSelector).first()
 
     // Reset to top
     await this.scrollToTop(scrollContainer);
@@ -316,13 +314,11 @@ export abstract class BaseScraper {
     rowSelector: string,
     itemExtractor: (row: Locator) => Promise<T>,
     targetItem: T,
-    containerSelector?: string
+    containerSelector: string
   ): Promise<number> {
     if (!this.page) throw new Error('Page not initialized');
 
-    const scrollContainer = containerSelector 
-      ? this.page.locator(containerSelector).first()
-      : this.page.locator(SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER).first();
+    const scrollContainer = this.page.locator(containerSelector).first();
 
     const table = this.page.locator(tableSelector).first();
     const targetKey = this.generateItemKey(targetItem);
