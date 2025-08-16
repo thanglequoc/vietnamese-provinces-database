@@ -1,13 +1,20 @@
 import { BaseScraper } from "./base.scraper";
 
-import { ProvinceData } from "../interfaces/scraper.interfaces"
+import { ProvinceData, WardData } from "../interfaces/scraper.interfaces"
 import { SCRAPER_CONFIG } from "../config";
 import { Locator } from "@playwright/test";
+import { ProvinceGISServerResponse, ResponseType, ScrapingResult, WardGISServerResponse } from "../interfaces";
 
 // TODO @thangle: Implement the GIS scraper
 export class BandoGISScraper extends BaseScraper {
   async scrapeAll(): Promise<void> {
-    // TODO @thangle: Implement the scrape all function
+    const result: ScrapingResult = {
+      provinces: [],
+      wards: [],
+      totalRequests: 0,
+      errors: [],
+      startTime: new Date(),
+    };
 
     const provinces = await this.getProvinceList()
     console.log(`Found ${provinces.length} provinces`);
@@ -19,13 +26,66 @@ export class BandoGISScraper extends BaseScraper {
       try {
         // click on the province and get both GIS and info data
         const provinceData = await this.clickProvinceAndGetGIS(i, provinces[i]);
-      } catch (err) {
-        console.log("TODO @thangle: Improving...")
+
+        // Get wards for this province
+        const wards = await this.getWardList();
+        console.log(`Found ${wards.length} wards for ${province.ten}`);
+
+        // Scrape each ward
+        for (let j = 0; j < wards.length; j++) {
+          const ward = wards[j]
+          ward.provinceName = province.ten
+
+          try {
+            await this.clickWardAndGetGIS(j, ward)
+          } catch (error) {
+            const errorMsg = `Error scraping ward ${ward.ten}: ${error}`;
+            console.error(errorMsg);
+            result.errors.push(errorMsg);
+          }
+        }
+      } catch (error) {
+        const errorMsg = `Error scraping province ${province.ten}: ${error}`;
+        console.error(errorMsg);
+        result.errors.push(errorMsg);
       }
     }
+
+    result.endTime = new Date();
   }
 
-  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<void> {
+  private async getWardList(): Promise<WardData[]> {
+    if (!this.page) throw new Error('Page not initialized');
+    console.log('🏘️ Collecting all wards from Tabulator virtual table...');
+
+    const itemExtractor = async (row: Locator): Promise<WardData> => {
+      const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
+      if (cells.length >= 3) {
+        const stt = await cells[0].textContent() || '';
+        const ten = await cells[1].textContent() || '';
+        const truocsn = await cells[2].textContent() || '';
+
+        return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+      }
+      throw new Error('Invalid row structure');
+    };
+
+    const wardTables = await this.page.locator(SCRAPER_CONFIG.SELECTORS.WARD_TABLE).all();
+    if (wardTables.length === 0) {
+      throw new Error('Ward table not found');
+    }
+
+    const wards = await this.scrollAndCollectAllItems(
+      SCRAPER_CONFIG.SELECTORS.WARD_TABLE,
+      SCRAPER_CONFIG.SELECTORS.WARD_ROW,
+      itemExtractor,
+      SCRAPER_CONFIG.SELECTORS.WARD_TABLE_HOLDER
+    );
+
+    return wards;
+  }
+
+  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<{ gisData?: ProvinceGISServerResponse }> {
     if (!this.page) throw new Error('Page not initialized');
 
     return await this.retryOperation(async () => {
@@ -52,7 +112,7 @@ export class BandoGISScraper extends BaseScraper {
         SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
         itemExtractor,
         targetProvince,
-        SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER
+        SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE_HOLDER
       );
 
       // Now click on the visible row
@@ -67,7 +127,65 @@ export class BandoGISScraper extends BaseScraper {
       console.log(`🎯 Clicking on province "${targetProvince.ten}" at visible index ${visibleIndex}`);
       await rows[visibleIndex].click();
       await this.waitForNetworkIdle();
+
+      // Get responsed that came after the click
+      const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.PROVINCE_GIS);
+
+      return {
+        gisData: gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined,
+      }
     })
+  }
+
+  private async clickWardAndGetGIS(wardIndex: number, targetWard: WardData): Promise<{ gisData?: WardGISServerResponse }> {
+    if (!this.page) throw new Error('Page not initialized');
+
+    return await this.retryOperation(async () => {
+      // Set user action context and clear previous data
+      this.apiInterceptorService.setUserAction('ward_click');
+      this.apiInterceptorService.clearInterceptedData();
+
+      const timestamp = Date.now();
+
+      // Scroll to make the target ward visible and get its current index
+      const itemExtractor = async (row: Locator): Promise<WardData> => {
+        const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
+        if (cells.length >= 3) {
+          const stt = await cells[0].textContent() || '';
+          const ten = await cells[1].textContent() || '';
+          const truocsn = await cells[2].textContent() || '';
+          return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+        }
+        throw new Error('Invalid row structure');
+      };
+
+      const visibleIndex = await this.scrollToItem(
+        SCRAPER_CONFIG.SELECTORS.WARD_TABLE,
+        SCRAPER_CONFIG.SELECTORS.WARD_ROW,
+        itemExtractor,
+        targetWard,
+        SCRAPER_CONFIG.SELECTORS.WARD_TABLE_HOLDER
+      );
+
+      // Now click on the visible row
+      const wardTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.WARD_TABLE).all();
+      const wardTable = wardTables[0];
+      const rows = await wardTable.locator(SCRAPER_CONFIG.SELECTORS.WARD_ROW).all();
+
+      if (visibleIndex >= rows.length) {
+        throw new Error(`Ward visible index ${visibleIndex} out of bounds`);
+      }
+
+      console.log(`🎯 Clicking on ward "${targetWard.ten}" at visible index ${visibleIndex}`);
+      await rows[visibleIndex].click();
+      await this.waitForNetworkIdle();
+
+      // Get responsed that came after the click
+      const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.WARD_GIS);
+      return {
+        gisData: gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined,
+      }
+    });
   }
 
   private async getProvinceList(): Promise<ProvinceData[]> {
@@ -98,7 +216,7 @@ export class BandoGISScraper extends BaseScraper {
       SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE, // Target first table
       SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
       itemExtractor,
-      SCRAPER_CONFIG.SELECTORS.TABLE_HOLDER
+      SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE_HOLDER
     );
 
     return provinces;

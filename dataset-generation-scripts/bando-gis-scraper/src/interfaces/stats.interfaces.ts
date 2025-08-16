@@ -1,12 +1,15 @@
-export interface ScrapingStats {
-  totalProvinces: number;
-  totalWards: number;
-  successfulRequests: number;
-  failedRequests: number;
+import { ProvinceData, WardData } from "./scraper.interfaces";
+
+export interface ScrapingResult {
+  provinces: ProvinceData[];
+  wards: WardData[];
+  totalRequests: number;
   startTime: Date;
   endTime?: Date;
   duration?: number;
+  errors: string[];
 }
+
 
 export interface ScrapingError {
   type: 'province' | 'ward' | 'api' | 'browser' | 'general';
