@@ -5,9 +5,8 @@ import { SCRAPER_CONFIG } from "../config";
 import { Locator } from "@playwright/test";
 import { APIInterceptedRequest, ResponseType, ScrapingResult } from "../interfaces";
 
-// TODO @thangle: Implement the GIS scraper
 export class BandoGISScraper extends BaseScraper {
-  async scrapeAll(): Promise<void> {
+  async scrapeAll(): Promise<ScrapingResult> {
     const result: ScrapingResult = {
       provinces: [],
       wards: [],
@@ -19,6 +18,7 @@ export class BandoGISScraper extends BaseScraper {
     const provinces = await this.getProvinceList()
     console.log(`Found ${provinces.length} provinces`);
     this.apiInterceptorService.clearInterceptedData(ResponseType.PROVINCE_GIS);
+    this.apiInterceptorService.clearInterceptedData(ResponseType.WARD_GIS);
 
     for (let i = 0; i < provinces.length; i++) {
       const province = provinces[i];
@@ -28,9 +28,13 @@ export class BandoGISScraper extends BaseScraper {
         // click on the province and get both GIS and info data
         const provinceGISData = await this.clickProvinceAndGetGIS(i, provinces[i]);
         console.log(`Province ${province.ten} - GIS: ${JSON.stringify(provinceGISData)}`)
+        province.gisServerResponse = JSON.stringify(provinceGISData);
+        result.provinces.push(province);
+
         // Get wards for this province
         const wards = await this.getWardList();
         console.log(`Found ${wards.length} wards for ${province.ten}`);
+        result.totalRequests++;
 
         // Scrape each ward
         for (let j = 0; j < wards.length; j++) {
@@ -39,6 +43,9 @@ export class BandoGISScraper extends BaseScraper {
 
           try {
             const wardGISData = await this.clickWardAndGetGIS(j, ward)
+            ward.gisServerResponse = JSON.stringify(wardGISData);
+            result.wards.push(ward);
+            result.totalRequests++;
             console.log(`Ward ${ward.ten} - GIS: ${JSON.stringify(wardGISData)}`)
           } catch (error) {
             const errorMsg = `Error scraping ward ${ward.ten}: ${error}`;
@@ -51,9 +58,13 @@ export class BandoGISScraper extends BaseScraper {
         console.error(errorMsg);
         result.errors.push(errorMsg);
       }
+
+      await this.page?.waitForTimeout(SCRAPER_CONFIG.TIMEOUTS.BETWEEN_CLICKS);
     }
 
     result.endTime = new Date();
+    result.duration = result.endTime.getTime() - result.startTime.getTime();
+    return result;
   }
 
   private async getWardList(): Promise<WardData[]> {
