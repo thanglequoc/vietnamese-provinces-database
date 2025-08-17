@@ -3,7 +3,7 @@ import { BaseScraper } from "./base.scraper";
 import { ProvinceData, WardData } from "../interfaces/scraper.interfaces"
 import { SCRAPER_CONFIG } from "../config";
 import { Locator } from "@playwright/test";
-import { ProvinceGISServerResponse, ResponseType, ScrapingResult, WardGISServerResponse } from "../interfaces";
+import { APIInterceptedRequest, ResponseType, ScrapingResult } from "../interfaces";
 
 // TODO @thangle: Implement the GIS scraper
 export class BandoGISScraper extends BaseScraper {
@@ -18,6 +18,7 @@ export class BandoGISScraper extends BaseScraper {
 
     const provinces = await this.getProvinceList()
     console.log(`Found ${provinces.length} provinces`);
+    this.apiInterceptorService.clearInterceptedData(ResponseType.PROVINCE_GIS);
 
     for (let i = 0; i < provinces.length; i++) {
       const province = provinces[i];
@@ -25,8 +26,8 @@ export class BandoGISScraper extends BaseScraper {
 
       try {
         // click on the province and get both GIS and info data
-        const provinceData = await this.clickProvinceAndGetGIS(i, provinces[i]);
-
+        const provinceGISData = await this.clickProvinceAndGetGIS(i, provinces[i]);
+        console.log(`Province ${province.ten} - GIS: ${JSON.stringify(provinceGISData)}`)
         // Get wards for this province
         const wards = await this.getWardList();
         console.log(`Found ${wards.length} wards for ${province.ten}`);
@@ -37,7 +38,8 @@ export class BandoGISScraper extends BaseScraper {
           ward.provinceName = province.ten
 
           try {
-            await this.clickWardAndGetGIS(j, ward)
+            const wardGISData = await this.clickWardAndGetGIS(j, ward)
+            console.log(`Ward ${ward.ten} - GIS: ${JSON.stringify(wardGISData)}`)
           } catch (error) {
             const errorMsg = `Error scraping ward ${ward.ten}: ${error}`;
             console.error(errorMsg);
@@ -85,7 +87,7 @@ export class BandoGISScraper extends BaseScraper {
     return wards;
   }
 
-  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<{ gisData?: ProvinceGISServerResponse }> {
+  private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<APIInterceptedRequest> {
     if (!this.page) throw new Error('Page not initialized');
 
     return await this.retryOperation(async () => {
@@ -131,13 +133,11 @@ export class BandoGISScraper extends BaseScraper {
       // Get responsed that came after the click
       const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.PROVINCE_GIS);
 
-      return {
-        gisData: gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined,
-      }
+      return gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined
     })
   }
 
-  private async clickWardAndGetGIS(wardIndex: number, targetWard: WardData): Promise<{ gisData?: WardGISServerResponse }> {
+  private async clickWardAndGetGIS(wardIndex: number, targetWard: WardData): Promise<APIInterceptedRequest> {
     if (!this.page) throw new Error('Page not initialized');
 
     return await this.retryOperation(async () => {
@@ -182,9 +182,7 @@ export class BandoGISScraper extends BaseScraper {
 
       // Get responsed that came after the click
       const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.WARD_GIS);
-      return {
-        gisData: gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined,
-      }
+      return gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined
     });
   }
 
