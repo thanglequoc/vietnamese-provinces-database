@@ -8,7 +8,7 @@ export class BrowserService {
   async initialize(): Promise<void> {
     this.browser = await chromium.launch({
       headless: false,
-      slowMo: 500,
+      slowMo: 200,
     })
 
     this.context = await this.browser.newContext({
