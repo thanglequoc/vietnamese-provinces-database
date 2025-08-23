@@ -45,7 +45,7 @@ type SapNhapSiteWard struct {
 	Ward                model.Ward          `bun:"rel:belongs-to,join:vn_ward_code=code"`
 }
 
-type SapNhapProvinceGis struct {
+type SapNhapProvinceGIS struct {
 	bun.BaseModel `bun:"table:sapnhap_provinces_gis,alias:spg"`
 
 	Stt                   int                 `json:"stt" bun:"stt"`
@@ -56,7 +56,7 @@ type SapNhapProvinceGis struct {
 	SapNhapSiteProvince   SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
 }
 
-type SapNhapWardGis struct {
+type SapNhapWardGIS struct {
 	bun.BaseModel `bun:"table:sapnhap_wards_gis,alias:swg"`
 
 	Stt             int             `json:"stt" bun:"stt"`
