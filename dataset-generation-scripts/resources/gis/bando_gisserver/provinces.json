@@ -1,0 +1,206 @@
+[
+  {
+    "stt": "1",
+    "ten": "Thủ đô Hà Nội",
+    "truocsn": "Thủ đô Hà Nội (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.7\",\"properties\":{\"matinh\":\"1\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "2",
+    "ten": "tỉnh Cao Bằng",
+    "truocsn": "tỉnh Cao Bằng (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.11\",\"properties\":{\"matinh\":\"7\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "3",
+    "ten": "tỉnh Tuyên Quang",
+    "truocsn": "tỉnh Hà Giang và tỉnh Tuyên Quang",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.32\",\"properties\":{\"matinh\":\"8\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "4",
+    "ten": "tỉnh Lào Cai",
+    "truocsn": "tỉnh Yên Bái và tỉnh Lào Cai",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.29\",\"properties\":{\"matinh\":\"9\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "5",
+    "ten": "tỉnh Điện Biên",
+    "truocsn": "tỉnh Điện Biên (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.8\",\"properties\":{\"matinh\":\"13\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "6",
+    "ten": "tỉnh Lai Châu",
+    "truocsn": "tỉnh Lai Châu (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.10\",\"properties\":{\"matinh\":\"14\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "7",
+    "ten": "tỉnh Sơn La",
+    "truocsn": "tỉnh Sơn La (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.9\",\"properties\":{\"matinh\":\"15\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "8",
+    "ten": "tỉnh Thái Nguyên",
+    "truocsn": "tỉnh Bắc Kạn và tỉnh Thái Nguyên",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.30\",\"properties\":{\"matinh\":\"10\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "9",
+    "ten": "tỉnh Lạng Sơn",
+    "truocsn": "tỉnh Lạng Sơn (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.5\",\"properties\":{\"matinh\":\"11\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "10",
+    "ten": "tỉnh Quảng Ninh",
+    "truocsn": "tỉnh Quảng Ninh (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.6\",\"properties\":{\"matinh\":\"3\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "11",
+    "ten": "tỉnh Phú Thọ",
+    "truocsn": "tỉnh Vĩnh Phúc, tỉnh Hòa Bình và tỉnh Phú Thọ",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.33\",\"properties\":{\"matinh\":\"12\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "12",
+    "ten": "tỉnh Bắc Ninh",
+    "truocsn": "tỉnh Bắc Giang và tỉnh Bắc Ninh",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.31\",\"properties\":{\"matinh\":\"2\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "13",
+    "ten": "thành phố Hải Phòng",
+    "truocsn": "thành phố Hải Phòng và tỉnh Hải Dương",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.28\",\"properties\":{\"matinh\":\"4\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "14",
+    "ten": "tỉnh Hưng Yên",
+    "truocsn": "tỉnh Thái Bình và tỉnh Hưng Yên",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.26\",\"properties\":{\"matinh\":\"5\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "15",
+    "ten": "tỉnh Ninh Bình",
+    "truocsn": "tỉnh Hà Nam, tỉnh Nam Định và tỉnh Ninh Bình",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.27\",\"properties\":{\"matinh\":\"6\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "16",
+    "ten": "tỉnh Thanh Hóa",
+    "truocsn": "tỉnh Thanh Hóa (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.1\",\"properties\":{\"matinh\":\"16\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "17",
+    "ten": "tỉnh Nghệ An",
+    "truocsn": "tỉnh Nghệ An (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.4\",\"properties\":{\"matinh\":\"17\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "18",
+    "ten": "tỉnh Hà Tĩnh",
+    "truocsn": "tỉnh Hà Tĩnh (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.3\",\"properties\":{\"matinh\":\"18\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "19",
+    "ten": "tỉnh Quảng Trị",
+    "truocsn": "tỉnh Quảng Bình và tỉnh Quảng Trị",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.25\",\"properties\":{\"matinh\":\"19\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "20",
+    "ten": "thành phố Huế",
+    "truocsn": "thành phố Huế (Giữ nguyên, không sáp nhập)",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.2\",\"properties\":{\"matinh\":\"20\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "21",
+    "ten": "thành phố Đà Nẵng",
+    "truocsn": "thành phố Đà Nẵng và tỉnh Quảng Nam",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.15\",\"properties\":{\"matinh\":\"21\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "22",
+    "ten": "tỉnh Quảng Ngãi",
+    "truocsn": "tỉnh Kon Tum và tỉnh Quảng Ngãi",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.13\",\"properties\":{\"matinh\":\"22\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "23",
+    "ten": "tỉnh Khánh Hòa",
+    "truocsn": "tỉnh Ninh Thuận và tỉnh Khánh Hòa",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.16\",\"properties\":{\"matinh\":\"23\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "24",
+    "ten": "tỉnh Gia Lai",
+    "truocsn": "tỉnh Bình Định và tỉnh Gia Lai",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.24\",\"properties\":{\"matinh\":\"24\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "25",
+    "ten": "tỉnh Đắk Lắk",
+    "truocsn": "tỉnh Phú Yên và tỉnh Đắk Lắk",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.20\",\"properties\":{\"matinh\":\"25\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "26",
+    "ten": "tỉnh Lâm Đồng",
+    "truocsn": "tỉnh Đắk Nông, tỉnh Bình Thuận và tỉnh Lâm Đồng",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.21\",\"properties\":{\"matinh\":\"26\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "27",
+    "ten": "tỉnh Tây Ninh",
+    "truocsn": "tỉnh Long An và tỉnh Tây Ninh",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.18\",\"properties\":{\"matinh\":\"27\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "28",
+    "ten": "tỉnh Đồng Nai",
+    "truocsn": "tỉnh Bình Phước và tỉnh Đồng Nai",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.23\",\"properties\":{\"matinh\":\"28\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "29",
+    "ten": "thành phố Hồ Chí Minh",
+    "truocsn": "TPHCM, tỉnh Bà Rịa - Vũng Tàu và tỉnh Bình Dương",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.22\",\"properties\":{\"matinh\":\"29\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "30",
+    "ten": "tỉnh Vĩnh Long",
+    "truocsn": "tỉnh Bến Tre, tỉnh Trà Vinh và tỉnh Vĩnh Long",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.19\",\"properties\":{\"matinh\":\"30\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "31",
+    "ten": "tỉnh Đồng Tháp",
+    "truocsn": "tỉnh Tiền Giang và tỉnh Đồng Tháp",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.34\",\"properties\":{\"matinh\":\"31\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "32",
+    "ten": "tỉnh An Giang",
+    "truocsn": "tỉnh Kiên Giang và tỉnh An Giang",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.14\",\"properties\":{\"matinh\":\"32\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "33",
+    "ten": "thành phố Cần Thơ",
+    "truocsn": "thành phố Cần Thơ, tỉnh Sóc Trăng và tỉnh Hậu Giang",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.12\",\"properties\":{\"matinh\":\"33\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  },
+  {
+    "stt": "34",
+    "ten": "tỉnh Cà Mau",
+    "truocsn": "tỉnh Bạc Liêu và tỉnh Cà Mau",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"tinh34.17\",\"properties\":{\"matinh\":\"34\"},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
+  }
+]
