@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/url"
+	"os"
 	"strconv"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
@@ -12,6 +13,7 @@ import (
 
 const GET_ALL_PROVINCES_URL = "https://sapnhap.bando.com.vn/pcotinh"
 const GET_ALL_WARDS_OF_PROVINCES_URL = "https://sapnhap.bando.com.vn/ptracuu"
+const GET_GIS_COORDINATES_URL = "https://sapnhap.bando.com.vn/pread_json"
 
 /*
 Get all the provinces data from the sapnhap site
@@ -38,7 +40,7 @@ POST: https://sapnhap.bando.com.vn/ptracuu
 func GetAllWardsOfProvinceFromSapNhapSite(provinceID int) []dto.SapNhapWardData {
 	form := url.Values{}
 	form.Add("id", strconv.Itoa(provinceID))
-	
+
 	res, err := http.Post(GET_ALL_WARDS_OF_PROVINCES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
 	if err != nil {
 		panic(err)
@@ -50,4 +52,62 @@ func GetAllWardsOfProvinceFromSapNhapSite(provinceID int) []dto.SapNhapWardData 
 		panic(err)
 	}
 	return wardsData
+}
+
+/*
+Load the bando gis province mapping from file
+*/
+func LoadBanDoGISProvincesFromFile(path string) ([]dto.BanDoGISProvince, error) {
+	// Read file
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+
+	// Decode JSON
+	var provinces []dto.BanDoGISProvince
+	if err := json.Unmarshal(data, &provinces); err != nil {
+		return nil, err
+	}
+	return provinces, nil
+}
+
+/*
+Load the bando gis ward mapping from file
+*/
+func LoadBanDoGISWardsFromFile(path string) ([]dto.BanDoGISWard, error) {
+	// Read file
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+
+	// Decode JSON
+	var wards []dto.BanDoGISWard
+	if err := json.Unmarshal(data, &wards); err != nil {
+		return nil, err
+	}
+	return wards, nil
+}
+
+/*
+API to get GIS coordinates information of the locationId.
+gisLocationID get from object ID of the bando gisServerResponse
+POST: https://sapnhap.bando.com.vn/pread_json
+*/
+func GetGISLocationCoordinates(gisLocationID string) (dto.GISLocationResponse, error) {
+	form := url.Values{}
+	form.Add("id", gisLocationID)
+
+	res, err := http.Post(GET_GIS_COORDINATES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
+	if err != nil {
+		panic(err)
+	}
+
+	defer res.Body.Close()
+	var gisLocationResponse dto.GISLocationResponse
+	if err := json.NewDecoder(res.Body).Decode(&gisLocationResponse); err != nil {
+		return dto.GISLocationResponse{}, err
+	}
+	return gisLocationResponse, nil
 }

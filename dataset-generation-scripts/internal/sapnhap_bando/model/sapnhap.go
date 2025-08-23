@@ -44,3 +44,25 @@ type SapNhapSiteWard struct {
 	VNWardCode          string              `bun:"vn_ward_code,notnull"`
 	Ward                model.Ward          `bun:"rel:belongs-to,join:vn_ward_code=code"`
 }
+
+type SapNhapProvinceGis struct {
+	bun.BaseModel `bun:"table:sapnhap_provinces_gis,alias:spg"`
+
+	Stt                   int                 `json:"stt" bun:"stt"`
+	Ten                   string              `json:"ten" bun:"ten"`
+	TruocSapNhap          string              `json:"truocSapNhap" bun:"truocsn"`
+	GisServerID           string              `json:"gisServerID" bun:"gis_server_id"`
+	SapNhapProvinceMaTinh int                 `json:"sapNhapProvinceMaTinh" bun:"sapnhap_province_matinh"`
+	SapNhapSiteProvince   SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
+}
+
+type SapNhapWardGis struct {
+	bun.BaseModel `bun:"table:sapnhap_wards_gis,alias:swg"`
+
+	Stt             int             `json:"stt" bun:"stt"`
+	Ten             string          `json:"ten" bun:"ten"`
+	TruocSapNhap    string          `json:"truocSapNhap" bun:"truocsn"`
+	GisServerID     string          `json:"gisServerID" bun:"gis_server_id"`
+	SapNhapWardMaXa int             `json:"sapNhapWardMaXa" bun:"sapnhap_ward_maxa"`
+	SapNhapSiteWard SapNhapSiteWard `bun:"rel:belongs-to,join:sapnhap_ward_maxa=maxa"`
+}

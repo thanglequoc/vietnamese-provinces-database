@@ -14,6 +14,9 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
+const BANDO_GIS_PROVINCES_FILE_PATH = "./resources/gis/bando_gisserver/provinces.json"
+const BANDO_GIS_WARDS_FILE_PATH = "./resources/gis/bando_gisserver/wards.json"
+
 type SapNhapService struct {
 	sapNhapRepo       *repository.SapNhapRepository
 	vnProvinceTmpRepo *vnRepo.VnProvincesTmpRepository
@@ -140,6 +143,44 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 			}
 		}
 	}
+
+	return nil
+}
+
+func (s *SapNhapService) BootstrapGISData() error {
+	// Read from JSON file
+
+	// Provinces Data
+	bandoProvinces, err := fetcher.LoadBanDoGISProvincesFromFile(BANDO_GIS_PROVINCES_FILE_PATH)
+	if err != nil {
+		return err
+	}
+	for _, bandoProvince := range bandoProvinces {
+		gisRes, err := bandoProvince.GetGISResponse()
+		if err != nil {
+			return err
+		}
+		id := gisRes.Features[0].ID
+		matinh := fmt.Sprintf("%v", gisRes.Features[0].Properties["matinh"])
+		fmt.Println(id)
+		fmt.Println(matinh)
+
+		gisCoordinateResponse, err := fetcher.GetGISLocationCoordinates(id)
+		if err != nil {
+			log.Printf("Unable to get GIS Coordinate Response of location [Name: %s - ID %s]. Error: %v", bandoProvince.Ten, id, err)
+		}
+		fmt.Println(gisCoordinateResponse)
+		// Attempt to serialize the gisServer response
+	}
+
+	fmt.Println(len(bandoProvinces))
+
+	// Wards data
+	bandoWards, err := fetcher.LoadBanDoGISWardsFromFile(BANDO_GIS_WARDS_FILE_PATH)
+	if err != nil {
+		return err
+	}
+	fmt.Println(len(bandoWards))
 
 	return nil
 }
