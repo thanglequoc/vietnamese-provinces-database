@@ -37,3 +37,29 @@ CREATE TABLE sapnhap_wards (
   CONSTRAINT fk_matinh FOREIGN KEY (matinh) REFERENCES sapnhap_provinces(mahc),
   CONSTRAINT fk_ward_code FOREIGN KEY (vn_ward_code) REFERENCES wards_tmp(code)
 );
+
+CREATE TABLE sapnhap_provinces_gis (
+  stt INTEGER,
+  ten VARCHAR(255),
+  truocsn VARCHAR(512),
+  gis_server_id VARCHAR(20),
+  sapnhap_province_matinh INTEGER,
+
+  -- TODO @thangle: Include GIS response columns later
+
+  -- Foreign keys
+  CONSTRAINT fk_sapnhap_province_matinh FOREIGN KEY (sapnhap_province_matinh) REFERENCES sapnhap_provinces(mahc)
+);
+
+CREATE TABLE sapnhap_wards_gis (
+  stt INTEGER,
+  ten VARCHAR(255),
+  truocsn VARCHAR(512),
+  gis_server_id VARCHAR(20),
+  sapnhap_province_maxa INTEGER,
+
+  -- TODO @thangle: Include GIS response columns later
+
+  -- Foreign keys
+  CONSTRAINT fk_sapnhap_province_maxa FOREIGN KEY (sapnhap_province_maxa) REFERENCES sapnhap_provinces(mahc)
+);
