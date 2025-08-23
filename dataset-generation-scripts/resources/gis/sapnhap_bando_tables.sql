@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS sapnhap_wards;
 DROP TABLE IF EXISTS sapnhap_provinces;
 
 -- Enable Postgis Extension
-CREATE EXTENSION postgis;
+CREATE EXTENSION IF NOT EXISTS postgis;
 
 CREATE TABLE sapnhap_provinces (
   id INTEGER PRIMARY KEY,
