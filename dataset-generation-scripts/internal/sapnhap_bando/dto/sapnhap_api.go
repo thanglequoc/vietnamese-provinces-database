@@ -31,3 +31,18 @@ type SapNhapWardData struct {
 	MaXa         int     `json:"maxa"`
 	Khoa         string  `json:"khoa"`
 }
+
+type BanDoGISProvince struct {
+	STT               string `json:"stt"`
+	Ten               string `json:"ten"`
+	TruocSN           string `json:"truocsn"`
+	GISServerResponse string `json:"gisServerResponse"`
+}
+
+type BanDoGISWard struct {
+	STT               string `json:"stt"`
+	Ten               string `json:"ten"`
+	TruocSN           string `json:"truocsn"`
+	ProvinceName      string `json:"provinceName"`
+	GISServerResponse string `json:"gisServerResponse"`
+}

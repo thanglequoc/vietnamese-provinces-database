@@ -26,5 +26,10 @@ func DumpDataFromSapNhapBando() {
 		panic(err)
 	}
 
+	if err := sapNhapService.BootstrapGISData(); err != nil {
+		log.Fatalf("Failed to bootstrap GIS Data: %v", err)
+		panic(err)
+	}
+
 	log.Println("🗺️ Data dump from SapNhap Bando completed successfully")
 }

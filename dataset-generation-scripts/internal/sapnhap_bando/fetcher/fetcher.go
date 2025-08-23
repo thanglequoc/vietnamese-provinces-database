@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/url"
+	"os"
 	"strconv"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
@@ -38,7 +39,7 @@ POST: https://sapnhap.bando.com.vn/ptracuu
 func GetAllWardsOfProvinceFromSapNhapSite(provinceID int) []dto.SapNhapWardData {
 	form := url.Values{}
 	form.Add("id", strconv.Itoa(provinceID))
-	
+
 	res, err := http.Post(GET_ALL_WARDS_OF_PROVINCES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
 	if err != nil {
 		panic(err)
@@ -51,3 +52,41 @@ func GetAllWardsOfProvinceFromSapNhapSite(provinceID int) []dto.SapNhapWardData 
 	}
 	return wardsData
 }
+
+/*
+Load the bando gis province mapping from file
+*/
+func LoadBanDoGISProvincesFromFile(path string) ([]dto.BanDoGISProvince, error) {
+	// Read file
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+
+	// Decode JSON
+	var provinces []dto.BanDoGISProvince
+	if err := json.Unmarshal(data, &provinces); err != nil {
+		return nil, err
+	}
+	return provinces, nil
+}
+
+/*
+Load the bando gis ward mapping from file
+*/
+func LoadBanDoGISWardsFromFile(path string) ([]dto.BanDoGISWard, error) {
+	// Read file
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+
+	// Decode JSON
+	var wards []dto.BanDoGISWard
+	if err := json.Unmarshal(data, &wards); err != nil {
+		return nil, err
+	}
+	return wards, nil
+}
+
+// TODO: Add API to get JSON GIS data response

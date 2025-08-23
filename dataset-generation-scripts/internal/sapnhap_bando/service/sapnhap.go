@@ -14,6 +14,9 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
+const BANDO_GIS_PROVINCES_FILE_PATH = "./resources/gis/bando_gisserver/provinces.json"
+const BANDO_GIS_WARDS_FILE_PATH = "./resources/gis/bando_gisserver/wards.json"
+
 type SapNhapService struct {
 	sapNhapRepo       *repository.SapNhapRepository
 	vnProvinceTmpRepo *vnRepo.VnProvincesTmpRepository
@@ -140,6 +143,27 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 			}
 		}
 	}
+
+	return nil
+}
+
+func (s *SapNhapService) BootstrapGISData() error {
+	// Read from JSON file
+
+
+	// Provinces Data
+	bandoProvinces, err := fetcher.LoadBanDoGISProvincesFromFile(BANDO_GIS_PROVINCES_FILE_PATH)
+	if (err != nil) {
+		return err;
+	}
+	fmt.Println(len(bandoProvinces))
+
+	// Wards data
+	bandoWards, err := fetcher.LoadBanDoGISWardsFromFile(BANDO_GIS_WARDS_FILE_PATH)
+	if (err != nil) {
+		return err;
+	}
+	fmt.Println(len(bandoWards))
 
 	return nil
 }
