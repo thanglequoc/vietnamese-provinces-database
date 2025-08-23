@@ -13,6 +13,7 @@ import (
 
 const GET_ALL_PROVINCES_URL = "https://sapnhap.bando.com.vn/pcotinh"
 const GET_ALL_WARDS_OF_PROVINCES_URL = "https://sapnhap.bando.com.vn/ptracuu"
+const GET_GIS_COORDINATES_URL = "https://sapnhap.bando.com.vn/pread_json"
 
 /*
 Get all the provinces data from the sapnhap site
@@ -89,4 +90,24 @@ func LoadBanDoGISWardsFromFile(path string) ([]dto.BanDoGISWard, error) {
 	return wards, nil
 }
 
-// TODO: Add API to get JSON GIS data response
+/*
+API to get GIS coordinates information of the locationId.
+gisLocationID get from object ID of the bando gisServerResponse
+POST: https://sapnhap.bando.com.vn/pread_json
+*/
+func GetGISLocationCoordinates(gisLocationID string) (dto.GISLocationResponse, error) {
+	form := url.Values{}
+	form.Add("id", gisLocationID)
+
+	res, err := http.Post(GET_GIS_COORDINATES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
+	if err != nil {
+		panic(err)
+	}
+
+	defer res.Body.Close()
+	var gisLocationResponse dto.GISLocationResponse
+	if err := json.NewDecoder(res.Body).Decode(&gisLocationResponse); err != nil {
+		return dto.GISLocationResponse{}, err
+	}
+	return gisLocationResponse, nil
+}
