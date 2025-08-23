@@ -150,12 +150,24 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 func (s *SapNhapService) BootstrapGISData() error {
 	// Read from JSON file
 
-
 	// Provinces Data
 	bandoProvinces, err := fetcher.LoadBanDoGISProvincesFromFile(BANDO_GIS_PROVINCES_FILE_PATH)
 	if (err != nil) {
 		return err;
 	}
+	for _, bandoProvince := range bandoProvinces {
+		gisRes, err := bandoProvince.GetGISResponse()
+		if (err != nil) {
+			return err
+		}
+		id := gisRes.Features[0].ID
+		matinh := fmt.Sprintf("%v", gisRes.Features[0].Properties["matinh"]) 
+
+		fmt.Println(id)
+		fmt.Println(matinh)
+		// Attempt to serialize the gisServer response
+	}
+
 	fmt.Println(len(bandoProvinces))
 
 	// Wards data
