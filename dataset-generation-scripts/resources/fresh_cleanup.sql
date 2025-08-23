@@ -1,4 +1,6 @@
 -- DROP the GIS relevant table first to avoid constraint problem
+DROP TABLE IF EXISTS sapnhap_wards_gis;
+DROP TABLE IF EXISTS sapnhap_provinces_gis;
 DROP TABLE IF EXISTS sapnhap_wards;
 DROP TABLE IF EXISTS sapnhap_provinces; 
 
