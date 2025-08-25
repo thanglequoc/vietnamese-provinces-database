@@ -3,6 +3,9 @@ DROP TABLE IF EXISTS sapnhap_provinces_gis;
 DROP TABLE IF EXISTS sapnhap_wards;
 DROP TABLE IF EXISTS sapnhap_provinces;
 
+-- Enable Postgis Extension
+CREATE EXTENSION postgis;
+
 CREATE TABLE sapnhap_provinces (
   id INTEGER PRIMARY KEY,
   mahc INTEGER UNIQUE,
@@ -34,7 +37,6 @@ CREATE TABLE sapnhap_wards (
   maxa INTEGER UNIQUE,
   khoa VARCHAR(255),
   vn_ward_code VARCHAR(50) NOT NULL,
-
   -- Foreign keys
   CONSTRAINT fk_matinh FOREIGN KEY (matinh) REFERENCES sapnhap_provinces(mahc),
   CONSTRAINT fk_ward_code FOREIGN KEY (vn_ward_code) REFERENCES wards_tmp(code)
@@ -46,9 +48,8 @@ CREATE TABLE sapnhap_provinces_gis (
   truocsn VARCHAR(512),
   gis_server_id VARCHAR(20),
   sapnhap_province_matinh INTEGER,
-
-  -- TODO @thangle: Include GIS response columns later
-
+  bbox geometry(Polygon, 4326),
+  gis_geom geometry(Multipolygon, 4326),
   -- Foreign keys
   CONSTRAINT fk_sapnhap_province_matinh FOREIGN KEY (sapnhap_province_matinh) REFERENCES sapnhap_provinces(mahc)
 );
@@ -59,9 +60,8 @@ CREATE TABLE sapnhap_wards_gis (
   truocsn VARCHAR(512),
   gis_server_id VARCHAR(20),
   sapnhap_ward_maxa INTEGER,
-
-  -- TODO @thangle: Include GIS response columns later
-
+  bbox geometry(Polygon, 4326),
+  gis_geom geometry(Multipolygon, 4326),
   -- Foreign keys
   CONSTRAINT fk_sapnhap_ward_maxa FOREIGN KEY (sapnhap_ward_maxa) REFERENCES sapnhap_wards(maxa)
 );
