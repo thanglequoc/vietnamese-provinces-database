@@ -297,3 +297,7 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 1314/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx
 [decree 1365/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1365-NQ-UBTVQH15-2025-thanh-lap-cac-phuong-thuoc-thi-xa-Phu-My-Vung-Tau-640985.aspx
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
+
+
+## Reach for the ⭐
+[![Star History Chart](https://api.star-history.com/svg?repos=thanglequoc/vietnamese-provinces-database&type=Date)](https://www.star-history.com/#thanglequoc/vietnamese-provinces-database&Date)
