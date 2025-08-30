@@ -5,16 +5,17 @@ import (
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 
 	sapNhapService "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/service"
-	sapNhapRepo "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
+	sapNhapR "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
 	vnRepo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
 )
 
 func DumpDataFromSapNhapBando() {
 	// Initialize the SapNhapRepository
-	sapNhapRepo := sapNhapRepo.NewSapNhapRepository(db.GetPostgresDBConnection())
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(db.GetPostgresDBConnection())
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(db.GetPostgresDBConnection())
 	vnRepo := vnRepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
 
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, vnRepo)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo)
 
 	if err := sapNhapService.BootstrapSapNhapSiteProvinces(); err != nil {
 		log.Fatalf("Failed to dump SapNhapSiteProvinces: %v", err)

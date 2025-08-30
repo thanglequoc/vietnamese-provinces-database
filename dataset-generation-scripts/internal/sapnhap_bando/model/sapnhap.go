@@ -45,18 +45,21 @@ type SapNhapSiteWard struct {
 	Ward                model.Ward          `bun:"rel:belongs-to,join:vn_ward_code=code"`
 }
 
-type SapNhapProvinceGis struct {
+type SapNhapProvinceGIS struct {
 	bun.BaseModel `bun:"table:sapnhap_provinces_gis,alias:spg"`
 
-	Stt                   int                 `json:"stt" bun:"stt"`
-	Ten                   string              `json:"ten" bun:"ten"`
-	TruocSapNhap          string              `json:"truocSapNhap" bun:"truocsn"`
-	GisServerID           string              `json:"gisServerID" bun:"gis_server_id"`
-	SapNhapProvinceMaTinh int                 `json:"sapNhapProvinceMaTinh" bun:"sapnhap_province_matinh"`
-	SapNhapSiteProvince   SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
+	Stt                   int    `json:"stt" bun:"stt"`
+	Ten                   string `json:"ten" bun:"ten"`
+	TruocSapNhap          string `json:"truocSapNhap" bun:"truocsn"`
+	GISServerID           string `json:"gisServerID" bun:"gis_server_id"`
+	SapNhapProvinceMaTinh int    `json:"sapNhapProvinceMaTinh" bun:"sapnhap_province_matinh"`
+	BBox                  string `bun:"bbox"`
+	GisGeom               *string `bun:"gis_geom"` // TODO @thangle: Temporary set to nil
+
+	SapNhapSiteProvince SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
 }
 
-type SapNhapWardGis struct {
+type SapNhapWardGIS struct {
 	bun.BaseModel `bun:"table:sapnhap_wards_gis,alias:swg"`
 
 	Stt             int             `json:"stt" bun:"stt"`
