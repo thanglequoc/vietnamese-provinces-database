@@ -27,7 +27,7 @@ type SapNhapService struct {
 func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository) *SapNhapService {
 	return &SapNhapService{
 		sapNhapRepo:       repo,
-		sapNhapGISRepo: sapNhapGISRepo,
+		sapNhapGISRepo:    sapNhapGISRepo,
 		vnProvinceTmpRepo: vnRepo,
 	}
 }
@@ -163,45 +163,50 @@ func (s *SapNhapService) BootstrapGISData() error {
 		if err != nil {
 			return err
 		}
-		
+
 		// Normally there should just be a single element in the features
-		if (len(gisRes.Features) > 1) {
+		if len(gisRes.Features) > 1 {
 			return fmt.Errorf("got more than 1 feature from the GIS response of %v", bandoProvince)
 		}
-		
+
 		id := gisRes.Features[0].ID
 		matinh := fmt.Sprintf("%v", gisRes.Features[0].Properties["matinh"])
-		fmt.Println(id)
-		fmt.Println(matinh)
 
+		fmt.Printf("Fetching GIS coordinate data for %s - {gisServerID: %s - matinh: %s}\n", bandoProvince.Ten, id, matinh)
 		gisCoordinateResponse, err := fetcher.GetGISLocationCoordinates(id)
 		if err != nil {
 			log.Printf("Unable to get GIS Coordinate Response of location [Name: %s - ID %s]. Error: %v", bandoProvince.Ten, id, err)
 		}
 
 		sttNumber, err := strconv.Atoi(bandoProvince.STT)
-		if (err != nil) {
+		if err != nil {
 			return err
 		}
 		matinhNumber, err := strconv.Atoi(matinh)
-		if (err != nil) {
+		if err != nil {
 			return err
 		}
 
-		sapNhapProvinceGIS :=&model.SapNhapProvinceGIS {
-			Stt: sttNumber,
-			Ten: bandoProvince.Ten,
-			TruocSapNhap: bandoProvince.TruocSN,
-			GISServerID: id,
+		wktBBoxPolygon := gisCoordinateResponse.Features[0].BBox.ToWKTPolygon()
+		wktMultiPolygon := gisCoordinateResponse.Features[0].Geometry.ToWKTCoordinate()
+
+		sapNhapProvinceGIS := &model.SapNhapProvinceGIS{
+			Stt:                   sttNumber,
+			Ten:                   bandoProvince.Ten,
+			TruocSapNhap:          bandoProvince.TruocSN,
+			GISServerID:           id,
 			SapNhapProvinceMaTinh: matinhNumber,
-			BBox: gisCoordinateResponse.Features[0].BBox.ToWKTPolygon(),
-			GisGeom: nil, // TODO @thangle: Temporary set to nil
+			BBox:                  wktBBoxPolygon,
+			GISGeom:               wktMultiPolygon,
 		}
 
 		if err := s.sapNhapGISRepo.InsertSapNhapProvinceGIS(sapNhapProvinceGIS); err != nil {
 			log.Fatalf("Unable to insert to sapnhap_province_gis table %v. Error: %v", sapNhapProvinceGIS, err)
-			return err;
+			return err
 		}
+
+		fmt.Printf("Inserted GIS data for %s complete \n", bandoProvince.Ten)
+		fmt.Println("-----------------------------------------")
 	}
 
 	fmt.Println(len(bandoProvinces))

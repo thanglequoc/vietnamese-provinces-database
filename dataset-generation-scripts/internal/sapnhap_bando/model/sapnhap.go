@@ -54,7 +54,7 @@ type SapNhapProvinceGIS struct {
 	GISServerID           string `json:"gisServerID" bun:"gis_server_id"`
 	SapNhapProvinceMaTinh int    `json:"sapNhapProvinceMaTinh" bun:"sapnhap_province_matinh"`
 	BBox                  string `bun:"bbox"`
-	GisGeom               *string `bun:"gis_geom"` // TODO @thangle: Temporary set to nil
+	GISGeom               string `bun:"gis_geom"`
 
 	SapNhapSiteProvince SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
 }
