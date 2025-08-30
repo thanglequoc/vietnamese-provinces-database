@@ -1,6 +1,9 @@
 package dto
 
 import (
+	"fmt"
+	"strings"
+
 	gisModel "github.com/thanglequoc-vn-provinces/v2/internal/gis/model"
 )
 
@@ -24,4 +27,34 @@ type GISLocationFeature struct {
 type GISGeometry struct {
 	Type        string                               `json:"type"`
 	Coordinates [][]gisModel.GISLinearRingCoordinate `json:"coordinates"`
+}
+
+func (g GISGeometry) ToWKTCoordinate() string {
+	if (g.Type != "MultiPolygon") {
+		fmt.Println("Detected Geometry type anomaly")
+		panic(fmt.Sprintf("Unsupported Geometry type: %s", g.Type))
+	}
+	var sb strings.Builder
+	sb.WriteString(strings.ToUpper(g.Type))
+	sb.WriteString("(")
+
+	var polygons []string
+
+	for _, polygon := range g.Coordinates {
+		var polygonBuilder strings.Builder
+		polygonBuilder.WriteString("(")
+		for i, ring := range polygon {
+			polygonBuilder.WriteString(ring.ToCoordinateRingString())
+			if (i < len(polygon) - 1) {
+				polygonBuilder.WriteString(",")
+			}
+		}
+		
+		polygonBuilder.WriteString(")")
+		polygons = append(polygons, polygonBuilder.String())
+	}
+
+	sb.WriteString(strings.Join(polygons, ","))	
+	sb.WriteString(")")
+	return sb.String()
 }

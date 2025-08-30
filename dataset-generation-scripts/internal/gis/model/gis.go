@@ -49,6 +49,25 @@ func (g *GISLinearRingCoordinate) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
+/*
+Return the coordinate ring string
+(102.318061 21.687088, 102.318061 22.812316, xxxx)
+*/
+func (g GISLinearRingCoordinate) ToCoordinateRingString() string {
+	var sb strings.Builder
+	sb.WriteString("(")
+	for _, gisPoint := range g.GISPoints {
+		sb.WriteString(gisPoint.ToWKTCoordinatePoint())
+		sb.WriteString(",")
+	}
+
+	// Repeat the first point to close the ring
+	firstPoint := g.GISPoints[0]
+	sb.WriteString(firstPoint.ToWKTCoordinatePoint())
+	sb.WriteString(")")
+	return sb.String()
+}
+
 func (l *LngLat) UnmarshalJSON(data []byte) error {
 	if string(data) == "null" || string(data) == `""` {
 		return nil
