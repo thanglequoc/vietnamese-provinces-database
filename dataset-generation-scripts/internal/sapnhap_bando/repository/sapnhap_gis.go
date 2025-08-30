@@ -20,6 +20,7 @@ func NewSapNhapGISRepository(db *bun.DB) *SapNhapGISRepository {
 func (r *SapNhapGISRepository) InsertSapNhapProvinceGIS(provinceGIS *model.SapNhapProvinceGIS) error {
 	_, err := r.db.NewInsert().
 		Model(provinceGIS).
+		Value("bbox", "ST_GeomFromText(?, 4326)", provinceGIS.BBox). // This converts string → geometry
 		Exec(context.Background())
 	if err != nil {
 		return err

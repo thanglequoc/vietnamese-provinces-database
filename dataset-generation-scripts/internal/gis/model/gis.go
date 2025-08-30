@@ -2,6 +2,7 @@ package model
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"strings"
 )
@@ -65,6 +66,11 @@ func (l *LngLat) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
+// ToWKTPoint returns "lon lat" string for PostGIS WKT usage.
+func (p LngLat) ToWKTCoordinatePoint() string {
+	return fmt.Sprintf("%f %f", p.Longitude, p.Latitude)
+}
+
 func (b *BBox) UnmarshalJSON(data []byte) error {
 	var bboxArray [4]float64
 	if err := json.Unmarshal(data, &bboxArray); err != nil {
@@ -87,6 +93,18 @@ func (b *BBox) UnmarshalJSON(data []byte) error {
 	b.BottomRight = LngLat{Longitude: maxLng, Latitude: minLat}
 
 	return nil
+}
+
+// ToWKTPolygon returns a WKT POLYGON string for the bbox
+func (b BBox) ToWKTPolygon() string {
+	return fmt.Sprintf(
+		"POLYGON((%s, %s, %s, %s, %s))",
+		b.BottomLeft.ToWKTCoordinatePoint(),
+		b.TopLeft.ToWKTCoordinatePoint(),
+		b.TopRight.ToWKTCoordinatePoint(),
+		b.BottomRight.ToWKTCoordinatePoint(),
+		b.BottomLeft.ToWKTCoordinatePoint(), // repeat to close the ring
+	)
 }
 
 // Helper methods for easier access to coordinates
