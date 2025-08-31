@@ -62,10 +62,13 @@ type SapNhapProvinceGIS struct {
 type SapNhapWardGIS struct {
 	bun.BaseModel `bun:"table:sapnhap_wards_gis,alias:swg"`
 
-	Stt             int             `json:"stt" bun:"stt"`
-	Ten             string          `json:"ten" bun:"ten"`
-	TruocSapNhap    string          `json:"truocSapNhap" bun:"truocsn"`
-	GisServerID     string          `json:"gisServerID" bun:"gis_server_id"`
-	SapNhapWardMaXa int             `json:"sapNhapWardMaXa" bun:"sapnhap_ward_maxa"`
+	Stt             int    `json:"stt" bun:"stt"`
+	Ten             string `json:"ten" bun:"ten"`
+	TruocSapNhap    string `json:"truocSapNhap" bun:"truocsn"`
+	GISServerID     string `json:"gisServerID" bun:"gis_server_id"`
+	SapNhapWardMaXa int    `json:"sapNhapWardMaXa" bun:"sapnhap_ward_maxa"`
+	BBox            string `bun:"bbox"`
+	GISGeom         string `bun:"gis_geom"`
+
 	SapNhapSiteWard SapNhapSiteWard `bun:"rel:belongs-to,join:sapnhap_ward_maxa=maxa"`
 }

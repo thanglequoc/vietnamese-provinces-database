@@ -3,17 +3,25 @@ package fetcher
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
+	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"strconv"
+	"time"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
 )
 
-const GET_ALL_PROVINCES_URL = "https://sapnhap.bando.com.vn/pcotinh"
-const GET_ALL_WARDS_OF_PROVINCES_URL = "https://sapnhap.bando.com.vn/ptracuu"
-const GET_GIS_COORDINATES_URL = "https://sapnhap.bando.com.vn/pread_json"
+const (
+	GET_ALL_PROVINCES_URL          = "https://sapnhap.bando.com.vn/pcotinh"
+	GET_ALL_WARDS_OF_PROVINCES_URL = "https://sapnhap.bando.com.vn/ptracuu"
+	GET_GIS_COORDINATES_URL        = "https://sapnhap.bando.com.vn/pread_json"
+	MAX_RETRIES                    = 5
+	RETRY_DELAY                    = 300 * time.Millisecond
+	MAX_DELAY                      = 5 * time.Second
+)
 
 /*
 Get all the provinces data from the sapnhap site
@@ -96,18 +104,47 @@ gisLocationID get from object ID of the bando gisServerResponse
 POST: https://sapnhap.bando.com.vn/pread_json
 */
 func GetGISLocationCoordinates(gisLocationID string) (dto.GISLocationResponse, error) {
-	form := url.Values{}
-	form.Add("id", gisLocationID)
+	var lastErr error
 
-	res, err := http.Post(GET_GIS_COORDINATES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
-	if err != nil {
-		panic(err)
+	for attempt := 0; attempt <= MAX_RETRIES; attempt++ {
+		if attempt > 0 {
+			log.Printf("Retrying request in %v (attempt %d/%d)", RETRY_DELAY, attempt, MAX_RETRIES)
+			time.Sleep(RETRY_DELAY)
+		}
+
+		// Prepare form data
+		form := url.Values{}
+		form.Add("id", gisLocationID)
+
+		// Make HTTP request
+		res, err := http.Post(GET_GIS_COORDINATES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
+		if err != nil {
+			lastErr = fmt.Errorf("http request failed: %w", err)
+			log.Printf("Attempt %d failed with error: %v", attempt+1, lastErr)
+			continue
+		}
+
+		defer res.Body.Close()
+
+		// Check if response is healthy
+		if res.StatusCode == http.StatusOK {
+			// Success - decode response
+			var gisLocationResponse dto.GISLocationResponse
+			if err := json.NewDecoder(res.Body).Decode(&gisLocationResponse); err != nil {
+				return dto.GISLocationResponse{}, fmt.Errorf("failed to decode response: %w", err)
+			}
+
+			if attempt > 0 {
+				log.Printf("Request succeeded on attempt %d", attempt+1)
+			}
+			return gisLocationResponse, nil
+		}
+
+		// Non-OK status code
+		lastErr = fmt.Errorf("received status code: %d", res.StatusCode)
+		log.Printf("Attempt %d failed with status code: %d", attempt+1, res.StatusCode)
 	}
 
-	defer res.Body.Close()
-	var gisLocationResponse dto.GISLocationResponse
-	if err := json.NewDecoder(res.Body).Decode(&gisLocationResponse); err != nil {
-		return dto.GISLocationResponse{}, err
-	}
-	return gisLocationResponse, nil
+	// All retries exhausted
+	return dto.GISLocationResponse{}, fmt.Errorf("cannot get GIS for locationID %s. All %d attempts failed, last error: %w", gisLocationID, MAX_RETRIES+1, lastErr)
 }

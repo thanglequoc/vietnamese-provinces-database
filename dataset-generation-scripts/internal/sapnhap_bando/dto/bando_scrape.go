@@ -34,7 +34,7 @@ type BandoGISServerResponse struct {
 
 func (p *BanDoGISProvince) GetGISResponse() (*BandoGISServerResponse, error) {
 	if p.GISServerResponse == "" {
-		return nil, fmt.Errorf("no GIS server response data")
+		return nil, fmt.Errorf("no GIS server response data for %s", p.Ten)
 	}
 
 	var gisResponse BandoGISServerResponse
@@ -48,7 +48,7 @@ func (p *BanDoGISProvince) GetGISResponse() (*BandoGISServerResponse, error) {
 
 func (w *BanDoGISWard) GetGISResponse() (*BandoGISServerResponse, error) {
 	if w.GISServerResponse == "" {
-		return nil, fmt.Errorf("no GIS server response data")
+		return nil, fmt.Errorf("no GIS server response data for %s of %s", w.Ten, w.ProvinceName)
 	}
 
 	var gisResponse BandoGISServerResponse
