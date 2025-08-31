@@ -6,8 +6,9 @@ import (
 	"os"
 
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
-	dataset_file_writer "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
-	vn_provinces_tmp_repo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
+	datasetfilewriter "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
+	vnprovincestmprepo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
+	sapnhapbandorepo "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
 )
 
 /*
@@ -15,7 +16,7 @@ Generate the Vietnamese Provinces Dataset SQL files
 */
 func ReadAndGenerateSQLDatasets() {
 
-	vn_provinces_tmp_repo := vn_provinces_tmp_repo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
+	vn_provinces_tmp_repo := vnprovincestmprepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
 
 
 	// Clean up the output folder
@@ -28,7 +29,7 @@ func ReadAndGenerateSQLDatasets() {
 	wards := vn_provinces_tmp_repo.GetAllWards()
 
 	// Postgresql & MySQL
-	postgresMySQLDatasetFileWriter := dataset_file_writer.PostgresMySQLDatasetFileWriter{
+	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
 		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
 	}
 	err := postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -39,7 +40,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// Mssql
-	mssqlDatasetFileWriter := dataset_file_writer.MssqlDatasetFileWriter{
+	mssqlDatasetFileWriter := datasetfilewriter.MssqlDatasetFileWriter{
 		OutputFilePath: "./output/mssql_generated_ImportData_vn_units_%s.sql",
 	}
 	err = mssqlDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -50,7 +51,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// Oracle
-	oracleDatasetFileWriter := dataset_file_writer.OracleDatasetFileWriter{
+	oracleDatasetFileWriter := datasetfilewriter.OracleDatasetFileWriter{
 		OutputFilePath: "./output/oracle_generated_ImportData_vn_units_%s.sql",
 	}
 	err = oracleDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -61,7 +62,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// JSON
-	jsonDatasetFileWriter := dataset_file_writer.JSONDatasetFileWriter{
+	jsonDatasetFileWriter := datasetfilewriter.JSONDatasetFileWriter{
 		OutputFolderPath: "./output/json",
 	}
 	err = jsonDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -72,7 +73,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// MongoDB
-	mongoDBDatasetFileWriter := dataset_file_writer.MongoDBDatasetFileWriter{
+	mongoDBDatasetFileWriter := datasetfilewriter.MongoDBDatasetFileWriter{
 		OutputFolderPath: "./output/mongodb",
 	}
 	err = mongoDBDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -83,7 +84,7 @@ func ReadAndGenerateSQLDatasets() {
 	}
 
 	// Redis
-	redisDatasetFileWriter := dataset_file_writer.RedisDatasetFileWriter{
+	redisDatasetFileWriter := datasetfilewriter.RedisDatasetFileWriter{
 		OutputFolderPath: "./output/redis",
 	}
 	err = redisDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
@@ -92,4 +93,28 @@ func ReadAndGenerateSQLDatasets() {
 	} else {
 		fmt.Println("✅ Redis Dataset successfully generated")
 	}
+}
+
+/*
+Generate the GIS SQL files
+TODO @thangle:Implement this
+*/
+func GenerateGISSQLDatasets() {
+	sapNhapBanDoRepo := sapnhapbandorepo.NewSapNhapRepository(db.GetPostgresDBConnection())
+	sapNhapProvinces, err := sapNhapBanDoRepo.GetAllSapNhapSiteProvinces()
+	if err != nil {
+		log.Fatal("Unable to get SapNhapSiteProvinces", err)
+		return
+	}
+	sapNhapWards, err := sapNhapBanDoRepo.GetAllSapNhapSiteWards()
+	if err != nil {
+		log.Fatal("Unable to get SapNhapSiteWards", err)
+		return
+	}
+	fmt.Println((len(sapNhapProvinces)))
+	fmt.Println((len(sapNhapWards)))
+
+	// Clean up the output folder
+	os.RemoveAll("./output/gis")
+	os.MkdirAll("./output/gis", 0746)
 }
