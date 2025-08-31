@@ -150,9 +150,11 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 	return nil
 }
 
-func (s *SapNhapService) BootstrapGISData() error {
+/*
+Bootstrap GIS data coordinate by fetching from sapnhap bando GIS server
+*/
+func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 	// Read from JSON file
-
 	// Provinces Data
 	bandoProvinces, err := fetcher.LoadBanDoGISProvincesFromFile(BANDO_GIS_PROVINCES_FILE_PATH)
 	if err != nil {
