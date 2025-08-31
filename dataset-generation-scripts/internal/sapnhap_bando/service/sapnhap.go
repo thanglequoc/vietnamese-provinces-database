@@ -209,14 +209,63 @@ func (s *SapNhapService) BootstrapGISData() error {
 		fmt.Println("-----------------------------------------")
 	}
 
-	fmt.Println(len(bandoProvinces))
-
 	// Wards data
 	bandoWards, err := fetcher.LoadBanDoGISWardsFromFile(BANDO_GIS_WARDS_FILE_PATH)
 	if err != nil {
 		return err
 	}
-	fmt.Println(len(bandoWards))
+
+	for _, bandoWard := range bandoWards {
+		gisRes, err := bandoWard.GetGISResponse()
+		if err != nil {
+			return err
+		}
+		// Normally there should just be a single element in the features
+		if len(gisRes.Features) > 1 {
+			return fmt.Errorf("got more than 1 feature from the GIS response of %s", bandoWard.Ten)
+		}
+
+		id := gisRes.Features[0].ID
+		maxa := fmt.Sprintf("%v", gisRes.Features[0].Properties["maxa"])
+		fmt.Printf("Fetching GIS coordinate data for %s - {gisServerID: %s - maxa: %s}\n", bandoWard.Ten, id, maxa)
+		gisCoordinateResponse, err := fetcher.GetGISLocationCoordinates(id)
+		if err != nil {
+			log.Printf("Unable to get GIS Coordinate Response of location [Name: %s - ID %s]. Error: %v", bandoWard.Ten, id, err)
+		}
+
+		sttNumber, err := strconv.Atoi(bandoWard.STT)
+		if err != nil {
+			return err
+		}
+		maxaNumber, err := strconv.Atoi(maxa)
+		if err != nil {
+			return err
+		}
+
+		wktBBoxPolygon := gisCoordinateResponse.Features[0].BBox.ToWKTPolygon()
+		wktMultiPolygon := gisCoordinateResponse.Features[0].Geometry.ToWKTCoordinate()
+
+		sapNhapWardGIS := &model.SapNhapWardGIS{
+			Stt:             sttNumber,
+			Ten:             bandoWard.Ten,
+			TruocSapNhap:    bandoWard.TruocSN,
+			GISServerID:     id,
+			SapNhapWardMaXa: maxaNumber,
+			BBox:            wktBBoxPolygon,
+			GISGeom:         wktMultiPolygon,
+		}
+
+		if err := s.sapNhapGISRepo.InsertSapNhapWardGIS(sapNhapWardGIS); err != nil {
+			log.Fatalf("Unable to insert to sapnhap_ward_gis table %v. Error: %v", sapNhapWardGIS, err)
+			return err
+		}
+
+		fmt.Printf("Inserted GIS data for %s complete \n", bandoWard.Ten)
+		fmt.Println("-----------------------------------------")
+	}
+
+	fmt.Printf("Total %d provinces are processed with GIS data successfully", len(bandoProvinces))
+	fmt.Printf("Total %d wards are processed with GIS data successfully", len(bandoWards))
 
 	return nil
 }
