@@ -15,9 +15,10 @@ func main() {
 	// dumper.BeginDumpingDataWithDvhcvnDirectSource()
 	dataset_writer.ReadAndGenerateSQLDatasets()
 
-	runSapNhap := true
-	if (runSapNhap) {
+	includeGIS := true
+	if (includeGIS) {
 		db.BootstrapGISDataStructure()
 		sapNhap.DumpDataFromSapNhapBando()
+		dataset_writer.GenerateGISSQLDatasets()
 	}
 }

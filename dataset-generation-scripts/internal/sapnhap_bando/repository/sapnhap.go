@@ -20,12 +20,23 @@ func NewSapNhapRepository(db *bun.DB) *SapNhapRepository {
 func (r *SapNhapRepository) GetAllSapNhapSiteProvinces() ([]model.SapNhapSiteProvince, error) {
 	var provinces []model.SapNhapSiteProvince
 	err := r.db.NewSelect().
-		Model(&provinces).
+		Model(&provinces).Relation("Province").Relation("SapNhapGIS").
 		Scan(context.Background())
 	if err != nil {
 		return nil, err
 	}
 	return provinces, nil
+}
+
+func (r *SapNhapRepository) GetAllSapNhapSiteWards() ([]model.SapNhapSiteWard, error) {
+	var wards []model.SapNhapSiteWard
+	err := r.db.NewSelect().
+		Model(&wards).Relation("Ward").Relation("Ward").Relation("SapNhapGIS").
+		Scan(context.Background())
+	if err != nil {
+		return nil, err
+	}
+	return wards, nil
 }
 
 // Insert new sapnhap province data
