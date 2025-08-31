@@ -31,6 +31,15 @@ func GetPostgresDBConnection() *bun.DB {
 }
 ```
 
+#### Git LFS
+⚠️ This project uses [Git LFS](https://git-lfs.github.com/) for large GIS dataset files.  
+Make sure to run:
+```shell
+git lfs install
+git lfs pull
+```
+before running the project.
+
 #### Executing
 At the root of the `dataset-generation-scripts` folder, run
 ```shell

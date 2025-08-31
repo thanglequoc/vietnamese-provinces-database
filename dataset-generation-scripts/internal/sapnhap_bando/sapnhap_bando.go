@@ -1,12 +1,21 @@
 package sapnhapbando
 
 import (
+	"fmt"
 	"log"
+	"os"
+	"strconv"
+
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 
-	sapNhapService "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/service"
 	sapNhapR "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
+	sapNhapService "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/service"
 	vnRepo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
+)
+
+const (
+	PROVINCE_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_provinces_gis_202508311050_lfs.sql"
+	WARD_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_wards_gis_202508302208_lfs.sql"
 )
 
 func DumpDataFromSapNhapBando() {
@@ -27,9 +36,29 @@ func DumpDataFromSapNhapBando() {
 		panic(err)
 	}
 
-	if err := sapNhapService.BootstrapGISData(); err != nil {
-		log.Fatalf("Failed to bootstrap GIS Data: %v", err)
-		panic(err)
+	shouldGetGISFromDumpSQLPatch, err := strconv.ParseBool(os.Getenv("DUMP_GIS_RESOURCE_FROM_EXISTING_DB_PATCH"))
+	if err != nil {
+		fmt.Println("Error parsing DUMP_GIS_RESOURCE_FROM_EXISTING_DB_PATCH, default to false")
+		shouldGetGISFromDumpSQLPatch = false
+	}
+
+	if shouldGetGISFromDumpSQLPatch {
+		log.Println("ℹ️ DUMP_GIS_RESOURCE_FROM_EXISTING_DB_PATCH is set to true, will load GIS data from existing SQL dump file")
+		// Just go ahead and execute the existing SQL dump file
+		if err := db.ExecuteSQLScript(PROVINCE_GIS_EXISTING_DUMP_PATH); err != nil {
+			log.Fatalf("Failed to execute province GIS dump script: %v", err)
+			panic(err)
+		}
+		if err := db.ExecuteSQLScript(WARD_GIS_EXISTING_DUMP_PATH); err != nil {
+			log.Fatalf("Failed to execute ward GIS dump script: %v", err)
+			panic(err)
+		}
+	} else {
+		log.Println("ℹ️ DUMP_GIS_RESOURCE_FROM_EXISTING_DB_PATCH is set to false, will fetch GIS data from GIS server")
+		if err := sapNhapService.BootstrapGISDataFromGISServer(); err != nil {
+			log.Fatalf("Failed to bootstrap GIS Data: %v", err)
+			panic(err)
+		}
 	}
 
 	log.Println("🗺️ Data dump from SapNhap Bando completed successfully")
