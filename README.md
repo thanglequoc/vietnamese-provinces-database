@@ -299,5 +299,7 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
 
 
-## Reach for the ⭐
+## It has been a long run to reach for the ⭐
+This project has been around since 2022 and is still actively maintained today.  
+The continued support from the community — shown through stars, issues, and contributions — has been a big motivation to keep improving it. Thank you for helping this project grow! 
 [![Star History Chart](https://api.star-history.com/svg?repos=thanglequoc/vietnamese-provinces-database&type=Date)](https://www.star-history.com/#thanglequoc/vietnamese-provinces-database&Date)
