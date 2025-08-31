@@ -2831,7 +2831,8 @@
     "stt": "99",
     "ten": "Yên Thành (xã)",
     "truocsn": "Xã Phúc Ninh, Xã Mỹ Gia, Xã Xuân Lai, Xã Phúc An, Xã Yên Thành",
-    "provinceName": "tỉnh Lào Cai"
+    "provinceName": "tỉnh Lào Cai",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"xa3321.905\",\"properties\":{\"matinhxa\":\"9.916\",\"maxa\":916},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
   },
   {
     "stt": "1",
@@ -5364,7 +5365,8 @@
     "stt": "47",
     "ten": "Tiên Yên (xã)",
     "truocsn": "Thị trấn Tiên Yên, Xã Phong Dụ, Xã Tiên Lãng, Xã Yên Than, Xã Đại Dực, Xã Đông Ngũ, Xã Vô Ngại",
-    "provinceName": "tỉnh Quảng Ninh"
+    "provinceName": "tỉnh Quảng Ninh",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"xa3321.1884\",\"properties\":{\"matinhxa\":\"3.1898\",\"maxa\":1898},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
   },
   {
     "stt": "48",
@@ -14848,7 +14850,8 @@
     "stt": "16",
     "ten": "An Vinh (xã)",
     "truocsn": "Xã An Trung (huyện An Lão), Xã An Dũng, Xã An Vinh",
-    "provinceName": "tỉnh Gia Lai"
+    "provinceName": "tỉnh Gia Lai",
+    "gisServerResponse": "{\"features\":[{\"geometry\":null,\"id\":\"xa3321.2974\",\"properties\":{\"matinhxa\":\"24.2990\",\"maxa\":2990},\"type\":\"Feature\"}],\"type\":\"FeatureCollection\"}"
   },
   {
     "stt": "17",

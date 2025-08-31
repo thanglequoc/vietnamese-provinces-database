@@ -45,7 +45,7 @@ CREATE TABLE sapnhap_wards (
 CREATE TABLE sapnhap_provinces_gis (
   stt INTEGER,
   ten VARCHAR(255),
-  truocsn VARCHAR(512),
+  truocsn TEXT,
   gis_server_id VARCHAR(20),
   sapnhap_province_matinh INTEGER,
   bbox geometry(Polygon, 4326),
@@ -57,7 +57,7 @@ CREATE TABLE sapnhap_provinces_gis (
 CREATE TABLE sapnhap_wards_gis (
   stt INTEGER,
   ten VARCHAR(255),
-  truocsn VARCHAR(512),
+  truocsn TEXT,
   gis_server_id VARCHAR(20),
   sapnhap_ward_maxa INTEGER,
   bbox geometry(Polygon, 4326),
