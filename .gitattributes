@@ -1,6 +1,6 @@
 # GIT FLS file tracking configuration of this repository.
 # This dataset contains very large GIS dump files, so we use Git LFS to manage them.
 # See https://git-lfs.github.com/ for more information how to install and use Git LFS.
-dataset-generation-scripts/resources/gis/exported/sapnhap_provinces_gis_202508311050_lfs.sql filter=lfs diff=lfs merge=lfs -text
-dataset-generation-scripts/resources/gis/exported/sapnhap_wards_gis_202508302208_lfs.sql filter=lfs diff=lfs merge=lfs -text
 dataset-generation-scripts/resources/gis/exported/*_lfs.sql filter=lfs diff=lfs merge=lfs -text
+dataset-generation-scripts/resources/gis/exported/sapnhap_provinces_gis_202509011857_lfs.sql filter=lfs diff=lfs merge=lfs -text
+dataset-generation-scripts/resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql filter=lfs diff=lfs merge=lfs -text
