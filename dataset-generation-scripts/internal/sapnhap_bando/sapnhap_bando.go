@@ -14,8 +14,8 @@ import (
 )
 
 const (
-	PROVINCE_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_provinces_gis_202508311050_lfs.sql"
-	WARD_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_wards_gis_202508302208_lfs.sql"
+	PROVINCE_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_provinces_gis_202509011857_lfs.sql"
+	WARD_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql"
 )
 
 func DumpDataFromSapNhapBando() {
@@ -61,5 +61,5 @@ func DumpDataFromSapNhapBando() {
 		}
 	}
 
-	log.Println("🗺️ Data dump from SapNhap Bando completed successfully")
+	log.Println("✅ Data dump from SapNhap Bando completed successfully")
 }
