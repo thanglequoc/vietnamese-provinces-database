@@ -61,7 +61,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 			r.Id, r.Name, r.NameEn, r.CodeName, r.CodeNameEn)
 		dataWriter.WriteString(insertLine + "\n")
 	}
-	dataWriter.WriteString("------------------------------------\n\n")
+	dataWriter.WriteString("-- ----------------------------------\n\n")
 
 	dataWriter.WriteString("-- DATA for administrative_units --\n")
 
@@ -71,7 +71,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 			u.Id, u.FullName, u.FullNameEn, u.ShortName, u.ShortNameEn, u.CodeName, u.CodeNameEn)
 		dataWriter.WriteString(insertLine + "\n")
 	}
-	dataWriter.WriteString("------------------------------------\n\n")
+	dataWriter.WriteString("-- ----------------------------------\n\n")
 
 	// variable to generate batch insert statement
 	counter := 0
@@ -162,7 +162,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvinces []s
 			p.Province.Code, p.SapNhapGIS.GISServerID, areaKm2, p.SapNhapGIS.BBoxWKT, p.SapNhapGIS.GeomWKT)
 		dataWriter.WriteString(insertLine + "\n")
 	}
-	dataWriter.WriteString("------------------------------------\n\n")
+	dataWriter.WriteString("-- ----------------------------------\n\n")
 
 	dataWriter.WriteString("-- DATA for gis_wards --\n")
 	for _, w := range sapNhapWards {
@@ -170,7 +170,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvinces []s
 			w.Ward.Code, w.SapNhapGIS.GISServerID, w.DienTichKm2, w.SapNhapGIS.BBoxWKT, w.SapNhapGIS.GeomWKT)
 		dataWriter.WriteString(insertLine + "\n")
 	}
-	dataWriter.WriteString("------------------------------------\n\n")
+	dataWriter.WriteString("-- ----------------------------------\n\n")
 	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
 	dataWriter.Flush()

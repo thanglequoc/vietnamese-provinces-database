@@ -208,7 +208,7 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 		}
 
 		fmt.Printf("Inserted GIS data for %s complete \n", bandoProvince.Ten)
-		fmt.Println("-----------------------------------------")
+		fmt.Println("-- ---------------------------------------")
 	}
 
 	// Wards data
@@ -263,7 +263,7 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 		}
 
 		fmt.Printf("Inserted GIS data for %s complete \n", bandoWard.Ten)
-		fmt.Println("-----------------------------------------")
+		fmt.Println("-- ---------------------------------------")
 	}
 
 	fmt.Printf("Total %d provinces are processed with GIS data successfully", len(bandoProvinces))
