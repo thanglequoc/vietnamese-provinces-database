@@ -3,10 +3,12 @@ package dataset_writer
 import (
 	"bufio"
 	"fmt"
-	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"log"
 	"os"
 	"time"
+
+	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 type PostgresMySQLDatasetFileWriter struct {
@@ -26,6 +28,10 @@ const insertProvinceValueTemplate string = "('%s','%s','%s','%s','%s','%s',%d)"
 // ward insert statement
 const insertWardTemplate string = "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES"
 const insertDistrictWardValueTemplate string = "('%s','%s','%s','%s','%s','%s','%s',%d)"
+
+// GIS section
+const insertProvinceGISTemplate string = "INSERT INTO gis_provinces(province_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326));"
+const insertWardGISTemplate string = "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326));"
 
 const batchInsertItemSize int = 50
 
@@ -121,5 +127,44 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 
 	dataWriter.Flush()
 	file.Close()
+	return nil
+}
+
+func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvinces []sapnhapmodels.SapNhapSiteProvince, sapNhapWards []sapnhapmodels.SapNhapSiteWard) error {
+	// TODO @thangle: Implement this
+	fileTimeSuffix := getFileTimeSuffix()
+
+	postgresMySQLGISOutputFolderPath := "./output/gis"
+	err := os.MkdirAll(postgresMySQLGISOutputFolderPath, os.ModePerm)
+
+	provinceGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/postgresql_mysql_generated_ImportData_gis_%s.sql", fileTimeSuffix)
+
+	provinceGISFile, err := os.OpenFile(provinceGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal("Unable to write to file", err)
+		panic(err)
+	}
+
+	dataWriter := bufio.NewWriter(provinceGISFile)
+	dataWriter.WriteString("/* === Add-on GIS Dataset for PostgreSQL/MySQL of Vietnamese Provinces Database  === */\n")
+	dataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
+	dataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	dataWriter.WriteString("/* =============================================== */\n\n")
+
+	dataWriter.WriteString("-- DATA for gis_provinces --\n")
+	for _, p := range sapNhapProvinces {
+		areaKm2, err := parseEuropeanFloat(p.DienTichKm2)
+		if err != nil {
+			log.Panicf("Unable to parse area km2 for province %s, value: %s", p.Province.Code, p.DienTichKm2)
+		}
+
+		insertLine := fmt.Sprintf(insertProvinceGISTemplate,
+			p.Province.Code, p.SapNhapGIS.GISServerID, areaKm2, p.SapNhapGIS.BBox, p.SapNhapGIS.GISGeom)
+		dataWriter.WriteString(insertLine + "\n")
+	}
+	dataWriter.WriteString("------------------------------------\n\n")
+
+	dataWriter.Flush()
+	provinceGISFile.Close()
 	return nil
 }
