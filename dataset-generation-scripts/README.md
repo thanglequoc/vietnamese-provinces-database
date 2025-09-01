@@ -37,6 +37,7 @@ Make sure to run:
 ```shell
 git lfs install
 git lfs pull
+git lfs fetch --all
 ```
 before running the project.
 
