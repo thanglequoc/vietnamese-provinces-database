@@ -20,14 +20,7 @@ func NewSapNhapRepository(db *bun.DB) *SapNhapRepository {
 func (r *SapNhapRepository) GetAllSapNhapSiteProvinces() ([]model.SapNhapSiteProvince, error) {
 	var provinces []model.SapNhapSiteProvince
 	err := r.db.NewSelect().
-		Model(&provinces).Relation("Province").Relation("SapNhapGIS", func(q *bun.SelectQuery) *bun.SelectQuery {
-		return q.
-			Column("stt", "ten", "truocsn", "gis_server_id", "sapnhap_province_matinh").
-			// Note: no table alias before bbox/gis_geom in the expr,
-			// and alias result as RelationName__FieldName
-			ColumnExpr(`ST_AsText(bbox) AS "SapNhapGIS__bbox"`).
-			ColumnExpr(`ST_AsText(gis_geom) AS "SapNhapGIS__gis_geom"`)
-	}).
+		Model(&provinces).Relation("Province").Relation("SapNhapGIS").
 		Scan(context.Background())
 	if err != nil {
 		return nil, err
