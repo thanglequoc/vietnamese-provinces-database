@@ -6,7 +6,7 @@
 -- CREATE administrative_regions TABLE
 CREATE TABLE administrative_regions (
 	id integer NOT NULL,
-	"name" varchar(255) NOT NULL,
+	name varchar(255) NOT NULL,
 	name_en varchar(255) NOT NULL,
 	code_name varchar(255) NULL,
 	code_name_en varchar(255) NULL,
@@ -30,7 +30,7 @@ CREATE TABLE administrative_units (
 -- CREATE provinces TABLE
 CREATE TABLE provinces (
 	code varchar(20) NOT NULL,
-	"name" varchar(255) NOT NULL,
+	name varchar(255) NOT NULL,
 	name_en varchar(255) NULL,
 	full_name varchar(255) NOT NULL,
 	full_name_en varchar(255) NULL,
@@ -48,7 +48,7 @@ CREATE INDEX idx_provinces_unit ON provinces(administrative_unit_id);
 -- CREATE wards TABLE
 CREATE TABLE wards (
 	code varchar(20) NOT NULL,
-	"name" varchar(255) NOT NULL,
+	name varchar(255) NOT NULL,
 	name_en varchar(255) NULL,
 	full_name varchar(255) NULL,
 	full_name_en varchar(255) NULL,
