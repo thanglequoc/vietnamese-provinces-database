@@ -164,6 +164,15 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvinces []s
 	}
 	dataWriter.WriteString("------------------------------------\n\n")
 
+	dataWriter.WriteString("-- DATA for gis_wards --\n")
+	for _, w := range sapNhapWards {
+		insertLine := fmt.Sprintf(insertWardGISTemplate,
+			w.Ward.Code, w.SapNhapGIS.GISServerID, w.DienTichKm2, w.SapNhapGIS.BBoxWKT, w.SapNhapGIS.GeomWKT)
+		dataWriter.WriteString(insertLine + "\n")
+	}
+	dataWriter.WriteString("------------------------------------\n\n")
+	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
+
 	dataWriter.Flush()
 	provinceGISFile.Close()
 	return nil
