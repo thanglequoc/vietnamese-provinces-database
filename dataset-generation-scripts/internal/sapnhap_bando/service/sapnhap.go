@@ -198,8 +198,8 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 			TruocSapNhap:          bandoProvince.TruocSN,
 			GISServerID:           id,
 			SapNhapProvinceMaTinh: matinhNumber,
-			BBox:                  wktBBoxPolygon,
-			GISGeom:               wktMultiPolygon,
+			BBoxWKT:               wktBBoxPolygon,
+			GeomWKT:               wktMultiPolygon,
 		}
 
 		if err := s.sapNhapGISRepo.InsertSapNhapProvinceGIS(sapNhapProvinceGIS); err != nil {
@@ -253,8 +253,8 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 			TruocSapNhap:    bandoWard.TruocSN,
 			GISServerID:     id,
 			SapNhapWardMaXa: maxaNumber,
-			BBox:            wktBBoxPolygon,
-			GISGeom:         wktMultiPolygon,
+			BBoxWKT:         wktBBoxPolygon,
+			GeomWKT:         wktMultiPolygon,
 		}
 
 		if err := s.sapNhapGISRepo.InsertSapNhapWardGIS(sapNhapWardGIS); err != nil {

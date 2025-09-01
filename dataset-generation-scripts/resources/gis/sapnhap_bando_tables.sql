@@ -1,6 +1,9 @@
 DROP TABLE IF EXISTS sapnhap_wards_gis;
+
 DROP TABLE IF EXISTS sapnhap_provinces_gis;
+
 DROP TABLE IF EXISTS sapnhap_wards;
+
 DROP TABLE IF EXISTS sapnhap_provinces;
 
 -- Enable Postgis Extension
@@ -48,8 +51,10 @@ CREATE TABLE sapnhap_provinces_gis (
   truocsn TEXT,
   gis_server_id VARCHAR(20),
   sapnhap_province_matinh INTEGER,
-  bbox geometry(Polygon, 4326),
-  gis_geom geometry(Multipolygon, 4326),
+  bbox_wkt TEXT,
+  bbox geometry(Polygon, 4326) GENERATED ALWAYS AS (ST_GeomFromText(bbox_wkt, 4326)) STORED,
+  geom_wkt TEXT,
+  geom geometry(Multipolygon, 4326) GENERATED ALWAYS AS (ST_GeomFromText(geom_wkt, 4326)) STORED,
   -- Foreign keys
   CONSTRAINT fk_sapnhap_province_matinh FOREIGN KEY (sapnhap_province_matinh) REFERENCES sapnhap_provinces(mahc)
 );
@@ -60,8 +65,10 @@ CREATE TABLE sapnhap_wards_gis (
   truocsn TEXT,
   gis_server_id VARCHAR(20),
   sapnhap_ward_maxa INTEGER,
-  bbox geometry(Polygon, 4326),
-  gis_geom geometry(Multipolygon, 4326),
+  bbox_wkt TEXT,
+  bbox geometry(Polygon, 4326) GENERATED ALWAYS AS (ST_GeomFromText(bbox_wkt, 4326)) STORED,
+  geom_wkt TEXT,
+  geom geometry(Multipolygon, 4326) GENERATED ALWAYS AS (ST_GeomFromText(geom_wkt, 4326)) STORED,
   -- Foreign keys
   CONSTRAINT fk_sapnhap_ward_maxa FOREIGN KEY (sapnhap_ward_maxa) REFERENCES sapnhap_wards(maxa)
 );

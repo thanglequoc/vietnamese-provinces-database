@@ -55,8 +55,8 @@ type SapNhapProvinceGIS struct {
 	TruocSapNhap          string `json:"truocSapNhap" bun:"truocsn"`
 	GISServerID           string `json:"gisServerID" bun:"gis_server_id"`
 	SapNhapProvinceMaTinh int    `json:"sapNhapProvinceMaTinh" bun:"sapnhap_province_matinh"`
-	BBox                  string `bun:"bbox"`
-	GISGeom               string `bun:"gis_geom"`
+	BBoxWKT               string `bun:"bbox_wkt"`
+	GeomWKT               string `bun:"geom_wkt"`
 
 	SapNhapSiteProvince SapNhapSiteProvince `bun:"rel:belongs-to,join:sapnhap_province_matinh=mahc"`
 }
@@ -69,8 +69,8 @@ type SapNhapWardGIS struct {
 	TruocSapNhap    string `json:"truocSapNhap" bun:"truocsn"`
 	GISServerID     string `json:"gisServerID" bun:"gis_server_id"`
 	SapNhapWardMaXa int    `json:"sapNhapWardMaXa" bun:"sapnhap_ward_maxa"`
-	BBox            string `bun:"bbox"`
-	GISGeom         string `bun:"gis_geom"`
+	BBoxWKT         string `bun:"bbox_wkt"`
+	GeomWKT         string `bun:"geom_wkt"`
 
 	SapNhapSiteWard SapNhapSiteWard `bun:"rel:belongs-to,join:sapnhap_ward_maxa=maxa"`
 }

@@ -2,17 +2,17 @@ package repository
 
 import (
 	"context"
-	"github.com/uptrace/bun"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	"github.com/uptrace/bun"
 )
 
 type SapNhapRepository struct {
-	db  *bun.DB
+	db *bun.DB
 }
 
 func NewSapNhapRepository(db *bun.DB) *SapNhapRepository {
 	return &SapNhapRepository{
-		db:  db,
+		db: db,
 	}
 }
 

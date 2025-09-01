@@ -18,7 +18,6 @@ func ReadAndGenerateSQLDatasets() {
 
 	vn_provinces_tmp_repo := vnprovincestmprepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
 
-
 	// Clean up the output folder
 	os.RemoveAll("./output")
 	os.MkdirAll("./output", 0746)
@@ -111,10 +110,12 @@ func GenerateGISSQLDatasets() {
 		log.Fatal("Unable to get SapNhapSiteWards", err)
 		return
 	}
-	fmt.Println((len(sapNhapProvinces)))
-	fmt.Println((len(sapNhapWards)))
+	
 
-	// Clean up the output folder
-	os.RemoveAll("./output/gis")
-	os.MkdirAll("./output/gis", 0746)
+	// Postgresql & MySQL
+	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
+		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
+	}
+
+	postgresMySQLDatasetFileWriter.WriteGISDataToFile(sapNhapProvinces, sapNhapWards)
 }
