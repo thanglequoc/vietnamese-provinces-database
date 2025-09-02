@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for PostgreSQL/MySQL === */
-/* Created at:  Mon, 01 Sep 2025 20:40:32 +0700 */
+/* Created at:  Tue, 02 Sep 2025 10:42:38 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
