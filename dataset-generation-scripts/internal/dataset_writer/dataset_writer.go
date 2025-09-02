@@ -96,26 +96,31 @@ func ReadAndGenerateSQLDatasets() {
 
 /*
 Generate the GIS SQL files
-TODO @thangle:Implement this
 */
 func GenerateGISSQLDatasets() {
-	sapNhapBanDoRepo := sapnhapbandorepo.NewSapNhapRepository(db.GetPostgresDBConnection())
-	sapNhapProvinces, err := sapNhapBanDoRepo.GetAllSapNhapSiteProvinces()
+	sapNhapBanDoGISRepo := sapnhapbandorepo.NewSapNhapGISRepository(db.GetPostgresDBConnection())
+	sapNhapProvincesGIS, err := sapNhapBanDoGISRepo.GetAllSapNhapProvinceGIS()
 	if err != nil {
 		log.Fatal("Unable to get SapNhapSiteProvinces", err)
 		return
 	}
-	sapNhapWards, err := sapNhapBanDoRepo.GetAllSapNhapSiteWards()
+	sapNhapWardsGIS, err := sapNhapBanDoGISRepo.GetAllSapNhapWardGIS()
 	if err != nil {
 		log.Fatal("Unable to get SapNhapSiteWards", err)
 		return
 	}
-	
+
+	anotherSapNhap, err := sapNhapBanDoGISRepo.GetAllSapNhapProvinceGIS()
+	if err != nil {
+		log.Fatal("Unable to get SapNhapProvinceGIS", err)
+		return
+	}
+	fmt.Printf("Total %d SapNhapProvinceGIS are loaded from DB \n", len(anotherSapNhap)) 
 
 	// Postgresql & MySQL
 	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
 		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
 	}
 
-	postgresMySQLDatasetFileWriter.WriteGISDataToFile(sapNhapProvinces, sapNhapWards)
+	postgresMySQLDatasetFileWriter.WriteGISDataToFile(sapNhapProvincesGIS, sapNhapWardsGIS)
 }

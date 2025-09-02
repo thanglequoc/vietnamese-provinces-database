@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	sapNhapModels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
@@ -17,8 +17,8 @@ type DatasetFileWriter interface {
 		wards []model.Ward) error
 
 	WriteGISDataToFile(
-		sapNhapProvinces []sapNhapModels.SapNhapSiteProvince,
-		sapNhapWards []sapNhapModels.SapNhapSiteWard) error
+		sapNhapProvincesGIS []sapnhapmodels.SapNhapProvinceGIS,
+		sapNhapWardsGIS []sapnhapmodels.SapNhapWardGIS) error
 }
 
 func getFileTimeSuffix() string {
