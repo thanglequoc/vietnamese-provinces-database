@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for PostgreSQL/MySQL === */
-/* Created at:  Tue, 29 Jul 2025 00:51:41 +0700 */
+/* Created at:  Mon, 01 Sep 2025 20:40:32 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -12,7 +12,7 @@ INSERT INTO administrative_regions(id,name,name_en,code_name,code_name_en) VALUE
 INSERT INTO administrative_regions(id,name,name_en,code_name,code_name_en) VALUES(6,'Tây Nguyên','Central Highlands','tay_nguyen','central_highlands');
 INSERT INTO administrative_regions(id,name,name_en,code_name,code_name_en) VALUES(7,'Đông Nam Bộ','Southeast','dong_nam_bo','southeast');
 INSERT INTO administrative_regions(id,name,name_en,code_name,code_name_en) VALUES(8,'Đồng bằng sông Cửu Long','Mekong River Delta','dong_bang_song_cuu_long','southwest');
-------------------------------------
+-- ----------------------------------
 
 -- DATA for administrative_units --
 INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(1,'Thành phố trực thuộc trung ương','Municipality','Thành phố','City','thanh_pho_truc_thuoc_trung_uong','municipality');
@@ -20,7 +20,7 @@ INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name
 INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(3,'Phường','Ward','Phường','Ward','phuong','ward');
 INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(4,'Xã','Commune','Xã','Commune','xa','commune');
 INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(5,'Đặc khu tại hải đảo','Special administrative region','Đặc khu','Special administrative region','dac_khu','special_administrative_region');
-------------------------------------
+-- ----------------------------------
 
 -- DATA for provinces --
 INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES

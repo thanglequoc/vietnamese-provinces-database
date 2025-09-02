@@ -130,50 +130,84 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 	return nil
 }
 
-func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvinces []sapnhapmodels.SapNhapSiteProvince, sapNhapWards []sapnhapmodels.SapNhapSiteWard) error {
-	// TODO @thangle: Implement this
+func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnhapmodels.SapNhapProvinceGIS, sapNhapWardsGIS []sapnhapmodels.SapNhapWardGIS) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
 	postgresMySQLGISOutputFolderPath := "./output/gis"
 	err := os.MkdirAll(postgresMySQLGISOutputFolderPath, os.ModePerm)
 
-	provinceGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/postgresql_mysql_generated_ImportData_gis_%s.sql", fileTimeSuffix)
-
-	provinceGISFile, err := os.OpenFile(provinceGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	postgresGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/postgresql_ImportData_gis_%s.sql", fileTimeSuffix)
+	provinceGISFile, err := os.OpenFile(postgresGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal("Unable to write to file", err)
 		panic(err)
 	}
+	defer provinceGISFile.Close()
 
-	dataWriter := bufio.NewWriter(provinceGISFile)
-	dataWriter.WriteString("/* === Add-on GIS Dataset for PostgreSQL/MySQL of Vietnamese Provinces Database  === */\n")
-	dataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	dataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
-	dataWriter.WriteString("/* =============================================== */\n\n")
+	mysqlGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/mysql_ImportData_gis_%s.sql", fileTimeSuffix)
+	mysqlGISFile, err := os.OpenFile(mysqlGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal("Unable to write to file", err)
+		panic(err)
+	}
+	defer mysqlGISFile.Close()
 
-	dataWriter.WriteString("-- DATA for gis_provinces --\n")
-	for _, p := range sapNhapProvinces {
-		areaKm2, err := parseEuropeanFloat(p.DienTichKm2)
+	postgresScriptDataWriter := bufio.NewWriter(provinceGISFile)
+	postgresScriptDataWriter.WriteString("/* === Add-on GIS Dataset for PostgreSQL of Vietnamese Provinces Database  === */\n")
+	postgresScriptDataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
+	postgresScriptDataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	postgresScriptDataWriter.WriteString("/* =============================================== */\n\n")
+
+	mysqlScriptDataWriter := bufio.NewWriter(mysqlGISFile)
+	mysqlScriptDataWriter.WriteString("/* === Add-on GIS Dataset for MySQL of Vietnamese Provinces Database  === */\n")
+	mysqlScriptDataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
+	mysqlScriptDataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	mysqlScriptDataWriter.WriteString("/* =============================================== */\n\n")
+
+	postgresScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
+	for _, p := range sapNhapProvincesGIS {
+		areaKm2, err := parseEuropeanFloat(p.SapNhapSiteProvince.DienTichKm2)
+		vnProvinceCode := p.SapNhapSiteProvince.VNProvinceCode
 		if err != nil {
-			log.Panicf("Unable to parse area km2 for province %s, value: %s", p.Province.Code, p.DienTichKm2)
+			log.Panicf("Unable to parse area km2 for province %s, value: %s", vnProvinceCode, p.SapNhapSiteProvince.DienTichKm2)
 		}
 
-		insertLine := fmt.Sprintf(insertProvinceGISTemplate,
-			p.Province.Code, p.SapNhapGIS.GISServerID, areaKm2, p.SapNhapGIS.BBoxWKT, p.SapNhapGIS.GeomWKT)
-		dataWriter.WriteString(insertLine + "\n")
-	}
-	dataWriter.WriteString("-- ----------------------------------\n\n")
+		// Postgres - Postgis use OGC (Open Geospatial Consortium) standard (lng - lat)
+		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate + "\n",
+			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKT, p.GeomWKT)
+		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
-	dataWriter.WriteString("-- DATA for gis_wards --\n")
-	for _, w := range sapNhapWards {
-		insertLine := fmt.Sprintf(insertWardGISTemplate,
-			w.Ward.Code, w.SapNhapGIS.GISServerID, w.DienTichKm2, w.SapNhapGIS.BBoxWKT, w.SapNhapGIS.GeomWKT)
-		dataWriter.WriteString(insertLine + "\n")
+		// MySQL use official EPSG standard (lat - lng)
+		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate + "\n",
+			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
+		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 	}
-	dataWriter.WriteString("-- ----------------------------------\n\n")
-	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
-	dataWriter.Flush()
-	provinceGISFile.Close()
+	postgresScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+	mysqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+
+	postgresScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
+	mysqlScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
+
+	for _, w := range sapNhapWardsGIS {
+		vnWardCode := w.SapNhapSiteWard.VNWardCode
+		postgresInsertLine := fmt.Sprintf(insertWardGISTemplate + "\n",
+			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKT, w.GeomWKT)
+		
+		postgresScriptDataWriter.WriteString(postgresInsertLine)
+
+		mysqlInsertLine := fmt.Sprintf(insertWardGISTemplate + "\n",
+			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
+		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
+	}
+	postgresScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+	postgresScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
+
+	mysqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+	mysqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
+	
+	postgresScriptDataWriter.Flush()
+	mysqlScriptDataWriter.Flush()
+
 	return nil
 }
