@@ -6,3 +6,4 @@ dataset-generation-scripts/resources/gis/exported/sapnhap_provinces_gis_20250901
 dataset-generation-scripts/resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql filter=lfs diff=lfs merge=lfs -text
 mysql/gis/mysql_ImportData_gis.sql filter=lfs diff=lfs merge=lfs -text
 postgresql/gis/postgresql_ImportData_gis.sql filter=lfs diff=lfs merge=lfs -text
+sqlserver/gis/mssql_ImportData_gis.sql filter=lfs diff=lfs merge=lfs -text
