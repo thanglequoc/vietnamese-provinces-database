@@ -31,7 +31,8 @@ const insertDistrictWardValueTemplate string = "('%s','%s','%s','%s','%s','%s','
 
 // GIS section
 const insertProvinceGISTemplate string = "INSERT INTO gis_provinces(province_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326));"
-const insertWardGISTemplate string = "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326));"
+const insertWardGISTemplate string = "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES"
+const insertWardGISValueTemplate string = "('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326))"
 
 const batchInsertItemSize int = 50
 
@@ -173,12 +174,12 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 		}
 
 		// Postgres - Postgis use OGC (Open Geospatial Consortium) standard (lng - lat)
-		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate + "\n",
+		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
 			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKT, p.GeomWKT)
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
 		// MySQL use official EPSG standard (lat - lng)
-		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate + "\n",
+		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
 			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 	}
@@ -188,24 +189,43 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 
 	postgresScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
 	mysqlScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
+	counter := 0
+	isAppending := false
 
-	for _, w := range sapNhapWardsGIS {
+	for i, w := range sapNhapWardsGIS {
+		if !isAppending {
+			postgresScriptDataWriter.WriteString(insertWardGISTemplate + "\n")
+			mysqlScriptDataWriter.WriteString(insertWardGISTemplate + "\n")
+		}
+
 		vnWardCode := w.SapNhapSiteWard.VNWardCode
-		postgresInsertLine := fmt.Sprintf(insertWardGISTemplate + "\n",
+		postgresInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
 			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKT, w.GeomWKT)
-		
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
-		mysqlInsertLine := fmt.Sprintf(insertWardGISTemplate + "\n",
+		mysqlInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
 			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
+
+		counter++
+		// the batch insert statement batch reach limit, break and create a new batch insert statement
+		if counter == batchInsertItemSize || i == len(sapNhapWardsGIS)-1 {
+			isAppending = false
+			postgresScriptDataWriter.WriteString(";\n\n")
+			mysqlScriptDataWriter.WriteString(";\n\n")
+			counter = 0 // reset counter
+		} else {
+			postgresScriptDataWriter.WriteString(",\n")
+			mysqlScriptDataWriter.WriteString(";\n\n")
+			isAppending = true
+		}
 	}
 	postgresScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 	postgresScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
 	mysqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 	mysqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
-	
+
 	postgresScriptDataWriter.Flush()
 	mysqlScriptDataWriter.Flush()
 

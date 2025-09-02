@@ -27,7 +27,8 @@ const insertProvinceWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%
 
 // GIS section
 const insertMssqlGISProvinceTemplate string = "INSERT INTO gis_provinces(province_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,geometry::STGeomFromText('%s', 4326),geometry::STGeomFromText('%s', 4326));"
-const insertMssqlGISWardTemplate string = "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,geometry::STGeomFromText('%s', 4326),geometry::STGeomFromText('%s', 4326));"
+const insertMssqlGISWardTemplate string = "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES"
+const insertMssqlGISWardValueTemplate string = "('%s','%s',%f,geometry::STGeomFromText('%s', 4326),geometry::STGeomFromText('%s', 4326))"
 
 func (w *MssqlDatasetFileWriter) WriteToFile(
 	regions []model.AdministrativeRegion,
@@ -161,11 +162,29 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnha
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 
 	mssqlScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
-	for _, w := range sapNhapWardsGIS {
+	counter := 0
+	isAppending := false
+
+	for i, w := range sapNhapWardsGIS {
+		if !isAppending {
+			mssqlScriptDataWriter.WriteString(insertMssqlGISWardTemplate + "\n")
+		}
+		
 		vnWardCode := w.SapNhapSiteWard.VNWardCode
-		mssqlInsertLine := fmt.Sprintf(insertMssqlGISWardTemplate+"\n",
+		mssqlInsertLine := fmt.Sprintf(insertMssqlGISWardValueTemplate,
 			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKT, w.GeomWKT)
 		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
+		counter++
+
+		// the batch insert statement batch reach limit, break and create a new batch insert statement
+		if counter == batchInsertItemSize || i == len(sapNhapWardsGIS)-1 {
+			isAppending = false
+			mssqlScriptDataWriter.WriteString(";\n\nGO\n\n")
+			counter = 0 // reset counter
+		} else {
+			mssqlScriptDataWriter.WriteString(",\n")
+			isAppending = true
+		}
 	}
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 	mssqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
