@@ -121,6 +121,13 @@ func GenerateGISSQLDatasets() {
 	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
 		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
 	}
-
 	postgresMySQLDatasetFileWriter.WriteGISDataToFile(sapNhapProvincesGIS, sapNhapWardsGIS)
+	fmt.Println("✅ Postgresql-MySQL GIS Dataset successfully generated")
+
+	// Mssql
+	mssqlDatasetFileWriter := datasetfilewriter.MssqlDatasetFileWriter{
+		OutputFilePath: "./output/mssql_generated_ImportData_vn_units_%s.sql",
+	}
+	mssqlDatasetFileWriter.WriteGISDataToFile(sapNhapProvincesGIS, sapNhapWardsGIS)
+	fmt.Println("✅ Mssql GIS Dataset successfully generated")
 }
