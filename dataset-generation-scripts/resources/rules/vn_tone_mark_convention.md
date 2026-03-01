@@ -205,3 +205,27 @@ b. Với “ua” thì phân biệt bằng sự xuất hiện hay vắng mặt c
 Như vậy, theo quy tắc thứ 2 thì khi đánh dấu thanh trên các tổ hợp “oa”, “oe”, “uy”, ta cần đánh dấu vào chữ cái phía sau (chẳng hạn: oà, oè, uỳ), bởi các chữ này mới biểu diễn cho âm chính.
 (Tham khảo học giả An Chi, vấn đề đánh dấu thanh điệu)
 ```
+
+And also
+
+https://newca.vn/nhung-nham-lan-thuong-gap-va-quy-tac-dat-dau-thanh/
+
+https://thuvienphapluat.vn/van-ban/Giao-duc/Quyet-dinh-1989-QD-BGDDT-2018-quy-dinh-chinh-ta-Chuong-trinh-sach-giao-khoa-giao-duc-pho-thong-445355.aspx?anchor=dieu_8
+
+Rule: 1989/QĐ-BGDĐT
+
+```
+Điều 8. Cách đặt dấu thanh
+
+1. Trường hợp âm chính của âm tiết được ghi bằng một chữ cái, dấu thanh được đặt trên hoặc dưới chữ cái ghi âm chính của mỗi âm tiết, ví dụ: mái nhà, hoà nhạc, quý hoá, thuỷ thủ, mạnh khoẻ, trí tuệ,...
+
+2. Trường hợp âm chính của âm tiết được ghi bằng hai chữ cái
+
+a) Đối với các kí hiệu ia, ua, ưa, dấu thanh đặt trên hoặc dưới chữ cái thứ nhất, ví dụ: bìa, lụa, lửa,...
+
+b) Đối với các kí hiệu iê, yê, uô, uơ, dấu thanh đặt trên hoặc dưới chữ cái thứ hai, ví dụ: biển, thuyền, nhuộm, được,...
+
+Điều 9. Cách viết âm i sau phụ âm đầu trong các âm tiết không có âm đệm và âm cuối
+
+1. Trường hợp âm i đứng ngay sau phụ âm đầu thì được viết bằng chữ i, ví dụ: hi vọng, kỉ niệm, lí luận, mĩ thuật, bác sĩ, tỉ lệ,...
+```
