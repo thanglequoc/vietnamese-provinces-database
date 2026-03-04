@@ -36,6 +36,11 @@ import (
 //
 // Like NormalizeToneMarks, the input is treated as space-separated tokens and
 // each token is processed independently.
+
+/* 
+Note from repo author @thanglequoc: This function will just be here for reference and will not be used.
+Because the administrative unit name is considered as their own proper noun, we will not apply this normalization to them. The function is kept here for reference in case we need to apply it to other fields in the future, but it will not be used for the administrative unit names.
+*/
 func NormalizeIY(s string) string {
 	tokens := strings.Split(s, " ")
 	for i, t := range tokens {
