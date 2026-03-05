@@ -110,7 +110,10 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 
 	for _, w := range dvhcvnWardModels {
 		wardFullName := helper.RemoveWhiteSpaces(w.WardName)
-		wardFullName = correctDvhcvnSoapData(w.WardCode, wardFullName)
+		// Apply corrections to both unit code and name
+		correction := correctDvhcvnSoapData(w.WardCode, wardFullName)
+		wardFullName = correction.name
+		wardCode := correction.code
 		
 		administrativeUnitLevel := helper.GetAdministrativeUnit_WardLevel(wardFullName)
 		
@@ -141,7 +144,7 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 		}
 
 		wardModel := &vn_provinces_tmp_model.Ward{
-			Code:                 w.WardCode,
+			Code:                 wardCode,
 			Name:                 wardShortName,
 			NameEn:               wardShortNameEn,
 			FullName:             wardFullNameNormalized,
