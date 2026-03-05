@@ -436,3 +436,68 @@ func TestNormalizeToneMarksEthnicPlaceNames(t *testing.T) {
 		})
 	}
 }
+
+// ════════════════════════════════════════════════════════════════════════════
+// Quyết định 1989/QĐ-BGDĐT — Điều 8 official examples
+// All words below are already correctly placed; NormalizeToneMarks must be
+// idempotent on them (input == output).
+// ════════════════════════════════════════════════════════════════════════════
+
+var dieuEightOfficialExamples = []struct {
+	name  string
+	input string
+	want  string
+}{
+	// ── §1.1 — Single-vowel nucleus ─────────────────────────────────────────
+	// Source: "mái nhà, hoà nhạc, quý hoá, thuỷ thủ, mạnh khoẻ, trí tuệ,
+	//          Luật Sở hữu trí tuệ"
+	{"§1.1 mái", "mái", "mái"},
+	{"§1.1 nhà", "nhà", "nhà"},
+	{"§1.1 hoà", "hoà", "hoà"},
+	{"§1.1 nhạc", "nhạc", "nhạc"},
+	{"§1.1 quý", "quý", "quý"},
+	{"§1.1 hoá", "hoá", "hoá"},
+	{"§1.1 thuỷ", "thuỷ", "thuỷ"},
+	{"§1.1 thủ", "thủ", "thủ"},
+	{"§1.1 mạnh", "mạnh", "mạnh"},
+	{"§1.1 khoẻ", "khoẻ", "khoẻ"},
+	{"§1.1 trí", "trí", "trí"},
+	{"§1.1 tuệ", "tuệ", "tuệ"},
+	{"§1.1 Luật", "Luật", "Luật"},
+	{"§1.1 Sở", "Sở", "Sở"},
+	{"§1.1 hữu", "hữu", "hữu"},
+	// Full phrases from §1.1
+	{"§1.1 phrase mái nhà", "mái nhà", "mái nhà"},
+	{"§1.1 phrase hoà nhạc", "hoà nhạc", "hoà nhạc"},
+	{"§1.1 phrase quý hoá", "quý hoá", "quý hoá"},
+	{"§1.1 phrase thuỷ thủ", "thuỷ thủ", "thuỷ thủ"},
+	{"§1.1 phrase mạnh khoẻ", "mạnh khoẻ", "mạnh khoẻ"},
+	{"§1.1 phrase trí tuệ", "trí tuệ", "trí tuệ"},
+	{"§1.1 phrase Luật Sở hữu trí tuệ", "Luật Sở hữu trí tuệ", "Luật Sở hữu trí tuệ"},
+
+	// ── §1.2a — Diphthong ia/ua/ưa, no coda → tone on 1st letter ───────────
+	// Source: "bìa, lụa, lửa"
+	{"§1.2a bìa", "bìa", "bìa"},
+	{"§1.2a lụa", "lụa", "lụa"},
+	{"§1.2a lửa", "lửa", "lửa"},
+
+	// ── §1.2b — Diphthong iê/yê/uô/uơ, with coda → tone on 2nd letter ──────
+	// Source: "biển, thuyền, nhuộm, được"
+	{"§1.2b biển", "biển", "biển"},
+	{"§1.2b thuyền", "thuyền", "thuyền"},
+	{"§1.2b nhuộm", "nhuộm", "nhuộm"},
+	{"§1.2b được", "được", "được"},
+	// Full phrase from §1.2b
+	{"§1.2b phrase biển thuyền nhuộm được", "biển thuyền nhuộm được", "biển thuyền nhuộm được"},
+}
+
+func TestNormalizeToneMarksDieuEightOfficial(t *testing.T) {
+	for _, tc := range dieuEightOfficialExamples {
+		t.Run(tc.name, func(t *testing.T) {
+			got := NormalizeToneMarks(tc.input)
+			if got != tc.want {
+				t.Errorf("NormalizeToneMarks(%q) = %q; want %q", tc.input, got, tc.want)
+			}
+		})
+	}
+}
