@@ -7,16 +7,22 @@ import (
 	sapNhap "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando"
 )
 
+const INCLUDE_GIS = true
+const USE_DIRECT_DVHCVN_SOURCE = true
+
 func main() {
 	// pre-run
 	// Refresh temporary dataset, import existing dataset
 	db.BootstrapTemporaryDatasetStructure()
-	dumper.DumpFromManualSeed()
-	// dumper.BeginDumpingDataWithDvhcvnDirectSource()
+
+	if (USE_DIRECT_DVHCVN_SOURCE) {
+		dumper.BeginDumpingDataWithDvhcvnDirectSource()
+	} else {
+		dumper.DumpFromManualSeed()
+	}
 	dataset_writer.ReadAndGenerateSQLDatasets()
 
-	includeGIS := true
-	if (includeGIS) {
+	if (INCLUDE_GIS) {
 		db.BootstrapGISDataStructure()
 		sapNhap.DumpDataFromSapNhapBando()
 		dataset_writer.GenerateGISSQLDatasets()

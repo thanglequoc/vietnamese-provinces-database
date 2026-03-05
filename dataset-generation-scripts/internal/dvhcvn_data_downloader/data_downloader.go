@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const DVHCVN_URL = "https://danhmuchanhchinh.gso.gov.vn/DMDVHC.asmx"
+const DVHCVN_URL = "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx"
 
 const DVHCVN_SOAP_DANH_MUC_TINH = "DanhMucTinh"
 const DVHCVN_SOAP_DANH_MUC_QUAN_HUYEN = "DanhMucQuanHuyen"
@@ -28,11 +28,6 @@ func FetchDvhcvnData(publicDataDate time.Time) DvhcvnDataSet {
 	provinceSoapResponse := fetchDataFromAPI(provinceRequestBody)
 	provinceResult := extractProvinceDvhcvnUnits(provinceSoapResponse)
 
-	// Fetch district-level data from DVHCVN SOAP API
-	districtRequestBody := createSoapRequest(DVHCVN_SOAP_DANH_MUC_QUAN_HUYEN, dataAPIDateStr)
-	districtSoapResponse := fetchDataFromAPI(districtRequestBody)
-	districtResult := extractDistrictDvhcvnUnits(districtSoapResponse)
-
 	// Fetch ward-level data from DVHCVN SOAP API
 	wardRequestBody := createSoapRequest(DVHCVN_SOAP_DANH_MUC_PHUONG_XA, dataAPIDateStr)
 	wardSoapResponse := fetchDataFromAPI(wardRequestBody)
@@ -41,7 +36,6 @@ func FetchDvhcvnData(publicDataDate time.Time) DvhcvnDataSet {
 	// Concatenate and return results
 	return DvhcvnDataSet{
 		ProvinceData: provinceResult,
-		DistrictData: districtResult,
 		WardData: wardResult,
 	}
 }

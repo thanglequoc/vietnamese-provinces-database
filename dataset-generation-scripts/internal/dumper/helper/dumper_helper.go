@@ -2,21 +2,18 @@ package helper
 
 import (
 	"strings"
-	"unicode"
-
-	"golang.org/x/text/runes"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 )
 
 /*
 Determine the province administrative unit id from its name
 */
 func GetAdministrativeUnit_ProvinceLevel(provinceFullName string) int {
-	if strings.HasPrefix(provinceFullName, "Thành phố") {
+	normalized := strings.ToLower(viet.RemoveVietToneMark(provinceFullName))
+	if strings.HasPrefix(normalized, "thanh pho") {
 		return 1
 	}
-	if strings.HasPrefix(provinceFullName, "Tỉnh") {
+	if strings.HasPrefix(normalized, "tinh") {
 		return 2
 	}
 	panic("Unable to determine administrative unit name from province: " + provinceFullName)
@@ -26,27 +23,19 @@ func GetAdministrativeUnit_ProvinceLevel(provinceFullName string) int {
 Determine the ward administrative unit id from its name
 */
 func GetAdministrativeUnit_WardLevel(wardFullName string) int {
-	if strings.HasPrefix(wardFullName, "Phường") {
+	// Normalize to handle precomposed vs decomposed characters
+	normalized := strings.ToLower(viet.RemoveVietToneMark(wardFullName))
+	
+	if strings.HasPrefix(normalized, "phuong") {
 		return 3
 	}
-	if strings.HasPrefix(wardFullName, "Xã") {
+	if strings.HasPrefix(normalized, "xa") {
 		return 4
 	}
-	if strings.HasPrefix(wardFullName, "Đặc khu") {
+	if strings.HasPrefix(normalized, "dac khu") {
 		return 5
 	}
 	panic("Unable to determine administrative unit name from ward: " + wardFullName)
-}
-
-/*
-Normalize string to remove Vietnamese special character and sign
-*/
-func NormalizeString(source string) string {
-	trans := transform.Chain(norm.NFD, runes.Remove(runes.In(unicode.Mn)), norm.NFC)
-	result, _, _ := transform.String(trans, source)
-	result = strings.ReplaceAll(result, "đ", "d")
-	result = strings.ReplaceAll(result, "Đ", "D")
-	return result
 }
 
 /*
@@ -55,7 +44,7 @@ Generate code name from the name
 func ToCodeName(shortName string) string {
 	shortName = strings.ReplaceAll(shortName, " - ", " ")
 	shortName = strings.ReplaceAll(shortName, "'", "") // to handle special name with single quote
-	return strings.ToLower(strings.ReplaceAll(NormalizeString(shortName), " ", "_"))
+	return strings.ToLower(strings.ReplaceAll(viet.RemoveVietToneMark(shortName), " ", "_"))
 }
 
 func RemoveWhiteSpaces(name string) string {

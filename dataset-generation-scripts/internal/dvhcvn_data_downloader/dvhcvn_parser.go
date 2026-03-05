@@ -99,12 +99,14 @@ func regexp2FindAllString(re *regexp2.Regexp, s string) []string {
 }
 
 func sanitizeString(s string) string {
-	return strings.Trim(
-		strings.ReplaceAll(s, "  ", " "), " ")
+	// Replace all whitespace (including newlines, tabs) with single spaces
+	return strings.Join(strings.Fields(s), " ")
 }
 
 func extractRegexValue(pattern string, s string) string {
-	regex := regexp.MustCompile(pattern)
+	// Use (?s) flag to make . match newlines
+	// Make .+ non-greedy to avoid matching across multiple tags
+	regex := regexp.MustCompile("(?s)" + strings.ReplaceAll(pattern, "(.+)", "(.+?)"))
 	if match := regex.FindStringSubmatch(s); match != nil {
 		return sanitizeString(match[1])
 	}

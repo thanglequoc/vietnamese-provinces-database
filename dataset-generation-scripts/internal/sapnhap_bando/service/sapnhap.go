@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"regexp"
 	"strconv"
 	"strings"
 
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
@@ -56,6 +56,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteProvinces() error {
 	for _, provinceData := range sapNhapSiteProvinces {
 		// Clean the province name by removing administrative unit prefixes.
 		cleanedProvinceName := cleanAdministrativeUnitPrefix(provinceData.TenTinh)
+		cleanedProvinceName = normalizeString(cleanedProvinceName)
 
 		// Attempt to look up the vn province by name
 		vnProvince, err := s.vnProvinceTmpRepo.FindProvinceByName(ctx, cleanedProvinceName)
@@ -111,7 +112,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 				wardData.TenHC = "Phó Bảng"
 			}
 
-			wardData.TenHC = normalizeVietnameseToneSimple(wardData.TenHC)
+			wardData.TenHC = normalizeString(wardData.TenHC)
 
 			vnWard, err := s.vnProvinceTmpRepo.FindWardByName(ctx, strings.TrimSpace(wardData.TenHC), province.VNProvinceCode)
 			if err != nil {
@@ -272,19 +273,18 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 	return nil
 }
 
-func normalizeVietnameseToneSimple(text string) string {
-	text = norm.NFC.String(text)
-	text = strings.Replace(text, "’", "'", 1)
-
-	if strings.Contains(text, "oài") {
-		// Replace "oà" with "òa" only if it is not at the end of the string
-		return text
-	} else if strings.Contains(text, "oà ") || regexp.MustCompile(`oà$`).MatchString(text) {
-		// Replace "oà" with "òa" at the end of the string
-		return strings.Replace(text, "oà", "òa", 1)
-	} else if strings.Contains(text, "oá ") || regexp.MustCompile(`oá$`).MatchString(text) {
-		// Replace "oà" with "òa" at the end of the string
-		return strings.Replace(text, "oá", "óa", 1)
-	}
-	return text
+// normalizeString handles all normalization steps for Vietnamese text
+// 1. Replaces smart apostrophes with standard apostrophes
+// 2. Normalizes to NFC form to handle decomposed Unicode characters
+// This ensures consistent encoding across all data
+func normalizeString(s string) string {
+	// Replace smart apostrophe with standard apostrophe
+	result := strings.ReplaceAll(s, "’", "'")
+	result = viet.NormalizeToneMarks(result)
+	
+	// Normalize to NFC form to handle decomposed characters
+	// This ensures "X ̃" (decomposed) becomes "Xã" (precomposed)
+	result = norm.NFC.String(result)
+	
+	return result
 }

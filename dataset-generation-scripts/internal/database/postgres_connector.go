@@ -24,7 +24,7 @@ func GetPostgresDBConnection() *bun.DB {
 	pgPort := os.Getenv("POSTGRES_DB_PORT")
 	pgDbName := os.Getenv("POSTGRES_TMP_DB_NAME")
 
-	dsn :=  fmt.Sprintf("postgres://%s:%s@%s:%s/%s?sslmode=disable", pgUsername, pgPswd, pgHost, pgPort, pgDbName)
+	dsn :=  fmt.Sprintf("postgres://%s:%s@%s:%s/%s?sslmode=disable&client_encoding=UTF8", pgUsername, pgPswd, pgHost, pgPort, pgDbName)
 	sqlDB := sql.OpenDB(pgdriver.NewConnector(pgdriver.WithDSN(dsn)))
 	db := bun.NewDB(sqlDB, pgdialect.New())
 	return db
