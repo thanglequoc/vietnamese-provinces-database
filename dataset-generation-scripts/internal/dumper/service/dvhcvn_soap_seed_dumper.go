@@ -9,10 +9,11 @@ import (
 	"strings"
 	"time"
 	"unicode"
+
 	"golang.org/x/text/unicode/norm"
 
-	data_downloader "github.com/thanglequoc-vn-provinces/v2/internal/dvhcvn_data_downloader"
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	data_downloader "github.com/thanglequoc-vn-provinces/v2/internal/dvhcvn_data_downloader"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/config"
@@ -62,11 +63,11 @@ func normalizeString(s string) string {
 	// Replace smart apostrophe with standard apostrophe
 	result := strings.ReplaceAll(s, "’", "'")
 	result = viet.NormalizeToneMarks(result)
-	
+
 	// Normalize to NFC form to handle decomposed characters
 	// This ensures "X ̃" (decomposed) becomes "Xã" (precomposed)
 	result = norm.NFC.String(result)
-	
+
 	return result
 }
 
@@ -109,28 +110,28 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 	totalWard := 0
 
 	for _, w := range dvhcvnWardModels {
-		wardFullName := helper.RemoveWhiteSpaces(w.WardName)
+		wardFullName := helper.CollapseSpaces(w.WardName)
 		// Apply corrections to both unit code and name
 		correction := correctDvhcvnSoapData(w.WardCode, wardFullName)
 		wardFullName = correction.name
 		wardCode := correction.code
-		
+
 		administrativeUnitLevel := helper.GetAdministrativeUnit_WardLevel(wardFullName)
-		
+
 		unitName := config.AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := config.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
-		
+
 		// Normalize strings (apostrophe replacement + NFC normalization)
 		wardFullNameNormalized := normalizeString(wardFullName)
 		unitNameNormalized := normalizeString(unitName)
-		
+
 		// Remove unit name (case-insensitive)
 		wardShortName := removeUnitPrefix(wardFullNameNormalized, unitNameNormalized)
 		// Capitalize first letter of each word using rune-aware function
 		wardShortName = capitalizeWords(wardShortName)
 		// Normalize again after capitalization to ensure consistent encoding
 		wardShortName = normalizeString(wardShortName)
-		
+
 		codeName := helper.ToCodeName(wardShortName)
 		wardShortNameEn := viet.RemoveVietToneMark(wardShortName)
 
@@ -169,23 +170,23 @@ func (s *DvhcvnSoapSeedDumperService) insertToProvinces(dvhcvnProvinceModels []d
 	ctx := context.Background()
 
 	for _, p := range dvhcvnProvinceModels {
-		provinceFullName := helper.RemoveWhiteSpaces(p.ProvinceName)
+		provinceFullName := helper.CollapseSpaces(p.ProvinceName)
 		administrativeUnitLevel := helper.GetAdministrativeUnit_ProvinceLevel(provinceFullName)
-		
+
 		unitName := config.AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := config.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
-		
+
 		// Normalize strings (apostrophe replacement + NFC normalization)
 		provinceFullNameNormalized := normalizeString(provinceFullName)
 		unitNameNormalized := normalizeString(unitName)
-		
+
 		// Remove unit name (case-insensitive)
 		provinceShortName := removeUnitPrefix(provinceFullNameNormalized, unitNameNormalized)
 		// Capitalize first letter of each word using rune-aware function
 		provinceShortName = capitalizeWords(provinceShortName)
 		// Normalize again after capitalization to ensure consistent encoding
 		provinceShortName = normalizeString(provinceShortName)
-		
+
 		codeName := helper.ToCodeName(provinceShortName)
 		provinceShortNameEn := viet.RemoveVietToneMark(provinceShortName)
 		provinceFullNameEn := provinceShortNameEn + " " + unitName_en

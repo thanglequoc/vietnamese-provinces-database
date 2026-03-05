@@ -47,6 +47,9 @@ func ToCodeName(shortName string) string {
 	return strings.ToLower(strings.ReplaceAll(viet.RemoveVietToneMark(shortName), " ", "_"))
 }
 
-func RemoveWhiteSpaces(name string) string {
-	return strings.Trim(strings.ReplaceAll(name, "  ", " "), " ")
+// CollapseSpaces collapses multiple consecutive whitespace characters into a single space.
+// This handles all Unicode whitespace (tabs, newlines, non-breaking spaces) and trims leading/trailing.
+// Example: "Quang   Ninh" → "Quang Ninh", "  Hello  \tWorld\n" → "Hello World"
+func CollapseSpaces(name string) string {
+	return strings.Join(strings.Fields(name), " ")
 }

@@ -10,11 +10,11 @@ import (
 
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	cfg "github.com/thanglequoc-vn-provinces/v2/internal/dumper/config"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/helper"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/repository"
-	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 
 	vn_provinces_tmp_model "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	vn_repo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
@@ -70,7 +70,7 @@ func (s *ManualSeedDumperService) insertToWards(seedWardModels []model.SeedWard)
 	totalWard := 0
 
 	for _, w := range seedWardModels {
-		wardFullName := helper.RemoveWhiteSpaces(w.Name)
+		wardFullName := helper.CollapseSpaces(w.Name)
 		administrativeUnitLevel := helper.GetAdministrativeUnit_WardLevel(wardFullName)
 		unitName := cfg.AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := cfg.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
@@ -113,7 +113,7 @@ func (s *ManualSeedDumperService) insertToProvinces(seedProvinceModels []model.S
 	ctx := context.Background()
 
 	for _, p := range seedProvinceModels {
-		provinceFullName := helper.RemoveWhiteSpaces(p.Name)
+		provinceFullName := helper.CollapseSpaces(p.Name)
 		administrativeUnitLevel := helper.GetAdministrativeUnit_ProvinceLevel(provinceFullName)
 		unitName := cfg.AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
 		unitName_en := cfg.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
