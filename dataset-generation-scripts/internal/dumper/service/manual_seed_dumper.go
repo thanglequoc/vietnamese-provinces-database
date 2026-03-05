@@ -14,6 +14,7 @@ import (
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/helper"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/dumper/repository"
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 
 	vn_provinces_tmp_model "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	vn_repo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
@@ -75,7 +76,7 @@ func (s *ManualSeedDumperService) insertToWards(seedWardModels []model.SeedWard)
 		unitName_en := cfg.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
 		wardShortName := strings.Trim(strings.Replace(wardFullName, unitName, "", 1), " ")
 		codeName := helper.ToCodeName(wardShortName)
-		wardShortNameEn := helper.NormalizeString(wardShortName)
+		wardShortNameEn := viet.RemoveVietToneMark(wardShortName)
 
 		// Case when ward name is a number
 		isNumber, _ := regexp.MatchString(`^[0-9]+$`, wardShortName)
@@ -118,7 +119,7 @@ func (s *ManualSeedDumperService) insertToProvinces(seedProvinceModels []model.S
 		unitName_en := cfg.AdministrativeUnitNamesShortNameMap_en[administrativeUnitLevel]
 		provinceShortName := strings.Trim(strings.Replace(provinceFullName, unitName, "", 1), " ")
 		codeName := helper.ToCodeName(provinceShortName)
-		provinceShortNameEn := helper.NormalizeString(provinceShortName)
+		provinceShortNameEn := viet.RemoveVietToneMark(provinceShortName)
 		provinceFullNameEn := provinceShortNameEn + " " + unitName_en
 
 		provinceModel := &vn_provinces_tmp_model.Province{

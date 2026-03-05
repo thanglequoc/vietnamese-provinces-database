@@ -98,6 +98,5 @@ type DvhcvnWardModel struct {
 
 type DvhcvnDataSet struct {
 	ProvinceData []DvhcvnProvinceModel
-	DistrictData []DvhcvnDistrictModel
 	WardData     []DvhcvnWardModel
 }

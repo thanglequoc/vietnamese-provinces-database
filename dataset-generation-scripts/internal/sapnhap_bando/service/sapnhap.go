@@ -272,19 +272,52 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 	return nil
 }
 
+// normalizeVietnameseToneSimple normalizes Vietnamese tone marks according to the official convention
+// Reference: dataset-generation-scripts/resources/rules/vn_tone_mark_convention.md
 func normalizeVietnameseToneSimple(text string) string {
 	text = norm.NFC.String(text)
-	text = strings.Replace(text, "’", "'", 1)
+	text = strings.Replace(text, "''", "'", 1)
 
-	if strings.Contains(text, "oài") {
-		// Replace "oà" with "òa" only if it is not at the end of the string
-		return text
-	} else if strings.Contains(text, "oà ") || regexp.MustCompile(`oà$`).MatchString(text) {
-		// Replace "oà" with "òa" at the end of the string
-		return strings.Replace(text, "oà", "òa", 1)
-	} else if strings.Contains(text, "oá ") || regexp.MustCompile(`oá$`).MatchString(text) {
-		// Replace "oà" with "òa" at the end of the string
-		return strings.Replace(text, "oá", "óa", 1)
-	}
+	// Diphthongs with final consonants: iê, yê, uô, ươ
+	// Rule: Place tone on the second letter of the diphthong
+	text = regexp.MustCompile(`u([ôóòỏõọ])([ptcchmnngouie])`).ReplaceAllString(text, "uô$1$2")
+	text = regexp.MustCompile(`ư([ôóòỏõọ])([ptcchmnngouie])`).ReplaceAllString(text, "ươ$1$2")
+	text = regexp.MustCompile(`i([êéèẻẽẹ])([ptcchmnngouie])`).ReplaceAllString(text, "iê$1$2")
+	text = regexp.MustCompile(`y([êéèẻẽẹ])([ptcchmnngouie])`).ReplaceAllString(text, "yê$1$2")
+
+	// Diphthongs without final consonants: ia, ya, ua, ưa
+	// Rule: Place tone on the first letter of the diphthong
+
+	// Special case for "ia": If preceded by "g", place tone on "a"
+	text = regexp.MustCompile(`g([iíìỉĩị])([aáàảãạ])`).ReplaceAllString(text, "gi$1$2")
+
+	// Special case for "ua": If preceded by "q", place tone on "a"
+	text = regexp.MustCompile(`qu([aáàảãạ])`).ReplaceAllString(text, "qu$1")
+
+	// For "ia", "ya", "ua", "ưa": Place tone on first letter (if not handled by special cases above)
+	text = regexp.MustCompile(`([iíìỉĩị])a`).ReplaceAllString(text, "$1a")
+	text = regexp.MustCompile(`([yýỳỷỹỵ])a`).ReplaceAllString(text, "$1a")
+	text = regexp.MustCompile(`([uúùủũụ])a`).ReplaceAllString(text, "$1a")
+	text = regexp.MustCompile(`([ưứừửữự])a`).ReplaceAllString(text, "$1a")
+
+	// Clusters oa, oe, uy: Place tone on second letter
+	// oà → òa
+	text = regexp.MustCompile(`^(oà)|([^a-zA-ZÀ-Ỹ])(oà)`).ReplaceAllString(text, "$1$2òa")
+	text = regexp.MustCompile(`oà([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "òa$1")
+	text = regexp.MustCompile(`oà$`).ReplaceAllString(text, "òa")
+
+	// oè → òe
+	text = regexp.MustCompile(`^(oè)|([^a-zA-ZÀ-Ỹ])(oè)`).ReplaceAllString(text, "$1$2òè")
+	text = regexp.MustCompile(`oè([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "òè$1")
+	text = regexp.MustCompile(`oè$`).ReplaceAllString(text, "òè")
+
+	// uỳ → uỷ
+	text = regexp.MustCompile(`^(uỳ)|([^a-zA-ZÀ-Ỹ])(uỳ)`).ReplaceAllString(text, "$1$2uỷ")
+	text = regexp.MustCompile(`uỳ([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "uỷ$1")
+	text = regexp.MustCompile(`uỳ$`).ReplaceAllString(text, "uỷ")
+
+	// Rounded syllables (ho, qu, thu, ngu, su): Place tone on main vowel, not on medial glide
+	// The main vowel is already correctly placed in standard Vietnamese, so we don't need to change
+
 	return text
 }
