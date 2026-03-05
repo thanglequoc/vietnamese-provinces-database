@@ -7,7 +7,8 @@
   "devDependencies": {
     "@playwright/test": "^1.54.2",
     "@types/node": "^24.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "dev": "ts-node src/main.ts",
