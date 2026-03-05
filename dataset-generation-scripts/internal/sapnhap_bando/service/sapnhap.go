@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"regexp"
 	"strconv"
 	"strings"
 
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
@@ -56,6 +56,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteProvinces() error {
 	for _, provinceData := range sapNhapSiteProvinces {
 		// Clean the province name by removing administrative unit prefixes.
 		cleanedProvinceName := cleanAdministrativeUnitPrefix(provinceData.TenTinh)
+		cleanedProvinceName = normalizeString(cleanedProvinceName)
 
 		// Attempt to look up the vn province by name
 		vnProvince, err := s.vnProvinceTmpRepo.FindProvinceByName(ctx, cleanedProvinceName)
@@ -111,7 +112,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 				wardData.TenHC = "Phó Bảng"
 			}
 
-			wardData.TenHC = normalizeVietnameseToneSimple(wardData.TenHC)
+			wardData.TenHC = normalizeString(wardData.TenHC)
 
 			vnWard, err := s.vnProvinceTmpRepo.FindWardByName(ctx, strings.TrimSpace(wardData.TenHC), province.VNProvinceCode)
 			if err != nil {
@@ -272,52 +273,18 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 	return nil
 }
 
-// normalizeVietnameseToneSimple normalizes Vietnamese tone marks according to the official convention
-// Reference: dataset-generation-scripts/resources/rules/vn_tone_mark_convention.md
-func normalizeVietnameseToneSimple(text string) string {
-	text = norm.NFC.String(text)
-	text = strings.Replace(text, "''", "'", 1)
-
-	// Diphthongs with final consonants: iê, yê, uô, ươ
-	// Rule: Place tone on the second letter of the diphthong
-	text = regexp.MustCompile(`u([ôóòỏõọ])([ptcchmnngouie])`).ReplaceAllString(text, "uô$1$2")
-	text = regexp.MustCompile(`ư([ôóòỏõọ])([ptcchmnngouie])`).ReplaceAllString(text, "ươ$1$2")
-	text = regexp.MustCompile(`i([êéèẻẽẹ])([ptcchmnngouie])`).ReplaceAllString(text, "iê$1$2")
-	text = regexp.MustCompile(`y([êéèẻẽẹ])([ptcchmnngouie])`).ReplaceAllString(text, "yê$1$2")
-
-	// Diphthongs without final consonants: ia, ya, ua, ưa
-	// Rule: Place tone on the first letter of the diphthong
-
-	// Special case for "ia": If preceded by "g", place tone on "a"
-	text = regexp.MustCompile(`g([iíìỉĩị])([aáàảãạ])`).ReplaceAllString(text, "gi$1$2")
-
-	// Special case for "ua": If preceded by "q", place tone on "a"
-	text = regexp.MustCompile(`qu([aáàảãạ])`).ReplaceAllString(text, "qu$1")
-
-	// For "ia", "ya", "ua", "ưa": Place tone on first letter (if not handled by special cases above)
-	text = regexp.MustCompile(`([iíìỉĩị])a`).ReplaceAllString(text, "$1a")
-	text = regexp.MustCompile(`([yýỳỷỹỵ])a`).ReplaceAllString(text, "$1a")
-	text = regexp.MustCompile(`([uúùủũụ])a`).ReplaceAllString(text, "$1a")
-	text = regexp.MustCompile(`([ưứừửữự])a`).ReplaceAllString(text, "$1a")
-
-	// Clusters oa, oe, uy: Place tone on second letter
-	// oà → òa
-	text = regexp.MustCompile(`^(oà)|([^a-zA-ZÀ-Ỹ])(oà)`).ReplaceAllString(text, "$1$2òa")
-	text = regexp.MustCompile(`oà([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "òa$1")
-	text = regexp.MustCompile(`oà$`).ReplaceAllString(text, "òa")
-
-	// oè → òe
-	text = regexp.MustCompile(`^(oè)|([^a-zA-ZÀ-Ỹ])(oè)`).ReplaceAllString(text, "$1$2òè")
-	text = regexp.MustCompile(`oè([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "òè$1")
-	text = regexp.MustCompile(`oè$`).ReplaceAllString(text, "òè")
-
-	// uỳ → uỷ
-	text = regexp.MustCompile(`^(uỳ)|([^a-zA-ZÀ-Ỹ])(uỳ)`).ReplaceAllString(text, "$1$2uỷ")
-	text = regexp.MustCompile(`uỳ([^a-zA-ZÀ-Ỹ])`).ReplaceAllString(text, "uỷ$1")
-	text = regexp.MustCompile(`uỳ$`).ReplaceAllString(text, "uỷ")
-
-	// Rounded syllables (ho, qu, thu, ngu, su): Place tone on main vowel, not on medial glide
-	// The main vowel is already correctly placed in standard Vietnamese, so we don't need to change
-
-	return text
+// normalizeString handles all normalization steps for Vietnamese text
+// 1. Replaces smart apostrophes with standard apostrophes
+// 2. Normalizes to NFC form to handle decomposed Unicode characters
+// This ensures consistent encoding across all data
+func normalizeString(s string) string {
+	// Replace smart apostrophe with standard apostrophe
+	result := strings.ReplaceAll(s, "’", "'")
+	result = viet.NormalizeToneMarks(result)
+	
+	// Normalize to NFC form to handle decomposed characters
+	// This ensures "X ̃" (decomposed) becomes "Xã" (precomposed)
+	result = norm.NFC.String(result)
+	
+	return result
 }

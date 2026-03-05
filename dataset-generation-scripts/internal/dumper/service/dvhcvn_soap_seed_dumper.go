@@ -70,6 +70,22 @@ func normalizeString(s string) string {
 	return result
 }
 
+// removeUnitPrefix removes the administrative unit prefix from a name in a case-insensitive manner
+// For example, removes "Xã" from "xã Bắc Sơn" to get "Bắc Sơn"
+func removeUnitPrefix(fullNameNormalized string, unitNameNormalized string) string {
+	// Convert both to lowercase for case-insensitive comparison
+	fullNameLower := strings.ToLower(fullNameNormalized)
+	unitNameLower := strings.ToLower(unitNameNormalized)
+	// Find the position of the unit name (case-insensitive)
+	idx := strings.Index(fullNameLower, unitNameLower)
+	if idx >= 0 {
+		// Remove the unit name by cutting it out from the original string
+		return strings.Trim(fullNameNormalized[:idx]+fullNameNormalized[idx+len(unitNameNormalized):], " ")
+	}
+	// If unit name not found, use the original
+	return strings.Trim(fullNameNormalized, " ")
+}
+
 // capitalizeWords capitalizes the first letter of each word in a string
 // Uses rune indexing to properly handle multi-byte UTF-8 characters
 // Preserves the case of the rest of the word (important for proper names like "H'Leo")
@@ -94,6 +110,8 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 
 	for _, w := range dvhcvnWardModels {
 		wardFullName := helper.RemoveWhiteSpaces(w.WardName)
+		wardFullName = correctDvhcvnSoapData(w.WardCode, wardFullName)
+		
 		administrativeUnitLevel := helper.GetAdministrativeUnit_WardLevel(wardFullName)
 		
 		unitName := config.AdministrativeUnitNamesShortNameMap_vn[administrativeUnitLevel]
@@ -104,7 +122,7 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 		unitNameNormalized := normalizeString(unitName)
 		
 		// Remove unit name (case-insensitive)
-		wardShortName := strings.Trim(strings.Replace(wardFullNameNormalized, unitNameNormalized, "", 1), " ")
+		wardShortName := removeUnitPrefix(wardFullNameNormalized, unitNameNormalized)
 		// Capitalize first letter of each word using rune-aware function
 		wardShortName = capitalizeWords(wardShortName)
 		// Normalize again after capitalization to ensure consistent encoding
@@ -159,7 +177,7 @@ func (s *DvhcvnSoapSeedDumperService) insertToProvinces(dvhcvnProvinceModels []d
 		unitNameNormalized := normalizeString(unitName)
 		
 		// Remove unit name (case-insensitive)
-		provinceShortName := strings.Trim(strings.Replace(provinceFullNameNormalized, unitNameNormalized, "", 1), " ")
+		provinceShortName := removeUnitPrefix(provinceFullNameNormalized, unitNameNormalized)
 		// Capitalize first letter of each word using rune-aware function
 		provinceShortName = capitalizeWords(provinceShortName)
 		// Normalize again after capitalization to ensure consistent encoding
