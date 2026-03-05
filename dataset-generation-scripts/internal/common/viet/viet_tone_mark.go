@@ -12,6 +12,7 @@ package viet
 import (
 	"strings"
 	"unicode"
+
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -187,8 +188,10 @@ var multiCharInitials = []string{
 }
 
 // finalConsonants lists letters that can appear as a single coda consonant.
+// Includes 'k' which represents the same coda sound as 'c' and appears in
+// ethnic minority place names (e.g. Ngoḳ, Buḱ, Krông Buḱ).
 var finalConsonants = map[rune]bool{
-	'c': true, 'h': true, 'm': true, 'n': true, 'p': true, 't': true,
+	'c': true, 'h': true, 'k': true, 'm': true, 'n': true, 'p': true, 't': true,
 }
 
 // finalDigraphs lists two-letter coda clusters.
@@ -217,18 +220,39 @@ func normalizeSyllable(word string) string {
 		return word // level tone (ngang) — nothing to move
 	}
 
-	// Detach tone from current position.
-	gs[srcIdx].tones = nil
+	// Special case: tone mark is attached to a non-letter base (e.g. apostrophe
+	// in "M'́Drăk"). Strip it from the non-letter grapheme so toneTarget can
+	// find the correct vowel target without that grapheme polluting srcIdx.
+	if !isVowel(gs[srcIdx].base) && !isConsonantBase(gs[srcIdx].base) {
+		gs[srcIdx].tones = nil
+		// Re-run from scratch with srcIdx pointing to -1; toneTarget will
+		// scan all vowels and use the first one as the target.
+		srcIdx = -1
+	} else {
+		// Detach tone from current position.
+		gs[srcIdx].tones = nil
+	}
 
 	targetIdx := toneTarget(gs, srcIdx)
 	if targetIdx < 0 {
 		// Cannot determine placement — restore and return original.
-		gs[srcIdx].tones = tones
+		if srcIdx >= 0 {
+			gs[srcIdx].tones = tones
+		}
 		return word
 	}
 
 	gs[targetIdx].tones = tones
 	return norm.NFC.String(string(rebuildNFD(gs)))
+}
+
+// isConsonantBase reports whether r is a base letter that can serve as a
+// Vietnamese consonant (i.e. a letter that is not a vowel).
+func isConsonantBase(r rune) bool {
+	if r == 0 {
+		return false
+	}
+	return unicode.IsLetter(r) && !isVowel(r)
 }
 
 // toneTarget returns the index into gs of the grapheme that should carry
@@ -249,6 +273,20 @@ func toneTarget(gs []grapheme, srcIdx int) int {
 	}
 
 	hasCoda := cLen > 0
+
+	// Skip any leading non-vowel graphemes inside the vowel span.
+	// This handles ethnic minority place names with consonant clusters like
+	// "kr", "hr", "kn" where initialConsonantLen only strips the first consonant,
+	// leaving the rest (r, n, etc.) at the start of the vowel span.
+	// Example: "Kŕai" → initLen=1(k), vStart=1, gs[1].base='r' (not a vowel)
+	//          → advance vStart to 2 (the actual vowel 'a').
+	for vStart < vEnd && !isVowel(gs[vStart].base) {
+		vStart++
+	}
+	if vStart >= vEnd {
+		return -1
+	}
+
 	// canonicalLower encodes modifier diacritics (ê≠e, ô≠o, ơ≠o, ư≠u, etc.)
 	// so diphthong prefix matching works correctly.
 	vLower := canonicalLower(gs[vStart:vEnd])

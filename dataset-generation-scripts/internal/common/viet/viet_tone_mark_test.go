@@ -381,3 +381,58 @@ func TestNormalizeToneMarksAdditional(t *testing.T) {
 		})
 	}
 }
+
+// ════════════════════════════════════════════════════════════════════════════
+// Ethnic minority place names — tone mark misplaced on consonant
+// These are Central Highlands place names where the source data encodes the
+// tone mark on a consonant letter instead of the vowel.
+// ════════════════════════════════════════════════════════════════════════════
+
+var ethnicPlaceNameCases = []struct {
+	name  string
+	input string
+	want  string
+}{
+	// Tone on final consonant k (precomposed ḳ/ḱ) → move to preceding vowel
+	{"Ngoḳ dot-below on k", "Ngoḳ", "Ngọk"},
+	{"Buḱ acute on k", "Buḱ", "Búk"},
+
+	// Tone on consonant r in cluster kr/hr/sr → move to following vowel
+	{"Kŕai acute on r", "Kŕai", "Krái"},
+	{"SŔo acute on R (uppercase)", "SŔo", "SRó"},
+	{"Hŕu acute on r", "Hŕu", "Hrú"},
+
+	// Tone on consonant n in cluster kn → move to following vowel
+	{"Kńôp acute on n, single vowel ô", "Kńôp", "Knốp"},
+	{"Kńuêc acute on n, diphthong uê+coda → tone on ê", "Kńuêc", "Knuếc"},
+
+	// Tone already on correct vowel — must be unchanged
+	{"Tụ already correct", "Tụ", "Tụ"},
+	{"Réo already correct", "Réo", "Réo"},
+
+	// Apostrophe separator with stray tone mark (M'́Drăk)
+	{"M apostrophe Drăk stray acute", "M'́Drăk", "M'Drắk"},
+
+	// Full place name phrases
+	{"Ngoḳ Bay phrase", "Ngoḳ Bay", "Ngọk Bay"},
+	{"Ngoḳ Tụ phrase", "Ngoḳ Tụ", "Ngọk Tụ"},
+	{"Ngoḳ Réo phrase", "Ngoḳ Réo", "Ngọk Réo"},
+	{"Ia Kŕai phrase", "Ia Kŕai", "Ia Krái"},
+	{"SŔo phrase", "SŔo", "SRó"},
+	{"Ia Hŕu phrase", "Ia Hŕu", "Ia Hrú"},
+	{"Krông Buḱ phrase", "Krông Buḱ", "Krông Búk"},
+	{"Ea Kńôp phrase", "Ea Kńôp", "Ea Knốp"},
+	{"M'́Drăk phrase", "M'́Drăk", "M'Drắk"},
+	{"Ea Kńuêc phrase", "Ea Kńuêc", "Ea Knuếc"},
+}
+
+func TestNormalizeToneMarksEthnicPlaceNames(t *testing.T) {
+	for _, tc := range ethnicPlaceNameCases {
+		t.Run(tc.name, func(t *testing.T) {
+			got := NormalizeToneMarks(tc.input)
+			if got != tc.want {
+				t.Errorf("NormalizeToneMarks(%q) = %q; want %q", tc.input, got, tc.want)
+			}
+		})
+	}
+}
