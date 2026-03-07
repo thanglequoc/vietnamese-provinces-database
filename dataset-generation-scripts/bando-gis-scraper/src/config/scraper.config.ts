@@ -1,3 +1,4 @@
+
 export const SCRAPER_CONFIG = {
   BASE_URL: 'https://sapnhap.bando.com.vn/',
   SELECTORS: {
@@ -21,9 +22,7 @@ export const SCRAPER_CONFIG = {
   },
   RETRY: {
     MAX_ATTEMPTS: 3,
-    DELAY: 2000,
-    GIS_MAX_ATTEMPTS: 20,
-    GIS_DELAY: 1000
+    DELAY: 2000
   },
   SCROLLING: {
     SCROLL_STEP: 200, // Smaller steps for Tabulator virtual scrolling
