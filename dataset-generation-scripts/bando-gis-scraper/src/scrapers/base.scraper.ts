@@ -63,6 +63,52 @@ export abstract class BaseScraper {
   }
 
   /**
+   * Retry operation with validation - validates result and retries if validation fails
+   * @param operation - The async operation to execute
+   * @param validator - Function that validates the result, returns true if valid
+   * @param maxAttempts - Maximum number of retry attempts
+   * @param itemName - Optional name of the item being processed for logging
+   */
+  protected async retryOperationWithValidation<T>(
+    operation: () => Promise<T>,
+    validator: (result: T) => boolean,
+    maxAttempts: number = SCRAPER_CONFIG.RETRY.GIS_MAX_ATTEMPTS,
+    itemName?: string
+  ): Promise<T> {
+    let lastError: Error | null = null;
+    let lastResult: T | null = null;
+
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        lastResult = await operation();
+        
+        // Validate the result
+        if (validator(lastResult)) {
+          if (attempt > 1) {
+            console.log(`✅ ${itemName || 'Item'} succeeded on attempt ${attempt}/${maxAttempts}`);
+          }
+          return lastResult;
+        } else {
+          throw new Error(`Validation failed: result did not meet expected criteria`);
+        }
+      } catch (error) {
+        lastError = error instanceof Error ? error : new Error(String(error));
+        const errorMessage = error instanceof Error ? error.message : String(error);
+        console.warn(`⚠️ ${itemName || 'Item'} attempt ${attempt}/${maxAttempts} failed:`, errorMessage);
+
+        if (attempt < maxAttempts) {
+          await this.page?.waitForTimeout(SCRAPER_CONFIG.RETRY.GIS_DELAY);
+        }
+      }
+    }
+
+    // All attempts failed
+    const errorMsg = `Failed after ${maxAttempts} attempts. Last error: ${lastError?.message || 'Unknown error'}`;
+    console.error(`❌ ${itemName || 'Item'} - ${errorMsg}`);
+    throw new Error(errorMsg);
+  }
+
+  /**
    * Scrolls through a Tabulator virtual table to collect all items
    * Handles padding-top/padding-bottom changes in virtual scrolling
    */

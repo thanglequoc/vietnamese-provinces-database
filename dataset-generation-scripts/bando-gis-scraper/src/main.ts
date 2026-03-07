@@ -43,6 +43,25 @@ async function main() {
     console.log(`⏱️  Duration: ${Math.round(result.duration! / 1000)}s`);
     console.log(`💾 Results saved to ./output/ directory`);
 
+    // Failed GIS items summary
+    if (result.failedGISItems && result.failedGISItems.length > 0) {
+      console.log(`\n❌ Failed GIS Items: ${result.failedGISItems.length}`);
+      const failedProvinces = result.failedGISItems.filter(item => item.itemType === 'province');
+      const failedWards = result.failedGISItems.filter(item => item.itemType === 'ward');
+      
+      console.log(`   - Provinces: ${failedProvinces.length}`);
+      console.log(`   - Wards: ${failedWards.length}`);
+      
+      console.log('\n📋 Failed Items Details:');
+      result.failedGISItems.forEach((item, index) => {
+        const itemName = item.itemData.ten || 'Unknown';
+        const itemType = item.itemType === 'province' ? 'Province' : 'Ward';
+        console.log(`   ${index + 1}. ${itemType} "${itemName}" - Attempt ${item.attempts} - ${item.lastError || 'Unknown error'}`);
+      });
+    } else {
+      console.log('\n✅ All GIS responses captured successfully!');
+    }
+
     if (result.errors.length > 0) {
       console.log('\n⚠️  Errors encountered:');
       result.errors.forEach((error, index) => {
@@ -53,7 +72,7 @@ async function main() {
   } catch (error) {
     console.error('💥 Fatal error:', error);
   } finally {
-
+    await gisScraper.cleanup();
   }
 
 }

@@ -1,6 +1,6 @@
 import { BaseScraper } from "./base.scraper";
 
-import { ProvinceData, WardData } from "../interfaces/scraper.interfaces"
+import { ProvinceData, WardData, FailedGISItem } from "../interfaces/scraper.interfaces"
 import { SCRAPER_CONFIG } from "../config";
 import { Locator } from "@playwright/test";
 import { APIInterceptedRequest, ResponseType, ScrapingResult } from "../interfaces";
@@ -13,6 +13,7 @@ export class BandoGISScraper extends BaseScraper {
       totalRequests: 0,
       errors: [],
       startTime: new Date(),
+      failedGISItems: [],
     };
 
     const provinces = await this.getProvinceList()
@@ -25,7 +26,7 @@ export class BandoGISScraper extends BaseScraper {
       console.log(`Processing province ${i + 1}/${provinces.length}: ${province.ten}`);
 
       try {
-        // click on the province and get both GIS and info data
+        // click on province and get both GIS and info data
         const provinceGISData = await this.clickProvinceAndGetGIS(i, provinces[i]);
         console.log(`Province ${province.ten} - GIS: ${JSON.stringify(provinceGISData)}`)
         province.gisServerResponse = JSON.stringify(provinceGISData);
@@ -48,12 +49,32 @@ export class BandoGISScraper extends BaseScraper {
             result.totalRequests++;
             console.log(`Ward ${ward.ten} - GIS: ${JSON.stringify(wardGISData)}`)
           } catch (error) {
+            // Track failed ward GIS capture
+            const failedItem: FailedGISItem = {
+              itemType: 'ward',
+              itemData: ward,
+              attempts: SCRAPER_CONFIG.RETRY.GIS_MAX_ATTEMPTS,
+              lastError: error instanceof Error ? error.message : String(error),
+              timestamp: new Date()
+            };
+            result.failedGISItems.push(failedItem);
+            
             const errorMsg = `Error scraping ward ${ward.ten}: ${error}`;
             console.error(errorMsg);
             result.errors.push(errorMsg);
           }
         }
       } catch (error) {
+        // Track failed province GIS capture
+        const failedItem: FailedGISItem = {
+          itemType: 'province',
+          itemData: province,
+          attempts: SCRAPER_CONFIG.RETRY.GIS_MAX_ATTEMPTS,
+          lastError: error instanceof Error ? error.message : String(error),
+          timestamp: new Date()
+        };
+        result.failedGISItems.push(failedItem);
+        
         const errorMsg = `Error scraping province ${province.ten}: ${error}`;
         console.error(errorMsg);
         result.errors.push(errorMsg);
@@ -101,100 +122,121 @@ export class BandoGISScraper extends BaseScraper {
   private async clickProvinceAndGetGIS(provinceIndex: number, targetProvince: ProvinceData): Promise<APIInterceptedRequest> {
     if (!this.page) throw new Error('Page not initialized');
 
-    return await this.retryOperation(async () => {
-      // Set user action context and clear previous interceptor tracking data
-      this.apiInterceptorService.setUserAction('province_click');
-      this.apiInterceptorService.clearInterceptedData();
+    return await this.retryOperationWithValidation(
+      async () => {
+        // Set user action context and clear previous interceptor tracking data
+        this.apiInterceptorService.setUserAction('province_click');
+        this.apiInterceptorService.clearInterceptedData();
 
-      const timestamp = Date.now();
+        const timestamp = Date.now();
 
-      // Scroll to make the target province visible and get its current index
-      const itemExtractor = async (row: Locator): Promise<ProvinceData> => {
-        const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
-        if (cells.length >= 3) {
-          const stt = await cells[0].textContent() || '';
-          const ten = await cells[1].textContent() || '';
-          const truocsn = await cells[2].textContent() || '';
-          return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+        // Scroll to make target province visible and get its current index
+        const itemExtractor = async (row: Locator): Promise<ProvinceData> => {
+          const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
+          if (cells.length >= 3) {
+            const stt = await cells[0].textContent() || '';
+            const ten = await cells[1].textContent() || '';
+            const truocsn = await cells[2].textContent() || '';
+            return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+          }
+          throw new Error('Invalid row structure');
+        };
+
+        const visibleIndex = await this.scrollToItem(
+          SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE,
+          SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
+          itemExtractor,
+          targetProvince,
+          SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE_HOLDER
+        );
+
+        // Now click on visible row
+        const provinceTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
+        const provinceTable = provinceTables[0];
+        const rows = await provinceTable.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW).all();
+
+        if (visibleIndex >= rows.length) {
+          throw new Error(`Province visible index ${visibleIndex} out of bounds`);
         }
-        throw new Error('Invalid row structure');
-      };
 
-      const visibleIndex = await this.scrollToItem(
-        SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE,
-        SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW,
-        itemExtractor,
-        targetProvince,
-        SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE_HOLDER
-      );
+        console.log(`🎯 Clicking on province "${targetProvince.ten}" at visible index ${visibleIndex}`);
+        await rows[visibleIndex].click();
+        await this.waitForNetworkIdle();
 
-      // Now click on the visible row
-      const provinceTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
-      const provinceTable = provinceTables[0];
-      const rows = await provinceTable.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_ROW).all();
+        // Get responses that came after the click
+        const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.PROVINCE_GIS);
 
-      if (visibleIndex >= rows.length) {
-        throw new Error(`Province visible index ${visibleIndex} out of bounds`);
-      }
+        if (gisResponses.length === 0) {
+          throw new Error('No GIS response captured for province');
+        }
 
-      console.log(`🎯 Clicking on province "${targetProvince.ten}" at visible index ${visibleIndex}`);
-      await rows[visibleIndex].click();
-      await this.waitForNetworkIdle();
-
-      // Get responsed that came after the click
-      const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.PROVINCE_GIS);
-
-      return gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined
-    })
+        return gisResponses[gisResponses.length - 1].response;
+      },
+      // Validator: Check if response exists and is not null/undefined
+      (result) => result !== null && result !== undefined,
+      SCRAPER_CONFIG.RETRY.GIS_MAX_ATTEMPTS,
+      `Province "${targetProvince.ten}"`
+    );
   }
 
   private async clickWardAndGetGIS(wardIndex: number, targetWard: WardData): Promise<APIInterceptedRequest> {
     if (!this.page) throw new Error('Page not initialized');
 
-    return await this.retryOperation(async () => {
-      // Set user action context and clear previous data
-      this.apiInterceptorService.setUserAction('ward_click');
-      this.apiInterceptorService.clearInterceptedData();
+    return await this.retryOperationWithValidation(
+      async () => {
+        // Set user action context and clear previous data
+        this.apiInterceptorService.setUserAction('ward_click');
+        this.apiInterceptorService.clearInterceptedData();
 
-      const timestamp = Date.now();
+        const timestamp = Date.now();
 
-      // Scroll to make the target ward visible and get its current index
-      const itemExtractor = async (row: Locator): Promise<WardData> => {
-        const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
-        if (cells.length >= 3) {
-          const stt = await cells[0].textContent() || '';
-          const ten = await cells[1].textContent() || '';
-          const truocsn = await cells[2].textContent() || '';
-          return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+        // Scroll to make target ward visible and get its current index
+        const itemExtractor = async (row: Locator): Promise<WardData> => {
+          const cells = await row.locator(SCRAPER_CONFIG.SELECTORS.CELL).all();
+          if (cells.length >= 3) {
+            const stt = await cells[0].textContent() || '';
+            const ten = await cells[1].textContent() || '';
+            const truocsn = await cells[2].textContent() || '';
+            return { stt: stt.trim(), ten: ten.trim(), truocsn: truocsn.trim() };
+          }
+          throw new Error('Invalid row structure');
+        };
+
+        const visibleIndex = await this.scrollToItem(
+          SCRAPER_CONFIG.SELECTORS.WARD_TABLE,
+          SCRAPER_CONFIG.SELECTORS.WARD_ROW,
+          itemExtractor,
+          targetWard,
+          SCRAPER_CONFIG.SELECTORS.WARD_TABLE_HOLDER
+        );
+
+        // Now click on visible row
+        const wardTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.WARD_TABLE).all();
+        const wardTable = wardTables[0];
+        const rows = await wardTable.locator(SCRAPER_CONFIG.SELECTORS.WARD_ROW).all();
+
+        if (visibleIndex >= rows.length) {
+          throw new Error(`Ward visible index ${visibleIndex} out of bounds`);
         }
-        throw new Error('Invalid row structure');
-      };
 
-      const visibleIndex = await this.scrollToItem(
-        SCRAPER_CONFIG.SELECTORS.WARD_TABLE,
-        SCRAPER_CONFIG.SELECTORS.WARD_ROW,
-        itemExtractor,
-        targetWard,
-        SCRAPER_CONFIG.SELECTORS.WARD_TABLE_HOLDER
-      );
+        console.log(`🎯 Clicking on ward "${targetWard.ten}" at visible index ${visibleIndex}`);
+        await rows[visibleIndex].click();
+        await this.waitForNetworkIdle();
 
-      // Now click on the visible row
-      const wardTables = await this.page!.locator(SCRAPER_CONFIG.SELECTORS.WARD_TABLE).all();
-      const wardTable = wardTables[0];
-      const rows = await wardTable.locator(SCRAPER_CONFIG.SELECTORS.WARD_ROW).all();
+        // Get responses that came after the click
+        const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.WARD_GIS);
 
-      if (visibleIndex >= rows.length) {
-        throw new Error(`Ward visible index ${visibleIndex} out of bounds`);
-      }
+        if (gisResponses.length === 0) {
+          throw new Error('No GIS response captured for ward');
+        }
 
-      console.log(`🎯 Clicking on ward "${targetWard.ten}" at visible index ${visibleIndex}`);
-      await rows[visibleIndex].click();
-      await this.waitForNetworkIdle();
-
-      // Get responsed that came after the click
-      const gisResponses = this.apiInterceptorService.getResponsesSince(timestamp, ResponseType.WARD_GIS);
-      return gisResponses.length > 0 ? gisResponses[gisResponses.length - 1].response : undefined
-    });
+        return gisResponses[gisResponses.length - 1].response;
+      },
+      // Validator: Check if response exists and is not null/undefined
+      (result) => result !== null && result !== undefined,
+      SCRAPER_CONFIG.RETRY.GIS_MAX_ATTEMPTS,
+      `Ward "${targetWard.ten}"`
+    );
   }
 
   private async getProvinceList(): Promise<ProvinceData[]> {
@@ -214,7 +256,7 @@ export class BandoGISScraper extends BaseScraper {
       throw new Error('Invalid row structure');
     };
 
-    // Get the first table (provinces) and scroll through it
+    // Get first table (provinces) and scroll through it
     const provinceTables = await this.page.locator(SCRAPER_CONFIG.SELECTORS.PROVINCE_TABLE).all();
     if (provinceTables.length === 0) {
       throw new Error('Province table not found');
