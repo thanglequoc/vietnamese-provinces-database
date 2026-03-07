@@ -6,15 +6,23 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.54.2",
+    "@types/dotenv": "^8.2.3",
     "@types/node": "^24.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "scripts": {
     "dev": "ts-node src/main.ts",
+    "dev:headless": "HEADLESS=true ts-node src/main.ts",
+    "dev:non-headless": "HEADLESS=false ts-node src/main.ts",
     "build": "tsc",
     "start": "node dist/main.js",
+    "start:headless": "HEADLESS=true node dist/main.js",
+    "start:non-headless": "HEADLESS=false node dist/main.js",
     "test": "playwright test",
     "test:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
   }
 }

@@ -6,8 +6,11 @@ export class BrowserService {
   private page: Page | null = null;
 
   async initialize(): Promise<void> {
+    // Read HEADLESS from environment, default to false for backward compatibility
+    const headless = process.env.HEADLESS === 'true';
+    
     this.browser = await chromium.launch({
-      headless: false,
+      headless,
       slowMo: 200,
     })
 

@@ -1,7 +1,11 @@
 import path from "path";
 import * as fs from 'fs/promises';
+import dotenv from 'dotenv';
 
 import { BandoGISScraper } from "./scrapers/bando-gis.scrapers";
+
+// Load environment variables
+dotenv.config();
 
 async function main() {
   console.log("Starting web scraping activity...")
