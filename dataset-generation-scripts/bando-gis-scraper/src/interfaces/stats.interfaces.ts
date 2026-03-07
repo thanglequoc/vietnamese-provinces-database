@@ -1,4 +1,4 @@
-import { ProvinceData, WardData, FailedGISItem } from "./scraper.interfaces";
+import { ProvinceData, WardData } from "./scraper.interfaces";
 
 export interface ScrapingResult {
   provinces: ProvinceData[];
@@ -8,7 +8,6 @@ export interface ScrapingResult {
   endTime?: Date;
   duration?: number;
   errors: string[];
-  failedGISItems: FailedGISItem[];
 }
 
 

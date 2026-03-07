@@ -1,3 +1,4 @@
+
 export interface ProvinceData {
   stt: string;
   ten: string;
@@ -12,12 +13,4 @@ export interface WardData {
   provinceCode?: string;
   provinceName?: string;
   gisServerResponse?: string;
-}
-
-export interface FailedGISItem {
-  itemType: 'province' | 'ward';
-  itemData: ProvinceData | WardData;
-  attempts: number;
-  lastError?: string;
-  timestamp: Date;
 }
