@@ -12,6 +12,7 @@ const pathToRegionAdministrativeInitFile = "./resources/db_region_administrative
 
 // GIS data structure scripts
 const pathToSapNhapTables = "./resources/gis/sapnhap_bando_tables.sql"
+const pathToSapNhapGeoObjects = "./resources/gis/sapnhapbando_geo_objects.sql"
 
 /*
 Bootstrap the Temporary Dataset Structure
@@ -47,6 +48,12 @@ func BootstrapGISDataStructure() {
 		panic(err)
 	}
 	fmt.Println("GIS related data structure created")
+	
+	err = ExecuteSQLScript(pathToSapNhapGeoObjects)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("SapNhap Geo Objects data structure created and populated")
 }
 
 // Useful method to execute SQL script located in this project
