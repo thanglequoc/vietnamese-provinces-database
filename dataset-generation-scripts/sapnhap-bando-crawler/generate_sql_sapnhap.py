@@ -2,7 +2,7 @@ import json
 import os
 
 # File paths
-input_json_path = 'resources/gis/sapnhapbando_15Mar2026/donvi_tinhthanh.json'
+input_json_path = './donvi_tinhthanh.json'
 output_sql_path = 'bando_co_dvch.sql'
 
 # Configuration
