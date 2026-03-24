@@ -3,7 +3,7 @@ import os
 
 # File paths
 input_json_path = './donvi_tinhthanh.json'
-output_sql_path = 'bando_co_dvch.sql'
+output_sql_path = 'sapnhapbando_geo_objects.sql'
 
 # Configuration
 BATCH_SIZE = 1000  # Number of rows per INSERT statement
@@ -42,11 +42,44 @@ def generate_sql():
 
     # Prepare SQL content
     sql_lines = []
-    sql_lines.append("-- SQL Script for bando_co_dvch")
+    sql_lines.append("-- SQL Script for sapnhap_geojson_objects")
     sql_lines.append("-- Generated from: " + input_json_path)
     sql_lines.append("-- Date: 2025-03-15")
     sql_lines.append("-- Using PostgreSQL Bulk INSERT for performance")
     sql_lines.append("")
+    
+    # Create table if not exists
+    create_table_sql = """-- Create table if not exists
+CREATE TABLE IF NOT EXISTS sapnhap_geojson_objects (
+    ma TEXT PRIMARY KEY,
+    ten TEXT NOT NULL,
+    magoc TEXT,
+    malk TEXT,
+    truocsapnhap TEXT,
+    vn_ds_province_code varchar(20),
+    vn_ds_ward_code varchar(20),
+    
+    CONSTRAINT fk_sapnhap_geojson_objects_parent
+        FOREIGN KEY (magoc)
+        REFERENCES sapnhap_geojson_objects(ma)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE,
+    
+    CONSTRAINT fk_sapnhap_geojson_objects_province
+        FOREIGN KEY (vn_ds_province_code)
+        REFERENCES provinces_tmp(code)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE,
+    
+    CONSTRAINT fk_sapnhap_geojson_objects_ward
+        FOREIGN KEY (vn_ds_ward_code)
+        REFERENCES wards_tmp(code)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE
+);
+"""
+    sql_lines.append(create_table_sql)
+    
     sql_lines.append("BEGIN;")
     sql_lines.append("")
 
@@ -80,8 +113,8 @@ def generate_sql():
         s_malk = sql_escape(malk) if malk else "NULL"
         s_truocsapnhap = sql_escape(clean_truocsapnhap) if clean_truocsapnhap else "NULL"
         
-        # Build VALUES tuple (only 5 columns: ma, ten, magoc, malk, truocsapnhap)
-        values_tuple = f"({s_ma}, {s_ten}, {s_magoc}, {s_malk}, {s_truocsapnhap})"
+        # Build VALUES tuple (7 columns: ma, ten, magoc, malk, truocsapnhap, vn_ds_province_code, vn_ds_ward_code)
+        values_tuple = f"({s_ma}, {s_ten}, {s_magoc}, {s_malk}, {s_truocsapnhap}, NULL, NULL)"
         current_batch.append(values_tuple)
         insert_count += 1
         batch_count += 1
@@ -89,7 +122,7 @@ def generate_sql():
         # If batch is full, write INSERT statement
         if batch_count >= BATCH_SIZE:
             values_str = ",\n    ".join(current_batch)
-            sql_lines.append(f"INSERT INTO bando_co_dvch (ma, ten, magoc, malk, truocsapnhap)")
+            sql_lines.append(f"INSERT INTO sapnhap_geojson_objects (ma, ten, magoc, malk, truocsapnhap, vn_ds_province_code, vn_ds_ward_code)")
             sql_lines.append(f"VALUES")
             sql_lines.append(f"    {values_str};")
             sql_lines.append("")
@@ -100,7 +133,7 @@ def generate_sql():
     # Write remaining rows in last batch
     if current_batch:
         values_str = ",\n    ".join(current_batch)
-        sql_lines.append(f"INSERT INTO bando_co_dvch (ma, ten, magoc, malk, truocsapnhap)")
+        sql_lines.append(f"INSERT INTO sapnhap_geojson_objects (ma, ten, magoc, malk, truocsapnhap, vn_ds_province_code, vn_ds_ward_code)")
         sql_lines.append(f"VALUES")
         sql_lines.append(f"    {values_str};")
         sql_lines.append("")
