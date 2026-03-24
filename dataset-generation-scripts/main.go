@@ -7,7 +7,7 @@ import (
 	sapNhap "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando"
 )
 
-const INCLUDE_GIS = true
+const INCLUDE_GIS = false
 const USE_DIRECT_DVHCVN_SOURCE = true
 
 func main() {
