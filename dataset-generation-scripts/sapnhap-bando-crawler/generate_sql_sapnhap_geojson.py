@@ -47,39 +47,6 @@ def generate_sql():
     sql_lines.append("-- Date: 2025-03-15")
     sql_lines.append("-- Using PostgreSQL Bulk INSERT for performance")
     sql_lines.append("")
-    
-    # Create table if not exists
-    create_table_sql = """-- Create table if not exists
-CREATE TABLE IF NOT EXISTS sapnhap_geojson_objects (
-    ma TEXT PRIMARY KEY,
-    ten TEXT NOT NULL,
-    magoc TEXT,
-    malk TEXT,
-    truocsapnhap TEXT,
-    vn_ds_province_code varchar(20),
-    vn_ds_ward_code varchar(20),
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_parent
-        FOREIGN KEY (magoc)
-        REFERENCES sapnhap_geojson_objects(ma)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE,
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_province
-        FOREIGN KEY (vn_ds_province_code)
-        REFERENCES provinces_tmp(code)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE,
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_ward
-        FOREIGN KEY (vn_ds_ward_code)
-        REFERENCES wards_tmp(code)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE
-);
-"""
-    sql_lines.append(create_table_sql)
-    
     sql_lines.append("BEGIN;")
     sql_lines.append("")
 

@@ -3,35 +3,6 @@
 -- Date: 2025-03-15
 -- Using PostgreSQL Bulk INSERT for performance
 
--- Create table if not exists
-CREATE TABLE IF NOT EXISTS sapnhap_geojson_objects (
-    ma TEXT PRIMARY KEY,
-    ten TEXT NOT NULL,
-    magoc TEXT,
-    malk TEXT,
-    truocsapnhap TEXT,
-    vn_ds_province_code varchar(20),
-    vn_ds_ward_code varchar(20),
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_parent
-        FOREIGN KEY (magoc)
-        REFERENCES sapnhap_geojson_objects(ma)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE,
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_province
-        FOREIGN KEY (vn_ds_province_code)
-        REFERENCES provinces_tmp(code)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE,
-    
-    CONSTRAINT fk_sapnhap_geojson_objects_ward
-        FOREIGN KEY (vn_ds_ward_code)
-        REFERENCES wards_tmp(code)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE
-);
-
 BEGIN;
 
 INSERT INTO sapnhap_geojson_objects (ma, ten, magoc, malk, truocsapnhap, vn_ds_province_code, vn_ds_ward_code)

@@ -18,8 +18,6 @@ const (
 	WARD_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql"
 )
 
-func Init
-
 func DumpDataFromSapNhapBando() {
 	// Initialize the SapNhapRepository
 	sapNhapRepo := sapNhapR.NewSapNhapRepository(db.GetPostgresDBConnection())

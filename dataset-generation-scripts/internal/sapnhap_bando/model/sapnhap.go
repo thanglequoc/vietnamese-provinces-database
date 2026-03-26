@@ -5,6 +5,10 @@ import (
 	"github.com/uptrace/bun"
 )
 
+type SapNhapSiteGeoUnit struct {
+	bun.BaseModel `bun:"table:sapnhap_provinces,alias:sp"`
+}
+
 type SapNhapSiteProvince struct {
 	bun.BaseModel `bun:"table:sapnhap_provinces,alias:sp"`
 
@@ -18,6 +22,9 @@ type SapNhapSiteProvince struct {
 	ViDo           float64             `bun:"vido"`
 	TruocSN        string              `bun:"truocsapnhap"`
 	Con            string              `bun:"con"`
+
+
+
 	VNProvinceCode string              `bun:"vn_province_code,notnull"`
 	Province       model.Province      `bun:"rel:belongs-to,join:vn_province_code=code"`
 	SapNhapGIS     *SapNhapProvinceGIS `bun:"rel:has-one,join:mahc=sapnhap_province_matinh"`
