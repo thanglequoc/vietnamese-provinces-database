@@ -5,10 +5,6 @@ import (
 	"github.com/uptrace/bun"
 )
 
-type SapNhapSiteGeoUnit struct {
-	bun.BaseModel `bun:"table:sapnhap_provinces,alias:sp"`
-}
-
 type SapNhapSiteProvince struct {
 	bun.BaseModel `bun:"table:sapnhap_provinces,alias:sp"`
 

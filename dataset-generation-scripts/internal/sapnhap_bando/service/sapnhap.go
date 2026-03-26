@@ -6,6 +6,7 @@ import (
 	"log"
 	"strconv"
 	"strings"
+	"sync"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
@@ -270,6 +271,168 @@ func (s *SapNhapService) BootstrapGISDataFromGISServer() error {
 	fmt.Printf("Total %d provinces are processed with GIS data successfully", len(bandoProvinces))
 	fmt.Printf("Total %d wards are processed with GIS data successfully", len(bandoWards))
 
+	return nil
+}
+
+func (s *SapNhapService) BootstrapGISDataFromGISServerV2() error {
+	return nil
+}
+
+// ProcessingError represents a record that failed to process
+type ProcessingError struct {
+	Ma     string
+	Ten    string
+	MaLK   string
+	Error  string
+}
+
+// ProcessingResult represents the result of processing a single geo object
+type ProcessingResult struct {
+	Success bool
+	Error    ProcessingError
+}
+
+// FetchGISDataFromSapNhapBando fetches WKT geometry data from the Bando GIS server
+// for all records in the sapnhap_geojson_objects table and updates them with the retrieved data.
+// Uses parallel processing with a worker pool for improved performance.
+func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) error {
+	// Get all geo objects from the database
+	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects()
+	if err != nil {
+		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
+	}
+
+	log.Printf("Found %d geo objects to process", len(geoObjects))
+
+	// Number of concurrent workers
+	numWorkers := 10
+	log.Printf("Processing with %d concurrent workers", numWorkers)
+
+	ctx := context.Background()
+	
+	// Create channels for work distribution and result collection
+	workChan := make(chan *model.SapNhapSiteGeoUnit, len(geoObjects))
+	resultChan := make(chan ProcessingResult, len(geoObjects))
+	
+	// WaitGroup to wait for all workers to finish
+	var wg sync.WaitGroup
+	
+	// Mutex for thread-safe error collection
+	var errorMutex sync.Mutex
+	
+	// Start worker pool
+	for i := 0; i < numWorkers; i++ {
+		wg.Add(1)
+		go s.worker(ctx, &wg, workChan, resultChan, geoJSONRepo)
+	}
+	
+	// Start a goroutine to close resultChan when all workers finish
+	go func() {
+		wg.Wait()
+		close(resultChan)
+	}()
+	
+	// Send work to workers
+	for _, geoObject := range geoObjects {
+		workChan <- geoObject
+	}
+	close(workChan)
+	
+	// Collect results
+	successCount := 0
+	processingErrors := make([]ProcessingError, 0)
+	
+	for result := range resultChan {
+		if result.Success {
+			successCount++
+		} else {
+			errorMutex.Lock()
+			processingErrors = append(processingErrors, result.Error)
+			errorMutex.Unlock()
+			log.Printf("Error processing geo object [ma: %s, ten: %s, malk: %s]: %v", 
+				result.Error.Ma, result.Error.Ten, result.Error.MaLK, result.Error.Error)
+		}
+	}
+
+	log.Printf("Processing complete. Success: %d, Errors: %d", successCount, len(processingErrors))
+	
+	// Print summary of failed records for manual inspection
+	if len(processingErrors) > 0 {
+		log.Println("\n==========================================")
+		log.Println("FAILED RECORDS SUMMARY FOR MANUAL INSPECTION:")
+		log.Println("==========================================")
+		for i, pe := range processingErrors {
+			log.Printf("%d. MA: %s, TEN: %s, MALK: %s", i+1, pe.Ma, pe.Ten, pe.MaLK)
+			log.Printf("   Error: %s", pe.Error)
+			log.Println("------------------------------------------")
+		}
+		log.Println("==========================================")
+		log.Printf("Total failed records: %d out of %d", len(processingErrors), len(geoObjects))
+		log.Println("==========================================")
+		
+		return fmt.Errorf("completed with %d errors out of %d total records. See above for details.", len(processingErrors), len(geoObjects))
+	}
+	
+	return nil
+}
+
+// worker processes geo objects from the work channel
+func (s *SapNhapService) worker(ctx context.Context, wg *sync.WaitGroup, workChan <-chan *model.SapNhapSiteGeoUnit, resultChan chan<- ProcessingResult, geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) {
+	defer wg.Done()
+	
+	for geoObject := range workChan {
+		err := s.processGeoJSONObject(ctx, geoObject, geoJSONRepo)
+		if err != nil {
+			resultChan <- ProcessingResult{
+				Success: false,
+				Error: ProcessingError{
+					Ma:    geoObject.Ma,
+					Ten:   geoObject.Ten,
+					MaLK:  geoObject.MaLK,
+					Error: err.Error(),
+				},
+			}
+		} else {
+			resultChan <- ProcessingResult{Success: true}
+		}
+	}
+}
+
+/*
+processGeoJSONObject fetches GIS data for a single geo object and updates the database
+*/
+func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *model.SapNhapSiteGeoUnit, geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) error {
+	// Check if the geo object has a MaLK value
+	if geoObject.MaLK == "" {
+		return fmt.Errorf("malk field is empty, cannot fetch GIS data")
+	}
+
+	log.Printf("Fetching GIS data for [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
+
+	// Fetch GIS data from the server
+	gisResponse, err := fetcher.GetGISLocationCoordinates(geoObject.MaLK)
+	if err != nil {
+		return fmt.Errorf("failed to get GIS location coordinates for malk %s: %w", geoObject.MaLK, err)
+	}
+
+	// Validate response
+	if len(gisResponse.Features) == 0 {
+		return fmt.Errorf("no features found in GIS response for malk %s", geoObject.MaLK)
+	}
+
+	feature := gisResponse.Features[0]
+
+	// Convert to WKT format
+	wktBBox := feature.BBox.ToWKTPolygon()
+	wktGeometry := feature.Geometry.ToWKTCoordinate()
+
+	// Update the database
+	err = geoJSONRepo.UpdateSapNhapGeoJSONObjectWKT(ctx, geoObject.Ma, wktBBox, wktGeometry)
+	if err != nil {
+		return fmt.Errorf("failed to update geo object [ma: %s]: %w", geoObject.Ma, err)
+	}
+
+	log.Printf("Successfully updated geo object [ma: %s, ten: %s]", geoObject.Ma, geoObject.Ten)
 	return nil
 }
 
