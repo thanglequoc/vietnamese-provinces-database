@@ -60,7 +60,8 @@ func (s *SapNhapBackfillService) createProvinceLookupMap(provinces []vnModel.Pro
 }
 
 // createWardLookupMap creates a normalized (ward name, province name) tuple to code lookup map for wards
-func (s *SapNhapBackfillService) createWardLookupMap(wards []vnModel.Ward, provinces []vnModel.Province) (map[string]string, error) {
+// Also returns a ward code to province code map for looking up parent province codes
+func (s *SapNhapBackfillService) createWardLookupMap(wards []vnModel.Ward, provinces []vnModel.Province) (map[string]string, map[string]string, error) {
 	// Create a province code to normalized name map for easy lookup
 	provinceNameMap := make(map[string]string)
 	for _, province := range provinces {
@@ -68,35 +69,41 @@ func (s *SapNhapBackfillService) createWardLookupMap(wards []vnModel.Ward, provi
 		normalizedName = viet.NormalizeToneMarks(normalizedName)
 		provinceNameMap[province.Code] = normalizedName
 	}
-	
+
 	lookupMap := make(map[string]string)
-	
+
 	for _, ward := range wards {
 		// Use Name (Vietnamese name with tone marks) for matching
 		normalizedWardName := strings.ToLower(strings.TrimSpace(ward.Name))
 		normalizedWardName = viet.NormalizeToneMarks(normalizedWardName)
-		
+
 		// Get the parent province normalized name
 		provinceName, exists := provinceNameMap[ward.ProvinceCode]
 		if !exists {
-			return nil, fmt.Errorf("ward code '%s' references non-existent province code '%s'", 
+			return nil, nil, fmt.Errorf("ward code '%s' references non-existent province code '%s'",
 				ward.Code, ward.ProvinceCode)
 		}
-		
+
 		// Create composite key: normalizedWardName + "|" + normalizedProvinceName
 		compositeKey := normalizedWardName + "|" + provinceName
-		
+
 		// Check for duplicates - this should NOT happen as each ward should be unique
 		if existingCode, exists := lookupMap[compositeKey]; exists {
-			return nil, fmt.Errorf("duplicate normalized ward key '%s' found for codes '%s' and '%s'. " +
+			return nil, nil, fmt.Errorf("duplicate normalized ward key '%s' found for codes '%s' and '%s'. "+
 				"This indicates data inconsistency - multiple wards with the same normalized name in the same province.",
 				compositeKey, existingCode, ward.Code)
 		}
-		
+
 		lookupMap[compositeKey] = ward.Code
 	}
-	
-	return lookupMap, nil
+
+	// Create ward code to province code map
+	wardCodeToProvinceCode := make(map[string]string)
+	for _, ward := range wards {
+		wardCodeToProvinceCode[ward.Code] = ward.ProvinceCode
+	}
+
+	return lookupMap, wardCodeToProvinceCode, nil
 }
 
 // ExecuteBackfill populates vn_ds_province_code and vn_ds_ward_code fields
@@ -117,7 +124,7 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 		return fmt.Errorf("failed to create province lookup map: %w", err)
 	}
 	
-	wardLookupMap, err := s.createWardLookupMap(wards, provinces)
+	wardLookupMap, wardCodeToProvinceCode, err := s.createWardLookupMap(wards, provinces)
 	if err != nil {
 		return fmt.Errorf("failed to create ward lookup map: %w", err)
 	}
@@ -215,10 +222,23 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 				})
 				continue
 			}
-			
+
+			// Look up the province code for this ward
+			provinceCode, exists := wardCodeToProvinceCode[wardCode]
+			if !exists {
+				backfillErrors = append(backfillErrors, BackfillError{
+					Ma:         geoObject.Ma,
+					Ten:        geoObject.Ten,
+					MaGoc:      geoObject.MaGoc,
+					IsProvince: false,
+					Error:      fmt.Sprintf("ward code '%s' not found in ward to province mapping", wardCode),
+				})
+				continue
+			}
+
 			updates = append(updates, repository.CodeUpdate{
 				Ma:               geoObject.Ma,
-				VNDSProvinceCode: "",
+				VNDSProvinceCode: provinceCode,
 				VNDSWardCode:     wardCode,
 			})
 		}

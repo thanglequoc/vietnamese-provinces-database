@@ -8,6 +8,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
@@ -380,6 +381,34 @@ func (s *SapNhapService) worker(ctx context.Context, wg *sync.WaitGroup, workCha
 }
 
 /*
+loadAnGiangProvinceFromLocalFile loads An Giang province geometry from a local GeoJSON file
+This is a manual patch for corrupted upstream data for An Giang province (MA: ti32)
+Returns WKT format bbox and geometry
+*/
+func loadAnGiangProvinceFromLocalFile() (wktBBox string, wktGeometry string, err error) {
+	// Path to the manual patch file
+	const anGiangPatchPath = "./resources/gis/geojson_11Mar2026/32_tinh_an_giang/province.geojson"
+
+	// Load GeoJSON file
+	geojson, err := dto.LoadGeoJSONFile(anGiangPatchPath)
+	if err != nil {
+		return "", "", fmt.Errorf("failed to load An Giang patch file from %s: %w", anGiangPatchPath, err)
+	}
+
+	if len(geojson.Features) == 0 {
+		return "", "", fmt.Errorf("no features found in An Giang patch file")
+	}
+
+	feature := geojson.Features[0]
+
+	// Convert to WKT format
+	wktBBox = feature.ToWKBboxPolygon()
+	wktGeometry = feature.Geometry.ToWKTMultiPolygon()
+
+	return wktBBox, wktGeometry, nil
+}
+
+/*
 processGeoJSONObject fetches GIS data for a single geo object and updates the database
 */
 func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *model.SapNhapSiteGeoUnit, geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) error {
@@ -390,6 +419,28 @@ func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *mo
 
 	log.Printf("Fetching GIS data for [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
 
+	// SPECIAL CASE: An Giang province (ti32) has corrupted upstream data
+	// Use manual patch from local file instead
+	if geoObject.Ma == "ti32" {
+		log.Printf("⚠️  DETECTED CORRUPTED DATA: An Giang province (MA: ti32, MALK: %s)", geoObject.MaLK)
+		log.Printf("🔧 APPLYING MANUAL PATCH: Loading An Giang GIS data from local file: ./resources/gis/geojson_11Mar2026/32_tinh_an_giang/province.geojson")
+
+		wktBBox, wktGeometry, err := loadAnGiangProvinceFromLocalFile()
+		if err != nil {
+			return fmt.Errorf("failed to load An Giang province from local patch file: %w", err)
+		}
+
+		// Update the database with patched data
+		err = geoJSONRepo.UpdateSapNhapGeoJSONObjectWKT(ctx, geoObject.Ma, wktBBox, wktGeometry)
+		if err != nil {
+			return fmt.Errorf("failed to update geo object [ma: %s] with patched data: %w", geoObject.Ma, err)
+		}
+
+		log.Printf("✅ Successfully updated geo object [ma: %s, ten: %s] using MANUAL PATCH", geoObject.Ma, geoObject.Ten)
+		return nil
+	}
+
+	// Normal processing for other provinces/wards
 	// Fetch GIS data from the server
 	gisResponse, err := fetcher.GetGISLocationCoordinates(geoObject.MaLK)
 	if err != nil {
