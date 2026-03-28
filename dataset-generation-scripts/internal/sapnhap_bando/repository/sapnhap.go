@@ -60,3 +60,16 @@ func (r *SapNhapRepository) InsertSapNhapSiteWard(ward *model.SapNhapSiteWard) e
 	}
 	return nil
 }
+
+// FindSapNhapSiteProvinceByMaHC finds a province by its MaHC (administrative code)
+func (r *SapNhapRepository) FindSapNhapSiteProvinceByMaHC(ctx context.Context, maHC int) (*model.SapNhapSiteProvince, error) {
+	province := &model.SapNhapSiteProvince{}
+	err := r.db.NewSelect().
+		Model(province).
+		Where("mahc = ?", maHC).
+		Scan(ctx)
+	if err != nil {
+		return nil, err
+	}
+	return province, nil
+}

@@ -14,17 +14,18 @@ import (
 )
 
 const (
-	PROVINCE_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_provinces_gis_202509011857_lfs.sql"
-	WARD_GIS_EXISTING_DUMP_PATH="./resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql"
+	PROVINCE_GIS_EXISTING_DUMP_PATH = "./resources/gis/exported/sapnhap_provinces_gis_202509011857_lfs.sql"
+	WARD_GIS_EXISTING_DUMP_PATH     = "./resources/gis/exported/sapnhap_wards_gis_202509011858_lfs.sql"
 )
 
 func DumpDataFromSapNhapBando() {
 	// Initialize the SapNhapRepository
-	sapNhapRepo := sapNhapR.NewSapNhapRepository(db.GetPostgresDBConnection())
-	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(db.GetPostgresDBConnection())
-	vnRepo := vnRepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
 
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
 
 	if err := sapNhapService.BootstrapSapNhapSiteProvinces(); err != nil {
 		log.Fatalf("Failed to dump SapNhapSiteProvinces: %v", err)
@@ -62,4 +63,48 @@ func DumpDataFromSapNhapBando() {
 	}
 
 	log.Println("✅ Data dump from SapNhap Bando completed successfully")
+}
+
+func FetchGISDataFromSapNhapBando() {
+	// Initialize repository
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
+	
+	// Initialize service with required dependencies
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
+	
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
+	
+	// Fetch GIS data from Bando server and update database
+	log.Println("ℹ️ Starting to fetch GIS data from Bando server...")
+	if err := sapNhapService.FetchGISDataFromSapNhapBando(sapNhapGeoJSONObjectRepository); err != nil {
+		log.Fatalf("Failed to fetch GIS data from Bando: %v", err)
+		panic(err)
+	}
+	
+	log.Println("✅ Fetching GIS data from Bando completed successfully")
+}
+
+// BackfillProvinceAndWardCodesInSapNhapGeojsonObjects backfills vn_ds_province_code and vn_ds_ward_code
+// fields in sapnhap_geojson_objects table by matching names against provinces_tmp and wards_tmp tables.
+// This is a standalone function that can be called independently of GIS data fetching.
+func BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() {
+	// Initialize service with required dependencies
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
+	
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
+	
+	// Backfill province and ward codes
+	log.Println("ℹ️ Starting to backfill province and ward codes...")
+	if err := sapNhapService.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects(); err != nil {
+		log.Fatalf("Failed to backfill province and ward codes: %v", err)
+		panic(err)
+	}
+	
+	log.Println("✅ Backfill of province and ward codes completed successfully")
 }

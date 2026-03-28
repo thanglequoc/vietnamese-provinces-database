@@ -11,7 +11,9 @@ const pathToTableInitFile = "./resources/db_table_init.sql"
 const pathToRegionAdministrativeInitFile = "./resources/db_region_administrative_unit.sql"
 
 // GIS data structure scripts
-const pathToSapNhapTables = "./resources/gis/sapnhap_bando_tables.sql"
+const pathToSapNhapBandoTables = "./resources/gis/sapnhap_bando_tables.sql"
+const pathToSapNhapGeoObjectsInitTbl = "./resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql"
+const pathToSapNhapGeoObjects = "./resources/gis/sapnhapbando_geo_objects.sql"
 
 /*
 Bootstrap the Temporary Dataset Structure
@@ -42,11 +44,18 @@ func BootstrapTemporaryDatasetStructure() {
 Bootstrap GIS related data structure
 */
 func BootstrapGISDataStructure() {
-	err := ExecuteSQLScript(pathToSapNhapTables)
-	if err != nil {
+	if err := ExecuteSQLScript(pathToSapNhapBandoTables); err != nil {
 		panic(err)
 	}
-	fmt.Println("GIS related data structure created")
+	fmt.Println("SapNhap Bando tables created")
+	
+	if err := ExecuteSQLScript(pathToSapNhapGeoObjectsInitTbl); err != nil {
+		panic(err)
+	}
+	if err := ExecuteSQLScript(pathToSapNhapGeoObjects); err != nil {
+		panic(err)
+	}
+	fmt.Println("SapNhap Geo Objects data structure created and populated")
 }
 
 // Useful method to execute SQL script located in this project
