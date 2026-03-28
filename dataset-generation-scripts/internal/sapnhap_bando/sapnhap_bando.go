@@ -20,11 +20,12 @@ const (
 
 func DumpDataFromSapNhapBando() {
 	// Initialize the SapNhapRepository
-	sapNhapRepo := sapNhapR.NewSapNhapRepository(db.GetPostgresDBConnection())
-	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(db.GetPostgresDBConnection())
-	vnRepo := vnRepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
 
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
 
 	if err := sapNhapService.BootstrapSapNhapSiteProvinces(); err != nil {
 		log.Fatalf("Failed to dump SapNhapSiteProvinces: %v", err)
@@ -66,14 +67,15 @@ func DumpDataFromSapNhapBando() {
 
 func FetchGISDataFromSapNhapBando() {
 	// Initialize repository
-	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(db.GetPostgresDBConnection())
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
 	
 	// Initialize service with required dependencies
-	sapNhapRepo := sapNhapR.NewSapNhapRepository(db.GetPostgresDBConnection())
-	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(db.GetPostgresDBConnection())
-	vnRepo := vnRepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
 	
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
 	
 	// Fetch GIS data from Bando server and update database
 	log.Println("ℹ️ Starting to fetch GIS data from Bando server...")
@@ -83,4 +85,26 @@ func FetchGISDataFromSapNhapBando() {
 	}
 	
 	log.Println("✅ Fetching GIS data from Bando completed successfully")
+}
+
+// BackfillProvinceAndWardCodesInSapNhapGeojsonObjects backfills vn_ds_province_code and vn_ds_ward_code
+// fields in sapnhap_geojson_objects table by matching names against provinces_tmp and wards_tmp tables.
+// This is a standalone function that can be called independently of GIS data fetching.
+func BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() {
+	// Initialize service with required dependencies
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
+	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
+	
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
+	
+	// Backfill province and ward codes
+	log.Println("ℹ️ Starting to backfill province and ward codes...")
+	if err := sapNhapService.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects(); err != nil {
+		log.Fatalf("Failed to backfill province and ward codes: %v", err)
+		panic(err)
+	}
+	
+	log.Println("✅ Backfill of province and ward codes completed successfully")
 }

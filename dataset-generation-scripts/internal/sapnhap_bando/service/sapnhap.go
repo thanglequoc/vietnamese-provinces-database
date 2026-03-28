@@ -8,12 +8,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
+	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/util"
 	vnRepo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
-	"golang.org/x/text/unicode/norm"
+	"github.com/uptrace/bun"
 )
 
 const BANDO_GIS_PROVINCES_FILE_PATH = "./resources/gis/bando_gisserver/provinces.json"
@@ -23,13 +23,15 @@ type SapNhapService struct {
 	sapNhapRepo       *repository.SapNhapRepository
 	sapNhapGISRepo    *repository.SapNhapGISRepository
 	vnProvinceTmpRepo *vnRepo.VnProvincesTmpRepository
+	db                *bun.DB
 }
 
-func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository) *SapNhapService {
+func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository, db *bun.DB) *SapNhapService {
 	return &SapNhapService{
 		sapNhapRepo:       repo,
 		sapNhapGISRepo:    sapNhapGISRepo,
 		vnProvinceTmpRepo: vnRepo,
+		db:                db,
 	}
 }
 
@@ -57,7 +59,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteProvinces() error {
 	for _, provinceData := range sapNhapSiteProvinces {
 		// Clean the province name by removing administrative unit prefixes.
 		cleanedProvinceName := cleanAdministrativeUnitPrefix(provinceData.TenTinh)
-		cleanedProvinceName = normalizeString(cleanedProvinceName)
+		cleanedProvinceName = util.NormalizeString(cleanedProvinceName)
 
 		// Attempt to look up the vn province by name
 		vnProvince, err := s.vnProvinceTmpRepo.FindProvinceByName(ctx, cleanedProvinceName)
@@ -113,7 +115,7 @@ func (s *SapNhapService) BootstrapSapNhapSiteWards() error {
 				wardData.TenHC = "Phó Bảng"
 			}
 
-			wardData.TenHC = normalizeString(wardData.TenHC)
+			wardData.TenHC = util.NormalizeString(wardData.TenHC)
 
 			vnWard, err := s.vnProvinceTmpRepo.FindWardByName(ctx, strings.TrimSpace(wardData.TenHC), province.VNProvinceCode)
 			if err != nil {
@@ -292,10 +294,34 @@ type ProcessingResult struct {
 	Error    ProcessingError
 }
 
+// BackfillProvinceAndWardCodesInSapNhapGeojsonObjects backfills vn_ds_province_code and vn_ds_ward_code
+// fields in sapnhap_geojson_objects table by matching names against provinces_tmp and wards_tmp tables.
+// This is a standalone function that can be called independently of GIS data fetching.
+func (s *SapNhapService) BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() error {
+	// Create a new repository instance for geo objects using the DB from service
+	geoJSONRepo := repository.NewSapNhapGeoJSONObjectRepository(s.db)
+	
+	// Create a backfill service instance
+	backfillService := NewSapNhapBackfillService(s.vnProvinceTmpRepo, geoJSONRepo)
+	
+	ctx := context.Background()
+	
+	// Execute backfill using the dedicated backfill service
+	err := backfillService.ExecuteBackfill(ctx)
+	if err != nil {
+		return fmt.Errorf("backfill failed: %w", err)
+	}
+	
+	log.Println("Backfill of province and ward codes completed successfully")
+	return nil
+}
+
 // FetchGISDataFromSapNhapBando fetches WKT geometry data from the Bando GIS server
 // for all records in the sapnhap_geojson_objects table and updates them with the retrieved data.
 // Uses parallel processing with a worker pool for improved performance.
 func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) error {
+	ctx := context.Background()
+	
 	// Get all geo objects from the database
 	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects()
 	if err != nil {
@@ -307,8 +333,6 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 	// Number of concurrent workers
 	numWorkers := 10
 	log.Printf("Processing with %d concurrent workers", numWorkers)
-
-	ctx := context.Background()
 	
 	// Create channels for work distribution and result collection
 	workChan := make(chan *model.SapNhapSiteGeoUnit, len(geoObjects))
@@ -434,20 +458,4 @@ func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *mo
 
 	log.Printf("Successfully updated geo object [ma: %s, ten: %s]", geoObject.Ma, geoObject.Ten)
 	return nil
-}
-
-// normalizeString handles all normalization steps for Vietnamese text
-// 1. Replaces smart apostrophes with standard apostrophes
-// 2. Normalizes to NFC form to handle decomposed Unicode characters
-// This ensures consistent encoding across all data
-func normalizeString(s string) string {
-	// Replace smart apostrophe with standard apostrophe
-	result := strings.ReplaceAll(s, "’", "'")
-	result = viet.NormalizeToneMarks(result)
-	
-	// Normalize to NFC form to handle decomposed characters
-	// This ensures "X ̃" (decomposed) becomes "Xã" (precomposed)
-	result = norm.NFC.String(result)
-	
-	return result
 }
