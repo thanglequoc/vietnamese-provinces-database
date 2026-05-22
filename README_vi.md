@@ -278,12 +278,12 @@ Tất cả các đóng góp đến dự án đều được trân trọng ghi nh
 ##### Nguồn tham khảo
 Bản đồ Việt Nam dùng làm banner từ [vietcentertourist](https://vietcentertourist.com/assets/images/vietnam.png)
 
-[source danhmuchanhchinh gov]: https://danhmuchanhchinh.gso.gov.vn/
-[source government decree]: https://danhmuchanhchinh.gso.gov.vn/NghiDinh.aspx
-[source goverment API]: https://danhmuchanhchinh.gso.gov.vn/DMDVHC.asmx
-[source danhmuchanhchinh gov]: https://danhmuchanhchinh.gso.gov.vn/
-[source government decree]: https://danhmuchanhchinh.gso.gov.vn/NghiDinh.aspx
-[decree issued page]: https://danhmuchanhchinh.gso.gov.vn/NghiDinh.aspx
+[source danhmuchanhchinh gov]: https://danhmuchanhchinh.nso.gov.vn/
+[source government decree]: https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx
+[source goverment API]: https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx
+[source danhmuchanhchinh gov]: https://danhmuchanhchinh.nso.gov.vn/
+[source government decree]: https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx
+[decree issued page]: https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx
 [decree 387/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-387-NQ-UBTVQH15-thanh-lap-Toa-an-nhan-dan-thanh-pho-Tu-Son-thuoc-tinh-Bac-Ninh-490766.aspx
 [decree 469/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-469-NQ-UBTVQH15-2022-thanh-lap-phuong-thuoc-thi-xa-Pho-Yen-Thai-Nguyen-504359.aspx
 [decree 510/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-510-NQ-UBTVQH15-2022-thanh-lap-thi-tran-Phuong-Son-huyen-Luc-Nam-Bac-Giang-516371.aspx
