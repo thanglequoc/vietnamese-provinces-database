@@ -6,7 +6,7 @@
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
 Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **34 tỉnh thành** và các Quận huyện, phường xã liên quan.  
-Dữ liệu được cập nhật theo nghị định gần nhất: [237/NQ-UBTVQH16][source government decree]  
+Dữ liệu được cập nhật theo nghị định gần nhất: [30/2026/QH16][source government decree]  
 
 Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ để ủng hộ nhé — điều đó sẽ tiếp thêm động lực để chúng tôi tiếp tục cải tiến và mang đến những công cụ giá trị cho cộng đồng. Ngoài ra, việc "star" repo cũng giúp bạn dễ dàng theo dõi các bản cập nhật trong tương lai.
 
@@ -272,6 +272,12 @@ Sau khi số lượng tỉnh được sáp nhập còn 37, các tỉnh mới —
 Nếu bạn có bất kỳ một đề xuất nào có thể cải tiến dự án, xin vui lòng [tạo một Issue](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/issues) và cung cấp thông tin cụ thể.  
 Hoặc tốt hơn nữa, bạn có thể đóng góp xây dựng dự án này bằng các [tạo Pull Request](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/pulls)  
 Tất cả các đóng góp đến dự án đều được trân trọng ghi nhận.
+
+## Người đóng góp xây dựng
+<a href="https://github.com/thanglequoc/vietnamese-provinces-database/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=thanglequoc/vietnamese-provinces-database" />
+</a>
+
 
 ##### Nguồn tham khảo
 Bản đồ Việt Nam dùng làm banner từ [vietcentertourist](https://vietcentertourist.com/assets/images/vietnam.png)

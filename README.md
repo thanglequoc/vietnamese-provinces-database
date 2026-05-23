@@ -6,7 +6,7 @@
 # Vietnamese Provinces Database
 
 A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
-Data is updated as of the most recent effective decree: [237/NQ-UBTVQH16][source government decree]  
+Data is updated as of the most recent effective decree: [30/2026/QH16][source government decree]  
 
 If you find this repository helpful, please consider giving it a ⭐ — it helps us stay motivated to keep improving and delivering valuable tools for the community. Also, starring the repo makes it easier to stay updated with future releases.
 
@@ -301,7 +301,12 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 30/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-30-2026-QH16-thanh-lap-thanh-pho-Dong-Nai-703888.aspx
 
 
+## Contributors
+<a href="https://github.com/thanglequoc/vietnamese-provinces-database/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=thanglequoc/vietnamese-provinces-database" />
+</a>
+
 ## It has been a long run to reach for the ⭐
 This project has been around since 2022 and is still actively maintained today.  
-The continued support from the community — shown through stars, issues, and contributions — has been a big motivation to keep improving it. Thank you for helping this project grow! 
+The continued support from the community — shown through stars, issues, and contributions — has been a big motivation to keep improving it. Thank you for helping this project grow!  
 [![Star History Chart](https://api.star-history.com/svg?repos=thanglequoc/vietnamese-provinces-database&type=Date)](https://www.star-history.com/#thanglequoc/vietnamese-provinces-database&Date)
