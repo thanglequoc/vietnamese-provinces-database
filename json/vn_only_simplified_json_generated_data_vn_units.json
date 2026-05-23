@@ -75,7 +75,7 @@
    },
    {
     "Code": "00175",
-    "FullName": "Phường Yên Hòa",
+    "FullName": "Phường Yên Hoà",
     "ProvinceCode": "01"
    },
    {
@@ -169,96 +169,6 @@
     "ProvinceCode": "01"
    },
    {
-    "Code": "00592",
-    "FullName": "Phường Từ Liêm",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00598",
-    "FullName": "Phường Thượng Cát",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00602",
-    "FullName": "Phường Đông Ngạc",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00611",
-    "FullName": "Phường Xuân Đỉnh",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00613",
-    "FullName": "Phường Tây Tựu",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00619",
-    "FullName": "Phường Phú Diễn",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00622",
-    "FullName": "Phường Xuân Phương",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00634",
-    "FullName": "Phường Tây Mỗ",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00637",
-    "FullName": "Phường Đại Mỗ",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "00643",
-    "FullName": "Phường Thanh Liệt",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09552",
-    "FullName": "Phường Kiến Hưng",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09556",
-    "FullName": "Phường Hà Đông",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09562",
-    "FullName": "Phường Yên Nghĩa",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09568",
-    "FullName": "Phường Phú Lương",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09574",
-    "FullName": "Phường Sơn Tây",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09604",
-    "FullName": "Phường Tùng Thiện",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "09886",
-    "FullName": "Phường Dương Nội",
-    "ProvinceCode": "01"
-   },
-   {
-    "Code": "10015",
-    "FullName": "Phường Chương Mỹ",
-    "ProvinceCode": "01"
-   },
-   {
     "Code": "00376",
     "FullName": "Xã Sóc Sơn",
     "ProvinceCode": "01"
@@ -329,8 +239,58 @@
     "ProvinceCode": "01"
    },
    {
+    "Code": "00592",
+    "FullName": "Phường Từ Liêm",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00598",
+    "FullName": "Phường Thượng Cát",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00602",
+    "FullName": "Phường Đông Ngạc",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00611",
+    "FullName": "Phường Xuân Đỉnh",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00613",
+    "FullName": "Phường Tây Tựu",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00619",
+    "FullName": "Phường Phú Diễn",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00622",
+    "FullName": "Phường Xuân Phương",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00634",
+    "FullName": "Phường Tây Mỗ",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00637",
+    "FullName": "Phường Đại Mỗ",
+    "ProvinceCode": "01"
+   },
+   {
     "Code": "00640",
     "FullName": "Xã Thanh Trì",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "00643",
+    "FullName": "Phường Thanh Liệt",
     "ProvinceCode": "01"
    },
    {
@@ -371,6 +331,36 @@
    {
     "Code": "09022",
     "FullName": "Xã Mê Linh",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09552",
+    "FullName": "Phường Kiến Hưng",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09556",
+    "FullName": "Phường Hà Đông",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09562",
+    "FullName": "Phường Yên Nghĩa",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09568",
+    "FullName": "Phường Phú Lương",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09574",
+    "FullName": "Phường Sơn Tây",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09604",
+    "FullName": "Phường Tùng Thiện",
     "ProvinceCode": "01"
    },
    {
@@ -455,7 +445,7 @@
    },
    {
     "Code": "09856",
-    "FullName": "Xã Dương Hòa",
+    "FullName": "Xã Dương Hoà",
     "ProvinceCode": "01"
    },
    {
@@ -466,6 +456,11 @@
    {
     "Code": "09877",
     "FullName": "Xã An Khánh",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "09886",
+    "FullName": "Phường Dương Nội",
     "ProvinceCode": "01"
    },
    {
@@ -500,12 +495,17 @@
    },
    {
     "Code": "09988",
-    "FullName": "Xã Hòa Lạc",
+    "FullName": "Xã Hoà Lạc",
     "ProvinceCode": "01"
    },
    {
     "Code": "10003",
     "FullName": "Xã Tây Phương",
+    "ProvinceCode": "01"
+   },
+   {
+    "Code": "10015",
+    "FullName": "Phường Chương Mỹ",
     "ProvinceCode": "01"
    },
    {
@@ -530,7 +530,7 @@
    },
    {
     "Code": "10096",
-    "FullName": "Xã Hòa Phú",
+    "FullName": "Xã Hoà Phú",
     "ProvinceCode": "01"
    },
    {
@@ -550,7 +550,7 @@
    },
    {
     "Code": "10180",
-    "FullName": "Xã Dân Hòa",
+    "FullName": "Xã Dân Hoà",
     "ProvinceCode": "01"
    },
    {
@@ -605,12 +605,12 @@
    },
    {
     "Code": "10402",
-    "FullName": "Xã Ứng Hòa",
+    "FullName": "Xã Ứng Hoà",
     "ProvinceCode": "01"
    },
    {
     "Code": "10417",
-    "FullName": "Xã Hòa Xá",
+    "FullName": "Xã Hoà Xá",
     "ProvinceCode": "01"
    },
    {
@@ -781,7 +781,7 @@
    },
    {
     "Code": "01501",
-    "FullName": "Xã Đàm Thủy",
+    "FullName": "Xã Đàm Thuỷ",
     "ProvinceCode": "04"
    },
    {
@@ -831,12 +831,12 @@
    },
    {
     "Code": "01648",
-    "FullName": "Xã Phục Hòa",
+    "FullName": "Xã Phục Hoà",
     "ProvinceCode": "04"
    },
    {
     "Code": "01654",
-    "FullName": "Xã Hòa An",
+    "FullName": "Xã Hoà An",
     "ProvinceCode": "04"
    },
    {
@@ -933,31 +933,6 @@
    {
     "Code": "00694",
     "FullName": "Phường Hà Giang 1",
-    "ProvinceCode": "08"
-   },
-   {
-    "Code": "02212",
-    "FullName": "Phường Nông Tiến",
-    "ProvinceCode": "08"
-   },
-   {
-    "Code": "02215",
-    "FullName": "Phường Minh Xuân",
-    "ProvinceCode": "08"
-   },
-   {
-    "Code": "02509",
-    "FullName": "Phường Mỹ Lâm",
-    "ProvinceCode": "08"
-   },
-   {
-    "Code": "02512",
-    "FullName": "Phường An Tường",
-    "ProvinceCode": "08"
-   },
-   {
-    "Code": "02524",
-    "FullName": "Phường Bình Thuận",
     "ProvinceCode": "08"
    },
    {
@@ -1097,7 +1072,7 @@
    },
    {
     "Code": "00922",
-    "FullName": "Xã Thuận Hòa",
+    "FullName": "Xã Thuận Hoà",
     "ProvinceCode": "08"
    },
    {
@@ -1107,7 +1082,7 @@
    },
    {
     "Code": "00928",
-    "FullName": "Xã Thanh Thủy",
+    "FullName": "Xã Thanh Thuỷ",
     "ProvinceCode": "08"
    },
    {
@@ -1316,6 +1291,16 @@
     "ProvinceCode": "08"
    },
    {
+    "Code": "02212",
+    "FullName": "Phường Nông Tiến",
+    "ProvinceCode": "08"
+   },
+   {
+    "Code": "02215",
+    "FullName": "Phường Minh Xuân",
+    "ProvinceCode": "08"
+   },
+   {
     "Code": "02221",
     "FullName": "Xã Nà Hang",
     "ProvinceCode": "08"
@@ -1352,7 +1337,7 @@
    },
    {
     "Code": "02287",
-    "FullName": "Xã Chiêm Hóa",
+    "FullName": "Xã Chiêm Hoá",
     "ProvinceCode": "08"
    },
    {
@@ -1397,7 +1382,7 @@
    },
    {
     "Code": "02353",
-    "FullName": "Xã Hòa An",
+    "FullName": "Xã Hoà An",
     "ProvinceCode": "08"
    },
    {
@@ -1442,7 +1427,7 @@
    },
    {
     "Code": "02419",
-    "FullName": "Xã Thái Hòa",
+    "FullName": "Xã Thái Hoà",
     "ProvinceCode": "08"
    },
    {
@@ -1488,6 +1473,21 @@
    {
     "Code": "02494",
     "FullName": "Xã Thái Bình",
+    "ProvinceCode": "08"
+   },
+   {
+    "Code": "02509",
+    "FullName": "Phường Mỹ Lâm",
+    "ProvinceCode": "08"
+   },
+   {
+    "Code": "02512",
+    "FullName": "Phường An Tường",
+    "ProvinceCode": "08"
+   },
+   {
+    "Code": "02524",
+    "FullName": "Phường Bình Thuận",
     "ProvinceCode": "08"
    },
    {
@@ -1537,7 +1537,7 @@
    },
    {
     "Code": "02620",
-    "FullName": "Xã Sơn Thủy",
+    "FullName": "Xã Sơn Thuỷ",
     "ProvinceCode": "08"
    },
    {
@@ -1559,11 +1559,6 @@
    {
     "Code": "03151",
     "FullName": "Phường Mường Lay",
-    "ProvinceCode": "11"
-   },
-   {
-    "Code": "03334",
-    "FullName": "Phường Mường Thanh",
     "ProvinceCode": "11"
    },
    {
@@ -1737,6 +1732,11 @@
     "ProvinceCode": "11"
    },
    {
+    "Code": "03334",
+    "FullName": "Phường Mường Thanh",
+    "ProvinceCode": "11"
+   },
+   {
     "Code": "03349",
     "FullName": "Xã Thanh Yên",
     "ProvinceCode": "11"
@@ -1788,11 +1788,6 @@
     "ProvinceCode": "12"
    },
    {
-    "Code": "03408",
-    "FullName": "Phường Tân Phong",
-    "ProvinceCode": "12"
-   },
-   {
     "Code": "03390",
     "FullName": "Xã Bình Lư",
     "ProvinceCode": "12"
@@ -1805,6 +1800,11 @@
    {
     "Code": "03405",
     "FullName": "Xã Tả Lèng",
+    "ProvinceCode": "12"
+   },
+   {
+    "Code": "03408",
+    "FullName": "Phường Tân Phong",
     "ProvinceCode": "12"
    },
    {
@@ -1999,26 +1999,6 @@
     "ProvinceCode": "14"
    },
    {
-    "Code": "03979",
-    "FullName": "Phường Mộc Sơn",
-    "ProvinceCode": "14"
-   },
-   {
-    "Code": "03980",
-    "FullName": "Phường Mộc Châu",
-    "ProvinceCode": "14"
-   },
-   {
-    "Code": "03982",
-    "FullName": "Phường Thảo Nguyên",
-    "ProvinceCode": "14"
-   },
-   {
-    "Code": "04033",
-    "FullName": "Phường Vân Sơn",
-    "ProvinceCode": "14"
-   },
-   {
     "Code": "03688",
     "FullName": "Xã Mường Chiên",
     "ProvinceCode": "14"
@@ -2184,6 +2164,21 @@
     "ProvinceCode": "14"
    },
    {
+    "Code": "03979",
+    "FullName": "Phường Mộc Sơn",
+    "ProvinceCode": "14"
+   },
+   {
+    "Code": "03980",
+    "FullName": "Phường Mộc Châu",
+    "ProvinceCode": "14"
+   },
+   {
+    "Code": "03982",
+    "FullName": "Phường Thảo Nguyên",
+    "ProvinceCode": "14"
+   },
+   {
     "Code": "03985",
     "FullName": "Xã Chiềng Sơn",
     "ProvinceCode": "14"
@@ -2206,6 +2201,11 @@
    {
     "Code": "04018",
     "FullName": "Xã Tô Múa",
+    "ProvinceCode": "14"
+   },
+   {
+    "Code": "04033",
+    "FullName": "Phường Vân Sơn",
     "ProvinceCode": "14"
    },
    {
@@ -2370,46 +2370,6 @@
     "ProvinceCode": "15"
    },
    {
-    "Code": "03006",
-    "FullName": "Phường Sa Pa",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04252",
-    "FullName": "Phường Yên Bái",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04273",
-    "FullName": "Phường Nam Cường",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04279",
-    "FullName": "Phường Văn Phú",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04288",
-    "FullName": "Phường Nghĩa Lộ",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04543",
-    "FullName": "Phường Âu Lâu",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04663",
-    "FullName": "Phường Trung Tâm",
-    "ProvinceCode": "15"
-   },
-   {
-    "Code": "04681",
-    "FullName": "Phường Cầu Thia",
-    "ProvinceCode": "15"
-   },
-   {
     "Code": "02680",
     "FullName": "Xã Hợp Thành",
     "ProvinceCode": "15"
@@ -2551,7 +2511,7 @@
    },
    {
     "Code": "02962",
-    "FullName": "Xã Xuân Hòa",
+    "FullName": "Xã Xuân Hoà",
     "ProvinceCode": "15"
    },
    {
@@ -2572,6 +2532,11 @@
    {
     "Code": "03004",
     "FullName": "Xã Ngũ Chỉ Sơn",
+    "ProvinceCode": "15"
+   },
+   {
+    "Code": "03006",
+    "FullName": "Phường Sa Pa",
     "ProvinceCode": "15"
    },
    {
@@ -2635,6 +2600,26 @@
     "ProvinceCode": "15"
    },
    {
+    "Code": "04252",
+    "FullName": "Phường Yên Bái",
+    "ProvinceCode": "15"
+   },
+   {
+    "Code": "04273",
+    "FullName": "Phường Nam Cường",
+    "ProvinceCode": "15"
+   },
+   {
+    "Code": "04279",
+    "FullName": "Phường Văn Phú",
+    "ProvinceCode": "15"
+   },
+   {
+    "Code": "04288",
+    "FullName": "Phường Nghĩa Lộ",
+    "ProvinceCode": "15"
+   },
+   {
     "Code": "04303",
     "FullName": "Xã Lục Yên",
     "ProvinceCode": "15"
@@ -2651,7 +2636,7 @@
    },
    {
     "Code": "04342",
-    "FullName": "Xã Khánh Hòa",
+    "FullName": "Xã Khánh Hoà",
     "ProvinceCode": "15"
    },
    {
@@ -2755,6 +2740,11 @@
     "ProvinceCode": "15"
    },
    {
+    "Code": "04543",
+    "FullName": "Phường Âu Lâu",
+    "ProvinceCode": "15"
+   },
+   {
     "Code": "04564",
     "FullName": "Xã Việt Hồng",
     "ProvinceCode": "15"
@@ -2805,8 +2795,18 @@
     "ProvinceCode": "15"
    },
    {
+    "Code": "04663",
+    "FullName": "Phường Trung Tâm",
+    "ProvinceCode": "15"
+   },
+   {
     "Code": "04672",
     "FullName": "Xã Văn Chấn",
+    "ProvinceCode": "15"
+   },
+   {
+    "Code": "04681",
+    "FullName": "Phường Cầu Thia",
     "ProvinceCode": "15"
    },
    {
@@ -2868,71 +2868,6 @@
    {
     "Code": "01843",
     "FullName": "Phường Bắc Kạn",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05443",
-    "FullName": "Phường Phan Đình Phùng",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05455",
-    "FullName": "Phường Quyết Thắng",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05467",
-    "FullName": "Phường Gia Sàng",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05482",
-    "FullName": "Phường Quan Triều",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05500",
-    "FullName": "Phường Tích Lương",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05518",
-    "FullName": "Phường Sông Công",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05528",
-    "FullName": "Phường Bách Quang",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05533",
-    "FullName": "Phường Bá Xuyên",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05710",
-    "FullName": "Phường Linh Sơn",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05857",
-    "FullName": "Phường Phúc Thuận",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05860",
-    "FullName": "Phường Phổ Yên",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05890",
-    "FullName": "Phường Vạn Xuân",
-    "ProvinceCode": "19"
-   },
-   {
-    "Code": "05899",
-    "FullName": "Phường Trung Thành",
     "ProvinceCode": "19"
    },
    {
@@ -3111,13 +3046,53 @@
     "ProvinceCode": "19"
    },
    {
+    "Code": "05443",
+    "FullName": "Phường Phan Đình Phùng",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05455",
+    "FullName": "Phường Quyết Thắng",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05467",
+    "FullName": "Phường Gia Sàng",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05482",
+    "FullName": "Phường Quan Triều",
+    "ProvinceCode": "19"
+   },
+   {
     "Code": "05488",
     "FullName": "Xã Đại Phúc",
     "ProvinceCode": "19"
    },
    {
+    "Code": "05500",
+    "FullName": "Phường Tích Lương",
+    "ProvinceCode": "19"
+   },
+   {
     "Code": "05503",
     "FullName": "Xã Tân Cương",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05518",
+    "FullName": "Phường Sông Công",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05528",
+    "FullName": "Phường Bách Quang",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05533",
+    "FullName": "Phường Bá Xuyên",
     "ProvinceCode": "19"
    },
    {
@@ -3137,7 +3112,7 @@
    },
    {
     "Code": "05569",
-    "FullName": "Xã Định Hóa",
+    "FullName": "Xã Định Hoá",
     "ProvinceCode": "19"
    },
    {
@@ -3207,7 +3182,12 @@
    },
    {
     "Code": "05707",
-    "FullName": "Xã Nam Hòa",
+    "FullName": "Xã Nam Hoà",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05710",
+    "FullName": "Phường Linh Sơn",
     "ProvinceCode": "19"
    },
    {
@@ -3291,8 +3271,28 @@
     "ProvinceCode": "19"
    },
    {
+    "Code": "05857",
+    "FullName": "Phường Phúc Thuận",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05860",
+    "FullName": "Phường Phổ Yên",
+    "ProvinceCode": "19"
+   },
+   {
     "Code": "05881",
     "FullName": "Xã Thành Công",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05890",
+    "FullName": "Phường Vạn Xuân",
+    "ProvinceCode": "19"
+   },
+   {
+    "Code": "05899",
+    "FullName": "Phường Trung Thành",
     "ProvinceCode": "19"
    },
    {
@@ -3312,7 +3312,7 @@
    },
    {
     "Code": "05941",
-    "FullName": "Xã Điềm Thụy",
+    "FullName": "Xã Điềm Thuỵ",
     "ProvinceCode": "19"
    },
    {
@@ -3339,11 +3339,6 @@
    {
     "Code": "05986",
     "FullName": "Phường Tam Thanh",
-    "ProvinceCode": "20"
-   },
-   {
-    "Code": "06187",
-    "FullName": "Phường Kỳ Lừa",
     "ProvinceCode": "20"
    },
    {
@@ -3388,7 +3383,7 @@
    },
    {
     "Code": "06076",
-    "FullName": "Xã Quý Hòa",
+    "FullName": "Xã Quý Hoà",
     "ProvinceCode": "20"
    },
    {
@@ -3398,7 +3393,7 @@
    },
    {
     "Code": "06085",
-    "FullName": "Xã Thiện Hòa",
+    "FullName": "Xã Thiện Hoà",
     "ProvinceCode": "20"
    },
    {
@@ -3428,7 +3423,7 @@
    },
    {
     "Code": "06148",
-    "FullName": "Xã Thụy Hùng",
+    "FullName": "Xã Thuỵ Hùng",
     "ProvinceCode": "20"
    },
    {
@@ -3449,6 +3444,11 @@
    {
     "Code": "06184",
     "FullName": "Xã Đồng Đăng",
+    "ProvinceCode": "20"
+   },
+   {
+    "Code": "06187",
+    "FullName": "Phường Kỳ Lừa",
     "ProvinceCode": "20"
    },
    {
@@ -3498,7 +3498,7 @@
    },
    {
     "Code": "06325",
-    "FullName": "Xã Bắc Sơn",
+    "FullName": "xã Bắc Sơn",
     "ProvinceCode": "20"
    },
    {
@@ -3523,7 +3523,7 @@
    },
    {
     "Code": "06376",
-    "FullName": "Xã Nhất Hòa",
+    "FullName": "Xã Nhất Hoà",
     "ProvinceCode": "20"
    },
    {
@@ -3708,8 +3708,23 @@
     "ProvinceCode": "22"
    },
    {
+    "Code": "06724",
+    "FullName": "Xã Hải Sơn",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "06733",
+    "FullName": "Xã Hải Ninh",
+    "ProvinceCode": "22"
+   },
+   {
     "Code": "06736",
     "FullName": "Phường Móng Cái 3",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "06757",
+    "FullName": "Xã Vĩnh Thực",
     "ProvinceCode": "22"
    },
    {
@@ -3733,6 +3748,11 @@
     "ProvinceCode": "22"
    },
    {
+    "Code": "06799",
+    "FullName": "Xã Hải Hoà",
+    "ProvinceCode": "22"
+   },
+   {
     "Code": "06811",
     "FullName": "Phường Uông Bí",
     "ProvinceCode": "22"
@@ -3745,86 +3765,6 @@
    {
     "Code": "06832",
     "FullName": "Phường Yên Tử",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07030",
-    "FullName": "Phường Hoành Bồ",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07069",
-    "FullName": "Phường Mạo Khê",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07081",
-    "FullName": "Phường Bình Khê",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07090",
-    "FullName": "Phường An Sinh",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07093",
-    "FullName": "Phường Đông Triều",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07114",
-    "FullName": "Phường Hoàng Quế",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07132",
-    "FullName": "Phường Quảng Yên",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07135",
-    "FullName": "Phường Đông Mai",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07147",
-    "FullName": "Phường Hiệp Hòa",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07168",
-    "FullName": "Phường Hà An",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07180",
-    "FullName": "Phường Liên Hòa",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "07183",
-    "FullName": "Phường Phong Cốc",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "06724",
-    "FullName": "Xã Hải Sơn",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "06733",
-    "FullName": "Xã Hải Ninh",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "06757",
-    "FullName": "Xã Vĩnh Thực",
-    "ProvinceCode": "22"
-   },
-   {
-    "Code": "06799",
-    "FullName": "Xã Hải Hòa",
     "ProvinceCode": "22"
    },
    {
@@ -3908,6 +3848,16 @@
     "ProvinceCode": "22"
    },
    {
+    "Code": "06994",
+    "FullName": "Đặc khu Vân Đồn",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07030",
+    "FullName": "Phường Hoành Bồ",
+    "ProvinceCode": "22"
+   },
+   {
     "Code": "07054",
     "FullName": "Xã Quảng La",
     "ProvinceCode": "22"
@@ -3918,8 +3868,58 @@
     "ProvinceCode": "22"
    },
    {
-    "Code": "06994",
-    "FullName": "Đặc khu Vân Đồn",
+    "Code": "07069",
+    "FullName": "Phường Mạo Khê",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07081",
+    "FullName": "Phường Bình Khê",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07090",
+    "FullName": "Phường An Sinh",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07093",
+    "FullName": "Phường Đông Triều",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07114",
+    "FullName": "Phường Hoàng Quế",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07132",
+    "FullName": "Phường Quảng Yên",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07135",
+    "FullName": "Phường Đông Mai",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07147",
+    "FullName": "Phường Hiệp Hoà",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07168",
+    "FullName": "Phường Hà An",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07180",
+    "FullName": "Phường Liên Hoà",
+    "ProvinceCode": "22"
+   },
+   {
+    "Code": "07183",
+    "FullName": "Phường Phong Cốc",
     "ProvinceCode": "22"
    },
    {
@@ -3934,11 +3934,6 @@
   "FullName": "Tỉnh Bắc Ninh",
   "Wards": [
    {
-    "Code": "07420",
-    "FullName": "Xã Mỹ Thái",
-    "ProvinceCode": "24"
-   },
-   {
     "Code": "07210",
     "FullName": "Phường Bắc Giang",
     "ProvinceCode": "24"
@@ -3949,13 +3944,213 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "07246",
+    "FullName": "Xã Xuân Lương",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07264",
+    "FullName": "Xã Tam Tiến",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07282",
+    "FullName": "Xã Đồng Kỳ",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07288",
+    "FullName": "Xã Yên Thế",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07294",
+    "FullName": "Xã Bố Hạ",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07306",
+    "FullName": "Xã Nhã Nam",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07330",
+    "FullName": "Xã Phúc Hoà",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07333",
+    "FullName": "Xã Quang Trung",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07339",
+    "FullName": "Xã Tân Yên",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07351",
+    "FullName": "Xã Ngọc Thiện",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07375",
+    "FullName": "Xã Lạng Giang",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07381",
+    "FullName": "Xã Tiên Lục",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07399",
+    "FullName": "Xã Kép",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07420",
+    "FullName": "Xã Mỹ Thái",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07432",
+    "FullName": "Xã Tân Dĩnh",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07444",
+    "FullName": "Xã Lục Nam",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07450",
+    "FullName": "Xã Đông Phú",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07462",
+    "FullName": "Xã Bảo Đài",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07486",
+    "FullName": "Xã Nghĩa Phương",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07489",
+    "FullName": "Xã Trường Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07492",
+    "FullName": "Xã Lục Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07498",
+    "FullName": "Xã Bắc Lũng",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07519",
+    "FullName": "Xã Cẩm Lý",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "07525",
     "FullName": "Phường Chũ",
     "ProvinceCode": "24"
    },
    {
+    "Code": "07531",
+    "FullName": "Xã Tân Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07534",
+    "FullName": "Xã Sa Lý",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07537",
+    "FullName": "Xã Biên Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07543",
+    "FullName": "Xã Sơn Hải",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07552",
+    "FullName": "Xã Kiên Lao",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07573",
+    "FullName": "Xã Biển Động",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07582",
+    "FullName": "Xã Lục Ngạn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07594",
+    "FullName": "Xã Đèo Gia",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07603",
+    "FullName": "Xã Nam Dương",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "07612",
     "FullName": "Phường Phượng Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07615",
+    "FullName": "Xã Sơn Động",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07616",
+    "FullName": "Xã Tây Yên Tử",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07621",
+    "FullName": "Xã Vân Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07627",
+    "FullName": "Xã Đại Sơn",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07642",
+    "FullName": "Xã Yên Định",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07654",
+    "FullName": "Xã An Lạc",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07663",
+    "FullName": "Xã Tuấn Đạo",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07672",
+    "FullName": "Xã Dương Hưu",
     "ProvinceCode": "24"
    },
    {
@@ -3979,8 +4174,13 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "07735",
+    "FullName": "Xã Đồng Việt",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "07738",
-    "FullName": "Phường Cảnh Thụy",
+    "FullName": "Phường Cảnh Thuỵ",
     "ProvinceCode": "24"
    },
    {
@@ -4004,6 +4204,26 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "07822",
+    "FullName": "Xã Hoàng Vân",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07840",
+    "FullName": "Xã Hiệp Hoà",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07864",
+    "FullName": "Xã Hợp Thịnh",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "07870",
+    "FullName": "Xã Xuân Cẩm",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "09169",
     "FullName": "Phường Vũ Ninh",
     "ProvinceCode": "24"
@@ -4019,13 +4239,38 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "09193",
+    "FullName": "Xã Yên Phong",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09202",
+    "FullName": "Xã Tam Giang",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09205",
+    "FullName": "Xã Yên Trung",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09208",
+    "FullName": "Xã Tam Đa",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09238",
+    "FullName": "Xã Văn Môn",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "09247",
     "FullName": "Phường Quế Võ",
     "ProvinceCode": "24"
    },
    {
     "Code": "09253",
-    "FullName": "Phường Nhân Hòa",
+    "FullName": "Phường Nhân Hoà",
     "ProvinceCode": "24"
    },
    {
@@ -4039,6 +4284,11 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "09292",
+    "FullName": "Xã Phù Lãng",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "09295",
     "FullName": "Phường Bồng Lai",
     "ProvinceCode": "24"
@@ -4049,8 +4299,38 @@
     "ProvinceCode": "24"
    },
    {
+    "Code": "09313",
+    "FullName": "Xã Chi Lăng",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09319",
+    "FullName": "Xã Tiên Du",
+    "ProvinceCode": "24"
+   },
+   {
     "Code": "09325",
     "FullName": "Phường Hạp Lĩnh",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09334",
+    "FullName": "Xã Liên Bão",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09340",
+    "FullName": "Xã Đại Đồng",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09343",
+    "FullName": "Xã Tân Chi",
+    "ProvinceCode": "24"
+   },
+   {
+    "Code": "09349",
+    "FullName": "Xã Phật Tích",
     "ProvinceCode": "24"
    },
    {
@@ -4101,286 +4381,6 @@
    {
     "Code": "09445",
     "FullName": "Phường Ninh Xá",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07246",
-    "FullName": "Xã Xuân Lương",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07264",
-    "FullName": "Xã Tam Tiến",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07282",
-    "FullName": "Xã Đồng Kỳ",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07288",
-    "FullName": "Xã Yên Thế",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07294",
-    "FullName": "Xã Bố Hạ",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07306",
-    "FullName": "Xã Nhã Nam",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07330",
-    "FullName": "Xã Phúc Hòa",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07333",
-    "FullName": "Xã Quang Trung",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07339",
-    "FullName": "Xã Tân Yên",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07351",
-    "FullName": "Xã Ngọc Thiện",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07375",
-    "FullName": "Xã Lạng Giang",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07381",
-    "FullName": "Xã Tiên Lục",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07399",
-    "FullName": "Xã Kép",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07432",
-    "FullName": "Xã Tân Dĩnh",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07444",
-    "FullName": "Xã Lục Nam",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07450",
-    "FullName": "Xã Đông Phú",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07462",
-    "FullName": "Xã Bảo Đài",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07486",
-    "FullName": "Xã Nghĩa Phương",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07489",
-    "FullName": "Xã Trường Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07492",
-    "FullName": "Xã Lục Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07498",
-    "FullName": "Xã Bắc Lũng",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07519",
-    "FullName": "Xã Cẩm Lý",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07531",
-    "FullName": "Xã Tân Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07534",
-    "FullName": "Xã Sa Lý",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07537",
-    "FullName": "Xã Biên Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07543",
-    "FullName": "Xã Sơn Hải",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07552",
-    "FullName": "Xã Kiên Lao",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07573",
-    "FullName": "Xã Biển Động",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07582",
-    "FullName": "Xã Lục Ngạn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07594",
-    "FullName": "Xã Đèo Gia",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07603",
-    "FullName": "Xã Nam Dương",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07615",
-    "FullName": "Xã Sơn Động",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07616",
-    "FullName": "Xã Tây Yên Tử",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07621",
-    "FullName": "Xã Vân Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07627",
-    "FullName": "Xã Đại Sơn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07642",
-    "FullName": "Xã Yên Định",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07654",
-    "FullName": "Xã An Lạc",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07663",
-    "FullName": "Xã Tuấn Đạo",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07672",
-    "FullName": "Xã Dương Hưu",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07735",
-    "FullName": "Xã Đồng Việt",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07822",
-    "FullName": "Xã Hoàng Vân",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07840",
-    "FullName": "Xã Hiệp Hòa",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07864",
-    "FullName": "Xã Hợp Thịnh",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "07870",
-    "FullName": "Xã Xuân Cẩm",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09193",
-    "FullName": "Xã Yên Phong",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09202",
-    "FullName": "Xã Tam Giang",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09205",
-    "FullName": "Xã Yên Trung",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09208",
-    "FullName": "Xã Tam Đa",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09238",
-    "FullName": "Xã Văn Môn",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09292",
-    "FullName": "Xã Phù Lãng",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09313",
-    "FullName": "Xã Chi Lăng",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09319",
-    "FullName": "Xã Tiên Du",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09334",
-    "FullName": "Xã Liên Bão",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09340",
-    "FullName": "Xã Đại Đồng",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09343",
-    "FullName": "Xã Tân Chi",
-    "ProvinceCode": "24"
-   },
-   {
-    "Code": "09349",
-    "FullName": "Xã Phật Tích",
     "ProvinceCode": "24"
    },
    {
@@ -4435,83 +4435,23 @@
   "FullName": "Tỉnh Phú Thọ",
   "Wards": [
    {
-    "Code": "04978",
-    "FullName": "Xã Kim Bôi",
+    "Code": "05128",
+    "FullName": "Xã Tân Lạc",
     "ProvinceCode": "25"
    },
    {
     "Code": "04792",
-    "FullName": "Phường Tân Hòa",
+    "FullName": "Phường Tân Hoà",
     "ProvinceCode": "25"
    },
    {
     "Code": "04795",
-    "FullName": "Phường Hòa Bình",
+    "FullName": "Phường Hoà Bình",
     "ProvinceCode": "25"
    },
    {
     "Code": "04828",
     "FullName": "Phường Thống Nhất",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "04894",
-    "FullName": "Phường Kỳ Sơn",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07894",
-    "FullName": "Phường Nông Trang",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07900",
-    "FullName": "Phường Việt Trì",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07909",
-    "FullName": "Phường Thanh Miếu",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07918",
-    "FullName": "Phường Vân Phú",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07942",
-    "FullName": "Phường Phú Thọ",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07948",
-    "FullName": "Phường Âu Cơ",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "07954",
-    "FullName": "Phường Phong Châu",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "08707",
-    "FullName": "Phường Vĩnh Yên",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "08716",
-    "FullName": "Phường Vĩnh Phúc",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "08740",
-    "FullName": "Phường Phúc Yên",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "08746",
-    "FullName": "Phường Xuân Hòa",
     "ProvinceCode": "25"
    },
    {
@@ -4545,6 +4485,11 @@
     "ProvinceCode": "25"
    },
    {
+    "Code": "04894",
+    "FullName": "Phường Kỳ Sơn",
+    "ProvinceCode": "25"
+   },
+   {
     "Code": "04897",
     "FullName": "Xã Thịnh Minh",
     "ProvinceCode": "25"
@@ -4557,6 +4502,11 @@
    {
     "Code": "04960",
     "FullName": "Xã Liên Sơn",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "04978",
+    "FullName": "Xã Kim Bôi",
     "ProvinceCode": "25"
    },
    {
@@ -4597,11 +4547,6 @@
    {
     "Code": "05116",
     "FullName": "Xã Mường Thàng",
-    "ProvinceCode": "25"
-   },
-   {
-    "Code": "05128",
-    "FullName": "Xã Tân Lạc",
     "ProvinceCode": "25"
    },
    {
@@ -4691,7 +4636,7 @@
    },
    {
     "Code": "05353",
-    "FullName": "Xã Yên Thủy",
+    "FullName": "Xã Yên Thuỷ",
     "ProvinceCode": "25"
    },
    {
@@ -4706,7 +4651,7 @@
    },
    {
     "Code": "05392",
-    "FullName": "Xã Lạc Thủy",
+    "FullName": "Xã Lạc Thuỷ",
     "ProvinceCode": "25"
    },
    {
@@ -4717,6 +4662,41 @@
    {
     "Code": "05425",
     "FullName": "Xã An Bình",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07894",
+    "FullName": "Phường Nông Trang",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07900",
+    "FullName": "Phường Việt Trì",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07909",
+    "FullName": "Phường Thanh Miếu",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07918",
+    "FullName": "Phường Vân Phú",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07942",
+    "FullName": "Phường Phú Thọ",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07948",
+    "FullName": "Phường Âu Cơ",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "07954",
+    "FullName": "Phường Phong Châu",
     "ProvinceCode": "25"
    },
    {
@@ -4746,7 +4726,7 @@
    },
    {
     "Code": "08053",
-    "FullName": "Xã Hạ Hòa",
+    "FullName": "Xã Hạ Hoà",
     "ProvinceCode": "25"
    },
    {
@@ -4856,7 +4836,7 @@
    },
    {
     "Code": "08338",
-    "FullName": "Xã Minh Hòa",
+    "FullName": "Xã Minh Hoà",
     "ProvinceCode": "25"
    },
    {
@@ -5006,12 +4986,32 @@
    },
    {
     "Code": "08674",
-    "FullName": "Xã Thanh Thủy",
+    "FullName": "Xã Thanh Thuỷ",
     "ProvinceCode": "25"
    },
    {
     "Code": "08686",
     "FullName": "Xã Tu Vũ",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "08707",
+    "FullName": "Phường Vĩnh Yên",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "08716",
+    "FullName": "Phường Vĩnh Phúc",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "08740",
+    "FullName": "Phường Phúc Yên",
+    "ProvinceCode": "25"
+   },
+   {
+    "Code": "08746",
+    "FullName": "Phường Xuân Hoà",
     "ProvinceCode": "25"
    },
    {
@@ -5036,12 +5036,12 @@
    },
    {
     "Code": "08788",
-    "FullName": "Xã Thái Hòa",
+    "FullName": "Xã Thái Hoà",
     "ProvinceCode": "25"
    },
    {
     "Code": "08812",
-    "FullName": "Xã Liên Hòa",
+    "FullName": "Xã Liên Hoà",
     "ProvinceCode": "25"
    },
    {
@@ -5202,7 +5202,7 @@
    },
    {
     "Code": "10543",
-    "FullName": "Phường Việt Hòa",
+    "FullName": "Phường Việt Hoà",
     "ProvinceCode": "31"
    },
    {
@@ -5236,176 +5236,6 @@
     "ProvinceCode": "31"
    },
    {
-    "Code": "10660",
-    "FullName": "Phường Ái Quốc",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10675",
-    "FullName": "Phường Kinh Môn",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10678",
-    "FullName": "Phường Bắc An Phụ",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10714",
-    "FullName": "Phường Nhị Chiểu",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10726",
-    "FullName": "Phường Phạm Sư Mạnh",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10729",
-    "FullName": "Phường Trần Liễu",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10744",
-    "FullName": "Phường Nguyễn Đại Năng",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10837",
-    "FullName": "Phường Nam Đồng",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "10891",
-    "FullName": "Phường Tứ Minh",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11002",
-    "FullName": "Phường Thạch Khôi",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11311",
-    "FullName": "Phường Hồng Bàng",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11329",
-    "FullName": "Phường Ngô Quyền",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11359",
-    "FullName": "Phường Gia Viên",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11383",
-    "FullName": "Phường Lê Chân",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11407",
-    "FullName": "Phường An Biên",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11411",
-    "FullName": "Phường Đông Hải",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11413",
-    "FullName": "Phường Hải An",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11443",
-    "FullName": "Phường Kiến An",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11446",
-    "FullName": "Phường Phù Liễn",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11455",
-    "FullName": "Phường Đồ Sơn",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11473",
-    "FullName": "Phường Bạch Đằng",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11488",
-    "FullName": "Phường Lưu Kiếm",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11506",
-    "FullName": "Phường Lê Ích Mộc",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11533",
-    "FullName": "Phường Hòa Bình",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11542",
-    "FullName": "Phường Nam Triệu",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11557",
-    "FullName": "Phường Thiên Hương",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11560",
-    "FullName": "Phường Thủy Nguyên",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11581",
-    "FullName": "Phường An Dương",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11593",
-    "FullName": "Phường An Phong",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11602",
-    "FullName": "Phường Hồng An",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11617",
-    "FullName": "Phường An Hải",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11689",
-    "FullName": "Phường Hưng Đạo",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11692",
-    "FullName": "Phường Dương Kinh",
-    "ProvinceCode": "31"
-   },
-   {
-    "Code": "11737",
-    "FullName": "Phường Nam Đồ Sơn",
-    "ProvinceCode": "31"
-   },
-   {
     "Code": "10606",
     "FullName": "Xã Nam Sách",
     "ProvinceCode": "31"
@@ -5431,8 +5261,43 @@
     "ProvinceCode": "31"
    },
    {
+    "Code": "10660",
+    "FullName": "Phường Ái Quốc",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10675",
+    "FullName": "Phường Kinh Môn",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10678",
+    "FullName": "Phường Bắc An Phụ",
+    "ProvinceCode": "31"
+   },
+   {
     "Code": "10705",
     "FullName": "Xã Nam An Phụ",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10714",
+    "FullName": "Phường Nhị Chiểu",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10726",
+    "FullName": "Phường Phạm Sư Mạnh",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10729",
+    "FullName": "Phường Trần Liễu",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10744",
+    "FullName": "Phường Nguyễn Đại Năng",
     "ProvinceCode": "31"
    },
    {
@@ -5466,6 +5331,11 @@
     "ProvinceCode": "31"
    },
    {
+    "Code": "10837",
+    "FullName": "Phường Nam Đồng",
+    "ProvinceCode": "31"
+   },
+   {
     "Code": "10843",
     "FullName": "Xã Hà Nam",
     "ProvinceCode": "31"
@@ -5483,6 +5353,11 @@
    {
     "Code": "10888",
     "FullName": "Xã Cẩm Giang",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "10891",
+    "FullName": "Phường Tứ Minh",
     "ProvinceCode": "31"
    },
    {
@@ -5523,6 +5398,11 @@
    {
     "Code": "10999",
     "FullName": "Xã Gia Lộc",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11002",
+    "FullName": "Phường Thạch Khôi",
     "ProvinceCode": "31"
    },
    {
@@ -5621,8 +5501,113 @@
     "ProvinceCode": "31"
    },
    {
+    "Code": "11311",
+    "FullName": "Phường Hồng Bàng",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11329",
+    "FullName": "Phường Ngô Quyền",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11359",
+    "FullName": "Phường Gia Viên",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11383",
+    "FullName": "Phường Lê Chân",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11407",
+    "FullName": "Phường An Biên",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11411",
+    "FullName": "Phường Đông Hải",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11413",
+    "FullName": "Phường Hải An",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11443",
+    "FullName": "Phường Kiến An",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11446",
+    "FullName": "Phường Phù Liễn",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11455",
+    "FullName": "Phường Đồ Sơn",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11473",
+    "FullName": "Phường Bạch Đằng",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11488",
+    "FullName": "Phường Lưu Kiếm",
+    "ProvinceCode": "31"
+   },
+   {
     "Code": "11503",
     "FullName": "Xã Việt Khê",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11506",
+    "FullName": "Phường Lê Ích Mộc",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11533",
+    "FullName": "Phường Hoà Bình",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11542",
+    "FullName": "Phường Nam Triệu",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11557",
+    "FullName": "Phường Thiên Hương",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11560",
+    "FullName": "Phường Thuỷ Nguyên",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11581",
+    "FullName": "Phường An Dương",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11593",
+    "FullName": "Phường An Phong",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11602",
+    "FullName": "Phường Hồng An",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11617",
+    "FullName": "Phường An Hải",
     "ProvinceCode": "31"
    },
    {
@@ -5652,7 +5637,17 @@
    },
    {
     "Code": "11680",
-    "FullName": "Xã Kiến Thụy",
+    "FullName": "Xã Kiến Thuỵ",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11689",
+    "FullName": "Phường Hưng Đạo",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11692",
+    "FullName": "Phường Dương Kinh",
     "ProvinceCode": "31"
    },
    {
@@ -5668,6 +5663,11 @@
    {
     "Code": "11728",
     "FullName": "Xã Kiến Hưng",
+    "ProvinceCode": "31"
+   },
+   {
+    "Code": "11737",
+    "FullName": "Phường Nam Đồ Sơn",
     "ProvinceCode": "31"
    },
    {
@@ -5722,7 +5722,7 @@
    },
    {
     "Code": "11848",
-    "FullName": "Xã Vĩnh Hòa",
+    "FullName": "Xã Vĩnh Hoà",
     "ProvinceCode": "31"
    },
    {
@@ -5757,8 +5757,18 @@
   "FullName": "Tỉnh Hưng Yên",
   "Wards": [
    {
+    "Code": "12619",
+    "FullName": "Xã Diên Hà",
+    "ProvinceCode": "33"
+   },
+   {
     "Code": "11953",
     "FullName": "Phường Phố Hiến",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "11977",
+    "FullName": "Xã Tân Hưng",
     "ProvinceCode": "33"
    },
    {
@@ -5769,51 +5779,6 @@
    {
     "Code": "11983",
     "FullName": "Phường Sơn Nam",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12103",
-    "FullName": "Phường Mỹ Hào",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12127",
-    "FullName": "Phường Thượng Hồng",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12133",
-    "FullName": "Phường Đường Hào",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12452",
-    "FullName": "Phường Trần Hưng Đạo",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12454",
-    "FullName": "Phường Trần Lãm",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12466",
-    "FullName": "Phường Vũ Phúc",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12817",
-    "FullName": "Phường Trà Lý",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "13225",
-    "FullName": "Phường Thái Bình",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "11977",
-    "FullName": "Xã Tân Hưng",
     "ProvinceCode": "33"
    },
    {
@@ -5869,6 +5834,21 @@
    {
     "Code": "12091",
     "FullName": "Xã Việt Yên",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "12103",
+    "FullName": "Phường Mỹ Hào",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "12127",
+    "FullName": "Phường Thượng Hồng",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "12133",
+    "FullName": "Phường Đường Hào",
     "ProvinceCode": "33"
    },
    {
@@ -5977,6 +5957,21 @@
     "ProvinceCode": "33"
    },
    {
+    "Code": "12452",
+    "FullName": "Phường Trần Hưng Đạo",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "12454",
+    "FullName": "Phường Trần Lãm",
+    "ProvinceCode": "33"
+   },
+   {
+    "Code": "12466",
+    "FullName": "Phường Vũ Phúc",
+    "ProvinceCode": "33"
+   },
+   {
     "Code": "12472",
     "FullName": "Xã Quỳnh Phụ",
     "ProvinceCode": "33"
@@ -6034,11 +6029,6 @@
    {
     "Code": "12613",
     "FullName": "Xã Long Hưng",
-    "ProvinceCode": "33"
-   },
-   {
-    "Code": "12619",
-    "FullName": "Xã Diên Hà",
     "ProvinceCode": "33"
    },
    {
@@ -6107,33 +6097,38 @@
     "ProvinceCode": "33"
    },
    {
+    "Code": "12817",
+    "FullName": "Phường Trà Lý",
+    "ProvinceCode": "33"
+   },
+   {
     "Code": "12826",
-    "FullName": "Xã Thái Thụy",
+    "FullName": "Xã Thái Thuỵ",
     "ProvinceCode": "33"
    },
    {
     "Code": "12850",
-    "FullName": "Xã Tây Thụy Anh",
+    "FullName": "Xã Tây Thuỵ Anh",
     "ProvinceCode": "33"
    },
    {
     "Code": "12859",
-    "FullName": "Xã Bắc Thụy Anh",
+    "FullName": "Xã Bắc Thuỵ Anh",
     "ProvinceCode": "33"
    },
    {
     "Code": "12862",
-    "FullName": "Xã Đông Thụy Anh",
+    "FullName": "Xã Đông Thuỵ Anh",
     "ProvinceCode": "33"
    },
    {
     "Code": "12865",
-    "FullName": "Xã Thụy Anh",
+    "FullName": "Xã Thuỵ Anh",
     "ProvinceCode": "33"
    },
    {
     "Code": "12904",
-    "FullName": "Xã Nam Thụy Anh",
+    "FullName": "Xã Nam Thuỵ Anh",
     "ProvinceCode": "33"
    },
    {
@@ -6262,6 +6257,11 @@
     "ProvinceCode": "33"
    },
    {
+    "Code": "13225",
+    "FullName": "Phường Thái Bình",
+    "ProvinceCode": "33"
+   },
+   {
     "Code": "13246",
     "FullName": "Xã Tân Thuận",
     "ProvinceCode": "33"
@@ -6363,86 +6363,6 @@
     "ProvinceCode": "37"
    },
    {
-    "Code": "13669",
-    "FullName": "Phường Nam Định",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13684",
-    "FullName": "Phường Thiên Trường",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13693",
-    "FullName": "Phường Đông A",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13699",
-    "FullName": "Phường Thành Nam",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13708",
-    "FullName": "Phường Mỹ Lộc",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13777",
-    "FullName": "Phường Trường Thi",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13972",
-    "FullName": "Phường Vị Khê",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "13984",
-    "FullName": "Phường Hồng Quang",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14329",
-    "FullName": "Phường Hoa Lư",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14359",
-    "FullName": "Phường Nam Hoa Lư",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14362",
-    "FullName": "Phường Tam Điệp",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14365",
-    "FullName": "Phường Trung Sơn",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14371",
-    "FullName": "Phường Yên Sơn",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14533",
-    "FullName": "Phường Tây Hoa Lư",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14566",
-    "FullName": "Phường Đông Hoa Lư",
-    "ProvinceCode": "37"
-   },
-   {
-    "Code": "14725",
-    "FullName": "Phường Yên Thắng",
-    "ProvinceCode": "37"
-   },
-   {
     "Code": "13456",
     "FullName": "Xã Liêm Hà",
     "ProvinceCode": "37"
@@ -6528,6 +6448,31 @@
     "ProvinceCode": "37"
    },
    {
+    "Code": "13669",
+    "FullName": "Phường Nam Định",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13684",
+    "FullName": "Phường Thiên Trường",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13693",
+    "FullName": "Phường Đông A",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13699",
+    "FullName": "Phường Thành Nam",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13708",
+    "FullName": "Phường Mỹ Lộc",
+    "ProvinceCode": "37"
+   },
+   {
     "Code": "13741",
     "FullName": "Xã Vụ Bản",
     "ProvinceCode": "37"
@@ -6540,6 +6485,11 @@
    {
     "Code": "13753",
     "FullName": "Xã Hiển Khánh",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13777",
+    "FullName": "Phường Trường Thi",
     "ProvinceCode": "37"
    },
    {
@@ -6620,6 +6570,16 @@
    {
     "Code": "13966",
     "FullName": "Xã Nam Trực",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13972",
+    "FullName": "Phường Vị Khê",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "13984",
+    "FullName": "Phường Hồng Quang",
     "ProvinceCode": "37"
    },
    {
@@ -6704,7 +6664,7 @@
    },
    {
     "Code": "14167",
-    "FullName": "Xã Giao Thủy",
+    "FullName": "Xã Giao Thuỷ",
     "ProvinceCode": "37"
    },
    {
@@ -6714,7 +6674,7 @@
    },
    {
     "Code": "14182",
-    "FullName": "Xã Giao Hòa",
+    "FullName": "Xã Giao Hoà",
     "ProvinceCode": "37"
    },
    {
@@ -6770,6 +6730,31 @@
    {
     "Code": "14308",
     "FullName": "Xã Hải Xuân",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14329",
+    "FullName": "Phường Hoa Lư",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14359",
+    "FullName": "Phường Nam Hoa Lư",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14362",
+    "FullName": "Phường Tam Điệp",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14365",
+    "FullName": "Phường Trung Sơn",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14371",
+    "FullName": "Phường Yên Sơn",
     "ProvinceCode": "37"
    },
    {
@@ -6843,6 +6828,11 @@
     "ProvinceCode": "37"
    },
    {
+    "Code": "14533",
+    "FullName": "Phường Tây Hoa Lư",
+    "ProvinceCode": "37"
+   },
+   {
     "Code": "14560",
     "FullName": "Xã Yên Khánh",
     "ProvinceCode": "37"
@@ -6850,6 +6840,11 @@
    {
     "Code": "14563",
     "FullName": "Xã Khánh Thiện",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14566",
+    "FullName": "Phường Đông Hoa Lư",
     "ProvinceCode": "37"
    },
    {
@@ -6899,7 +6894,7 @@
    },
    {
     "Code": "14677",
-    "FullName": "Xã Định Hóa",
+    "FullName": "Xã Định Hoá",
     "ProvinceCode": "37"
    },
    {
@@ -6910,6 +6905,11 @@
    {
     "Code": "14701",
     "FullName": "Xã Yên Mô",
+    "ProvinceCode": "37"
+   },
+   {
+    "Code": "14725",
+    "FullName": "Phường Yên Thắng",
     "ProvinceCode": "37"
    },
    {
@@ -6931,7 +6931,7 @@
  },
  {
   "Code": "38",
-  "FullName": "Tỉnh Thanh Hóa",
+  "FullName": "Tỉnh Thanh Hoá",
   "Wards": [
    {
     "Code": "14758",
@@ -6951,81 +6951,6 @@
    {
     "Code": "14818",
     "FullName": "Phường Quang Trung",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "15853",
-    "FullName": "Phường Đông Tiến",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "15925",
-    "FullName": "Phường Nguyệt Viên",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16378",
-    "FullName": "Phường Đông Sơn",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16417",
-    "FullName": "Phường Đông Quang",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16516",
-    "FullName": "Phường Nam Sầm Sơn",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16522",
-    "FullName": "Phường Quảng Phú",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16531",
-    "FullName": "Phường Sầm Sơn",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16561",
-    "FullName": "Phường Tĩnh Gia",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16576",
-    "FullName": "Phường Ngọc Sơn",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16594",
-    "FullName": "Phường Tân Dân",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16597",
-    "FullName": "Phường Hải Lĩnh",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16609",
-    "FullName": "Phường Đào Duy Từ",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16624",
-    "FullName": "Phường Trúc Lâm",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16645",
-    "FullName": "Phường Hải Bình",
-    "ProvinceCode": "38"
-   },
-   {
-    "Code": "16654",
-    "FullName": "Phường Nghi Sơn",
     "ProvinceCode": "38"
    },
    {
@@ -7160,7 +7085,7 @@
    },
    {
     "Code": "15010",
-    "FullName": "Xã Sơn Thủy",
+    "FullName": "Xã Sơn Thuỷ",
     "ProvinceCode": "38"
    },
    {
@@ -7250,7 +7175,7 @@
    },
    {
     "Code": "15127",
-    "FullName": "Xã Cẩm Thủy",
+    "FullName": "Xã Cẩm Thuỷ",
     "ProvinceCode": "38"
    },
    {
@@ -7365,7 +7290,7 @@
    },
    {
     "Code": "15448",
-    "FullName": "Xã Định Hòa",
+    "FullName": "Xã Định Hoà",
     "ProvinceCode": "38"
    },
    {
@@ -7390,7 +7315,7 @@
    },
    {
     "Code": "15520",
-    "FullName": "Xã Xuân Hòa",
+    "FullName": "Xã Xuân Hoà",
     "ProvinceCode": "38"
    },
    {
@@ -7505,7 +7430,7 @@
    },
    {
     "Code": "15772",
-    "FullName": "Xã Thiệu Hóa",
+    "FullName": "Xã Thiệu Hoá",
     "ProvinceCode": "38"
    },
    {
@@ -7529,8 +7454,13 @@
     "ProvinceCode": "38"
    },
    {
+    "Code": "15853",
+    "FullName": "Phường Đông Tiến",
+    "ProvinceCode": "38"
+   },
+   {
     "Code": "15865",
-    "FullName": "Xã Hoằng Hóa",
+    "FullName": "Xã Hoằng Hoá",
     "ProvinceCode": "38"
    },
    {
@@ -7546,6 +7476,11 @@
    {
     "Code": "15910",
     "FullName": "Xã Hoằng Sơn",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "15925",
+    "FullName": "Phường Nguyệt Viên",
     "ProvinceCode": "38"
    },
    {
@@ -7635,7 +7570,7 @@
    },
    {
     "Code": "16186",
-    "FullName": "Xã Hóa Quỳ",
+    "FullName": "Xã Hoá Quỳ",
     "ProvinceCode": "38"
    },
    {
@@ -7719,6 +7654,16 @@
     "ProvinceCode": "38"
    },
    {
+    "Code": "16378",
+    "FullName": "Phường Đông Sơn",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16417",
+    "FullName": "Phường Đông Quang",
+    "ProvinceCode": "38"
+   },
+   {
     "Code": "16438",
     "FullName": "Xã Lưu Vệ",
     "ProvinceCode": "38"
@@ -7739,6 +7684,21 @@
     "ProvinceCode": "38"
    },
    {
+    "Code": "16516",
+    "FullName": "Phường Nam Sầm Sơn",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16522",
+    "FullName": "Phường Quảng Phú",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16531",
+    "FullName": "Phường Sầm Sơn",
+    "ProvinceCode": "38"
+   },
+   {
     "Code": "16540",
     "FullName": "Xã Quảng Ninh",
     "ProvinceCode": "38"
@@ -7754,13 +7714,53 @@
     "ProvinceCode": "38"
    },
    {
+    "Code": "16561",
+    "FullName": "Phường Tĩnh Gia",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16576",
+    "FullName": "Phường Ngọc Sơn",
+    "ProvinceCode": "38"
+   },
+   {
     "Code": "16591",
     "FullName": "Xã Các Sơn",
     "ProvinceCode": "38"
    },
    {
+    "Code": "16594",
+    "FullName": "Phường Tân Dân",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16597",
+    "FullName": "Phường Hải Lĩnh",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16609",
+    "FullName": "Phường Đào Duy Từ",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16624",
+    "FullName": "Phường Trúc Lâm",
+    "ProvinceCode": "38"
+   },
+   {
     "Code": "16636",
     "FullName": "Xã Trường Lâm",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16645",
+    "FullName": "Phường Hải Bình",
+    "ProvinceCode": "38"
+   },
+   {
+    "Code": "16654",
+    "FullName": "Phường Nghi Sơn",
     "ProvinceCode": "38"
    }
   ]
@@ -7769,6 +7769,11 @@
   "Code": "40",
   "FullName": "Tỉnh Nghệ An",
   "Wards": [
+   {
+    "Code": "17611",
+    "FullName": "Xã Vân Tụ",
+    "ProvinceCode": "40"
+   },
    {
     "Code": "16681",
     "FullName": "Phường Thành Vinh",
@@ -7792,36 +7797,6 @@
    {
     "Code": "16732",
     "FullName": "Phường Cửa Lò",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "16939",
-    "FullName": "Phường Thái Hòa",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17011",
-    "FullName": "Phường Tây Hiếu",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17110",
-    "FullName": "Phường Hoàng Mai",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17125",
-    "FullName": "Phường Quỳnh Mai",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17128",
-    "FullName": "Phường Tân Mai",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17920",
-    "FullName": "Phường Vinh Hưng",
     "ProvinceCode": "40"
    },
    {
@@ -7956,7 +7931,7 @@
    },
    {
     "Code": "16909",
-    "FullName": "Xã Yên Hòa",
+    "FullName": "Xã Yên Hoà",
     "ProvinceCode": "40"
    },
    {
@@ -7972,6 +7947,11 @@
    {
     "Code": "16936",
     "FullName": "Xã Tam Thái",
+    "ProvinceCode": "40"
+   },
+   {
+    "Code": "16939",
+    "FullName": "Phường Thái Hoà",
     "ProvinceCode": "40"
    },
    {
@@ -7997,6 +7977,11 @@
    {
     "Code": "16975",
     "FullName": "Xã Nghĩa Mai",
+    "ProvinceCode": "40"
+   },
+   {
+    "Code": "17011",
+    "FullName": "Phường Tây Hiếu",
     "ProvinceCode": "40"
    },
    {
@@ -8047,6 +8032,21 @@
    {
     "Code": "17089",
     "FullName": "Xã Mường Chọng",
+    "ProvinceCode": "40"
+   },
+   {
+    "Code": "17110",
+    "FullName": "Phường Hoàng Mai",
+    "ProvinceCode": "40"
+   },
+   {
+    "Code": "17125",
+    "FullName": "Phường Quỳnh Mai",
+    "ProvinceCode": "40"
+   },
+   {
+    "Code": "17128",
+    "FullName": "Phường Tân Mai",
     "ProvinceCode": "40"
    },
    {
@@ -8161,7 +8161,7 @@
    },
    {
     "Code": "17344",
-    "FullName": "Xã Nhân Hòa",
+    "FullName": "Xã Nhân Hoà",
     "ProvinceCode": "40"
    },
    {
@@ -8257,11 +8257,6 @@
    {
     "Code": "17605",
     "FullName": "Xã Hợp Minh",
-    "ProvinceCode": "40"
-   },
-   {
-    "Code": "17611",
-    "FullName": "Xã Vân Tụ",
     "ProvinceCode": "40"
    },
    {
@@ -8375,6 +8370,11 @@
     "ProvinceCode": "40"
    },
    {
+    "Code": "17920",
+    "FullName": "Phường Vinh Hưng",
+    "ProvinceCode": "40"
+   },
+   {
     "Code": "17935",
     "FullName": "Xã Nam Đàn",
     "ProvinceCode": "40"
@@ -8443,31 +8443,6 @@
    {
     "Code": "18118",
     "FullName": "Phường Nam Hồng Lĩnh",
-    "ProvinceCode": "42"
-   },
-   {
-    "Code": "18652",
-    "FullName": "Phường Hà Huy Tập",
-    "ProvinceCode": "42"
-   },
-   {
-    "Code": "18754",
-    "FullName": "Phường Sông Trí",
-    "ProvinceCode": "42"
-   },
-   {
-    "Code": "18781",
-    "FullName": "Phường Hải Ninh",
-    "ProvinceCode": "42"
-   },
-   {
-    "Code": "18823",
-    "FullName": "Phường Vũng Áng",
-    "ProvinceCode": "42"
-   },
-   {
-    "Code": "18832",
-    "FullName": "Phường Hoành Sơn",
     "ProvinceCode": "42"
    },
    {
@@ -8691,6 +8666,11 @@
     "ProvinceCode": "42"
    },
    {
+    "Code": "18652",
+    "FullName": "Phường Hà Huy Tập",
+    "ProvinceCode": "42"
+   },
+   {
     "Code": "18667",
     "FullName": "Xã Thạch Xuân",
     "ProvinceCode": "42"
@@ -8707,7 +8687,7 @@
    },
    {
     "Code": "18682",
-    "FullName": "Xã Yên Hòa",
+    "FullName": "Xã Yên Hoà",
     "ProvinceCode": "42"
    },
    {
@@ -8736,6 +8716,11 @@
     "ProvinceCode": "42"
    },
    {
+    "Code": "18754",
+    "FullName": "Phường Sông Trí",
+    "ProvinceCode": "42"
+   },
+   {
     "Code": "18766",
     "FullName": "Xã Kỳ Xuân",
     "ProvinceCode": "42"
@@ -8743,6 +8728,11 @@
    {
     "Code": "18775",
     "FullName": "Xã Kỳ Anh",
+    "ProvinceCode": "42"
+   },
+   {
+    "Code": "18781",
+    "FullName": "Phường Hải Ninh",
     "ProvinceCode": "42"
    },
    {
@@ -8758,6 +8748,16 @@
    {
     "Code": "18814",
     "FullName": "Xã Kỳ Hoa",
+    "ProvinceCode": "42"
+   },
+   {
+    "Code": "18823",
+    "FullName": "Phường Vũng Áng",
+    "ProvinceCode": "42"
+   },
+   {
+    "Code": "18832",
+    "FullName": "Phường Hoành Sơn",
     "ProvinceCode": "42"
    },
    {
@@ -8792,38 +8792,13 @@
     "ProvinceCode": "44"
    },
    {
-    "Code": "19009",
-    "FullName": "Phường Ba Đồn",
-    "ProvinceCode": "44"
-   },
-   {
-    "Code": "19066",
-    "FullName": "Phường Bắc Gianh",
-    "ProvinceCode": "44"
-   },
-   {
-    "Code": "19333",
-    "FullName": "Phường Đông Hà",
-    "ProvinceCode": "44"
-   },
-   {
-    "Code": "19351",
-    "FullName": "Phường Nam Đông Hà",
-    "ProvinceCode": "44"
-   },
-   {
-    "Code": "19360",
-    "FullName": "Phường Quảng Trị",
-    "ProvinceCode": "44"
-   },
-   {
     "Code": "18901",
-    "FullName": "Xã Minh Hóa",
+    "FullName": "Xã Minh Hoá",
     "ProvinceCode": "44"
    },
    {
     "Code": "18904",
-    "FullName": "Xã Dân Hóa",
+    "FullName": "Xã Dân Hoá",
     "ProvinceCode": "44"
    },
    {
@@ -8868,7 +8843,12 @@
    },
    {
     "Code": "18997",
-    "FullName": "Xã Tuyên Hóa",
+    "FullName": "Xã Tuyên Hoá",
+    "ProvinceCode": "44"
+   },
+   {
+    "Code": "19009",
+    "FullName": "Phường Ba Đồn",
     "ProvinceCode": "44"
    },
    {
@@ -8883,7 +8863,7 @@
    },
    {
     "Code": "19033",
-    "FullName": "Xã Hòa Trạch",
+    "FullName": "Xã Hoà Trạch",
     "ProvinceCode": "44"
    },
    {
@@ -8894,6 +8874,11 @@
    {
     "Code": "19057",
     "FullName": "Xã Quảng Trạch",
+    "ProvinceCode": "44"
+   },
+   {
+    "Code": "19066",
+    "FullName": "Phường Bắc Gianh",
     "ProvinceCode": "44"
    },
    {
@@ -8968,7 +8953,7 @@
    },
    {
     "Code": "19249",
-    "FullName": "Xã Lệ Thủy",
+    "FullName": "Xã Lệ Thuỷ",
     "ProvinceCode": "44"
    },
    {
@@ -8997,6 +8982,21 @@
     "ProvinceCode": "44"
    },
    {
+    "Code": "19333",
+    "FullName": "Phường Đông Hà",
+    "ProvinceCode": "44"
+   },
+   {
+    "Code": "19351",
+    "FullName": "Phường Nam Đông Hà",
+    "ProvinceCode": "44"
+   },
+   {
+    "Code": "19360",
+    "FullName": "Phường Quảng Trị",
+    "ProvinceCode": "44"
+   },
+   {
     "Code": "19363",
     "FullName": "Xã Vĩnh Linh",
     "ProvinceCode": "44"
@@ -9013,7 +9013,7 @@
    },
    {
     "Code": "19405",
-    "FullName": "Xã Vĩnh Thủy",
+    "FullName": "Xã Vĩnh Thuỷ",
     "ProvinceCode": "44"
    },
    {
@@ -9158,7 +9158,7 @@
    },
    {
     "Code": "19741",
-    "FullName": "Xã Mỹ Thủy",
+    "FullName": "Xã Mỹ Thuỷ",
     "ProvinceCode": "44"
    },
    {
@@ -9189,7 +9189,7 @@
    },
    {
     "Code": "19789",
-    "FullName": "Phường Thuận Hóa",
+    "FullName": "Phường Thuận Hoá",
     "ProvinceCode": "46"
    },
    {
@@ -9199,7 +9199,7 @@
    },
    {
     "Code": "19813",
-    "FullName": "Phường Thủy Xuân",
+    "FullName": "Phường Thuỷ Xuân",
     "ProvinceCode": "46"
    },
    {
@@ -9228,8 +9228,18 @@
     "ProvinceCode": "46"
    },
    {
+    "Code": "19867",
+    "FullName": "Xã Quảng Điền",
+    "ProvinceCode": "46"
+   },
+   {
     "Code": "19873",
     "FullName": "Phường Phong Quảng",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19885",
+    "FullName": "Xã Đan Điền",
     "ProvinceCode": "46"
    },
    {
@@ -9243,53 +9253,13 @@
     "ProvinceCode": "46"
    },
    {
-    "Code": "19930",
-    "FullName": "Phường Mỹ Thượng",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19960",
-    "FullName": "Phường Phú Bài",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19969",
-    "FullName": "Phường Thanh Thủy",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19975",
-    "FullName": "Phường Hương Thủy",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19996",
-    "FullName": "Phường Hương Trà",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "20014",
-    "FullName": "Phường Hóa Châu",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "20017",
-    "FullName": "Phường Kim Trà",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19867",
-    "FullName": "Xã Quảng Điền",
-    "ProvinceCode": "46"
-   },
-   {
-    "Code": "19885",
-    "FullName": "Xã Đan Điền",
-    "ProvinceCode": "46"
-   },
-   {
     "Code": "19918",
     "FullName": "Xã Phú Hồ",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19930",
+    "FullName": "Phường Mỹ Thượng",
     "ProvinceCode": "46"
    },
    {
@@ -9300,6 +9270,36 @@
    {
     "Code": "19945",
     "FullName": "Xã Phú Vinh",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19960",
+    "FullName": "Phường Phú Bài",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19969",
+    "FullName": "Phường Thanh Thuỷ",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19975",
+    "FullName": "Phường Hương Thuỷ",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "19996",
+    "FullName": "Phường Hương Trà",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "20014",
+    "FullName": "Phường Hoá Châu",
+    "ProvinceCode": "46"
+   },
+   {
+    "Code": "20017",
+    "FullName": "Phường Kim Trà",
     "ProvinceCode": "46"
    },
    {
@@ -9390,7 +9390,7 @@
    },
    {
     "Code": "20200",
-    "FullName": "Phường Hòa Khánh",
+    "FullName": "Phường Hoà Khánh",
     "ProvinceCode": "48"
    },
    {
@@ -9405,7 +9405,7 @@
    },
    {
     "Code": "20257",
-    "FullName": "Phường Hòa Cường",
+    "FullName": "Phường Hoà Cường",
     "ProvinceCode": "48"
    },
    {
@@ -9434,8 +9434,28 @@
     "ProvinceCode": "48"
    },
    {
+    "Code": "20308",
+    "FullName": "Xã Bà Nà",
+    "ProvinceCode": "48"
+   },
+   {
     "Code": "20314",
-    "FullName": "Phường Hòa Xuân",
+    "FullName": "Phường Hoà Xuân",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20320",
+    "FullName": "Xã Hoà Vang",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20332",
+    "FullName": "Xã Hoà Tiến",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20333",
+    "FullName": "Đặc khu Hoàng Sa",
     "ProvinceCode": "48"
    },
    {
@@ -9459,56 +9479,6 @@
     "ProvinceCode": "48"
    },
    {
-    "Code": "20401",
-    "FullName": "Phường Hội An Tây",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20410",
-    "FullName": "Phường Hội An",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20413",
-    "FullName": "Phường Hội An Đông",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20551",
-    "FullName": "Phường Điện Bàn",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20557",
-    "FullName": "Phường Điện Bàn Bắc",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20575",
-    "FullName": "Phường An Thắng",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20579",
-    "FullName": "Phường Điện Bàn Đông",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20308",
-    "FullName": "Xã Bà Nà",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20320",
-    "FullName": "Xã Hòa Vang",
-    "ProvinceCode": "48"
-   },
-   {
-    "Code": "20332",
-    "FullName": "Xã Hòa Tiến",
-    "ProvinceCode": "48"
-   },
-   {
     "Code": "20364",
     "FullName": "Xã Chiên Đàn",
     "ProvinceCode": "48"
@@ -9521,6 +9491,21 @@
    {
     "Code": "20392",
     "FullName": "Xã Phú Ninh",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20401",
+    "FullName": "Phường Hội An Tây",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20410",
+    "FullName": "Phường Hội An",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20413",
+    "FullName": "Phường Hội An Đông",
     "ProvinceCode": "48"
    },
    {
@@ -9589,8 +9574,28 @@
     "ProvinceCode": "48"
    },
    {
+    "Code": "20551",
+    "FullName": "Phường Điện Bàn",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20557",
+    "FullName": "Phường Điện Bàn Bắc",
+    "ProvinceCode": "48"
+   },
+   {
     "Code": "20569",
     "FullName": "Xã Điện Bàn Tây",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20575",
+    "FullName": "Phường An Thắng",
+    "ProvinceCode": "48"
+   },
+   {
+    "Code": "20579",
+    "FullName": "Phường Điện Bàn Đông",
     "ProvinceCode": "48"
    },
    {
@@ -9842,11 +9847,6 @@
     "Code": "21004",
     "FullName": "Xã Tam Mỹ",
     "ProvinceCode": "48"
-   },
-   {
-    "Code": "20333",
-    "FullName": "Đặc khu Hoàng Sa",
-    "ProvinceCode": "48"
    }
   ]
  },
@@ -9855,6 +9855,11 @@
   "FullName": "Tỉnh Quảng Ngãi",
   "Wards": [
    {
+    "Code": "23293",
+    "FullName": "Phường Kon Tum",
+    "ProvinceCode": "51"
+   },
+   {
     "Code": "21025",
     "FullName": "Phường Cẩm Thành",
     "ProvinceCode": "51"
@@ -9862,41 +9867,6 @@
    {
     "Code": "21028",
     "FullName": "Phường Nghĩa Lộ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21172",
-    "FullName": "Phường Trương Quang Trọng",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21439",
-    "FullName": "Phường Đức Phổ",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21451",
-    "FullName": "Phường Trà Câu",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "21478",
-    "FullName": "Phường Sa Huỳnh",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23284",
-    "FullName": "Phường Đăk Cấm",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23293",
-    "FullName": "Phường Kon Tum",
-    "ProvinceCode": "51"
-   },
-   {
-    "Code": "23302",
-    "FullName": "Phường Đăk Bla",
     "ProvinceCode": "51"
    },
    {
@@ -9957,6 +9927,11 @@
    {
     "Code": "21157",
     "FullName": "Xã Tây Trà Bồng",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "21172",
+    "FullName": "Phường Trương Quang Trọng",
     "ProvinceCode": "51"
    },
    {
@@ -10021,7 +9996,7 @@
    },
    {
     "Code": "21319",
-    "FullName": "Xã Sơn Thủy",
+    "FullName": "Xã Sơn Thuỷ",
     "ProvinceCode": "51"
    },
    {
@@ -10095,6 +10070,16 @@
     "ProvinceCode": "51"
    },
    {
+    "Code": "21439",
+    "FullName": "Phường Đức Phổ",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "21451",
+    "FullName": "Phường Trà Câu",
+    "ProvinceCode": "51"
+   },
+   {
     "Code": "21457",
     "FullName": "Xã Nguyễn Nghiêm",
     "ProvinceCode": "51"
@@ -10102,6 +10087,11 @@
    {
     "Code": "21472",
     "FullName": "Xã Khánh Cường",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "21478",
+    "FullName": "Phường Sa Huỳnh",
     "ProvinceCode": "51"
    },
    {
@@ -10126,7 +10116,7 @@
    },
    {
     "Code": "21520",
-    "FullName": "Xã Đặng Thùy Trâm",
+    "FullName": "Xã Đặng Thuỳ Trâm",
     "ProvinceCode": "51"
    },
    {
@@ -10142,6 +10132,21 @@
    {
     "Code": "21538",
     "FullName": "Xã Ba Xa",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "21548",
+    "FullName": "Đặc khu Lý Sơn",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "23284",
+    "FullName": "Phường Đăk Cấm",
+    "ProvinceCode": "51"
+   },
+   {
+    "Code": "23302",
+    "FullName": "Phường Đăk Bla",
     "ProvinceCode": "51"
    },
    {
@@ -10328,11 +10333,6 @@
     "Code": "23548",
     "FullName": "Xã Ya Ly",
     "ProvinceCode": "51"
-   },
-   {
-    "Code": "21548",
-    "FullName": "Đặc khu Lý Sơn",
-    "ProvinceCode": "51"
    }
   ]
  },
@@ -10363,6 +10363,31 @@
    {
     "Code": "21601",
     "FullName": "Phường Quy Nhơn Đông",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21607",
+    "FullName": "Xã Nhơn Châu",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21609",
+    "FullName": "Xã An Lão",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21616",
+    "FullName": "Xã An Vinh",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21622",
+    "FullName": "Xã An Toàn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21628",
+    "FullName": "Xã An Hoà",
     "ProvinceCode": "52"
    },
    {
@@ -10398,96 +10423,6 @@
    {
     "Code": "21673",
     "FullName": "Phường Hoài Nhơn Nam",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21907",
-    "FullName": "Phường Bình Định",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21910",
-    "FullName": "Phường An Nhơn",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21925",
-    "FullName": "Phường An Nhơn Bắc",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21934",
-    "FullName": "Phường An Nhơn Đông",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21943",
-    "FullName": "Phường An Nhơn Nam",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23563",
-    "FullName": "Phường Diên Hồng",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23575",
-    "FullName": "Phường Pleiku",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23584",
-    "FullName": "Phường Thống Nhất",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23586",
-    "FullName": "Phường Hội Phú",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23602",
-    "FullName": "Phường An Phú",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23614",
-    "FullName": "Phường An Bình",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23617",
-    "FullName": "Phường An Khê",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "24044",
-    "FullName": "Phường Ayun Pa",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21607",
-    "FullName": "Xã Nhơn Châu",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21609",
-    "FullName": "Xã An Lão",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21616",
-    "FullName": "Xã An Vinh",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21622",
-    "FullName": "Xã An Toàn",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "21628",
-    "FullName": "Xã An Hòa",
     "ProvinceCode": "52"
    },
    {
@@ -10612,7 +10547,7 @@
    },
    {
     "Code": "21871",
-    "FullName": "Xã Hòa Hội",
+    "FullName": "Xã Hoà Hội",
     "ProvinceCode": "52"
    },
    {
@@ -10631,8 +10566,33 @@
     "ProvinceCode": "52"
    },
    {
+    "Code": "21907",
+    "FullName": "Phường Bình Định",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21910",
+    "FullName": "Phường An Nhơn",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21925",
+    "FullName": "Phường An Nhơn Bắc",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21934",
+    "FullName": "Phường An Nhơn Đông",
+    "ProvinceCode": "52"
+   },
+   {
     "Code": "21940",
     "FullName": "Xã An Nhơn Tây",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "21943",
+    "FullName": "Phường An Nhơn Nam",
     "ProvinceCode": "52"
    },
    {
@@ -10671,13 +10631,48 @@
     "ProvinceCode": "52"
    },
    {
+    "Code": "23563",
+    "FullName": "Phường Diên Hồng",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23575",
+    "FullName": "Phường Pleiku",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23584",
+    "FullName": "Phường Thống Nhất",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23586",
+    "FullName": "Phường Hội Phú",
+    "ProvinceCode": "52"
+   },
+   {
     "Code": "23590",
     "FullName": "Xã Biển Hồ",
     "ProvinceCode": "52"
    },
    {
+    "Code": "23602",
+    "FullName": "Phường An Phú",
+    "ProvinceCode": "52"
+   },
+   {
     "Code": "23611",
     "FullName": "Xã Gào",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23614",
+    "FullName": "Phường An Bình",
+    "ProvinceCode": "52"
+   },
+   {
+    "Code": "23617",
+    "FullName": "Phường An Khê",
     "ProvinceCode": "52"
    },
    {
@@ -10753,11 +10748,6 @@
    {
     "Code": "23734",
     "FullName": "Xã Ia Ly",
-    "ProvinceCode": "52"
-   },
-   {
-    "Code": "23938",
-    "FullName": "Xã Ia Mơ",
     "ProvinceCode": "52"
    },
    {
@@ -10911,6 +10901,11 @@
     "ProvinceCode": "52"
    },
    {
+    "Code": "23938",
+    "FullName": "Xã Ia Mơ",
+    "ProvinceCode": "52"
+   },
+   {
     "Code": "23941",
     "FullName": "Xã Chư Sê",
     "ProvinceCode": "52"
@@ -10976,6 +10971,11 @@
     "ProvinceCode": "52"
    },
    {
+    "Code": "24044",
+    "FullName": "Phường Ayun Pa",
+    "ProvinceCode": "52"
+   },
+   {
     "Code": "24049",
     "FullName": "Xã Chư A Thai",
     "ProvinceCode": "52"
@@ -11019,7 +11019,7 @@
  },
  {
   "Code": "56",
-  "FullName": "Tỉnh Khánh Hòa",
+  "FullName": "Tỉnh Khánh Hoà",
   "Wards": [
    {
     "Code": "22333",
@@ -11059,46 +11059,6 @@
    {
     "Code": "22432",
     "FullName": "Phường Cam Linh",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22528",
-    "FullName": "Phường Ninh Hòa",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22561",
-    "FullName": "Phường Đông Ninh Hòa",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22591",
-    "FullName": "Phường Hòa Thắng",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22738",
-    "FullName": "Phường Đô Vinh",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22741",
-    "FullName": "Phường Bảo An",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22759",
-    "FullName": "Phường Phan Rang",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22780",
-    "FullName": "Phường Đông Hải",
-    "ProvinceCode": "56"
-   },
-   {
-    "Code": "22834",
-    "FullName": "Phường Ninh Chử",
     "ProvinceCode": "56"
    },
    {
@@ -11147,18 +11107,28 @@
     "ProvinceCode": "56"
    },
    {
+    "Code": "22528",
+    "FullName": "Phường Ninh Hoà",
+    "ProvinceCode": "56"
+   },
+   {
     "Code": "22546",
-    "FullName": "Xã Bắc Ninh Hòa",
+    "FullName": "Xã Bắc Ninh Hoà",
     "ProvinceCode": "56"
    },
    {
     "Code": "22552",
-    "FullName": "Xã Tây Ninh Hòa",
+    "FullName": "Xã Tây Ninh Hoà",
     "ProvinceCode": "56"
    },
    {
     "Code": "22558",
-    "FullName": "Xã Hòa Trí",
+    "FullName": "Xã Hoà Trí",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22561",
+    "FullName": "Phường Đông Ninh Hoà",
     "ProvinceCode": "56"
    },
    {
@@ -11167,8 +11137,13 @@
     "ProvinceCode": "56"
    },
    {
+    "Code": "22591",
+    "FullName": "Phường Hoà Thắng",
+    "ProvinceCode": "56"
+   },
+   {
     "Code": "22597",
-    "FullName": "Xã Nam Ninh Hòa",
+    "FullName": "Xã Nam Ninh Hoà",
     "ProvinceCode": "56"
    },
    {
@@ -11247,6 +11222,31 @@
     "ProvinceCode": "56"
    },
    {
+    "Code": "22736",
+    "FullName": "Đặc khu Trường Sa",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22738",
+    "FullName": "Phường Đô Vinh",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22741",
+    "FullName": "Phường Bảo An",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22759",
+    "FullName": "Phường Phan Rang",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22780",
+    "FullName": "Phường Đông Hải",
+    "ProvinceCode": "56"
+   },
+   {
     "Code": "22786",
     "FullName": "Xã Bác Ái Tây",
     "ProvinceCode": "56"
@@ -11279,6 +11279,11 @@
    {
     "Code": "22828",
     "FullName": "Xã Anh Dũng",
+    "ProvinceCode": "56"
+   },
+   {
+    "Code": "22834",
+    "FullName": "Phường Ninh Chử",
     "ProvinceCode": "56"
    },
    {
@@ -11340,11 +11345,6 @@
     "Code": "22909",
     "FullName": "Xã Cà Ná",
     "ProvinceCode": "56"
-   },
-   {
-    "Code": "22736",
-    "FullName": "Đặc khu Trường Sa",
-    "ProvinceCode": "56"
    }
   ]
  },
@@ -11354,7 +11354,7 @@
   "Wards": [
    {
     "Code": "22015",
-    "FullName": "Phường Tuy Hòa",
+    "FullName": "Phường Tuy Hoà",
     "ProvinceCode": "66"
    },
    {
@@ -11365,61 +11365,6 @@
    {
     "Code": "22051",
     "FullName": "Phường Sông Cầu",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "22076",
-    "FullName": "Phường Xuân Đài",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "22240",
-    "FullName": "Phường Phú Yên",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "22258",
-    "FullName": "Phường Đông Hòa",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "22261",
-    "FullName": "Phường Hòa Hiệp",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24121",
-    "FullName": "Phường Tân Lập",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24133",
-    "FullName": "Phường Buôn Ma Thuột",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24154",
-    "FullName": "Phường Thành Nhất",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24163",
-    "FullName": "Phường Tân An",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24169",
-    "FullName": "Phường Ea Kao",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24305",
-    "FullName": "Phường Buôn Hồ",
-    "ProvinceCode": "66"
-   },
-   {
-    "Code": "24340",
-    "FullName": "Phường Cư Bao",
     "ProvinceCode": "66"
    },
    {
@@ -11435,6 +11380,11 @@
    {
     "Code": "22075",
     "FullName": "Xã Xuân Thọ",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "22076",
+    "FullName": "Phường Xuân Đài",
     "ProvinceCode": "66"
    },
    {
@@ -11484,7 +11434,7 @@
    },
    {
     "Code": "22165",
-    "FullName": "Xã Sơn Hòa",
+    "FullName": "Xã Sơn Hoà",
     "ProvinceCode": "66"
    },
    {
@@ -11494,7 +11444,7 @@
    },
    {
     "Code": "22177",
-    "FullName": "Xã Vân Hòa",
+    "FullName": "Xã Vân Hoà",
     "ProvinceCode": "66"
    },
    {
@@ -11523,43 +11473,83 @@
     "ProvinceCode": "66"
    },
    {
+    "Code": "22240",
+    "FullName": "Phường Phú Yên",
+    "ProvinceCode": "66"
+   },
+   {
     "Code": "22250",
     "FullName": "Xã Sơn Thành",
     "ProvinceCode": "66"
    },
    {
     "Code": "22255",
-    "FullName": "Xã Tây Hòa",
+    "FullName": "Xã Tây Hoà",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "22258",
+    "FullName": "Phường Đông Hoà",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "22261",
+    "FullName": "Phường Hoà Hiệp",
     "ProvinceCode": "66"
    },
    {
     "Code": "22276",
-    "FullName": "Xã Hòa Thịnh",
+    "FullName": "Xã Hoà Thịnh",
     "ProvinceCode": "66"
    },
    {
     "Code": "22285",
-    "FullName": "Xã Hòa Mỹ",
+    "FullName": "Xã Hoà Mỹ",
     "ProvinceCode": "66"
    },
    {
     "Code": "22291",
-    "FullName": "Xã Hòa Xuân",
+    "FullName": "Xã Hoà Xuân",
     "ProvinceCode": "66"
    },
    {
     "Code": "22303",
-    "FullName": "Xã Phú Hòa 2",
+    "FullName": "Xã Phú Hoà 2",
     "ProvinceCode": "66"
    },
    {
     "Code": "22319",
-    "FullName": "Xã Phú Hòa 1",
+    "FullName": "Xã Phú Hoà 1",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24121",
+    "FullName": "Phường Tân Lập",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24133",
+    "FullName": "Phường Buôn Ma Thuột",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24154",
+    "FullName": "Phường Thành Nhất",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24163",
+    "FullName": "Phường Tân An",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24169",
+    "FullName": "Phường Ea Kao",
     "ProvinceCode": "66"
    },
    {
     "Code": "24175",
-    "FullName": "Xã Hòa Phú",
+    "FullName": "Xã Hoà Phú",
     "ProvinceCode": "66"
    },
    {
@@ -11658,6 +11648,11 @@
     "ProvinceCode": "66"
    },
    {
+    "Code": "24305",
+    "FullName": "Phường Buôn Hồ",
+    "ProvinceCode": "66"
+   },
+   {
     "Code": "24310",
     "FullName": "Xã Krông Búk",
     "ProvinceCode": "66"
@@ -11675,6 +11670,11 @@
    {
     "Code": "24328",
     "FullName": "Xã Ea Drông",
+    "ProvinceCode": "66"
+   },
+   {
+    "Code": "24340",
+    "FullName": "Phường Cư Bao",
     "ProvinceCode": "66"
    },
    {
@@ -11764,7 +11764,7 @@
    },
    {
     "Code": "24472",
-    "FullName": "Xã Hòa Sơn",
+    "FullName": "Xã Hoà Sơn",
     "ProvinceCode": "66"
    },
    {
@@ -11875,7 +11875,7 @@
    },
    {
     "Code": "22924",
-    "FullName": "Phường Phú Thủy",
+    "FullName": "Phường Phú Thuỷ",
     "ProvinceCode": "68"
    },
    {
@@ -11896,76 +11896,6 @@
    {
     "Code": "22960",
     "FullName": "Phường Bình Thuận",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "23231",
-    "FullName": "Phường Phước Hội",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "23235",
-    "FullName": "Phường La Gi",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24611",
-    "FullName": "Phường Bắc Gia Nghĩa",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24615",
-    "FullName": "Phường Nam Gia Nghĩa",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24617",
-    "FullName": "Phường Đông Gia Nghĩa",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24778",
-    "FullName": "Phường Lâm Viên - Đà Lạt",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24781",
-    "FullName": "Phường Xuân Hương - Đà Lạt",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24787",
-    "FullName": "Phường Cam Ly - Đà Lạt",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24805",
-    "FullName": "Phường Xuân Trường - Đà Lạt",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24820",
-    "FullName": "Phường 2 Bảo Lộc",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24823",
-    "FullName": "Phường 1 Bảo Lộc",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24829",
-    "FullName": "Phường B'Lao",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24841",
-    "FullName": "Phường 3 Bảo Lộc",
-    "ProvinceCode": "68"
-   },
-   {
-    "Code": "24846",
-    "FullName": "Phường Lang Biang - Đà Lạt",
     "ProvinceCode": "68"
    },
    {
@@ -12010,7 +11940,7 @@
    },
    {
     "Code": "23023",
-    "FullName": "Xã Sông Lũy",
+    "FullName": "Xã Sông Luỹ",
     "ProvinceCode": "68"
    },
    {
@@ -12025,7 +11955,7 @@
    },
    {
     "Code": "23053",
-    "FullName": "Xã Hòa Thắng",
+    "FullName": "Xã Hoà Thắng",
     "ProvinceCode": "68"
    },
    {
@@ -12134,6 +12064,16 @@
     "ProvinceCode": "68"
    },
    {
+    "Code": "23231",
+    "FullName": "Phường Phước Hội",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "23235",
+    "FullName": "Phường La Gi",
+    "ProvinceCode": "68"
+   },
+   {
     "Code": "23236",
     "FullName": "Xã Hàm Tân",
     "ProvinceCode": "68"
@@ -12149,13 +12089,33 @@
     "ProvinceCode": "68"
    },
    {
+    "Code": "23272",
+    "FullName": "Đặc khu Phú Quý",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24611",
+    "FullName": "Phường Bắc Gia Nghĩa",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24615",
+    "FullName": "Phường Nam Gia Nghĩa",
+    "ProvinceCode": "68"
+   },
+   {
     "Code": "24616",
     "FullName": "Xã Quảng Sơn",
     "ProvinceCode": "68"
    },
    {
+    "Code": "24617",
+    "FullName": "Phường Đông Gia Nghĩa",
+    "ProvinceCode": "68"
+   },
+   {
     "Code": "24620",
-    "FullName": "Xã Quảng Hòa",
+    "FullName": "Xã Quảng Hoà",
     "ProvinceCode": "68"
    },
    {
@@ -12271,6 +12231,51 @@
    {
     "Code": "24760",
     "FullName": "Xã Quảng Tín",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24778",
+    "FullName": "Phường Lâm Viên - Đà Lạt",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24781",
+    "FullName": "Phường Xuân Hương - Đà Lạt",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24787",
+    "FullName": "Phường Cam Ly - Đà Lạt",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24805",
+    "FullName": "Phường Xuân Trường - Đà Lạt",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24820",
+    "FullName": "Phường 2 Bảo Lộc",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24823",
+    "FullName": "Phường 1 Bảo Lộc",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24829",
+    "FullName": "Phường B'Lao",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24841",
+    "FullName": "Phường 3 Bảo Lộc",
+    "ProvinceCode": "68"
+   },
+   {
+    "Code": "24846",
+    "FullName": "Phường Lang Biang - Đà Lạt",
     "ProvinceCode": "68"
    },
    {
@@ -12400,12 +12405,12 @@
    },
    {
     "Code": "25036",
-    "FullName": "Xã Hòa Ninh",
+    "FullName": "Xã Hoà Ninh",
     "ProvinceCode": "68"
    },
    {
     "Code": "25042",
-    "FullName": "Xã Hòa Bắc",
+    "FullName": "Xã Hoà Bắc",
     "ProvinceCode": "68"
    },
    {
@@ -12482,17 +12487,12 @@
     "Code": "25180",
     "FullName": "Xã Cát Tiên 2",
     "ProvinceCode": "68"
-   },
-   {
-    "Code": "23272",
-    "FullName": "Đặc khu Phú Quý",
-    "ProvinceCode": "68"
    }
   ]
  },
  {
   "Code": "75",
-  "FullName": "Tỉnh Đồng Nai",
+  "FullName": "Thành phố Đồng Nai",
   "Wards": [
    {
     "Code": "25195",
@@ -12512,101 +12512,6 @@
    {
     "Code": "25220",
     "FullName": "Phường Phước Bình",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "25326",
-    "FullName": "Phường Bình Long",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "25333",
-    "FullName": "Phường An Lộc",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "25432",
-    "FullName": "Phường Chơn Thành",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "25441",
-    "FullName": "Phường Minh Hưng",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "25993",
-    "FullName": "Phường Trảng Dài",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26005",
-    "FullName": "Phường Hố Nai",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26017",
-    "FullName": "Phường Tam Hiệp",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26020",
-    "FullName": "Phường Long Bình",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26041",
-    "FullName": "Phường Trấn Biên",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26068",
-    "FullName": "Phường Biên Hòa",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26080",
-    "FullName": "Phường Long Khánh",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26089",
-    "FullName": "Phường Bình Lộc",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26098",
-    "FullName": "Phường Bảo Vinh",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26104",
-    "FullName": "Phường Xuân Lập",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26113",
-    "FullName": "Phường Hàng Gòn",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26188",
-    "FullName": "Phường Tân Triều",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26374",
-    "FullName": "Phường Tam Phước",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26377",
-    "FullName": "Phường Phước Tân",
-    "ProvinceCode": "75"
-   },
-   {
-    "Code": "26380",
-    "FullName": "Phường Long Hưng",
     "ProvinceCode": "75"
    },
    {
@@ -12651,7 +12556,7 @@
    },
    {
     "Code": "25270",
-    "FullName": "Xã Lộc Ninh",
+    "FullName": "Phường Lộc Ninh",
     "ProvinceCode": "75"
    },
    {
@@ -12695,6 +12600,16 @@
     "ProvinceCode": "75"
    },
    {
+    "Code": "25326",
+    "FullName": "Phường Bình Long",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "25333",
+    "FullName": "Phường An Lộc",
+    "ProvinceCode": "75"
+   },
+   {
     "Code": "25345",
     "FullName": "Xã Tân Hưng",
     "ProvinceCode": "75"
@@ -12711,12 +12626,12 @@
    },
    {
     "Code": "25357",
-    "FullName": "Xã Tân Khai",
+    "FullName": "Phường Tân Khai",
     "ProvinceCode": "75"
    },
    {
     "Code": "25363",
-    "FullName": "Xã Đồng Phú",
+    "FullName": "Phường Đồng Phú",
     "ProvinceCode": "75"
    },
    {
@@ -12765,13 +12680,78 @@
     "ProvinceCode": "75"
    },
    {
+    "Code": "25432",
+    "FullName": "Phường Chơn Thành",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "25441",
+    "FullName": "Phường Minh Hưng",
+    "ProvinceCode": "75"
+   },
+   {
     "Code": "25450",
     "FullName": "Xã Nha Bích",
     "ProvinceCode": "75"
    },
    {
+    "Code": "25993",
+    "FullName": "Phường Trảng Dài",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26005",
+    "FullName": "Phường Hố Nai",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26017",
+    "FullName": "Phường Tam Hiệp",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26020",
+    "FullName": "Phường Long Bình",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26041",
+    "FullName": "Phường Trấn Biên",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26068",
+    "FullName": "Phường Biên Hoà",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26080",
+    "FullName": "Phường Long Khánh",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26089",
+    "FullName": "Phường Bình Lộc",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26098",
+    "FullName": "Phường Bảo Vinh",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26104",
+    "FullName": "Phường Xuân Lập",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26113",
+    "FullName": "Phường Hàng Gòn",
+    "ProvinceCode": "75"
+   },
+   {
     "Code": "26116",
-    "FullName": "Xã Tân Phú",
+    "FullName": "Phường Tân Phú",
     "ProvinceCode": "75"
    },
    {
@@ -12796,7 +12776,7 @@
    },
    {
     "Code": "26170",
-    "FullName": "Xã Trị An",
+    "FullName": "Phường Trị An",
     "ProvinceCode": "75"
    },
    {
@@ -12807,6 +12787,11 @@
    {
     "Code": "26179",
     "FullName": "Xã Tân An",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26188",
+    "FullName": "Phường Tân Triều",
     "ProvinceCode": "75"
    },
    {
@@ -12826,7 +12811,7 @@
    },
    {
     "Code": "26221",
-    "FullName": "Xã Phú Hòa",
+    "FullName": "Xã Phú Hoà",
     "ProvinceCode": "75"
    },
    {
@@ -12836,7 +12821,7 @@
    },
    {
     "Code": "26248",
-    "FullName": "Xã Trảng Bom",
+    "FullName": "Phường Trảng Bom",
     "ProvinceCode": "75"
    },
    {
@@ -12871,7 +12856,7 @@
    },
    {
     "Code": "26326",
-    "FullName": "Xã Dầu Giây",
+    "FullName": "Phường Dầu Giây",
     "ProvinceCode": "75"
    },
    {
@@ -12901,7 +12886,22 @@
    },
    {
     "Code": "26368",
-    "FullName": "Xã Long Thành",
+    "FullName": "Phường Long Thành",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26374",
+    "FullName": "Phường Tam Phước",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26377",
+    "FullName": "Phường Phước Tân",
+    "ProvinceCode": "75"
+   },
+   {
+    "Code": "26380",
+    "FullName": "Phường Long Hưng",
     "ProvinceCode": "75"
    },
    {
@@ -12926,7 +12926,7 @@
    },
    {
     "Code": "26425",
-    "FullName": "Xã Xuân Lộc",
+    "FullName": "Phường Xuân Lộc",
     "ProvinceCode": "75"
    },
    {
@@ -12941,7 +12941,7 @@
    },
    {
     "Code": "26446",
-    "FullName": "Xã Xuân Hòa",
+    "FullName": "Xã Xuân Hoà",
     "ProvinceCode": "75"
    },
    {
@@ -12956,7 +12956,7 @@
    },
    {
     "Code": "26485",
-    "FullName": "Xã Nhơn Trạch",
+    "FullName": "Phường Nhơn Trạch",
     "ProvinceCode": "75"
    },
    {
@@ -13001,13 +13001,43 @@
     "ProvinceCode": "79"
    },
    {
+    "Code": "25777",
+    "FullName": "Xã Dầu Tiếng",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25780",
+    "FullName": "Xã Minh Thạnh",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25792",
+    "FullName": "Xã Long Hoà",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25807",
+    "FullName": "Xã Thanh An",
+    "ProvinceCode": "79"
+   },
+   {
     "Code": "25813",
     "FullName": "Phường Bến Cát",
     "ProvinceCode": "79"
    },
    {
+    "Code": "25819",
+    "FullName": "Xã Trừ Văn Thố",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25822",
+    "FullName": "Xã Bàu Bàng",
+    "ProvinceCode": "79"
+   },
+   {
     "Code": "25837",
-    "FullName": "Phường Chánh Phú Hòa",
+    "FullName": "Phường Chánh Phú Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13022,12 +13052,32 @@
    },
    {
     "Code": "25846",
-    "FullName": "Phường Thới Hòa",
+    "FullName": "Phường Thới Hoà",
     "ProvinceCode": "79"
    },
    {
     "Code": "25849",
-    "FullName": "Phường Hòa Lợi",
+    "FullName": "Phường Hoà Lợi",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25858",
+    "FullName": "Xã Phú Giáo",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25864",
+    "FullName": "Xã Phước Thành",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25867",
+    "FullName": "Xã An Long",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25882",
+    "FullName": "Xã Phước Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13038,6 +13088,16 @@
    {
     "Code": "25891",
     "FullName": "Phường Tân Khánh",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25906",
+    "FullName": "Xã Bắc Tân Uyên",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "25909",
+    "FullName": "Xã Thường Tân",
     "ProvinceCode": "79"
    },
    {
@@ -13067,7 +13127,7 @@
    },
    {
     "Code": "25951",
-    "FullName": "Phường Đông Hòa",
+    "FullName": "Phường Đông Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13092,7 +13152,7 @@
    },
    {
     "Code": "25987",
-    "FullName": "Phường Bình Hòa",
+    "FullName": "Phường Bình Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13116,6 +13176,11 @@
     "ProvinceCode": "79"
    },
    {
+    "Code": "26545",
+    "FullName": "Xã Long Sơn",
+    "ProvinceCode": "79"
+   },
+   {
     "Code": "26560",
     "FullName": "Phường Bà Rịa",
     "ProvinceCode": "79"
@@ -13128,6 +13193,86 @@
    {
     "Code": "26572",
     "FullName": "Phường Tam Long",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26575",
+    "FullName": "Xã Ngãi Giao",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26584",
+    "FullName": "Xã Xuân Sơn",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26590",
+    "FullName": "Xã Bình Giã",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26596",
+    "FullName": "Xã Châu Đức",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26608",
+    "FullName": "Xã Kim Long",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26617",
+    "FullName": "Xã Nghĩa Thành",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26620",
+    "FullName": "Xã Hồ Tràm",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26632",
+    "FullName": "Xã Xuyên Mộc",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26638",
+    "FullName": "Xã Bàu Lâm",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26641",
+    "FullName": "Xã Hoà Hội",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26647",
+    "FullName": "Xã Hoà Hiệp",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26656",
+    "FullName": "Xã Bình Châu",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26659",
+    "FullName": "Xã Long Điền",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26662",
+    "FullName": "Xã Long Hải",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26680",
+    "FullName": "Xã Đất Đỏ",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26686",
+    "FullName": "Xã Phước Hải",
     "ProvinceCode": "79"
    },
    {
@@ -13148,6 +13293,16 @@
    {
     "Code": "26725",
     "FullName": "Phường Tân Thành",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26728",
+    "FullName": "Xã Châu Pha",
+    "ProvinceCode": "79"
+   },
+   {
+    "Code": "26732",
+    "FullName": "Đặc khu Côn Đảo",
     "ProvinceCode": "79"
    },
    {
@@ -13302,7 +13457,7 @@
    },
    {
     "Code": "26977",
-    "FullName": "Phường Tân Sơn Hòa",
+    "FullName": "Phường Tân Sơn Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13312,7 +13467,7 @@
    },
    {
     "Code": "26995",
-    "FullName": "Phường Tân Hòa",
+    "FullName": "Phường Tân Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13337,7 +13492,7 @@
    },
    {
     "Code": "27022",
-    "FullName": "Phường Phú Thọ Hòa",
+    "FullName": "Phường Phú Thọ Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13382,7 +13537,7 @@
    },
    {
     "Code": "27139",
-    "FullName": "Phường Xuân Hòa",
+    "FullName": "Phường Xuân Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13397,7 +13552,7 @@
    },
    {
     "Code": "27163",
-    "FullName": "Phường Hòa Hưng",
+    "FullName": "Phường Hoà Hưng",
     "ProvinceCode": "79"
    },
    {
@@ -13412,7 +13567,7 @@
    },
    {
     "Code": "27211",
-    "FullName": "Phường Hòa Bình",
+    "FullName": "Phường Hoà Bình",
     "ProvinceCode": "79"
    },
    {
@@ -13497,7 +13652,7 @@
    },
    {
     "Code": "27439",
-    "FullName": "Phường Bình Hưng Hòa",
+    "FullName": "Phường Bình Hưng Hoà",
     "ProvinceCode": "79"
    },
    {
@@ -13541,156 +13696,6 @@
     "ProvinceCode": "79"
    },
    {
-    "Code": "25777",
-    "FullName": "Xã Dầu Tiếng",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25780",
-    "FullName": "Xã Minh Thạnh",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25792",
-    "FullName": "Xã Long Hòa",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25807",
-    "FullName": "Xã Thanh An",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25819",
-    "FullName": "Xã Trừ Văn Thố",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25822",
-    "FullName": "Xã Bàu Bàng",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25858",
-    "FullName": "Xã Phú Giáo",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25864",
-    "FullName": "Xã Phước Thành",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25867",
-    "FullName": "Xã An Long",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25882",
-    "FullName": "Xã Phước Hòa",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25906",
-    "FullName": "Xã Bắc Tân Uyên",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "25909",
-    "FullName": "Xã Thường Tân",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26545",
-    "FullName": "Xã Long Sơn",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26575",
-    "FullName": "Xã Ngãi Giao",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26584",
-    "FullName": "Xã Xuân Sơn",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26590",
-    "FullName": "Xã Bình Giã",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26596",
-    "FullName": "Xã Châu Đức",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26608",
-    "FullName": "Xã Kim Long",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26617",
-    "FullName": "Xã Nghĩa Thành",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26620",
-    "FullName": "Xã Hồ Tràm",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26632",
-    "FullName": "Xã Xuyên Mộc",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26638",
-    "FullName": "Xã Bàu Lâm",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26641",
-    "FullName": "Xã Hòa Hội",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26647",
-    "FullName": "Xã Hòa Hiệp",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26656",
-    "FullName": "Xã Bình Châu",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26659",
-    "FullName": "Xã Long Điền",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26662",
-    "FullName": "Xã Long Hải",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26680",
-    "FullName": "Xã Đất Đỏ",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26686",
-    "FullName": "Xã Phước Hải",
-    "ProvinceCode": "79"
-   },
-   {
-    "Code": "26728",
-    "FullName": "Xã Châu Pha",
-    "ProvinceCode": "79"
-   },
-   {
     "Code": "27496",
     "FullName": "Xã Tân An Hội",
     "ProvinceCode": "79"
@@ -13712,7 +13717,7 @@
    },
    {
     "Code": "27541",
-    "FullName": "Xã Phú Hòa Đông",
+    "FullName": "Xã Phú Hoà Đông",
     "ProvinceCode": "79"
    },
    {
@@ -13809,11 +13814,6 @@
     "Code": "27676",
     "FullName": "Xã Thạnh An",
     "ProvinceCode": "79"
-   },
-   {
-    "Code": "26732",
-    "FullName": "Đặc khu Côn Đảo",
-    "ProvinceCode": "79"
    }
   ]
  },
@@ -13829,66 +13829,6 @@
    {
     "Code": "25480",
     "FullName": "Phường Bình Minh",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25567",
-    "FullName": "Phường Ninh Thạnh",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25630",
-    "FullName": "Phường Long Hoa",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25633",
-    "FullName": "Phường Thanh Điền",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25645",
-    "FullName": "Phường Hòa Thành",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25654",
-    "FullName": "Phường Gò Dầu",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25672",
-    "FullName": "Phường Gia Lộc",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25708",
-    "FullName": "Phường Trảng Bàng",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "25732",
-    "FullName": "Phường An Tịnh",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "27694",
-    "FullName": "Phường Long An",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "27712",
-    "FullName": "Phường Tân An",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "27715",
-    "FullName": "Phường Khánh Hậu",
-    "ProvinceCode": "80"
-   },
-   {
-    "Code": "27787",
-    "FullName": "Phường Kiến Tường",
     "ProvinceCode": "80"
    },
    {
@@ -13928,7 +13868,7 @@
    },
    {
     "Code": "25531",
-    "FullName": "Xã Tân Hòa",
+    "FullName": "Xã Tân Hoà",
     "ProvinceCode": "80"
    },
    {
@@ -13944,6 +13884,11 @@
    {
     "Code": "25552",
     "FullName": "Xã Dương Minh Châu",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25567",
+    "FullName": "Phường Ninh Thạnh",
     "ProvinceCode": "80"
    },
    {
@@ -13973,12 +13918,32 @@
    },
    {
     "Code": "25606",
-    "FullName": "Xã Hòa Hội",
+    "FullName": "Xã Hoà Hội",
     "ProvinceCode": "80"
    },
    {
     "Code": "25621",
     "FullName": "Xã Ninh Điền",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25630",
+    "FullName": "Phường Long Hoa",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25633",
+    "FullName": "Phường Thanh Điền",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25645",
+    "FullName": "Phường Hoà Thành",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25654",
+    "FullName": "Phường Gò Dầu",
     "ProvinceCode": "80"
    },
    {
@@ -13997,6 +13962,11 @@
     "ProvinceCode": "80"
    },
    {
+    "Code": "25672",
+    "FullName": "Phường Gia Lộc",
+    "ProvinceCode": "80"
+   },
+   {
     "Code": "25681",
     "FullName": "Xã Bến Cầu",
     "ProvinceCode": "80"
@@ -14012,6 +13982,11 @@
     "ProvinceCode": "80"
    },
    {
+    "Code": "25708",
+    "FullName": "Phường Trảng Bàng",
+    "ProvinceCode": "80"
+   },
+   {
     "Code": "25711",
     "FullName": "Xã Hưng Thuận",
     "ProvinceCode": "80"
@@ -14019,6 +13994,26 @@
    {
     "Code": "25729",
     "FullName": "Xã Phước Chỉ",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "25732",
+    "FullName": "Phường An Tịnh",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "27694",
+    "FullName": "Phường Long An",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "27712",
+    "FullName": "Phường Tân An",
+    "ProvinceCode": "80"
+   },
+   {
+    "Code": "27715",
+    "FullName": "Phường Khánh Hậu",
     "ProvinceCode": "80"
    },
    {
@@ -14057,13 +14052,18 @@
     "ProvinceCode": "80"
    },
    {
+    "Code": "27787",
+    "FullName": "Phường Kiến Tường",
+    "ProvinceCode": "80"
+   },
+   {
     "Code": "27793",
     "FullName": "Xã Bình Hiệp",
     "ProvinceCode": "80"
    },
    {
     "Code": "27811",
-    "FullName": "Xã Bình Hòa",
+    "FullName": "Xã Bình Hoà",
     "ProvinceCode": "80"
    },
    {
@@ -14073,7 +14073,7 @@
    },
    {
     "Code": "27823",
-    "FullName": "Xã Mộc Hóa",
+    "FullName": "Xã Mộc Hoá",
     "ProvinceCode": "80"
    },
    {
@@ -14083,7 +14083,7 @@
    },
    {
     "Code": "27838",
-    "FullName": "Xã Nhơn Hòa Lập",
+    "FullName": "Xã Nhơn Hoà Lập",
     "ProvinceCode": "80"
    },
    {
@@ -14098,7 +14098,7 @@
    },
    {
     "Code": "27865",
-    "FullName": "Xã Thạnh Hóa",
+    "FullName": "Xã Thạnh Hoá",
     "ProvinceCode": "80"
    },
    {
@@ -14138,7 +14138,7 @@
    },
    {
     "Code": "27937",
-    "FullName": "Xã Đức Hòa",
+    "FullName": "Xã Đức Hoà",
     "ProvinceCode": "80"
    },
    {
@@ -14148,7 +14148,7 @@
    },
    {
     "Code": "27952",
-    "FullName": "Xã Hiệp Hòa",
+    "FullName": "Xã Hiệp Hoà",
     "ProvinceCode": "80"
    },
    {
@@ -14163,7 +14163,7 @@
    },
    {
     "Code": "27979",
-    "FullName": "Xã Hòa Khánh",
+    "FullName": "Xã Hoà Khánh",
     "ProvinceCode": "80"
    },
    {
@@ -14178,7 +14178,7 @@
    },
    {
     "Code": "28003",
-    "FullName": "Xã Lương Hòa",
+    "FullName": "Xã Lương Hoà",
     "ProvinceCode": "80"
    },
    {
@@ -14308,11 +14308,6 @@
   "FullName": "Tỉnh Đồng Tháp",
   "Wards": [
    {
-    "Code": "29944",
-    "FullName": "Xã An Phước",
-    "ProvinceCode": "82"
-   },
-   {
     "Code": "28249",
     "FullName": "Phường Đạo Thạnh",
     "ProvinceCode": "82"
@@ -14350,66 +14345,6 @@
    {
     "Code": "28315",
     "FullName": "Phường Bình Xuân",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "28435",
-    "FullName": "Phường Mỹ Phước Tây",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "28436",
-    "FullName": "Phường Thanh Hòa",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "28439",
-    "FullName": "Phường Cai Lậy",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "28477",
-    "FullName": "Phường Nhị Quý",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "28729",
-    "FullName": "Phường Sơn Qui",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29869",
-    "FullName": "Phường Cao Lãnh",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29884",
-    "FullName": "Phường Mỹ Ngãi",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29888",
-    "FullName": "Phường Mỹ Trà",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29905",
-    "FullName": "Phường Sa Đéc",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29954",
-    "FullName": "Phường An Bình",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29955",
-    "FullName": "Phường Hồng Ngự",
-    "ProvinceCode": "82"
-   },
-   {
-    "Code": "29978",
-    "FullName": "Phường Thường Lạc",
     "ProvinceCode": "82"
    },
    {
@@ -14473,6 +14408,21 @@
     "ProvinceCode": "82"
    },
    {
+    "Code": "28435",
+    "FullName": "Phường Mỹ Phước Tây",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "28436",
+    "FullName": "Phường Thanh Hoà",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "28439",
+    "FullName": "Phường Cai Lậy",
+    "ProvinceCode": "82"
+   },
+   {
     "Code": "28444",
     "FullName": "Xã Thạnh Phú",
     "ProvinceCode": "82"
@@ -14490,6 +14440,11 @@
    {
     "Code": "28471",
     "FullName": "Xã Bình Phú",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "28477",
+    "FullName": "Phường Nhị Quý",
     "ProvinceCode": "82"
    },
    {
@@ -14554,7 +14509,7 @@
    },
    {
     "Code": "28615",
-    "FullName": "Xã Lương Hòa Lạc",
+    "FullName": "Xã Lương Hoà Lạc",
     "ProvinceCode": "82"
    },
    {
@@ -14564,7 +14519,7 @@
    },
    {
     "Code": "28633",
-    "FullName": "Xã An Thạnh Thủy",
+    "FullName": "Xã An Thạnh Thuỷ",
     "ProvinceCode": "82"
    },
    {
@@ -14609,7 +14564,7 @@
    },
    {
     "Code": "28702",
-    "FullName": "Xã Tân Hòa",
+    "FullName": "Xã Tân Hoà",
     "ProvinceCode": "82"
    },
    {
@@ -14623,6 +14578,11 @@
     "ProvinceCode": "82"
    },
    {
+    "Code": "28729",
+    "FullName": "Phường Sơn Qui",
+    "ProvinceCode": "82"
+   },
+   {
     "Code": "28738",
     "FullName": "Xã Tân Điền",
     "ProvinceCode": "82"
@@ -14630,6 +14590,26 @@
    {
     "Code": "28747",
     "FullName": "Xã Gò Công Đông",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29869",
+    "FullName": "Phường Cao Lãnh",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29884",
+    "FullName": "Phường Mỹ Ngãi",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29888",
+    "FullName": "Phường Mỹ Trà",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29905",
+    "FullName": "Phường Sa Đéc",
     "ProvinceCode": "82"
    },
    {
@@ -14648,8 +14628,28 @@
     "ProvinceCode": "82"
    },
    {
+    "Code": "29944",
+    "FullName": "Xã An Phước",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29954",
+    "FullName": "Phường An Bình",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29955",
+    "FullName": "Phường Hồng Ngự",
+    "ProvinceCode": "82"
+   },
+   {
     "Code": "29971",
     "FullName": "Xã Thường Phước",
+    "ProvinceCode": "82"
+   },
+   {
+    "Code": "29978",
+    "FullName": "Phường Thường Lạc",
     "ProvinceCode": "82"
    },
    {
@@ -14674,7 +14674,7 @@
    },
    {
     "Code": "30019",
-    "FullName": "Xã An Hòa",
+    "FullName": "Xã An Hoà",
     "ProvinceCode": "82"
    },
    {
@@ -14784,7 +14784,7 @@
    },
    {
     "Code": "30208",
-    "FullName": "Xã Hòa Long",
+    "FullName": "Xã Hoà Long",
     "ProvinceCode": "82"
    },
    {
@@ -14799,7 +14799,7 @@
    },
    {
     "Code": "30235",
-    "FullName": "Xã Phong Hòa",
+    "FullName": "Xã Phong Hoà",
     "ProvinceCode": "82"
    },
    {
@@ -14844,81 +14844,6 @@
     "ProvinceCode": "86"
    },
    {
-    "Code": "28858",
-    "FullName": "Phường Phú Tân",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29242",
-    "FullName": "Phường Trà Vinh",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29254",
-    "FullName": "Phường Nguyệt Hóa",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29263",
-    "FullName": "Phường Long Đức",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29398",
-    "FullName": "Phường Hòa Thuận",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29512",
-    "FullName": "Phường Duyên Hải",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29516",
-    "FullName": "Phường Trường Long Hòa",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29551",
-    "FullName": "Phường Long Châu",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29557",
-    "FullName": "Phường Phước Hậu",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29566",
-    "FullName": "Phường Tân Ngãi",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29590",
-    "FullName": "Phường Thanh Đức",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29593",
-    "FullName": "Phường Tân Hạnh",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29770",
-    "FullName": "Phường Cái Vồn",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29771",
-    "FullName": "Phường Bình Minh",
-    "ProvinceCode": "86"
-   },
-   {
-    "Code": "29812",
-    "FullName": "Phường Đông Thành",
-    "ProvinceCode": "86"
-   },
-   {
     "Code": "28807",
     "FullName": "Xã Giao Long",
     "ProvinceCode": "86"
@@ -14934,8 +14859,13 @@
     "ProvinceCode": "86"
    },
    {
+    "Code": "28858",
+    "FullName": "Phường Phú Tân",
+    "ProvinceCode": "86"
+   },
+   {
     "Code": "28861",
-    "FullName": "Xã Tiên Thủy",
+    "FullName": "Xã Tiên Thuỷ",
     "ProvinceCode": "86"
    },
    {
@@ -15005,7 +14935,7 @@
    },
    {
     "Code": "28987",
-    "FullName": "Xã Lương Hòa",
+    "FullName": "Xã Lương Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15015,7 +14945,7 @@
    },
    {
     "Code": "28996",
-    "FullName": "Xã Châu Hòa",
+    "FullName": "Xã Châu Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15075,7 +15005,7 @@
    },
    {
     "Code": "29122",
-    "FullName": "Xã Mỹ Chánh Hòa",
+    "FullName": "Xã Mỹ Chánh Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15100,7 +15030,7 @@
    },
    {
     "Code": "29167",
-    "FullName": "Xã Tân Thủy",
+    "FullName": "Xã Tân Thuỷ",
     "ProvinceCode": "86"
    },
    {
@@ -15131,6 +15061,21 @@
    {
     "Code": "29227",
     "FullName": "Xã Thạnh Phong",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29242",
+    "FullName": "Phường Trà Vinh",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29254",
+    "FullName": "Phường Nguyệt Hoá",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29263",
+    "FullName": "Phường Long Đức",
     "ProvinceCode": "86"
    },
    {
@@ -15185,7 +15130,7 @@
    },
    {
     "Code": "29362",
-    "FullName": "Xã Hùng Hòa",
+    "FullName": "Xã Hùng Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15195,7 +15140,7 @@
    },
    {
     "Code": "29371",
-    "FullName": "Xã Tân Hòa",
+    "FullName": "Xã Tân Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15209,18 +15154,23 @@
     "ProvinceCode": "86"
    },
    {
+    "Code": "29398",
+    "FullName": "Phường Hoà Thuận",
+    "ProvinceCode": "86"
+   },
+   {
     "Code": "29407",
     "FullName": "Xã Hưng Mỹ",
     "ProvinceCode": "86"
    },
    {
     "Code": "29410",
-    "FullName": "Xã Hòa Minh",
+    "FullName": "Xã Hoà Minh",
     "ProvinceCode": "86"
    },
    {
     "Code": "29413",
-    "FullName": "Xã Long Hòa",
+    "FullName": "Xã Long Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15284,8 +15234,18 @@
     "ProvinceCode": "86"
    },
    {
+    "Code": "29512",
+    "FullName": "Phường Duyên Hải",
+    "ProvinceCode": "86"
+   },
+   {
     "Code": "29513",
     "FullName": "Xã Long Thành",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29516",
+    "FullName": "Phường Trường Long Hoà",
     "ProvinceCode": "86"
    },
    {
@@ -15309,8 +15269,33 @@
     "ProvinceCode": "86"
    },
    {
+    "Code": "29551",
+    "FullName": "Phường Long Châu",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29557",
+    "FullName": "Phường Phước Hậu",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29566",
+    "FullName": "Phường Tân Ngãi",
+    "ProvinceCode": "86"
+   },
+   {
     "Code": "29584",
     "FullName": "Xã An Bình",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29590",
+    "FullName": "Phường Thanh Đức",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29593",
+    "FullName": "Phường Tân Hạnh",
     "ProvinceCode": "86"
    },
    {
@@ -15390,7 +15375,7 @@
    },
    {
     "Code": "29734",
-    "FullName": "Xã Hòa Hiệp",
+    "FullName": "Xã Hoà Hiệp",
     "ProvinceCode": "86"
    },
    {
@@ -15401,6 +15386,16 @@
    {
     "Code": "29767",
     "FullName": "Xã Ngãi Tứ",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29770",
+    "FullName": "Phường Cái Vồn",
+    "ProvinceCode": "86"
+   },
+   {
+    "Code": "29771",
+    "FullName": "Phường Bình Minh",
     "ProvinceCode": "86"
    },
    {
@@ -15419,13 +15414,18 @@
     "ProvinceCode": "86"
    },
    {
+    "Code": "29812",
+    "FullName": "Phường Đông Thành",
+    "ProvinceCode": "86"
+   },
+   {
     "Code": "29821",
     "FullName": "Xã Trà Ôn",
     "ProvinceCode": "86"
    },
    {
     "Code": "29830",
-    "FullName": "Xã Hòa Bình",
+    "FullName": "Xã Hoà Bình",
     "ProvinceCode": "86"
    },
    {
@@ -15465,6 +15465,11 @@
     "ProvinceCode": "91"
    },
    {
+    "Code": "30313",
+    "FullName": "Xã Mỹ Hoà Hưng",
+    "ProvinceCode": "91"
+   },
+   {
     "Code": "30316",
     "FullName": "Phường Châu Đốc",
     "ProvinceCode": "91"
@@ -15472,56 +15477,6 @@
    {
     "Code": "30325",
     "FullName": "Phường Vĩnh Tế",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30376",
-    "FullName": "Phường Tân Châu",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30377",
-    "FullName": "Phường Long Phú",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30502",
-    "FullName": "Phường Thới Sơn",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30505",
-    "FullName": "Phường Chi Lăng",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30520",
-    "FullName": "Phường Tịnh Biên",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30742",
-    "FullName": "Phường Rạch Giá",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30760",
-    "FullName": "Phường Vĩnh Thông",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30766",
-    "FullName": "Phường Tô Châu",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30769",
-    "FullName": "Phường Hà Tiên",
-    "ProvinceCode": "91"
-   },
-   {
-    "Code": "30313",
-    "FullName": "Xã Mỹ Hòa Hưng",
     "ProvinceCode": "91"
    },
    {
@@ -15547,6 +15502,16 @@
    {
     "Code": "30367",
     "FullName": "Xã Vĩnh Hậu",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30376",
+    "FullName": "Phường Tân Châu",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30377",
+    "FullName": "Phường Long Phú",
     "ProvinceCode": "91"
    },
    {
@@ -15581,7 +15546,7 @@
    },
    {
     "Code": "30430",
-    "FullName": "Xã Hòa Lạc",
+    "FullName": "Xã Hoà Lạc",
     "ProvinceCode": "91"
    },
    {
@@ -15617,6 +15582,21 @@
    {
     "Code": "30487",
     "FullName": "Xã Bình Mỹ",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30502",
+    "FullName": "Phường Thới Sơn",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30505",
+    "FullName": "Phường Chi Lăng",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30520",
+    "FullName": "Phường Tịnh Biên",
     "ProvinceCode": "91"
    },
    {
@@ -15671,7 +15651,7 @@
    },
    {
     "Code": "30607",
-    "FullName": "Xã Bình Hòa",
+    "FullName": "Xã Bình Hoà",
     "ProvinceCode": "91"
    },
    {
@@ -15716,7 +15696,7 @@
    },
    {
     "Code": "30685",
-    "FullName": "Xã Phú Hòa",
+    "FullName": "Xã Phú Hoà",
     "ProvinceCode": "91"
    },
    {
@@ -15740,6 +15720,26 @@
     "ProvinceCode": "91"
    },
    {
+    "Code": "30742",
+    "FullName": "Phường Rạch Giá",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30760",
+    "FullName": "Phường Vĩnh Thông",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30766",
+    "FullName": "Phường Tô Châu",
+    "ProvinceCode": "91"
+   },
+   {
+    "Code": "30769",
+    "FullName": "Phường Hà Tiên",
+    "ProvinceCode": "91"
+   },
+   {
     "Code": "30781",
     "FullName": "Xã Tiên Hải",
     "ProvinceCode": "91"
@@ -15751,7 +15751,7 @@
    },
    {
     "Code": "30790",
-    "FullName": "Xã Hòa Điền",
+    "FullName": "Xã Hoà Điền",
     "ProvinceCode": "91"
    },
    {
@@ -15846,7 +15846,7 @@
    },
    {
     "Code": "30934",
-    "FullName": "Xã Hòa Hưng",
+    "FullName": "Xã Hoà Hưng",
     "ProvinceCode": "91"
    },
    {
@@ -15856,7 +15856,7 @@
    },
    {
     "Code": "30949",
-    "FullName": "Xã Hòa Thuận",
+    "FullName": "Xã Hoà Thuận",
     "ProvinceCode": "91"
    },
    {
@@ -15866,12 +15866,12 @@
    },
    {
     "Code": "30958",
-    "FullName": "Xã Định Hòa",
+    "FullName": "Xã Định Hoà",
     "ProvinceCode": "91"
    },
    {
     "Code": "30970",
-    "FullName": "Xã Vĩnh Hòa Hưng",
+    "FullName": "Xã Vĩnh Hoà Hưng",
     "ProvinceCode": "91"
    },
    {
@@ -15896,7 +15896,7 @@
    },
    {
     "Code": "31012",
-    "FullName": "Xã Vĩnh Hòa",
+    "FullName": "Xã Vĩnh Hoà",
     "ProvinceCode": "91"
    },
    {
@@ -15906,7 +15906,7 @@
    },
    {
     "Code": "31024",
-    "FullName": "Xã Đông Hòa",
+    "FullName": "Xã Đông Hoà",
     "ProvinceCode": "91"
    },
    {
@@ -16002,7 +16002,7 @@
    },
    {
     "Code": "31168",
-    "FullName": "Phường Bình Thủy",
+    "FullName": "Phường Bình Thuỷ",
     "ProvinceCode": "92"
    },
    {
@@ -16043,81 +16043,6 @@
    {
     "Code": "31228",
     "FullName": "Phường Thuận Hưng",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31321",
-    "FullName": "Phường Vị Thanh",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31333",
-    "FullName": "Phường Vị Tân",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31340",
-    "FullName": "Phường Ngã Bảy",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31411",
-    "FullName": "Phường Đại Thành",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31471",
-    "FullName": "Phường Long Mỹ",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31473",
-    "FullName": "Phường Long Bình",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31480",
-    "FullName": "Phường Long Phú 1",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31507",
-    "FullName": "Phường Sóc Trăng",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31510",
-    "FullName": "Phường Phú Lợi",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31684",
-    "FullName": "Phường Mỹ Xuyên",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31732",
-    "FullName": "Phường Ngã Năm",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31753",
-    "FullName": "Phường Mỹ Quới",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31783",
-    "FullName": "Phường Vĩnh Châu",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31789",
-    "FullName": "Phường Khánh Hòa",
-    "ProvinceCode": "92"
-   },
-   {
-    "Code": "31804",
-    "FullName": "Phường Vĩnh Phước",
     "ProvinceCode": "92"
    },
    {
@@ -16201,13 +16126,28 @@
     "ProvinceCode": "92"
    },
    {
+    "Code": "31321",
+    "FullName": "Phường Vị Thanh",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31333",
+    "FullName": "Phường Vị Tân",
+    "ProvinceCode": "92"
+   },
+   {
     "Code": "31338",
-    "FullName": "Xã Hỏa Lựu",
+    "FullName": "Xã Hoả Lựu",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31340",
+    "FullName": "Phường Ngã Bảy",
     "ProvinceCode": "92"
    },
    {
     "Code": "31342",
-    "FullName": "Xã Tân Hòa",
+    "FullName": "Xã Tân Hoà",
     "ProvinceCode": "92"
    },
    {
@@ -16237,7 +16177,7 @@
    },
    {
     "Code": "31393",
-    "FullName": "Xã Hòa An",
+    "FullName": "Xã Hoà An",
     "ProvinceCode": "92"
    },
    {
@@ -16252,7 +16192,12 @@
    },
    {
     "Code": "31408",
-    "FullName": "Xã Thạnh Hòa",
+    "FullName": "Xã Thạnh Hoà",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31411",
+    "FullName": "Phường Đại Thành",
     "ProvinceCode": "92"
    },
    {
@@ -16272,7 +16217,7 @@
    },
    {
     "Code": "31441",
-    "FullName": "Xã Vị Thủy",
+    "FullName": "Xã Vị Thuỷ",
     "ProvinceCode": "92"
    },
    {
@@ -16291,6 +16236,21 @@
     "ProvinceCode": "92"
    },
    {
+    "Code": "31471",
+    "FullName": "Phường Long Mỹ",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31473",
+    "FullName": "Phường Long Bình",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31480",
+    "FullName": "Phường Long Phú 1",
+    "ProvinceCode": "92"
+   },
+   {
     "Code": "31489",
     "FullName": "Xã Vĩnh Viễn",
     "ProvinceCode": "92"
@@ -16303,6 +16263,16 @@
    {
     "Code": "31495",
     "FullName": "Xã Xà Phiên",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31507",
+    "FullName": "Phường Sóc Trăng",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31510",
+    "FullName": "Phường Phú Lợi",
     "ProvinceCode": "92"
    },
    {
@@ -16357,7 +16327,7 @@
    },
    {
     "Code": "31582",
-    "FullName": "Xã Thuận Hòa",
+    "FullName": "Xã Thuận Hoà",
     "ProvinceCode": "92"
    },
    {
@@ -16421,6 +16391,11 @@
     "ProvinceCode": "92"
    },
    {
+    "Code": "31684",
+    "FullName": "Phường Mỹ Xuyên",
+    "ProvinceCode": "92"
+   },
+   {
     "Code": "31687",
     "FullName": "Xã Tài Văn",
     "ProvinceCode": "92"
@@ -16437,7 +16412,7 @@
    },
    {
     "Code": "31717",
-    "FullName": "Xã Hòa Tú",
+    "FullName": "Xã Hoà Tú",
     "ProvinceCode": "92"
    },
    {
@@ -16447,12 +16422,22 @@
    },
    {
     "Code": "31726",
-    "FullName": "Xã Gia Hòa",
+    "FullName": "Xã Gia Hoà",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31732",
+    "FullName": "Phường Ngã Năm",
     "ProvinceCode": "92"
    },
    {
     "Code": "31741",
     "FullName": "Xã Tân Long",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31753",
+    "FullName": "Phường Mỹ Quới",
     "ProvinceCode": "92"
    },
    {
@@ -16471,13 +16456,28 @@
     "ProvinceCode": "92"
    },
    {
+    "Code": "31783",
+    "FullName": "Phường Vĩnh Châu",
+    "ProvinceCode": "92"
+   },
+   {
+    "Code": "31789",
+    "FullName": "Phường Khánh Hoà",
+    "ProvinceCode": "92"
+   },
+   {
     "Code": "31795",
     "FullName": "Xã Vĩnh Hải",
     "ProvinceCode": "92"
    },
    {
+    "Code": "31804",
+    "FullName": "Phường Vĩnh Phước",
+    "ProvinceCode": "92"
+   },
+   {
     "Code": "31810",
-    "FullName": "Xã Lai Hòa",
+    "FullName": "Xã Lai Hoà",
     "ProvinceCode": "92"
    }
   ]
@@ -16499,36 +16499,6 @@
    {
     "Code": "31840",
     "FullName": "Phường Hiệp Thành",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "31942",
-    "FullName": "Phường Giá Rai",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "31951",
-    "FullName": "Phường Láng Tròn",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "32002",
-    "FullName": "Phường An Xuyên",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "32014",
-    "FullName": "Phường Lý Văn Lâm",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "32025",
-    "FullName": "Phường Tân Thành",
-    "ProvinceCode": "96"
-   },
-   {
-    "Code": "32041",
-    "FullName": "Phường Hòa Thành",
     "ProvinceCode": "96"
    },
    {
@@ -16573,7 +16543,7 @@
    },
    {
     "Code": "31891",
-    "FullName": "Xã Hòa Bình",
+    "FullName": "Xã Hoà Bình",
     "ProvinceCode": "96"
    },
    {
@@ -16599,6 +16569,16 @@
    {
     "Code": "31927",
     "FullName": "Xã Vĩnh Hậu",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "31942",
+    "FullName": "Phường Giá Rai",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "31951",
+    "FullName": "Phường Láng Tròn",
     "ProvinceCode": "96"
    },
    {
@@ -16629,6 +16609,26 @@
    {
     "Code": "31993",
     "FullName": "Xã Định Thành",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "32002",
+    "FullName": "Phường An Xuyên",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "32014",
+    "FullName": "Phường Lý Văn Lâm",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "32025",
+    "FullName": "Phường Tân Thành",
+    "ProvinceCode": "96"
+   },
+   {
+    "Code": "32041",
+    "FullName": "Phường Hoà Thành",
     "ProvinceCode": "96"
    },
    {
