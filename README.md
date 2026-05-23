@@ -26,7 +26,7 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
-|[237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
+|[30/2026/QH16][decree 30/2026/QH16], [237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
 |[19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]|30/06/2025|01/07/2025|v3.0.2|
 |Grammar-correction, data cutoff before 19/2025/QĐ-TTg|15/01/2025|01/03/2025|v2.4.1
 |[1365/NQ-UBTVQH15][decree 1365/NQ-UBTVQH15]|15/01/2025|01/03/2025|v2.4.0
@@ -298,6 +298,7 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 1365/NQ-UBTVQH15]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1365-NQ-UBTVQH15-2025-thanh-lap-cac-phuong-thuoc-thi-xa-Phu-My-Vung-Tau-640985.aspx
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
 [decree 237/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-237-NQ-UBTVQH16-2026-thanh-lap-10-phuong-thuoc-tinh-Dong-Nai-702513.aspx
+[decree 30/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-30-2026-QH16-thanh-lap-thanh-pho-Dong-Nai-703888.aspx
 
 
 ## It has been a long run to reach for the ⭐
