@@ -24,7 +24,7 @@ func main() {
 
 	if (INCLUDE_GIS) {
 		db.BootstrapGISDataStructure()
-		sapnhap.DumpDataFromSapNhapBando()
+		// sapnhap.DumpDataFromSapNhapBando()
 		sapnhap.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()
 		sapnhap.FetchGISDataFromSapNhapBando()
 		dataset_writer.GenerateGISSQLDatasets()
