@@ -130,7 +130,7 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 	}
 	
 	// Get all geo objects
-	geoObjects, err := s.geoJSONRepo.GetAllSapNhapGeoJSONObjects()
+	geoObjects, err := s.geoJSONRepo.GetAllSapNhapGeoJSONObjects(context.Background())
 	if err != nil {
 		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
 	}

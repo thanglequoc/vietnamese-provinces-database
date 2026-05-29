@@ -19,7 +19,7 @@ func NewSapNhapGeoJSONObjectRepository(db *bun.DB) *SapNhapGeoJSONObjectReposito
 	}
 }
 
-func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONObjects() ([]*model.SapNhapSiteGeoUnit, error) {
+func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONObjects(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
 	var geoObjects []*model.SapNhapSiteGeoUnit
 	
 	err := r.db.NewSelect().
@@ -27,7 +27,42 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONObjects() ([]*model
 		Relation("Parent").
 		Relation("VNProvince").
 		Relation("VNWard").
-		Scan(context.Background())
+		Scan(ctx)
+	
+	if err != nil {
+		return nil, err
+	}
+	
+	return geoObjects, nil
+}
+
+// Get All SapNhapGeoJSON Provinces object that vn_ds_ward_code IS NULL (which means they are provinces, not wards)
+func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
+	var geoObjects []*model.SapNhapSiteGeoUnit
+	
+	err := r.db.NewSelect().
+		Model(&geoObjects).
+		Relation("VNProvince").
+		Where("sp.vn_ds_ward_code IS NULL").
+		Scan(ctx)
+	
+	if err != nil {
+		return nil, err
+	}
+
+	return geoObjects, nil
+}
+
+func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
+	var geoObjects []*model.SapNhapSiteGeoUnit
+	
+	err := r.db.NewSelect().
+		Model(&geoObjects).
+		Relation("Parent").
+		Relation("VNProvince").
+		Relation("VNWard").
+		Where("sp.vn_ds_ward_code IS NOT NULL").
+		Scan(ctx)
 	
 	if err != nil {
 		return nil, err

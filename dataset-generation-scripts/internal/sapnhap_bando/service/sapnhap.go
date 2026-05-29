@@ -281,7 +281,7 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 	ctx := context.Background()
 	
 	// Get all geo objects from the database
-	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects()
+	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects(ctx)
 	if err != nil {
 		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
 	}
