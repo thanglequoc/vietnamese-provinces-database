@@ -419,10 +419,10 @@ func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *mo
 
 	log.Printf("Fetching GIS data for [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
 
-	// SPECIAL CASE: An Giang province (ti32) has corrupted upstream data
+	// SPECIAL CASE: An Giang province (91) has corrupted upstream data
 	// Use manual patch from local file instead
-	if geoObject.Ma == "ti32" {
-		log.Printf("⚠️  DETECTED CORRUPTED DATA: An Giang province (MA: ti32, MALK: %s)", geoObject.MaLK)
+	if geoObject.Ma == "91" {
+		log.Printf("⚠️  DETECTED CORRUPTED DATA: An Giang province (MA: 91, MALK: %s)", geoObject.MaLK)
 		log.Printf("🔧 APPLYING MANUAL PATCH: Loading An Giang GIS data from local file: ./resources/gis/geojson_11Mar2026/32_tinh_an_giang/province.geojson")
 
 		wktBBox, wktGeometry, err := loadAnGiangProvinceFromLocalFile()

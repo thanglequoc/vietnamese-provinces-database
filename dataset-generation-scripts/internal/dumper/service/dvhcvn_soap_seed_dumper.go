@@ -1,10 +1,10 @@
 package service
 
 import (
-	"bufio"
+	// "bufio"
 	"context"
 	"fmt"
-	"os"
+	// "os"
 	"regexp"
 	"strings"
 	"time"
@@ -35,10 +35,12 @@ func NewDvhcvnSoapSeedDumperService() *DvhcvnSoapSeedDumperService {
 func (s *DvhcvnSoapSeedDumperService) BeginDumpingDataWithDvhcvnDirectSource() {
 	fmt.Print("(Optional) Please specify the data date (dd/MM/YYYY). Leave empty to go with default option: ")
 
-	reader := bufio.NewReader(os.Stdin)
-	userInput, _ := reader.ReadString('\n')
-	userInput = strings.TrimSpace(userInput)
-	fmt.Println("Selected date: ", userInput)
+	// reader := bufio.NewReader(os.Stdin)
+	// userInput, _ := reader.ReadString('\n')
+	// userInput = strings.TrimSpace(userInput)
+	// fmt.Println("Selected date: ", userInput)
+
+	userInput := "" // TODO @thangle: Temporary hardcode empty for debugger
 
 	var dataSetTime time.Time
 	if len(strings.TrimSpace(userInput)) == 0 {

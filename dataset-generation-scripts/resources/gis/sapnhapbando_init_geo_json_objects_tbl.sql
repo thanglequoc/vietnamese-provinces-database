@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS sapnhap_geojson_objects (
     magoc TEXT,
     malk TEXT,
     truocsapnhap TEXT,
+    dientichkm2 FLOAT,
     vn_ds_province_code varchar(20),
     vn_ds_ward_code varchar(20),
 
