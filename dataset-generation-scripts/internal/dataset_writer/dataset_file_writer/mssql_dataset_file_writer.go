@@ -167,10 +167,8 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 		}
 		
 		vnWardCode := w.VNDSWardCode
-		// TODO @thangle: Temporary disable parsing area km2
-		areaKm2 := 0.0
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISWardValueTemplate,
-			vnWardCode, w.MaLK, areaKm2, w.BBoxWKT, w.GeomWKT)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
 		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
 		counter++
 
