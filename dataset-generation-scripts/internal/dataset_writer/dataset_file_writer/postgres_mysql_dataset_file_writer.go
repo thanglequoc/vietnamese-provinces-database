@@ -168,22 +168,16 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 
 	postgresScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
 	for _, p := range sapNhapProvincesGIS {
-		// TODO @thangle: Temporary disable parsing area km2
-		// areaKm2, err := parseEuropeanFloat(p.SapNhapSiteProvince.DienTichKm2)
-		areaKm2 := 0.0
 		vnProvinceCode := p.VNDSProvinceCode
-		// if err != nil {
-		// 	log.Panicf("Unable to parse area km2 for province %s, value: %s", vnProvinceCode, p.SapNhapSiteProvince.DienTichKm2)
-		// }
 
 		// Postgres - Postgis use OGC (Open Geospatial Consortium) standard (lng - lat)
 		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
-			vnProvinceCode, p.MaLK, areaKm2, p.BBoxWKT, p.GeomWKT)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
 		// MySQL use official EPSG standard (lat - lng)
 		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
-			vnProvinceCode, p.MaLK, areaKm2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 	}
 
@@ -202,14 +196,12 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 		}
 
 		vnWardCode := w.VNDSWardCode
-		// TODO @thangle: Temporary disable parsing area km2
-		areaKm2 := 0.0
 		postgresInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
-			vnWardCode, w.MaLK, areaKm2, w.BBoxWKT, w.GeomWKT)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
 		mysqlInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
-			vnWardCode, w.MaLK, areaKm2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 
 		counter++

@@ -151,14 +151,8 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 	mssqlScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
 	for _, p := range sapNhapProvincesGIS {
 		vnProvinceCode := p.VNDSProvinceCode
-		// TODO @thangle: Temporary disable parsing area km2
-		areaKm2 := 0.0
-		// areaKm2, err := parseEuropeanFloat(p.SapNhapSiteProvince.DienTichKm2)
-		// if err != nil {
-		// 	log.Panicf("Unable to parse area km2 for province %s, value: %s", vnProvinceCode, p.SapNhapSiteProvince.DienTichKm2)
-		// }
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISProvinceTemplate+"\n",
-			vnProvinceCode, p.MaLK, areaKm2, p.BBoxWKT, p.GeomWKT)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
 		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
 	}
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")

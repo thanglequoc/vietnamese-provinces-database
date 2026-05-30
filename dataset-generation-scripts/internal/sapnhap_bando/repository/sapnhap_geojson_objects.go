@@ -3,8 +3,10 @@ package repository
 import (
 	"context"
 	"fmt"
+	"strconv"
 	"strings"
 
+	dto "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/uptrace/bun"
 )
@@ -21,31 +23,31 @@ func NewSapNhapGeoJSONObjectRepository(db *bun.DB) *SapNhapGeoJSONObjectReposito
 
 func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONObjects(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
 	var geoObjects []*model.SapNhapSiteGeoUnit
-	
+
 	err := r.db.NewSelect().
 		Model(&geoObjects).
 		Relation("Parent").
 		Relation("VNProvince").
 		Relation("VNWard").
 		Scan(ctx)
-	
+
 	if err != nil {
 		return nil, err
 	}
-	
+
 	return geoObjects, nil
 }
 
 // Get All SapNhapGeoJSON Provinces object that vn_ds_ward_code IS NULL (which means they are provinces, not wards)
 func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
 	var geoObjects []*model.SapNhapSiteGeoUnit
-	
+
 	err := r.db.NewSelect().
 		Model(&geoObjects).
 		Relation("VNProvince").
 		Where("sp.vn_ds_ward_code IS NULL").
 		Scan(ctx)
-	
+
 	if err != nil {
 		return nil, err
 	}
@@ -55,7 +57,7 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx conte
 
 func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
 	var geoObjects []*model.SapNhapSiteGeoUnit
-	
+
 	err := r.db.NewSelect().
 		Model(&geoObjects).
 		Relation("Parent").
@@ -63,11 +65,11 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.C
 		Relation("VNWard").
 		Where("sp.vn_ds_ward_code IS NOT NULL").
 		Scan(ctx)
-	
+
 	if err != nil {
 		return nil, err
 	}
-	
+
 	return geoObjects, nil
 }
 
@@ -81,7 +83,20 @@ func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectWKT(ctx conte
 		Set("geom_wkt = ?", geomWKT).
 		Where("ma = ?", ma).
 		Exec(ctx)
-	
+
+	return err
+}
+
+func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectMetadata(ctx context.Context, malk string, metadata dto.SapNhapGeoObjectMetadata) error {
+	dienTichKm2, err := parseEuropeanFloat(metadata.DienTichKM2)
+	if err != nil {
+		return fmt.Errorf("failed to parse DienTichKM2 for malk %s: %w", malk, err)
+	}
+	_, err = r.db.NewUpdate().
+		Model((*model.SapNhapSiteGeoUnit)(nil)).
+		Set("dientichkm2 = ?", dienTichKm2).
+		Where("malk = ?", malk).
+		Exec(ctx)
 	return err
 }
 
@@ -136,4 +151,13 @@ func (r *SapNhapGeoJSONObjectRepository) BatchUpdateProvinceAndWardCodes(ctx con
 	}
 
 	return nil
+}
+
+func parseEuropeanFloat(s string) (float64, error) {
+	// Step 1: remove dots (thousands separator)
+	s = strings.ReplaceAll(s, ".", "")
+	// Step 2: replace comma with dot (decimal separator)
+	s = strings.ReplaceAll(s, ",", ".")
+	// Step 3: parse as float64 (or float32 if you want)
+	return strconv.ParseFloat(s, 64)
 }

@@ -2,8 +2,10 @@ package fetcher
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"net/url"
@@ -19,6 +21,7 @@ const (
 	GET_ALL_PROVINCES_URL          = "https://sapnhap.bando.com.vn/pcotinh"
 	GET_ALL_WARDS_OF_PROVINCES_URL = "https://sapnhap.bando.com.vn/ptracuu"
 	GET_GIS_COORDINATES_URL        = "https://sapnhap.bando.com.vn/pread_json"
+	GET_METADATA_FROM_MALK_URL     = "https://sapnhap.bando.com.vn/p.co_dvhc_id"
 	MAX_RETRIES                    = 5
 	RETRY_DELAY                    = 300 * time.Millisecond
 	MAX_DELAY                      = 5 * time.Second
@@ -173,6 +176,47 @@ func LoadWardsFromJSONFile() ([]dto.SapNhapWardData, error) {
 	}
 
 	return result, nil
+}
+
+/*
+API Look up to get all wards of a province from the sapnhap site
+POST: https://sapnhap.bando.com.vn/p.co_dvhc_id
+*/
+func GetMetadataOfSapNhapGeoObject(ctx context.Context, malk string) (dto.SapNhapGeoObjectMetadata, error) {
+	form := url.Values{}
+	form.Set("malk", malk)
+	req, err := http.NewRequestWithContext(
+		ctx,
+		http.MethodPost,
+		"https://sapnhap.bando.com.vn/p.co_dvhc_id",
+		strings.NewReader(form.Encode()),
+	)
+	if err != nil {
+		return dto.SapNhapGeoObjectMetadata{}, err
+	}
+	req.Header.Set("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+	req.Header.Set("Accept", "application/json, text/plain, */*")
+	client := &http.Client{
+		Timeout: 30 * time.Second,
+	}
+	res, err := client.Do(req)
+	if err != nil {
+		return dto.SapNhapGeoObjectMetadata{}, err
+	}
+	defer res.Body.Close()
+	if res.StatusCode != http.StatusOK {
+		body, _ := io.ReadAll(res.Body)
+		return dto.SapNhapGeoObjectMetadata{}, fmt.Errorf(
+			"unexpected status code %d: %s",
+			res.StatusCode,
+			string(body),
+		)
+	}
+	var metadata []dto.SapNhapGeoObjectMetadata
+	if err := json.NewDecoder(res.Body).Decode(&metadata); err != nil {
+		return dto.SapNhapGeoObjectMetadata{}, err
+	}
+	return metadata[0], nil
 }
 
 /*

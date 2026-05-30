@@ -1,6 +1,7 @@
 package sapnhapbando
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"os"
@@ -23,9 +24,10 @@ func DumpDataFromSapNhapBando() {
 	postgresDB := db.GetPostgresDBConnection()
 	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
 	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
 	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
 
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, sapNhapGeoJSONObjectRepository, postgresDB)
 
 	if err := sapNhapService.BootstrapSapNhapSiteProvinces(); err != nil {
 		log.Fatalf("Failed to dump SapNhapSiteProvinces: %v", err)
@@ -75,7 +77,7 @@ func FetchGISDataFromSapNhapBando() {
 	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
 	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
 	
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, sapNhapGeoJSONObjectRepository, postgresDB)
 	
 	// Fetch GIS data from Bando server and update database
 	log.Println("ℹ️ Starting to fetch GIS data from Bando server...")
@@ -96,9 +98,15 @@ func BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() {
 	sapNhapRepo := sapNhapR.NewSapNhapRepository(postgresDB)
 	sapNhapGISRepo := sapNhapR.NewSapNhapGISRepository(postgresDB)
 	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
-	
-	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, postgresDB)
-	
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
+
+	sapNhapService := sapNhapService.NewSapNhapService(sapNhapRepo, sapNhapGISRepo, vnRepo, sapNhapGeoJSONObjectRepository, postgresDB)
+
+	ctx := context.Background()
+	if err := sapNhapService.FillMetaDataForGeoJSONObjects(ctx); err != nil {
+		log.Fatalf("Failed to fill metadata for geo objects: %v", err)
+	}
+
 	// Backfill province and ward codes
 	log.Println("ℹ️ Starting to backfill province and ward codes...")
 	if err := sapNhapService.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects(); err != nil {
