@@ -124,7 +124,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 	return nil
 }
 
-func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnhapmodels.SapNhapProvinceGIS, sapNhapWardsGIS []sapnhapmodels.SapNhapWardGIS) error {
+func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
 	gisOutputFolderPath := "./output/gis"
@@ -150,13 +150,9 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnha
 
 	mssqlScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
 	for _, p := range sapNhapProvincesGIS {
-		vnProvinceCode := p.SapNhapSiteProvince.VNProvinceCode
-		areaKm2, err := parseEuropeanFloat(p.SapNhapSiteProvince.DienTichKm2)
-		if err != nil {
-			log.Panicf("Unable to parse area km2 for province %s, value: %s", vnProvinceCode, p.SapNhapSiteProvince.DienTichKm2)
-		}
+		vnProvinceCode := p.VNDSProvinceCode
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISProvinceTemplate+"\n",
-			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKT, p.GeomWKT)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
 		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
 	}
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
@@ -170,9 +166,9 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnha
 			mssqlScriptDataWriter.WriteString(insertMssqlGISWardTemplate + "\n")
 		}
 		
-		vnWardCode := w.SapNhapSiteWard.VNWardCode
+		vnWardCode := w.VNDSWardCode
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISWardValueTemplate,
-			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKT, w.GeomWKT)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
 		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
 		counter++
 

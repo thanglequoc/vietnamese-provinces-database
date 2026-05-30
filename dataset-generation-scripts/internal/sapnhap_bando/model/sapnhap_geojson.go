@@ -12,6 +12,7 @@ type SapNhapSiteGeoUnit struct {
 	Ten              string `bun:"ten,notnull"`
 	MaGoc            string `bun:"magoc"`
 	MaLK             string `bun:"malk"`
+	DienTichKM2      float64 `bun:"dientichkm2"`
 	TruocSapNhap     string `bun:"truocsapnhap"`
 	VNDSProvinceCode string `bun:"vn_ds_province_code"`
 	VNDSWardCode     string `bun:"vn_ds_ward_code"`

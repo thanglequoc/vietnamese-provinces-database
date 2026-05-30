@@ -130,7 +130,7 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 	}
 	
 	// Get all geo objects
-	geoObjects, err := s.geoJSONRepo.GetAllSapNhapGeoJSONObjects()
+	geoObjects, err := s.geoJSONRepo.GetAllSapNhapGeoJSONObjects(context.Background())
 	if err != nil {
 		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
 	}
@@ -159,20 +159,20 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 		// SOLUTION: Detect this specific case and override the lookup key to use the corrected name.
 		// We use the corrected raw name "Xã Phó Bảng" then normalize it, which gives us "xã phó bảng".
 		// This matches the lookup map key which was built from wards_tmp's corrected name.
-		if geoObject.Ma == "xa254" {
-			// Remove prefix to isolate the name part for checking
-			nameWithoutPrefix := util.RemoveAdministrativeUnitPrefix(geoObject.Ten)
-			normalizedRaw := strings.ToLower(strings.TrimSpace(nameWithoutPrefix))
-			normalizedRaw = viet.NormalizeToneMarks(normalizedRaw)
+		// if geoObject.Ma == "xa254" {
+		// 	// Remove prefix to isolate the name part for checking
+		// 	nameWithoutPrefix := util.RemoveAdministrativeUnitPrefix(geoObject.Ten)
+		// 	normalizedRaw := strings.ToLower(strings.TrimSpace(nameWithoutPrefix))
+		// 	normalizedRaw = viet.NormalizeToneMarks(normalizedRaw)
 			
-			// Check for the typo: "phố bảng" (with ố) should be corrected to "phó bảng" (with ó)
-			if normalizedRaw == "phố bảng" {
-				// Use the corrected raw name and normalize it
-				// "Xã Phó Bảng" → normalize → "xã phó bảng" (with prefix and corrected ó)
-				correctedRawName := "Xã Phó Bảng"
-				normalizedTen = util.NormalizeForMatching(correctedRawName)
-			}
-		}
+		// 	// Check for the typo: "phố bảng" (with ố) should be corrected to "phó bảng" (with ó)
+		// 	if normalizedRaw == "phố bảng" {
+		// 		// Use the corrected raw name and normalize it
+		// 		// "Xã Phó Bảng" → normalize → "xã phó bảng" (with prefix and corrected ó)
+		// 		correctedRawName := "Xã Phó Bảng"
+		// 		normalizedTen = util.NormalizeForMatching(correctedRawName)
+		// 	}
+		// }
 		
 		// Province matching: magoc IS NULL
 		if geoObject.MaGoc == "" {

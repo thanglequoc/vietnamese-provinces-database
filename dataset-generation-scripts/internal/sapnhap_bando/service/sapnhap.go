@@ -19,20 +19,24 @@ import (
 
 const BANDO_GIS_PROVINCES_FILE_PATH = "./resources/gis/bando_gisserver/provinces.json"
 const BANDO_GIS_WARDS_FILE_PATH = "./resources/gis/bando_gisserver/wards.json"
+const METADATA_API_URL = "https://sapnhap.bando.com.vn/p.co_dvhc_id"
 
 type SapNhapService struct {
-	sapNhapRepo       *repository.SapNhapRepository
-	sapNhapGISRepo    *repository.SapNhapGISRepository
-	vnProvinceTmpRepo *vnRepo.VnProvincesTmpRepository
-	db                *bun.DB
+	sapNhapRepo        *repository.SapNhapRepository
+	sapNhapGISRepo     *repository.SapNhapGISRepository
+	sapNhapGeoJSONRepo *repository.SapNhapGeoJSONObjectRepository
+	vnProvinceTmpRepo  *vnRepo.VnProvincesTmpRepository
+	db                 *bun.DB
 }
 
-func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository, db *bun.DB) *SapNhapService {
+func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository,
+	sapNhapGeoJSONRepo *repository.SapNhapGeoJSONObjectRepository, db *bun.DB) *SapNhapService {
 	return &SapNhapService{
-		sapNhapRepo:       repo,
-		sapNhapGISRepo:    sapNhapGISRepo,
-		vnProvinceTmpRepo: vnRepo,
-		db:                db,
+		sapNhapRepo:        repo,
+		sapNhapGISRepo:     sapNhapGISRepo,
+		sapNhapGeoJSONRepo: sapNhapGeoJSONRepo,
+		vnProvinceTmpRepo:  vnRepo,
+		db:                 db,
 	}
 }
 
@@ -240,16 +244,16 @@ func (s *SapNhapService) BootstrapGISDataFromGISServerV2() error {
 
 // ProcessingError represents a record that failed to process
 type ProcessingError struct {
-	Ma     string
-	Ten    string
-	MaLK   string
-	Error  string
+	Ma    string
+	Ten   string
+	MaLK  string
+	Error string
 }
 
 // ProcessingResult represents the result of processing a single geo object
 type ProcessingResult struct {
 	Success bool
-	Error    ProcessingError
+	Error   ProcessingError
 }
 
 // BackfillProvinceAndWardCodesInSapNhapGeojsonObjects backfills vn_ds_province_code and vn_ds_ward_code
@@ -258,18 +262,18 @@ type ProcessingResult struct {
 func (s *SapNhapService) BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() error {
 	// Create a new repository instance for geo objects using the DB from service
 	geoJSONRepo := repository.NewSapNhapGeoJSONObjectRepository(s.db)
-	
+
 	// Create a backfill service instance
 	backfillService := NewSapNhapBackfillService(s.vnProvinceTmpRepo, geoJSONRepo)
-	
+
 	ctx := context.Background()
-	
+
 	// Execute backfill using the dedicated backfill service
 	err := backfillService.ExecuteBackfill(ctx)
 	if err != nil {
 		return fmt.Errorf("backfill failed: %w", err)
 	}
-	
+
 	log.Println("Backfill of province and ward codes completed successfully")
 	return nil
 }
@@ -279,9 +283,9 @@ func (s *SapNhapService) BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() e
 // Uses parallel processing with a worker pool for improved performance.
 func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) error {
 	ctx := context.Background()
-	
+
 	// Get all geo objects from the database
-	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects()
+	geoObjects, err := geoJSONRepo.GetAllSapNhapGeoJSONObjects(ctx)
 	if err != nil {
 		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
 	}
@@ -291,39 +295,39 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 	// Number of concurrent workers
 	numWorkers := 10
 	log.Printf("Processing with %d concurrent workers", numWorkers)
-	
+
 	// Create channels for work distribution and result collection
 	workChan := make(chan *model.SapNhapSiteGeoUnit, len(geoObjects))
 	resultChan := make(chan ProcessingResult, len(geoObjects))
-	
+
 	// WaitGroup to wait for all workers to finish
 	var wg sync.WaitGroup
-	
+
 	// Mutex for thread-safe error collection
 	var errorMutex sync.Mutex
-	
+
 	// Start worker pool
 	for i := 0; i < numWorkers; i++ {
 		wg.Add(1)
 		go s.worker(ctx, &wg, workChan, resultChan, geoJSONRepo)
 	}
-	
+
 	// Start a goroutine to close resultChan when all workers finish
 	go func() {
 		wg.Wait()
 		close(resultChan)
 	}()
-	
+
 	// Send work to workers
 	for _, geoObject := range geoObjects {
 		workChan <- geoObject
 	}
 	close(workChan)
-	
+
 	// Collect results
 	successCount := 0
 	processingErrors := make([]ProcessingError, 0)
-	
+
 	for result := range resultChan {
 		if result.Success {
 			successCount++
@@ -331,13 +335,13 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 			errorMutex.Lock()
 			processingErrors = append(processingErrors, result.Error)
 			errorMutex.Unlock()
-			log.Printf("Error processing geo object [ma: %s, ten: %s, malk: %s]: %v", 
+			log.Printf("Error processing geo object [ma: %s, ten: %s, malk: %s]: %v",
 				result.Error.Ma, result.Error.Ten, result.Error.MaLK, result.Error.Error)
 		}
 	}
 
 	log.Printf("Processing complete. Success: %d, Errors: %d", successCount, len(processingErrors))
-	
+
 	// Print summary of failed records for manual inspection
 	if len(processingErrors) > 0 {
 		log.Println("\n==========================================")
@@ -351,17 +355,17 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 		log.Println("==========================================")
 		log.Printf("Total failed records: %d out of %d", len(processingErrors), len(geoObjects))
 		log.Println("==========================================")
-		
+
 		return fmt.Errorf("completed with %d errors out of %d total records. See above for details.", len(processingErrors), len(geoObjects))
 	}
-	
+
 	return nil
 }
 
 // worker processes geo objects from the work channel
 func (s *SapNhapService) worker(ctx context.Context, wg *sync.WaitGroup, workChan <-chan *model.SapNhapSiteGeoUnit, resultChan chan<- ProcessingResult, geoJSONRepo *repository.SapNhapGeoJSONObjectRepository) {
 	defer wg.Done()
-	
+
 	for geoObject := range workChan {
 		err := s.processGeoJSONObject(ctx, geoObject, geoJSONRepo)
 		if err != nil {
@@ -419,10 +423,10 @@ func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *mo
 
 	log.Printf("Fetching GIS data for [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
 
-	// SPECIAL CASE: An Giang province (ti32) has corrupted upstream data
+	// SPECIAL CASE: An Giang province (91) has corrupted upstream data
 	// Use manual patch from local file instead
-	if geoObject.Ma == "ti32" {
-		log.Printf("⚠️  DETECTED CORRUPTED DATA: An Giang province (MA: ti32, MALK: %s)", geoObject.MaLK)
+	if geoObject.Ma == "91" {
+		log.Printf("⚠️  DETECTED CORRUPTED DATA: An Giang province (MA: 91, MALK: %s)", geoObject.MaLK)
 		log.Printf("🔧 APPLYING MANUAL PATCH: Loading An Giang GIS data from local file: ./resources/gis/geojson_11Mar2026/32_tinh_an_giang/province.geojson")
 
 		wktBBox, wktGeometry, err := loadAnGiangProvinceFromLocalFile()
@@ -465,5 +469,29 @@ func (s *SapNhapService) processGeoJSONObject(ctx context.Context, geoObject *mo
 	}
 
 	log.Printf("Successfully updated geo object [ma: %s, ten: %s]", geoObject.Ma, geoObject.Ten)
+	return nil
+}
+
+func (s *SapNhapService) FillMetaDataForGeoJSONObjects(ctx context.Context) error {
+	// Get all geo objects from the database
+	geoObjects, err := s.sapNhapGeoJSONRepo.GetAllSapNhapGeoJSONObjects(ctx)
+	if err != nil {
+		return fmt.Errorf("failed to get sapnhap geojson objects: %w", err)
+	}
+
+	for _, geoObject := range geoObjects {
+		log.Printf("Processing geo object [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
+		geoMetadata, err := fetcher.GetMetadataOfSapNhapGeoObject(ctx, geoObject.MaLK)
+		if err != nil {
+			log.Printf("Error fetching metadata for geo object [ma: %s, ten: %s, malk: %s]: %v", geoObject.Ma, geoObject.Ten, geoObject.MaLK, err)
+			continue
+		}
+		err = s.sapNhapGeoJSONRepo.UpdateSapNhapGeoJSONObjectMetadata(ctx, geoObject.MaLK, geoMetadata)
+		if err != nil {
+			log.Printf("Error updating metadata for geo object [ma: %s, ten: %s, malk: %s]: %v", geoObject.Ma, geoObject.Ten, geoObject.MaLK, err)
+		} else {
+			log.Printf("Successfully updated metadata for geo object [ma: %s, ten: %s, malk: %s]", geoObject.Ma, geoObject.Ten, geoObject.MaLK)
+		}
+	}
 	return nil
 }

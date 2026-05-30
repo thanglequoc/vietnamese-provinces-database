@@ -8,6 +8,7 @@ import (
 	"time"
 
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
@@ -131,7 +132,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 	return nil
 }
 
-func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []sapnhapmodels.SapNhapProvinceGIS, sapNhapWardsGIS []sapnhapmodels.SapNhapWardGIS) error {
+func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
 	postgresMySQLGISOutputFolderPath := "./output/gis"
@@ -167,20 +168,16 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 
 	postgresScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
 	for _, p := range sapNhapProvincesGIS {
-		areaKm2, err := parseEuropeanFloat(p.SapNhapSiteProvince.DienTichKm2)
-		vnProvinceCode := p.SapNhapSiteProvince.VNProvinceCode
-		if err != nil {
-			log.Panicf("Unable to parse area km2 for province %s, value: %s", vnProvinceCode, p.SapNhapSiteProvince.DienTichKm2)
-		}
+		vnProvinceCode := p.VNDSProvinceCode
 
 		// Postgres - Postgis use OGC (Open Geospatial Consortium) standard (lng - lat)
 		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
-			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKT, p.GeomWKT)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
 		// MySQL use official EPSG standard (lat - lng)
 		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
-			vnProvinceCode, p.GISServerID, areaKm2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
+			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 	}
 
@@ -198,13 +195,13 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 			mysqlScriptDataWriter.WriteString(insertWardGISTemplate + "\n")
 		}
 
-		vnWardCode := w.SapNhapSiteWard.VNWardCode
+		vnWardCode := w.VNDSWardCode
 		postgresInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
-			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKT, w.GeomWKT)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
 		postgresScriptDataWriter.WriteString(postgresInsertLine)
 
 		mysqlInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
-			vnWardCode, w.GISServerID, w.SapNhapSiteWard.DienTichKm2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
+			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
 		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
 
 		counter++

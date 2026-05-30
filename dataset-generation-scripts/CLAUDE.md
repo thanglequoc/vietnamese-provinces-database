@@ -1,6 +1,10 @@
-# Vietnamese Provinces Database - Claude Code Instructions
+# Vietnamese Provinces Database - Go Service Instructions
 
-This file contains project-specific context for Claude Code to work effectively with this repository.
+**See [../AGENTS.md](../AGENTS.md) for root-level project context**, architecture overview, and multi-database export details.
+
+This file provides subsystem-specific guidance for the Go services in `dataset-generation-scripts/`.
+
+---
 
 ## When to Use Database Queries
 
@@ -105,49 +109,55 @@ dataset-generation-scripts/
 3. **Database Migration:** Scripts handle schema and data seeding
 4. **GIS Data:** All geometry stored in WKT format (PostGIS)
 
-## AI Agent Planning Convention
+## Feature Planning (AI-Assisted Development)
 
-**MANDATORY:** For any new feature developed with an AI agent, the final detailed plan must be saved as a Markdown file under the project's `development/` folder.
+**MANDATORY:** For any new feature, save a detailed plan in the `../development/` folder following the template:
+- **Filename:** Short descriptive summary (e.g., `backfill-province-codes.md`)
+- **Content:** Objectives, affected components, step-by-step logic, edge cases, assumptions
+- **Purpose:** Document all AI-assisted work for future reference and team collaboration
 
-### Requirements
+**See:** [../AGENTS.md#development-workflow](../AGENTS.md#development-workflow) for full requirements and examples.
 
-1. **Filename:** Use a short, descriptive summary of the feature (e.g., `backfill-province-codes-from-tmp-tables.md`)
-2. **Content:** The plan must be sufficiently detailed to serve as a standalone implementation reference, covering:
-   - **Objectives:** What the feature aims to achieve
-   - **Affected Components:** Which files, tables, or systems are impacted
-   - **Step-by-Step Logic:** Detailed implementation steps
-   - **Edge Cases:** Potential issues and how to handle them
-   - **Assumptions:** Any preconditions or assumptions made
+### Recent Feature Examples
+- `adapt_the_removal_of_sapnhap_api.md` — Migration from deprecated API to local file-based data (March 2026)
 
-### Example
+---
 
-```
-development/
-├── adapt_the_removal_of_sapnhap_api.md
-└── your-new-feature-plan.md
-```
+## Internal Package Guide
 
-This ensures that:
-- All AI-assisted development is properly documented
-- Future work can reference previous planning decisions
-- Team members can understand the rationale behind implementation choices
-- Complex features have a written specification before implementation
+| Package | Purpose | Key Files |
+|---------|---------|-----------|
+| `sapnhap_bando/` | Geographic data service | `fetcher/` loads JSON, `service/` orchestrates, `repository/` queries |
+| `vn_provinces_tmp/` | Core VN administrative data layer | Manages `provinces_tmp`, `wards_tmp` tables |
+| `dumper/` | Reads admin data, persists to DB | Integration point with GSO data sources |
+| `dataset_writer/` | Generates SQL/JSON/NoSQL exports | Multi-database output formatting |
+| `gis_comparator/` | Validates GIS data consistency | Ensures GIS IDs match across sources |
+| `database/` | Postgres connection pool | Manages `bun.DB` lifecycle |
+| `testutil/` | Test helpers | Database seeding, fixtures |
 
-## Code Conventions
+---
 
-- **ORM:** Bun (uptrace/bun)
-- **Database:** PostgreSQL with PostGIS
-- **Language:** Go 1.23+
-- **Naming:**
-  - Database: snake_case
-  - Go struct: PascalCase
-  - JSON: snake_case
-- **Error Handling:** Always wrap errors with context using `fmt.Errorf`
+## Key Modules & Dependencies
 
-## Important File Paths
+| Module | Purpose | Usage |
+|--------|---------|-------|
+| `uptrace/bun` + `pgdialect` + `pgdriver` | PostgreSQL ORM | CRUD operations, query building |
+| `joho/godotenv` | `.env` configuration | Load DB credentials |
+| `stretchr/testify` | Testing assertions | Unit & integration tests |
+| `golang.org/x/text` | Unicode normalization | Province/ward name cleaning |
+| `dlclark/regexp2` | Advanced regex | Pattern matching |
 
-- `.env` - Database credentials and configuration
-- `docker-compose.yml` - Docker services (if exists)
+---
+
+## Important Configuration
+
+| File | Purpose |
+|------|---------|
+| `.env` | Database credentials (`DSN` for Postgres connection) |
+| `docker-compose.yml` | Docker services (if exists; see [../AGENTS.md](../AGENTS.md)) |
+| `go.mod` | Go module definition & dependencies |
+| `resources/gis/bando_gisserver/` | JSON metadata for provinces & wards |
+| `resources/gis/geojson_11Mar2026/` | GeoJSON geometry files from deprecated API |
 - `main.go` - Entry point for dataset generation
 - `development/` - Development documentation
 

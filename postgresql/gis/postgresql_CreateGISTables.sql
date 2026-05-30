@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS gis_provinces;
 CREATE TABLE gis_provinces (
   id integer primary key generated always as identity,
   province_code varchar(20) NOT NULL,
-  gis_server_id varchar(20),
+  gis_server_id varchar(50),
   area_km2 numeric(12,5),
   bbox geometry(Polygon, 4326),
   geom geometry(Multipolygon, 4326)
@@ -20,7 +20,7 @@ CREATE INDEX idx_gis_provinces_geom ON gis_provinces USING gist (geom);
 CREATE TABLE gis_wards (
   id integer primary key generated always as identity,
   ward_code varchar(20) NOT NULL,
-  gis_server_id varchar(20),
+  gis_server_id varchar(50),
   area_km2 numeric(12,5),
   bbox geometry(Polygon, 4326),
   geom geometry(Multipolygon, 4326)

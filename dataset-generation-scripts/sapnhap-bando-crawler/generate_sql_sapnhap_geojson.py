@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 # File paths
 input_json_path = './donvi_tinhthanh.json'
@@ -42,9 +43,10 @@ def generate_sql():
 
     # Prepare SQL content
     sql_lines = []
+    current_date = datetime.now().strftime('%Y-%m-%d')
     sql_lines.append("-- SQL Script for sapnhap_geojson_objects")
     sql_lines.append("-- Generated from: " + input_json_path)
-    sql_lines.append("-- Date: 2025-03-15")
+    sql_lines.append("-- Date: " + current_date)
     sql_lines.append("-- Using PostgreSQL Bulk INSERT for performance")
     sql_lines.append("")
     sql_lines.append("BEGIN;")

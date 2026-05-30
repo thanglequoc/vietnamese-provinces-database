@@ -15,7 +15,8 @@ type correctionRule struct {
 // unitCorrections maps unit codes to their specific correction rules
 // This makes it easy to add more corrections as they are discovered
 var unitCorrections = map[string]correctionRule{
-	"00745": {search: "Phố Bảng", replace: "Phó Bảng", correctedCode: ""},
+	// Ref: https://luatvietnam.vn/hanh-chinh/quyet-dinh-19-2025-qd-ttg-cua-thu-tuong-chinh-phu-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam-404751-d1.html
+	// "00745": {search: "Phố Bảng", replace: "Phó Bảng", correctedCode: ""},
 	"06970": {search: "", replace: "", correctedCode: "06978"}, // Ba Chẽ ward - correct code from 06970 to 06978
 }
 
