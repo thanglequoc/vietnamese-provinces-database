@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */
-/* Created at:  Wed, 20 May 2026 20:41:42 +0700 */
+/* Created at:  Sun, 14 Jun 2026 11:26:24 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -258,7 +258,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('00715',N'Lũng Cú',N'Lung Cu',N'Xã Lũng Cú',N'Lung Cu Commune','lung_cu','08',4),
 ('00721',N'Đồng Văn',N'Dong Van',N'Xã Đồng Văn',N'Dong Van Commune','dong_van','08',4),
 ('00733',N'Sà Phìn',N'Sa Phin',N'Xã Sà Phìn',N'Sa Phin Commune','sa_phin','08',4),
-('00745',N'Phó Bảng',N'Pho Bang',N'Xã Phó Bảng',N'Pho Bang Commune','pho_bang','08',4),
+('00745',N'Phố Bảng',N'Pho Bang',N'Xã Phố Bảng',N'Pho Bang Commune','pho_bang','08',4),
 ('00763',N'Lũng Phìn',N'Lung Phin',N'Xã Lũng Phìn',N'Lung Phin Commune','lung_phin','08',4),
 ('00769',N'Mèo Vạc',N'Meo Vac',N'Xã Mèo Vạc',N'Meo Vac Commune','meo_vac','08',4),
 ('00778',N'Sơn Vĩ',N'Son Vi',N'Xã Sơn Vĩ',N'Son Vi Commune','son_vi','08',4),
