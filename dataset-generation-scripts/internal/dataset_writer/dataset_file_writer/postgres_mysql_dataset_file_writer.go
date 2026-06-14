@@ -213,7 +213,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 			counter = 0 // reset counter
 		} else {
 			postgresScriptDataWriter.WriteString(",\n")
-			mysqlScriptDataWriter.WriteString(";\n\n")
+			mysqlScriptDataWriter.WriteString(",\n")
 			isAppending = true
 		}
 	}

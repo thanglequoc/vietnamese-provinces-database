@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS gis_provinces;
 CREATE TABLE gis_provinces (
   id INT PRIMARY KEY AUTO_INCREMENT,
   province_code VARCHAR(20) NOT NULL,
-  gis_server_id VARCHAR(20),
+  gis_server_id VARCHAR(50),
   area_km2 DOUBLE,
   bbox POLYGON NOT NULL SRID 4326,
   geom MULTIPOLYGON NOT NULL SRID 4326,
@@ -22,7 +22,7 @@ CREATE SPATIAL INDEX idx_gis_provinces_geom ON gis_provinces(geom);
 CREATE TABLE gis_wards (
   id INT PRIMARY KEY AUTO_INCREMENT,
   ward_code VARCHAR(20) NOT NULL,
-  gis_server_id VARCHAR(20),
+  gis_server_id VARCHAR(50),
   area_km2 DECIMAL(12,5),
   bbox POLYGON NOT NULL SRID 4326,
   geom MULTIPOLYGON NOT NULL SRID 4326,

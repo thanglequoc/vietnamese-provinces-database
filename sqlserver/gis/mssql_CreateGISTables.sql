@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS gis_provinces;
 CREATE TABLE gis_provinces (
   id INT IDENTITY(1, 1) PRIMARY KEY,
   province_code NVARCHAR(20) NOT NULL,
-  gis_server_id VARCHAR(20),
+  gis_server_id VARCHAR(50),
   area_km2 FLOAT,
   bbox geometry NOT NULL,
   -- polygon
@@ -44,7 +44,7 @@ CREATE SPATIAL INDEX idx_gis_provinces_geom ON gis_provinces(geom) USING GEOMETR
 CREATE TABLE gis_wards (
   id INT IDENTITY(1, 1) PRIMARY KEY,
   ward_code NVARCHAR(20) NOT NULL,
-  gis_server_id VARCHAR(20),
+  gis_server_id VARCHAR(50),
   area_km2 DECIMAL(12, 5),
   bbox geometry NOT NULL,
   -- polygon
