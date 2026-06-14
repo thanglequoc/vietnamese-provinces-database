@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Oracle === */
-/* Created at:  Wed, 20 May 2026 20:41:42 +0700 */
+/* Created at:  Sun, 14 Jun 2026 11:26:24 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -262,7 +262,7 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00715','Lũng Cú','Lung Cu','Xã Lũng Cú','Lung Cu Commune','lung_cu','08',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00721','Đồng Văn','Dong Van','Xã Đồng Văn','Dong Van Commune','dong_van','08',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00733','Sà Phìn','Sa Phin','Xã Sà Phìn','Sa Phin Commune','sa_phin','08',4)
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00745','Phó Bảng','Pho Bang','Xã Phó Bảng','Pho Bang Commune','pho_bang','08',4)
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00745','Phố Bảng','Pho Bang','Xã Phố Bảng','Pho Bang Commune','pho_bang','08',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00763','Lũng Phìn','Lung Phin','Xã Lũng Phìn','Lung Phin Commune','lung_phin','08',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00769','Mèo Vạc','Meo Vac','Xã Mèo Vạc','Meo Vac Commune','meo_vac','08',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('00778','Sơn Vĩ','Son Vi','Xã Sơn Vĩ','Son Vi Commune','son_vi','08',4)
