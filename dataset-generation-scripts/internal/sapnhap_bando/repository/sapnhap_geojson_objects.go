@@ -40,18 +40,30 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONObjects(ctx context
 
 // Get All SapNhapGeoJSON Provinces object that vn_ds_ward_code IS NULL (which means they are provinces, not wards)
 func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx context.Context) ([]*model.SapNhapSiteGeoUnit, error) {
-	var geoObjects []*model.SapNhapSiteGeoUnit
 
+	var geoObjects []*model.SapNhapSiteGeoUnit
 	err := r.db.NewSelect().
 		Model(&geoObjects).
+		Column(
+			"sp.ma",
+			"sp.ten",
+			"sp.magoc",
+			"sp.malk",
+			"sp.dientichkm2",
+			"sp.truocsapnhap",
+			"sp.vn_ds_province_code",
+			"sp.vn_ds_ward_code",
+			"sp.bbox_wkt",
+			"sp.geom_wkt",
+		).
+		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.bbox)) AS bbox_wkt_lat_lng").
+		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.geom)) AS geom_wkt_lat_lng").
 		Relation("VNProvince").
 		Where("sp.vn_ds_ward_code IS NULL").
 		Scan(ctx)
-
 	if err != nil {
 		return nil, err
 	}
-
 	return geoObjects, nil
 }
 
@@ -60,6 +72,20 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.C
 
 	err := r.db.NewSelect().
 		Model(&geoObjects).
+		Column(
+			"sp.ma",
+			"sp.ten",
+			"sp.magoc",
+			"sp.malk",
+			"sp.dientichkm2",
+			"sp.truocsapnhap",
+			"sp.vn_ds_province_code",
+			"sp.vn_ds_ward_code",
+			"sp.bbox_wkt",
+			"sp.geom_wkt",
+		).
+		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.bbox)) AS bbox_wkt_lat_lng").
+		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.geom)) AS geom_wkt_lat_lng").
 		Relation("Parent").
 		Relation("VNProvince").
 		Relation("VNWard").

@@ -7,6 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	vn_provinces_tmp_model "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
@@ -312,4 +313,106 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_CompleteDataset(t *testing.T
 	assert.Contains(t, contentStr, "provinces")
 	assert.Contains(t, contentStr, "wards")
 	assert.Contains(t, contentStr, "END OF SCRIPT FILE")
+}
+
+func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchUsesCommaWithinBatch(t *testing.T) {
+	tmpDir := t.TempDir()
+	originalWD, err := os.Getwd()
+	assert.NoError(t, err)
+
+	err = os.Chdir(tmpDir)
+	assert.NoError(t, err)
+	t.Cleanup(func() {
+		_ = os.Chdir(originalWD)
+	})
+
+	writer := &PostgresMySQLDatasetFileWriter{}
+	wards := []*sapnhapmodels.SapNhapSiteGeoUnit{
+		{
+			VNDSWardCode:   "00001",
+			MaLK:           "xa1.1",
+			DienTichKM2:    10.5,
+			BBoxWKT:        "POLYGON((106 10,107 10,107 11,106 11,106 10))",
+			GeomWKT:        "POLYGON((106 10,107 10,107 11,106 11,106 10))",
+			BBoxWKTLatLng:  "POLYGON((10 106,10 107,11 107,11 106,10 106))",
+			GeomWKTLatLng:  "POLYGON((10 106,10 107,11 107,11 106,10 106))",
+		},
+		{
+			VNDSWardCode:   "00002",
+			MaLK:           "xa2.2",
+			DienTichKM2:    20.25,
+			BBoxWKT:        "POLYGON((108 12,109 12,109 13,108 13,108 12))",
+			GeomWKT:        "POLYGON((108 12,109 12,109 13,108 13,108 12))",
+			BBoxWKTLatLng:  "POLYGON((12 108,12 109,13 109,13 108,12 108))",
+			GeomWKTLatLng:  "POLYGON((12 108,12 109,13 109,13 108,12 108))",
+		},
+	}
+
+	err = writer.WriteGISDataToFile(nil, wards)
+	assert.NoError(t, err)
+
+	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis_*.sql")
+
+	assert.Contains(t, content, "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES")
+	assert.Contains(t, content, "'00001','xa1.1'")
+	assert.Contains(t, content, "'00002','xa2.2'")
+	assert.Contains(t, content, "'00001','xa1.1',10.500000,ST_GeomFromText('POLYGON((10 106,10 107,11 107,11 106,10 106))', 4326),ST_GeomFromText('POLYGON((10 106,10 107,11 107,11 106,10 106))', 4326))\n,\n('00002'")
+	assert.Contains(t, content, "'00002','xa2.2',20.250000,ST_GeomFromText('POLYGON((12 108,12 109,13 109,13 108,12 108))', 4326),ST_GeomFromText('POLYGON((12 108,12 109,13 109,13 108,12 108))', 4326))\n;\n\n")
+	assert.NotContains(t, content, ";\n\n('00002'")
+	}
+
+func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchSplitsAtBatchSize(t *testing.T) {
+	tmpDir := t.TempDir()
+	originalWD, err := os.Getwd()
+	assert.NoError(t, err)
+
+	err = os.Chdir(tmpDir)
+	assert.NoError(t, err)
+	t.Cleanup(func() {
+		_ = os.Chdir(originalWD)
+	})
+
+	writer := &PostgresMySQLDatasetFileWriter{}
+	wards := make([]*sapnhapmodels.SapNhapSiteGeoUnit, batchInsertItemSize+1)
+	for i := range wards {
+		code := "00001"
+		if i == batchInsertItemSize {
+			code = "00051"
+		}
+
+		wards[i] = &sapnhapmodels.SapNhapSiteGeoUnit{
+			VNDSWardCode:  code,
+			MaLK:          "xa.test",
+			DienTichKM2:   float64(i + 1),
+			BBoxWKT:       "POLYGON((106 10,107 10,107 11,106 11,106 10))",
+			GeomWKT:       "POLYGON((106 10,107 10,107 11,106 11,106 10))",
+			BBoxWKTLatLng: "POLYGON((10 106,10 107,11 107,11 106,10 106))",
+			GeomWKTLatLng: "POLYGON((10 106,10 107,11 107,11 106,10 106))",
+		}
+	}
+
+	err = writer.WriteGISDataToFile(nil, wards)
+	assert.NoError(t, err)
+
+	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis_*.sql")
+
+	assert.Equal(t, 2, strings.Count(content, "INSERT INTO gis_wards("))
+	assert.Contains(t, content, "'00001','xa.test',1.000000")
+	assert.Contains(t, content, "'00051','xa.test',51.000000")
+	assert.NotContains(t, content, "));\n\n(")
+}
+
+func readGeneratedGISFile(t *testing.T, rootDir, pattern string) string {
+	t.Helper()
+
+	matches, err := filepath.Glob(filepath.Join(rootDir, "output", "gis", pattern))
+	assert.NoError(t, err)
+	if !assert.Len(t, matches, 1, "should have created one GIS output file") {
+		return ""
+	}
+
+	content, err := os.ReadFile(matches[0])
+	assert.NoError(t, err)
+
+	return string(content)
 }
