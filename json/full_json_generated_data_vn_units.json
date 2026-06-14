@@ -2883,9 +2883,9 @@
    {
     "Type": "ward",
     "Code": "00745",
-    "Name": "Phó Bảng",
+    "Name": "Phố Bảng",
     "NameEn": "Pho Bang",
-    "FullName": "Xã Phó Bảng",
+    "FullName": "Xã Phố Bảng",
     "FullNameEn": "Pho Bang Commune",
     "CodeName": "pho_bang",
     "ProvinceCode": "08",
