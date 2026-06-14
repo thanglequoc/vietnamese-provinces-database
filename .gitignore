@@ -4,3 +4,4 @@
 
 .vscode
 dataset-generation-scripts/output/*
+dataset-generation-scripts/resources/gis/exported
