@@ -359,6 +359,12 @@ func (s *SapNhapService) FetchGISDataFromSapNhapBando(geoJSONRepo *repository.Sa
 		return fmt.Errorf("completed with %d errors out of %d total records. See above for details.", len(processingErrors), len(geoObjects))
 	}
 
+	correctedCount, err := geoJSONRepo.CorrectMismatchedBBoxWKTFromGeom(ctx)
+	if err != nil {
+		return fmt.Errorf("failed to correct mismatched bbox_wkt from geom after GIS import: %w", err)
+	}
+	log.Printf("Post-import bbox correction complete. Corrected %d rows using ST_Envelope(geom)", correctedCount)
+
 	return nil
 }
 

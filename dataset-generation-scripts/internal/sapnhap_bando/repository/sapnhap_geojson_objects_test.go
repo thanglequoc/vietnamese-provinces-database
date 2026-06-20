@@ -1,70 +1,109 @@
 package repository
 
 import (
+	"context"
+	"database/sql"
+	"os"
 	"testing"
 
-	_ "context" // Will be used when tests are implemented
-	_ "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model" // Will be used when tests are implemented
-	_ "github.com/stretchr/testify/assert" // Will be used when tests are implemented
-	_ "github.com/stretchr/testify/require" // Will be used when tests are implemented
+	"github.com/joho/godotenv"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	dbpkg "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	"github.com/uptrace/bun"
 )
 
-// TestUpdateSapNhapGeoJSONObjectWKT tests the UpdateSapNhapGeoJSONObjectWKT method
-// This is a basic unit test. For full integration testing, you would need to set up a test database.
-func TestUpdateSapNhapGeoJSONObjectWKT(t *testing.T) {
-	// This test would require a database connection to work properly.
-	// For now, we'll verify the method signature and basic logic.
-	// In a real scenario, you would use testfixtures or setup a test database.
-	
-	t.Skip("Skipping test - requires database connection setup")
-
-	// Example of how this test would work with a real database:
-	/*
+func TestCorrectMismatchedBBoxWKTFromGeom(t *testing.T) {
 	db := setupTestDB(t)
-	defer cleanupTestDB(t, db)
-	
-	repo := NewSapNhapGeoJSONObjectRepository(db)
 	ctx := context.Background()
-	
-	// Insert a test record
-	testObject := &model.SapNhapSiteGeoUnit{
-		Ma:     "test_ma_001",
-		Ten:    "Test Object",
-		MaLK:   "test_malk_001",
-		BBoxWKT: "",
-		GeomWKT: "",
+	tx, err := db.BeginTx(ctx, &sql.TxOptions{})
+	require.NoError(t, err)
+	t.Cleanup(func() {
+		require.NoError(t, tx.Rollback())
+	})
+
+	repo := NewSapNhapGeoJSONObjectRepository(tx)
+
+	badRow := &model.SapNhapSiteGeoUnit{
+		Ma:      "test_bbox_bad",
+		Ten:     "Test BBox Bad",
+		MaLK:    "test_malk_bad",
+		BBoxWKT: "POLYGON((-1 -1, -1 20.955745, 105.677417 20.955745, 105.677417 -1, -1 -1))",
+		GeomWKT: "MULTIPOLYGON(((105.59755 20.880711, 105.59755 20.955745, 105.677417 20.955745, 105.677417 20.880711, 105.59755 20.880711)))",
 	}
-	
-	err := repo.InsertSapNhapGeoJSONObject(ctx, testObject)
+	goodRow := &model.SapNhapSiteGeoUnit{
+		Ma:      "test_bbox_good",
+		Ten:     "Test BBox Good",
+		MaLK:    "test_malk_good",
+		BBoxWKT: "POLYGON((105.573681 20.935366, 105.573681 21.013438, 105.636725 21.013438, 105.636725 20.935366, 105.573681 20.935366))",
+		GeomWKT: "MULTIPOLYGON(((105.573681 20.935366, 105.573681 21.013438, 105.636725 21.013438, 105.636725 20.935366, 105.573681 20.935366)))",
+	}
+
+	insertTestGeoObject(t, tx, badRow)
+	insertTestGeoObject(t, tx, goodRow)
+
+	updatedCount, err := repo.CorrectMismatchedBBoxWKTFromGeom(ctx)
 	require.NoError(t, err)
-	
-	// Test update
-	bboxWKT := "POLYGON((102.318061 21.687088, 102.318061 22.812316, 109.459493 22.812316, 109.459493 21.687088, 102.318061 21.687088))"
-	geomWKT := "MULTIPOLYGON((...))"
-	
-	err = repo.UpdateSapNhapGeoJSONObjectWKT(ctx, "test_ma_001", bboxWKT, geomWKT)
-	assert.NoError(t, err)
-	
-	// Verify the update
-	updatedObject, err := repo.GetSapNhapGeoObjectByMa(ctx, "test_ma_001")
-	require.NoError(t, err)
-	assert.Equal(t, bboxWKT, updatedObject.BBoxWKT)
-	assert.Equal(t, geomWKT, updatedObject.GeomWKT)
-	*/
+	assert.GreaterOrEqual(t, updatedCount, 1)
+
+	updatedBadRow := getTestGeoObjectByMa(t, tx, badRow.Ma)
+	updatedGoodRow := getTestGeoObjectByMa(t, tx, goodRow.Ma)
+
+	assert.Equal(t,
+		"POLYGON((105.59755 20.880711,105.59755 20.955745,105.677417 20.955745,105.677417 20.880711,105.59755 20.880711))",
+		updatedBadRow.BBoxWKT,
+	)
+	assert.Equal(t, goodRow.BBoxWKT, updatedGoodRow.BBoxWKT)
+	assert.Equal(t, 0, countBBoxMismatchesForMaList(t, tx, badRow.Ma, goodRow.Ma))
 }
 
-// TestUpdateSapNhapGeoJSONObjectWKTEmptyMa tests error handling for empty ma parameter
-func TestUpdateSapNhapGeoJSONObjectWKTEmptyMa(t *testing.T) {
-	t.Skip("Skipping test - requires database connection setup")
-	
-	// This would test that the method handles empty ma parameter correctly
-	// and returns an appropriate error
+func setupTestDB(t *testing.T) *bun.DB {
+	t.Helper()
+	originalWD, err := os.Getwd()
+	require.NoError(t, err)
+	require.NoError(t, os.Chdir("../../../"))
+	t.Cleanup(func() {
+		require.NoError(t, os.Chdir(originalWD))
+	})
+	require.NoError(t, godotenv.Load(".env"))
+	return dbpkg.GetPostgresDBConnection()
 }
 
-// TestUpdateSapNhapGeoJSONObjectWKTNonExistent tests error handling for non-existent record
-func TestUpdateSapNhapGeoJSONObjectWKTNonExistent(t *testing.T) {
-	t.Skip("Skipping test - requires database connection setup")
-	
-	// This would test that the method handles non-existent records correctly
-	// and returns an appropriate error or does nothing (depending on the desired behavior)
+func insertTestGeoObject(t *testing.T, db bun.IDB, geoObject *model.SapNhapSiteGeoUnit) {
+	t.Helper()
+	_, err := db.NewInsert().
+		Model(geoObject).
+		Column("ma", "ten", "malk", "bbox_wkt", "geom_wkt").
+		Exec(context.Background())
+	require.NoError(t, err)
+}
+
+func getTestGeoObjectByMa(t *testing.T, db bun.IDB, ma string) *model.SapNhapSiteGeoUnit {
+	t.Helper()
+
+	var geoObject model.SapNhapSiteGeoUnit
+	err := db.NewSelect().
+		Model(&geoObject).
+		Where("ma = ?", ma).
+		Scan(context.Background())
+	require.NoError(t, err)
+
+	return &geoObject
+}
+
+func countBBoxMismatchesForMaList(t *testing.T, db bun.IDB, maList ...string) int {
+	t.Helper()
+
+	var count int
+	err := db.NewSelect().
+		Model((*model.SapNhapSiteGeoUnit)(nil)).
+		ColumnExpr("COUNT(*)").
+		Where("ma IN (?)", bun.In(maList)).
+		Where("geom IS NOT NULL").
+		Where("(bbox IS NULL OR NOT ST_Equals(bbox, ST_Envelope(geom)))").
+		Scan(context.Background(), &count)
+	require.NoError(t, err)
+
+	return count
 }
