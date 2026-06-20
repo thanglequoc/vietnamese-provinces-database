@@ -7,6 +7,7 @@
 
 A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
 Data is updated as of the most recent effective decree: [30/2026/QH16][source government decree]  
+**Add-on includes**: SQL GIS Dataset
 
 If you find this repository helpful, please consider giving it a ⭐ — it helps us stay motivated to keep improving and delivering valuable tools for the community. Also, starring the repo makes it easier to stay updated with future releases.
 
@@ -52,51 +53,26 @@ The following table contains a list of issued decrees and their effective dates,
 
 ## Installation
 
-### Postgresql
-
-Either use your existing database, or create a new one:
+Create a database (if applicable):
 
 ```sql
 CREATE DATABASE vietnamese_administrative_units;
 ```
 
-Execute the `CreateTable_vn_units.sql` in the [postgresql directory](postgresql) first in the target database to generate all the table structure.
+Then execute the following scripts in order:
 
-Then follow up by executing the `ImportData_vn_units.sql` to import data to these generated tables.
+1. `CreateTable_vn_units.sql` – creates the database schema.  
+2. `ImportData_vn_units.sql` – imports the dataset.  
 
+Choose the scripts from the corresponding database directory:
+| Database | Directory |
+|-----------|-----------|
+| PostgreSQL | `postgresql/` |
+| MySQL / MariaDB | `mysql/` |
+| Microsoft SQL Server | `sqlserver/` |
+| Oracle | `oracle/` |
 
-### MySQL - MariaDB
-
-Either use your existing database, or create a new one:
-
-```sql
-CREATE DATABASE vietnamese_administrative_units;
-```
-
-Execute the `CreateTable_vn_units.sql` in the [mysql directory](mysql) first in the target database to generate all the table structure.
-
-Then follow up by executing the `ImportData_vn_units.sql` to import data to these generated tables.
-
-
-### Microsoft SQL Server
-
-Either use your existing database, or create a new one:
-
-```sql
-CREATE DATABASE vietnamese_administrative_units;
-```
-
-Execute the `CreateTable_vn_units.sql` in the [sqlserver directory](sqlserver) first in the target database to generate all the table structure.
-
-Then follow up by executing the `ImportData_vn_units.sql` to import data to these generated tables.
-
-### Oracle
-
-Either use your existing database, or create a new one
-
-Execute the `CreateTable_vn_units.sql` in the [oracle directory](oracle) first in the target database to generate all the table structure.
-
-Then follow up by executing the `ImportData_vn_units.sql` to import data to these generated tables.
+> Oracle users may use an existing database/schema, as database creation is environment-specific.
 
 ## Tables Schema
 
