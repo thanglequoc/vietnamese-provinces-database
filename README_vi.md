@@ -255,6 +255,16 @@ Lưu ý: Do API SOAP của Tổng cục Thống kê chưa được cập nhật 
 
 Sau khi số lượng tỉnh được sáp nhập còn 37, các tỉnh mới — chẳng hạn như Phú Thọ, được hình thành từ Vĩnh Phúc, Phú Thọ và Hòa Bình — hiện nay trải dài trên nhiều vùng hành chính trước đây. Do các tỉnh cũ thuộc các vùng khác nhau, nên việc xác định vùng hành chính cho tỉnh mới không còn chính xác nữa.
 
+### Tôi có thể sử dụng bộ dữ liệu này cho các dự án thương mại không?
+
+Có. Hoàn toàn được.  
+Bộ dữ liệu này được phát hành theo [Giấy phép MIT](LICENSE), cho phép bạn tự do sử dụng, chỉnh sửa và phân phối trong cả các dự án cá nhân lẫn thương mại.  
+
+Bạn không cần đăng ký, xin phép tác giả hoặc trả bất kỳ khoản phí cấp phép nào.  
+Nếu thấy dự án hữu ích, hãy cân nhắc tặng một ngôi sao (⭐) trên GitHub hoặc đóng góp các cải tiến để hỗ trợ cộng đồng.
+
+Kho lưu trữ này là một dự án cộng đồng độc lập và không trực thuộc Tổng cục Thống kê Việt Nam hoặc bất kỳ cơ quan nhà nước nào của Việt Nam. Bộ dữ liệu được cung cấp theo nguyên trạng ("as is"), không kèm theo bất kỳ cam kết hay bảo đảm nào dưới bất kỳ hình thức nào.
+
 ### Tôi tìm thấy một vài lỗi trong tệp dữ liệu SQL này?
 
 Nếu bạn có bất kỳ một đề xuất nào có thể cải tiến dự án, xin vui lòng [tạo một Issue](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/issues) và cung cấp thông tin cụ thể.  
