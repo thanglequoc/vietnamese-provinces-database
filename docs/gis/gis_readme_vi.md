@@ -23,6 +23,8 @@
 
 **Bộ dữ liệu GIS** là một phần mở rộng tùy chọn của dự án Vietnamese Provinces Database, cung cấp dữ liệu hình học ranh giới hành chính có độ chính xác cao cho các đơn vị hành chính của Việt Nam. Bộ dữ liệu này chứa thông tin ranh giới địa lý chi tiết của toàn bộ 34 tỉnh/thành phố và 3.321 xã/phường, hỗ trợ các truy vấn không gian (geospatial queries) và trực quan hóa bản đồ một cách hiệu quả.
 
+Dữ liệu ranh giới GIS được xây dựng dựa trên dữ liệu từ [Bản đồ tra cứu các đơn vị hành chính Việt Nam](https://sapnhap.bando.com.vn), do Nhà xuất bản Tài nguyên, Môi trường và Bản đồ Việt Nam thuộc Bộ Nông nghiệp và Môi trường phát hành.
+
 ### Bộ dữ liệu GIS là gì?
 
 Bộ dữ liệu GIS bao gồm:

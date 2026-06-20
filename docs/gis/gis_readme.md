@@ -26,7 +26,9 @@
 
 The **GIS Dataset** is an optional add-on for the Vietnamese Provinces Database project that provides high-precision administrative boundary geometries for Vietnam's administrative units. This dataset contains detailed geographic boundaries for all 34 provinces and 3,321 communes/wards, enabling sophisticated geospatial queries and visualization.
 
-### What Is the GIS Dataset?
+GIS boundary data was derived from the [Vietnam Administrative Units Reference Map](https://sapnhap.bando.com.vn), published by the Vietnam Natural Resources, Environment and Cartography Publishing House under the Ministry of Agriculture and Environment.
+
+### What is the GIS Dataset?
 
 The GIS dataset consists of:
 - **Geographic boundary geometries** stored as spatial data structures (Multipolygons)
