@@ -244,6 +244,7 @@ See [GIS Dataset](./docs/gis/gis_readme.md)
 
 ### What is the original data source that this repository develope from?
 The data of provinces and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
+
 **Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document [19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]
 
 ### How are the primary keys defined?
@@ -258,6 +259,16 @@ The data of provinces and wards are created base on the [API province data provi
 ### The province - administrative region relationship is dropped from v3.0.0?
 
 After the provinces merge down to 37 provinces, the new province e.g: Phú Thọ, which is formed from Vĩnh Phúc, Phú Thọ and Hoà Bình that previously span across 3 different regions, so it's no longer applicable to determine which region does the new province belongs to.
+
+### Can I use this dataset in commercial projects?
+
+Yes. Absolutely.  
+This dataset is released under the [MIT License](LICENSE), allowing you to use, modify, and distribute it freely in both personal and commercial projects.
+No registration, permission request, or licensing fee is required.
+
+If you find the project useful, consider giving it a star ⭐ on GitHub or contributing improvements back to the community.
+
+This repository is an independent community project and is not affiliated with the General Statistics Office of Vietnam or any Vietnamese government agency. The dataset is provided “as is” without warranty of any kind.
 
 ### I saw some issues in the SQL patch?
 
