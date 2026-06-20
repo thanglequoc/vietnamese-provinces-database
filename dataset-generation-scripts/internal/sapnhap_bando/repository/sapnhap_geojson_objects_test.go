@@ -67,7 +67,38 @@ func setupTestDB(t *testing.T) *bun.DB {
 		require.NoError(t, os.Chdir(originalWD))
 	})
 	require.NoError(t, godotenv.Load(".env"))
-	return dbpkg.GetPostgresDBConnection()
+
+	db := dbpkg.GetPostgresDBConnection()
+	ctx := context.Background()
+
+	// Initialize PostGIS extension (for CI environments)
+	_, err = db.ExecContext(ctx, "CREATE EXTENSION IF NOT EXISTS postgis;")
+	if err != nil {
+		t.Logf("Warning: Could not create postgis extension: %v", err)
+	}
+
+	// Initialize sapnhap_geojson_objects table if it doesn't exist
+	_, err = db.ExecContext(ctx, `
+		CREATE TABLE IF NOT EXISTS sapnhap_geojson_objects (
+			ma VARCHAR(50) PRIMARY KEY,
+			ten VARCHAR(255) NOT NULL,
+			magoc VARCHAR(50),
+			malk VARCHAR(255),
+			dientichkm2 FLOAT8,
+			truocsapnhap VARCHAR(255),
+			vn_ds_province_code VARCHAR(20),
+			vn_ds_ward_code VARCHAR(20),
+			bbox_wkt TEXT,
+			geom_wkt TEXT,
+			bbox GEOMETRY(POLYGON, 4326),
+			geom GEOMETRY(MULTIPOLYGON, 4326)
+		)
+	`)
+	if err != nil {
+		t.Logf("Warning: Could not create sapnhap_geojson_objects table: %v", err)
+	}
+
+	return db
 }
 
 func insertTestGeoObject(t *testing.T, db bun.IDB, geoObject *model.SapNhapSiteGeoUnit) {

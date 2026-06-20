@@ -13,13 +13,13 @@ jobs:
     
     services:
       postgres:
-        image: postgres:15-alpine
+        image: postgis/postgis:15-3.3
         env:
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: test_db
+          POSTGRES_PASSWORD: root
+          POSTGRES_DB: vn_provinces_tmp
           POSTGRES_USER: postgres
         ports:
-          - 5432:5432
+          - 15432:5432
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -35,19 +35,28 @@ jobs:
         with:
           go-version: stable
       
-      - name: Change to dataset-generation-scripts directory
-        run: cd dataset-generation-scripts
-      
       - name: Download dependencies
         working-directory: ./dataset-generation-scripts
         run: go mod download
       
+      - name: Initialize database
+        env:
+          PGPASSWORD: root
+        run: |
+          sudo apt-get update && sudo apt-get install -y postgresql-client
+          sleep 5
+          psql -h localhost -p 15432 -U postgres -d vn_provinces_tmp -c "CREATE EXTENSION IF NOT EXISTS postgis;" || true
+          psql -h localhost -p 15432 -U postgres -d vn_provinces_tmp -a -f dataset-generation-scripts/resources/db_table_init.sql || true
+          psql -h localhost -p 15432 -U postgres -d vn_provinces_tmp -a -f dataset-generation-scripts/resources/db_region_administrative_unit.sql || true
+          psql -h localhost -p 15432 -U postgres -d vn_provinces_tmp -a -f dataset-generation-scripts/resources/gis/sapnhap_bando_tables.sql || true
+          psql -h localhost -p 15432 -U postgres -d vn_provinces_tmp -a -f dataset-generation-scripts/resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql || true
+      
       - name: Run tests
         working-directory: ./dataset-generation-scripts
         env:
-          POSTGRES_HOST: localhost
-          POSTGRES_PORT: 5432
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: test_db
+          POSTGRES_DB_HOST: localhost
+          POSTGRES_DB_PORT: 15432
+          POSTGRES_DB_USERNAME: postgres
+          POSTGRES_DB_PSWD: root
+          POSTGRES_TMP_DB_NAME: vn_provinces_tmp
         run: go test -v ./...
