@@ -22,8 +22,9 @@ Chính phủ Việt Nam có thể ban hành những nghị định để thay đ
 
 Bảng dưới thông kê các nghị định đã được ban hành, cùng thời gian có hiệu lực, cùng phiên bản của bộ dữ liệu tỉnh thành Việt Nam từ phiên bản đầu tiên.
 
-|Nghị định|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
+|Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|Thêm dữ liệu GIS|---|---|v4.0.0|
 |[30/2026/QH16][decree 30/2026/QH16], [237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
 |[19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]|30/06/2025|01/07/2025|v3.0.2|
 |Sửa chính tả, cutoff dữ liệu trước  19/2025/QĐ-TTg|15/01/2025|01/03/2025|v2.4.1
