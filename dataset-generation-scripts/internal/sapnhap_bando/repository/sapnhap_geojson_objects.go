@@ -12,10 +12,10 @@ import (
 )
 
 type SapNhapGeoJSONObjectRepository struct {
-	db *bun.DB
+	db bun.IDB
 }
 
-func NewSapNhapGeoJSONObjectRepository(db *bun.DB) *SapNhapGeoJSONObjectRepository {
+func NewSapNhapGeoJSONObjectRepository(db bun.IDB) *SapNhapGeoJSONObjectRepository {
 	return &SapNhapGeoJSONObjectRepository{
 		db: db,
 	}
@@ -111,6 +111,25 @@ func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectWKT(ctx conte
 		Exec(ctx)
 
 	return err
+}
+
+func (r *SapNhapGeoJSONObjectRepository) CorrectMismatchedBBoxWKTFromGeom(ctx context.Context) (int, error) {
+	result, err := r.db.NewUpdate().
+		Model((*model.SapNhapSiteGeoUnit)(nil)).
+		Set("bbox_wkt = ST_AsText(ST_Envelope(geom))").
+		Where("geom IS NOT NULL").
+		Where("(bbox IS NULL OR NOT ST_Equals(bbox, ST_Envelope(geom)))").
+		Exec(ctx)
+	if err != nil {
+		return 0, fmt.Errorf("failed to correct mismatched bbox_wkt from geom: %w", err)
+	}
+
+	rowsAffected, err := result.RowsAffected()
+	if err != nil {
+		return 0, fmt.Errorf("failed to read corrected bbox row count: %w", err)
+	}
+
+	return int(rowsAffected), nil
 }
 
 func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectMetadata(ctx context.Context, malk string, metadata dto.SapNhapGeoObjectMetadata) error {
