@@ -18,7 +18,6 @@ The data of provinces and wards are created base on the [API province data provi
 
 This dataset also include additional information apart from the original provinces, wards data from the original data. Please see section [Additional change make by this repository](#additional-change-make-by-this-repository).  
 
-
 ### Dataset releases and Government issued decrees
 
 The Vietnamese Government may issue decree from time to time to adjust the administrative unit structure. You can track the latest issued decrees [here][decree issued page].  
@@ -50,6 +49,7 @@ The following table contains a list of issued decrees and their effective dates,
 - Assigned administrative units to province and ward data  
 - Generated English names for provinces and wards, offering both full and short forms  
 - Generated code names (slugs) for provinces and wards  
+- **Add-on**: Additional GIS dataset for administrative units
 
 ## Installation
 
@@ -226,6 +226,19 @@ Along with traditional SQL dataset, the Vietnamese Provinces Database also comes
 - **JSON** format (feature full, simplified and vn_only_simplified versions)
 - **MongoDB**
 - **Redis**
+
+## Add-ons
+In addition to the administrative units dataset, this repository also includes optional add-on data extend its functionality.  
+
+### GIS Dataset
+[![image.png](https://i.postimg.cc/dVmQJSFg/image.png)](https://postimg.cc/k2GPcsBy)
+
+The GIS add-on provides administrative boundary geometries for Vietnamese administrative units and is available for 
+- PostgreSQL/PostGIS  
+- MySQL  
+- Microsoft SQL Server  
+
+See [GIS Dataset](./docs/gis/gis_readme.md)
 
 ## FAQ
 
