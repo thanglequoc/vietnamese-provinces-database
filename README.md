@@ -246,7 +246,7 @@ See [GIS Dataset](./docs/gis/gis_readme.md)
 ### What is the original data source that this repository develope from?
 The data of provinces and wards are created base on the [API province data provided by the General Statistics Office of Vietnam website][source goverment API].  
 
-**Disclaimer:** Since the GSO SOAP API is not updated with the most recent 34 provinces breaking change. The latest data are purely rely on the document [19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]
+GIS boundary data was derived from the [Vietnam Administrative Units Reference Map](https://sapnhap.bando.com.vn), published by the Vietnam Natural Resources, Environment and Cartography Publishing House under the Ministry of Agriculture and Environment.
 
 ### How are the primary keys defined?
 

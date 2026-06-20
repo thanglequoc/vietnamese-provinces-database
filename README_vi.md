@@ -240,8 +240,9 @@ Xem thêm: [Bộ dữ liệu GIS](./docs/gis/gis_readme_vi.md)
 
 ### Dự án này xây dựng dữ liệu từ đâu?
 
-Dữ liệu về các tỉnh và phường được tạo dựa trên [API dữ liệu tỉnh do Tổng cục Thống kê Việt Nam cung cấp trên website chính thức][source goverment API].
-Lưu ý: Do API SOAP của Tổng cục Thống kê chưa được cập nhật theo thay đổi mới nhất liên quan đến việc chia tách 34 tỉnh. Vì vậy, dữ liệu mới nhất hoàn toàn dựa trên văn bản [Nghị định 19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg].
+Dữ liệu về các tỉnh và phường được tạo dựa trên [API dữ liệu tỉnh do Tổng cục Thống kê Việt Nam cung cấp trên website chính thức][source goverment API]  
+
+Dữ liệu ranh giới GIS được xây dựng dựa trên dữ liệu từ [Bản đồ tra cứu các đơn vị hành chính Việt Nam](https://sapnhap.bando.com.vn), do Nhà xuất bản Tài nguyên, Môi trường và Bản đồ Việt Nam thuộc Bộ Nông nghiệp và Môi trường phát hành.
 
 ### Các khoá định danh được định nghĩa dựa trên đâu?
 
