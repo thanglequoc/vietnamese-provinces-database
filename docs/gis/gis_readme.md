@@ -387,6 +387,7 @@ For most users of this project, [DBeaver](https://dbeaver.io/) is the recommende
 
 - [PostGIS Documentation](https://postgis.net/documentation/)
 - [MySQL Spatial Data Types](https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html)
+- [MySQL Spatial Analysis Functions](https://dev.mysql.com/doc/refman/8.4/en/spatial-analysis-functions.html)
 - [SQL Server Spatial Data](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-sql-server)
 - [GIS Concepts & Standards](https://en.wikipedia.org/wiki/Geographic_information_system)
 - [WGS 84 Reference System](https://epsg.io/4326)
