@@ -402,6 +402,7 @@ Sao chép kết quả GeoJSON và dán vào https://geojson.io/ để xem trực
 
 - [Tài liệu PostGIS](https://postgis.net/documentation/)
 - [Kiểu dữ liệu không gian trong MySQL](https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html)
+- [Các hàm không gian trong MySQL](https://dev.mysql.com/doc/refman/8.4/en/spatial-analysis-functions.html)
 - [Dữ liệu không gian trong SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-sql-server)
 - [Khái niệm và tiêu chuẩn GIS](https://en.wikipedia.org/wiki/Geographic_information_system)
 - [Hệ quy chiếu WGS 84](https://epsg.io/4326)
