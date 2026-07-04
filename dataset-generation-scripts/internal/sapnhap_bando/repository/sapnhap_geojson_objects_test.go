@@ -14,7 +14,7 @@ import (
 	"github.com/uptrace/bun"
 )
 
-func TestCorrectMismatchedBBoxWKTFromGeom(t *testing.T) {
+func TestUpdateSapNhapGeoJSONObjectGeomWKT_DerivesBBoxFromGeom(t *testing.T) {
 	db := setupTestDB(t)
 	ctx := context.Background()
 	tx, err := db.BeginTx(ctx, &sql.TxOptions{})
@@ -25,37 +25,28 @@ func TestCorrectMismatchedBBoxWKTFromGeom(t *testing.T) {
 
 	repo := NewSapNhapGeoJSONObjectRepository(tx)
 
-	badRow := &model.SapNhapSiteGeoUnit{
-		Ma:      "test_bbox_bad",
-		Ten:     "Test BBox Bad",
-		MaLK:    "test_malk_bad",
-		BBoxWKT: "POLYGON((-1 -1, -1 20.955745, 105.677417 20.955745, 105.677417 -1, -1 -1))",
-		GeomWKT: "MULTIPOLYGON(((105.59755 20.880711, 105.59755 20.955745, 105.677417 20.955745, 105.677417 20.880711, 105.59755 20.880711)))",
-	}
-	goodRow := &model.SapNhapSiteGeoUnit{
-		Ma:      "test_bbox_good",
-		Ten:     "Test BBox Good",
-		MaLK:    "test_malk_good",
-		BBoxWKT: "POLYGON((105.573681 20.935366, 105.573681 21.013438, 105.636725 21.013438, 105.636725 20.935366, 105.573681 20.935366))",
-		GeomWKT: "MULTIPOLYGON(((105.573681 20.935366, 105.573681 21.013438, 105.636725 21.013438, 105.636725 20.935366, 105.573681 20.935366)))",
+	row := &model.SapNhapSiteGeoUnit{
+		Ma:      "test_geom_bbox_derived",
+		Ten:     "Test Geom Derived BBox",
+		MaLK:    "test_geom_bbox_derived_malk",
+		BBoxWKT: "POLYGON((105.1 20.1,105.1 20.2,105.2 20.2,105.2 20.1,105.1 20.1))",
+		GeomWKT: "MULTIPOLYGON(((105.1 20.1,105.1 20.2,105.2 20.2,105.2 20.1,105.1 20.1)))",
 	}
 
-	insertTestGeoObject(t, tx, badRow)
-	insertTestGeoObject(t, tx, goodRow)
+	insertTestGeoObject(t, tx, row)
 
-	updatedCount, err := repo.CorrectMismatchedBBoxWKTFromGeom(ctx)
+	geomWKT := "MULTIPOLYGON(((105.59755 20.880711, 105.59755 20.955745, 105.677417 20.955745, 105.677417 20.880711, 105.59755 20.880711)))"
+
+	err = repo.UpdateSapNhapGeoJSONObjectGeomWKT(ctx, row.Ma, geomWKT)
 	require.NoError(t, err)
-	assert.GreaterOrEqual(t, updatedCount, 1)
 
-	updatedBadRow := getTestGeoObjectByMa(t, tx, badRow.Ma)
-	updatedGoodRow := getTestGeoObjectByMa(t, tx, goodRow.Ma)
-
+	updatedRow := getTestGeoObjectByMa(t, tx, row.Ma)
+	assert.Equal(t, geomWKT, updatedRow.GeomWKT)
 	assert.Equal(t,
 		"POLYGON((105.59755 20.880711,105.59755 20.955745,105.677417 20.955745,105.677417 20.880711,105.59755 20.880711))",
-		updatedBadRow.BBoxWKT,
+		updatedRow.BBoxWKT,
 	)
-	assert.Equal(t, goodRow.BBoxWKT, updatedGoodRow.BBoxWKT)
-	assert.Equal(t, 0, countBBoxMismatchesForMaList(t, tx, badRow.Ma, goodRow.Ma))
+	assert.Equal(t, 0, countBBoxMismatchesForMaList(t, tx, row.Ma))
 }
 
 func setupTestDB(t *testing.T) *bun.DB {

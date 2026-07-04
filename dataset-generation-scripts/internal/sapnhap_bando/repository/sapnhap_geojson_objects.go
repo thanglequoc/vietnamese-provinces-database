@@ -99,37 +99,20 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.C
 	return geoObjects, nil
 }
 
-// UpdateSapNhapGeoJSONObjectWKT updates the WKT geometry fields (bbox_wkt and geom_wkt) for a single record.
-// The geometry columns (bbox and geom) are PostgreSQL generated columns that will automatically
-// update from these WKT text fields via ST_GeomFromText().
-func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectWKT(ctx context.Context, ma string, bboxWKT, geomWKT string) error {
-	_, err := r.db.NewUpdate().
-		Model((*model.SapNhapSiteGeoUnit)(nil)).
-		Set("bbox_wkt = ?", bboxWKT).
-		Set("geom_wkt = ?", geomWKT).
-		Where("ma = ?", ma).
-		Exec(ctx)
+// UpdateSapNhapGeoJSONObjectGeomWKT updates geom_wkt and derives bbox_wkt from the same geometry in PostGIS.
+func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectGeomWKT(ctx context.Context, ma string, geomWKT string) error {
+	_, err := r.db.ExecContext(
+		ctx,
+		`UPDATE sapnhap_geojson_objects
+		SET geom_wkt = ?,
+		    bbox_wkt = ST_AsText(ST_Envelope(ST_GeomFromText(?, 4326)))
+		WHERE ma = ?`,
+		geomWKT,
+		geomWKT,
+		ma,
+	)
 
 	return err
-}
-
-func (r *SapNhapGeoJSONObjectRepository) CorrectMismatchedBBoxWKTFromGeom(ctx context.Context) (int, error) {
-	result, err := r.db.NewUpdate().
-		Model((*model.SapNhapSiteGeoUnit)(nil)).
-		Set("bbox_wkt = ST_AsText(ST_Envelope(geom))").
-		Where("geom IS NOT NULL").
-		Where("(bbox IS NULL OR NOT ST_Equals(bbox, ST_Envelope(geom)))").
-		Exec(ctx)
-	if err != nil {
-		return 0, fmt.Errorf("failed to correct mismatched bbox_wkt from geom: %w", err)
-	}
-
-	rowsAffected, err := result.RowsAffected()
-	if err != nil {
-		return 0, fmt.Errorf("failed to read corrected bbox row count: %w", err)
-	}
-
-	return int(rowsAffected), nil
 }
 
 func (r *SapNhapGeoJSONObjectRepository) UpdateSapNhapGeoJSONObjectMetadata(ctx context.Context, malk string, metadata dto.SapNhapGeoObjectMetadata) error {
