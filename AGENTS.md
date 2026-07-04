@@ -14,11 +14,16 @@ cd dataset-generation-scripts
 # Run the generation scripts
 go run main.go
 
+# Start Postgres/PostGIS for integration tests
+docker compose -f docker/docker-compose.yaml up -d
+
 # Run tests
 go test -v ./...
 
 # Check output in: ./output/
 ```
+
+**Testing note**: Some tests connect to the temporary Postgres/PostGIS database on `localhost:15432`. If Docker is not running, `go test -v ./...` will fail in integration-style packages.
 
 ### Database Connection (Docker)
 
@@ -48,7 +53,13 @@ vietnamese-provinces-database/
 │   ├── main.go                        # Entry point
 │   ├── go.mod / go.sum               # Go dependencies (Bun, postgres driver)
 │   ├── .env                          # Database credentials
+│   ├── cmd/
+│   │   └── compare-gis/              # CLI tool for GIS comparison workflows
+│   ├── docker/
+│   │   └── docker-compose.yaml       # Local Postgres/PostGIS container
 │   ├── internal/
+│   │   ├── common/                   # Shared helpers (e.g., Vietnamese text handling)
+│   │   ├── dvhcvn_data_downloader/   # Direct DVHCVN administrative data ingestion
 │   │   ├── sapnhap_bando/           # Geographic data service (formerly API, now file-based)
 │   │   │   ├── fetcher/             # Loads JSON metadata & GeoJSON files
 │   │   │   ├── service/             # Business logic
@@ -58,14 +69,20 @@ vietnamese-provinces-database/
 │   │   ├── dumper/                  # Reads admin data, persists to DB
 │   │   ├── dataset_writer/          # Generates SQL/JSON/NoSQL output
 │   │   ├── vn_provinces_tmp/        # Core VN provinces data layer
+│   │   ├── gis/                     # GIS models and shared GIS logic
 │   │   ├── gis_comparator/          # GIS data validation
 │   │   ├── spatial_gis_comparator/  # Advanced spatial analysis
 │   │   ├── geojson_fetcher/         # GeoJSON handling
+│   │   ├── testutil/                # Test fixtures/helpers
 │   │   └── database/                # Postgres connection pool
 │   ├── resources/
 │   │   └── gis/
 │   │       ├── bando_gisserver/     # ← Provinces/wards JSON metadata
-│   │       └── geojson_11Mar2026/   # ← GeoJSON geometry (from deprecated API)
+│   │       ├── exported/            # Exported GIS intermediate artifacts
+│   │       ├── geojson_11Mar2026/   # ← GeoJSON geometry (from deprecated API)
+│   │       └── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources
+│   ├── resources/manual_seeds/       # Manual fallback seed data
+│   ├── sapnhap-bando-crawler/        # Historical/auxiliary crawler tooling
 │   ├── memory/
 │   │   ├── MEMORY.md                # Memory index
 │   │   └── feedback_*.md            # User preferences & learnings
@@ -74,6 +91,7 @@ vietnamese-provinces-database/
 ├── development/                       # Feature documentation
 │   ├── adapt_the_removal_of_sapnhap_api.md  # Context: API → file-based migration
 │   └── [phase-plans].md              # Plans for new features
+├── docs/                              # User-facing GIS and dataset documentation
 ├── json/, mysql/, postgresql/, oracle/, sqlserver/, mongodb/, redis/
 │   └── Generated dataset exports in various formats
 └── .github/workflows/                # CI/CD pipelines
@@ -112,9 +130,14 @@ vietnamese-provinces-database/
 
 ### Important Relationships
 
+Current generation flow:
+- **Administrative source of truth**: `main.go` defaults to `USE_DIRECT_DVHCVN_SOURCE = true`, so the dumper normally ingests administrative-unit data from the direct DVHCVN source before writing exports.
+- **Fallback/manual path**: Manual seed data lives under `dataset-generation-scripts/resources/manual_seeds/` and is used only when the direct source path is disabled.
+- **GIS enrichment**: GIS metadata and geometries are joined after the main administrative dump succeeds.
+
 Geographic data migration context (March 2026):
-- **Before**: Data fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)
-- **Now**: Loads from local files:
+- **Before**: GIS metadata fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)
+- **Now**: GIS metadata and geometry load from local files:
   - `./resources/gis/bando_gisserver/provinces.json`
   - `./resources/gis/bando_gisserver/wards.json`
   - `./resources/gis/geojson_11Mar2026/*.geojson`
@@ -162,10 +185,14 @@ The project generates compatible SQL/data for:
 - **MongoDB** (`mongodb/`)
 - **Redis** (`redis/`)
 
-Each format in `{output/}` includes:
-- `*_CreateTables_vn_units.sql` — Schema
-- `*_ImportData_vn_units.sql` — Data insert statements
-- GIS-specific files in `gis/` subdirectories
+Output locations:
+- `dataset-generation-scripts/output/` is the generator's immediate output/staging area when `go run main.go` is executed.
+- Top-level folders such as `postgresql/`, `mysql/`, `sqlserver/`, `oracle/`, `mongodb/`, `redis/`, and `json/` contain the repository's published/exported dataset artifacts.
+
+Typical contents in `dataset-generation-scripts/output/` include:
+- timestamped import/export artifacts such as `postgresql_mysql_generated_ImportData_vn_units_*.sql`
+- JSON, MongoDB, and Redis exports in format-specific subdirectories
+- GIS import scripts in `output/gis/`
 
 ---
 
