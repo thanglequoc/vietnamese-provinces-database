@@ -1,7 +1,15 @@
-![Repository Banner](https://i.imgur.com/QZQhcql.png)
-![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)
-
-[Read in English version](README.md)
+<div align="center">
+  <img src="https://i.imgur.com/QZQhcql.png" alt="Repository Banner" width="100%" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg" alt="Made in Vietnam" />
+  <br/>
+  <a href="https://trendshift.io/repositories/3009?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-3009" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/3009" alt="thanglequoc%2Fvietnamese-provinces-database | Trendshift" width="250" height="55" />
+  </a>
+  <br/>
+  <a href="README.md">Read in English</a>
+  <br/><br/>
+</div>
 
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
@@ -269,8 +277,8 @@ Kho lưu trữ này là một dự án cộng đồng độc lập và không tr
 
 ### Tôi tìm thấy một vài lỗi trong tệp dữ liệu SQL này?
 
-Nếu bạn có bất kỳ một đề xuất nào có thể cải tiến dự án, xin vui lòng [tạo một Issue](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/issues) và cung cấp thông tin cụ thể.  
-Hoặc tốt hơn nữa, bạn có thể đóng góp xây dựng dự án này bằng các [tạo Pull Request](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/pulls)  
+Nếu bạn có bất kỳ một đề xuất nào có thể cải tiến dự án, xin vui lòng [tạo một Issue](https://github.com/thanglequoc/VietnameseProvincesDatabase/issues) và cung cấp thông tin cụ thể.  
+Hoặc tốt hơn nữa, bạn có thể đóng góp xây dựng dự án này bằng các [tạo Pull Request](https://github.com/thanglequoc/VietnameseProvincesDatabase/pulls)  
 Tất cả các đóng góp đến dự án đều được trân trọng ghi nhận.
 
 ## Người đóng góp xây dựng
