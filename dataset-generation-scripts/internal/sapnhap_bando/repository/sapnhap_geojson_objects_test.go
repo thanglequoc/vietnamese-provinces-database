@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"database/sql"
+	"encoding/json"
 	"os"
 	"testing"
 
@@ -47,6 +48,33 @@ func TestUpdateSapNhapGeoJSONObjectGeomWKT_DerivesBBoxFromGeom(t *testing.T) {
 		updatedRow.BBoxWKT,
 	)
 	assert.Equal(t, 0, countBBoxMismatchesForMaList(t, tx, row.Ma))
+}
+
+func TestGetAllSapNhapGeoJSONObjects_IncludeGeoJSONFragments(t *testing.T) {
+	db := setupTestDB(t)
+	repo := NewSapNhapGeoJSONObjectRepository(db)
+
+	provinces, err := repo.GetAllSapNhapGeoJSONProvinces(context.Background())
+	require.NoError(t, err)
+	require.NotEmpty(t, provinces)
+
+	province := provinces[0]
+	assert.NotEmpty(t, province.BBoxGeoJSON)
+	assert.NotEmpty(t, province.GeomGeoJSON)
+	assert.True(t, json.Valid(province.BBoxGeoJSON))
+	assert.True(t, json.Valid(province.GeomGeoJSON))
+	assert.NotEmpty(t, province.VNProvince.CodeName)
+
+	wards, err := repo.GetAllSapNhapGeoJSONWards(context.Background())
+	require.NoError(t, err)
+	require.NotEmpty(t, wards)
+
+	ward := wards[0]
+	assert.NotEmpty(t, ward.BBoxGeoJSON)
+	assert.NotEmpty(t, ward.GeomGeoJSON)
+	assert.True(t, json.Valid(ward.BBoxGeoJSON))
+	assert.True(t, json.Valid(ward.GeomGeoJSON))
+	assert.NotEmpty(t, ward.VNWard.CodeName)
 }
 
 func setupTestDB(t *testing.T) *bun.DB {

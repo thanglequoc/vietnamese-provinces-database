@@ -56,6 +56,8 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx conte
 			"sp.bbox_wkt",
 			"sp.geom_wkt",
 		).
+		ColumnExpr("json_build_array(ST_XMin(sp.bbox), ST_YMin(sp.bbox), ST_XMax(sp.bbox), ST_YMax(sp.bbox)) AS bbox_geojson").
+		ColumnExpr("ST_AsGeoJSON(sp.geom)::json AS geom_geojson").
 		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.bbox)) AS bbox_wkt_lat_lng").
 		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.geom)) AS geom_wkt_lat_lng").
 		Relation("VNProvince").
@@ -84,6 +86,8 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.C
 			"sp.bbox_wkt",
 			"sp.geom_wkt",
 		).
+		ColumnExpr("json_build_array(ST_XMin(sp.bbox), ST_YMin(sp.bbox), ST_XMax(sp.bbox), ST_YMax(sp.bbox)) AS bbox_geojson").
+		ColumnExpr("ST_AsGeoJSON(sp.geom)::json AS geom_geojson").
 		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.bbox)) AS bbox_wkt_lat_lng").
 		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.geom)) AS geom_wkt_lat_lng").
 		Relation("Parent").

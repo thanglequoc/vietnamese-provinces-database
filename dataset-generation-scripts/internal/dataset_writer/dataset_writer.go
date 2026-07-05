@@ -100,7 +100,7 @@ Generate the GIS SQL files
 */
 func GenerateGISSQLDatasets() {
 	sapNhapGeoJSONObjectRepository := sapnhapbandorepo.NewSapNhapGeoJSONObjectRepository(db.GetPostgresDBConnection())
-	
+
 	sapNhapGeoProvinces, err := sapNhapGeoJSONObjectRepository.GetAllSapNhapGeoJSONProvinces(context.Background())
 	if err != nil {
 		log.Fatal("Unable to get SapNhapGeoProvinces", err)
@@ -126,4 +126,15 @@ func GenerateGISSQLDatasets() {
 	}
 	mssqlDatasetFileWriter.WriteGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
 	fmt.Println("✅ Mssql GIS Dataset successfully generated")
+
+	// GeoJSON
+	geoJSONDatasetFileWriter := datasetfilewriter.JSONDatasetFileWriter{
+		OutputFolderPath: "./output/gis/geojson",
+	}
+	err = geoJSONDatasetFileWriter.WriteGISGeoJSONToFile(sapNhapGeoProvinces, sapNhapGeoWards)
+	if err != nil {
+		log.Fatal("Unable to generate GeoJSON GIS Dataset", err)
+	} else {
+		fmt.Println("✅ GeoJSON GIS Dataset successfully generated")
+	}
 }
