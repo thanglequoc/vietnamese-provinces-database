@@ -150,30 +150,6 @@ func (s *SapNhapBackfillService) ExecuteBackfill(ctx context.Context) error {
 	for _, geoObject := range geoObjects {
 		normalizedTen := util.NormalizeForMatching(geoObject.Ten)
 		
-		// Handle edge case: xa254 "Xã Phố Bảng" should match "Xã Phó Bảng" (Tuyên Quang province)
-		// This is a known typo in the upstream source data specific to this record.
-		// 
-		// ROOT CAUSE: The geo object has "Phố Bảng" (with "ố") but wards_tmp has "Phó Bảng" (with "ó").
-		// The typo is: "Phố" → "Phó" (changing the tone mark from "ố" to "ó")
-		// 
-		// SOLUTION: Detect this specific case and override the lookup key to use the corrected name.
-		// We use the corrected raw name "Xã Phó Bảng" then normalize it, which gives us "xã phó bảng".
-		// This matches the lookup map key which was built from wards_tmp's corrected name.
-		// if geoObject.Ma == "xa254" {
-		// 	// Remove prefix to isolate the name part for checking
-		// 	nameWithoutPrefix := util.RemoveAdministrativeUnitPrefix(geoObject.Ten)
-		// 	normalizedRaw := strings.ToLower(strings.TrimSpace(nameWithoutPrefix))
-		// 	normalizedRaw = viet.NormalizeToneMarks(normalizedRaw)
-			
-		// 	// Check for the typo: "phố bảng" (with ố) should be corrected to "phó bảng" (with ó)
-		// 	if normalizedRaw == "phố bảng" {
-		// 		// Use the corrected raw name and normalize it
-		// 		// "Xã Phó Bảng" → normalize → "xã phó bảng" (with prefix and corrected ó)
-		// 		correctedRawName := "Xã Phó Bảng"
-		// 		normalizedTen = util.NormalizeForMatching(correctedRawName)
-		// 	}
-		// }
-		
 		// Province matching: magoc IS NULL
 		if geoObject.MaGoc == "" {
 			provinceCode, exists := provinceLookupMap[normalizedTen]

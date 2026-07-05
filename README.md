@@ -1,7 +1,15 @@
-![Repository Banner](https://i.imgur.com/6s3XsAA.png)
-![Made in Vietnam](https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg)
-
-[Đọc phiên bản tiếng Việt](README_vi.md)
+<div align="center">
+  <img src="https://i.imgur.com/6s3XsAA.png" alt="Repository Banner" width="100%" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/webuild-community/badge/master/svg/made.svg" alt="Made in Vietnam" />
+  <br/>
+  <a href="https://trendshift.io/repositories/3009?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-3009" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/3009" alt="thanglequoc%2Fvietnamese-provinces-database | Trendshift" width="250" height="55" />
+  </a>
+  <br/>
+  <a href="README_vi.md">Đọc bản tiếng Việt</a>
+  <br/><br/>
+</div>
 
 # Vietnamese Provinces Database
 
@@ -273,7 +281,7 @@ This repository is an independent community project and is not affiliated with t
 
 ### I saw some issues in the SQL patch?
 
-If you see any improvement that can be made, please kindly [Open a issue](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/issues) and write down your finding. Or even better by [Create a Pull Request](https://github.com/ThangLeQuoc/VietnameseProvincesDatabase/pulls).
+If you see any improvement that can be made, please kindly [Open a issue](https://github.com/thanglequoc/VietnameseProvincesDatabase/issues) and write down your finding. Or even better by [Create a Pull Request](https://github.com/thanglequoc/VietnameseProvincesDatabase/pulls).
 Any contribution is welcomed.
 
 ##### Reference
