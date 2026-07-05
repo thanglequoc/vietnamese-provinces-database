@@ -31802,11 +31802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Rơ Wa",
-        "unit_code": "23332",
-        "unit_code_name": "dak_ro_wa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.554",
-        "area_km2": 157.98
+        "code": "23332",
+        "name": "Đăk Rơ Wa",
+        "nameEn": "Dak Ro Wa",
+        "fullName": "Xã Đăk Rơ Wa",
+        "fullNameEn": "Dak Ro Wa Commune",
+        "codeName": "dak_ro_wa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.554",
+        "areaKm2": 157.98
       }
     }
   ]

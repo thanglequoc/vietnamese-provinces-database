@@ -8602,11 +8602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pha Long",
-        "unit_code": "02752",
-        "unit_code_name": "pha_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1058",
-        "area_km2": 105.6
+        "code": "02752",
+        "name": "Pha Long",
+        "nameEn": "Pha Long",
+        "fullName": "Xã Pha Long",
+        "fullNameEn": "Pha Long Commune",
+        "codeName": "pha_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1058",
+        "areaKm2": 105.6
       }
     }
   ]

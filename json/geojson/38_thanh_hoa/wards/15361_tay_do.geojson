@@ -11810,11 +11810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Đô",
-        "unit_code": "15361",
-        "unit_code_name": "tay_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2634",
-        "area_km2": 35.36
+        "code": "15361",
+        "name": "Tây Đô",
+        "nameEn": "Tay Do",
+        "fullName": "Xã Tây Đô",
+        "fullNameEn": "Tay Do Commune",
+        "codeName": "tay_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2634",
+        "areaKm2": 35.36
       }
     }
   ]

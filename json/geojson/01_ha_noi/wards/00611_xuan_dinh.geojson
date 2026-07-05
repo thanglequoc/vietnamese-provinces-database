@@ -966,11 +966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Đỉnh",
-        "unit_code": "00611",
-        "unit_code_name": "xuan_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3261",
-        "area_km2": 5.46
+        "code": "00611",
+        "name": "Xuân Đỉnh",
+        "nameEn": "Xuan Dinh",
+        "fullName": "Phường Xuân Đỉnh",
+        "fullNameEn": "Xuan Dinh Ward",
+        "codeName": "xuan_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3261",
+        "areaKm2": 5.46
       }
     }
   ]

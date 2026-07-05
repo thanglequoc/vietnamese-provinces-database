@@ -7342,11 +7342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Quân",
-        "unit_code": "16222",
-        "unit_code_name": "thanh_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2690",
-        "area_km2": 109.22
+        "code": "16222",
+        "name": "Thanh Quân",
+        "nameEn": "Thanh Quan",
+        "fullName": "Xã Thanh Quân",
+        "fullNameEn": "Thanh Quan Commune",
+        "codeName": "thanh_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2690",
+        "areaKm2": 109.22
       }
     }
   ]

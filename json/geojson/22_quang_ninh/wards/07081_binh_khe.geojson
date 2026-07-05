@@ -10354,11 +10354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Khê",
-        "unit_code": "07081",
-        "unit_code_name": "binh_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1857",
-        "area_km2": 138.74
+        "code": "07081",
+        "name": "Bình Khê",
+        "nameEn": "Binh Khe",
+        "fullName": "Phường Bình Khê",
+        "fullNameEn": "Binh Khe Ward",
+        "codeName": "binh_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1857",
+        "areaKm2": 138.74
       }
     }
   ]

@@ -4342,11 +4342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thực",
-        "unit_code": "06757",
-        "unit_code_name": "vinh_thuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3313",
-        "area_km2": 49.11
+        "code": "06757",
+        "name": "Vĩnh Thực",
+        "nameEn": "Vinh Thuc",
+        "fullName": "Xã Vĩnh Thực",
+        "fullNameEn": "Vinh Thuc Commune",
+        "codeName": "vinh_thuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3313",
+        "areaKm2": 49.11
       }
     }
   ]

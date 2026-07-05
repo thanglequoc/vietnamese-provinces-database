@@ -9382,11 +9382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Thọ",
-        "unit_code": "16969",
-        "unit_code_name": "nghia_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1468",
-        "area_km2": 92.19
+        "code": "16969",
+        "name": "Nghĩa Thọ",
+        "nameEn": "Nghia Tho",
+        "fullName": "Xã Nghĩa Thọ",
+        "fullNameEn": "Nghia Tho Commune",
+        "codeName": "nghia_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1468",
+        "areaKm2": 92.19
       }
     }
   ]

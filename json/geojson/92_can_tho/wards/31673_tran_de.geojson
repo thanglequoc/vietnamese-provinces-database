@@ -5814,11 +5814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Đề",
-        "unit_code": "31673",
-        "unit_code_name": "tran_de",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.284",
-        "area_km2": 93.92
+        "code": "31673",
+        "name": "Trần Đề",
+        "nameEn": "Tran De",
+        "fullName": "Xã Trần Đề",
+        "fullNameEn": "Tran De Commune",
+        "codeName": "tran_de",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.284",
+        "areaKm2": 93.92
       }
     }
   ]

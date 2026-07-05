@@ -1978,11 +1978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiệu Toán",
-        "unit_code": "15820",
-        "unit_code_name": "thieu_toan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2666",
-        "area_km2": 28.39
+        "code": "15820",
+        "name": "Thiệu Toán",
+        "nameEn": "Thieu Toan",
+        "fullName": "Xã Thiệu Toán",
+        "fullNameEn": "Thieu Toan Commune",
+        "codeName": "thieu_toan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2666",
+        "areaKm2": 28.39
       }
     }
   ]

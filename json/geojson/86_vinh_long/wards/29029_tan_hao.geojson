@@ -6262,11 +6262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hào",
-        "unit_code": "29029",
-        "unit_code_name": "tan_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2462",
-        "area_km2": 44.45
+        "code": "29029",
+        "name": "Tân Hào",
+        "nameEn": "Tan Hao",
+        "fullName": "Xã Tân Hào",
+        "fullNameEn": "Tan Hao Commune",
+        "codeName": "tan_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2462",
+        "areaKm2": 44.45
       }
     }
   ]

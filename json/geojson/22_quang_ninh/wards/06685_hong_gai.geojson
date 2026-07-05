@@ -46694,11 +46694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Gai",
-        "unit_code": "06685",
-        "unit_code_name": "hong_gai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3288",
-        "area_km2": 5
+        "code": "06685",
+        "name": "Hồng Gai",
+        "nameEn": "Hong Gai",
+        "fullName": "Phường Hồng Gai",
+        "fullNameEn": "Hong Gai Ward",
+        "codeName": "hong_gai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3288",
+        "areaKm2": 5
       }
     }
   ]

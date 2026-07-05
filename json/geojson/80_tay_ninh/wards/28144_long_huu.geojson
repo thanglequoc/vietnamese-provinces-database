@@ -574,11 +574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hựu",
-        "unit_code": "28144",
-        "unit_code_name": "long_huu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1324",
-        "area_km2": 36.89
+        "code": "28144",
+        "name": "Long Hựu",
+        "nameEn": "Long Huu",
+        "fullName": "Xã Long Hựu",
+        "fullNameEn": "Long Huu Commune",
+        "codeName": "long_huu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1324",
+        "areaKm2": 36.89
       }
     }
   ]

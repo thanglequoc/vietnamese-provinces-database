@@ -14418,11 +14418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Quang",
-        "unit_code": "18313",
-        "unit_code_name": "vu_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2038",
-        "area_km2": 533.5
+        "code": "18313",
+        "name": "Vũ Quang",
+        "nameEn": "Vu Quang",
+        "fullName": "Xã Vũ Quang",
+        "fullNameEn": "Vu Quang Commune",
+        "codeName": "vu_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2038",
+        "areaKm2": 533.5
       }
     }
   ]

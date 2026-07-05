@@ -5650,11 +5650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Linh",
-        "unit_code": "23365",
-        "unit_code_name": "ngoc_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.557",
-        "area_km2": 180.35
+        "code": "23365",
+        "name": "Ngọc Linh",
+        "nameEn": "Ngoc Linh",
+        "fullName": "Xã Ngọc Linh",
+        "fullNameEn": "Ngoc Linh Commune",
+        "codeName": "ngoc_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.557",
+        "areaKm2": 180.35
       }
     }
   ]

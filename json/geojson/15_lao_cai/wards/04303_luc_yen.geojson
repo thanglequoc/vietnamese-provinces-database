@@ -7594,11 +7594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Yên",
-        "unit_code": "04303",
-        "unit_code_name": "luc_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1009",
-        "area_km2": 79.94
+        "code": "04303",
+        "name": "Lục Yên",
+        "nameEn": "Luc Yen",
+        "fullName": "Xã Lục Yên",
+        "fullNameEn": "Luc Yen Commune",
+        "codeName": "luc_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1009",
+        "areaKm2": 79.94
       }
     }
   ]

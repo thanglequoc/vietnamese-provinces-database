@@ -4842,11 +4842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hoàng",
-        "unit_code": "19372",
-        "unit_code_name": "vinh_hoang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.562",
-        "area_km2": 87.06
+        "code": "19372",
+        "name": "Vĩnh Hoàng",
+        "nameEn": "Vinh Hoang",
+        "fullName": "Xã Vĩnh Hoàng",
+        "fullNameEn": "Vinh Hoang Commune",
+        "codeName": "vinh_hoang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.562",
+        "areaKm2": 87.06
       }
     }
   ]

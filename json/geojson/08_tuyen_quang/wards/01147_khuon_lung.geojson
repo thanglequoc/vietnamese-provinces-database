@@ -9222,11 +9222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khuôn Lùng",
-        "unit_code": "01147",
-        "unit_code_name": "khuon_lung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2413",
-        "area_km2": 120.28
+        "code": "01147",
+        "name": "Khuôn Lùng",
+        "nameEn": "Khuon Lung",
+        "fullName": "Xã Khuôn Lùng",
+        "fullNameEn": "Khuon Lung Commune",
+        "codeName": "khuon_lung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2413",
+        "areaKm2": 120.28
       }
     }
   ]

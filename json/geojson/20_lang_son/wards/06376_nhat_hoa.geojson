@@ -7706,11 +7706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhất Hoà",
-        "unit_code": "06376",
-        "unit_code_name": "nhat_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1821",
-        "area_km2": 143.72
+        "code": "06376",
+        "name": "Nhất Hoà",
+        "nameEn": "Nhat Hoa",
+        "fullName": "Xã Nhất Hoà",
+        "fullNameEn": "Nhat Hoa Commune",
+        "codeName": "nhat_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1821",
+        "areaKm2": 143.72
       }
     }
   ]

@@ -8610,11 +8610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Vân",
-        "unit_code": "07822",
-        "unit_code_name": "hoang_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2155",
-        "area_km2": 40.23
+        "code": "07822",
+        "name": "Hoàng Vân",
+        "nameEn": "Hoang Van",
+        "fullName": "Xã Hoàng Vân",
+        "fullNameEn": "Hoang Van Commune",
+        "codeName": "hoang_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2155",
+        "areaKm2": 40.23
       }
     }
   ]

@@ -3162,11 +3162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Lại",
-        "unit_code": "11164",
-        "unit_code_name": "vinh_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.888",
-        "area_km2": 26.15
+        "code": "11164",
+        "name": "Vĩnh Lại",
+        "nameEn": "Vinh Lai",
+        "fullName": "Xã Vĩnh Lại",
+        "fullNameEn": "Vinh Lai Commune",
+        "codeName": "vinh_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.888",
+        "areaKm2": 26.15
       }
     }
   ]

@@ -1450,11 +1450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hậu Mỹ",
-        "unit_code": "28366",
-        "unit_code_name": "hau_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.456",
-        "area_km2": 78.6
+        "code": "28366",
+        "name": "Hậu Mỹ",
+        "nameEn": "Hau My",
+        "fullName": "Xã Hậu Mỹ",
+        "fullNameEn": "Hau My Commune",
+        "codeName": "hau_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.456",
+        "areaKm2": 78.6
       }
     }
   ]

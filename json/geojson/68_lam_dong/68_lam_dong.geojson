@@ -13094,11 +13094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Đồng",
-        "unit_code": "68",
-        "unit_code_name": "lam_dong",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.47",
-        "area_km2": 24233.07
+        "code": "68",
+        "name": "Lâm Đồng",
+        "nameEn": "Lam Dong",
+        "fullName": "Tỉnh Lâm Đồng",
+        "fullNameEn": "Lam Dong Province",
+        "codeName": "lam_dong",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.47",
+        "areaKm2": 24233.07
       }
     }
   ]

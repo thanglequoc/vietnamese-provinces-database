@@ -3894,11 +3894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thư Trì",
-        "unit_code": "13222",
-        "unit_code_name": "thu_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.685",
-        "area_km2": 20.97
+        "code": "13222",
+        "name": "Thư Trì",
+        "nameEn": "Thu Tri",
+        "fullName": "Xã Thư Trì",
+        "fullNameEn": "Thu Tri Commune",
+        "codeName": "thu_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.685",
+        "areaKm2": 20.97
       }
     }
   ]

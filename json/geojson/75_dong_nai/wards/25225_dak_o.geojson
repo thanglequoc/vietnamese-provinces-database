@@ -30034,11 +30034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Ơ",
-        "unit_code": "25225",
-        "unit_code_name": "dak_o",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2297",
-        "area_km2": 246.5
+        "code": "25225",
+        "name": "Đăk Ơ",
+        "nameEn": "Dak O",
+        "fullName": "Xã Đăk Ơ",
+        "fullNameEn": "Dak O Commune",
+        "codeName": "dak_o",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2297",
+        "areaKm2": 246.5
       }
     }
   ]

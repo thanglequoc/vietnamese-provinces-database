@@ -8046,11 +8046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Định",
-        "unit_code": "22576",
-        "unit_code_name": "tan_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1114",
-        "area_km2": 92.4
+        "code": "22576",
+        "name": "Tân Định",
+        "nameEn": "Tan Dinh",
+        "fullName": "Xã Tân Định",
+        "fullNameEn": "Tan Dinh Commune",
+        "codeName": "tan_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1114",
+        "areaKm2": 92.4
       }
     }
   ]

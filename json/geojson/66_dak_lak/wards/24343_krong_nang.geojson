@@ -14122,11 +14122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Năng",
-        "unit_code": "24343",
-        "unit_code_name": "krong_nang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2847",
-        "area_km2": 98.34
+        "code": "24343",
+        "name": "Krông Năng",
+        "nameEn": "Krong Nang",
+        "fullName": "Xã Krông Năng",
+        "fullNameEn": "Krong Nang Commune",
+        "codeName": "krong_nang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2847",
+        "areaKm2": 98.34
       }
     }
   ]

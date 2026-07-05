@@ -2454,11 +2454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gò Nổi",
-        "unit_code": "20587",
-        "unit_code_name": "go_noi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1938",
-        "area_km2": 36.2
+        "code": "20587",
+        "name": "Gò Nổi",
+        "nameEn": "Go Noi",
+        "fullName": "Xã Gò Nổi",
+        "fullNameEn": "Go Noi Commune",
+        "codeName": "go_noi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1938",
+        "areaKm2": 36.2
       }
     }
   ]

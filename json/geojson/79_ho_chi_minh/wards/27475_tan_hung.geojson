@@ -1566,11 +1566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hưng",
-        "unit_code": "27475",
-        "unit_code_name": "tan_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.111",
-        "area_km2": 8.54
+        "code": "27475",
+        "name": "Tân Hưng",
+        "nameEn": "Tan Hung",
+        "fullName": "Phường Tân Hưng",
+        "fullNameEn": "Tan Hung Ward",
+        "codeName": "tan_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.111",
+        "areaKm2": 8.54
       }
     }
   ]

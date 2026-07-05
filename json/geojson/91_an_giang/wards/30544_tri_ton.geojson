@@ -3166,11 +3166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tri Tôn",
-        "unit_code": "30544",
-        "unit_code_name": "tri_ton",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.337",
-        "area_km2": 73.14
+        "code": "30544",
+        "name": "Tri Tôn",
+        "nameEn": "Tri Ton",
+        "fullName": "Xã Tri Tôn",
+        "fullNameEn": "Tri Ton Commune",
+        "codeName": "tri_ton",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.337",
+        "areaKm2": 73.14
       }
     }
   ]

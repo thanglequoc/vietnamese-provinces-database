@@ -8278,11 +8278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoành Bồ",
-        "unit_code": "07030",
-        "unit_code_name": "hoanh_bo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1863",
-        "area_km2": 175.94
+        "code": "07030",
+        "name": "Hoành Bồ",
+        "nameEn": "Hoanh Bo",
+        "fullName": "Phường Hoành Bồ",
+        "fullNameEn": "Hoanh Bo Ward",
+        "codeName": "hoanh_bo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1863",
+        "areaKm2": 175.94
       }
     }
   ]

@@ -2222,11 +2222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ái Quốc",
-        "unit_code": "13021",
-        "unit_code_name": "ai_quoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.679",
-        "area_km2": 14.98
+        "code": "13021",
+        "name": "Ái Quốc",
+        "nameEn": "Ai Quoc",
+        "fullName": "Xã Ái Quốc",
+        "fullNameEn": "Ai Quoc Commune",
+        "codeName": "ai_quoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.679",
+        "areaKm2": 14.98
       }
     }
   ]

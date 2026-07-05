@@ -1062,11 +1062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Đồn",
-        "unit_code": "19009",
-        "unit_code_name": "ba_don",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.612",
-        "area_km2": 20.45
+        "code": "19009",
+        "name": "Ba Đồn",
+        "nameEn": "Ba Don",
+        "fullName": "Phường Ba Đồn",
+        "fullNameEn": "Ba Don Ward",
+        "codeName": "ba_don",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.612",
+        "areaKm2": 20.45
       }
     }
   ]

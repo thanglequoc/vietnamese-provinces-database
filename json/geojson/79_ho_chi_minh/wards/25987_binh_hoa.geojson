@@ -6618,11 +6618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hoà",
-        "unit_code": "25987",
-        "unit_code_name": "binh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.36",
-        "area_km2": 18.49
+        "code": "25987",
+        "name": "Bình Hoà",
+        "nameEn": "Binh Hoa",
+        "fullName": "Phường Bình Hoà",
+        "fullNameEn": "Binh Hoa Ward",
+        "codeName": "binh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.36",
+        "areaKm2": 18.49
       }
     }
   ]

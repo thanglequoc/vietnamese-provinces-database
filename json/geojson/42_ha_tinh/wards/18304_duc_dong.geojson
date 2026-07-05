@@ -3022,11 +3022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Đồng",
-        "unit_code": "18304",
-        "unit_code_name": "duc_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2047",
-        "area_km2": 47.29
+        "code": "18304",
+        "name": "Đức Đồng",
+        "nameEn": "Duc Dong",
+        "fullName": "Xã Đức Đồng",
+        "fullNameEn": "Duc Dong Commune",
+        "codeName": "duc_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2047",
+        "areaKm2": 47.29
       }
     }
   ]

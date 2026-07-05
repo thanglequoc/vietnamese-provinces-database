@@ -14670,11 +14670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Chân",
-        "unit_code": "16801",
-        "unit_code_name": "hung_chan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1411",
-        "area_km2": 351.87
+        "code": "16801",
+        "name": "Hùng Chân",
+        "nameEn": "Hung Chan",
+        "fullName": "Xã Hùng Chân",
+        "fullNameEn": "Hung Chan Commune",
+        "codeName": "hung_chan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1411",
+        "areaKm2": 351.87
       }
     }
   ]

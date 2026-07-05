@@ -3738,11 +3738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thường Phước",
-        "unit_code": "29971",
-        "unit_code_name": "thuong_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.408",
-        "area_km2": 80.7
+        "code": "29971",
+        "name": "Thường Phước",
+        "nameEn": "Thuong Phuoc",
+        "fullName": "Xã Thường Phước",
+        "fullNameEn": "Thuong Phuoc Commune",
+        "codeName": "thuong_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.408",
+        "areaKm2": 80.7
       }
     }
   ]

@@ -6830,11 +6830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Búng Lao",
-        "unit_code": "03301",
-        "unit_code_name": "bung_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2260",
-        "area_km2": 145.85
+        "code": "03301",
+        "name": "Búng Lao",
+        "nameEn": "Bung Lao",
+        "fullName": "Xã Búng Lao",
+        "fullNameEn": "Bung Lao Commune",
+        "codeName": "bung_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2260",
+        "areaKm2": 145.85
       }
     }
   ]

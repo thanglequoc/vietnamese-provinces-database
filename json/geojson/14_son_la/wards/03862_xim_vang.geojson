@@ -23226,11 +23226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xím Vàng",
-        "unit_code": "03862",
-        "unit_code_name": "xim_vang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1360",
-        "area_km2": 232.35
+        "code": "03862",
+        "name": "Xím Vàng",
+        "nameEn": "Xim Vang",
+        "fullName": "Xã Xím Vàng",
+        "fullNameEn": "Xim Vang Commune",
+        "codeName": "xim_vang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1360",
+        "areaKm2": 232.35
       }
     }
   ]

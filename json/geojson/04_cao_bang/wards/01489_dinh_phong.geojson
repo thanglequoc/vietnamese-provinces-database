@@ -8810,11 +8810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đình Phong",
-        "unit_code": "01489",
-        "unit_code_name": "dinh_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.996",
-        "area_km2": 113.77
+        "code": "01489",
+        "name": "Đình Phong",
+        "nameEn": "Dinh Phong",
+        "fullName": "Xã Đình Phong",
+        "fullNameEn": "Dinh Phong Commune",
+        "codeName": "dinh_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.996",
+        "areaKm2": 113.77
       }
     }
   ]

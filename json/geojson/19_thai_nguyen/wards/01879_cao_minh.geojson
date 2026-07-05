@@ -11670,11 +11670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Minh",
-        "unit_code": "01879",
-        "unit_code_name": "cao_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1165",
-        "area_km2": 134.89
+        "code": "01879",
+        "name": "Cao Minh",
+        "nameEn": "Cao Minh",
+        "fullName": "Xã Cao Minh",
+        "fullNameEn": "Cao Minh Commune",
+        "codeName": "cao_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1165",
+        "areaKm2": 134.89
       }
     }
   ]

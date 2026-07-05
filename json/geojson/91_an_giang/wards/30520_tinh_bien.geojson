@@ -5382,11 +5382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tịnh Biên",
-        "unit_code": "30520",
-        "unit_code_name": "tinh_bien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.333",
-        "area_km2": 75.57
+        "code": "30520",
+        "name": "Tịnh Biên",
+        "nameEn": "Tinh Bien",
+        "fullName": "Phường Tịnh Biên",
+        "fullNameEn": "Tinh Bien Ward",
+        "codeName": "tinh_bien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.333",
+        "areaKm2": 75.57
       }
     }
   ]

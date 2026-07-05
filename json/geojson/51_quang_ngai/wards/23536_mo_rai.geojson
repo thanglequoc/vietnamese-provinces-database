@@ -18842,11 +18842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mô Rai",
-        "unit_code": "23536",
-        "unit_code_name": "mo_rai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.547",
-        "area_km2": 583.92
+        "code": "23536",
+        "name": "Mô Rai",
+        "nameEn": "Mo Rai",
+        "fullName": "Xã Mô Rai",
+        "fullNameEn": "Mo Rai Commune",
+        "codeName": "mo_rai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.547",
+        "areaKm2": 583.92
       }
     }
   ]

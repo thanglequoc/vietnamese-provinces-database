@@ -9382,11 +9382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ô Môn",
-        "unit_code": "31153",
-        "unit_code_name": "o_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.206",
-        "area_km2": 54.69
+        "code": "31153",
+        "name": "Ô Môn",
+        "nameEn": "O Mon",
+        "fullName": "Phường Ô Môn",
+        "fullNameEn": "O Mon Ward",
+        "codeName": "o_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.206",
+        "areaKm2": 54.69
       }
     }
   ]

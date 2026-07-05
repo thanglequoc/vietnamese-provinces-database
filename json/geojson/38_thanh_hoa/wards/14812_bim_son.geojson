@@ -9358,11 +9358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bỉm Sơn",
-        "unit_code": "14812",
-        "unit_code_name": "bim_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2637",
-        "area_km2": 51.84
+        "code": "14812",
+        "name": "Bỉm Sơn",
+        "nameEn": "Bim Son",
+        "fullName": "Phường Bỉm Sơn",
+        "fullNameEn": "Bim Son Ward",
+        "codeName": "bim_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2637",
+        "areaKm2": 51.84
       }
     }
   ]

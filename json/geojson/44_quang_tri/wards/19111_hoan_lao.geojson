@@ -10882,11 +10882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàn Lão",
-        "unit_code": "19111",
-        "unit_code_name": "hoan_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.620",
-        "area_km2": 99.03
+        "code": "19111",
+        "name": "Hoàn Lão",
+        "nameEn": "Hoan Lao",
+        "fullName": "Xã Hoàn Lão",
+        "fullNameEn": "Hoan Lao Commune",
+        "codeName": "hoan_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.620",
+        "areaKm2": 99.03
       }
     }
   ]

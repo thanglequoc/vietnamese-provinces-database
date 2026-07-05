@@ -7282,11 +7282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Chia",
-        "unit_code": "23788",
-        "unit_code_name": "ia_chia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2935",
-        "area_km2": 172.86
+        "code": "23788",
+        "name": "Ia Chia",
+        "nameEn": "Ia Chia",
+        "fullName": "Xã Ia Chia",
+        "fullNameEn": "Ia Chia Commune",
+        "codeName": "ia_chia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2935",
+        "areaKm2": 172.86
       }
     }
   ]

@@ -8166,11 +8166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quới An",
-        "unit_code": "29668",
-        "unit_code_name": "quoi_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2538",
-        "area_km2": 44.93
+        "code": "29668",
+        "name": "Quới An",
+        "nameEn": "Quoi An",
+        "fullName": "Xã Quới An",
+        "fullNameEn": "Quoi An Commune",
+        "codeName": "quoi_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2538",
+        "areaKm2": 44.93
       }
     }
   ]

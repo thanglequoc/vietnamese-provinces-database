@@ -9366,11 +9366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuyên Mộc",
-        "unit_code": "26632",
-        "unit_code_name": "xuyen_moc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2212",
-        "area_km2": 102.96
+        "code": "26632",
+        "name": "Xuyên Mộc",
+        "nameEn": "Xuyen Moc",
+        "fullName": "Xã Xuyên Mộc",
+        "fullNameEn": "Xuyen Moc Commune",
+        "codeName": "xuyen_moc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2212",
+        "areaKm2": 102.96
       }
     }
   ]

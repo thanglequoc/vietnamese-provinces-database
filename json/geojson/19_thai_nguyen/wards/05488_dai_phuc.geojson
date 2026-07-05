@@ -10538,11 +10538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Phúc",
-        "unit_code": "05488",
-        "unit_code_name": "dai_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1188",
-        "area_km2": 107.47
+        "code": "05488",
+        "name": "Đại Phúc",
+        "nameEn": "Dai Phuc",
+        "fullName": "Xã Đại Phúc",
+        "fullNameEn": "Dai Phuc Commune",
+        "codeName": "dai_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1188",
+        "areaKm2": 107.47
       }
     }
   ]

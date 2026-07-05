@@ -10770,11 +10770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Thành",
-        "unit_code": "22250",
-        "unit_code_name": "son_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2915",
-        "area_km2": 218.11
+        "code": "22250",
+        "name": "Sơn Thành",
+        "nameEn": "Son Thanh",
+        "fullName": "Xã Sơn Thành",
+        "fullNameEn": "Son Thanh Commune",
+        "codeName": "son_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2915",
+        "areaKm2": 218.11
       }
     }
   ]

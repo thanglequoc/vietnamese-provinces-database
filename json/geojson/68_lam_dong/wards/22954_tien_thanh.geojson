@@ -5466,11 +5466,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiến Thành",
-        "unit_code": "22954",
-        "unit_code_name": "tien_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3066",
-        "area_km2": 55.06
+        "code": "22954",
+        "name": "Tiến Thành",
+        "nameEn": "Tien Thanh",
+        "fullName": "Phường Tiến Thành",
+        "fullNameEn": "Tien Thanh Ward",
+        "codeName": "tien_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3066",
+        "areaKm2": 55.06
       }
     }
   ]

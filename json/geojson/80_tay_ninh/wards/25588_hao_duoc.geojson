@@ -19342,11 +19342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hảo Đước",
-        "unit_code": "25588",
-        "unit_code_name": "hao_duoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2747",
-        "area_km2": 93.75
+        "code": "25588",
+        "name": "Hảo Đước",
+        "nameEn": "Hao Duoc",
+        "fullName": "Xã Hảo Đước",
+        "fullNameEn": "Hao Duoc Commune",
+        "codeName": "hao_duoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2747",
+        "areaKm2": 93.75
       }
     }
   ]

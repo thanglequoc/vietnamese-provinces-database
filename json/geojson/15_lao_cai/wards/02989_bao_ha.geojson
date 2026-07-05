@@ -12554,11 +12554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Hà",
-        "unit_code": "02989",
-        "unit_code_name": "bao_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1079",
-        "area_km2": 243
+        "code": "02989",
+        "name": "Bảo Hà",
+        "nameEn": "Bao Ha",
+        "fullName": "Xã Bảo Hà",
+        "fullNameEn": "Bao Ha Commune",
+        "codeName": "bao_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1079",
+        "areaKm2": 243
       }
     }
   ]

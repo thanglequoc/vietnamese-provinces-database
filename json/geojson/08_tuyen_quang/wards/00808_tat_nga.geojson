@@ -10726,11 +10726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tát Ngà",
-        "unit_code": "00808",
-        "unit_code_name": "tat_nga",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2375",
-        "area_km2": 90.6
+        "code": "00808",
+        "name": "Tát Ngà",
+        "nameEn": "Tat Nga",
+        "fullName": "Xã Tát Ngà",
+        "fullNameEn": "Tat Nga Commune",
+        "codeName": "tat_nga",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2375",
+        "areaKm2": 90.6
       }
     }
   ]

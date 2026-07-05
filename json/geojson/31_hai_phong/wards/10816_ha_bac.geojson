@@ -1922,11 +1922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Bắc",
-        "unit_code": "10816",
-        "unit_code_name": "ha_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.837",
-        "area_km2": 26.29
+        "code": "10816",
+        "name": "Hà Bắc",
+        "nameEn": "Ha Bac",
+        "fullName": "Xã Hà Bắc",
+        "fullNameEn": "Ha Bac Commune",
+        "codeName": "ha_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.837",
+        "areaKm2": 26.29
       }
     }
   ]

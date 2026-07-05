@@ -1634,11 +1634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Thuỵ Anh",
-        "unit_code": "12850",
-        "unit_code_name": "tay_thuy_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.671",
-        "area_km2": 16.68
+        "code": "12850",
+        "name": "Tây Thuỵ Anh",
+        "nameEn": "Tay Thuy Anh",
+        "fullName": "Xã Tây Thuỵ Anh",
+        "fullNameEn": "Tay Thuy Anh Commune",
+        "codeName": "tay_thuy_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.671",
+        "areaKm2": 16.68
       }
     }
   ]

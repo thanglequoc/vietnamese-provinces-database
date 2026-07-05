@@ -8346,11 +8346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Tĩnh",
-        "unit_code": "42",
-        "unit_code_name": "ha_tinh",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.53",
-        "area_km2": 5994.45
+        "code": "42",
+        "name": "Hà Tĩnh",
+        "nameEn": "Ha Tinh",
+        "fullName": "Tỉnh Hà Tĩnh",
+        "fullNameEn": "Ha Tinh Province",
+        "codeName": "ha_tinh",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.53",
+        "areaKm2": 5994.45
       }
     }
   ]

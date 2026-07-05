@@ -10594,11 +10594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Trạch",
-        "unit_code": "18547",
-        "unit_code_name": "phuc_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2035",
-        "area_km2": 201.42
+        "code": "18547",
+        "name": "Phúc Trạch",
+        "nameEn": "Phuc Trach",
+        "fullName": "Xã Phúc Trạch",
+        "fullNameEn": "Phuc Trach Commune",
+        "codeName": "phuc_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2035",
+        "areaKm2": 201.42
       }
     }
   ]

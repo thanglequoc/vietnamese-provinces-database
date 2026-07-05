@@ -10334,11 +10334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Kỳ",
-        "unit_code": "08113",
-        "unit_code_name": "yen_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1545",
-        "area_km2": 53.58
+        "code": "08113",
+        "name": "Yên Kỳ",
+        "nameEn": "Yen Ky",
+        "fullName": "Xã Yên Kỳ",
+        "fullNameEn": "Yen Ky Commune",
+        "codeName": "yen_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1545",
+        "areaKm2": 53.58
       }
     }
   ]

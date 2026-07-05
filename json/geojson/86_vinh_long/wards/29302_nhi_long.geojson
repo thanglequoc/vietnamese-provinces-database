@@ -11054,11 +11054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhị Long",
-        "unit_code": "29302",
-        "unit_code_name": "nhi_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2487",
-        "area_km2": 57.95
+        "code": "29302",
+        "name": "Nhị Long",
+        "nameEn": "Nhi Long",
+        "fullName": "Xã Nhị Long",
+        "fullNameEn": "Nhi Long Commune",
+        "codeName": "nhi_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2487",
+        "areaKm2": 57.95
       }
     }
   ]

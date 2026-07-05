@@ -8438,11 +8438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Khánh Trung",
-        "unit_code": "30184",
-        "unit_code_name": "tan_khanh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.436",
-        "area_km2": 60.1
+        "code": "30184",
+        "name": "Tân Khánh Trung",
+        "nameEn": "Tan Khanh Trung",
+        "fullName": "Xã Tân Khánh Trung",
+        "fullNameEn": "Tan Khanh Trung Commune",
+        "codeName": "tan_khanh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.436",
+        "areaKm2": 60.1
       }
     }
   ]

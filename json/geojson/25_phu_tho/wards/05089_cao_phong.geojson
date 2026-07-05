@@ -8390,11 +8390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Phong",
-        "unit_code": "05089",
-        "unit_code_name": "cao_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1655",
-        "area_km2": 77.76
+        "code": "05089",
+        "name": "Cao Phong",
+        "nameEn": "Cao Phong",
+        "fullName": "Xã Cao Phong",
+        "fullNameEn": "Cao Phong Commune",
+        "codeName": "cao_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1655",
+        "areaKm2": 77.76
       }
     }
   ]

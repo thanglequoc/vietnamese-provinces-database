@@ -6142,11 +6142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lái Thiêu",
-        "unit_code": "25966",
-        "unit_code_name": "lai_thieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.33",
-        "area_km2": 15.46
+        "code": "25966",
+        "name": "Lái Thiêu",
+        "nameEn": "Lai Thieu",
+        "fullName": "Phường Lái Thiêu",
+        "fullNameEn": "Lai Thieu Ward",
+        "codeName": "lai_thieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.33",
+        "areaKm2": 15.46
       }
     }
   ]

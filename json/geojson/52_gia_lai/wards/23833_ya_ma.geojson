@@ -18602,11 +18602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ya Ma",
-        "unit_code": "23833",
-        "unit_code_name": "ya_ma",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3033",
-        "area_km2": 176.88
+        "code": "23833",
+        "name": "Ya Ma",
+        "nameEn": "Ya Ma",
+        "fullName": "Xã Ya Ma",
+        "fullNameEn": "Ya Ma Commune",
+        "codeName": "ya_ma",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3033",
+        "areaKm2": 176.88
       }
     }
   ]

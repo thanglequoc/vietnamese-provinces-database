@@ -7938,11 +7938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Bình",
-        "unit_code": "09454",
-        "unit_code_name": "gia_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2129",
-        "area_km2": 29.98
+        "code": "09454",
+        "name": "Gia Bình",
+        "nameEn": "Gia Binh",
+        "fullName": "Xã Gia Bình",
+        "fullNameEn": "Gia Binh Commune",
+        "codeName": "gia_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2129",
+        "areaKm2": 29.98
       }
     }
   ]

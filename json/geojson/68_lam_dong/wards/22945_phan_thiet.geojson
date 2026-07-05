@@ -2142,11 +2142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Thiết",
-        "unit_code": "22945",
-        "unit_code_name": "phan_thiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3064",
-        "area_km2": 4.46
+        "code": "22945",
+        "name": "Phan Thiết",
+        "nameEn": "Phan Thiet",
+        "fullName": "Phường Phan Thiết",
+        "fullNameEn": "Phan Thiet Ward",
+        "codeName": "phan_thiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3064",
+        "areaKm2": 4.46
       }
     }
   ]

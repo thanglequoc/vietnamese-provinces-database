@@ -5734,11 +5734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lào Cai",
-        "unit_code": "15",
-        "unit_code_name": "lao_cai",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.114",
-        "area_km2": 13256.92
+        "code": "15",
+        "name": "Lào Cai",
+        "nameEn": "Lao Cai",
+        "fullName": "Tỉnh Lào Cai",
+        "fullNameEn": "Lao Cai Province",
+        "codeName": "lao_cai",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.114",
+        "areaKm2": 13256.92
       }
     }
   ]

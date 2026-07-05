@@ -5934,11 +5934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Lộc",
-        "unit_code": "13708",
-        "unit_code_name": "my_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.784",
-        "area_km2": 35.54
+        "code": "13708",
+        "name": "Mỹ Lộc",
+        "nameEn": "My Loc",
+        "fullName": "Phường Mỹ Lộc",
+        "fullNameEn": "My Loc Ward",
+        "codeName": "my_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.784",
+        "areaKm2": 35.54
       }
     }
   ]

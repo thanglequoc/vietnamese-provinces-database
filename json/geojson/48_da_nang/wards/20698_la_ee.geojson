@@ -9962,11 +9962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Êê",
-        "unit_code": "20698",
-        "unit_code_name": "la_ee",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1916",
-        "area_km2": 243.12
+        "code": "20698",
+        "name": "La Êê",
+        "nameEn": "La Ee",
+        "fullName": "Xã La Êê",
+        "fullNameEn": "La Ee Commune",
+        "codeName": "la_ee",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1916",
+        "areaKm2": 243.12
       }
     }
   ]

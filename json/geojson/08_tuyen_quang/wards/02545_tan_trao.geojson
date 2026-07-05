@@ -12602,11 +12602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Trào",
-        "unit_code": "02545",
-        "unit_code_name": "tan_trao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2355",
-        "area_km2": 98.57
+        "code": "02545",
+        "name": "Tân Trào",
+        "nameEn": "Tan Trao",
+        "fullName": "Xã Tân Trào",
+        "fullNameEn": "Tan Trao Commune",
+        "codeName": "tan_trao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2355",
+        "areaKm2": 98.57
       }
     }
   ]

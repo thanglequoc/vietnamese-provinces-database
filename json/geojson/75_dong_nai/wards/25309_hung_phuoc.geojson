@@ -34722,11 +34722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Phước",
-        "unit_code": "25309",
-        "unit_code_name": "hung_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2289",
-        "area_km2": 187.2
+        "code": "25309",
+        "name": "Hưng Phước",
+        "nameEn": "Hung Phuoc",
+        "fullName": "Xã Hưng Phước",
+        "fullNameEn": "Hung Phuoc Commune",
+        "codeName": "hung_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2289",
+        "areaKm2": 187.2
       }
     }
   ]

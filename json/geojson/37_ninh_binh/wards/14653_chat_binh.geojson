@@ -1118,11 +1118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chất Bình",
-        "unit_code": "14653",
-        "unit_code_name": "chat_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.764",
-        "area_km2": 18.6
+        "code": "14653",
+        "name": "Chất Bình",
+        "nameEn": "Chat Binh",
+        "fullName": "Xã Chất Bình",
+        "fullNameEn": "Chat Binh Commune",
+        "codeName": "chat_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.764",
+        "areaKm2": 18.6
       }
     }
   ]

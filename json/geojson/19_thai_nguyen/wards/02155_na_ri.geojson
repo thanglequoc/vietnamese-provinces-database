@@ -6230,11 +6230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Rì",
-        "unit_code": "02155",
-        "unit_code_name": "na_ri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1246",
-        "area_km2": 112.73
+        "code": "02155",
+        "name": "Na Rì",
+        "nameEn": "Na Ri",
+        "fullName": "Xã Na Rì",
+        "fullNameEn": "Na Ri Commune",
+        "codeName": "na_ri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1246",
+        "areaKm2": 112.73
       }
     }
   ]

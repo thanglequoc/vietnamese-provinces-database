@@ -8970,11 +8970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàu Cạn",
-        "unit_code": "23896",
-        "unit_code_name": "bau_can",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2941",
-        "area_km2": 114.25
+        "code": "23896",
+        "name": "Bàu Cạn",
+        "nameEn": "Bau Can",
+        "fullName": "Xã Bàu Cạn",
+        "fullNameEn": "Bau Can Commune",
+        "codeName": "bau_can",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2941",
+        "areaKm2": 114.25
       }
     }
   ]

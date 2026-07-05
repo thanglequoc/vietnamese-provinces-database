@@ -9930,11 +9930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lóng Phiêng",
-        "unit_code": "04096",
-        "unit_code_name": "long_phieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1385",
-        "area_km2": 147.81
+        "code": "04096",
+        "name": "Lóng Phiêng",
+        "nameEn": "Long Phieng",
+        "fullName": "Xã Lóng Phiêng",
+        "fullNameEn": "Long Phieng Commune",
+        "codeName": "long_phieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1385",
+        "areaKm2": 147.81
       }
     }
   ]

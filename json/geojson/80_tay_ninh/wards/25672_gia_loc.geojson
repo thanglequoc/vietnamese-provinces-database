@@ -4194,11 +4194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Lộc",
-        "unit_code": "25672",
-        "unit_code_name": "gia_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2730",
-        "area_km2": 50.26
+        "code": "25672",
+        "name": "Gia Lộc",
+        "nameEn": "Gia Loc",
+        "fullName": "Phường Gia Lộc",
+        "fullNameEn": "Gia Loc Ward",
+        "codeName": "gia_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2730",
+        "areaKm2": 50.26
       }
     }
   ]

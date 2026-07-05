@@ -12318,11 +12318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ An Hưng",
-        "unit_code": "30178",
-        "unit_code_name": "my_an_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.435",
-        "area_km2": 65.3
+        "code": "30178",
+        "name": "Mỹ An Hưng",
+        "nameEn": "My An Hung",
+        "fullName": "Xã Mỹ An Hưng",
+        "fullNameEn": "My An Hung Commune",
+        "codeName": "my_an_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.435",
+        "areaKm2": 65.3
       }
     }
   ]

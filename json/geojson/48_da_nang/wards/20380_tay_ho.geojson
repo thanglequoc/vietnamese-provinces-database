@@ -7658,11 +7658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Hồ",
-        "unit_code": "20380",
-        "unit_code_name": "tay_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1961",
-        "area_km2": 75.67
+        "code": "20380",
+        "name": "Tây Hồ",
+        "nameEn": "Tay Ho",
+        "fullName": "Xã Tây Hồ",
+        "fullNameEn": "Tay Ho Commune",
+        "codeName": "tay_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1961",
+        "areaKm2": 75.67
       }
     }
   ]

@@ -12610,11 +12610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tằng Loỏng",
-        "unit_code": "02908",
-        "unit_code_name": "tang_loong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1072",
-        "area_km2": 125.8
+        "code": "02908",
+        "name": "Tằng Loỏng",
+        "nameEn": "Tang Loong",
+        "fullName": "Xã Tằng Loỏng",
+        "fullNameEn": "Tang Loong Commune",
+        "codeName": "tang_loong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1072",
+        "areaKm2": 125.8
       }
     }
   ]

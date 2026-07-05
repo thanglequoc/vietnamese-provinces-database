@@ -7910,11 +7910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khả Cửu",
-        "unit_code": "08635",
-        "unit_code_name": "kha_cuu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1566",
-        "area_km2": 148.48
+        "code": "08635",
+        "name": "Khả Cửu",
+        "nameEn": "Kha Cuu",
+        "fullName": "Xã Khả Cửu",
+        "fullNameEn": "Kha Cuu Commune",
+        "codeName": "kha_cuu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1566",
+        "areaKm2": 148.48
       }
     }
   ]

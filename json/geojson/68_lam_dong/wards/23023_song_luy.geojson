@@ -10786,11 +10786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Luỹ",
-        "unit_code": "23023",
-        "unit_code_name": "song_luy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3074",
-        "area_km2": 253.33
+        "code": "23023",
+        "name": "Sông Luỹ",
+        "nameEn": "Song Luy",
+        "fullName": "Xã Sông Luỹ",
+        "fullNameEn": "Song Luy Commune",
+        "codeName": "song_luy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3074",
+        "areaKm2": 253.33
       }
     }
   ]

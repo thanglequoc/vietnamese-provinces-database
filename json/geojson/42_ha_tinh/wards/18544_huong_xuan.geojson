@@ -11506,11 +11506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Xuân",
-        "unit_code": "18544",
-        "unit_code_name": "huong_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2037",
-        "area_km2": 263.14
+        "code": "18544",
+        "name": "Hương Xuân",
+        "nameEn": "Huong Xuan",
+        "fullName": "Xã Hương Xuân",
+        "fullNameEn": "Huong Xuan Commune",
+        "codeName": "huong_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2037",
+        "areaKm2": 263.14
       }
     }
   ]

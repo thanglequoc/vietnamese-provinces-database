@@ -11414,11 +11414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Thanh",
-        "unit_code": "03334",
-        "unit_code_name": "muong_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2227",
-        "area_km2": 27.56
+        "code": "03334",
+        "name": "Mường Thanh",
+        "nameEn": "Muong Thanh",
+        "fullName": "Phường Mường Thanh",
+        "fullNameEn": "Muong Thanh Ward",
+        "codeName": "muong_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2227",
+        "areaKm2": 27.56
       }
     }
   ]

@@ -5846,11 +5846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Phước",
-        "unit_code": "31603",
-        "unit_code_name": "my_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.277",
-        "area_km2": 97.36
+        "code": "31603",
+        "name": "Mỹ Phước",
+        "nameEn": "My Phuoc",
+        "fullName": "Xã Mỹ Phước",
+        "fullNameEn": "My Phuoc Commune",
+        "codeName": "my_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.277",
+        "areaKm2": 97.36
       }
     }
   ]

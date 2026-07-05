@@ -1810,11 +1810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hoà",
-        "unit_code": "29413",
-        "unit_code_name": "long_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2505",
-        "area_km2": 52.67
+        "code": "29413",
+        "name": "Long Hoà",
+        "nameEn": "Long Hoa",
+        "fullName": "Xã Long Hoà",
+        "fullNameEn": "Long Hoa Commune",
+        "codeName": "long_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2505",
+        "areaKm2": 52.67
       }
     }
   ]

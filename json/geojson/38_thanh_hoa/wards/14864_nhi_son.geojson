@@ -2094,11 +2094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhi Sơn",
-        "unit_code": "14864",
-        "unit_code_name": "nhi_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2703",
-        "area_km2": 38.67
+        "code": "14864",
+        "name": "Nhi Sơn",
+        "nameEn": "Nhi Son",
+        "fullName": "Xã Nhi Sơn",
+        "fullNameEn": "Nhi Son Commune",
+        "codeName": "nhi_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2703",
+        "areaKm2": 38.67
       }
     }
   ]

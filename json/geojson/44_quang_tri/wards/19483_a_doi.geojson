@@ -4970,11 +4970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Dơi",
-        "unit_code": "19483",
-        "unit_code_name": "a_doi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.595",
-        "area_km2": 112.41
+        "code": "19483",
+        "name": "A Dơi",
+        "nameEn": "A Doi",
+        "fullName": "Xã A Dơi",
+        "fullNameEn": "A Doi Commune",
+        "codeName": "a_doi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.595",
+        "areaKm2": 112.41
       }
     }
   ]

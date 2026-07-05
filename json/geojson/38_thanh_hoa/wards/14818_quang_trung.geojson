@@ -5062,11 +5062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Trung",
-        "unit_code": "14818",
-        "unit_code_name": "quang_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2724",
-        "area_km2": 29.22
+        "code": "14818",
+        "name": "Quang Trung",
+        "nameEn": "Quang Trung",
+        "fullName": "Phường Quang Trung",
+        "fullNameEn": "Quang Trung Ward",
+        "codeName": "quang_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2724",
+        "areaKm2": 29.22
       }
     }
   ]

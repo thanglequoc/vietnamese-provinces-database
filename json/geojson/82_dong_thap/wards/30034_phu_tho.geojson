@@ -4414,11 +4414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thọ",
-        "unit_code": "30034",
-        "unit_code_name": "phu_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.418",
-        "area_km2": 84.9
+        "code": "30034",
+        "name": "Phú Thọ",
+        "nameEn": "Phu Tho",
+        "fullName": "Xã Phú Thọ",
+        "fullNameEn": "Phu Tho Commune",
+        "codeName": "phu_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.418",
+        "areaKm2": 84.9
       }
     }
   ]

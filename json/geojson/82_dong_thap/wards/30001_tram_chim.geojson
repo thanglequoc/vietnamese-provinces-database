@@ -3998,11 +3998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tràm Chim",
-        "unit_code": "30001",
-        "unit_code_name": "tram_chim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.413",
-        "area_km2": 90.2
+        "code": "30001",
+        "name": "Tràm Chim",
+        "nameEn": "Tram Chim",
+        "fullName": "Xã Tràm Chim",
+        "fullNameEn": "Tram Chim Commune",
+        "codeName": "tram_chim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.413",
+        "areaKm2": 90.2
       }
     }
   ]

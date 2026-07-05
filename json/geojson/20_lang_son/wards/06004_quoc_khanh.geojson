@@ -13562,11 +13562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quốc Khánh",
-        "unit_code": "06004",
-        "unit_code_name": "quoc_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1824",
-        "area_km2": 168.15
+        "code": "06004",
+        "name": "Quốc Khánh",
+        "nameEn": "Quoc Khanh",
+        "fullName": "Xã Quốc Khánh",
+        "fullNameEn": "Quoc Khanh Commune",
+        "codeName": "quoc_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1824",
+        "areaKm2": 168.15
       }
     }
   ]

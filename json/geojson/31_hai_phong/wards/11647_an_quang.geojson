@@ -1410,11 +1410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Quang",
-        "unit_code": "11647",
-        "unit_code_name": "an_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.906",
-        "area_km2": 21.4
+        "code": "11647",
+        "name": "An Quang",
+        "nameEn": "An Quang",
+        "fullName": "Xã An Quang",
+        "fullNameEn": "An Quang Commune",
+        "codeName": "an_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.906",
+        "areaKm2": 21.4
       }
     }
   ]

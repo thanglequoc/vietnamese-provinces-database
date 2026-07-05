@@ -3398,11 +3398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Cường",
-        "unit_code": "13870",
-        "unit_code_name": "yen_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.818",
-        "area_km2": 32.44
+        "code": "13870",
+        "name": "Yên Cường",
+        "nameEn": "Yen Cuong",
+        "fullName": "Xã Yên Cường",
+        "fullNameEn": "Yen Cuong Commune",
+        "codeName": "yen_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.818",
+        "areaKm2": 32.44
       }
     }
   ]

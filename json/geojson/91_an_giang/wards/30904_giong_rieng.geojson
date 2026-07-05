@@ -10522,11 +10522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giồng Riềng",
-        "unit_code": "30904",
-        "unit_code_name": "giong_rieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.378",
-        "area_km2": 122.1
+        "code": "30904",
+        "name": "Giồng Riềng",
+        "nameEn": "Giong Rieng",
+        "fullName": "Xã Giồng Riềng",
+        "fullNameEn": "Giong Rieng Commune",
+        "codeName": "giong_rieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.378",
+        "areaKm2": 122.1
       }
     }
   ]

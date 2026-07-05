@@ -2970,11 +2970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Hiệp",
-        "unit_code": "29158",
-        "unit_code_name": "an_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2476",
-        "area_km2": 56.33
+        "code": "29158",
+        "name": "An Hiệp",
+        "nameEn": "An Hiep",
+        "fullName": "Xã An Hiệp",
+        "fullNameEn": "An Hiep Commune",
+        "codeName": "an_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2476",
+        "areaKm2": 56.33
       }
     }
   ]

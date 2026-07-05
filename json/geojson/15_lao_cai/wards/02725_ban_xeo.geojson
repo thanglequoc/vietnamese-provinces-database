@@ -5562,11 +5562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Xèo",
-        "unit_code": "02725",
-        "unit_code_name": "ban_xeo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1096",
-        "area_km2": 78.3
+        "code": "02725",
+        "name": "Bản Xèo",
+        "nameEn": "Ban Xeo",
+        "fullName": "Xã Bản Xèo",
+        "fullNameEn": "Ban Xeo Commune",
+        "codeName": "ban_xeo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1096",
+        "areaKm2": 78.3
       }
     }
   ]

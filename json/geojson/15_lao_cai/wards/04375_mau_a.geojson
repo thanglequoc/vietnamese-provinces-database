@@ -15290,11 +15290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mậu A",
-        "unit_code": "04375",
-        "unit_code_name": "mau_a",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1015",
-        "area_km2": 144.52
+        "code": "04375",
+        "name": "Mậu A",
+        "nameEn": "Mau A",
+        "fullName": "Xã Mậu A",
+        "fullNameEn": "Mau A Commune",
+        "codeName": "mau_a",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1015",
+        "areaKm2": 144.52
       }
     }
   ]

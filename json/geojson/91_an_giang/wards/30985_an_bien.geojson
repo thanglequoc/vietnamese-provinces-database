@@ -6786,11 +6786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Biên",
-        "unit_code": "30985",
-        "unit_code_name": "an_bien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.388",
-        "area_km2": 118.27
+        "code": "30985",
+        "name": "An Biên",
+        "nameEn": "An Bien",
+        "fullName": "Xã An Biên",
+        "fullNameEn": "An Bien Commune",
+        "codeName": "an_bien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.388",
+        "areaKm2": 118.27
       }
     }
   ]

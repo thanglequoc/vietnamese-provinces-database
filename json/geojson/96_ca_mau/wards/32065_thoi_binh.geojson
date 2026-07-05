@@ -11838,11 +11838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Bình",
-        "unit_code": "32065",
-        "unit_code_name": "thoi_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.173",
-        "area_km2": 121
+        "code": "32065",
+        "name": "Thới Bình",
+        "nameEn": "Thoi Binh",
+        "fullName": "Xã Thới Bình",
+        "fullNameEn": "Thoi Binh Commune",
+        "codeName": "thoi_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.173",
+        "areaKm2": 121
       }
     }
   ]

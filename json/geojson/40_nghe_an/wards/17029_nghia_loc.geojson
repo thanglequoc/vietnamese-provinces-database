@@ -7086,11 +7086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Lộc",
-        "unit_code": "17029",
-        "unit_code_name": "nghia_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1473",
-        "area_km2": 62.93
+        "code": "17029",
+        "name": "Nghĩa Lộc",
+        "nameEn": "Nghia Loc",
+        "fullName": "Xã Nghĩa Lộc",
+        "fullNameEn": "Nghia Loc Commune",
+        "codeName": "nghia_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1473",
+        "areaKm2": 62.93
       }
     }
   ]

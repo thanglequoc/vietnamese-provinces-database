@@ -6110,11 +6110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Hoa Lư",
-        "unit_code": "14533",
-        "unit_code_name": "tay_hoa_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.742",
-        "area_km2": 84.96
+        "code": "14533",
+        "name": "Tây Hoa Lư",
+        "nameEn": "Tay Hoa Lu",
+        "fullName": "Phường Tây Hoa Lư",
+        "fullNameEn": "Tay Hoa Lu Ward",
+        "codeName": "tay_hoa_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.742",
+        "areaKm2": 84.96
       }
     }
   ]

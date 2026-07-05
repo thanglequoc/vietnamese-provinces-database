@@ -906,11 +906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Thạnh",
-        "unit_code": "27013",
-        "unit_code_name": "tay_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.72",
-        "area_km2": 3.95
+        "code": "27013",
+        "name": "Tây Thạnh",
+        "nameEn": "Tay Thanh",
+        "fullName": "Phường Tây Thạnh",
+        "fullNameEn": "Tay Thanh Ward",
+        "codeName": "tay_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.72",
+        "areaKm2": 3.95
       }
     }
   ]

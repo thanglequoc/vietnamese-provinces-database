@@ -8666,11 +8666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Uyên",
-        "unit_code": "01576",
-        "unit_code_name": "quang_uyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.987",
-        "area_km2": 128.05
+        "code": "01576",
+        "name": "Quảng Uyên",
+        "nameEn": "Quang Uyen",
+        "fullName": "Xã Quảng Uyên",
+        "fullNameEn": "Quang Uyen Commune",
+        "codeName": "quang_uyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.987",
+        "areaKm2": 128.05
       }
     }
   ]

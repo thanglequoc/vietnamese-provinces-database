@@ -3366,11 +3366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Bình",
-        "unit_code": "16543",
-        "unit_code_name": "quang_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2585",
-        "area_km2": 23.51
+        "code": "16543",
+        "name": "Quảng Bình",
+        "nameEn": "Quang Binh",
+        "fullName": "Xã Quảng Bình",
+        "fullNameEn": "Quang Binh Commune",
+        "codeName": "quang_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2585",
+        "areaKm2": 23.51
       }
     }
   ]

@@ -7830,11 +7830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Pék",
-        "unit_code": "23341",
-        "unit_code_name": "dak_pek",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.559",
-        "area_km2": 182.72
+        "code": "23341",
+        "name": "Đăk Pék",
+        "nameEn": "Dak Pek",
+        "fullName": "Xã Đăk Pék",
+        "fullNameEn": "Dak Pek Commune",
+        "codeName": "dak_pek",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.559",
+        "areaKm2": 182.72
       }
     }
   ]

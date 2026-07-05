@@ -4870,11 +4870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Lạc",
-        "unit_code": "18748",
-        "unit_code_name": "cam_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2021",
-        "area_km2": 115.86
+        "code": "18748",
+        "name": "Cẩm Lạc",
+        "nameEn": "Cam Lac",
+        "fullName": "Xã Cẩm Lạc",
+        "fullNameEn": "Cam Lac Commune",
+        "codeName": "cam_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2021",
+        "areaKm2": 115.86
       }
     }
   ]

@@ -2650,11 +2650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Trấn",
-        "unit_code": "14494",
-        "unit_code_name": "gia_tran",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.746",
-        "area_km2": 18.76
+        "code": "14494",
+        "name": "Gia Trấn",
+        "nameEn": "Gia Tran",
+        "fullName": "Xã Gia Trấn",
+        "fullNameEn": "Gia Tran Commune",
+        "codeName": "gia_tran",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.746",
+        "areaKm2": 18.76
       }
     }
   ]

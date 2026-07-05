@@ -4826,11 +4826,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Tụ",
-        "unit_code": "17611",
-        "unit_code_name": "van_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1457",
-        "area_km2": 48.73
+        "code": "17611",
+        "name": "Vân Tụ",
+        "nameEn": "Van Tu",
+        "fullName": "Xã Vân Tụ",
+        "fullNameEn": "Van Tu Commune",
+        "codeName": "van_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1457",
+        "areaKm2": 48.73
       }
     }
   ]

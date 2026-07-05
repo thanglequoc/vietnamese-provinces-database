@@ -3262,11 +3262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Thương",
-        "unit_code": "13594",
-        "unit_code_name": "tran_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2771",
-        "area_km2": 26.32
+        "code": "13594",
+        "name": "Trần Thương",
+        "nameEn": "Tran Thuong",
+        "fullName": "Xã Trần Thương",
+        "fullNameEn": "Tran Thuong Commune",
+        "codeName": "tran_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2771",
+        "areaKm2": 26.32
       }
     }
   ]

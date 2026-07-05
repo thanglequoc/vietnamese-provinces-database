@@ -17498,11 +17498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc An",
-        "unit_code": "20140",
-        "unit_code_name": "loc_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1720",
-        "area_km2": 177.58
+        "code": "20140",
+        "name": "Lộc An",
+        "nameEn": "Loc An",
+        "fullName": "Xã Lộc An",
+        "fullNameEn": "Loc An Commune",
+        "codeName": "loc_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1720",
+        "areaKm2": 177.58
       }
     }
   ]

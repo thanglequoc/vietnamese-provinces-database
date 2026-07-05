@@ -9390,11 +9390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lập Thạch",
-        "unit_code": "08761",
-        "unit_code_name": "lap_thach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1609",
-        "area_km2": 39.1
+        "code": "08761",
+        "name": "Lập Thạch",
+        "nameEn": "Lap Thach",
+        "fullName": "Xã Lập Thạch",
+        "fullNameEn": "Lap Thach Commune",
+        "codeName": "lap_thach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1609",
+        "areaKm2": 39.1
       }
     }
   ]

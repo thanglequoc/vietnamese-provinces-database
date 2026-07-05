@@ -12574,11 +12574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Dương",
-        "unit_code": "30214",
-        "unit_code_name": "tan_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.438",
-        "area_km2": 46.7
+        "code": "30214",
+        "name": "Tân Dương",
+        "nameEn": "Tan Duong",
+        "fullName": "Xã Tân Dương",
+        "fullNameEn": "Tan Duong Commune",
+        "codeName": "tan_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.438",
+        "areaKm2": 46.7
       }
     }
   ]

@@ -1582,11 +1582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Ninh",
-        "unit_code": "12247",
-        "unit_code_name": "chau_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.730",
-        "area_km2": 22.22
+        "code": "12247",
+        "name": "Châu Ninh",
+        "nameEn": "Chau Ninh",
+        "fullName": "Xã Châu Ninh",
+        "fullNameEn": "Chau Ninh Commune",
+        "codeName": "chau_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.730",
+        "areaKm2": 22.22
       }
     }
   ]

@@ -4238,11 +4238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Trường",
-        "unit_code": "14089",
-        "unit_code_name": "xuan_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.803",
-        "area_km2": 33.29
+        "code": "14089",
+        "name": "Xuân Trường",
+        "nameEn": "Xuan Truong",
+        "fullName": "Xã Xuân Trường",
+        "fullNameEn": "Xuan Truong Commune",
+        "codeName": "xuan_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.803",
+        "areaKm2": 33.29
       }
     }
   ]

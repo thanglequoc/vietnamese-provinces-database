@@ -1314,11 +1314,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Thuỵ Anh",
-        "unit_code": "12904",
-        "unit_code_name": "nam_thuy_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.669",
-        "area_km2": 17.4
+        "code": "12904",
+        "name": "Nam Thuỵ Anh",
+        "nameEn": "Nam Thuy Anh",
+        "fullName": "Xã Nam Thuỵ Anh",
+        "fullNameEn": "Nam Thuy Anh Commune",
+        "codeName": "nam_thuy_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.669",
+        "areaKm2": 17.4
       }
     }
   ]

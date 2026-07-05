@@ -3802,11 +3802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Hoá",
-        "unit_code": "19789",
-        "unit_code_name": "thuan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1688",
-        "area_km2": 7.57
+        "code": "19789",
+        "name": "Thuận Hoá",
+        "nameEn": "Thuan Hoa",
+        "fullName": "Phường Thuận Hoá",
+        "fullNameEn": "Thuan Hoa Ward",
+        "codeName": "thuan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1688",
+        "areaKm2": 7.57
       }
     }
   ]

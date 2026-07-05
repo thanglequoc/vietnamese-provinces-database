@@ -2450,11 +2450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Thành",
-        "unit_code": "09400",
-        "unit_code_name": "thuan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2190",
-        "area_km2": 26.58
+        "code": "09400",
+        "name": "Thuận Thành",
+        "nameEn": "Thuan Thanh",
+        "fullName": "Phường Thuận Thành",
+        "fullNameEn": "Thuan Thanh Ward",
+        "codeName": "thuan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2190",
+        "areaKm2": 26.58
       }
     }
   ]

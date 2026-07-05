@@ -5434,11 +5434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Ninh",
-        "unit_code": "16225",
-        "unit_code_name": "thuong_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2691",
-        "area_km2": 92.61
+        "code": "16225",
+        "name": "Thượng Ninh",
+        "nameEn": "Thuong Ninh",
+        "fullName": "Xã Thượng Ninh",
+        "fullNameEn": "Thuong Ninh Commune",
+        "codeName": "thuong_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2691",
+        "areaKm2": 92.61
       }
     }
   ]

@@ -10782,11 +10782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Lý",
-        "unit_code": "07534",
-        "unit_code_name": "sa_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2103",
-        "area_km2": 83.95
+        "code": "07534",
+        "name": "Sa Lý",
+        "nameEn": "Sa Ly",
+        "fullName": "Xã Sa Lý",
+        "fullNameEn": "Sa Ly Commune",
+        "codeName": "sa_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2103",
+        "areaKm2": 83.95
       }
     }
   ]

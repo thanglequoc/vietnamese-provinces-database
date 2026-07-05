@@ -2142,11 +2142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Trà",
-        "unit_code": "20350",
-        "unit_code_name": "huong_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1979",
-        "area_km2": 14.64
+        "code": "20350",
+        "name": "Hương Trà",
+        "nameEn": "Huong Tra",
+        "fullName": "Phường Hương Trà",
+        "fullNameEn": "Huong Tra Ward",
+        "codeName": "huong_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1979",
+        "areaKm2": 14.64
       }
     }
   ]

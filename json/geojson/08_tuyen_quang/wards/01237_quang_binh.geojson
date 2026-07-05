@@ -17582,11 +17582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Bình",
-        "unit_code": "01237",
-        "unit_code_name": "quang_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2433",
-        "area_km2": 130.14
+        "code": "01237",
+        "name": "Quang Bình",
+        "nameEn": "Quang Binh",
+        "fullName": "Xã Quang Bình",
+        "fullNameEn": "Quang Binh Commune",
+        "codeName": "quang_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2433",
+        "areaKm2": 130.14
       }
     }
   ]

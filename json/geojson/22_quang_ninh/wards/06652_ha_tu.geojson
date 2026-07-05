@@ -39858,11 +39858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Tu",
-        "unit_code": "06652",
-        "unit_code_name": "ha_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3287",
-        "area_km2": 37.6
+        "code": "06652",
+        "name": "Hà Tu",
+        "nameEn": "Ha Tu",
+        "fullName": "Phường Hà Tu",
+        "fullNameEn": "Ha Tu Ward",
+        "codeName": "ha_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3287",
+        "areaKm2": 37.6
       }
     }
   ]

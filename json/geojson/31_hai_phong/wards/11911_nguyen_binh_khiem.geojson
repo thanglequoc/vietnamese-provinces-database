@@ -1258,11 +1258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Bỉnh Khiêm",
-        "unit_code": "11911",
-        "unit_code_name": "nguyen_binh_khiem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.911",
-        "area_km2": 26.37
+        "code": "11911",
+        "name": "Nguyễn Bỉnh Khiêm",
+        "nameEn": "Nguyen Binh Khiem",
+        "fullName": "Xã Nguyễn Bỉnh Khiêm",
+        "fullNameEn": "Nguyen Binh Khiem Commune",
+        "codeName": "nguyen_binh_khiem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.911",
+        "areaKm2": 26.37
       }
     }
   ]

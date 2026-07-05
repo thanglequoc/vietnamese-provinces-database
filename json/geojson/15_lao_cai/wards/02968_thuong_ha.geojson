@@ -13662,11 +13662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Hà",
-        "unit_code": "02968",
-        "unit_code_name": "thuong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1077",
-        "area_km2": 143.8
+        "code": "02968",
+        "name": "Thượng Hà",
+        "nameEn": "Thuong Ha",
+        "fullName": "Xã Thượng Hà",
+        "fullNameEn": "Thuong Ha Commune",
+        "codeName": "thuong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1077",
+        "areaKm2": 143.8
       }
     }
   ]

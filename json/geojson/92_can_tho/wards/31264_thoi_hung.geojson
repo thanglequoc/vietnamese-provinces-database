@@ -4430,11 +4430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Hưng",
-        "unit_code": "31264",
-        "unit_code_name": "thoi_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.226",
-        "area_km2": 69.92
+        "code": "31264",
+        "name": "Thới Hưng",
+        "nameEn": "Thoi Hung",
+        "fullName": "Xã Thới Hưng",
+        "fullNameEn": "Thoi Hung Commune",
+        "codeName": "thoi_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.226",
+        "areaKm2": 69.92
       }
     }
   ]

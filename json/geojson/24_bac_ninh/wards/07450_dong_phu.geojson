@@ -11082,11 +11082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Phú",
-        "unit_code": "07450",
-        "unit_code_name": "dong_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2173",
-        "area_km2": 77.05
+        "code": "07450",
+        "name": "Đông Phú",
+        "nameEn": "Dong Phu",
+        "fullName": "Xã Đông Phú",
+        "fullNameEn": "Dong Phu Commune",
+        "codeName": "dong_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2173",
+        "areaKm2": 77.05
       }
     }
   ]

@@ -14450,11 +14450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Mỹ",
-        "unit_code": "32140",
-        "unit_code_name": "hung_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.184",
-        "area_km2": 98.4
+        "code": "32140",
+        "name": "Hưng Mỹ",
+        "nameEn": "Hung My",
+        "fullName": "Xã Hưng Mỹ",
+        "fullNameEn": "Hung My Commune",
+        "codeName": "hung_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.184",
+        "areaKm2": 98.4
       }
     }
   ]

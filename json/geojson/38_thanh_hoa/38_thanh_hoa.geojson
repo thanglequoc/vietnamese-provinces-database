@@ -8018,11 +8018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Hoá",
-        "unit_code": "38",
-        "unit_code_name": "thanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.61",
-        "area_km2": 11114.71
+        "code": "38",
+        "name": "Thanh Hoá",
+        "nameEn": "Thanh Hoa",
+        "fullName": "Tỉnh Thanh Hoá",
+        "fullNameEn": "Thanh Hoa Province",
+        "codeName": "thanh_hoa",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.61",
+        "areaKm2": 11114.71
       }
     }
   ]

@@ -4790,11 +4790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đa Mai",
-        "unit_code": "07228",
-        "unit_code_name": "da_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2142",
-        "area_km2": 33.1
+        "code": "07228",
+        "name": "Đa Mai",
+        "nameEn": "Da Mai",
+        "fullName": "Phường Đa Mai",
+        "fullNameEn": "Da Mai Ward",
+        "codeName": "da_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2142",
+        "areaKm2": 33.1
       }
     }
   ]

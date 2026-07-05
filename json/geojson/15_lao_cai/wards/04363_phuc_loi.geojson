@@ -6210,11 +6210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Lợi",
-        "unit_code": "04363",
-        "unit_code_name": "phuc_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1014",
-        "area_km2": 160.71
+        "code": "04363",
+        "name": "Phúc Lợi",
+        "nameEn": "Phuc Loi",
+        "fullName": "Xã Phúc Lợi",
+        "fullNameEn": "Phuc Loi Commune",
+        "codeName": "phuc_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1014",
+        "areaKm2": 160.71
       }
     }
   ]

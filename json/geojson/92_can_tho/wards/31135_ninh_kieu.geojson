@@ -766,11 +766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Kiều",
-        "unit_code": "31135",
-        "unit_code_name": "ninh_kieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.203",
-        "area_km2": 5.42
+        "code": "31135",
+        "name": "Ninh Kiều",
+        "nameEn": "Ninh Kieu",
+        "fullName": "Phường Ninh Kiều",
+        "fullNameEn": "Ninh Kieu Ward",
+        "codeName": "ninh_kieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.203",
+        "areaKm2": 5.42
       }
     }
   ]

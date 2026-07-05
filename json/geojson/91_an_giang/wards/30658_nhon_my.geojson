@@ -8930,11 +8930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Mỹ",
-        "unit_code": "30658",
-        "unit_code_name": "nhon_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.350",
-        "area_km2": 78.66
+        "code": "30658",
+        "name": "Nhơn Mỹ",
+        "nameEn": "Nhon My",
+        "fullName": "Xã Nhơn Mỹ",
+        "fullNameEn": "Nhon My Commune",
+        "codeName": "nhon_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.350",
+        "areaKm2": 78.66
       }
     }
   ]

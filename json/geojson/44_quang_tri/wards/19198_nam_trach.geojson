@@ -12222,11 +12222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Trạch",
-        "unit_code": "19198",
-        "unit_code_name": "nam_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.621",
-        "area_km2": 129.83
+        "code": "19198",
+        "name": "Nam Trạch",
+        "nameEn": "Nam Trach",
+        "fullName": "Xã Nam Trạch",
+        "fullNameEn": "Nam Trach Commune",
+        "codeName": "nam_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.621",
+        "areaKm2": 129.83
       }
     }
   ]

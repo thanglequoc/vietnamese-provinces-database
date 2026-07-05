@@ -11678,11 +11678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lượng Minh",
-        "unit_code": "16906",
-        "unit_code_name": "luong_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1513",
-        "area_km2": 227.97
+        "code": "16906",
+        "name": "Lượng Minh",
+        "nameEn": "Luong Minh",
+        "fullName": "Xã Lượng Minh",
+        "fullNameEn": "Luong Minh Commune",
+        "codeName": "luong_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1513",
+        "areaKm2": 227.97
       }
     }
   ]

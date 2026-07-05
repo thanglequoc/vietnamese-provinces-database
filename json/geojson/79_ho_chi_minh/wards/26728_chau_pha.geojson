@@ -8038,11 +8038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Pha",
-        "unit_code": "26728",
-        "unit_code_name": "chau_pha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2225",
-        "area_km2": 65.64
+        "code": "26728",
+        "name": "Châu Pha",
+        "nameEn": "Chau Pha",
+        "fullName": "Xã Châu Pha",
+        "fullNameEn": "Chau Pha Commune",
+        "codeName": "chau_pha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2225",
+        "areaKm2": 65.64
       }
     }
   ]

@@ -4234,11 +4234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Tân",
-        "unit_code": "11065",
-        "unit_code_name": "truong_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.893",
-        "area_km2": 24.56
+        "code": "11065",
+        "name": "Trường Tân",
+        "nameEn": "Truong Tan",
+        "fullName": "Xã Trường Tân",
+        "fullNameEn": "Truong Tan Commune",
+        "codeName": "truong_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.893",
+        "areaKm2": 24.56
       }
     }
   ]

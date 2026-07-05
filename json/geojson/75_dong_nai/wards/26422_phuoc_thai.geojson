@@ -10814,11 +10814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Thái",
-        "unit_code": "26422",
-        "unit_code_name": "phuoc_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3140",
-        "area_km2": 85.9
+        "code": "26422",
+        "name": "Phước Thái",
+        "nameEn": "Phuoc Thai",
+        "fullName": "Xã Phước Thái",
+        "fullNameEn": "Phuoc Thai Commune",
+        "codeName": "phuoc_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3140",
+        "areaKm2": 85.9
       }
     }
   ]

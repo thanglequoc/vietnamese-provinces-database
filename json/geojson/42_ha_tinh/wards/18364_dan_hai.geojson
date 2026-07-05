@@ -1610,11 +1610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đan Hải",
-        "unit_code": "18364",
-        "unit_code_name": "dan_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1992",
-        "area_km2": 37.77
+        "code": "18364",
+        "name": "Đan Hải",
+        "nameEn": "Dan Hai",
+        "fullName": "Xã Đan Hải",
+        "fullNameEn": "Dan Hai Commune",
+        "codeName": "dan_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1992",
+        "areaKm2": 37.77
       }
     }
   ]

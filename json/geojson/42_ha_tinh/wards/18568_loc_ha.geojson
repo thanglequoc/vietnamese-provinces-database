@@ -2970,11 +2970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Hà",
-        "unit_code": "18568",
-        "unit_code_name": "loc_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2002",
-        "area_km2": 35.63
+        "code": "18568",
+        "name": "Lộc Hà",
+        "nameEn": "Loc Ha",
+        "fullName": "Xã Lộc Hà",
+        "fullNameEn": "Loc Ha Commune",
+        "codeName": "loc_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2002",
+        "areaKm2": 35.63
       }
     }
   ]

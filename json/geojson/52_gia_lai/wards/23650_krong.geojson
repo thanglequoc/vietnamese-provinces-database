@@ -13870,11 +13870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krong",
-        "unit_code": "23650",
-        "unit_code_name": "krong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3049",
-        "area_km2": 311.58
+        "code": "23650",
+        "name": "Krong",
+        "nameEn": "Krong",
+        "fullName": "Xã Krong",
+        "fullNameEn": "Krong Commune",
+        "codeName": "krong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3049",
+        "areaKm2": 311.58
       }
     }
   ]

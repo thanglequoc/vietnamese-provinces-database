@@ -12474,11 +12474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Sơn",
-        "unit_code": "06637",
-        "unit_code_name": "chau_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1854",
-        "area_km2": 301.31
+        "code": "06637",
+        "name": "Châu Sơn",
+        "nameEn": "Chau Son",
+        "fullName": "Xã Châu Sơn",
+        "fullNameEn": "Chau Son Commune",
+        "codeName": "chau_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1854",
+        "areaKm2": 301.31
       }
     }
   ]

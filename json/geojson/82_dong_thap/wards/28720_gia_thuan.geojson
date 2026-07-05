@@ -2506,11 +2506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Thuận",
-        "unit_code": "28720",
-        "unit_code_name": "gia_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.497",
-        "area_km2": 67.4
+        "code": "28720",
+        "name": "Gia Thuận",
+        "nameEn": "Gia Thuan",
+        "fullName": "Xã Gia Thuận",
+        "fullNameEn": "Gia Thuan Commune",
+        "codeName": "gia_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.497",
+        "areaKm2": 67.4
       }
     }
   ]

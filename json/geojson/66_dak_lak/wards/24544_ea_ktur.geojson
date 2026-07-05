@@ -10242,11 +10242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Ktur",
-        "unit_code": "24544",
-        "unit_code_name": "ea_ktur",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2877",
-        "area_km2": 100.72
+        "code": "24544",
+        "name": "Ea Ktur",
+        "nameEn": "Ea Ktur",
+        "fullName": "Xã Ea Ktur",
+        "fullNameEn": "Ea Ktur Commune",
+        "codeName": "ea_ktur",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2877",
+        "areaKm2": 100.72
       }
     }
   ]

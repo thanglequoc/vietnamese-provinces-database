@@ -2266,11 +2266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Tân",
-        "unit_code": "15178",
-        "unit_code_name": "cam_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2645",
-        "area_km2": 66.63
+        "code": "15178",
+        "name": "Cẩm Tân",
+        "nameEn": "Cam Tan",
+        "fullName": "Xã Cẩm Tân",
+        "fullNameEn": "Cam Tan Commune",
+        "codeName": "cam_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2645",
+        "areaKm2": 66.63
       }
     }
   ]

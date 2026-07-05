@@ -20866,11 +20866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Việt Khái",
-        "unit_code": "32227",
-        "unit_code_name": "nguyen_viet_khai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.197",
-        "area_km2": 129.9
+        "code": "32227",
+        "name": "Nguyễn Việt Khái",
+        "nameEn": "Nguyen Viet Khai",
+        "fullName": "Xã Nguyễn Việt Khái",
+        "fullNameEn": "Nguyen Viet Khai Commune",
+        "codeName": "nguyen_viet_khai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.197",
+        "areaKm2": 129.9
       }
     }
   ]

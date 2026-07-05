@@ -27438,11 +27438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Thu",
-        "unit_code": "03508",
-        "unit_code_name": "hong_thu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2080",
-        "area_km2": 178
+        "code": "03508",
+        "name": "Hồng Thu",
+        "nameEn": "Hong Thu",
+        "fullName": "Xã Hồng Thu",
+        "fullNameEn": "Hong Thu Commune",
+        "codeName": "hong_thu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2080",
+        "areaKm2": 178
       }
     }
   ]

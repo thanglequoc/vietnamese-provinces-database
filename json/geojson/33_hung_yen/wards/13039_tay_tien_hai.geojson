@@ -2054,11 +2054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Tiền Hải",
-        "unit_code": "13039",
-        "unit_code_name": "tay_tien_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.697",
-        "area_km2": 17.56
+        "code": "13039",
+        "name": "Tây Tiền Hải",
+        "nameEn": "Tay Tien Hai",
+        "fullName": "Xã Tây Tiền Hải",
+        "fullNameEn": "Tay Tien Hai Commune",
+        "codeName": "tay_tien_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.697",
+        "areaKm2": 17.56
       }
     }
   ]

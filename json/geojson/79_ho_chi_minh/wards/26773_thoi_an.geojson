@@ -8414,11 +8414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới An",
-        "unit_code": "26773",
-        "unit_code_name": "thoi_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.41",
-        "area_km2": 14.9
+        "code": "26773",
+        "name": "Thới An",
+        "nameEn": "Thoi An",
+        "fullName": "Phường Thới An",
+        "fullNameEn": "Thoi An Ward",
+        "codeName": "thoi_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.41",
+        "areaKm2": 14.9
       }
     }
   ]

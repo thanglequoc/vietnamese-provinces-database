@@ -2282,11 +2282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phước Hưng",
-        "unit_code": "31432",
-        "unit_code_name": "tan_phuoc_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.251",
-        "area_km2": 57.77
+        "code": "31432",
+        "name": "Tân Phước Hưng",
+        "nameEn": "Tan Phuoc Hung",
+        "fullName": "Xã Tân Phước Hưng",
+        "fullNameEn": "Tan Phuoc Hung Commune",
+        "codeName": "tan_phuoc_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.251",
+        "areaKm2": 57.77
       }
     }
   ]

@@ -4162,11 +4162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Phú",
-        "unit_code": "30691",
-        "unit_code_name": "tay_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.355",
-        "area_km2": 93.8
+        "code": "30691",
+        "name": "Tây Phú",
+        "nameEn": "Tay Phu",
+        "fullName": "Xã Tây Phú",
+        "fullNameEn": "Tay Phu Commune",
+        "codeName": "tay_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.355",
+        "areaKm2": 93.8
       }
     }
   ]

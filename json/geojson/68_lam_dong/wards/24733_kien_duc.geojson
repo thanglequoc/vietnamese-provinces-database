@@ -19038,11 +19038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Đức",
-        "unit_code": "24733",
-        "unit_code_name": "kien_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2819",
-        "area_km2": 167.63
+        "code": "24733",
+        "name": "Kiến Đức",
+        "nameEn": "Kien Duc",
+        "fullName": "Xã Kiến Đức",
+        "fullNameEn": "Kien Duc Commune",
+        "codeName": "kien_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2819",
+        "areaKm2": 167.63
       }
     }
   ]

@@ -9874,11 +9874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Khương",
-        "unit_code": "28756",
-        "unit_code_name": "phu_khuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2436",
-        "area_km2": 24.97
+        "code": "28756",
+        "name": "Phú Khương",
+        "nameEn": "Phu Khuong",
+        "fullName": "Phường Phú Khương",
+        "fullNameEn": "Phu Khuong Ward",
+        "codeName": "phu_khuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2436",
+        "areaKm2": 24.97
       }
     }
   ]

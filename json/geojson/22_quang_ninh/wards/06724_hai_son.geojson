@@ -13678,11 +13678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Sơn",
-        "unit_code": "06724",
-        "unit_code_name": "hai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1884",
-        "area_km2": 132.04
+        "code": "06724",
+        "name": "Hải Sơn",
+        "nameEn": "Hai Son",
+        "fullName": "Xã Hải Sơn",
+        "fullNameEn": "Hai Son Commune",
+        "codeName": "hai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1884",
+        "areaKm2": 132.04
       }
     }
   ]

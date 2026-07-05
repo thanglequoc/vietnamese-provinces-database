@@ -7798,11 +7798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngũ Hiệp",
-        "unit_code": "28516",
-        "unit_code_name": "ngu_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.473",
-        "area_km2": 47.9
+        "code": "28516",
+        "name": "Ngũ Hiệp",
+        "nameEn": "Ngu Hiep",
+        "fullName": "Xã Ngũ Hiệp",
+        "fullNameEn": "Ngu Hiep Commune",
+        "codeName": "ngu_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.473",
+        "areaKm2": 47.9
       }
     }
   ]

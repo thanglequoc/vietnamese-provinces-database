@@ -10446,11 +10446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Tuyền",
-        "unit_code": "08944",
-        "unit_code_name": "binh_tuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1626",
-        "area_km2": 58.5
+        "code": "08944",
+        "name": "Bình Tuyền",
+        "nameEn": "Binh Tuyen",
+        "fullName": "Xã Bình Tuyền",
+        "fullNameEn": "Binh Tuyen Commune",
+        "codeName": "binh_tuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1626",
+        "areaKm2": 58.5
       }
     }
   ]

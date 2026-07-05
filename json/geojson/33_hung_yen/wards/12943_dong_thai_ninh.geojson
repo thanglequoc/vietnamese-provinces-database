@@ -6410,11 +6410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thái Ninh",
-        "unit_code": "12943",
-        "unit_code_name": "dong_thai_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.676",
-        "area_km2": 31.08
+        "code": "12943",
+        "name": "Đông Thái Ninh",
+        "nameEn": "Dong Thai Ninh",
+        "fullName": "Xã Đông Thái Ninh",
+        "fullNameEn": "Dong Thai Ninh Commune",
+        "codeName": "dong_thai_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.676",
+        "areaKm2": 31.08
       }
     }
   ]

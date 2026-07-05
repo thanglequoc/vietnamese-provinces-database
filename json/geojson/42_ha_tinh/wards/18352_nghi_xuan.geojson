@@ -2910,11 +2910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghi Xuân",
-        "unit_code": "18352",
-        "unit_code_name": "nghi_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1993",
-        "area_km2": 77.65
+        "code": "18352",
+        "name": "Nghi Xuân",
+        "nameEn": "Nghi Xuan",
+        "fullName": "Xã Nghi Xuân",
+        "fullNameEn": "Nghi Xuan Commune",
+        "codeName": "nghi_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1993",
+        "areaKm2": 77.65
       }
     }
   ]

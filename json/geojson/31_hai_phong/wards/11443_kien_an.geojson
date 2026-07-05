@@ -846,11 +846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến An",
-        "unit_code": "11443",
-        "unit_code_name": "kien_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.947",
-        "area_km2": 11.18
+        "code": "11443",
+        "name": "Kiến An",
+        "nameEn": "Kien An",
+        "fullName": "Phường Kiến An",
+        "fullNameEn": "Kien An Ward",
+        "codeName": "kien_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.947",
+        "areaKm2": 11.18
       }
     }
   ]

@@ -21018,11 +21018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Tấn",
-        "unit_code": "25279",
-        "unit_code_name": "loc_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2284",
-        "area_km2": 183.36
+        "code": "25279",
+        "name": "Lộc Tấn",
+        "nameEn": "Loc Tan",
+        "fullName": "Xã Lộc Tấn",
+        "fullNameEn": "Loc Tan Commune",
+        "codeName": "loc_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2284",
+        "areaKm2": 183.36
       }
     }
   ]

@@ -2666,11 +2666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Định",
-        "unit_code": "13669",
-        "unit_code_name": "nam_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.798",
-        "area_km2": 19.91
+        "code": "13669",
+        "name": "Nam Định",
+        "nameEn": "Nam Dinh",
+        "fullName": "Phường Nam Định",
+        "fullNameEn": "Nam Dinh Ward",
+        "codeName": "nam_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.798",
+        "areaKm2": 19.91
       }
     }
   ]

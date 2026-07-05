@@ -14766,11 +14766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Chiên",
-        "unit_code": "03688",
-        "unit_code_name": "muong_chien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1340",
-        "area_km2": 382.2
+        "code": "03688",
+        "name": "Mường Chiên",
+        "nameEn": "Muong Chien",
+        "fullName": "Xã Mường Chiên",
+        "fullNameEn": "Muong Chien Commune",
+        "codeName": "muong_chien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1340",
+        "areaKm2": 382.2
       }
     }
   ]

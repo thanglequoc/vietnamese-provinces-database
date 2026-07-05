@@ -3114,11 +3114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vị Khê",
-        "unit_code": "13972",
-        "unit_code_name": "vi_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.801",
-        "area_km2": 25.27
+        "code": "13972",
+        "name": "Vị Khê",
+        "nameEn": "Vi Khe",
+        "fullName": "Phường Vị Khê",
+        "fullNameEn": "Vi Khe Ward",
+        "codeName": "vi_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.801",
+        "areaKm2": 25.27
       }
     }
   ]

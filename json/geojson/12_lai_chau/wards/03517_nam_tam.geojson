@@ -48986,11 +48986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Tăm",
-        "unit_code": "03517",
-        "unit_code_name": "nam_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2081",
-        "area_km2": 242.28
+        "code": "03517",
+        "name": "Nậm Tăm",
+        "nameEn": "Nam Tam",
+        "fullName": "Xã Nậm Tăm",
+        "fullNameEn": "Nam Tam Commune",
+        "codeName": "nam_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2081",
+        "areaKm2": 242.28
       }
     }
   ]

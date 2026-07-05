@@ -802,11 +802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Ông Lãnh",
-        "unit_code": "26758",
-        "unit_code_name": "cau_ong_lanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.40",
-        "area_km2": 1.6
+        "code": "26758",
+        "name": "Cầu Ông Lãnh",
+        "nameEn": "Cau Ong Lanh",
+        "fullName": "Phường Cầu Ông Lãnh",
+        "fullNameEn": "Cau Ong Lanh Ward",
+        "codeName": "cau_ong_lanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.40",
+        "areaKm2": 1.6
       }
     }
   ]

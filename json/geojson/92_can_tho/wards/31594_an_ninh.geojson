@@ -5650,11 +5650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Ninh",
-        "unit_code": "31594",
-        "unit_code_name": "an_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.276",
-        "area_km2": 68.81
+        "code": "31594",
+        "name": "An Ninh",
+        "nameEn": "An Ninh",
+        "fullName": "Xã An Ninh",
+        "fullNameEn": "An Ninh Commune",
+        "codeName": "an_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.276",
+        "areaKm2": 68.81
       }
     }
   ]

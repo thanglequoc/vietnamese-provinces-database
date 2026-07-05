@@ -4150,11 +4150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Định Hoà",
-        "unit_code": "15448",
-        "unit_code_name": "dinh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2615",
-        "area_km2": 37.71
+        "code": "15448",
+        "name": "Định Hoà",
+        "nameEn": "Dinh Hoa",
+        "fullName": "Xã Định Hoà",
+        "fullNameEn": "Dinh Hoa Commune",
+        "codeName": "dinh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2615",
+        "areaKm2": 37.71
       }
     }
   ]

@@ -15202,11 +15202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phiêng Pằn",
-        "unit_code": "04159",
-        "unit_code_name": "phieng_pan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1393",
-        "area_km2": 320.65
+        "code": "04159",
+        "name": "Phiêng Pằn",
+        "nameEn": "Phieng Pan",
+        "fullName": "Xã Phiêng Pằn",
+        "fullNameEn": "Phieng Pan Commune",
+        "codeName": "phieng_pan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1393",
+        "areaKm2": 320.65
       }
     }
   ]

@@ -6118,11 +6118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Minh",
-        "unit_code": "01921",
-        "unit_code_name": "thuong_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1170",
-        "area_km2": 131.64
+        "code": "01921",
+        "name": "Thượng Minh",
+        "nameEn": "Thuong Minh",
+        "fullName": "Xã Thượng Minh",
+        "fullNameEn": "Thuong Minh Commune",
+        "codeName": "thuong_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1170",
+        "areaKm2": 131.64
       }
     }
   ]

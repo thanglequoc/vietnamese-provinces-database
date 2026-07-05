@@ -1822,11 +1822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cổ Đạm",
-        "unit_code": "18394",
-        "unit_code_name": "co_dam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2008",
-        "area_km2": 62.67
+        "code": "18394",
+        "name": "Cổ Đạm",
+        "nameEn": "Co Dam",
+        "fullName": "Xã Cổ Đạm",
+        "fullNameEn": "Co Dam Commune",
+        "codeName": "co_dam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2008",
+        "areaKm2": 62.67
       }
     }
   ]

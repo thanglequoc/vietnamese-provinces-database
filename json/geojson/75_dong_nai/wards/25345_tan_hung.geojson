@@ -23374,11 +23374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hưng",
-        "unit_code": "25345",
-        "unit_code_name": "tan_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2292",
-        "area_km2": 204.7
+        "code": "25345",
+        "name": "Tân Hưng",
+        "nameEn": "Tan Hung",
+        "fullName": "Xã Tân Hưng",
+        "fullNameEn": "Tan Hung Commune",
+        "codeName": "tan_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2292",
+        "areaKm2": 204.7
       }
     }
   ]

@@ -9222,11 +9222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thịnh",
-        "unit_code": "05800",
-        "unit_code_name": "phu_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1195",
-        "area_km2": 45.37
+        "code": "05800",
+        "name": "Phú Thịnh",
+        "nameEn": "Phu Thinh",
+        "fullName": "Xã Phú Thịnh",
+        "fullNameEn": "Phu Thinh Commune",
+        "codeName": "phu_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1195",
+        "areaKm2": 45.37
       }
     }
   ]

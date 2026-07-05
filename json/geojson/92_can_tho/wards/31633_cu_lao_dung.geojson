@@ -5914,11 +5914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cù Lao Dung",
-        "unit_code": "31633",
-        "unit_code_name": "cu_lao_dung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.279",
-        "area_km2": 150.13
+        "code": "31633",
+        "name": "Cù Lao Dung",
+        "nameEn": "Cu Lao Dung",
+        "fullName": "Xã Cù Lao Dung",
+        "fullNameEn": "Cu Lao Dung Commune",
+        "codeName": "cu_lao_dung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.279",
+        "areaKm2": 150.13
       }
     }
   ]

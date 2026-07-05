@@ -7938,11 +7938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Knuếc",
-        "unit_code": "24505",
-        "unit_code_name": "ea_knuec",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2875",
-        "area_km2": 122.39
+        "code": "24505",
+        "name": "Ea Knuếc",
+        "nameEn": "Ea Knuec",
+        "fullName": "Xã Ea Knuếc",
+        "fullNameEn": "Ea Knuec Commune",
+        "codeName": "ea_knuec",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2875",
+        "areaKm2": 122.39
       }
     }
   ]

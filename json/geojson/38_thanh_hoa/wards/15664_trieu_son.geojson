@@ -4282,11 +4282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Sơn",
-        "unit_code": "15664",
-        "unit_code_name": "trieu_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2680",
-        "area_km2": 41.09
+        "code": "15664",
+        "name": "Triệu Sơn",
+        "nameEn": "Trieu Son",
+        "fullName": "Xã Triệu Sơn",
+        "fullNameEn": "Trieu Son Commune",
+        "codeName": "trieu_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2680",
+        "areaKm2": 41.09
       }
     }
   ]

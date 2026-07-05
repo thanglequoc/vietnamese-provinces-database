@@ -13814,11 +13814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Trường - Đà Lạt",
-        "unit_code": "24805",
-        "unit_code_name": "xuan_truong_da_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.510",
-        "area_km2": 168.83
+        "code": "24805",
+        "name": "Xuân Trường - Đà Lạt",
+        "nameEn": "Xuan Truong - Da Lat",
+        "fullName": "Phường Xuân Trường - Đà Lạt",
+        "fullNameEn": "Xuan Truong - Da Lat Ward",
+        "codeName": "xuan_truong_da_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.510",
+        "areaKm2": 168.83
       }
     }
   ]

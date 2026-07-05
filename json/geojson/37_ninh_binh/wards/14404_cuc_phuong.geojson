@@ -9126,11 +9126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cúc Phương",
-        "unit_code": "14404",
-        "unit_code_name": "cuc_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.759",
-        "area_km2": 132.68
+        "code": "14404",
+        "name": "Cúc Phương",
+        "nameEn": "Cuc Phuong",
+        "fullName": "Xã Cúc Phương",
+        "fullNameEn": "Cuc Phuong Commune",
+        "codeName": "cuc_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.759",
+        "areaKm2": 132.68
       }
     }
   ]

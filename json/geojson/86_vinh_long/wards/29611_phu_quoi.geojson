@@ -6178,11 +6178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Quới",
-        "unit_code": "29611",
-        "unit_code_name": "phu_quoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2532",
-        "area_km2": 50.58
+        "code": "29611",
+        "name": "Phú Quới",
+        "nameEn": "Phu Quoi",
+        "fullName": "Xã Phú Quới",
+        "fullNameEn": "Phu Quoi Commune",
+        "codeName": "phu_quoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2532",
+        "areaKm2": 50.58
       }
     }
   ]

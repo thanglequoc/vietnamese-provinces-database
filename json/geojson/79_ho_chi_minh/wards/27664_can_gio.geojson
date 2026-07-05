@@ -5830,11 +5830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cần Giờ",
-        "unit_code": "27664",
-        "unit_code_name": "can_gio",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.134",
-        "area_km2": 157.01
+        "code": "27664",
+        "name": "Cần Giờ",
+        "nameEn": "Can Gio",
+        "fullName": "Xã Cần Giờ",
+        "fullNameEn": "Can Gio Commune",
+        "codeName": "can_gio",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.134",
+        "areaKm2": 157.01
       }
     }
   ]

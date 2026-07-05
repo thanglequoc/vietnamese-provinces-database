@@ -4630,11 +4630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Quí",
-        "unit_code": "30055",
-        "unit_code_name": "my_qui",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.421",
-        "area_km2": 119.9
+        "code": "30055",
+        "name": "Mỹ Quí",
+        "nameEn": "My Qui",
+        "fullName": "Xã Mỹ Quí",
+        "fullNameEn": "My Qui Commune",
+        "codeName": "my_qui",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.421",
+        "areaKm2": 119.9
       }
     }
   ]

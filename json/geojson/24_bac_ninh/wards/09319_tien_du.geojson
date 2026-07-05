@@ -3078,11 +3078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Du",
-        "unit_code": "09319",
-        "unit_code_name": "tien_du",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2125",
-        "area_km2": 20.97
+        "code": "09319",
+        "name": "Tiên Du",
+        "nameEn": "Tien Du",
+        "fullName": "Xã Tiên Du",
+        "fullNameEn": "Tien Du Commune",
+        "codeName": "tien_du",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2125",
+        "areaKm2": 20.97
       }
     }
   ]

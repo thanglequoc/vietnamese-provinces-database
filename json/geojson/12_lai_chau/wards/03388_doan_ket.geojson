@@ -6394,11 +6394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoàn Kết",
-        "unit_code": "03388",
-        "unit_code_name": "doan_ket",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2062",
-        "area_km2": 134.31
+        "code": "03388",
+        "name": "Đoàn Kết",
+        "nameEn": "Doan Ket",
+        "fullName": "Phường Đoàn Kết",
+        "fullNameEn": "Doan Ket Ward",
+        "codeName": "doan_ket",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2062",
+        "areaKm2": 134.31
       }
     }
   ]

@@ -4486,11 +4486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bá Thước",
-        "unit_code": "14923",
-        "unit_code_name": "ba_thuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2646",
-        "area_km2": 106.1
+        "code": "14923",
+        "name": "Bá Thước",
+        "nameEn": "Ba Thuoc",
+        "fullName": "Xã Bá Thước",
+        "fullNameEn": "Ba Thuoc Commune",
+        "codeName": "ba_thuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2646",
+        "areaKm2": 106.1
       }
     }
   ]

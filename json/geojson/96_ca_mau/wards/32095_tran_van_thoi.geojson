@@ -8222,11 +8222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Văn Thời",
-        "unit_code": "32095",
-        "unit_code_name": "tran_van_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.176",
-        "area_km2": 128.72
+        "code": "32095",
+        "name": "Trần Văn Thời",
+        "nameEn": "Tran Van Thoi",
+        "fullName": "Xã Trần Văn Thời",
+        "fullNameEn": "Tran Van Thoi Commune",
+        "codeName": "tran_van_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.176",
+        "areaKm2": 128.72
       }
     }
   ]

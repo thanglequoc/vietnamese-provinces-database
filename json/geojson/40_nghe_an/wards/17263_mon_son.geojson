@@ -16850,11 +16850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Môn Sơn",
-        "unit_code": "17263",
-        "unit_code_name": "mon_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1418",
-        "area_km2": 529.42
+        "code": "17263",
+        "name": "Môn Sơn",
+        "nameEn": "Mon Son",
+        "fullName": "Xã Môn Sơn",
+        "fullNameEn": "Mon Son Commune",
+        "codeName": "mon_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1418",
+        "areaKm2": 529.42
       }
     }
   ]

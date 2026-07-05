@@ -6282,11 +6282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Hội",
-        "unit_code": "23231",
-        "unit_code_name": "phuoc_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3095",
-        "area_km2": 38.09
+        "code": "23231",
+        "name": "Phước Hội",
+        "nameEn": "Phuoc Hoi",
+        "fullName": "Phường Phước Hội",
+        "fullNameEn": "Phuoc Hoi Ward",
+        "codeName": "phuoc_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3095",
+        "areaKm2": 38.09
       }
     }
   ]

@@ -1302,11 +1302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Sơn Hoà",
-        "unit_code": "26977",
-        "unit_code_name": "tan_son_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.65",
-        "area_km2": 2.62
+        "code": "26977",
+        "name": "Tân Sơn Hoà",
+        "nameEn": "Tan Son Hoa",
+        "fullName": "Phường Tân Sơn Hoà",
+        "fullNameEn": "Tan Son Hoa Ward",
+        "codeName": "tan_son_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.65",
+        "areaKm2": 2.62
       }
     }
   ]

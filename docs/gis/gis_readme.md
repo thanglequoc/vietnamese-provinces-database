@@ -11,13 +11,14 @@
 
 1. [Introduction](#introduction)
 2. [Dataset Coverage](#dataset-coverage)
-3. [Installation](#installation)
-4. [Database Schema](#database-schema)
-5. [Query Optimization Tips](#query-optimization-tips)
-6. [Version Compatibility](#version-compatibility)
-7. [FAQ & Troubleshooting](#faq--troubleshooting)
-8. [Additional Resources](#additional-resources)
-9. [Contributing](#contributing)
+3. [GeoJSON Export](#geojson-export)
+4. [Installation](#installation)
+5. [Database Schema](#database-schema)
+6. [Query Optimization Tips](#query-optimization-tips)
+7. [Version Compatibility](#version-compatibility)
+8. [FAQ & Troubleshooting](#faq--troubleshooting)
+9. [Additional Resources](#additional-resources)
+10. [Contributing](#contributing)
 
 ---
 
@@ -92,6 +93,52 @@ Administrative units in the GIS dataset are synchronized with the main Vietnames
 
 This allows seamless joining of GIS boundaries with administrative unit metadata, names, and hierarchical relationships.  
 [![image.png](https://i.postimg.cc/zBJQwyY1/image.png)](https://postimg.cc/nsPTpcLd)
+
+---
+
+## GeoJSON
+
+GeoJSON data is now available alongside the SQL imports. It is intended for direct use in map viewers, client-side apps, and file-based GIS workflows.
+
+### Export Location
+
+The generated files are written to:
+
+```text
+json/geojson/
+```
+
+The folder structure is:
+
+```text
+geojson/
+  README.md
+  {province_code}_{province_code_name}/
+    {province_code}_{province_code_name}.geojson
+    wards/
+      {ward_code}_{ward_code_name}.geojson
+```
+
+The export process also creates a zip archive:
+
+```text
+vn_provinces_wards_geojson_<datetime>.zip
+```
+
+### GeoJSON Shape
+
+Each `.geojson` file is a `FeatureCollection` with:
+
+- top-level `type`, `bbox`, and `features`
+- one `Feature` per file
+- feature `id` set to the administrative code
+- feature `bbox`
+- geometry data in GeoJSON format
+- properties describing the administrative unit
+
+### Viewing The Result
+
+Open [https://geojson.io](https://geojson.io) and load any `.geojson` file from `json/geojson/` to inspect the geometry and properties interactively.
 
 ---
 
@@ -327,8 +374,8 @@ SELECT
 FROM gis_provinces;
 ```
 
-Export the result and parse the `geojson` column to standard GeoJSON format.
-**There will be a dedicated GeoJSON dataset in the future releases**.
+That query is useful for ad hoc inspection, but the project now ships a dedicated GeoJSON export under `json/geojson/`.
+The generated files already include top-level and feature-level `bbox` values, feature `id`, and camelCase properties.
 
 ### Q: Can I use the GIS data with mapping libraries (Mapbox, Leaflet)?
 
@@ -365,7 +412,7 @@ Typical workflow:
 |------|--------|---------------|
 |DBeaver|	Database Client|	Recommended for most users. Supports PostgreSQL, MySQL, and SQL Server, and can preview geometry data directly on an OpenStreetMap-based map viewer.
 |QGIS|	Desktop GIS|	Best for advanced GIS analysis, spatial editing, and cartographic visualization.
-|geojson.io|	Web Viewer|	Lightweight online tool for visualizing and debugging GeoJSON exported from the database.
+|geojson.io|	Web Viewer|	Lightweight online tool for visualizing and debugging the published GeoJSON export.
 
 Example: Visualize Geometry in DBeaver
 [![image.png](https://i.postimg.cc/dVmQJSFg/image.png)](https://postimg.cc/k2GPcsBy)

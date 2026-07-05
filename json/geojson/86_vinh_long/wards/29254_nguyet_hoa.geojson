@@ -4418,11 +4418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyệt Hoá",
-        "unit_code": "29254",
-        "unit_code_name": "nguyet_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2501",
-        "area_km2": 21.14
+        "code": "29254",
+        "name": "Nguyệt Hoá",
+        "nameEn": "Nguyet Hoa",
+        "fullName": "Phường Nguyệt Hoá",
+        "fullNameEn": "Nguyet Hoa Ward",
+        "codeName": "nguyet_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2501",
+        "areaKm2": 21.14
       }
     }
   ]

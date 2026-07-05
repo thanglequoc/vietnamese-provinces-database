@@ -8082,11 +8082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quản Bạ",
-        "unit_code": "00874",
-        "unit_code_name": "quan_ba",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2386",
-        "area_km2": 102.87
+        "code": "00874",
+        "name": "Quản Bạ",
+        "nameEn": "Quan Ba",
+        "fullName": "Xã Quản Bạ",
+        "fullNameEn": "Quan Ba Commune",
+        "codeName": "quan_ba",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2386",
+        "areaKm2": 102.87
       }
     }
   ]

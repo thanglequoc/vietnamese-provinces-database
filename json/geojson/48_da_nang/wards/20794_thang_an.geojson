@@ -3762,11 +3762,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thăng An",
-        "unit_code": "20794",
-        "unit_code_name": "thang_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1930",
-        "area_km2": 80.98
+        "code": "20794",
+        "name": "Thăng An",
+        "nameEn": "Thang An",
+        "fullName": "Xã Thăng An",
+        "fullNameEn": "Thang An Commune",
+        "codeName": "thang_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1930",
+        "areaKm2": 80.98
       }
     }
   ]

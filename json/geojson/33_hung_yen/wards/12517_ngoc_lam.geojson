@@ -13358,11 +13358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Lâm",
-        "unit_code": "12517",
-        "unit_code_name": "ngoc_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.650",
-        "area_km2": 19.82
+        "code": "12517",
+        "name": "Ngọc Lâm",
+        "nameEn": "Ngoc Lam",
+        "fullName": "Xã Ngọc Lâm",
+        "fullNameEn": "Ngoc Lam Commune",
+        "codeName": "ngoc_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.650",
+        "areaKm2": 19.82
       }
     }
   ]

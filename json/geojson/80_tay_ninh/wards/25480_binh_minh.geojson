@@ -10050,11 +10050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Minh",
-        "unit_code": "25480",
-        "unit_code_name": "binh_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2748",
-        "area_km2": 105.35
+        "code": "25480",
+        "name": "Bình Minh",
+        "nameEn": "Binh Minh",
+        "fullName": "Phường Bình Minh",
+        "fullNameEn": "Binh Minh Ward",
+        "codeName": "binh_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2748",
+        "areaKm2": 105.35
       }
     }
   ]

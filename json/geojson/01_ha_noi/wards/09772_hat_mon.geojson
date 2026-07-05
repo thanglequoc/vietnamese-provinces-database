@@ -8790,11 +8790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hát Môn",
-        "unit_code": "09772",
-        "unit_code_name": "hat_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3229",
-        "area_km2": 37.67
+        "code": "09772",
+        "name": "Hát Môn",
+        "nameEn": "Hat Mon",
+        "fullName": "Xã Hát Môn",
+        "fullNameEn": "Hat Mon Commune",
+        "codeName": "hat_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3229",
+        "areaKm2": 37.67
       }
     }
   ]

@@ -6754,11 +6754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Hưng",
-        "unit_code": "31228",
-        "unit_code_name": "thuan_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.217",
-        "area_km2": 31.13
+        "code": "31228",
+        "name": "Thuận Hưng",
+        "nameEn": "Thuan Hung",
+        "fullName": "Phường Thuận Hưng",
+        "fullNameEn": "Thuan Hung Ward",
+        "codeName": "thuan_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.217",
+        "areaKm2": 31.13
       }
     }
   ]

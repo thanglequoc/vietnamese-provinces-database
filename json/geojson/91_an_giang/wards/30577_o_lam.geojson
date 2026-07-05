@@ -3838,11 +3838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ô Lâm",
-        "unit_code": "30577",
-        "unit_code_name": "o_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.341",
-        "area_km2": 99.52
+        "code": "30577",
+        "name": "Ô Lâm",
+        "nameEn": "O Lam",
+        "fullName": "Xã Ô Lâm",
+        "fullNameEn": "O Lam Commune",
+        "codeName": "o_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.341",
+        "areaKm2": 99.52
       }
     }
   ]

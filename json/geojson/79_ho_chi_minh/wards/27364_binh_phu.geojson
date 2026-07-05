@@ -1018,11 +1018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Phú",
-        "unit_code": "27364",
-        "unit_code_name": "binh_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.100",
-        "area_km2": 2.86
+        "code": "27364",
+        "name": "Bình Phú",
+        "nameEn": "Binh Phu",
+        "fullName": "Phường Bình Phú",
+        "fullNameEn": "Binh Phu Ward",
+        "codeName": "binh_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.100",
+        "areaKm2": 2.86
       }
     }
   ]

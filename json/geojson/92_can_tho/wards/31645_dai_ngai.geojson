@@ -2218,11 +2218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Ngãi",
-        "unit_code": "31645",
-        "unit_code_name": "dai_ngai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.280",
-        "area_km2": 37.67
+        "code": "31645",
+        "name": "Đại Ngãi",
+        "nameEn": "Dai Ngai",
+        "fullName": "Xã Đại Ngãi",
+        "fullNameEn": "Dai Ngai Commune",
+        "codeName": "dai_ngai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.280",
+        "areaKm2": 37.67
       }
     }
   ]

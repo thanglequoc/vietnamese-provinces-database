@@ -8202,11 +8202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuấn Đạo",
-        "unit_code": "07663",
-        "unit_code_name": "tuan_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2118",
-        "area_km2": 97.87
+        "code": "07663",
+        "name": "Tuấn Đạo",
+        "nameEn": "Tuan Dao",
+        "fullName": "Xã Tuấn Đạo",
+        "fullNameEn": "Tuan Dao Commune",
+        "codeName": "tuan_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2118",
+        "areaKm2": 97.87
       }
     }
   ]

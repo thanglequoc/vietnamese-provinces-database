@@ -1446,11 +1446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hưng",
-        "unit_code": "00301",
-        "unit_code_name": "vinh_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3192",
-        "area_km2": 4.47
+        "code": "00301",
+        "name": "Vĩnh Hưng",
+        "nameEn": "Vinh Hung",
+        "fullName": "Phường Vĩnh Hưng",
+        "fullNameEn": "Vinh Hung Ward",
+        "codeName": "vinh_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3192",
+        "areaKm2": 4.47
       }
     }
   ]

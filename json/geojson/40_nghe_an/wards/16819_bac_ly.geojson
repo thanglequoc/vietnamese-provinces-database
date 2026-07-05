@@ -5654,11 +5654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Lý",
-        "unit_code": "16819",
-        "unit_code_name": "bac_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1498",
-        "area_km2": 109.17
+        "code": "16819",
+        "name": "Bắc Lý",
+        "nameEn": "Bac Ly",
+        "fullName": "Xã Bắc Lý",
+        "fullNameEn": "Bac Ly Commune",
+        "codeName": "bac_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1498",
+        "areaKm2": 109.17
       }
     }
   ]

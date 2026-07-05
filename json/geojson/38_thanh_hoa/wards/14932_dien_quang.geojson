@@ -5426,11 +5426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Điền Quang",
-        "unit_code": "14932",
-        "unit_code_name": "dien_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2647",
-        "area_km2": 103.67
+        "code": "14932",
+        "name": "Điền Quang",
+        "nameEn": "Dien Quang",
+        "fullName": "Xã Điền Quang",
+        "fullNameEn": "Dien Quang Commune",
+        "codeName": "dien_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2647",
+        "areaKm2": 103.67
       }
     }
   ]

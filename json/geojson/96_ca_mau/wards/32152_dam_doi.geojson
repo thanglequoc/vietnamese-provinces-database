@@ -42922,11 +42922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đầm Dơi",
-        "unit_code": "32152",
-        "unit_code_name": "dam_doi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.185",
-        "area_km2": 96.2
+        "code": "32152",
+        "name": "Đầm Dơi",
+        "nameEn": "Dam Doi",
+        "fullName": "Xã Đầm Dơi",
+        "fullNameEn": "Dam Doi Commune",
+        "codeName": "dam_doi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.185",
+        "areaKm2": 96.2
       }
     }
   ]

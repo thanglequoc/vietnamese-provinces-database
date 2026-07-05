@@ -5470,11 +5470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Oai",
-        "unit_code": "09619",
-        "unit_code_name": "quang_oai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3235",
-        "area_km2": 49.26
+        "code": "09619",
+        "name": "Quảng Oai",
+        "nameEn": "Quang Oai",
+        "fullName": "Xã Quảng Oai",
+        "fullNameEn": "Quang Oai Commune",
+        "codeName": "quang_oai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3235",
+        "areaKm2": 49.26
       }
     }
   ]

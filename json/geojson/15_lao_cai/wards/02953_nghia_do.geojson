@@ -11074,11 +11074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Đô",
-        "unit_code": "02953",
-        "unit_code_name": "nghia_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1075",
-        "area_km2": 159.4
+        "code": "02953",
+        "name": "Nghĩa Đô",
+        "nameEn": "Nghia Do",
+        "fullName": "Xã Nghĩa Đô",
+        "fullNameEn": "Nghia Do Commune",
+        "codeName": "nghia_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1075",
+        "areaKm2": 159.4
       }
     }
   ]

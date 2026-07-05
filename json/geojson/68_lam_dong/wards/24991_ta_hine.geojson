@@ -14202,11 +14202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Hine",
-        "unit_code": "24991",
-        "unit_code_name": "ta_hine",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.527",
-        "area_km2": 128.69
+        "code": "24991",
+        "name": "Tà Hine",
+        "nameEn": "Ta Hine",
+        "fullName": "Xã Tà Hine",
+        "fullNameEn": "Ta Hine Commune",
+        "codeName": "ta_hine",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.527",
+        "areaKm2": 128.69
       }
     }
   ]

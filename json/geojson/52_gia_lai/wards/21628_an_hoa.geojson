@@ -12030,11 +12030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Hoà",
-        "unit_code": "21628",
-        "unit_code_name": "an_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2971",
-        "area_km2": 101.48
+        "code": "21628",
+        "name": "An Hoà",
+        "nameEn": "An Hoa",
+        "fullName": "Xã An Hoà",
+        "fullNameEn": "An Hoa Commune",
+        "codeName": "an_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2971",
+        "areaKm2": 101.48
       }
     }
   ]

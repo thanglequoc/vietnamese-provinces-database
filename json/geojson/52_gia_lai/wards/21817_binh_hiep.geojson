@@ -16378,11 +16378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hiệp",
-        "unit_code": "21817",
-        "unit_code_name": "binh_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2994",
-        "area_km2": 161.23
+        "code": "21817",
+        "name": "Bình Hiệp",
+        "nameEn": "Binh Hiep",
+        "fullName": "Xã Bình Hiệp",
+        "fullNameEn": "Binh Hiep Commune",
+        "codeName": "binh_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2994",
+        "areaKm2": 161.23
       }
     }
   ]

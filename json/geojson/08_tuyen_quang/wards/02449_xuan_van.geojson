@@ -7210,11 +7210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Vân",
-        "unit_code": "02449",
-        "unit_code_name": "xuan_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2343",
-        "area_km2": 104.25
+        "code": "02449",
+        "name": "Xuân Vân",
+        "nameEn": "Xuan Van",
+        "fullName": "Xã Xuân Vân",
+        "fullNameEn": "Xuan Van Commune",
+        "codeName": "xuan_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2343",
+        "areaKm2": 104.25
       }
     }
   ]

@@ -2394,11 +2394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Ninh",
-        "unit_code": "27943",
-        "unit_code_name": "an_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1304",
-        "area_km2": 57.69
+        "code": "27943",
+        "name": "An Ninh",
+        "nameEn": "An Ninh",
+        "fullName": "Xã An Ninh",
+        "fullNameEn": "An Ninh Commune",
+        "codeName": "an_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1304",
+        "areaKm2": 57.69
       }
     }
   ]

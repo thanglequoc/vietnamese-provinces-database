@@ -3530,11 +3530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiền Phong",
-        "unit_code": "07696",
-        "unit_code_name": "tien_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2143",
-        "area_km2": 30.7
+        "code": "07696",
+        "name": "Tiền Phong",
+        "nameEn": "Tien Phong",
+        "fullName": "Phường Tiền Phong",
+        "fullNameEn": "Tien Phong Ward",
+        "codeName": "tien_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2143",
+        "areaKm2": 30.7
       }
     }
   ]

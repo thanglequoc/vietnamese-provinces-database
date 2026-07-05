@@ -14742,11 +14742,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhôn Mai",
-        "unit_code": "16882",
-        "unit_code_name": "nhon_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1509",
-        "area_km2": 310.26
+        "code": "16882",
+        "name": "Nhôn Mai",
+        "nameEn": "Nhon Mai",
+        "fullName": "Xã Nhôn Mai",
+        "fullNameEn": "Nhon Mai Commune",
+        "codeName": "nhon_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1509",
+        "areaKm2": 310.26
       }
     }
   ]

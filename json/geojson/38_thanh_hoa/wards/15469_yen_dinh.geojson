@@ -4062,11 +4062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Định",
-        "unit_code": "15469",
-        "unit_code_name": "yen_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2609",
-        "area_km2": 29.42
+        "code": "15469",
+        "name": "Yên Định",
+        "nameEn": "Yen Dinh",
+        "fullName": "Xã Yên Định",
+        "fullNameEn": "Yen Dinh Commune",
+        "codeName": "yen_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2609",
+        "areaKm2": 29.42
       }
     }
   ]

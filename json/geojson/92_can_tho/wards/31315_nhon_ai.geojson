@@ -7350,11 +7350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Ái",
-        "unit_code": "31315",
-        "unit_code_name": "nhon_ai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.230",
-        "area_km2": 38.16
+        "code": "31315",
+        "name": "Nhơn Ái",
+        "nameEn": "Nhon Ai",
+        "fullName": "Xã Nhơn Ái",
+        "fullNameEn": "Nhon Ai Commune",
+        "codeName": "nhon_ai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.230",
+        "areaKm2": 38.16
       }
     }
   ]

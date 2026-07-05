@@ -1774,11 +1774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Vũ",
-        "unit_code": "13159",
-        "unit_code_name": "hong_vu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.695",
-        "area_km2": 18.77
+        "code": "13159",
+        "name": "Hồng Vũ",
+        "nameEn": "Hong Vu",
+        "fullName": "Xã Hồng Vũ",
+        "fullNameEn": "Hong Vu Commune",
+        "codeName": "hong_vu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.695",
+        "areaKm2": 18.77
       }
     }
   ]

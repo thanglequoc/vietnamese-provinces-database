@@ -5390,11 +5390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Nghĩa",
-        "unit_code": "10030",
-        "unit_code_name": "phu_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3220",
-        "area_km2": 40.25
+        "code": "10030",
+        "name": "Phú Nghĩa",
+        "nameEn": "Phu Nghia",
+        "fullName": "Xã Phú Nghĩa",
+        "fullNameEn": "Phu Nghia Commune",
+        "codeName": "phu_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3220",
+        "areaKm2": 40.25
       }
     }
   ]

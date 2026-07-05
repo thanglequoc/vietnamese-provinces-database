@@ -3906,11 +3906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Trung",
-        "unit_code": "18742",
-        "unit_code_name": "cam_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2030",
-        "area_km2": 32.72
+        "code": "18742",
+        "name": "Cẩm Trung",
+        "nameEn": "Cam Trung",
+        "fullName": "Xã Cẩm Trung",
+        "fullNameEn": "Cam Trung Commune",
+        "codeName": "cam_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2030",
+        "areaKm2": 32.72
       }
     }
   ]

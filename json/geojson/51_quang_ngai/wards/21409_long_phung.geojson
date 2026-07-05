@@ -3542,11 +3542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phụng",
-        "unit_code": "21409",
-        "unit_code_name": "long_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1760",
-        "area_km2": 36.1
+        "code": "21409",
+        "name": "Long Phụng",
+        "nameEn": "Long Phung",
+        "fullName": "Xã Long Phụng",
+        "fullNameEn": "Long Phung Commune",
+        "codeName": "long_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1760",
+        "areaKm2": 36.1
       }
     }
   ]

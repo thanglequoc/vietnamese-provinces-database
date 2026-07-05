@@ -2014,11 +2014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Giang",
-        "unit_code": "14038",
-        "unit_code_name": "ninh_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.802",
-        "area_km2": 23.69
+        "code": "14038",
+        "name": "Ninh Giang",
+        "nameEn": "Ninh Giang",
+        "fullName": "Xã Ninh Giang",
+        "fullNameEn": "Ninh Giang Commune",
+        "codeName": "ninh_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.802",
+        "areaKm2": 23.69
       }
     }
   ]

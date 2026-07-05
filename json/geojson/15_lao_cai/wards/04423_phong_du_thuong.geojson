@@ -5734,11 +5734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Dụ Thượng",
-        "unit_code": "04423",
-        "unit_code_name": "phong_du_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1021",
-        "area_km2": 195.21
+        "code": "04423",
+        "name": "Phong Dụ Thượng",
+        "nameEn": "Phong Du Thuong",
+        "fullName": "Xã Phong Dụ Thượng",
+        "fullNameEn": "Phong Du Thuong Commune",
+        "codeName": "phong_du_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1021",
+        "areaKm2": 195.21
       }
     }
   ]

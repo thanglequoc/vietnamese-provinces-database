@@ -13282,11 +13282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Tiên 3",
-        "unit_code": "25162",
-        "unit_code_name": "cat_tien_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1259",
-        "area_km2": 171.31
+        "code": "25162",
+        "name": "Cát Tiên 3",
+        "nameEn": "Cat Tien 3",
+        "fullName": "Xã Cát Tiên 3",
+        "fullNameEn": "Commune Cat Tien 3",
+        "codeName": "cat_tien_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1259",
+        "areaKm2": 171.31
       }
     }
   ]

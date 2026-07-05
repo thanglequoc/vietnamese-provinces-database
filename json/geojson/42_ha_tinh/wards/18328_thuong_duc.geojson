@@ -3798,11 +3798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Đức",
-        "unit_code": "18328",
-        "unit_code_name": "thuong_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2045",
-        "area_km2": 58.32
+        "code": "18328",
+        "name": "Thượng Đức",
+        "nameEn": "Thuong Duc",
+        "fullName": "Xã Thượng Đức",
+        "fullNameEn": "Thuong Duc Commune",
+        "codeName": "thuong_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2045",
+        "areaKm2": 58.32
       }
     }
   ]

@@ -21462,11 +21462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Vong",
-        "unit_code": "25510",
-        "unit_code_name": "tra_vong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2751",
-        "area_km2": 88.67
+        "code": "25510",
+        "name": "Trà Vong",
+        "nameEn": "Tra Vong",
+        "fullName": "Xã Trà Vong",
+        "fullNameEn": "Tra Vong Commune",
+        "codeName": "tra_vong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2751",
+        "areaKm2": 88.67
       }
     }
   ]

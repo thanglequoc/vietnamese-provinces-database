@@ -4922,11 +4922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thoại Sơn",
-        "unit_code": "30682",
-        "unit_code_name": "thoai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.358",
-        "area_km2": 68.92
+        "code": "30682",
+        "name": "Thoại Sơn",
+        "nameEn": "Thoai Son",
+        "fullName": "Xã Thoại Sơn",
+        "fullNameEn": "Thoai Son Commune",
+        "codeName": "thoai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.358",
+        "areaKm2": 68.92
       }
     }
   ]

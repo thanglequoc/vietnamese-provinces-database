@@ -6118,11 +6118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Kè",
-        "unit_code": "29308",
-        "unit_code_name": "cau_ke",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2491",
-        "area_km2": 54.12
+        "code": "29308",
+        "name": "Cầu Kè",
+        "nameEn": "Cau Ke",
+        "fullName": "Xã Cầu Kè",
+        "fullNameEn": "Cau Ke Commune",
+        "codeName": "cau_ke",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2491",
+        "areaKm2": 54.12
       }
     }
   ]

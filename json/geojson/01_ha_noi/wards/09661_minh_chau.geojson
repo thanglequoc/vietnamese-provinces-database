@@ -394,11 +394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Châu",
-        "unit_code": "09661",
-        "unit_code_name": "minh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3277",
-        "area_km2": 10.36
+        "code": "09661",
+        "name": "Minh Châu",
+        "nameEn": "Minh Chau",
+        "fullName": "Xã Minh Châu",
+        "fullNameEn": "Minh Chau Commune",
+        "codeName": "minh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3277",
+        "areaKm2": 10.36
       }
     }
   ]

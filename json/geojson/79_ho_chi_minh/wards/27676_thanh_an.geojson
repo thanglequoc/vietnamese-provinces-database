@@ -13570,11 +13570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh An",
-        "unit_code": "27676",
-        "unit_code_name": "thanh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.137",
-        "area_km2": 131.31
+        "code": "27676",
+        "name": "Thạnh An",
+        "nameEn": "Thanh An",
+        "fullName": "Xã Thạnh An",
+        "fullNameEn": "Thanh An Commune",
+        "codeName": "thanh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.137",
+        "areaKm2": 131.31
       }
     }
   ]

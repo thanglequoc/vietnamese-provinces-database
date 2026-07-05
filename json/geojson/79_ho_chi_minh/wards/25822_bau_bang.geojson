@@ -4486,11 +4486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàu Bàng",
-        "unit_code": "25822",
-        "unit_code_name": "bau_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.12",
-        "area_km2": 84.09
+        "code": "25822",
+        "name": "Bàu Bàng",
+        "nameEn": "Bau Bang",
+        "fullName": "Xã Bàu Bàng",
+        "fullNameEn": "Bau Bang Commune",
+        "codeName": "bau_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.12",
+        "areaKm2": 84.09
       }
     }
   ]

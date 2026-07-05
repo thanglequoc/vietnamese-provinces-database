@@ -5266,11 +5266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Phương",
-        "unit_code": "10003",
-        "unit_code_name": "tay_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3226",
-        "area_km2": 31.1
+        "code": "10003",
+        "name": "Tây Phương",
+        "nameEn": "Tay Phuong",
+        "fullName": "Xã Tây Phương",
+        "fullNameEn": "Tay Phuong Commune",
+        "codeName": "tay_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3226",
+        "areaKm2": 31.1
       }
     }
   ]

@@ -3662,11 +3662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Bình",
-        "unit_code": "29584",
-        "unit_code_name": "an_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2528",
-        "area_km2": 61.84
+        "code": "29584",
+        "name": "An Bình",
+        "nameEn": "An Binh",
+        "fullName": "Xã An Bình",
+        "fullNameEn": "An Binh Commune",
+        "codeName": "an_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2528",
+        "areaKm2": 61.84
       }
     }
   ]

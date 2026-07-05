@@ -7098,11 +7098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Đài",
-        "unit_code": "08593",
-        "unit_code_name": "minh_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1574",
-        "area_km2": 84.74
+        "code": "08593",
+        "name": "Minh Đài",
+        "nameEn": "Minh Dai",
+        "fullName": "Xã Minh Đài",
+        "fullNameEn": "Minh Dai Commune",
+        "codeName": "minh_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1574",
+        "areaKm2": 84.74
       }
     }
   ]

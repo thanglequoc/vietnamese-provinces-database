@@ -1766,11 +1766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngã Bảy",
-        "unit_code": "31340",
-        "unit_code_name": "nga_bay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.237",
-        "area_km2": 25.17
+        "code": "31340",
+        "name": "Ngã Bảy",
+        "nameEn": "Nga Bay",
+        "fullName": "Phường Ngã Bảy",
+        "fullNameEn": "Nga Bay Ward",
+        "codeName": "nga_bay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.237",
+        "areaKm2": 25.17
       }
     }
   ]

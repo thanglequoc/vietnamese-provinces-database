@@ -8186,11 +8186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Long",
-        "unit_code": "29020",
-        "unit_code_name": "phuoc_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2461",
-        "area_km2": 39.95
+        "code": "29020",
+        "name": "Phước Long",
+        "nameEn": "Phuoc Long",
+        "fullName": "Xã Phước Long",
+        "fullNameEn": "Phuoc Long Commune",
+        "codeName": "phuoc_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2461",
+        "areaKm2": 39.95
       }
     }
   ]

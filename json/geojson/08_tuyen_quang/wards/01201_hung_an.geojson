@@ -14586,11 +14586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng An",
-        "unit_code": "01201",
-        "unit_code_name": "hung_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2418",
-        "area_km2": 118.57
+        "code": "01201",
+        "name": "Hùng An",
+        "nameEn": "Hung An",
+        "fullName": "Xã Hùng An",
+        "fullNameEn": "Hung An Commune",
+        "codeName": "hung_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2418",
+        "areaKm2": 118.57
       }
     }
   ]

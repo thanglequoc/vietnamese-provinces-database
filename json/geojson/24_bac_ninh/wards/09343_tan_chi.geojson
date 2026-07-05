@@ -3618,11 +3618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Chi",
-        "unit_code": "09343",
-        "unit_code_name": "tan_chi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2128",
-        "area_km2": 18.11
+        "code": "09343",
+        "name": "Tân Chi",
+        "nameEn": "Tan Chi",
+        "fullName": "Xã Tân Chi",
+        "fullNameEn": "Tan Chi Commune",
+        "codeName": "tan_chi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2128",
+        "areaKm2": 18.11
       }
     }
   ]

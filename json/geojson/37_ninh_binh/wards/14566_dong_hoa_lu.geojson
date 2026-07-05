@@ -2426,11 +2426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hoa Lư",
-        "unit_code": "14566",
-        "unit_code_name": "dong_hoa_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.752",
-        "area_km2": 25.62
+        "code": "14566",
+        "name": "Đông Hoa Lư",
+        "nameEn": "Dong Hoa Lu",
+        "fullName": "Phường Đông Hoa Lư",
+        "fullNameEn": "Dong Hoa Lu Ward",
+        "codeName": "dong_hoa_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.752",
+        "areaKm2": 25.62
       }
     }
   ]

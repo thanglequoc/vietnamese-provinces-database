@@ -30766,11 +30766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Cơ",
-        "unit_code": "24751",
-        "unit_code_name": "nhan_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2811",
-        "area_km2": 158.05
+        "code": "24751",
+        "name": "Nhân Cơ",
+        "nameEn": "Nhan Co",
+        "fullName": "Xã Nhân Cơ",
+        "fullNameEn": "Nhan Co Commune",
+        "codeName": "nhan_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2811",
+        "areaKm2": 158.05
       }
     }
   ]

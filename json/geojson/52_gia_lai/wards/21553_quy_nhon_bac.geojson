@@ -3534,11 +3534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Nhơn Bắc",
-        "unit_code": "21553",
-        "unit_code_name": "quy_nhon_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3007",
-        "area_km2": 23.7
+        "code": "21553",
+        "name": "Quy Nhơn Bắc",
+        "nameEn": "Quy Nhon Bac",
+        "fullName": "Phường Quy Nhơn Bắc",
+        "fullNameEn": "Quy Nhon Bac Ward",
+        "codeName": "quy_nhon_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3007",
+        "areaKm2": 23.7
       }
     }
   ]

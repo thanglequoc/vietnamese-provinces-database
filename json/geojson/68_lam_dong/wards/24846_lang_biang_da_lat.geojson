@@ -19666,11 +19666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lang Biang - Đà Lạt",
-        "unit_code": "24846",
-        "unit_code_name": "lang_biang_da_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.506",
-        "area_km2": 322.66
+        "code": "24846",
+        "name": "Lang Biang - Đà Lạt",
+        "nameEn": "Lang Biang - Da Lat",
+        "fullName": "Phường Lang Biang - Đà Lạt",
+        "fullNameEn": "Lang Biang - Da Lat Ward",
+        "codeName": "lang_biang_da_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.506",
+        "areaKm2": 322.66
       }
     }
   ]

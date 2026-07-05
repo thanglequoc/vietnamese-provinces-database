@@ -16318,11 +16318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Yên",
-        "unit_code": "03349",
-        "unit_code_name": "thanh_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2264",
-        "area_km2": 130.1
+        "code": "03349",
+        "name": "Thanh Yên",
+        "nameEn": "Thanh Yen",
+        "fullName": "Xã Thanh Yên",
+        "fullNameEn": "Thanh Yen Commune",
+        "codeName": "thanh_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2264",
+        "areaKm2": 130.1
       }
     }
   ]

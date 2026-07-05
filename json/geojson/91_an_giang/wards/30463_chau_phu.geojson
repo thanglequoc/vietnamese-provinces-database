@@ -4854,11 +4854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Phú",
-        "unit_code": "30463",
-        "unit_code_name": "chau_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.327",
-        "area_km2": 80.11
+        "code": "30463",
+        "name": "Châu Phú",
+        "nameEn": "Chau Phu",
+        "fullName": "Xã Châu Phú",
+        "fullNameEn": "Chau Phu Commune",
+        "codeName": "chau_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.327",
+        "areaKm2": 80.11
       }
     }
   ]

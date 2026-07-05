@@ -6802,11 +6802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Linh",
-        "unit_code": "20950",
-        "unit_code_name": "tra_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1985",
-        "area_km2": 158.19
+        "code": "20950",
+        "name": "Trà Linh",
+        "nameEn": "Tra Linh",
+        "fullName": "Xã Trà Linh",
+        "fullNameEn": "Tra Linh Commune",
+        "codeName": "tra_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1985",
+        "areaKm2": 158.19
       }
     }
   ]

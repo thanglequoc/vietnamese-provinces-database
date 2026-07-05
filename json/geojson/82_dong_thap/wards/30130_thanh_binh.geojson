@@ -6754,11 +6754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Bình",
-        "unit_code": "30130",
-        "unit_code_name": "thanh_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.430",
-        "area_km2": 86
+        "code": "30130",
+        "name": "Thanh Bình",
+        "nameEn": "Thanh Binh",
+        "fullName": "Xã Thanh Bình",
+        "fullNameEn": "Thanh Binh Commune",
+        "codeName": "thanh_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.430",
+        "areaKm2": 86
       }
     }
   ]

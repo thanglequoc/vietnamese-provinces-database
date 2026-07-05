@@ -8090,11 +8090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Ui",
-        "unit_code": "23510",
-        "unit_code_name": "dak_ui",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.540",
-        "area_km2": 132.52
+        "code": "23510",
+        "name": "Đăk Ui",
+        "nameEn": "Dak Ui",
+        "fullName": "Xã Đăk Ui",
+        "fullNameEn": "Dak Ui Commune",
+        "codeName": "dak_ui",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.540",
+        "areaKm2": 132.52
       }
     }
   ]

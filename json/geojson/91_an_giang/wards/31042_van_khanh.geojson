@@ -6798,11 +6798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Khánh",
-        "unit_code": "31042",
-        "unit_code_name": "van_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.396",
-        "area_km2": 90.84
+        "code": "31042",
+        "name": "Vân Khánh",
+        "nameEn": "Van Khanh",
+        "fullName": "Xã Vân Khánh",
+        "fullNameEn": "Van Khanh Commune",
+        "codeName": "van_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.396",
+        "areaKm2": 90.84
       }
     }
   ]

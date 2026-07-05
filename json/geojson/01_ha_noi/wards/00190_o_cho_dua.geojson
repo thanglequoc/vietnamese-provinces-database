@@ -778,11 +778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ô Chợ Dừa",
-        "unit_code": "00190",
-        "unit_code_name": "o_cho_dua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3204",
-        "area_km2": 1.83
+        "code": "00190",
+        "name": "Ô Chợ Dừa",
+        "nameEn": "O Cho Dua",
+        "fullName": "Phường Ô Chợ Dừa",
+        "fullNameEn": "O Cho Dua Ward",
+        "codeName": "o_cho_dua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3204",
+        "areaKm2": 1.83
       }
     }
   ]

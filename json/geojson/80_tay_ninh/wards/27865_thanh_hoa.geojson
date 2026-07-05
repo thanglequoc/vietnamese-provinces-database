@@ -6846,11 +6846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Hoá",
-        "unit_code": "27865",
-        "unit_code_name": "thanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1298",
-        "area_km2": 108.18
+        "code": "27865",
+        "name": "Thạnh Hoá",
+        "nameEn": "Thanh Hoa",
+        "fullName": "Xã Thạnh Hoá",
+        "fullNameEn": "Thanh Hoa Commune",
+        "codeName": "thanh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1298",
+        "areaKm2": 108.18
       }
     }
   ]

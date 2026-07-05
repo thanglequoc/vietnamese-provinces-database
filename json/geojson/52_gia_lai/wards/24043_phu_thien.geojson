@@ -15934,11 +15934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thiện",
-        "unit_code": "24043",
-        "unit_code_name": "phu_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2957",
-        "area_km2": 262.87
+        "code": "24043",
+        "name": "Phú Thiện",
+        "nameEn": "Phu Thien",
+        "fullName": "Xã Phú Thiện",
+        "fullNameEn": "Phu Thien Commune",
+        "codeName": "phu_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2957",
+        "areaKm2": 262.87
       }
     }
   ]

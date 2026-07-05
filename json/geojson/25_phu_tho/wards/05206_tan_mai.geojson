@@ -8470,11 +8470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Mai",
-        "unit_code": "05206",
-        "unit_code_name": "tan_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1656",
-        "area_km2": 130.71
+        "code": "05206",
+        "name": "Tân Mai",
+        "nameEn": "Tan Mai",
+        "fullName": "Xã Tân Mai",
+        "fullNameEn": "Tan Mai Commune",
+        "codeName": "tan_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1656",
+        "areaKm2": 130.71
       }
     }
   ]

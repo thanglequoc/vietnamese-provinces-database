@@ -9554,11 +9554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thuỷ",
-        "unit_code": "29167",
-        "unit_code_name": "tan_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2477",
-        "area_km2": 52.55
+        "code": "29167",
+        "name": "Tân Thuỷ",
+        "nameEn": "Tan Thuy",
+        "fullName": "Xã Tân Thuỷ",
+        "fullNameEn": "Tan Thuy Commune",
+        "codeName": "tan_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2477",
+        "areaKm2": 52.55
       }
     }
   ]

@@ -9174,11 +9174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Huệ",
-        "unit_code": "01699",
-        "unit_code_name": "nguyen_hue",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.951",
-        "area_km2": 146.8
+        "code": "01699",
+        "name": "Nguyễn Huệ",
+        "nameEn": "Nguyen Hue",
+        "fullName": "Xã Nguyễn Huệ",
+        "fullNameEn": "Nguyen Hue Commune",
+        "codeName": "nguyen_hue",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.951",
+        "areaKm2": 146.8
       }
     }
   ]

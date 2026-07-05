@@ -1778,11 +1778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại An",
-        "unit_code": "29491",
-        "unit_code_name": "dai_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2514",
-        "area_km2": 32.32
+        "code": "29491",
+        "name": "Đại An",
+        "nameEn": "Dai An",
+        "fullName": "Xã Đại An",
+        "fullNameEn": "Dai An Commune",
+        "codeName": "dai_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2514",
+        "areaKm2": 32.32
       }
     }
   ]

@@ -12050,11 +12050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Sao",
-        "unit_code": "30085",
-        "unit_code_name": "ba_sao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.425",
-        "area_km2": 81.1
+        "code": "30085",
+        "name": "Ba Sao",
+        "nameEn": "Ba Sao",
+        "fullName": "Xã Ba Sao",
+        "fullNameEn": "Ba Sao Commune",
+        "codeName": "ba_sao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.425",
+        "areaKm2": 81.1
       }
     }
   ]

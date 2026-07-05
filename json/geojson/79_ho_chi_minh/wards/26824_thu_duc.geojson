@@ -1522,11 +1522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thủ Đức",
-        "unit_code": "26824",
-        "unit_code_name": "thu_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.48",
-        "area_km2": 8.81
+        "code": "26824",
+        "name": "Thủ Đức",
+        "nameEn": "Thu Duc",
+        "fullName": "Phường Thủ Đức",
+        "fullNameEn": "Thu Duc Ward",
+        "codeName": "thu_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.48",
+        "areaKm2": 8.81
       }
     }
   ]

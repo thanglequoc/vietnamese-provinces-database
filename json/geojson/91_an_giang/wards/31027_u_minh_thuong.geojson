@@ -11066,11 +11066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "U Minh Thượng",
-        "unit_code": "31027",
-        "unit_code_name": "u_minh_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.392",
-        "area_km2": 286.47
+        "code": "31027",
+        "name": "U Minh Thượng",
+        "nameEn": "U Minh Thuong",
+        "fullName": "Xã U Minh Thượng",
+        "fullNameEn": "U Minh Thuong Commune",
+        "codeName": "u_minh_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.392",
+        "areaKm2": 286.47
       }
     }
   ]

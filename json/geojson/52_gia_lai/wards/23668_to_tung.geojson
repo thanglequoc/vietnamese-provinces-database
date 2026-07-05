@@ -11866,11 +11866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tơ Tung",
-        "unit_code": "23668",
-        "unit_code_name": "to_tung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3050",
-        "area_km2": 141.35
+        "code": "23668",
+        "name": "Tơ Tung",
+        "nameEn": "To Tung",
+        "fullName": "Xã Tơ Tung",
+        "fullNameEn": "To Tung Commune",
+        "codeName": "to_tung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3050",
+        "areaKm2": 141.35
       }
     }
   ]

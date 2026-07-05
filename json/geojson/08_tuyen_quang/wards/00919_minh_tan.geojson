@@ -8422,11 +8422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Tân",
-        "unit_code": "00919",
-        "unit_code_name": "minh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2389",
-        "area_km2": 105.7
+        "code": "00919",
+        "name": "Minh Tân",
+        "nameEn": "Minh Tan",
+        "fullName": "Xã Minh Tân",
+        "fullNameEn": "Minh Tan Commune",
+        "codeName": "minh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2389",
+        "areaKm2": 105.7
       }
     }
   ]

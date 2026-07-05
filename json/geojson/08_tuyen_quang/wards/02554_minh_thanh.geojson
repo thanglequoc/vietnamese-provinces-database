@@ -12114,11 +12114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Thanh",
-        "unit_code": "02554",
-        "unit_code_name": "minh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2354",
-        "area_km2": 78.57
+        "code": "02554",
+        "name": "Minh Thanh",
+        "nameEn": "Minh Thanh",
+        "fullName": "Xã Minh Thanh",
+        "fullNameEn": "Minh Thanh Commune",
+        "codeName": "minh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2354",
+        "areaKm2": 78.57
       }
     }
   ]

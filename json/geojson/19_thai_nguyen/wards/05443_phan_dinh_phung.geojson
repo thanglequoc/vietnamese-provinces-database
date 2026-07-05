@@ -3198,11 +3198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Đình Phùng",
-        "unit_code": "05443",
-        "unit_code_name": "phan_dinh_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1186",
-        "area_km2": 14.73
+        "code": "05443",
+        "name": "Phan Đình Phùng",
+        "nameEn": "Phan Dinh Phung",
+        "fullName": "Phường Phan Đình Phùng",
+        "fullNameEn": "Phan Dinh Phung Ward",
+        "codeName": "phan_dinh_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1186",
+        "areaKm2": 14.73
       }
     }
   ]

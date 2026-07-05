@@ -10334,11 +10334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Hải",
-        "unit_code": "29221",
-        "unit_code_name": "thanh_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2482",
-        "area_km2": 100.71
+        "code": "29221",
+        "name": "Thạnh Hải",
+        "nameEn": "Thanh Hai",
+        "fullName": "Xã Thạnh Hải",
+        "fullNameEn": "Thanh Hai Commune",
+        "codeName": "thanh_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2482",
+        "areaKm2": 100.71
       }
     }
   ]

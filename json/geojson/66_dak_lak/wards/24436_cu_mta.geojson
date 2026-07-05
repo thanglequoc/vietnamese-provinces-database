@@ -17158,11 +17158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư M'ta",
-        "unit_code": "24436",
-        "unit_code_name": "cu_mta",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2856",
-        "area_km2": 261.06
+        "code": "24436",
+        "name": "Cư M'ta",
+        "nameEn": "Cu M'ta",
+        "fullName": "Xã Cư M'ta",
+        "fullNameEn": "Cu M'ta Commune",
+        "codeName": "cu_mta",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2856",
+        "areaKm2": 261.06
       }
     }
   ]

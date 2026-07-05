@@ -11318,11 +11318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Phước Bắc",
-        "unit_code": "21964",
-        "unit_code_name": "tuy_phuoc_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3016",
-        "area_km2": 37.03
+        "code": "21964",
+        "name": "Tuy Phước Bắc",
+        "nameEn": "Tuy Phuoc Bac",
+        "fullName": "Xã Tuy Phước Bắc",
+        "fullNameEn": "Tuy Phuoc Bac Commune",
+        "codeName": "tuy_phuoc_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3016",
+        "areaKm2": 37.03
       }
     }
   ]

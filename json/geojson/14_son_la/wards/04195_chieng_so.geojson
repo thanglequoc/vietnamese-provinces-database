@@ -9866,11 +9866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Sơ",
-        "unit_code": "04195",
-        "unit_code_name": "chieng_so",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1399",
-        "area_km2": 140.31
+        "code": "04195",
+        "name": "Chiềng Sơ",
+        "nameEn": "Chieng So",
+        "fullName": "Xã Chiềng Sơ",
+        "fullNameEn": "Chieng So Commune",
+        "codeName": "chieng_so",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1399",
+        "areaKm2": 140.31
       }
     }
   ]

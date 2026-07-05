@@ -6414,11 +6414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Chánh",
-        "unit_code": "20740",
-        "unit_code_name": "phuoc_chanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1990",
-        "area_km2": 107.56
+        "code": "20740",
+        "name": "Phước Chánh",
+        "nameEn": "Phuoc Chanh",
+        "fullName": "Xã Phước Chánh",
+        "fullNameEn": "Phuoc Chanh Commune",
+        "codeName": "phuoc_chanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1990",
+        "areaKm2": 107.56
       }
     }
   ]

@@ -946,11 +946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Đô",
-        "unit_code": "00160",
-        "unit_code_name": "nghia_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3262",
-        "area_km2": 4.34
+        "code": "00160",
+        "name": "Nghĩa Đô",
+        "nameEn": "Nghia Do",
+        "fullName": "Phường Nghĩa Đô",
+        "fullNameEn": "Nghia Do Ward",
+        "codeName": "nghia_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3262",
+        "areaKm2": 4.34
       }
     }
   ]

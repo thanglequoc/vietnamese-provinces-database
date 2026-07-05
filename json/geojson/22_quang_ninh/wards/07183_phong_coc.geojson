@@ -1574,11 +1574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Cốc",
-        "unit_code": "07183",
-        "unit_code_name": "phong_coc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1874",
-        "area_km2": 42.17
+        "code": "07183",
+        "name": "Phong Cốc",
+        "nameEn": "Phong Coc",
+        "fullName": "Phường Phong Cốc",
+        "fullNameEn": "Phong Coc Ward",
+        "codeName": "phong_coc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1874",
+        "areaKm2": 42.17
       }
     }
   ]

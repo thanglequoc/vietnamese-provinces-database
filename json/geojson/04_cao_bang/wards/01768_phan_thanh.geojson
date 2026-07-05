@@ -18618,11 +18618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Thanh",
-        "unit_code": "01768",
-        "unit_code_name": "phan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.981",
-        "area_km2": 138.09
+        "code": "01768",
+        "name": "Phan Thanh",
+        "nameEn": "Phan Thanh",
+        "fullName": "Xã Phan Thanh",
+        "fullNameEn": "Phan Thanh Commune",
+        "codeName": "phan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.981",
+        "areaKm2": 138.09
       }
     }
   ]

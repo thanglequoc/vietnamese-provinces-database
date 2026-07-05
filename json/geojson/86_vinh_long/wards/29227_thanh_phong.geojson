@@ -6662,11 +6662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Phong",
-        "unit_code": "29227",
-        "unit_code_name": "thanh_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2483",
-        "area_km2": 77.97
+        "code": "29227",
+        "name": "Thạnh Phong",
+        "nameEn": "Thanh Phong",
+        "fullName": "Xã Thạnh Phong",
+        "fullNameEn": "Thanh Phong Commune",
+        "codeName": "thanh_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2483",
+        "areaKm2": 77.97
       }
     }
   ]

@@ -4162,11 +4162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cần Giuộc",
-        "unit_code": "28159",
-        "unit_code_name": "can_giuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1325",
-        "area_km2": 60.4
+        "code": "28159",
+        "name": "Cần Giuộc",
+        "nameEn": "Can Giuoc",
+        "fullName": "Xã Cần Giuộc",
+        "fullNameEn": "Can Giuoc Commune",
+        "codeName": "can_giuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1325",
+        "areaKm2": 60.4
       }
     }
   ]

@@ -3374,11 +3374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoả Lựu",
-        "unit_code": "31338",
-        "unit_code_name": "hoa_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.236",
-        "area_km2": 59.68
+        "code": "31338",
+        "name": "Hoả Lựu",
+        "nameEn": "Hoa Luu",
+        "fullName": "Xã Hoả Lựu",
+        "fullNameEn": "Hoa Luu Commune",
+        "codeName": "hoa_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.236",
+        "areaKm2": 59.68
       }
     }
   ]

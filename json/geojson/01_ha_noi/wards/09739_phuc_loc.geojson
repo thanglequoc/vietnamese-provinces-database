@@ -4162,11 +4162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Lộc",
-        "unit_code": "09739",
-        "unit_code_name": "phuc_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3233",
-        "area_km2": 41.15
+        "code": "09739",
+        "name": "Phúc Lộc",
+        "nameEn": "Phuc Loc",
+        "fullName": "Xã Phúc Lộc",
+        "fullNameEn": "Phuc Loc Commune",
+        "codeName": "phuc_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3233",
+        "areaKm2": 41.15
       }
     }
   ]

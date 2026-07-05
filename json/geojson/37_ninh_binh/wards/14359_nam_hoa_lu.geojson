@@ -4710,11 +4710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Hoa Lư",
-        "unit_code": "14359",
-        "unit_code_name": "nam_hoa_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.758",
-        "area_km2": 54.3
+        "code": "14359",
+        "name": "Nam Hoa Lư",
+        "nameEn": "Nam Hoa Lu",
+        "fullName": "Phường Nam Hoa Lư",
+        "fullNameEn": "Nam Hoa Lu Ward",
+        "codeName": "nam_hoa_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.758",
+        "areaKm2": 54.3
       }
     }
   ]

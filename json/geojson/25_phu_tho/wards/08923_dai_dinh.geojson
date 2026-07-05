@@ -7082,11 +7082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Đình",
-        "unit_code": "08923",
-        "unit_code_name": "dai_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1624",
-        "area_km2": 44
+        "code": "08923",
+        "name": "Đại Đình",
+        "nameEn": "Dai Dinh",
+        "fullName": "Xã Đại Đình",
+        "fullNameEn": "Dai Dinh Commune",
+        "codeName": "dai_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1624",
+        "areaKm2": 44
       }
     }
   ]

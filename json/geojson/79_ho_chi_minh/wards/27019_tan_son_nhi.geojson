@@ -566,11 +566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Sơn Nhì",
-        "unit_code": "27019",
-        "unit_code_name": "tan_son_nhi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.71",
-        "area_km2": 3.46
+        "code": "27019",
+        "name": "Tân Sơn Nhì",
+        "nameEn": "Tan Son Nhi",
+        "fullName": "Phường Tân Sơn Nhì",
+        "fullNameEn": "Tan Son Nhi Ward",
+        "codeName": "tan_son_nhi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.71",
+        "areaKm2": 3.46
       }
     }
   ]

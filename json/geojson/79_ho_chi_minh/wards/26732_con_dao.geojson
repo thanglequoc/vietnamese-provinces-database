@@ -4926,11 +4926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Côn Đảo",
-        "unit_code": "26732",
-        "unit_code_name": "con_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3307",
-        "area_km2": 75.79
+        "code": "26732",
+        "name": "Côn Đảo",
+        "nameEn": "Con Dao",
+        "fullName": "Đặc khu Côn Đảo",
+        "fullNameEn": "Con Dao Special administrative region",
+        "codeName": "con_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3307",
+        "areaKm2": 75.79
       }
     }
   ]

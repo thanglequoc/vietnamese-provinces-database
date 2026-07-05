@@ -8194,11 +8194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bó Sinh",
-        "unit_code": "04171",
-        "unit_code_name": "bo_sinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1396",
-        "area_km2": 153.83
+        "code": "04171",
+        "name": "Bó Sinh",
+        "nameEn": "Bo Sinh",
+        "fullName": "Xã Bó Sinh",
+        "fullNameEn": "Bo Sinh Commune",
+        "codeName": "bo_sinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1396",
+        "areaKm2": 153.83
       }
     }
   ]

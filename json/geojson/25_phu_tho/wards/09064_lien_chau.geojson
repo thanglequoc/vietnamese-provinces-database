@@ -2542,11 +2542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Châu",
-        "unit_code": "09064",
-        "unit_code_name": "lien_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1633",
-        "area_km2": 26
+        "code": "09064",
+        "name": "Liên Châu",
+        "nameEn": "Lien Chau",
+        "fullName": "Xã Liên Châu",
+        "fullNameEn": "Lien Chau Commune",
+        "codeName": "lien_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1633",
+        "areaKm2": 26
       }
     }
   ]

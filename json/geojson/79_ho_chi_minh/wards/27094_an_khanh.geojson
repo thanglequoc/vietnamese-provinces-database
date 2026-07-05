@@ -6158,11 +6158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Khánh",
-        "unit_code": "27094",
-        "unit_code_name": "an_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.79",
-        "area_km2": 15.33
+        "code": "27094",
+        "name": "An Khánh",
+        "nameEn": "An Khanh",
+        "fullName": "Phường An Khánh",
+        "fullNameEn": "An Khanh Ward",
+        "codeName": "an_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.79",
+        "areaKm2": 15.33
       }
     }
   ]

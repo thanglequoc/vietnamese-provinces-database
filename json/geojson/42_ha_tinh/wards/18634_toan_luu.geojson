@@ -5242,11 +5242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Toàn Lưu",
-        "unit_code": "18634",
-        "unit_code_name": "toan_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2011",
-        "area_km2": 60.65
+        "code": "18634",
+        "name": "Toàn Lưu",
+        "nameEn": "Toan Luu",
+        "fullName": "Xã Toàn Lưu",
+        "fullNameEn": "Toan Luu Commune",
+        "codeName": "toan_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2011",
+        "areaKm2": 60.65
       }
     }
   ]

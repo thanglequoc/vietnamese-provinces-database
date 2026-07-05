@@ -26306,11 +26306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Păl",
-        "unit_code": "24400",
-        "unit_code_name": "ea_pal",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2851",
-        "area_km2": 102.52
+        "code": "24400",
+        "name": "Ea Păl",
+        "nameEn": "Ea Pal",
+        "fullName": "Xã Ea Păl",
+        "fullNameEn": "Ea Pal Commune",
+        "codeName": "ea_pal",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2851",
+        "areaKm2": 102.52
       }
     }
   ]

@@ -11886,11 +11886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Mỹ Trung",
-        "unit_code": "28915",
-        "unit_code_name": "phuoc_my_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2450",
-        "area_km2": 38.19
+        "code": "28915",
+        "name": "Phước Mỹ Trung",
+        "nameEn": "Phuoc My Trung",
+        "fullName": "Xã Phước Mỹ Trung",
+        "fullNameEn": "Phuoc My Trung Commune",
+        "codeName": "phuoc_my_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2450",
+        "areaKm2": 38.19
       }
     }
   ]

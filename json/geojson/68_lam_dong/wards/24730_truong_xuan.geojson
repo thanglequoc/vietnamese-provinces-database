@@ -16514,11 +16514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Xuân",
-        "unit_code": "24730",
-        "unit_code_name": "truong_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2818",
-        "area_km2": 332.47
+        "code": "24730",
+        "name": "Trường Xuân",
+        "nameEn": "Truong Xuan",
+        "fullName": "Xã Trường Xuân",
+        "fullNameEn": "Truong Xuan Commune",
+        "codeName": "truong_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2818",
+        "areaKm2": 332.47
       }
     }
   ]

@@ -4234,11 +4234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thần Lĩnh",
-        "unit_code": "17842",
-        "unit_code_name": "than_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1526",
-        "area_km2": 44.69
+        "code": "17842",
+        "name": "Thần Lĩnh",
+        "nameEn": "Than Linh",
+        "fullName": "Xã Thần Lĩnh",
+        "fullNameEn": "Than Linh Commune",
+        "codeName": "than_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1526",
+        "areaKm2": 44.69
       }
     }
   ]

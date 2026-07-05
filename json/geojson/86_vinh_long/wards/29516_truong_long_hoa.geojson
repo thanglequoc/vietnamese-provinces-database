@@ -6430,11 +6430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Long Hoà",
-        "unit_code": "29516",
-        "unit_code_name": "truong_long_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2520",
-        "area_km2": 56.49
+        "code": "29516",
+        "name": "Trường Long Hoà",
+        "nameEn": "Truong Long Hoa",
+        "fullName": "Phường Trường Long Hoà",
+        "fullNameEn": "Truong Long Hoa Ward",
+        "codeName": "truong_long_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2520",
+        "areaKm2": 56.49
       }
     }
   ]

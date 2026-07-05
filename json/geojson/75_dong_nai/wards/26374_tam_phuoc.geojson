@@ -8954,11 +8954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Phước",
-        "unit_code": "26374",
-        "unit_code_name": "tam_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3134",
-        "area_km2": 45.1
+        "code": "26374",
+        "name": "Tam Phước",
+        "nameEn": "Tam Phuoc",
+        "fullName": "Phường Tam Phước",
+        "fullNameEn": "Tam Phuoc Ward",
+        "codeName": "tam_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3134",
+        "areaKm2": 45.1
       }
     }
   ]

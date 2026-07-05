@@ -2162,11 +2162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Minh",
-        "unit_code": "14011",
-        "unit_code_name": "nam_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.789",
-        "area_km2": 24.79
+        "code": "14011",
+        "name": "Nam Minh",
+        "nameEn": "Nam Minh",
+        "fullName": "Xã Nam Minh",
+        "fullNameEn": "Nam Minh Commune",
+        "codeName": "nam_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.789",
+        "areaKm2": 24.79
       }
     }
   ]

@@ -3498,11 +3498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tháp Mười",
-        "unit_code": "30037",
-        "unit_code_name": "thap_muoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.419",
-        "area_km2": 70.4
+        "code": "30037",
+        "name": "Tháp Mười",
+        "nameEn": "Thap Muoi",
+        "fullName": "Xã Tháp Mười",
+        "fullNameEn": "Thap Muoi Commune",
+        "codeName": "thap_muoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.419",
+        "areaKm2": 70.4
       }
     }
   ]

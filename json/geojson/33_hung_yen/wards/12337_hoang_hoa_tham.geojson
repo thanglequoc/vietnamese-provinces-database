@@ -2186,11 +2186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Hoa Thám",
-        "unit_code": "12337",
-        "unit_code_name": "hoang_hoa_tham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.723",
-        "area_km2": 31.85
+        "code": "12337",
+        "name": "Hoàng Hoa Thám",
+        "nameEn": "Hoang Hoa Tham",
+        "fullName": "Xã Hoàng Hoa Thám",
+        "fullNameEn": "Hoang Hoa Tham Commune",
+        "codeName": "hoang_hoa_tham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.723",
+        "areaKm2": 31.85
       }
     }
   ]

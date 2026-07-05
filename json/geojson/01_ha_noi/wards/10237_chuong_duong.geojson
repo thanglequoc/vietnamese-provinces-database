@@ -1974,11 +1974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chương Dương",
-        "unit_code": "10237",
-        "unit_code_name": "chuong_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3164",
-        "area_km2": 28.89
+        "code": "10237",
+        "name": "Chương Dương",
+        "nameEn": "Chuong Duong",
+        "fullName": "Xã Chương Dương",
+        "fullNameEn": "Chuong Duong Commune",
+        "codeName": "chuong_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3164",
+        "areaKm2": 28.89
       }
     }
   ]

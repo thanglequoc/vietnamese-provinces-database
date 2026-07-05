@@ -8610,11 +8610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Trà",
-        "unit_code": "21154",
-        "unit_code_name": "tay_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1755",
-        "area_km2": 170.86
+        "code": "21154",
+        "name": "Tây Trà",
+        "nameEn": "Tay Tra",
+        "fullName": "Xã Tây Trà",
+        "fullNameEn": "Tay Tra Commune",
+        "codeName": "tay_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1755",
+        "areaKm2": 170.86
       }
     }
   ]

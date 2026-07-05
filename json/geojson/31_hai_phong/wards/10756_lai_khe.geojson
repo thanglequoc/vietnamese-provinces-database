@@ -1886,11 +1886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Khê",
-        "unit_code": "10756",
-        "unit_code_name": "lai_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.838",
-        "area_km2": 30.07
+        "code": "10756",
+        "name": "Lai Khê",
+        "nameEn": "Lai Khe",
+        "fullName": "Xã Lai Khê",
+        "fullNameEn": "Lai Khe Commune",
+        "codeName": "lai_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.838",
+        "areaKm2": 30.07
       }
     }
   ]

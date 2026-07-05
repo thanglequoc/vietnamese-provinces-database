@@ -8330,11 +8330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lĩnh",
-        "unit_code": "04336",
-        "unit_code_name": "tan_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1012",
-        "area_km2": 147.75
+        "code": "04336",
+        "name": "Tân Lĩnh",
+        "nameEn": "Tan Linh",
+        "fullName": "Xã Tân Lĩnh",
+        "fullNameEn": "Tan Linh Commune",
+        "codeName": "tan_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1012",
+        "areaKm2": 147.75
       }
     }
   ]

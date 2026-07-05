@@ -18286,11 +18286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửu An",
-        "unit_code": "23629",
-        "unit_code_name": "cuu_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3037",
-        "area_km2": 132.96
+        "code": "23629",
+        "name": "Cửu An",
+        "nameEn": "Cuu An",
+        "fullName": "Xã Cửu An",
+        "fullNameEn": "Cuu An Commune",
+        "codeName": "cuu_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3037",
+        "areaKm2": 132.96
       }
     }
   ]

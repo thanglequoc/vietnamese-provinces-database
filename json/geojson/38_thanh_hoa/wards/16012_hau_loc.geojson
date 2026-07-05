@@ -4294,11 +4294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hậu Lộc",
-        "unit_code": "16012",
-        "unit_code_name": "hau_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2617",
-        "area_km2": 24.92
+        "code": "16012",
+        "name": "Hậu Lộc",
+        "nameEn": "Hau Loc",
+        "fullName": "Xã Hậu Lộc",
+        "fullNameEn": "Hau Loc Commune",
+        "codeName": "hau_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2617",
+        "areaKm2": 24.92
       }
     }
   ]

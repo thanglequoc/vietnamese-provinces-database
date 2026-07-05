@@ -5878,11 +5878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Mú Sung",
-        "unit_code": "02686",
-        "unit_code_name": "a_mu_sung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1092",
-        "area_km2": 104.4
+        "code": "02686",
+        "name": "A Mú Sung",
+        "nameEn": "A Mu Sung",
+        "fullName": "Xã A Mú Sung",
+        "fullNameEn": "A Mu Sung Commune",
+        "codeName": "a_mu_sung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1092",
+        "areaKm2": 104.4
       }
     }
   ]

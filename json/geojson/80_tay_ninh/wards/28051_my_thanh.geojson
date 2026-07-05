@@ -4278,11 +4278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thạnh",
-        "unit_code": "28051",
-        "unit_code_name": "my_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1316",
-        "area_km2": 63.7
+        "code": "28051",
+        "name": "Mỹ Thạnh",
+        "nameEn": "My Thanh",
+        "fullName": "Xã Mỹ Thạnh",
+        "fullNameEn": "My Thanh Commune",
+        "codeName": "my_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1316",
+        "areaKm2": 63.7
       }
     }
   ]

@@ -7062,11 +7062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Gia",
-        "unit_code": "21205",
-        "unit_code_name": "ba_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1746",
-        "area_km2": 66.14
+        "code": "21205",
+        "name": "Ba Gia",
+        "nameEn": "Ba Gia",
+        "fullName": "Xã Ba Gia",
+        "fullNameEn": "Ba Gia Commune",
+        "codeName": "ba_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1746",
+        "areaKm2": 66.14
       }
     }
   ]

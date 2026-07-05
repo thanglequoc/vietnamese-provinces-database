@@ -4162,11 +4162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bà Điểm",
-        "unit_code": "27592",
-        "unit_code_name": "ba_diem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.124",
-        "area_km2": 27.36
+        "code": "27592",
+        "name": "Bà Điểm",
+        "nameEn": "Ba Diem",
+        "fullName": "Xã Bà Điểm",
+        "fullNameEn": "Ba Diem Commune",
+        "codeName": "ba_diem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.124",
+        "areaKm2": 27.36
       }
     }
   ]

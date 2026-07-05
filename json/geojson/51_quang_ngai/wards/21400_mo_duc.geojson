@@ -3846,11 +3846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mộ Đức",
-        "unit_code": "21400",
-        "unit_code_name": "mo_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1776",
-        "area_km2": 76.17
+        "code": "21400",
+        "name": "Mộ Đức",
+        "nameEn": "Mo Duc",
+        "fullName": "Xã Mộ Đức",
+        "fullNameEn": "Mo Duc Commune",
+        "codeName": "mo_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1776",
+        "areaKm2": 76.17
       }
     }
   ]

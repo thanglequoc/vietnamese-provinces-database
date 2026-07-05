@@ -3738,11 +3738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Nỗ",
-        "unit_code": "19909",
-        "unit_code_name": "duong_no",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1701",
-        "area_km2": 20.63
+        "code": "19909",
+        "name": "Dương Nỗ",
+        "nameEn": "Duong No",
+        "fullName": "Phường Dương Nỗ",
+        "fullNameEn": "Duong No Ward",
+        "codeName": "duong_no",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1701",
+        "areaKm2": 20.63
       }
     }
   ]

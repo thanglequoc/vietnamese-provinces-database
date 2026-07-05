@@ -11550,11 +11550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Khánh Vĩnh",
-        "unit_code": "22648",
-        "unit_code_name": "nam_khanh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1131",
-        "area_km2": 197.1
+        "code": "22648",
+        "name": "Nam Khánh Vĩnh",
+        "nameEn": "Nam Khanh Vinh",
+        "fullName": "Xã Nam Khánh Vĩnh",
+        "fullNameEn": "Nam Khanh Vinh Commune",
+        "codeName": "nam_khanh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1131",
+        "areaKm2": 197.1
       }
     }
   ]

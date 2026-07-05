@@ -10390,11 +10390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân An",
-        "unit_code": "27712",
-        "unit_code_name": "tan_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1277",
-        "area_km2": 25.5
+        "code": "27712",
+        "name": "Tân An",
+        "nameEn": "Tan An",
+        "fullName": "Phường Tân An",
+        "fullNameEn": "Tan An Ward",
+        "codeName": "tan_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1277",
+        "areaKm2": 25.5
       }
     }
   ]

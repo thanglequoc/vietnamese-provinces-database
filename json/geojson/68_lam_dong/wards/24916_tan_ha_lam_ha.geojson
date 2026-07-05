@@ -9970,11 +9970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hà Lâm Hà",
-        "unit_code": "24916",
-        "unit_code_name": "tan_ha_lam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.517",
-        "area_km2": 168.34
+        "code": "24916",
+        "name": "Tân Hà Lâm Hà",
+        "nameEn": "Tan Ha Lam Ha",
+        "fullName": "Xã Tân Hà Lâm Hà",
+        "fullNameEn": "Tan Ha Lam Ha Commune",
+        "codeName": "tan_ha_lam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.517",
+        "areaKm2": 168.34
       }
     }
   ]

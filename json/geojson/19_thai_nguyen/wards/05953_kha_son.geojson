@@ -8518,11 +8518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kha Sơn",
-        "unit_code": "05953",
-        "unit_code_name": "kha_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1239",
-        "area_km2": 37.85
+        "code": "05953",
+        "name": "Kha Sơn",
+        "nameEn": "Kha Son",
+        "fullName": "Xã Kha Sơn",
+        "fullNameEn": "Kha Son Commune",
+        "codeName": "kha_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1239",
+        "areaKm2": 37.85
       }
     }
   ]

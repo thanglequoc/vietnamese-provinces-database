@@ -1598,11 +1598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lộc",
-        "unit_code": "31213",
-        "unit_code_name": "tan_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.215",
-        "area_km2": 33.4
+        "code": "31213",
+        "name": "Tân Lộc",
+        "nameEn": "Tan Loc",
+        "fullName": "Phường Tân Lộc",
+        "fullNameEn": "Tan Loc Ward",
+        "codeName": "tan_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.215",
+        "areaKm2": 33.4
       }
     }
   ]

@@ -4854,11 +4854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Phượng",
-        "unit_code": "05551",
-        "unit_code_name": "kim_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1216",
-        "area_km2": 78.61
+        "code": "05551",
+        "name": "Kim Phượng",
+        "nameEn": "Kim Phuong",
+        "fullName": "Xã Kim Phượng",
+        "fullNameEn": "Kim Phuong Commune",
+        "codeName": "kim_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1216",
+        "areaKm2": 78.61
       }
     }
   ]

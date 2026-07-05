@@ -10602,11 +10602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Lộc",
-        "unit_code": "26089",
-        "unit_code_name": "binh_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3110",
-        "area_km2": 77.2
+        "code": "26089",
+        "name": "Bình Lộc",
+        "nameEn": "Binh Loc",
+        "fullName": "Phường Bình Lộc",
+        "fullNameEn": "Binh Loc Ward",
+        "codeName": "binh_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3110",
+        "areaKm2": 77.2
       }
     }
   ]

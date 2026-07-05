@@ -6314,11 +6314,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thới",
-        "unit_code": "30301",
-        "unit_code_name": "my_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.307",
-        "area_km2": 37.09
+        "code": "30301",
+        "name": "Mỹ Thới",
+        "nameEn": "My Thoi",
+        "fullName": "Phường Mỹ Thới",
+        "fullNameEn": "My Thoi Ward",
+        "codeName": "my_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.307",
+        "areaKm2": 37.09
       }
     }
   ]

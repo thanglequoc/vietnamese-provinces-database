@@ -5670,11 +5670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Nguyên",
-        "unit_code": "19",
-        "unit_code_name": "thai_nguyen",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.101",
-        "area_km2": 8375.21
+        "code": "19",
+        "name": "Thái Nguyên",
+        "nameEn": "Thai Nguyen",
+        "fullName": "Tỉnh Thái Nguyên",
+        "fullNameEn": "Thai Nguyen Province",
+        "codeName": "thai_nguyen",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.101",
+        "areaKm2": 8375.21
       }
     }
   ]

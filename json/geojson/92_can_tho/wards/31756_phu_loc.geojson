@@ -5510,11 +5510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lộc",
-        "unit_code": "31756",
-        "unit_code_name": "phu_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.297",
-        "area_km2": 80.15
+        "code": "31756",
+        "name": "Phú Lộc",
+        "nameEn": "Phu Loc",
+        "fullName": "Xã Phú Lộc",
+        "fullNameEn": "Phu Loc Commune",
+        "codeName": "phu_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.297",
+        "areaKm2": 80.15
       }
     }
   ]

@@ -4394,11 +4394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lệ Ninh",
-        "unit_code": "19246",
-        "unit_code_name": "le_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.631",
-        "area_km2": 56.32
+        "code": "19246",
+        "name": "Lệ Ninh",
+        "nameEn": "Le Ninh",
+        "fullName": "Xã Lệ Ninh",
+        "fullNameEn": "Le Ninh Commune",
+        "codeName": "le_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.631",
+        "areaKm2": 56.32
       }
     }
   ]

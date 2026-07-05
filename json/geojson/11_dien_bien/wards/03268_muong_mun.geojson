@@ -11578,11 +11578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Mùn",
-        "unit_code": "03268",
-        "unit_code_name": "muong_mun",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2256",
-        "area_km2": 252.84
+        "code": "03268",
+        "name": "Mường Mùn",
+        "nameEn": "Muong Mun",
+        "fullName": "Xã Mường Mùn",
+        "fullNameEn": "Muong Mun Commune",
+        "codeName": "muong_mun",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2256",
+        "areaKm2": 252.84
       }
     }
   ]

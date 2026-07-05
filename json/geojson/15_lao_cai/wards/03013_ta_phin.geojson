@@ -5110,11 +5110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tả Phìn",
-        "unit_code": "03013",
-        "unit_code_name": "ta_phin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1101",
-        "area_km2": 74.68
+        "code": "03013",
+        "name": "Tả Phìn",
+        "nameEn": "Ta Phin",
+        "fullName": "Xã Tả Phìn",
+        "fullNameEn": "Ta Phin Commune",
+        "codeName": "ta_phin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1101",
+        "areaKm2": 74.68
       }
     }
   ]

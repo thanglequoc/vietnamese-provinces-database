@@ -834,11 +834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Biên",
-        "unit_code": "11407",
-        "unit_code_name": "an_bien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.931",
-        "area_km2": 6.56
+        "code": "11407",
+        "name": "An Biên",
+        "nameEn": "An Bien",
+        "fullName": "Phường An Biên",
+        "fullNameEn": "An Bien Ward",
+        "codeName": "an_bien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.931",
+        "areaKm2": 0
       }
     }
   ]

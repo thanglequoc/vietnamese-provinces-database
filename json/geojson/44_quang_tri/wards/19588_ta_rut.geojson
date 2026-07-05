@@ -11274,11 +11274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Rụt",
-        "unit_code": "19588",
-        "unit_code_name": "ta_rut",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.591",
-        "area_km2": 273.15
+        "code": "19588",
+        "name": "Tà Rụt",
+        "nameEn": "Ta Rut",
+        "fullName": "Xã Tà Rụt",
+        "fullNameEn": "Ta Rut Commune",
+        "codeName": "ta_rut",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.591",
+        "areaKm2": 273.15
       }
     }
   ]

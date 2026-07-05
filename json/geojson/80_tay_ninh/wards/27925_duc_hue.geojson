@@ -6070,11 +6070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Huệ",
-        "unit_code": "27925",
-        "unit_code_name": "duc_hue",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1301",
-        "area_km2": 134.13
+        "code": "27925",
+        "name": "Đức Huệ",
+        "nameEn": "Duc Hue",
+        "fullName": "Xã Đức Huệ",
+        "fullNameEn": "Duc Hue Commune",
+        "codeName": "duc_hue",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1301",
+        "areaKm2": 134.13
       }
     }
   ]

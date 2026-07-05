@@ -8882,11 +8882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà An",
-        "unit_code": "07168",
-        "unit_code_name": "ha_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1862",
-        "area_km2": 100.18
+        "code": "07168",
+        "name": "Hà An",
+        "nameEn": "Ha An",
+        "fullName": "Phường Hà An",
+        "fullNameEn": "Ha An Ward",
+        "codeName": "ha_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1862",
+        "areaKm2": 100.18
       }
     }
   ]

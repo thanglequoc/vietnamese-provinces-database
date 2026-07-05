@@ -9994,11 +9994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Sơn",
-        "unit_code": "07531",
-        "unit_code_name": "tan_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2102",
-        "area_km2": 95.37
+        "code": "07531",
+        "name": "Tân Sơn",
+        "nameEn": "Tan Son",
+        "fullName": "Xã Tân Sơn",
+        "fullNameEn": "Tan Son Commune",
+        "codeName": "tan_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2102",
+        "areaKm2": 95.37
       }
     }
   ]

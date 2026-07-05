@@ -6938,11 +6938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cổ Lũng",
-        "unit_code": "14959",
-        "unit_code_name": "co_lung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2652",
-        "area_km2": 127.05
+        "code": "14959",
+        "name": "Cổ Lũng",
+        "nameEn": "Co Lung",
+        "fullName": "Xã Cổ Lũng",
+        "fullNameEn": "Co Lung Commune",
+        "codeName": "co_lung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2652",
+        "areaKm2": 127.05
       }
     }
   ]

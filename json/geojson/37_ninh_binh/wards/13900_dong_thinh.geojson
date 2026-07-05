@@ -3002,11 +3002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Thịnh",
-        "unit_code": "13900",
-        "unit_code_name": "dong_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.794",
-        "area_km2": 30.45
+        "code": "13900",
+        "name": "Đồng Thịnh",
+        "nameEn": "Dong Thinh",
+        "fullName": "Xã Đồng Thịnh",
+        "fullNameEn": "Dong Thinh Commune",
+        "codeName": "dong_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.794",
+        "areaKm2": 30.45
       }
     }
   ]

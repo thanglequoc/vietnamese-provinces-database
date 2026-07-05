@@ -19214,11 +19214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mậu Duệ",
-        "unit_code": "00847",
-        "unit_code_name": "mau_due",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2380",
-        "area_km2": 163.31
+        "code": "00847",
+        "name": "Mậu Duệ",
+        "nameEn": "Mau Due",
+        "fullName": "Xã Mậu Duệ",
+        "fullNameEn": "Mau Due Commune",
+        "codeName": "mau_due",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2380",
+        "areaKm2": 163.31
       }
     }
   ]

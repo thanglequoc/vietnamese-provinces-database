@@ -6406,11 +6406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Phước",
-        "unit_code": "31369",
-        "unit_code_name": "dong_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.243",
-        "area_km2": 40
+        "code": "31369",
+        "name": "Đông Phước",
+        "nameEn": "Dong Phuoc",
+        "fullName": "Xã Đông Phước",
+        "fullNameEn": "Dong Phuoc Commune",
+        "codeName": "dong_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.243",
+        "areaKm2": 40
       }
     }
   ]

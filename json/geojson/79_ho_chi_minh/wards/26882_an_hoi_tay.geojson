@@ -4834,11 +4834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Hội Tây",
-        "unit_code": "26882",
-        "unit_code_name": "an_hoi_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.57",
-        "area_km2": 3.81
+        "code": "26882",
+        "name": "An Hội Tây",
+        "nameEn": "An Hoi Tay",
+        "fullName": "Phường An Hội Tây",
+        "fullNameEn": "An Hoi Tay Ward",
+        "codeName": "an_hoi_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.57",
+        "areaKm2": 3.81
       }
     }
   ]

@@ -6570,11 +6570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thuỷ",
-        "unit_code": "19741",
-        "unit_code_name": "my_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.583",
-        "area_km2": 43.82
+        "code": "19741",
+        "name": "Mỹ Thuỷ",
+        "nameEn": "My Thuy",
+        "fullName": "Xã Mỹ Thuỷ",
+        "fullNameEn": "My Thuy Commune",
+        "codeName": "my_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.583",
+        "areaKm2": 43.82
       }
     }
   ]

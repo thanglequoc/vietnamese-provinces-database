@@ -1678,11 +1678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thuận",
-        "unit_code": "13246",
-        "unit_code_name": "tan_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.684",
-        "area_km2": 22.11
+        "code": "13246",
+        "name": "Tân Thuận",
+        "nameEn": "Tan Thuan",
+        "fullName": "Xã Tân Thuận",
+        "fullNameEn": "Tan Thuan Commune",
+        "codeName": "tan_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.684",
+        "areaKm2": 22.11
       }
     }
   ]

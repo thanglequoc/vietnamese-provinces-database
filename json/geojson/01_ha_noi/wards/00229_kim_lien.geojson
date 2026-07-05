@@ -974,11 +974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Liên",
-        "unit_code": "00229",
-        "unit_code_name": "kim_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3206",
-        "area_km2": 2.46
+        "code": "00229",
+        "name": "Kim Liên",
+        "nameEn": "Kim Lien",
+        "fullName": "Phường Kim Liên",
+        "fullNameEn": "Kim Lien Ward",
+        "codeName": "kim_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3206",
+        "areaKm2": 2.46
       }
     }
   ]

@@ -8838,11 +8838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Phước",
-        "unit_code": "21952",
-        "unit_code_name": "tuy_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3014",
-        "area_km2": 53.37
+        "code": "21952",
+        "name": "Tuy Phước",
+        "nameEn": "Tuy Phuoc",
+        "fullName": "Xã Tuy Phước",
+        "fullNameEn": "Tuy Phuoc Commune",
+        "codeName": "tuy_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3014",
+        "areaKm2": 53.37
       }
     }
   ]

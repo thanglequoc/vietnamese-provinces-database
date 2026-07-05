@@ -14650,11 +14650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Khương",
-        "unit_code": "02761",
-        "unit_code_name": "muong_khuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1059",
-        "area_km2": 169.2
+        "code": "02761",
+        "name": "Mường Khương",
+        "nameEn": "Muong Khuong",
+        "fullName": "Xã Mường Khương",
+        "fullNameEn": "Muong Khuong Commune",
+        "codeName": "muong_khuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1059",
+        "areaKm2": 169.2
       }
     }
   ]

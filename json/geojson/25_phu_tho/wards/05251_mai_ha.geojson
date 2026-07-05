@@ -5294,11 +5294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mai Hạ",
-        "unit_code": "05251",
-        "unit_code_name": "mai_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1685",
-        "area_km2": 71.86
+        "code": "05251",
+        "name": "Mai Hạ",
+        "nameEn": "Mai Ha",
+        "fullName": "Xã Mai Hạ",
+        "fullNameEn": "Mai Ha Commune",
+        "codeName": "mai_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1685",
+        "areaKm2": 71.86
       }
     }
   ]

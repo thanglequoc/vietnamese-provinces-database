@@ -13090,11 +13090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Trung",
-        "unit_code": "25417",
-        "unit_code_name": "nghia_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2304",
-        "area_km2": 222
+        "code": "25417",
+        "name": "Nghĩa Trung",
+        "nameEn": "Nghia Trung",
+        "fullName": "Xã Nghĩa Trung",
+        "fullNameEn": "Nghia Trung Commune",
+        "codeName": "nghia_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2304",
+        "areaKm2": 222
       }
     }
   ]

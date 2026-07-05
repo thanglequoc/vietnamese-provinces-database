@@ -10982,11 +10982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Cấm",
-        "unit_code": "23284",
-        "unit_code_name": "dak_cam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1731",
-        "area_km2": 66.33
+        "code": "23284",
+        "name": "Đăk Cấm",
+        "nameEn": "Dak Cam",
+        "fullName": "Phường Đăk Cấm",
+        "fullNameEn": "Dak Cam Ward",
+        "codeName": "dak_cam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1731",
+        "areaKm2": 66.33
       }
     }
   ]

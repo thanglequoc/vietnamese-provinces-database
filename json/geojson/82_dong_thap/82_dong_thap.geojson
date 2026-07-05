@@ -6478,11 +6478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Tháp",
-        "unit_code": "82",
-        "unit_code_name": "dong_thap",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.127",
-        "area_km2": 5938.64
+        "code": "82",
+        "name": "Đồng Tháp",
+        "nameEn": "Dong Thap",
+        "fullName": "Tỉnh Đồng Tháp",
+        "fullNameEn": "Dong Thap Province",
+        "codeName": "dong_thap",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.127",
+        "areaKm2": 5938.64
       }
     }
   ]

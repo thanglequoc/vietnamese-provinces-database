@@ -8762,11 +8762,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Khánh",
-        "unit_code": "02998",
-        "unit_code_name": "phuc_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1080",
-        "area_km2": 114
+        "code": "02998",
+        "name": "Phúc Khánh",
+        "nameEn": "Phuc Khanh",
+        "fullName": "Xã Phúc Khánh",
+        "fullNameEn": "Phuc Khanh Commune",
+        "codeName": "phuc_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1080",
+        "areaKm2": 114
       }
     }
   ]

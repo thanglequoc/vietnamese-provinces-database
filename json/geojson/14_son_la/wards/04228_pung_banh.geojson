@@ -18674,11 +18674,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Púng Bánh",
-        "unit_code": "04228",
-        "unit_code_name": "pung_banh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1404",
-        "area_km2": 364.64
+        "code": "04228",
+        "name": "Púng Bánh",
+        "nameEn": "Pung Banh",
+        "fullName": "Xã Púng Bánh",
+        "fullNameEn": "Pung Banh Commune",
+        "codeName": "pung_banh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1404",
+        "areaKm2": 364.64
       }
     }
   ]

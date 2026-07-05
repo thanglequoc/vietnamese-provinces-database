@@ -5614,11 +5614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hy Cương",
-        "unit_code": "08515",
-        "unit_code_name": "hy_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1557",
-        "area_km2": 23.95
+        "code": "08515",
+        "name": "Hy Cương",
+        "nameEn": "Hy Cuong",
+        "fullName": "Xã Hy Cương",
+        "fullNameEn": "Hy Cuong Commune",
+        "codeName": "hy_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1557",
+        "areaKm2": 23.95
       }
     }
   ]

@@ -10002,11 +10002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Sơn",
-        "unit_code": "21109",
-        "unit_code_name": "dong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1769",
-        "area_km2": 115.83
+        "code": "21109",
+        "name": "Đông Sơn",
+        "nameEn": "Dong Son",
+        "fullName": "Xã Đông Sơn",
+        "fullNameEn": "Dong Son Commune",
+        "codeName": "dong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1769",
+        "areaKm2": 115.83
       }
     }
   ]

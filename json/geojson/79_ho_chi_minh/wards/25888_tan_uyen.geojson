@@ -5862,11 +5862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Uyên",
-        "unit_code": "25888",
-        "unit_code_name": "tan_uyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.22",
-        "area_km2": 94.67
+        "code": "25888",
+        "name": "Tân Uyên",
+        "nameEn": "Tan Uyen",
+        "fullName": "Phường Tân Uyên",
+        "fullNameEn": "Tan Uyen Ward",
+        "codeName": "tan_uyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.22",
+        "areaKm2": 94.67
       }
     }
   ]

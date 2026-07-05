@@ -8714,11 +8714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Hậu",
-        "unit_code": "22873",
-        "unit_code_name": "phuoc_hau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1157",
-        "area_km2": 74.7
+        "code": "22873",
+        "name": "Phước Hậu",
+        "nameEn": "Phuoc Hau",
+        "fullName": "Xã Phước Hậu",
+        "fullNameEn": "Phuoc Hau Commune",
+        "codeName": "phuoc_hau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1157",
+        "areaKm2": 74.7
       }
     }
   ]

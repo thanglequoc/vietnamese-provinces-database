@@ -6782,11 +6782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Đảo",
-        "unit_code": "08911",
-        "unit_code_name": "tam_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1622",
-        "area_km2": 79.2
+        "code": "08911",
+        "name": "Tam Đảo",
+        "nameEn": "Tam Dao",
+        "fullName": "Xã Tam Đảo",
+        "fullNameEn": "Tam Dao Commune",
+        "codeName": "tam_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1622",
+        "areaKm2": 79.2
       }
     }
   ]

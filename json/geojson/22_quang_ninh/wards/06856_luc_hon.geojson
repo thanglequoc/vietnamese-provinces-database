@@ -7226,11 +7226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Hồn",
-        "unit_code": "06856",
-        "unit_code_name": "luc_hon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1891",
-        "area_km2": 107.13
+        "code": "06856",
+        "name": "Lục Hồn",
+        "nameEn": "Luc Hon",
+        "fullName": "Xã Lục Hồn",
+        "fullNameEn": "Luc Hon Commune",
+        "codeName": "luc_hon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1891",
+        "areaKm2": 107.13
       }
     }
   ]

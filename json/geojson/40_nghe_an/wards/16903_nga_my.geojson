@@ -8702,11 +8702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nga My",
-        "unit_code": "16903",
-        "unit_code_name": "nga_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1512",
-        "area_km2": 302.52
+        "code": "16903",
+        "name": "Nga My",
+        "nameEn": "Nga My",
+        "fullName": "Xã Nga My",
+        "fullNameEn": "Nga My Commune",
+        "codeName": "nga_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1512",
+        "areaKm2": 302.52
       }
     }
   ]

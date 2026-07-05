@@ -4170,11 +4170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Thạnh",
-        "unit_code": "28336",
-        "unit_code_name": "hung_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.453",
-        "area_km2": 65.2
+        "code": "28336",
+        "name": "Hưng Thạnh",
+        "nameEn": "Hung Thanh",
+        "fullName": "Xã Hưng Thạnh",
+        "fullNameEn": "Hung Thanh Commune",
+        "codeName": "hung_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.453",
+        "areaKm2": 65.2
       }
     }
   ]

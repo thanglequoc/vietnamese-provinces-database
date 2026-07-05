@@ -6994,11 +6994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Giang",
-        "unit_code": "18184",
-        "unit_code_name": "son_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2042",
-        "area_km2": 86.32
+        "code": "18184",
+        "name": "Sơn Giang",
+        "nameEn": "Son Giang",
+        "fullName": "Xã Sơn Giang",
+        "fullNameEn": "Son Giang Commune",
+        "codeName": "son_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2042",
+        "areaKm2": 86.32
       }
     }
   ]

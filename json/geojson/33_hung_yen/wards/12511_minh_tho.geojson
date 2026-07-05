@@ -6906,11 +6906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Thọ",
-        "unit_code": "12511",
-        "unit_code_name": "minh_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.666",
-        "area_km2": 22.11
+        "code": "12511",
+        "name": "Minh Thọ",
+        "nameEn": "Minh Tho",
+        "fullName": "Xã Minh Thọ",
+        "fullNameEn": "Minh Tho Commune",
+        "codeName": "minh_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.666",
+        "areaKm2": 22.11
       }
     }
   ]

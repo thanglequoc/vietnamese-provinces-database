@@ -6806,11 +6806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Thới",
-        "unit_code": "28969",
-        "unit_code_name": "thanh_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2455",
-        "area_km2": 49.35
+        "code": "28969",
+        "name": "Thành Thới",
+        "nameEn": "Thanh Thoi",
+        "fullName": "Xã Thành Thới",
+        "fullNameEn": "Thanh Thoi Commune",
+        "codeName": "thanh_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2455",
+        "areaKm2": 49.35
       }
     }
   ]

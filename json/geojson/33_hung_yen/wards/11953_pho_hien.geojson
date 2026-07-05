@@ -2378,11 +2378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phố Hiến",
-        "unit_code": "11953",
-        "unit_code_name": "pho_hien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.720",
-        "area_km2": 21.5
+        "code": "11953",
+        "name": "Phố Hiến",
+        "nameEn": "Pho Hien",
+        "fullName": "Phường Phố Hiến",
+        "fullNameEn": "Pho Hien Ward",
+        "codeName": "pho_hien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.720",
+        "areaKm2": 21.5
       }
     }
   ]

@@ -10502,11 +10502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Phụ",
-        "unit_code": "12472",
-        "unit_code_name": "quynh_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.663",
-        "area_km2": 31.98
+        "code": "12472",
+        "name": "Quỳnh Phụ",
+        "nameEn": "Quynh Phu",
+        "fullName": "Xã Quỳnh Phụ",
+        "fullNameEn": "Quynh Phu Commune",
+        "codeName": "quynh_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.663",
+        "areaKm2": 31.98
       }
     }
   ]

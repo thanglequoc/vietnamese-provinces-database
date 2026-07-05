@@ -4198,11 +4198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Thuận",
-        "unit_code": "28297",
-        "unit_code_name": "long_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.450",
-        "area_km2": 8.3
+        "code": "28297",
+        "name": "Long Thuận",
+        "nameEn": "Long Thuan",
+        "fullName": "Phường Long Thuận",
+        "fullNameEn": "Long Thuan Ward",
+        "codeName": "long_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.450",
+        "areaKm2": 8.3
       }
     }
   ]

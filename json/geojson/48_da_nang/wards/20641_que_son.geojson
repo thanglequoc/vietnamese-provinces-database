@@ -7702,11 +7702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quế Sơn",
-        "unit_code": "20641",
-        "unit_code_name": "que_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1957",
-        "area_km2": 94.1
+        "code": "20641",
+        "name": "Quế Sơn",
+        "nameEn": "Que Son",
+        "fullName": "Xã Quế Sơn",
+        "fullNameEn": "Que Son Commune",
+        "codeName": "que_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1957",
+        "areaKm2": 94.1
       }
     }
   ]

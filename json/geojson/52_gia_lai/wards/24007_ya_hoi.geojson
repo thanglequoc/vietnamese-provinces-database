@@ -20994,11 +20994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ya Hội",
-        "unit_code": "24007",
-        "unit_code_name": "ya_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3039",
-        "area_km2": 215.75
+        "code": "24007",
+        "name": "Ya Hội",
+        "nameEn": "Ya Hoi",
+        "fullName": "Xã Ya Hội",
+        "fullNameEn": "Ya Hoi Commune",
+        "codeName": "ya_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3039",
+        "areaKm2": 215.75
       }
     }
   ]

@@ -28318,11 +28318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Knốp",
-        "unit_code": "24376",
-        "unit_code_name": "ea_knop",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2850",
-        "area_km2": 448.65
+        "code": "24376",
+        "name": "Ea Knốp",
+        "nameEn": "Ea Knop",
+        "fullName": "Xã Ea Knốp",
+        "fullNameEn": "Ea Knop Commune",
+        "codeName": "ea_knop",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2850",
+        "areaKm2": 448.65
       }
     }
   ]

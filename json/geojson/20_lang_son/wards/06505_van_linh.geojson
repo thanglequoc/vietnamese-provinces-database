@@ -12258,11 +12258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Linh",
-        "unit_code": "06505",
-        "unit_code_name": "van_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1804",
-        "area_km2": 126.54
+        "code": "06505",
+        "name": "Vạn Linh",
+        "nameEn": "Van Linh",
+        "fullName": "Xã Vạn Linh",
+        "fullNameEn": "Van Linh Commune",
+        "codeName": "van_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1804",
+        "areaKm2": 126.54
       }
     }
   ]

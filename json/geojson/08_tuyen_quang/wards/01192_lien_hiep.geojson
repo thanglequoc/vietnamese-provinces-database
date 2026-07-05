@@ -20490,11 +20490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Hiệp",
-        "unit_code": "01192",
-        "unit_code_name": "lien_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2428",
-        "area_km2": 166.67
+        "code": "01192",
+        "name": "Liên Hiệp",
+        "nameEn": "Lien Hiep",
+        "fullName": "Xã Liên Hiệp",
+        "fullNameEn": "Lien Hiep Commune",
+        "codeName": "lien_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2428",
+        "areaKm2": 166.67
       }
     }
   ]

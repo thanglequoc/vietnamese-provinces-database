@@ -2134,11 +2134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mão Điền",
-        "unit_code": "09409",
-        "unit_code_name": "mao_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2191",
-        "area_km2": 19.5
+        "code": "09409",
+        "name": "Mão Điền",
+        "nameEn": "Mao Dien",
+        "fullName": "Phường Mão Điền",
+        "fullNameEn": "Mao Dien Ward",
+        "codeName": "mao_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2191",
+        "areaKm2": 19.5
       }
     }
   ]

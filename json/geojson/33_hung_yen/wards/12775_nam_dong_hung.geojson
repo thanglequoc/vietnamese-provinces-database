@@ -3150,11 +3150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đông Hưng",
-        "unit_code": "12775",
-        "unit_code_name": "nam_dong_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.651",
-        "area_km2": 16.25
+        "code": "12775",
+        "name": "Nam Đông Hưng",
+        "nameEn": "Nam Dong Hung",
+        "fullName": "Xã Nam Đông Hưng",
+        "fullNameEn": "Nam Dong Hung Commune",
+        "codeName": "nam_dong_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.651",
+        "areaKm2": 16.25
       }
     }
   ]

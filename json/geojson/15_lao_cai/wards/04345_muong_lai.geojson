@@ -11378,11 +11378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lai",
-        "unit_code": "04345",
-        "unit_code_name": "muong_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1011",
-        "area_km2": 143.84
+        "code": "04345",
+        "name": "Mường Lai",
+        "nameEn": "Muong Lai",
+        "fullName": "Xã Mường Lai",
+        "fullNameEn": "Muong Lai Commune",
+        "codeName": "muong_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1011",
+        "areaKm2": 143.84
       }
     }
   ]

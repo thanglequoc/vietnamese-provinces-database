@@ -12446,11 +12446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Khai",
-        "unit_code": "01795",
-        "unit_code_name": "minh_khai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.962",
-        "area_km2": 173.4
+        "code": "01795",
+        "name": "Minh Khai",
+        "nameEn": "Minh Khai",
+        "fullName": "Xã Minh Khai",
+        "fullNameEn": "Minh Khai Commune",
+        "codeName": "minh_khai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.962",
+        "areaKm2": 173.4
       }
     }
   ]

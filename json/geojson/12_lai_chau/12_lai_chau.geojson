@@ -4758,11 +4758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Châu",
-        "unit_code": "12",
-        "unit_code_name": "lai_chau",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.113",
-        "area_km2": 9068.73
+        "code": "12",
+        "name": "Lai Châu",
+        "nameEn": "Lai Chau",
+        "fullName": "Tỉnh Lai Châu",
+        "fullNameEn": "Lai Chau Province",
+        "codeName": "lai_chau",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.113",
+        "areaKm2": 9068.73
       }
     }
   ]

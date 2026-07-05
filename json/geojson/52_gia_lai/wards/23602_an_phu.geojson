@@ -9378,11 +9378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Phú",
-        "unit_code": "23602",
-        "unit_code_name": "an_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3045",
-        "area_km2": 32.49
+        "code": "23602",
+        "name": "An Phú",
+        "nameEn": "An Phu",
+        "fullName": "Phường An Phú",
+        "fullNameEn": "An Phu Ward",
+        "codeName": "an_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3045",
+        "areaKm2": 32.49
       }
     }
   ]

@@ -6470,11 +6470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pú Nhung",
-        "unit_code": "03260",
-        "unit_code_name": "pu_nhung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2255",
-        "area_km2": 209.93
+        "code": "03260",
+        "name": "Pú Nhung",
+        "nameEn": "Pu Nhung",
+        "fullName": "Xã Pú Nhung",
+        "fullNameEn": "Pu Nhung Commune",
+        "codeName": "pu_nhung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2255",
+        "areaKm2": 209.93
       }
     }
   ]

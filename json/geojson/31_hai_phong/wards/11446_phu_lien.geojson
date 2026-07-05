@@ -2118,11 +2118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Liễn",
-        "unit_code": "11446",
-        "unit_code_name": "phu_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.946",
-        "area_km2": 18.46
+        "code": "11446",
+        "name": "Phù Liễn",
+        "nameEn": "Phu Lien",
+        "fullName": "Phường Phù Liễn",
+        "fullNameEn": "Phu Lien Ward",
+        "codeName": "phu_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.946",
+        "areaKm2": 18.46
       }
     }
   ]

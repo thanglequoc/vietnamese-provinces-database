@@ -11806,11 +11806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Canh",
-        "unit_code": "21994",
-        "unit_code_name": "van_canh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3019",
-        "area_km2": 208.75
+        "code": "21994",
+        "name": "Vân Canh",
+        "nameEn": "Van Canh",
+        "fullName": "Xã Vân Canh",
+        "fullNameEn": "Van Canh Commune",
+        "codeName": "van_canh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3019",
+        "areaKm2": 208.75
       }
     }
   ]

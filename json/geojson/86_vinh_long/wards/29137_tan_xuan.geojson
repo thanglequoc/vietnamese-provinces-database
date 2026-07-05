@@ -9902,11 +9902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Xuân",
-        "unit_code": "29137",
-        "unit_code_name": "tan_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2472",
-        "area_km2": 50.44
+        "code": "29137",
+        "name": "Tân Xuân",
+        "nameEn": "Tan Xuan",
+        "fullName": "Xã Tân Xuân",
+        "fullNameEn": "Tan Xuan Commune",
+        "codeName": "tan_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2472",
+        "areaKm2": 50.44
       }
     }
   ]

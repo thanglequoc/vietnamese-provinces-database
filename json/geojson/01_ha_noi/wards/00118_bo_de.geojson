@@ -962,11 +962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bồ Đề",
-        "unit_code": "00118",
-        "unit_code_name": "bo_de",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3196",
-        "area_km2": 12.94
+        "code": "00118",
+        "name": "Bồ Đề",
+        "nameEn": "Bo De",
+        "fullName": "Phường Bồ Đề",
+        "fullNameEn": "Bo De Ward",
+        "codeName": "bo_de",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3196",
+        "areaKm2": 12.94
       }
     }
   ]

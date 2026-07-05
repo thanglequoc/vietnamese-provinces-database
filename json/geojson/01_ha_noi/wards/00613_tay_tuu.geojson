@@ -1214,11 +1214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Tựu",
-        "unit_code": "00613",
-        "unit_code_name": "tay_tuu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3270",
-        "area_km2": 7.54
+        "code": "00613",
+        "name": "Tây Tựu",
+        "nameEn": "Tay Tuu",
+        "fullName": "Phường Tây Tựu",
+        "fullNameEn": "Tay Tuu Ward",
+        "codeName": "tay_tuu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3270",
+        "areaKm2": 7.54
       }
     }
   ]

@@ -2982,11 +2982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trạm Lộ",
-        "unit_code": "09430",
-        "unit_code_name": "tram_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2193",
-        "area_km2": 18.24
+        "code": "09430",
+        "name": "Trạm Lộ",
+        "nameEn": "Tram Lo",
+        "fullName": "Phường Trạm Lộ",
+        "fullNameEn": "Tram Lo Ward",
+        "codeName": "tram_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2193",
+        "areaKm2": 18.24
       }
     }
   ]

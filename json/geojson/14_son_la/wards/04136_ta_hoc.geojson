@@ -9822,11 +9822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Hộc",
-        "unit_code": "04136",
-        "unit_code_name": "ta_hoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1394",
-        "area_km2": 149.56
+        "code": "04136",
+        "name": "Tà Hộc",
+        "nameEn": "Ta Hoc",
+        "fullName": "Xã Tà Hộc",
+        "fullNameEn": "Ta Hoc Commune",
+        "codeName": "ta_hoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1394",
+        "areaKm2": 149.56
       }
     }
   ]

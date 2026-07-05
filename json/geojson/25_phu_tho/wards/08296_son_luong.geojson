@@ -6914,11 +6914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Lương",
-        "unit_code": "08296",
-        "unit_code_name": "son_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1601",
-        "area_km2": 96.92
+        "code": "08296",
+        "name": "Sơn Lương",
+        "nameEn": "Son Luong",
+        "fullName": "Xã Sơn Lương",
+        "fullNameEn": "Son Luong Commune",
+        "codeName": "son_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1601",
+        "areaKm2": 96.92
       }
     }
   ]

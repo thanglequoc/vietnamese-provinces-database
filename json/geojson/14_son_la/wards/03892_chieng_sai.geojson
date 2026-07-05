@@ -4870,11 +4870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Sại",
-        "unit_code": "03892",
-        "unit_code_name": "chieng_sai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1364",
-        "area_km2": 124.55
+        "code": "03892",
+        "name": "Chiềng Sại",
+        "nameEn": "Chieng Sai",
+        "fullName": "Xã Chiềng Sại",
+        "fullNameEn": "Chieng Sai Commune",
+        "codeName": "chieng_sai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1364",
+        "areaKm2": 124.55
       }
     }
   ]

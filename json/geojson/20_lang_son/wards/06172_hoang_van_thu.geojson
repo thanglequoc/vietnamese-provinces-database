@@ -10038,11 +10038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Văn Thụ",
-        "unit_code": "06172",
-        "unit_code_name": "hoang_van_thu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1810",
-        "area_km2": 114.5
+        "code": "06172",
+        "name": "Hoàng Văn Thụ",
+        "nameEn": "Hoang Van Thu",
+        "fullName": "Xã Hoàng Văn Thụ",
+        "fullNameEn": "Hoang Van Thu Commune",
+        "codeName": "hoang_van_thu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1810",
+        "areaKm2": 114.5
       }
     }
   ]

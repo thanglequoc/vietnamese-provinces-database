@@ -16770,11 +16770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Trọng",
-        "unit_code": "24958",
-        "unit_code_name": "duc_trong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.522",
-        "area_km2": 148.78
+        "code": "24958",
+        "name": "Đức Trọng",
+        "nameEn": "Duc Trong",
+        "fullName": "Xã Đức Trọng",
+        "fullNameEn": "Duc Trong Commune",
+        "codeName": "duc_trong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.522",
+        "areaKm2": 148.78
       }
     }
   ]

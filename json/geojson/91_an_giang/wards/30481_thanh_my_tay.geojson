@@ -4974,11 +4974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Mỹ Tây",
-        "unit_code": "30481",
-        "unit_code_name": "thanh_my_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.330",
-        "area_km2": 162.08
+        "code": "30481",
+        "name": "Thạnh Mỹ Tây",
+        "nameEn": "Thanh My Tay",
+        "fullName": "Xã Thạnh Mỹ Tây",
+        "fullNameEn": "Thanh My Tay Commune",
+        "codeName": "thanh_my_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.330",
+        "areaKm2": 162.08
       }
     }
   ]

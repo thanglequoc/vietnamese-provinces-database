@@ -7838,11 +7838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuỵ Hùng",
-        "unit_code": "06148",
-        "unit_code_name": "thuy_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1806",
-        "area_km2": 108.76
+        "code": "06148",
+        "name": "Thuỵ Hùng",
+        "nameEn": "Thuy Hung",
+        "fullName": "Xã Thuỵ Hùng",
+        "fullNameEn": "Thuy Hung Commune",
+        "codeName": "thuy_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1806",
+        "areaKm2": 108.76
       }
     }
   ]

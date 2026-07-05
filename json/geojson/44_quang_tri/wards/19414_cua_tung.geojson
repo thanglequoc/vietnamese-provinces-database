@@ -4618,11 +4618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửa Tùng",
-        "unit_code": "19414",
-        "unit_code_name": "cua_tung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.585",
-        "area_km2": 59.83
+        "code": "19414",
+        "name": "Cửa Tùng",
+        "nameEn": "Cua Tung",
+        "fullName": "Xã Cửa Tùng",
+        "fullNameEn": "Cua Tung Commune",
+        "codeName": "cua_tung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.585",
+        "areaKm2": 59.83
       }
     }
   ]

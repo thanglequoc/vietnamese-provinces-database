@@ -5842,11 +5842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tu Mơ Rông",
-        "unit_code": "23425",
-        "unit_code_name": "tu_mo_rong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3157",
-        "area_km2": 152.13
+        "code": "23425",
+        "name": "Tu Mơ Rông",
+        "nameEn": "Tu Mo Rong",
+        "fullName": "Xã Tu Mơ Rông",
+        "fullNameEn": "Tu Mo Rong Commune",
+        "codeName": "tu_mo_rong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3157",
+        "areaKm2": 152.13
       }
     }
   ]

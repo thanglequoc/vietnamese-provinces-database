@@ -8446,11 +8446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Kỳ",
-        "unit_code": "21325",
-        "unit_code_name": "son_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1773",
-        "area_km2": 188.07
+        "code": "21325",
+        "name": "Sơn Kỳ",
+        "nameEn": "Son Ky",
+        "fullName": "Xã Sơn Kỳ",
+        "fullNameEn": "Son Ky Commune",
+        "codeName": "son_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1773",
+        "areaKm2": 188.07
       }
     }
   ]

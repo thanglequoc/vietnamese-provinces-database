@@ -16982,11 +16982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Giang 2",
-        "unit_code": "00691",
-        "unit_code_name": "ha_giang_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2364",
-        "area_km2": 60.62
+        "code": "00691",
+        "name": "Hà Giang 2",
+        "nameEn": "Ha Giang 2",
+        "fullName": "Phường Hà Giang 2",
+        "fullNameEn": "Ward Ha Giang 2",
+        "codeName": "ha_giang_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2364",
+        "areaKm2": 60.62
       }
     }
   ]

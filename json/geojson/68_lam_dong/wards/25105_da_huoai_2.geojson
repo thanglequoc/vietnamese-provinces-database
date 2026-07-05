@@ -16386,11 +16386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đạ Huoai 2",
-        "unit_code": "25105",
-        "unit_code_name": "da_huoai_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1268",
-        "area_km2": 249.57
+        "code": "25105",
+        "name": "Đạ Huoai 2",
+        "nameEn": "Da Huoai 2",
+        "fullName": "Xã Đạ Huoai 2",
+        "fullNameEn": "Commune Da Huoai 2",
+        "codeName": "da_huoai_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1268",
+        "areaKm2": 249.57
       }
     }
   ]

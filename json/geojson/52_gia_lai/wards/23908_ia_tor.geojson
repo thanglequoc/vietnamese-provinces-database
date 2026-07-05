@@ -8722,11 +8722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Tôr",
-        "unit_code": "23908",
-        "unit_code_name": "ia_tor",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2927",
-        "area_km2": 102.31
+        "code": "23908",
+        "name": "Ia Tôr",
+        "nameEn": "Ia Tor",
+        "fullName": "Xã Ia Tôr",
+        "fullNameEn": "Ia Tor Commune",
+        "codeName": "ia_tor",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2927",
+        "areaKm2": 102.31
       }
     }
   ]

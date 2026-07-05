@@ -7358,11 +7358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đề Gi",
-        "unit_code": "21859",
-        "unit_code_name": "de_gi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3000",
-        "area_km2": 94.97
+        "code": "21859",
+        "name": "Đề Gi",
+        "nameEn": "De Gi",
+        "fullName": "Xã Đề Gi",
+        "fullNameEn": "De Gi Commune",
+        "codeName": "de_gi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3000",
+        "areaKm2": 94.97
       }
     }
   ]

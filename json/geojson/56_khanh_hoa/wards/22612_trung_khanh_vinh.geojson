@@ -11806,11 +11806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Khánh Vĩnh",
-        "unit_code": "22612",
-        "unit_code_name": "trung_khanh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1115",
-        "area_km2": 338.5
+        "code": "22612",
+        "name": "Trung Khánh Vĩnh",
+        "nameEn": "Trung Khanh Vinh",
+        "fullName": "Xã Trung Khánh Vĩnh",
+        "fullNameEn": "Trung Khanh Vinh Commune",
+        "codeName": "trung_khanh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1115",
+        "areaKm2": 338.5
       }
     }
   ]

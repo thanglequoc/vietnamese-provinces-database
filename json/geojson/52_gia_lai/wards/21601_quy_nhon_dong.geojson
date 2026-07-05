@@ -16066,11 +16066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Nhơn Đông",
-        "unit_code": "21601",
-        "unit_code_name": "quy_nhon_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3009",
-        "area_km2": 81.97
+        "code": "21601",
+        "name": "Quy Nhơn Đông",
+        "nameEn": "Quy Nhon Dong",
+        "fullName": "Phường Quy Nhơn Đông",
+        "fullNameEn": "Quy Nhon Dong Ward",
+        "codeName": "quy_nhon_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3009",
+        "areaKm2": 81.97
       }
     }
   ]

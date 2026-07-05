@@ -6986,11 +6986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Hưng",
-        "unit_code": "30934",
-        "unit_code_name": "hoa_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.381",
-        "area_km2": 114.24
+        "code": "30934",
+        "name": "Hoà Hưng",
+        "nameEn": "Hoa Hung",
+        "fullName": "Xã Hoà Hưng",
+        "fullNameEn": "Hoa Hung Commune",
+        "codeName": "hoa_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.381",
+        "areaKm2": 114.24
       }
     }
   ]

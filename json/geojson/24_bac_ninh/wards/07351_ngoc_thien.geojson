@@ -10930,11 +10930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Thiện",
-        "unit_code": "07351",
-        "unit_code_name": "ngoc_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2166",
-        "area_km2": 51.26
+        "code": "07351",
+        "name": "Ngọc Thiện",
+        "nameEn": "Ngoc Thien",
+        "fullName": "Xã Ngọc Thiện",
+        "fullNameEn": "Ngoc Thien Commune",
+        "codeName": "ngoc_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2166",
+        "areaKm2": 51.26
       }
     }
   ]

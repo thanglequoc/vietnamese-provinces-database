@@ -19718,11 +19718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bù Gia Mập",
-        "unit_code": "25222",
-        "unit_code_name": "bu_gia_map",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2306",
-        "area_km2": 342.5
+        "code": "25222",
+        "name": "Bù Gia Mập",
+        "nameEn": "Bu Gia Map",
+        "fullName": "Xã Bù Gia Mập",
+        "fullNameEn": "Bu Gia Map Commune",
+        "codeName": "bu_gia_map",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2306",
+        "areaKm2": 342.5
       }
     }
   ]

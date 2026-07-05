@@ -5954,11 +5954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bích Hào",
-        "unit_code": "17818",
-        "unit_code_name": "bich_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1433",
-        "area_km2": 147.06
+        "code": "17818",
+        "name": "Bích Hào",
+        "nameEn": "Bich Hao",
+        "fullName": "Xã Bích Hào",
+        "fullNameEn": "Bich Hao Commune",
+        "codeName": "bich_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1433",
+        "areaKm2": 147.06
       }
     }
   ]

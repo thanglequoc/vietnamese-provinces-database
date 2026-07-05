@@ -28678,11 +28678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đam Rông 3",
-        "unit_code": "24875",
-        "unit_code_name": "dam_rong_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.505",
-        "area_km2": 139.38
+        "code": "24875",
+        "name": "Đam Rông 3",
+        "nameEn": "Dam Rong 3",
+        "fullName": "Xã Đam Rông 3",
+        "fullNameEn": "Commune Dam Rong 3",
+        "codeName": "dam_rong_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.505",
+        "areaKm2": 139.38
       }
     }
   ]

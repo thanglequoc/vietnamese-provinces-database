@@ -4714,11 +4714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Mỹ",
-        "unit_code": "08236",
-        "unit_code_name": "phu_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1550",
-        "area_km2": 27.36
+        "code": "08236",
+        "name": "Phú Mỹ",
+        "nameEn": "Phu My",
+        "fullName": "Xã Phú Mỹ",
+        "fullNameEn": "Phu My Commune",
+        "codeName": "phu_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1550",
+        "areaKm2": 27.36
       }
     }
   ]

@@ -6586,11 +6586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Ca",
-        "unit_code": "02548",
-        "unit_code_name": "binh_ca",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2356",
-        "area_km2": 69.48
+        "code": "02548",
+        "name": "Bình Ca",
+        "nameEn": "Binh Ca",
+        "fullName": "Xã Bình Ca",
+        "fullNameEn": "Binh Ca Commune",
+        "codeName": "binh_ca",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2356",
+        "areaKm2": 69.48
       }
     }
   ]

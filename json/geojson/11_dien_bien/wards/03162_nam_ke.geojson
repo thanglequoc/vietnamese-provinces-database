@@ -18398,11 +18398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Kè",
-        "unit_code": "03162",
-        "unit_code_name": "nam_ke",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2233",
-        "area_km2": 224.7
+        "code": "03162",
+        "name": "Nậm Kè",
+        "nameEn": "Nam Ke",
+        "fullName": "Xã Nậm Kè",
+        "fullNameEn": "Nam Ke Commune",
+        "codeName": "nam_ke",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2233",
+        "areaKm2": 224.7
       }
     }
   ]

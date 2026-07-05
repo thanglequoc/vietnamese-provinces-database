@@ -13374,11 +13374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Thế Trân",
-        "unit_code": "32134",
-        "unit_code_name": "luong_the_tran",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.182",
-        "area_km2": 142.42
+        "code": "32134",
+        "name": "Lương Thế Trân",
+        "nameEn": "Luong The Tran",
+        "fullName": "Xã Lương Thế Trân",
+        "fullNameEn": "Luong The Tran Commune",
+        "codeName": "luong_the_tran",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.182",
+        "areaKm2": 142.42
       }
     }
   ]

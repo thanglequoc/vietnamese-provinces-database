@@ -1918,11 +1918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửa Việt",
-        "unit_code": "19496",
-        "unit_code_name": "cua_viet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.567",
-        "area_km2": 50.83
+        "code": "19496",
+        "name": "Cửa Việt",
+        "nameEn": "Cua Viet",
+        "fullName": "Xã Cửa Việt",
+        "fullNameEn": "Cua Viet Commune",
+        "codeName": "cua_viet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.567",
+        "areaKm2": 50.83
       }
     }
   ]

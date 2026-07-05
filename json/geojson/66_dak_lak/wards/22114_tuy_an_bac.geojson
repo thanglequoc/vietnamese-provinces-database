@@ -8146,11 +8146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy An Bắc",
-        "unit_code": "22114",
-        "unit_code_name": "tuy_an_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2903",
-        "area_km2": 52.32
+        "code": "22114",
+        "name": "Tuy An Bắc",
+        "nameEn": "Tuy An Bac",
+        "fullName": "Xã Tuy An Bắc",
+        "fullNameEn": "Tuy An Bac Commune",
+        "codeName": "tuy_an_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2903",
+        "areaKm2": 52.32
       }
     }
   ]

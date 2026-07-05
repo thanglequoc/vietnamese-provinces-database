@@ -4614,11 +4614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dầu Tiếng",
-        "unit_code": "25777",
-        "unit_code_name": "dau_tieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.5",
-        "area_km2": 182.69
+        "code": "25777",
+        "name": "Dầu Tiếng",
+        "nameEn": "Dau Tieng",
+        "fullName": "Xã Dầu Tiếng",
+        "fullNameEn": "Dau Tieng Commune",
+        "codeName": "dau_tieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.5",
+        "areaKm2": 182.69
       }
     }
   ]

@@ -2326,11 +2326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ái Quốc",
-        "unit_code": "10660",
-        "unit_code_name": "ai_quoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.848",
-        "area_km2": 17.6
+        "code": "10660",
+        "name": "Ái Quốc",
+        "nameEn": "Ai Quoc",
+        "fullName": "Phường Ái Quốc",
+        "fullNameEn": "Ai Quoc Ward",
+        "codeName": "ai_quoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.848",
+        "areaKm2": 17.6
       }
     }
   ]

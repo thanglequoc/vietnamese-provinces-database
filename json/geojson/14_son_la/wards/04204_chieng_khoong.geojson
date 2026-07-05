@@ -15742,11 +15742,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Khoong",
-        "unit_code": "04204",
-        "unit_code_name": "chieng_khoong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1400",
-        "area_km2": 253.87
+        "code": "04204",
+        "name": "Chiềng Khoong",
+        "nameEn": "Chieng Khoong",
+        "fullName": "Xã Chiềng Khoong",
+        "fullNameEn": "Chieng Khoong Commune",
+        "codeName": "chieng_khoong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1400",
+        "areaKm2": 253.87
       }
     }
   ]

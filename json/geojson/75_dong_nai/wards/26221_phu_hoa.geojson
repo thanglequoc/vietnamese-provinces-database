@@ -9738,11 +9738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Hoà",
-        "unit_code": "26221",
-        "unit_code_name": "phu_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3119",
-        "area_km2": 61.5
+        "code": "26221",
+        "name": "Phú Hoà",
+        "nameEn": "Phu Hoa",
+        "fullName": "Xã Phú Hoà",
+        "fullNameEn": "Phu Hoa Commune",
+        "codeName": "phu_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3119",
+        "areaKm2": 61.5
       }
     }
   ]

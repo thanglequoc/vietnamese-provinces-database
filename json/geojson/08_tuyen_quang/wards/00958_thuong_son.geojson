@@ -14378,11 +14378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Sơn",
-        "unit_code": "00958",
-        "unit_code_name": "thuong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2395",
-        "area_km2": 142.6
+        "code": "00958",
+        "name": "Thượng Sơn",
+        "nameEn": "Thuong Son",
+        "fullName": "Xã Thượng Sơn",
+        "fullNameEn": "Thuong Son Commune",
+        "codeName": "thuong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2395",
+        "areaKm2": 142.6
       }
     }
   ]

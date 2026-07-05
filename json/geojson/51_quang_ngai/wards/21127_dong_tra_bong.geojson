@@ -5378,11 +5378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Trà Bồng",
-        "unit_code": "21127",
-        "unit_code_name": "dong_tra_bong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1750",
-        "area_km2": 74.83
+        "code": "21127",
+        "name": "Đông Trà Bồng",
+        "nameEn": "Dong Tra Bong",
+        "fullName": "Xã Đông Trà Bồng",
+        "fullNameEn": "Dong Tra Bong Commune",
+        "codeName": "dong_tra_bong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1750",
+        "areaKm2": 74.83
       }
     }
   ]

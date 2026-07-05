@@ -10338,11 +10338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trại Cau",
-        "unit_code": "05662",
-        "unit_code_name": "trai_cau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1226",
-        "area_km2": 82.85
+        "code": "05662",
+        "name": "Trại Cau",
+        "nameEn": "Trai Cau",
+        "fullName": "Xã Trại Cau",
+        "fullNameEn": "Trai Cau Commune",
+        "codeName": "trai_cau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1226",
+        "areaKm2": 82.85
       }
     }
   ]

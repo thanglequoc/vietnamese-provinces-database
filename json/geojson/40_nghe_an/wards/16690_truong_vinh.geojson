@@ -2266,11 +2266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Vinh",
-        "unit_code": "16690",
-        "unit_code_name": "truong_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1520",
-        "area_km2": 34.22
+        "code": "16690",
+        "name": "Trường Vinh",
+        "nameEn": "Truong Vinh",
+        "fullName": "Phường Trường Vinh",
+        "fullNameEn": "Truong Vinh Ward",
+        "codeName": "truong_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1520",
+        "areaKm2": 34.22
       }
     }
   ]

@@ -5842,11 +5842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũng Áng",
-        "unit_code": "18823",
-        "unit_code_name": "vung_ang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2017",
-        "area_km2": 82.98
+        "code": "18823",
+        "name": "Vũng Áng",
+        "nameEn": "Vung Ang",
+        "fullName": "Phường Vũng Áng",
+        "fullNameEn": "Vung Ang Ward",
+        "codeName": "vung_ang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2017",
+        "areaKm2": 82.98
       }
     }
   ]

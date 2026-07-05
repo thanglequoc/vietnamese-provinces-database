@@ -6294,11 +6294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mậu Thạch",
-        "unit_code": "17239",
-        "unit_code_name": "mau_thach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1417",
-        "area_km2": 164.26
+        "code": "17239",
+        "name": "Mậu Thạch",
+        "nameEn": "Mau Thach",
+        "fullName": "Xã Mậu Thạch",
+        "fullNameEn": "Mau Thach Commune",
+        "codeName": "mau_thach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1417",
+        "areaKm2": 164.26
       }
     }
   ]

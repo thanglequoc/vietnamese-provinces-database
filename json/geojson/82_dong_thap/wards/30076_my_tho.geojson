@@ -7578,11 +7578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thọ",
-        "unit_code": "30076",
-        "unit_code_name": "my_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.427",
-        "area_km2": 61.5
+        "code": "30076",
+        "name": "Mỹ Thọ",
+        "nameEn": "My Tho",
+        "fullName": "Xã Mỹ Thọ",
+        "fullNameEn": "My Tho Commune",
+        "codeName": "my_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.427",
+        "areaKm2": 61.5
       }
     }
   ]

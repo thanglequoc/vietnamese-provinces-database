@@ -2958,11 +2958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiên Lộc",
-        "unit_code": "00493",
-        "unit_code_name": "thien_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3245",
-        "area_km2": 27.96
+        "code": "00493",
+        "name": "Thiên Lộc",
+        "nameEn": "Thien Loc",
+        "fullName": "Xã Thiên Lộc",
+        "fullNameEn": "Thien Loc Commune",
+        "codeName": "thien_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3245",
+        "areaKm2": 27.96
       }
     }
   ]

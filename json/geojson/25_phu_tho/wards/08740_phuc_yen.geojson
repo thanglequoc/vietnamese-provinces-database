@@ -8078,11 +8078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Yên",
-        "unit_code": "08740",
-        "unit_code_name": "phuc_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1607",
-        "area_km2": 23.4
+        "code": "08740",
+        "name": "Phúc Yên",
+        "nameEn": "Phuc Yen",
+        "fullName": "Phường Phúc Yên",
+        "fullNameEn": "Phuc Yen Ward",
+        "codeName": "phuc_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1607",
+        "areaKm2": 23.4
       }
     }
   ]

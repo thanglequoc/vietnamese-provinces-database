@@ -1846,11 +1846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Long",
-        "unit_code": "26848",
-        "unit_code_name": "phuoc_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.51",
-        "area_km2": 9.23
+        "code": "26848",
+        "name": "Phước Long",
+        "nameEn": "Phuoc Long",
+        "fullName": "Phường Phước Long",
+        "fullNameEn": "Phuoc Long Ward",
+        "codeName": "phuoc_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.51",
+        "areaKm2": 9.23
       }
     }
   ]

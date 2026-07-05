@@ -2210,11 +2210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Dương",
-        "unit_code": "11581",
-        "unit_code_name": "an_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.920",
-        "area_km2": 31.23
+        "code": "11581",
+        "name": "An Dương",
+        "nameEn": "An Duong",
+        "fullName": "Phường An Dương",
+        "fullNameEn": "An Duong Ward",
+        "codeName": "an_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.920",
+        "areaKm2": 31.23
       }
     }
   ]

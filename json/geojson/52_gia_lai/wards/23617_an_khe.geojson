@@ -11230,11 +11230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Khê",
-        "unit_code": "23617",
-        "unit_code_name": "an_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3036",
-        "area_km2": 57.44
+        "code": "23617",
+        "name": "An Khê",
+        "nameEn": "An Khe",
+        "fullName": "Phường An Khê",
+        "fullNameEn": "An Khe Ward",
+        "codeName": "an_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3036",
+        "areaKm2": 57.44
       }
     }
   ]

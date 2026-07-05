@@ -9534,11 +9534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Nguyên",
-        "unit_code": "01225",
-        "unit_code_name": "tien_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2419",
-        "area_km2": 90.13
+        "code": "01225",
+        "name": "Tiên Nguyên",
+        "nameEn": "Tien Nguyen",
+        "fullName": "Xã Tiên Nguyên",
+        "fullNameEn": "Tien Nguyen Commune",
+        "codeName": "tien_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2419",
+        "areaKm2": 90.13
       }
     }
   ]

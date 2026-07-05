@@ -710,11 +710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Từ Liêm",
-        "unit_code": "00592",
-        "unit_code_name": "tu_liem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3263",
-        "area_km2": 10.18
+        "code": "00592",
+        "name": "Từ Liêm",
+        "nameEn": "Tu Liem",
+        "fullName": "Phường Từ Liêm",
+        "fullNameEn": "Tu Liem Ward",
+        "codeName": "tu_liem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3263",
+        "areaKm2": 10.18
       }
     }
   ]

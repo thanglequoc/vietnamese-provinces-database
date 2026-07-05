@@ -2178,11 +2178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Sơn",
-        "unit_code": "13318",
-        "unit_code_name": "chau_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2787",
-        "area_km2": 17.45
+        "code": "13318",
+        "name": "Châu Sơn",
+        "nameEn": "Chau Son",
+        "fullName": "Phường Châu Sơn",
+        "fullNameEn": "Chau Son Ward",
+        "codeName": "chau_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2787",
+        "areaKm2": 17.45
       }
     }
   ]

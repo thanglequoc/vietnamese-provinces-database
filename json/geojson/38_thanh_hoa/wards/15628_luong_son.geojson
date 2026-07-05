@@ -4146,11 +4146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Sơn",
-        "unit_code": "15628",
-        "unit_code_name": "luong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2568",
-        "area_km2": 79.91
+        "code": "15628",
+        "name": "Lương Sơn",
+        "nameEn": "Luong Son",
+        "fullName": "Xã Lương Sơn",
+        "fullNameEn": "Luong Son Commune",
+        "codeName": "luong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2568",
+        "areaKm2": 79.91
       }
     }
   ]

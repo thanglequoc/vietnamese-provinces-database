@@ -8362,11 +8362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lĩnh Toại",
-        "unit_code": "15298",
-        "unit_code_name": "linh_toai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2619",
-        "area_km2": 30.48
+        "code": "15298",
+        "name": "Lĩnh Toại",
+        "nameEn": "Linh Toai",
+        "fullName": "Xã Lĩnh Toại",
+        "fullNameEn": "Linh Toai Commune",
+        "codeName": "linh_toai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2619",
+        "areaKm2": 30.48
       }
     }
   ]

@@ -3894,11 +3894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lợi",
-        "unit_code": "31510",
-        "unit_code_name": "phu_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.263",
-        "area_km2": 26.79
+        "code": "31510",
+        "name": "Phú Lợi",
+        "nameEn": "Phu Loi",
+        "fullName": "Phường Phú Lợi",
+        "fullNameEn": "Phu Loi Ward",
+        "codeName": "phu_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.263",
+        "areaKm2": 26.79
       }
     }
   ]

@@ -4590,11 +4590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Thạnh",
-        "unit_code": "25567",
-        "unit_code_name": "ninh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2746",
-        "area_km2": 52.66
+        "code": "25567",
+        "name": "Ninh Thạnh",
+        "nameEn": "Ninh Thanh",
+        "fullName": "Phường Ninh Thạnh",
+        "fullNameEn": "Ninh Thanh Ward",
+        "codeName": "ninh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2746",
+        "areaKm2": 52.66
       }
     }
   ]

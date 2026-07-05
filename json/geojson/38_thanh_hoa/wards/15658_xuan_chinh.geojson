@@ -8578,11 +8578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Chinh",
-        "unit_code": "15658",
-        "unit_code_name": "xuan_chinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2562",
-        "area_km2": 172.48
+        "code": "15658",
+        "name": "Xuân Chinh",
+        "nameEn": "Xuan Chinh",
+        "fullName": "Xã Xuân Chinh",
+        "fullNameEn": "Xuan Chinh Commune",
+        "codeName": "xuan_chinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2562",
+        "areaKm2": 172.48
       }
     }
   ]

@@ -4606,11 +4606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đô Lương",
-        "unit_code": "17662",
-        "unit_code_name": "do_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1458",
-        "area_km2": 50.06
+        "code": "17662",
+        "name": "Đô Lương",
+        "nameEn": "Do Luong",
+        "fullName": "Xã Đô Lương",
+        "fullNameEn": "Do Luong Commune",
+        "codeName": "do_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1458",
+        "areaKm2": 50.06
       }
     }
   ]

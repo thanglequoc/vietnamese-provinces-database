@@ -3590,11 +3590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nếnh",
-        "unit_code": "07795",
-        "unit_code_name": "nenh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2153",
-        "area_km2": 35.98
+        "code": "07795",
+        "name": "Nếnh",
+        "nameEn": "Nenh",
+        "fullName": "Phường Nếnh",
+        "fullNameEn": "Nenh Ward",
+        "codeName": "nenh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2153",
+        "areaKm2": 35.98
       }
     }
   ]

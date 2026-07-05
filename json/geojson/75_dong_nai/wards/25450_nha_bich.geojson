@@ -16594,11 +16594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nha Bích",
-        "unit_code": "25450",
-        "unit_code_name": "nha_bich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2307",
-        "area_km2": 137.1
+        "code": "25450",
+        "name": "Nha Bích",
+        "nameEn": "Nha Bich",
+        "fullName": "Xã Nha Bích",
+        "fullNameEn": "Nha Bich Commune",
+        "codeName": "nha_bich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2307",
+        "areaKm2": 137.1
       }
     }
   ]

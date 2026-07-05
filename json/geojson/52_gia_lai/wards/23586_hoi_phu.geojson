@@ -5898,11 +5898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội Phú",
-        "unit_code": "23586",
-        "unit_code_name": "hoi_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3042",
-        "area_km2": 34.86
+        "code": "23586",
+        "name": "Hội Phú",
+        "nameEn": "Hoi Phu",
+        "fullName": "Phường Hội Phú",
+        "fullNameEn": "Hoi Phu Ward",
+        "codeName": "hoi_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3042",
+        "areaKm2": 34.86
       }
     }
   ]

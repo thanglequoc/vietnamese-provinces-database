@@ -9694,11 +9694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kép",
-        "unit_code": "07399",
-        "unit_code_name": "kep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2169",
-        "area_km2": 58.65
+        "code": "07399",
+        "name": "Kép",
+        "nameEn": "Kep",
+        "fullName": "Xã Kép",
+        "fullNameEn": "Kep Commune",
+        "codeName": "kep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2169",
+        "areaKm2": 58.65
       }
     }
   ]

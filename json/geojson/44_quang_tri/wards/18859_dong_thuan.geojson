@@ -2018,11 +2018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Thuận",
-        "unit_code": "18859",
-        "unit_code_name": "dong_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.598",
-        "area_km2": 26.49
+        "code": "18859",
+        "name": "Đồng Thuận",
+        "nameEn": "Dong Thuan",
+        "fullName": "Phường Đồng Thuận",
+        "fullNameEn": "Dong Thuan Ward",
+        "codeName": "dong_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.598",
+        "areaKm2": 26.49
       }
     }
   ]

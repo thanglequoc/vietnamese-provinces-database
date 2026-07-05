@@ -2710,11 +2710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Minh",
-        "unit_code": "18244",
-        "unit_code_name": "duc_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2056",
-        "area_km2": 23.58
+        "code": "18244",
+        "name": "Đức Minh",
+        "nameEn": "Duc Minh",
+        "fullName": "Xã Đức Minh",
+        "fullNameEn": "Duc Minh Commune",
+        "codeName": "duc_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2056",
+        "areaKm2": 23.58
       }
     }
   ]

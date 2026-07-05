@@ -8058,11 +8058,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Nông",
-        "unit_code": "02239",
-        "unit_code_name": "thuong_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2316",
-        "area_km2": 79.83
+        "code": "02239",
+        "name": "Thượng Nông",
+        "nameEn": "Thuong Nong",
+        "fullName": "Xã Thượng Nông",
+        "fullNameEn": "Thuong Nong Commune",
+        "codeName": "thuong_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2316",
+        "areaKm2": 79.83
       }
     }
   ]

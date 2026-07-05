@@ -6722,11 +6722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Ly",
-        "unit_code": "22237",
-        "unit_code_name": "ea_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2911",
-        "area_km2": 140.35
+        "code": "22237",
+        "name": "Ea Ly",
+        "nameEn": "Ea Ly",
+        "fullName": "Xã Ea Ly",
+        "fullNameEn": "Ea Ly Commune",
+        "codeName": "ea_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2911",
+        "areaKm2": 140.35
       }
     }
   ]

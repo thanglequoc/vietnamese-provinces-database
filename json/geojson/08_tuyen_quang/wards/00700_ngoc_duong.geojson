@@ -17386,11 +17386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Đường",
-        "unit_code": "00700",
-        "unit_code_name": "ngoc_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2366",
-        "area_km2": 98.07
+        "code": "00700",
+        "name": "Ngọc Đường",
+        "nameEn": "Ngoc Duong",
+        "fullName": "Xã Ngọc Đường",
+        "fullNameEn": "Ngoc Duong Commune",
+        "codeName": "ngoc_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2366",
+        "areaKm2": 98.07
       }
     }
   ]

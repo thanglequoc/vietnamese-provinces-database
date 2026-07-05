@@ -33390,11 +33390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nâm Nung",
-        "unit_code": "24703",
-        "unit_code_name": "nam_nung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2814",
-        "area_km2": 219.66
+        "code": "24703",
+        "name": "Nâm Nung",
+        "nameEn": "Nam Nung",
+        "fullName": "Xã Nâm Nung",
+        "fullNameEn": "Nam Nung Commune",
+        "codeName": "nam_nung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2814",
+        "areaKm2": 219.66
       }
     }
   ]

@@ -1346,11 +1346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Lãng",
-        "unit_code": "11755",
-        "unit_code_name": "tien_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.916",
-        "area_km2": 27.89
+        "code": "11755",
+        "name": "Tiên Lãng",
+        "nameEn": "Tien Lang",
+        "fullName": "Xã Tiên Lãng",
+        "fullNameEn": "Tien Lang Commune",
+        "codeName": "tien_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.916",
+        "areaKm2": 27.89
       }
     }
   ]

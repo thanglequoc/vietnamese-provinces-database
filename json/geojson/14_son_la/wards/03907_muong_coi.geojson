@@ -12554,11 +12554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Cơi",
-        "unit_code": "03907",
-        "unit_code_name": "muong_coi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1367",
-        "area_km2": 194.98
+        "code": "03907",
+        "name": "Mường Cơi",
+        "nameEn": "Muong Coi",
+        "fullName": "Xã Mường Cơi",
+        "fullNameEn": "Muong Coi Commune",
+        "codeName": "muong_coi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1367",
+        "areaKm2": 194.98
       }
     }
   ]

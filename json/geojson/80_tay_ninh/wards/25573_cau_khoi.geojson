@@ -2762,11 +2762,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Khởi",
-        "unit_code": "25573",
-        "unit_code_name": "cau_khoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2740",
-        "area_km2": 90.51
+        "code": "25573",
+        "name": "Cầu Khởi",
+        "nameEn": "Cau Khoi",
+        "fullName": "Xã Cầu Khởi",
+        "fullNameEn": "Cau Khoi Commune",
+        "codeName": "cau_khoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2740",
+        "areaKm2": 90.51
       }
     }
   ]

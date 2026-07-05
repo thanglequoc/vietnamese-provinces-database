@@ -2142,11 +2142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diễn Châu",
-        "unit_code": "17464",
-        "unit_code_name": "dien_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1441",
-        "area_km2": 22.21
+        "code": "17464",
+        "name": "Diễn Châu",
+        "nameEn": "Dien Chau",
+        "fullName": "Xã Diễn Châu",
+        "fullNameEn": "Dien Chau Commune",
+        "codeName": "dien_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1441",
+        "areaKm2": 22.21
       }
     }
   ]

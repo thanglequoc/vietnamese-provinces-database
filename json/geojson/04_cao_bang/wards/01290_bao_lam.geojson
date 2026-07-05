@@ -9882,11 +9882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lâm",
-        "unit_code": "01290",
-        "unit_code_name": "bao_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.968",
-        "area_km2": 161.82
+        "code": "01290",
+        "name": "Bảo Lâm",
+        "nameEn": "Bao Lam",
+        "fullName": "Xã Bảo Lâm",
+        "fullNameEn": "Bao Lam Commune",
+        "codeName": "bao_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.968",
+        "areaKm2": 161.82
       }
     }
   ]

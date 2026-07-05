@@ -6766,11 +6766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Lưu",
-        "unit_code": "18436",
-        "unit_code_name": "truong_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2006",
-        "area_km2": 49.92
+        "code": "18436",
+        "name": "Trường Lưu",
+        "nameEn": "Truong Luu",
+        "fullName": "Xã Trường Lưu",
+        "fullNameEn": "Truong Luu Commune",
+        "codeName": "truong_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2006",
+        "areaKm2": 49.92
       }
     }
   ]

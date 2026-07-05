@@ -5338,11 +5338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Đông",
-        "unit_code": "28783",
-        "unit_code_name": "son_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2439",
-        "area_km2": 23.48
+        "code": "28783",
+        "name": "Sơn Đông",
+        "nameEn": "Son Dong",
+        "fullName": "Phường Sơn Đông",
+        "fullNameEn": "Son Dong Ward",
+        "codeName": "son_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2439",
+        "areaKm2": 23.48
       }
     }
   ]

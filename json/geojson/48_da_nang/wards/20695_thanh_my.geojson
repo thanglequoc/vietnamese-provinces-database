@@ -9534,11 +9534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Mỹ",
-        "unit_code": "20695",
-        "unit_code_name": "thanh_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1928",
-        "area_km2": 207.28
+        "code": "20695",
+        "name": "Thạnh Mỹ",
+        "nameEn": "Thanh My",
+        "fullName": "Xã Thạnh Mỹ",
+        "fullNameEn": "Thanh My Commune",
+        "codeName": "thanh_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1928",
+        "areaKm2": 207.28
       }
     }
   ]

@@ -1410,11 +1410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lâm",
-        "unit_code": "27349",
-        "unit_code_name": "phu_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.98",
-        "area_km2": 2
+        "code": "27349",
+        "name": "Phú Lâm",
+        "nameEn": "Phu Lam",
+        "fullName": "Phường Phú Lâm",
+        "fullNameEn": "Phu Lam Ward",
+        "codeName": "phu_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.98",
+        "areaKm2": 2
       }
     }
   ]

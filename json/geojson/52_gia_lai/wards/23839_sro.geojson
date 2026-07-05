@@ -20970,11 +20970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "SRó",
-        "unit_code": "23839",
-        "unit_code_name": "sro",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3040",
-        "area_km2": 343.88
+        "code": "23839",
+        "name": "SRó",
+        "nameEn": "SRo",
+        "fullName": "Xã SRó",
+        "fullNameEn": "SRo Commune",
+        "codeName": "sro",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3040",
+        "areaKm2": 343.88
       }
     }
   ]

@@ -2242,11 +2242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Quang",
-        "unit_code": "12196",
-        "unit_code_name": "hong_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.703",
-        "area_km2": 25.53
+        "code": "12196",
+        "name": "Hồng Quang",
+        "nameEn": "Hong Quang",
+        "fullName": "Xã Hồng Quang",
+        "fullNameEn": "Hong Quang Commune",
+        "codeName": "hong_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.703",
+        "areaKm2": 25.53
       }
     }
   ]

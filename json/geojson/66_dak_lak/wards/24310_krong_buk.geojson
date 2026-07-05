@@ -15846,11 +15846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Búk",
-        "unit_code": "24310",
-        "unit_code_name": "krong_buk",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2885",
-        "area_km2": 134.83
+        "code": "24310",
+        "name": "Krông Búk",
+        "nameEn": "Krong Buk",
+        "fullName": "Xã Krông Búk",
+        "fullNameEn": "Krong Buk Commune",
+        "codeName": "krong_buk",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2885",
+        "areaKm2": 134.83
       }
     }
   ]

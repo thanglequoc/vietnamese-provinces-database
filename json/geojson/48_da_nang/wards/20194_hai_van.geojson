@@ -14942,11 +14942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Vân",
-        "unit_code": "20194",
-        "unit_code_name": "hai_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1912",
-        "area_km2": 406.09
+        "code": "20194",
+        "name": "Hải Vân",
+        "nameEn": "Hai Van",
+        "fullName": "Phường Hải Vân",
+        "fullNameEn": "Hai Van Ward",
+        "codeName": "hai_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1912",
+        "areaKm2": 406.09
       }
     }
   ]

@@ -3810,11 +3810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Phụng",
-        "unit_code": "28879",
-        "unit_code_name": "phu_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2445",
-        "area_km2": 47.89
+        "code": "28879",
+        "name": "Phú Phụng",
+        "nameEn": "Phu Phung",
+        "fullName": "Xã Phú Phụng",
+        "fullNameEn": "Phu Phung Commune",
+        "codeName": "phu_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2445",
+        "areaKm2": 47.89
       }
     }
   ]

@@ -10718,11 +10718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Yên",
-        "unit_code": "01216",
-        "unit_code_name": "dong_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2429",
-        "area_km2": 79.36
+        "code": "01216",
+        "name": "Đồng Yên",
+        "nameEn": "Dong Yen",
+        "fullName": "Xã Đồng Yên",
+        "fullNameEn": "Dong Yen Commune",
+        "codeName": "dong_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2429",
+        "areaKm2": 79.36
       }
     }
   ]

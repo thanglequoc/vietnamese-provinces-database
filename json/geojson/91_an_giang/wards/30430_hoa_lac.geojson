@@ -1614,11 +1614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Lạc",
-        "unit_code": "30430",
-        "unit_code_name": "hoa_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.323",
-        "area_km2": 41.11
+        "code": "30430",
+        "name": "Hoà Lạc",
+        "nameEn": "Hoa Lac",
+        "fullName": "Xã Hoà Lạc",
+        "fullNameEn": "Hoa Lac Commune",
+        "codeName": "hoa_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.323",
+        "areaKm2": 41.11
       }
     }
   ]

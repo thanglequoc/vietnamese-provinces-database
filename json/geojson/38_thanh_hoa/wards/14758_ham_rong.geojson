@@ -1574,11 +1574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Rồng",
-        "unit_code": "14758",
-        "unit_code_name": "ham_rong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2595",
-        "area_km2": 20.88
+        "code": "14758",
+        "name": "Hàm Rồng",
+        "nameEn": "Ham Rong",
+        "fullName": "Phường Hàm Rồng",
+        "fullNameEn": "Ham Rong Ward",
+        "codeName": "ham_rong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2595",
+        "areaKm2": 20.88
       }
     }
   ]

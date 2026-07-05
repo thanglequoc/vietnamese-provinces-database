@@ -5250,11 +5250,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Tâm",
-        "unit_code": "31492",
-        "unit_code_name": "luong_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.259",
-        "area_km2": 60.53
+        "code": "31492",
+        "name": "Lương Tâm",
+        "nameEn": "Luong Tam",
+        "fullName": "Xã Lương Tâm",
+        "fullNameEn": "Luong Tam Commune",
+        "codeName": "luong_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.259",
+        "areaKm2": 60.53
       }
     }
   ]

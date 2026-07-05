@@ -20538,11 +20538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Quang",
-        "unit_code": "01171",
-        "unit_code_name": "tan_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2416",
-        "area_km2": 174.14
+        "code": "01171",
+        "name": "Tân Quang",
+        "nameEn": "Tan Quang",
+        "fullName": "Xã Tân Quang",
+        "fullNameEn": "Tan Quang Commune",
+        "codeName": "tan_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2416",
+        "areaKm2": 174.14
       }
     }
   ]

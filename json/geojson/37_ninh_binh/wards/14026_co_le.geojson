@@ -2734,11 +2734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cổ Lễ",
-        "unit_code": "14026",
-        "unit_code_name": "co_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.806",
-        "area_km2": 18.33
+        "code": "14026",
+        "name": "Cổ Lễ",
+        "nameEn": "Co Le",
+        "fullName": "Xã Cổ Lễ",
+        "fullNameEn": "Co Le Commune",
+        "codeName": "co_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.806",
+        "areaKm2": 18.33
       }
     }
   ]

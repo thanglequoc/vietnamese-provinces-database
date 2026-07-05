@@ -10182,11 +10182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Thuận",
-        "unit_code": "00889",
-        "unit_code_name": "nghia_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2363",
-        "area_km2": 80.12
+        "code": "00889",
+        "name": "Nghĩa Thuận",
+        "nameEn": "Nghia Thuan",
+        "fullName": "Xã Nghĩa Thuận",
+        "fullNameEn": "Nghia Thuan Commune",
+        "codeName": "nghia_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2363",
+        "areaKm2": 80.12
       }
     }
   ]

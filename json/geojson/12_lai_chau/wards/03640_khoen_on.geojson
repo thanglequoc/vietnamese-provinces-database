@@ -13954,11 +13954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khoen On",
-        "unit_code": "03640",
-        "unit_code_name": "khoen_on",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2098",
-        "area_km2": 189.78
+        "code": "03640",
+        "name": "Khoen On",
+        "nameEn": "Khoen On",
+        "fullName": "Xã Khoen On",
+        "fullNameEn": "Khoen On Commune",
+        "codeName": "khoen_on",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2098",
+        "areaKm2": 189.78
       }
     }
   ]

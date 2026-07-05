@@ -11058,11 +11058,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Mê",
-        "unit_code": "00991",
-        "unit_code_name": "bac_me",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2400",
-        "area_km2": 154.3
+        "code": "00991",
+        "name": "Bắc Mê",
+        "nameEn": "Bac Me",
+        "fullName": "Xã Bắc Mê",
+        "fullNameEn": "Bac Me Commune",
+        "codeName": "bac_me",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2400",
+        "areaKm2": 154.3
       }
     }
   ]

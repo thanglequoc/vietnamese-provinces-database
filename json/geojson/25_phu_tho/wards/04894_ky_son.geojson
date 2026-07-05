@@ -10850,11 +10850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Sơn",
-        "unit_code": "04894",
-        "unit_code_name": "ky_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1676",
-        "area_km2": 115.7
+        "code": "04894",
+        "name": "Kỳ Sơn",
+        "nameEn": "Ky Son",
+        "fullName": "Phường Kỳ Sơn",
+        "fullNameEn": "Ky Son Ward",
+        "codeName": "ky_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1676",
+        "areaKm2": 115.7
       }
     }
   ]

@@ -45070,11 +45070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đạ Tẻh 2",
-        "unit_code": "25138",
-        "unit_code_name": "da_teh_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1270",
-        "area_km2": 186.07
+        "code": "25138",
+        "name": "Đạ Tẻh 2",
+        "nameEn": "Da Teh 2",
+        "fullName": "Xã Đạ Tẻh 2",
+        "fullNameEn": "Commune Da Teh 2",
+        "codeName": "da_teh_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1270",
+        "areaKm2": 186.07
       }
     }
   ]

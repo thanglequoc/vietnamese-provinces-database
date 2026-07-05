@@ -13454,11 +13454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Bình",
-        "unit_code": "05425",
-        "unit_code_name": "an_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1672",
-        "area_km2": 127.41
+        "code": "05425",
+        "name": "An Bình",
+        "nameEn": "An Binh",
+        "fullName": "Xã An Bình",
+        "fullNameEn": "An Binh Commune",
+        "codeName": "an_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1672",
+        "areaKm2": 127.41
       }
     }
   ]

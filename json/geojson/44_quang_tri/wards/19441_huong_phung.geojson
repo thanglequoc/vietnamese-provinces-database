@@ -11934,11 +11934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hướng Phùng",
-        "unit_code": "19441",
-        "unit_code_name": "huong_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.593",
-        "area_km2": 447.59
+        "code": "19441",
+        "name": "Hướng Phùng",
+        "nameEn": "Huong Phung",
+        "fullName": "Xã Hướng Phùng",
+        "fullNameEn": "Huong Phung Commune",
+        "codeName": "huong_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.593",
+        "areaKm2": 447.59
       }
     }
   ]

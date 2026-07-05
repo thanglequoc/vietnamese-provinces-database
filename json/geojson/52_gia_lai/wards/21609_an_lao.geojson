@@ -7914,11 +7914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Lão",
-        "unit_code": "21609",
-        "unit_code_name": "an_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2968",
-        "area_km2": 103.87
+        "code": "21609",
+        "name": "An Lão",
+        "nameEn": "An Lao",
+        "fullName": "Xã An Lão",
+        "fullNameEn": "An Lao Commune",
+        "codeName": "an_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2968",
+        "areaKm2": 103.87
       }
     }
   ]

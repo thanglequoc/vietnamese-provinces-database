@@ -17374,11 +17374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "2 Bảo Lộc",
-        "unit_code": "24820",
-        "unit_code_name": "2_bao_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1262",
-        "area_km2": 176.72
+        "code": "24820",
+        "name": "2 Bảo Lộc",
+        "nameEn": "2 Bao Loc",
+        "fullName": "Phường 2 Bảo Lộc",
+        "fullNameEn": "Ward 2 Bao Loc",
+        "codeName": "2_bao_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1262",
+        "areaKm2": 176.72
       }
     }
   ]

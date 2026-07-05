@@ -5058,11 +5058,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Đức",
-        "unit_code": "28015",
-        "unit_code_name": "binh_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1312",
-        "area_km2": 51.2
+        "code": "28015",
+        "name": "Bình Đức",
+        "nameEn": "Binh Duc",
+        "fullName": "Xã Bình Đức",
+        "fullNameEn": "Binh Duc Commune",
+        "codeName": "binh_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1312",
+        "areaKm2": 51.2
       }
     }
   ]

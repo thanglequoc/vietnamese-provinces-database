@@ -10486,11 +10486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Ngãi",
-        "unit_code": "29335",
-        "unit_code_name": "tam_ngai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2492",
-        "area_km2": 61.31
+        "code": "29335",
+        "name": "Tam Ngãi",
+        "nameEn": "Tam Ngai",
+        "fullName": "Xã Tam Ngãi",
+        "fullNameEn": "Tam Ngai Commune",
+        "codeName": "tam_ngai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2492",
+        "areaKm2": 61.31
       }
     }
   ]

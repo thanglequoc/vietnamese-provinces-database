@@ -6686,11 +6686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyên Bình",
-        "unit_code": "01726",
-        "unit_code_name": "nguyen_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.964",
-        "area_km2": 99.73
+        "code": "01726",
+        "name": "Nguyên Bình",
+        "nameEn": "Nguyen Binh",
+        "fullName": "Xã Nguyên Bình",
+        "fullNameEn": "Nguyen Binh Commune",
+        "codeName": "nguyen_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.964",
+        "areaKm2": 99.73
       }
     }
   ]

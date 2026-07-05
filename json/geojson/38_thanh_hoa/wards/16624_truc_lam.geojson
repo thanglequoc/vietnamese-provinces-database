@@ -6398,11 +6398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trúc Lâm",
-        "unit_code": "16624",
-        "unit_code_name": "truc_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2570",
-        "area_km2": 81.05
+        "code": "16624",
+        "name": "Trúc Lâm",
+        "nameEn": "Truc Lam",
+        "fullName": "Phường Trúc Lâm",
+        "fullNameEn": "Truc Lam Ward",
+        "codeName": "truc_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2570",
+        "areaKm2": 81.05
       }
     }
   ]

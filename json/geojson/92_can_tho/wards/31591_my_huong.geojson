@@ -11254,11 +11254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Hương",
-        "unit_code": "31591",
-        "unit_code_name": "my_huong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.274",
-        "area_km2": 104.74
+        "code": "31591",
+        "name": "Mỹ Hương",
+        "nameEn": "My Huong",
+        "fullName": "Xã Mỹ Hương",
+        "fullNameEn": "My Huong Commune",
+        "codeName": "my_huong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.274",
+        "areaKm2": 104.74
       }
     }
   ]

@@ -10338,11 +10338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Xuân",
-        "unit_code": "04930",
-        "unit_code_name": "yen_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3224",
-        "area_km2": 78.01
+        "code": "04930",
+        "name": "Yên Xuân",
+        "nameEn": "Yen Xuan",
+        "fullName": "Xã Yên Xuân",
+        "fullNameEn": "Yen Xuan Commune",
+        "codeName": "yen_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3224",
+        "areaKm2": 78.01
       }
     }
   ]

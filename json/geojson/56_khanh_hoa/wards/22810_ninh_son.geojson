@@ -7842,11 +7842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Sơn",
-        "unit_code": "22810",
-        "unit_code_name": "ninh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1148",
-        "area_km2": 99.3
+        "code": "22810",
+        "name": "Ninh Sơn",
+        "nameEn": "Ninh Son",
+        "fullName": "Xã Ninh Sơn",
+        "fullNameEn": "Ninh Son Commune",
+        "codeName": "ninh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1148",
+        "areaKm2": 99.3
       }
     }
   ]

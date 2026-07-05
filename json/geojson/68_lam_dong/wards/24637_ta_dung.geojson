@@ -56546,11 +56546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Đùng",
-        "unit_code": "24637",
-        "unit_code_name": "ta_dung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2812",
-        "area_km2": 531.33
+        "code": "24637",
+        "name": "Tà Đùng",
+        "nameEn": "Ta Dung",
+        "fullName": "Xã Tà Đùng",
+        "fullNameEn": "Ta Dung Commune",
+        "codeName": "ta_dung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2812",
+        "areaKm2": 531.33
       }
     }
   ]

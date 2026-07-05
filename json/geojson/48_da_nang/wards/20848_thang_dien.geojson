@@ -5350,11 +5350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thăng Điền",
-        "unit_code": "20848",
-        "unit_code_name": "thang_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1970",
-        "area_km2": 61.59
+        "code": "20848",
+        "name": "Thăng Điền",
+        "nameEn": "Thang Dien",
+        "fullName": "Xã Thăng Điền",
+        "fullNameEn": "Thang Dien Commune",
+        "codeName": "thang_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1970",
+        "areaKm2": 61.59
       }
     }
   ]

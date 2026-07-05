@@ -12186,11 +12186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Phú",
-        "unit_code": "18985",
-        "unit_code_name": "tuyen_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.608",
-        "area_km2": 155.38
+        "code": "18985",
+        "name": "Tuyên Phú",
+        "nameEn": "Tuyen Phu",
+        "fullName": "Xã Tuyên Phú",
+        "fullNameEn": "Tuyen Phu Commune",
+        "codeName": "tuyen_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.608",
+        "areaKm2": 155.38
       }
     }
   ]

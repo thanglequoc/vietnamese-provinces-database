@@ -4650,11 +4650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồ Vương",
-        "unit_code": "16138",
-        "unit_code_name": "ho_vuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2627",
-        "area_km2": 19.28
+        "code": "16138",
+        "name": "Hồ Vương",
+        "nameEn": "Ho Vuong",
+        "fullName": "Xã Hồ Vương",
+        "fullNameEn": "Ho Vuong Commune",
+        "codeName": "ho_vuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2627",
+        "areaKm2": 19.28
       }
     }
   ]

@@ -15366,11 +15366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Pơng",
-        "unit_code": "24313",
-        "unit_code_name": "cu_pong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2886",
-        "area_km2": 137.81
+        "code": "24313",
+        "name": "Cư Pơng",
+        "nameEn": "Cu Pong",
+        "fullName": "Xã Cư Pơng",
+        "fullNameEn": "Cu Pong Commune",
+        "codeName": "cu_pong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2886",
+        "areaKm2": 137.81
       }
     }
   ]

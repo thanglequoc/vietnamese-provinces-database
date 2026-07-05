@@ -36694,11 +36694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Tiên",
-        "unit_code": "30769",
-        "unit_code_name": "ha_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.362",
-        "area_km2": 61.35
+        "code": "30769",
+        "name": "Hà Tiên",
+        "nameEn": "Ha Tien",
+        "fullName": "Phường Hà Tiên",
+        "fullNameEn": "Ha Tien Ward",
+        "codeName": "ha_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.362",
+        "areaKm2": 61.35
       }
     }
   ]

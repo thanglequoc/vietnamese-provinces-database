@@ -2614,11 +2614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pù Nhi",
-        "unit_code": "14863",
-        "unit_code_name": "pu_nhi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3299",
-        "area_km2": 65.72
+        "code": "14863",
+        "name": "Pù Nhi",
+        "nameEn": "Pu Nhi",
+        "fullName": "Xã Pù Nhi",
+        "fullNameEn": "Pu Nhi Commune",
+        "codeName": "pu_nhi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3299",
+        "areaKm2": 65.72
       }
     }
   ]

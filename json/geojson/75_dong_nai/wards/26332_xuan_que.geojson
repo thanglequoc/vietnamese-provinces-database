@@ -30902,11 +30902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Quế",
-        "unit_code": "26332",
-        "unit_code_name": "xuan_que",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3129",
-        "area_km2": 92.9
+        "code": "26332",
+        "name": "Xuân Quế",
+        "nameEn": "Xuan Que",
+        "fullName": "Xã Xuân Quế",
+        "fullNameEn": "Xuan Que Commune",
+        "codeName": "xuan_que",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3129",
+        "areaKm2": 92.9
       }
     }
   ]

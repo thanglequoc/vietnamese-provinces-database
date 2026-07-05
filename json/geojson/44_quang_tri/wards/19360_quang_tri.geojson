@@ -7598,11 +7598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Trị",
-        "unit_code": "19360",
-        "unit_code_name": "quang_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.589",
-        "area_km2": 72.82
+        "code": "19360",
+        "name": "Quảng Trị",
+        "nameEn": "Quang Tri",
+        "fullName": "Phường Quảng Trị",
+        "fullNameEn": "Quang Tri Ward",
+        "codeName": "quang_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.589",
+        "areaKm2": 72.82
       }
     }
   ]

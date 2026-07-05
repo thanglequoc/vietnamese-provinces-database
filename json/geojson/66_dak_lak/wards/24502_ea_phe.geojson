@@ -55114,11 +55114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Phê",
-        "unit_code": "24502",
-        "unit_code_name": "ea_phe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2866",
-        "area_km2": 84.66
+        "code": "24502",
+        "name": "Ea Phê",
+        "nameEn": "Ea Phe",
+        "fullName": "Xã Ea Phê",
+        "fullNameEn": "Ea Phe Commune",
+        "codeName": "ea_phe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2866",
+        "areaKm2": 84.66
       }
     }
   ]

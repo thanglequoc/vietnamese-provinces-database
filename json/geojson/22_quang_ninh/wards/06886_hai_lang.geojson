@@ -5334,11 +5334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Lạng",
-        "unit_code": "06886",
-        "unit_code_name": "hai_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1879",
-        "area_km2": 131.03
+        "code": "06886",
+        "name": "Hải Lạng",
+        "nameEn": "Hai Lang",
+        "fullName": "Xã Hải Lạng",
+        "fullNameEn": "Hai Lang Commune",
+        "codeName": "hai_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1879",
+        "areaKm2": 131.03
       }
     }
   ]

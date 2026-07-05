@@ -3386,11 +3386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Hoá",
-        "unit_code": "15865",
-        "unit_code_name": "hoang_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2596",
-        "area_km2": 35.16
+        "code": "15865",
+        "name": "Hoằng Hoá",
+        "nameEn": "Hoang Hoa",
+        "fullName": "Xã Hoằng Hoá",
+        "fullNameEn": "Hoang Hoa Commune",
+        "codeName": "hoang_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2596",
+        "areaKm2": 35.16
       }
     }
   ]

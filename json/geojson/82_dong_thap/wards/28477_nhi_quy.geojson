@@ -4154,11 +4154,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhị Quý",
-        "unit_code": "28477",
-        "unit_code_name": "nhi_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.468",
-        "area_km2": 21.4
+        "code": "28477",
+        "name": "Nhị Quý",
+        "nameEn": "Nhi Quy",
+        "fullName": "Phường Nhị Quý",
+        "fullNameEn": "Nhi Quy Ward",
+        "codeName": "nhi_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.468",
+        "areaKm2": 21.4
       }
     }
   ]

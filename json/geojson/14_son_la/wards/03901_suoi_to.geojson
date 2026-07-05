@@ -27738,11 +27738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Tọ",
-        "unit_code": "03901",
-        "unit_code_name": "suoi_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1366",
-        "area_km2": 177.49
+        "code": "03901",
+        "name": "Suối Tọ",
+        "nameEn": "Suoi To",
+        "fullName": "Xã Suối Tọ",
+        "fullNameEn": "Suoi To Commune",
+        "codeName": "suoi_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1366",
+        "areaKm2": 177.49
       }
     }
   ]

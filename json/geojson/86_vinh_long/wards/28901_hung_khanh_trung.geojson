@@ -6398,11 +6398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Khánh Trung",
-        "unit_code": "28901",
-        "unit_code_name": "hung_khanh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2447",
-        "area_km2": 32.14
+        "code": "28901",
+        "name": "Hưng Khánh Trung",
+        "nameEn": "Hung Khanh Trung",
+        "fullName": "Xã Hưng Khánh Trung",
+        "fullNameEn": "Hung Khanh Trung Commune",
+        "codeName": "hung_khanh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2447",
+        "areaKm2": 32.14
       }
     }
   ]

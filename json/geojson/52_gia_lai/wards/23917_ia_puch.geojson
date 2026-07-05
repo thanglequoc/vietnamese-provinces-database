@@ -7470,11 +7470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Púch",
-        "unit_code": "23917",
-        "unit_code_name": "ia_puch",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2929",
-        "area_km2": 267.3
+        "code": "23917",
+        "name": "Ia Púch",
+        "nameEn": "Ia Puch",
+        "fullName": "Xã Ia Púch",
+        "fullNameEn": "Ia Puch Commune",
+        "codeName": "ia_puch",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2929",
+        "areaKm2": 267.3
       }
     }
   ]

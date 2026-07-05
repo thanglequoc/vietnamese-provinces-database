@@ -1750,11 +1750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Lộ",
-        "unit_code": "21028",
-        "unit_code_name": "nghia_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1767",
-        "area_km2": 17.07
+        "code": "21028",
+        "name": "Nghĩa Lộ",
+        "nameEn": "Nghia Lo",
+        "fullName": "Phường Nghĩa Lộ",
+        "fullNameEn": "Nghia Lo Ward",
+        "codeName": "nghia_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1767",
+        "areaKm2": 17.07
       }
     }
   ]

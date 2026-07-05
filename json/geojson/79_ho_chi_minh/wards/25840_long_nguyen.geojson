@@ -18050,11 +18050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Nguyên",
-        "unit_code": "25840",
-        "unit_code_name": "long_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.13",
-        "area_km2": 108
+        "code": "25840",
+        "name": "Long Nguyên",
+        "nameEn": "Long Nguyen",
+        "fullName": "Phường Long Nguyên",
+        "fullNameEn": "Long Nguyen Ward",
+        "codeName": "long_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.13",
+        "areaKm2": 108
       }
     }
   ]

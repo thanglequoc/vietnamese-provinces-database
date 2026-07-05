@@ -2370,11 +2370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hiệp",
-        "unit_code": "20434",
-        "unit_code_name": "tan_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3311",
-        "area_km2": 16.43
+        "code": "20434",
+        "name": "Tân Hiệp",
+        "nameEn": "Tan Hiep",
+        "fullName": "Xã Tân Hiệp",
+        "fullNameEn": "Tan Hiep Commune",
+        "codeName": "tan_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3311",
+        "areaKm2": 16.43
       }
     }
   ]

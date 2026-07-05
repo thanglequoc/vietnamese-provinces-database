@@ -4638,11 +4638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Nội",
-        "unit_code": "01",
-        "unit_code_name": "ha_noi",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.108",
-        "area_km2": 3359.84
+        "code": "01",
+        "name": "Hà Nội",
+        "nameEn": "Ha Noi",
+        "fullName": "Thành phố Hà Nội",
+        "fullNameEn": "Ha Noi City",
+        "codeName": "ha_noi",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.108",
+        "areaKm2": 3359.84
       }
     }
   ]

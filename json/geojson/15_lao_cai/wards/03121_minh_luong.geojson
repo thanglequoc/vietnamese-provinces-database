@@ -16522,11 +16522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Lương",
-        "unit_code": "03121",
-        "unit_code_name": "minh_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1089",
-        "area_km2": 206.6
+        "code": "03121",
+        "name": "Minh Lương",
+        "nameEn": "Minh Luong",
+        "fullName": "Xã Minh Lương",
+        "fullNameEn": "Minh Luong Commune",
+        "codeName": "minh_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1089",
+        "areaKm2": 206.6
       }
     }
   ]

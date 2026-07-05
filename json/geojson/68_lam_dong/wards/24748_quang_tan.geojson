@@ -26034,11 +26034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Tân",
-        "unit_code": "24748",
-        "unit_code_name": "quang_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2797",
-        "area_km2": 294.18
+        "code": "24748",
+        "name": "Quảng Tân",
+        "nameEn": "Quang Tan",
+        "fullName": "Xã Quảng Tân",
+        "fullNameEn": "Quang Tan Commune",
+        "codeName": "quang_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2797",
+        "areaKm2": 294.18
       }
     }
   ]

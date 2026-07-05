@@ -7834,11 +7834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiên Phủ",
-        "unit_code": "14908",
-        "unit_code_name": "thien_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2699",
-        "area_km2": 147.48
+        "code": "14908",
+        "name": "Thiên Phủ",
+        "nameEn": "Thien Phu",
+        "fullName": "Xã Thiên Phủ",
+        "fullNameEn": "Thien Phu Commune",
+        "codeName": "thien_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2699",
+        "areaKm2": 147.48
       }
     }
   ]

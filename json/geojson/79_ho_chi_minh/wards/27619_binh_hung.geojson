@@ -2702,11 +2702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hưng",
-        "unit_code": "27619",
-        "unit_code_name": "binh_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.129",
-        "area_km2": 32.63
+        "code": "27619",
+        "name": "Bình Hưng",
+        "nameEn": "Binh Hung",
+        "fullName": "Xã Bình Hưng",
+        "fullNameEn": "Binh Hung Commune",
+        "codeName": "binh_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.129",
+        "areaKm2": 32.63
       }
     }
   ]

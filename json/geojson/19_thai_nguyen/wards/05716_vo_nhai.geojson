@@ -6818,11 +6818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Võ Nhai",
-        "unit_code": "05716",
-        "unit_code_name": "vo_nhai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1218",
-        "area_km2": 99.78
+        "code": "05716",
+        "name": "Võ Nhai",
+        "nameEn": "Vo Nhai",
+        "fullName": "Xã Võ Nhai",
+        "fullNameEn": "Vo Nhai Commune",
+        "codeName": "vo_nhai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1218",
+        "areaKm2": 99.78
       }
     }
   ]

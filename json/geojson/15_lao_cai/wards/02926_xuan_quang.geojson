@@ -12234,11 +12234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Quang",
-        "unit_code": "02926",
-        "unit_code_name": "xuan_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1074",
-        "area_km2": 137.7
+        "code": "02926",
+        "name": "Xuân Quang",
+        "nameEn": "Xuan Quang",
+        "fullName": "Xã Xuân Quang",
+        "fullNameEn": "Xuan Quang Commune",
+        "codeName": "xuan_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1074",
+        "areaKm2": 137.7
       }
     }
   ]

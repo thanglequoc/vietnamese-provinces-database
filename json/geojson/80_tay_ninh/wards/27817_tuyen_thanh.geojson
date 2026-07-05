@@ -4302,11 +4302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Thạnh",
-        "unit_code": "27817",
-        "unit_code_name": "tuyen_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1288",
-        "area_km2": 108.81
+        "code": "27817",
+        "name": "Tuyên Thạnh",
+        "nameEn": "Tuyen Thanh",
+        "fullName": "Xã Tuyên Thạnh",
+        "fullNameEn": "Tuyen Thanh Commune",
+        "codeName": "tuyen_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1288",
+        "areaKm2": 108.81
       }
     }
   ]

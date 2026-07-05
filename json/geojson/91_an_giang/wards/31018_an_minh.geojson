@@ -4802,11 +4802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Minh",
-        "unit_code": "31018",
-        "unit_code_name": "an_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.391",
-        "area_km2": 142.3
+        "code": "31018",
+        "name": "An Minh",
+        "nameEn": "An Minh",
+        "fullName": "Xã An Minh",
+        "fullNameEn": "An Minh Commune",
+        "codeName": "an_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.391",
+        "areaKm2": 142.3
       }
     }
   ]

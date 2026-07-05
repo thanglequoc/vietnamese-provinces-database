@@ -3206,11 +3206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phú Thuận",
-        "unit_code": "29992",
-        "unit_code_name": "long_phu_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.412",
-        "area_km2": 56.6
+        "code": "29992",
+        "name": "Long Phú Thuận",
+        "nameEn": "Long Phu Thuan",
+        "fullName": "Xã Long Phú Thuận",
+        "fullNameEn": "Long Phu Thuan Commune",
+        "codeName": "long_phu_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.412",
+        "areaKm2": 56.6
       }
     }
   ]

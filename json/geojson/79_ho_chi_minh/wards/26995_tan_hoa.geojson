@@ -1022,11 +1022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hoà",
-        "unit_code": "26995",
-        "unit_code_name": "tan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.69",
-        "area_km2": 1.47
+        "code": "26995",
+        "name": "Tân Hoà",
+        "nameEn": "Tan Hoa",
+        "fullName": "Phường Tân Hoà",
+        "fullNameEn": "Tan Hoa Ward",
+        "codeName": "tan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.69",
+        "areaKm2": 1.47
       }
     }
   ]

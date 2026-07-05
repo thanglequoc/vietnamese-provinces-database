@@ -2666,11 +2666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Thịnh",
-        "unit_code": "14221",
-        "unit_code_name": "hai_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.830",
-        "area_km2": 32.92
+        "code": "14221",
+        "name": "Hải Thịnh",
+        "nameEn": "Hai Thinh",
+        "fullName": "Xã Hải Thịnh",
+        "fullNameEn": "Hai Thinh Commune",
+        "codeName": "hai_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.830",
+        "areaKm2": 32.92
       }
     }
   ]

@@ -17142,11 +17142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Tố",
-        "unit_code": "31723",
-        "unit_code_name": "ngoc_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.292",
-        "area_km2": 112.53
+        "code": "31723",
+        "name": "Ngọc Tố",
+        "nameEn": "Ngoc To",
+        "fullName": "Xã Ngọc Tố",
+        "fullNameEn": "Ngoc To Commune",
+        "codeName": "ngoc_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.292",
+        "areaKm2": 112.53
       }
     }
   ]

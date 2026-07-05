@@ -11854,11 +11854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Típ",
-        "unit_code": "16858",
-        "unit_code_name": "muong_tip",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1507",
-        "area_km2": 217.66
+        "code": "16858",
+        "name": "Mường Típ",
+        "nameEn": "Muong Tip",
+        "fullName": "Xã Mường Típ",
+        "fullNameEn": "Muong Tip Commune",
+        "codeName": "muong_tip",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1507",
+        "areaKm2": 217.66
       }
     }
   ]

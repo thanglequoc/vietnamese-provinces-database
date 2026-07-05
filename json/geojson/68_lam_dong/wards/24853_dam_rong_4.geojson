@@ -32910,11 +32910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đam Rông 4",
-        "unit_code": "24853",
-        "unit_code_name": "dam_rong_4",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.504",
-        "area_km2": 391.25
+        "code": "24853",
+        "name": "Đam Rông 4",
+        "nameEn": "Dam Rong 4",
+        "fullName": "Xã Đam Rông 4",
+        "fullNameEn": "Commune Dam Rong 4",
+        "codeName": "dam_rong_4",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.504",
+        "areaKm2": 391.25
       }
     }
   ]

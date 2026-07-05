@@ -6038,11 +6038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Sơn",
-        "unit_code": "05152",
-        "unit_code_name": "van_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1663",
-        "area_km2": 120.53
+        "code": "05152",
+        "name": "Vân Sơn",
+        "nameEn": "Van Son",
+        "fullName": "Xã Vân Sơn",
+        "fullNameEn": "Van Son Commune",
+        "codeName": "van_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1663",
+        "areaKm2": 120.53
       }
     }
   ]

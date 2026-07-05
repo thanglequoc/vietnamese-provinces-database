@@ -4890,11 +4890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Nhượng",
-        "unit_code": "29044",
-        "unit_code_name": "hung_nhuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2463",
-        "area_km2": 53.66
+        "code": "29044",
+        "name": "Hưng Nhượng",
+        "nameEn": "Hung Nhuong",
+        "fullName": "Xã Hưng Nhượng",
+        "fullNameEn": "Hung Nhuong Commune",
+        "codeName": "hung_nhuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2463",
+        "areaKm2": 53.66
       }
     }
   ]

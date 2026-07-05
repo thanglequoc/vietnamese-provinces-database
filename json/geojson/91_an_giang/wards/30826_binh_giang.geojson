@@ -7282,11 +7282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Giang",
-        "unit_code": "30826",
-        "unit_code_name": "binh_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.369",
-        "area_km2": 163.7
+        "code": "30826",
+        "name": "Bình Giang",
+        "nameEn": "Binh Giang",
+        "fullName": "Xã Bình Giang",
+        "fullNameEn": "Binh Giang Commune",
+        "codeName": "binh_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.369",
+        "areaKm2": 163.7
       }
     }
   ]

@@ -11406,11 +11406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Phú",
-        "unit_code": "02923",
-        "unit_code_name": "gia_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1073",
-        "area_km2": 102.4
+        "code": "02923",
+        "name": "Gia Phú",
+        "nameEn": "Gia Phu",
+        "fullName": "Xã Gia Phú",
+        "fullNameEn": "Gia Phu Commune",
+        "codeName": "gia_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1073",
+        "areaKm2": 102.4
       }
     }
   ]

@@ -3134,11 +3134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Lộc",
-        "unit_code": "15961",
-        "unit_code_name": "hoang_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2601",
-        "area_km2": 20.57
+        "code": "15961",
+        "name": "Hoằng Lộc",
+        "nameEn": "Hoang Loc",
+        "fullName": "Xã Hoằng Lộc",
+        "fullNameEn": "Hoang Loc Commune",
+        "codeName": "hoang_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2601",
+        "areaKm2": 20.57
       }
     }
   ]

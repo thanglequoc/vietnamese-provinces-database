@@ -1390,11 +1390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng An",
-        "unit_code": "11602",
-        "unit_code_name": "hong_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.943",
-        "area_km2": 27.64
+        "code": "11602",
+        "name": "Hồng An",
+        "nameEn": "Hong An",
+        "fullName": "Phường Hồng An",
+        "fullNameEn": "Hong An Ward",
+        "codeName": "hong_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.943",
+        "areaKm2": 27.64
       }
     }
   ]

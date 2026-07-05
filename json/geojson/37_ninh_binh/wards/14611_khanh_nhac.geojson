@@ -1902,11 +1902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Nhạc",
-        "unit_code": "14611",
-        "unit_code_name": "khanh_nhac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.773",
-        "area_km2": 19.58
+        "code": "14611",
+        "name": "Khánh Nhạc",
+        "nameEn": "Khanh Nhac",
+        "fullName": "Xã Khánh Nhạc",
+        "fullNameEn": "Khanh Nhac Commune",
+        "codeName": "khanh_nhac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.773",
+        "areaKm2": 19.58
       }
     }
   ]

@@ -6210,11 +6210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cần Đước",
-        "unit_code": "28108",
-        "unit_code_name": "can_duoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1335",
-        "area_km2": 48.56
+        "code": "28108",
+        "name": "Cần Đước",
+        "nameEn": "Can Duoc",
+        "fullName": "Xã Cần Đước",
+        "fullNameEn": "Can Duoc Commune",
+        "codeName": "can_duoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1335",
+        "areaKm2": 48.56
       }
     }
   ]

@@ -3898,11 +3898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hoà",
-        "unit_code": "27811",
-        "unit_code_name": "binh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1289",
-        "area_km2": 117.85
+        "code": "27811",
+        "name": "Bình Hoà",
+        "nameEn": "Binh Hoa",
+        "fullName": "Xã Bình Hoà",
+        "fullNameEn": "Binh Hoa Commune",
+        "codeName": "binh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1289",
+        "areaKm2": 117.85
       }
     }
   ]

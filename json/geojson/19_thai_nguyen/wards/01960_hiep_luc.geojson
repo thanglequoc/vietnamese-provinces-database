@@ -7638,11 +7638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Lực",
-        "unit_code": "01960",
-        "unit_code_name": "hiep_luc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1175",
-        "area_km2": 105.02
+        "code": "01960",
+        "name": "Hiệp Lực",
+        "nameEn": "Hiep Luc",
+        "fullName": "Xã Hiệp Lực",
+        "fullNameEn": "Hiep Luc Commune",
+        "codeName": "hiep_luc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1175",
+        "areaKm2": 105.02
       }
     }
   ]

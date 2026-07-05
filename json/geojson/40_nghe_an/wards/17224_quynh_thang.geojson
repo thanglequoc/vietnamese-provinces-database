@@ -7174,11 +7174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Thắng",
-        "unit_code": "17224",
-        "unit_code_name": "quynh_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1482",
-        "area_km2": 107.99
+        "code": "17224",
+        "name": "Quỳnh Thắng",
+        "nameEn": "Quynh Thang",
+        "fullName": "Xã Quỳnh Thắng",
+        "fullNameEn": "Quynh Thang Commune",
+        "codeName": "quynh_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1482",
+        "areaKm2": 107.99
       }
     }
   ]

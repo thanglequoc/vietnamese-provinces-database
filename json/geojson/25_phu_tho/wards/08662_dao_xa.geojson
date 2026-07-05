@@ -6618,11 +6618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đào Xá",
-        "unit_code": "08662",
-        "unit_code_name": "dao_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1582",
-        "area_km2": 45.53
+        "code": "08662",
+        "name": "Đào Xá",
+        "nameEn": "Dao Xa",
+        "fullName": "Xã Đào Xá",
+        "fullNameEn": "Dao Xa Commune",
+        "codeName": "dao_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1582",
+        "areaKm2": 45.53
       }
     }
   ]

@@ -1742,11 +1742,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Châu",
-        "unit_code": "30376",
-        "unit_code_name": "tan_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.316",
-        "area_km2": 17.39
+        "code": "30376",
+        "name": "Tân Châu",
+        "nameEn": "Tan Chau",
+        "fullName": "Phường Tân Châu",
+        "fullNameEn": "Tan Chau Ward",
+        "codeName": "tan_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.316",
+        "areaKm2": 17.39
       }
     }
   ]

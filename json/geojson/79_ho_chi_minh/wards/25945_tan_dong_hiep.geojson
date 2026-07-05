@@ -3302,11 +3302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Đông Hiệp",
-        "unit_code": "25945",
-        "unit_code_name": "tan_dong_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.30",
-        "area_km2": 21.47
+        "code": "25945",
+        "name": "Tân Đông Hiệp",
+        "nameEn": "Tan Dong Hiep",
+        "fullName": "Phường Tân Đông Hiệp",
+        "fullNameEn": "Tan Dong Hiep Ward",
+        "codeName": "tan_dong_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.30",
+        "areaKm2": 21.47
       }
     }
   ]

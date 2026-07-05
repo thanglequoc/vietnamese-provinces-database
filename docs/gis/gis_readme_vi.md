@@ -11,11 +11,12 @@
 
 1. [Giới thiệu](#gioi-thieu)
 2. [Phạm vi dữ liệu](#pham-vi-du-lieu)
-3. [Cài đặt](#cai-dat)
-4. [Lược đồ cơ sở dữ liệu](#luoc-do-co-so-du-lieu)
-5. [Mẹo tối ưu truy vấn](#meo-toi-uu-truy-van)
-6. [Khả năng tương thích phiên bản](#kha-nang-tuong-thich-phien-ban)
-7. [Câu hỏi thường gặp & Khắc phục sự cố](#cau-hoi-thuong-gap--khac-phuc-su-co)
+3. [Xuất GeoJSON](#xuat-geojson)
+4. [Cài đặt](#cai-dat)
+5. [Lược đồ cơ sở dữ liệu](#luoc-do-co-so-du-lieu)
+6. [Mẹo tối ưu truy vấn](#meo-toi-uu-truy-van)
+7. [Khả năng tương thích phiên bản](#kha-nang-tuong-thich-phien-ban)
+8. [Câu hỏi thường gặp & Khắc phục sự cố](#cau-hoi-thuong-gap--khac-phuc-su-co)
 
 ---
 
@@ -91,6 +92,52 @@ Các đơn vị hành chính trong bộ dữ liệu GIS được đồng bộ v�
 
 Điều này cho phép kết hợp (join) dữ liệu ranh giới GIS với thông tin đơn vị hành chính, tên gọi và quan hệ phân cấp một cách liền mạch.
 [![image.png](https://i.postimg.cc/zBJQwyY1/image.png)](https://postimg.cc/nsPTpcLd)
+
+---
+
+## Xuất GeoJSON
+
+Dữ liệu GeoJSON hiện đã có sẵn bên cạnh các file SQL import. Bộ dữ liệu này phù hợp để dùng trực tiếp cho trình xem bản đồ, ứng dụng client-side và các quy trình GIS dựa trên file.
+
+### Vị trí xuất dữ liệu
+
+Các file được tạo tại:
+
+```text
+json/geojson/
+```
+
+Cấu trúc thư mục:
+
+```text
+geojson/
+  README.md
+  {province_code}_{province_code_name}/
+    {province_code}_{province_code_name}.geojson
+    wards/
+      {ward_code}_{ward_code_name}.geojson
+```
+
+Quá trình xuất cũng tạo file nén:
+
+```text
+vn_provinces_wards_geojson_<datetime>.zip
+```
+
+### Cấu trúc GeoJSON
+
+Mỗi file `.geojson` là một `FeatureCollection` với:
+
+- `type`, `bbox` và `features` ở cấp cao nhất
+- mỗi file chỉ chứa một `Feature`
+- `id` của feature được gán theo mã đơn vị hành chính
+- `bbox` của feature
+- dữ liệu hình học theo chuẩn GeoJSON
+- các thuộc tính mô tả đơn vị hành chính
+
+### Xem kết quả
+
+Mở [https://geojson.io](https://geojson.io) và tải bất kỳ file `.geojson` nào trong `json/geojson/` để kiểm tra hình học và thuộc tính một cách trực quan.
 
 ---
 
@@ -326,22 +373,6 @@ sudo apt-get install postgresql-14-postgis  -- Ubuntu/Debian
 brew install postgis                        -- macOS
 ```
 
-### Hỏi: Làm thế nào để xuất dữ liệu ranh giới sang GeoJSON?
-
-**PostgreSQL / PostGIS:**
-
-```sql
-SELECT
-    id,
-    province_code,
-    ST_AsGeoJSON(geom) AS geojson
-FROM gis_provinces;
-```
-
-Xuất kết quả truy vấn và chuyển đổi cột `geojson` sang định dạng GeoJSON tiêu chuẩn.
-
-**Một bộ dữ liệu GeoJSON chuyên biệt sẽ được cung cấp trong các phiên bản tương lai.**
-
 ### Hỏi: Tôi có thể sử dụng dữ liệu GIS với các thư viện bản đồ như Mapbox hoặc Leaflet không?
 
 **Trả lời:** Có. Bộ dữ liệu GIS tương thích với nhiều thư viện bản đồ phổ biến như Leaflet, Mapbox GL JS, OpenLayers và ArcGIS.
@@ -359,7 +390,6 @@ fetch('/api/provinces/01/boundary')
 Quy trình điển hình:
 
 1. Truy vấn dữ liệu ranh giới từ bộ dữ liệu GIS.
-2. Chuyển đổi dữ liệu hình học sang GeoJSON (ví dụ bằng `ST_AsGeoJSON()` trong PostGIS).
 3. Trả về dữ liệu GeoJSON từ API backend.
 4. Hiển thị GeoJSON bằng thư viện bản đồ mong muốn.
 
@@ -377,7 +407,7 @@ Quy trình điển hình:
 |----------|----------|----------|
 | DBeaver | Công cụ quản lý cơ sở dữ liệu | Khuyến nghị cho đa số người dùng. Hỗ trợ PostgreSQL, MySQL và SQL Server, đồng thời có thể xem trực tiếp dữ liệu hình học trên nền bản đồ OpenStreetMap. |
 | QGIS | Phần mềm GIS Desktop | Phù hợp cho phân tích GIS chuyên sâu, chỉnh sửa dữ liệu không gian và biên tập bản đồ. |
-| geojson.io | Công cụ Web | Công cụ trực tuyến nhẹ để trực quan hóa và kiểm tra dữ liệu GeoJSON xuất từ cơ sở dữ liệu. |
+| geojson.io | Công cụ Web | Công cụ trực tuyến nhẹ để trực quan hóa và kiểm tra dữ liệu GeoJSON xuất từ bộ xuất của trình tạo dữ liệu. |
 
 **Ví dụ: Xem dữ liệu hình học trong DBeaver**
 

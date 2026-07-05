@@ -13046,11 +13046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Thượng",
-        "unit_code": "18844",
-        "unit_code_name": "ky_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2014",
-        "area_km2": 218.82
+        "code": "18844",
+        "name": "Kỳ Thượng",
+        "nameEn": "Ky Thuong",
+        "fullName": "Xã Kỳ Thượng",
+        "fullNameEn": "Ky Thuong Commune",
+        "codeName": "ky_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2014",
+        "areaKm2": 218.82
       }
     }
   ]

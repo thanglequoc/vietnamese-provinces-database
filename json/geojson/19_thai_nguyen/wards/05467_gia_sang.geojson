@@ -5262,11 +5262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Sàng",
-        "unit_code": "05467",
-        "unit_code_name": "gia_sang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1187",
-        "area_km2": 25.47
+        "code": "05467",
+        "name": "Gia Sàng",
+        "nameEn": "Gia Sang",
+        "fullName": "Phường Gia Sàng",
+        "fullNameEn": "Gia Sang Ward",
+        "codeName": "gia_sang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1187",
+        "areaKm2": 25.47
       }
     }
   ]

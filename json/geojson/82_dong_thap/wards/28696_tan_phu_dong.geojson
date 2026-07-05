@@ -4418,11 +4418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phú Đông",
-        "unit_code": "28696",
-        "unit_code_name": "tan_phu_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.494",
-        "area_km2": 175.2
+        "code": "28696",
+        "name": "Tân Phú Đông",
+        "nameEn": "Tan Phu Dong",
+        "fullName": "Xã Tân Phú Đông",
+        "fullNameEn": "Tan Phu Dong Commune",
+        "codeName": "tan_phu_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.494",
+        "areaKm2": 175.2
       }
     }
   ]

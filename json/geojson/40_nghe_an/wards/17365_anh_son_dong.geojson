@@ -4358,11 +4358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Anh Sơn Đông",
-        "unit_code": "17365",
-        "unit_code_name": "anh_son_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1423",
-        "area_km2": 65.85
+        "code": "17365",
+        "name": "Anh Sơn Đông",
+        "nameEn": "Anh Son Dong",
+        "fullName": "Xã Anh Sơn Đông",
+        "fullNameEn": "Anh Son Dong Commune",
+        "codeName": "anh_son_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1423",
+        "areaKm2": 65.85
       }
     }
   ]

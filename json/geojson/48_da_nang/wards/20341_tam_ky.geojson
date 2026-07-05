@@ -1930,11 +1930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Kỳ",
-        "unit_code": "20341",
-        "unit_code_name": "tam_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1974",
-        "area_km2": 8.36
+        "code": "20341",
+        "name": "Tam Kỳ",
+        "nameEn": "Tam Ky",
+        "fullName": "Phường Tam Kỳ",
+        "fullNameEn": "Tam Ky Ward",
+        "codeName": "tam_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1974",
+        "areaKm2": 8.36
       }
     }
   ]

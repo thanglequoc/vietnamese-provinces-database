@@ -4058,11 +4058,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ô Diên",
-        "unit_code": "09817",
-        "unit_code_name": "o_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3242",
-        "area_km2": 32.06
+        "code": "09817",
+        "name": "Ô Diên",
+        "nameEn": "O Dien",
+        "fullName": "Xã Ô Diên",
+        "fullNameEn": "O Dien Commune",
+        "codeName": "o_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3242",
+        "areaKm2": 32.06
       }
     }
   ]

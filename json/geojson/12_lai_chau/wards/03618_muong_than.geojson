@@ -11638,11 +11638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Than",
-        "unit_code": "03618",
-        "unit_code_name": "muong_than",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2096",
-        "area_km2": 154.08
+        "code": "03618",
+        "name": "Mường Than",
+        "nameEn": "Muong Than",
+        "fullName": "Xã Mường Than",
+        "fullNameEn": "Muong Than Commune",
+        "codeName": "muong_than",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2096",
+        "areaKm2": 154.08
       }
     }
   ]

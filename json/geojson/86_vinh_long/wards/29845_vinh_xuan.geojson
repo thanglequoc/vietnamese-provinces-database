@@ -9402,11 +9402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Xuân",
-        "unit_code": "29845",
-        "unit_code_name": "vinh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2558",
-        "area_km2": 57.79
+        "code": "29845",
+        "name": "Vĩnh Xuân",
+        "nameEn": "Vinh Xuan",
+        "fullName": "Xã Vĩnh Xuân",
+        "fullNameEn": "Vinh Xuan Commune",
+        "codeName": "vinh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2558",
+        "areaKm2": 57.79
       }
     }
   ]

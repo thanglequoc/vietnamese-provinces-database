@@ -17946,11 +17946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Bình",
-        "unit_code": "15211",
-        "unit_code_name": "thach_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2630",
-        "area_km2": 90.47
+        "code": "15211",
+        "name": "Thạch Bình",
+        "nameEn": "Thach Binh",
+        "fullName": "Xã Thạch Bình",
+        "fullNameEn": "Thach Binh Commune",
+        "codeName": "thach_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2630",
+        "areaKm2": 90.47
       }
     }
   ]

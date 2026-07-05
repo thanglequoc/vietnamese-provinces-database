@@ -1562,11 +1562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Trụ",
-        "unit_code": "13597",
-        "unit_code_name": "vinh_tru",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2775",
-        "area_km2": 17.59
+        "code": "13597",
+        "name": "Vĩnh Trụ",
+        "nameEn": "Vinh Tru",
+        "fullName": "Xã Vĩnh Trụ",
+        "fullNameEn": "Vinh Tru Commune",
+        "codeName": "vinh_tru",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2775",
+        "areaKm2": 17.59
       }
     }
   ]

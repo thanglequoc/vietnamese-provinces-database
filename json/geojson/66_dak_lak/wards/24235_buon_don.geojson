@@ -29162,11 +29162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Buôn Đôn",
-        "unit_code": "24235",
-        "unit_code_name": "buon_don",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2838",
-        "area_km2": 1113.79
+        "code": "24235",
+        "name": "Buôn Đôn",
+        "nameEn": "Buon Don",
+        "fullName": "Xã Buôn Đôn",
+        "fullNameEn": "Buon Don Commune",
+        "codeName": "buon_don",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2838",
+        "areaKm2": 1113.79
       }
     }
   ]

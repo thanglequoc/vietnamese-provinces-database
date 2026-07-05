@@ -6778,11 +6778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Hoà",
-        "unit_code": "30235",
-        "unit_code_name": "phong_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.440",
-        "area_km2": 87.9
+        "code": "30235",
+        "name": "Phong Hoà",
+        "nameEn": "Phong Hoa",
+        "fullName": "Xã Phong Hoà",
+        "fullNameEn": "Phong Hoa Commune",
+        "codeName": "phong_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.440",
+        "areaKm2": 87.9
       }
     }
   ]

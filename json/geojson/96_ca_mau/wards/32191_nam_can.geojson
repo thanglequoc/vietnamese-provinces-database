@@ -9614,11 +9614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Năm Căn",
-        "unit_code": "32191",
-        "unit_code_name": "nam_can",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.192",
-        "area_km2": 70.06
+        "code": "32191",
+        "name": "Năm Căn",
+        "nameEn": "Nam Can",
+        "fullName": "Xã Năm Căn",
+        "fullNameEn": "Nam Can Commune",
+        "codeName": "nam_can",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.192",
+        "areaKm2": 70.06
       }
     }
   ]

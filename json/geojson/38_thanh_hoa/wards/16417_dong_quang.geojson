@@ -6358,11 +6358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Quang",
-        "unit_code": "16417",
-        "unit_code_name": "dong_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2588",
-        "area_km2": 48.6
+        "code": "16417",
+        "name": "Đông Quang",
+        "nameEn": "Dong Quang",
+        "fullName": "Phường Đông Quang",
+        "fullNameEn": "Dong Quang Ward",
+        "codeName": "dong_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2588",
+        "areaKm2": 48.6
       }
     }
   ]

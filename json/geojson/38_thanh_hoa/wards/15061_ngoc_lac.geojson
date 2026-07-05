@@ -3906,11 +3906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Lặc",
-        "unit_code": "15061",
-        "unit_code_name": "ngoc_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2686",
-        "area_km2": 90.39
+        "code": "15061",
+        "name": "Ngọc Lặc",
+        "nameEn": "Ngoc Lac",
+        "fullName": "Xã Ngọc Lặc",
+        "fullNameEn": "Ngoc Lac Commune",
+        "codeName": "ngoc_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2686",
+        "areaKm2": 90.39
       }
     }
   ]

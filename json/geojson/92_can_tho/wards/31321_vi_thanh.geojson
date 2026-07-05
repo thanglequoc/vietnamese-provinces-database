@@ -2254,11 +2254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vị Thanh",
-        "unit_code": "31321",
-        "unit_code_name": "vi_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.234",
-        "area_km2": 22.11
+        "code": "31321",
+        "name": "Vị Thanh",
+        "nameEn": "Vi Thanh",
+        "fullName": "Phường Vị Thanh",
+        "fullNameEn": "Vi Thanh Ward",
+        "codeName": "vi_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.234",
+        "areaKm2": 22.11
       }
     }
   ]

@@ -2978,11 +2978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Úy",
-        "unit_code": "13396",
-        "unit_code_name": "nguyen_uy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2767",
-        "area_km2": 24.21
+        "code": "13396",
+        "name": "Nguyễn Úy",
+        "nameEn": "Nguyen Uy",
+        "fullName": "Phường Nguyễn Úy",
+        "fullNameEn": "Nguyen Uy Ward",
+        "codeName": "nguyen_uy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2767",
+        "areaKm2": 24.21
       }
     }
   ]

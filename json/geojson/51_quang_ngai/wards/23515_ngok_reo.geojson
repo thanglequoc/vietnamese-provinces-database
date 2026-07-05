@@ -12266,11 +12266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọk Réo",
-        "unit_code": "23515",
-        "unit_code_name": "ngok_reo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1734",
-        "area_km2": 170.29
+        "code": "23515",
+        "name": "Ngọk Réo",
+        "nameEn": "Ngok Reo",
+        "fullName": "Xã Ngọk Réo",
+        "fullNameEn": "Ngok Reo Commune",
+        "codeName": "ngok_reo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1734",
+        "areaKm2": 170.29
       }
     }
   ]

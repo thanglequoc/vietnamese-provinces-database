@@ -20942,11 +20942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Thuận",
-        "unit_code": "25018",
-        "unit_code_name": "bao_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.528",
-        "area_km2": 300.3
+        "code": "25018",
+        "name": "Bảo Thuận",
+        "nameEn": "Bao Thuan",
+        "fullName": "Xã Bảo Thuận",
+        "fullNameEn": "Bao Thuan Commune",
+        "codeName": "bao_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.528",
+        "areaKm2": 300.3
       }
     }
   ]

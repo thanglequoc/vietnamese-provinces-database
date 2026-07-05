@@ -17086,11 +17086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cốc Lầu",
-        "unit_code": "02896",
-        "unit_code_name": "coc_lau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1069",
-        "area_km2": 135.8
+        "code": "02896",
+        "name": "Cốc Lầu",
+        "nameEn": "Coc Lau",
+        "fullName": "Xã Cốc Lầu",
+        "fullNameEn": "Coc Lau Commune",
+        "codeName": "coc_lau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1069",
+        "areaKm2": 135.8
       }
     }
   ]

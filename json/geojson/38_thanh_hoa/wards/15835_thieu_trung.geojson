@@ -2814,11 +2814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiệu Trung",
-        "unit_code": "15835",
-        "unit_code_name": "thieu_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2681",
-        "area_km2": 21.82
+        "code": "15835",
+        "name": "Thiệu Trung",
+        "nameEn": "Thieu Trung",
+        "fullName": "Xã Thiệu Trung",
+        "fullNameEn": "Thieu Trung Commune",
+        "codeName": "thieu_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2681",
+        "areaKm2": 21.82
       }
     }
   ]

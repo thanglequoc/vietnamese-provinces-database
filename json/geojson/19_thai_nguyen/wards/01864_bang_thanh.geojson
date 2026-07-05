@@ -11646,11 +11646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bằng Thành",
-        "unit_code": "01864",
-        "unit_code_name": "bang_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1164",
-        "area_km2": 208.22
+        "code": "01864",
+        "name": "Bằng Thành",
+        "nameEn": "Bang Thanh",
+        "fullName": "Xã Bằng Thành",
+        "fullNameEn": "Bang Thanh Commune",
+        "codeName": "bang_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1164",
+        "areaKm2": 208.22
       }
     }
   ]

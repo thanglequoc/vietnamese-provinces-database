@@ -16970,11 +16970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Lai",
-        "unit_code": "52",
-        "unit_code_name": "gia_lai",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.51",
-        "area_km2": 21576.53
+        "code": "52",
+        "name": "Gia Lai",
+        "nameEn": "Gia Lai",
+        "fullName": "Tỉnh Gia Lai",
+        "fullNameEn": "Gia Lai Province",
+        "codeName": "gia_lai",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.51",
+        "areaKm2": 21576.53
       }
     }
   ]

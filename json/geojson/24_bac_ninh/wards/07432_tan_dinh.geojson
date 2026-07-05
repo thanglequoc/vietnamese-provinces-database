@@ -9678,11 +9678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Dĩnh",
-        "unit_code": "07432",
-        "unit_code_name": "tan_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2171",
-        "area_km2": 31.96
+        "code": "07432",
+        "name": "Tân Dĩnh",
+        "nameEn": "Tan Dinh",
+        "fullName": "Xã Tân Dĩnh",
+        "fullNameEn": "Tan Dinh Commune",
+        "codeName": "tan_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2171",
+        "areaKm2": 31.96
       }
     }
   ]

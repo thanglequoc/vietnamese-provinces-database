@@ -16846,11 +16846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chư Pưh",
-        "unit_code": "23942",
-        "unit_code_name": "chu_puh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2951",
-        "area_km2": 184.44
+        "code": "23942",
+        "name": "Chư Pưh",
+        "nameEn": "Chu Puh",
+        "fullName": "Xã Chư Pưh",
+        "fullNameEn": "Chu Puh Commune",
+        "codeName": "chu_puh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2951",
+        "areaKm2": 184.44
       }
     }
   ]

@@ -3942,11 +3942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Vĩnh Lộc",
-        "unit_code": "27604",
-        "unit_code_name": "tan_vinh_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.127",
-        "area_km2": 34.05
+        "code": "27604",
+        "name": "Tân Vĩnh Lộc",
+        "nameEn": "Tan Vinh Loc",
+        "fullName": "Xã Tân Vĩnh Lộc",
+        "fullNameEn": "Tan Vinh Loc Commune",
+        "codeName": "tan_vinh_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.127",
+        "areaKm2": 34.05
       }
     }
   ]

@@ -5054,11 +5054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Giang",
-        "unit_code": "01288",
-        "unit_code_name": "tan_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.974",
-        "area_km2": 84.26
+        "code": "01288",
+        "name": "Tân Giang",
+        "nameEn": "Tan Giang",
+        "fullName": "Phường Tân Giang",
+        "fullNameEn": "Tan Giang Ward",
+        "codeName": "tan_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.974",
+        "areaKm2": 84.26
       }
     }
   ]

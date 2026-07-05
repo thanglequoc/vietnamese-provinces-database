@@ -14094,11 +14094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Thái",
-        "unit_code": "02260",
-        "unit_code_name": "hong_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2319",
-        "area_km2": 222.59
+        "code": "02260",
+        "name": "Hồng Thái",
+        "nameEn": "Hong Thai",
+        "fullName": "Xã Hồng Thái",
+        "fullNameEn": "Hong Thai Commune",
+        "codeName": "hong_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2319",
+        "areaKm2": 222.59
       }
     }
   ]

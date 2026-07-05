@@ -11062,11 +11062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tương Dương",
-        "unit_code": "16876",
-        "unit_code_name": "tuong_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1508",
-        "area_km2": 330.95
+        "code": "16876",
+        "name": "Tương Dương",
+        "nameEn": "Tuong Duong",
+        "fullName": "Xã Tương Dương",
+        "fullNameEn": "Tuong Duong Commune",
+        "codeName": "tuong_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1508",
+        "areaKm2": 330.95
       }
     }
   ]

@@ -6726,11 +6726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phương Thịnh",
-        "unit_code": "30043",
-        "unit_code_name": "phuong_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.424",
-        "area_km2": 104.7
+        "code": "30043",
+        "name": "Phương Thịnh",
+        "nameEn": "Phuong Thinh",
+        "fullName": "Xã Phương Thịnh",
+        "fullNameEn": "Phuong Thinh Commune",
+        "codeName": "phuong_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.424",
+        "areaKm2": 104.7
       }
     }
   ]

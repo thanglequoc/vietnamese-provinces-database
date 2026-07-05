@@ -8194,11 +8194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Tuấn",
-        "unit_code": "01660",
-        "unit_code_name": "nam_tuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.949",
-        "area_km2": 119.66
+        "code": "01660",
+        "name": "Nam Tuấn",
+        "nameEn": "Nam Tuan",
+        "fullName": "Xã Nam Tuấn",
+        "fullNameEn": "Nam Tuan Commune",
+        "codeName": "nam_tuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.949",
+        "areaKm2": 119.66
       }
     }
   ]

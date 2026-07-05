@@ -3318,11 +3318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Lộc",
-        "unit_code": "17056",
-        "unit_code_name": "chau_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1477",
-        "area_km2": 85.69
+        "code": "17056",
+        "name": "Châu Lộc",
+        "nameEn": "Chau Loc",
+        "fullName": "Xã Châu Lộc",
+        "fullNameEn": "Chau Loc Commune",
+        "codeName": "chau_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1477",
+        "areaKm2": 85.69
       }
     }
   ]

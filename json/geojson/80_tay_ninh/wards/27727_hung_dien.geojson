@@ -6078,11 +6078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Điền",
-        "unit_code": "27727",
-        "unit_code_name": "hung_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1280",
-        "area_km2": 131.16
+        "code": "27727",
+        "name": "Hưng Điền",
+        "nameEn": "Hung Dien",
+        "fullName": "Xã Hưng Điền",
+        "fullNameEn": "Hung Dien Commune",
+        "codeName": "hung_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1280",
+        "areaKm2": 131.16
       }
     }
   ]

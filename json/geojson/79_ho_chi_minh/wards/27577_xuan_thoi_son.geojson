@@ -4238,11 +4238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Thới Sơn",
-        "unit_code": "27577",
-        "unit_code_name": "xuan_thoi_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.123",
-        "area_km2": 35.21
+        "code": "27577",
+        "name": "Xuân Thới Sơn",
+        "nameEn": "Xuan Thoi Son",
+        "fullName": "Xã Xuân Thới Sơn",
+        "fullNameEn": "Xuan Thoi Son Commune",
+        "codeName": "xuan_thoi_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.123",
+        "areaKm2": 35.21
       }
     }
   ]

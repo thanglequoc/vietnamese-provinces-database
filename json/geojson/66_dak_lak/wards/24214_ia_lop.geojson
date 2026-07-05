@@ -7902,11 +7902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Lốp",
-        "unit_code": "24214",
-        "unit_code_name": "ia_lop",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2834",
-        "area_km2": 194.09
+        "code": "24214",
+        "name": "Ia Lốp",
+        "nameEn": "Ia Lop",
+        "fullName": "Xã Ia Lốp",
+        "fullNameEn": "Ia Lop Commune",
+        "codeName": "ia_lop",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2834",
+        "areaKm2": 194.09
       }
     }
   ]

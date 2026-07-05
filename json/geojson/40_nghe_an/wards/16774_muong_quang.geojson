@@ -21306,11 +21306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Quàng",
-        "unit_code": "16774",
-        "unit_code_name": "muong_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1495",
-        "area_km2": 342.15
+        "code": "16774",
+        "name": "Mường Quàng",
+        "nameEn": "Muong Quang",
+        "fullName": "Xã Mường Quàng",
+        "fullNameEn": "Muong Quang Commune",
+        "codeName": "muong_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1495",
+        "areaKm2": 342.15
       }
     }
   ]

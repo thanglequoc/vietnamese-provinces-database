@@ -2602,11 +2602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Liệt",
-        "unit_code": "00643",
-        "unit_code_name": "thanh_liet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3182",
-        "area_km2": 6.44
+        "code": "00643",
+        "name": "Thanh Liệt",
+        "nameEn": "Thanh Liet",
+        "fullName": "Phường Thanh Liệt",
+        "fullNameEn": "Thanh Liet Ward",
+        "codeName": "thanh_liet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3182",
+        "areaKm2": 6.44
       }
     }
   ]

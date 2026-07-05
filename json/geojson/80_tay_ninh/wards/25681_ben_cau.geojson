@@ -2886,11 +2886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Cầu",
-        "unit_code": "25681",
-        "unit_code_name": "ben_cau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2729",
-        "area_km2": 112.02
+        "code": "25681",
+        "name": "Bến Cầu",
+        "nameEn": "Ben Cau",
+        "fullName": "Xã Bến Cầu",
+        "fullNameEn": "Ben Cau Commune",
+        "codeName": "ben_cau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2729",
+        "areaKm2": 112.02
       }
     }
   ]

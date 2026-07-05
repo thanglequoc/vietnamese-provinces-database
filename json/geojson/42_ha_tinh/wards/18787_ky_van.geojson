@@ -6438,11 +6438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Văn",
-        "unit_code": "18787",
-        "unit_code_name": "ky_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2028",
-        "area_km2": 135.75
+        "code": "18787",
+        "name": "Kỳ Văn",
+        "nameEn": "Ky Van",
+        "fullName": "Xã Kỳ Văn",
+        "fullNameEn": "Ky Van Commune",
+        "codeName": "ky_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2028",
+        "areaKm2": 135.75
       }
     }
   ]

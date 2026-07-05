@@ -15950,11 +15950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Núa Ngam",
-        "unit_code": "03358",
-        "unit_code_name": "nua_ngam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2267",
-        "area_km2": 264.78
+        "code": "03358",
+        "name": "Núa Ngam",
+        "nameEn": "Nua Ngam",
+        "fullName": "Xã Núa Ngam",
+        "fullNameEn": "Nua Ngam Commune",
+        "codeName": "nua_ngam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2267",
+        "areaKm2": 264.78
       }
     }
   ]

@@ -17198,11 +17198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hẹ",
-        "unit_code": "03763",
-        "unit_code_name": "long_he",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1350",
-        "area_km2": 158.4
+        "code": "03763",
+        "name": "Long Hẹ",
+        "nameEn": "Long He",
+        "fullName": "Xã Long Hẹ",
+        "fullNameEn": "Long He Commune",
+        "codeName": "long_he",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1350",
+        "areaKm2": 158.4
       }
     }
   ]

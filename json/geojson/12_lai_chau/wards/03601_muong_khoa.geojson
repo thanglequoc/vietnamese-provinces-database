@@ -19162,11 +19162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Khoa",
-        "unit_code": "03601",
-        "unit_code_name": "muong_khoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2093",
-        "area_km2": 168.83
+        "code": "03601",
+        "name": "Mường Khoa",
+        "nameEn": "Muong Khoa",
+        "fullName": "Xã Mường Khoa",
+        "fullNameEn": "Muong Khoa Commune",
+        "codeName": "muong_khoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2093",
+        "areaKm2": 168.83
       }
     }
   ]

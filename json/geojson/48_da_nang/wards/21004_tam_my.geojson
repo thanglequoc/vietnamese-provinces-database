@@ -9718,11 +9718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Mỹ",
-        "unit_code": "21004",
-        "unit_code_name": "tam_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1965",
-        "area_km2": 173.14
+        "code": "21004",
+        "name": "Tam Mỹ",
+        "nameEn": "Tam My",
+        "fullName": "Xã Tam Mỹ",
+        "fullNameEn": "Tam My Commune",
+        "codeName": "tam_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1965",
+        "areaKm2": 173.14
       }
     }
   ]

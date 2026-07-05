@@ -10930,11 +10930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thuỷ",
-        "unit_code": "19405",
-        "unit_code_name": "vinh_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.564",
-        "area_km2": 103.74
+        "code": "19405",
+        "name": "Vĩnh Thuỷ",
+        "nameEn": "Vinh Thuy",
+        "fullName": "Xã Vĩnh Thuỷ",
+        "fullNameEn": "Vinh Thuy Commune",
+        "codeName": "vinh_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.564",
+        "areaKm2": 103.74
       }
     }
   ]

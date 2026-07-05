@@ -2690,11 +2690,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Trưng",
-        "unit_code": "27097",
-        "unit_code_name": "binh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.80",
-        "area_km2": 14.82
+        "code": "27097",
+        "name": "Bình Trưng",
+        "nameEn": "Binh Trung",
+        "fullName": "Phường Bình Trưng",
+        "fullNameEn": "Binh Trung Ward",
+        "codeName": "binh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.80",
+        "areaKm2": 14.82
       }
     }
   ]

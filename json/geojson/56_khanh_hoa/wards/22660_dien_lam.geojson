@@ -9206,11 +9206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Lâm",
-        "unit_code": "22660",
-        "unit_code_name": "dien_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1133",
-        "area_km2": 117.8
+        "code": "22660",
+        "name": "Diên Lâm",
+        "nameEn": "Dien Lam",
+        "fullName": "Xã Diên Lâm",
+        "fullNameEn": "Dien Lam Commune",
+        "codeName": "dien_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1133",
+        "areaKm2": 117.8
       }
     }
   ]

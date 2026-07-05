@@ -5862,11 +5862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Tân",
-        "unit_code": "28858",
-        "unit_code_name": "phu_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2437",
-        "area_km2": 26.58
+        "code": "28858",
+        "name": "Phú Tân",
+        "nameEn": "Phu Tan",
+        "fullName": "Phường Phú Tân",
+        "fullNameEn": "Phu Tan Ward",
+        "codeName": "phu_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2437",
+        "areaKm2": 26.58
       }
     }
   ]

@@ -8182,11 +8182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lộc",
-        "unit_code": "22057",
-        "unit_code_name": "xuan_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2895",
-        "area_km2": 114.01
+        "code": "22057",
+        "name": "Xuân Lộc",
+        "nameEn": "Xuan Loc",
+        "fullName": "Xã Xuân Lộc",
+        "fullNameEn": "Xuan Loc Commune",
+        "codeName": "xuan_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2895",
+        "areaKm2": 114.01
       }
     }
   ]

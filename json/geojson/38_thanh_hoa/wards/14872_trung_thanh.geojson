@@ -5850,11 +5850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Thành",
-        "unit_code": "14872",
-        "unit_code_name": "trung_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2694",
-        "area_km2": 135.64
+        "code": "14872",
+        "name": "Trung Thành",
+        "nameEn": "Trung Thanh",
+        "fullName": "Xã Trung Thành",
+        "fullNameEn": "Trung Thanh Commune",
+        "codeName": "trung_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2694",
+        "areaKm2": 135.64
       }
     }
   ]

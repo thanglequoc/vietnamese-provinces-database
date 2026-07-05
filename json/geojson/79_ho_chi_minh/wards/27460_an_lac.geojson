@@ -1994,11 +1994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Lạc",
-        "unit_code": "27460",
-        "unit_code_name": "an_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.108",
-        "area_km2": 10.47
+        "code": "27460",
+        "name": "An Lạc",
+        "nameEn": "An Lac",
+        "fullName": "Phường An Lạc",
+        "fullNameEn": "An Lac Ward",
+        "codeName": "an_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.108",
+        "areaKm2": 10.47
       }
     }
   ]

@@ -14078,11 +14078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hướng Hiệp",
-        "unit_code": "19555",
-        "unit_code_name": "huong_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.574",
-        "area_km2": 185.61
+        "code": "19555",
+        "name": "Hướng Hiệp",
+        "nameEn": "Huong Hiep",
+        "fullName": "Xã Hướng Hiệp",
+        "fullNameEn": "Huong Hiep Commune",
+        "codeName": "huong_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.574",
+        "areaKm2": 185.61
       }
     }
   ]

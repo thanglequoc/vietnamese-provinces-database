@@ -5598,11 +5598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Vĩnh",
-        "unit_code": "29533",
-        "unit_code_name": "long_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2522",
-        "area_km2": 96.37
+        "code": "29533",
+        "name": "Long Vĩnh",
+        "nameEn": "Long Vinh",
+        "fullName": "Xã Long Vĩnh",
+        "fullNameEn": "Long Vinh Commune",
+        "codeName": "long_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2522",
+        "areaKm2": 96.37
       }
     }
   ]

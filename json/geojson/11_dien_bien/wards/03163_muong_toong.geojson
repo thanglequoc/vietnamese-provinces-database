@@ -21870,11 +21870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Toong",
-        "unit_code": "03163",
-        "unit_code_name": "muong_toong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2234",
-        "area_km2": 230.69
+        "code": "03163",
+        "name": "Mường Toong",
+        "nameEn": "Muong Toong",
+        "fullName": "Xã Mường Toong",
+        "fullNameEn": "Muong Toong Commune",
+        "codeName": "muong_toong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2234",
+        "areaKm2": 230.69
       }
     }
   ]

@@ -5334,11 +5334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quan Triều",
-        "unit_code": "05482",
-        "unit_code_name": "quan_trieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1185",
-        "area_km2": 24.72
+        "code": "05482",
+        "name": "Quan Triều",
+        "nameEn": "Quan Trieu",
+        "fullName": "Phường Quan Triều",
+        "fullNameEn": "Quan Trieu Ward",
+        "codeName": "quan_trieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1185",
+        "areaKm2": 24.72
       }
     }
   ]

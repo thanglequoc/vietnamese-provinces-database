@@ -21422,11 +21422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Bắc",
-        "unit_code": "26428",
-        "unit_code_name": "xuan_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3142",
-        "area_km2": 96.4
+        "code": "26428",
+        "name": "Xuân Bắc",
+        "nameEn": "Xuan Bac",
+        "fullName": "Xã Xuân Bắc",
+        "fullNameEn": "Xuan Bac Commune",
+        "codeName": "xuan_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3142",
+        "areaKm2": 96.4
       }
     }
   ]

@@ -3318,11 +3318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Yên",
-        "unit_code": "33",
-        "unit_code_name": "hung_yen",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.103",
-        "area_km2": 2514.81
+        "code": "33",
+        "name": "Hưng Yên",
+        "nameEn": "Hung Yen",
+        "fullName": "Tỉnh Hưng Yên",
+        "fullNameEn": "Hung Yen Province",
+        "codeName": "hung_yen",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.103",
+        "areaKm2": 2514.81
       }
     }
   ]

@@ -3162,11 +3162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Hồng Lĩnh",
-        "unit_code": "18115",
-        "unit_code_name": "bac_hong_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2010",
-        "area_km2": 35.31
+        "code": "18115",
+        "name": "Bắc Hồng Lĩnh",
+        "nameEn": "Bac Hong Linh",
+        "fullName": "Phường Bắc Hồng Lĩnh",
+        "fullNameEn": "Bac Hong Linh Ward",
+        "codeName": "bac_hong_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2010",
+        "areaKm2": 35.31
       }
     }
   ]

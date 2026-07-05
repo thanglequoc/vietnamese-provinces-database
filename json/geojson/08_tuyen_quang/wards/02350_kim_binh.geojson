@@ -9358,11 +9358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Bình",
-        "unit_code": "02350",
-        "unit_code_name": "kim_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2329",
-        "area_km2": 92.09
+        "code": "02350",
+        "name": "Kim Bình",
+        "nameEn": "Kim Binh",
+        "fullName": "Xã Kim Bình",
+        "fullNameEn": "Kim Binh Commune",
+        "codeName": "kim_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2329",
+        "areaKm2": 92.09
       }
     }
   ]

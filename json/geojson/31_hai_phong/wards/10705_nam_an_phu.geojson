@@ -1846,11 +1846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam An Phụ",
-        "unit_code": "10705",
-        "unit_code_name": "nam_an_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.843",
-        "area_km2": 25.9
+        "code": "10705",
+        "name": "Nam An Phụ",
+        "nameEn": "Nam An Phu",
+        "fullName": "Xã Nam An Phụ",
+        "fullNameEn": "Nam An Phu Commune",
+        "codeName": "nam_an_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.843",
+        "areaKm2": 25.9
       }
     }
   ]

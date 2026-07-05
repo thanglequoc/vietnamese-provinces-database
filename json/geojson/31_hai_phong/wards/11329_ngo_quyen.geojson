@@ -638,11 +638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngô Quyền",
-        "unit_code": "11329",
-        "unit_code_name": "ngo_quyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.924",
-        "area_km2": 5.81
+        "code": "11329",
+        "name": "Ngô Quyền",
+        "nameEn": "Ngo Quyen",
+        "fullName": "Phường Ngô Quyền",
+        "fullNameEn": "Ngo Quyen Ward",
+        "codeName": "ngo_quyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.924",
+        "areaKm2": 5.81
       }
     }
   ]

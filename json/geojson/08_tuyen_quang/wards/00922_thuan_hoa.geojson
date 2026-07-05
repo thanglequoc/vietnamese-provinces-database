@@ -6130,11 +6130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Hoà",
-        "unit_code": "00922",
-        "unit_code_name": "thuan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2390",
-        "area_km2": 108.4
+        "code": "00922",
+        "name": "Thuận Hoà",
+        "nameEn": "Thuan Hoa",
+        "fullName": "Xã Thuận Hoà",
+        "fullNameEn": "Thuan Hoa Commune",
+        "codeName": "thuan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2390",
+        "areaKm2": 108.4
       }
     }
   ]

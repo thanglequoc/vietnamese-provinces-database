@@ -10542,11 +10542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Tú",
-        "unit_code": "31567",
-        "unit_code_name": "my_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.275",
-        "area_km2": 86.63
+        "code": "31567",
+        "name": "Mỹ Tú",
+        "nameEn": "My Tu",
+        "fullName": "Xã Mỹ Tú",
+        "fullNameEn": "My Tu Commune",
+        "codeName": "my_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.275",
+        "areaKm2": 86.63
       }
     }
   ]

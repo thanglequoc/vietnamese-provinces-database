@@ -9578,11 +9578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhã Nam",
-        "unit_code": "07306",
-        "unit_code_name": "nha_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2164",
-        "area_km2": 34.43
+        "code": "07306",
+        "name": "Nhã Nam",
+        "nameEn": "Nha Nam",
+        "fullName": "Xã Nhã Nam",
+        "fullNameEn": "Nha Nam Commune",
+        "codeName": "nha_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2164",
+        "areaKm2": 34.43
       }
     }
   ]

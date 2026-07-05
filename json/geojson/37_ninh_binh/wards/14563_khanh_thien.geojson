@@ -2394,11 +2394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Thiện",
-        "unit_code": "14563",
-        "unit_code_name": "khanh_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.754",
-        "area_km2": 24.51
+        "code": "14563",
+        "name": "Khánh Thiện",
+        "nameEn": "Khanh Thien",
+        "fullName": "Xã Khánh Thiện",
+        "fullNameEn": "Khanh Thien Commune",
+        "codeName": "khanh_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.754",
+        "areaKm2": 24.51
       }
     }
   ]

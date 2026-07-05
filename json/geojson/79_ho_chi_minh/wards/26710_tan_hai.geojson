@@ -4870,11 +4870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hải",
-        "unit_code": "26710",
-        "unit_code_name": "tan_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2222",
-        "area_km2": 51.86
+        "code": "26710",
+        "name": "Tân Hải",
+        "nameEn": "Tan Hai",
+        "fullName": "Phường Tân Hải",
+        "fullNameEn": "Tan Hai Ward",
+        "codeName": "tan_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2222",
+        "areaKm2": 51.86
       }
     }
   ]

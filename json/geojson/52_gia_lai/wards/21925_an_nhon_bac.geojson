@@ -12338,11 +12338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nhơn Bắc",
-        "unit_code": "21925",
-        "unit_code_name": "an_nhon_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3012",
-        "area_km2": 31.95
+        "code": "21925",
+        "name": "An Nhơn Bắc",
+        "nameEn": "An Nhon Bac",
+        "fullName": "Phường An Nhơn Bắc",
+        "fullNameEn": "An Nhon Bac Ward",
+        "codeName": "an_nhon_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3012",
+        "areaKm2": 31.95
       }
     }
   ]

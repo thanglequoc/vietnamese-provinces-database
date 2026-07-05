@@ -3622,11 +3622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sầm Sơn",
-        "unit_code": "16531",
-        "unit_code_name": "sam_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2577",
-        "area_km2": 30.29
+        "code": "16531",
+        "name": "Sầm Sơn",
+        "nameEn": "Sam Son",
+        "fullName": "Phường Sầm Sơn",
+        "fullNameEn": "Sam Son Ward",
+        "codeName": "sam_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2577",
+        "areaKm2": 30.29
       }
     }
   ]

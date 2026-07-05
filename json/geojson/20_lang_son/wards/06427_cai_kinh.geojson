@@ -16434,11 +16434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cai Kinh",
-        "unit_code": "06427",
-        "unit_code_name": "cai_kinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1800",
-        "area_km2": 105.56
+        "code": "06427",
+        "name": "Cai Kinh",
+        "nameEn": "Cai Kinh",
+        "fullName": "Xã Cai Kinh",
+        "fullNameEn": "Cai Kinh Commune",
+        "codeName": "cai_kinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1800",
+        "areaKm2": 105.56
       }
     }
   ]

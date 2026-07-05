@@ -30170,11 +30170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Tâm",
-        "unit_code": "01165",
-        "unit_code_name": "dong_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2415",
-        "area_km2": 156.97
+        "code": "01165",
+        "name": "Đồng Tâm",
+        "nameEn": "Dong Tam",
+        "fullName": "Xã Đồng Tâm",
+        "fullNameEn": "Dong Tam Commune",
+        "codeName": "dong_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2415",
+        "areaKm2": 156.97
       }
     }
   ]

@@ -9122,11 +9122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Phú",
-        "unit_code": "28993",
-        "unit_code_name": "luong_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2460",
-        "area_km2": 27.88
+        "code": "28993",
+        "name": "Lương Phú",
+        "nameEn": "Luong Phu",
+        "fullName": "Xã Lương Phú",
+        "fullNameEn": "Luong Phu Commune",
+        "codeName": "luong_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2460",
+        "areaKm2": 27.88
       }
     }
   ]

@@ -1174,11 +1174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiên Hương",
-        "unit_code": "11557",
-        "unit_code_name": "thien_huong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.942",
-        "area_km2": 21.1
+        "code": "11557",
+        "name": "Thiên Hương",
+        "nameEn": "Thien Huong",
+        "fullName": "Phường Thiên Hương",
+        "fullNameEn": "Thien Huong Ward",
+        "codeName": "thien_huong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.942",
+        "areaKm2": 21.1
       }
     }
   ]

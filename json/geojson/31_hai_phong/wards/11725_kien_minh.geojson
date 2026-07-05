@@ -1946,11 +1946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Minh",
-        "unit_code": "11725",
-        "unit_code_name": "kien_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.934",
-        "area_km2": 16.32
+        "code": "11725",
+        "name": "Kiến Minh",
+        "nameEn": "Kien Minh",
+        "fullName": "Xã Kiến Minh",
+        "fullNameEn": "Kien Minh Commune",
+        "codeName": "kien_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.934",
+        "areaKm2": 16.32
       }
     }
   ]

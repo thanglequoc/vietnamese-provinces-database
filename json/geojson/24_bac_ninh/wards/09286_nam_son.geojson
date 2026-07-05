@@ -2762,11 +2762,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Sơn",
-        "unit_code": "09286",
-        "unit_code_name": "nam_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2196",
-        "area_km2": 18.53
+        "code": "09286",
+        "name": "Nam Sơn",
+        "nameEn": "Nam Son",
+        "fullName": "Phường Nam Sơn",
+        "fullNameEn": "Nam Son Ward",
+        "codeName": "nam_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2196",
+        "areaKm2": 18.53
       }
     }
   ]

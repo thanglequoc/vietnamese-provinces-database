@@ -8554,11 +8554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Hai",
-        "unit_code": "09694",
-        "unit_code_name": "suoi_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3232",
-        "area_km2": 51.56
+        "code": "09694",
+        "name": "Suối Hai",
+        "nameEn": "Suoi Hai",
+        "fullName": "Xã Suối Hai",
+        "fullNameEn": "Suoi Hai Commune",
+        "codeName": "suoi_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3232",
+        "areaKm2": 51.56
       }
     }
   ]

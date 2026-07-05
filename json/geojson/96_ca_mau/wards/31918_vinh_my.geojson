@@ -15110,11 +15110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Mỹ",
-        "unit_code": "31918",
-        "unit_code_name": "vinh_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.154",
-        "area_km2": 40.72
+        "code": "31918",
+        "name": "Vĩnh Mỹ",
+        "nameEn": "Vinh My",
+        "fullName": "Xã Vĩnh Mỹ",
+        "fullNameEn": "Vinh My Commune",
+        "codeName": "vinh_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.154",
+        "areaKm2": 40.72
       }
     }
   ]

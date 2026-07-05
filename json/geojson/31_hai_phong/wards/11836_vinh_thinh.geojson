@@ -3054,11 +3054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thịnh",
-        "unit_code": "11836",
-        "unit_code_name": "vinh_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.918",
-        "area_km2": 21.5
+        "code": "11836",
+        "name": "Vĩnh Thịnh",
+        "nameEn": "Vinh Thinh",
+        "fullName": "Xã Vĩnh Thịnh",
+        "fullNameEn": "Vinh Thinh Commune",
+        "codeName": "vinh_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.918",
+        "areaKm2": 21.5
       }
     }
   ]

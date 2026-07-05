@@ -4342,11 +4342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Minh",
-        "unit_code": "17605",
-        "unit_code_name": "hop_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1456",
-        "area_km2": 54.75
+        "code": "17605",
+        "name": "Hợp Minh",
+        "nameEn": "Hop Minh",
+        "fullName": "Xã Hợp Minh",
+        "fullNameEn": "Hop Minh Commune",
+        "codeName": "hop_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1456",
+        "areaKm2": 54.75
       }
     }
   ]

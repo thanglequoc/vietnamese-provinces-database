@@ -12146,11 +12146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ka Đô",
-        "unit_code": "24943",
-        "unit_code_name": "ka_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.520",
-        "area_km2": 108.08
+        "code": "24943",
+        "name": "Ka Đô",
+        "nameEn": "Ka Do",
+        "fullName": "Xã Ka Đô",
+        "fullNameEn": "Ka Do Commune",
+        "codeName": "ka_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.520",
+        "areaKm2": 108.08
       }
     }
   ]

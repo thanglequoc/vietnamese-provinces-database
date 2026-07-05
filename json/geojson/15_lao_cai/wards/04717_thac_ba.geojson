@@ -9190,11 +9190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thác Bà",
-        "unit_code": "04717",
-        "unit_code_name": "thac_ba",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1051",
-        "area_km2": 142.54
+        "code": "04717",
+        "name": "Thác Bà",
+        "nameEn": "Thac Ba",
+        "fullName": "Xã Thác Bà",
+        "fullNameEn": "Thac Ba Commune",
+        "codeName": "thac_ba",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1051",
+        "areaKm2": 142.54
       }
     }
   ]

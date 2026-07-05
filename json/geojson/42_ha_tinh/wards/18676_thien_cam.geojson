@@ -3226,11 +3226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiên Cầm",
-        "unit_code": "18676",
-        "unit_code_name": "thien_cam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2032",
-        "area_km2": 40.55
+        "code": "18676",
+        "name": "Thiên Cầm",
+        "nameEn": "Thien Cam",
+        "fullName": "Xã Thiên Cầm",
+        "fullNameEn": "Thien Cam Commune",
+        "codeName": "thien_cam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2032",
+        "areaKm2": 40.55
       }
     }
   ]

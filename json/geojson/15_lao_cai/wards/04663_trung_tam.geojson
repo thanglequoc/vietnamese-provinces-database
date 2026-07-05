@@ -7118,11 +7118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Tâm",
-        "unit_code": "04663",
-        "unit_code_name": "trung_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1007",
-        "area_km2": 43.15
+        "code": "04663",
+        "name": "Trung Tâm",
+        "nameEn": "Trung Tam",
+        "fullName": "Phường Trung Tâm",
+        "fullNameEn": "Trung Tam Ward",
+        "codeName": "trung_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1007",
+        "areaKm2": 43.15
       }
     }
   ]

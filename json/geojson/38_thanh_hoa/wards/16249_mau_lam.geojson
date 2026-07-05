@@ -5966,11 +5966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mậu Lâm",
-        "unit_code": "16249",
-        "unit_code_name": "mau_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2659",
-        "area_km2": 64.27
+        "code": "16249",
+        "name": "Mậu Lâm",
+        "nameEn": "Mau Lam",
+        "fullName": "Xã Mậu Lâm",
+        "fullNameEn": "Mau Lam Commune",
+        "codeName": "mau_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2659",
+        "areaKm2": 64.27
       }
     }
   ]

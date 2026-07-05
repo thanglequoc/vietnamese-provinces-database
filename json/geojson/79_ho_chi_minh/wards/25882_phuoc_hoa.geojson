@@ -7590,11 +7590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Hoà",
-        "unit_code": "25882",
-        "unit_code_name": "phuoc_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.21",
-        "area_km2": 128.07
+        "code": "25882",
+        "name": "Phước Hoà",
+        "nameEn": "Phuoc Hoa",
+        "fullName": "Xã Phước Hoà",
+        "fullNameEn": "Phuoc Hoa Commune",
+        "codeName": "phuoc_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.21",
+        "areaKm2": 128.07
       }
     }
   ]

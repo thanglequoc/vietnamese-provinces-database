@@ -14362,11 +14362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Tân",
-        "unit_code": "23227",
-        "unit_code_name": "tra_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3093",
-        "area_km2": 135.94
+        "code": "23227",
+        "name": "Trà Tân",
+        "nameEn": "Tra Tan",
+        "fullName": "Xã Trà Tân",
+        "fullNameEn": "Tra Tan Commune",
+        "codeName": "tra_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3093",
+        "areaKm2": 135.94
       }
     }
   ]

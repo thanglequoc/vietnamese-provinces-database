@@ -12378,11 +12378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Krêl",
-        "unit_code": "23866",
-        "unit_code_name": "ia_krel",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2938",
-        "area_km2": 146.92
+        "code": "23866",
+        "name": "Ia Krêl",
+        "nameEn": "Ia Krel",
+        "fullName": "Xã Ia Krêl",
+        "fullNameEn": "Ia Krel Commune",
+        "codeName": "ia_krel",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2938",
+        "areaKm2": 146.92
       }
     }
   ]

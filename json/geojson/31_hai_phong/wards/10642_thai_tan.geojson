@@ -3862,11 +3862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Tân",
-        "unit_code": "10642",
-        "unit_code_name": "thai_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.862",
-        "area_km2": 20.73
+        "code": "10642",
+        "name": "Thái Tân",
+        "nameEn": "Thai Tan",
+        "fullName": "Xã Thái Tân",
+        "fullNameEn": "Thai Tan Commune",
+        "codeName": "thai_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.862",
+        "areaKm2": 20.73
       }
     }
   ]

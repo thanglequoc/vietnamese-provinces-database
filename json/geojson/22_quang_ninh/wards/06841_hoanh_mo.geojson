@@ -11930,11 +11930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoành Mô",
-        "unit_code": "06841",
-        "unit_code_name": "hoanh_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1890",
-        "area_km2": 137.91
+        "code": "06841",
+        "name": "Hoành Mô",
+        "nameEn": "Hoanh Mo",
+        "fullName": "Xã Hoành Mô",
+        "fullNameEn": "Hoanh Mo Commune",
+        "codeName": "hoanh_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1890",
+        "areaKm2": 137.91
       }
     }
   ]

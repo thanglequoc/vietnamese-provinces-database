@@ -7458,11 +7458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Yên",
-        "unit_code": "08707",
-        "unit_code_name": "vinh_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1605",
-        "area_km2": 25
+        "code": "08707",
+        "name": "Vĩnh Yên",
+        "nameEn": "Vinh Yen",
+        "fullName": "Phường Vĩnh Yên",
+        "fullNameEn": "Vinh Yen Ward",
+        "codeName": "vinh_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1605",
+        "areaKm2": 25
       }
     }
   ]

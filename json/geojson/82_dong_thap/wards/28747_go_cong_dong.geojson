@@ -4522,11 +4522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gò Công Đông",
-        "unit_code": "28747",
-        "unit_code_name": "go_cong_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.496",
-        "area_km2": 106.4
+        "code": "28747",
+        "name": "Gò Công Đông",
+        "nameEn": "Go Cong Dong",
+        "fullName": "Xã Gò Công Đông",
+        "fullNameEn": "Go Cong Dong Commune",
+        "codeName": "go_cong_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.496",
+        "areaKm2": 106.4
       }
     }
   ]

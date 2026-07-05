@@ -11254,11 +11254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhuận Phú Tân",
-        "unit_code": "28948",
-        "unit_code_name": "nhuan_phu_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2453",
-        "area_km2": 41.64
+        "code": "28948",
+        "name": "Nhuận Phú Tân",
+        "nameEn": "Nhuan Phu Tan",
+        "fullName": "Xã Nhuận Phú Tân",
+        "fullNameEn": "Nhuan Phu Tan Commune",
+        "codeName": "nhuan_phu_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2453",
+        "areaKm2": 41.64
       }
     }
   ]

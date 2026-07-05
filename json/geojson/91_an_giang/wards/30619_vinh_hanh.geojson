@@ -10514,11 +10514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hanh",
-        "unit_code": "30619",
-        "unit_code_name": "vinh_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.344",
-        "area_km2": 76.81
+        "code": "30619",
+        "name": "Vĩnh Hanh",
+        "nameEn": "Vinh Hanh",
+        "fullName": "Xã Vĩnh Hanh",
+        "fullNameEn": "Vinh Hanh Commune",
+        "codeName": "vinh_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.344",
+        "areaKm2": 76.81
       }
     }
   ]

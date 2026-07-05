@@ -14522,11 +14522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Tùng",
-        "unit_code": "32185",
-        "unit_code_name": "thanh_tung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.191",
-        "area_km2": 89.9
+        "code": "32185",
+        "name": "Thanh Tùng",
+        "nameEn": "Thanh Tung",
+        "fullName": "Xã Thanh Tùng",
+        "fullNameEn": "Thanh Tung Commune",
+        "codeName": "thanh_tung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.191",
+        "areaKm2": 89.9
       }
     }
   ]

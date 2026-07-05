@@ -10446,11 +10446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Sơn",
-        "unit_code": "02782",
-        "unit_code_name": "cao_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1060",
-        "area_km2": 164.5
+        "code": "02782",
+        "name": "Cao Sơn",
+        "nameEn": "Cao Son",
+        "fullName": "Xã Cao Sơn",
+        "fullNameEn": "Cao Son Commune",
+        "codeName": "cao_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1060",
+        "areaKm2": 164.5
       }
     }
   ]

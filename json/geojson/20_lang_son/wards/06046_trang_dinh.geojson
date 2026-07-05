@@ -9126,11 +9126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tràng Định",
-        "unit_code": "06046",
-        "unit_code_name": "trang_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1826",
-        "area_km2": 118.41
+        "code": "06046",
+        "name": "Tràng Định",
+        "nameEn": "Trang Dinh",
+        "fullName": "Xã Tràng Định",
+        "fullNameEn": "Trang Dinh Commune",
+        "codeName": "trang_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1826",
+        "areaKm2": 118.41
       }
     }
   ]

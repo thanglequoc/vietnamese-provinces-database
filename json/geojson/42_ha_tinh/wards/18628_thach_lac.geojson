@@ -4658,11 +4658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Lạc",
-        "unit_code": "18628",
-        "unit_code_name": "thach_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2023",
-        "area_km2": 27.6
+        "code": "18628",
+        "name": "Thạch Lạc",
+        "nameEn": "Thach Lac",
+        "fullName": "Xã Thạch Lạc",
+        "fullNameEn": "Thach Lac Commune",
+        "codeName": "thach_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2023",
+        "areaKm2": 27.6
       }
     }
   ]

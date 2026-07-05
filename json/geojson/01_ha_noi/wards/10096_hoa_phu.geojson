@@ -4190,11 +4190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Phú",
-        "unit_code": "10096",
-        "unit_code_name": "hoa_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3216",
-        "area_km2": 29.87
+        "code": "10096",
+        "name": "Hoà Phú",
+        "nameEn": "Hoa Phu",
+        "fullName": "Xã Hoà Phú",
+        "fullNameEn": "Hoa Phu Commune",
+        "codeName": "hoa_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3216",
+        "areaKm2": 29.87
       }
     }
   ]

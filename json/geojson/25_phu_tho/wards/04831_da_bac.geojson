@@ -8414,11 +8414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đà Bắc",
-        "unit_code": "04831",
-        "unit_code_name": "da_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1678",
-        "area_km2": 136.8
+        "code": "04831",
+        "name": "Đà Bắc",
+        "nameEn": "Da Bac",
+        "fullName": "Xã Đà Bắc",
+        "fullNameEn": "Da Bac Commune",
+        "codeName": "da_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1678",
+        "areaKm2": 136.8
       }
     }
   ]

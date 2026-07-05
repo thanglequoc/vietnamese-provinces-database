@@ -6402,11 +6402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Bằng",
-        "unit_code": "04",
-        "unit_code_name": "cao_bang",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.135",
-        "area_km2": 6700.39
+        "code": "04",
+        "name": "Cao Bằng",
+        "nameEn": "Cao Bang",
+        "fullName": "Tỉnh Cao Bằng",
+        "fullNameEn": "Cao Bang Province",
+        "codeName": "cao_bang",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.135",
+        "areaKm2": 6700.39
       }
     }
   ]

@@ -6838,11 +6838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thuận",
-        "unit_code": "20542",
-        "unit_code_name": "phu_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1944",
-        "area_km2": 130.89
+        "code": "20542",
+        "name": "Phú Thuận",
+        "nameEn": "Phu Thuan",
+        "fullName": "Xã Phú Thuận",
+        "fullNameEn": "Phu Thuan Commune",
+        "codeName": "phu_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1944",
+        "areaKm2": 130.89
       }
     }
   ]

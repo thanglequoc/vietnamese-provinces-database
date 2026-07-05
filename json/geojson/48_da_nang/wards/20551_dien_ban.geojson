@@ -4738,11 +4738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Điện Bàn",
-        "unit_code": "20551",
-        "unit_code_name": "dien_ban",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1948",
-        "area_km2": 19.78
+        "code": "20551",
+        "name": "Điện Bàn",
+        "nameEn": "Dien Ban",
+        "fullName": "Phường Điện Bàn",
+        "fullNameEn": "Dien Ban Ward",
+        "codeName": "dien_ban",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1948",
+        "areaKm2": 19.78
       }
     }
   ]

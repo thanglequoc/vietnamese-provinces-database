@@ -3714,11 +3714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Chúc",
-        "unit_code": "13420",
-        "unit_code_name": "tam_chuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2785",
-        "area_km2": 46.56
+        "code": "13420",
+        "name": "Tam Chúc",
+        "nameEn": "Tam Chuc",
+        "fullName": "Phường Tam Chúc",
+        "fullNameEn": "Tam Chuc Ward",
+        "codeName": "tam_chuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2785",
+        "areaKm2": 46.56
       }
     }
   ]

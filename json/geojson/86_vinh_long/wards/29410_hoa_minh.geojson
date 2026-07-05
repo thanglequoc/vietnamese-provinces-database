@@ -858,11 +858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Minh",
-        "unit_code": "29410",
-        "unit_code_name": "hoa_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2503",
-        "area_km2": 35.75
+        "code": "29410",
+        "name": "Hoà Minh",
+        "nameEn": "Hoa Minh",
+        "fullName": "Xã Hoà Minh",
+        "fullNameEn": "Hoa Minh Commune",
+        "codeName": "hoa_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2503",
+        "areaKm2": 35.75
       }
     }
   ]

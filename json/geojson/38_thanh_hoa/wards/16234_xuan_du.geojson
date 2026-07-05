@@ -6570,11 +6570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Du",
-        "unit_code": "16234",
-        "unit_code_name": "xuan_du",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2661",
-        "area_km2": 92.49
+        "code": "16234",
+        "name": "Xuân Du",
+        "nameEn": "Xuan Du",
+        "fullName": "Xã Xuân Du",
+        "fullNameEn": "Xuan Du Commune",
+        "codeName": "xuan_du",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2661",
+        "areaKm2": 92.49
       }
     }
   ]

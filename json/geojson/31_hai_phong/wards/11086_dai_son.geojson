@@ -1586,11 +1586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Sơn",
-        "unit_code": "11086",
-        "unit_code_name": "dai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.841",
-        "area_km2": 22.99
+        "code": "11086",
+        "name": "Đại Sơn",
+        "nameEn": "Dai Son",
+        "fullName": "Xã Đại Sơn",
+        "fullNameEn": "Dai Son Commune",
+        "codeName": "dai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.841",
+        "areaKm2": 22.99
       }
     }
   ]

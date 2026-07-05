@@ -6786,11 +6786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Xuân",
-        "unit_code": "20971",
-        "unit_code_name": "tam_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1978",
-        "area_km2": 66.92
+        "code": "20971",
+        "name": "Tam Xuân",
+        "nameEn": "Tam Xuan",
+        "fullName": "Xã Tam Xuân",
+        "fullNameEn": "Tam Xuan Commune",
+        "codeName": "tam_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1978",
+        "areaKm2": 66.92
       }
     }
   ]

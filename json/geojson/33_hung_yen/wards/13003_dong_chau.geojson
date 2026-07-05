@@ -3934,11 +3934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Châu",
-        "unit_code": "13003",
-        "unit_code_name": "dong_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.678",
-        "area_km2": 30.67
+        "code": "13003",
+        "name": "Đồng Châu",
+        "nameEn": "Dong Chau",
+        "fullName": "Xã Đồng Châu",
+        "fullNameEn": "Dong Chau Commune",
+        "codeName": "dong_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.678",
+        "areaKm2": 30.67
       }
     }
   ]

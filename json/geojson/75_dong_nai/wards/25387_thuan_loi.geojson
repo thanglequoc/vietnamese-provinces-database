@@ -25578,11 +25578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Lợi",
-        "unit_code": "25387",
-        "unit_code_name": "thuan_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2296",
-        "area_km2": 167.2
+        "code": "25387",
+        "name": "Thuận Lợi",
+        "nameEn": "Thuan Loi",
+        "fullName": "Xã Thuận Lợi",
+        "fullNameEn": "Thuan Loi Commune",
+        "codeName": "thuan_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2296",
+        "areaKm2": 167.2
       }
     }
   ]

@@ -5862,11 +5862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Thành",
-        "unit_code": "26368",
-        "unit_code_name": "long_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3133",
-        "area_km2": 130.1
+        "code": "26368",
+        "name": "Long Thành",
+        "nameEn": "Long Thanh",
+        "fullName": "Phường Long Thành",
+        "fullNameEn": "Long Thanh Ward",
+        "codeName": "long_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3133",
+        "areaKm2": 130.1
       }
     }
   ]

@@ -9718,11 +9718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Khánh Sơn",
-        "unit_code": "22720",
-        "unit_code_name": "tay_khanh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1139",
-        "area_km2": 125.6
+        "code": "22720",
+        "name": "Tây Khánh Sơn",
+        "nameEn": "Tay Khanh Son",
+        "fullName": "Xã Tây Khánh Sơn",
+        "fullNameEn": "Tay Khanh Son Commune",
+        "codeName": "tay_khanh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1139",
+        "areaKm2": 125.6
       }
     }
   ]

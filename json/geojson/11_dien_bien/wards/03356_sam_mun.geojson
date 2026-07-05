@@ -13890,11 +13890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sam Mứn",
-        "unit_code": "03356",
-        "unit_code_name": "sam_mun",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2266",
-        "area_km2": 156.12
+        "code": "03356",
+        "name": "Sam Mứn",
+        "nameEn": "Sam Mun",
+        "fullName": "Xã Sam Mứn",
+        "fullNameEn": "Sam Mun Commune",
+        "codeName": "sam_mun",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2266",
+        "areaKm2": 156.12
       }
     }
   ]

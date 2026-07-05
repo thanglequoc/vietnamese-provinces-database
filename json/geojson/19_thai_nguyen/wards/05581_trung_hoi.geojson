@@ -7570,11 +7570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Hội",
-        "unit_code": "05581",
-        "unit_code_name": "trung_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1206",
-        "area_km2": 54.21
+        "code": "05581",
+        "name": "Trung Hội",
+        "nameEn": "Trung Hoi",
+        "fullName": "Xã Trung Hội",
+        "fullNameEn": "Trung Hoi Commune",
+        "codeName": "trung_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1206",
+        "areaKm2": 54.21
       }
     }
   ]

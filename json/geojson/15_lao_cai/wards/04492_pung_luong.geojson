@@ -13426,11 +13426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Púng Luông",
-        "unit_code": "04492",
-        "unit_code_name": "pung_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1029",
-        "area_km2": 253.24
+        "code": "04492",
+        "name": "Púng Luông",
+        "nameEn": "Pung Luong",
+        "fullName": "Xã Púng Luông",
+        "fullNameEn": "Pung Luong Commune",
+        "codeName": "pung_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1029",
+        "areaKm2": 253.24
       }
     }
   ]

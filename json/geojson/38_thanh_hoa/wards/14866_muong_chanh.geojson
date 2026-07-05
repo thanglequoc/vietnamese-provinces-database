@@ -3242,11 +3242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Chanh",
-        "unit_code": "14866",
-        "unit_code_name": "muong_chanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2708",
-        "area_km2": 65.48
+        "code": "14866",
+        "name": "Mường Chanh",
+        "nameEn": "Muong Chanh",
+        "fullName": "Xã Mường Chanh",
+        "fullNameEn": "Muong Chanh Commune",
+        "codeName": "muong_chanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2708",
+        "areaKm2": 65.48
       }
     }
   ]

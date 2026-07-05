@@ -5310,11 +5310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hộ Cơ",
-        "unit_code": "29929",
-        "unit_code_name": "tan_ho_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.406",
-        "area_km2": 77.5
+        "code": "29929",
+        "name": "Tân Hộ Cơ",
+        "nameEn": "Tan Ho Co",
+        "fullName": "Xã Tân Hộ Cơ",
+        "fullNameEn": "Tan Ho Co Commune",
+        "codeName": "tan_ho_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.406",
+        "areaKm2": 77.5
       }
     }
   ]

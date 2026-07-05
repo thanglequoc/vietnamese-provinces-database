@@ -8814,11 +8814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Giang",
-        "unit_code": "20467",
-        "unit_code_name": "dong_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1923",
-        "area_km2": 169.43
+        "code": "20467",
+        "name": "Đông Giang",
+        "nameEn": "Dong Giang",
+        "fullName": "Xã Đông Giang",
+        "fullNameEn": "Dong Giang Commune",
+        "codeName": "dong_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1923",
+        "areaKm2": 169.43
       }
     }
   ]

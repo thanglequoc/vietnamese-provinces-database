@@ -6890,11 +6890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Côn",
-        "unit_code": "29836",
-        "unit_code_name": "tra_con",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2557",
-        "area_km2": 59.37
+        "code": "29836",
+        "name": "Trà Côn",
+        "nameEn": "Tra Con",
+        "fullName": "Xã Trà Côn",
+        "fullNameEn": "Tra Con Commune",
+        "codeName": "tra_con",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2557",
+        "areaKm2": 59.37
       }
     }
   ]

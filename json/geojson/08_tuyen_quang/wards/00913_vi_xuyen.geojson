@@ -18538,11 +18538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vị Xuyên",
-        "unit_code": "00913",
-        "unit_code_name": "vi_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2388",
-        "area_km2": 80.44
+        "code": "00913",
+        "name": "Vị Xuyên",
+        "nameEn": "Vi Xuyen",
+        "fullName": "Xã Vị Xuyên",
+        "fullNameEn": "Vi Xuyen Commune",
+        "codeName": "vi_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2388",
+        "areaKm2": 80.44
       }
     }
   ]

@@ -3518,11 +3518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Mỹ",
-        "unit_code": "13501",
-        "unit_code_name": "binh_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2778",
-        "area_km2": 30.28
+        "code": "13501",
+        "name": "Bình Mỹ",
+        "nameEn": "Binh My",
+        "fullName": "Xã Bình Mỹ",
+        "fullNameEn": "Binh My Commune",
+        "codeName": "binh_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2778",
+        "areaKm2": 30.28
       }
     }
   ]

@@ -15582,11 +15582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Đài",
-        "unit_code": "07462",
-        "unit_code_name": "bao_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2174",
-        "area_km2": 83.02
+        "code": "07462",
+        "name": "Bảo Đài",
+        "nameEn": "Bao Dai",
+        "fullName": "Xã Bảo Đài",
+        "fullNameEn": "Bao Dai Commune",
+        "codeName": "bao_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2174",
+        "areaKm2": 83.02
       }
     }
   ]

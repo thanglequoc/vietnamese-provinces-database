@@ -2050,11 +2050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Hoà",
-        "unit_code": "18682",
-        "unit_code_name": "yen_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2033",
-        "area_km2": 38.27
+        "code": "18682",
+        "name": "Yên Hoà",
+        "nameEn": "Yen Hoa",
+        "fullName": "Xã Yên Hoà",
+        "fullNameEn": "Yen Hoa Commune",
+        "codeName": "yen_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2033",
+        "areaKm2": 38.27
       }
     }
   ]

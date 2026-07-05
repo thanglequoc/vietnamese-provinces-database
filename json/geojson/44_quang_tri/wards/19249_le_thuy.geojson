@@ -1150,11 +1150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lệ Thuỷ",
-        "unit_code": "19249",
-        "unit_code_name": "le_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.632",
-        "area_km2": 55.93
+        "code": "19249",
+        "name": "Lệ Thuỷ",
+        "nameEn": "Le Thuy",
+        "fullName": "Xã Lệ Thuỷ",
+        "fullNameEn": "Le Thuy Commune",
+        "codeName": "le_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.632",
+        "areaKm2": 55.93
       }
     }
   ]

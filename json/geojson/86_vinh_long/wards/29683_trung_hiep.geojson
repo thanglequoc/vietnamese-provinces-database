@@ -9130,11 +9130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Hiệp",
-        "unit_code": "29683",
-        "unit_code_name": "trung_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2539",
-        "area_km2": 46.73
+        "code": "29683",
+        "name": "Trung Hiệp",
+        "nameEn": "Trung Hiep",
+        "fullName": "Xã Trung Hiệp",
+        "fullNameEn": "Trung Hiep Commune",
+        "codeName": "trung_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2539",
+        "areaKm2": 46.73
       }
     }
   ]

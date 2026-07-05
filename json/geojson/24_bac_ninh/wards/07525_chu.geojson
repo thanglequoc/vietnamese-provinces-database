@@ -16222,11 +16222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chũ",
-        "unit_code": "07525",
-        "unit_code_name": "chu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2101",
-        "area_km2": 57.18
+        "code": "07525",
+        "name": "Chũ",
+        "nameEn": "Chu",
+        "fullName": "Phường Chũ",
+        "fullNameEn": "Chu Ward",
+        "codeName": "chu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2101",
+        "areaKm2": 57.18
       }
     }
   ]

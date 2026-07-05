@@ -10462,11 +10462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Than Uyên",
-        "unit_code": "03595",
-        "unit_code_name": "than_uyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2091",
-        "area_km2": 132.09
+        "code": "03595",
+        "name": "Than Uyên",
+        "nameEn": "Than Uyen",
+        "fullName": "Xã Than Uyên",
+        "fullNameEn": "Than Uyen Commune",
+        "codeName": "than_uyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2091",
+        "areaKm2": 132.09
       }
     }
   ]

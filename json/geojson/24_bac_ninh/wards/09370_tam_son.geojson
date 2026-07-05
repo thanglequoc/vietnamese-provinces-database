@@ -1906,11 +1906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Sơn",
-        "unit_code": "09370",
-        "unit_code_name": "tam_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2187",
-        "area_km2": 14.11
+        "code": "09370",
+        "name": "Tam Sơn",
+        "nameEn": "Tam Son",
+        "fullName": "Phường Tam Sơn",
+        "fullNameEn": "Tam Son Ward",
+        "codeName": "tam_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2187",
+        "areaKm2": 14.11
       }
     }
   ]

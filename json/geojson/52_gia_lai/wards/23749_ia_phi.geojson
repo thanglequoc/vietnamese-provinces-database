@@ -19122,11 +19122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Phí",
-        "unit_code": "23749",
-        "unit_code_name": "ia_phi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2946",
-        "area_km2": 212.03
+        "code": "23749",
+        "name": "Ia Phí",
+        "nameEn": "Ia Phi",
+        "fullName": "Xã Ia Phí",
+        "fullNameEn": "Ia Phi Commune",
+        "codeName": "ia_phi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2946",
+        "areaKm2": 212.03
       }
     }
   ]

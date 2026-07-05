@@ -13146,11 +13146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Yên",
-        "unit_code": "06862",
-        "unit_code_name": "tien_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1878",
-        "area_km2": 137.87
+        "code": "06862",
+        "name": "Tiên Yên",
+        "nameEn": "Tien Yen",
+        "fullName": "Xã Tiên Yên",
+        "fullNameEn": "Tien Yen Commune",
+        "codeName": "tien_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1878",
+        "areaKm2": 137.87
       }
     }
   ]

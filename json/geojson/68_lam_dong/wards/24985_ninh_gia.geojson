@@ -22702,11 +22702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Gia",
-        "unit_code": "24985",
-        "unit_code_name": "ninh_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.525",
-        "area_km2": 143.83
+        "code": "24985",
+        "name": "Ninh Gia",
+        "nameEn": "Ninh Gia",
+        "fullName": "Xã Ninh Gia",
+        "fullNameEn": "Ninh Gia Commune",
+        "codeName": "ninh_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.525",
+        "areaKm2": 143.83
       }
     }
   ]

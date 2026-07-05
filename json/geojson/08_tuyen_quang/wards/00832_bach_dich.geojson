@@ -12134,11 +12134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Đích",
-        "unit_code": "00832",
-        "unit_code_name": "bach_dich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2379",
-        "area_km2": 95.17
+        "code": "00832",
+        "name": "Bạch Đích",
+        "nameEn": "Bach Dich",
+        "fullName": "Xã Bạch Đích",
+        "fullNameEn": "Bach Dich Commune",
+        "codeName": "bach_dich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2379",
+        "areaKm2": 95.17
       }
     }
   ]

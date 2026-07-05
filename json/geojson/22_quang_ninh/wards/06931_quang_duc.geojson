@@ -19506,11 +19506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Đức",
-        "unit_code": "06931",
-        "unit_code_name": "quang_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1894",
-        "area_km2": 131.48
+        "code": "06931",
+        "name": "Quảng Đức",
+        "nameEn": "Quang Duc",
+        "fullName": "Xã Quảng Đức",
+        "fullNameEn": "Quang Duc Commune",
+        "codeName": "quang_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1894",
+        "areaKm2": 131.48
       }
     }
   ]

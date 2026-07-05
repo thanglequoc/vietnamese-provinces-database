@@ -66702,11 +66702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Lãnh",
-        "unit_code": "22504",
-        "unit_code_name": "dai_lanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1106",
-        "area_km2": 171
+        "code": "22504",
+        "name": "Đại Lãnh",
+        "nameEn": "Dai Lanh",
+        "fullName": "Xã Đại Lãnh",
+        "fullNameEn": "Dai Lanh Commune",
+        "codeName": "dai_lanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1106",
+        "areaKm2": 171
       }
     }
   ]

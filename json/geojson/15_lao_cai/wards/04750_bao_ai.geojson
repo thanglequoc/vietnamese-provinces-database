@@ -5458,11 +5458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Ái",
-        "unit_code": "04750",
-        "unit_code_name": "bao_ai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1053",
-        "area_km2": 163.41
+        "code": "04750",
+        "name": "Bảo Ái",
+        "nameEn": "Bao Ai",
+        "fullName": "Xã Bảo Ái",
+        "fullNameEn": "Bao Ai Commune",
+        "codeName": "bao_ai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1053",
+        "areaKm2": 163.41
       }
     }
   ]

@@ -9894,11 +9894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiện Hoà",
-        "unit_code": "06085",
-        "unit_code_name": "thien_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1832",
-        "area_km2": 160.31
+        "code": "06085",
+        "name": "Thiện Hoà",
+        "nameEn": "Thien Hoa",
+        "fullName": "Xã Thiện Hoà",
+        "fullNameEn": "Thien Hoa Commune",
+        "codeName": "thien_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1832",
+        "areaKm2": 160.31
       }
     }
   ]

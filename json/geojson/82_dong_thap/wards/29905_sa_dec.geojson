@@ -9390,11 +9390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Đéc",
-        "unit_code": "29905",
-        "unit_code_name": "sa_dec",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.404",
-        "area_km2": 46.9
+        "code": "29905",
+        "name": "Sa Đéc",
+        "nameEn": "Sa Dec",
+        "fullName": "Phường Sa Đéc",
+        "fullNameEn": "Sa Dec Ward",
+        "codeName": "sa_dec",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.404",
+        "areaKm2": 46.9
       }
     }
   ]

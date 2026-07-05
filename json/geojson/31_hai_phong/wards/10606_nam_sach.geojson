@@ -6042,11 +6042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Sách",
-        "unit_code": "10606",
-        "unit_code_name": "nam_sach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.858",
-        "area_km2": 19.75
+        "code": "10606",
+        "name": "Nam Sách",
+        "nameEn": "Nam Sach",
+        "fullName": "Xã Nam Sách",
+        "fullNameEn": "Nam Sach Commune",
+        "codeName": "nam_sach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.858",
+        "areaKm2": 19.75
       }
     }
   ]

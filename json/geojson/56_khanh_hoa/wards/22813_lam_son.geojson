@@ -8842,11 +8842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Sơn",
-        "unit_code": "22813",
-        "unit_code_name": "lam_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1160",
-        "area_km2": 191.5
+        "code": "22813",
+        "name": "Lâm Sơn",
+        "nameEn": "Lam Son",
+        "fullName": "Xã Lâm Sơn",
+        "fullNameEn": "Lam Son Commune",
+        "codeName": "lam_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1160",
+        "areaKm2": 191.5
       }
     }
   ]

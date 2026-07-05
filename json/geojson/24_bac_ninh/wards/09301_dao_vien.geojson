@@ -2634,11 +2634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đào Viên",
-        "unit_code": "09301",
-        "unit_code_name": "dao_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2183",
-        "area_km2": 26.63
+        "code": "09301",
+        "name": "Đào Viên",
+        "nameEn": "Dao Vien",
+        "fullName": "Phường Đào Viên",
+        "fullNameEn": "Dao Vien Ward",
+        "codeName": "dao_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2183",
+        "areaKm2": 26.63
       }
     }
   ]

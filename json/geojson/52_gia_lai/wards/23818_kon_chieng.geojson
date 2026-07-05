@@ -15410,11 +15410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kon Chiêng",
-        "unit_code": "23818",
-        "unit_code_name": "kon_chieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3030",
-        "area_km2": 273.51
+        "code": "23818",
+        "name": "Kon Chiêng",
+        "nameEn": "Kon Chieng",
+        "fullName": "Xã Kon Chiêng",
+        "fullNameEn": "Kon Chieng Commune",
+        "codeName": "kon_chieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3030",
+        "areaKm2": 273.51
       }
     }
   ]

@@ -7010,11 +7010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Thắng",
-        "unit_code": "22933",
-        "unit_code_name": "ham_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3065",
-        "area_km2": 44.9
+        "code": "22933",
+        "name": "Hàm Thắng",
+        "nameEn": "Ham Thang",
+        "fullName": "Phường Hàm Thắng",
+        "fullNameEn": "Ham Thang Ward",
+        "codeName": "ham_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3065",
+        "areaKm2": 44.9
       }
     }
   ]

@@ -586,11 +586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Bình",
-        "unit_code": "27211",
-        "unit_code_name": "hoa_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.89",
-        "area_km2": 0.98
+        "code": "27211",
+        "name": "Hoà Bình",
+        "nameEn": "Hoa Binh",
+        "fullName": "Phường Hoà Bình",
+        "fullNameEn": "Hoa Binh Ward",
+        "codeName": "hoa_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.89",
+        "areaKm2": 0.98
       }
     }
   ]

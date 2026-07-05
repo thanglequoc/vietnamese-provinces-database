@@ -16526,11 +16526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tầm Vu",
-        "unit_code": "28210",
-        "unit_code_name": "tam_vu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1330",
-        "area_km2": 43.5
+        "code": "28210",
+        "name": "Tầm Vu",
+        "nameEn": "Tam Vu",
+        "fullName": "Xã Tầm Vu",
+        "fullNameEn": "Tam Vu Commune",
+        "codeName": "tam_vu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1330",
+        "areaKm2": 43.5
       }
     }
   ]

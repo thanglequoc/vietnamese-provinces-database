@@ -10278,11 +10278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Ninh",
-        "unit_code": "08230",
-        "unit_code_name": "phu_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1568",
-        "area_km2": 39.28
+        "code": "08230",
+        "name": "Phù Ninh",
+        "nameEn": "Phu Ninh",
+        "fullName": "Xã Phù Ninh",
+        "fullNameEn": "Phu Ninh Commune",
+        "codeName": "phu_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1568",
+        "areaKm2": 39.28
       }
     }
   ]

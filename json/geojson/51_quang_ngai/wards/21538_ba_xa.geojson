@@ -6150,11 +6150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Xa",
-        "unit_code": "21538",
-        "unit_code_name": "ba_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1789",
-        "area_km2": 102.79
+        "code": "21538",
+        "name": "Ba Xa",
+        "nameEn": "Ba Xa",
+        "fullName": "Xã Ba Xa",
+        "fullNameEn": "Ba Xa Commune",
+        "codeName": "ba_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1789",
+        "areaKm2": 102.79
       }
     }
   ]

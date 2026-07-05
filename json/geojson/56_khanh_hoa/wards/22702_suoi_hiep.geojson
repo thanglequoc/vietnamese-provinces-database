@@ -9014,11 +9014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Hiệp",
-        "unit_code": "22702",
-        "unit_code_name": "suoi_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1137",
-        "area_km2": 55.3
+        "code": "22702",
+        "name": "Suối Hiệp",
+        "nameEn": "Suoi Hiep",
+        "fullName": "Xã Suối Hiệp",
+        "fullNameEn": "Suoi Hiep Commune",
+        "codeName": "suoi_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1137",
+        "areaKm2": 55.3
       }
     }
   ]

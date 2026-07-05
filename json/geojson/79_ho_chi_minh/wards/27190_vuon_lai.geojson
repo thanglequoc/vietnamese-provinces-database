@@ -622,11 +622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vườn Lài",
-        "unit_code": "27190",
-        "unit_code_name": "vuon_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.87",
-        "area_km2": 1.28
+        "code": "27190",
+        "name": "Vườn Lài",
+        "nameEn": "Vuon Lai",
+        "fullName": "Phường Vườn Lài",
+        "fullNameEn": "Vuon Lai Ward",
+        "codeName": "vuon_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.87",
+        "areaKm2": 1.28
       }
     }
   ]

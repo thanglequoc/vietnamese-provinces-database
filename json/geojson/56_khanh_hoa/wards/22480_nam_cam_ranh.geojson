@@ -10034,11 +10034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Cam Ranh",
-        "unit_code": "22480",
-        "unit_code_name": "nam_cam_ranh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3310",
-        "area_km2": 92.6
+        "code": "22480",
+        "name": "Nam Cam Ranh",
+        "nameEn": "Nam Cam Ranh",
+        "fullName": "Xã Nam Cam Ranh",
+        "fullNameEn": "Nam Cam Ranh Commune",
+        "codeName": "nam_cam_ranh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3310",
+        "areaKm2": 92.6
       }
     }
   ]

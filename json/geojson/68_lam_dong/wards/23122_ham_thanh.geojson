@@ -22074,11 +22074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Thạnh",
-        "unit_code": "23122",
-        "unit_code_name": "ham_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3082",
-        "area_km2": 440.7
+        "code": "23122",
+        "name": "Hàm Thạnh",
+        "nameEn": "Ham Thanh",
+        "fullName": "Xã Hàm Thạnh",
+        "fullNameEn": "Ham Thanh Commune",
+        "codeName": "ham_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3082",
+        "areaKm2": 440.7
       }
     }
   ]

@@ -9682,11 +9682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tu Bông",
-        "unit_code": "22498",
-        "unit_code_name": "tu_bong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1104",
-        "area_km2": 99.6
+        "code": "22498",
+        "name": "Tu Bông",
+        "nameEn": "Tu Bong",
+        "fullName": "Xã Tu Bông",
+        "fullNameEn": "Tu Bong Commune",
+        "codeName": "tu_bong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1104",
+        "areaKm2": 99.6
       }
     }
   ]

@@ -13298,11 +13298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thạnh",
-        "unit_code": "27568",
-        "unit_code_name": "dong_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.122",
-        "area_km2": 30.16
+        "code": "27568",
+        "name": "Đông Thạnh",
+        "nameEn": "Dong Thanh",
+        "fullName": "Xã Đông Thạnh",
+        "fullNameEn": "Dong Thanh Commune",
+        "codeName": "dong_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.122",
+        "areaKm2": 30.16
       }
     }
   ]

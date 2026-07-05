@@ -1770,11 +1770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghi Dương",
-        "unit_code": "11713",
-        "unit_code_name": "nghi_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.901",
-        "area_km2": 19.48
+        "code": "11713",
+        "name": "Nghi Dương",
+        "nameEn": "Nghi Duong",
+        "fullName": "Xã Nghi Dương",
+        "fullNameEn": "Nghi Duong Commune",
+        "codeName": "nghi_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.901",
+        "areaKm2": 19.48
       }
     }
   ]

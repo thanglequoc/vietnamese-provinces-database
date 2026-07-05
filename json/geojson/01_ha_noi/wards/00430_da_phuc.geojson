@@ -11014,11 +11014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đa Phúc",
-        "unit_code": "00430",
-        "unit_code_name": "da_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3252",
-        "area_km2": 55.32
+        "code": "00430",
+        "name": "Đa Phúc",
+        "nameEn": "Da Phuc",
+        "fullName": "Xã Đa Phúc",
+        "fullNameEn": "Da Phuc Commune",
+        "codeName": "da_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3252",
+        "areaKm2": 55.32
       }
     }
   ]

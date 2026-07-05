@@ -11634,11 +11634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Thái",
-        "unit_code": "19858",
-        "unit_code_name": "phong_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1725",
-        "area_km2": 187.02
+        "code": "19858",
+        "name": "Phong Thái",
+        "nameEn": "Phong Thai",
+        "fullName": "Phường Phong Thái",
+        "fullNameEn": "Phong Thai Ward",
+        "codeName": "phong_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1725",
+        "areaKm2": 187.02
       }
     }
   ]

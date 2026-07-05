@@ -9670,11 +9670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Xuân",
-        "unit_code": "08467",
-        "unit_code_name": "van_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1596",
-        "area_km2": 52.43
+        "code": "08467",
+        "name": "Vạn Xuân",
+        "nameEn": "Van Xuan",
+        "fullName": "Xã Vạn Xuân",
+        "fullNameEn": "Van Xuan Commune",
+        "codeName": "van_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1596",
+        "areaKm2": 52.43
       }
     }
   ]

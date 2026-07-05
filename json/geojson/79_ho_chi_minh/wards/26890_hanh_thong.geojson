@@ -1526,11 +1526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạnh Thông",
-        "unit_code": "26890",
-        "unit_code_name": "hanh_thong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.58",
-        "area_km2": 3.37
+        "code": "26890",
+        "name": "Hạnh Thông",
+        "nameEn": "Hanh Thong",
+        "fullName": "Phường Hạnh Thông",
+        "fullNameEn": "Hanh Thong Ward",
+        "codeName": "hanh_thong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.58",
+        "areaKm2": 3.37
       }
     }
   ]

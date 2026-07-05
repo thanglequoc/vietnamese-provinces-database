@@ -3394,11 +3394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mộc Sơn",
-        "unit_code": "03979",
-        "unit_code_name": "moc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1379",
-        "area_km2": 37.88
+        "code": "03979",
+        "name": "Mộc Sơn",
+        "nameEn": "Moc Son",
+        "fullName": "Phường Mộc Sơn",
+        "fullNameEn": "Moc Son Ward",
+        "codeName": "moc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1379",
+        "areaKm2": 37.88
       }
     }
   ]

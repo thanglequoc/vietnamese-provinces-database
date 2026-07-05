@@ -12002,11 +12002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lạn",
-        "unit_code": "04246",
-        "unit_code_name": "muong_lan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1407",
-        "area_km2": 264.89
+        "code": "04246",
+        "name": "Mường Lạn",
+        "nameEn": "Muong Lan",
+        "fullName": "Xã Mường Lạn",
+        "fullNameEn": "Muong Lan Commune",
+        "codeName": "muong_lan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1407",
+        "areaKm2": 264.89
       }
     }
   ]

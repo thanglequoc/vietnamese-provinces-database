@@ -3894,11 +3894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tùng Lộc",
-        "unit_code": "18418",
-        "unit_code_name": "tung_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2003",
-        "area_km2": 37.49
+        "code": "18418",
+        "name": "Tùng Lộc",
+        "nameEn": "Tung Loc",
+        "fullName": "Xã Tùng Lộc",
+        "fullNameEn": "Tung Loc Commune",
+        "codeName": "tung_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2003",
+        "areaKm2": 37.49
       }
     }
   ]

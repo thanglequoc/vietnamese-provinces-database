@@ -9218,11 +9218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Sao",
-        "unit_code": "23416",
-        "unit_code_name": "dak_sao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.535",
-        "area_km2": 172.29
+        "code": "23416",
+        "name": "Đăk Sao",
+        "nameEn": "Dak Sao",
+        "fullName": "Xã Đăk Sao",
+        "fullNameEn": "Dak Sao Commune",
+        "codeName": "dak_sao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.535",
+        "areaKm2": 172.29
       }
     }
   ]

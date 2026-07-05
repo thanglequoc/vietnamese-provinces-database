@@ -458,11 +458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Hồng",
-        "unit_code": "27169",
-        "unit_code_name": "dien_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.86",
-        "area_km2": 1.86
+        "code": "27169",
+        "name": "Diên Hồng",
+        "nameEn": "Dien Hong",
+        "fullName": "Phường Diên Hồng",
+        "fullNameEn": "Dien Hong Ward",
+        "codeName": "dien_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.86",
+        "areaKm2": 1.86
       }
     }
   ]

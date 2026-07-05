@@ -6102,11 +6102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Khánh",
-        "unit_code": "27979",
-        "unit_code_name": "hoa_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1307",
-        "area_km2": 59.75
+        "code": "27979",
+        "name": "Hoà Khánh",
+        "nameEn": "Hoa Khanh",
+        "fullName": "Xã Hoà Khánh",
+        "fullNameEn": "Hoa Khanh Commune",
+        "codeName": "hoa_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1307",
+        "areaKm2": 59.75
       }
     }
   ]

@@ -2034,11 +2034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Thanh",
-        "unit_code": "13402",
-        "unit_code_name": "kim_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2770",
-        "area_km2": 13.49
+        "code": "13402",
+        "name": "Kim Thanh",
+        "nameEn": "Kim Thanh",
+        "fullName": "Phường Kim Thanh",
+        "fullNameEn": "Kim Thanh Ward",
+        "codeName": "kim_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2770",
+        "areaKm2": 13.49
       }
     }
   ]

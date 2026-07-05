@@ -6922,11 +6922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thư Lâm",
-        "unit_code": "00475",
-        "unit_code_name": "thu_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3246",
-        "area_km2": 43.84
+        "code": "00475",
+        "name": "Thư Lâm",
+        "nameEn": "Thu Lam",
+        "fullName": "Xã Thư Lâm",
+        "fullNameEn": "Thu Lam Commune",
+        "codeName": "thu_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3246",
+        "areaKm2": 43.84
       }
     }
   ]

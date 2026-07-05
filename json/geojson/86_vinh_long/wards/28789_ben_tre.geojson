@@ -6274,11 +6274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Tre",
-        "unit_code": "28789",
-        "unit_code_name": "ben_tre",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2449",
-        "area_km2": 31.99
+        "code": "28789",
+        "name": "Bến Tre",
+        "nameEn": "Ben Tre",
+        "fullName": "Phường Bến Tre",
+        "fullNameEn": "Ben Tre Ward",
+        "codeName": "ben_tre",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2449",
+        "areaKm2": 31.99
       }
     }
   ]

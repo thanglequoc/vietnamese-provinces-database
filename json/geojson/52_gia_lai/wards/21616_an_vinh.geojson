@@ -10398,11 +10398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Vinh",
-        "unit_code": "21616",
-        "unit_code_name": "an_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2969",
-        "area_km2": 196.19
+        "code": "21616",
+        "name": "An Vinh",
+        "nameEn": "An Vinh",
+        "fullName": "Xã An Vinh",
+        "fullNameEn": "An Vinh Commune",
+        "codeName": "an_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2969",
+        "areaKm2": 196.19
       }
     }
   ]

@@ -4042,11 +4042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Thạnh Đông",
-        "unit_code": "30445",
-        "unit_code_name": "binh_thanh_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.326",
-        "area_km2": 61.7
+        "code": "30445",
+        "name": "Bình Thạnh Đông",
+        "nameEn": "Binh Thanh Dong",
+        "fullName": "Xã Bình Thạnh Đông",
+        "fullNameEn": "Binh Thanh Dong Commune",
+        "codeName": "binh_thanh_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.326",
+        "areaKm2": 61.7
       }
     }
   ]

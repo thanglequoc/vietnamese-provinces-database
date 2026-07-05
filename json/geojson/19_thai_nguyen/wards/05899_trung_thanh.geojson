@@ -3818,11 +3818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Thành",
-        "unit_code": "05899",
-        "unit_code_name": "trung_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1234",
-        "area_km2": 25.84
+        "code": "05899",
+        "name": "Trung Thành",
+        "nameEn": "Trung Thanh",
+        "fullName": "Phường Trung Thành",
+        "fullNameEn": "Trung Thanh Ward",
+        "codeName": "trung_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1234",
+        "areaKm2": 25.84
       }
     }
   ]

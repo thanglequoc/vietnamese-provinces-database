@@ -10346,11 +10346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Ning",
-        "unit_code": "24540",
-        "unit_code_name": "ea_ning",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2876",
-        "area_km2": 86.21
+        "code": "24540",
+        "name": "Ea Ning",
+        "nameEn": "Ea Ning",
+        "fullName": "Xã Ea Ning",
+        "fullNameEn": "Ea Ning Commune",
+        "codeName": "ea_ning",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2876",
+        "areaKm2": 86.21
       }
     }
   ]

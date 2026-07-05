@@ -8574,11 +8574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Môn",
-        "unit_code": "23374",
-        "unit_code_name": "dak_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.533",
-        "area_km2": 150.8
+        "code": "23374",
+        "name": "Đăk Môn",
+        "nameEn": "Dak Mon",
+        "fullName": "Xã Đăk Môn",
+        "fullNameEn": "Dak Mon Commune",
+        "codeName": "dak_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.533",
+        "areaKm2": 150.8
       }
     }
   ]

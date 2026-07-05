@@ -8326,11 +8326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lam Vỹ",
-        "unit_code": "05542",
-        "unit_code_name": "lam_vy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1215",
-        "area_km2": 71.42
+        "code": "05542",
+        "name": "Lam Vỹ",
+        "nameEn": "Lam Vy",
+        "fullName": "Xã Lam Vỹ",
+        "fullNameEn": "Lam Vy Commune",
+        "codeName": "lam_vy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1215",
+        "areaKm2": 71.42
       }
     }
   ]

@@ -6582,11 +6582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Thịnh",
-        "unit_code": "18277",
-        "unit_code_name": "duc_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2046",
-        "area_km2": 53.39
+        "code": "18277",
+        "name": "Đức Thịnh",
+        "nameEn": "Duc Thinh",
+        "fullName": "Xã Đức Thịnh",
+        "fullNameEn": "Duc Thinh Commune",
+        "codeName": "duc_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2046",
+        "areaKm2": 53.39
       }
     }
   ]

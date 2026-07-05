@@ -9858,11 +9858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Anh",
-        "unit_code": "00382",
-        "unit_code_name": "kim_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3254",
-        "area_km2": 52.8
+        "code": "00382",
+        "name": "Kim Anh",
+        "nameEn": "Kim Anh",
+        "fullName": "Xã Kim Anh",
+        "fullNameEn": "Kim Anh Commune",
+        "codeName": "kim_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3254",
+        "areaKm2": 52.8
       }
     }
   ]

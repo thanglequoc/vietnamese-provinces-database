@@ -11066,11 +11066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Long",
-        "unit_code": "23368",
-        "unit_code_name": "dak_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.532",
-        "area_km2": 280.5
+        "code": "23368",
+        "name": "Đăk Long",
+        "nameEn": "Dak Long",
+        "fullName": "Xã Đăk Long",
+        "fullNameEn": "Dak Long Commune",
+        "codeName": "dak_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.532",
+        "areaKm2": 280.5
       }
     }
   ]

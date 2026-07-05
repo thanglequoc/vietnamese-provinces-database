@@ -5190,11 +5190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Song Lộc",
-        "unit_code": "29386",
-        "unit_code_name": "song_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2504",
-        "area_km2": 80.1
+        "code": "29386",
+        "name": "Song Lộc",
+        "nameEn": "Song Loc",
+        "fullName": "Xã Song Lộc",
+        "fullNameEn": "Song Loc Commune",
+        "codeName": "song_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2504",
+        "areaKm2": 80.1
       }
     }
   ]

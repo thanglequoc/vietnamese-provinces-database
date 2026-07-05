@@ -8086,11 +8086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Sung",
-        "unit_code": "04108",
-        "unit_code_name": "chieng_sung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1387",
-        "area_km2": 109.28
+        "code": "04108",
+        "name": "Chiềng Sung",
+        "nameEn": "Chieng Sung",
+        "fullName": "Xã Chiềng Sung",
+        "fullNameEn": "Chieng Sung Commune",
+        "codeName": "chieng_sung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1387",
+        "areaKm2": 109.28
       }
     }
   ]

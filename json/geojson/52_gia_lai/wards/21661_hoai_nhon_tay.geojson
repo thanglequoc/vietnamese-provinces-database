@@ -10350,11 +10350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Nhơn Tây",
-        "unit_code": "21661",
-        "unit_code_name": "hoai_nhon_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2975",
-        "area_km2": 78.15
+        "code": "21661",
+        "name": "Hoài Nhơn Tây",
+        "nameEn": "Hoai Nhon Tay",
+        "fullName": "Phường Hoài Nhơn Tây",
+        "fullNameEn": "Hoai Nhon Tay Ward",
+        "codeName": "hoai_nhon_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2975",
+        "areaKm2": 78.15
       }
     }
   ]

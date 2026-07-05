@@ -5442,11 +5442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Trạch",
-        "unit_code": "31834",
-        "unit_code_name": "vinh_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.140",
-        "area_km2": 10.22
+        "code": "31834",
+        "name": "Vĩnh Trạch",
+        "nameEn": "Vinh Trach",
+        "fullName": "Phường Vĩnh Trạch",
+        "fullNameEn": "Vinh Trach Ward",
+        "codeName": "vinh_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.140",
+        "areaKm2": 10.22
       }
     }
   ]

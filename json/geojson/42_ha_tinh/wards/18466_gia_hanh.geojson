@@ -7410,11 +7410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Hanh",
-        "unit_code": "18466",
-        "unit_code_name": "gia_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2005",
-        "area_km2": 45.39
+        "code": "18466",
+        "name": "Gia Hanh",
+        "nameEn": "Gia Hanh",
+        "fullName": "Xã Gia Hanh",
+        "fullNameEn": "Gia Hanh Commune",
+        "codeName": "gia_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2005",
+        "areaKm2": 45.39
       }
     }
   ]

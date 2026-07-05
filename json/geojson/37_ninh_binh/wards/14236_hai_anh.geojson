@@ -2114,11 +2114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Anh",
-        "unit_code": "14236",
-        "unit_code_name": "hai_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.834",
-        "area_km2": 26.13
+        "code": "14236",
+        "name": "Hải Anh",
+        "nameEn": "Hai Anh",
+        "fullName": "Xã Hải Anh",
+        "fullNameEn": "Hai Anh Commune",
+        "codeName": "hai_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.834",
+        "areaKm2": 26.13
       }
     }
   ]

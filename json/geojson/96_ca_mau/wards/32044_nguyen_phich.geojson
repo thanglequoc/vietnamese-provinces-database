@@ -10402,11 +10402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Phích",
-        "unit_code": "32044",
-        "unit_code_name": "nguyen_phich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.201",
-        "area_km2": 245
+        "code": "32044",
+        "name": "Nguyễn Phích",
+        "nameEn": "Nguyen Phich",
+        "fullName": "Xã Nguyễn Phích",
+        "fullNameEn": "Nguyen Phich Commune",
+        "codeName": "nguyen_phich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.201",
+        "areaKm2": 245
       }
     }
   ]

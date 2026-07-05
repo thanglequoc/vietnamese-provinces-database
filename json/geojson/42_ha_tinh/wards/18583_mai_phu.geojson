@@ -3150,11 +3150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mai Phụ",
-        "unit_code": "18583",
-        "unit_code_name": "mai_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2000",
-        "area_km2": 31.93
+        "code": "18583",
+        "name": "Mai Phụ",
+        "nameEn": "Mai Phu",
+        "fullName": "Xã Mai Phụ",
+        "fullNameEn": "Mai Phu Commune",
+        "codeName": "mai_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2000",
+        "areaKm2": 31.93
       }
     }
   ]

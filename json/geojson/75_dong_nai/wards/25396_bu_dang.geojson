@@ -19534,11 +19534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bù Đăng",
-        "unit_code": "25396",
-        "unit_code_name": "bu_dang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2300",
-        "area_km2": 156.1
+        "code": "25396",
+        "name": "Bù Đăng",
+        "nameEn": "Bu Dang",
+        "fullName": "Xã Bù Đăng",
+        "fullNameEn": "Bu Dang Commune",
+        "codeName": "bu_dang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2300",
+        "areaKm2": 156.1
       }
     }
   ]

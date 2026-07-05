@@ -13330,11 +13330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bãi Cháy",
-        "unit_code": "06673",
-        "unit_code_name": "bai_chay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1866",
-        "area_km2": 25.39
+        "code": "06673",
+        "name": "Bãi Cháy",
+        "nameEn": "Bai Chay",
+        "fullName": "Phường Bãi Cháy",
+        "fullNameEn": "Bai Chay Ward",
+        "codeName": "bai_chay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1866",
+        "areaKm2": 25.39
       }
     }
   ]

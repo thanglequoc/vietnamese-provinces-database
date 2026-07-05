@@ -5814,11 +5814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Xuyên",
-        "unit_code": "31684",
-        "unit_code_name": "my_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.287",
-        "area_km2": 48.34
+        "code": "31684",
+        "name": "Mỹ Xuyên",
+        "nameEn": "My Xuyen",
+        "fullName": "Phường Mỹ Xuyên",
+        "fullNameEn": "My Xuyen Ward",
+        "codeName": "my_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.287",
+        "areaKm2": 48.34
       }
     }
   ]

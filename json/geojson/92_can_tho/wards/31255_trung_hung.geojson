@@ -10782,11 +10782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Hưng",
-        "unit_code": "31255",
-        "unit_code_name": "trung_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.223",
-        "area_km2": 61.07
+        "code": "31255",
+        "name": "Trung Hưng",
+        "nameEn": "Trung Hung",
+        "fullName": "Xã Trung Hưng",
+        "fullNameEn": "Trung Hung Commune",
+        "codeName": "trung_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.223",
+        "areaKm2": 61.07
       }
     }
   ]

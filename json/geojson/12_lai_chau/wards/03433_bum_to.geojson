@@ -32794,11 +32794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bum Tở",
-        "unit_code": "03433",
-        "unit_code_name": "bum_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2071",
-        "area_km2": 384.07
+        "code": "03433",
+        "name": "Bum Tở",
+        "nameEn": "Bum To",
+        "fullName": "Xã Bum Tở",
+        "fullNameEn": "Bum To Commune",
+        "codeName": "bum_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2071",
+        "areaKm2": 384.07
       }
     }
   ]

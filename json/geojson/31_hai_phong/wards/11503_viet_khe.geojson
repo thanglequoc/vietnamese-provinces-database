@@ -2854,11 +2854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Khê",
-        "unit_code": "11503",
-        "unit_code_name": "viet_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.945",
-        "area_km2": 30.98
+        "code": "11503",
+        "name": "Việt Khê",
+        "nameEn": "Viet Khe",
+        "fullName": "Xã Việt Khê",
+        "fullNameEn": "Viet Khe Commune",
+        "codeName": "viet_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.945",
+        "areaKm2": 30.98
       }
     }
   ]

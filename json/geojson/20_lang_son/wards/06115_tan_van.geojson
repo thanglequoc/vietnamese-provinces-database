@@ -9978,11 +9978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Văn",
-        "unit_code": "06115",
-        "unit_code_name": "tan_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1836",
-        "area_km2": 112.06
+        "code": "06115",
+        "name": "Tân Văn",
+        "nameEn": "Tan Van",
+        "fullName": "Xã Tân Văn",
+        "fullNameEn": "Tan Van Commune",
+        "codeName": "tan_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1836",
+        "areaKm2": 112.06
       }
     }
   ]

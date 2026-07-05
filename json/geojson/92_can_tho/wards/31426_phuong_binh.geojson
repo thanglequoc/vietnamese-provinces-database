@@ -4270,11 +4270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phương Bình",
-        "unit_code": "31426",
-        "unit_code_name": "phuong_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.249",
-        "area_km2": 85.87
+        "code": "31426",
+        "name": "Phương Bình",
+        "nameEn": "Phuong Binh",
+        "fullName": "Xã Phương Bình",
+        "fullNameEn": "Phuong Binh Commune",
+        "codeName": "phuong_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.249",
+        "areaKm2": 85.87
       }
     }
   ]

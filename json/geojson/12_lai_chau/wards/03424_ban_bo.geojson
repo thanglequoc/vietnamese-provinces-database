@@ -13150,11 +13150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Bo",
-        "unit_code": "03424",
-        "unit_code_name": "ban_bo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2066",
-        "area_km2": 100.82
+        "code": "03424",
+        "name": "Bản Bo",
+        "nameEn": "Ban Bo",
+        "fullName": "Xã Bản Bo",
+        "fullNameEn": "Ban Bo Commune",
+        "codeName": "ban_bo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2066",
+        "areaKm2": 100.82
       }
     }
   ]

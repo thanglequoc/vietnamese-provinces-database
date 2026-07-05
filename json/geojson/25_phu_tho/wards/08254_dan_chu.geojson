@@ -5986,11 +5986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dân Chủ",
-        "unit_code": "08254",
-        "unit_code_name": "dan_chu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1552",
-        "area_km2": 29.85
+        "code": "08254",
+        "name": "Dân Chủ",
+        "nameEn": "Dan Chu",
+        "fullName": "Xã Dân Chủ",
+        "fullNameEn": "Dan Chu Commune",
+        "codeName": "dan_chu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1552",
+        "areaKm2": 29.85
       }
     }
   ]

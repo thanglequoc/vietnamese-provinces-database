@@ -9890,11 +9890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vinh Quý",
-        "unit_code": "01561",
-        "unit_code_name": "vinh_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.995",
-        "area_km2": 143.05
+        "code": "01561",
+        "name": "Vinh Quý",
+        "nameEn": "Vinh Quy",
+        "fullName": "Xã Vinh Quý",
+        "fullNameEn": "Vinh Quy Commune",
+        "codeName": "vinh_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.995",
+        "areaKm2": 143.05
       }
     }
   ]

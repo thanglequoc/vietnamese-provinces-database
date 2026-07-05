@@ -5414,11 +5414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Trung",
-        "unit_code": "01465",
-        "unit_code_name": "quang_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1000",
-        "area_km2": 82.6
+        "code": "01465",
+        "name": "Quang Trung",
+        "nameEn": "Quang Trung",
+        "fullName": "Xã Quang Trung",
+        "fullNameEn": "Quang Trung Commune",
+        "codeName": "quang_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1000",
+        "areaKm2": 82.6
       }
     }
   ]

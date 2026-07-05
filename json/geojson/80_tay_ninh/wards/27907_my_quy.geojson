@@ -2994,11 +2994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Quý",
-        "unit_code": "27907",
-        "unit_code_name": "my_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1300",
-        "area_km2": 132.98
+        "code": "27907",
+        "name": "Mỹ Quý",
+        "nameEn": "My Quy",
+        "fullName": "Xã Mỹ Quý",
+        "fullNameEn": "My Quy Commune",
+        "codeName": "my_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1300",
+        "areaKm2": 132.98
       }
     }
   ]

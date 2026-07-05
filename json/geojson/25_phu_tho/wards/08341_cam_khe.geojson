@@ -9026,11 +9026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Khê",
-        "unit_code": "08341",
-        "unit_code_name": "cam_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1578",
-        "area_km2": 50.44
+        "code": "08341",
+        "name": "Cẩm Khê",
+        "nameEn": "Cam Khe",
+        "fullName": "Xã Cẩm Khê",
+        "fullNameEn": "Cam Khe Commune",
+        "codeName": "cam_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1578",
+        "areaKm2": 50.44
       }
     }
   ]

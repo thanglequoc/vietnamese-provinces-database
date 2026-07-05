@@ -11226,11 +11226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Đông",
-        "unit_code": "26359",
-        "unit_code_name": "xuan_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3131",
-        "area_km2": 108
+        "code": "26359",
+        "name": "Xuân Đông",
+        "nameEn": "Xuan Dong",
+        "fullName": "Xã Xuân Đông",
+        "fullNameEn": "Xuan Dong Commune",
+        "codeName": "xuan_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3131",
+        "areaKm2": 108
       }
     }
   ]

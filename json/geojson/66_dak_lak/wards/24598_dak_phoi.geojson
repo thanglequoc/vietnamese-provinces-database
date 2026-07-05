@@ -14102,11 +14102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Phơi",
-        "unit_code": "24598",
-        "unit_code_name": "dak_phoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2881",
-        "area_km2": 266.83
+        "code": "24598",
+        "name": "Đắk Phơi",
+        "nameEn": "Dak Phoi",
+        "fullName": "Xã Đắk Phơi",
+        "fullNameEn": "Dak Phoi Commune",
+        "codeName": "dak_phoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2881",
+        "areaKm2": 266.83
       }
     }
   ]

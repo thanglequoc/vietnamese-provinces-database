@@ -4438,11 +4438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tịnh Khê",
-        "unit_code": "21211",
-        "unit_code_name": "tinh_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1770",
-        "area_km2": 46.05
+        "code": "21211",
+        "name": "Tịnh Khê",
+        "nameEn": "Tinh Khe",
+        "fullName": "Xã Tịnh Khê",
+        "fullNameEn": "Tinh Khe Commune",
+        "codeName": "tinh_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1770",
+        "areaKm2": 46.05
       }
     }
   ]

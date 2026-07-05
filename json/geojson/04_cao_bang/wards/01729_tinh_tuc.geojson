@@ -8070,11 +8070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tĩnh Túc",
-        "unit_code": "01729",
-        "unit_code_name": "tinh_tuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.965",
-        "area_km2": 86.79
+        "code": "01729",
+        "name": "Tĩnh Túc",
+        "nameEn": "Tinh Tuc",
+        "fullName": "Xã Tĩnh Túc",
+        "fullNameEn": "Tinh Tuc Commune",
+        "codeName": "tinh_tuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.965",
+        "areaKm2": 86.79
       }
     }
   ]

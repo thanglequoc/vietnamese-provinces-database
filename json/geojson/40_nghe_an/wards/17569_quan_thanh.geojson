@@ -4278,11 +4278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quan Thành",
-        "unit_code": "17569",
-        "unit_code_name": "quan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1455",
-        "area_km2": 37.71
+        "code": "17569",
+        "name": "Quan Thành",
+        "nameEn": "Quan Thanh",
+        "fullName": "Xã Quan Thành",
+        "fullNameEn": "Quan Thanh Commune",
+        "codeName": "quan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1455",
+        "areaKm2": 37.71
       }
     }
   ]

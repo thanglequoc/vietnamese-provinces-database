@@ -1146,11 +1146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thổ Châu",
-        "unit_code": "31105",
-        "unit_code_name": "tho_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3292",
-        "area_km2": 13.98
+        "code": "31105",
+        "name": "Thổ Châu",
+        "nameEn": "Tho Chau",
+        "fullName": "Đặc khu Thổ Châu",
+        "fullNameEn": "Tho Chau Special administrative region",
+        "codeName": "tho_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3292",
+        "areaKm2": 13.98
       }
     }
   ]

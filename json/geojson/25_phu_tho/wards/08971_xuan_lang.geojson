@@ -6510,11 +6510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lãng",
-        "unit_code": "08971",
-        "unit_code_name": "xuan_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1628",
-        "area_km2": 29.9
+        "code": "08971",
+        "name": "Xuân Lãng",
+        "nameEn": "Xuan Lang",
+        "fullName": "Xã Xuân Lãng",
+        "fullNameEn": "Xuan Lang Commune",
+        "codeName": "xuan_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1628",
+        "areaKm2": 29.9
       }
     }
   ]

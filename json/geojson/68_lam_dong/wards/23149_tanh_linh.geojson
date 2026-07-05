@@ -26322,11 +26322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tánh Linh",
-        "unit_code": "23149",
-        "unit_code_name": "tanh_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3087",
-        "area_km2": 271.39
+        "code": "23149",
+        "name": "Tánh Linh",
+        "nameEn": "Tanh Linh",
+        "fullName": "Xã Tánh Linh",
+        "fullNameEn": "Tanh Linh Commune",
+        "codeName": "tanh_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3087",
+        "areaKm2": 271.39
       }
     }
   ]

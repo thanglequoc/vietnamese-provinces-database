@@ -9670,11 +9670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thành",
-        "unit_code": "05923",
-        "unit_code_name": "tan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1237",
-        "area_km2": 69.03
+        "code": "05923",
+        "name": "Tân Thành",
+        "nameEn": "Tan Thanh",
+        "fullName": "Xã Tân Thành",
+        "fullNameEn": "Tan Thanh Commune",
+        "codeName": "tan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1237",
+        "areaKm2": 69.03
       }
     }
   ]

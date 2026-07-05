@@ -15498,11 +15498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Phú",
-        "unit_code": "02398",
-        "unit_code_name": "yen_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2336",
-        "area_km2": 222.57
+        "code": "02398",
+        "name": "Yên Phú",
+        "nameEn": "Yen Phu",
+        "fullName": "Xã Yên Phú",
+        "fullNameEn": "Yen Phu Commune",
+        "codeName": "yen_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2336",
+        "areaKm2": 222.57
       }
     }
   ]

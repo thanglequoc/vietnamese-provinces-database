@@ -14602,11 +14602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức An",
-        "unit_code": "24717",
-        "unit_code_name": "duc_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2815",
-        "area_km2": 161.02
+        "code": "24717",
+        "name": "Đức An",
+        "nameEn": "Duc An",
+        "fullName": "Xã Đức An",
+        "fullNameEn": "Duc An Commune",
+        "codeName": "duc_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2815",
+        "areaKm2": 161.02
       }
     }
   ]

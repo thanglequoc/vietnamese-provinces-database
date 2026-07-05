@@ -8922,11 +8922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cà Ná",
-        "unit_code": "22909",
-        "unit_code_name": "ca_na",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1162",
-        "area_km2": 63.9
+        "code": "22909",
+        "name": "Cà Ná",
+        "nameEn": "Ca Na",
+        "fullName": "Xã Cà Ná",
+        "fullNameEn": "Ca Na Commune",
+        "codeName": "ca_na",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1162",
+        "areaKm2": 63.9
       }
     }
   ]

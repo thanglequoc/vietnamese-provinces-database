@@ -4578,11 +4578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Tờ Kan",
-        "unit_code": "23419",
-        "unit_code_name": "dak_to_kan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.536",
-        "area_km2": 131.84
+        "code": "23419",
+        "name": "Đăk Tờ Kan",
+        "nameEn": "Dak To Kan",
+        "fullName": "Xã Đăk Tờ Kan",
+        "fullNameEn": "Dak To Kan Commune",
+        "codeName": "dak_to_kan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.536",
+        "areaKm2": 131.84
       }
     }
   ]

@@ -4110,11 +4110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới An Đông",
-        "unit_code": "31174",
-        "unit_code_name": "thoi_an_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.210",
-        "area_km2": 25.04
+        "code": "31174",
+        "name": "Thới An Đông",
+        "nameEn": "Thoi An Dong",
+        "fullName": "Phường Thới An Đông",
+        "fullNameEn": "Thoi An Dong Ward",
+        "codeName": "thoi_an_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.210",
+        "areaKm2": 25.04
       }
     }
   ]

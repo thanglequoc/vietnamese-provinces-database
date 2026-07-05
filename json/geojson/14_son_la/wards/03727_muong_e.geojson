@@ -11662,11 +11662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường É",
-        "unit_code": "03727",
-        "unit_code_name": "muong_e",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1346",
-        "area_km2": 139.91
+        "code": "03727",
+        "name": "Mường É",
+        "nameEn": "Muong E",
+        "fullName": "Xã Mường É",
+        "fullNameEn": "Muong E Commune",
+        "codeName": "muong_e",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1346",
+        "areaKm2": 139.91
       }
     }
   ]

@@ -5134,11 +5134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thường Tín",
-        "unit_code": "10183",
-        "unit_code_name": "thuong_tin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3166",
-        "area_km2": 28.29
+        "code": "10183",
+        "name": "Thường Tín",
+        "nameEn": "Thuong Tin",
+        "fullName": "Xã Thường Tín",
+        "fullNameEn": "Thuong Tin Commune",
+        "codeName": "thuong_tin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3166",
+        "areaKm2": 28.29
       }
     }
   ]

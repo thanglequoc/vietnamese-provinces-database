@@ -16682,11 +16682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Phú",
-        "unit_code": "25363",
-        "unit_code_name": "dong_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2308",
-        "area_km2": 138.7
+        "code": "25363",
+        "name": "Đồng Phú",
+        "nameEn": "Dong Phu",
+        "fullName": "Phường Đồng Phú",
+        "fullNameEn": "Dong Phu Ward",
+        "codeName": "dong_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2308",
+        "areaKm2": 138.7
       }
     }
   ]

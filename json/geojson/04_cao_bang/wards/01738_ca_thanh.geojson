@@ -8522,11 +8522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ca Thành",
-        "unit_code": "01738",
-        "unit_code_name": "ca_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.980",
-        "area_km2": 109.85
+        "code": "01738",
+        "name": "Ca Thành",
+        "nameEn": "Ca Thanh",
+        "fullName": "Xã Ca Thành",
+        "fullNameEn": "Ca Thanh Commune",
+        "codeName": "ca_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.980",
+        "areaKm2": 109.85
       }
     }
   ]

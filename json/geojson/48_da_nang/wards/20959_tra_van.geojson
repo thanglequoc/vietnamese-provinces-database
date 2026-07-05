@@ -8658,11 +8658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Vân",
-        "unit_code": "20959",
-        "unit_code_name": "tra_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1982",
-        "area_km2": 85.58
+        "code": "20959",
+        "name": "Trà Vân",
+        "nameEn": "Tra Van",
+        "fullName": "Xã Trà Vân",
+        "fullNameEn": "Tra Van Commune",
+        "codeName": "tra_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1982",
+        "areaKm2": 85.58
       }
     }
   ]

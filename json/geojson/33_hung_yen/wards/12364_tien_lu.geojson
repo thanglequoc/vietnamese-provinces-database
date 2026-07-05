@@ -2178,11 +2178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Lữ",
-        "unit_code": "12364",
-        "unit_code_name": "tien_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.721",
-        "area_km2": 19.51
+        "code": "12364",
+        "name": "Tiên Lữ",
+        "nameEn": "Tien Lu",
+        "fullName": "Xã Tiên Lữ",
+        "fullNameEn": "Tien Lu Commune",
+        "codeName": "tien_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.721",
+        "areaKm2": 19.51
       }
     }
   ]

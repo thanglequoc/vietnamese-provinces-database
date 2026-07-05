@@ -2958,11 +2958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Phúc",
-        "unit_code": "10231",
-        "unit_code_name": "thuong_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3162",
-        "area_km2": 28.91
+        "code": "10231",
+        "name": "Thượng Phúc",
+        "nameEn": "Thuong Phuc",
+        "fullName": "Xã Thượng Phúc",
+        "fullNameEn": "Thuong Phuc Commune",
+        "codeName": "thuong_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3162",
+        "areaKm2": 28.91
       }
     }
   ]

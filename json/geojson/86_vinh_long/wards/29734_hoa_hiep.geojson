@@ -8018,11 +8018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Hiệp",
-        "unit_code": "29734",
-        "unit_code_name": "hoa_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2547",
-        "area_km2": 44.1
+        "code": "29734",
+        "name": "Hoà Hiệp",
+        "nameEn": "Hoa Hiep",
+        "fullName": "Xã Hoà Hiệp",
+        "fullNameEn": "Hoa Hiep Commune",
+        "codeName": "hoa_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2547",
+        "areaKm2": 44.1
       }
     }
   ]

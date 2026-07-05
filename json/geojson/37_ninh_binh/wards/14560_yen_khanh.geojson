@@ -1898,11 +1898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Khánh",
-        "unit_code": "14560",
-        "unit_code_name": "yen_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.763",
-        "area_km2": 29.88
+        "code": "14560",
+        "name": "Yên Khánh",
+        "nameEn": "Yen Khanh",
+        "fullName": "Xã Yên Khánh",
+        "fullNameEn": "Yen Khanh Commune",
+        "codeName": "yen_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.763",
+        "areaKm2": 29.88
       }
     }
   ]

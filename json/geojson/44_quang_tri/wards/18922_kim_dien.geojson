@@ -12146,11 +12146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Điền",
-        "unit_code": "18922",
-        "unit_code_name": "kim_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.603",
-        "area_km2": 229.42
+        "code": "18922",
+        "name": "Kim Điền",
+        "nameEn": "Kim Dien",
+        "fullName": "Xã Kim Điền",
+        "fullNameEn": "Kim Dien Commune",
+        "codeName": "kim_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.603",
+        "areaKm2": 229.42
       }
     }
   ]

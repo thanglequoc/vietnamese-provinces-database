@@ -9110,11 +9110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bát Xát",
-        "unit_code": "02683",
-        "unit_code_name": "bat_xat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1091",
-        "area_km2": 190
+        "code": "02683",
+        "name": "Bát Xát",
+        "nameEn": "Bat Xat",
+        "fullName": "Xã Bát Xát",
+        "fullNameEn": "Bat Xat Commune",
+        "codeName": "bat_xat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1091",
+        "areaKm2": 190
       }
     }
   ]

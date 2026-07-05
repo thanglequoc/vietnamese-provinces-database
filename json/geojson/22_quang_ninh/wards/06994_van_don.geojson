@@ -123114,11 +123114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Đồn",
-        "unit_code": "06994",
-        "unit_code_name": "van_don",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3315",
-        "area_km2": 583.92
+        "code": "06994",
+        "name": "Vân Đồn",
+        "nameEn": "Van Don",
+        "fullName": "Đặc khu Vân Đồn",
+        "fullNameEn": "Van Don Special administrative region",
+        "codeName": "van_don",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3315",
+        "areaKm2": 583.92
       }
     }
   ]

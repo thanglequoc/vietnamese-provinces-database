@@ -3930,11 +3930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Giang",
-        "unit_code": "21370",
-        "unit_code_name": "phuoc_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1744",
-        "area_km2": 57.02
+        "code": "21370",
+        "name": "Phước Giang",
+        "nameEn": "Phuoc Giang",
+        "fullName": "Xã Phước Giang",
+        "fullNameEn": "Phuoc Giang Commune",
+        "codeName": "phuoc_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1744",
+        "areaKm2": 57.02
       }
     }
   ]

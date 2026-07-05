@@ -19770,11 +19770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Plô",
-        "unit_code": "23344",
-        "unit_code_name": "dak_plo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.558",
-        "area_km2": 433.41
+        "code": "23344",
+        "name": "Đăk Plô",
+        "nameEn": "Dak Plo",
+        "fullName": "Xã Đăk Plô",
+        "fullNameEn": "Dak Plo Commune",
+        "codeName": "dak_plo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.558",
+        "areaKm2": 433.41
       }
     }
   ]

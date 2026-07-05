@@ -10298,11 +10298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Tơi",
-        "unit_code": "23538",
-        "unit_code_name": "ia_toi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.548",
-        "area_km2": 762.1
+        "code": "23538",
+        "name": "Ia Tơi",
+        "nameEn": "Ia Toi",
+        "fullName": "Xã Ia Tơi",
+        "fullNameEn": "Ia Toi Commune",
+        "codeName": "ia_toi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.548",
+        "areaKm2": 762.1
       }
     }
   ]

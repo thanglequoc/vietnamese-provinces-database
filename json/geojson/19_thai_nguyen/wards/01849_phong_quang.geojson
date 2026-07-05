@@ -7490,11 +7490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Quang",
-        "unit_code": "01849",
-        "unit_code_name": "phong_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1254",
-        "area_km2": 153.46
+        "code": "01849",
+        "name": "Phong Quang",
+        "nameEn": "Phong Quang",
+        "fullName": "Xã Phong Quang",
+        "fullNameEn": "Phong Quang Commune",
+        "codeName": "phong_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1254",
+        "areaKm2": 153.46
       }
     }
   ]

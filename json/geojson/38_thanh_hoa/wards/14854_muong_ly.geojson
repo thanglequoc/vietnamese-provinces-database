@@ -4562,11 +4562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lý",
-        "unit_code": "14854",
-        "unit_code_name": "muong_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2704",
-        "area_km2": 83.99
+        "code": "14854",
+        "name": "Mường Lý",
+        "nameEn": "Muong Ly",
+        "fullName": "Xã Mường Lý",
+        "fullNameEn": "Muong Ly Commune",
+        "codeName": "muong_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2704",
+        "areaKm2": 83.99
       }
     }
   ]

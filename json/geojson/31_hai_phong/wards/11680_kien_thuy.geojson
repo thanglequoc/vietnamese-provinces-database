@@ -2938,11 +2938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Thuỵ",
-        "unit_code": "11680",
-        "unit_code_name": "kien_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.935",
-        "area_km2": 20.18
+        "code": "11680",
+        "name": "Kiến Thuỵ",
+        "nameEn": "Kien Thuy",
+        "fullName": "Xã Kiến Thuỵ",
+        "fullNameEn": "Kien Thuy Commune",
+        "codeName": "kien_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.935",
+        "areaKm2": 20.18
       }
     }
   ]

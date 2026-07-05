@@ -2478,11 +2478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quới Thiện",
-        "unit_code": "29677",
-        "unit_code_name": "quoi_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2537",
-        "area_km2": 46.95
+        "code": "29677",
+        "name": "Quới Thiện",
+        "nameEn": "Quoi Thien",
+        "fullName": "Xã Quới Thiện",
+        "fullNameEn": "Quoi Thien Commune",
+        "codeName": "quoi_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2537",
+        "areaKm2": 46.95
       }
     }
   ]

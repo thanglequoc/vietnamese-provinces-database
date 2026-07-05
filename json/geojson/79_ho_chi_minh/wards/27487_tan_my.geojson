@@ -470,11 +470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Mỹ",
-        "unit_code": "27487",
-        "unit_code_name": "tan_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.113",
-        "area_km2": 6.45
+        "code": "27487",
+        "name": "Tân Mỹ",
+        "nameEn": "Tan My",
+        "fullName": "Phường Tân Mỹ",
+        "fullNameEn": "Tan My Ward",
+        "codeName": "tan_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.113",
+        "areaKm2": 6.45
       }
     }
   ]

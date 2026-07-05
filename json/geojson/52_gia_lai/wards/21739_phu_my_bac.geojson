@@ -9646,11 +9646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Mỹ Bắc",
-        "unit_code": "21739",
-        "unit_code_name": "phu_my_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2986",
-        "area_km2": 100.98
+        "code": "21739",
+        "name": "Phù Mỹ Bắc",
+        "nameEn": "Phu My Bac",
+        "fullName": "Xã Phù Mỹ Bắc",
+        "fullNameEn": "Phu My Bac Commune",
+        "codeName": "phu_my_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2986",
+        "areaKm2": 100.98
       }
     }
   ]

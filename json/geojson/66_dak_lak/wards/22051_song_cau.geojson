@@ -18910,11 +18910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Cầu",
-        "unit_code": "22051",
-        "unit_code_name": "song_cau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2893",
-        "area_km2": 90.49
+        "code": "22051",
+        "name": "Sông Cầu",
+        "nameEn": "Song Cau",
+        "fullName": "Phường Sông Cầu",
+        "fullNameEn": "Song Cau Ward",
+        "codeName": "song_cau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2893",
+        "areaKm2": 90.49
       }
     }
   ]

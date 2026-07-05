@@ -978,11 +978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Hà",
-        "unit_code": "00008",
-        "unit_code_name": "ngoc_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3257",
-        "area_km2": 2.68
+        "code": "00008",
+        "name": "Ngọc Hà",
+        "nameEn": "Ngoc Ha",
+        "fullName": "Phường Ngọc Hà",
+        "fullNameEn": "Ngoc Ha Ward",
+        "codeName": "ngoc_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3257",
+        "areaKm2": 2.68
       }
     }
   ]

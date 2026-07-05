@@ -1718,11 +1718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội An Đông",
-        "unit_code": "20413",
-        "unit_code_name": "hoi_an_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1947",
-        "area_km2": 18.22
+        "code": "20413",
+        "name": "Hội An Đông",
+        "nameEn": "Hoi An Dong",
+        "fullName": "Phường Hội An Đông",
+        "fullNameEn": "Hoi An Dong Ward",
+        "codeName": "hoi_an_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1947",
+        "areaKm2": 18.22
       }
     }
   ]

@@ -2634,11 +2634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Phú",
-        "unit_code": "20356",
-        "unit_code_name": "quang_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1972",
-        "area_km2": 36.21
+        "code": "20356",
+        "name": "Quảng Phú",
+        "nameEn": "Quang Phu",
+        "fullName": "Phường Quảng Phú",
+        "fullNameEn": "Quang Phu Ward",
+        "codeName": "quang_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1972",
+        "areaKm2": 36.21
       }
     }
   ]

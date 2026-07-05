@@ -20326,11 +20326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Liêng",
-        "unit_code": "24595",
-        "unit_code_name": "dak_lieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2880",
-        "area_km2": 135.55
+        "code": "24595",
+        "name": "Đắk Liêng",
+        "nameEn": "Dak Lieng",
+        "fullName": "Xã Đắk Liêng",
+        "fullNameEn": "Dak Lieng Commune",
+        "codeName": "dak_lieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2880",
+        "areaKm2": 135.55
       }
     }
   ]

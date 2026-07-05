@@ -18150,11 +18150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Rve",
-        "unit_code": "23479",
-        "unit_code_name": "dak_rve",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1732",
-        "area_km2": 212.54
+        "code": "23479",
+        "name": "Đăk Rve",
+        "nameEn": "Dak Rve",
+        "fullName": "Xã Đăk Rve",
+        "fullNameEn": "Dak Rve Commune",
+        "codeName": "dak_rve",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1732",
+        "areaKm2": 212.54
       }
     }
   ]

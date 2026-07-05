@@ -2534,11 +2534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàn Long",
-        "unit_code": "12070",
-        "unit_code_name": "hoan_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.736",
-        "area_km2": 19.6
+        "code": "12070",
+        "name": "Hoàn Long",
+        "nameEn": "Hoan Long",
+        "fullName": "Xã Hoàn Long",
+        "fullNameEn": "Hoan Long Commune",
+        "codeName": "hoan_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.736",
+        "areaKm2": 19.6
       }
     }
   ]

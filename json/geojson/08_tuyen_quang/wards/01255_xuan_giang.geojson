@@ -6806,11 +6806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Giang",
-        "unit_code": "01255",
-        "unit_code_name": "xuan_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2422",
-        "area_km2": 86.06
+        "code": "01255",
+        "name": "Xuân Giang",
+        "nameEn": "Xuan Giang",
+        "fullName": "Xã Xuân Giang",
+        "fullNameEn": "Xuan Giang Commune",
+        "codeName": "xuan_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2422",
+        "areaKm2": 86.06
       }
     }
   ]

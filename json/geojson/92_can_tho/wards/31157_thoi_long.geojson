@@ -7298,11 +7298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Long",
-        "unit_code": "31157",
-        "unit_code_name": "thoi_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.207",
-        "area_km2": 54.1
+        "code": "31157",
+        "name": "Thới Long",
+        "nameEn": "Thoi Long",
+        "fullName": "Phường Thới Long",
+        "fullNameEn": "Thoi Long Ward",
+        "codeName": "thoi_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.207",
+        "areaKm2": 54.1
       }
     }
   ]

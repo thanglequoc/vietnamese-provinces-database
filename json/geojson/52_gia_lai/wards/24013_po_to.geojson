@@ -12918,11 +12918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pờ Tó",
-        "unit_code": "24013",
-        "unit_code_name": "po_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2955",
-        "area_km2": 177.9
+        "code": "24013",
+        "name": "Pờ Tó",
+        "nameEn": "Po To",
+        "fullName": "Xã Pờ Tó",
+        "fullNameEn": "Po To Commune",
+        "codeName": "po_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2955",
+        "areaKm2": 177.9
       }
     }
   ]

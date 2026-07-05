@@ -16350,11 +16350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Lua",
-        "unit_code": "26119",
-        "unit_code_name": "dak_lua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3150",
-        "area_km2": 415.1
+        "code": "26119",
+        "name": "Đak Lua",
+        "nameEn": "Dak Lua",
+        "fullName": "Xã Đak Lua",
+        "fullNameEn": "Dak Lua Commune",
+        "codeName": "dak_lua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3150",
+        "areaKm2": 415.1
       }
     }
   ]

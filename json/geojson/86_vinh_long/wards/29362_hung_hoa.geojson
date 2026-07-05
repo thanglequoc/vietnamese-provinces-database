@@ -5382,11 +5382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Hoà",
-        "unit_code": "29362",
-        "unit_code_name": "hung_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2497",
-        "area_km2": 57.51
+        "code": "29362",
+        "name": "Hùng Hoà",
+        "nameEn": "Hung Hoa",
+        "fullName": "Xã Hùng Hoà",
+        "fullNameEn": "Hung Hoa Commune",
+        "codeName": "hung_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2497",
+        "areaKm2": 57.51
       }
     }
   ]

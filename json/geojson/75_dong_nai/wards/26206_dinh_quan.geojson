@@ -22562,11 +22562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Định Quán",
-        "unit_code": "26206",
-        "unit_code_name": "dinh_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3152",
-        "area_km2": 295.8
+        "code": "26206",
+        "name": "Định Quán",
+        "nameEn": "Dinh Quan",
+        "fullName": "Xã Định Quán",
+        "fullNameEn": "Dinh Quan Commune",
+        "codeName": "dinh_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3152",
+        "areaKm2": 295.8
       }
     }
   ]

@@ -1186,11 +1186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Lý",
-        "unit_code": "12817",
-        "unit_code_name": "tra_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.688",
-        "area_km2": 20.94
+        "code": "12817",
+        "name": "Trà Lý",
+        "nameEn": "Tra Ly",
+        "fullName": "Phường Trà Lý",
+        "fullNameEn": "Tra Ly Ward",
+        "codeName": "tra_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.688",
+        "areaKm2": 20.94
       }
     }
   ]

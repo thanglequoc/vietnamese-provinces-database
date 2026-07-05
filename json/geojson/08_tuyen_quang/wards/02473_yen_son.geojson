@@ -7794,11 +7794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Sơn",
-        "unit_code": "02473",
-        "unit_code_name": "yen_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2346",
-        "area_km2": 117.92
+        "code": "02473",
+        "name": "Yên Sơn",
+        "nameEn": "Yen Son",
+        "fullName": "Xã Yên Sơn",
+        "fullNameEn": "Yen Son Commune",
+        "codeName": "yen_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2346",
+        "areaKm2": 117.92
       }
     }
   ]

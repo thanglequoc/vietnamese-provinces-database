@@ -6794,11 +6794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Xuyên",
-        "unit_code": "10342",
-        "unit_code_name": "dai_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3275",
-        "area_km2": 51.66
+        "code": "10342",
+        "name": "Đại Xuyên",
+        "nameEn": "Dai Xuyen",
+        "fullName": "Xã Đại Xuyên",
+        "fullNameEn": "Dai Xuyen Commune",
+        "codeName": "dai_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3275",
+        "areaKm2": 51.66
       }
     }
   ]

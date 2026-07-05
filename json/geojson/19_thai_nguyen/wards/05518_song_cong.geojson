@@ -3186,11 +3186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Công",
-        "unit_code": "05518",
-        "unit_code_name": "song_cong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1201",
-        "area_km2": 13.98
+        "code": "05518",
+        "name": "Sông Công",
+        "nameEn": "Song Cong",
+        "fullName": "Phường Sông Công",
+        "fullNameEn": "Song Cong Ward",
+        "codeName": "song_cong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1201",
+        "areaKm2": 13.98
       }
     }
   ]

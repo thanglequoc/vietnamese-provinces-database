@@ -14798,11 +14798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dục Nông",
-        "unit_code": "23383",
-        "unit_code_name": "duc_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.534",
-        "area_km2": 321.99
+        "code": "23383",
+        "name": "Dục Nông",
+        "nameEn": "Duc Nong",
+        "fullName": "Xã Dục Nông",
+        "fullNameEn": "Duc Nong Commune",
+        "codeName": "duc_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.534",
+        "areaKm2": 321.99
       }
     }
   ]

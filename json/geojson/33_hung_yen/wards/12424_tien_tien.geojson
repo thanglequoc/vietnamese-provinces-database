@@ -2934,11 +2934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Tiến",
-        "unit_code": "12424",
-        "unit_code_name": "tien_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.728",
-        "area_km2": 25.8
+        "code": "12424",
+        "name": "Tiên Tiến",
+        "nameEn": "Tien Tien",
+        "fullName": "Xã Tiên Tiến",
+        "fullNameEn": "Tien Tien Commune",
+        "codeName": "tien_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.728",
+        "areaKm2": 25.8
       }
     }
   ]

@@ -4018,11 +4018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Xuân",
-        "unit_code": "31360",
-        "unit_code_name": "thanh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.240",
-        "area_km2": 43.95
+        "code": "31360",
+        "name": "Thạnh Xuân",
+        "nameEn": "Thanh Xuan",
+        "fullName": "Xã Thạnh Xuân",
+        "fullNameEn": "Thanh Xuan Commune",
+        "codeName": "thanh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.240",
+        "areaKm2": 43.95
       }
     }
   ]

@@ -6818,11 +6818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Truông Mít",
-        "unit_code": "25666",
-        "unit_code_name": "truong_mit",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2736",
-        "area_km2": 74.43
+        "code": "25666",
+        "name": "Truông Mít",
+        "nameEn": "Truong Mit",
+        "fullName": "Xã Truông Mít",
+        "fullNameEn": "Truong Mit Commune",
+        "codeName": "truong_mit",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2736",
+        "areaKm2": 74.43
       }
     }
   ]

@@ -5878,11 +5878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Thanh",
-        "unit_code": "05986",
-        "unit_code_name": "tam_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1790",
-        "area_km2": 27.35
+        "code": "05986",
+        "name": "Tam Thanh",
+        "nameEn": "Tam Thanh",
+        "fullName": "Phường Tam Thanh",
+        "fullNameEn": "Tam Thanh Ward",
+        "codeName": "tam_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1790",
+        "areaKm2": 27.35
       }
     }
   ]

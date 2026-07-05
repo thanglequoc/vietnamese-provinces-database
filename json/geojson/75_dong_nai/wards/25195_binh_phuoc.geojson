@@ -16378,11 +16378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Phước",
-        "unit_code": "25195",
-        "unit_code_name": "binh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2272",
-        "area_km2": 86.4
+        "code": "25195",
+        "name": "Bình Phước",
+        "nameEn": "Binh Phuoc",
+        "fullName": "Phường Bình Phước",
+        "fullNameEn": "Binh Phuoc Ward",
+        "codeName": "binh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2272",
+        "areaKm2": 86.4
       }
     }
   ]

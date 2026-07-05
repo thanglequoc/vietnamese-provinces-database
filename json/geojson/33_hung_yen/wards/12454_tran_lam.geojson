@@ -2282,11 +2282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Lãm",
-        "unit_code": "12454",
-        "unit_code_name": "tran_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.692",
-        "area_km2": 34.63
+        "code": "12454",
+        "name": "Trần Lãm",
+        "nameEn": "Tran Lam",
+        "fullName": "Phường Trần Lãm",
+        "fullNameEn": "Tran Lam Ward",
+        "codeName": "tran_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.692",
+        "areaKm2": 34.63
       }
     }
   ]

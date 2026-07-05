@@ -8522,11 +8522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Tân",
-        "unit_code": "25912",
-        "unit_code_name": "vinh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.26",
-        "area_km2": 61.35
+        "code": "25912",
+        "name": "Vĩnh Tân",
+        "nameEn": "Vinh Tan",
+        "fullName": "Phường Vĩnh Tân",
+        "fullNameEn": "Vinh Tan Ward",
+        "codeName": "vinh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.26",
+        "areaKm2": 61.35
       }
     }
   ]

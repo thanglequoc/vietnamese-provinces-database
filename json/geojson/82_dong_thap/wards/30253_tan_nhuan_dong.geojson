@@ -12330,11 +12330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Nhuận Đông",
-        "unit_code": "30253",
-        "unit_code_name": "tan_nhuan_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.441",
-        "area_km2": 92
+        "code": "30253",
+        "name": "Tân Nhuận Đông",
+        "nameEn": "Tan Nhuan Dong",
+        "fullName": "Xã Tân Nhuận Đông",
+        "fullNameEn": "Tan Nhuan Dong Commune",
+        "codeName": "tan_nhuan_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.441",
+        "areaKm2": 92
       }
     }
   ]

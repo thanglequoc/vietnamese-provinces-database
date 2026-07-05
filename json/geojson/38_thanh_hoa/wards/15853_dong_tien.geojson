@@ -3326,11 +3326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Tiến",
-        "unit_code": "15853",
-        "unit_code_name": "dong_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2592",
-        "area_km2": 41.97
+        "code": "15853",
+        "name": "Đông Tiến",
+        "nameEn": "Dong Tien",
+        "fullName": "Phường Đông Tiến",
+        "fullNameEn": "Dong Tien Ward",
+        "codeName": "dong_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2592",
+        "areaKm2": 41.97
       }
     }
   ]

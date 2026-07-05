@@ -9918,11 +9918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Dương",
-        "unit_code": "05047",
-        "unit_code_name": "cao_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1646",
-        "area_km2": 113.38
+        "code": "05047",
+        "name": "Cao Dương",
+        "nameEn": "Cao Duong",
+        "fullName": "Xã Cao Dương",
+        "fullNameEn": "Cao Duong Commune",
+        "codeName": "cao_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1646",
+        "areaKm2": 113.38
       }
     }
   ]

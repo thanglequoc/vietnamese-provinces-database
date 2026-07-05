@@ -5926,11 +5926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Đức",
-        "unit_code": "28501",
-        "unit_code_name": "hiep_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.472",
-        "area_km2": 46
+        "code": "28501",
+        "name": "Hiệp Đức",
+        "nameEn": "Hiep Duc",
+        "fullName": "Xã Hiệp Đức",
+        "fullNameEn": "Hiep Duc Commune",
+        "codeName": "hiep_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.472",
+        "areaKm2": 46
       }
     }
   ]

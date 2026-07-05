@@ -24258,11 +24258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nấm Dẩn",
-        "unit_code": "01141",
-        "unit_code_name": "nam_dan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2431",
-        "area_km2": 86.11
+        "code": "01141",
+        "name": "Nấm Dẩn",
+        "nameEn": "Nam Dan",
+        "fullName": "Xã Nấm Dẩn",
+        "fullNameEn": "Nam Dan Commune",
+        "codeName": "nam_dan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2431",
+        "areaKm2": 86.11
       }
     }
   ]

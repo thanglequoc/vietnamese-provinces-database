@@ -4638,11 +4638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Sơn",
-        "unit_code": "10459",
-        "unit_code_name": "phuc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3215",
-        "area_km2": 49.31
+        "code": "10459",
+        "name": "Phúc Sơn",
+        "nameEn": "Phuc Son",
+        "fullName": "Xã Phúc Sơn",
+        "fullNameEn": "Phuc Son Commune",
+        "codeName": "phuc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3215",
+        "areaKm2": 49.31
       }
     }
   ]

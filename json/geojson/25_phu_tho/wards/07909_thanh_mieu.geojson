@@ -3198,11 +3198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Miếu",
-        "unit_code": "07909",
-        "unit_code_name": "thanh_mieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1562",
-        "area_km2": 19.57
+        "code": "07909",
+        "name": "Thanh Miếu",
+        "nameEn": "Thanh Mieu",
+        "fullName": "Phường Thanh Miếu",
+        "fullNameEn": "Thanh Mieu Ward",
+        "codeName": "thanh_mieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1562",
+        "areaKm2": 19.57
       }
     }
   ]

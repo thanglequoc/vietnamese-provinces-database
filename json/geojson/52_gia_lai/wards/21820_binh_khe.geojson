@@ -12426,11 +12426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Khê",
-        "unit_code": "21820",
-        "unit_code_name": "binh_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2995",
-        "area_km2": 151.83
+        "code": "21820",
+        "name": "Bình Khê",
+        "nameEn": "Binh Khe",
+        "fullName": "Xã Bình Khê",
+        "fullNameEn": "Binh Khe Commune",
+        "codeName": "binh_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2995",
+        "areaKm2": 151.83
       }
     }
   ]

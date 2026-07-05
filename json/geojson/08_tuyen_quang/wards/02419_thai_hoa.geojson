@@ -4510,11 +4510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Hoà",
-        "unit_code": "02419",
-        "unit_code_name": "thai_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2339",
-        "area_km2": 55.6
+        "code": "02419",
+        "name": "Thái Hoà",
+        "nameEn": "Thai Hoa",
+        "fullName": "Xã Thái Hoà",
+        "fullNameEn": "Thai Hoa Commune",
+        "codeName": "thai_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2339",
+        "areaKm2": 55.6
       }
     }
   ]

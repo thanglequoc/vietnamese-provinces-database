@@ -45150,11 +45150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận An",
-        "unit_code": "24682",
-        "unit_code_name": "thuan_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2802",
-        "area_km2": 315.81
+        "code": "24682",
+        "name": "Thuận An",
+        "nameEn": "Thuan An",
+        "fullName": "Xã Thuận An",
+        "fullNameEn": "Thuan An Commune",
+        "codeName": "thuan_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2802",
+        "areaKm2": 315.81
       }
     }
   ]

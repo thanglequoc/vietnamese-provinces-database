@@ -13934,11 +13934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Bình",
-        "unit_code": "16804",
-        "unit_code_name": "chau_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1412",
-        "area_km2": 130.91
+        "code": "16804",
+        "name": "Châu Bình",
+        "nameEn": "Chau Binh",
+        "fullName": "Xã Châu Bình",
+        "fullNameEn": "Chau Binh Commune",
+        "codeName": "chau_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1412",
+        "areaKm2": 130.91
       }
     }
   ]

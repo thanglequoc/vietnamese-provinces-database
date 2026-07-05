@@ -12434,11 +12434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Quỳ",
-        "unit_code": "03106",
-        "unit_code_name": "duong_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1088",
-        "area_km2": 157.1
+        "code": "03106",
+        "name": "Dương Quỳ",
+        "nameEn": "Duong Quy",
+        "fullName": "Xã Dương Quỳ",
+        "fullNameEn": "Duong Quy Commune",
+        "codeName": "duong_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1088",
+        "areaKm2": 157.1
       }
     }
   ]

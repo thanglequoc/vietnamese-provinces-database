@@ -21474,11 +21474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Mil",
-        "unit_code": "24670",
-        "unit_code_name": "dak_mil",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2803",
-        "area_km2": 213.76
+        "code": "24670",
+        "name": "Đắk Mil",
+        "nameEn": "Dak Mil",
+        "fullName": "Xã Đắk Mil",
+        "fullNameEn": "Dak Mil Commune",
+        "codeName": "dak_mil",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2803",
+        "areaKm2": 213.76
       }
     }
   ]

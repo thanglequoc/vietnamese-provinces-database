@@ -3574,11 +3574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Trạch",
-        "unit_code": "19057",
-        "unit_code_name": "quang_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.616",
-        "area_km2": 56.64
+        "code": "19057",
+        "name": "Quảng Trạch",
+        "nameEn": "Quang Trach",
+        "fullName": "Xã Quảng Trạch",
+        "fullNameEn": "Quang Trach Commune",
+        "codeName": "quang_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.616",
+        "areaKm2": 56.64
       }
     }
   ]

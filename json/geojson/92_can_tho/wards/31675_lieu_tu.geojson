@@ -4010,11 +4010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liêu Tú",
-        "unit_code": "31675",
-        "unit_code_name": "lieu_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.285",
-        "area_km2": 83.15
+        "code": "31675",
+        "name": "Liêu Tú",
+        "nameEn": "Lieu Tu",
+        "fullName": "Xã Liêu Tú",
+        "fullNameEn": "Lieu Tu Commune",
+        "codeName": "lieu_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.285",
+        "areaKm2": 83.15
       }
     }
   ]

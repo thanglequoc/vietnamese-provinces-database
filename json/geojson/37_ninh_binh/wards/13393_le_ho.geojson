@@ -2098,11 +2098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Hồ",
-        "unit_code": "13393",
-        "unit_code_name": "le_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2766",
-        "area_km2": 22.27
+        "code": "13393",
+        "name": "Lê Hồ",
+        "nameEn": "Le Ho",
+        "fullName": "Phường Lê Hồ",
+        "fullNameEn": "Le Ho Ward",
+        "codeName": "le_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2766",
+        "areaKm2": 22.27
       }
     }
   ]

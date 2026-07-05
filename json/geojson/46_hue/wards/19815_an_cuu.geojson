@@ -9722,11 +9722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Cựu",
-        "unit_code": "19815",
-        "unit_code_name": "an_cuu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1689",
-        "area_km2": 16.71
+        "code": "19815",
+        "name": "An Cựu",
+        "nameEn": "An Cuu",
+        "fullName": "Phường An Cựu",
+        "fullNameEn": "An Cuu Ward",
+        "codeName": "an_cuu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1689",
+        "areaKm2": 16.71
       }
     }
   ]

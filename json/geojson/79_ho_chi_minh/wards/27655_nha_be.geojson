@@ -2398,11 +2398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhà Bè",
-        "unit_code": "27655",
-        "unit_code_name": "nha_be",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.132",
-        "area_km2": 37.1
+        "code": "27655",
+        "name": "Nhà Bè",
+        "nameEn": "Nha Be",
+        "fullName": "Xã Nhà Bè",
+        "fullNameEn": "Nha Be Commune",
+        "codeName": "nha_be",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.132",
+        "areaKm2": 37.1
       }
     }
   ]

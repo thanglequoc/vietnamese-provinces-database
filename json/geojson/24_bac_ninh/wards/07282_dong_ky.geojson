@@ -10162,11 +10162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Kỳ",
-        "unit_code": "07282",
-        "unit_code_name": "dong_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2161",
-        "area_km2": 61.44
+        "code": "07282",
+        "name": "Đồng Kỳ",
+        "nameEn": "Dong Ky",
+        "fullName": "Xã Đồng Kỳ",
+        "fullNameEn": "Dong Ky Commune",
+        "codeName": "dong_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2161",
+        "areaKm2": 61.44
       }
     }
   ]

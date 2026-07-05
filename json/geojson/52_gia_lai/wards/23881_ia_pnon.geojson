@@ -11858,11 +11858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Pnôn",
-        "unit_code": "23881",
-        "unit_code_name": "ia_pnon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2924",
-        "area_km2": 114.01
+        "code": "23881",
+        "name": "Ia Pnôn",
+        "nameEn": "Ia Pnon",
+        "fullName": "Xã Ia Pnôn",
+        "fullNameEn": "Ia Pnon Commune",
+        "codeName": "ia_pnon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2924",
+        "areaKm2": 114.01
       }
     }
   ]

@@ -16114,11 +16114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Thạnh Lợi",
-        "unit_code": "31864",
-        "unit_code_name": "ninh_thanh_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.145",
-        "area_km2": 66.4
+        "code": "31864",
+        "name": "Ninh Thạnh Lợi",
+        "nameEn": "Ninh Thanh Loi",
+        "fullName": "Xã Ninh Thạnh Lợi",
+        "fullNameEn": "Ninh Thanh Loi Commune",
+        "codeName": "ninh_thanh_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.145",
+        "areaKm2": 66.4
       }
     }
   ]

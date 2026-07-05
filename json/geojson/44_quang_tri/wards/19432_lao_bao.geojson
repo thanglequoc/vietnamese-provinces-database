@@ -4026,11 +4026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lao Bảo",
-        "unit_code": "19432",
-        "unit_code_name": "lao_bao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.594",
-        "area_km2": 83.04
+        "code": "19432",
+        "name": "Lao Bảo",
+        "nameEn": "Lao Bao",
+        "fullName": "Xã Lao Bảo",
+        "fullNameEn": "Lao Bao Commune",
+        "codeName": "lao_bao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.594",
+        "areaKm2": 83.04
       }
     }
   ]

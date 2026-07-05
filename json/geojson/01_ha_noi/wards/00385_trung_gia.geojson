@@ -12270,11 +12270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Giã",
-        "unit_code": "00385",
-        "unit_code_name": "trung_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3255",
-        "area_km2": 77.52
+        "code": "00385",
+        "name": "Trung Giã",
+        "nameEn": "Trung Gia",
+        "fullName": "Xã Trung Giã",
+        "fullNameEn": "Trung Gia Commune",
+        "codeName": "trung_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3255",
+        "areaKm2": 77.52
       }
     }
   ]

@@ -11210,11 +11210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Núi Thành",
-        "unit_code": "20965",
-        "unit_code_name": "nui_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1975",
-        "area_km2": 124.75
+        "code": "20965",
+        "name": "Núi Thành",
+        "nameEn": "Nui Thanh",
+        "fullName": "Xã Núi Thành",
+        "fullNameEn": "Nui Thanh Commune",
+        "codeName": "nui_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1975",
+        "areaKm2": 124.75
       }
     }
   ]

@@ -14050,11 +14050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Võ Lao",
-        "unit_code": "03061",
-        "unit_code_name": "vo_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1083",
-        "area_km2": 152.8
+        "code": "03061",
+        "name": "Võ Lao",
+        "nameEn": "Vo Lao",
+        "fullName": "Xã Võ Lao",
+        "fullNameEn": "Vo Lao Commune",
+        "codeName": "vo_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1083",
+        "areaKm2": 152.8
       }
     }
   ]

@@ -11562,11 +11562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sì Lở Lầu",
-        "unit_code": "03562",
-        "unit_code_name": "si_lo_lau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2087",
-        "area_km2": 147.8
+        "code": "03562",
+        "name": "Sì Lở Lầu",
+        "nameEn": "Si Lo Lau",
+        "fullName": "Xã Sì Lở Lầu",
+        "fullNameEn": "Si Lo Lau Commune",
+        "codeName": "si_lo_lau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2087",
+        "areaKm2": 147.8
       }
     }
   ]

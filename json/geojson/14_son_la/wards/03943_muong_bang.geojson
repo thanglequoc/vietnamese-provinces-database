@@ -11882,11 +11882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Bang",
-        "unit_code": "03943",
-        "unit_code_name": "muong_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1371",
-        "area_km2": 270.15
+        "code": "03943",
+        "name": "Mường Bang",
+        "nameEn": "Muong Bang",
+        "fullName": "Xã Mường Bang",
+        "fullNameEn": "Muong Bang Commune",
+        "codeName": "muong_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1371",
+        "areaKm2": 270.15
       }
     }
   ]

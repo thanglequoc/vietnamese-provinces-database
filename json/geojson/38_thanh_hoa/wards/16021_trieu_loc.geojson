@@ -4390,11 +4390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Lộc",
-        "unit_code": "16021",
-        "unit_code_name": "trieu_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2621",
-        "area_km2": 29.27
+        "code": "16021",
+        "name": "Triệu Lộc",
+        "nameEn": "Trieu Loc",
+        "fullName": "Xã Triệu Lộc",
+        "fullNameEn": "Trieu Loc Commune",
+        "codeName": "trieu_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2621",
+        "areaKm2": 29.27
       }
     }
   ]

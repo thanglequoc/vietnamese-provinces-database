@@ -1950,11 +1950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Sơn",
-        "unit_code": "13918",
-        "unit_code_name": "nghia_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.829",
-        "area_km2": 26.83
+        "code": "13918",
+        "name": "Nghĩa Sơn",
+        "nameEn": "Nghia Son",
+        "fullName": "Xã Nghĩa Sơn",
+        "fullNameEn": "Nghia Son Commune",
+        "codeName": "nghia_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.829",
+        "areaKm2": 26.83
       }
     }
   ]

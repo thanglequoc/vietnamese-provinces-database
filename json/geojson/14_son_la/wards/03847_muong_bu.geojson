@@ -10906,11 +10906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Bú",
-        "unit_code": "03847",
-        "unit_code_name": "muong_bu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1357",
-        "area_km2": 213.65
+        "code": "03847",
+        "name": "Mường Bú",
+        "nameEn": "Muong Bu",
+        "fullName": "Xã Mường Bú",
+        "fullNameEn": "Muong Bu Commune",
+        "codeName": "muong_bu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1357",
+        "areaKm2": 213.65
       }
     }
   ]

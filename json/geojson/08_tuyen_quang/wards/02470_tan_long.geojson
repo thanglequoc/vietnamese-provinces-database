@@ -9506,11 +9506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Long",
-        "unit_code": "02470",
-        "unit_code_name": "tan_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2347",
-        "area_km2": 95.32
+        "code": "02470",
+        "name": "Tân Long",
+        "nameEn": "Tan Long",
+        "fullName": "Xã Tân Long",
+        "fullNameEn": "Tan Long Commune",
+        "codeName": "tan_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2347",
+        "areaKm2": 95.32
       }
     }
   ]

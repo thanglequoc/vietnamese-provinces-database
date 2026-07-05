@@ -11750,11 +11750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Bình",
-        "unit_code": "22222",
-        "unit_code_name": "duc_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2912",
-        "area_km2": 160.36
+        "code": "22222",
+        "name": "Đức Bình",
+        "nameEn": "Duc Binh",
+        "fullName": "Xã Đức Bình",
+        "fullNameEn": "Duc Binh Commune",
+        "codeName": "duc_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2912",
+        "areaKm2": 160.36
       }
     }
   ]

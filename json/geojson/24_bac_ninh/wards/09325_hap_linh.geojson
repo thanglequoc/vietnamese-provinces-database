@@ -2938,11 +2938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạp Lĩnh",
-        "unit_code": "09325",
-        "unit_code_name": "hap_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2197",
-        "area_km2": 12.65
+        "code": "09325",
+        "name": "Hạp Lĩnh",
+        "nameEn": "Hap Linh",
+        "fullName": "Phường Hạp Lĩnh",
+        "fullNameEn": "Hap Linh Ward",
+        "codeName": "hap_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2197",
+        "areaKm2": 12.65
       }
     }
   ]

@@ -3478,11 +3478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Hoà",
-        "unit_code": "07147",
-        "unit_code_name": "hiep_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1881",
-        "area_km2": 35.83
+        "code": "07147",
+        "name": "Hiệp Hoà",
+        "nameEn": "Hiep Hoa",
+        "fullName": "Phường Hiệp Hoà",
+        "fullNameEn": "Hiep Hoa Ward",
+        "codeName": "hiep_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1881",
+        "areaKm2": 35.83
       }
     }
   ]

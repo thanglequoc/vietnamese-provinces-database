@@ -5986,11 +5986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tích Lương",
-        "unit_code": "05500",
-        "unit_code_name": "tich_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1190",
-        "area_km2": 23.56
+        "code": "05500",
+        "name": "Tích Lương",
+        "nameEn": "Tich Luong",
+        "fullName": "Phường Tích Lương",
+        "fullNameEn": "Tich Luong Ward",
+        "codeName": "tich_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1190",
+        "areaKm2": 23.56
       }
     }
   ]

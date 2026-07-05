@@ -4270,11 +4270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Đức",
-        "unit_code": "25657",
-        "unit_code_name": "thanh_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2737",
-        "area_km2": 99.06
+        "code": "25657",
+        "name": "Thạnh Đức",
+        "nameEn": "Thanh Duc",
+        "fullName": "Xã Thạnh Đức",
+        "fullNameEn": "Thanh Duc Commune",
+        "codeName": "thanh_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2737",
+        "areaKm2": 99.06
       }
     }
   ]

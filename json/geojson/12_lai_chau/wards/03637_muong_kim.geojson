@@ -21350,11 +21350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Kim",
-        "unit_code": "03637",
-        "unit_code_name": "muong_kim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2097",
-        "area_km2": 316.32
+        "code": "03637",
+        "name": "Mường Kim",
+        "nameEn": "Muong Kim",
+        "fullName": "Xã Mường Kim",
+        "fullNameEn": "Muong Kim Commune",
+        "codeName": "muong_kim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2097",
+        "areaKm2": 316.32
       }
     }
   ]

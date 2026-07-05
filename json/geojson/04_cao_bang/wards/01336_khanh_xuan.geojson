@@ -13038,11 +13038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Xuân",
-        "unit_code": "01336",
-        "unit_code_name": "khanh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.985",
-        "area_km2": 109.96
+        "code": "01336",
+        "name": "Khánh Xuân",
+        "nameEn": "Khanh Xuan",
+        "fullName": "Xã Khánh Xuân",
+        "fullNameEn": "Khanh Xuan Commune",
+        "codeName": "khanh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.985",
+        "areaKm2": 109.96
       }
     }
   ]

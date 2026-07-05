@@ -6122,11 +6122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Chiên",
-        "unit_code": "06967",
-        "unit_code_name": "cai_chien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3314",
-        "area_km2": 25.9
+        "code": "06967",
+        "name": "Cái Chiên",
+        "nameEn": "Cai Chien",
+        "fullName": "Xã Cái Chiên",
+        "fullNameEn": "Cai Chien Commune",
+        "codeName": "cai_chien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3314",
+        "areaKm2": 25.9
       }
     }
   ]

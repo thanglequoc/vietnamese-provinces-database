@@ -1134,11 +1134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thông Tây Hội",
-        "unit_code": "26898",
-        "unit_code_name": "thong_tay_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.59",
-        "area_km2": 3.24
+        "code": "26898",
+        "name": "Thông Tây Hội",
+        "nameEn": "Thong Tay Hoi",
+        "fullName": "Phường Thông Tây Hội",
+        "fullNameEn": "Thong Tay Hoi Ward",
+        "codeName": "thong_tay_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.59",
+        "areaKm2": 3.24
       }
     }
   ]

@@ -8990,11 +8990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọk Tụ",
-        "unit_code": "23428",
-        "unit_code_name": "ngok_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.537",
-        "area_km2": 160.97
+        "code": "23428",
+        "name": "Ngọk Tụ",
+        "nameEn": "Ngok Tu",
+        "fullName": "Xã Ngọk Tụ",
+        "fullNameEn": "Ngok Tu Commune",
+        "codeName": "ngok_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.537",
+        "areaKm2": 160.97
       }
     }
   ]

@@ -7398,11 +7398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Tri",
-        "unit_code": "29110",
-        "unit_code_name": "ba_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2471",
-        "area_km2": 49.47
+        "code": "29110",
+        "name": "Ba Tri",
+        "nameEn": "Ba Tri",
+        "fullName": "Xã Ba Tri",
+        "fullNameEn": "Ba Tri Commune",
+        "codeName": "ba_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2471",
+        "areaKm2": 49.47
       }
     }
   ]

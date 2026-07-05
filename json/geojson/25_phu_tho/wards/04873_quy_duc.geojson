@@ -6406,11 +6406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Đức",
-        "unit_code": "04873",
-        "unit_code_name": "quy_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1677",
-        "area_km2": 146.97
+        "code": "04873",
+        "name": "Quy Đức",
+        "nameEn": "Quy Duc",
+        "fullName": "Xã Quy Đức",
+        "fullNameEn": "Quy Duc Commune",
+        "codeName": "quy_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1677",
+        "areaKm2": 146.97
       }
     }
   ]

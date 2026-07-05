@@ -10858,11 +10858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lùng Phình",
-        "unit_code": "02848",
-        "unit_code_name": "lung_phinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1065",
-        "area_km2": 101
+        "code": "02848",
+        "name": "Lùng Phình",
+        "nameEn": "Lung Phinh",
+        "fullName": "Xã Lùng Phình",
+        "fullNameEn": "Lung Phinh Commune",
+        "codeName": "lung_phinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1065",
+        "areaKm2": 101
       }
     }
   ]

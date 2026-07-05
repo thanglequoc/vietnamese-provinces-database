@@ -15662,11 +15662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Nưa",
-        "unit_code": "03328",
-        "unit_code_name": "thanh_nua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2263",
-        "area_km2": 176.97
+        "code": "03328",
+        "name": "Thanh Nưa",
+        "nameEn": "Thanh Nua",
+        "fullName": "Xã Thanh Nưa",
+        "fullNameEn": "Thanh Nua Commune",
+        "codeName": "thanh_nua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2263",
+        "areaKm2": 176.97
       }
     }
   ]

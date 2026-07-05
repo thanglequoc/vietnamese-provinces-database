@@ -2146,11 +2146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Hậu",
-        "unit_code": "14215",
-        "unit_code_name": "hai_hau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.833",
-        "area_km2": 23.87
+        "code": "14215",
+        "name": "Hải Hậu",
+        "nameEn": "Hai Hau",
+        "fullName": "Xã Hải Hậu",
+        "fullNameEn": "Hai Hau Commune",
+        "codeName": "hai_hau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.833",
+        "areaKm2": 23.87
       }
     }
   ]

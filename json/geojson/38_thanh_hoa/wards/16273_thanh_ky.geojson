@@ -8646,11 +8646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Kỳ",
-        "unit_code": "16273",
-        "unit_code_name": "thanh_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2656",
-        "area_km2": 145.26
+        "code": "16273",
+        "name": "Thanh Kỳ",
+        "nameEn": "Thanh Ky",
+        "fullName": "Xã Thanh Kỳ",
+        "fullNameEn": "Thanh Ky Commune",
+        "codeName": "thanh_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2656",
+        "areaKm2": 145.26
       }
     }
   ]

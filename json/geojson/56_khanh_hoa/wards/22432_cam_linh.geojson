@@ -510,11 +510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Linh",
-        "unit_code": "22432",
-        "unit_code_name": "cam_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3322",
-        "area_km2": 4.8
+        "code": "22432",
+        "name": "Cam Linh",
+        "nameEn": "Cam Linh",
+        "fullName": "Phường Cam Linh",
+        "fullNameEn": "Cam Linh Ward",
+        "codeName": "cam_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3322",
+        "areaKm2": 4.8
       }
     }
   ]

@@ -7790,11 +7790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Lư",
-        "unit_code": "15019",
-        "unit_code_name": "tam_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2711",
-        "area_km2": 162.72
+        "code": "15019",
+        "name": "Tam Lư",
+        "nameEn": "Tam Lu",
+        "fullName": "Xã Tam Lư",
+        "fullNameEn": "Tam Lu Commune",
+        "codeName": "tam_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2711",
+        "areaKm2": 162.72
       }
     }
   ]

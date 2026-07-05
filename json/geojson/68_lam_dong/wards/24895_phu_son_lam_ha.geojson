@@ -18594,11 +18594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Sơn Lâm Hà",
-        "unit_code": "24895",
-        "unit_code_name": "phu_son_lam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.514",
-        "area_km2": 240.08
+        "code": "24895",
+        "name": "Phú Sơn Lâm Hà",
+        "nameEn": "Phu Son Lam Ha",
+        "fullName": "Xã Phú Sơn Lâm Hà",
+        "fullNameEn": "Phu Son Lam Ha Commune",
+        "codeName": "phu_son_lam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.514",
+        "areaKm2": 240.08
       }
     }
   ]

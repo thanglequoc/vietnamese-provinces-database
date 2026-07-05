@@ -7258,11 +7258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Sơn",
-        "unit_code": "18871",
-        "unit_code_name": "dong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.599",
-        "area_km2": 88.03
+        "code": "18871",
+        "name": "Đồng Sơn",
+        "nameEn": "Dong Son",
+        "fullName": "Phường Đồng Sơn",
+        "fullNameEn": "Dong Son Ward",
+        "codeName": "dong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.599",
+        "areaKm2": 88.03
       }
     }
   ]

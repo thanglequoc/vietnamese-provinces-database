@@ -990,11 +990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Hoà Lập",
-        "unit_code": "27838",
-        "unit_code_name": "nhon_hoa_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1292",
-        "area_km2": 109.77
+        "code": "27838",
+        "name": "Nhơn Hoà Lập",
+        "nameEn": "Nhon Hoa Lap",
+        "fullName": "Xã Nhơn Hoà Lập",
+        "fullNameEn": "Nhon Hoa Lap Commune",
+        "codeName": "nhon_hoa_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1292",
+        "areaKm2": 109.77
       }
     }
   ]

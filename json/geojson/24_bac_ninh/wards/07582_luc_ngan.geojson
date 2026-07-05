@@ -9230,11 +9230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Ngạn",
-        "unit_code": "07582",
-        "unit_code_name": "luc_ngan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2107",
-        "area_km2": 82.71
+        "code": "07582",
+        "name": "Lục Ngạn",
+        "nameEn": "Luc Ngan",
+        "fullName": "Xã Lục Ngạn",
+        "fullNameEn": "Luc Ngan Commune",
+        "codeName": "luc_ngan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2107",
+        "areaKm2": 82.71
       }
     }
   ]

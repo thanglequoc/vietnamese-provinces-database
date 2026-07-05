@@ -7918,11 +7918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lũng Nặm",
-        "unit_code": "01393",
-        "unit_code_name": "lung_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.958",
-        "area_km2": 97.59
+        "code": "01393",
+        "name": "Lũng Nặm",
+        "nameEn": "Lung Nam",
+        "fullName": "Xã Lũng Nặm",
+        "fullNameEn": "Lung Nam Commune",
+        "codeName": "lung_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.958",
+        "areaKm2": 97.59
       }
     }
   ]

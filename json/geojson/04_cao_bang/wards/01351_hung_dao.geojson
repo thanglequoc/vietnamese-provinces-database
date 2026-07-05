@@ -11342,11 +11342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Đạo",
-        "unit_code": "01351",
-        "unit_code_name": "hung_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.977",
-        "area_km2": 122.43
+        "code": "01351",
+        "name": "Hưng Đạo",
+        "nameEn": "Hung Dao",
+        "fullName": "Xã Hưng Đạo",
+        "fullNameEn": "Hung Dao Commune",
+        "codeName": "hung_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.977",
+        "areaKm2": 122.43
       }
     }
   ]

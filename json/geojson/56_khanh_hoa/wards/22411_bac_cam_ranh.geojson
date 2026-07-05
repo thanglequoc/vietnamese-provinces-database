@@ -5822,11 +5822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Cam Ranh",
-        "unit_code": "22411",
-        "unit_code_name": "bac_cam_ranh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3323",
-        "area_km2": 134
+        "code": "22411",
+        "name": "Bắc Cam Ranh",
+        "nameEn": "Bac Cam Ranh",
+        "fullName": "Phường Bắc Cam Ranh",
+        "fullNameEn": "Bac Cam Ranh Ward",
+        "codeName": "bac_cam_ranh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3323",
+        "areaKm2": 134
       }
     }
   ]

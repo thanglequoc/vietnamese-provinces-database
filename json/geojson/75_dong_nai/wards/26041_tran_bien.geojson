@@ -2874,11 +2874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trấn Biên",
-        "unit_code": "26041",
-        "unit_code_name": "tran_bien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3106",
-        "area_km2": 31
+        "code": "26041",
+        "name": "Trấn Biên",
+        "nameEn": "Tran Bien",
+        "fullName": "Phường Trấn Biên",
+        "fullNameEn": "Tran Bien Ward",
+        "codeName": "tran_bien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3106",
+        "areaKm2": 31
       }
     }
   ]

@@ -5006,11 +5006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Lý",
-        "unit_code": "14857",
-        "unit_code_name": "trung_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2705",
-        "area_km2": 197.5
+        "code": "14857",
+        "name": "Trung Lý",
+        "nameEn": "Trung Ly",
+        "fullName": "Xã Trung Lý",
+        "fullNameEn": "Trung Ly Commune",
+        "codeName": "trung_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2705",
+        "areaKm2": 197.5
       }
     }
   ]

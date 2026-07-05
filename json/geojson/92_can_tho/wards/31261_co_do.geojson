@@ -4862,11 +4862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cờ Đỏ",
-        "unit_code": "31261",
-        "unit_code_name": "co_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.225",
-        "area_km2": 44.59
+        "code": "31261",
+        "name": "Cờ Đỏ",
+        "nameEn": "Co Do",
+        "fullName": "Xã Cờ Đỏ",
+        "fullNameEn": "Co Do Commune",
+        "codeName": "co_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.225",
+        "areaKm2": 44.59
       }
     }
   ]

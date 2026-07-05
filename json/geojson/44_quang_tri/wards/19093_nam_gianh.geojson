@@ -2570,11 +2570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Gianh",
-        "unit_code": "19093",
-        "unit_code_name": "nam_gianh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.619",
-        "area_km2": 34.43
+        "code": "19093",
+        "name": "Nam Gianh",
+        "nameEn": "Nam Gianh",
+        "fullName": "Xã Nam Gianh",
+        "fullNameEn": "Nam Gianh Commune",
+        "codeName": "nam_gianh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.619",
+        "areaKm2": 34.43
       }
     }
   ]

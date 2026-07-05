@@ -10678,11 +10678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đình Lập",
-        "unit_code": "06613",
-        "unit_code_name": "dinh_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1852",
-        "area_km2": 164.66
+        "code": "06613",
+        "name": "Đình Lập",
+        "nameEn": "Dinh Lap",
+        "fullName": "Xã Đình Lập",
+        "fullNameEn": "Dinh Lap Commune",
+        "codeName": "dinh_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1852",
+        "areaKm2": 164.66
       }
     }
   ]

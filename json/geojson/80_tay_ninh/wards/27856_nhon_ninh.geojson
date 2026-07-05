@@ -774,11 +774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Ninh",
-        "unit_code": "27856",
-        "unit_code_name": "nhon_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1294",
-        "area_km2": 92.67
+        "code": "27856",
+        "name": "Nhơn Ninh",
+        "nameEn": "Nhon Ninh",
+        "fullName": "Xã Nhơn Ninh",
+        "fullNameEn": "Nhon Ninh Commune",
+        "codeName": "nhon_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1294",
+        "areaKm2": 92.67
       }
     }
   ]

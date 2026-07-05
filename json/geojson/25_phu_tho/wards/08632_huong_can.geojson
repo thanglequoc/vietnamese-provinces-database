@@ -6170,11 +6170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Cần",
-        "unit_code": "08632",
-        "unit_code_name": "huong_can",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1597",
-        "area_km2": 81.3
+        "code": "08632",
+        "name": "Hương Cần",
+        "nameEn": "Huong Can",
+        "fullName": "Xã Hương Cần",
+        "fullNameEn": "Huong Can Commune",
+        "codeName": "huong_can",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1597",
+        "areaKm2": 81.3
       }
     }
   ]

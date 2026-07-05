@@ -7238,11 +7238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sảng Mộc",
-        "unit_code": "05719",
-        "unit_code_name": "sang_moc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1224",
-        "area_km2": 96.79
+        "code": "05719",
+        "name": "Sảng Mộc",
+        "nameEn": "Sang Moc",
+        "fullName": "Xã Sảng Mộc",
+        "fullNameEn": "Sang Moc Commune",
+        "codeName": "sang_moc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1224",
+        "areaKm2": 96.79
       }
     }
   ]

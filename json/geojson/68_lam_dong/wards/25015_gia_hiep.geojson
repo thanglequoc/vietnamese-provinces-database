@@ -26502,11 +26502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Hiệp",
-        "unit_code": "25015",
-        "unit_code_name": "gia_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.529",
-        "area_km2": 324.43
+        "code": "25015",
+        "name": "Gia Hiệp",
+        "nameEn": "Gia Hiep",
+        "fullName": "Xã Gia Hiệp",
+        "fullNameEn": "Gia Hiep Commune",
+        "codeName": "gia_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.529",
+        "areaKm2": 324.43
       }
     }
   ]

@@ -2246,11 +2246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Thuận",
-        "unit_code": "29398",
-        "unit_code_name": "hoa_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2500",
-        "area_km2": 16.51
+        "code": "29398",
+        "name": "Hoà Thuận",
+        "nameEn": "Hoa Thuan",
+        "fullName": "Phường Hoà Thuận",
+        "fullNameEn": "Hoa Thuan Ward",
+        "codeName": "hoa_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2500",
+        "areaKm2": 16.51
       }
     }
   ]

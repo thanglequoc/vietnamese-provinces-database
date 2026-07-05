@@ -2886,11 +2886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Đông",
-        "unit_code": "10507",
-        "unit_code_name": "thanh_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.851",
-        "area_km2": 12.22
+        "code": "10507",
+        "name": "Thành Đông",
+        "nameEn": "Thanh Dong",
+        "fullName": "Phường Thành Đông",
+        "fullNameEn": "Thanh Dong Ward",
+        "codeName": "thanh_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.851",
+        "areaKm2": 12.22
       }
     }
   ]

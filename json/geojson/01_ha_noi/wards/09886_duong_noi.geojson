@@ -2290,11 +2290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Nội",
-        "unit_code": "09886",
-        "unit_code_name": "duong_noi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3178",
-        "area_km2": 7.9
+        "code": "09886",
+        "name": "Dương Nội",
+        "nameEn": "Duong Noi",
+        "fullName": "Phường Dương Nội",
+        "fullNameEn": "Duong Noi Ward",
+        "codeName": "duong_noi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3178",
+        "areaKm2": 7.9
       }
     }
   ]

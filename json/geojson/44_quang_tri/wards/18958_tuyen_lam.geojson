@@ -9306,11 +9306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Lâm",
-        "unit_code": "18958",
-        "unit_code_name": "tuyen_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.607",
-        "area_km2": 235.2
+        "code": "18958",
+        "name": "Tuyên Lâm",
+        "nameEn": "Tuyen Lam",
+        "fullName": "Xã Tuyên Lâm",
+        "fullNameEn": "Tuyen Lam Commune",
+        "codeName": "tuyen_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.607",
+        "areaKm2": 235.2
       }
     }
   ]

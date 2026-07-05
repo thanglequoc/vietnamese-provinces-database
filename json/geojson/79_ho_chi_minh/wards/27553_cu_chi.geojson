@@ -8142,11 +8142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Củ Chi",
-        "unit_code": "27553",
-        "unit_code_name": "cu_chi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.118",
-        "area_km2": 64.88
+        "code": "27553",
+        "name": "Củ Chi",
+        "nameEn": "Cu Chi",
+        "fullName": "Xã Củ Chi",
+        "fullNameEn": "Cu Chi Commune",
+        "codeName": "cu_chi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.118",
+        "areaKm2": 64.88
       }
     }
   ]

@@ -1642,11 +1642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải An",
-        "unit_code": "14281",
-        "unit_code_name": "hai_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.828",
-        "area_km2": 25.19
+        "code": "14281",
+        "name": "Hải An",
+        "nameEn": "Hai An",
+        "fullName": "Xã Hải An",
+        "fullNameEn": "Hai An Commune",
+        "codeName": "hai_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.828",
+        "areaKm2": 25.19
       }
     }
   ]

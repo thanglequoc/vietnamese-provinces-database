@@ -7162,11 +7162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Dương",
-        "unit_code": "20818",
-        "unit_code_name": "dong_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1958",
-        "area_km2": 76.49
+        "code": "20818",
+        "name": "Đồng Dương",
+        "nameEn": "Dong Duong",
+        "fullName": "Xã Đồng Dương",
+        "fullNameEn": "Dong Duong Commune",
+        "codeName": "dong_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1958",
+        "areaKm2": 76.49
       }
     }
   ]

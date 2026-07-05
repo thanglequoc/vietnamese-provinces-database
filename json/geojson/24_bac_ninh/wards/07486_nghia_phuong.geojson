@@ -9362,11 +9362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Phương",
-        "unit_code": "07486",
-        "unit_code_name": "nghia_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2175",
-        "area_km2": 88.32
+        "code": "07486",
+        "name": "Nghĩa Phương",
+        "nameEn": "Nghia Phuong",
+        "fullName": "Xã Nghĩa Phương",
+        "fullNameEn": "Nghia Phuong Commune",
+        "codeName": "nghia_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2175",
+        "areaKm2": 88.32
       }
     }
   ]

@@ -1662,11 +1662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Nam",
-        "unit_code": "10843",
-        "unit_code_name": "ha_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.839",
-        "area_km2": 27.78
+        "code": "10843",
+        "name": "Hà Nam",
+        "nameEn": "Ha Nam",
+        "fullName": "Xã Hà Nam",
+        "fullNameEn": "Ha Nam Commune",
+        "codeName": "ha_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.839",
+        "areaKm2": 27.78
       }
     }
   ]

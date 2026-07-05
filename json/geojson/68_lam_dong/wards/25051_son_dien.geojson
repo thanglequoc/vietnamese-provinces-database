@@ -12818,11 +12818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Điền",
-        "unit_code": "25051",
-        "unit_code_name": "son_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.530",
-        "area_km2": 261.88
+        "code": "25051",
+        "name": "Sơn Điền",
+        "nameEn": "Son Dien",
+        "fullName": "Xã Sơn Điền",
+        "fullNameEn": "Son Dien Commune",
+        "codeName": "son_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.530",
+        "areaKm2": 261.88
       }
     }
   ]

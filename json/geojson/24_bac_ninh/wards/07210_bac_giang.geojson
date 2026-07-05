@@ -3174,11 +3174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Giang",
-        "unit_code": "07210",
-        "unit_code_name": "bac_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2141",
-        "area_km2": 23.23
+        "code": "07210",
+        "name": "Bắc Giang",
+        "nameEn": "Bac Giang",
+        "fullName": "Phường Bắc Giang",
+        "fullNameEn": "Bac Giang Ward",
+        "codeName": "bac_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2141",
+        "areaKm2": 23.23
       }
     }
   ]

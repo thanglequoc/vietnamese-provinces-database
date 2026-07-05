@@ -12266,11 +12266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Láng Tròn",
-        "unit_code": "31951",
-        "unit_code_name": "lang_tron",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.157",
-        "area_km2": 32.18
+        "code": "31951",
+        "name": "Láng Tròn",
+        "nameEn": "Lang Tron",
+        "fullName": "Phường Láng Tròn",
+        "fullNameEn": "Lang Tron Ward",
+        "codeName": "lang_tron",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.157",
+        "areaKm2": 32.18
       }
     }
   ]

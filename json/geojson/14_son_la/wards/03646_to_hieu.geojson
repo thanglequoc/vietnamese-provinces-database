@@ -4894,11 +4894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tô Hiệu",
-        "unit_code": "03646",
-        "unit_code_name": "to_hieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1336",
-        "area_km2": 11.92
+        "code": "03646",
+        "name": "Tô Hiệu",
+        "nameEn": "To Hieu",
+        "fullName": "Phường Tô Hiệu",
+        "fullNameEn": "To Hieu Ward",
+        "codeName": "to_hieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1336",
+        "areaKm2": 11.92
       }
     }
   ]

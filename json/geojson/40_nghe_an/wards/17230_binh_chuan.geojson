@@ -7966,11 +7966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Chuẩn",
-        "unit_code": "17230",
-        "unit_code_name": "binh_chuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1414",
-        "area_km2": 182.19
+        "code": "17230",
+        "name": "Bình Chuẩn",
+        "nameEn": "Binh Chuan",
+        "fullName": "Xã Bình Chuẩn",
+        "fullNameEn": "Binh Chuan Commune",
+        "codeName": "binh_chuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1414",
+        "areaKm2": 182.19
       }
     }
   ]

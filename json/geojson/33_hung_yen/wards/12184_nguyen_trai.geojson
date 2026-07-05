@@ -3282,11 +3282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Trãi",
-        "unit_code": "12184",
-        "unit_code_name": "nguyen_trai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.707",
-        "area_km2": 30.68
+        "code": "12184",
+        "name": "Nguyễn Trãi",
+        "nameEn": "Nguyen Trai",
+        "fullName": "Xã Nguyễn Trãi",
+        "fullNameEn": "Nguyen Trai Commune",
+        "codeName": "nguyen_trai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.707",
+        "areaKm2": 30.68
       }
     }
   ]

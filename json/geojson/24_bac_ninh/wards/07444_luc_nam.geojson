@@ -12346,11 +12346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Nam",
-        "unit_code": "07444",
-        "unit_code_name": "luc_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2172",
-        "area_km2": 58.91
+        "code": "07444",
+        "name": "Lục Nam",
+        "nameEn": "Luc Nam",
+        "fullName": "Xã Lục Nam",
+        "fullNameEn": "Luc Nam Commune",
+        "codeName": "luc_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2172",
+        "areaKm2": 58.91
       }
     }
   ]

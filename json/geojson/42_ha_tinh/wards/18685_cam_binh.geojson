@@ -3246,11 +3246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Bình",
-        "unit_code": "18685",
-        "unit_code_name": "cam_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2034",
-        "area_km2": 33.14
+        "code": "18685",
+        "name": "Cẩm Bình",
+        "nameEn": "Cam Binh",
+        "fullName": "Xã Cẩm Bình",
+        "fullNameEn": "Cam Binh Commune",
+        "codeName": "cam_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2034",
+        "areaKm2": 33.14
       }
     }
   ]

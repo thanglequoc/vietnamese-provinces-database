@@ -2666,11 +2666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc An Phụ",
-        "unit_code": "10678",
-        "unit_code_name": "bac_an_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.875",
-        "area_km2": 26.1
+        "code": "10678",
+        "name": "Bắc An Phụ",
+        "nameEn": "Bac An Phu",
+        "fullName": "Phường Bắc An Phụ",
+        "fullNameEn": "Bac An Phu Ward",
+        "codeName": "bac_an_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.875",
+        "areaKm2": 26.1
       }
     }
   ]

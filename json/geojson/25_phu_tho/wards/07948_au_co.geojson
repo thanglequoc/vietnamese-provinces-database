@@ -4110,11 +4110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Âu Cơ",
-        "unit_code": "07948",
-        "unit_code_name": "au_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1579",
-        "area_km2": 12.51
+        "code": "07948",
+        "name": "Âu Cơ",
+        "nameEn": "Au Co",
+        "fullName": "Phường Âu Cơ",
+        "fullNameEn": "Au Co Ward",
+        "codeName": "au_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1579",
+        "areaKm2": 12.51
       }
     }
   ]

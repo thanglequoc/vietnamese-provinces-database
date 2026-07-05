@@ -2322,11 +2322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đốc Binh Kiều",
-        "unit_code": "30061",
-        "unit_code_name": "doc_binh_kieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.422",
-        "area_km2": 77.8
+        "code": "30061",
+        "name": "Đốc Binh Kiều",
+        "nameEn": "Doc Binh Kieu",
+        "fullName": "Xã Đốc Binh Kiều",
+        "fullNameEn": "Doc Binh Kieu Commune",
+        "codeName": "doc_binh_kieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.422",
+        "areaKm2": 77.8
       }
     }
   ]

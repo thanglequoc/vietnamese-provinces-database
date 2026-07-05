@@ -12722,11 +12722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đường Hồng",
-        "unit_code": "01012",
-        "unit_code_name": "duong_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2426",
-        "area_km2": 135.42
+        "code": "01012",
+        "name": "Đường Hồng",
+        "nameEn": "Duong Hong",
+        "fullName": "Xã Đường Hồng",
+        "fullNameEn": "Duong Hong Commune",
+        "codeName": "duong_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2426",
+        "areaKm2": 135.42
       }
     }
   ]

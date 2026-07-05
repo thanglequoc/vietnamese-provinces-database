@@ -9862,11 +9862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Lang",
-        "unit_code": "02143",
-        "unit_code_name": "van_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1247",
-        "area_km2": 171.59
+        "code": "02143",
+        "name": "Văn Lang",
+        "nameEn": "Van Lang",
+        "fullName": "Xã Văn Lang",
+        "fullNameEn": "Van Lang Commune",
+        "codeName": "van_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1247",
+        "areaKm2": 171.59
       }
     }
   ]

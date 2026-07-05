@@ -1370,11 +1370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiên Trường",
-        "unit_code": "13684",
-        "unit_code_name": "thien_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.799",
-        "area_km2": 20.53
+        "code": "13684",
+        "name": "Thiên Trường",
+        "nameEn": "Thien Truong",
+        "fullName": "Phường Thiên Trường",
+        "fullNameEn": "Thien Truong Ward",
+        "codeName": "thien_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.799",
+        "areaKm2": 20.53
       }
     }
   ]

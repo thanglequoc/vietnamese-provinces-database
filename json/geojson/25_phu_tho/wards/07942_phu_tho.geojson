@@ -8314,11 +8314,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thọ",
-        "unit_code": "07942",
-        "unit_code_name": "phu_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1583",
-        "area_km2": 23.07
+        "code": "07942",
+        "name": "Phú Thọ",
+        "nameEn": "Phu Tho",
+        "fullName": "Phường Phú Thọ",
+        "fullNameEn": "Phu Tho Ward",
+        "codeName": "phu_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1583",
+        "areaKm2": 23.07
       }
     }
   ]

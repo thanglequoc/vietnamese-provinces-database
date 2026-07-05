@@ -9122,11 +9122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nhơn Nam",
-        "unit_code": "21943",
-        "unit_code_name": "an_nhon_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3023",
-        "area_km2": 60.05
+        "code": "21943",
+        "name": "An Nhơn Nam",
+        "nameEn": "An Nhon Nam",
+        "fullName": "Phường An Nhơn Nam",
+        "fullNameEn": "An Nhon Nam Ward",
+        "codeName": "an_nhon_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3023",
+        "areaKm2": 60.05
       }
     }
   ]

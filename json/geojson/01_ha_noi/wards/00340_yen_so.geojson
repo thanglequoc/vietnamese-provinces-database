@@ -1978,11 +1978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Sở",
-        "unit_code": "00340",
-        "unit_code_name": "yen_so",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3189",
-        "area_km2": 5.62
+        "code": "00340",
+        "name": "Yên Sở",
+        "nameEn": "Yen So",
+        "fullName": "Phường Yên Sở",
+        "fullNameEn": "Yen So Ward",
+        "codeName": "yen_so",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3189",
+        "areaKm2": 5.62
       }
     }
   ]

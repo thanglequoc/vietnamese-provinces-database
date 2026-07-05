@@ -55458,11 +55458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lợi",
-        "unit_code": "25378",
-        "unit_code_name": "tan_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2309",
-        "area_km2": 379.8
+        "code": "25378",
+        "name": "Tân Lợi",
+        "nameEn": "Tan Loi",
+        "fullName": "Xã Tân Lợi",
+        "fullNameEn": "Tan Loi Commune",
+        "codeName": "tan_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2309",
+        "areaKm2": 379.8
       }
     }
   ]

@@ -3486,11 +3486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Kênh",
-        "unit_code": "09499",
-        "unit_code_name": "trung_kenh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2135",
-        "area_km2": 27.32
+        "code": "09499",
+        "name": "Trung Kênh",
+        "nameEn": "Trung Kenh",
+        "fullName": "Xã Trung Kênh",
+        "fullNameEn": "Trung Kenh Commune",
+        "codeName": "trung_kenh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2135",
+        "areaKm2": 27.32
       }
     }
   ]

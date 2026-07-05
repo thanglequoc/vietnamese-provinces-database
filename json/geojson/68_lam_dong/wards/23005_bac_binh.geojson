@@ -10470,11 +10470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Bình",
-        "unit_code": "23005",
-        "unit_code_name": "bac_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3071",
-        "area_km2": 148.99
+        "code": "23005",
+        "name": "Bắc Bình",
+        "nameEn": "Bac Binh",
+        "fullName": "Xã Bắc Bình",
+        "fullNameEn": "Bac Binh Commune",
+        "codeName": "bac_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3071",
+        "areaKm2": 148.99
       }
     }
   ]

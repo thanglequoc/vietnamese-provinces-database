@@ -11194,11 +11194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bằng Mạc",
-        "unit_code": "06475",
-        "unit_code_name": "bang_mac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1802",
-        "area_km2": 117.82
+        "code": "06475",
+        "name": "Bằng Mạc",
+        "nameEn": "Bang Mac",
+        "fullName": "Xã Bằng Mạc",
+        "fullNameEn": "Bang Mac Commune",
+        "codeName": "bang_mac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1802",
+        "areaKm2": 117.82
       }
     }
   ]

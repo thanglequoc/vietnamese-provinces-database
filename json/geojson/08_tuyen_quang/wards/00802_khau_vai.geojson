@@ -8550,11 +8550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khâu Vai",
-        "unit_code": "00802",
-        "unit_code_name": "khau_vai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2376",
-        "area_km2": 107.46
+        "code": "00802",
+        "name": "Khâu Vai",
+        "nameEn": "Khau Vai",
+        "fullName": "Xã Khâu Vai",
+        "fullNameEn": "Khau Vai Commune",
+        "codeName": "khau_vai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2376",
+        "areaKm2": 107.46
       }
     }
   ]

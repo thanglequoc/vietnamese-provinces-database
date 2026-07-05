@@ -5782,11 +5782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Cửa Việt",
-        "unit_code": "19639",
-        "unit_code_name": "nam_cua_viet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.587",
-        "area_km2": 74.12
+        "code": "19639",
+        "name": "Nam Cửa Việt",
+        "nameEn": "Nam Cua Viet",
+        "fullName": "Xã Nam Cửa Việt",
+        "fullNameEn": "Nam Cua Viet Commune",
+        "codeName": "nam_cua_viet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.587",
+        "areaKm2": 74.12
       }
     }
   ]

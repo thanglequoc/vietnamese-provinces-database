@@ -11594,11 +11594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Pxi",
-        "unit_code": "23504",
-        "unit_code_name": "dak_pxi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.539",
-        "area_km2": 325.35
+        "code": "23504",
+        "name": "Đăk Pxi",
+        "nameEn": "Dak Pxi",
+        "fullName": "Xã Đăk Pxi",
+        "fullNameEn": "Dak Pxi Commune",
+        "codeName": "dak_pxi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.539",
+        "areaKm2": 325.35
       }
     }
   ]

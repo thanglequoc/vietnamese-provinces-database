@@ -15910,11 +15910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Quang",
-        "unit_code": "02302",
-        "unit_code_name": "minh_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2323",
-        "area_km2": 191.34
+        "code": "02302",
+        "name": "Minh Quang",
+        "nameEn": "Minh Quang",
+        "fullName": "Xã Minh Quang",
+        "fullNameEn": "Minh Quang Commune",
+        "codeName": "minh_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2323",
+        "areaKm2": 191.34
       }
     }
   ]

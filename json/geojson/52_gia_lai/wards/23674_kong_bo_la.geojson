@@ -20798,11 +20798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kông Bơ La",
-        "unit_code": "23674",
-        "unit_code_name": "kong_bo_la",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3051",
-        "area_km2": 133.42
+        "code": "23674",
+        "name": "Kông Bơ La",
+        "nameEn": "Kong Bo La",
+        "fullName": "Xã Kông Bơ La",
+        "fullNameEn": "Kong Bo La Commune",
+        "codeName": "kong_bo_la",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3051",
+        "areaKm2": 133.42
       }
     }
   ]

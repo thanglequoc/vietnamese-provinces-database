@@ -21874,11 +21874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Tín",
-        "unit_code": "24760",
-        "unit_code_name": "quang_tin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2796",
-        "area_km2": 310.17
+        "code": "24760",
+        "name": "Quảng Tín",
+        "nameEn": "Quang Tin",
+        "fullName": "Xã Quảng Tín",
+        "fullNameEn": "Quang Tin Commune",
+        "codeName": "quang_tin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2796",
+        "areaKm2": 310.17
       }
     }
   ]

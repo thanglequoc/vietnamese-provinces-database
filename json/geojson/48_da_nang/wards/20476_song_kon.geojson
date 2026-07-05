@@ -8326,11 +8326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Kôn",
-        "unit_code": "20476",
-        "unit_code_name": "song_kon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1921",
-        "area_km2": 212.94
+        "code": "20476",
+        "name": "Sông Kôn",
+        "nameEn": "Song Kon",
+        "fullName": "Xã Sông Kôn",
+        "fullNameEn": "Song Kon Commune",
+        "codeName": "song_kon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1921",
+        "areaKm2": 212.94
       }
     }
   ]

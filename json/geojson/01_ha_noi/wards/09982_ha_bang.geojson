@@ -10358,11 +10358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạ Bằng",
-        "unit_code": "09982",
-        "unit_code_name": "ha_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3283",
-        "area_km2": 32.14
+        "code": "09982",
+        "name": "Hạ Bằng",
+        "nameEn": "Ha Bang",
+        "fullName": "Xã Hạ Bằng",
+        "fullNameEn": "Ha Bang Commune",
+        "codeName": "ha_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3283",
+        "areaKm2": 32.14
       }
     }
   ]

@@ -2542,11 +2542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trực Ninh",
-        "unit_code": "14053",
-        "unit_code_name": "truc_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.795",
-        "area_km2": 17.26
+        "code": "14053",
+        "name": "Trực Ninh",
+        "nameEn": "Truc Ninh",
+        "fullName": "Xã Trực Ninh",
+        "fullNameEn": "Truc Ninh Commune",
+        "codeName": "truc_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.795",
+        "areaKm2": 17.26
       }
     }
   ]

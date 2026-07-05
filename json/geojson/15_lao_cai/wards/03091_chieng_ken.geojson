@@ -11390,11 +11390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Ken",
-        "unit_code": "03091",
-        "unit_code_name": "chieng_ken",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1086",
-        "area_km2": 191.3
+        "code": "03091",
+        "name": "Chiềng Ken",
+        "nameEn": "Chieng Ken",
+        "fullName": "Xã Chiềng Ken",
+        "fullNameEn": "Chieng Ken Commune",
+        "codeName": "chieng_ken",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1086",
+        "areaKm2": 191.3
       }
     }
   ]

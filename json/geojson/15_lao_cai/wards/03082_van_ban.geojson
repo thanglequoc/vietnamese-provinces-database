@@ -13146,11 +13146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Bàn",
-        "unit_code": "03082",
-        "unit_code_name": "van_ban",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1082",
-        "area_km2": 156.7
+        "code": "03082",
+        "name": "Văn Bàn",
+        "nameEn": "Van Ban",
+        "fullName": "Xã Văn Bàn",
+        "fullNameEn": "Van Ban Commune",
+        "codeName": "van_ban",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1082",
+        "areaKm2": 156.7
       }
     }
   ]

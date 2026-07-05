@@ -6386,11 +6386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Hoà",
-        "unit_code": "25846",
-        "unit_code_name": "thoi_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.15",
-        "area_km2": 37.93
+        "code": "25846",
+        "name": "Thới Hoà",
+        "nameEn": "Thoi Hoa",
+        "fullName": "Phường Thới Hoà",
+        "fullNameEn": "Thoi Hoa Ward",
+        "codeName": "thoi_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.15",
+        "areaKm2": 37.93
       }
     }
   ]

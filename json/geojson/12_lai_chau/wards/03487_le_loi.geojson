@@ -16246,11 +16246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Lợi",
-        "unit_code": "03487",
-        "unit_code_name": "le_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2078",
-        "area_km2": 288.36
+        "code": "03487",
+        "name": "Lê Lợi",
+        "nameEn": "Le Loi",
+        "fullName": "Xã Lê Lợi",
+        "fullNameEn": "Le Loi Commune",
+        "codeName": "le_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2078",
+        "areaKm2": 288.36
       }
     }
   ]

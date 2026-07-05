@@ -850,11 +850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Tây",
-        "unit_code": "27367",
-        "unit_code_name": "binh_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.99",
-        "area_km2": 1.05
+        "code": "27367",
+        "name": "Bình Tây",
+        "nameEn": "Binh Tay",
+        "fullName": "Phường Bình Tây",
+        "fullNameEn": "Binh Tay Ward",
+        "codeName": "binh_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.99",
+        "areaKm2": 1.05
       }
     }
   ]

@@ -17662,11 +17662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Xuyên",
-        "unit_code": "32002",
-        "unit_code_name": "an_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.164",
-        "area_km2": 69.9
+        "code": "32002",
+        "name": "An Xuyên",
+        "nameEn": "An Xuyen",
+        "fullName": "Phường An Xuyên",
+        "fullNameEn": "An Xuyen Ward",
+        "codeName": "an_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.164",
+        "areaKm2": 69.9
       }
     }
   ]

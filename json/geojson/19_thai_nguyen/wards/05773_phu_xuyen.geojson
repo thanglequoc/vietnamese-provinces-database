@@ -6910,11 +6910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Xuyên",
-        "unit_code": "05773",
-        "unit_code_name": "phu_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1228",
-        "area_km2": 64.58
+        "code": "05773",
+        "name": "Phú Xuyên",
+        "nameEn": "Phu Xuyen",
+        "fullName": "Xã Phú Xuyên",
+        "fullNameEn": "Phu Xuyen Commune",
+        "codeName": "phu_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1228",
+        "areaKm2": 64.58
       }
     }
   ]

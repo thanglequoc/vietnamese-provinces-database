@@ -6114,11 +6114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hóc Môn",
-        "unit_code": "27559",
-        "unit_code_name": "hoc_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.121",
-        "area_km2": 16.43
+        "code": "27559",
+        "name": "Hóc Môn",
+        "nameEn": "Hoc Mon",
+        "fullName": "Xã Hóc Môn",
+        "fullNameEn": "Hoc Mon Commune",
+        "codeName": "hoc_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.121",
+        "areaKm2": 16.43
       }
     }
   ]

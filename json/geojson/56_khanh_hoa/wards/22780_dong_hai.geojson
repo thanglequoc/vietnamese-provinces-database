@@ -1662,11 +1662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hải",
-        "unit_code": "22780",
-        "unit_code_name": "dong_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1144",
-        "area_km2": 11
+        "code": "22780",
+        "name": "Đông Hải",
+        "nameEn": "Dong Hai",
+        "fullName": "Phường Đông Hải",
+        "fullNameEn": "Dong Hai Ward",
+        "codeName": "dong_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1144",
+        "areaKm2": 11
       }
     }
   ]

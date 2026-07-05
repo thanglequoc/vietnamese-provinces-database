@@ -2830,11 +2830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Hồng",
-        "unit_code": "12127",
-        "unit_code_name": "thuong_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.738",
-        "area_km2": 25.41
+        "code": "12127",
+        "name": "Thượng Hồng",
+        "nameEn": "Thuong Hong",
+        "fullName": "Phường Thượng Hồng",
+        "fullNameEn": "Thuong Hong Ward",
+        "codeName": "thuong_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.738",
+        "areaKm2": 25.41
       }
     }
   ]

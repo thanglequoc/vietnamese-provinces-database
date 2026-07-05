@@ -10198,11 +10198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Dương",
-        "unit_code": "08869",
-        "unit_code_name": "tam_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1618",
-        "area_km2": 44.3
+        "code": "08869",
+        "name": "Tam Dương",
+        "nameEn": "Tam Duong",
+        "fullName": "Xã Tam Dương",
+        "fullNameEn": "Tam Duong Commune",
+        "codeName": "tam_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1618",
+        "areaKm2": 44.3
       }
     }
   ]

@@ -5810,11 +5810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Dương",
-        "unit_code": "25760",
-        "unit_code_name": "binh_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.4",
-        "area_km2": 58.16
+        "code": "25760",
+        "name": "Bình Dương",
+        "nameEn": "Binh Duong",
+        "fullName": "Phường Bình Dương",
+        "fullNameEn": "Binh Duong Ward",
+        "codeName": "binh_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.4",
+        "areaKm2": 58.16
       }
     }
   ]

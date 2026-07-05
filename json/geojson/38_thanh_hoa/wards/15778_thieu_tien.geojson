@@ -3598,11 +3598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiệu Tiến",
-        "unit_code": "15778",
-        "unit_code_name": "thieu_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2662",
-        "area_km2": 23.68
+        "code": "15778",
+        "name": "Thiệu Tiến",
+        "nameEn": "Thieu Tien",
+        "fullName": "Xã Thiệu Tiến",
+        "fullNameEn": "Thieu Tien Commune",
+        "codeName": "thieu_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2662",
+        "areaKm2": 23.68
       }
     }
   ]

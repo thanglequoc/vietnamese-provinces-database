@@ -3750,11 +3750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Tường",
-        "unit_code": "09076",
-        "unit_code_name": "vinh_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1634",
-        "area_km2": 26.2
+        "code": "09076",
+        "name": "Vĩnh Tường",
+        "nameEn": "Vinh Tuong",
+        "fullName": "Xã Vĩnh Tường",
+        "fullNameEn": "Vinh Tuong Commune",
+        "codeName": "vinh_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1634",
+        "areaKm2": 26.2
       }
     }
   ]

@@ -5654,11 +5654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Tuyền",
-        "unit_code": "31183",
-        "unit_code_name": "long_tuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.211",
-        "area_km2": 28.48
+        "code": "31183",
+        "name": "Long Tuyền",
+        "nameEn": "Long Tuyen",
+        "fullName": "Phường Long Tuyền",
+        "fullNameEn": "Long Tuyen Ward",
+        "codeName": "long_tuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.211",
+        "areaKm2": 28.48
       }
     }
   ]

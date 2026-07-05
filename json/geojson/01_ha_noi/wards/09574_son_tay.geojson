@@ -5342,11 +5342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Tây",
-        "unit_code": "09574",
-        "unit_code_name": "son_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3238",
-        "area_km2": 23.08
+        "code": "09574",
+        "name": "Sơn Tây",
+        "nameEn": "Son Tay",
+        "fullName": "Phường Sơn Tây",
+        "fullNameEn": "Son Tay Ward",
+        "codeName": "son_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3238",
+        "areaKm2": 23.08
       }
     }
   ]

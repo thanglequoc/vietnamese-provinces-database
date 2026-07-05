@@ -2726,11 +2726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cảnh Thuỵ",
-        "unit_code": "07738",
-        "unit_code_name": "canh_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2148",
-        "area_km2": 27.73
+        "code": "07738",
+        "name": "Cảnh Thuỵ",
+        "nameEn": "Canh Thuy",
+        "fullName": "Phường Cảnh Thuỵ",
+        "fullNameEn": "Canh Thuy Ward",
+        "codeName": "canh_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2148",
+        "areaKm2": 27.73
       }
     }
   ]

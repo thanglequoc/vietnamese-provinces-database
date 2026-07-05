@@ -4566,11 +4566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nga Sơn",
-        "unit_code": "16093",
-        "unit_code_name": "nga_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2625",
-        "area_km2": 27.14
+        "code": "16093",
+        "name": "Nga Sơn",
+        "nameEn": "Nga Son",
+        "fullName": "Xã Nga Sơn",
+        "fullNameEn": "Nga Son Commune",
+        "codeName": "nga_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2625",
+        "areaKm2": 27.14
       }
     }
   ]

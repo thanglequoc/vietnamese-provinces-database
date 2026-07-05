@@ -9090,11 +9090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Quan",
-        "unit_code": "21637",
-        "unit_code_name": "tam_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2972",
-        "area_km2": 29.82
+        "code": "21637",
+        "name": "Tam Quan",
+        "nameEn": "Tam Quan",
+        "fullName": "Phường Tam Quan",
+        "fullNameEn": "Tam Quan Ward",
+        "codeName": "tam_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2972",
+        "areaKm2": 29.82
       }
     }
   ]

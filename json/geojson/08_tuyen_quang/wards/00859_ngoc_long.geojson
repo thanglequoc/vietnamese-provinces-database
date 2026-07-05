@@ -9826,11 +9826,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Long",
-        "unit_code": "00859",
-        "unit_code_name": "ngoc_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2381",
-        "area_km2": 84.26
+        "code": "00859",
+        "name": "Ngọc Long",
+        "nameEn": "Ngoc Long",
+        "fullName": "Xã Ngọc Long",
+        "fullNameEn": "Ngoc Long Commune",
+        "codeName": "ngoc_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2381",
+        "areaKm2": 84.26
       }
     }
   ]

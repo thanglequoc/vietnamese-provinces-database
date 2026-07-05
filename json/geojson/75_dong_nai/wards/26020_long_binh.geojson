@@ -3342,11 +3342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Bình",
-        "unit_code": "26020",
-        "unit_code_name": "long_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3103",
-        "area_km2": 44.9
+        "code": "26020",
+        "name": "Long Bình",
+        "nameEn": "Long Binh",
+        "fullName": "Phường Long Bình",
+        "fullNameEn": "Long Binh Ward",
+        "codeName": "long_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3103",
+        "areaKm2": 44.9
       }
     }
   ]

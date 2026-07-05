@@ -6562,11 +6562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạc Thuỷ",
-        "unit_code": "05392",
-        "unit_code_name": "lac_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1643",
-        "area_km2": 90.69
+        "code": "05392",
+        "name": "Lạc Thuỷ",
+        "nameEn": "Lac Thuy",
+        "fullName": "Xã Lạc Thuỷ",
+        "fullNameEn": "Lac Thuy Commune",
+        "codeName": "lac_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1643",
+        "areaKm2": 90.69
       }
     }
   ]

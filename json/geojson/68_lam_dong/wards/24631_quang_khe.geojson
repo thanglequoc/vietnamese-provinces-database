@@ -11670,11 +11670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Khê",
-        "unit_code": "24631",
-        "unit_code_name": "quang_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2813",
-        "area_km2": 224.29
+        "code": "24631",
+        "name": "Quảng Khê",
+        "nameEn": "Quang Khe",
+        "fullName": "Xã Quảng Khê",
+        "fullNameEn": "Quang Khe Commune",
+        "codeName": "quang_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2813",
+        "areaKm2": 224.29
       }
     }
   ]

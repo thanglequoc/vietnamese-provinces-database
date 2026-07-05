@@ -37326,11 +37326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Kly",
-        "unit_code": "24496",
-        "unit_code_name": "ea_kly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2865",
-        "area_km2": 107.63
+        "code": "24496",
+        "name": "Ea Kly",
+        "nameEn": "Ea Kly",
+        "fullName": "Xã Ea Kly",
+        "fullNameEn": "Ea Kly Commune",
+        "codeName": "ea_kly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2865",
+        "areaKm2": 107.63
       }
     }
   ]

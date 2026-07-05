@@ -8498,11 +8498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thuận",
-        "unit_code": "30838",
-        "unit_code_name": "my_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.371",
-        "area_km2": 210.5
+        "code": "30838",
+        "name": "Mỹ Thuận",
+        "nameEn": "My Thuan",
+        "fullName": "Xã Mỹ Thuận",
+        "fullNameEn": "My Thuan Commune",
+        "codeName": "my_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.371",
+        "areaKm2": 210.5
       }
     }
   ]

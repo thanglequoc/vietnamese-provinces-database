@@ -6894,11 +6894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng An",
-        "unit_code": "08896",
-        "unit_code_name": "hoang_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1621",
-        "area_km2": 20.8
+        "code": "08896",
+        "name": "Hoàng An",
+        "nameEn": "Hoang An",
+        "fullName": "Xã Hoàng An",
+        "fullNameEn": "Hoang An Commune",
+        "codeName": "hoang_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1621",
+        "areaKm2": 20.8
       }
     }
   ]

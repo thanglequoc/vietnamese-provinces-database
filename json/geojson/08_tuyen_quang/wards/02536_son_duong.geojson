@@ -15866,11 +15866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Dương",
-        "unit_code": "02536",
-        "unit_code_name": "son_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2353",
-        "area_km2": 123.17
+        "code": "02536",
+        "name": "Sơn Dương",
+        "nameEn": "Son Duong",
+        "fullName": "Xã Sơn Dương",
+        "fullNameEn": "Son Duong Commune",
+        "codeName": "son_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2353",
+        "areaKm2": 123.17
       }
     }
   ]

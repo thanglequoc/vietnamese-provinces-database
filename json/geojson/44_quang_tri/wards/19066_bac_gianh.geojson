@@ -1242,11 +1242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Gianh",
-        "unit_code": "19066",
-        "unit_code_name": "bac_gianh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.617",
-        "area_km2": 31.14
+        "code": "19066",
+        "name": "Bắc Gianh",
+        "nameEn": "Bac Gianh",
+        "fullName": "Phường Bắc Gianh",
+        "fullNameEn": "Bac Gianh Ward",
+        "codeName": "bac_gianh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.617",
+        "areaKm2": 31.14
       }
     }
   ]

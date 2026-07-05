@@ -1842,11 +1842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Hải",
-        "unit_code": "20992",
-        "unit_code_name": "tam_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1976",
-        "area_km2": 13.32
+        "code": "20992",
+        "name": "Tam Hải",
+        "nameEn": "Tam Hai",
+        "fullName": "Xã Tam Hải",
+        "fullNameEn": "Tam Hai Commune",
+        "codeName": "tam_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1976",
+        "areaKm2": 13.32
       }
     }
   ]

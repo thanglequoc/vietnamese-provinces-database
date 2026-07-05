@@ -6802,11 +6802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Mèo",
-        "unit_code": "15013",
-        "unit_code_name": "na_meo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2722",
-        "area_km2": 127.44
+        "code": "15013",
+        "name": "Na Mèo",
+        "nameEn": "Na Meo",
+        "fullName": "Xã Na Mèo",
+        "fullNameEn": "Na Meo Commune",
+        "codeName": "na_meo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2722",
+        "areaKm2": 127.44
       }
     }
   ]

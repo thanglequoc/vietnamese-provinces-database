@@ -21402,11 +21402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Hàng",
-        "unit_code": "03434",
-        "unit_code_name": "nam_hang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2076",
-        "area_km2": 335.92
+        "code": "03434",
+        "name": "Nậm Hàng",
+        "nameEn": "Nam Hang",
+        "fullName": "Xã Nậm Hàng",
+        "fullNameEn": "Nam Hang Commune",
+        "codeName": "nam_hang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2076",
+        "areaKm2": 335.92
       }
     }
   ]

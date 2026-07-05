@@ -10810,11 +10810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Ham",
-        "unit_code": "17077",
-        "unit_code_name": "muong_ham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1478",
-        "area_km2": 160.35
+        "code": "17077",
+        "name": "Mường Ham",
+        "nameEn": "Muong Ham",
+        "fullName": "Xã Mường Ham",
+        "fullNameEn": "Muong Ham Commune",
+        "codeName": "muong_ham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1478",
+        "areaKm2": 160.35
       }
     }
   ]

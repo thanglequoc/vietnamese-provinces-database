@@ -16442,11 +16442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sin Suối Hồ",
-        "unit_code": "03394",
-        "unit_code_name": "sin_suoi_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2090",
-        "area_km2": 255.91
+        "code": "03394",
+        "name": "Sin Suối Hồ",
+        "nameEn": "Sin Suoi Ho",
+        "fullName": "Xã Sin Suối Hồ",
+        "fullNameEn": "Sin Suoi Ho Commune",
+        "codeName": "sin_suoi_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2090",
+        "areaKm2": 255.91
       }
     }
   ]

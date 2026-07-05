@@ -5890,11 +5890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Hoà",
-        "unit_code": "07330",
-        "unit_code_name": "phuc_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2165",
-        "area_km2": 32.69
+        "code": "07330",
+        "name": "Phúc Hoà",
+        "nameEn": "Phuc Hoa",
+        "fullName": "Xã Phúc Hoà",
+        "fullNameEn": "Phuc Hoa Commune",
+        "codeName": "phuc_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2165",
+        "areaKm2": 32.69
       }
     }
   ]

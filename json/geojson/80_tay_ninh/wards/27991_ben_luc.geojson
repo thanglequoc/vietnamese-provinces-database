@@ -4226,11 +4226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Lức",
-        "unit_code": "27991",
-        "unit_code_name": "ben_luc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1309",
-        "area_km2": 48.75
+        "code": "27991",
+        "name": "Bến Lức",
+        "nameEn": "Ben Luc",
+        "fullName": "Xã Bến Lức",
+        "fullNameEn": "Ben Luc Commune",
+        "codeName": "ben_luc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1309",
+        "areaKm2": 48.75
       }
     }
   ]

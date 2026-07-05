@@ -2070,11 +2070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Hoàng",
-        "unit_code": "14500",
-        "unit_code_name": "dai_hoang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.753",
-        "area_km2": 23.75
+        "code": "14500",
+        "name": "Đại Hoàng",
+        "nameEn": "Dai Hoang",
+        "fullName": "Xã Đại Hoàng",
+        "fullNameEn": "Dai Hoang Commune",
+        "codeName": "dai_hoang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.753",
+        "areaKm2": 23.75
       }
     }
   ]

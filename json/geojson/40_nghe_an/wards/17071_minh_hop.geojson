@@ -6530,11 +6530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Hợp",
-        "unit_code": "17071",
-        "unit_code_name": "minh_hop",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1479",
-        "area_km2": 159.97
+        "code": "17071",
+        "name": "Minh Hợp",
+        "nameEn": "Minh Hop",
+        "fullName": "Xã Minh Hợp",
+        "fullNameEn": "Minh Hop Commune",
+        "codeName": "minh_hop",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1479",
+        "areaKm2": 159.97
       }
     }
   ]

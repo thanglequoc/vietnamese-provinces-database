@@ -3054,11 +3054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Bình",
-        "unit_code": "31399",
-        "unit_code_name": "tan_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.244",
-        "area_km2": 61.85
+        "code": "31399",
+        "name": "Tân Bình",
+        "nameEn": "Tan Binh",
+        "fullName": "Xã Tân Bình",
+        "fullNameEn": "Tan Binh Commune",
+        "codeName": "tan_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.244",
+        "areaKm2": 61.85
       }
     }
   ]

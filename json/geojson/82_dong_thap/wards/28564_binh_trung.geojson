@@ -7538,11 +7538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Trưng",
-        "unit_code": "28564",
-        "unit_code_name": "binh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.478",
-        "area_km2": 31.2
+        "code": "28564",
+        "name": "Bình Trưng",
+        "nameEn": "Binh Trung",
+        "fullName": "Xã Bình Trưng",
+        "fullNameEn": "Binh Trung Commune",
+        "codeName": "binh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.478",
+        "areaKm2": 31.2
       }
     }
   ]

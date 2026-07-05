@@ -3298,11 +3298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Lưu",
-        "unit_code": "14452",
-        "unit_code_name": "quynh_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.747",
-        "area_km2": 26.49
+        "code": "14452",
+        "name": "Quỳnh Lưu",
+        "nameEn": "Quynh Luu",
+        "fullName": "Xã Quỳnh Lưu",
+        "fullNameEn": "Quynh Luu Commune",
+        "codeName": "quynh_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.747",
+        "areaKm2": 26.49
       }
     }
   ]

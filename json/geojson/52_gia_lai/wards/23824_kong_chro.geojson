@@ -19662,11 +19662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kông Chro",
-        "unit_code": "23824",
-        "unit_code_name": "kong_chro",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3031",
-        "area_km2": 200.79
+        "code": "23824",
+        "name": "Kông Chro",
+        "nameEn": "Kong Chro",
+        "fullName": "Xã Kông Chro",
+        "fullNameEn": "Kong Chro Commune",
+        "codeName": "kong_chro",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3031",
+        "areaKm2": 200.79
       }
     }
   ]

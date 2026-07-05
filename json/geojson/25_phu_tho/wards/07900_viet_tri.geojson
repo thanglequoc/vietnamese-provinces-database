@@ -6818,11 +6818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Trì",
-        "unit_code": "07900",
-        "unit_code_name": "viet_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1569",
-        "area_km2": 25.83
+        "code": "07900",
+        "name": "Việt Trì",
+        "nameEn": "Viet Tri",
+        "fullName": "Phường Việt Trì",
+        "fullNameEn": "Viet Tri Ward",
+        "codeName": "viet_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1569",
+        "areaKm2": 25.83
       }
     }
   ]

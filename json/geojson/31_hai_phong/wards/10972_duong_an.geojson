@@ -2246,11 +2246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đường An",
-        "unit_code": "10972",
-        "unit_code_name": "duong_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.864",
-        "area_km2": 25.53
+        "code": "10972",
+        "name": "Đường An",
+        "nameEn": "Duong An",
+        "fullName": "Xã Đường An",
+        "fullNameEn": "Duong An Commune",
+        "codeName": "duong_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.864",
+        "areaKm2": 25.53
       }
     }
   ]

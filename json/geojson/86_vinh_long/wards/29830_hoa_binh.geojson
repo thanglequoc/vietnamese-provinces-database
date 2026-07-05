@@ -9858,11 +9858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Bình",
-        "unit_code": "29830",
-        "unit_code_name": "hoa_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2556",
-        "area_km2": 65.61
+        "code": "29830",
+        "name": "Hoà Bình",
+        "nameEn": "Hoa Binh",
+        "fullName": "Xã Hoà Bình",
+        "fullNameEn": "Hoa Binh Commune",
+        "codeName": "hoa_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2556",
+        "areaKm2": 65.61
       }
     }
   ]

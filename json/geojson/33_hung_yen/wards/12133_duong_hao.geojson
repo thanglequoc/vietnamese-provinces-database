@@ -3118,11 +3118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đường Hào",
-        "unit_code": "12133",
-        "unit_code_name": "duong_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.717",
-        "area_km2": 25.62
+        "code": "12133",
+        "name": "Đường Hào",
+        "nameEn": "Duong Hao",
+        "fullName": "Phường Đường Hào",
+        "fullNameEn": "Duong Hao Ward",
+        "codeName": "duong_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.717",
+        "areaKm2": 25.62
       }
     }
   ]

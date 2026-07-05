@@ -10846,11 +10846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Kim 2",
-        "unit_code": "18199",
-        "unit_code_name": "son_kim_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2053",
-        "area_km2": 208.46
+        "code": "18199",
+        "name": "Sơn Kim 2",
+        "nameEn": "Son Kim 2",
+        "fullName": "Xã Sơn Kim 2",
+        "fullNameEn": "Commune Son Kim 2",
+        "codeName": "son_kim_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2053",
+        "areaKm2": 208.46
       }
     }
   ]

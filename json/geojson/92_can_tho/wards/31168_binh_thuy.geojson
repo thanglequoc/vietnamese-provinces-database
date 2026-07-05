@@ -1542,11 +1542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Thuỷ",
-        "unit_code": "31168",
-        "unit_code_name": "binh_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.209",
-        "area_km2": 15.17
+        "code": "31168",
+        "name": "Bình Thuỷ",
+        "nameEn": "Binh Thuy",
+        "fullName": "Phường Bình Thuỷ",
+        "fullNameEn": "Binh Thuy Ward",
+        "codeName": "binh_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.209",
+        "areaKm2": 15.17
       }
     }
   ]

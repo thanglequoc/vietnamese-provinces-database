@@ -10074,11 +10074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thái",
-        "unit_code": "31006",
-        "unit_code_name": "dong_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.390",
-        "area_km2": 154.52
+        "code": "31006",
+        "name": "Đông Thái",
+        "nameEn": "Dong Thai",
+        "fullName": "Xã Đông Thái",
+        "fullNameEn": "Dong Thai Commune",
+        "codeName": "dong_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.390",
+        "areaKm2": 154.52
       }
     }
   ]

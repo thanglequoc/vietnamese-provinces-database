@@ -11638,11 +11638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Nai",
-        "unit_code": "75",
-        "unit_code_name": "dong_nai",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.50",
-        "area_km2": 12737.18
+        "code": "75",
+        "name": "Đồng Nai",
+        "nameEn": "Dong Nai",
+        "fullName": "Thành phố Đồng Nai",
+        "fullNameEn": "Dong Nai City",
+        "codeName": "dong_nai",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.50",
+        "areaKm2": 12737.18
       }
     }
   ]

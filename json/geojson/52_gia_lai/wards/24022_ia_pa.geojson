@@ -9950,11 +9950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Pa",
-        "unit_code": "24022",
-        "unit_code_name": "ia_pa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2956",
-        "area_km2": 103.19
+        "code": "24022",
+        "name": "Ia Pa",
+        "nameEn": "Ia Pa",
+        "fullName": "Xã Ia Pa",
+        "fullNameEn": "Ia Pa Commune",
+        "codeName": "ia_pa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2956",
+        "areaKm2": 103.19
       }
     }
   ]

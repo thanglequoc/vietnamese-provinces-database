@@ -13174,11 +13174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Gia Nghĩa",
-        "unit_code": "24617",
-        "unit_code_name": "dong_gia_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2810",
-        "area_km2": 105.78
+        "code": "24617",
+        "name": "Đông Gia Nghĩa",
+        "nameEn": "Dong Gia Nghia",
+        "fullName": "Phường Đông Gia Nghĩa",
+        "fullNameEn": "Dong Gia Nghia Ward",
+        "codeName": "dong_gia_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2810",
+        "areaKm2": 105.78
       }
     }
   ]

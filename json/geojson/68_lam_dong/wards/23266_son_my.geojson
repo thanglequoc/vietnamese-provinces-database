@@ -16458,11 +16458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Mỹ",
-        "unit_code": "23266",
-        "unit_code_name": "son_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3099",
-        "area_km2": 254.52
+        "code": "23266",
+        "name": "Sơn Mỹ",
+        "nameEn": "Son My",
+        "fullName": "Xã Sơn Mỹ",
+        "fullNameEn": "Son My Commune",
+        "codeName": "son_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3099",
+        "areaKm2": 254.52
       }
     }
   ]

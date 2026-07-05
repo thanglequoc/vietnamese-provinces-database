@@ -7958,11 +7958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kon Tum",
-        "unit_code": "23293",
-        "unit_code_name": "kon_tum",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1730",
-        "area_km2": 19.14
+        "code": "23293",
+        "name": "Kon Tum",
+        "nameEn": "Kon Tum",
+        "fullName": "Phường Kon Tum",
+        "fullNameEn": "Kon Tum Ward",
+        "codeName": "kon_tum",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1730",
+        "areaKm2": 19.14
       }
     }
   ]

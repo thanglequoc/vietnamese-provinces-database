@@ -3682,11 +3682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Ngang",
-        "unit_code": "29416",
-        "unit_code_name": "cau_ngang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2506",
-        "area_km2": 35.32
+        "code": "29416",
+        "name": "Cầu Ngang",
+        "nameEn": "Cau Ngang",
+        "fullName": "Xã Cầu Ngang",
+        "fullNameEn": "Cau Ngang Commune",
+        "codeName": "cau_ngang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2506",
+        "areaKm2": 35.32
       }
     }
   ]

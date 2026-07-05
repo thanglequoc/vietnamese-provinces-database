@@ -11002,11 +11002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Bo",
-        "unit_code": "03043",
-        "unit_code_name": "muong_bo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1081",
-        "area_km2": 148.3
+        "code": "03043",
+        "name": "Mường Bo",
+        "nameEn": "Muong Bo",
+        "fullName": "Xã Mường Bo",
+        "fullNameEn": "Muong Bo Commune",
+        "codeName": "muong_bo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1081",
+        "areaKm2": 148.3
       }
     }
   ]

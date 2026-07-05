@@ -11214,11 +11214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Nhơn Tây",
-        "unit_code": "21589",
-        "unit_code_name": "quy_nhon_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3018",
-        "area_km2": 118.63
+        "code": "21589",
+        "name": "Quy Nhơn Tây",
+        "nameEn": "Quy Nhon Tay",
+        "fullName": "Phường Quy Nhơn Tây",
+        "fullNameEn": "Quy Nhon Tay Ward",
+        "codeName": "quy_nhon_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3018",
+        "areaKm2": 118.63
       }
     }
   ]

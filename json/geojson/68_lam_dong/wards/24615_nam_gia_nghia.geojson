@@ -23090,11 +23090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Gia Nghĩa",
-        "unit_code": "24615",
-        "unit_code_name": "nam_gia_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2809",
-        "area_km2": 80.58
+        "code": "24615",
+        "name": "Nam Gia Nghĩa",
+        "nameEn": "Nam Gia Nghia",
+        "fullName": "Phường Nam Gia Nghĩa",
+        "fullNameEn": "Nam Gia Nghia Ward",
+        "codeName": "nam_gia_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2809",
+        "areaKm2": 80.58
       }
     }
   ]

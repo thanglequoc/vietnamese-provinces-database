@@ -9146,11 +9146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Đăng",
-        "unit_code": "06184",
-        "unit_code_name": "dong_dang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1795",
-        "area_km2": 91.57
+        "code": "06184",
+        "name": "Đồng Đăng",
+        "nameEn": "Dong Dang",
+        "fullName": "Xã Đồng Đăng",
+        "fullNameEn": "Dong Dang Commune",
+        "codeName": "dong_dang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1795",
+        "areaKm2": 91.57
       }
     }
   ]

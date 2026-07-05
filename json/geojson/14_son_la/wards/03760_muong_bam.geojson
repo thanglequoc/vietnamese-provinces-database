@@ -6534,11 +6534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Bám",
-        "unit_code": "03760",
-        "unit_code_name": "muong_bam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1349",
-        "area_km2": 76.16
+        "code": "03760",
+        "name": "Mường Bám",
+        "nameEn": "Muong Bam",
+        "fullName": "Xã Mường Bám",
+        "fullNameEn": "Muong Bam Commune",
+        "codeName": "muong_bam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1349",
+        "areaKm2": 76.16
       }
     }
   ]

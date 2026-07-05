@@ -4042,11 +4042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Vân",
-        "unit_code": "10210",
-        "unit_code_name": "hong_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3167",
-        "area_km2": 24.53
+        "code": "10210",
+        "name": "Hồng Vân",
+        "nameEn": "Hong Van",
+        "fullName": "Xã Hồng Vân",
+        "fullNameEn": "Hong Van Commune",
+        "codeName": "hong_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3167",
+        "areaKm2": 24.53
       }
     }
   ]

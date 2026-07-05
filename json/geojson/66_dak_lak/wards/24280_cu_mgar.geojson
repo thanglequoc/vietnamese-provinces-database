@@ -14734,11 +14734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư M'gar",
-        "unit_code": "24280",
-        "unit_code_name": "cu_mgar",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2874",
-        "area_km2": 114.98
+        "code": "24280",
+        "name": "Cư M'gar",
+        "nameEn": "Cu M'gar",
+        "fullName": "Xã Cư M'gar",
+        "fullNameEn": "Cu M'gar Commune",
+        "codeName": "cu_mgar",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2874",
+        "areaKm2": 114.98
       }
     }
   ]

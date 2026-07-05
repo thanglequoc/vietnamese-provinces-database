@@ -11462,11 +11462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghị Đức",
-        "unit_code": "23158",
-        "unit_code_name": "nghi_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3298",
-        "area_km2": 114.97
+        "code": "23158",
+        "name": "Nghị Đức",
+        "nameEn": "Nghi Duc",
+        "fullName": "Xã Nghị Đức",
+        "fullNameEn": "Nghi Duc Commune",
+        "codeName": "nghi_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3298",
+        "areaKm2": 114.97
       }
     }
   ]

@@ -1694,11 +1694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Lộc",
-        "unit_code": "16078",
-        "unit_code_name": "van_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2623",
-        "area_km2": 28.4
+        "code": "16078",
+        "name": "Vạn Lộc",
+        "nameEn": "Van Loc",
+        "fullName": "Xã Vạn Lộc",
+        "fullNameEn": "Van Loc Commune",
+        "codeName": "van_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2623",
+        "areaKm2": 28.4
       }
     }
   ]

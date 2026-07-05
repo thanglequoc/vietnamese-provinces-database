@@ -6218,11 +6218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Long",
-        "unit_code": "31309",
-        "unit_code_name": "truong_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.231",
-        "area_km2": 31.01
+        "code": "31309",
+        "name": "Trường Long",
+        "nameEn": "Truong Long",
+        "fullName": "Xã Trường Long",
+        "fullNameEn": "Truong Long Commune",
+        "codeName": "truong_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.231",
+        "areaKm2": 31.01
       }
     }
   ]

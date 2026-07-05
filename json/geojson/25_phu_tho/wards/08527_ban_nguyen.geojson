@@ -4414,11 +4414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Nguyên",
-        "unit_code": "08527",
-        "unit_code_name": "ban_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1585",
-        "area_km2": 28.29
+        "code": "08527",
+        "name": "Bản Nguyên",
+        "nameEn": "Ban Nguyen",
+        "fullName": "Xã Bản Nguyên",
+        "fullNameEn": "Ban Nguyen Commune",
+        "codeName": "ban_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1585",
+        "areaKm2": 28.29
       }
     }
   ]

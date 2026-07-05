@@ -11106,11 +11106,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Trà",
-        "unit_code": "20770",
-        "unit_code_name": "phuoc_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1955",
-        "area_km2": 196.22
+        "code": "20770",
+        "name": "Phước Trà",
+        "nameEn": "Phuoc Tra",
+        "fullName": "Xã Phước Trà",
+        "fullNameEn": "Phuoc Tra Commune",
+        "codeName": "phuoc_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1955",
+        "areaKm2": 196.22
       }
     }
   ]

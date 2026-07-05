@@ -19166,11 +19166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pa Tần",
-        "unit_code": "03503",
-        "unit_code_name": "pa_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2079",
-        "area_km2": 316.53
+        "code": "03503",
+        "name": "Pa Tần",
+        "nameEn": "Pa Tan",
+        "fullName": "Xã Pa Tần",
+        "fullNameEn": "Pa Tan Commune",
+        "codeName": "pa_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2079",
+        "areaKm2": 316.53
       }
     }
   ]

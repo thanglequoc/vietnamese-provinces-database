@@ -13418,11 +13418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lao Chải",
-        "unit_code": "04474",
-        "unit_code_name": "lao_chai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1027",
-        "area_km2": 157.99
+        "code": "04474",
+        "name": "Lao Chải",
+        "nameEn": "Lao Chai",
+        "fullName": "Xã Lao Chải",
+        "fullNameEn": "Lao Chai Commune",
+        "codeName": "lao_chai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1027",
+        "areaKm2": 157.99
       }
     }
   ]

@@ -11450,11 +11450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Tri",
-        "unit_code": "06337",
-        "unit_code_name": "tan_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1817",
-        "area_km2": 137.61
+        "code": "06337",
+        "name": "Tân Tri",
+        "nameEn": "Tan Tri",
+        "fullName": "Xã Tân Tri",
+        "fullNameEn": "Tan Tri Commune",
+        "codeName": "tan_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1817",
+        "areaKm2": 137.61
       }
     }
   ]

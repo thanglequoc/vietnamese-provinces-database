@@ -10434,11 +10434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tùng Vài",
-        "unit_code": "00892",
-        "unit_code_name": "tung_vai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2385",
-        "area_km2": 149.98
+        "code": "00892",
+        "name": "Tùng Vài",
+        "nameEn": "Tung Vai",
+        "fullName": "Xã Tùng Vài",
+        "fullNameEn": "Tung Vai Commune",
+        "codeName": "tung_vai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2385",
+        "areaKm2": 149.98
       }
     }
   ]

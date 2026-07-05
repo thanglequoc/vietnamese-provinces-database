@@ -1950,11 +1950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Tiến",
-        "unit_code": "12238",
-        "unit_code_name": "viet_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.710",
-        "area_km2": 20.18
+        "code": "12238",
+        "name": "Việt Tiến",
+        "nameEn": "Viet Tien",
+        "fullName": "Xã Việt Tiến",
+        "fullNameEn": "Viet Tien Commune",
+        "codeName": "viet_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.710",
+        "areaKm2": 20.18
       }
     }
   ]

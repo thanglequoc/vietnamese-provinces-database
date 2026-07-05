@@ -7146,11 +7146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chánh Phú Hoà",
-        "unit_code": "25837",
-        "unit_code_name": "chanh_phu_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.14",
-        "area_km2": 69.54
+        "code": "25837",
+        "name": "Chánh Phú Hoà",
+        "nameEn": "Chanh Phu Hoa",
+        "fullName": "Phường Chánh Phú Hoà",
+        "fullNameEn": "Chanh Phu Hoa Ward",
+        "codeName": "chanh_phu_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.14",
+        "areaKm2": 69.54
       }
     }
   ]

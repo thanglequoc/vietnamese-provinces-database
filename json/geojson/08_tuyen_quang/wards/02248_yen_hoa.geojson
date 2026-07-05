@@ -8694,11 +8694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Hoa",
-        "unit_code": "02248",
-        "unit_code_name": "yen_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2318",
-        "area_km2": 143.83
+        "code": "02248",
+        "name": "Yên Hoa",
+        "nameEn": "Yen Hoa",
+        "fullName": "Xã Yên Hoa",
+        "fullNameEn": "Yen Hoa Commune",
+        "codeName": "yen_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2318",
+        "areaKm2": 143.83
       }
     }
   ]

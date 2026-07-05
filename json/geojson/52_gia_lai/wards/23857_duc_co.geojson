@@ -7258,11 +7258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Cơ",
-        "unit_code": "23857",
-        "unit_code_name": "duc_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2936",
-        "area_km2": 124.66
+        "code": "23857",
+        "name": "Đức Cơ",
+        "nameEn": "Duc Co",
+        "fullName": "Xã Đức Cơ",
+        "fullNameEn": "Duc Co Commune",
+        "codeName": "duc_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2936",
+        "areaKm2": 124.66
       }
     }
   ]

@@ -7822,11 +7822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tu Vũ",
-        "unit_code": "08686",
-        "unit_code_name": "tu_vu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1573",
-        "area_km2": 49.07
+        "code": "08686",
+        "name": "Tu Vũ",
+        "nameEn": "Tu Vu",
+        "fullName": "Xã Tu Vũ",
+        "fullNameEn": "Tu Vu Commune",
+        "codeName": "tu_vu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1573",
+        "areaKm2": 49.07
       }
     }
   ]

@@ -4570,11 +4570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoa Lư",
-        "unit_code": "14329",
-        "unit_code_name": "hoa_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.744",
-        "area_km2": 53.72
+        "code": "14329",
+        "name": "Hoa Lư",
+        "nameEn": "Hoa Lu",
+        "fullName": "Phường Hoa Lư",
+        "fullNameEn": "Hoa Lu Ward",
+        "codeName": "hoa_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.744",
+        "areaKm2": 53.72
       }
     }
   ]

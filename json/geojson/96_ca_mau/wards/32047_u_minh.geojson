@@ -7558,11 +7558,14 @@
         ]
       },
       "properties": {
-        "unit_name": "U Minh",
-        "unit_code": "32047",
-        "unit_code_name": "u_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.168",
-        "area_km2": 145
+        "code": "32047",
+        "name": "U Minh",
+        "nameEn": "U Minh",
+        "fullName": "Xã U Minh",
+        "fullNameEn": "U Minh Commune",
+        "codeName": "u_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.168",
+        "areaKm2": 145
       }
     }
   ]

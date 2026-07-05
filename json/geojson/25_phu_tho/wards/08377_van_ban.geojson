@@ -5654,11 +5654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Bán",
-        "unit_code": "08377",
-        "unit_code_name": "van_ban",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1586",
-        "area_km2": 22.72
+        "code": "08377",
+        "name": "Vân Bán",
+        "nameEn": "Van Ban",
+        "fullName": "Xã Vân Bán",
+        "fullNameEn": "Van Ban Commune",
+        "codeName": "van_ban",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1586",
+        "areaKm2": 22.72
       }
     }
   ]

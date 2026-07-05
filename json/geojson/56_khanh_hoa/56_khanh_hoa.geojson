@@ -26446,11 +26446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hoà",
-        "unit_code": "56",
-        "unit_code_name": "khanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.133",
-        "area_km2": 8555.86
+        "code": "56",
+        "name": "Khánh Hoà",
+        "nameEn": "Khanh Hoa",
+        "fullName": "Tỉnh Khánh Hoà",
+        "fullNameEn": "Khanh Hoa Province",
+        "codeName": "khanh_hoa",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.133",
+        "areaKm2": 8555.86
       }
     }
   ]

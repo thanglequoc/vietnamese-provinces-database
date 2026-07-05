@@ -9190,11 +9190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tổng Cọt",
-        "unit_code": "01414",
-        "unit_code_name": "tong_cot",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.953",
-        "area_km2": 100.48
+        "code": "01414",
+        "name": "Tổng Cọt",
+        "nameEn": "Tong Cot",
+        "fullName": "Xã Tổng Cọt",
+        "fullNameEn": "Tong Cot Commune",
+        "codeName": "tong_cot",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.953",
+        "areaKm2": 100.48
       }
     }
   ]

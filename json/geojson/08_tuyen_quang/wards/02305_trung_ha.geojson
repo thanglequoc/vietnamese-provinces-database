@@ -15494,11 +15494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Hà",
-        "unit_code": "02305",
-        "unit_code_name": "trung_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2324",
-        "area_km2": 103.18
+        "code": "02305",
+        "name": "Trung Hà",
+        "nameEn": "Trung Ha",
+        "fullName": "Xã Trung Hà",
+        "fullNameEn": "Trung Ha Commune",
+        "codeName": "trung_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2324",
+        "areaKm2": 103.18
       }
     }
   ]

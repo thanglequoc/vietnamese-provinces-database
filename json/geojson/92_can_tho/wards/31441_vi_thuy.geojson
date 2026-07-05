@@ -8778,11 +8778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vị Thuỷ",
-        "unit_code": "31441",
-        "unit_code_name": "vi_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.252",
-        "area_km2": 49.84
+        "code": "31441",
+        "name": "Vị Thuỷ",
+        "nameEn": "Vi Thuy",
+        "fullName": "Xã Vị Thuỷ",
+        "fullNameEn": "Vi Thuy Commune",
+        "codeName": "vi_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.252",
+        "areaKm2": 49.84
       }
     }
   ]

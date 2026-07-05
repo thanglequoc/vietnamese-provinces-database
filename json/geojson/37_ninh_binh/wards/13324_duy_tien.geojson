@@ -1794,11 +1794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Duy Tiên",
-        "unit_code": "13324",
-        "unit_code_name": "duy_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2761",
-        "area_km2": 28.93
+        "code": "13324",
+        "name": "Duy Tiên",
+        "nameEn": "Duy Tien",
+        "fullName": "Phường Duy Tiên",
+        "fullNameEn": "Duy Tien Ward",
+        "codeName": "duy_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2761",
+        "areaKm2": 28.93
       }
     }
   ]

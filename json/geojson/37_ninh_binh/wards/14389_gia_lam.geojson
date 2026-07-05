@@ -5702,11 +5702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Lâm",
-        "unit_code": "14389",
-        "unit_code_name": "gia_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.755",
-        "area_km2": 37.61
+        "code": "14389",
+        "name": "Gia Lâm",
+        "nameEn": "Gia Lam",
+        "fullName": "Xã Gia Lâm",
+        "fullNameEn": "Gia Lam Commune",
+        "codeName": "gia_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.755",
+        "areaKm2": 37.61
       }
     }
   ]

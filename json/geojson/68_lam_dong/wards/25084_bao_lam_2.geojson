@@ -36674,11 +36674,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lâm 2",
-        "unit_code": "25084",
-        "unit_code_name": "bao_lam_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1273",
-        "area_km2": 114
+        "code": "25084",
+        "name": "Bảo Lâm 2",
+        "nameEn": "Bao Lam 2",
+        "fullName": "Xã Bảo Lâm 2",
+        "fullNameEn": "Commune Bao Lam 2",
+        "codeName": "bao_lam_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1273",
+        "areaKm2": 114
       }
     }
   ]

@@ -25258,11 +25258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đam Rông 1",
-        "unit_code": "24886",
-        "unit_code_name": "dam_rong_1",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.516",
-        "area_km2": 172.55
+        "code": "24886",
+        "name": "Đam Rông 1",
+        "nameEn": "Dam Rong 1",
+        "fullName": "Xã Đam Rông 1",
+        "fullNameEn": "Commune Dam Rong 1",
+        "codeName": "dam_rong_1",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.516",
+        "areaKm2": 172.55
       }
     }
   ]

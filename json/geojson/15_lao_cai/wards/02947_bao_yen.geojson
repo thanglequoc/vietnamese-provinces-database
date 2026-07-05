@@ -9090,11 +9090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Yên",
-        "unit_code": "02947",
-        "unit_code_name": "bao_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1078",
-        "area_km2": 119.1
+        "code": "02947",
+        "name": "Bảo Yên",
+        "nameEn": "Bao Yen",
+        "fullName": "Xã Bảo Yên",
+        "fullNameEn": "Bao Yen Commune",
+        "codeName": "bao_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1078",
+        "areaKm2": 119.1
       }
     }
   ]

@@ -8338,11 +8338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Giang",
-        "unit_code": "04381",
-        "unit_code_name": "lam_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1016",
-        "area_km2": 179.48
+        "code": "04381",
+        "name": "Lâm Giang",
+        "nameEn": "Lam Giang",
+        "fullName": "Xã Lâm Giang",
+        "fullNameEn": "Lam Giang Commune",
+        "codeName": "lam_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1016",
+        "areaKm2": 179.48
       }
     }
   ]

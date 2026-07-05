@@ -5054,11 +5054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Ôn",
-        "unit_code": "29821",
-        "unit_code_name": "tra_on",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2555",
-        "area_km2": 42.78
+        "code": "29821",
+        "name": "Trà Ôn",
+        "nameEn": "Tra On",
+        "fullName": "Xã Trà Ôn",
+        "fullNameEn": "Tra On Commune",
+        "codeName": "tra_on",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2555",
+        "areaKm2": 42.78
       }
     }
   ]

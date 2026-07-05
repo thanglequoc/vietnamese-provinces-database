@@ -12930,11 +12930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Thọ",
-        "unit_code": "09715",
-        "unit_code_name": "phuc_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3230",
-        "area_km2": 39.66
+        "code": "09715",
+        "name": "Phúc Thọ",
+        "nameEn": "Phuc Tho",
+        "fullName": "Xã Phúc Thọ",
+        "fullNameEn": "Phuc Tho Commune",
+        "codeName": "phuc_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3230",
+        "areaKm2": 39.66
       }
     }
   ]

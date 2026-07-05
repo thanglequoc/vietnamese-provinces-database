@@ -11090,11 +11090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Vang",
-        "unit_code": "20320",
-        "unit_code_name": "hoa_vang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1900",
-        "area_km2": 107.61
+        "code": "20320",
+        "name": "Hoà Vang",
+        "nameEn": "Hoa Vang",
+        "fullName": "Xã Hoà Vang",
+        "fullNameEn": "Hoa Vang Commune",
+        "codeName": "hoa_vang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1900",
+        "areaKm2": 107.61
       }
     }
   ]

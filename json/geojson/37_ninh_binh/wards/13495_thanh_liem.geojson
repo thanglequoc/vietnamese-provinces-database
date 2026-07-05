@@ -2070,11 +2070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Liêm",
-        "unit_code": "13495",
-        "unit_code_name": "thanh_liem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2779",
-        "area_km2": 23.27
+        "code": "13495",
+        "name": "Thanh Liêm",
+        "nameEn": "Thanh Liem",
+        "fullName": "Xã Thanh Liêm",
+        "fullNameEn": "Thanh Liem Commune",
+        "codeName": "thanh_liem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2779",
+        "areaKm2": 23.27
       }
     }
   ]

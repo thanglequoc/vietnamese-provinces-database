@@ -4738,11 +4738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Đồng",
-        "unit_code": "09871",
-        "unit_code_name": "son_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3240",
-        "area_km2": 21.57
+        "code": "09871",
+        "name": "Sơn Đồng",
+        "nameEn": "Son Dong",
+        "fullName": "Xã Sơn Đồng",
+        "fullNameEn": "Son Dong Commune",
+        "codeName": "son_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3240",
+        "areaKm2": 21.57
       }
     }
   ]

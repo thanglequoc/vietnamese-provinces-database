@@ -10258,11 +10258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Sơn",
-        "unit_code": "26584",
-        "unit_code_name": "xuan_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2207",
-        "area_km2": 73.81
+        "code": "26584",
+        "name": "Xuân Sơn",
+        "nameEn": "Xuan Son",
+        "fullName": "Xã Xuân Sơn",
+        "fullNameEn": "Xuan Son Commune",
+        "codeName": "xuan_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2207",
+        "areaKm2": 73.81
       }
     }
   ]

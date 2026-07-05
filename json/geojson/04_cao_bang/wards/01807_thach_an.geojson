@@ -11934,11 +11934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch An",
-        "unit_code": "01807",
-        "unit_code_name": "thach_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.959",
-        "area_km2": 113.74
+        "code": "01807",
+        "name": "Thạch An",
+        "nameEn": "Thach An",
+        "fullName": "Xã Thạch An",
+        "fullNameEn": "Thach An Commune",
+        "codeName": "thach_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.959",
+        "areaKm2": 113.74
       }
     }
   ]

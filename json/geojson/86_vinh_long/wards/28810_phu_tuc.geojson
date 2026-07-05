@@ -11654,11 +11654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Túc",
-        "unit_code": "28810",
-        "unit_code_name": "phu_tuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2441",
-        "area_km2": 63.14
+        "code": "28810",
+        "name": "Phú Túc",
+        "nameEn": "Phu Tuc",
+        "fullName": "Xã Phú Túc",
+        "fullNameEn": "Phu Tuc Commune",
+        "codeName": "phu_tuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2441",
+        "areaKm2": 63.14
       }
     }
   ]

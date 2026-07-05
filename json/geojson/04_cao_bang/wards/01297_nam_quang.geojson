@@ -10970,11 +10970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Quang",
-        "unit_code": "01297",
-        "unit_code_name": "nam_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.970",
-        "area_km2": 148.16
+        "code": "01297",
+        "name": "Nam Quang",
+        "nameEn": "Nam Quang",
+        "fullName": "Xã Nam Quang",
+        "fullNameEn": "Nam Quang Commune",
+        "codeName": "nam_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.970",
+        "areaKm2": 148.16
       }
     }
   ]

@@ -8346,11 +8346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Các Sơn",
-        "unit_code": "16591",
-        "unit_code_name": "cac_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2575",
-        "area_km2": 46.88
+        "code": "16591",
+        "name": "Các Sơn",
+        "nameEn": "Cac Son",
+        "fullName": "Xã Các Sơn",
+        "fullNameEn": "Cac Son Commune",
+        "codeName": "cac_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2575",
+        "areaKm2": 46.88
       }
     }
   ]

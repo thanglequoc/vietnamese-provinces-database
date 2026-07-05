@@ -2274,11 +2274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Tiến",
-        "unit_code": "10615",
-        "unit_code_name": "hop_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.879",
-        "area_km2": 17.5
+        "code": "10615",
+        "name": "Hợp Tiến",
+        "nameEn": "Hop Tien",
+        "fullName": "Xã Hợp Tiến",
+        "fullNameEn": "Hop Tien Commune",
+        "codeName": "hop_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.879",
+        "areaKm2": 17.5
       }
     }
   ]

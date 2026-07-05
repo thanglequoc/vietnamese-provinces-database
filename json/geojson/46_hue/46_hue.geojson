@@ -9062,11 +9062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Huế",
-        "unit_code": "46",
-        "unit_code_name": "hue",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.134",
-        "area_km2": 4947.11
+        "code": "46",
+        "name": "Huế",
+        "nameEn": "Hue",
+        "fullName": "Thành phố Huế",
+        "fullNameEn": "Hue City",
+        "codeName": "hue",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.134",
+        "areaKm2": 4947.11
       }
     }
   ]

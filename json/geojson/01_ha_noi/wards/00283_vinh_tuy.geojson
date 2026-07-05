@@ -1742,11 +1742,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Tuy",
-        "unit_code": "00283",
-        "unit_code_name": "vinh_tuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3200",
-        "area_km2": 2.33
+        "code": "00283",
+        "name": "Vĩnh Tuy",
+        "nameEn": "Vinh Tuy",
+        "fullName": "Phường Vĩnh Tuy",
+        "fullNameEn": "Vinh Tuy Ward",
+        "codeName": "vinh_tuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3200",
+        "areaKm2": 2.33
       }
     }
   ]

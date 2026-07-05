@@ -8026,11 +8026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hựu",
-        "unit_code": "28678",
-        "unit_code_name": "vinh_huu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.491",
-        "area_km2": 31.9
+        "code": "28678",
+        "name": "Vĩnh Hựu",
+        "nameEn": "Vinh Huu",
+        "fullName": "Xã Vĩnh Hựu",
+        "fullNameEn": "Vinh Huu Commune",
+        "codeName": "vinh_huu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.491",
+        "areaKm2": 31.9
       }
     }
   ]

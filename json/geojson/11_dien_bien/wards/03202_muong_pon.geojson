@@ -33482,11 +33482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Pồn",
-        "unit_code": "03202",
-        "unit_code_name": "muong_pon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2244",
-        "area_km2": 258.76
+        "code": "03202",
+        "name": "Mường Pồn",
+        "nameEn": "Muong Pon",
+        "fullName": "Xã Mường Pồn",
+        "fullNameEn": "Muong Pon Commune",
+        "codeName": "muong_pon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2244",
+        "areaKm2": 258.76
       }
     }
   ]

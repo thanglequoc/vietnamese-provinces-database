@@ -5746,11 +5746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoan Hùng",
-        "unit_code": "07969",
-        "unit_code_name": "doan_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1539",
-        "area_km2": 44.8
+        "code": "07969",
+        "name": "Đoan Hùng",
+        "nameEn": "Doan Hung",
+        "fullName": "Xã Đoan Hùng",
+        "fullNameEn": "Doan Hung Commune",
+        "codeName": "doan_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1539",
+        "areaKm2": 44.8
       }
     }
   ]

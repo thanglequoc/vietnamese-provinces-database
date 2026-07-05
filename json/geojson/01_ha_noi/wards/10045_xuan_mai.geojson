@@ -11390,11 +11390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Mai",
-        "unit_code": "10045",
-        "unit_code_name": "xuan_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3217",
-        "area_km2": 50.72
+        "code": "10045",
+        "name": "Xuân Mai",
+        "nameEn": "Xuan Mai",
+        "fullName": "Xã Xuân Mai",
+        "fullNameEn": "Xuan Mai Commune",
+        "codeName": "xuan_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3217",
+        "areaKm2": 50.72
       }
     }
   ]

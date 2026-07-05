@@ -3414,11 +3414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Thạnh",
-        "unit_code": "31615",
-        "unit_code_name": "an_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.278",
-        "area_km2": 94.92
+        "code": "31615",
+        "name": "An Thạnh",
+        "nameEn": "An Thanh",
+        "fullName": "Xã An Thạnh",
+        "fullNameEn": "An Thanh Commune",
+        "codeName": "an_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.278",
+        "areaKm2": 94.92
       }
     }
   ]

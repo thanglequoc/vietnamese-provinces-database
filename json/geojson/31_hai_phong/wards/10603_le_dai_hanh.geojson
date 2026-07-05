@@ -1978,11 +1978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Đại Hành",
-        "unit_code": "10603",
-        "unit_code_name": "le_dai_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.873",
-        "area_km2": 31.62
+        "code": "10603",
+        "name": "Lê Đại Hành",
+        "nameEn": "Le Dai Hanh",
+        "fullName": "Phường Lê Đại Hành",
+        "fullNameEn": "Le Dai Hanh Ward",
+        "codeName": "le_dai_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.873",
+        "areaKm2": 31.62
       }
     }
   ]

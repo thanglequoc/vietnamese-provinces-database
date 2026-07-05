@@ -1494,11 +1494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Hải",
-        "unit_code": "11617",
-        "unit_code_name": "an_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.948",
-        "area_km2": 19.96
+        "code": "11617",
+        "name": "An Hải",
+        "nameEn": "An Hai",
+        "fullName": "Phường An Hải",
+        "fullNameEn": "An Hai Ward",
+        "codeName": "an_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.948",
+        "areaKm2": 19.96
       }
     }
   ]

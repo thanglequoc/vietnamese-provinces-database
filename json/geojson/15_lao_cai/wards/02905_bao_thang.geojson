@@ -15266,11 +15266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Thắng",
-        "unit_code": "02905",
-        "unit_code_name": "bao_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1071",
-        "area_km2": 160.4
+        "code": "02905",
+        "name": "Bảo Thắng",
+        "nameEn": "Bao Thang",
+        "fullName": "Xã Bảo Thắng",
+        "fullNameEn": "Bao Thang Commune",
+        "codeName": "bao_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1071",
+        "areaKm2": 160.4
       }
     }
   ]

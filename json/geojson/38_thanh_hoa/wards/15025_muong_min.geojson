@@ -6074,11 +6074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Mìn",
-        "unit_code": "15025",
-        "unit_code_name": "muong_min",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2715",
-        "area_km2": 89.21
+        "code": "15025",
+        "name": "Mường Mìn",
+        "nameEn": "Muong Min",
+        "fullName": "Xã Mường Mìn",
+        "fullNameEn": "Muong Min Commune",
+        "codeName": "muong_min",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2715",
+        "areaKm2": 89.21
       }
     }
   ]

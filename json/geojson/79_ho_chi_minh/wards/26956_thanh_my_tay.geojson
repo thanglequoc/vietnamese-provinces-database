@@ -3102,11 +3102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Mỹ Tây",
-        "unit_code": "26956",
-        "unit_code_name": "thanh_my_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.62",
-        "area_km2": 4.4
+        "code": "26956",
+        "name": "Thạnh Mỹ Tây",
+        "nameEn": "Thanh My Tay",
+        "fullName": "Phường Thạnh Mỹ Tây",
+        "fullNameEn": "Thanh My Tay Ward",
+        "codeName": "thanh_my_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.62",
+        "areaKm2": 4.4
       }
     }
   ]

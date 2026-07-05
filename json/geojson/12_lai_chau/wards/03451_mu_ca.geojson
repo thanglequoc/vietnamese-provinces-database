@@ -22526,11 +22526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mù Cả",
-        "unit_code": "03451",
-        "unit_code_name": "mu_ca",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2070",
-        "area_km2": 384.04
+        "code": "03451",
+        "name": "Mù Cả",
+        "nameEn": "Mu Ca",
+        "fullName": "Xã Mù Cả",
+        "fullNameEn": "Mu Ca Commune",
+        "codeName": "mu_ca",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2070",
+        "areaKm2": 384.04
       }
     }
   ]

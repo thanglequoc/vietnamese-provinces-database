@@ -4154,11 +4154,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ứng Hoà",
-        "unit_code": "10402",
-        "unit_code_name": "ung_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3211",
-        "area_km2": 67.8
+        "code": "10402",
+        "name": "Ứng Hoà",
+        "nameEn": "Ung Hoa",
+        "fullName": "Xã Ứng Hoà",
+        "fullNameEn": "Ung Hoa Commune",
+        "codeName": "ung_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3211",
+        "areaKm2": 67.8
       }
     }
   ]

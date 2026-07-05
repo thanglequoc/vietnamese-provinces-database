@@ -6326,11 +6326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Độc Lập",
-        "unit_code": "01594",
-        "unit_code_name": "doc_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.988",
-        "area_km2": 102.21
+        "code": "01594",
+        "name": "Độc Lập",
+        "nameEn": "Doc Lap",
+        "fullName": "Xã Độc Lập",
+        "fullNameEn": "Doc Lap Commune",
+        "codeName": "doc_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.988",
+        "areaKm2": 102.21
       }
     }
   ]

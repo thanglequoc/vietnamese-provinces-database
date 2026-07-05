@@ -14738,11 +14738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Bla",
-        "unit_code": "23302",
-        "unit_code_name": "dak_bla",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.551",
-        "area_km2": 14.99
+        "code": "23302",
+        "name": "Đăk Bla",
+        "nameEn": "Dak Bla",
+        "fullName": "Phường Đăk Bla",
+        "fullNameEn": "Dak Bla Ward",
+        "codeName": "dak_bla",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.551",
+        "areaKm2": 14.99
       }
     }
   ]

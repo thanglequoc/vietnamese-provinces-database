@@ -11190,11 +11190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Khê",
-        "unit_code": "18496",
-        "unit_code_name": "huong_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2050",
-        "area_km2": 165.89
+        "code": "18496",
+        "name": "Hương Khê",
+        "nameEn": "Huong Khe",
+        "fullName": "Xã Hương Khê",
+        "fullNameEn": "Huong Khe Commune",
+        "codeName": "huong_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2050",
+        "areaKm2": 165.89
       }
     }
   ]

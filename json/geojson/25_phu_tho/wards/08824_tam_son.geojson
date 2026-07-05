@@ -9782,11 +9782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Sơn",
-        "unit_code": "08824",
-        "unit_code_name": "tam_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1614",
-        "area_km2": 33.1
+        "code": "08824",
+        "name": "Tam Sơn",
+        "nameEn": "Tam Son",
+        "fullName": "Xã Tam Sơn",
+        "fullNameEn": "Tam Son Commune",
+        "codeName": "tam_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1614",
+        "areaKm2": 33.1
       }
     }
   ]

@@ -16822,11 +16822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Sơn",
-        "unit_code": "25420",
-        "unit_code_name": "phuoc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2305",
-        "area_km2": 386.6
+        "code": "25420",
+        "name": "Phước Sơn",
+        "nameEn": "Phuoc Son",
+        "fullName": "Xã Phước Sơn",
+        "fullNameEn": "Phuoc Son Commune",
+        "codeName": "phuoc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2305",
+        "areaKm2": 386.6
       }
     }
   ]

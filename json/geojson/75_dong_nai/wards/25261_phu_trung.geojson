@@ -23830,11 +23830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Trung",
-        "unit_code": "25261",
-        "unit_code_name": "phu_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2298",
-        "area_km2": 172
+        "code": "25261",
+        "name": "Phú Trung",
+        "nameEn": "Phu Trung",
+        "fullName": "Xã Phú Trung",
+        "fullNameEn": "Phu Trung Commune",
+        "codeName": "phu_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2298",
+        "areaKm2": 172
       }
     }
   ]

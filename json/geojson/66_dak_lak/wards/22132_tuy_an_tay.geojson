@@ -8926,11 +8926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy An Tây",
-        "unit_code": "22132",
-        "unit_code_name": "tuy_an_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2905",
-        "area_km2": 136.2
+        "code": "22132",
+        "name": "Tuy An Tây",
+        "nameEn": "Tuy An Tay",
+        "fullName": "Xã Tuy An Tây",
+        "fullNameEn": "Tuy An Tay Commune",
+        "codeName": "tuy_an_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2905",
+        "areaKm2": 136.2
       }
     }
   ]

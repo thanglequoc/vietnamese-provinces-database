@@ -11902,11 +11902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàu Hàm",
-        "unit_code": "26254",
-        "unit_code_name": "bau_ham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3123",
-        "area_km2": 97.5
+        "code": "26254",
+        "name": "Bàu Hàm",
+        "nameEn": "Bau Ham",
+        "fullName": "Xã Bàu Hàm",
+        "fullNameEn": "Bau Ham Commune",
+        "codeName": "bau_ham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3123",
+        "areaKm2": 97.5
       }
     }
   ]

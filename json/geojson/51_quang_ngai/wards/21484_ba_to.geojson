@@ -10418,11 +10418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Tơ",
-        "unit_code": "21484",
-        "unit_code_name": "ba_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1781",
-        "area_km2": 120.91
+        "code": "21484",
+        "name": "Ba Tơ",
+        "nameEn": "Ba To",
+        "fullName": "Xã Ba Tơ",
+        "fullNameEn": "Ba To Commune",
+        "codeName": "ba_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1781",
+        "areaKm2": 120.91
       }
     }
   ]

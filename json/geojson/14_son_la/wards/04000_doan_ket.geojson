@@ -7022,11 +7022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoàn Kết",
-        "unit_code": "04000",
-        "unit_code_name": "doan_ket",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1373",
-        "area_km2": 240.66
+        "code": "04000",
+        "name": "Đoàn Kết",
+        "nameEn": "Doan Ket",
+        "fullName": "Xã Đoàn Kết",
+        "fullNameEn": "Doan Ket Commune",
+        "codeName": "doan_ket",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1373",
+        "areaKm2": 240.66
       }
     }
   ]

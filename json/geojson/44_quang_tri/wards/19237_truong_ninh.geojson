@@ -3170,11 +3170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Ninh",
-        "unit_code": "19237",
-        "unit_code_name": "truong_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.630",
-        "area_km2": 71.92
+        "code": "19237",
+        "name": "Trường Ninh",
+        "nameEn": "Truong Ninh",
+        "fullName": "Xã Trường Ninh",
+        "fullNameEn": "Truong Ninh Commune",
+        "codeName": "truong_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.630",
+        "areaKm2": 71.92
       }
     }
   ]

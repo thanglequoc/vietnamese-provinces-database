@@ -2086,11 +2086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tăng Nhơn Phú",
-        "unit_code": "26842",
-        "unit_code_name": "tang_nhon_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.50",
-        "area_km2": 16.51
+        "code": "26842",
+        "name": "Tăng Nhơn Phú",
+        "nameEn": "Tang Nhon Phu",
+        "fullName": "Phường Tăng Nhơn Phú",
+        "fullNameEn": "Tang Nhon Phu Ward",
+        "codeName": "tang_nhon_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.50",
+        "areaKm2": 16.51
       }
     }
   ]

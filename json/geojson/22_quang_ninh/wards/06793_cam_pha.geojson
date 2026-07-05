@@ -12690,11 +12690,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Phả",
-        "unit_code": "06793",
-        "unit_code_name": "cam_pha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1870",
-        "area_km2": 17.52
+        "code": "06793",
+        "name": "Cẩm Phả",
+        "nameEn": "Cam Pha",
+        "fullName": "Phường Cẩm Phả",
+        "fullNameEn": "Cam Pha Ward",
+        "codeName": "cam_pha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1870",
+        "areaKm2": 17.52
       }
     }
   ]

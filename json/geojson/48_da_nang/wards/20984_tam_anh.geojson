@@ -5166,11 +5166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Anh",
-        "unit_code": "20984",
-        "unit_code_name": "tam_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1977",
-        "area_km2": 68.84
+        "code": "20984",
+        "name": "Tam Anh",
+        "nameEn": "Tam Anh",
+        "fullName": "Xã Tam Anh",
+        "fullNameEn": "Tam Anh Commune",
+        "codeName": "tam_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1977",
+        "areaKm2": 68.84
       }
     }
   ]

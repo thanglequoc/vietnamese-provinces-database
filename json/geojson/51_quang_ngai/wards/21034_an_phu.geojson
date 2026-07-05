@@ -4374,11 +4374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Phú",
-        "unit_code": "21034",
-        "unit_code_name": "an_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1768",
-        "area_km2": 33.93
+        "code": "21034",
+        "name": "An Phú",
+        "nameEn": "An Phu",
+        "fullName": "Xã An Phú",
+        "fullNameEn": "An Phu Commune",
+        "codeName": "an_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1768",
+        "areaKm2": 33.93
       }
     }
   ]

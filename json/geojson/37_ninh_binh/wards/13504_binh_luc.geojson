@@ -1650,11 +1650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Lục",
-        "unit_code": "13504",
-        "unit_code_name": "binh_luc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2773",
-        "area_km2": 23.97
+        "code": "13504",
+        "name": "Bình Lục",
+        "nameEn": "Binh Luc",
+        "fullName": "Xã Bình Lục",
+        "fullNameEn": "Binh Luc Commune",
+        "codeName": "binh_luc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2773",
+        "areaKm2": 23.97
       }
     }
   ]

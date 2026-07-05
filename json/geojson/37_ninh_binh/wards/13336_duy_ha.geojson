@@ -2442,11 +2442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Duy Hà",
-        "unit_code": "13336",
-        "unit_code_name": "duy_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2769",
-        "area_km2": 15.46
+        "code": "13336",
+        "name": "Duy Hà",
+        "nameEn": "Duy Ha",
+        "fullName": "Phường Duy Hà",
+        "fullNameEn": "Duy Ha Ward",
+        "codeName": "duy_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2769",
+        "areaKm2": 15.46
       }
     }
   ]

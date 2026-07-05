@@ -11042,11 +11042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Bôi",
-        "unit_code": "04978",
-        "unit_code_name": "kim_boi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1662",
-        "area_km2": 64.57
+        "code": "04978",
+        "name": "Kim Bôi",
+        "nameEn": "Kim Boi",
+        "fullName": "Xã Kim Bôi",
+        "fullNameEn": "Kim Boi Commune",
+        "codeName": "kim_boi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1662",
+        "areaKm2": 64.57
       }
     }
   ]

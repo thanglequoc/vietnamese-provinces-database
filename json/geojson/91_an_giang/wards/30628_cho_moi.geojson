@@ -5590,11 +5590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Mới",
-        "unit_code": "30628",
-        "unit_code_name": "cho_moi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.347",
-        "area_km2": 50.43
+        "code": "30628",
+        "name": "Chợ Mới",
+        "nameEn": "Cho Moi",
+        "fullName": "Xã Chợ Mới",
+        "fullNameEn": "Cho Moi Commune",
+        "codeName": "cho_moi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.347",
+        "areaKm2": 50.43
       }
     }
   ]

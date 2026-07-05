@@ -11606,11 +11606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hữu Khuông",
-        "unit_code": "16885",
-        "unit_code_name": "huu_khuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1510",
-        "area_km2": 263.79
+        "code": "16885",
+        "name": "Hữu Khuông",
+        "nameEn": "Huu Khuong",
+        "fullName": "Xã Hữu Khuông",
+        "fullNameEn": "Huu Khuong Commune",
+        "codeName": "huu_khuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1510",
+        "areaKm2": 263.79
       }
     }
   ]

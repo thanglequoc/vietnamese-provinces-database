@@ -7414,11 +7414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Sơn",
-        "unit_code": "15124",
-        "unit_code_name": "minh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2673",
-        "area_km2": 81.77
+        "code": "15124",
+        "name": "Minh Sơn",
+        "nameEn": "Minh Son",
+        "fullName": "Xã Minh Sơn",
+        "fullNameEn": "Minh Son Commune",
+        "codeName": "minh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2673",
+        "areaKm2": 81.77
       }
     }
   ]

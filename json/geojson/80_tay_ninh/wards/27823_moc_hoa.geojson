@@ -3038,11 +3038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mộc Hoá",
-        "unit_code": "27823",
-        "unit_code_name": "moc_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1290",
-        "area_km2": 135.56
+        "code": "27823",
+        "name": "Mộc Hoá",
+        "nameEn": "Moc Hoa",
+        "fullName": "Xã Mộc Hoá",
+        "fullNameEn": "Moc Hoa Commune",
+        "codeName": "moc_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1290",
+        "areaKm2": 135.56
       }
     }
   ]

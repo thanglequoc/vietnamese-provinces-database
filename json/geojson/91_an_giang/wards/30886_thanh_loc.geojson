@@ -6306,11 +6306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Lộc",
-        "unit_code": "30886",
-        "unit_code_name": "thanh_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.377",
-        "area_km2": 104.62
+        "code": "30886",
+        "name": "Thạnh Lộc",
+        "nameEn": "Thanh Loc",
+        "fullName": "Xã Thạnh Lộc",
+        "fullNameEn": "Thanh Loc Commune",
+        "codeName": "thanh_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.377",
+        "areaKm2": 104.62
       }
     }
   ]

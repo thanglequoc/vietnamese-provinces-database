@@ -14698,11 +14698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bác Ái",
-        "unit_code": "22795",
-        "unit_code_name": "bac_ai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1146",
-        "area_km2": 188.5
+        "code": "22795",
+        "name": "Bác Ái",
+        "nameEn": "Bac Ai",
+        "fullName": "Xã Bác Ái",
+        "fullNameEn": "Bac Ai Commune",
+        "codeName": "bac_ai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1146",
+        "areaKm2": 188.5
       }
     }
   ]

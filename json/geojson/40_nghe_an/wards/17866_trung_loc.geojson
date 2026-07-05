@@ -2358,11 +2358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Lộc",
-        "unit_code": "17866",
-        "unit_code_name": "trung_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1528",
-        "area_km2": 31.35
+        "code": "17866",
+        "name": "Trung Lộc",
+        "nameEn": "Trung Loc",
+        "fullName": "Xã Trung Lộc",
+        "fullNameEn": "Trung Loc Commune",
+        "codeName": "trung_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1528",
+        "areaKm2": 31.35
       }
     }
   ]

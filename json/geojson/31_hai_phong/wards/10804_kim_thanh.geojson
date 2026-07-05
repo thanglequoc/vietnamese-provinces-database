@@ -3254,11 +3254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Thành",
-        "unit_code": "10804",
-        "unit_code_name": "kim_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.880",
-        "area_km2": 33.79
+        "code": "10804",
+        "name": "Kim Thành",
+        "nameEn": "Kim Thanh",
+        "fullName": "Xã Kim Thành",
+        "fullNameEn": "Kim Thanh Commune",
+        "codeName": "kim_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.880",
+        "areaKm2": 33.79
       }
     }
   ]

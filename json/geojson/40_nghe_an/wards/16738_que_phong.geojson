@@ -16830,11 +16830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quế Phong",
-        "unit_code": "16738",
-        "unit_code_name": "que_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1491",
-        "area_km2": 276.57
+        "code": "16738",
+        "name": "Quế Phong",
+        "nameEn": "Que Phong",
+        "fullName": "Xã Quế Phong",
+        "fullNameEn": "Que Phong Commune",
+        "codeName": "que_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1491",
+        "areaKm2": 276.57
       }
     }
   ]

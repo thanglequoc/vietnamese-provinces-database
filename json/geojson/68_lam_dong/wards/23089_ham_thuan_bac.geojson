@@ -18414,11 +18414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Thuận Bắc",
-        "unit_code": "23089",
-        "unit_code_name": "ham_thuan_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3155",
-        "area_km2": 292.7
+        "code": "23089",
+        "name": "Hàm Thuận Bắc",
+        "nameEn": "Ham Thuan Bac",
+        "fullName": "Xã Hàm Thuận Bắc",
+        "fullNameEn": "Ham Thuan Bac Commune",
+        "codeName": "ham_thuan_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3155",
+        "areaKm2": 292.7
       }
     }
   ]

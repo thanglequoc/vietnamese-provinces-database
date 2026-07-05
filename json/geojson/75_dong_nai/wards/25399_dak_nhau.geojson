@@ -18910,11 +18910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Nhau",
-        "unit_code": "25399",
-        "unit_code_name": "dak_nhau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2301",
-        "area_km2": 182.5
+        "code": "25399",
+        "name": "Đak Nhau",
+        "nameEn": "Dak Nhau",
+        "fullName": "Xã Đak Nhau",
+        "fullNameEn": "Dak Nhau Commune",
+        "codeName": "dak_nhau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2301",
+        "areaKm2": 182.5
       }
     }
   ]

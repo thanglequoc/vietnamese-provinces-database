@@ -36802,11 +36802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Lưới 5",
-        "unit_code": "20050",
-        "unit_code_name": "a_luoi_5",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1714",
-        "area_km2": 464.4
+        "code": "20050",
+        "name": "A Lưới 5",
+        "nameEn": "A Luoi 5",
+        "fullName": "Xã A Lưới 5",
+        "fullNameEn": "Commune A Luoi 5",
+        "codeName": "a_luoi_5",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1714",
+        "areaKm2": 464.4
       }
     }
   ]

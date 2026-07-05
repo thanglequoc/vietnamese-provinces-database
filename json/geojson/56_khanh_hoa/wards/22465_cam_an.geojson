@@ -8682,11 +8682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam An",
-        "unit_code": "22465",
-        "unit_code_name": "cam_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1127",
-        "area_km2": 122
+        "code": "22465",
+        "name": "Cam An",
+        "nameEn": "Cam An",
+        "fullName": "Xã Cam An",
+        "fullNameEn": "Cam An Commune",
+        "codeName": "cam_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1127",
+        "areaKm2": 122
       }
     }
   ]

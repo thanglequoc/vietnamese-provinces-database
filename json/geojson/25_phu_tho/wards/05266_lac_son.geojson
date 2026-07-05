@@ -7006,11 +7006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạc Sơn",
-        "unit_code": "05266",
-        "unit_code_name": "lac_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1647",
-        "area_km2": 58.1
+        "code": "05266",
+        "name": "Lạc Sơn",
+        "nameEn": "Lac Son",
+        "fullName": "Xã Lạc Sơn",
+        "fullNameEn": "Lac Son Commune",
+        "codeName": "lac_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1647",
+        "areaKm2": 58.1
       }
     }
   ]

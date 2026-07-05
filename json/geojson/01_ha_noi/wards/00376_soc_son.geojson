@@ -12670,11 +12670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sóc Sơn",
-        "unit_code": "00376",
-        "unit_code_name": "soc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3251",
-        "area_km2": 68.24
+        "code": "00376",
+        "name": "Sóc Sơn",
+        "nameEn": "Soc Son",
+        "fullName": "Xã Sóc Sơn",
+        "fullNameEn": "Soc Son Commune",
+        "codeName": "soc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3251",
+        "areaKm2": 68.24
       }
     }
   ]

@@ -9978,11 +9978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Thất",
-        "unit_code": "09955",
-        "unit_code_name": "thach_that",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3228",
-        "area_km2": 31.93
+        "code": "09955",
+        "name": "Thạch Thất",
+        "nameEn": "Thach That",
+        "fullName": "Xã Thạch Thất",
+        "fullNameEn": "Thach That Commune",
+        "codeName": "thach_that",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3228",
+        "areaKm2": 31.93
       }
     }
   ]

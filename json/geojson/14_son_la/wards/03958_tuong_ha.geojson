@@ -7466,11 +7466,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tường Hạ",
-        "unit_code": "03958",
-        "unit_code_name": "tuong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1369",
-        "area_km2": 120.85
+        "code": "03958",
+        "name": "Tường Hạ",
+        "nameEn": "Tuong Ha",
+        "fullName": "Xã Tường Hạ",
+        "fullNameEn": "Tuong Ha Commune",
+        "codeName": "tuong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1369",
+        "areaKm2": 120.85
       }
     }
   ]

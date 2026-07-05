@@ -5918,11 +5918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Quảng",
-        "unit_code": "15199",
-        "unit_code_name": "thach_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2638",
-        "area_km2": 123.54
+        "code": "15199",
+        "name": "Thạch Quảng",
+        "nameEn": "Thach Quang",
+        "fullName": "Xã Thạch Quảng",
+        "fullNameEn": "Thach Quang Commune",
+        "codeName": "thach_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2638",
+        "areaKm2": 123.54
       }
     }
   ]

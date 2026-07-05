@@ -32502,11 +32502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Riềng",
-        "unit_code": "25252",
-        "unit_code_name": "phu_rieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2279",
-        "area_km2": 117.4
+        "code": "25252",
+        "name": "Phú Riềng",
+        "nameEn": "Phu Rieng",
+        "fullName": "Xã Phú Riềng",
+        "fullNameEn": "Phu Rieng Commune",
+        "codeName": "phu_rieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2279",
+        "areaKm2": 117.4
       }
     }
   ]

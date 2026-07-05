@@ -4662,11 +4662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Nhơn Đông",
-        "unit_code": "21670",
-        "unit_code_name": "hoai_nhon_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2977",
-        "area_km2": 64.36
+        "code": "21670",
+        "name": "Hoài Nhơn Đông",
+        "nameEn": "Hoai Nhon Dong",
+        "fullName": "Phường Hoài Nhơn Đông",
+        "fullNameEn": "Hoai Nhon Dong Ward",
+        "codeName": "hoai_nhon_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2977",
+        "areaKm2": 64.36
       }
     }
   ]

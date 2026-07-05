@@ -9126,11 +9126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Phú",
-        "unit_code": "05305",
-        "unit_code_name": "yen_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1665",
-        "area_km2": 63.7
+        "code": "05305",
+        "name": "Yên Phú",
+        "nameEn": "Yen Phu",
+        "fullName": "Xã Yên Phú",
+        "fullNameEn": "Yen Phu Commune",
+        "codeName": "yen_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1665",
+        "areaKm2": 63.7
       }
     }
   ]

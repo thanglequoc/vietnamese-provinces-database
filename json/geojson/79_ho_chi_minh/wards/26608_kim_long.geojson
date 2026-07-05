@@ -9438,11 +9438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Long",
-        "unit_code": "26608",
-        "unit_code_name": "kim_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2205",
-        "area_km2": 63.92
+        "code": "26608",
+        "name": "Kim Long",
+        "nameEn": "Kim Long",
+        "fullName": "Xã Kim Long",
+        "fullNameEn": "Kim Long Commune",
+        "codeName": "kim_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2205",
+        "areaKm2": 63.92
       }
     }
   ]

@@ -9390,11 +9390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngũ Lạc",
-        "unit_code": "29530",
-        "unit_code_name": "ngu_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2521",
-        "area_km2": 60.92
+        "code": "29530",
+        "name": "Ngũ Lạc",
+        "nameEn": "Ngu Lac",
+        "fullName": "Xã Ngũ Lạc",
+        "fullNameEn": "Ngu Lac Commune",
+        "codeName": "ngu_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2521",
+        "areaKm2": 60.92
       }
     }
   ]

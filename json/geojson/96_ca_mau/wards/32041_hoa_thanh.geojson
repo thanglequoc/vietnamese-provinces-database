@@ -8102,11 +8102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Thành",
-        "unit_code": "32041",
-        "unit_code_name": "hoa_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.167",
-        "area_km2": 97.29
+        "code": "32041",
+        "name": "Hoà Thành",
+        "nameEn": "Hoa Thanh",
+        "fullName": "Phường Hoà Thành",
+        "fullNameEn": "Hoa Thanh Ward",
+        "codeName": "hoa_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.167",
+        "areaKm2": 97.29
       }
     }
   ]

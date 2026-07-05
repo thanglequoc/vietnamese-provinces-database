@@ -6922,11 +6922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Uar",
-        "unit_code": "24109",
-        "unit_code_name": "uar",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2967",
-        "area_km2": 412.31
+        "code": "24109",
+        "name": "Uar",
+        "nameEn": "Uar",
+        "fullName": "Xã Uar",
+        "fullNameEn": "Uar Commune",
+        "codeName": "uar",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2967",
+        "areaKm2": 412.31
       }
     }
   ]

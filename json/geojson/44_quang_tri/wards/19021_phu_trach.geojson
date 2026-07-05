@@ -10478,11 +10478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Trạch",
-        "unit_code": "19021",
-        "unit_code_name": "phu_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.613",
-        "area_km2": 197.41
+        "code": "19021",
+        "name": "Phú Trạch",
+        "nameEn": "Phu Trach",
+        "fullName": "Xã Phú Trạch",
+        "fullNameEn": "Phu Trach Commune",
+        "codeName": "phu_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.613",
+        "areaKm2": 197.41
       }
     }
   ]

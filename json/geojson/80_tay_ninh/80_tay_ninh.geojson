@@ -10286,11 +10286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Ninh",
-        "unit_code": "80",
-        "unit_code_name": "tay_ninh",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.40",
-        "area_km2": 8536.44
+        "code": "80",
+        "name": "Tây Ninh",
+        "nameEn": "Tay Ninh",
+        "fullName": "Tỉnh Tây Ninh",
+        "fullNameEn": "Tay Ninh Province",
+        "codeName": "tay_ninh",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.40",
+        "areaKm2": 8536.44
       }
     }
   ]

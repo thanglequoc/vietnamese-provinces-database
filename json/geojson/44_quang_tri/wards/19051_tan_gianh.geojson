@@ -5582,11 +5582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Gianh",
-        "unit_code": "19051",
-        "unit_code_name": "tan_gianh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.610",
-        "area_km2": 41.05
+        "code": "19051",
+        "name": "Tân Gianh",
+        "nameEn": "Tan Gianh",
+        "fullName": "Xã Tân Gianh",
+        "fullNameEn": "Tan Gianh Commune",
+        "codeName": "tan_gianh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.610",
+        "areaKm2": 41.05
       }
     }
   ]

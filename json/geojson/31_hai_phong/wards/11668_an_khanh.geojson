@@ -1710,11 +1710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Khánh",
-        "unit_code": "11668",
-        "unit_code_name": "an_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.905",
-        "area_km2": 24.16
+        "code": "11668",
+        "name": "An Khánh",
+        "nameEn": "An Khanh",
+        "fullName": "Xã An Khánh",
+        "fullNameEn": "An Khanh Commune",
+        "codeName": "an_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.905",
+        "areaKm2": 24.16
       }
     }
   ]

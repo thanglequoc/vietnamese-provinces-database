@@ -7998,11 +7998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thế",
-        "unit_code": "07288",
-        "unit_code_name": "yen_the",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2160",
-        "area_km2": 43.67
+        "code": "07288",
+        "name": "Yên Thế",
+        "nameEn": "Yen The",
+        "fullName": "Xã Yên Thế",
+        "fullNameEn": "Yen The Commune",
+        "codeName": "yen_the",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2160",
+        "areaKm2": 43.67
       }
     }
   ]

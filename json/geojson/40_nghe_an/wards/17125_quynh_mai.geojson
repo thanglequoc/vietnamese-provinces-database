@@ -3486,11 +3486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Mai",
-        "unit_code": "17125",
-        "unit_code_name": "quynh_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1487",
-        "area_km2": 40.5
+        "code": "17125",
+        "name": "Quỳnh Mai",
+        "nameEn": "Quynh Mai",
+        "fullName": "Phường Quỳnh Mai",
+        "fullNameEn": "Quynh Mai Ward",
+        "codeName": "quynh_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1487",
+        "areaKm2": 40.5
       }
     }
   ]

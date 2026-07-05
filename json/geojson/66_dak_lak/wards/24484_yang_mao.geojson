@@ -28670,11 +28670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yang Mao",
-        "unit_code": "24484",
-        "unit_code_name": "yang_mao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2863",
-        "area_km2": 562.38
+        "code": "24484",
+        "name": "Yang Mao",
+        "nameEn": "Yang Mao",
+        "fullName": "Xã Yang Mao",
+        "fullNameEn": "Yang Mao Commune",
+        "codeName": "yang_mao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2863",
+        "areaKm2": 562.38
       }
     }
   ]

@@ -28782,11 +28782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Thành",
-        "unit_code": "23200",
-        "unit_code_name": "nam_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3091",
-        "area_km2": 201.78
+        "code": "23200",
+        "name": "Nam Thành",
+        "nameEn": "Nam Thanh",
+        "fullName": "Xã Nam Thành",
+        "fullNameEn": "Nam Thanh Commune",
+        "codeName": "nam_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3091",
+        "areaKm2": 201.78
       }
     }
   ]

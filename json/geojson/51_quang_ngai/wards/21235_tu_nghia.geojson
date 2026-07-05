@@ -7646,11 +7646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tư Nghĩa",
-        "unit_code": "21235",
-        "unit_code_name": "tu_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1765",
-        "area_km2": 41.93
+        "code": "21235",
+        "name": "Tư Nghĩa",
+        "nameEn": "Tu Nghia",
+        "fullName": "Xã Tư Nghĩa",
+        "fullNameEn": "Tu Nghia Commune",
+        "codeName": "tu_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1765",
+        "areaKm2": 41.93
       }
     }
   ]

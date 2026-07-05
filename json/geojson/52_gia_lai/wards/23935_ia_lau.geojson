@@ -12646,11 +12646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Lâu",
-        "unit_code": "23935",
-        "unit_code_name": "ia_lau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2942",
-        "area_km2": 215.02
+        "code": "23935",
+        "name": "Ia Lâu",
+        "nameEn": "Ia Lau",
+        "fullName": "Xã Ia Lâu",
+        "fullNameEn": "Ia Lau Commune",
+        "codeName": "ia_lau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2942",
+        "areaKm2": 215.02
       }
     }
   ]

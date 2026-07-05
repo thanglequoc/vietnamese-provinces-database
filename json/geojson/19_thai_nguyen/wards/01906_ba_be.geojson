@@ -7874,11 +7874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Bể",
-        "unit_code": "01906",
-        "unit_code_name": "ba_be",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1169",
-        "area_km2": 148.08
+        "code": "01906",
+        "name": "Ba Bể",
+        "nameEn": "Ba Be",
+        "fullName": "Xã Ba Bể",
+        "fullNameEn": "Ba Be Commune",
+        "codeName": "ba_be",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1169",
+        "areaKm2": 148.08
       }
     }
   ]

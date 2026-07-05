@@ -8602,11 +8602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lương",
-        "unit_code": "02611",
-        "unit_code_name": "phu_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2361",
-        "area_km2": 85.65
+        "code": "02611",
+        "name": "Phú Lương",
+        "nameEn": "Phu Luong",
+        "fullName": "Xã Phú Lương",
+        "fullNameEn": "Phu Luong Commune",
+        "codeName": "phu_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2361",
+        "areaKm2": 85.65
       }
     }
   ]

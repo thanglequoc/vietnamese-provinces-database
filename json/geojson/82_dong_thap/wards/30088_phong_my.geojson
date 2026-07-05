@@ -6318,11 +6318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Mỹ",
-        "unit_code": "30088",
-        "unit_code_name": "phong_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.426",
-        "area_km2": 78.6
+        "code": "30088",
+        "name": "Phong Mỹ",
+        "nameEn": "Phong My",
+        "fullName": "Xã Phong Mỹ",
+        "fullNameEn": "Phong My Commune",
+        "codeName": "phong_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.426",
+        "areaKm2": 78.6
       }
     }
   ]

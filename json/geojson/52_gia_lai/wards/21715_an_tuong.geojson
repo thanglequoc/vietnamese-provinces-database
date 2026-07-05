@@ -22378,11 +22378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ân Tường",
-        "unit_code": "21715",
-        "unit_code_name": "an_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2983",
-        "area_km2": 227.45
+        "code": "21715",
+        "name": "Ân Tường",
+        "nameEn": "An Tuong",
+        "fullName": "Xã Ân Tường",
+        "fullNameEn": "An Tuong Commune",
+        "codeName": "an_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2983",
+        "areaKm2": 227.45
       }
     }
   ]

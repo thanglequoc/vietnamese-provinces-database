@@ -3290,11 +3290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mê Linh",
-        "unit_code": "09022",
-        "unit_code_name": "me_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3248",
-        "area_km2": 34.97
+        "code": "09022",
+        "name": "Mê Linh",
+        "nameEn": "Me Linh",
+        "fullName": "Xã Mê Linh",
+        "fullNameEn": "Me Linh Commune",
+        "codeName": "me_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3248",
+        "areaKm2": 34.97
       }
     }
   ]

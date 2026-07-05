@@ -3654,11 +3654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Châu",
-        "unit_code": "19225",
-        "unit_code_name": "ninh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.629",
-        "area_km2": 86.03
+        "code": "19225",
+        "name": "Ninh Châu",
+        "nameEn": "Ninh Chau",
+        "fullName": "Xã Ninh Châu",
+        "fullNameEn": "Ninh Chau Commune",
+        "codeName": "ninh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.629",
+        "areaKm2": 86.03
       }
     }
   ]

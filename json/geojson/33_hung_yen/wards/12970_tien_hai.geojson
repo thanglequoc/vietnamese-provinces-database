@@ -2526,11 +2526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiền Hải",
-        "unit_code": "12970",
-        "unit_code_name": "tien_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.677",
-        "area_km2": 32.99
+        "code": "12970",
+        "name": "Tiền Hải",
+        "nameEn": "Tien Hai",
+        "fullName": "Xã Tiền Hải",
+        "fullNameEn": "Tien Hai Commune",
+        "codeName": "tien_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.677",
+        "areaKm2": 32.99
       }
     }
   ]

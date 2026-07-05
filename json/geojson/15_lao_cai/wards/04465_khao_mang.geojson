@@ -16286,11 +16286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khao Mang",
-        "unit_code": "04465",
-        "unit_code_name": "khao_mang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1026",
-        "area_km2": 120.06
+        "code": "04465",
+        "name": "Khao Mang",
+        "nameEn": "Khao Mang",
+        "fullName": "Xã Khao Mang",
+        "fullNameEn": "Khao Mang Commune",
+        "codeName": "khao_mang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1026",
+        "areaKm2": 120.06
       }
     }
   ]

@@ -5446,11 +5446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hàng Trung",
-        "unit_code": "30118",
-        "unit_code_name": "binh_hang_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.429",
-        "area_km2": 78.2
+        "code": "30118",
+        "name": "Bình Hàng Trung",
+        "nameEn": "Binh Hang Trung",
+        "fullName": "Xã Bình Hàng Trung",
+        "fullNameEn": "Binh Hang Trung Commune",
+        "codeName": "binh_hang_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.429",
+        "areaKm2": 78.2
       }
     }
   ]

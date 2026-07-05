@@ -9890,11 +9890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Boòng",
-        "unit_code": "23911",
-        "unit_code_name": "ia_boong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2928",
-        "area_km2": 196.07
+        "code": "23911",
+        "name": "Ia Boòng",
+        "nameEn": "Ia Boong",
+        "fullName": "Xã Ia Boòng",
+        "fullNameEn": "Ia Boong Commune",
+        "codeName": "ia_boong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2928",
+        "areaKm2": 196.07
       }
     }
   ]

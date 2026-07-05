@@ -19670,11 +19670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lý",
-        "unit_code": "26173",
-        "unit_code_name": "phu_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3151",
-        "area_km2": 279
+        "code": "26173",
+        "name": "Phú Lý",
+        "nameEn": "Phu Ly",
+        "fullName": "Xã Phú Lý",
+        "fullNameEn": "Phu Ly Commune",
+        "codeName": "phu_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3151",
+        "areaKm2": 279
       }
     }
   ]

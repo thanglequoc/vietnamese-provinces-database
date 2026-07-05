@@ -8898,11 +8898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Phú",
-        "unit_code": "15049",
-        "unit_code_name": "van_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2721",
-        "area_km2": 106.55
+        "code": "15049",
+        "name": "Văn Phú",
+        "nameEn": "Van Phu",
+        "fullName": "Xã Văn Phú",
+        "fullNameEn": "Van Phu Commune",
+        "codeName": "van_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2721",
+        "areaKm2": 106.55
       }
     }
   ]

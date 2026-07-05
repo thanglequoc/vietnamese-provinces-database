@@ -11626,11 +11626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trí Phải",
-        "unit_code": "32071",
-        "unit_code_name": "tri_phai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.172",
-        "area_km2": 166.6
+        "code": "32071",
+        "name": "Trí Phải",
+        "nameEn": "Tri Phai",
+        "fullName": "Xã Trí Phải",
+        "fullNameEn": "Tri Phai Commune",
+        "codeName": "tri_phai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.172",
+        "areaKm2": 166.6
       }
     }
   ]

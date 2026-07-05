@@ -8638,11 +8638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Hoà",
-        "unit_code": "31810",
-        "unit_code_name": "lai_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.304",
-        "area_km2": 55.37
+        "code": "31810",
+        "name": "Lai Hoà",
+        "nameEn": "Lai Hoa",
+        "fullName": "Xã Lai Hoà",
+        "fullNameEn": "Lai Hoa Commune",
+        "codeName": "lai_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.304",
+        "areaKm2": 55.37
       }
     }
   ]

@@ -2598,11 +2598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dĩ An",
-        "unit_code": "25942",
-        "unit_code_name": "di_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.29",
-        "area_km2": 21.38
+        "code": "25942",
+        "name": "Dĩ An",
+        "nameEn": "Di An",
+        "fullName": "Phường Dĩ An",
+        "fullNameEn": "Di An Ward",
+        "codeName": "di_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.29",
+        "areaKm2": 21.38
       }
     }
   ]

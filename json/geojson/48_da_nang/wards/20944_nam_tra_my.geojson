@@ -11514,11 +11514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Trà My",
-        "unit_code": "20944",
-        "unit_code_name": "nam_tra_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1983",
-        "area_km2": 178.31
+        "code": "20944",
+        "name": "Nam Trà My",
+        "nameEn": "Nam Tra My",
+        "fullName": "Xã Nam Trà My",
+        "fullNameEn": "Nam Tra My Commune",
+        "codeName": "nam_tra_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1983",
+        "areaKm2": 178.31
       }
     }
   ]

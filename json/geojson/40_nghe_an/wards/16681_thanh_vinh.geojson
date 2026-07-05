@@ -1842,11 +1842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Vinh",
-        "unit_code": "16681",
-        "unit_code_name": "thanh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1517",
-        "area_km2": 15.54
+        "code": "16681",
+        "name": "Thành Vinh",
+        "nameEn": "Thanh Vinh",
+        "fullName": "Phường Thành Vinh",
+        "fullNameEn": "Thanh Vinh Ward",
+        "codeName": "thanh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1517",
+        "areaKm2": 15.54
       }
     }
   ]

@@ -286,11 +286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cồn Cỏ",
-        "unit_code": "19742",
-        "unit_code_name": "con_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3312",
-        "area_km2": 2.3
+        "code": "19742",
+        "name": "Cồn Cỏ",
+        "nameEn": "Con Co",
+        "fullName": "Đặc khu Cồn Cỏ",
+        "fullNameEn": "Con Co Special administrative region",
+        "codeName": "con_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3312",
+        "areaKm2": 2.3
       }
     }
   ]

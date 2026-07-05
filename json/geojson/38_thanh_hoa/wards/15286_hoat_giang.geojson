@@ -8822,11 +8822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoạt Giang",
-        "unit_code": "15286",
-        "unit_code_name": "hoat_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2640",
-        "area_km2": 27.34
+        "code": "15286",
+        "name": "Hoạt Giang",
+        "nameEn": "Hoat Giang",
+        "fullName": "Xã Hoạt Giang",
+        "fullNameEn": "Hoat Giang Commune",
+        "codeName": "hoat_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2640",
+        "areaKm2": 27.34
       }
     }
   ]

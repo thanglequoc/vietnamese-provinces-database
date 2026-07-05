@@ -6090,11 +6090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Nhất",
-        "unit_code": "24154",
-        "unit_code_name": "thanh_nhat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2822",
-        "area_km2": 32.22
+        "code": "24154",
+        "name": "Thành Nhất",
+        "nameEn": "Thanh Nhat",
+        "fullName": "Phường Thành Nhất",
+        "fullNameEn": "Thanh Nhat Ward",
+        "codeName": "thanh_nhat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2822",
+        "areaKm2": 32.22
       }
     }
   ]

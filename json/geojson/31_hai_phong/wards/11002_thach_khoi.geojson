@@ -2206,11 +2206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Khôi",
-        "unit_code": "11002",
-        "unit_code_name": "thach_khoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.852",
-        "area_km2": 19.94
+        "code": "11002",
+        "name": "Thạch Khôi",
+        "nameEn": "Thach Khoi",
+        "fullName": "Phường Thạch Khôi",
+        "fullNameEn": "Thach Khoi Ward",
+        "codeName": "thach_khoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.852",
+        "areaKm2": 19.94
       }
     }
   ]

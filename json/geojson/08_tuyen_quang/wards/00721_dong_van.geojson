@@ -12814,11 +12814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Văn",
-        "unit_code": "00721",
-        "unit_code_name": "dong_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2369",
-        "area_km2": 122.49
+        "code": "00721",
+        "name": "Đồng Văn",
+        "nameEn": "Dong Van",
+        "fullName": "Xã Đồng Văn",
+        "fullNameEn": "Dong Van Commune",
+        "codeName": "dong_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2369",
+        "areaKm2": 122.49
       }
     }
   ]

@@ -6438,11 +6438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhuận Đức",
-        "unit_code": "27511",
-        "unit_code_name": "nhuan_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.115",
-        "area_km2": 62.06
+        "code": "27511",
+        "name": "Nhuận Đức",
+        "nameEn": "Nhuan Duc",
+        "fullName": "Xã Nhuận Đức",
+        "fullNameEn": "Nhuan Duc Commune",
+        "codeName": "nhuan_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.115",
+        "areaKm2": 62.06
       }
     }
   ]

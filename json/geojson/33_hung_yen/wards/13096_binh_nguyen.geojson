@@ -2782,11 +2782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Nguyên",
-        "unit_code": "13096",
-        "unit_code_name": "binh_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.700",
-        "area_km2": 17.21
+        "code": "13096",
+        "name": "Bình Nguyên",
+        "nameEn": "Binh Nguyen",
+        "fullName": "Xã Bình Nguyên",
+        "fullNameEn": "Binh Nguyen Commune",
+        "codeName": "binh_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.700",
+        "areaKm2": 17.21
       }
     }
   ]

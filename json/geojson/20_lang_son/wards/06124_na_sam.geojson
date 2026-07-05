@@ -9694,11 +9694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Sầm",
-        "unit_code": "06124",
-        "unit_code_name": "na_sam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1807",
-        "area_km2": 94.47
+        "code": "06124",
+        "name": "Na Sầm",
+        "nameEn": "Na Sam",
+        "fullName": "Xã Na Sầm",
+        "fullNameEn": "Na Sam Commune",
+        "codeName": "na_sam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1807",
+        "areaKm2": 94.47
       }
     }
   ]

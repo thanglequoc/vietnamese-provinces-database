@@ -8794,11 +8794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Y Tý",
-        "unit_code": "02701",
-        "unit_code_name": "y_ty",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1094",
-        "area_km2": 127.6
+        "code": "02701",
+        "name": "Y Tý",
+        "nameEn": "Y Ty",
+        "fullName": "Xã Y Tý",
+        "fullNameEn": "Y Ty Commune",
+        "codeName": "y_ty",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1094",
+        "areaKm2": 127.6
       }
     }
   ]

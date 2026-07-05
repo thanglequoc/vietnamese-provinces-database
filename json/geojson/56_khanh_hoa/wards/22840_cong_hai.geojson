@@ -6398,11 +6398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Công Hải",
-        "unit_code": "22840",
-        "unit_code_name": "cong_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1152",
-        "area_km2": 124.3
+        "code": "22840",
+        "name": "Công Hải",
+        "nameEn": "Cong Hai",
+        "fullName": "Xã Công Hải",
+        "fullNameEn": "Cong Hai Commune",
+        "codeName": "cong_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1152",
+        "areaKm2": 124.3
       }
     }
   ]

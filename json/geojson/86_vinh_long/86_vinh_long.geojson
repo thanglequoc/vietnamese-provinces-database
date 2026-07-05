@@ -2762,11 +2762,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Long",
-        "unit_code": "86",
-        "unit_code_name": "vinh_long",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.42",
-        "area_km2": 6296.2
+        "code": "86",
+        "name": "Vĩnh Long",
+        "nameEn": "Vinh Long",
+        "fullName": "Tỉnh Vĩnh Long",
+        "fullNameEn": "Vinh Long Province",
+        "codeName": "vinh_long",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.42",
+        "areaKm2": 6296.2
       }
     }
   ]

@@ -13262,11 +13262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Hồ",
-        "unit_code": "03046",
-        "unit_code_name": "ban_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1103",
-        "area_km2": 166.2
+        "code": "03046",
+        "name": "Bản Hồ",
+        "nameEn": "Ban Ho",
+        "fullName": "Xã Bản Hồ",
+        "fullNameEn": "Ban Ho Commune",
+        "codeName": "ban_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1103",
+        "areaKm2": 166.2
       }
     }
   ]

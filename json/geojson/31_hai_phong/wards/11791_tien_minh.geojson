@@ -1802,11 +1802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Minh",
-        "unit_code": "11791",
-        "unit_code_name": "tien_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.915",
-        "area_km2": 36.48
+        "code": "11791",
+        "name": "Tiên Minh",
+        "nameEn": "Tien Minh",
+        "fullName": "Xã Tiên Minh",
+        "fullNameEn": "Tien Minh Commune",
+        "codeName": "tien_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.915",
+        "areaKm2": 36.48
       }
     }
   ]

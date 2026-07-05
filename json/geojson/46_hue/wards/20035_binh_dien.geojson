@@ -34834,11 +34834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Điền",
-        "unit_code": "20035",
-        "unit_code_name": "binh_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1710",
-        "area_km2": 266.5
+        "code": "20035",
+        "name": "Bình Điền",
+        "nameEn": "Binh Dien",
+        "fullName": "Xã Bình Điền",
+        "fullNameEn": "Binh Dien Commune",
+        "codeName": "binh_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1710",
+        "areaKm2": 266.5
       }
     }
   ]

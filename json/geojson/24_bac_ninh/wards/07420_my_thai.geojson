@@ -8610,11 +8610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thái",
-        "unit_code": "07420",
-        "unit_code_name": "my_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2170",
-        "area_km2": 46.63
+        "code": "07420",
+        "name": "Mỹ Thái",
+        "nameEn": "My Thai",
+        "fullName": "Xã Mỹ Thái",
+        "fullNameEn": "My Thai Commune",
+        "codeName": "my_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2170",
+        "areaKm2": 46.63
       }
     }
   ]

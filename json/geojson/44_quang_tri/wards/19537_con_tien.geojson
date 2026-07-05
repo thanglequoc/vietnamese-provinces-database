@@ -25290,11 +25290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cồn Tiên",
-        "unit_code": "19537",
-        "unit_code_name": "con_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.575",
-        "area_km2": 268.58
+        "code": "19537",
+        "name": "Cồn Tiên",
+        "nameEn": "Con Tien",
+        "fullName": "Xã Cồn Tiên",
+        "fullNameEn": "Con Tien Commune",
+        "codeName": "con_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.575",
+        "areaKm2": 268.58
       }
     }
   ]

@@ -10530,11 +10530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Ngọc",
-        "unit_code": "00994",
-        "unit_code_name": "minh_ngoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2401",
-        "area_km2": 159.34
+        "code": "00994",
+        "name": "Minh Ngọc",
+        "nameEn": "Minh Ngoc",
+        "fullName": "Xã Minh Ngọc",
+        "fullNameEn": "Minh Ngoc Commune",
+        "codeName": "minh_ngoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2401",
+        "areaKm2": 159.34
       }
     }
   ]

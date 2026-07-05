@@ -2706,11 +2706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Xang",
-        "unit_code": "13591",
-        "unit_code_name": "nam_xang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2772",
-        "area_km2": 22.7
+        "code": "13591",
+        "name": "Nam Xang",
+        "nameEn": "Nam Xang",
+        "fullName": "Xã Nam Xang",
+        "fullNameEn": "Nam Xang Commune",
+        "codeName": "nam_xang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2772",
+        "areaKm2": 22.7
       }
     }
   ]

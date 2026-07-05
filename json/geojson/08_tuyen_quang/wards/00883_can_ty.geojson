@@ -9062,11 +9062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cán Tỷ",
-        "unit_code": "00883",
-        "unit_code_name": "can_ty",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2384",
-        "area_km2": 85.13
+        "code": "00883",
+        "name": "Cán Tỷ",
+        "nameEn": "Can Ty",
+        "fullName": "Xã Cán Tỷ",
+        "fullNameEn": "Can Ty Commune",
+        "codeName": "can_ty",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2384",
+        "areaKm2": 85.13
       }
     }
   ]

@@ -4462,11 +4462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú An",
-        "unit_code": "30436",
-        "unit_code_name": "phu_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.324",
-        "area_km2": 57.35
+        "code": "30436",
+        "name": "Phú An",
+        "nameEn": "Phu An",
+        "fullName": "Xã Phú An",
+        "fullNameEn": "Phu An Commune",
+        "codeName": "phu_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.324",
+        "areaKm2": 57.35
       }
     }
   ]

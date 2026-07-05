@@ -4530,11 +4530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giai Xuân",
-        "unit_code": "17278",
-        "unit_code_name": "giai_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1435",
-        "area_km2": 121.55
+        "code": "17278",
+        "name": "Giai Xuân",
+        "nameEn": "Giai Xuan",
+        "fullName": "Xã Giai Xuân",
+        "fullNameEn": "Giai Xuan Commune",
+        "codeName": "giai_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1435",
+        "areaKm2": 121.55
       }
     }
   ]

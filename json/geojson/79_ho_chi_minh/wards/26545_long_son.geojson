@@ -5218,11 +5218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Sơn",
-        "unit_code": "26545",
-        "unit_code_name": "long_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2226",
-        "area_km2": 56.5
+        "code": "26545",
+        "name": "Long Sơn",
+        "nameEn": "Long Son",
+        "fullName": "Xã Long Sơn",
+        "fullNameEn": "Long Son Commune",
+        "codeName": "long_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2226",
+        "areaKm2": 56.5
       }
     }
   ]

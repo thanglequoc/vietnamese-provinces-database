@@ -2978,11 +2978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh An",
-        "unit_code": "30604",
-        "unit_code_name": "vinh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.346",
-        "area_km2": 93.41
+        "code": "30604",
+        "name": "Vĩnh An",
+        "nameEn": "Vinh An",
+        "fullName": "Xã Vĩnh An",
+        "fullNameEn": "Vinh An Commune",
+        "codeName": "vinh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.346",
+        "areaKm2": 93.41
       }
     }
   ]

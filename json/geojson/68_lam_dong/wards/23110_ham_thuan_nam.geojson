@@ -15686,11 +15686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Thuận Nam",
-        "unit_code": "23110",
-        "unit_code_name": "ham_thuan_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3081",
-        "area_km2": 111.82
+        "code": "23110",
+        "name": "Hàm Thuận Nam",
+        "nameEn": "Ham Thuan Nam",
+        "fullName": "Xã Hàm Thuận Nam",
+        "fullNameEn": "Ham Thuan Nam Commune",
+        "codeName": "ham_thuan_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3081",
+        "areaKm2": 111.82
       }
     }
   ]

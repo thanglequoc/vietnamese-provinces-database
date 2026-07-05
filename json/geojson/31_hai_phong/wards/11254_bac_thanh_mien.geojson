@@ -2010,11 +2010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Thanh Miện",
-        "unit_code": "11254",
-        "unit_code_name": "bac_thanh_mien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.898",
-        "area_km2": 25.27
+        "code": "11254",
+        "name": "Bắc Thanh Miện",
+        "nameEn": "Bac Thanh Mien",
+        "fullName": "Xã Bắc Thanh Miện",
+        "fullNameEn": "Bac Thanh Mien Commune",
+        "codeName": "bac_thanh_mien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.898",
+        "areaKm2": 25.27
       }
     }
   ]

@@ -2586,11 +2586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thư Vũ",
-        "unit_code": "13264",
-        "unit_code_name": "thu_vu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.687",
-        "area_km2": 24.99
+        "code": "13264",
+        "name": "Thư Vũ",
+        "nameEn": "Thu Vu",
+        "fullName": "Xã Thư Vũ",
+        "fullNameEn": "Thu Vu Commune",
+        "codeName": "thu_vu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.687",
+        "areaKm2": 24.99
       }
     }
   ]

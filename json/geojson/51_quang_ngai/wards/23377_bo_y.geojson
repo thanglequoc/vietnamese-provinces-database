@@ -16802,11 +16802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bờ Y",
-        "unit_code": "23377",
-        "unit_code_name": "bo_y",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.541",
-        "area_km2": 242.11
+        "code": "23377",
+        "name": "Bờ Y",
+        "nameEn": "Bo Y",
+        "fullName": "Xã Bờ Y",
+        "fullNameEn": "Bo Y Commune",
+        "codeName": "bo_y",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.541",
+        "areaKm2": 242.11
       }
     }
   ]

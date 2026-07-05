@@ -7986,11 +7986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phong",
-        "unit_code": "03408",
-        "unit_code_name": "tan_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2061",
-        "area_km2": 106.77
+        "code": "03408",
+        "name": "Tân Phong",
+        "nameEn": "Tan Phong",
+        "fullName": "Phường Tân Phong",
+        "fullNameEn": "Tan Phong Ward",
+        "codeName": "tan_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2061",
+        "areaKm2": 106.77
       }
     }
   ]

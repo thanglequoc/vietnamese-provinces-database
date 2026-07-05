@@ -1434,11 +1434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Bàng",
-        "unit_code": "11311",
-        "unit_code_name": "hong_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.929",
-        "area_km2": 12.11
+        "code": "11311",
+        "name": "Hồng Bàng",
+        "nameEn": "Hong Bang",
+        "fullName": "Phường Hồng Bàng",
+        "fullNameEn": "Hong Bang Ward",
+        "codeName": "hong_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.929",
+        "areaKm2": 12.11
       }
     }
   ]

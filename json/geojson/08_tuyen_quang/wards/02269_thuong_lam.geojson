@@ -10622,11 +10622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Lâm",
-        "unit_code": "02269",
-        "unit_code_name": "thuong_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2320",
-        "area_km2": 277.16
+        "code": "02269",
+        "name": "Thượng Lâm",
+        "nameEn": "Thuong Lam",
+        "fullName": "Xã Thượng Lâm",
+        "fullNameEn": "Thuong Lam Commune",
+        "codeName": "thuong_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2320",
+        "areaKm2": 277.16
       }
     }
   ]

@@ -8582,11 +8582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cảm Nhân",
-        "unit_code": "04726",
-        "unit_code_name": "cam_nhan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1052",
-        "area_km2": 151.77
+        "code": "04726",
+        "name": "Cảm Nhân",
+        "nameEn": "Cam Nhan",
+        "fullName": "Xã Cảm Nhân",
+        "fullNameEn": "Cam Nhan Commune",
+        "codeName": "cam_nhan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1052",
+        "areaKm2": 151.77
       }
     }
   ]

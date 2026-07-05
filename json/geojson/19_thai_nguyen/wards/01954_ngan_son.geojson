@@ -11586,11 +11586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngân Sơn",
-        "unit_code": "01954",
-        "unit_code_name": "ngan_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1174",
-        "area_km2": 145.57
+        "code": "01954",
+        "name": "Ngân Sơn",
+        "nameEn": "Ngan Son",
+        "fullName": "Xã Ngân Sơn",
+        "fullNameEn": "Ngan Son Commune",
+        "codeName": "ngan_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1174",
+        "areaKm2": 145.57
       }
     }
   ]

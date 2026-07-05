@@ -12942,11 +12942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Ninh Hoà",
-        "unit_code": "22552",
-        "unit_code_name": "tay_ninh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1111",
-        "area_km2": 275.9
+        "code": "22552",
+        "name": "Tây Ninh Hoà",
+        "nameEn": "Tay Ninh Hoa",
+        "fullName": "Xã Tây Ninh Hoà",
+        "fullNameEn": "Tay Ninh Hoa Commune",
+        "codeName": "tay_ninh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1111",
+        "areaKm2": 275.9
       }
     }
   ]

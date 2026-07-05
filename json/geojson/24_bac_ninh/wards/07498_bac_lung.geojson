@@ -5874,11 +5874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Lũng",
-        "unit_code": "07498",
-        "unit_code_name": "bac_lung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2176",
-        "area_km2": 53.72
+        "code": "07498",
+        "name": "Bắc Lũng",
+        "nameEn": "Bac Lung",
+        "fullName": "Xã Bắc Lũng",
+        "fullNameEn": "Bac Lung Commune",
+        "codeName": "bac_lung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2176",
+        "areaKm2": 53.72
       }
     }
   ]

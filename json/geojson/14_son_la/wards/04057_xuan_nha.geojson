@@ -11006,11 +11006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Nha",
-        "unit_code": "04057",
-        "unit_code_name": "xuan_nha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1381",
-        "area_km2": 263.37
+        "code": "04057",
+        "name": "Xuân Nha",
+        "nameEn": "Xuan Nha",
+        "fullName": "Xã Xuân Nha",
+        "fullNameEn": "Xuan Nha Commune",
+        "codeName": "xuan_nha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1381",
+        "areaKm2": 263.37
       }
     }
   ]

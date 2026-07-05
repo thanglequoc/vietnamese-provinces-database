@@ -9890,11 +9890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Liên",
-        "unit_code": "20908",
-        "unit_code_name": "tra_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1964",
-        "area_km2": 178.15
+        "code": "20908",
+        "name": "Trà Liên",
+        "nameEn": "Tra Lien",
+        "fullName": "Xã Trà Liên",
+        "fullNameEn": "Tra Lien Commune",
+        "codeName": "tra_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1964",
+        "areaKm2": 178.15
       }
     }
   ]

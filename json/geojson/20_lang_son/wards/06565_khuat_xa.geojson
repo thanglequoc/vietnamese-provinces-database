@@ -15086,11 +15086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khuất Xá",
-        "unit_code": "06565",
-        "unit_code_name": "khuat_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1848",
-        "area_km2": 124.91
+        "code": "06565",
+        "name": "Khuất Xá",
+        "nameEn": "Khuat Xa",
+        "fullName": "Xã Khuất Xá",
+        "fullNameEn": "Khuat Xa Commune",
+        "codeName": "khuat_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1848",
+        "areaKm2": 124.91
       }
     }
   ]

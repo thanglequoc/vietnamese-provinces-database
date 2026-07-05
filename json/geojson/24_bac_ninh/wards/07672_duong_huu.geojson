@@ -6962,11 +6962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Hưu",
-        "unit_code": "07672",
-        "unit_code_name": "duong_huu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2119",
-        "area_km2": 142.59
+        "code": "07672",
+        "name": "Dương Hưu",
+        "nameEn": "Duong Huu",
+        "fullName": "Xã Dương Hưu",
+        "fullNameEn": "Duong Huu Commune",
+        "codeName": "duong_huu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2119",
+        "areaKm2": 142.59
       }
     }
   ]

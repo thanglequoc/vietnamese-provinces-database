@@ -6546,11 +6546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Hoà 1",
-        "unit_code": "22319",
-        "unit_code_name": "phu_hoa_1",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2923",
-        "area_km2": 142.54
+        "code": "22319",
+        "name": "Phú Hoà 1",
+        "nameEn": "Phu Hoa 1",
+        "fullName": "Xã Phú Hoà 1",
+        "fullNameEn": "Commune Phu Hoa 1",
+        "codeName": "phu_hoa_1",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2923",
+        "areaKm2": 142.54
       }
     }
   ]

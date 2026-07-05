@@ -7910,11 +7910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh An",
-        "unit_code": "32059",
-        "unit_code_name": "khanh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.170",
-        "area_km2": 177.7
+        "code": "32059",
+        "name": "Khánh An",
+        "nameEn": "Khanh An",
+        "fullName": "Xã Khánh An",
+        "fullNameEn": "Khanh An Commune",
+        "codeName": "khanh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.170",
+        "areaKm2": 177.7
       }
     }
   ]

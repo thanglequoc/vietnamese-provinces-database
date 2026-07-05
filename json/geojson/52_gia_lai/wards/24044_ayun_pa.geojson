@@ -3050,11 +3050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ayun Pa",
-        "unit_code": "24044",
-        "unit_code_name": "ayun_pa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2959",
-        "area_km2": 17.61
+        "code": "24044",
+        "name": "Ayun Pa",
+        "nameEn": "Ayun Pa",
+        "fullName": "Phường Ayun Pa",
+        "fullNameEn": "Ayun Pa Ward",
+        "codeName": "ayun_pa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2959",
+        "areaKm2": 17.61
       }
     }
   ]

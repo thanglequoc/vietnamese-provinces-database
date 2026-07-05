@@ -17446,11 +17446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Rong",
-        "unit_code": "23644",
-        "unit_code_name": "dak_rong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3047",
-        "area_km2": 516.25
+        "code": "23644",
+        "name": "Đak Rong",
+        "nameEn": "Dak Rong",
+        "fullName": "Xã Đak Rong",
+        "fullNameEn": "Dak Rong Commune",
+        "codeName": "dak_rong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3047",
+        "areaKm2": 516.25
       }
     }
   ]

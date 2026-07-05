@@ -4282,11 +4282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cô Tô",
-        "unit_code": "30580",
-        "unit_code_name": "co_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.340",
-        "area_km2": 176.75
+        "code": "30580",
+        "name": "Cô Tô",
+        "nameEn": "Co To",
+        "fullName": "Xã Cô Tô",
+        "fullNameEn": "Co To Commune",
+        "codeName": "co_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.340",
+        "areaKm2": 176.75
       }
     }
   ]

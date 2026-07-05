@@ -5282,11 +5282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiền Kiệt",
-        "unit_code": "14896",
-        "unit_code_name": "hien_kiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2697",
-        "area_km2": 140.29
+        "code": "14896",
+        "name": "Hiền Kiệt",
+        "nameEn": "Hien Kiet",
+        "fullName": "Xã Hiền Kiệt",
+        "fullNameEn": "Hien Kiet Commune",
+        "codeName": "hien_kiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2697",
+        "areaKm2": 140.29
       }
     }
   ]

@@ -3318,11 +3318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Hoà",
-        "unit_code": "28003",
-        "unit_code_name": "luong_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1311",
-        "area_km2": 62.16
+        "code": "28003",
+        "name": "Lương Hoà",
+        "nameEn": "Luong Hoa",
+        "fullName": "Xã Lương Hoà",
+        "fullNameEn": "Luong Hoa Commune",
+        "codeName": "luong_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1311",
+        "areaKm2": 62.16
       }
     }
   ]

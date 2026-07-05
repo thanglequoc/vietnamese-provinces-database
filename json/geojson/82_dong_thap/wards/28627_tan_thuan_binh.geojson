@@ -15162,11 +15162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thuận Bình",
-        "unit_code": "28627",
-        "unit_code_name": "tan_thuan_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.485",
-        "area_km2": 39.9
+        "code": "28627",
+        "name": "Tân Thuận Bình",
+        "nameEn": "Tan Thuan Binh",
+        "fullName": "Xã Tân Thuận Bình",
+        "fullNameEn": "Tan Thuan Binh Commune",
+        "codeName": "tan_thuan_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.485",
+        "areaKm2": 39.9
       }
     }
   ]

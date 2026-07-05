@@ -1958,11 +1958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Bằng",
-        "unit_code": "12280",
-        "unit_code_name": "luong_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.704",
-        "area_km2": 29.08
+        "code": "12280",
+        "name": "Lương Bằng",
+        "nameEn": "Luong Bang",
+        "fullName": "Xã Lương Bằng",
+        "fullNameEn": "Luong Bang Commune",
+        "codeName": "luong_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.704",
+        "areaKm2": 29.08
       }
     }
   ]

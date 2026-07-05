@@ -23378,11 +23378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Bông",
-        "unit_code": "24448",
-        "unit_code_name": "krong_bong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2859",
-        "area_km2": 166.03
+        "code": "24448",
+        "name": "Krông Bông",
+        "nameEn": "Krong Bong",
+        "fullName": "Xã Krông Bông",
+        "fullNameEn": "Krong Bong Commune",
+        "codeName": "krong_bong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2859",
+        "areaKm2": 166.03
       }
     }
   ]

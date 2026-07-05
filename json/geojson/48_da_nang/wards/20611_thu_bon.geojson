@@ -4322,11 +4322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thu Bồn",
-        "unit_code": "20611",
-        "unit_code_name": "thu_bon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1936",
-        "area_km2": 108.77
+        "code": "20611",
+        "name": "Thu Bồn",
+        "nameEn": "Thu Bon",
+        "fullName": "Xã Thu Bồn",
+        "fullNameEn": "Thu Bon Commune",
+        "codeName": "thu_bon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1936",
+        "areaKm2": 108.77
       }
     }
   ]

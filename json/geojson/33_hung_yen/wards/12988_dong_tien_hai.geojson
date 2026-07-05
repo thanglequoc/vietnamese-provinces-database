@@ -2482,11 +2482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Tiền Hải",
-        "unit_code": "12988",
-        "unit_code_name": "dong_tien_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.681",
-        "area_km2": 38.64
+        "code": "12988",
+        "name": "Đông Tiền Hải",
+        "nameEn": "Dong Tien Hai",
+        "fullName": "Xã Đông Tiền Hải",
+        "fullNameEn": "Dong Tien Hai Commune",
+        "codeName": "dong_tien_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.681",
+        "areaKm2": 38.64
       }
     }
   ]

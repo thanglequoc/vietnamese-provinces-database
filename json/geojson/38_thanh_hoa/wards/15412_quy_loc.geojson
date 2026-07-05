@@ -15182,11 +15182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quý Lộc",
-        "unit_code": "15412",
-        "unit_code_name": "quy_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2635",
-        "area_km2": 38.01
+        "code": "15412",
+        "name": "Quý Lộc",
+        "nameEn": "Quy Loc",
+        "fullName": "Xã Quý Lộc",
+        "fullNameEn": "Quy Loc Commune",
+        "codeName": "quy_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2635",
+        "areaKm2": 38.01
       }
     }
   ]

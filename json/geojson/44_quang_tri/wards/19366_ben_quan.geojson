@@ -22310,11 +22310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Quan",
-        "unit_code": "19366",
-        "unit_code_name": "ben_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.563",
-        "area_km2": 278.99
+        "code": "19366",
+        "name": "Bến Quan",
+        "nameEn": "Ben Quan",
+        "fullName": "Xã Bến Quan",
+        "fullNameEn": "Ben Quan Commune",
+        "codeName": "ben_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.563",
+        "areaKm2": 278.99
       }
     }
   ]

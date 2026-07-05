@@ -2498,11 +2498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cổ Đô",
-        "unit_code": "09634",
-        "unit_code_name": "co_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3237",
-        "area_km2": 53.25
+        "code": "09634",
+        "name": "Cổ Đô",
+        "nameEn": "Co Do",
+        "fullName": "Xã Cổ Đô",
+        "fullNameEn": "Co Do Commune",
+        "codeName": "co_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3237",
+        "areaKm2": 53.25
       }
     }
   ]

@@ -1962,11 +1962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Hưng Hoà",
-        "unit_code": "27439",
-        "unit_code_name": "binh_hung_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.105",
-        "area_km2": 8.47
+        "code": "27439",
+        "name": "Bình Hưng Hoà",
+        "nameEn": "Binh Hung Hoa",
+        "fullName": "Phường Bình Hưng Hoà",
+        "fullNameEn": "Binh Hung Hoa Ward",
+        "codeName": "binh_hung_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.105",
+        "areaKm2": 8.47
       }
     }
   ]

@@ -1394,11 +1394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Định",
-        "unit_code": "27427",
-        "unit_code_name": "phu_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.103",
-        "area_km2": 5.85
+        "code": "27427",
+        "name": "Phú Định",
+        "nameEn": "Phu Dinh",
+        "fullName": "Phường Phú Định",
+        "fullNameEn": "Phu Dinh Ward",
+        "codeName": "phu_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.103",
+        "areaKm2": 5.85
       }
     }
   ]

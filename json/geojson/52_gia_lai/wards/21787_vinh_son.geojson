@@ -11518,11 +11518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Sơn",
-        "unit_code": "21787",
-        "unit_code_name": "vinh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2991",
-        "area_km2": 328.89
+        "code": "21787",
+        "name": "Vĩnh Sơn",
+        "nameEn": "Vinh Son",
+        "fullName": "Xã Vĩnh Sơn",
+        "fullNameEn": "Vinh Son Commune",
+        "codeName": "vinh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2991",
+        "areaKm2": 328.89
       }
     }
   ]

@@ -10842,11 +10842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỏ Cày",
-        "unit_code": "28903",
-        "unit_code_name": "mo_cay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2448",
-        "area_km2": 38.89
+        "code": "28903",
+        "name": "Mỏ Cày",
+        "nameEn": "Mo Cay",
+        "fullName": "Xã Mỏ Cày",
+        "fullNameEn": "Mo Cay Commune",
+        "codeName": "mo_cay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2448",
+        "areaKm2": 38.89
       }
     }
   ]

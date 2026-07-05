@@ -1786,11 +1786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chấn Hưng",
-        "unit_code": "11806",
-        "unit_code_name": "chan_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.913",
-        "area_km2": 32.11
+        "code": "11806",
+        "name": "Chấn Hưng",
+        "nameEn": "Chan Hung",
+        "fullName": "Xã Chấn Hưng",
+        "fullNameEn": "Chan Hung Commune",
+        "codeName": "chan_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.913",
+        "areaKm2": 32.11
       }
     }
   ]

@@ -7814,11 +7814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thành",
-        "unit_code": "28663",
-        "unit_code_name": "phu_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.490",
-        "area_km2": 31.9
+        "code": "28663",
+        "name": "Phú Thành",
+        "nameEn": "Phu Thanh",
+        "fullName": "Xã Phú Thành",
+        "fullNameEn": "Phu Thanh Commune",
+        "codeName": "phu_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.490",
+        "areaKm2": 31.9
       }
     }
   ]

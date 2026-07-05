@@ -9590,11 +9590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bằng Vân",
-        "unit_code": "01942",
-        "unit_code_name": "bang_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1173",
-        "area_km2": 133.01
+        "code": "01942",
+        "name": "Bằng Vân",
+        "nameEn": "Bang Van",
+        "fullName": "Xã Bằng Vân",
+        "fullNameEn": "Bang Van Commune",
+        "codeName": "bang_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1173",
+        "areaKm2": 133.01
       }
     }
   ]

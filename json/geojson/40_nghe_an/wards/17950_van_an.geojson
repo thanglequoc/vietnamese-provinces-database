@@ -3266,11 +3266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn An",
-        "unit_code": "17950",
-        "unit_code_name": "van_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1530",
-        "area_km2": 56.37
+        "code": "17950",
+        "name": "Vạn An",
+        "nameEn": "Van An",
+        "fullName": "Xã Vạn An",
+        "fullNameEn": "Van An Commune",
+        "codeName": "van_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1530",
+        "areaKm2": 56.37
       }
     }
   ]

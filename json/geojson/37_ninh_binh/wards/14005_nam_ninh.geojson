@@ -3706,11 +3706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Ninh",
-        "unit_code": "14005",
-        "unit_code_name": "nam_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.790",
-        "area_km2": 25.8
+        "code": "14005",
+        "name": "Nam Ninh",
+        "nameEn": "Nam Ninh",
+        "fullName": "Xã Nam Ninh",
+        "fullNameEn": "Nam Ninh Commune",
+        "codeName": "nam_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.790",
+        "areaKm2": 25.8
       }
     }
   ]

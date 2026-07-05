@@ -5810,11 +5810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Song Khủa",
-        "unit_code": "04006",
-        "unit_code_name": "song_khua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1376",
-        "area_km2": 192.45
+        "code": "04006",
+        "name": "Song Khủa",
+        "nameEn": "Song Khua",
+        "fullName": "Xã Song Khủa",
+        "fullNameEn": "Song Khua Commune",
+        "codeName": "song_khua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1376",
+        "areaKm2": 192.45
       }
     }
   ]

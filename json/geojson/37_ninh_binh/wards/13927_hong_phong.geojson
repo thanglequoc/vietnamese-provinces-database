@@ -2098,11 +2098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Phong",
-        "unit_code": "13927",
-        "unit_code_name": "hong_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.832",
-        "area_km2": 29.21
+        "code": "13927",
+        "name": "Hồng Phong",
+        "nameEn": "Hong Phong",
+        "fullName": "Xã Hồng Phong",
+        "fullNameEn": "Hong Phong Commune",
+        "codeName": "hong_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.832",
+        "areaKm2": 29.21
       }
     }
   ]

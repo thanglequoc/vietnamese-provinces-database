@@ -9686,11 +9686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Thạnh",
-        "unit_code": "24967",
-        "unit_code_name": "hiep_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.523",
-        "area_km2": 127.19
+        "code": "24967",
+        "name": "Hiệp Thạnh",
+        "nameEn": "Hiep Thanh",
+        "fullName": "Xã Hiệp Thạnh",
+        "fullNameEn": "Hiep Thanh Commune",
+        "codeName": "hiep_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.523",
+        "areaKm2": 127.19
       }
     }
   ]

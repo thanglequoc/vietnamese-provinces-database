@@ -1854,11 +1854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Rang",
-        "unit_code": "22759",
-        "unit_code_name": "phan_rang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1143",
-        "area_km2": 9.4
+        "code": "22759",
+        "name": "Phan Rang",
+        "nameEn": "Phan Rang",
+        "fullName": "Phường Phan Rang",
+        "fullNameEn": "Phan Rang Ward",
+        "codeName": "phan_rang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1143",
+        "areaKm2": 9.4
       }
     }
   ]

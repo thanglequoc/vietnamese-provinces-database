@@ -7438,11 +7438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Tul",
-        "unit_code": "24028",
-        "unit_code_name": "ia_tul",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2964",
-        "area_km2": 587.51
+        "code": "24028",
+        "name": "Ia Tul",
+        "nameEn": "Ia Tul",
+        "fullName": "Xã Ia Tul",
+        "fullNameEn": "Ia Tul Commune",
+        "codeName": "ia_tul",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2964",
+        "areaKm2": 587.51
       }
     }
   ]

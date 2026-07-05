@@ -13326,11 +13326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Thành",
-        "unit_code": "26617",
-        "unit_code_name": "nghia_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2210",
-        "area_km2": 65.67
+        "code": "26617",
+        "name": "Nghĩa Thành",
+        "nameEn": "Nghia Thanh",
+        "fullName": "Xã Nghĩa Thành",
+        "fullNameEn": "Nghia Thanh Commune",
+        "codeName": "nghia_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2210",
+        "areaKm2": 65.67
       }
     }
   ]

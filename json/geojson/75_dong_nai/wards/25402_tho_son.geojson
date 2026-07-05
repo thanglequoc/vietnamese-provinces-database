@@ -24902,11 +24902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Sơn",
-        "unit_code": "25402",
-        "unit_code_name": "tho_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2302",
-        "area_km2": 307.7
+        "code": "25402",
+        "name": "Thọ Sơn",
+        "nameEn": "Tho Son",
+        "fullName": "Xã Thọ Sơn",
+        "fullNameEn": "Tho Son Commune",
+        "codeName": "tho_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2302",
+        "areaKm2": 307.7
       }
     }
   ]

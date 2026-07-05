@@ -2214,11 +2214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoàn Đào",
-        "unit_code": "12406",
-        "unit_code_name": "doan_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.725",
-        "area_km2": 22.39
+        "code": "12406",
+        "name": "Đoàn Đào",
+        "nameEn": "Doan Dao",
+        "fullName": "Xã Đoàn Đào",
+        "fullNameEn": "Doan Dao Commune",
+        "codeName": "doan_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.725",
+        "areaKm2": 22.39
       }
     }
   ]

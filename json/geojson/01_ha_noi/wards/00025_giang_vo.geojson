@@ -1190,11 +1190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giảng Võ",
-        "unit_code": "00025",
-        "unit_code_name": "giang_vo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3258",
-        "area_km2": 2.6
+        "code": "00025",
+        "name": "Giảng Võ",
+        "nameEn": "Giang Vo",
+        "fullName": "Phường Giảng Võ",
+        "fullNameEn": "Giang Vo Ward",
+        "codeName": "giang_vo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3258",
+        "areaKm2": 2.6
       }
     }
   ]

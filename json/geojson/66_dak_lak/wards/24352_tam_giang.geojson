@@ -26570,11 +26570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Giang",
-        "unit_code": "24352",
-        "unit_code_name": "tam_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2888",
-        "area_km2": 195.8
+        "code": "24352",
+        "name": "Tam Giang",
+        "nameEn": "Tam Giang",
+        "fullName": "Xã Tam Giang",
+        "fullNameEn": "Tam Giang Commune",
+        "codeName": "tam_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2888",
+        "areaKm2": 195.8
       }
     }
   ]

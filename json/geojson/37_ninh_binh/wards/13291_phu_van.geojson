@@ -1226,11 +1226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Vân",
-        "unit_code": "13291",
-        "unit_code_name": "phu_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2792",
-        "area_km2": 19.34
+        "code": "13291",
+        "name": "Phù Vân",
+        "nameEn": "Phu Van",
+        "fullName": "Phường Phù Vân",
+        "fullNameEn": "Phu Van Ward",
+        "codeName": "phu_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2792",
+        "areaKm2": 19.34
       }
     }
   ]

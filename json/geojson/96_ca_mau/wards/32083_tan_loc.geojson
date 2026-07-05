@@ -12430,11 +12430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lộc",
-        "unit_code": "32083",
-        "unit_code_name": "tan_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.174",
-        "area_km2": 96.8
+        "code": "32083",
+        "name": "Tân Lộc",
+        "nameEn": "Tan Loc",
+        "fullName": "Xã Tân Lộc",
+        "fullNameEn": "Tan Loc Commune",
+        "codeName": "tan_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.174",
+        "areaKm2": 96.8
       }
     }
   ]

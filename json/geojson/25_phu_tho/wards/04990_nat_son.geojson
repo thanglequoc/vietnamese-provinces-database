@@ -14578,11 +14578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nật Sơn",
-        "unit_code": "04990",
-        "unit_code_name": "nat_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1650",
-        "area_km2": 154.65
+        "code": "04990",
+        "name": "Nật Sơn",
+        "nameEn": "Nat Son",
+        "fullName": "Xã Nật Sơn",
+        "fullNameEn": "Nat Son Commune",
+        "codeName": "nat_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1650",
+        "areaKm2": 154.65
       }
     }
   ]

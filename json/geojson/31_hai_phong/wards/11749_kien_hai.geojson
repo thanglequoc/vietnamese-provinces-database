@@ -2798,11 +2798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Hải",
-        "unit_code": "11749",
-        "unit_code_name": "kien_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.939",
-        "area_km2": 31.86
+        "code": "11749",
+        "name": "Kiến Hải",
+        "nameEn": "Kien Hai",
+        "fullName": "Xã Kiến Hải",
+        "fullNameEn": "Kien Hai Commune",
+        "codeName": "kien_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.939",
+        "areaKm2": 31.86
       }
     }
   ]

@@ -1970,11 +1970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Bảng",
-        "unit_code": "13384",
-        "unit_code_name": "kim_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2784",
-        "area_km2": 15.22
+        "code": "13384",
+        "name": "Kim Bảng",
+        "nameEn": "Kim Bang",
+        "fullName": "Phường Kim Bảng",
+        "fullNameEn": "Kim Bang Ward",
+        "codeName": "kim_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2784",
+        "areaKm2": 15.22
       }
     }
   ]

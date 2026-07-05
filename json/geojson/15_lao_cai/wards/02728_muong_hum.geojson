@@ -11518,11 +11518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Hum",
-        "unit_code": "02728",
-        "unit_code_name": "muong_hum",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1097",
-        "area_km2": 212.8
+        "code": "02728",
+        "name": "Mường Hum",
+        "nameEn": "Muong Hum",
+        "fullName": "Xã Mường Hum",
+        "fullNameEn": "Muong Hum Commune",
+        "codeName": "muong_hum",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1097",
+        "areaKm2": 212.8
       }
     }
   ]

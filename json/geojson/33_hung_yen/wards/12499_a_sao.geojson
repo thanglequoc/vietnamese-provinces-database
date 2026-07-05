@@ -1986,11 +1986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Sào",
-        "unit_code": "12499",
-        "unit_code_name": "a_sao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.665",
-        "area_km2": 20.46
+        "code": "12499",
+        "name": "A Sào",
+        "nameEn": "A Sao",
+        "fullName": "Xã A Sào",
+        "fullNameEn": "A Sao Commune",
+        "codeName": "a_sao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.665",
+        "areaKm2": 20.46
       }
     }
   ]

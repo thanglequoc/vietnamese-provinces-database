@@ -7150,11 +7150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thọ",
-        "unit_code": "25",
-        "unit_code_name": "phu_tho",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.125",
-        "area_km2": 9361.38
+        "code": "25",
+        "name": "Phú Thọ",
+        "nameEn": "Phu Tho",
+        "fullName": "Tỉnh Phú Thọ",
+        "fullNameEn": "Phu Tho Province",
+        "codeName": "phu_tho",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.125",
+        "areaKm2": 9361.38
       }
     }
   ]

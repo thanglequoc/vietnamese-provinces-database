@@ -19274,11 +19274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Linh Hồ",
-        "unit_code": "00970",
-        "unit_code_name": "linh_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2396",
-        "area_km2": 181.44
+        "code": "00970",
+        "name": "Linh Hồ",
+        "nameEn": "Linh Ho",
+        "fullName": "Xã Linh Hồ",
+        "fullNameEn": "Linh Ho Commune",
+        "codeName": "linh_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2396",
+        "areaKm2": 181.44
       }
     }
   ]

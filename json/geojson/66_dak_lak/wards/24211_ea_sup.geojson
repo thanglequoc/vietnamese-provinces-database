@@ -34194,11 +34194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Súp",
-        "unit_code": "24211",
-        "unit_code_name": "ea_sup",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2833",
-        "area_km2": 418.72
+        "code": "24211",
+        "name": "Ea Súp",
+        "nameEn": "Ea Sup",
+        "fullName": "Xã Ea Súp",
+        "fullNameEn": "Ea Sup Commune",
+        "codeName": "ea_sup",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2833",
+        "areaKm2": 418.72
       }
     }
   ]

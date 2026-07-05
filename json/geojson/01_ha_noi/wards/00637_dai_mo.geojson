@@ -1622,11 +1622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Mỗ",
-        "unit_code": "00637",
-        "unit_code_name": "dai_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3267",
-        "area_km2": 8.1
+        "code": "00637",
+        "name": "Đại Mỗ",
+        "nameEn": "Dai Mo",
+        "fullName": "Phường Đại Mỗ",
+        "fullNameEn": "Dai Mo Ward",
+        "codeName": "dai_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3267",
+        "areaKm2": 8.1
       }
     }
   ]

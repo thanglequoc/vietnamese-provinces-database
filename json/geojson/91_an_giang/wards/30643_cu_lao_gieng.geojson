@@ -6526,11 +6526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cù Lao Giêng",
-        "unit_code": "30643",
-        "unit_code_name": "cu_lao_gieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.349",
-        "area_km2": 68.92
+        "code": "30643",
+        "name": "Cù Lao Giêng",
+        "nameEn": "Cu Lao Gieng",
+        "fullName": "Xã Cù Lao Giêng",
+        "fullNameEn": "Cu Lao Gieng Commune",
+        "codeName": "cu_lao_gieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.349",
+        "areaKm2": 68.92
       }
     }
   ]

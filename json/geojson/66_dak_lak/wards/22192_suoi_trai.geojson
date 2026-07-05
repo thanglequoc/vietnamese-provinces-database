@@ -11134,11 +11134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Trai",
-        "unit_code": "22192",
-        "unit_code_name": "suoi_trai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2910",
-        "area_km2": 186.95
+        "code": "22192",
+        "name": "Suối Trai",
+        "nameEn": "Suoi Trai",
+        "fullName": "Xã Suối Trai",
+        "fullNameEn": "Suoi Trai Commune",
+        "codeName": "suoi_trai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2910",
+        "areaKm2": 186.95
       }
     }
   ]

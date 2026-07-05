@@ -12802,11 +12802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mai Sơn",
-        "unit_code": "04105",
-        "unit_code_name": "mai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1391",
-        "area_km2": 164.4
+        "code": "04105",
+        "name": "Mai Sơn",
+        "nameEn": "Mai Son",
+        "fullName": "Xã Mai Sơn",
+        "fullNameEn": "Mai Son Commune",
+        "codeName": "mai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1391",
+        "areaKm2": 164.4
       }
     }
   ]

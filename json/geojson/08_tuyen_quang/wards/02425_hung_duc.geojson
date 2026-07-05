@@ -5910,11 +5910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Đức",
-        "unit_code": "02425",
-        "unit_code_name": "hung_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2340",
-        "area_km2": 63.63
+        "code": "02425",
+        "name": "Hùng Đức",
+        "nameEn": "Hung Duc",
+        "fullName": "Xã Hùng Đức",
+        "fullNameEn": "Hung Duc Commune",
+        "codeName": "hung_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2340",
+        "areaKm2": 63.63
       }
     }
   ]

@@ -14226,11 +14226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Hanh",
-        "unit_code": "06778",
-        "unit_code_name": "quang_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1868",
-        "area_km2": 62.63
+        "code": "06778",
+        "name": "Quang Hanh",
+        "nameEn": "Quang Hanh",
+        "fullName": "Phường Quang Hanh",
+        "fullNameEn": "Quang Hanh Ward",
+        "codeName": "quang_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1868",
+        "areaKm2": 62.63
       }
     }
   ]

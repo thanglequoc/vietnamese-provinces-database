@@ -11142,11 +11142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Keng Đu",
-        "unit_code": "16822",
-        "unit_code_name": "keng_du",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1499",
-        "area_km2": 98.24
+        "code": "16822",
+        "name": "Keng Đu",
+        "nameEn": "Keng Du",
+        "fullName": "Xã Keng Đu",
+        "fullNameEn": "Keng Du Commune",
+        "codeName": "keng_du",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1499",
+        "areaKm2": 98.24
       }
     }
   ]

@@ -7962,11 +7962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoá Châu",
-        "unit_code": "20014",
-        "unit_code_name": "hoa_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1698",
-        "area_km2": 34.6
+        "code": "20014",
+        "name": "Hoá Châu",
+        "nameEn": "Hoa Chau",
+        "fullName": "Phường Hoá Châu",
+        "fullNameEn": "Hoa Chau Ward",
+        "codeName": "hoa_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1698",
+        "areaKm2": 34.6
       }
     }
   ]

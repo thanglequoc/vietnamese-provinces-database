@@ -3954,11 +3954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phụ Dực",
-        "unit_code": "12523",
-        "unit_code_name": "phu_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.672",
-        "area_km2": 33.16
+        "code": "12523",
+        "name": "Phụ Dực",
+        "nameEn": "Phu Duc",
+        "fullName": "Xã Phụ Dực",
+        "fullNameEn": "Phu Duc Commune",
+        "codeName": "phu_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.672",
+        "areaKm2": 33.16
       }
     }
   ]

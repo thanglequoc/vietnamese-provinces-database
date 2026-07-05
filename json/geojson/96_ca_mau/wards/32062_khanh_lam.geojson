@@ -12274,11 +12274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Lâm",
-        "unit_code": "32062",
-        "unit_code_name": "khanh_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.169",
-        "area_km2": 208.2
+        "code": "32062",
+        "name": "Khánh Lâm",
+        "nameEn": "Khanh Lam",
+        "fullName": "Xã Khánh Lâm",
+        "fullNameEn": "Khanh Lam Commune",
+        "codeName": "khanh_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.169",
+        "areaKm2": 208.2
       }
     }
   ]

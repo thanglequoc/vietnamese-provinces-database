@@ -2382,11 +2382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Triệu",
-        "unit_code": "11542",
-        "unit_code_name": "nam_trieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.927",
-        "area_km2": 29.51
+        "code": "11542",
+        "name": "Nam Triệu",
+        "nameEn": "Nam Trieu",
+        "fullName": "Phường Nam Triệu",
+        "fullNameEn": "Nam Trieu Ward",
+        "codeName": "nam_trieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.927",
+        "areaKm2": 29.51
       }
     }
   ]

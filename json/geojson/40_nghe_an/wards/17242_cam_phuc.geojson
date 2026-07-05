@@ -7726,11 +7726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Phục",
-        "unit_code": "17242",
-        "unit_code_name": "cam_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1416",
-        "area_km2": 162.43
+        "code": "17242",
+        "name": "Cam Phục",
+        "nameEn": "Cam Phuc",
+        "fullName": "Xã Cam Phục",
+        "fullNameEn": "Cam Phuc Commune",
+        "codeName": "cam_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1416",
+        "areaKm2": 162.43
       }
     }
   ]

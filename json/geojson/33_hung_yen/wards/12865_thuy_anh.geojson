@@ -2454,11 +2454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuỵ Anh",
-        "unit_code": "12865",
-        "unit_code_name": "thuy_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.641",
-        "area_km2": 20.07
+        "code": "12865",
+        "name": "Thuỵ Anh",
+        "nameEn": "Thuy Anh",
+        "fullName": "Xã Thuỵ Anh",
+        "fullNameEn": "Thuy Anh Commune",
+        "codeName": "thuy_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.641",
+        "areaKm2": 20.07
       }
     }
   ]

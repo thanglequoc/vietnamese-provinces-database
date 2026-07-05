@@ -7246,11 +7246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sín Chéng",
-        "unit_code": "02824",
-        "unit_code_name": "sin_cheng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1063",
-        "area_km2": 88
+        "code": "02824",
+        "name": "Sín Chéng",
+        "nameEn": "Sin Cheng",
+        "fullName": "Xã Sín Chéng",
+        "fullNameEn": "Sin Cheng Commune",
+        "codeName": "sin_cheng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1063",
+        "areaKm2": 88
       }
     }
   ]

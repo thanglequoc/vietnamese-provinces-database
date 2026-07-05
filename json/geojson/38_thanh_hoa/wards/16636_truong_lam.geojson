@@ -6442,11 +6442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Lâm",
-        "unit_code": "16636",
-        "unit_code_name": "truong_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2569",
-        "area_km2": 68.16
+        "code": "16636",
+        "name": "Trường Lâm",
+        "nameEn": "Truong Lam",
+        "fullName": "Xã Trường Lâm",
+        "fullNameEn": "Truong Lam Commune",
+        "codeName": "truong_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2569",
+        "areaKm2": 68.16
       }
     }
   ]

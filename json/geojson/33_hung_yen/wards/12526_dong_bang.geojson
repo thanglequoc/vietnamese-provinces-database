@@ -4714,11 +4714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Bằng",
-        "unit_code": "12526",
-        "unit_code_name": "dong_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.664",
-        "area_km2": 20.04
+        "code": "12526",
+        "name": "Đồng Bằng",
+        "nameEn": "Dong Bang",
+        "fullName": "Xã Đồng Bằng",
+        "fullNameEn": "Dong Bang Commune",
+        "codeName": "dong_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.664",
+        "areaKm2": 20.04
       }
     }
   ]

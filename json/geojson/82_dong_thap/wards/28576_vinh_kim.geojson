@@ -7394,11 +7394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Kim",
-        "unit_code": "28576",
-        "unit_code_name": "vinh_kim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.479",
-        "area_km2": 25.6
+        "code": "28576",
+        "name": "Vĩnh Kim",
+        "nameEn": "Vinh Kim",
+        "fullName": "Xã Vĩnh Kim",
+        "fullNameEn": "Vinh Kim Commune",
+        "codeName": "vinh_kim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.479",
+        "areaKm2": 25.6
       }
     }
   ]

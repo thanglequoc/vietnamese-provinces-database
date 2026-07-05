@@ -4554,11 +4554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lập",
-        "unit_code": "19462",
-        "unit_code_name": "tan_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.592",
-        "area_km2": 83.18
+        "code": "19462",
+        "name": "Tân Lập",
+        "nameEn": "Tan Lap",
+        "fullName": "Xã Tân Lập",
+        "fullNameEn": "Tan Lap Commune",
+        "codeName": "tan_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.592",
+        "areaKm2": 83.18
       }
     }
   ]

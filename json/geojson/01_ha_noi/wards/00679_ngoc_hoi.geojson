@@ -3726,11 +3726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Hồi",
-        "unit_code": "00679",
-        "unit_code_name": "ngoc_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3177",
-        "area_km2": 13.35
+        "code": "00679",
+        "name": "Ngọc Hồi",
+        "nameEn": "Ngoc Hoi",
+        "fullName": "Xã Ngọc Hồi",
+        "fullNameEn": "Ngoc Hoi Commune",
+        "codeName": "ngoc_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3177",
+        "areaKm2": 13.35
       }
     }
   ]

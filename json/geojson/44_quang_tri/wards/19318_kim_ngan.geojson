@@ -20010,11 +20010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Ngân",
-        "unit_code": "19318",
-        "unit_code_name": "kim_ngan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.634",
-        "area_km2": 881.06
+        "code": "19318",
+        "name": "Kim Ngân",
+        "nameEn": "Kim Ngan",
+        "fullName": "Xã Kim Ngân",
+        "fullNameEn": "Kim Ngan Commune",
+        "codeName": "kim_ngan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.634",
+        "areaKm2": 881.06
       }
     }
   ]

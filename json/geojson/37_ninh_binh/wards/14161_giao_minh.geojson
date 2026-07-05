@@ -5226,11 +5226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao Minh",
-        "unit_code": "14161",
-        "unit_code_name": "giao_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3297",
-        "area_km2": 27.74
+        "code": "14161",
+        "name": "Giao Minh",
+        "nameEn": "Giao Minh",
+        "fullName": "Xã Giao Minh",
+        "fullNameEn": "Giao Minh Commune",
+        "codeName": "giao_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3297",
+        "areaKm2": 27.74
       }
     }
   ]

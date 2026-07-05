@@ -8146,11 +8146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoá Quỳ",
-        "unit_code": "16186",
-        "unit_code_name": "hoa_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2693",
-        "area_km2": 116.65
+        "code": "16186",
+        "name": "Hoá Quỳ",
+        "nameEn": "Hoa Quy",
+        "fullName": "Xã Hoá Quỳ",
+        "fullNameEn": "Hoa Quy Commune",
+        "codeName": "hoa_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2693",
+        "areaKm2": 116.65
       }
     }
   ]

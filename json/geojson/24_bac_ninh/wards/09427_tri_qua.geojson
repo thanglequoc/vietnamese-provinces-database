@@ -2898,11 +2898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trí Quả",
-        "unit_code": "09427",
-        "unit_code_name": "tri_qua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2192",
-        "area_km2": 19.95
+        "code": "09427",
+        "name": "Trí Quả",
+        "nameEn": "Tri Qua",
+        "fullName": "Phường Trí Quả",
+        "fullNameEn": "Tri Qua Ward",
+        "codeName": "tri_qua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2192",
+        "areaKm2": 19.95
       }
     }
   ]

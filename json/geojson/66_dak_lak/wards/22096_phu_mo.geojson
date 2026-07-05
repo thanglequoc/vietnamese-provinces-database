@@ -17734,11 +17734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Mỡ",
-        "unit_code": "22096",
-        "unit_code_name": "phu_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2899",
-        "area_km2": 547.2
+        "code": "22096",
+        "name": "Phú Mỡ",
+        "nameEn": "Phu Mo",
+        "fullName": "Xã Phú Mỡ",
+        "fullNameEn": "Phu Mo Commune",
+        "codeName": "phu_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2899",
+        "areaKm2": 547.2
       }
     }
   ]

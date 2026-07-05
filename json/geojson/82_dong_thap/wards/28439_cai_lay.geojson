@@ -4258,11 +4258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cai Lậy",
-        "unit_code": "28439",
-        "unit_code_name": "cai_lay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.470",
-        "area_km2": 25.5
+        "code": "28439",
+        "name": "Cai Lậy",
+        "nameEn": "Cai Lay",
+        "fullName": "Phường Cai Lậy",
+        "fullNameEn": "Cai Lay Ward",
+        "codeName": "cai_lay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.470",
+        "areaKm2": 25.5
       }
     }
   ]

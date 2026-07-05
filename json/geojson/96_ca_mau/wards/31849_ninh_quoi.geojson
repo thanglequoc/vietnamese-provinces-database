@@ -6014,11 +6014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Quới",
-        "unit_code": "31849",
-        "unit_code_name": "ninh_quoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.142",
-        "area_km2": 32.42
+        "code": "31849",
+        "name": "Ninh Quới",
+        "nameEn": "Ninh Quoi",
+        "fullName": "Xã Ninh Quới",
+        "fullNameEn": "Ninh Quoi Commune",
+        "codeName": "ninh_quoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.142",
+        "areaKm2": 32.42
       }
     }
   ]

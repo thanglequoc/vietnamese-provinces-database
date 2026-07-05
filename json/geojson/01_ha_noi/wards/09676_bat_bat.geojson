@@ -2914,11 +2914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bất Bạt",
-        "unit_code": "09676",
-        "unit_code_name": "bat_bat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3234",
-        "area_km2": 56.43
+        "code": "09676",
+        "name": "Bất Bạt",
+        "nameEn": "Bat Bat",
+        "fullName": "Xã Bất Bạt",
+        "fullNameEn": "Bat Bat Commune",
+        "codeName": "bat_bat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3234",
+        "areaKm2": 56.43
       }
     }
   ]

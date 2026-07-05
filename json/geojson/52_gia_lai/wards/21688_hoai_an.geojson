@@ -13786,11 +13786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Ân",
-        "unit_code": "21688",
-        "unit_code_name": "hoai_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2981",
-        "area_km2": 115.72
+        "code": "21688",
+        "name": "Hoài Ân",
+        "nameEn": "Hoai An",
+        "fullName": "Xã Hoài Ân",
+        "fullNameEn": "Hoai An Commune",
+        "codeName": "hoai_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2981",
+        "areaKm2": 115.72
       }
     }
   ]

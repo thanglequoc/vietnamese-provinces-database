@@ -4810,11 +4810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Giang",
-        "unit_code": "14104",
-        "unit_code_name": "xuan_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.807",
-        "area_km2": 32.04
+        "code": "14104",
+        "name": "Xuân Giang",
+        "nameEn": "Xuan Giang",
+        "fullName": "Xã Xuân Giang",
+        "fullNameEn": "Xuan Giang Commune",
+        "codeName": "xuan_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.807",
+        "areaKm2": 32.04
       }
     }
   ]

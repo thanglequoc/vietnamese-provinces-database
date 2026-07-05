@@ -2130,11 +2130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chí Linh",
-        "unit_code": "10546",
-        "unit_code_name": "chi_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.876",
-        "area_km2": 26.79
+        "code": "10546",
+        "name": "Chí Linh",
+        "nameEn": "Chi Linh",
+        "fullName": "Phường Chí Linh",
+        "fullNameEn": "Chi Linh Ward",
+        "codeName": "chi_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.876",
+        "areaKm2": 26.79
       }
     }
   ]

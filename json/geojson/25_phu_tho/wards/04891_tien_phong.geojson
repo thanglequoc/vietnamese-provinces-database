@@ -4242,11 +4242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiền Phong",
-        "unit_code": "04891",
-        "unit_code_name": "tien_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1660",
-        "area_km2": 116.31
+        "code": "04891",
+        "name": "Tiền Phong",
+        "nameEn": "Tien Phong",
+        "fullName": "Xã Tiền Phong",
+        "fullNameEn": "Tien Phong Commune",
+        "codeName": "tien_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1660",
+        "areaKm2": 116.31
       }
     }
   ]

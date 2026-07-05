@@ -5090,11 +5090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nông Tiến",
-        "unit_code": "02212",
-        "unit_code_name": "nong_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2313",
-        "area_km2": 26.99
+        "code": "02212",
+        "name": "Nông Tiến",
+        "nameEn": "Nong Tien",
+        "fullName": "Phường Nông Tiến",
+        "fullNameEn": "Nong Tien Ward",
+        "codeName": "nong_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2313",
+        "areaKm2": 26.99
       }
     }
   ]

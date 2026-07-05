@@ -6418,11 +6418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Lai",
-        "unit_code": "31258",
-        "unit_code_name": "thoi_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.224",
-        "area_km2": 50.78
+        "code": "31258",
+        "name": "Thới Lai",
+        "nameEn": "Thoi Lai",
+        "fullName": "Xã Thới Lai",
+        "fullNameEn": "Thoi Lai Commune",
+        "codeName": "thoi_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.224",
+        "areaKm2": 50.78
       }
     }
   ]

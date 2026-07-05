@@ -16834,11 +16834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chân Mây - Lăng Cô",
-        "unit_code": "20137",
-        "unit_code_name": "chan_may_lang_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1718",
-        "area_km2": 261.38
+        "code": "20137",
+        "name": "Chân Mây - Lăng Cô",
+        "nameEn": "Chan May - Lang Co",
+        "fullName": "Xã Chân Mây - Lăng Cô",
+        "fullNameEn": "Chan May - Lang Co Commune",
+        "codeName": "chan_may_lang_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1718",
+        "areaKm2": 261.38
       }
     }
   ]

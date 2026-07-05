@@ -6958,11 +6958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phổ Yên",
-        "unit_code": "05860",
-        "unit_code_name": "pho_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1230",
-        "area_km2": 40.7
+        "code": "05860",
+        "name": "Phổ Yên",
+        "nameEn": "Pho Yen",
+        "fullName": "Phường Phổ Yên",
+        "fullNameEn": "Pho Yen Ward",
+        "codeName": "pho_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1230",
+        "areaKm2": 40.7
       }
     }
   ]

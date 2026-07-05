@@ -1990,11 +1990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Hợp",
-        "unit_code": "12313",
-        "unit_code_name": "duc_hop",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.724",
-        "area_km2": 22.37
+        "code": "12313",
+        "name": "Đức Hợp",
+        "nameEn": "Duc Hop",
+        "fullName": "Xã Đức Hợp",
+        "fullNameEn": "Duc Hop Commune",
+        "codeName": "duc_hop",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.724",
+        "areaKm2": 22.37
       }
     }
   ]

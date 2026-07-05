@@ -3882,11 +3882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bá Xuyên",
-        "unit_code": "05533",
-        "unit_code_name": "ba_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1203",
-        "area_km2": 21.13
+        "code": "05533",
+        "name": "Bá Xuyên",
+        "nameEn": "Ba Xuyen",
+        "fullName": "Phường Bá Xuyên",
+        "fullNameEn": "Ba Xuyen Ward",
+        "codeName": "ba_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1203",
+        "areaKm2": 21.13
       }
     }
   ]

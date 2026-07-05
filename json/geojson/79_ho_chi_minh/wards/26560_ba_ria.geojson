@@ -5322,11 +5322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bà Rịa",
-        "unit_code": "26560",
-        "unit_code_name": "ba_ria",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2202",
-        "area_km2": 15.55
+        "code": "26560",
+        "name": "Bà Rịa",
+        "nameEn": "Ba Ria",
+        "fullName": "Phường Bà Rịa",
+        "fullNameEn": "Ba Ria Ward",
+        "codeName": "ba_ria",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2202",
+        "areaKm2": 15.55
       }
     }
   ]

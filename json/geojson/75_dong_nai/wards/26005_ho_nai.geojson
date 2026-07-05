@@ -4490,11 +4490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hố Nai",
-        "unit_code": "26005",
-        "unit_code_name": "ho_nai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3104",
-        "area_km2": 22.9
+        "code": "26005",
+        "name": "Hố Nai",
+        "nameEn": "Ho Nai",
+        "fullName": "Phường Hố Nai",
+        "fullNameEn": "Ho Nai Ward",
+        "codeName": "ho_nai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3104",
+        "areaKm2": 22.9
       }
     }
   ]

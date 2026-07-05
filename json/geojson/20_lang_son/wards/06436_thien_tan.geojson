@@ -11514,11 +11514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiện Tân",
-        "unit_code": "06436",
-        "unit_code_name": "thien_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1841",
-        "area_km2": 93.07
+        "code": "06436",
+        "name": "Thiện Tân",
+        "nameEn": "Thien Tan",
+        "fullName": "Xã Thiện Tân",
+        "fullNameEn": "Thien Tan Commune",
+        "codeName": "thien_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1841",
+        "areaKm2": 93.07
       }
     }
   ]

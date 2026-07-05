@@ -2302,11 +2302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Trường",
-        "unit_code": "26860",
-        "unit_code_name": "long_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.53",
-        "area_km2": 24.49
+        "code": "26860",
+        "name": "Long Trường",
+        "nameEn": "Long Truong",
+        "fullName": "Phường Long Trường",
+        "fullNameEn": "Long Truong Ward",
+        "codeName": "long_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.53",
+        "areaKm2": 24.49
       }
     }
   ]

@@ -3406,11 +3406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hạnh",
-        "unit_code": "29593",
-        "unit_code_name": "tan_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2530",
-        "area_km2": 17.84
+        "code": "29593",
+        "name": "Tân Hạnh",
+        "nameEn": "Tan Hanh",
+        "fullName": "Phường Tân Hạnh",
+        "fullNameEn": "Tan Hanh Ward",
+        "codeName": "tan_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2530",
+        "areaKm2": 17.84
       }
     }
   ]

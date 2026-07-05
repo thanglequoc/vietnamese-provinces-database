@@ -10578,11 +10578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Rờ Kơi",
-        "unit_code": "23530",
-        "unit_code_name": "ro_koi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.545",
-        "area_km2": 298.29
+        "code": "23530",
+        "name": "Rờ Kơi",
+        "nameEn": "Ro Koi",
+        "fullName": "Xã Rờ Kơi",
+        "fullNameEn": "Ro Koi Commune",
+        "codeName": "ro_koi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.545",
+        "areaKm2": 298.29
       }
     }
   ]

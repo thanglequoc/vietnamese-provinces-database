@@ -6350,11 +6350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Linh",
-        "unit_code": "18502",
-        "unit_code_name": "ha_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2044",
-        "area_km2": 140.43
+        "code": "18502",
+        "name": "Hà Linh",
+        "nameEn": "Ha Linh",
+        "fullName": "Xã Hà Linh",
+        "fullNameEn": "Ha Linh Commune",
+        "codeName": "ha_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2044",
+        "areaKm2": 140.43
       }
     }
   ]

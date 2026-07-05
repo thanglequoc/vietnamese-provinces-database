@@ -6994,11 +6994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Tín",
-        "unit_code": "15574",
-        "unit_code_name": "xuan_tin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2669",
-        "area_km2": 31.93
+        "code": "15574",
+        "name": "Xuân Tín",
+        "nameEn": "Xuan Tin",
+        "fullName": "Xã Xuân Tín",
+        "fullNameEn": "Xuan Tin Commune",
+        "codeName": "xuan_tin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2669",
+        "areaKm2": 31.93
       }
     }
   ]

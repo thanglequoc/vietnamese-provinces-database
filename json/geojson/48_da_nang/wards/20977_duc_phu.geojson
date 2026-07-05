@@ -10870,11 +10870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Phú",
-        "unit_code": "20977",
-        "unit_code_name": "duc_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1966",
-        "area_km2": 108.97
+        "code": "20977",
+        "name": "Đức Phú",
+        "nameEn": "Duc Phu",
+        "fullName": "Xã Đức Phú",
+        "fullNameEn": "Duc Phu Commune",
+        "codeName": "duc_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1966",
+        "areaKm2": 108.97
       }
     }
   ]

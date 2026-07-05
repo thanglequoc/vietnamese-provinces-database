@@ -2938,11 +2938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Nho",
-        "unit_code": "14974",
-        "unit_code_name": "van_nho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2653",
-        "area_km2": 64.77
+        "code": "14974",
+        "name": "Văn Nho",
+        "nameEn": "Van Nho",
+        "fullName": "Xã Văn Nho",
+        "fullNameEn": "Van Nho Commune",
+        "codeName": "van_nho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2653",
+        "areaKm2": 64.77
       }
     }
   ]

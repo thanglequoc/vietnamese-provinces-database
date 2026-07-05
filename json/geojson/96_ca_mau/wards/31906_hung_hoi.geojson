@@ -18034,11 +18034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Hội",
-        "unit_code": "31906",
-        "unit_code_name": "hung_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.152",
-        "area_km2": 28.38
+        "code": "31906",
+        "name": "Hưng Hội",
+        "nameEn": "Hung Hoi",
+        "fullName": "Xã Hưng Hội",
+        "fullNameEn": "Hung Hoi Commune",
+        "codeName": "hung_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.152",
+        "areaKm2": 28.38
       }
     }
   ]

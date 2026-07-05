@@ -4530,11 +4530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũng Tàu",
-        "unit_code": "26506",
-        "unit_code_name": "vung_tau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2198",
-        "area_km2": 16.86
+        "code": "26506",
+        "name": "Vũng Tàu",
+        "nameEn": "Vung Tau",
+        "fullName": "Phường Vũng Tàu",
+        "fullNameEn": "Vung Tau Ward",
+        "codeName": "vung_tau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2198",
+        "areaKm2": 16.86
       }
     }
   ]

@@ -14662,11 +14662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lâm 5",
-        "unit_code": "25057",
-        "unit_code_name": "bao_lam_5",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1265",
-        "area_km2": 511.88
+        "code": "25057",
+        "name": "Bảo Lâm 5",
+        "nameEn": "Bao Lam 5",
+        "fullName": "Xã Bảo Lâm 5",
+        "fullNameEn": "Commune Bao Lam 5",
+        "codeName": "bao_lam_5",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1265",
+        "areaKm2": 511.88
       }
     }
   ]

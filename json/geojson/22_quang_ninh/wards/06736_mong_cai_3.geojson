@@ -16806,11 +16806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Móng Cái 3",
-        "unit_code": "06736",
-        "unit_code_name": "mong_cai_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1887",
-        "area_km2": 90.03
+        "code": "06736",
+        "name": "Móng Cái 3",
+        "nameEn": "Mong Cai 3",
+        "fullName": "Phường Móng Cái 3",
+        "fullNameEn": "Ward Mong Cai 3",
+        "codeName": "mong_cai_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1887",
+        "areaKm2": 90.03
       }
     }
   ]

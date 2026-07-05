@@ -13130,11 +13130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Đức",
-        "unit_code": "26596",
-        "unit_code_name": "chau_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2209",
-        "area_km2": 84.66
+        "code": "26596",
+        "name": "Châu Đức",
+        "nameEn": "Chau Duc",
+        "fullName": "Xã Châu Đức",
+        "fullNameEn": "Chau Duc Commune",
+        "codeName": "chau_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2209",
+        "areaKm2": 84.66
       }
     }
   ]

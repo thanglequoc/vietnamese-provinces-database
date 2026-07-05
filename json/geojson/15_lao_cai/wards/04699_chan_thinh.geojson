@@ -8182,11 +8182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chấn Thịnh",
-        "unit_code": "04699",
-        "unit_code_name": "chan_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1047",
-        "area_km2": 120.54
+        "code": "04699",
+        "name": "Chấn Thịnh",
+        "nameEn": "Chan Thinh",
+        "fullName": "Xã Chấn Thịnh",
+        "fullNameEn": "Chan Thinh Commune",
+        "codeName": "chan_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1047",
+        "areaKm2": 120.54
       }
     }
   ]

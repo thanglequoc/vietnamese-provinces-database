@@ -10674,11 +10674,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đinh Văn Lâm Hà",
-        "unit_code": "24871",
-        "unit_code_name": "dinh_van_lam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.513",
-        "area_km2": 89.87
+        "code": "24871",
+        "name": "Đinh Văn Lâm Hà",
+        "nameEn": "Dinh Van Lam Ha",
+        "fullName": "Xã Đinh Văn Lâm Hà",
+        "fullNameEn": "Dinh Van Lam Ha Commune",
+        "codeName": "dinh_van_lam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.513",
+        "areaKm2": 89.87
       }
     }
   ]

@@ -4350,11 +4350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Nghiêm",
-        "unit_code": "21457",
-        "unit_code_name": "nguyen_nghiem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1779",
-        "area_km2": 95.33
+        "code": "21457",
+        "name": "Nguyễn Nghiêm",
+        "nameEn": "Nguyen Nghiem",
+        "fullName": "Xã Nguyễn Nghiêm",
+        "fullNameEn": "Nguyen Nghiem Commune",
+        "codeName": "nguyen_nghiem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1779",
+        "areaKm2": 95.33
       }
     }
   ]

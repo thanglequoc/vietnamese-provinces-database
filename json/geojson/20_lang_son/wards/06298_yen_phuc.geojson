@@ -11298,11 +11298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Phúc",
-        "unit_code": "06298",
-        "unit_code_name": "yen_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1816",
-        "area_km2": 117.93
+        "code": "06298",
+        "name": "Yên Phúc",
+        "nameEn": "Yen Phuc",
+        "fullName": "Xã Yên Phúc",
+        "fullNameEn": "Yen Phuc Commune",
+        "codeName": "yen_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1816",
+        "areaKm2": 117.93
       }
     }
   ]

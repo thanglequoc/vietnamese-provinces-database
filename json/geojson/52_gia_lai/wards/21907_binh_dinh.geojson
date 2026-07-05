@@ -7534,11 +7534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Định",
-        "unit_code": "21907",
-        "unit_code_name": "binh_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3010",
-        "area_km2": 25.16
+        "code": "21907",
+        "name": "Bình Định",
+        "nameEn": "Binh Dinh",
+        "fullName": "Phường Bình Định",
+        "fullNameEn": "Binh Dinh Ward",
+        "codeName": "binh_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3010",
+        "areaKm2": 25.16
       }
     }
   ]

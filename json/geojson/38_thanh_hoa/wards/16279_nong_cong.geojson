@@ -7626,11 +7626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nông Cống",
-        "unit_code": "16279",
-        "unit_code_name": "nong_cong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2587",
-        "area_km2": 50.7
+        "code": "16279",
+        "name": "Nông Cống",
+        "nameEn": "Nong Cong",
+        "fullName": "Xã Nông Cống",
+        "fullNameEn": "Nong Cong Commune",
+        "codeName": "nong_cong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2587",
+        "areaKm2": 50.7
       }
     }
   ]

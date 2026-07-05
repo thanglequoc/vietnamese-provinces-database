@@ -1230,11 +1230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quyết Thắng",
-        "unit_code": "11761",
-        "unit_code_name": "quyet_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.904",
-        "area_km2": 22.15
+        "code": "11761",
+        "name": "Quyết Thắng",
+        "nameEn": "Quyet Thang",
+        "fullName": "Xã Quyết Thắng",
+        "fullNameEn": "Quyet Thang Commune",
+        "codeName": "quyet_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.904",
+        "areaKm2": 22.15
       }
     }
   ]

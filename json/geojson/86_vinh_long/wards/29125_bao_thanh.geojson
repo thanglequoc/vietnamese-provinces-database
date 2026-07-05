@@ -16850,11 +16850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Thạnh",
-        "unit_code": "29125",
-        "unit_code_name": "bao_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2474",
-        "area_km2": 62.28
+        "code": "29125",
+        "name": "Bảo Thạnh",
+        "nameEn": "Bao Thanh",
+        "fullName": "Xã Bảo Thạnh",
+        "fullNameEn": "Bao Thanh Commune",
+        "codeName": "bao_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2474",
+        "areaKm2": 62.28
       }
     }
   ]

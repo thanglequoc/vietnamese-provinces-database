@@ -10786,11 +10786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Bao",
-        "unit_code": "24340",
-        "unit_code_name": "cu_bao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2846",
-        "area_km2": 104.94
+        "code": "24340",
+        "name": "Cư Bao",
+        "nameEn": "Cu Bao",
+        "fullName": "Phường Cư Bao",
+        "fullNameEn": "Cu Bao Ward",
+        "codeName": "cu_bao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2846",
+        "areaKm2": 104.94
       }
     }
   ]

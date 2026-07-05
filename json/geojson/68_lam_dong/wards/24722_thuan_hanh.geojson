@@ -14494,11 +14494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Hạnh",
-        "unit_code": "24722",
-        "unit_code_name": "thuan_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2817",
-        "area_km2": 129.78
+        "code": "24722",
+        "name": "Thuận Hạnh",
+        "nameEn": "Thuan Hanh",
+        "fullName": "Xã Thuận Hạnh",
+        "fullNameEn": "Thuan Hanh Commune",
+        "codeName": "thuan_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2817",
+        "areaKm2": 129.78
       }
     }
   ]

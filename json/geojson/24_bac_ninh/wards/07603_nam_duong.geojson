@@ -10582,11 +10582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Dương",
-        "unit_code": "07603",
-        "unit_code_name": "nam_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2109",
-        "area_km2": 67.19
+        "code": "07603",
+        "name": "Nam Dương",
+        "nameEn": "Nam Duong",
+        "fullName": "Xã Nam Dương",
+        "fullNameEn": "Nam Duong Commune",
+        "codeName": "nam_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2109",
+        "areaKm2": 67.19
       }
     }
   ]

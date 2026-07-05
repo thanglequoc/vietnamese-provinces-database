@@ -18222,11 +18222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Toàn",
-        "unit_code": "21622",
-        "unit_code_name": "an_toan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2970",
-        "area_km2": 295.34
+        "code": "21622",
+        "name": "An Toàn",
+        "nameEn": "An Toan",
+        "fullName": "Xã An Toàn",
+        "fullNameEn": "An Toan Commune",
+        "codeName": "an_toan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2970",
+        "areaKm2": 295.34
       }
     }
   ]

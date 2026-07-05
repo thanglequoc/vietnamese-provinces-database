@@ -4814,11 +4814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Thắng",
-        "unit_code": "11809",
-        "unit_code_name": "hung_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.940",
-        "area_km2": 43.59
+        "code": "11809",
+        "name": "Hùng Thắng",
+        "nameEn": "Hung Thang",
+        "fullName": "Xã Hùng Thắng",
+        "fullNameEn": "Hung Thang Commune",
+        "codeName": "hung_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.940",
+        "areaKm2": 43.59
       }
     }
   ]

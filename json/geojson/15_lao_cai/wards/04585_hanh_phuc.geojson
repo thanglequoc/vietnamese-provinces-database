@@ -12578,11 +12578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạnh Phúc",
-        "unit_code": "04585",
-        "unit_code_name": "hanh_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1037",
-        "area_km2": 193.85
+        "code": "04585",
+        "name": "Hạnh Phúc",
+        "nameEn": "Hanh Phuc",
+        "fullName": "Xã Hạnh Phúc",
+        "fullNameEn": "Hanh Phuc Commune",
+        "codeName": "hanh_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1037",
+        "areaKm2": 193.85
       }
     }
   ]

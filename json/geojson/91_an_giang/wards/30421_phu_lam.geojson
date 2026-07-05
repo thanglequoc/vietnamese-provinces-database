@@ -2166,11 +2166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lâm",
-        "unit_code": "30421",
-        "unit_code_name": "phu_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.322",
-        "area_km2": 43.07
+        "code": "30421",
+        "name": "Phú Lâm",
+        "nameEn": "Phu Lam",
+        "fullName": "Xã Phú Lâm",
+        "fullNameEn": "Phu Lam Commune",
+        "codeName": "phu_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.322",
+        "areaKm2": 43.07
       }
     }
   ]

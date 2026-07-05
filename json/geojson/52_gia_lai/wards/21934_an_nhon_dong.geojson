@@ -6346,11 +6346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nhơn Đông",
-        "unit_code": "21934",
-        "unit_code_name": "an_nhon_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3013",
-        "area_km2": 17.21
+        "code": "21934",
+        "name": "An Nhơn Đông",
+        "nameEn": "An Nhon Dong",
+        "fullName": "Phường An Nhơn Đông",
+        "fullNameEn": "An Nhon Dong Ward",
+        "codeName": "an_nhon_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3013",
+        "areaKm2": 17.21
       }
     }
   ]

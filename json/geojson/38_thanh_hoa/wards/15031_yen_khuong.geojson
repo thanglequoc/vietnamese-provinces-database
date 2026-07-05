@@ -5682,11 +5682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Khương",
-        "unit_code": "15031",
-        "unit_code_name": "yen_khuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2716",
-        "area_km2": 97.89
+        "code": "15031",
+        "name": "Yên Khương",
+        "nameEn": "Yen Khuong",
+        "fullName": "Xã Yên Khương",
+        "fullNameEn": "Yen Khuong Commune",
+        "codeName": "yen_khuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2716",
+        "areaKm2": 97.89
       }
     }
   ]

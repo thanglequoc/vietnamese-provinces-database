@@ -16318,11 +16318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Tùng",
-        "unit_code": "03181",
-        "unit_code_name": "muong_tung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2240",
-        "area_km2": 278.93
+        "code": "03181",
+        "name": "Mường Tùng",
+        "nameEn": "Muong Tung",
+        "fullName": "Xã Mường Tùng",
+        "fullNameEn": "Muong Tung Commune",
+        "codeName": "muong_tung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2240",
+        "areaKm2": 278.93
       }
     }
   ]

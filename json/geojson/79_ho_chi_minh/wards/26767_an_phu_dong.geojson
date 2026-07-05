@@ -10862,11 +10862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Phú Đông",
-        "unit_code": "26767",
-        "unit_code_name": "an_phu_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.138",
-        "area_km2": 14.59
+        "code": "26767",
+        "name": "An Phú Đông",
+        "nameEn": "An Phu Dong",
+        "fullName": "Phường An Phú Đông",
+        "fullNameEn": "An Phu Dong Ward",
+        "codeName": "an_phu_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.138",
+        "areaKm2": 14.59
       }
     }
   ]

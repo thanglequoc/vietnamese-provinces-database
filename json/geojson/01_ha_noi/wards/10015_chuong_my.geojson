@@ -5338,11 +5338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chương Mỹ",
-        "unit_code": "10015",
-        "unit_code_name": "chuong_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3219",
-        "area_km2": 38.9
+        "code": "10015",
+        "name": "Chương Mỹ",
+        "nameEn": "Chuong My",
+        "fullName": "Phường Chương Mỹ",
+        "fullNameEn": "Chuong My Ward",
+        "codeName": "chuong_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3219",
+        "areaKm2": 38.9
       }
     }
   ]

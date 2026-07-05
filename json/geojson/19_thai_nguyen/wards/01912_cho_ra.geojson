@@ -5950,11 +5950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Rã",
-        "unit_code": "01912",
-        "unit_code_name": "cho_ra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1167",
-        "area_km2": 92.81
+        "code": "01912",
+        "name": "Chợ Rã",
+        "nameEn": "Cho Ra",
+        "fullName": "Xã Chợ Rã",
+        "fullNameEn": "Cho Ra Commune",
+        "codeName": "cho_ra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1167",
+        "areaKm2": 92.81
       }
     }
   ]

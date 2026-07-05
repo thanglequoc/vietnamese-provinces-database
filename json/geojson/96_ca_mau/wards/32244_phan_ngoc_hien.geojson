@@ -41814,11 +41814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Ngọc Hiển",
-        "unit_code": "32244",
-        "unit_code_name": "phan_ngoc_hien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.199",
-        "area_km2": 237.7
+        "code": "32244",
+        "name": "Phan Ngọc Hiển",
+        "nameEn": "Phan Ngoc Hien",
+        "fullName": "Xã Phan Ngọc Hiển",
+        "fullNameEn": "Phan Ngoc Hien Commune",
+        "codeName": "phan_ngoc_hien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.199",
+        "areaKm2": 237.7
       }
     }
   ]

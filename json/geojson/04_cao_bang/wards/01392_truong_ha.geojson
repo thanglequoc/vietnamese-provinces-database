@@ -8914,11 +8914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Hà",
-        "unit_code": "01392",
-        "unit_code_name": "truong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.957",
-        "area_km2": 143.3
+        "code": "01392",
+        "name": "Trường Hà",
+        "nameEn": "Truong Ha",
+        "fullName": "Xã Trường Hà",
+        "fullNameEn": "Truong Ha Commune",
+        "codeName": "truong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.957",
+        "areaKm2": 143.3
       }
     }
   ]

@@ -6846,11 +6846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thường Lạc",
-        "unit_code": "29978",
-        "unit_code_name": "thuong_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.409",
-        "area_km2": 43.7
+        "code": "29978",
+        "name": "Thường Lạc",
+        "nameEn": "Thuong Lac",
+        "fullName": "Phường Thường Lạc",
+        "fullNameEn": "Thuong Lac Ward",
+        "codeName": "thuong_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.409",
+        "areaKm2": 43.7
       }
     }
   ]

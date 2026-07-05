@@ -6962,11 +6962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tú Lệ",
-        "unit_code": "04630",
-        "unit_code_name": "tu_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1042",
-        "area_km2": 115.35
+        "code": "04630",
+        "name": "Tú Lệ",
+        "nameEn": "Tu Le",
+        "fullName": "Xã Tú Lệ",
+        "fullNameEn": "Tu Le Commune",
+        "codeName": "tu_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1042",
+        "areaKm2": 115.35
       }
     }
   ]

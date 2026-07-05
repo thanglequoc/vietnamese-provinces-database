@@ -3546,11 +3546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chu Văn An",
-        "unit_code": "10549",
-        "unit_code_name": "chu_van_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.877",
-        "area_km2": 40.86
+        "code": "10549",
+        "name": "Chu Văn An",
+        "nameEn": "Chu Van An",
+        "fullName": "Phường Chu Văn An",
+        "fullNameEn": "Chu Van An Ward",
+        "codeName": "chu_van_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.877",
+        "areaKm2": 40.86
       }
     }
   ]

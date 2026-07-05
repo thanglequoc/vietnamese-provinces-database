@@ -23374,11 +23374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Trực",
-        "unit_code": "24736",
-        "unit_code_name": "quang_truc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2794",
-        "area_km2": 558.78
+        "code": "24736",
+        "name": "Quảng Trực",
+        "nameEn": "Quang Truc",
+        "fullName": "Xã Quảng Trực",
+        "fullNameEn": "Quang Truc Commune",
+        "codeName": "quang_truc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2794",
+        "areaKm2": 558.78
       }
     }
   ]

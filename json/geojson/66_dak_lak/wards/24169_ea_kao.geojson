@@ -10270,11 +10270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Kao",
-        "unit_code": "24169",
-        "unit_code_name": "ea_kao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2872",
-        "area_km2": 60.7
+        "code": "24169",
+        "name": "Ea Kao",
+        "nameEn": "Ea Kao",
+        "fullName": "Phường Ea Kao",
+        "fullNameEn": "Ea Kao Ward",
+        "codeName": "ea_kao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2872",
+        "areaKm2": 60.7
       }
     }
   ]

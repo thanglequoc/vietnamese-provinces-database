@@ -28582,11 +28582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Móng Cái 2",
-        "unit_code": "06709",
-        "unit_code_name": "mong_cai_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1895",
-        "area_km2": 72.97
+        "code": "06709",
+        "name": "Móng Cái 2",
+        "nameEn": "Mong Cai 2",
+        "fullName": "Phường Móng Cái 2",
+        "fullNameEn": "Ward Mong Cai 2",
+        "codeName": "mong_cai_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1895",
+        "areaKm2": 72.97
       }
     }
   ]

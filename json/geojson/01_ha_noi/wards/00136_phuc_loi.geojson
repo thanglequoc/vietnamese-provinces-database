@@ -1002,11 +1002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Lợi",
-        "unit_code": "00136",
-        "unit_code_name": "phuc_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3198",
-        "area_km2": 10.41
+        "code": "00136",
+        "name": "Phúc Lợi",
+        "nameEn": "Phuc Loi",
+        "fullName": "Phường Phúc Lợi",
+        "fullNameEn": "Phuc Loi Ward",
+        "codeName": "phuc_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3198",
+        "areaKm2": 10.41
       }
     }
   ]

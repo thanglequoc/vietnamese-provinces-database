@@ -19946,11 +19946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Sơmei",
-        "unit_code": "23683",
-        "unit_code_name": "dak_somei",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3053",
-        "area_km2": 344.24
+        "code": "23683",
+        "name": "Đak Sơmei",
+        "nameEn": "Dak Somei",
+        "fullName": "Xã Đak Sơmei",
+        "fullNameEn": "Dak Somei Commune",
+        "codeName": "dak_somei",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3053",
+        "areaKm2": 344.24
       }
     }
   ]

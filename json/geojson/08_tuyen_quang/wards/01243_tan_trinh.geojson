@@ -16674,11 +16674,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Trịnh",
-        "unit_code": "01243",
-        "unit_code_name": "tan_trinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2420",
-        "area_km2": 114.75
+        "code": "01243",
+        "name": "Tân Trịnh",
+        "nameEn": "Tan Trinh",
+        "fullName": "Xã Tân Trịnh",
+        "fullNameEn": "Tan Trinh Commune",
+        "codeName": "tan_trinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2420",
+        "areaKm2": 114.75
       }
     }
   ]

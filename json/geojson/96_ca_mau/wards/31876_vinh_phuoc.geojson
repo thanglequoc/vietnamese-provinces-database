@@ -8498,11 +8498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Phước",
-        "unit_code": "31876",
-        "unit_code_name": "vinh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.147",
-        "area_km2": 75.5
+        "code": "31876",
+        "name": "Vĩnh Phước",
+        "nameEn": "Vinh Phuoc",
+        "fullName": "Xã Vĩnh Phước",
+        "fullNameEn": "Vinh Phuoc Commune",
+        "codeName": "vinh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.147",
+        "areaKm2": 75.5
       }
     }
   ]

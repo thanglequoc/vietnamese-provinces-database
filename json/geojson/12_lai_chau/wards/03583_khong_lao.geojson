@@ -17770,11 +17770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khổng Lào",
-        "unit_code": "03583",
-        "unit_code_name": "khong_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2089",
-        "area_km2": 188.12
+        "code": "03583",
+        "name": "Khổng Lào",
+        "nameEn": "Khong Lao",
+        "fullName": "Xã Khổng Lào",
+        "fullNameEn": "Khong Lao Commune",
+        "codeName": "khong_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2089",
+        "areaKm2": 188.12
       }
     }
   ]

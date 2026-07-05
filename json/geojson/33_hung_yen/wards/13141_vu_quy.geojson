@@ -1858,11 +1858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Quý",
-        "unit_code": "13141",
-        "unit_code_name": "vu_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.691",
-        "area_km2": 15.09
+        "code": "13141",
+        "name": "Vũ Quý",
+        "nameEn": "Vu Quy",
+        "fullName": "Xã Vũ Quý",
+        "fullNameEn": "Vu Quy Commune",
+        "codeName": "vu_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.691",
+        "areaKm2": 15.09
       }
     }
   ]

@@ -1758,11 +1758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao Hưng",
-        "unit_code": "14179",
-        "unit_code_name": "giao_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.810",
-        "area_km2": 21.74
+        "code": "14179",
+        "name": "Giao Hưng",
+        "nameEn": "Giao Hung",
+        "fullName": "Xã Giao Hưng",
+        "fullNameEn": "Giao Hung Commune",
+        "codeName": "giao_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.810",
+        "areaKm2": 21.74
       }
     }
   ]

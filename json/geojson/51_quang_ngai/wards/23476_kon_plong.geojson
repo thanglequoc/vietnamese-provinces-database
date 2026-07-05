@@ -19658,11 +19658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kon Plông",
-        "unit_code": "23476",
-        "unit_code_name": "kon_plong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1727",
-        "area_km2": 556.8
+        "code": "23476",
+        "name": "Kon Plông",
+        "nameEn": "Kon Plong",
+        "fullName": "Xã Kon Plông",
+        "fullNameEn": "Kon Plong Commune",
+        "codeName": "kon_plong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1727",
+        "areaKm2": 556.8
       }
     }
   ]

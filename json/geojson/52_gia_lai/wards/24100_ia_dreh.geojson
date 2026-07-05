@@ -8446,11 +8446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Dreh",
-        "unit_code": "24100",
-        "unit_code_name": "ia_dreh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2966",
-        "area_km2": 379.69
+        "code": "24100",
+        "name": "Ia Dreh",
+        "nameEn": "Ia Dreh",
+        "fullName": "Xã Ia Dreh",
+        "fullNameEn": "Ia Dreh Commune",
+        "codeName": "ia_dreh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2966",
+        "areaKm2": 379.69
       }
     }
   ]

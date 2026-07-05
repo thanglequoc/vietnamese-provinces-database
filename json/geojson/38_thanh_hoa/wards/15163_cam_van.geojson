@@ -15666,11 +15666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Vân",
-        "unit_code": "15163",
-        "unit_code_name": "cam_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2644",
-        "area_km2": 88.71
+        "code": "15163",
+        "name": "Cẩm Vân",
+        "nameEn": "Cam Van",
+        "fullName": "Xã Cẩm Vân",
+        "fullNameEn": "Cam Van Commune",
+        "codeName": "cam_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2644",
+        "areaKm2": 88.71
       }
     }
   ]

@@ -3826,11 +3826,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Xuân",
-        "unit_code": "02215",
-        "unit_code_name": "minh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2312",
-        "area_km2": 34.9
+        "code": "02215",
+        "name": "Minh Xuân",
+        "nameEn": "Minh Xuan",
+        "fullName": "Phường Minh Xuân",
+        "fullNameEn": "Minh Xuan Ward",
+        "codeName": "minh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2312",
+        "areaKm2": 34.9
       }
     }
   ]

@@ -9482,11 +9482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Lạc Thôn",
-        "unit_code": "31531",
-        "unit_code_name": "an_lac_thon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.265",
-        "area_km2": 84.99
+        "code": "31531",
+        "name": "An Lạc Thôn",
+        "nameEn": "An Lac Thon",
+        "fullName": "Xã An Lạc Thôn",
+        "fullNameEn": "An Lac Thon Commune",
+        "codeName": "an_lac_thon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.265",
+        "areaKm2": 84.99
       }
     }
   ]

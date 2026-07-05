@@ -1954,11 +1954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Khê",
-        "unit_code": "20305",
-        "unit_code_name": "an_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1905",
-        "area_km2": 12.36
+        "code": "20305",
+        "name": "An Khê",
+        "nameEn": "An Khe",
+        "fullName": "Phường An Khê",
+        "fullNameEn": "An Khe Ward",
+        "codeName": "an_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1905",
+        "areaKm2": 12.36
       }
     }
   ]

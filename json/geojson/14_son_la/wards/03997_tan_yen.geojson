@@ -6486,11 +6486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Yên",
-        "unit_code": "03997",
-        "unit_code_name": "tan_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1375",
-        "area_km2": 192.79
+        "code": "03997",
+        "name": "Tân Yên",
+        "nameEn": "Tan Yen",
+        "fullName": "Xã Tân Yên",
+        "fullNameEn": "Tan Yen Commune",
+        "codeName": "tan_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1375",
+        "areaKm2": 192.79
       }
     }
   ]

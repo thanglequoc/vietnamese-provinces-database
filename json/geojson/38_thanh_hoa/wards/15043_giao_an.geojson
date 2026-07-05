@@ -4122,11 +4122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao An",
-        "unit_code": "15043",
-        "unit_code_name": "giao_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2719",
-        "area_km2": 113.88
+        "code": "15043",
+        "name": "Giao An",
+        "nameEn": "Giao An",
+        "fullName": "Xã Giao An",
+        "fullNameEn": "Giao An Commune",
+        "codeName": "giao_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2719",
+        "areaKm2": 113.88
       }
     }
   ]

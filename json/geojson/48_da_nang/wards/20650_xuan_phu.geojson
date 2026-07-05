@@ -4422,11 +4422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Phú",
-        "unit_code": "20650",
-        "unit_code_name": "xuan_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1933",
-        "area_km2": 51.99
+        "code": "20650",
+        "name": "Xuân Phú",
+        "nameEn": "Xuan Phu",
+        "fullName": "Xã Xuân Phú",
+        "fullNameEn": "Xuan Phu Commune",
+        "codeName": "xuan_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1933",
+        "areaKm2": 51.99
       }
     }
   ]

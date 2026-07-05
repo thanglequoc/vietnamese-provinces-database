@@ -3622,11 +3622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Xanh",
-        "unit_code": "06658",
-        "unit_code_name": "cao_xanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1883",
-        "area_km2": 38.89
+        "code": "06658",
+        "name": "Cao Xanh",
+        "nameEn": "Cao Xanh",
+        "fullName": "Phường Cao Xanh",
+        "fullNameEn": "Cao Xanh Ward",
+        "codeName": "cao_xanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1883",
+        "areaKm2": 38.89
       }
     }
   ]

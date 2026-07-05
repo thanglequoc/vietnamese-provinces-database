@@ -20854,11 +20854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hà",
-        "unit_code": "25255",
-        "unit_code_name": "long_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2278",
-        "area_km2": 168.4
+        "code": "25255",
+        "name": "Long Hà",
+        "nameEn": "Long Ha",
+        "fullName": "Xã Long Hà",
+        "fullNameEn": "Long Ha Commune",
+        "codeName": "long_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2278",
+        "areaKm2": 168.4
       }
     }
   ]

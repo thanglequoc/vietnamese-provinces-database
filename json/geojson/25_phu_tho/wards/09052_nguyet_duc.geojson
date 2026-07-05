@@ -4746,11 +4746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyệt Đức",
-        "unit_code": "09052",
-        "unit_code_name": "nguyet_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1632",
-        "area_km2": 19
+        "code": "09052",
+        "name": "Nguyệt Đức",
+        "nameEn": "Nguyet Duc",
+        "fullName": "Xã Nguyệt Đức",
+        "fullNameEn": "Nguyet Duc Commune",
+        "codeName": "nguyet_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1632",
+        "areaKm2": 19
       }
     }
   ]

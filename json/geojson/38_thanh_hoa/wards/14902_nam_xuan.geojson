@@ -7886,11 +7886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Xuân",
-        "unit_code": "14902",
-        "unit_code_name": "nam_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2698",
-        "area_km2": 131.4
+        "code": "14902",
+        "name": "Nam Xuân",
+        "nameEn": "Nam Xuan",
+        "fullName": "Xã Nam Xuân",
+        "fullNameEn": "Nam Xuan Commune",
+        "codeName": "nam_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2698",
+        "areaKm2": 131.4
       }
     }
   ]

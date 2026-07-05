@@ -10738,11 +10738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Lừa",
-        "unit_code": "06187",
-        "unit_code_name": "ky_lua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1791",
-        "area_km2": 61.7
+        "code": "06187",
+        "name": "Kỳ Lừa",
+        "nameEn": "Ky Lua",
+        "fullName": "Phường Kỳ Lừa",
+        "fullNameEn": "Ky Lua Ward",
+        "codeName": "ky_lua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1791",
+        "areaKm2": 61.7
       }
     }
   ]

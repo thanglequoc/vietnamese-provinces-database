@@ -10118,11 +10118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Hiếu",
-        "unit_code": "17011",
-        "unit_code_name": "tay_hieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1470",
-        "area_km2": 43.96
+        "code": "17011",
+        "name": "Tây Hiếu",
+        "nameEn": "Tay Hieu",
+        "fullName": "Phường Tây Hiếu",
+        "fullNameEn": "Tay Hieu Ward",
+        "codeName": "tay_hieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1470",
+        "areaKm2": 43.96
       }
     }
   ]

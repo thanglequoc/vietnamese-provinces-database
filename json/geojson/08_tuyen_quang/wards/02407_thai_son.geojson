@@ -9218,11 +9218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Sơn",
-        "unit_code": "02407",
-        "unit_code_name": "thai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2338",
-        "area_km2": 93.54
+        "code": "02407",
+        "name": "Thái Sơn",
+        "nameEn": "Thai Son",
+        "fullName": "Xã Thái Sơn",
+        "fullNameEn": "Thai Son Commune",
+        "codeName": "thai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2338",
+        "areaKm2": 93.54
       }
     }
   ]

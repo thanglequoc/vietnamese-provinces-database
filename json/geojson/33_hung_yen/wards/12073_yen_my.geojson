@@ -3094,11 +3094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Mỹ",
-        "unit_code": "12073",
-        "unit_code_name": "yen_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.713",
-        "area_km2": 33.12
+        "code": "12073",
+        "name": "Yên Mỹ",
+        "nameEn": "Yen My",
+        "fullName": "Xã Yên Mỹ",
+        "fullNameEn": "Yen My Commune",
+        "codeName": "yen_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.713",
+        "areaKm2": 33.12
       }
     }
   ]

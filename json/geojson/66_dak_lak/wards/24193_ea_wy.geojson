@@ -8894,11 +8894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Wy",
-        "unit_code": "24193",
-        "unit_code_name": "ea_wy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2831",
-        "area_km2": 213.94
+        "code": "24193",
+        "name": "Ea Wy",
+        "nameEn": "Ea Wy",
+        "fullName": "Xã Ea Wy",
+        "fullNameEn": "Ea Wy Commune",
+        "codeName": "ea_wy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2831",
+        "areaKm2": 213.94
       }
     }
   ]

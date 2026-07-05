@@ -14066,11 +14066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bờ Ngoong",
-        "unit_code": "23947",
-        "unit_code_name": "bo_ngoong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2954",
-        "area_km2": 172.11
+        "code": "23947",
+        "name": "Bờ Ngoong",
+        "nameEn": "Bo Ngoong",
+        "fullName": "Xã Bờ Ngoong",
+        "fullNameEn": "Bo Ngoong Commune",
+        "codeName": "bo_ngoong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2954",
+        "areaKm2": 172.11
       }
     }
   ]

@@ -9494,11 +9494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Ngang",
-        "unit_code": "29728",
-        "unit_code_name": "cai_ngang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2545",
-        "area_km2": 63.14
+        "code": "29728",
+        "name": "Cái Ngang",
+        "nameEn": "Cai Ngang",
+        "fullName": "Xã Cái Ngang",
+        "fullNameEn": "Cai Ngang Commune",
+        "codeName": "cai_ngang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2545",
+        "areaKm2": 63.14
       }
     }
   ]

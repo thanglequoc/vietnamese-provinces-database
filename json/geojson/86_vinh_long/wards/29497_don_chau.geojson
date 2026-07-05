@@ -2114,11 +2114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đôn Châu",
-        "unit_code": "29497",
-        "unit_code_name": "don_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2515",
-        "area_km2": 58.93
+        "code": "29497",
+        "name": "Đôn Châu",
+        "nameEn": "Don Chau",
+        "fullName": "Xã Đôn Châu",
+        "fullNameEn": "Don Chau Commune",
+        "codeName": "don_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2515",
+        "areaKm2": 58.93
       }
     }
   ]

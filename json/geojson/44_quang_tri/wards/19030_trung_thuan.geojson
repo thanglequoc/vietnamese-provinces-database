@@ -8366,11 +8366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Thuần",
-        "unit_code": "19030",
-        "unit_code_name": "trung_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.615",
-        "area_km2": 98.83
+        "code": "19030",
+        "name": "Trung Thuần",
+        "nameEn": "Trung Thuan",
+        "fullName": "Xã Trung Thuần",
+        "fullNameEn": "Trung Thuan Commune",
+        "codeName": "trung_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.615",
+        "areaKm2": 98.83
       }
     }
   ]

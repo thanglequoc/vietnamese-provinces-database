@@ -2246,11 +2246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Thái Ninh",
-        "unit_code": "12961",
-        "unit_code_name": "nam_thai_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.680",
-        "area_km2": 26.4
+        "code": "12961",
+        "name": "Nam Thái Ninh",
+        "nameEn": "Nam Thai Ninh",
+        "fullName": "Xã Nam Thái Ninh",
+        "fullNameEn": "Nam Thai Ninh Commune",
+        "codeName": "nam_thai_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.680",
+        "areaKm2": 26.4
       }
     }
   ]

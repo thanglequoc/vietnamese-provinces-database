@@ -1406,11 +1406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Thành",
-        "unit_code": "21025",
-        "unit_code_name": "cam_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1766",
-        "area_km2": 7.93
+        "code": "21025",
+        "name": "Cẩm Thành",
+        "nameEn": "Cam Thanh",
+        "fullName": "Phường Cẩm Thành",
+        "fullNameEn": "Cam Thanh Ward",
+        "codeName": "cam_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1766",
+        "areaKm2": 7.93
       }
     }
   ]

@@ -13702,11 +13702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Huổi Một",
-        "unit_code": "04210",
-        "unit_code_name": "huoi_mot",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1401",
-        "area_km2": 240.66
+        "code": "04210",
+        "name": "Huổi Một",
+        "nameEn": "Huoi Mot",
+        "fullName": "Xã Huổi Một",
+        "fullNameEn": "Huoi Mot Commune",
+        "codeName": "huoi_mot",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1401",
+        "areaKm2": 240.66
       }
     }
   ]

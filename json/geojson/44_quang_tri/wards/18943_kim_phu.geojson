@@ -9394,11 +9394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Phú",
-        "unit_code": "18943",
-        "unit_code_name": "kim_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.604",
-        "area_km2": 552.57
+        "code": "18943",
+        "name": "Kim Phú",
+        "nameEn": "Kim Phu",
+        "fullName": "Xã Kim Phú",
+        "fullNameEn": "Kim Phu Commune",
+        "codeName": "kim_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.604",
+        "areaKm2": 552.57
       }
     }
   ]

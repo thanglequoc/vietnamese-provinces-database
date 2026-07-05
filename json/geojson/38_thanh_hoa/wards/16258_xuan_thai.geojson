@@ -10110,11 +10110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Thái",
-        "unit_code": "16258",
-        "unit_code_name": "xuan_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2655",
-        "area_km2": 120.72
+        "code": "16258",
+        "name": "Xuân Thái",
+        "nameEn": "Xuan Thai",
+        "fullName": "Xã Xuân Thái",
+        "fullNameEn": "Xuan Thai Commune",
+        "codeName": "xuan_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2655",
+        "areaKm2": 120.72
       }
     }
   ]

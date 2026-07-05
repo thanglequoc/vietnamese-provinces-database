@@ -3890,11 +3890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Quang",
-        "unit_code": "14287",
-        "unit_code_name": "hai_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.831",
-        "area_km2": 24.68
+        "code": "14287",
+        "name": "Hải Quang",
+        "nameEn": "Hai Quang",
+        "fullName": "Xã Hải Quang",
+        "fullNameEn": "Hai Quang Commune",
+        "codeName": "hai_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.831",
+        "areaKm2": 24.68
       }
     }
   ]

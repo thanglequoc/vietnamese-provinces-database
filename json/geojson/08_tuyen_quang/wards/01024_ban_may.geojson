@@ -15318,11 +15318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Máy",
-        "unit_code": "01024",
-        "unit_code_name": "ban_may",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2403",
-        "area_km2": 76.17
+        "code": "01024",
+        "name": "Bản Máy",
+        "nameEn": "Ban May",
+        "fullName": "Xã Bản Máy",
+        "fullNameEn": "Ban May Commune",
+        "codeName": "ban_may",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2403",
+        "areaKm2": 76.17
       }
     }
   ]

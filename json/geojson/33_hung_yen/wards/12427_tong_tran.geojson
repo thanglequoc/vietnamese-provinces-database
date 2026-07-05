@@ -1978,11 +1978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tống Trân",
-        "unit_code": "12427",
-        "unit_code_name": "tong_tran",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.726",
-        "area_km2": 20.73
+        "code": "12427",
+        "name": "Tống Trân",
+        "nameEn": "Tong Tran",
+        "fullName": "Xã Tống Trân",
+        "fullNameEn": "Tong Tran Commune",
+        "codeName": "tong_tran",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.726",
+        "areaKm2": 20.73
       }
     }
   ]

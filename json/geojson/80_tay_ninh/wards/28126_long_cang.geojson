@@ -8414,11 +8414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Cang",
-        "unit_code": "28126",
-        "unit_code_name": "long_cang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1321",
-        "area_km2": 31.73
+        "code": "28126",
+        "name": "Long Cang",
+        "nameEn": "Long Cang",
+        "fullName": "Xã Long Cang",
+        "fullNameEn": "Long Cang Commune",
+        "codeName": "long_cang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1321",
+        "areaKm2": 31.73
       }
     }
   ]

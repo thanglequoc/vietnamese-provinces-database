@@ -15274,11 +15274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Quốc",
-        "unit_code": "31078",
-        "unit_code_name": "phu_quoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3303",
-        "area_km2": 575.29
+        "code": "31078",
+        "name": "Phú Quốc",
+        "nameEn": "Phu Quoc",
+        "fullName": "Đặc khu Phú Quốc",
+        "fullNameEn": "Phu Quoc Special administrative region",
+        "codeName": "phu_quoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3303",
+        "areaKm2": 575.29
       }
     }
   ]

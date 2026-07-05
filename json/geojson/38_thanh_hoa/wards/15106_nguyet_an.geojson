@@ -5402,11 +5402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyệt Ấn",
-        "unit_code": "15106",
-        "unit_code_name": "nguyet_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2676",
-        "area_km2": 98.52
+        "code": "15106",
+        "name": "Nguyệt Ấn",
+        "nameEn": "Nguyet An",
+        "fullName": "Xã Nguyệt Ấn",
+        "fullNameEn": "Nguyet An Commune",
+        "codeName": "nguyet_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2676",
+        "areaKm2": 98.52
       }
     }
   ]

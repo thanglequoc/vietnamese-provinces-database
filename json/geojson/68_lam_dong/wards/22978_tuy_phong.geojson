@@ -7126,11 +7126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Phong",
-        "unit_code": "22978",
-        "unit_code_name": "tuy_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3069",
-        "area_km2": 444.1
+        "code": "22978",
+        "name": "Tuy Phong",
+        "nameEn": "Tuy Phong",
+        "fullName": "Xã Tuy Phong",
+        "fullNameEn": "Tuy Phong Commune",
+        "codeName": "tuy_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3069",
+        "areaKm2": 444.1
       }
     }
   ]

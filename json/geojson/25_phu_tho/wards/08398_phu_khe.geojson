@@ -7226,11 +7226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Khê",
-        "unit_code": "08398",
-        "unit_code_name": "phu_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1593",
-        "area_km2": 37.11
+        "code": "08398",
+        "name": "Phú Khê",
+        "nameEn": "Phu Khe",
+        "fullName": "Xã Phú Khê",
+        "fullNameEn": "Phu Khe Commune",
+        "codeName": "phu_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1593",
+        "areaKm2": 37.11
       }
     }
   ]

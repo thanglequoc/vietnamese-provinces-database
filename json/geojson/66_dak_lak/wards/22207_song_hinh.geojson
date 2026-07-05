@@ -22970,11 +22970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Hinh",
-        "unit_code": "22207",
-        "unit_code_name": "song_hinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2914",
-        "area_km2": 460.13
+        "code": "22207",
+        "name": "Sông Hinh",
+        "nameEn": "Song Hinh",
+        "fullName": "Xã Sông Hinh",
+        "fullNameEn": "Song Hinh Commune",
+        "codeName": "song_hinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2914",
+        "areaKm2": 460.13
       }
     }
   ]

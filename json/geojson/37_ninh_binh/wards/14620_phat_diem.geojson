@@ -2298,11 +2298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phát Diệm",
-        "unit_code": "14620",
-        "unit_code_name": "phat_diem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.778",
-        "area_km2": 23.1
+        "code": "14620",
+        "name": "Phát Diệm",
+        "nameEn": "Phat Diem",
+        "fullName": "Xã Phát Diệm",
+        "fullNameEn": "Phat Diem Commune",
+        "codeName": "phat_diem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.778",
+        "areaKm2": 23.1
       }
     }
   ]

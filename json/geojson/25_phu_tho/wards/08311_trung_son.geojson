@@ -5706,11 +5706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Sơn",
-        "unit_code": "08311",
-        "unit_code_name": "trung_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1602",
-        "area_km2": 97.29
+        "code": "08311",
+        "name": "Trung Sơn",
+        "nameEn": "Trung Son",
+        "fullName": "Xã Trung Sơn",
+        "fullNameEn": "Trung Son Commune",
+        "codeName": "trung_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1602",
+        "areaKm2": 97.29
       }
     }
   ]

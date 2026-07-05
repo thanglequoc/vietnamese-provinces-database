@@ -3022,11 +3022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Doanh",
-        "unit_code": "13822",
-        "unit_code_name": "phong_doanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.813",
-        "area_km2": 34.98
+        "code": "13822",
+        "name": "Phong Doanh",
+        "nameEn": "Phong Doanh",
+        "fullName": "Xã Phong Doanh",
+        "fullNameEn": "Phong Doanh Commune",
+        "codeName": "phong_doanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.813",
+        "areaKm2": 34.98
       }
     }
   ]

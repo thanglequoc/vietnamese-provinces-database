@@ -9534,11 +9534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Tân",
-        "unit_code": "26377",
-        "unit_code_name": "phuoc_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3135",
-        "area_km2": 42.8
+        "code": "26377",
+        "name": "Phước Tân",
+        "nameEn": "Phuoc Tan",
+        "fullName": "Phường Phước Tân",
+        "fullNameEn": "Phuoc Tan Ward",
+        "codeName": "phuoc_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3135",
+        "areaKm2": 42.8
       }
     }
   ]

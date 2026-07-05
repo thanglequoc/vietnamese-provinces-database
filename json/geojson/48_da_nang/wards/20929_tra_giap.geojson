@@ -8130,11 +8130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Giáp",
-        "unit_code": "20929",
-        "unit_code_name": "tra_giap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1981",
-        "area_km2": 121.55
+        "code": "20929",
+        "name": "Trà Giáp",
+        "nameEn": "Tra Giap",
+        "fullName": "Xã Trà Giáp",
+        "fullNameEn": "Tra Giap Commune",
+        "codeName": "tra_giap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1981",
+        "areaKm2": 121.55
       }
     }
   ]

@@ -9102,11 +9102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phố Bảng",
-        "unit_code": "00745",
-        "unit_code_name": "pho_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2435",
-        "area_km2": 77.71
+        "code": "00745",
+        "name": "Phố Bảng",
+        "nameEn": "Pho Bang",
+        "fullName": "Xã Phố Bảng",
+        "fullNameEn": "Pho Bang Commune",
+        "codeName": "pho_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2435",
+        "areaKm2": 77.71
       }
     }
   ]

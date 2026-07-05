@@ -12606,11 +12606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhữ Khê",
-        "unit_code": "02530",
-        "unit_code_name": "nhu_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2352",
-        "area_km2": 59.04
+        "code": "02530",
+        "name": "Nhữ Khê",
+        "nameEn": "Nhu Khe",
+        "fullName": "Xã Nhữ Khê",
+        "fullNameEn": "Nhu Khe Commune",
+        "codeName": "nhu_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2352",
+        "areaKm2": 59.04
       }
     }
   ]

@@ -13534,11 +13534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồ Thị Kỷ",
-        "unit_code": "32092",
-        "unit_code_name": "ho_thi_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.175",
-        "area_km2": 93.6
+        "code": "32092",
+        "name": "Hồ Thị Kỷ",
+        "nameEn": "Ho Thi Ky",
+        "fullName": "Xã Hồ Thị Kỷ",
+        "fullNameEn": "Ho Thi Ky Commune",
+        "codeName": "ho_thi_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.175",
+        "areaKm2": 93.6
       }
     }
   ]

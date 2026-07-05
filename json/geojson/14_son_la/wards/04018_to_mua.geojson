@@ -8506,11 +8506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tô Múa",
-        "unit_code": "04018",
-        "unit_code_name": "to_mua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1377",
-        "area_km2": 181.98
+        "code": "04018",
+        "name": "Tô Múa",
+        "nameEn": "To Mua",
+        "fullName": "Xã Tô Múa",
+        "fullNameEn": "To Mua Commune",
+        "codeName": "to_mua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1377",
+        "areaKm2": 181.98
       }
     }
   ]

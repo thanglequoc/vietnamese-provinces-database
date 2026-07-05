@@ -1346,11 +1346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Tiền Hải",
-        "unit_code": "13063",
-        "unit_code_name": "nam_tien_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.675",
-        "area_km2": 22.62
+        "code": "13063",
+        "name": "Nam Tiền Hải",
+        "nameEn": "Nam Tien Hai",
+        "fullName": "Xã Nam Tiền Hải",
+        "fullNameEn": "Nam Tien Hai Commune",
+        "codeName": "nam_tien_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.675",
+        "areaKm2": 22.62
       }
     }
   ]

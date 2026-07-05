@@ -13014,11 +13014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Sỏ",
-        "unit_code": "03613",
-        "unit_code_name": "nam_so",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2094",
-        "area_km2": 263.42
+        "code": "03613",
+        "name": "Nậm Sỏ",
+        "nameEn": "Nam So",
+        "fullName": "Xã Nậm Sỏ",
+        "fullNameEn": "Nam So Commune",
+        "codeName": "nam_so",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2094",
+        "areaKm2": 263.42
       }
     }
   ]

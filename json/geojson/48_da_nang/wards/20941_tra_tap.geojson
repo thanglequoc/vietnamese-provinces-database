@@ -6922,11 +6922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Tập",
-        "unit_code": "20941",
-        "unit_code_name": "tra_tap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1984",
-        "area_km2": 183.17
+        "code": "20941",
+        "name": "Trà Tập",
+        "nameEn": "Tra Tap",
+        "fullName": "Xã Trà Tập",
+        "fullNameEn": "Tra Tap Commune",
+        "codeName": "tra_tap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1984",
+        "areaKm2": 183.17
       }
     }
   ]

@@ -7002,11 +7002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lực Hành",
-        "unit_code": "02434",
-        "unit_code_name": "luc_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2341",
-        "area_km2": 87.97
+        "code": "02434",
+        "name": "Lực Hành",
+        "nameEn": "Luc Hanh",
+        "fullName": "Xã Lực Hành",
+        "fullNameEn": "Luc Hanh Commune",
+        "codeName": "luc_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2341",
+        "areaKm2": 87.97
       }
     }
   ]

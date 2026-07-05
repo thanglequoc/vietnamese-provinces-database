@@ -3350,11 +3350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Khánh",
-        "unit_code": "31654",
-        "unit_code_name": "truong_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.281",
-        "area_km2": 58.33
+        "code": "31654",
+        "name": "Trường Khánh",
+        "nameEn": "Truong Khanh",
+        "fullName": "Xã Trường Khánh",
+        "fullNameEn": "Truong Khanh Commune",
+        "codeName": "truong_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.281",
+        "areaKm2": 58.33
       }
     }
   ]

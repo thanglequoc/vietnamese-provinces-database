@@ -14430,11 +14430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Đôi Vàm",
-        "unit_code": "32212",
-        "unit_code_name": "cai_doi_vam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.195",
-        "area_km2": 131.1
+        "code": "32212",
+        "name": "Cái Đôi Vàm",
+        "nameEn": "Cai Doi Vam",
+        "fullName": "Xã Cái Đôi Vàm",
+        "fullNameEn": "Cai Doi Vam Commune",
+        "codeName": "cai_doi_vam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.195",
+        "areaKm2": 131.1
       }
     }
   ]

@@ -16918,11 +16918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Bình",
-        "unit_code": "02266",
-        "unit_code_name": "lam_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2315",
-        "area_km2": 327.65
+        "code": "02266",
+        "name": "Lâm Bình",
+        "nameEn": "Lam Binh",
+        "fullName": "Xã Lâm Bình",
+        "fullNameEn": "Lam Binh Commune",
+        "codeName": "lam_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2315",
+        "areaKm2": 327.65
       }
     }
   ]

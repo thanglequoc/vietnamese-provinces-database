@@ -9182,11 +9182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Thành",
-        "unit_code": "20752",
-        "unit_code_name": "phuoc_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1988",
-        "area_km2": 286.65
+        "code": "20752",
+        "name": "Phước Thành",
+        "nameEn": "Phuoc Thanh",
+        "fullName": "Xã Phước Thành",
+        "fullNameEn": "Phuoc Thanh Commune",
+        "codeName": "phuoc_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1988",
+        "areaKm2": 286.65
       }
     }
   ]

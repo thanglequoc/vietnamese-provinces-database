@@ -1718,11 +1718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mễ Sở",
-        "unit_code": "12049",
-        "unit_code_name": "me_so",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.731",
-        "area_km2": 17.51
+        "code": "12049",
+        "name": "Mễ Sở",
+        "nameEn": "Me So",
+        "fullName": "Xã Mễ Sở",
+        "fullNameEn": "Me So Commune",
+        "codeName": "me_so",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.731",
+        "areaKm2": 17.51
       }
     }
   ]

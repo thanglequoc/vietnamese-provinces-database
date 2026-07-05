@@ -13006,11 +13006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đà Nẵng",
-        "unit_code": "48",
-        "unit_code_name": "da_nang",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.132",
-        "area_km2": 11859.59
+        "code": "48",
+        "name": "Đà Nẵng",
+        "nameEn": "Da Nang",
+        "fullName": "Thành phố Đà Nẵng",
+        "fullNameEn": "Da Nang City",
+        "codeName": "da_nang",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.132",
+        "areaKm2": 11859.59
       }
     }
   ]

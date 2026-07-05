@@ -1550,11 +1550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xóm Chiếu",
-        "unit_code": "27259",
-        "unit_code_name": "xom_chieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.92",
-        "area_km2": 1.94
+        "code": "27259",
+        "name": "Xóm Chiếu",
+        "nameEn": "Xom Chieu",
+        "fullName": "Phường Xóm Chiếu",
+        "fullNameEn": "Xom Chieu Ward",
+        "codeName": "xom_chieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.92",
+        "areaKm2": 1.94
       }
     }
   ]

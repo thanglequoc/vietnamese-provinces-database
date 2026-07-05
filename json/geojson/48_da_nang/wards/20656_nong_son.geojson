@@ -8242,11 +8242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nông Sơn",
-        "unit_code": "20656",
-        "unit_code_name": "nong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1943",
-        "area_km2": 112.53
+        "code": "20656",
+        "name": "Nông Sơn",
+        "nameEn": "Nong Son",
+        "fullName": "Xã Nông Sơn",
+        "fullNameEn": "Nong Son Commune",
+        "codeName": "nong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1943",
+        "areaKm2": 112.53
       }
     }
   ]

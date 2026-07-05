@@ -5390,11 +5390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Hà",
-        "unit_code": "12586",
-        "unit_code_name": "hung_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.646",
-        "area_km2": 38.93
+        "code": "12586",
+        "name": "Hưng Hà",
+        "nameEn": "Hung Ha",
+        "fullName": "Xã Hưng Hà",
+        "fullNameEn": "Hung Ha Commune",
+        "codeName": "hung_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.646",
+        "areaKm2": 38.93
       }
     }
   ]

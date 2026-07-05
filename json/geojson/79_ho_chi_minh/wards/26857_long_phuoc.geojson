@@ -2034,11 +2034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phước",
-        "unit_code": "26857",
-        "unit_code_name": "long_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.52",
-        "area_km2": 34.29
+        "code": "26857",
+        "name": "Long Phước",
+        "nameEn": "Long Phuoc",
+        "fullName": "Phường Long Phước",
+        "fullNameEn": "Long Phuoc Ward",
+        "codeName": "long_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.52",
+        "areaKm2": 34.29
       }
     }
   ]

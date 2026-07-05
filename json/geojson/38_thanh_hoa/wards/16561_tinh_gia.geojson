@@ -2094,11 +2094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tĩnh Gia",
-        "unit_code": "16561",
-        "unit_code_name": "tinh_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2573",
-        "area_km2": 32.18
+        "code": "16561",
+        "name": "Tĩnh Gia",
+        "nameEn": "Tinh Gia",
+        "fullName": "Phường Tĩnh Gia",
+        "fullNameEn": "Tinh Gia Ward",
+        "codeName": "tinh_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2573",
+        "areaKm2": 32.18
       }
     }
   ]

@@ -8458,11 +8458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giá Rai",
-        "unit_code": "31942",
-        "unit_code_name": "gia_rai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.156",
-        "area_km2": 11.76
+        "code": "31942",
+        "name": "Giá Rai",
+        "nameEn": "Gia Rai",
+        "fullName": "Phường Giá Rai",
+        "fullNameEn": "Gia Rai Ward",
+        "codeName": "gia_rai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.156",
+        "areaKm2": 11.76
       }
     }
   ]

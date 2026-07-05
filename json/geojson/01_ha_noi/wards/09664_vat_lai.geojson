@@ -3778,11 +3778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vật Lại",
-        "unit_code": "09664",
-        "unit_code_name": "vat_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3236",
-        "area_km2": 51.75
+        "code": "09664",
+        "name": "Vật Lại",
+        "nameEn": "Vat Lai",
+        "fullName": "Xã Vật Lại",
+        "fullNameEn": "Vat Lai Commune",
+        "codeName": "vat_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3236",
+        "areaKm2": 51.75
       }
     }
   ]

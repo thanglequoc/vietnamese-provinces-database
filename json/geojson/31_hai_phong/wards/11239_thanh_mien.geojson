@@ -3186,11 +3186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Miện",
-        "unit_code": "11239",
-        "unit_code_name": "thanh_mien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.892",
-        "area_km2": 33.47
+        "code": "11239",
+        "name": "Thanh Miện",
+        "nameEn": "Thanh Mien",
+        "fullName": "Xã Thanh Miện",
+        "fullNameEn": "Thanh Mien Commune",
+        "codeName": "thanh_mien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.892",
+        "areaKm2": 33.47
       }
     }
   ]
