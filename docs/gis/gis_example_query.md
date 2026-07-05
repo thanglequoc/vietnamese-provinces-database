@@ -3,6 +3,8 @@
 
 This dataset is compatible with PostgreSQL + PostGIS and supports common spatial operations such as point-in-polygon lookup, area calculation, distance measurement, and GeoJSON export.
 
+For the official file-based GeoJSON distribution, use the published `json/geojson/` directory.
+
 ### Frequently Used Spatial Functions
 
 | Function | Purpose | Common Use Cases |
@@ -44,6 +46,8 @@ SELECT
     ST_AsGeoJSON(geom) AS geojson
 FROM gis_wards;
 ```
+
+The query above is useful for ad hoc database inspection. The shipped GeoJSON dataset already includes the full FeatureCollection structure, `bbox`, `id`, and properties in camelCase.
 
 ---
 
