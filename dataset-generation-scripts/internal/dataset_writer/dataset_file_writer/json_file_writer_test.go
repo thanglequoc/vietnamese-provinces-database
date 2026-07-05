@@ -144,9 +144,12 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 			BBoxGeoJSON:      json.RawMessage(`[102.1,20.1,103.2,21.3]`),
 			GeomGeoJSON:      json.RawMessage(`{"type":"MultiPolygon","coordinates":[[[[102.1,20.1],[103.2,20.1],[103.2,21.3],[102.1,21.3],[102.1,20.1]]]]}`),
 			VNProvince: vn_provinces_tmp_model.Province{
-				Code:     "01",
-				Name:     "Hà Nội",
-				CodeName: "ha_noi",
+				Code:       "01",
+				Name:       "Hà Nội",
+				NameEn:     "Ha Noi",
+				FullName:   "Thành phố Hà Nội",
+				FullNameEn: "Ha Noi City",
+				CodeName:   "ha_noi",
 			},
 		},
 	}
@@ -160,14 +163,20 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 			BBoxGeoJSON:      json.RawMessage(`[105.1,20.1,105.2,20.2]`),
 			GeomGeoJSON:      json.RawMessage(`{"type":"MultiPolygon","coordinates":[[[[105.1,20.1],[105.2,20.1],[105.2,20.2],[105.1,20.2],[105.1,20.1]]]]}`),
 			VNProvince: vn_provinces_tmp_model.Province{
-				Code:     "01",
-				Name:     "Hà Nội",
-				CodeName: "ha_noi",
+				Code:       "01",
+				Name:       "Hà Nội",
+				NameEn:     "Ha Noi",
+				FullName:   "Thành phố Hà Nội",
+				FullNameEn: "Ha Noi City",
+				CodeName:   "ha_noi",
 			},
 			VNWard: vn_provinces_tmp_model.Ward{
-				Code:     "00004",
-				Name:     "Ba Đình",
-				CodeName: "ba_dinh",
+				Code:       "00004",
+				Name:       "Ba Đình",
+				NameEn:     "Ba Dinh",
+				FullName:   "Phường Ba Đình",
+				FullNameEn: "Ba Dinh Ward",
+				CodeName:   "ba_dinh",
 			},
 		},
 	}
@@ -190,11 +199,14 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	assert.Equal(t, "01", feature["id"])
 	assert.Equal(t, provinceJSON["bbox"], feature["bbox"])
 	properties := feature["properties"].(map[string]any)
-	assert.Equal(t, "Hà Nội", properties["unit_name"])
-	assert.Equal(t, "01", properties["unit_code"])
-	assert.Equal(t, "ha_noi", properties["unit_code_name"])
-	assert.Equal(t, "diaphanhanhchinhcaptinh_sn.108", properties["gis_server_id"])
-	assert.Equal(t, 3359.84, properties["area_km2"])
+	assert.Equal(t, "01", properties["code"])
+	assert.Equal(t, "Hà Nội", properties["name"])
+	assert.Equal(t, "Ha Noi", properties["nameEn"])
+	assert.Equal(t, "Thành phố Hà Nội", properties["fullName"])
+	assert.Equal(t, "Ha Noi City", properties["fullNameEn"])
+	assert.Equal(t, "ha_noi", properties["codeName"])
+	assert.Equal(t, "diaphanhanhchinhcaptinh_sn.108", properties["gisServerId"])
+	assert.Equal(t, 3359.84, properties["areaKm2"])
 
 	wardFile := filepath.Join(tmpDir, "01_ha_noi", "wards", "00004_ba_dinh.geojson")
 	wardContent, err := os.ReadFile(wardFile)
