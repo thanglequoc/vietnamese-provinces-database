@@ -15,6 +15,7 @@
 
 Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **34 tỉnh thành** và các Quận huyện, phường xã liên quan.  
 Dữ liệu được cập nhật theo nghị định gần nhất: [30/2026/QH16][source government decree]  
+**Add-ons mở rộng**: GIS Dataset
 
 Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ để ủng hộ nhé — điều đó sẽ tiếp thêm động lực để chúng tôi tiếp tục cải tiến và mang đến những công cụ giá trị cho cộng đồng. Ngoài ra, việc "star" repo cũng giúp bạn dễ dàng theo dõi các bản cập nhật trong tương lai.
 
@@ -238,6 +239,7 @@ Bên cạnh bộ dữ liệu đơn vị hành chính, repository này còn cung 
 
 [![image.png](https://i.postimg.cc/dVmQJSFg/image.png)](https://postimg.cc/k2GPcsBy)
 Phần mở rộng GIS cung cấp dữ liệu hình học ranh giới hành chính cho các đơn vị hành chính của Việt Nam và hiện hỗ trợ:
+- GeoJSON  
 - PostgreSQL/PostGIS
 - MySQL
 - Microsoft SQL Server
