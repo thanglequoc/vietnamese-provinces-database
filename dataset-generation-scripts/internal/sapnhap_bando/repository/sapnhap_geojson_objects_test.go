@@ -12,6 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	dbpkg "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	vnmodel "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	"github.com/uptrace/bun"
 )
 
@@ -52,29 +53,100 @@ func TestUpdateSapNhapGeoJSONObjectGeomWKT_DerivesBBoxFromGeom(t *testing.T) {
 
 func TestGetAllSapNhapGeoJSONObjects_IncludeGeoJSONFragments(t *testing.T) {
 	db := setupTestDB(t)
-	repo := NewSapNhapGeoJSONObjectRepository(db)
-
-	provinces, err := repo.GetAllSapNhapGeoJSONProvinces(context.Background())
+	ctx := context.Background()
+	tx, err := db.BeginTx(ctx, &sql.TxOptions{})
 	require.NoError(t, err)
-	require.NotEmpty(t, provinces)
+	t.Cleanup(func() {
+		require.NoError(t, tx.Rollback())
+	})
 
-	province := provinces[0]
+	_, err = tx.ExecContext(ctx, `INSERT INTO administrative_units (id, full_name, full_name_en, short_name, short_name_en, code_name, code_name_en)
+		VALUES (2, 'Tỉnh', 'Province', 'Tỉnh', 'Province', 'tinh', 'province')
+		ON CONFLICT (id) DO NOTHING`)
+	require.NoError(t, err)
+
+	_, err = tx.NewInsert().Model(&vnmodel.Province{
+		Code:                 "test_p1",
+		Name:                 "Test Province",
+		NameEn:               "Test Province",
+		FullName:             "Test Province",
+		FullNameEn:           "Test Province",
+		CodeName:             "test_province",
+		AdministrativeUnitId: 2,
+	}).Exec(ctx)
+	require.NoError(t, err)
+
+	_, err = tx.ExecContext(ctx, `INSERT INTO administrative_units (id, full_name, full_name_en, short_name, short_name_en, code_name, code_name_en)
+		VALUES (3, 'Phường', 'Ward', 'Phường', 'Ward', 'phuong', 'ward')
+		ON CONFLICT (id) DO NOTHING`)
+	require.NoError(t, err)
+
+	_, err = tx.NewInsert().Model(&vnmodel.Ward{
+		Code:                 "test_w1",
+		Name:                 "Test Ward",
+		NameEn:               "Test Ward",
+		FullName:             "Test Ward",
+		FullNameEn:           "Test Ward",
+		CodeName:             "test_ward",
+		ProvinceCode:         "test_p1",
+		AdministrativeUnitId: 3,
+	}).Exec(ctx)
+	require.NoError(t, err)
+
+	insertTestGeoObject(t, tx, &model.SapNhapSiteGeoUnit{
+		Ma:               "test_province_geojson_01",
+		Ten:              "Test Province",
+		MaLK:             "test_province_malk",
+		DienTichKM2:      3359.84,
+		VNDSProvinceCode: "test_p1",
+		BBoxWKT:          "POLYGON((102.1 20.1,102.1 21.3,103.2 21.3,103.2 20.1,102.1 20.1))",
+		GeomWKT:          "MULTIPOLYGON(((102.1 20.1,103.2 20.1,103.2 21.3,102.1 21.3,102.1 20.1)))",
+	})
+
+	insertTestGeoObject(t, tx, &model.SapNhapSiteGeoUnit{
+		Ma:               "test_ward_geojson_01",
+		Ten:              "Test Ward",
+		MaLK:             "test_ward_malk",
+		DienTichKM2:      2.97,
+		VNDSProvinceCode: "test_p1",
+		VNDSWardCode:     "test_w1",
+		BBoxWKT:          "POLYGON((105.1 20.1,105.1 20.2,105.2 20.2,105.2 20.1,105.1 20.1))",
+		GeomWKT:          "MULTIPOLYGON(((105.1 20.1,105.2 20.1,105.2 20.2,105.1 20.2,105.1 20.1)))",
+	})
+
+	repo := NewSapNhapGeoJSONObjectRepository(tx)
+
+	provinces, err := repo.GetAllSapNhapGeoJSONProvinces(ctx)
+	require.NoError(t, err)
+	var province *model.SapNhapSiteGeoUnit
+	for _, candidate := range provinces {
+		if candidate.VNDSProvinceCode == "test_p1" {
+			province = candidate
+			break
+		}
+	}
+	require.NotNil(t, province)
 	assert.NotEmpty(t, province.BBoxGeoJSON)
 	assert.NotEmpty(t, province.GeomGeoJSON)
 	assert.True(t, json.Valid(province.BBoxGeoJSON))
 	assert.True(t, json.Valid(province.GeomGeoJSON))
-	assert.NotEmpty(t, province.VNProvince.CodeName)
+	assert.Equal(t, "test_province", province.VNProvince.CodeName)
 
-	wards, err := repo.GetAllSapNhapGeoJSONWards(context.Background())
+	wards, err := repo.GetAllSapNhapGeoJSONWards(ctx)
 	require.NoError(t, err)
-	require.NotEmpty(t, wards)
-
-	ward := wards[0]
+	var ward *model.SapNhapSiteGeoUnit
+	for _, candidate := range wards {
+		if candidate.VNDSWardCode == "test_w1" {
+			ward = candidate
+			break
+		}
+	}
+	require.NotNil(t, ward)
 	assert.NotEmpty(t, ward.BBoxGeoJSON)
 	assert.NotEmpty(t, ward.GeomGeoJSON)
 	assert.True(t, json.Valid(ward.BBoxGeoJSON))
 	assert.True(t, json.Valid(ward.GeomGeoJSON))
-	assert.NotEmpty(t, ward.VNWard.CodeName)
+	assert.Equal(t, "test_ward", ward.VNWard.CodeName)
 }
 
 func setupTestDB(t *testing.T) *bun.DB {
@@ -122,9 +194,17 @@ func setupTestDB(t *testing.T) *bun.DB {
 
 func insertTestGeoObject(t *testing.T, db bun.IDB, geoObject *model.SapNhapSiteGeoUnit) {
 	t.Helper()
+	columns := []string{"ma", "ten", "malk", "dientichkm2", "bbox_wkt", "geom_wkt"}
+	if geoObject.VNDSProvinceCode != "" {
+		columns = append(columns, "vn_ds_province_code")
+	}
+	if geoObject.VNDSWardCode != "" {
+		columns = append(columns, "vn_ds_ward_code")
+	}
+
 	_, err := db.NewInsert().
 		Model(geoObject).
-		Column("ma", "ten", "malk", "bbox_wkt", "geom_wkt").
+		Column(columns...).
 		Exec(context.Background())
 	require.NoError(t, err)
 }
