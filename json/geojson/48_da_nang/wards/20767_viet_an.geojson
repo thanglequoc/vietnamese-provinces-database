@@ -10558,11 +10558,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt An",
-        "unit_code": "20767",
-        "unit_code_name": "viet_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1991",
-        "area_km2": 150.17
+        "code": "20767",
+        "name": "Việt An",
+        "nameEn": "Viet An",
+        "fullName": "Xã Việt An",
+        "fullNameEn": "Viet An Commune",
+        "codeName": "viet_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1991",
+        "areaKm2": 150.17
       }
     }
   ]

@@ -6410,11 +6410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Hoà",
-        "unit_code": "17344",
-        "unit_code_name": "nhan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1421",
-        "area_km2": 86.88
+        "code": "17344",
+        "name": "Nhân Hoà",
+        "nameEn": "Nhan Hoa",
+        "fullName": "Xã Nhân Hoà",
+        "fullNameEn": "Nhan Hoa Commune",
+        "codeName": "nhan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1421",
+        "areaKm2": 86.88
       }
     }
   ]

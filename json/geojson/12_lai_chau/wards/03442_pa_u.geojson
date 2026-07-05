@@ -20882,11 +20882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pa Ủ",
-        "unit_code": "03442",
-        "unit_code_name": "pa_u",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2068",
-        "area_km2": 444.58
+        "code": "03442",
+        "name": "Pa Ủ",
+        "nameEn": "Pa U",
+        "fullName": "Xã Pa Ủ",
+        "fullNameEn": "Pa U Commune",
+        "codeName": "pa_u",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2068",
+        "areaKm2": 444.58
       }
     }
   ]

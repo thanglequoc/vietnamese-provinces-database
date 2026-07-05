@@ -7898,11 +7898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Mỹ",
-        "unit_code": "26704",
-        "unit_code_name": "phu_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2221",
-        "area_km2": 70.92
+        "code": "26704",
+        "name": "Phú Mỹ",
+        "nameEn": "Phu My",
+        "fullName": "Phường Phú Mỹ",
+        "fullNameEn": "Phu My Ward",
+        "codeName": "phu_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2221",
+        "areaKm2": 70.92
       }
     }
   ]

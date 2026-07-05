@@ -9398,11 +9398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Điền",
-        "unit_code": "30790",
-        "unit_code_name": "hoa_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.366",
-        "area_km2": 285.38
+        "code": "30790",
+        "name": "Hoà Điền",
+        "nameEn": "Hoa Dien",
+        "fullName": "Xã Hoà Điền",
+        "fullNameEn": "Hoa Dien Commune",
+        "codeName": "hoa_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.366",
+        "areaKm2": 285.38
       }
     }
   ]

@@ -7386,11 +7386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Hoà",
-        "unit_code": "28996",
-        "unit_code_name": "chau_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2458",
-        "area_km2": 52.05
+        "code": "28996",
+        "name": "Châu Hoà",
+        "nameEn": "Chau Hoa",
+        "fullName": "Xã Châu Hoà",
+        "fullNameEn": "Chau Hoa Commune",
+        "codeName": "chau_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2458",
+        "areaKm2": 52.05
       }
     }
   ]

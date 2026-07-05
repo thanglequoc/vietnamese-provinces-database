@@ -8354,11 +8354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Dương Bắc",
-        "unit_code": "08872",
-        "unit_code_name": "tam_duong_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1619",
-        "area_km2": 45.8
+        "code": "08872",
+        "name": "Tam Dương Bắc",
+        "nameEn": "Tam Duong Bac",
+        "fullName": "Xã Tam Dương Bắc",
+        "fullNameEn": "Tam Duong Bac Commune",
+        "codeName": "tam_duong_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1619",
+        "areaKm2": 45.8
       }
     }
   ]

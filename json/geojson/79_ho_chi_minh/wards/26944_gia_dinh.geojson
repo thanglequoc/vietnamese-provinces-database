@@ -2110,11 +2110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Định",
-        "unit_code": "26944",
-        "unit_code_name": "gia_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.63",
-        "area_km2": 2.76
+        "code": "26944",
+        "name": "Gia Định",
+        "nameEn": "Gia Dinh",
+        "fullName": "Phường Gia Định",
+        "fullNameEn": "Gia Dinh Ward",
+        "codeName": "gia_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.63",
+        "areaKm2": 2.76
       }
     }
   ]

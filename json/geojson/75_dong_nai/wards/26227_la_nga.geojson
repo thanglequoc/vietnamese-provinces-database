@@ -6138,11 +6138,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Ngà",
-        "unit_code": "26227",
-        "unit_code_name": "la_nga",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3120",
-        "area_km2": 133.5
+        "code": "26227",
+        "name": "La Ngà",
+        "nameEn": "La Nga",
+        "fullName": "Xã La Ngà",
+        "fullNameEn": "La Nga Commune",
+        "codeName": "la_nga",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3120",
+        "areaKm2": 133.5
       }
     }
   ]

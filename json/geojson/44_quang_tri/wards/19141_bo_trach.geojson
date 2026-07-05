@@ -14010,11 +14010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bố Trạch",
-        "unit_code": "19141",
-        "unit_code_name": "bo_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.623",
-        "area_km2": 299.42
+        "code": "19141",
+        "name": "Bố Trạch",
+        "nameEn": "Bo Trach",
+        "fullName": "Xã Bố Trạch",
+        "fullNameEn": "Bo Trach Commune",
+        "codeName": "bo_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.623",
+        "areaKm2": 299.42
       }
     }
   ]

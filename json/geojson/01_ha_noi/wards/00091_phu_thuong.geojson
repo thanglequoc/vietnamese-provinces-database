@@ -618,11 +618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thượng",
-        "unit_code": "00091",
-        "unit_code_name": "phu_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3259",
-        "area_km2": 7.21
+        "code": "00091",
+        "name": "Phú Thượng",
+        "nameEn": "Phu Thuong",
+        "fullName": "Phường Phú Thượng",
+        "fullNameEn": "Phu Thuong Ward",
+        "codeName": "phu_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3259",
+        "areaKm2": 7.21
       }
     }
   ]

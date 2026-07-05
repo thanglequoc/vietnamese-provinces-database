@@ -2598,11 +2598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Lương Bằng",
-        "unit_code": "11242",
-        "unit_code_name": "nguyen_luong_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.894",
-        "area_km2": 21.78
+        "code": "11242",
+        "name": "Nguyễn Lương Bằng",
+        "nameEn": "Nguyen Luong Bang",
+        "fullName": "Xã Nguyễn Lương Bằng",
+        "fullNameEn": "Nguyen Luong Bang Commune",
+        "codeName": "nguyen_luong_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.894",
+        "areaKm2": 21.78
       }
     }
   ]

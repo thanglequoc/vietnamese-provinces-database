@@ -5310,11 +5310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Phú Tân",
-        "unit_code": "29317",
-        "unit_code_name": "an_phu_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2493",
-        "area_km2": 53.91
+        "code": "29317",
+        "name": "An Phú Tân",
+        "nameEn": "An Phu Tan",
+        "fullName": "Xã An Phú Tân",
+        "fullNameEn": "An Phu Tan Commune",
+        "codeName": "an_phu_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2493",
+        "areaKm2": 53.91
       }
     }
   ]

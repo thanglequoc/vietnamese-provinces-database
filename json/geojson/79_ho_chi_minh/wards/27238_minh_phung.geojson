@@ -790,11 +790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Phụng",
-        "unit_code": "27238",
-        "unit_code_name": "minh_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.91",
-        "area_km2": 1.27
+        "code": "27238",
+        "name": "Minh Phụng",
+        "nameEn": "Minh Phung",
+        "fullName": "Phường Minh Phụng",
+        "fullNameEn": "Minh Phung Ward",
+        "codeName": "minh_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.91",
+        "areaKm2": 1.27
       }
     }
   ]

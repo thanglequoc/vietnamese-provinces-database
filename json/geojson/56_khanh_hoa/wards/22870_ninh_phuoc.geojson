@@ -7198,11 +7198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Phước",
-        "unit_code": "22870",
-        "unit_code_name": "ninh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1156",
-        "area_km2": 65.4
+        "code": "22870",
+        "name": "Ninh Phước",
+        "nameEn": "Ninh Phuoc",
+        "fullName": "Xã Ninh Phước",
+        "fullNameEn": "Ninh Phuoc Commune",
+        "codeName": "ninh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1156",
+        "areaKm2": 65.4
       }
     }
   ]

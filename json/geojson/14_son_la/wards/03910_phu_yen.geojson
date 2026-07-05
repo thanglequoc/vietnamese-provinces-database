@@ -7730,11 +7730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Yên",
-        "unit_code": "03910",
-        "unit_code_name": "phu_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1365",
-        "area_km2": 117.98
+        "code": "03910",
+        "name": "Phù Yên",
+        "nameEn": "Phu Yen",
+        "fullName": "Xã Phù Yên",
+        "fullNameEn": "Phu Yen Commune",
+        "codeName": "phu_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1365",
+        "areaKm2": 117.98
       }
     }
   ]

@@ -17886,11 +17886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Dương",
-        "unit_code": "06526",
-        "unit_code_name": "na_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1845",
-        "area_km2": 109.91
+        "code": "06526",
+        "name": "Na Dương",
+        "nameEn": "Na Duong",
+        "fullName": "Xã Na Dương",
+        "fullNameEn": "Na Duong Commune",
+        "codeName": "na_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1845",
+        "areaKm2": 109.91
       }
     }
   ]

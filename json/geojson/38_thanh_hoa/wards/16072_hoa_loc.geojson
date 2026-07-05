@@ -2574,11 +2574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoa Lộc",
-        "unit_code": "16072",
-        "unit_code_name": "hoa_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2622",
-        "area_km2": 34.69
+        "code": "16072",
+        "name": "Hoa Lộc",
+        "nameEn": "Hoa Loc",
+        "fullName": "Xã Hoa Lộc",
+        "fullNameEn": "Hoa Loc Commune",
+        "codeName": "hoa_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2622",
+        "areaKm2": 34.69
       }
     }
   ]

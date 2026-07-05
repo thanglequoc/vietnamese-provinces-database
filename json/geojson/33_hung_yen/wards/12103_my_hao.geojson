@@ -2606,11 +2606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Hào",
-        "unit_code": "12103",
-        "unit_code_name": "my_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.740",
-        "area_km2": 28.36
+        "code": "12103",
+        "name": "Mỹ Hào",
+        "nameEn": "My Hao",
+        "fullName": "Phường Mỹ Hào",
+        "fullNameEn": "My Hao Ward",
+        "codeName": "my_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.740",
+        "areaKm2": 28.36
       }
     }
   ]

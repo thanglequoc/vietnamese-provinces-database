@@ -8066,11 +8066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Cát",
-        "unit_code": "25813",
-        "unit_code_name": "ben_cat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.10",
-        "area_km2": 100.89
+        "code": "25813",
+        "name": "Bến Cát",
+        "nameEn": "Ben Cat",
+        "fullName": "Phường Bến Cát",
+        "fullNameEn": "Ben Cat Ward",
+        "codeName": "ben_cat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.10",
+        "areaKm2": 100.89
       }
     }
   ]

@@ -3158,11 +3158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiệu Quang",
-        "unit_code": "15796",
-        "unit_code_name": "thieu_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2684",
-        "area_km2": 35.45
+        "code": "15796",
+        "name": "Thiệu Quang",
+        "nameEn": "Thieu Quang",
+        "fullName": "Xã Thiệu Quang",
+        "fullNameEn": "Thieu Quang Commune",
+        "codeName": "thieu_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2684",
+        "areaKm2": 35.45
       }
     }
   ]

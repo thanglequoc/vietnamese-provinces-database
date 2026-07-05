@@ -1218,11 +1218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Sơn Nhất",
-        "unit_code": "26968",
-        "unit_code_name": "tan_son_nhat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.66",
-        "area_km2": 3.19
+        "code": "26968",
+        "name": "Tân Sơn Nhất",
+        "nameEn": "Tan Son Nhat",
+        "fullName": "Phường Tân Sơn Nhất",
+        "fullNameEn": "Tan Son Nhat Ward",
+        "codeName": "tan_son_nhat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.66",
+        "areaKm2": 3.19
       }
     }
   ]

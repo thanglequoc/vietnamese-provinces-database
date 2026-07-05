@@ -8074,11 +8074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Vũ",
-        "unit_code": "06349",
-        "unit_code_name": "hung_vu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1818",
-        "area_km2": 133.24
+        "code": "06349",
+        "name": "Hưng Vũ",
+        "nameEn": "Hung Vu",
+        "fullName": "Xã Hưng Vũ",
+        "fullNameEn": "Hung Vu Commune",
+        "codeName": "hung_vu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1818",
+        "areaKm2": 133.24
       }
     }
   ]

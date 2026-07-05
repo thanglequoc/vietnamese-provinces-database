@@ -10298,11 +10298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Tây",
-        "unit_code": "18172",
-        "unit_code_name": "son_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2040",
-        "area_km2": 129.21
+        "code": "18172",
+        "name": "Sơn Tây",
+        "nameEn": "Son Tay",
+        "fullName": "Xã Sơn Tây",
+        "fullNameEn": "Son Tay Commune",
+        "codeName": "son_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2040",
+        "areaKm2": 129.21
       }
     }
   ]

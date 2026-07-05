@@ -10630,11 +10630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hà",
-        "unit_code": "19333",
-        "unit_code_name": "dong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.571",
-        "area_km2": 38.05
+        "code": "19333",
+        "name": "Đông Hà",
+        "nameEn": "Dong Ha",
+        "fullName": "Phường Đông Hà",
+        "fullNameEn": "Dong Ha Ward",
+        "codeName": "dong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.571",
+        "areaKm2": 38.05
       }
     }
   ]

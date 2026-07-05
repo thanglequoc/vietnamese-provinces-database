@@ -27090,11 +27090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Nhé",
-        "unit_code": "03160",
-        "unit_code_name": "muong_nhe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2232",
-        "area_km2": 489.47
+        "code": "03160",
+        "name": "Mường Nhé",
+        "nameEn": "Muong Nhe",
+        "fullName": "Xã Mường Nhé",
+        "fullNameEn": "Muong Nhe Commune",
+        "codeName": "muong_nhe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2232",
+        "areaKm2": 489.47
       }
     }
   ]

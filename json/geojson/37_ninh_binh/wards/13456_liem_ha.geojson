@@ -3434,11 +3434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liêm Hà",
-        "unit_code": "13456",
-        "unit_code_name": "liem_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2783",
-        "area_km2": 20.95
+        "code": "13456",
+        "name": "Liêm Hà",
+        "nameEn": "Liem Ha",
+        "fullName": "Xã Liêm Hà",
+        "fullNameEn": "Liem Ha Commune",
+        "codeName": "liem_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2783",
+        "areaKm2": 20.95
       }
     }
   ]

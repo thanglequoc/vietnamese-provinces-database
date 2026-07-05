@@ -14442,11 +14442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Điền Xá",
-        "unit_code": "06874",
-        "unit_code_name": "dien_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1873",
-        "area_km2": 240.49
+        "code": "06874",
+        "name": "Điền Xá",
+        "nameEn": "Dien Xa",
+        "fullName": "Xã Điền Xá",
+        "fullNameEn": "Dien Xa Commune",
+        "codeName": "dien_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1873",
+        "areaKm2": 240.49
       }
     }
   ]

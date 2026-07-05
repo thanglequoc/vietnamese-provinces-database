@@ -5454,11 +5454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Xuân",
-        "unit_code": "05890",
-        "unit_code_name": "van_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1232",
-        "area_km2": 40.2
+        "code": "05890",
+        "name": "Vạn Xuân",
+        "nameEn": "Van Xuan",
+        "fullName": "Phường Vạn Xuân",
+        "fullNameEn": "Van Xuan Ward",
+        "codeName": "van_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1232",
+        "areaKm2": 40.2
       }
     }
   ]

@@ -7138,11 +7138,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Yên",
-        "unit_code": "08173",
-        "unit_code_name": "quang_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1549",
-        "area_km2": 39.58
+        "code": "08173",
+        "name": "Quảng Yên",
+        "nameEn": "Quang Yen",
+        "fullName": "Xã Quảng Yên",
+        "fullNameEn": "Quang Yen Commune",
+        "codeName": "quang_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1549",
+        "areaKm2": 39.58
       }
     }
   ]

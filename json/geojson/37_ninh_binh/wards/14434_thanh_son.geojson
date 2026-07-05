@@ -3778,11 +3778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Sơn",
-        "unit_code": "14434",
-        "unit_code_name": "thanh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.743",
-        "area_km2": 35.69
+        "code": "14434",
+        "name": "Thanh Sơn",
+        "nameEn": "Thanh Son",
+        "fullName": "Xã Thanh Sơn",
+        "fullNameEn": "Thanh Son Commune",
+        "codeName": "thanh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.743",
+        "areaKm2": 35.69
       }
     }
   ]

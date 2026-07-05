@@ -12766,11 +12766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lương",
-        "unit_code": "07246",
-        "unit_code_name": "xuan_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2158",
-        "area_km2": 99.67
+        "code": "07246",
+        "name": "Xuân Lương",
+        "nameEn": "Xuan Luong",
+        "fullName": "Xã Xuân Lương",
+        "fullNameEn": "Xuan Luong Commune",
+        "codeName": "xuan_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2158",
+        "areaKm2": 99.67
       }
     }
   ]

@@ -9906,11 +9906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạ Lang",
-        "unit_code": "01558",
-        "unit_code_name": "ha_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.994",
-        "area_km2": 81.13
+        "code": "01558",
+        "name": "Hạ Lang",
+        "nameEn": "Ha Lang",
+        "fullName": "Xã Hạ Lang",
+        "fullNameEn": "Ha Lang Commune",
+        "codeName": "ha_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.994",
+        "areaKm2": 81.13
       }
     }
   ]

@@ -10294,11 +10294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kháng Chiến",
-        "unit_code": "06037",
-        "unit_code_name": "khang_chien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1827",
-        "area_km2": 142
+        "code": "06037",
+        "name": "Kháng Chiến",
+        "nameEn": "Khang Chien",
+        "fullName": "Xã Kháng Chiến",
+        "fullNameEn": "Khang Chien Commune",
+        "codeName": "khang_chien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1827",
+        "areaKm2": 142
       }
     }
   ]

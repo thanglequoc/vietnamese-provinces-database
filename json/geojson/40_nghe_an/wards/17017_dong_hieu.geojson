@@ -7270,11 +7270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hiếu",
-        "unit_code": "17017",
-        "unit_code_name": "dong_hieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1471",
-        "area_km2": 63.87
+        "code": "17017",
+        "name": "Đông Hiếu",
+        "nameEn": "Dong Hieu",
+        "fullName": "Xã Đông Hiếu",
+        "fullNameEn": "Dong Hieu Commune",
+        "codeName": "dong_hieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1471",
+        "areaKm2": 63.87
       }
     }
   ]

@@ -5158,11 +5158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Khánh",
-        "unit_code": "20200",
-        "unit_code_name": "hoa_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1906",
-        "area_km2": 40.93
+        "code": "20200",
+        "name": "Hoà Khánh",
+        "nameEn": "Hoa Khanh",
+        "fullName": "Phường Hoà Khánh",
+        "fullNameEn": "Hoa Khanh Ward",
+        "codeName": "hoa_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1906",
+        "areaKm2": 40.93
       }
     }
   ]

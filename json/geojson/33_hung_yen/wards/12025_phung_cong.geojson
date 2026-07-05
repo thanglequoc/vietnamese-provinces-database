@@ -3930,11 +3930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phụng Công",
-        "unit_code": "12025",
-        "unit_code_name": "phung_cong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.732",
-        "area_km2": 14.62
+        "code": "12025",
+        "name": "Phụng Công",
+        "nameEn": "Phung Cong",
+        "fullName": "Xã Phụng Công",
+        "fullNameEn": "Phung Cong Commune",
+        "codeName": "phung_cong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.732",
+        "areaKm2": 14.62
       }
     }
   ]

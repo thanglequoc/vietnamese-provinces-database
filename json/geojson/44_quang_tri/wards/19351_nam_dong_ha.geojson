@@ -4950,11 +4950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đông Hà",
-        "unit_code": "19351",
-        "unit_code_name": "nam_dong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.572",
-        "area_km2": 35.04
+        "code": "19351",
+        "name": "Nam Đông Hà",
+        "nameEn": "Nam Dong Ha",
+        "fullName": "Phường Nam Đông Hà",
+        "fullNameEn": "Nam Dong Ha Ward",
+        "codeName": "nam_dong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.572",
+        "areaKm2": 35.04
       }
     }
   ]

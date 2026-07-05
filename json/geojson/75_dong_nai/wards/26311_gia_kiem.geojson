@@ -14546,11 +14546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Kiệm",
-        "unit_code": "26311",
-        "unit_code_name": "gia_kiem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3127",
-        "area_km2": 82.7
+        "code": "26311",
+        "name": "Gia Kiệm",
+        "nameEn": "Gia Kiem",
+        "fullName": "Xã Gia Kiệm",
+        "fullNameEn": "Gia Kiem Commune",
+        "codeName": "gia_kiem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3127",
+        "areaKm2": 82.7
       }
     }
   ]

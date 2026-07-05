@@ -7726,11 +7726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Yên Tử",
-        "unit_code": "07616",
-        "unit_code_name": "tay_yen_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2113",
-        "area_km2": 132.76
+        "code": "07616",
+        "name": "Tây Yên Tử",
+        "nameEn": "Tay Yen Tu",
+        "fullName": "Xã Tây Yên Tử",
+        "fullNameEn": "Tay Yen Tu Commune",
+        "codeName": "tay_yen_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2113",
+        "areaKm2": 132.76
       }
     }
   ]

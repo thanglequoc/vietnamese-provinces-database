@@ -9602,11 +9602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chư A Thai",
-        "unit_code": "24049",
-        "unit_code_name": "chu_a_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2958",
-        "area_km2": 133.92
+        "code": "24049",
+        "name": "Chư A Thai",
+        "nameEn": "Chu A Thai",
+        "fullName": "Xã Chư A Thai",
+        "fullNameEn": "Chu A Thai Commune",
+        "codeName": "chu_a_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2958",
+        "areaKm2": 133.92
       }
     }
   ]

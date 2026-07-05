@@ -6882,11 +6882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Thịnh",
-        "unit_code": "02107",
-        "unit_code_name": "thanh_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1245",
-        "area_km2": 112.31
+        "code": "02107",
+        "name": "Thanh Thịnh",
+        "nameEn": "Thanh Thinh",
+        "fullName": "Xã Thanh Thịnh",
+        "fullNameEn": "Thanh Thinh Commune",
+        "codeName": "thanh_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1245",
+        "areaKm2": 112.31
       }
     }
   ]

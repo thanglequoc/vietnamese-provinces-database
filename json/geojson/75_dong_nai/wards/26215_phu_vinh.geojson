@@ -9882,11 +9882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Vinh",
-        "unit_code": "26215",
-        "unit_code_name": "phu_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3118",
-        "area_km2": 69.5
+        "code": "26215",
+        "name": "Phú Vinh",
+        "nameEn": "Phu Vinh",
+        "fullName": "Xã Phú Vinh",
+        "fullNameEn": "Phu Vinh Commune",
+        "codeName": "phu_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3118",
+        "areaKm2": 69.5
       }
     }
   ]

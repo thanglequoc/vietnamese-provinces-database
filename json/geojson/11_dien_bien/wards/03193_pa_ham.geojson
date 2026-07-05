@@ -9810,11 +9810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pa Ham",
-        "unit_code": "03193",
-        "unit_code_name": "pa_ham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2241",
-        "area_km2": 135.84
+        "code": "03193",
+        "name": "Pa Ham",
+        "nameEn": "Pa Ham",
+        "fullName": "Xã Pa Ham",
+        "fullNameEn": "Pa Ham Commune",
+        "codeName": "pa_ham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2241",
+        "areaKm2": 135.84
       }
     }
   ]

@@ -7150,11 +7150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Hoá",
-        "unit_code": "18901",
-        "unit_code_name": "minh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.600",
-        "area_km2": 156.97
+        "code": "18901",
+        "name": "Minh Hoá",
+        "nameEn": "Minh Hoa",
+        "fullName": "Xã Minh Hoá",
+        "fullNameEn": "Minh Hoa Commune",
+        "codeName": "minh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.600",
+        "areaKm2": 156.97
       }
     }
   ]

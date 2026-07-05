@@ -8398,11 +8398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Thầy",
-        "unit_code": "23527",
-        "unit_code_name": "sa_thay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.544",
-        "area_km2": 137.89
+        "code": "23527",
+        "name": "Sa Thầy",
+        "nameEn": "Sa Thay",
+        "fullName": "Xã Sa Thầy",
+        "fullNameEn": "Sa Thay Commune",
+        "codeName": "sa_thay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.544",
+        "areaKm2": 137.89
       }
     }
   ]

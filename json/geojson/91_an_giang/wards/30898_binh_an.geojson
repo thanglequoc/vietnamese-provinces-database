@@ -9126,11 +9126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình An",
-        "unit_code": "30898",
-        "unit_code_name": "binh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.376",
-        "area_km2": 73.43
+        "code": "30898",
+        "name": "Bình An",
+        "nameEn": "Binh An",
+        "fullName": "Xã Bình An",
+        "fullNameEn": "Binh An Commune",
+        "codeName": "binh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.376",
+        "areaKm2": 73.43
       }
     }
   ]

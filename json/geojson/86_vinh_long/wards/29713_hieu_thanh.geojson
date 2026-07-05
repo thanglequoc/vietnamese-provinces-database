@@ -5166,11 +5166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiếu Thành",
-        "unit_code": "29713",
-        "unit_code_name": "hieu_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2543",
-        "area_km2": 53.41
+        "code": "29713",
+        "name": "Hiếu Thành",
+        "nameEn": "Hieu Thanh",
+        "fullName": "Xã Hiếu Thành",
+        "fullNameEn": "Hieu Thanh Commune",
+        "codeName": "hieu_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2543",
+        "areaKm2": 53.41
       }
     }
   ]

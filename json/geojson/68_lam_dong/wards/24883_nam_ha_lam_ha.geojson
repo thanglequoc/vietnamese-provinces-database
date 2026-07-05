@@ -11522,11 +11522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Hà Lâm Hà",
-        "unit_code": "24883",
-        "unit_code_name": "nam_ha_lam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.515",
-        "area_km2": 100.34
+        "code": "24883",
+        "name": "Nam Hà Lâm Hà",
+        "nameEn": "Nam Ha Lam Ha",
+        "fullName": "Xã Nam Hà Lâm Hà",
+        "fullNameEn": "Nam Ha Lam Ha Commune",
+        "codeName": "nam_ha_lam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.515",
+        "areaKm2": 100.34
       }
     }
   ]

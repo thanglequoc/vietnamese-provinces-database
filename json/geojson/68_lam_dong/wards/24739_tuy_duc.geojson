@@ -14354,11 +14354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Đức",
-        "unit_code": "24739",
-        "unit_code_name": "tuy_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2795",
-        "area_km2": 265.99
+        "code": "24739",
+        "name": "Tuy Đức",
+        "nameEn": "Tuy Duc",
+        "fullName": "Xã Tuy Đức",
+        "fullNameEn": "Tuy Duc Commune",
+        "codeName": "tuy_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2795",
+        "areaKm2": 265.99
       }
     }
   ]

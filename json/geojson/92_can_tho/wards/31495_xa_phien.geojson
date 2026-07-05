@@ -7286,11 +7286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xà Phiên",
-        "unit_code": "31495",
-        "unit_code_name": "xa_phien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.260",
-        "area_km2": 100.48
+        "code": "31495",
+        "name": "Xà Phiên",
+        "nameEn": "Xa Phien",
+        "fullName": "Xã Xà Phiên",
+        "fullNameEn": "Xa Phien Commune",
+        "codeName": "xa_phien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.260",
+        "areaKm2": 100.48
       }
     }
   ]

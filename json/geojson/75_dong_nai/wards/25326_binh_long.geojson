@@ -5790,11 +5790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Long",
-        "unit_code": "25326",
-        "unit_code_name": "binh_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2290",
-        "area_km2": 49.1
+        "code": "25326",
+        "name": "Bình Long",
+        "nameEn": "Binh Long",
+        "fullName": "Phường Bình Long",
+        "fullNameEn": "Binh Long Ward",
+        "codeName": "binh_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2290",
+        "areaKm2": 49.1
       }
     }
   ]

@@ -9578,11 +9578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Lư",
-        "unit_code": "03390",
-        "unit_code_name": "binh_lu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2064",
-        "area_km2": 173.91
+        "code": "03390",
+        "name": "Bình Lư",
+        "nameEn": "Binh Lu",
+        "fullName": "Xã Bình Lư",
+        "fullNameEn": "Binh Lu Commune",
+        "codeName": "binh_lu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2064",
+        "areaKm2": 173.91
       }
     }
   ]

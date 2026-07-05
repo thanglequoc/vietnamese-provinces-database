@@ -17582,11 +17582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Lê",
-        "unit_code": "18949",
-        "unit_code_name": "dong_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.605",
-        "area_km2": 291.93
+        "code": "18949",
+        "name": "Đồng Lê",
+        "nameEn": "Dong Le",
+        "fullName": "Xã Đồng Lê",
+        "fullNameEn": "Dong Le Commune",
+        "codeName": "dong_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.605",
+        "areaKm2": 291.93
       }
     }
   ]

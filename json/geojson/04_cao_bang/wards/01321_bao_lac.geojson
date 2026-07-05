@@ -8602,11 +8602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lạc",
-        "unit_code": "01321",
-        "unit_code_name": "bao_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.976",
-        "area_km2": 118.7
+        "code": "01321",
+        "name": "Bảo Lạc",
+        "nameEn": "Bao Lac",
+        "fullName": "Xã Bảo Lạc",
+        "fullNameEn": "Bao Lac Commune",
+        "codeName": "bao_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.976",
+        "areaKm2": 118.7
       }
     }
   ]

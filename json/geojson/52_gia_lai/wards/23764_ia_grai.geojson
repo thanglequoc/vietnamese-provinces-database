@@ -13766,11 +13766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Grai",
-        "unit_code": "23764",
-        "unit_code_name": "ia_grai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2932",
-        "area_km2": 239.84
+        "code": "23764",
+        "name": "Ia Grai",
+        "nameEn": "Ia Grai",
+        "fullName": "Xã Ia Grai",
+        "fullNameEn": "Ia Grai Commune",
+        "codeName": "ia_grai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2932",
+        "areaKm2": 239.84
       }
     }
   ]

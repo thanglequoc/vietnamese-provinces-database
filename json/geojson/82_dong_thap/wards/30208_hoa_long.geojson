@@ -9902,11 +9902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Long",
-        "unit_code": "30208",
-        "unit_code_name": "hoa_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.439",
-        "area_km2": 81.3
+        "code": "30208",
+        "name": "Hoà Long",
+        "nameEn": "Hoa Long",
+        "fullName": "Xã Hoà Long",
+        "fullNameEn": "Hoa Long Commune",
+        "codeName": "hoa_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.439",
+        "areaKm2": 81.3
       }
     }
   ]

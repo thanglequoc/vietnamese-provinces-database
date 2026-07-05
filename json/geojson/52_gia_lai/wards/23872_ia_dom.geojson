@@ -4966,11 +4966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Dom",
-        "unit_code": "23872",
-        "unit_code_name": "ia_dom",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2939",
-        "area_km2": 145.43
+        "code": "23872",
+        "name": "Ia Dom",
+        "nameEn": "Ia Dom",
+        "fullName": "Xã Ia Dom",
+        "fullNameEn": "Ia Dom Commune",
+        "codeName": "ia_dom",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2939",
+        "areaKm2": 145.43
       }
     }
   ]

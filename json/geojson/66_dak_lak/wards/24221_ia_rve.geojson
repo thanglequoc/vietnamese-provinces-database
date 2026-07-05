@@ -10150,11 +10150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Rvê",
-        "unit_code": "24221",
-        "unit_code_name": "ia_rve",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2836",
-        "area_km2": 217.83
+        "code": "24221",
+        "name": "Ia Rvê",
+        "nameEn": "Ia Rve",
+        "fullName": "Xã Ia Rvê",
+        "fullNameEn": "Ia Rve Commune",
+        "codeName": "ia_rve",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2836",
+        "areaKm2": 217.83
       }
     }
   ]

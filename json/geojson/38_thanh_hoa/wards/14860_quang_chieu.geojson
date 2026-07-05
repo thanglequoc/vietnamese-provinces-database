@@ -5662,11 +5662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Chiểu",
-        "unit_code": "14860",
-        "unit_code_name": "quang_chieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2707",
-        "area_km2": 109.88
+        "code": "14860",
+        "name": "Quang Chiểu",
+        "nameEn": "Quang Chieu",
+        "fullName": "Xã Quang Chiểu",
+        "fullNameEn": "Quang Chieu Commune",
+        "codeName": "quang_chieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2707",
+        "areaKm2": 109.88
       }
     }
   ]

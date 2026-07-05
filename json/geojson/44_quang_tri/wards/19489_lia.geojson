@@ -4062,11 +4062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lìa",
-        "unit_code": "19489",
-        "unit_code_name": "lia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.596",
-        "area_km2": 71.69
+        "code": "19489",
+        "name": "Lìa",
+        "nameEn": "Lia",
+        "fullName": "Xã Lìa",
+        "fullNameEn": "Lia Commune",
+        "codeName": "lia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.596",
+        "areaKm2": 71.69
       }
     }
   ]

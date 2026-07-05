@@ -2618,11 +2618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mao Điền",
-        "unit_code": "10930",
-        "unit_code_name": "mao_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.866",
-        "area_km2": 24.37
+        "code": "10930",
+        "name": "Mao Điền",
+        "nameEn": "Mao Dien",
+        "fullName": "Xã Mao Điền",
+        "fullNameEn": "Mao Dien Commune",
+        "codeName": "mao_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.866",
+        "areaKm2": 24.37
       }
     }
   ]

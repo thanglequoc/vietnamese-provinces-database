@@ -3218,11 +3218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Sơn",
-        "unit_code": "14371",
-        "unit_code_name": "yen_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.767",
-        "area_km2": 35.86
+        "code": "14371",
+        "name": "Yên Sơn",
+        "nameEn": "Yen Son",
+        "fullName": "Phường Yên Sơn",
+        "fullNameEn": "Yen Son Ward",
+        "codeName": "yen_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.767",
+        "areaKm2": 35.86
       }
     }
   ]

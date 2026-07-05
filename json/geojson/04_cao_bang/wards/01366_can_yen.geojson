@@ -8198,11 +8198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cần Yên",
-        "unit_code": "01366",
-        "unit_code_name": "can_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.956",
-        "area_km2": 144.64
+        "code": "01366",
+        "name": "Cần Yên",
+        "nameEn": "Can Yen",
+        "fullName": "Xã Cần Yên",
+        "fullNameEn": "Can Yen Commune",
+        "codeName": "can_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.956",
+        "areaKm2": 144.64
       }
     }
   ]

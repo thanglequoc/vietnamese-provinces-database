@@ -8794,11 +8794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàng Gòn",
-        "unit_code": "26113",
-        "unit_code_name": "hang_gon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3112",
-        "area_km2": 45.6
+        "code": "26113",
+        "name": "Hàng Gòn",
+        "nameEn": "Hang Gon",
+        "fullName": "Phường Hàng Gòn",
+        "fullNameEn": "Hang Gon Ward",
+        "codeName": "hang_gon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3112",
+        "areaKm2": 45.6
       }
     }
   ]

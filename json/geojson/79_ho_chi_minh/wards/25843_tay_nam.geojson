@@ -25242,11 +25242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Nam",
-        "unit_code": "25843",
-        "unit_code_name": "tay_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.8",
-        "area_km2": 119.8
+        "code": "25843",
+        "name": "Tây Nam",
+        "nameEn": "Tay Nam",
+        "fullName": "Phường Tây Nam",
+        "fullNameEn": "Tay Nam Ward",
+        "codeName": "tay_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.8",
+        "areaKm2": 119.8
       }
     }
   ]

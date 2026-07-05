@@ -5638,11 +5638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Bị",
-        "unit_code": "10072",
-        "unit_code_name": "quang_bi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3218",
-        "area_km2": 37.14
+        "code": "10072",
+        "name": "Quảng Bị",
+        "nameEn": "Quang Bi",
+        "fullName": "Xã Quảng Bị",
+        "fullNameEn": "Quang Bi Commune",
+        "codeName": "quang_bi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3218",
+        "areaKm2": 37.14
       }
     }
   ]

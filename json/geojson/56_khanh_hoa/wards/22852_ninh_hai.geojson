@@ -12958,11 +12958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Hải",
-        "unit_code": "22852",
-        "unit_code_name": "ninh_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1154",
-        "area_km2": 100.1
+        "code": "22852",
+        "name": "Ninh Hải",
+        "nameEn": "Ninh Hai",
+        "fullName": "Xã Ninh Hải",
+        "fullNameEn": "Ninh Hai Commune",
+        "codeName": "ninh_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1154",
+        "areaKm2": 100.1
       }
     }
   ]

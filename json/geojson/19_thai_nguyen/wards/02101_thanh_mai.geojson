@@ -5754,11 +5754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Mai",
-        "unit_code": "02101",
-        "unit_code_name": "thanh_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1244",
-        "area_km2": 111.08
+        "code": "02101",
+        "name": "Thanh Mai",
+        "nameEn": "Thanh Mai",
+        "fullName": "Xã Thanh Mai",
+        "fullNameEn": "Thanh Mai Commune",
+        "codeName": "thanh_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1244",
+        "areaKm2": 111.08
       }
     }
   ]

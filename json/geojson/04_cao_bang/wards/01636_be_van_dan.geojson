@@ -7686,11 +7686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bế Văn Đàn",
-        "unit_code": "01636",
-        "unit_code_name": "be_van_dan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.992",
-        "area_km2": 118.31
+        "code": "01636",
+        "name": "Bế Văn Đàn",
+        "nameEn": "Be Van Dan",
+        "fullName": "Xã Bế Văn Đàn",
+        "fullNameEn": "Be Van Dan Commune",
+        "codeName": "be_van_dan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.992",
+        "areaKm2": 118.31
       }
     }
   ]

@@ -16786,11 +16786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Jút",
-        "unit_code": "24640",
-        "unit_code_name": "cu_jut",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2798",
-        "area_km2": 104.11
+        "code": "24640",
+        "name": "Cư Jút",
+        "nameEn": "Cu Jut",
+        "fullName": "Xã Cư Jút",
+        "fullNameEn": "Cu Jut Commune",
+        "codeName": "cu_jut",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2798",
+        "areaKm2": 104.11
       }
     }
   ]

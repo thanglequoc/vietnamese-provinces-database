@@ -7466,11 +7466,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Kim",
-        "unit_code": "05068",
-        "unit_code_name": "hop_kim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1657",
-        "area_km2": 86.29
+        "code": "05068",
+        "name": "Hợp Kim",
+        "nameEn": "Hop Kim",
+        "fullName": "Xã Hợp Kim",
+        "fullNameEn": "Hop Kim Commune",
+        "codeName": "hop_kim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1657",
+        "areaKm2": 86.29
       }
     }
   ]

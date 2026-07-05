@@ -2578,11 +2578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Sơn",
-        "unit_code": "27007",
-        "unit_code_name": "tan_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.70",
-        "area_km2": 10.12
+        "code": "27007",
+        "name": "Tân Sơn",
+        "nameEn": "Tan Son",
+        "fullName": "Phường Tân Sơn",
+        "fullNameEn": "Tan Son Ward",
+        "codeName": "tan_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.70",
+        "areaKm2": 10.12
       }
     }
   ]

@@ -29838,11 +29838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Thổ",
-        "unit_code": "03549",
-        "unit_code_name": "phong_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2086",
-        "area_km2": 266.71
+        "code": "03549",
+        "name": "Phong Thổ",
+        "nameEn": "Phong Tho",
+        "fullName": "Xã Phong Thổ",
+        "fullNameEn": "Phong Tho Commune",
+        "codeName": "phong_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2086",
+        "areaKm2": 266.71
       }
     }
   ]

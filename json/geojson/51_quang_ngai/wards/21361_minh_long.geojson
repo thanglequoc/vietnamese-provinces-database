@@ -7730,11 +7730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Long",
-        "unit_code": "21361",
-        "unit_code_name": "minh_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1775",
-        "area_km2": 124.74
+        "code": "21361",
+        "name": "Minh Long",
+        "nameEn": "Minh Long",
+        "fullName": "Xã Minh Long",
+        "fullNameEn": "Minh Long Commune",
+        "codeName": "minh_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1775",
+        "areaKm2": 124.74
       }
     }
   ]

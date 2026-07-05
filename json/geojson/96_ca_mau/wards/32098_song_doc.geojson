@@ -13710,11 +13710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Đốc",
-        "unit_code": "32098",
-        "unit_code_name": "song_doc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.177",
-        "area_km2": 83.95
+        "code": "32098",
+        "name": "Sông Đốc",
+        "nameEn": "Song Doc",
+        "fullName": "Xã Sông Đốc",
+        "fullNameEn": "Song Doc Commune",
+        "codeName": "song_doc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.177",
+        "areaKm2": 83.95
       }
     }
   ]

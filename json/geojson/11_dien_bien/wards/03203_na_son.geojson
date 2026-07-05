@@ -13658,11 +13658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Son",
-        "unit_code": "03203",
-        "unit_code_name": "na_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2245",
-        "area_km2": 230.71
+        "code": "03203",
+        "name": "Na Son",
+        "nameEn": "Na Son",
+        "fullName": "Xã Na Son",
+        "fullNameEn": "Na Son Commune",
+        "codeName": "na_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2245",
+        "areaKm2": 230.71
       }
     }
   ]

@@ -4438,11 +4438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Viễn",
-        "unit_code": "14464",
-        "unit_code_name": "gia_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.749",
-        "area_km2": 39.8
+        "code": "14464",
+        "name": "Gia Viễn",
+        "nameEn": "Gia Vien",
+        "fullName": "Xã Gia Viễn",
+        "fullNameEn": "Gia Vien Commune",
+        "codeName": "gia_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.749",
+        "areaKm2": 39.8
       }
     }
   ]

@@ -7754,11 +7754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Khánh",
-        "unit_code": "17032",
-        "unit_code_name": "nghia_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1472",
-        "area_km2": 77.72
+        "code": "17032",
+        "name": "Nghĩa Khánh",
+        "nameEn": "Nghia Khanh",
+        "fullName": "Xã Nghĩa Khánh",
+        "fullNameEn": "Nghia Khanh Commune",
+        "codeName": "nghia_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1472",
+        "areaKm2": 77.72
       }
     }
   ]

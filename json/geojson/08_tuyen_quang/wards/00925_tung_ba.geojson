@@ -7362,11 +7362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tùng Bá",
-        "unit_code": "00925",
-        "unit_code_name": "tung_ba",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2391",
-        "area_km2": 120.49
+        "code": "00925",
+        "name": "Tùng Bá",
+        "nameEn": "Tung Ba",
+        "fullName": "Xã Tùng Bá",
+        "fullNameEn": "Tung Ba Commune",
+        "codeName": "tung_ba",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2391",
+        "areaKm2": 120.49
       }
     }
   ]

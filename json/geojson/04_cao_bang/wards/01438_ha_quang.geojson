@@ -8178,11 +8178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Quảng",
-        "unit_code": "01438",
-        "unit_code_name": "ha_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.955",
-        "area_km2": 112.25
+        "code": "01438",
+        "name": "Hà Quảng",
+        "nameEn": "Ha Quang",
+        "fullName": "Xã Hà Quảng",
+        "fullNameEn": "Ha Quang Commune",
+        "codeName": "ha_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.955",
+        "areaKm2": 112.25
       }
     }
   ]

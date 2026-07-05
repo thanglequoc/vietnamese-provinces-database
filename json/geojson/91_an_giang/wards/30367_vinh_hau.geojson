@@ -978,11 +978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hậu",
-        "unit_code": "30367",
-        "unit_code_name": "vinh_hau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.315",
-        "area_km2": 48.45
+        "code": "30367",
+        "name": "Vĩnh Hậu",
+        "nameEn": "Vinh Hau",
+        "fullName": "Xã Vĩnh Hậu",
+        "fullNameEn": "Vinh Hau Commune",
+        "codeName": "vinh_hau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.315",
+        "areaKm2": 48.45
       }
     }
   ]

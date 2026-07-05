@@ -7370,11 +7370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Điền",
-        "unit_code": "30631",
-        "unit_code_name": "long_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.348",
-        "area_km2": 47.25
+        "code": "30631",
+        "name": "Long Điền",
+        "nameEn": "Long Dien",
+        "fullName": "Xã Long Điền",
+        "fullNameEn": "Long Dien Commune",
+        "codeName": "long_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.348",
+        "areaKm2": 47.25
       }
     }
   ]

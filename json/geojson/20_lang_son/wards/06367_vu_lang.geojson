@@ -8150,11 +8150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Lăng",
-        "unit_code": "06367",
-        "unit_code_name": "vu_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1819",
-        "area_km2": 112.27
+        "code": "06367",
+        "name": "Vũ Lăng",
+        "nameEn": "Vu Lang",
+        "fullName": "Xã Vũ Lăng",
+        "fullNameEn": "Vu Lang Commune",
+        "codeName": "vu_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1819",
+        "areaKm2": 112.27
       }
     }
   ]

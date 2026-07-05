@@ -2538,11 +2538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Bái",
-        "unit_code": "04252",
-        "unit_code_name": "yen_bai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1005",
-        "area_km2": 16.92
+        "code": "04252",
+        "name": "Yên Bái",
+        "nameEn": "Yen Bai",
+        "fullName": "Phường Yên Bái",
+        "fullNameEn": "Yen Bai Ward",
+        "codeName": "yen_bai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1005",
+        "areaKm2": 16.92
       }
     }
   ]

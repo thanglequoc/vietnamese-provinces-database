@@ -1366,11 +1366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Hồ",
-        "unit_code": "00103",
-        "unit_code_name": "tay_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3260",
-        "area_km2": 10.72
+        "code": "00103",
+        "name": "Tây Hồ",
+        "nameEn": "Tay Ho",
+        "fullName": "Phường Tây Hồ",
+        "fullNameEn": "Tay Ho Ward",
+        "codeName": "tay_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3260",
+        "areaKm2": 10.72
       }
     }
   ]

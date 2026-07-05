@@ -2126,11 +2126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Vồn",
-        "unit_code": "29770",
-        "unit_code_name": "cai_von",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2554",
-        "area_km2": 26.52
+        "code": "29770",
+        "name": "Cái Vồn",
+        "nameEn": "Cai Von",
+        "fullName": "Phường Cái Vồn",
+        "fullNameEn": "Cai Von Ward",
+        "codeName": "cai_von",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2554",
+        "areaKm2": 26.52
       }
     }
   ]

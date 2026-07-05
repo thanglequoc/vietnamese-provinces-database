@@ -13782,11 +13782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Hrú",
-        "unit_code": "23971",
-        "unit_code_name": "ia_hru",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2953",
-        "area_km2": 241.8
+        "code": "23971",
+        "name": "Ia Hrú",
+        "nameEn": "Ia Hru",
+        "fullName": "Xã Ia Hrú",
+        "fullNameEn": "Ia Hru Commune",
+        "codeName": "ia_hru",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2953",
+        "areaKm2": 241.8
       }
     }
   ]

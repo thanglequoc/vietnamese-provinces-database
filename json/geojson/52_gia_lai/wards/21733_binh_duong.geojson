@@ -9470,11 +9470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Dương",
-        "unit_code": "21733",
-        "unit_code_name": "binh_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2985",
-        "area_km2": 65.81
+        "code": "21733",
+        "name": "Bình Dương",
+        "nameEn": "Binh Duong",
+        "fullName": "Xã Bình Dương",
+        "fullNameEn": "Binh Duong Commune",
+        "codeName": "binh_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2985",
+        "areaKm2": 65.81
       }
     }
   ]

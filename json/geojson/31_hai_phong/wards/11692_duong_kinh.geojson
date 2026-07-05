@@ -2074,11 +2074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Kinh",
-        "unit_code": "11692",
-        "unit_code_name": "duong_kinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.936",
-        "area_km2": 27.96
+        "code": "11692",
+        "name": "Dương Kinh",
+        "nameEn": "Duong Kinh",
+        "fullName": "Phường Dương Kinh",
+        "fullNameEn": "Duong Kinh Ward",
+        "codeName": "duong_kinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.936",
+        "areaKm2": 27.96
       }
     }
   ]

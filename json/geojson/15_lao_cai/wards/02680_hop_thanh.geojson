@@ -7778,11 +7778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Thành",
-        "unit_code": "02680",
-        "unit_code_name": "hop_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1057",
-        "area_km2": 116.3
+        "code": "02680",
+        "name": "Hợp Thành",
+        "nameEn": "Hop Thanh",
+        "fullName": "Xã Hợp Thành",
+        "fullNameEn": "Hop Thanh Commune",
+        "codeName": "hop_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1057",
+        "areaKm2": 116.3
       }
     }
   ]

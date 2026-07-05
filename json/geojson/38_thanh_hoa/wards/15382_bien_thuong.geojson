@@ -4562,11 +4562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Biện Thượng",
-        "unit_code": "15382",
-        "unit_code_name": "bien_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2613",
-        "area_km2": 65.4
+        "code": "15382",
+        "name": "Biện Thượng",
+        "nameEn": "Bien Thuong",
+        "fullName": "Xã Biện Thượng",
+        "fullNameEn": "Bien Thuong Commune",
+        "codeName": "bien_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2613",
+        "areaKm2": 65.4
       }
     }
   ]

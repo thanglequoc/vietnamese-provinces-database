@@ -1634,11 +1634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Phù",
-        "unit_code": "00685",
-        "unit_code_name": "nam_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3176",
-        "area_km2": 13.74
+        "code": "00685",
+        "name": "Nam Phù",
+        "nameEn": "Nam Phu",
+        "fullName": "Xã Nam Phù",
+        "fullNameEn": "Nam Phu Commune",
+        "codeName": "nam_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3176",
+        "areaKm2": 13.74
       }
     }
   ]

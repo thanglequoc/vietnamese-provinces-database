@@ -8434,11 +8434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Gạo",
-        "unit_code": "28594",
-        "unit_code_name": "cho_gao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.482",
-        "area_km2": 25.2
+        "code": "28594",
+        "name": "Chợ Gạo",
+        "nameEn": "Cho Gao",
+        "fullName": "Xã Chợ Gạo",
+        "fullNameEn": "Cho Gao Commune",
+        "codeName": "cho_gao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.482",
+        "areaKm2": 25.2
       }
     }
   ]

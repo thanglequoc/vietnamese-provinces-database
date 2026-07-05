@@ -4454,11 +4454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Sơn",
-        "unit_code": "16576",
-        "unit_code_name": "ngoc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2605",
-        "area_km2": 38.16
+        "code": "16576",
+        "name": "Ngọc Sơn",
+        "nameEn": "Ngoc Son",
+        "fullName": "Phường Ngọc Sơn",
+        "fullNameEn": "Ngoc Son Ward",
+        "codeName": "ngoc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2605",
+        "areaKm2": 38.16
       }
     }
   ]

@@ -5778,11 +5778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Viễn",
-        "unit_code": "26296",
-        "unit_code_name": "an_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3126",
-        "area_km2": 47.7
+        "code": "26296",
+        "name": "An Viễn",
+        "nameEn": "An Vien",
+        "fullName": "Xã An Viễn",
+        "fullNameEn": "An Vien Commune",
+        "codeName": "an_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3126",
+        "areaKm2": 47.7
       }
     }
   ]

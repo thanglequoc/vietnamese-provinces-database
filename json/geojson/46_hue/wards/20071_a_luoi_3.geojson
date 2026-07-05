@@ -18238,11 +18238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Lưới 3",
-        "unit_code": "20071",
-        "unit_code_name": "a_luoi_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1715",
-        "area_km2": 154.23
+        "code": "20071",
+        "name": "A Lưới 3",
+        "nameEn": "A Luoi 3",
+        "fullName": "Xã A Lưới 3",
+        "fullNameEn": "Commune A Luoi 3",
+        "codeName": "a_luoi_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1715",
+        "areaKm2": 154.23
       }
     }
   ]

@@ -11246,11 +11246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trảng Bom",
-        "unit_code": "26248",
-        "unit_code_name": "trang_bom",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3122",
-        "area_km2": 68.8
+        "code": "26248",
+        "name": "Trảng Bom",
+        "nameEn": "Trang Bom",
+        "fullName": "Phường Trảng Bom",
+        "fullNameEn": "Trang Bom Ward",
+        "codeName": "trang_bom",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3122",
+        "areaKm2": 68.8
       }
     }
   ]

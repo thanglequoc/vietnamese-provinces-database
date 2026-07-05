@@ -7214,11 +7214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạch Xuân",
-        "unit_code": "18667",
-        "unit_code_name": "thach_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2009",
-        "area_km2": 72.53
+        "code": "18667",
+        "name": "Thạch Xuân",
+        "nameEn": "Thach Xuan",
+        "fullName": "Xã Thạch Xuân",
+        "fullNameEn": "Thach Xuan Commune",
+        "codeName": "thach_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2009",
+        "areaKm2": 72.53
       }
     }
   ]

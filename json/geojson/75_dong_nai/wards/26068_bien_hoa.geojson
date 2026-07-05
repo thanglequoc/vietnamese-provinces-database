@@ -3194,11 +3194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Biên Hoà",
-        "unit_code": "26068",
-        "unit_code_name": "bien_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3108",
-        "area_km2": 21.5
+        "code": "26068",
+        "name": "Biên Hoà",
+        "nameEn": "Bien Hoa",
+        "fullName": "Phường Biên Hoà",
+        "fullNameEn": "Bien Hoa Ward",
+        "codeName": "bien_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3108",
+        "areaKm2": 21.5
       }
     }
   ]

@@ -4338,11 +4338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Việt",
-        "unit_code": "08416",
-        "unit_code_name": "hung_viet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1581",
-        "area_km2": 32.77
+        "code": "08416",
+        "name": "Hùng Việt",
+        "nameEn": "Hung Viet",
+        "fullName": "Xã Hùng Việt",
+        "fullNameEn": "Hung Viet Commune",
+        "codeName": "hung_viet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1581",
+        "areaKm2": 32.77
       }
     }
   ]

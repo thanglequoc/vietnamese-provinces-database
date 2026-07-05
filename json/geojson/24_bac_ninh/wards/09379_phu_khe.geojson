@@ -4718,11 +4718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Khê",
-        "unit_code": "09379",
-        "unit_code_name": "phu_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2188",
-        "area_km2": 14.03
+        "code": "09379",
+        "name": "Phù Khê",
+        "nameEn": "Phu Khe",
+        "fullName": "Phường Phù Khê",
+        "fullNameEn": "Phu Khe Ward",
+        "codeName": "phu_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2188",
+        "areaKm2": 14.03
       }
     }
   ]

@@ -4290,11 +4290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nga Thắng",
-        "unit_code": "16114",
-        "unit_code_name": "nga_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2624",
-        "area_km2": 27.52
+        "code": "16114",
+        "name": "Nga Thắng",
+        "nameEn": "Nga Thang",
+        "fullName": "Xã Nga Thắng",
+        "fullNameEn": "Nga Thang Commune",
+        "codeName": "nga_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2624",
+        "areaKm2": 27.52
       }
     }
   ]

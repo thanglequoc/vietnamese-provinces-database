@@ -2934,11 +2934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Nam",
-        "unit_code": "13699",
-        "unit_code_name": "thanh_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.786",
-        "area_km2": 16.03
+        "code": "13699",
+        "name": "Thành Nam",
+        "nameEn": "Thanh Nam",
+        "fullName": "Phường Thành Nam",
+        "fullNameEn": "Thanh Nam Ward",
+        "codeName": "thanh_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.786",
+        "areaKm2": 16.03
       }
     }
   ]

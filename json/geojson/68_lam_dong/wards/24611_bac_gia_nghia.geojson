@@ -14234,11 +14234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Gia Nghĩa",
-        "unit_code": "24611",
-        "unit_code_name": "bac_gia_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2808",
-        "area_km2": 250.55
+        "code": "24611",
+        "name": "Bắc Gia Nghĩa",
+        "nameEn": "Bac Gia Nghia",
+        "fullName": "Phường Bắc Gia Nghĩa",
+        "fullNameEn": "Bac Gia Nghia Ward",
+        "codeName": "bac_gia_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2808",
+        "areaKm2": 250.55
       }
     }
   ]

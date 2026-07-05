@@ -5494,11 +5494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tập Sơn",
-        "unit_code": "29467",
-        "unit_code_name": "tap_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2511",
-        "area_km2": 67.44
+        "code": "29467",
+        "name": "Tập Sơn",
+        "nameEn": "Tap Son",
+        "fullName": "Xã Tập Sơn",
+        "fullNameEn": "Tap Son Commune",
+        "codeName": "tap_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2511",
+        "areaKm2": 67.44
       }
     }
   ]

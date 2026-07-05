@@ -2146,11 +2146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Bảo",
-        "unit_code": "11824",
-        "unit_code_name": "vinh_bao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.919",
-        "area_km2": 30.6
+        "code": "11824",
+        "name": "Vĩnh Bảo",
+        "nameEn": "Vinh Bao",
+        "fullName": "Xã Vĩnh Bảo",
+        "fullNameEn": "Vinh Bao Commune",
+        "codeName": "vinh_bao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.919",
+        "areaKm2": 30.6
       }
     }
   ]

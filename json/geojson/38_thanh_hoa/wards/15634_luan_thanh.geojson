@@ -8458,11 +8458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Luận Thành",
-        "unit_code": "15634",
-        "unit_code_name": "luan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2564",
-        "area_km2": 73.48
+        "code": "15634",
+        "name": "Luận Thành",
+        "nameEn": "Luan Thanh",
+        "fullName": "Xã Luận Thành",
+        "fullNameEn": "Luan Thanh Commune",
+        "codeName": "luan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2564",
+        "areaKm2": 73.48
       }
     }
   ]

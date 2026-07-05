@@ -2598,11 +2598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vinh Lộc",
-        "unit_code": "16708",
-        "unit_code_name": "vinh_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1521",
-        "area_km2": 38.86
+        "code": "16708",
+        "name": "Vinh Lộc",
+        "nameEn": "Vinh Loc",
+        "fullName": "Phường Vinh Lộc",
+        "fullNameEn": "Vinh Loc Ward",
+        "codeName": "vinh_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1521",
+        "areaKm2": 38.86
       }
     }
   ]

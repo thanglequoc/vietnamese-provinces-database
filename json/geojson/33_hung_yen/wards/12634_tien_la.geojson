@@ -4306,11 +4306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên La",
-        "unit_code": "12634",
-        "unit_code_name": "tien_la",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.647",
-        "area_km2": 22.54
+        "code": "12634",
+        "name": "Tiên La",
+        "nameEn": "Tien La",
+        "fullName": "Xã Tiên La",
+        "fullNameEn": "Tien La Commune",
+        "codeName": "tien_la",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.647",
+        "areaKm2": 22.54
       }
     }
   ]

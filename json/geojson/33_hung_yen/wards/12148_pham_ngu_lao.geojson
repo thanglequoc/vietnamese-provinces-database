@@ -2670,11 +2670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phạm Ngũ Lão",
-        "unit_code": "12148",
-        "unit_code_name": "pham_ngu_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.715",
-        "area_km2": 29.32
+        "code": "12148",
+        "name": "Phạm Ngũ Lão",
+        "nameEn": "Pham Ngu Lao",
+        "fullName": "Xã Phạm Ngũ Lão",
+        "fullNameEn": "Pham Ngu Lao Commune",
+        "codeName": "pham_ngu_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.715",
+        "areaKm2": 29.32
       }
     }
   ]

@@ -1406,11 +1406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thuận",
-        "unit_code": "27478",
-        "unit_code_name": "tan_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.110",
-        "area_km2": 10.16
+        "code": "27478",
+        "name": "Tân Thuận",
+        "nameEn": "Tan Thuan",
+        "fullName": "Phường Tân Thuận",
+        "fullNameEn": "Tan Thuan Ward",
+        "codeName": "tan_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.110",
+        "areaKm2": 10.16
       }
     }
   ]

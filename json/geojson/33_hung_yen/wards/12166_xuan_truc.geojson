@@ -2482,11 +2482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Trúc",
-        "unit_code": "12166",
-        "unit_code_name": "xuan_truc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.711",
-        "area_km2": 20.04
+        "code": "12166",
+        "name": "Xuân Trúc",
+        "nameEn": "Xuan Truc",
+        "fullName": "Xã Xuân Trúc",
+        "fullNameEn": "Xuan Truc Commune",
+        "codeName": "xuan_truc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.711",
+        "areaKm2": 20.04
       }
     }
   ]

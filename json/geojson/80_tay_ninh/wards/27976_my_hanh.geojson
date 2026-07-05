@@ -2370,11 +2370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Hạnh",
-        "unit_code": "27976",
-        "unit_code_name": "my_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1308",
-        "area_km2": 63.44
+        "code": "27976",
+        "name": "Mỹ Hạnh",
+        "nameEn": "My Hanh",
+        "fullName": "Xã Mỹ Hạnh",
+        "fullNameEn": "My Hanh Commune",
+        "codeName": "my_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1308",
+        "areaKm2": 63.44
       }
     }
   ]

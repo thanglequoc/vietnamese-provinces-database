@@ -12894,11 +12894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tìa Dình",
-        "unit_code": "03385",
-        "unit_code_name": "tia_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2271",
-        "area_km2": 166.76
+        "code": "03385",
+        "name": "Tìa Dình",
+        "nameEn": "Tia Dinh",
+        "fullName": "Xã Tìa Dình",
+        "fullNameEn": "Tia Dinh Commune",
+        "codeName": "tia_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2271",
+        "areaKm2": 166.76
       }
     }
   ]

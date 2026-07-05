@@ -7210,11 +7210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pắc Ngà",
-        "unit_code": "03871",
-        "unit_code_name": "pac_nga",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1362",
-        "area_km2": 122.59
+        "code": "03871",
+        "name": "Pắc Ngà",
+        "nameEn": "Pac Nga",
+        "fullName": "Xã Pắc Ngà",
+        "fullNameEn": "Pac Nga Commune",
+        "codeName": "pac_nga",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1362",
+        "areaKm2": 122.59
       }
     }
   ]

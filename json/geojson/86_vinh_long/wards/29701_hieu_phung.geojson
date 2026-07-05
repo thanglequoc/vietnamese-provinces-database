@@ -3310,11 +3310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiếu Phụng",
-        "unit_code": "29701",
-        "unit_code_name": "hieu_phung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2540",
-        "area_km2": 42.46
+        "code": "29701",
+        "name": "Hiếu Phụng",
+        "nameEn": "Hieu Phung",
+        "fullName": "Xã Hiếu Phụng",
+        "fullNameEn": "Hieu Phung Commune",
+        "codeName": "hieu_phung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2540",
+        "areaKm2": 42.46
       }
     }
   ]

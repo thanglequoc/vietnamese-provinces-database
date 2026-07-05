@@ -258,11 +258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàn Cờ",
-        "unit_code": "27154",
-        "unit_code_name": "ban_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.84",
-        "area_km2": 0.99
+        "code": "27154",
+        "name": "Bàn Cờ",
+        "nameEn": "Ban Co",
+        "fullName": "Phường Bàn Cờ",
+        "fullNameEn": "Ban Co Ward",
+        "codeName": "ban_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.84",
+        "areaKm2": 0.99
       }
     }
   ]

@@ -9670,11 +9670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Hồng",
-        "unit_code": "18160",
-        "unit_code_name": "son_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2058",
-        "area_km2": 209.04
+        "code": "18160",
+        "name": "Sơn Hồng",
+        "nameEn": "Son Hong",
+        "fullName": "Xã Sơn Hồng",
+        "fullNameEn": "Son Hong Commune",
+        "codeName": "son_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2058",
+        "areaKm2": 209.04
       }
     }
   ]

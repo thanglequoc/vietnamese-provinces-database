@@ -4538,11 +4538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Long",
-        "unit_code": "29419",
-        "unit_code_name": "my_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2524",
-        "area_km2": 73.61
+        "code": "29419",
+        "name": "Mỹ Long",
+        "nameEn": "My Long",
+        "fullName": "Xã Mỹ Long",
+        "fullNameEn": "My Long Commune",
+        "codeName": "my_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2524",
+        "areaKm2": 73.61
       }
     }
   ]

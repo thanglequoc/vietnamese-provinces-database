@@ -9218,11 +9218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Hội",
-        "unit_code": "21871",
-        "unit_code_name": "hoa_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3001",
-        "area_km2": 87.06
+        "code": "21871",
+        "name": "Hoà Hội",
+        "nameEn": "Hoa Hoi",
+        "fullName": "Xã Hoà Hội",
+        "fullNameEn": "Hoa Hoi Commune",
+        "codeName": "hoa_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3001",
+        "areaKm2": 87.06
       }
     }
   ]

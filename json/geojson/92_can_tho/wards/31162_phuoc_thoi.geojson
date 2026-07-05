@@ -11702,11 +11702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Thới",
-        "unit_code": "31162",
-        "unit_code_name": "phuoc_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.208",
-        "area_km2": 53.11
+        "code": "31162",
+        "name": "Phước Thới",
+        "nameEn": "Phuoc Thoi",
+        "fullName": "Phường Phước Thới",
+        "fullNameEn": "Phuoc Thoi Ward",
+        "codeName": "phuoc_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.208",
+        "areaKm2": 53.11
       }
     }
   ]

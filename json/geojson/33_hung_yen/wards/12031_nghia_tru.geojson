@@ -2678,11 +2678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Trụ",
-        "unit_code": "12031",
-        "unit_code_name": "nghia_tru",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.734",
-        "area_km2": 22.8
+        "code": "12031",
+        "name": "Nghĩa Trụ",
+        "nameEn": "Nghia Tru",
+        "fullName": "Xã Nghĩa Trụ",
+        "fullNameEn": "Nghia Tru Commune",
+        "codeName": "nghia_tru",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.734",
+        "areaKm2": 22.8
       }
     }
   ]

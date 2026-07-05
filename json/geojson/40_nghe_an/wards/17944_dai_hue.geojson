@@ -4174,11 +4174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Huệ",
-        "unit_code": "17944",
-        "unit_code_name": "dai_hue",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1532",
-        "area_km2": 36.11
+        "code": "17944",
+        "name": "Đại Huệ",
+        "nameEn": "Dai Hue",
+        "fullName": "Xã Đại Huệ",
+        "fullNameEn": "Dai Hue Commune",
+        "codeName": "dai_hue",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1532",
+        "areaKm2": 36.11
       }
     }
   ]

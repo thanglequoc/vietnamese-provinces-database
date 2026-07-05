@@ -10286,11 +10286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dũng Tiến",
-        "unit_code": "05086",
-        "unit_code_name": "dung_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1653",
-        "area_km2": 101.1
+        "code": "05086",
+        "name": "Dũng Tiến",
+        "nameEn": "Dung Tien",
+        "fullName": "Xã Dũng Tiến",
+        "fullNameEn": "Dung Tien Commune",
+        "codeName": "dung_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1653",
+        "areaKm2": 101.1
       }
     }
   ]

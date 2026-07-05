@@ -22490,11 +22490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Ko",
-        "unit_code": "23977",
-        "unit_code_name": "ia_ko",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2931",
-        "area_km2": 210.72
+        "code": "23977",
+        "name": "Ia Ko",
+        "nameEn": "Ia Ko",
+        "fullName": "Xã Ia Ko",
+        "fullNameEn": "Ia Ko Commune",
+        "codeName": "ia_ko",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2931",
+        "areaKm2": 210.72
       }
     }
   ]

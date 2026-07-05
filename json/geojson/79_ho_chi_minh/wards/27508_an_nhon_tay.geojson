@@ -14102,11 +14102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nhơn Tây",
-        "unit_code": "27508",
-        "unit_code_name": "an_nhon_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.114",
-        "area_km2": 77.7
+        "code": "27508",
+        "name": "An Nhơn Tây",
+        "nameEn": "An Nhon Tay",
+        "fullName": "Xã An Nhơn Tây",
+        "fullNameEn": "An Nhon Tay Commune",
+        "codeName": "an_nhon_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.114",
+        "areaKm2": 77.7
       }
     }
   ]

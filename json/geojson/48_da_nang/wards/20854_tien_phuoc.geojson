@@ -7126,11 +7126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Phước",
-        "unit_code": "20854",
-        "unit_code_name": "tien_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1960",
-        "area_km2": 74.63
+        "code": "20854",
+        "name": "Tiên Phước",
+        "nameEn": "Tien Phuoc",
+        "fullName": "Xã Tiên Phước",
+        "fullNameEn": "Tien Phuoc Commune",
+        "codeName": "tien_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1960",
+        "areaKm2": 74.63
       }
     }
   ]

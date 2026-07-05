@@ -16294,11 +16294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Thọ Lâm Hà",
-        "unit_code": "24907",
-        "unit_code_name": "phuc_tho_lam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.502",
-        "area_km2": 230.47
+        "code": "24907",
+        "name": "Phúc Thọ Lâm Hà",
+        "nameEn": "Phuc Tho Lam Ha",
+        "fullName": "Xã Phúc Thọ Lâm Hà",
+        "fullNameEn": "Phuc Tho Lam Ha Commune",
+        "codeName": "phuc_tho_lam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.502",
+        "areaKm2": 230.47
       }
     }
   ]

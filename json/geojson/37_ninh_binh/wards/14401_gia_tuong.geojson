@@ -6118,11 +6118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Tường",
-        "unit_code": "14401",
-        "unit_code_name": "gia_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.745",
-        "area_km2": 27.09
+        "code": "14401",
+        "name": "Gia Tường",
+        "nameEn": "Gia Tuong",
+        "fullName": "Xã Gia Tường",
+        "fullNameEn": "Gia Tuong Commune",
+        "codeName": "gia_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.745",
+        "areaKm2": 27.09
       }
     }
   ]

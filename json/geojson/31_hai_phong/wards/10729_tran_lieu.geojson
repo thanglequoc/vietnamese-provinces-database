@@ -2766,11 +2766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Liễu",
-        "unit_code": "10729",
-        "unit_code_name": "tran_lieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.846",
-        "area_km2": 23.87
+        "code": "10729",
+        "name": "Trần Liễu",
+        "nameEn": "Tran Lieu",
+        "fullName": "Phường Trần Liễu",
+        "fullNameEn": "Tran Lieu Ward",
+        "codeName": "tran_lieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.846",
+        "areaKm2": 23.87
       }
     }
   ]

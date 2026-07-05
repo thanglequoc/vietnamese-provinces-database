@@ -21170,11 +21170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Pơ",
-        "unit_code": "23995",
-        "unit_code_name": "dak_po",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3034",
-        "area_km2": 223.33
+        "code": "23995",
+        "name": "Đak Pơ",
+        "nameEn": "Dak Po",
+        "fullName": "Xã Đak Pơ",
+        "fullNameEn": "Dak Po Commune",
+        "codeName": "dak_po",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3034",
+        "areaKm2": 223.33
       }
     }
   ]

@@ -3746,11 +3746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phượng Dực",
-        "unit_code": "10279",
-        "unit_code_name": "phuong_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3160",
-        "area_km2": 44.69
+        "code": "10279",
+        "name": "Phượng Dực",
+        "nameEn": "Phuong Duc",
+        "fullName": "Xã Phượng Dực",
+        "fullNameEn": "Phuong Duc Commune",
+        "codeName": "phuong_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3160",
+        "areaKm2": 44.69
       }
     }
   ]

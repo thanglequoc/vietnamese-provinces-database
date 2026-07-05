@@ -2526,11 +2526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phụng Hiệp",
-        "unit_code": "31420",
-        "unit_code_name": "phung_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.247",
-        "area_km2": 66.78
+        "code": "31420",
+        "name": "Phụng Hiệp",
+        "nameEn": "Phung Hiep",
+        "fullName": "Xã Phụng Hiệp",
+        "fullNameEn": "Phung Hiep Commune",
+        "codeName": "phung_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.247",
+        "areaKm2": 66.78
       }
     }
   ]

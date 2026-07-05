@@ -3462,11 +3462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Viễn",
-        "unit_code": "31489",
-        "unit_code_name": "vinh_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.261",
-        "area_km2": 68.86
+        "code": "31489",
+        "name": "Vĩnh Viễn",
+        "nameEn": "Vinh Vien",
+        "fullName": "Xã Vĩnh Viễn",
+        "fullNameEn": "Vinh Vien Commune",
+        "codeName": "vinh_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.261",
+        "areaKm2": 68.86
       }
     }
   ]

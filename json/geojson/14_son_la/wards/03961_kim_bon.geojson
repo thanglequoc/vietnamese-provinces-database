@@ -5998,11 +5998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Bon",
-        "unit_code": "03961",
-        "unit_code_name": "kim_bon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1370",
-        "area_km2": 104.51
+        "code": "03961",
+        "name": "Kim Bon",
+        "nameEn": "Kim Bon",
+        "fullName": "Xã Kim Bon",
+        "fullNameEn": "Kim Bon Commune",
+        "codeName": "kim_bon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1370",
+        "areaKm2": 104.51
       }
     }
   ]

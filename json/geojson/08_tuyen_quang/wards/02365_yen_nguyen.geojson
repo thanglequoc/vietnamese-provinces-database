@@ -12390,11 +12390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Nguyên",
-        "unit_code": "02365",
-        "unit_code_name": "yen_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2332",
-        "area_km2": 97.36
+        "code": "02365",
+        "name": "Yên Nguyên",
+        "nameEn": "Yen Nguyen",
+        "fullName": "Xã Yên Nguyên",
+        "fullNameEn": "Yen Nguyen Commune",
+        "codeName": "yen_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2332",
+        "areaKm2": 97.36
       }
     }
   ]

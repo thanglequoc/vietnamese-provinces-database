@@ -13562,11 +13562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Thới",
-        "unit_code": "31894",
-        "unit_code_name": "chau_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.153",
-        "area_km2": 23.04
+        "code": "31894",
+        "name": "Châu Thới",
+        "nameEn": "Chau Thoi",
+        "fullName": "Xã Châu Thới",
+        "fullNameEn": "Chau Thoi Commune",
+        "codeName": "chau_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.153",
+        "areaKm2": 23.04
       }
     }
   ]

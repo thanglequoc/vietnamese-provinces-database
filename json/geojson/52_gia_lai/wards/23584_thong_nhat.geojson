@@ -5694,11 +5694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thống Nhất",
-        "unit_code": "23584",
-        "unit_code_name": "thong_nhat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3043",
-        "area_km2": 22.92
+        "code": "23584",
+        "name": "Thống Nhất",
+        "nameEn": "Thong Nhat",
+        "fullName": "Phường Thống Nhất",
+        "fullNameEn": "Thong Nhat Ward",
+        "codeName": "thong_nhat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3043",
+        "areaKm2": 22.92
       }
     }
   ]

@@ -3354,11 +3354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lược",
-        "unit_code": "29785",
-        "unit_code_name": "tan_luoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2550",
-        "area_km2": 56.39
+        "code": "29785",
+        "name": "Tân Lược",
+        "nameEn": "Tan Luoc",
+        "fullName": "Xã Tân Lược",
+        "fullNameEn": "Tan Luoc Commune",
+        "codeName": "tan_luoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2550",
+        "areaKm2": 56.39
       }
     }
   ]

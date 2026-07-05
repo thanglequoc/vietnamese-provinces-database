@@ -954,11 +954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phương Liệt",
-        "unit_code": "00352",
-        "unit_code_name": "phuong_liet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3184",
-        "area_km2": 3.2
+        "code": "00352",
+        "name": "Phương Liệt",
+        "nameEn": "Phuong Liet",
+        "fullName": "Phường Phương Liệt",
+        "fullNameEn": "Phuong Liet Ward",
+        "codeName": "phuong_liet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3184",
+        "areaKm2": 3.2
       }
     }
   ]

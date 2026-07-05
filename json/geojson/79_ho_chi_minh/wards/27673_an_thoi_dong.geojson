@@ -2670,11 +2670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Thới Đông",
-        "unit_code": "27673",
-        "unit_code_name": "an_thoi_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.136",
-        "area_km2": 257.85
+        "code": "27673",
+        "name": "An Thới Đông",
+        "nameEn": "An Thoi Dong",
+        "fullName": "Xã An Thới Đông",
+        "fullNameEn": "An Thoi Dong Commune",
+        "codeName": "an_thoi_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.136",
+        "areaKm2": 257.85
       }
     }
   ]

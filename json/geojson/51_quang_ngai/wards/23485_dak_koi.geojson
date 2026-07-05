@@ -24506,11 +24506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Kôi",
-        "unit_code": "23485",
-        "unit_code_name": "dak_koi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1729",
-        "area_km2": 450.48
+        "code": "23485",
+        "name": "Đăk Kôi",
+        "nameEn": "Dak Koi",
+        "fullName": "Xã Đăk Kôi",
+        "fullNameEn": "Dak Koi Commune",
+        "codeName": "dak_koi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1729",
+        "areaKm2": 450.48
       }
     }
   ]

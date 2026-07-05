@@ -7086,11 +7086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phước 3",
-        "unit_code": "28345",
-        "unit_code_name": "tan_phuoc_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.454",
-        "area_km2": 80.2
+        "code": "28345",
+        "name": "Tân Phước 3",
+        "nameEn": "Tan Phuoc 3",
+        "fullName": "Xã Tân Phước 3",
+        "fullNameEn": "Commune Tan Phuoc 3",
+        "codeName": "tan_phuoc_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.454",
+        "areaKm2": 80.2
       }
     }
   ]

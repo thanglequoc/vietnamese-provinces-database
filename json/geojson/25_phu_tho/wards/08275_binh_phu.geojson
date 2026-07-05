@@ -6370,11 +6370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Phú",
-        "unit_code": "08275",
-        "unit_code_name": "binh_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1567",
-        "area_km2": 28.28
+        "code": "08275",
+        "name": "Bình Phú",
+        "nameEn": "Binh Phu",
+        "fullName": "Xã Bình Phú",
+        "fullNameEn": "Binh Phu Commune",
+        "codeName": "binh_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1567",
+        "areaKm2": 28.28
       }
     }
   ]

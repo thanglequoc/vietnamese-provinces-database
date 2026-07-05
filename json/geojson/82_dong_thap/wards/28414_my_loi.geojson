@@ -6050,11 +6050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Lợi",
-        "unit_code": "28414",
-        "unit_code_name": "my_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.458",
-        "area_km2": 43.8
+        "code": "28414",
+        "name": "Mỹ Lợi",
+        "nameEn": "My Loi",
+        "fullName": "Xã Mỹ Lợi",
+        "fullNameEn": "My Loi Commune",
+        "codeName": "my_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.458",
+        "areaKm2": 43.8
       }
     }
   ]

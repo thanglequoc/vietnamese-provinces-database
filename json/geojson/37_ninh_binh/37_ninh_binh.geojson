@@ -3298,11 +3298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Bình",
-        "unit_code": "37",
-        "unit_code_name": "ninh_binh",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.104",
-        "area_km2": 3942.62
+        "code": "37",
+        "name": "Ninh Bình",
+        "nameEn": "Ninh Binh",
+        "fullName": "Tỉnh Ninh Bình",
+        "fullNameEn": "Ninh Binh Province",
+        "codeName": "ninh_binh",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.104",
+        "areaKm2": 3942.62
       }
     }
   ]

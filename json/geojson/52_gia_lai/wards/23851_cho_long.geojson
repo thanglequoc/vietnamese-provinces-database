@@ -13190,11 +13190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chơ Long",
-        "unit_code": "23851",
-        "unit_code_name": "cho_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3025",
-        "area_km2": 195.07
+        "code": "23851",
+        "name": "Chơ Long",
+        "nameEn": "Cho Long",
+        "fullName": "Xã Chơ Long",
+        "fullNameEn": "Cho Long Commune",
+        "codeName": "cho_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3025",
+        "areaKm2": 195.07
       }
     }
   ]

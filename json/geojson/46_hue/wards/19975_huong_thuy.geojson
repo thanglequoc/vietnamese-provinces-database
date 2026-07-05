@@ -11278,11 +11278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Thuỷ",
-        "unit_code": "19975",
-        "unit_code_name": "huong_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1707",
-        "area_km2": 33.93
+        "code": "19975",
+        "name": "Hương Thuỷ",
+        "nameEn": "Huong Thuy",
+        "fullName": "Phường Hương Thuỷ",
+        "fullNameEn": "Huong Thuy Ward",
+        "codeName": "huong_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1707",
+        "areaKm2": 33.93
       }
     }
   ]

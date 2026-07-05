@@ -9810,11 +9810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Tô",
-        "unit_code": "23401",
-        "unit_code_name": "dak_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.543",
-        "area_km2": 218.38
+        "code": "23401",
+        "name": "Đăk Tô",
+        "nameEn": "Dak To",
+        "fullName": "Xã Đăk Tô",
+        "fullNameEn": "Dak To Commune",
+        "codeName": "dak_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.543",
+        "areaKm2": 218.38
       }
     }
   ]

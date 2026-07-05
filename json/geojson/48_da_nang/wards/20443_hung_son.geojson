@@ -9602,11 +9602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Sơn",
-        "unit_code": "20443",
-        "unit_code_name": "hung_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1917",
-        "area_km2": 287.95
+        "code": "20443",
+        "name": "Hùng Sơn",
+        "nameEn": "Hung Son",
+        "fullName": "Xã Hùng Sơn",
+        "fullNameEn": "Hung Son Commune",
+        "codeName": "hung_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1917",
+        "areaKm2": 287.95
       }
     }
   ]

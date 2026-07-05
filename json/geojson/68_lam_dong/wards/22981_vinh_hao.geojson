@@ -4886,11 +4886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hảo",
-        "unit_code": "22981",
-        "unit_code_name": "vinh_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3070",
-        "area_km2": 138.58
+        "code": "22981",
+        "name": "Vĩnh Hảo",
+        "nameEn": "Vinh Hao",
+        "fullName": "Xã Vĩnh Hảo",
+        "fullNameEn": "Vinh Hao Commune",
+        "codeName": "vinh_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3070",
+        "areaKm2": 138.58
       }
     }
   ]

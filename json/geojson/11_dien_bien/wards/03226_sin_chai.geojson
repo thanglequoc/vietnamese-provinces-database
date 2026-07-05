@@ -8522,11 +8522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sín Chải",
-        "unit_code": "03226",
-        "unit_code_name": "sin_chai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2250",
-        "area_km2": 189.13
+        "code": "03226",
+        "name": "Sín Chải",
+        "nameEn": "Sin Chai",
+        "fullName": "Xã Sín Chải",
+        "fullNameEn": "Sin Chai Commune",
+        "codeName": "sin_chai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2250",
+        "areaKm2": 189.13
       }
     }
   ]

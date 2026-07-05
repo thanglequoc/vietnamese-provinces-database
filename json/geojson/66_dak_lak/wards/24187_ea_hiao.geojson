@@ -23422,11 +23422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Hiao",
-        "unit_code": "24187",
-        "unit_code_name": "ea_hiao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2884",
-        "area_km2": 361.69
+        "code": "24187",
+        "name": "Ea Hiao",
+        "nameEn": "Ea Hiao",
+        "fullName": "Xã Ea Hiao",
+        "fullNameEn": "Ea Hiao Commune",
+        "codeName": "ea_hiao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2884",
+        "areaKm2": 361.69
       }
     }
   ]

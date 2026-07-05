@@ -2282,11 +2282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Việt Vương",
-        "unit_code": "12223",
-        "unit_code_name": "trieu_viet_vuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.714",
-        "area_km2": 27.15
+        "code": "12223",
+        "name": "Triệu Việt Vương",
+        "nameEn": "Trieu Viet Vuong",
+        "fullName": "Xã Triệu Việt Vương",
+        "fullNameEn": "Trieu Viet Vuong Commune",
+        "codeName": "trieu_viet_vuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.714",
+        "areaKm2": 27.15
       }
     }
   ]

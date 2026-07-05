@@ -9022,11 +9022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Cuổi",
-        "unit_code": "03544",
-        "unit_code_name": "nam_cuoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2085",
-        "area_km2": 177.16
+        "code": "03544",
+        "name": "Nậm Cuổi",
+        "nameEn": "Nam Cuoi",
+        "fullName": "Xã Nậm Cuổi",
+        "fullNameEn": "Nam Cuoi Commune",
+        "codeName": "nam_cuoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2085",
+        "areaKm2": 177.16
       }
     }
   ]

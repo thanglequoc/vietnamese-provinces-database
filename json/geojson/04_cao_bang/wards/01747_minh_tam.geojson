@@ -5438,11 +5438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Tâm",
-        "unit_code": "01747",
-        "unit_code_name": "minh_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.966",
-        "area_km2": 106.64
+        "code": "01747",
+        "name": "Minh Tâm",
+        "nameEn": "Minh Tam",
+        "fullName": "Xã Minh Tâm",
+        "fullNameEn": "Minh Tam Commune",
+        "codeName": "minh_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.966",
+        "areaKm2": 106.64
       }
     }
   ]

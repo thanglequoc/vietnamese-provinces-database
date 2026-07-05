@@ -4238,11 +4238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Thành",
-        "unit_code": "31411",
-        "unit_code_name": "dai_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.246",
-        "area_km2": 53
+        "code": "31411",
+        "name": "Đại Thành",
+        "nameEn": "Dai Thanh",
+        "fullName": "Phường Đại Thành",
+        "fullNameEn": "Dai Thanh Ward",
+        "codeName": "dai_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.246",
+        "areaKm2": 53
       }
     }
   ]

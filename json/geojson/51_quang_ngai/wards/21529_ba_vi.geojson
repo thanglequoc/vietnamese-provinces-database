@@ -7030,11 +7030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Vì",
-        "unit_code": "21529",
-        "unit_code_name": "ba_vi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1785",
-        "area_km2": 125.4
+        "code": "21529",
+        "name": "Ba Vì",
+        "nameEn": "Ba Vi",
+        "fullName": "Xã Ba Vì",
+        "fullNameEn": "Ba Vi Commune",
+        "codeName": "ba_vi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1785",
+        "areaKm2": 125.4
       }
     }
   ]

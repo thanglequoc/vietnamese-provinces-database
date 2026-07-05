@@ -30394,11 +30394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Sang",
-        "unit_code": "03172",
-        "unit_code_name": "na_sang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2238",
-        "area_km2": 360.15
+        "code": "03172",
+        "name": "Na Sang",
+        "nameEn": "Na Sang",
+        "fullName": "Xã Na Sang",
+        "fullNameEn": "Na Sang Commune",
+        "codeName": "na_sang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2238",
+        "areaKm2": 360.15
       }
     }
   ]

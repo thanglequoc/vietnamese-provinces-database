@@ -6282,11 +6282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Thia",
-        "unit_code": "04681",
-        "unit_code_name": "cau_thia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1008",
-        "area_km2": 31.84
+        "code": "04681",
+        "name": "Cầu Thia",
+        "nameEn": "Cau Thia",
+        "fullName": "Phường Cầu Thia",
+        "fullNameEn": "Cau Thia Ward",
+        "codeName": "cau_thia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1008",
+        "areaKm2": 31.84
       }
     }
   ]

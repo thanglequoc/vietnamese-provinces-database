@@ -16822,11 +16822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Biên Sơn",
-        "unit_code": "07537",
-        "unit_code_name": "bien_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2106",
-        "area_km2": 294.22
+        "code": "07537",
+        "name": "Biên Sơn",
+        "nameEn": "Bien Son",
+        "fullName": "Xã Biên Sơn",
+        "fullNameEn": "Bien Son Commune",
+        "codeName": "bien_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2106",
+        "areaKm2": 294.22
       }
     }
   ]

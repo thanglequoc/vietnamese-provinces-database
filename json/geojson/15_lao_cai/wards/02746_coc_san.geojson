@@ -5002,11 +5002,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cốc San",
-        "unit_code": "02746",
-        "unit_code_name": "coc_san",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1098",
-        "area_km2": 57.2
+        "code": "02746",
+        "name": "Cốc San",
+        "nameEn": "Coc San",
+        "fullName": "Xã Cốc San",
+        "fullNameEn": "Coc San Commune",
+        "codeName": "coc_san",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1098",
+        "areaKm2": 57.2
       }
     }
   ]

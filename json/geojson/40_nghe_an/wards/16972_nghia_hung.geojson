@@ -8918,11 +8918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Hưng",
-        "unit_code": "16972",
-        "unit_code_name": "nghia_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1469",
-        "area_km2": 68.65
+        "code": "16972",
+        "name": "Nghĩa Hưng",
+        "nameEn": "Nghia Hung",
+        "fullName": "Xã Nghĩa Hưng",
+        "fullNameEn": "Nghia Hung Commune",
+        "codeName": "nghia_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1469",
+        "areaKm2": 68.65
       }
     }
   ]

@@ -2326,11 +2326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Phú",
-        "unit_code": "18100",
-        "unit_code_name": "tran_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2059",
-        "area_km2": 29.5
+        "code": "18100",
+        "name": "Trần Phú",
+        "nameEn": "Tran Phu",
+        "fullName": "Phường Trần Phú",
+        "fullNameEn": "Tran Phu Ward",
+        "codeName": "tran_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2059",
+        "areaKm2": 29.5
       }
     }
   ]

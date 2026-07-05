@@ -10414,11 +10414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Giang",
-        "unit_code": "20707",
-        "unit_code_name": "nam_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1919",
-        "area_km2": 262.94
+        "code": "20707",
+        "name": "Nam Giang",
+        "nameEn": "Nam Giang",
+        "fullName": "Xã Nam Giang",
+        "fullNameEn": "Nam Giang Commune",
+        "codeName": "nam_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1919",
+        "areaKm2": 262.94
       }
     }
   ]

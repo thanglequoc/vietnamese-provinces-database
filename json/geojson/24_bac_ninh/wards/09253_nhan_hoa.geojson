@@ -2358,11 +2358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Hoà",
-        "unit_code": "09253",
-        "unit_code_name": "nhan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2181",
-        "area_km2": 20.3
+        "code": "09253",
+        "name": "Nhân Hoà",
+        "nameEn": "Nhan Hoa",
+        "fullName": "Phường Nhân Hoà",
+        "fullNameEn": "Nhan Hoa Ward",
+        "codeName": "nhan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2181",
+        "areaKm2": 20.3
       }
     }
   ]

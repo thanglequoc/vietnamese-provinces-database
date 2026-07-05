@@ -14254,11 +14254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Châu",
-        "unit_code": "31783",
-        "unit_code_name": "vinh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.300",
-        "area_km2": 98.26
+        "code": "31783",
+        "name": "Vĩnh Châu",
+        "nameEn": "Vinh Chau",
+        "fullName": "Phường Vĩnh Châu",
+        "fullNameEn": "Vinh Chau Ward",
+        "codeName": "vinh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.300",
+        "areaKm2": 98.26
       }
     }
   ]

@@ -5750,11 +5750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hiệp",
-        "unit_code": "31273",
-        "unit_code_name": "dong_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.227",
-        "area_km2": 46.25
+        "code": "31273",
+        "name": "Đông Hiệp",
+        "nameEn": "Dong Hiep",
+        "fullName": "Xã Đông Hiệp",
+        "fullNameEn": "Dong Hiep Commune",
+        "codeName": "dong_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.227",
+        "areaKm2": 46.25
       }
     }
   ]

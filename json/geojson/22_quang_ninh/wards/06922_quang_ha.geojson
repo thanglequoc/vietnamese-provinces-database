@@ -29458,11 +29458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Hà",
-        "unit_code": "06922",
-        "unit_code_name": "quang_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1886",
-        "area_km2": 134.37
+        "code": "06922",
+        "name": "Quảng Hà",
+        "nameEn": "Quang Ha",
+        "fullName": "Xã Quảng Hà",
+        "fullNameEn": "Quang Ha Commune",
+        "codeName": "quang_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1886",
+        "areaKm2": 134.37
       }
     }
   ]

@@ -3986,11 +3986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận An",
-        "unit_code": "19900",
-        "unit_code_name": "thuan_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1700",
-        "area_km2": 36.48
+        "code": "19900",
+        "name": "Thuận An",
+        "nameEn": "Thuan An",
+        "fullName": "Phường Thuận An",
+        "fullNameEn": "Thuan An Ward",
+        "codeName": "thuan_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1700",
+        "areaKm2": 36.48
       }
     }
   ]

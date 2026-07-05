@@ -890,11 +890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Thanh Nghị",
-        "unit_code": "10532",
-        "unit_code_name": "le_thanh_nghi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.850",
-        "area_km2": 8.04
+        "code": "10532",
+        "name": "Lê Thanh Nghị",
+        "nameEn": "Le Thanh Nghi",
+        "fullName": "Phường Lê Thanh Nghị",
+        "fullNameEn": "Le Thanh Nghi Ward",
+        "codeName": "le_thanh_nghi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.850",
+        "areaKm2": 8.04
       }
     }
   ]

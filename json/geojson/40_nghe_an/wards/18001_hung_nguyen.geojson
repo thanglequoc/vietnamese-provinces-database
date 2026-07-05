@@ -4838,11 +4838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Nguyên",
-        "unit_code": "18001",
-        "unit_code_name": "hung_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1535",
-        "area_km2": 46.14
+        "code": "18001",
+        "name": "Hưng Nguyên",
+        "nameEn": "Hung Nguyen",
+        "fullName": "Xã Hưng Nguyên",
+        "fullNameEn": "Hung Nguyen Commune",
+        "codeName": "hung_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1535",
+        "areaKm2": 46.14
       }
     }
   ]

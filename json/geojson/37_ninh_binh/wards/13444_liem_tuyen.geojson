@@ -3154,11 +3154,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liêm Tuyền",
-        "unit_code": "13444",
-        "unit_code_name": "liem_tuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2790",
-        "area_km2": 21.44
+        "code": "13444",
+        "name": "Liêm Tuyền",
+        "nameEn": "Liem Tuyen",
+        "fullName": "Phường Liêm Tuyền",
+        "fullNameEn": "Liem Tuyen Ward",
+        "codeName": "liem_tuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2790",
+        "areaKm2": 21.44
       }
     }
   ]

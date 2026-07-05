@@ -8882,11 +8882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Phước Tây",
-        "unit_code": "21985",
-        "unit_code_name": "tuy_phuoc_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3017",
-        "area_km2": 68.81
+        "code": "21985",
+        "name": "Tuy Phước Tây",
+        "nameEn": "Tuy Phuoc Tay",
+        "fullName": "Xã Tuy Phước Tây",
+        "fullNameEn": "Tuy Phuoc Tay Commune",
+        "codeName": "tuy_phuoc_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3017",
+        "areaKm2": 68.81
       }
     }
   ]

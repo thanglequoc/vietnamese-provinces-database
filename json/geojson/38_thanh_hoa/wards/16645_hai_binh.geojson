@@ -2398,11 +2398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Bình",
-        "unit_code": "16645",
-        "unit_code_name": "hai_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2574",
-        "area_km2": 37.74
+        "code": "16645",
+        "name": "Hải Bình",
+        "nameEn": "Hai Binh",
+        "fullName": "Phường Hải Bình",
+        "fullNameEn": "Hai Binh Ward",
+        "codeName": "hai_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2574",
+        "areaKm2": 37.74
       }
     }
   ]

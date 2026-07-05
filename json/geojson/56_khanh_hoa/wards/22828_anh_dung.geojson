@@ -11474,11 +11474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Anh Dũng",
-        "unit_code": "22828",
-        "unit_code_name": "anh_dung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1150",
-        "area_km2": 320.6
+        "code": "22828",
+        "name": "Anh Dũng",
+        "nameEn": "Anh Dung",
+        "fullName": "Xã Anh Dũng",
+        "fullNameEn": "Anh Dung Commune",
+        "codeName": "anh_dung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1150",
+        "areaKm2": 320.6
       }
     }
   ]

@@ -7986,11 +7986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Mung",
-        "unit_code": "04123",
-        "unit_code_name": "chieng_mung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1389",
-        "area_km2": 142.14
+        "code": "04123",
+        "name": "Chiềng Mung",
+        "nameEn": "Chieng Mung",
+        "fullName": "Xã Chiềng Mung",
+        "fullNameEn": "Chieng Mung Commune",
+        "codeName": "chieng_mung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1389",
+        "areaKm2": 142.14
       }
     }
   ]

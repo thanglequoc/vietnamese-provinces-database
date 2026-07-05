@@ -3074,11 +3074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Lầm",
-        "unit_code": "06676",
-        "unit_code_name": "ha_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1867",
-        "area_km2": 11.99
+        "code": "06676",
+        "name": "Hà Lầm",
+        "nameEn": "Ha Lam",
+        "fullName": "Phường Hà Lầm",
+        "fullNameEn": "Ha Lam Ward",
+        "codeName": "ha_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1867",
+        "areaKm2": 11.99
       }
     }
   ]

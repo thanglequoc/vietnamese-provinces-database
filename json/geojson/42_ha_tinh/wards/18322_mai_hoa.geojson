@@ -3594,11 +3594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mai Hoa",
-        "unit_code": "18322",
-        "unit_code_name": "mai_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2039",
-        "area_km2": 45.85
+        "code": "18322",
+        "name": "Mai Hoa",
+        "nameEn": "Mai Hoa",
+        "fullName": "Xã Mai Hoa",
+        "fullNameEn": "Mai Hoa Commune",
+        "codeName": "mai_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2039",
+        "areaKm2": 45.85
       }
     }
   ]

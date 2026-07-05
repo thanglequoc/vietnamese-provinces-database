@@ -8994,11 +8994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Nèn",
-        "unit_code": "03194",
-        "unit_code_name": "nam_nen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2242",
-        "area_km2": 175
+        "code": "03194",
+        "name": "Nậm Nèn",
+        "nameEn": "Nam Nen",
+        "fullName": "Xã Nậm Nèn",
+        "fullNameEn": "Nam Nen Commune",
+        "codeName": "nam_nen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2242",
+        "areaKm2": 175
       }
     }
   ]

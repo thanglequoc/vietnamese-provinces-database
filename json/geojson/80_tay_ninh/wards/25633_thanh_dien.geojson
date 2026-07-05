@@ -4658,11 +4658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Điền",
-        "unit_code": "25633",
-        "unit_code_name": "thanh_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2741",
-        "area_km2": 30.73
+        "code": "25633",
+        "name": "Thanh Điền",
+        "nameEn": "Thanh Dien",
+        "fullName": "Phường Thanh Điền",
+        "fullNameEn": "Thanh Dien Ward",
+        "codeName": "thanh_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2741",
+        "areaKm2": 30.73
       }
     }
   ]

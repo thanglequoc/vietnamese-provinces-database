@@ -8770,11 +8770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lùng Tám",
-        "unit_code": "00901",
-        "unit_code_name": "lung_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2387",
-        "area_km2": 124.14
+        "code": "00901",
+        "name": "Lùng Tám",
+        "nameEn": "Lung Tam",
+        "fullName": "Xã Lùng Tám",
+        "fullNameEn": "Lung Tam Commune",
+        "codeName": "lung_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2387",
+        "areaKm2": 124.14
       }
     }
   ]

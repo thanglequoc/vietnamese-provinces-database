@@ -11682,11 +11682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Khánh Vĩnh",
-        "unit_code": "22615",
-        "unit_code_name": "bac_khanh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1116",
-        "area_km2": 144.2
+        "code": "22615",
+        "name": "Bắc Khánh Vĩnh",
+        "nameEn": "Bac Khanh Vinh",
+        "fullName": "Xã Bắc Khánh Vĩnh",
+        "fullNameEn": "Bac Khanh Vinh Commune",
+        "codeName": "bac_khanh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1116",
+        "areaKm2": 144.2
       }
     }
   ]

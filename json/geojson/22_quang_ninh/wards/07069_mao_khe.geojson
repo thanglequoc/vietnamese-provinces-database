@@ -4250,11 +4250,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mạo Khê",
-        "unit_code": "07069",
-        "unit_code_name": "mao_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1899",
-        "area_km2": 46.55
+        "code": "07069",
+        "name": "Mạo Khê",
+        "nameEn": "Mao Khe",
+        "fullName": "Phường Mạo Khê",
+        "fullNameEn": "Mao Khe Ward",
+        "codeName": "mao_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1899",
+        "areaKm2": 46.55
       }
     }
   ]

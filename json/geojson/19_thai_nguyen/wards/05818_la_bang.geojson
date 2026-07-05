@@ -10022,11 +10022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Bằng",
-        "unit_code": "05818",
-        "unit_code_name": "la_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1196",
-        "area_km2": 60.84
+        "code": "05818",
+        "name": "La Bằng",
+        "nameEn": "La Bang",
+        "fullName": "Xã La Bằng",
+        "fullNameEn": "La Bang Commune",
+        "codeName": "la_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1196",
+        "areaKm2": 60.84
       }
     }
   ]

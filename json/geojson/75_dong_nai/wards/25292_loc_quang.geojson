@@ -5378,11 +5378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Quang",
-        "unit_code": "25292",
-        "unit_code_name": "loc_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2285",
-        "area_km2": 105
+        "code": "25292",
+        "name": "Lộc Quang",
+        "nameEn": "Loc Quang",
+        "fullName": "Xã Lộc Quang",
+        "fullNameEn": "Loc Quang Commune",
+        "codeName": "loc_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2285",
+        "areaKm2": 105
       }
     }
   ]

@@ -6074,11 +6074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy An Nam",
-        "unit_code": "22153",
-        "unit_code_name": "tuy_an_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2907",
-        "area_km2": 69.99
+        "code": "22153",
+        "name": "Tuy An Nam",
+        "nameEn": "Tuy An Nam",
+        "fullName": "Xã Tuy An Nam",
+        "fullNameEn": "Tuy An Nam Commune",
+        "codeName": "tuy_an_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2907",
+        "areaKm2": 69.99
       }
     }
   ]

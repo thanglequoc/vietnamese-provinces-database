@@ -4810,11 +4810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Sa",
-        "unit_code": "20333",
-        "unit_code_name": "hoang_sa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3293",
-        "area_km2": 350
+        "code": "20333",
+        "name": "Hoàng Sa",
+        "nameEn": "Hoang Sa",
+        "fullName": "Đặc khu Hoàng Sa",
+        "fullNameEn": "Hoang Sa Special administrative region",
+        "codeName": "hoang_sa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3293",
+        "areaKm2": 350
       }
     }
   ]

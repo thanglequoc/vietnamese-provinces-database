@@ -19622,11 +19622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Lộc",
-        "unit_code": "25333",
-        "unit_code_name": "an_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2291",
-        "area_km2": 88.7
+        "code": "25333",
+        "name": "An Lộc",
+        "nameEn": "An Loc",
+        "fullName": "Phường An Lộc",
+        "fullNameEn": "An Loc Ward",
+        "codeName": "an_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2291",
+        "areaKm2": 88.7
       }
     }
   ]

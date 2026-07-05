@@ -5526,11 +5526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dương Minh Châu",
-        "unit_code": "25552",
-        "unit_code_name": "duong_minh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2749",
-        "area_km2": 177.15
+        "code": "25552",
+        "name": "Dương Minh Châu",
+        "nameEn": "Duong Minh Chau",
+        "fullName": "Xã Dương Minh Châu",
+        "fullNameEn": "Duong Minh Chau Commune",
+        "codeName": "duong_minh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2749",
+        "areaKm2": 177.15
       }
     }
   ]

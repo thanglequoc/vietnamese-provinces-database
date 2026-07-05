@@ -2010,11 +2010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kinh Môn",
-        "unit_code": "10675",
-        "unit_code_name": "kinh_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.882",
-        "area_km2": 11.47
+        "code": "10675",
+        "name": "Kinh Môn",
+        "nameEn": "Kinh Mon",
+        "fullName": "Phường Kinh Môn",
+        "fullNameEn": "Kinh Mon Ward",
+        "codeName": "kinh_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.882",
+        "areaKm2": 11.47
       }
     }
   ]

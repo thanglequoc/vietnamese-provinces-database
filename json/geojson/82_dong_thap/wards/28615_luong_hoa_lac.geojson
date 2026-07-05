@@ -4870,11 +4870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Hoà Lạc",
-        "unit_code": "28615",
-        "unit_code_name": "luong_hoa_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.484",
-        "area_km2": 35.3
+        "code": "28615",
+        "name": "Lương Hoà Lạc",
+        "nameEn": "Luong Hoa Lac",
+        "fullName": "Xã Lương Hoà Lạc",
+        "fullNameEn": "Luong Hoa Lac Commune",
+        "codeName": "luong_hoa_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.484",
+        "areaKm2": 35.3
       }
     }
   ]

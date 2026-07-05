@@ -12254,11 +12254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đakrông",
-        "unit_code": "19564",
-        "unit_code_name": "dakrong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.577",
-        "area_km2": 359.29
+        "code": "19564",
+        "name": "Đakrông",
+        "nameEn": "Dakrong",
+        "fullName": "Xã Đakrông",
+        "fullNameEn": "Dakrong Commune",
+        "codeName": "dakrong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.577",
+        "areaKm2": 359.29
       }
     }
   ]

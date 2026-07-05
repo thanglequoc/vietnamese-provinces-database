@@ -3510,11 +3510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Thanh",
-        "unit_code": "16000",
-        "unit_code_name": "hoang_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2603",
-        "area_km2": 23.24
+        "code": "16000",
+        "name": "Hoằng Thanh",
+        "nameEn": "Hoang Thanh",
+        "fullName": "Xã Hoằng Thanh",
+        "fullNameEn": "Hoang Thanh Commune",
+        "codeName": "hoang_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2603",
+        "areaKm2": 23.24
       }
     }
   ]

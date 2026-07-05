@@ -14006,11 +14006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chư Sê",
-        "unit_code": "23941",
-        "unit_code_name": "chu_se",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2950",
-        "area_km2": 124.93
+        "code": "23941",
+        "name": "Chư Sê",
+        "nameEn": "Chu Se",
+        "fullName": "Xã Chư Sê",
+        "fullNameEn": "Chu Se Commune",
+        "codeName": "chu_se",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2950",
+        "areaKm2": 124.93
       }
     }
   ]

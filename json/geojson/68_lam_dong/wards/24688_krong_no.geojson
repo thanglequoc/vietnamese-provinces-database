@@ -23138,11 +23138,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Nô",
-        "unit_code": "24688",
-        "unit_code_name": "krong_no",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2805",
-        "area_km2": 159.82
+        "code": "24688",
+        "name": "Krông Nô",
+        "nameEn": "Krong No",
+        "fullName": "Xã Krông Nô",
+        "fullNameEn": "Krong No Commune",
+        "codeName": "krong_no",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2805",
+        "areaKm2": 159.82
       }
     }
   ]

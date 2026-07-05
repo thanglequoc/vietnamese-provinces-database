@@ -5758,11 +5758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Chanh",
-        "unit_code": "04117",
-        "unit_code_name": "muong_chanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1388",
-        "area_km2": 101.47
+        "code": "04117",
+        "name": "Mường Chanh",
+        "nameEn": "Muong Chanh",
+        "fullName": "Xã Mường Chanh",
+        "fullNameEn": "Muong Chanh Commune",
+        "codeName": "muong_chanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1388",
+        "areaKm2": 101.47
       }
     }
   ]

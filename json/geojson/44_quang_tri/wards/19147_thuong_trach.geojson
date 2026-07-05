@@ -18586,11 +18586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Trạch",
-        "unit_code": "19147",
-        "unit_code_name": "thuong_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.624",
-        "area_km2": 1095.78
+        "code": "19147",
+        "name": "Thượng Trạch",
+        "nameEn": "Thuong Trach",
+        "fullName": "Xã Thượng Trạch",
+        "fullNameEn": "Thuong Trach Commune",
+        "codeName": "thuong_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.624",
+        "areaKm2": 1095.78
       }
     }
   ]

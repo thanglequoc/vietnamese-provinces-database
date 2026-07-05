@@ -8098,11 +8098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bố Hạ",
-        "unit_code": "07294",
-        "unit_code_name": "bo_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2162",
-        "area_km2": 41.32
+        "code": "07294",
+        "name": "Bố Hạ",
+        "nameEn": "Bo Ha",
+        "fullName": "Xã Bố Hạ",
+        "fullNameEn": "Bo Ha Commune",
+        "codeName": "bo_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2162",
+        "areaKm2": 41.32
       }
     }
   ]

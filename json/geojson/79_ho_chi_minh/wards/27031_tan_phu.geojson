@@ -990,11 +990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phú",
-        "unit_code": "27031",
-        "unit_code_name": "tan_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.75",
-        "area_km2": 2.52
+        "code": "27031",
+        "name": "Tân Phú",
+        "nameEn": "Tan Phu",
+        "fullName": "Phường Tân Phú",
+        "fullNameEn": "Tan Phu Ward",
+        "codeName": "tan_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.75",
+        "areaKm2": 2.52
       }
     }
   ]

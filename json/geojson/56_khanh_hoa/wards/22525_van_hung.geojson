@@ -8458,11 +8458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Hưng",
-        "unit_code": "22525",
-        "unit_code_name": "van_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1108",
-        "area_km2": 86.1
+        "code": "22525",
+        "name": "Vạn Hưng",
+        "nameEn": "Van Hung",
+        "fullName": "Xã Vạn Hưng",
+        "fullNameEn": "Van Hung Commune",
+        "codeName": "van_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1108",
+        "areaKm2": 86.1
       }
     }
   ]

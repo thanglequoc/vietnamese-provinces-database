@@ -18954,11 +18954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Kiết",
-        "unit_code": "24265",
-        "unit_code_name": "ea_kiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2839",
-        "area_km2": 201.83
+        "code": "24265",
+        "name": "Ea Kiết",
+        "nameEn": "Ea Kiet",
+        "fullName": "Xã Ea Kiết",
+        "fullNameEn": "Ea Kiet Commune",
+        "codeName": "ea_kiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2839",
+        "areaKm2": 201.83
       }
     }
   ]

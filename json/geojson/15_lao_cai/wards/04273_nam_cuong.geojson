@@ -4438,11 +4438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Cường",
-        "unit_code": "04273",
-        "unit_code_name": "nam_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1006",
-        "area_km2": 46.09
+        "code": "04273",
+        "name": "Nam Cường",
+        "nameEn": "Nam Cuong",
+        "fullName": "Phường Nam Cường",
+        "fullNameEn": "Nam Cuong Ward",
+        "codeName": "nam_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1006",
+        "areaKm2": 46.09
       }
     }
   ]

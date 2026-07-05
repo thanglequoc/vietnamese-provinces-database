@@ -3142,11 +3142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội Cư",
-        "unit_code": "28393",
-        "unit_code_name": "hoi_cu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.457",
-        "area_km2": 48.7
+        "code": "28393",
+        "name": "Hội Cư",
+        "nameEn": "Hoi Cu",
+        "fullName": "Xã Hội Cư",
+        "fullNameEn": "Hoi Cu Commune",
+        "codeName": "hoi_cu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.457",
+        "areaKm2": 48.7
       }
     }
   ]

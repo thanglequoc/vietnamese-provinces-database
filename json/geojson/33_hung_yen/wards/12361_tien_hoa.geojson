@@ -2430,11 +2430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Hoa",
-        "unit_code": "12361",
-        "unit_code_name": "tien_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.727",
-        "area_km2": 21.65
+        "code": "12361",
+        "name": "Tiên Hoa",
+        "nameEn": "Tien Hoa",
+        "fullName": "Xã Tiên Hoa",
+        "fullNameEn": "Tien Hoa Commune",
+        "codeName": "tien_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.727",
+        "areaKm2": 21.65
       }
     }
   ]

@@ -2402,11 +2402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Trì",
-        "unit_code": "00640",
-        "unit_code_name": "thanh_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3183",
-        "area_km2": 9.94
+        "code": "00640",
+        "name": "Thanh Trì",
+        "nameEn": "Thanh Tri",
+        "fullName": "Xã Thanh Trì",
+        "fullNameEn": "Thanh Tri Commune",
+        "codeName": "thanh_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3183",
+        "areaKm2": 9.94
       }
     }
   ]

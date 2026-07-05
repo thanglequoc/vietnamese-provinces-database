@@ -13190,11 +13190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Lạc",
-        "unit_code": "18838",
-        "unit_code_name": "ky_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2013",
-        "area_km2": 169.13
+        "code": "18838",
+        "name": "Kỳ Lạc",
+        "nameEn": "Ky Lac",
+        "fullName": "Xã Kỳ Lạc",
+        "fullNameEn": "Ky Lac Commune",
+        "codeName": "ky_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2013",
+        "areaKm2": 169.13
       }
     }
   ]

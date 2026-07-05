@@ -842,11 +842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Lớn",
-        "unit_code": "27343",
-        "unit_code_name": "cho_lon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.97",
-        "area_km2": 1.67
+        "code": "27343",
+        "name": "Chợ Lớn",
+        "nameEn": "Cho Lon",
+        "fullName": "Phường Chợ Lớn",
+        "fullNameEn": "Cho Lon Ward",
+        "codeName": "cho_lon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.97",
+        "areaKm2": 1.67
       }
     }
   ]

@@ -10862,11 +10862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Mỹ",
-        "unit_code": "29455",
-        "unit_code_name": "hiep_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2509",
-        "area_km2": 67.45
+        "code": "29455",
+        "name": "Hiệp Mỹ",
+        "nameEn": "Hiep My",
+        "fullName": "Xã Hiệp Mỹ",
+        "fullNameEn": "Hiep My Commune",
+        "codeName": "hiep_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2509",
+        "areaKm2": 67.45
       }
     }
   ]

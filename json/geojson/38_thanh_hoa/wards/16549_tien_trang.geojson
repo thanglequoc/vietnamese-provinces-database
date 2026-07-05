@@ -3934,11 +3934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Trang",
-        "unit_code": "16549",
-        "unit_code_name": "tien_trang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2580",
-        "area_km2": 17.75
+        "code": "16549",
+        "name": "Tiên Trang",
+        "nameEn": "Tien Trang",
+        "fullName": "Xã Tiên Trang",
+        "fullNameEn": "Tien Trang Commune",
+        "codeName": "tien_trang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2580",
+        "areaKm2": 17.75
       }
     }
   ]

@@ -4398,11 +4398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sen Ngư",
-        "unit_code": "19288",
-        "unit_code_name": "sen_ngu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.637",
-        "area_km2": 120.84
+        "code": "19288",
+        "name": "Sen Ngư",
+        "nameEn": "Sen Ngu",
+        "fullName": "Xã Sen Ngư",
+        "fullNameEn": "Sen Ngu Commune",
+        "codeName": "sen_ngu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.637",
+        "areaKm2": 120.84
       }
     }
   ]

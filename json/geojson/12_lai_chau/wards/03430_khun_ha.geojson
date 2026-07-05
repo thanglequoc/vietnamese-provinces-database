@@ -9006,11 +9006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khun Há",
-        "unit_code": "03430",
-        "unit_code_name": "khun_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2065",
-        "area_km2": 149.35
+        "code": "03430",
+        "name": "Khun Há",
+        "nameEn": "Khun Ha",
+        "fullName": "Xã Khun Há",
+        "fullNameEn": "Khun Ha Commune",
+        "codeName": "khun_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2065",
+        "areaKm2": 149.35
       }
     }
   ]

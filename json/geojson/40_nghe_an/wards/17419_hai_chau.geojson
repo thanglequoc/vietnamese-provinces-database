@@ -3282,11 +3282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Châu",
-        "unit_code": "17419",
-        "unit_code_name": "hai_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1443",
-        "area_km2": 29.13
+        "code": "17419",
+        "name": "Hải Châu",
+        "nameEn": "Hai Chau",
+        "fullName": "Xã Hải Châu",
+        "fullNameEn": "Hai Chau Commune",
+        "codeName": "hai_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1443",
+        "areaKm2": 29.13
       }
     }
   ]

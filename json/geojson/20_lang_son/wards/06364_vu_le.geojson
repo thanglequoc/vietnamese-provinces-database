@@ -7210,11 +7210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Lễ",
-        "unit_code": "06364",
-        "unit_code_name": "vu_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1820",
-        "area_km2": 92.1
+        "code": "06364",
+        "name": "Vũ Lễ",
+        "nameEn": "Vu Le",
+        "fullName": "Xã Vũ Lễ",
+        "fullNameEn": "Vu Le Commune",
+        "codeName": "vu_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1820",
+        "areaKm2": 92.1
       }
     }
   ]

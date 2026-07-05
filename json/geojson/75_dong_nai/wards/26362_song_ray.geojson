@@ -9042,11 +9042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Ray",
-        "unit_code": "26362",
-        "unit_code_name": "song_ray",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3132",
-        "area_km2": 65.6
+        "code": "26362",
+        "name": "Sông Ray",
+        "nameEn": "Song Ray",
+        "fullName": "Xã Sông Ray",
+        "fullNameEn": "Song Ray Commune",
+        "codeName": "song_ray",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3132",
+        "areaKm2": 65.6
       }
     }
   ]

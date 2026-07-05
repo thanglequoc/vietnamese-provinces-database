@@ -2338,11 +2338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Lộc",
-        "unit_code": "18409",
-        "unit_code_name": "hong_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2004",
-        "area_km2": 33.78
+        "code": "18409",
+        "name": "Hồng Lộc",
+        "nameEn": "Hong Loc",
+        "fullName": "Xã Hồng Lộc",
+        "fullNameEn": "Hong Loc Commune",
+        "codeName": "hong_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2004",
+        "areaKm2": 33.78
       }
     }
   ]

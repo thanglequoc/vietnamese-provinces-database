@@ -2302,11 +2302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Nguyên",
-        "unit_code": "09385",
-        "unit_code_name": "dong_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2189",
-        "area_km2": 12.64
+        "code": "09385",
+        "name": "Đồng Nguyên",
+        "nameEn": "Dong Nguyen",
+        "fullName": "Phường Đồng Nguyên",
+        "fullNameEn": "Dong Nguyen Ward",
+        "codeName": "dong_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2189",
+        "areaKm2": 12.64
       }
     }
   ]

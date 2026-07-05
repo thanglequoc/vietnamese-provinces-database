@@ -9042,11 +9042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội Sơn",
-        "unit_code": "21868",
-        "unit_code_name": "hoi_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2999",
-        "area_km2": 182.34
+        "code": "21868",
+        "name": "Hội Sơn",
+        "nameEn": "Hoi Son",
+        "fullName": "Xã Hội Sơn",
+        "fullNameEn": "Hoi Son Commune",
+        "codeName": "hoi_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2999",
+        "areaKm2": 182.34
       }
     }
   ]

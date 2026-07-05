@@ -11634,11 +11634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Lý",
-        "unit_code": "06496",
-        "unit_code_name": "nhan_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1803",
-        "area_km2": 126.86
+        "code": "06496",
+        "name": "Nhân Lý",
+        "nameEn": "Nhan Ly",
+        "fullName": "Xã Nhân Lý",
+        "fullNameEn": "Nhan Ly Commune",
+        "codeName": "nhan_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1803",
+        "areaKm2": 126.86
       }
     }
   ]

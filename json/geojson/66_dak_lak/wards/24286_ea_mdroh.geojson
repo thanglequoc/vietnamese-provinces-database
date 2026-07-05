@@ -22030,11 +22030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea M'Droh",
-        "unit_code": "24286",
-        "unit_code_name": "ea_mdroh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2840",
-        "area_km2": 134
+        "code": "24286",
+        "name": "Ea M'Droh",
+        "nameEn": "Ea M'Droh",
+        "fullName": "Xã Ea M'Droh",
+        "fullNameEn": "Ea M'Droh Commune",
+        "codeName": "ea_mdroh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2840",
+        "areaKm2": 134
       }
     }
   ]

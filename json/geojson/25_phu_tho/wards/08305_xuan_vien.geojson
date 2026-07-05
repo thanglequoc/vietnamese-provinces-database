@@ -4906,11 +4906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Viên",
-        "unit_code": "08305",
-        "unit_code_name": "xuan_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1556",
-        "area_km2": 46.19
+        "code": "08305",
+        "name": "Xuân Viên",
+        "nameEn": "Xuan Vien",
+        "fullName": "Xã Xuân Viên",
+        "fullNameEn": "Xuan Vien Commune",
+        "codeName": "xuan_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1556",
+        "areaKm2": 46.19
       }
     }
   ]

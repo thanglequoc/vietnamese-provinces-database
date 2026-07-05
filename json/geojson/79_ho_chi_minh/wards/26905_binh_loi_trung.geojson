@@ -5922,11 +5922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Lợi Trung",
-        "unit_code": "26905",
-        "unit_code_name": "binh_loi_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.60",
-        "area_km2": 3.89
+        "code": "26905",
+        "name": "Bình Lợi Trung",
+        "nameEn": "Binh Loi Trung",
+        "fullName": "Phường Bình Lợi Trung",
+        "fullNameEn": "Binh Loi Trung Ward",
+        "codeName": "binh_loi_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.60",
+        "areaKm2": 3.89
       }
     }
   ]

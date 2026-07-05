@@ -2118,11 +2118,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Mô",
-        "unit_code": "14701",
-        "unit_code_name": "yen_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.775",
-        "area_km2": 28.6
+        "code": "14701",
+        "name": "Yên Mô",
+        "nameEn": "Yen Mo",
+        "fullName": "Xã Yên Mô",
+        "fullNameEn": "Yen Mo Commune",
+        "codeName": "yen_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.775",
+        "areaKm2": 28.6
       }
     }
   ]

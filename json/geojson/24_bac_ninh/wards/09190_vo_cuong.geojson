@@ -3910,11 +3910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Võ Cường",
-        "unit_code": "09190",
-        "unit_code_name": "vo_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2140",
-        "area_km2": 18.08
+        "code": "09190",
+        "name": "Võ Cường",
+        "nameEn": "Vo Cuong",
+        "fullName": "Phường Võ Cường",
+        "fullNameEn": "Vo Cuong Ward",
+        "codeName": "vo_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2140",
+        "areaKm2": 18.08
       }
     }
   ]

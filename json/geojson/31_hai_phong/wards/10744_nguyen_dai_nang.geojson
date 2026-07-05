@@ -1406,11 +1406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Đại Năng",
-        "unit_code": "10744",
-        "unit_code_name": "nguyen_dai_nang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.881",
-        "area_km2": 17.4
+        "code": "10744",
+        "name": "Nguyễn Đại Năng",
+        "nameEn": "Nguyen Dai Nang",
+        "fullName": "Phường Nguyễn Đại Năng",
+        "fullNameEn": "Nguyen Dai Nang Ward",
+        "codeName": "nguyen_dai_nang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.881",
+        "areaKm2": 17.4
       }
     }
   ]

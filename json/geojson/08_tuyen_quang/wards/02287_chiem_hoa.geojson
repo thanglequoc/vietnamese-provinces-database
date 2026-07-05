@@ -10306,11 +10306,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiêm Hoá",
-        "unit_code": "02287",
-        "unit_code_name": "chiem_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2321",
-        "area_km2": 111.65
+        "code": "02287",
+        "name": "Chiêm Hoá",
+        "nameEn": "Chiem Hoa",
+        "fullName": "Xã Chiêm Hoá",
+        "fullNameEn": "Chiem Hoa Commune",
+        "codeName": "chiem_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2321",
+        "areaKm2": 111.65
       }
     }
   ]

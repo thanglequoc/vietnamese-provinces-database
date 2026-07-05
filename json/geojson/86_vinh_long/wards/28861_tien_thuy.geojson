@@ -9346,11 +9346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Thuỷ",
-        "unit_code": "28861",
-        "unit_code_name": "tien_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2443",
-        "area_km2": 33.81
+        "code": "28861",
+        "name": "Tiên Thuỷ",
+        "nameEn": "Tien Thuy",
+        "fullName": "Xã Tiên Thuỷ",
+        "fullNameEn": "Tien Thuy Commune",
+        "codeName": "tien_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2443",
+        "areaKm2": 33.81
       }
     }
   ]

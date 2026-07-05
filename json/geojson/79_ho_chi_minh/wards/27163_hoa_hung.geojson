@@ -750,11 +750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Hưng",
-        "unit_code": "27163",
-        "unit_code_name": "hoa_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.85",
-        "area_km2": 2.59
+        "code": "27163",
+        "name": "Hoà Hưng",
+        "nameEn": "Hoa Hung",
+        "fullName": "Phường Hoà Hưng",
+        "fullNameEn": "Hoa Hung Ward",
+        "codeName": "hoa_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.85",
+        "areaKm2": 2.59
       }
     }
   ]

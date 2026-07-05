@@ -12694,11 +12694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Sơn",
-        "unit_code": "18952",
-        "unit_code_name": "tuyen_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.606",
-        "area_km2": 132.14
+        "code": "18952",
+        "name": "Tuyên Sơn",
+        "nameEn": "Tuyen Son",
+        "fullName": "Xã Tuyên Sơn",
+        "fullNameEn": "Tuyen Son Commune",
+        "codeName": "tuyen_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.606",
+        "areaKm2": 132.14
       }
     }
   ]

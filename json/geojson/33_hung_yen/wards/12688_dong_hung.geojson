@@ -3606,11 +3606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hưng",
-        "unit_code": "12688",
-        "unit_code_name": "dong_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.655",
-        "area_km2": 24.95
+        "code": "12688",
+        "name": "Đông Hưng",
+        "nameEn": "Dong Hung",
+        "fullName": "Xã Đông Hưng",
+        "fullNameEn": "Dong Hung Commune",
+        "codeName": "dong_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.655",
+        "areaKm2": 24.95
       }
     }
   ]

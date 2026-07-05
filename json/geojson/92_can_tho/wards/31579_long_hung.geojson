@@ -6198,11 +6198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hưng",
-        "unit_code": "31579",
-        "unit_code_name": "long_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.272",
-        "area_km2": 79.71
+        "code": "31579",
+        "name": "Long Hưng",
+        "nameEn": "Long Hung",
+        "fullName": "Xã Long Hưng",
+        "fullNameEn": "Long Hung Commune",
+        "codeName": "long_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.272",
+        "areaKm2": 79.71
       }
     }
   ]

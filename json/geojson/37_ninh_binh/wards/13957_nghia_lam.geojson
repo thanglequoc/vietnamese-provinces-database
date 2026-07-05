@@ -2354,11 +2354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Lâm",
-        "unit_code": "13957",
-        "unit_code_name": "nghia_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.821",
-        "area_km2": 28.1
+        "code": "13957",
+        "name": "Nghĩa Lâm",
+        "nameEn": "Nghia Lam",
+        "fullName": "Xã Nghĩa Lâm",
+        "fullNameEn": "Nghia Lam Commune",
+        "codeName": "nghia_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.821",
+        "areaKm2": 28.1
       }
     }
   ]

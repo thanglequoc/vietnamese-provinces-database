@@ -12842,11 +12842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mèo Vạc",
-        "unit_code": "00769",
-        "unit_code_name": "meo_vac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2372",
-        "area_km2": 92.21
+        "code": "00769",
+        "name": "Mèo Vạc",
+        "nameEn": "Meo Vac",
+        "fullName": "Xã Mèo Vạc",
+        "fullNameEn": "Meo Vac Commune",
+        "codeName": "meo_vac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2372",
+        "areaKm2": 92.21
       }
     }
   ]

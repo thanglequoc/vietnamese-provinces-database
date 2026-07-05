@@ -7602,11 +7602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thủ Dầu Một",
-        "unit_code": "25747",
-        "unit_code_name": "thu_dau_mot",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2",
-        "area_km2": 15.68
+        "code": "25747",
+        "name": "Thủ Dầu Một",
+        "nameEn": "Thu Dau Mot",
+        "fullName": "Phường Thủ Dầu Một",
+        "fullNameEn": "Thu Dau Mot Ward",
+        "codeName": "thu_dau_mot",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2",
+        "areaKm2": 15.68
       }
     }
   ]

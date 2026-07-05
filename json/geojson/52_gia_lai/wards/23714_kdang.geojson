@@ -24978,11 +24978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "KDang",
-        "unit_code": "23714",
-        "unit_code_name": "kdang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3055",
-        "area_km2": 178.88
+        "code": "23714",
+        "name": "KDang",
+        "nameEn": "KDang",
+        "fullName": "Xã KDang",
+        "fullNameEn": "KDang Commune",
+        "codeName": "kdang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3055",
+        "areaKm2": 178.88
       }
     }
   ]

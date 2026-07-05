@@ -7786,11 +7786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Trị",
-        "unit_code": "29089",
-        "unit_code_name": "thanh_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2468",
-        "area_km2": 73.26
+        "code": "29089",
+        "name": "Thạnh Trị",
+        "nameEn": "Thanh Tri",
+        "fullName": "Xã Thạnh Trị",
+        "fullNameEn": "Thanh Tri Commune",
+        "codeName": "thanh_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2468",
+        "areaKm2": 73.26
       }
     }
   ]

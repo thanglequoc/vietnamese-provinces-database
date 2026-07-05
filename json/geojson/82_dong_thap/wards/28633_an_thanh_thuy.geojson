@@ -10202,11 +10202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Thạnh Thuỷ",
-        "unit_code": "28633",
-        "unit_code_name": "an_thanh_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.486",
-        "area_km2": 42.7
+        "code": "28633",
+        "name": "An Thạnh Thuỷ",
+        "nameEn": "An Thanh Thuy",
+        "fullName": "Xã An Thạnh Thuỷ",
+        "fullNameEn": "An Thanh Thuy Commune",
+        "codeName": "an_thanh_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.486",
+        "areaKm2": 42.7
       }
     }
   ]

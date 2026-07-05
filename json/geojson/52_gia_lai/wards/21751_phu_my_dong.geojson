@@ -9498,11 +9498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Mỹ Đông",
-        "unit_code": "21751",
-        "unit_code_name": "phu_my_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2988",
-        "area_km2": 85.62
+        "code": "21751",
+        "name": "Phù Mỹ Đông",
+        "nameEn": "Phu My Dong",
+        "fullName": "Xã Phù Mỹ Đông",
+        "fullNameEn": "Phu My Dong Commune",
+        "codeName": "phu_my_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2988",
+        "areaKm2": 85.62
       }
     }
   ]

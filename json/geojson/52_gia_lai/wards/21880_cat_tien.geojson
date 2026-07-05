@@ -11462,11 +11462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Tiến",
-        "unit_code": "21880",
-        "unit_code_name": "cat_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3004",
-        "area_km2": 103.36
+        "code": "21880",
+        "name": "Cát Tiến",
+        "nameEn": "Cat Tien",
+        "fullName": "Xã Cát Tiến",
+        "fullNameEn": "Cat Tien Commune",
+        "codeName": "cat_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3004",
+        "areaKm2": 103.36
       }
     }
   ]

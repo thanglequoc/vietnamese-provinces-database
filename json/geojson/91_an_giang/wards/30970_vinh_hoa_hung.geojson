@@ -3950,11 +3950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hoà Hưng",
-        "unit_code": "30970",
-        "unit_code_name": "vinh_hoa_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.385",
-        "area_km2": 95.94
+        "code": "30970",
+        "name": "Vĩnh Hoà Hưng",
+        "nameEn": "Vinh Hoa Hung",
+        "fullName": "Xã Vĩnh Hoà Hưng",
+        "fullNameEn": "Vinh Hoa Hung Commune",
+        "codeName": "vinh_hoa_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.385",
+        "areaKm2": 95.94
       }
     }
   ]

@@ -8370,11 +8370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Cuông",
-        "unit_code": "04399",
-        "unit_code_name": "dong_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1018",
-        "area_km2": 146.3
+        "code": "04399",
+        "name": "Đông Cuông",
+        "nameEn": "Dong Cuong",
+        "fullName": "Xã Đông Cuông",
+        "fullNameEn": "Dong Cuong Commune",
+        "codeName": "dong_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1018",
+        "areaKm2": 146.3
       }
     }
   ]

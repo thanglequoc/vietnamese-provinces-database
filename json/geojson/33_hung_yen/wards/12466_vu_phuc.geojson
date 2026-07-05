@@ -1610,11 +1610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Phúc",
-        "unit_code": "12466",
-        "unit_code_name": "vu_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.689",
-        "area_km2": 23.99
+        "code": "12466",
+        "name": "Vũ Phúc",
+        "nameEn": "Vu Phuc",
+        "fullName": "Phường Vũ Phúc",
+        "fullNameEn": "Vu Phuc Ward",
+        "codeName": "vu_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.689",
+        "areaKm2": 23.99
       }
     }
   ]

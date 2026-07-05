@@ -5810,11 +5810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Duyên Hải",
-        "unit_code": "29512",
-        "unit_code_name": "duyen_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2518",
-        "area_km2": 69.63
+        "code": "29512",
+        "name": "Duyên Hải",
+        "nameEn": "Duyen Hai",
+        "fullName": "Phường Duyên Hải",
+        "fullNameEn": "Duyen Hai Ward",
+        "codeName": "duyen_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2518",
+        "areaKm2": 69.63
       }
     }
   ]

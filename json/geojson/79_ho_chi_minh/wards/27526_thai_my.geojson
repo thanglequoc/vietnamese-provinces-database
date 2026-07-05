@@ -3746,11 +3746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Mỹ",
-        "unit_code": "27526",
-        "unit_code_name": "thai_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.119",
-        "area_km2": 62.44
+        "code": "27526",
+        "name": "Thái Mỹ",
+        "nameEn": "Thai My",
+        "fullName": "Xã Thái Mỹ",
+        "fullNameEn": "Thai My Commune",
+        "codeName": "thai_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.119",
+        "areaKm2": 62.44
       }
     }
   ]

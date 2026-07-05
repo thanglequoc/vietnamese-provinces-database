@@ -3354,11 +3354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyên Giáp",
-        "unit_code": "11146",
-        "unit_code_name": "nguyen_giap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.891",
-        "area_km2": 27.21
+        "code": "11146",
+        "name": "Nguyên Giáp",
+        "nameEn": "Nguyen Giap",
+        "fullName": "Xã Nguyên Giáp",
+        "fullNameEn": "Nguyen Giap Commune",
+        "codeName": "nguyen_giap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.891",
+        "areaKm2": 27.21
       }
     }
   ]

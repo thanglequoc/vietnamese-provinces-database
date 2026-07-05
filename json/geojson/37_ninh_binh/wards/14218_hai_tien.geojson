@@ -4782,11 +4782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Tiến",
-        "unit_code": "14218",
-        "unit_code_name": "hai_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.823",
-        "area_km2": 24.19
+        "code": "14218",
+        "name": "Hải Tiến",
+        "nameEn": "Hai Tien",
+        "fullName": "Xã Hải Tiến",
+        "fullNameEn": "Hai Tien Commune",
+        "codeName": "hai_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.823",
+        "areaKm2": 24.19
       }
     }
   ]

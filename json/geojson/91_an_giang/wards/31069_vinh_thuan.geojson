@@ -9142,11 +9142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thuận",
-        "unit_code": "31069",
-        "unit_code_name": "vinh_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.399",
-        "area_km2": 95.46
+        "code": "31069",
+        "name": "Vĩnh Thuận",
+        "nameEn": "Vinh Thuan",
+        "fullName": "Xã Vĩnh Thuận",
+        "fullNameEn": "Vinh Thuan Commune",
+        "codeName": "vinh_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.399",
+        "areaKm2": 95.46
       }
     }
   ]

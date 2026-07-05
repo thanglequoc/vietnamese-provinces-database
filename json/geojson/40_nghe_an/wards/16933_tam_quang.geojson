@@ -16090,11 +16090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Quang",
-        "unit_code": "16933",
-        "unit_code_name": "tam_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1516",
-        "area_km2": 507.95
+        "code": "16933",
+        "name": "Tam Quang",
+        "nameEn": "Tam Quang",
+        "fullName": "Xã Tam Quang",
+        "fullNameEn": "Tam Quang Commune",
+        "codeName": "tam_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1516",
+        "areaKm2": 507.95
       }
     }
   ]

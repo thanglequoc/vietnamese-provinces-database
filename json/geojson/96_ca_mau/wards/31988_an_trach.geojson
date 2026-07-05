@@ -2590,11 +2590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Trạch",
-        "unit_code": "31988",
-        "unit_code_name": "an_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.162",
-        "area_km2": 49.22
+        "code": "31988",
+        "name": "An Trạch",
+        "nameEn": "An Trach",
+        "fullName": "Xã An Trạch",
+        "fullNameEn": "An Trach Commune",
+        "codeName": "an_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.162",
+        "areaKm2": 49.22
       }
     }
   ]

@@ -112850,11 +112850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiên Lương",
-        "unit_code": "30787",
-        "unit_code_name": "kien_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.363",
-        "area_km2": 138.07
+        "code": "30787",
+        "name": "Kiên Lương",
+        "nameEn": "Kien Luong",
+        "fullName": "Xã Kiên Lương",
+        "fullNameEn": "Kien Luong Commune",
+        "codeName": "kien_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.363",
+        "areaKm2": 138.07
       }
     }
   ]

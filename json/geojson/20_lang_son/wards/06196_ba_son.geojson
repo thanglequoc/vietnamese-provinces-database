@@ -14770,11 +14770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Sơn",
-        "unit_code": "06196",
-        "unit_code_name": "ba_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1797",
-        "area_km2": 154.96
+        "code": "06196",
+        "name": "Ba Sơn",
+        "nameEn": "Ba Son",
+        "fullName": "Xã Ba Sơn",
+        "fullNameEn": "Ba Son Commune",
+        "codeName": "ba_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1797",
+        "areaKm2": 154.96
       }
     }
   ]

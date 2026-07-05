@@ -4602,11 +4602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Hải",
-        "unit_code": "22861",
-        "unit_code_name": "xuan_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1155",
-        "area_km2": 43.4
+        "code": "22861",
+        "name": "Xuân Hải",
+        "nameEn": "Xuan Hai",
+        "fullName": "Xã Xuân Hải",
+        "fullNameEn": "Xuan Hai Commune",
+        "codeName": "xuan_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1155",
+        "areaKm2": 43.4
       }
     }
   ]

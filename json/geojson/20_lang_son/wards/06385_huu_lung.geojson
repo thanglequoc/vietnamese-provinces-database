@@ -10274,11 +10274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hữu Lũng",
-        "unit_code": "06385",
-        "unit_code_name": "huu_lung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1839",
-        "area_km2": 52.87
+        "code": "06385",
+        "name": "Hữu Lũng",
+        "nameEn": "Huu Lung",
+        "fullName": "Xã Hữu Lũng",
+        "fullNameEn": "Huu Lung Commune",
+        "codeName": "huu_lung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1839",
+        "areaKm2": 52.87
       }
     }
   ]

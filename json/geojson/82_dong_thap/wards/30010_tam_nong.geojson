@@ -4070,11 +4070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Nông",
-        "unit_code": "30010",
-        "unit_code_name": "tam_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.414",
-        "area_km2": 102.7
+        "code": "30010",
+        "name": "Tam Nông",
+        "nameEn": "Tam Nong",
+        "fullName": "Xã Tam Nông",
+        "fullNameEn": "Tam Nong Commune",
+        "codeName": "tam_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.414",
+        "areaKm2": 102.7
       }
     }
   ]

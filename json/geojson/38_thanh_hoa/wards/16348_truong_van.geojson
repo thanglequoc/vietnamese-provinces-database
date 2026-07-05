@@ -3694,11 +3694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Văn",
-        "unit_code": "16348",
-        "unit_code_name": "truong_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2578",
-        "area_km2": 28.32
+        "code": "16348",
+        "name": "Trường Văn",
+        "nameEn": "Truong Van",
+        "fullName": "Xã Trường Văn",
+        "fullNameEn": "Truong Van Commune",
+        "codeName": "truong_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2578",
+        "areaKm2": 28.32
       }
     }
   ]

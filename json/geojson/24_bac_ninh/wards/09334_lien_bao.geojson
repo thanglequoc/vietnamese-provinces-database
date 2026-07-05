@@ -4422,11 +4422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Bão",
-        "unit_code": "09334",
-        "unit_code_name": "lien_bao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2126",
-        "area_km2": 19.82
+        "code": "09334",
+        "name": "Liên Bão",
+        "nameEn": "Lien Bao",
+        "fullName": "Xã Liên Bão",
+        "fullNameEn": "Lien Bao Commune",
+        "codeName": "lien_bao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2126",
+        "areaKm2": 19.82
       }
     }
   ]

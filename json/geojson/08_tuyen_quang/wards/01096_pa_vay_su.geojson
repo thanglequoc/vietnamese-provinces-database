@@ -32974,11 +32974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pà Vầy Sủ",
-        "unit_code": "01096",
-        "unit_code_name": "pa_vay_su",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2430",
-        "area_km2": 83.3
+        "code": "01096",
+        "name": "Pà Vầy Sủ",
+        "nameEn": "Pa Vay Su",
+        "fullName": "Xã Pà Vầy Sủ",
+        "fullNameEn": "Pa Vay Su Commune",
+        "codeName": "pa_vay_su",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2430",
+        "areaKm2": 83.3
       }
     }
   ]

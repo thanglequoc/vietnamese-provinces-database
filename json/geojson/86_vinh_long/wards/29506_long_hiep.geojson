@@ -3474,11 +3474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hiệp",
-        "unit_code": "29506",
-        "unit_code_name": "long_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2516",
-        "area_km2": 65.17
+        "code": "29506",
+        "name": "Long Hiệp",
+        "nameEn": "Long Hiep",
+        "fullName": "Xã Long Hiệp",
+        "fullNameEn": "Long Hiep Commune",
+        "codeName": "long_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2516",
+        "areaKm2": 65.17
       }
     }
   ]

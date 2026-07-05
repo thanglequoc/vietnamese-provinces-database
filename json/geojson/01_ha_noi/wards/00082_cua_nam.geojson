@@ -750,11 +750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửa Nam",
-        "unit_code": "00082",
-        "unit_code_name": "cua_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3203",
-        "area_km2": 1.68
+        "code": "00082",
+        "name": "Cửa Nam",
+        "nameEn": "Cua Nam",
+        "fullName": "Phường Cửa Nam",
+        "fullNameEn": "Cua Nam Ward",
+        "codeName": "cua_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3203",
+        "areaKm2": 1.68
       }
     }
   ]

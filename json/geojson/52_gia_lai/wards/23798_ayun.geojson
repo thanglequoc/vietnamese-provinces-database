@@ -16638,11 +16638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ayun",
-        "unit_code": "23798",
-        "unit_code_name": "ayun",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3027",
-        "area_km2": 202.24
+        "code": "23798",
+        "name": "Ayun",
+        "nameEn": "Ayun",
+        "fullName": "Xã Ayun",
+        "fullNameEn": "Ayun Commune",
+        "codeName": "ayun",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3027",
+        "areaKm2": 202.24
       }
     }
   ]

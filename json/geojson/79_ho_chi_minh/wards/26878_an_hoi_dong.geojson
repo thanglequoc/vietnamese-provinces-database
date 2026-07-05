@@ -3286,11 +3286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Hội Đông",
-        "unit_code": "26878",
-        "unit_code_name": "an_hoi_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.54",
-        "area_km2": 3.29
+        "code": "26878",
+        "name": "An Hội Đông",
+        "nameEn": "An Hoi Dong",
+        "fullName": "Phường An Hội Đông",
+        "fullNameEn": "An Hoi Dong Ward",
+        "codeName": "an_hoi_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.54",
+        "areaKm2": 3.29
       }
     }
   ]

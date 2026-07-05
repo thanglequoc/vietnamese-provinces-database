@@ -21886,11 +21886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Chà",
-        "unit_code": "03166",
-        "unit_code_name": "muong_cha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2231",
-        "area_km2": 462.28
+        "code": "03166",
+        "name": "Mường Chà",
+        "nameEn": "Muong Cha",
+        "fullName": "Xã Mường Chà",
+        "fullNameEn": "Muong Cha Commune",
+        "codeName": "muong_cha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2231",
+        "areaKm2": 462.28
       }
     }
   ]

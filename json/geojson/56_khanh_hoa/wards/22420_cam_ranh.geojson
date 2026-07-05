@@ -1386,11 +1386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Ranh",
-        "unit_code": "22420",
-        "unit_code_name": "cam_ranh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1122",
-        "area_km2": 17.5
+        "code": "22420",
+        "name": "Cam Ranh",
+        "nameEn": "Cam Ranh",
+        "fullName": "Phường Cam Ranh",
+        "fullNameEn": "Cam Ranh Ward",
+        "codeName": "cam_ranh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1122",
+        "areaKm2": 17.5
       }
     }
   ]

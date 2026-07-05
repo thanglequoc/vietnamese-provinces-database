@@ -5410,11 +5410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Long",
-        "unit_code": "26572",
-        "unit_code_name": "tam_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2203",
-        "area_km2": 34.7
+        "code": "26572",
+        "name": "Tam Long",
+        "nameEn": "Tam Long",
+        "fullName": "Phường Tam Long",
+        "fullNameEn": "Tam Long Ward",
+        "codeName": "tam_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2203",
+        "areaKm2": 34.7
       }
     }
   ]

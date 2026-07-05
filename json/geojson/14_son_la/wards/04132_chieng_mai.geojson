@@ -11258,11 +11258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Mai",
-        "unit_code": "04132",
-        "unit_code_name": "chieng_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1390",
-        "area_km2": 151.85
+        "code": "04132",
+        "name": "Chiềng Mai",
+        "nameEn": "Chieng Mai",
+        "fullName": "Xã Chiềng Mai",
+        "fullNameEn": "Chieng Mai Commune",
+        "codeName": "chieng_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1390",
+        "areaKm2": 151.85
       }
     }
   ]

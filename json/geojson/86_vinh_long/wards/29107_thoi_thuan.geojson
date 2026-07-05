@@ -13554,11 +13554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Thuận",
-        "unit_code": "29107",
-        "unit_code_name": "thoi_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2470",
-        "area_km2": 116.95
+        "code": "29107",
+        "name": "Thới Thuận",
+        "nameEn": "Thoi Thuan",
+        "fullName": "Xã Thới Thuận",
+        "fullNameEn": "Thoi Thuan Commune",
+        "codeName": "thoi_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2470",
+        "areaKm2": 116.95
       }
     }
   ]

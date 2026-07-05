@@ -8490,11 +8490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lạc",
-        "unit_code": "05788",
-        "unit_code_name": "phu_lac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1194",
-        "area_km2": 58.07
+        "code": "05788",
+        "name": "Phú Lạc",
+        "nameEn": "Phu Lac",
+        "fullName": "Xã Phú Lạc",
+        "fullNameEn": "Phu Lac Commune",
+        "codeName": "phu_lac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1194",
+        "areaKm2": 58.07
       }
     }
   ]

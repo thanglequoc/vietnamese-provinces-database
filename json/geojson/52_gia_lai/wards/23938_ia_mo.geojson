@@ -13618,11 +13618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Mơ",
-        "unit_code": "23938",
-        "unit_code_name": "ia_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2943",
-        "area_km2": 435.6
+        "code": "23938",
+        "name": "Ia Mơ",
+        "nameEn": "Ia Mo",
+        "fullName": "Xã Ia Mơ",
+        "fullNameEn": "Ia Mo Commune",
+        "codeName": "ia_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2943",
+        "areaKm2": 435.6
       }
     }
   ]

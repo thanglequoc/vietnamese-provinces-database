@@ -12810,11 +12810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "M'Drắk",
-        "unit_code": "24412",
-        "unit_code_name": "mdrak",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2854",
-        "area_km2": 151.87
+        "code": "24412",
+        "name": "M'Drắk",
+        "nameEn": "M'Drak",
+        "fullName": "Xã M'Drắk",
+        "fullNameEn": "M'Drak Commune",
+        "codeName": "mdrak",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2854",
+        "areaKm2": 151.87
       }
     }
   ]

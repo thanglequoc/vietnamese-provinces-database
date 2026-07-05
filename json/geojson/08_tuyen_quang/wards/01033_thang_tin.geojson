@@ -8574,11 +8574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thàng Tín",
-        "unit_code": "01033",
-        "unit_code_name": "thang_tin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2404",
-        "area_km2": 70.78
+        "code": "01033",
+        "name": "Thàng Tín",
+        "nameEn": "Thang Tin",
+        "fullName": "Xã Thàng Tín",
+        "fullNameEn": "Thang Tin Commune",
+        "codeName": "thang_tin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2404",
+        "areaKm2": 70.78
       }
     }
   ]

@@ -11294,11 +11294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đơn Dương",
-        "unit_code": "24931",
-        "unit_code_name": "don_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.519",
-        "area_km2": 127.81
+        "code": "24931",
+        "name": "Đơn Dương",
+        "nameEn": "Don Duong",
+        "fullName": "Xã Đơn Dương",
+        "fullNameEn": "Don Duong Commune",
+        "codeName": "don_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.519",
+        "areaKm2": 127.81
       }
     }
   ]

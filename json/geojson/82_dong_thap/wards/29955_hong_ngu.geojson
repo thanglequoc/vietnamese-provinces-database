@@ -7302,11 +7302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Ngự",
-        "unit_code": "29955",
-        "unit_code_name": "hong_ngu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.407",
-        "area_km2": 64.2
+        "code": "29955",
+        "name": "Hồng Ngự",
+        "nameEn": "Hong Ngu",
+        "fullName": "Phường Hồng Ngự",
+        "fullNameEn": "Hong Ngu Ward",
+        "codeName": "hong_ngu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.407",
+        "areaKm2": 64.2
       }
     }
   ]

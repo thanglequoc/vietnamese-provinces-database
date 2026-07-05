@@ -14946,11 +14946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phượng Sơn",
-        "unit_code": "07612",
-        "unit_code_name": "phuong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2111",
-        "area_km2": 78.74
+        "code": "07612",
+        "name": "Phượng Sơn",
+        "nameEn": "Phuong Son",
+        "fullName": "Phường Phượng Sơn",
+        "fullNameEn": "Phuong Son Ward",
+        "codeName": "phuong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2111",
+        "areaKm2": 78.74
       }
     }
   ]

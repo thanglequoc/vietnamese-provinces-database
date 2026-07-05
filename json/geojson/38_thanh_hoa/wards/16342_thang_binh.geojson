@@ -6318,11 +6318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thăng Bình",
-        "unit_code": "16342",
-        "unit_code_name": "thang_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2607",
-        "area_km2": 34.73
+        "code": "16342",
+        "name": "Thăng Bình",
+        "nameEn": "Thang Binh",
+        "fullName": "Xã Thăng Bình",
+        "fullNameEn": "Thang Binh Commune",
+        "codeName": "thang_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2607",
+        "areaKm2": 34.73
       }
     }
   ]

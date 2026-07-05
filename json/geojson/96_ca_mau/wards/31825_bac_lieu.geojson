@@ -4082,11 +4082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạc Liêu",
-        "unit_code": "31825",
-        "unit_code_name": "bac_lieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.139",
-        "area_km2": 5.98
+        "code": "31825",
+        "name": "Bạc Liêu",
+        "nameEn": "Bac Lieu",
+        "fullName": "Phường Bạc Liêu",
+        "fullNameEn": "Bac Lieu Ward",
+        "codeName": "bac_lieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.139",
+        "areaKm2": 5.98
       }
     }
   ]

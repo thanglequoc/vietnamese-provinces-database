@@ -2662,11 +2662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Xuân",
-        "unit_code": "15499",
-        "unit_code_name": "tho_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2667",
-        "area_km2": 27.4
+        "code": "15499",
+        "name": "Thọ Xuân",
+        "nameEn": "Tho Xuan",
+        "fullName": "Xã Thọ Xuân",
+        "fullNameEn": "Tho Xuan Commune",
+        "codeName": "tho_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2667",
+        "areaKm2": 27.4
       }
     }
   ]

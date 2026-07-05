@@ -7518,11 +7518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Rạch Giá",
-        "unit_code": "30742",
-        "unit_code_name": "rach_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.359",
-        "area_km2": 45.53
+        "code": "30742",
+        "name": "Rạch Giá",
+        "nameEn": "Rach Gia",
+        "fullName": "Phường Rạch Giá",
+        "fullNameEn": "Rach Gia Ward",
+        "codeName": "rach_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.359",
+        "areaKm2": 45.53
       }
     }
   ]

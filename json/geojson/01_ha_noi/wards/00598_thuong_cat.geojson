@@ -1590,11 +1590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Cát",
-        "unit_code": "00598",
-        "unit_code_name": "thuong_cat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3268",
-        "area_km2": 14.77
+        "code": "00598",
+        "name": "Thượng Cát",
+        "nameEn": "Thuong Cat",
+        "fullName": "Phường Thượng Cát",
+        "fullNameEn": "Thuong Cat Ward",
+        "codeName": "thuong_cat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3268",
+        "areaKm2": 14.77
       }
     }
   ]

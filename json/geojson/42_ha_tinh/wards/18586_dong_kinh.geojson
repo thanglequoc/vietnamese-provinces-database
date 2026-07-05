@@ -4162,11 +4162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Kinh",
-        "unit_code": "18586",
-        "unit_code_name": "dong_kinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1999",
-        "area_km2": 27.57
+        "code": "18586",
+        "name": "Đông Kinh",
+        "nameEn": "Dong Kinh",
+        "fullName": "Xã Đông Kinh",
+        "fullNameEn": "Dong Kinh Commune",
+        "codeName": "dong_kinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1999",
+        "areaKm2": 27.57
       }
     }
   ]

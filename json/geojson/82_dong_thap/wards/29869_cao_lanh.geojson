@@ -8674,11 +8674,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Lãnh",
-        "unit_code": "29869",
-        "unit_code_name": "cao_lanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.401",
-        "area_km2": 73.3
+        "code": "29869",
+        "name": "Cao Lãnh",
+        "nameEn": "Cao Lanh",
+        "fullName": "Phường Cao Lãnh",
+        "fullNameEn": "Cao Lanh Ward",
+        "codeName": "cao_lanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.401",
+        "areaKm2": 73.3
       }
     }
   ]

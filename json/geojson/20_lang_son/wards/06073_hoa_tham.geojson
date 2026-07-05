@@ -9918,11 +9918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoa Thám",
-        "unit_code": "06073",
-        "unit_code_name": "hoa_tham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1829",
-        "area_km2": 151.78
+        "code": "06073",
+        "name": "Hoa Thám",
+        "nameEn": "Hoa Tham",
+        "fullName": "Xã Hoa Thám",
+        "fullNameEn": "Hoa Tham Commune",
+        "codeName": "hoa_tham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1829",
+        "areaKm2": 151.78
       }
     }
   ]

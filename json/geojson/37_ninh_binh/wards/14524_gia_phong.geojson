@@ -2490,11 +2490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Phong",
-        "unit_code": "14524",
-        "unit_code_name": "gia_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.748",
-        "area_km2": 18.53
+        "code": "14524",
+        "name": "Gia Phong",
+        "nameEn": "Gia Phong",
+        "fullName": "Xã Gia Phong",
+        "fullNameEn": "Gia Phong Commune",
+        "codeName": "gia_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.748",
+        "areaKm2": 18.53
       }
     }
   ]

@@ -27794,11 +27794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Mô",
-        "unit_code": "03472",
-        "unit_code_name": "muong_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2075",
-        "area_km2": 395.16
+        "code": "03472",
+        "name": "Mường Mô",
+        "nameEn": "Muong Mo",
+        "fullName": "Xã Mường Mô",
+        "fullNameEn": "Muong Mo Commune",
+        "codeName": "muong_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2075",
+        "areaKm2": 395.16
       }
     }
   ]

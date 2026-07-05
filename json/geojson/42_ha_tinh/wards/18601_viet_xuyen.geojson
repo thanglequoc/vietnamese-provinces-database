@@ -5258,11 +5258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Xuyên",
-        "unit_code": "18601",
-        "unit_code_name": "viet_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1998",
-        "area_km2": 32.1
+        "code": "18601",
+        "name": "Việt Xuyên",
+        "nameEn": "Viet Xuyen",
+        "fullName": "Xã Việt Xuyên",
+        "fullNameEn": "Viet Xuyen Commune",
+        "codeName": "viet_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1998",
+        "areaKm2": 32.1
       }
     }
   ]

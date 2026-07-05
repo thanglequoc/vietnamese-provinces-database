@@ -7646,11 +7646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Cảnh",
-        "unit_code": "22060",
-        "unit_code_name": "xuan_canh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2896",
-        "area_km2": 83.81
+        "code": "22060",
+        "name": "Xuân Cảnh",
+        "nameEn": "Xuan Canh",
+        "fullName": "Xã Xuân Cảnh",
+        "fullNameEn": "Xuan Canh Commune",
+        "codeName": "xuan_canh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2896",
+        "areaKm2": 83.81
       }
     }
   ]

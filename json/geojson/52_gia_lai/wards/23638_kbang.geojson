@@ -17426,11 +17426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kbang",
-        "unit_code": "23638",
-        "unit_code_name": "kbang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3046",
-        "area_km2": 288.83
+        "code": "23638",
+        "name": "Kbang",
+        "nameEn": "Kbang",
+        "fullName": "Xã Kbang",
+        "fullNameEn": "Kbang Commune",
+        "codeName": "kbang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3046",
+        "areaKm2": 288.83
       }
     }
   ]

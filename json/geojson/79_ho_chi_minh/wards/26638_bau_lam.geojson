@@ -11158,11 +11158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàu Lâm",
-        "unit_code": "26638",
-        "unit_code_name": "bau_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2213",
-        "area_km2": 123.83
+        "code": "26638",
+        "name": "Bàu Lâm",
+        "nameEn": "Bau Lam",
+        "fullName": "Xã Bàu Lâm",
+        "fullNameEn": "Bau Lam Commune",
+        "codeName": "bau_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2213",
+        "areaKm2": 123.83
       }
     }
   ]

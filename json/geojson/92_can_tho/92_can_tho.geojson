@@ -5602,11 +5602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cần Thơ",
-        "unit_code": "92",
-        "unit_code_name": "can_tho",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.1",
-        "area_km2": 6360.83
+        "code": "92",
+        "name": "Cần Thơ",
+        "nameEn": "Can Tho",
+        "fullName": "Thành phố Cần Thơ",
+        "fullNameEn": "Can Tho City",
+        "codeName": "can_tho",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.1",
+        "areaKm2": 6360.83
       }
     }
   ]

@@ -8838,11 +8838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Khê",
-        "unit_code": "01786",
-        "unit_code_name": "dong_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.990",
-        "area_km2": 125.27
+        "code": "01786",
+        "name": "Đông Khê",
+        "nameEn": "Dong Khe",
+        "fullName": "Xã Đông Khê",
+        "fullNameEn": "Dong Khe Commune",
+        "codeName": "dong_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.990",
+        "areaKm2": 125.27
       }
     }
   ]

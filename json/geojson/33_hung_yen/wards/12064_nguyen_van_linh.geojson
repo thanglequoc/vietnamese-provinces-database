@@ -2354,11 +2354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Văn Linh",
-        "unit_code": "12064",
-        "unit_code_name": "nguyen_van_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.741",
-        "area_km2": 20.9
+        "code": "12064",
+        "name": "Nguyễn Văn Linh",
+        "nameEn": "Nguyen Van Linh",
+        "fullName": "Xã Nguyễn Văn Linh",
+        "fullNameEn": "Nguyen Van Linh Commune",
+        "codeName": "nguyen_van_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.741",
+        "areaKm2": 20.9
       }
     }
   ]

@@ -10582,11 +10582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Long",
-        "unit_code": "01822",
-        "unit_code_name": "duc_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.989",
-        "area_km2": 106.93
+        "code": "01822",
+        "name": "Đức Long",
+        "nameEn": "Duc Long",
+        "fullName": "Xã Đức Long",
+        "fullNameEn": "Duc Long Commune",
+        "codeName": "duc_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.989",
+        "areaKm2": 106.93
       }
     }
   ]

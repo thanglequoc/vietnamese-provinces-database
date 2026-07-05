@@ -5938,11 +5938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Giang",
-        "unit_code": "29489",
-        "unit_code_name": "ham_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2513",
-        "area_km2": 60.66
+        "code": "29489",
+        "name": "Hàm Giang",
+        "nameEn": "Ham Giang",
+        "fullName": "Xã Hàm Giang",
+        "fullNameEn": "Ham Giang Commune",
+        "codeName": "ham_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2513",
+        "areaKm2": 60.66
       }
     }
   ]

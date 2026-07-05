@@ -4994,11 +4994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Nhàn",
-        "unit_code": "04846",
-        "unit_code_name": "duc_nhan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1680",
-        "area_km2": 107.6
+        "code": "04846",
+        "name": "Đức Nhàn",
+        "nameEn": "Duc Nhan",
+        "fullName": "Xã Đức Nhàn",
+        "fullNameEn": "Duc Nhan Commune",
+        "codeName": "duc_nhan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1680",
+        "areaKm2": 107.6
       }
     }
   ]

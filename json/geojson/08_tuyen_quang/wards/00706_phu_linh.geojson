@@ -12706,11 +12706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Linh",
-        "unit_code": "00706",
-        "unit_code_name": "phu_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2367",
-        "area_km2": 112.37
+        "code": "00706",
+        "name": "Phú Linh",
+        "nameEn": "Phu Linh",
+        "fullName": "Xã Phú Linh",
+        "fullNameEn": "Phu Linh Commune",
+        "codeName": "phu_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2367",
+        "areaKm2": 112.37
       }
     }
   ]

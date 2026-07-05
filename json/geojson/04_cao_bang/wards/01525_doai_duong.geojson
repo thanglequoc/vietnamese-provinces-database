@@ -9654,11 +9654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoài Dương",
-        "unit_code": "01525",
-        "unit_code_name": "doai_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1002",
-        "area_km2": 114.48
+        "code": "01525",
+        "name": "Đoài Dương",
+        "nameEn": "Doai Duong",
+        "fullName": "Xã Đoài Dương",
+        "fullNameEn": "Doai Duong Commune",
+        "codeName": "doai_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1002",
+        "areaKm2": 114.48
       }
     }
   ]

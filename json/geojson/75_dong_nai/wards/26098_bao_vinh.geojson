@@ -11606,11 +11606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Vinh",
-        "unit_code": "26098",
-        "unit_code_name": "bao_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3111",
-        "area_km2": 50.9
+        "code": "26098",
+        "name": "Bảo Vinh",
+        "nameEn": "Bao Vinh",
+        "fullName": "Phường Bảo Vinh",
+        "fullNameEn": "Bao Vinh Ward",
+        "codeName": "bao_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3111",
+        "areaKm2": 50.9
       }
     }
   ]

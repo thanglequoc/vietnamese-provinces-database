@@ -8566,11 +8566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Lâm",
-        "unit_code": "02509",
-        "unit_code_name": "my_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2349",
-        "area_km2": 80.2
+        "code": "02509",
+        "name": "Mỹ Lâm",
+        "nameEn": "My Lam",
+        "fullName": "Phường Mỹ Lâm",
+        "fullNameEn": "My Lam Ward",
+        "codeName": "my_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2349",
+        "areaKm2": 80.2
       }
     }
   ]

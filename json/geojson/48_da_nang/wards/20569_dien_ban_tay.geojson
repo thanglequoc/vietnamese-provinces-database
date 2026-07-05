@@ -3938,11 +3938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Điện Bàn Tây",
-        "unit_code": "20569",
-        "unit_code_name": "dien_ban_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1940",
-        "area_km2": 43.31
+        "code": "20569",
+        "name": "Điện Bàn Tây",
+        "nameEn": "Dien Ban Tay",
+        "fullName": "Xã Điện Bàn Tây",
+        "fullNameEn": "Dien Ban Tay Commune",
+        "codeName": "dien_ban_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1940",
+        "areaKm2": 43.31
       }
     }
   ]

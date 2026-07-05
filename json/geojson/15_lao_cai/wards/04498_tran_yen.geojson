@@ -6334,11 +6334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trấn Yên",
-        "unit_code": "04498",
-        "unit_code_name": "tran_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1030",
-        "area_km2": 110.72
+        "code": "04498",
+        "name": "Trấn Yên",
+        "nameEn": "Tran Yen",
+        "fullName": "Xã Trấn Yên",
+        "fullNameEn": "Tran Yen Commune",
+        "codeName": "tran_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1030",
+        "areaKm2": 110.72
       }
     }
   ]

@@ -11474,11 +11474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Lộ",
-        "unit_code": "01360",
-        "unit_code_name": "son_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.978",
-        "area_km2": 97.38
+        "code": "01360",
+        "name": "Sơn Lộ",
+        "nameEn": "Son Lo",
+        "fullName": "Xã Sơn Lộ",
+        "fullNameEn": "Son Lo Commune",
+        "codeName": "son_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.978",
+        "areaKm2": 97.38
       }
     }
   ]

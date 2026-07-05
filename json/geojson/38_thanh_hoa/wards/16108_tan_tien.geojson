@@ -3414,11 +3414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Tiến",
-        "unit_code": "16108",
-        "unit_code_name": "tan_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2626",
-        "area_km2": 28.54
+        "code": "16108",
+        "name": "Tân Tiến",
+        "nameEn": "Tan Tien",
+        "fullName": "Xã Tân Tiến",
+        "fullNameEn": "Tan Tien Commune",
+        "codeName": "tan_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2626",
+        "areaKm2": 28.54
       }
     }
   ]

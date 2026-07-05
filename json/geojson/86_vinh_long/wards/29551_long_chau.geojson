@@ -5482,11 +5482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Châu",
-        "unit_code": "29551",
-        "unit_code_name": "long_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2525",
-        "area_km2": 12.63
+        "code": "29551",
+        "name": "Long Châu",
+        "nameEn": "Long Chau",
+        "fullName": "Phường Long Châu",
+        "fullNameEn": "Long Chau Ward",
+        "codeName": "long_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2525",
+        "areaKm2": 12.63
       }
     }
   ]

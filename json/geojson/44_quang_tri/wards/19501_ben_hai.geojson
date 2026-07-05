@@ -9102,11 +9102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Hải",
-        "unit_code": "19501",
-        "unit_code_name": "ben_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.584",
-        "area_km2": 54.77
+        "code": "19501",
+        "name": "Bến Hải",
+        "nameEn": "Ben Hai",
+        "fullName": "Xã Bến Hải",
+        "fullNameEn": "Ben Hai Commune",
+        "codeName": "ben_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.584",
+        "areaKm2": 54.77
       }
     }
   ]

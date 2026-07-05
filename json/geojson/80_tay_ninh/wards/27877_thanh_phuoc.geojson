@@ -7926,11 +7926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Phước",
-        "unit_code": "27877",
-        "unit_code_name": "thanh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1296",
-        "area_km2": 144.64
+        "code": "27877",
+        "name": "Thạnh Phước",
+        "nameEn": "Thanh Phuoc",
+        "fullName": "Xã Thạnh Phước",
+        "fullNameEn": "Thanh Phuoc Commune",
+        "codeName": "thanh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1296",
+        "areaKm2": 144.64
       }
     }
   ]

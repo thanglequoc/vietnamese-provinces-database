@@ -10546,11 +10546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Buôn Hồ",
-        "unit_code": "24305",
-        "unit_code_name": "buon_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2843",
-        "area_km2": 66.54
+        "code": "24305",
+        "name": "Buôn Hồ",
+        "nameEn": "Buon Ho",
+        "fullName": "Phường Buôn Hồ",
+        "fullNameEn": "Buon Ho Ward",
+        "codeName": "buon_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2843",
+        "areaKm2": 66.54
       }
     }
   ]

@@ -5758,11 +5758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nha Trang",
-        "unit_code": "22366",
-        "unit_code_name": "nha_trang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3284",
-        "area_km2": 47.1
+        "code": "22366",
+        "name": "Nha Trang",
+        "nameEn": "Nha Trang",
+        "fullName": "Phường Nha Trang",
+        "fullNameEn": "Nha Trang Ward",
+        "codeName": "nha_trang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3284",
+        "areaKm2": 47.1
       }
     }
   ]

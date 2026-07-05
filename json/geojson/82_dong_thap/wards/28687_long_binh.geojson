@@ -8134,11 +8134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Bình",
-        "unit_code": "28687",
-        "unit_code_name": "long_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.492",
-        "area_km2": 36.6
+        "code": "28687",
+        "name": "Long Bình",
+        "nameEn": "Long Binh",
+        "fullName": "Xã Long Bình",
+        "fullNameEn": "Long Binh Commune",
+        "codeName": "long_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.492",
+        "areaKm2": 36.6
       }
     }
   ]

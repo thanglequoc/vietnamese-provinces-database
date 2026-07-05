@@ -1874,11 +1874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chí Minh",
-        "unit_code": "12271",
-        "unit_code_name": "chi_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.706",
-        "area_km2": 20.73
+        "code": "12271",
+        "name": "Chí Minh",
+        "nameEn": "Chi Minh",
+        "fullName": "Xã Chí Minh",
+        "fullNameEn": "Chi Minh Commune",
+        "codeName": "chi_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.706",
+        "areaKm2": 20.73
       }
     }
   ]

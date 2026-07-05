@@ -4766,11 +4766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Sơn",
-        "unit_code": "18133",
-        "unit_code_name": "huong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2043",
-        "area_km2": 32.62
+        "code": "18133",
+        "name": "Hương Sơn",
+        "nameEn": "Huong Son",
+        "fullName": "Xã Hương Sơn",
+        "fullNameEn": "Huong Son Commune",
+        "codeName": "huong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2043",
+        "areaKm2": 32.62
       }
     }
   ]

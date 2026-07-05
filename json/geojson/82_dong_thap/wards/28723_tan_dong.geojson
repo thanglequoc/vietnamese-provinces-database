@@ -3806,11 +3806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Đông",
-        "unit_code": "28723",
-        "unit_code_name": "tan_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.499",
-        "area_km2": 50.4
+        "code": "28723",
+        "name": "Tân Đông",
+        "nameEn": "Tan Dong",
+        "fullName": "Xã Tân Đông",
+        "fullNameEn": "Tan Dong Commune",
+        "codeName": "tan_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.499",
+        "areaKm2": 50.4
       }
     }
   ]

@@ -8214,11 +8214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phước",
-        "unit_code": "26713",
-        "unit_code_name": "tan_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2223",
-        "area_km2": 83.62
+        "code": "26713",
+        "name": "Tân Phước",
+        "nameEn": "Tan Phuoc",
+        "fullName": "Phường Tân Phước",
+        "fullNameEn": "Tan Phuoc Ward",
+        "codeName": "tan_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2223",
+        "areaKm2": 83.62
       }
     }
   ]

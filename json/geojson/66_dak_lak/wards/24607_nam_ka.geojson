@@ -9214,11 +9214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Ka",
-        "unit_code": "24607",
-        "unit_code_name": "nam_ka",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2829",
-        "area_km2": 172.86
+        "code": "24607",
+        "name": "Nam Ka",
+        "nameEn": "Nam Ka",
+        "fullName": "Xã Nam Ka",
+        "fullNameEn": "Nam Ka Commune",
+        "codeName": "nam_ka",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2829",
+        "areaKm2": 172.86
       }
     }
   ]

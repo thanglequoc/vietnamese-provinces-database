@@ -10842,11 +10842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Đô",
-        "unit_code": "18550",
-        "unit_code_name": "huong_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2036",
-        "area_km2": 140.83
+        "code": "18550",
+        "name": "Hương Đô",
+        "nameEn": "Huong Do",
+        "fullName": "Xã Hương Đô",
+        "fullNameEn": "Huong Do Commune",
+        "codeName": "huong_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2036",
+        "areaKm2": 140.83
       }
     }
   ]

@@ -8842,11 +8842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Hội",
-        "unit_code": "04636",
-        "unit_code_name": "gia_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1043",
-        "area_km2": 213.25
+        "code": "04636",
+        "name": "Gia Hội",
+        "nameEn": "Gia Hoi",
+        "fullName": "Xã Gia Hội",
+        "fullNameEn": "Gia Hoi Commune",
+        "codeName": "gia_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1043",
+        "areaKm2": 213.25
       }
     }
   ]

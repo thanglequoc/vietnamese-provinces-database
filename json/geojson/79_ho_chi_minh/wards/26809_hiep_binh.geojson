@@ -11182,11 +11182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Bình",
-        "unit_code": "26809",
-        "unit_code_name": "hiep_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.42",
-        "area_km2": 16.01
+        "code": "26809",
+        "name": "Hiệp Bình",
+        "nameEn": "Hiep Binh",
+        "fullName": "Phường Hiệp Bình",
+        "fullNameEn": "Hiep Binh Ward",
+        "codeName": "hiep_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.42",
+        "areaKm2": 16.01
       }
     }
   ]

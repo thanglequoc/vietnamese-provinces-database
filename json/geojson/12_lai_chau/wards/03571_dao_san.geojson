@@ -14378,11 +14378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dào San",
-        "unit_code": "03571",
-        "unit_code_name": "dao_san",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2088",
-        "area_km2": 137.29
+        "code": "03571",
+        "name": "Dào San",
+        "nameEn": "Dao San",
+        "fullName": "Xã Dào San",
+        "fullNameEn": "Dao San Commune",
+        "codeName": "dao_san",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2088",
+        "areaKm2": 137.29
       }
     }
   ]

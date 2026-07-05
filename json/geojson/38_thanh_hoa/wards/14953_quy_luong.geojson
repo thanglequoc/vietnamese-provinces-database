@@ -3886,11 +3886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quý Lương",
-        "unit_code": "14953",
-        "unit_code_name": "quy_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2651",
-        "area_km2": 133.44
+        "code": "14953",
+        "name": "Quý Lương",
+        "nameEn": "Quy Luong",
+        "fullName": "Xã Quý Lương",
+        "fullNameEn": "Quy Luong Commune",
+        "codeName": "quy_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2651",
+        "areaKm2": 133.44
       }
     }
   ]

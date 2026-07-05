@@ -15226,11 +15226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Thọ",
-        "unit_code": "22075",
-        "unit_code_name": "xuan_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2894",
-        "area_km2": 192.12
+        "code": "22075",
+        "name": "Xuân Thọ",
+        "nameEn": "Xuan Tho",
+        "fullName": "Xã Xuân Thọ",
+        "fullNameEn": "Xuan Tho Commune",
+        "codeName": "xuan_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2894",
+        "areaKm2": 192.12
       }
     }
   ]

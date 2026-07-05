@@ -7950,11 +7950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Phòng",
-        "unit_code": "31",
-        "unit_code_name": "hai_phong",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.107",
-        "area_km2": 3194.72
+        "code": "31",
+        "name": "Hải Phòng",
+        "nameEn": "Hai Phong",
+        "fullName": "Thành phố Hải Phòng",
+        "fullNameEn": "Hai Phong City",
+        "codeName": "hai_phong",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.107",
+        "areaKm2": 3194.72
       }
     }
   ]

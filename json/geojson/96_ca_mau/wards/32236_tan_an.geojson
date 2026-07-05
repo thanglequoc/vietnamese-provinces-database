@@ -33250,11 +33250,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Ân",
-        "unit_code": "32236",
-        "unit_code_name": "tan_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.198",
-        "area_km2": 218.3
+        "code": "32236",
+        "name": "Tân Ân",
+        "nameEn": "Tan An",
+        "fullName": "Xã Tân Ân",
+        "fullNameEn": "Tan An Commune",
+        "codeName": "tan_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.198",
+        "areaKm2": 218.3
       }
     }
   ]

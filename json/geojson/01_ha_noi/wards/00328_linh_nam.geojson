@@ -2386,11 +2386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lĩnh Nam",
-        "unit_code": "00328",
-        "unit_code_name": "linh_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3191",
-        "area_km2": 10.86
+        "code": "00328",
+        "name": "Lĩnh Nam",
+        "nameEn": "Linh Nam",
+        "fullName": "Phường Lĩnh Nam",
+        "fullNameEn": "Linh Nam Ward",
+        "codeName": "linh_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3191",
+        "areaKm2": 10.86
       }
     }
   ]

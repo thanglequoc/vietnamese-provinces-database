@@ -5642,11 +5642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quyết Thắng",
-        "unit_code": "05323",
-        "unit_code_name": "quyet_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1673",
-        "area_km2": 59.66
+        "code": "05323",
+        "name": "Quyết Thắng",
+        "nameEn": "Quyet Thang",
+        "fullName": "Xã Quyết Thắng",
+        "fullNameEn": "Quyet Thang Commune",
+        "codeName": "quyet_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1673",
+        "areaKm2": 59.66
       }
     }
   ]

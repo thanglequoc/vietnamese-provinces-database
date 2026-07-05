@@ -10882,11 +10882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Na",
-        "unit_code": "24559",
-        "unit_code_name": "ea_na",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2828",
-        "area_km2": 134.18
+        "code": "24559",
+        "name": "Ea Na",
+        "nameEn": "Ea Na",
+        "fullName": "Xã Ea Na",
+        "fullNameEn": "Ea Na Commune",
+        "codeName": "ea_na",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2828",
+        "areaKm2": 134.18
       }
     }
   ]

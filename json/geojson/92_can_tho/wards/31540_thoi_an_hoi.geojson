@@ -6978,11 +6978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới An Hội",
-        "unit_code": "31540",
-        "unit_code_name": "thoi_an_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.267",
-        "area_km2": 60.32
+        "code": "31540",
+        "name": "Thới An Hội",
+        "nameEn": "Thoi An Hoi",
+        "fullName": "Xã Thới An Hội",
+        "fullNameEn": "Thoi An Hoi Commune",
+        "codeName": "thoi_an_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.267",
+        "areaKm2": 60.32
       }
     }
   ]

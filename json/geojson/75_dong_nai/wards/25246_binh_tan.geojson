@@ -29146,11 +29146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Tân",
-        "unit_code": "25246",
-        "unit_code_name": "binh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2277",
-        "area_km2": 190.9
+        "code": "25246",
+        "name": "Bình Tân",
+        "nameEn": "Binh Tan",
+        "fullName": "Xã Bình Tân",
+        "fullNameEn": "Binh Tan Commune",
+        "codeName": "binh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2277",
+        "areaKm2": 190.9
       }
     }
   ]

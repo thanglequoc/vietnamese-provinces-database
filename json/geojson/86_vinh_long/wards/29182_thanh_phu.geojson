@@ -4698,11 +4698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Phú",
-        "unit_code": "29182",
-        "unit_code_name": "thanh_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2478",
-        "area_km2": 70.7
+        "code": "29182",
+        "name": "Thạnh Phú",
+        "nameEn": "Thanh Phu",
+        "fullName": "Xã Thạnh Phú",
+        "fullNameEn": "Thanh Phu Commune",
+        "codeName": "thanh_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2478",
+        "areaKm2": 70.7
       }
     }
   ]

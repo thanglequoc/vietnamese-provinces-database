@@ -9950,11 +9950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Hặc",
-        "unit_code": "04078",
-        "unit_code_name": "chieng_hac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1383",
-        "area_km2": 239.91
+        "code": "04078",
+        "name": "Chiềng Hặc",
+        "nameEn": "Chieng Hac",
+        "fullName": "Xã Chiềng Hặc",
+        "fullNameEn": "Chieng Hac Commune",
+        "codeName": "chieng_hac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1383",
+        "areaKm2": 239.91
       }
     }
   ]

@@ -8386,11 +8386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Thới An",
-        "unit_code": "31699",
-        "unit_code_name": "thanh_thoi_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.289",
-        "area_km2": 87.15
+        "code": "31699",
+        "name": "Thạnh Thới An",
+        "nameEn": "Thanh Thoi An",
+        "fullName": "Xã Thạnh Thới An",
+        "fullNameEn": "Thanh Thoi An Commune",
+        "codeName": "thanh_thoi_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.289",
+        "areaKm2": 87.15
       }
     }
   ]

@@ -8854,11 +8854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Văn Lâm",
-        "unit_code": "32014",
-        "unit_code_name": "ly_van_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.166",
-        "area_km2": 44.5
+        "code": "32014",
+        "name": "Lý Văn Lâm",
+        "nameEn": "Ly Van Lam",
+        "fullName": "Phường Lý Văn Lâm",
+        "fullNameEn": "Ly Van Lam Ward",
+        "codeName": "ly_van_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.166",
+        "areaKm2": 44.5
       }
     }
   ]

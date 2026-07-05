@@ -7510,11 +7510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Châu",
-        "unit_code": "17395",
-        "unit_code_name": "hung_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1442",
-        "area_km2": 69.11
+        "code": "17395",
+        "name": "Hùng Châu",
+        "nameEn": "Hung Chau",
+        "fullName": "Xã Hùng Châu",
+        "fullNameEn": "Hung Chau Commune",
+        "codeName": "hung_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1442",
+        "areaKm2": 69.11
       }
     }
   ]

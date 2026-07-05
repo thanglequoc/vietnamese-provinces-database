@@ -3478,11 +3478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Anh",
-        "unit_code": "00454",
-        "unit_code_name": "dong_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3244",
-        "area_km2": 48.68
+        "code": "00454",
+        "name": "Đông Anh",
+        "nameEn": "Dong Anh",
+        "fullName": "Xã Đông Anh",
+        "fullNameEn": "Dong Anh Commune",
+        "codeName": "dong_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3244",
+        "areaKm2": 48.68
       }
     }
   ]

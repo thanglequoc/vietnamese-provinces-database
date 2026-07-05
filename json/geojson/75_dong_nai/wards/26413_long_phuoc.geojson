@@ -14558,11 +14558,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phước",
-        "unit_code": "26413",
-        "unit_code_name": "long_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3139",
-        "area_km2": 81.8
+        "code": "26413",
+        "name": "Long Phước",
+        "nameEn": "Long Phuoc",
+        "fullName": "Xã Long Phước",
+        "fullNameEn": "Long Phuoc Commune",
+        "codeName": "long_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3139",
+        "areaKm2": 81.8
       }
     }
   ]

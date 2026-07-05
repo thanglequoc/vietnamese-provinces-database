@@ -10802,11 +10802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Côn Lôn",
-        "unit_code": "02245",
-        "unit_code_name": "con_lon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2317",
-        "area_km2": 160.76
+        "code": "02245",
+        "name": "Côn Lôn",
+        "nameEn": "Con Lon",
+        "fullName": "Xã Côn Lôn",
+        "fullNameEn": "Con Lon Commune",
+        "codeName": "con_lon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2317",
+        "areaKm2": 160.76
       }
     }
   ]

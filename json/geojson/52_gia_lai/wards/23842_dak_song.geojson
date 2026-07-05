@@ -22026,11 +22026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Song",
-        "unit_code": "23842",
-        "unit_code_name": "dak_song",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3038",
-        "area_km2": 327.49
+        "code": "23842",
+        "name": "Đăk Song",
+        "nameEn": "Dak Song",
+        "fullName": "Xã Đăk Song",
+        "fullNameEn": "Dak Song Commune",
+        "codeName": "dak_song",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3038",
+        "areaKm2": 327.49
       }
     }
   ]

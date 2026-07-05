@@ -6946,11 +6946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Dinh",
-        "unit_code": "21499",
-        "unit_code_name": "ba_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1784",
-        "area_km2": 97.05
+        "code": "21499",
+        "name": "Ba Dinh",
+        "nameEn": "Ba Dinh",
+        "fullName": "Xã Ba Dinh",
+        "fullNameEn": "Ba Dinh Commune",
+        "codeName": "ba_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1784",
+        "areaKm2": 97.05
       }
     }
   ]

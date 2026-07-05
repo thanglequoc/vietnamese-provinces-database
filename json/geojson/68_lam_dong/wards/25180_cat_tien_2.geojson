@@ -6666,11 +6666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Tiên 2",
-        "unit_code": "25180",
-        "unit_code_name": "cat_tien_2",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1258",
-        "area_km2": 177.26
+        "code": "25180",
+        "name": "Cát Tiên 2",
+        "nameEn": "Cat Tien 2",
+        "fullName": "Xã Cát Tiên 2",
+        "fullNameEn": "Commune Cat Tien 2",
+        "codeName": "cat_tien_2",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1258",
+        "areaKm2": 177.26
       }
     }
   ]

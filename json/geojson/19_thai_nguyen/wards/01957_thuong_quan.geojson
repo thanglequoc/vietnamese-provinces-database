@@ -10214,11 +10214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Quan",
-        "unit_code": "01957",
-        "unit_code_name": "thuong_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1255",
-        "area_km2": 154.86
+        "code": "01957",
+        "name": "Thượng Quan",
+        "nameEn": "Thuong Quan",
+        "fullName": "Xã Thượng Quan",
+        "fullNameEn": "Thuong Quan Commune",
+        "codeName": "thuong_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1255",
+        "areaKm2": 154.86
       }
     }
   ]

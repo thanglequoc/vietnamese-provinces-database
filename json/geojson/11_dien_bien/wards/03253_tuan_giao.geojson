@@ -5006,11 +5006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuần Giáo",
-        "unit_code": "03253",
-        "unit_code_name": "tuan_giao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2253",
-        "area_km2": 108.49
+        "code": "03253",
+        "name": "Tuần Giáo",
+        "nameEn": "Tuan Giao",
+        "fullName": "Xã Tuần Giáo",
+        "fullNameEn": "Tuan Giao Commune",
+        "codeName": "tuan_giao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2253",
+        "areaKm2": 108.49
       }
     }
   ]

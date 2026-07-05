@@ -3182,11 +3182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ứng Thiên",
-        "unit_code": "10369",
-        "unit_code_name": "ung_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3214",
-        "area_km2": 38.4
+        "code": "10369",
+        "name": "Ứng Thiên",
+        "nameEn": "Ung Thien",
+        "fullName": "Xã Ứng Thiên",
+        "fullNameEn": "Ung Thien Commune",
+        "codeName": "ung_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3214",
+        "areaKm2": 38.4
       }
     }
   ]

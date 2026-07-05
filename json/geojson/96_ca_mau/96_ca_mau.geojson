@@ -11334,11 +11334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cà Mau",
-        "unit_code": "96",
-        "unit_code_name": "ca_mau",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.39",
-        "area_km2": 7942.39
+        "code": "96",
+        "name": "Cà Mau",
+        "nameEn": "Ca Mau",
+        "fullName": "Tỉnh Cà Mau",
+        "fullNameEn": "Ca Mau Province",
+        "codeName": "ca_mau",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.39",
+        "areaKm2": 7942.39
       }
     }
   ]

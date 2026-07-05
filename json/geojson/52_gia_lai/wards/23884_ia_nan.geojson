@@ -8930,11 +8930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Nan",
-        "unit_code": "23884",
-        "unit_code_name": "ia_nan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2925",
-        "area_km2": 90.31
+        "code": "23884",
+        "name": "Ia Nan",
+        "nameEn": "Ia Nan",
+        "fullName": "Xã Ia Nan",
+        "fullNameEn": "Ia Nan Commune",
+        "codeName": "ia_nan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2925",
+        "areaKm2": 90.31
       }
     }
   ]

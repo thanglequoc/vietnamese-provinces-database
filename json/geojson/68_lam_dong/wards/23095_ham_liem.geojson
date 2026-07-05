@@ -11802,11 +11802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Liêm",
-        "unit_code": "23095",
-        "unit_code_name": "ham_liem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3079",
-        "area_km2": 113.81
+        "code": "23095",
+        "name": "Hàm Liêm",
+        "nameEn": "Ham Liem",
+        "fullName": "Xã Hàm Liêm",
+        "fullNameEn": "Ham Liem Commune",
+        "codeName": "ham_liem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3079",
+        "areaKm2": 113.81
       }
     }
   ]

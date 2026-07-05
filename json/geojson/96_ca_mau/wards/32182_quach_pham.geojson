@@ -17102,11 +17102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quách Phẩm",
-        "unit_code": "32182",
-        "unit_code_name": "quach_pham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.190",
-        "area_km2": 73.8
+        "code": "32182",
+        "name": "Quách Phẩm",
+        "nameEn": "Quach Pham",
+        "fullName": "Xã Quách Phẩm",
+        "fullNameEn": "Quach Pham Commune",
+        "codeName": "quach_pham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.190",
+        "areaKm2": 73.8
       }
     }
   ]

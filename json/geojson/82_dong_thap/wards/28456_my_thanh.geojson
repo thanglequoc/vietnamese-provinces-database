@@ -2494,11 +2494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thành",
-        "unit_code": "28456",
-        "unit_code_name": "my_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.464",
-        "area_km2": 52.3
+        "code": "28456",
+        "name": "Mỹ Thành",
+        "nameEn": "My Thanh",
+        "fullName": "Xã Mỹ Thành",
+        "fullNameEn": "My Thanh Commune",
+        "codeName": "my_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.464",
+        "areaKm2": 52.3
       }
     }
   ]

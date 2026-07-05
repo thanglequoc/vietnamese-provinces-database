@@ -5638,11 +5638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lũng",
-        "unit_code": "08500",
-        "unit_code_name": "xuan_lung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1584",
-        "area_km2": 24.03
+        "code": "08500",
+        "name": "Xuân Lũng",
+        "nameEn": "Xuan Lung",
+        "fullName": "Xã Xuân Lũng",
+        "fullNameEn": "Xuan Lung Commune",
+        "codeName": "xuan_lung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1584",
+        "areaKm2": 24.03
       }
     }
   ]

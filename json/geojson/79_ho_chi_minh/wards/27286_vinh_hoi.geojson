@@ -1142,11 +1142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hội",
-        "unit_code": "27286",
-        "unit_code_name": "vinh_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.94",
-        "area_km2": 1.17
+        "code": "27286",
+        "name": "Vĩnh Hội",
+        "nameEn": "Vinh Hoi",
+        "fullName": "Phường Vĩnh Hội",
+        "fullNameEn": "Vinh Hoi Ward",
+        "codeName": "vinh_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.94",
+        "areaKm2": 1.17
       }
     }
   ]

@@ -3278,11 +3278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Khánh",
-        "unit_code": "22651",
-        "unit_code_name": "dien_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1132",
-        "area_km2": 18.4
+        "code": "22651",
+        "name": "Diên Khánh",
+        "nameEn": "Dien Khanh",
+        "fullName": "Xã Diên Khánh",
+        "fullNameEn": "Dien Khanh Commune",
+        "codeName": "dien_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1132",
+        "areaKm2": 18.4
       }
     }
   ]

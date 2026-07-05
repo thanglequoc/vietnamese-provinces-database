@@ -4978,11 +4978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phú 1",
-        "unit_code": "31480",
-        "unit_code_name": "long_phu_1",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.257",
-        "area_km2": 57.67
+        "code": "31480",
+        "name": "Long Phú 1",
+        "nameEn": "Long Phu 1",
+        "fullName": "Phường Long Phú 1",
+        "fullNameEn": "Ward Long Phu 1",
+        "codeName": "long_phu_1",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.257",
+        "areaKm2": 57.67
       }
     }
   ]

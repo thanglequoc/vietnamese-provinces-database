@@ -3354,11 +3354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ý Yên",
-        "unit_code": "13795",
-        "unit_code_name": "y_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.815",
-        "area_km2": 46.73
+        "code": "13795",
+        "name": "Ý Yên",
+        "nameEn": "Y Yen",
+        "fullName": "Xã Ý Yên",
+        "fullNameEn": "Y Yen Commune",
+        "codeName": "y_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.815",
+        "areaKm2": 46.73
       }
     }
   ]

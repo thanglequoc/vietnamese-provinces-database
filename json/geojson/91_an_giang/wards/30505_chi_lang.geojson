@@ -2146,11 +2146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chi Lăng",
-        "unit_code": "30505",
-        "unit_code_name": "chi_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.332",
-        "area_km2": 51.17
+        "code": "30505",
+        "name": "Chi Lăng",
+        "nameEn": "Chi Lang",
+        "fullName": "Phường Chi Lăng",
+        "fullNameEn": "Chi Lang Ward",
+        "codeName": "chi_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.332",
+        "areaKm2": 51.17
       }
     }
   ]

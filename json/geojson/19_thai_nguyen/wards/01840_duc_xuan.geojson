@@ -3926,11 +3926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Xuân",
-        "unit_code": "01840",
-        "unit_code_name": "duc_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1241",
-        "area_km2": 34.46
+        "code": "01840",
+        "name": "Đức Xuân",
+        "nameEn": "Duc Xuan",
+        "fullName": "Phường Đức Xuân",
+        "fullNameEn": "Duc Xuan Ward",
+        "codeName": "duc_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1241",
+        "areaKm2": 34.46
       }
     }
   ]

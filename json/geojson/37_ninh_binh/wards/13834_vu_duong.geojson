@@ -10946,11 +10946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Dương",
-        "unit_code": "13834",
-        "unit_code_name": "vu_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.816",
-        "area_km2": 30.59
+        "code": "13834",
+        "name": "Vũ Dương",
+        "nameEn": "Vu Duong",
+        "fullName": "Xã Vũ Dương",
+        "fullNameEn": "Vu Duong Commune",
+        "codeName": "vu_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.816",
+        "areaKm2": 30.59
       }
     }
   ]

@@ -4510,11 +4510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Giang",
-        "unit_code": "21196",
-        "unit_code_name": "truong_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1745",
-        "area_km2": 51.3
+        "code": "21196",
+        "name": "Trường Giang",
+        "nameEn": "Truong Giang",
+        "fullName": "Xã Trường Giang",
+        "fullNameEn": "Truong Giang Commune",
+        "codeName": "truong_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1745",
+        "areaKm2": 51.3
       }
     }
   ]

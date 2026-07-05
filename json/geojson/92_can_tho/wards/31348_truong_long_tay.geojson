@@ -3586,11 +3586,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Long Tây",
-        "unit_code": "31348",
-        "unit_code_name": "truong_long_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.239",
-        "area_km2": 50.59
+        "code": "31348",
+        "name": "Trường Long Tây",
+        "nameEn": "Truong Long Tay",
+        "fullName": "Xã Trường Long Tây",
+        "fullNameEn": "Truong Long Tay Commune",
+        "codeName": "truong_long_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.239",
+        "areaKm2": 50.59
       }
     }
   ]

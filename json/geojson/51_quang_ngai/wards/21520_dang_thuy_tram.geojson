@@ -12342,11 +12342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đặng Thuỳ Trâm",
-        "unit_code": "21520",
-        "unit_code_name": "dang_thuy_tram",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1786",
-        "area_km2": 199.4
+        "code": "21520",
+        "name": "Đặng Thuỳ Trâm",
+        "nameEn": "Dang Thuy Tram",
+        "fullName": "Xã Đặng Thuỳ Trâm",
+        "fullNameEn": "Dang Thuy Tram Commune",
+        "codeName": "dang_thuy_tram",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1786",
+        "areaKm2": 199.4
       }
     }
   ]

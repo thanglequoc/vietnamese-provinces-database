@@ -11690,11 +11690,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Dầu",
-        "unit_code": "22708",
-        "unit_code_name": "suoi_dau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1124",
-        "area_km2": 160.1
+        "code": "22708",
+        "name": "Suối Dầu",
+        "nameEn": "Suoi Dau",
+        "fullName": "Xã Suối Dầu",
+        "fullNameEn": "Suoi Dau Commune",
+        "codeName": "suoi_dau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1124",
+        "areaKm2": 160.1
       }
     }
   ]

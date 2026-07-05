@@ -9574,11 +9574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Điều",
-        "unit_code": "30793",
-        "unit_code_name": "vinh_dieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.364",
-        "area_km2": 229.35
+        "code": "30793",
+        "name": "Vĩnh Điều",
+        "nameEn": "Vinh Dieu",
+        "fullName": "Xã Vĩnh Điều",
+        "fullNameEn": "Vinh Dieu Commune",
+        "codeName": "vinh_dieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.364",
+        "areaKm2": 229.35
       }
     }
   ]

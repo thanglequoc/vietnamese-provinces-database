@@ -10702,11 +10702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Canh Liên",
-        "unit_code": "21997",
-        "unit_code_name": "canh_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3020",
-        "area_km2": 331.67
+        "code": "21997",
+        "name": "Canh Liên",
+        "nameEn": "Canh Lien",
+        "fullName": "Xã Canh Liên",
+        "fullNameEn": "Canh Lien Commune",
+        "codeName": "canh_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3020",
+        "areaKm2": 331.67
       }
     }
   ]

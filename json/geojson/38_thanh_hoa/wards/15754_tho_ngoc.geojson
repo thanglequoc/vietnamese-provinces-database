@@ -5030,11 +5030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Ngọc",
-        "unit_code": "15754",
-        "unit_code_name": "tho_ngoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2664",
-        "area_km2": 27.22
+        "code": "15754",
+        "name": "Thọ Ngọc",
+        "nameEn": "Tho Ngoc",
+        "fullName": "Xã Thọ Ngọc",
+        "fullNameEn": "Tho Ngoc Commune",
+        "codeName": "tho_ngoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2664",
+        "areaKm2": 27.22
       }
     }
   ]

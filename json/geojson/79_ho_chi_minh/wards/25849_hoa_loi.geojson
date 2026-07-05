@@ -6834,11 +6834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Lợi",
-        "unit_code": "25849",
-        "unit_code_name": "hoa_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.16",
-        "area_km2": 33.59
+        "code": "25849",
+        "name": "Hoà Lợi",
+        "nameEn": "Hoa Loi",
+        "fullName": "Phường Hoà Lợi",
+        "fullNameEn": "Hoa Loi Ward",
+        "codeName": "hoa_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.16",
+        "areaKm2": 33.59
       }
     }
   ]

@@ -15518,11 +15518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Yang",
-        "unit_code": "24406",
-        "unit_code_name": "cu_yang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2853",
-        "area_km2": 149.43
+        "code": "24406",
+        "name": "Cư Yang",
+        "nameEn": "Cu Yang",
+        "fullName": "Xã Cư Yang",
+        "fullNameEn": "Cu Yang Commune",
+        "codeName": "cu_yang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2853",
+        "areaKm2": 149.43
       }
     }
   ]

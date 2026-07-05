@@ -6538,11 +6538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lũng Phìn",
-        "unit_code": "00763",
-        "unit_code_name": "lung_phin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2371",
-        "area_km2": 69.46
+        "code": "00763",
+        "name": "Lũng Phìn",
+        "nameEn": "Lung Phin",
+        "fullName": "Xã Lũng Phìn",
+        "fullNameEn": "Lung Phin Commune",
+        "codeName": "lung_phin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2371",
+        "areaKm2": 69.46
       }
     }
   ]

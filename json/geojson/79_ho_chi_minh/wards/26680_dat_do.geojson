@@ -14454,11 +14454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đất Đỏ",
-        "unit_code": "26680",
-        "unit_code_name": "dat_do",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2219",
-        "area_km2": 119.77
+        "code": "26680",
+        "name": "Đất Đỏ",
+        "nameEn": "Dat Do",
+        "fullName": "Xã Đất Đỏ",
+        "fullNameEn": "Dat Do Commune",
+        "codeName": "dat_do",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2219",
+        "areaKm2": 119.77
       }
     }
   ]

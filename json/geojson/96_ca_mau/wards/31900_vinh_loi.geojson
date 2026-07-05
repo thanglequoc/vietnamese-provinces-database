@@ -12726,11 +12726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Lợi",
-        "unit_code": "31900",
-        "unit_code_name": "vinh_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.151",
-        "area_km2": 31.98
+        "code": "31900",
+        "name": "Vĩnh Lợi",
+        "nameEn": "Vinh Loi",
+        "fullName": "Xã Vĩnh Lợi",
+        "fullNameEn": "Vinh Loi Commune",
+        "codeName": "vinh_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.151",
+        "areaKm2": 31.98
       }
     }
   ]

@@ -12042,11 +12042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Giang",
-        "unit_code": "20455",
-        "unit_code_name": "tay_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1915",
-        "area_km2": 400.45
+        "code": "20455",
+        "name": "Tây Giang",
+        "nameEn": "Tay Giang",
+        "fullName": "Xã Tây Giang",
+        "fullNameEn": "Tay Giang Commune",
+        "codeName": "tay_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1915",
+        "areaKm2": 400.45
       }
     }
   ]

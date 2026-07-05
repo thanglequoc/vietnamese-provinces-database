@@ -17078,11 +17078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Sơn",
-        "unit_code": "22171",
-        "unit_code_name": "tay_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2908",
-        "area_km2": 334.62
+        "code": "22171",
+        "name": "Tây Sơn",
+        "nameEn": "Tay Son",
+        "fullName": "Xã Tây Sơn",
+        "fullNameEn": "Tay Son Commune",
+        "codeName": "tay_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2908",
+        "areaKm2": 334.62
       }
     }
   ]

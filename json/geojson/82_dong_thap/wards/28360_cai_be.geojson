@@ -3462,11 +3462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Bè",
-        "unit_code": "28360",
-        "unit_code_name": "cai_be",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.455",
-        "area_km2": 41.1
+        "code": "28360",
+        "name": "Cái Bè",
+        "nameEn": "Cai Be",
+        "fullName": "Xã Cái Bè",
+        "fullNameEn": "Cai Be Commune",
+        "codeName": "cai_be",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.455",
+        "areaKm2": 41.1
       }
     }
   ]

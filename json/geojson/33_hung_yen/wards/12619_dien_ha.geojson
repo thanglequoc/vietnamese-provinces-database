@@ -6102,11 +6102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Hà",
-        "unit_code": "12619",
-        "unit_code_name": "dien_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.659",
-        "area_km2": 27.3
+        "code": "12619",
+        "name": "Diên Hà",
+        "nameEn": "Dien Ha",
+        "fullName": "Xã Diên Hà",
+        "fullNameEn": "Dien Ha Commune",
+        "codeName": "dien_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.659",
+        "areaKm2": 27.3
       }
     }
   ]

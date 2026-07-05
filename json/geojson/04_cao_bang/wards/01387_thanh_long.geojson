@@ -10838,11 +10838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Long",
-        "unit_code": "01387",
-        "unit_code_name": "thanh_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.963",
-        "area_km2": 118.62
+        "code": "01387",
+        "name": "Thanh Long",
+        "nameEn": "Thanh Long",
+        "fullName": "Xã Thanh Long",
+        "fullNameEn": "Thanh Long Commune",
+        "codeName": "thanh_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.963",
+        "areaKm2": 118.62
       }
     }
   ]

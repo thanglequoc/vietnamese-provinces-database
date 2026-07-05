@@ -5070,11 +5070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thổ Tang",
-        "unit_code": "09112",
-        "unit_code_name": "tho_tang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1638",
-        "area_km2": 21.3
+        "code": "09112",
+        "name": "Thổ Tang",
+        "nameEn": "Tho Tang",
+        "fullName": "Xã Thổ Tang",
+        "fullNameEn": "Tho Tang Commune",
+        "codeName": "tho_tang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1638",
+        "areaKm2": 21.3
       }
     }
   ]

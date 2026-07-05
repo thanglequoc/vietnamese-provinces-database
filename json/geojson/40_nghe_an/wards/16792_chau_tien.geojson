@@ -11862,11 +11862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Tiến",
-        "unit_code": "16792",
-        "unit_code_name": "chau_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1410",
-        "area_km2": 247.16
+        "code": "16792",
+        "name": "Châu Tiến",
+        "nameEn": "Chau Tien",
+        "fullName": "Xã Châu Tiến",
+        "fullNameEn": "Chau Tien Commune",
+        "codeName": "chau_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1410",
+        "areaKm2": 247.16
       }
     }
   ]

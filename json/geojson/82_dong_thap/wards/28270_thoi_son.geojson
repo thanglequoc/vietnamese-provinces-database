@@ -2798,11 +2798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thới Sơn",
-        "unit_code": "28270",
-        "unit_code_name": "thoi_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.481",
-        "area_km2": 15.2
+        "code": "28270",
+        "name": "Thới Sơn",
+        "nameEn": "Thoi Son",
+        "fullName": "Phường Thới Sơn",
+        "fullNameEn": "Thoi Son Ward",
+        "codeName": "thoi_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.481",
+        "areaKm2": 15.2
       }
     }
   ]

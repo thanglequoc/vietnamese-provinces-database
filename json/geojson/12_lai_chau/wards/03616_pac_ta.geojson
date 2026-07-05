@@ -9650,11 +9650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pắc Ta",
-        "unit_code": "03616",
-        "unit_code_name": "pac_ta",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2095",
-        "area_km2": 168.58
+        "code": "03616",
+        "name": "Pắc Ta",
+        "nameEn": "Pac Ta",
+        "fullName": "Xã Pắc Ta",
+        "fullNameEn": "Pac Ta Commune",
+        "codeName": "pac_ta",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2095",
+        "areaKm2": 168.58
       }
     }
   ]

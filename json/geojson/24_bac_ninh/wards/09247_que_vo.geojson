@@ -4386,11 +4386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quế Võ",
-        "unit_code": "09247",
-        "unit_code_name": "que_vo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2178",
-        "area_km2": 23.51
+        "code": "09247",
+        "name": "Quế Võ",
+        "nameEn": "Que Vo",
+        "fullName": "Phường Quế Võ",
+        "fullNameEn": "Que Vo Ward",
+        "codeName": "que_vo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2178",
+        "areaKm2": 23.51
       }
     }
   ]

@@ -810,11 +810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Quán",
-        "unit_code": "27301",
-        "unit_code_name": "cho_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.95",
-        "area_km2": 1.28
+        "code": "27301",
+        "name": "Chợ Quán",
+        "nameEn": "Cho Quan",
+        "fullName": "Phường Chợ Quán",
+        "fullNameEn": "Cho Quan Ward",
+        "codeName": "cho_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.95",
+        "areaKm2": 1.28
       }
     }
   ]

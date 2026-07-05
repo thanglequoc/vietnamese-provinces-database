@@ -15098,11 +15098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tạ An Khương",
-        "unit_code": "32155",
-        "unit_code_name": "ta_an_khuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.186",
-        "area_km2": 104.2
+        "code": "32155",
+        "name": "Tạ An Khương",
+        "nameEn": "Ta An Khuong",
+        "fullName": "Xã Tạ An Khương",
+        "fullNameEn": "Ta An Khuong Commune",
+        "codeName": "ta_an_khuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.186",
+        "areaKm2": 104.2
       }
     }
   ]

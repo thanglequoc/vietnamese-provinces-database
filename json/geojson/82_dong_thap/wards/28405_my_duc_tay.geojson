@@ -4662,11 +4662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Đức Tây",
-        "unit_code": "28405",
-        "unit_code_name": "my_duc_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.460",
-        "area_km2": 45.8
+        "code": "28405",
+        "name": "Mỹ Đức Tây",
+        "nameEn": "My Duc Tay",
+        "fullName": "Xã Mỹ Đức Tây",
+        "fullNameEn": "My Duc Tay Commune",
+        "codeName": "my_duc_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.460",
+        "areaKm2": 45.8
       }
     }
   ]

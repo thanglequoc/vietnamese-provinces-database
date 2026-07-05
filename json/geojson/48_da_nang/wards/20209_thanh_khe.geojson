@@ -1926,11 +1926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Khê",
-        "unit_code": "20209",
-        "unit_code_name": "thanh_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1907",
-        "area_km2": 7.92
+        "code": "20209",
+        "name": "Thanh Khê",
+        "nameEn": "Thanh Khe",
+        "fullName": "Phường Thanh Khê",
+        "fullNameEn": "Thanh Khe Ward",
+        "codeName": "thanh_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1907",
+        "areaKm2": 7.92
       }
     }
   ]

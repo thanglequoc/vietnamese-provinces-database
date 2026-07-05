@@ -9078,11 +9078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Sơn",
-        "unit_code": "22714",
-        "unit_code_name": "khanh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1138",
-        "area_km2": 98.7
+        "code": "22714",
+        "name": "Khánh Sơn",
+        "nameEn": "Khanh Son",
+        "fullName": "Xã Khánh Sơn",
+        "fullNameEn": "Khanh Son Commune",
+        "codeName": "khanh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1138",
+        "areaKm2": 98.7
       }
     }
   ]

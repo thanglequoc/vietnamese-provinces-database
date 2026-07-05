@@ -7486,11 +7486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Tài",
-        "unit_code": "09496",
-        "unit_code_name": "luong_tai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2134",
-        "area_km2": 24.69
+        "code": "09496",
+        "name": "Lương Tài",
+        "nameEn": "Luong Tai",
+        "fullName": "Xã Lương Tài",
+        "fullNameEn": "Luong Tai Commune",
+        "codeName": "luong_tai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2134",
+        "areaKm2": 24.69
       }
     }
   ]

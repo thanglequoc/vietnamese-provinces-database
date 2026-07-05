@@ -8186,11 +8186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Gi",
-        "unit_code": "23235",
-        "unit_code_name": "la_gi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3096",
-        "area_km2": 68.47
+        "code": "23235",
+        "name": "La Gi",
+        "nameEn": "La Gi",
+        "fullName": "Phường La Gi",
+        "fullNameEn": "La Gi Ward",
+        "codeName": "la_gi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3096",
+        "areaKm2": 68.47
       }
     }
   ]

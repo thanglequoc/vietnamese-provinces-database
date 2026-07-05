@@ -6346,11 +6346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hậu",
-        "unit_code": "27715",
-        "unit_code_name": "khanh_hau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1278",
-        "area_km2": 22.81
+        "code": "27715",
+        "name": "Khánh Hậu",
+        "nameEn": "Khanh Hau",
+        "fullName": "Phường Khánh Hậu",
+        "fullNameEn": "Khanh Hau Ward",
+        "codeName": "khanh_hau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1278",
+        "areaKm2": 22.81
       }
     }
   ]

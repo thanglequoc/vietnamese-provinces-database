@@ -6342,11 +6342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thường Xuân",
-        "unit_code": "15646",
-        "unit_code_name": "thuong_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2565",
-        "area_km2": 83.27
+        "code": "15646",
+        "name": "Thường Xuân",
+        "nameEn": "Thuong Xuan",
+        "fullName": "Xã Thường Xuân",
+        "fullNameEn": "Thuong Xuan Commune",
+        "codeName": "thuong_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2565",
+        "areaKm2": 83.27
       }
     }
   ]

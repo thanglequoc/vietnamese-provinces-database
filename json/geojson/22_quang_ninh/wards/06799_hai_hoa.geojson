@@ -4426,11 +4426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Hoà",
-        "unit_code": "06799",
-        "unit_code_name": "hai_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1896",
-        "area_km2": 95.87
+        "code": "06799",
+        "name": "Hải Hoà",
+        "nameEn": "Hai Hoa",
+        "fullName": "Xã Hải Hoà",
+        "fullNameEn": "Hai Hoa Commune",
+        "codeName": "hai_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1896",
+        "areaKm2": 95.87
       }
     }
   ]

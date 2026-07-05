@@ -1054,11 +1054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hậu Thạnh",
-        "unit_code": "27841",
-        "unit_code_name": "hau_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1293",
-        "area_km2": 93.82
+        "code": "27841",
+        "name": "Hậu Thạnh",
+        "nameEn": "Hau Thanh",
+        "fullName": "Xã Hậu Thạnh",
+        "fullNameEn": "Hau Thanh Commune",
+        "codeName": "hau_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1293",
+        "areaKm2": 93.82
       }
     }
   ]

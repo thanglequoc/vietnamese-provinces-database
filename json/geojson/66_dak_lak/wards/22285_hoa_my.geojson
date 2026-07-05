@@ -11210,11 +11210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Mỹ",
-        "unit_code": "22285",
-        "unit_code_name": "hoa_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2919",
-        "area_km2": 190.14
+        "code": "22285",
+        "name": "Hoà Mỹ",
+        "nameEn": "Hoa My",
+        "fullName": "Xã Hoà Mỹ",
+        "fullNameEn": "Hoa My Commune",
+        "codeName": "hoa_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2919",
+        "areaKm2": 190.14
       }
     }
   ]

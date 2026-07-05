@@ -7010,11 +7010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Nguyên",
-        "unit_code": "01144",
-        "unit_code_name": "quang_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2412",
-        "area_km2": 99.48
+        "code": "01144",
+        "name": "Quảng Nguyên",
+        "nameEn": "Quang Nguyen",
+        "fullName": "Xã Quảng Nguyên",
+        "fullNameEn": "Quang Nguyen Commune",
+        "codeName": "quang_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2412",
+        "areaKm2": 99.48
       }
     }
   ]

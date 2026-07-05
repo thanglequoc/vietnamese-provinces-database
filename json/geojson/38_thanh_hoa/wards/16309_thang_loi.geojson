@@ -3906,11 +3906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thắng Lợi",
-        "unit_code": "16309",
-        "unit_code_name": "thang_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2590",
-        "area_km2": 40.26
+        "code": "16309",
+        "name": "Thắng Lợi",
+        "nameEn": "Thang Loi",
+        "fullName": "Xã Thắng Lợi",
+        "fullNameEn": "Thang Loi Commune",
+        "codeName": "thang_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2590",
+        "areaKm2": 40.26
       }
     }
   ]

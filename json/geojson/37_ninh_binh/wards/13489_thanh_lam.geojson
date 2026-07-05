@@ -3694,11 +3694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Lâm",
-        "unit_code": "13489",
-        "unit_code_name": "thanh_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2780",
-        "area_km2": 52.91
+        "code": "13489",
+        "name": "Thanh Lâm",
+        "nameEn": "Thanh Lam",
+        "fullName": "Xã Thanh Lâm",
+        "fullNameEn": "Thanh Lam Commune",
+        "codeName": "thanh_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2780",
+        "areaKm2": 52.91
       }
     }
   ]

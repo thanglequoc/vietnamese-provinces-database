@@ -9218,11 +9218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nà Tấu",
-        "unit_code": "03316",
-        "unit_code_name": "na_tau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2259",
-        "area_km2": 188.55
+        "code": "03316",
+        "name": "Nà Tấu",
+        "nameEn": "Na Tau",
+        "fullName": "Xã Nà Tấu",
+        "fullNameEn": "Na Tau Commune",
+        "codeName": "na_tau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2259",
+        "areaKm2": 188.55
       }
     }
   ]

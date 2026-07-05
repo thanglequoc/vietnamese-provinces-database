@@ -4086,11 +4086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Xá",
-        "unit_code": "09445",
-        "unit_code_name": "ninh_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2194",
-        "area_km2": 15.81
+        "code": "09445",
+        "name": "Ninh Xá",
+        "nameEn": "Ninh Xa",
+        "fullName": "Phường Ninh Xá",
+        "fullNameEn": "Ninh Xa Ward",
+        "codeName": "ninh_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2194",
+        "areaKm2": 15.81
       }
     }
   ]

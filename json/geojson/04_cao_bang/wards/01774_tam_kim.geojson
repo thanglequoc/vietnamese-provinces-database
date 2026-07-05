@@ -11162,11 +11162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Kim",
-        "unit_code": "01774",
-        "unit_code_name": "tam_kim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.967",
-        "area_km2": 161.81
+        "code": "01774",
+        "name": "Tam Kim",
+        "nameEn": "Tam Kim",
+        "fullName": "Xã Tam Kim",
+        "fullNameEn": "Tam Kim Commune",
+        "codeName": "tam_kim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.967",
+        "areaKm2": 161.81
       }
     }
   ]

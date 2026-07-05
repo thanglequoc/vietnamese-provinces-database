@@ -4794,11 +4794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhựt Tảo",
-        "unit_code": "28087",
-        "unit_code_name": "nhut_tao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1318",
-        "area_km2": 36.45
+        "code": "28087",
+        "name": "Nhựt Tảo",
+        "nameEn": "Nhut Tao",
+        "fullName": "Xã Nhựt Tảo",
+        "fullNameEn": "Nhut Tao Commune",
+        "codeName": "nhut_tao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1318",
+        "areaKm2": 36.45
       }
     }
   ]

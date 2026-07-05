@@ -5178,11 +5178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Điện Biên",
-        "unit_code": "11",
-        "unit_code_name": "dien_bien",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.109",
-        "area_km2": 9539.93
+        "code": "11",
+        "name": "Điện Biên",
+        "nameEn": "Dien Bien",
+        "fullName": "Tỉnh Điện Biên",
+        "fullNameEn": "Dien Bien Province",
+        "codeName": "dien_bien",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.109",
+        "areaKm2": 9539.93
       }
     }
   ]

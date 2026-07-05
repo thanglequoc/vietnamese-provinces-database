@@ -1430,11 +1430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Đức",
-        "unit_code": "30469",
-        "unit_code_name": "my_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.328",
-        "area_km2": 61.59
+        "code": "30469",
+        "name": "Mỹ Đức",
+        "nameEn": "My Duc",
+        "fullName": "Xã Mỹ Đức",
+        "fullNameEn": "My Duc Commune",
+        "codeName": "my_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.328",
+        "areaKm2": 61.59
       }
     }
   ]

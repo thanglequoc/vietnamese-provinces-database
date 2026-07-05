@@ -9890,11 +9890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Chim",
-        "unit_code": "23326",
-        "unit_code_name": "ia_chim",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.553",
-        "area_km2": 115.49
+        "code": "23326",
+        "name": "Ia Chim",
+        "nameEn": "Ia Chim",
+        "fullName": "Xã Ia Chim",
+        "fullNameEn": "Ia Chim Commune",
+        "codeName": "ia_chim",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.553",
+        "areaKm2": 115.49
       }
     }
   ]

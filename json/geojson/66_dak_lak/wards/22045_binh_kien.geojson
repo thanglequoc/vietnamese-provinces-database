@@ -5790,11 +5790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Kiến",
-        "unit_code": "22045",
-        "unit_code_name": "binh_kien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2892",
-        "area_km2": 73.71
+        "code": "22045",
+        "name": "Bình Kiến",
+        "nameEn": "Binh Kien",
+        "fullName": "Phường Bình Kiến",
+        "fullNameEn": "Binh Kien Ward",
+        "codeName": "binh_kien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2892",
+        "areaKm2": 73.71
       }
     }
   ]

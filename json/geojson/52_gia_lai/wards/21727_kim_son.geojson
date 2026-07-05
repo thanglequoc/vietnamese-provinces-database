@@ -13462,11 +13462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Sơn",
-        "unit_code": "21727",
-        "unit_code_name": "kim_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2982",
-        "area_km2": 202.7
+        "code": "21727",
+        "name": "Kim Sơn",
+        "nameEn": "Kim Son",
+        "fullName": "Xã Kim Sơn",
+        "fullNameEn": "Kim Son Commune",
+        "codeName": "kim_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2982",
+        "areaKm2": 202.7
       }
     }
   ]

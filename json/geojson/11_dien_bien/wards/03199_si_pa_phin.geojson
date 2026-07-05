@@ -16406,11 +16406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Si Pa Phìn",
-        "unit_code": "03199",
-        "unit_code_name": "si_pa_phin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2243",
-        "area_km2": 241.65
+        "code": "03199",
+        "name": "Si Pa Phìn",
+        "nameEn": "Si Pa Phin",
+        "fullName": "Xã Si Pa Phìn",
+        "fullNameEn": "Si Pa Phin Commune",
+        "codeName": "si_pa_phin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2243",
+        "areaKm2": 241.65
       }
     }
   ]

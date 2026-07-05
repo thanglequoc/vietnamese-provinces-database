@@ -5078,11 +5078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Thuỷ",
-        "unit_code": "15127",
-        "unit_code_name": "cam_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2642",
-        "area_km2": 64.42
+        "code": "15127",
+        "name": "Cẩm Thuỷ",
+        "nameEn": "Cam Thuy",
+        "fullName": "Xã Cẩm Thuỷ",
+        "fullNameEn": "Cam Thuy Commune",
+        "codeName": "cam_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2642",
+        "areaKm2": 64.42
       }
     }
   ]

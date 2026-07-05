@@ -2230,11 +2230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao Thuỷ",
-        "unit_code": "14167",
-        "unit_code_name": "giao_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.809",
-        "area_km2": 23.52
+        "code": "14167",
+        "name": "Giao Thuỷ",
+        "nameEn": "Giao Thuy",
+        "fullName": "Xã Giao Thuỷ",
+        "fullNameEn": "Giao Thuy Commune",
+        "codeName": "giao_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.809",
+        "areaKm2": 23.52
       }
     }
   ]

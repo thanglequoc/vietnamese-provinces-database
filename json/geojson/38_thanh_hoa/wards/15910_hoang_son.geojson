@@ -5158,11 +5158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Sơn",
-        "unit_code": "15910",
-        "unit_code_name": "hoang_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2598",
-        "area_km2": 21.9
+        "code": "15910",
+        "name": "Hoằng Sơn",
+        "nameEn": "Hoang Son",
+        "fullName": "Xã Hoằng Sơn",
+        "fullNameEn": "Hoang Son Commune",
+        "codeName": "hoang_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2598",
+        "areaKm2": 21.9
       }
     }
   ]

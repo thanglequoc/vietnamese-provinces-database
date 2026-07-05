@@ -7370,11 +7370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuần Trung",
-        "unit_code": "17689",
-        "unit_code_name": "thuan_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1462",
-        "area_km2": 49.26
+        "code": "17689",
+        "name": "Thuần Trung",
+        "nameEn": "Thuan Trung",
+        "fullName": "Xã Thuần Trung",
+        "fullNameEn": "Thuan Trung Commune",
+        "codeName": "thuan_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1462",
+        "areaKm2": 49.26
       }
     }
   ]

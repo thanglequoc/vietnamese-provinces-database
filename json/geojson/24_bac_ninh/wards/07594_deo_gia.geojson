@@ -8694,11 +8694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đèo Gia",
-        "unit_code": "07594",
-        "unit_code_name": "deo_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2110",
-        "area_km2": 102.93
+        "code": "07594",
+        "name": "Đèo Gia",
+        "nameEn": "Deo Gia",
+        "fullName": "Xã Đèo Gia",
+        "fullNameEn": "Deo Gia Commune",
+        "codeName": "deo_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2110",
+        "areaKm2": 102.93
       }
     }
   ]

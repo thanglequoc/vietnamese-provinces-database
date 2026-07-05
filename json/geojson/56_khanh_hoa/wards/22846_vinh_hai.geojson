@@ -22486,11 +22486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hải",
-        "unit_code": "22846",
-        "unit_code_name": "vinh_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3308",
-        "area_km2": 161.2
+        "code": "22846",
+        "name": "Vĩnh Hải",
+        "nameEn": "Vinh Hai",
+        "fullName": "Xã Vĩnh Hải",
+        "fullNameEn": "Vinh Hai Commune",
+        "codeName": "vinh_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3308",
+        "areaKm2": 161.2
       }
     }
   ]

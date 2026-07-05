@@ -5666,11 +5666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Long",
-        "unit_code": "14458",
-        "unit_code_name": "phu_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.779",
-        "area_km2": 74.79
+        "code": "14458",
+        "name": "Phú Long",
+        "nameEn": "Phu Long",
+        "fullName": "Xã Phú Long",
+        "fullNameEn": "Phu Long Commune",
+        "codeName": "phu_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.779",
+        "areaKm2": 74.79
       }
     }
   ]

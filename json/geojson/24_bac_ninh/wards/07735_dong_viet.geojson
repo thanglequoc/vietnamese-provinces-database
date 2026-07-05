@@ -1870,11 +1870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Việt",
-        "unit_code": "07735",
-        "unit_code_name": "dong_viet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2149",
-        "area_km2": 33.21
+        "code": "07735",
+        "name": "Đồng Việt",
+        "nameEn": "Dong Viet",
+        "fullName": "Xã Đồng Việt",
+        "fullNameEn": "Dong Viet Commune",
+        "codeName": "dong_viet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2149",
+        "areaKm2": 33.21
       }
     }
   ]

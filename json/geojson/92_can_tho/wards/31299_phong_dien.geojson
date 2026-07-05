@@ -11974,11 +11974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Điền",
-        "unit_code": "31299",
-        "unit_code_name": "phong_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.229",
-        "area_km2": 45.58
+        "code": "31299",
+        "name": "Phong Điền",
+        "nameEn": "Phong Dien",
+        "fullName": "Xã Phong Điền",
+        "fullNameEn": "Phong Dien Commune",
+        "codeName": "phong_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.229",
+        "areaKm2": 45.58
       }
     }
   ]

@@ -4174,11 +4174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Châu",
-        "unit_code": "27748",
-        "unit_code_name": "vinh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1282",
-        "area_km2": 144.28
+        "code": "27748",
+        "name": "Vĩnh Châu",
+        "nameEn": "Vinh Chau",
+        "fullName": "Xã Vĩnh Châu",
+        "fullNameEn": "Vinh Chau Commune",
+        "codeName": "vinh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1282",
+        "areaKm2": 144.28
       }
     }
   ]

@@ -12370,11 +12370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Tân",
-        "unit_code": "06913",
-        "unit_code_name": "quang_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1888",
-        "area_km2": 184.81
+        "code": "06913",
+        "name": "Quảng Tân",
+        "nameEn": "Quang Tan",
+        "fullName": "Xã Quảng Tân",
+        "fullNameEn": "Quang Tan Commune",
+        "codeName": "quang_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1888",
+        "areaKm2": 184.81
       }
     }
   ]

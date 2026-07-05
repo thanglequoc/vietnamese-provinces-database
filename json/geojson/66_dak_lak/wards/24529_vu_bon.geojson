@@ -45922,11 +45922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vụ Bổn",
-        "unit_code": "24529",
-        "unit_code_name": "vu_bon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2868",
-        "area_km2": 109.13
+        "code": "24529",
+        "name": "Vụ Bổn",
+        "nameEn": "Vu Bon",
+        "fullName": "Xã Vụ Bổn",
+        "fullNameEn": "Vu Bon Commune",
+        "codeName": "vu_bon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2868",
+        "areaKm2": 109.13
       }
     }
   ]

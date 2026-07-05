@@ -4850,11 +4850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khúc Thừa Dụ",
-        "unit_code": "11224",
-        "unit_code_name": "khuc_thua_du",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.886",
-        "area_km2": 28.79
+        "code": "11224",
+        "name": "Khúc Thừa Dụ",
+        "nameEn": "Khuc Thua Du",
+        "fullName": "Xã Khúc Thừa Dụ",
+        "fullNameEn": "Khuc Thua Du Commune",
+        "codeName": "khuc_thua_du",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.886",
+        "areaKm2": 28.79
       }
     }
   ]

@@ -7014,11 +7014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vàm Cỏ",
-        "unit_code": "28093",
-        "unit_code_name": "vam_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1319",
-        "area_km2": 40.73
+        "code": "28093",
+        "name": "Vàm Cỏ",
+        "nameEn": "Vam Co",
+        "fullName": "Xã Vàm Cỏ",
+        "fullNameEn": "Vam Co Commune",
+        "codeName": "vam_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1319",
+        "areaKm2": 40.73
       }
     }
   ]

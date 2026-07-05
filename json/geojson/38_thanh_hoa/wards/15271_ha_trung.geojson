@@ -2934,11 +2934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Trung",
-        "unit_code": "15271",
-        "unit_code_name": "ha_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2618",
-        "area_km2": 34.14
+        "code": "15271",
+        "name": "Hà Trung",
+        "nameEn": "Ha Trung",
+        "fullName": "Xã Hà Trung",
+        "fullNameEn": "Ha Trung Commune",
+        "codeName": "ha_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2618",
+        "areaKm2": 34.14
       }
     }
   ]

@@ -25734,11 +25734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Di Linh",
-        "unit_code": "25000",
-        "unit_code_name": "di_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.503",
-        "area_km2": 268.28
+        "code": "25000",
+        "name": "Di Linh",
+        "nameEn": "Di Linh",
+        "fullName": "Xã Di Linh",
+        "fullNameEn": "Di Linh Commune",
+        "codeName": "di_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.503",
+        "areaKm2": 268.28
       }
     }
   ]

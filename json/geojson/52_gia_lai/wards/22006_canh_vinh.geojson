@@ -11070,11 +11070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Canh Vinh",
-        "unit_code": "22006",
-        "unit_code_name": "canh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3021",
-        "area_km2": 258.72
+        "code": "22006",
+        "name": "Canh Vinh",
+        "nameEn": "Canh Vinh",
+        "fullName": "Xã Canh Vinh",
+        "fullNameEn": "Canh Vinh Commune",
+        "codeName": "canh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3021",
+        "areaKm2": 258.72
       }
     }
   ]

@@ -7590,11 +7590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà An",
-        "unit_code": "01654",
-        "unit_code_name": "hoa_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.950",
-        "area_km2": 97.03
+        "code": "01654",
+        "name": "Hoà An",
+        "nameEn": "Hoa An",
+        "fullName": "Xã Hoà An",
+        "fullNameEn": "Hoa An Commune",
+        "codeName": "hoa_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.950",
+        "areaKm2": 97.03
       }
     }
   ]

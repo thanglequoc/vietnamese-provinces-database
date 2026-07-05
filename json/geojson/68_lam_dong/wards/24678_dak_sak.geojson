@@ -16830,11 +16830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Sắk",
-        "unit_code": "24678",
-        "unit_code_name": "dak_sak",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2804",
-        "area_km2": 99
+        "code": "24678",
+        "name": "Đắk Sắk",
+        "nameEn": "Dak Sak",
+        "fullName": "Xã Đắk Sắk",
+        "fullNameEn": "Dak Sak Commune",
+        "codeName": "dak_sak",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2804",
+        "areaKm2": 99
       }
     }
   ]

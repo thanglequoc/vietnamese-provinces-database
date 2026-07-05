@@ -2050,11 +2050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Thường Kiệt",
-        "unit_code": "13435",
-        "unit_code_name": "ly_thuong_kiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2786",
-        "area_km2": 53.66
+        "code": "13435",
+        "name": "Lý Thường Kiệt",
+        "nameEn": "Ly Thuong Kiet",
+        "fullName": "Phường Lý Thường Kiệt",
+        "fullNameEn": "Ly Thuong Kiet Ward",
+        "codeName": "ly_thuong_kiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2786",
+        "areaKm2": 53.66
       }
     }
   ]

@@ -1750,11 +1750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Giang",
-        "unit_code": "13093",
-        "unit_code_name": "tra_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.701",
-        "area_km2": 21.31
+        "code": "13093",
+        "name": "Trà Giang",
+        "nameEn": "Tra Giang",
+        "fullName": "Xã Trà Giang",
+        "fullNameEn": "Tra Giang Commune",
+        "codeName": "tra_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.701",
+        "areaKm2": 21.31
       }
     }
   ]

@@ -6354,11 +6354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Long",
-        "unit_code": "15274",
-        "unit_code_name": "ha_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2639",
-        "area_km2": 65.43
+        "code": "15274",
+        "name": "Hà Long",
+        "nameEn": "Ha Long",
+        "fullName": "Xã Hà Long",
+        "fullNameEn": "Ha Long Commune",
+        "codeName": "ha_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2639",
+        "areaKm2": 65.43
       }
     }
   ]

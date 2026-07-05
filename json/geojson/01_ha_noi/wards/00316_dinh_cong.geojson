@@ -2190,11 +2190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Định Công",
-        "unit_code": "00316",
-        "unit_code_name": "dinh_cong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3187",
-        "area_km2": 5.34
+        "code": "00316",
+        "name": "Định Công",
+        "nameEn": "Dinh Cong",
+        "fullName": "Phường Định Công",
+        "fullNameEn": "Dinh Cong Ward",
+        "codeName": "dinh_cong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3187",
+        "areaKm2": 5.34
       }
     }
   ]

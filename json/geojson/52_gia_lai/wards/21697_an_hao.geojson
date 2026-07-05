@@ -11526,11 +11526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ân Hảo",
-        "unit_code": "21697",
-        "unit_code_name": "an_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2979",
-        "area_km2": 95.46
+        "code": "21697",
+        "name": "Ân Hảo",
+        "nameEn": "An Hao",
+        "fullName": "Xã Ân Hảo",
+        "fullNameEn": "An Hao Commune",
+        "codeName": "an_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2979",
+        "areaKm2": 95.46
       }
     }
   ]

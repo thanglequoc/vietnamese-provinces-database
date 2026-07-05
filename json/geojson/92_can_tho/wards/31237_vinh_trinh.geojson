@@ -4622,11 +4622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Trinh",
-        "unit_code": "31237",
-        "unit_code_name": "vinh_trinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.220",
-        "area_km2": 51.01
+        "code": "31237",
+        "name": "Vĩnh Trinh",
+        "nameEn": "Vinh Trinh",
+        "fullName": "Xã Vĩnh Trinh",
+        "fullNameEn": "Vinh Trinh Commune",
+        "codeName": "vinh_trinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.220",
+        "areaKm2": 51.01
       }
     }
   ]

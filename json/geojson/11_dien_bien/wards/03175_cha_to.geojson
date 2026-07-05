@@ -16526,11 +16526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chà Tở",
-        "unit_code": "03175",
-        "unit_code_name": "cha_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2239",
-        "area_km2": 227.92
+        "code": "03175",
+        "name": "Chà Tở",
+        "nameEn": "Cha To",
+        "fullName": "Xã Chà Tở",
+        "fullNameEn": "Cha To Commune",
+        "codeName": "cha_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2239",
+        "areaKm2": 227.92
       }
     }
   ]

@@ -730,11 +730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Nẫm",
-        "unit_code": "31537",
-        "unit_code_name": "phong_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.266",
-        "area_km2": 17.3
+        "code": "31537",
+        "name": "Phong Nẫm",
+        "nameEn": "Phong Nam",
+        "fullName": "Xã Phong Nẫm",
+        "fullNameEn": "Phong Nam Commune",
+        "codeName": "phong_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.266",
+        "areaKm2": 17.3
       }
     }
   ]

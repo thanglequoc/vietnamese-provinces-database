@@ -9854,11 +9854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Tân",
-        "unit_code": "23236",
-        "unit_code_name": "ham_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3097",
-        "area_km2": 198.46
+        "code": "23236",
+        "name": "Hàm Tân",
+        "nameEn": "Ham Tan",
+        "fullName": "Xã Hàm Tân",
+        "fullNameEn": "Ham Tan Commune",
+        "codeName": "ham_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3097",
+        "areaKm2": 198.46
       }
     }
   ]

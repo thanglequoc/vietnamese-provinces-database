@@ -2614,11 +2614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kẻ Sặt",
-        "unit_code": "10945",
-        "unit_code_name": "ke_sat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.867",
-        "area_km2": 24.67
+        "code": "10945",
+        "name": "Kẻ Sặt",
+        "nameEn": "Ke Sat",
+        "fullName": "Xã Kẻ Sặt",
+        "fullNameEn": "Ke Sat Commune",
+        "codeName": "ke_sat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.867",
+        "areaKm2": 24.67
       }
     }
   ]

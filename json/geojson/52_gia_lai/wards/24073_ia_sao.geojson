@@ -5882,11 +5882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Sao",
-        "unit_code": "24073",
-        "unit_code_name": "ia_sao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2962",
-        "area_km2": 114.6
+        "code": "24073",
+        "name": "Ia Sao",
+        "nameEn": "Ia Sao",
+        "fullName": "Xã Ia Sao",
+        "fullNameEn": "Ia Sao Commune",
+        "codeName": "ia_sao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2962",
+        "areaKm2": 114.6
       }
     }
   ]

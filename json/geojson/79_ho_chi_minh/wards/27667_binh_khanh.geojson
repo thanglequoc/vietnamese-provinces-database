@@ -5658,11 +5658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Khánh",
-        "unit_code": "27667",
-        "unit_code_name": "binh_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.135",
-        "area_km2": 158.28
+        "code": "27667",
+        "name": "Bình Khánh",
+        "nameEn": "Binh Khanh",
+        "fullName": "Xã Bình Khánh",
+        "fullNameEn": "Binh Khanh Commune",
+        "codeName": "binh_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.135",
+        "areaKm2": 158.28
       }
     }
   ]

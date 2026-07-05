@@ -2994,11 +2994,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gành Hào",
-        "unit_code": "31972",
-        "unit_code_name": "ganh_hao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.159",
-        "area_km2": 13.4
+        "code": "31972",
+        "name": "Gành Hào",
+        "nameEn": "Ganh Hao",
+        "fullName": "Xã Gành Hào",
+        "fullNameEn": "Ganh Hao Commune",
+        "codeName": "ganh_hao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.159",
+        "areaKm2": 13.4
       }
     }
   ]

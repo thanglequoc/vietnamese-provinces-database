@@ -9794,11 +9794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân An",
-        "unit_code": "21892",
-        "unit_code_name": "xuan_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3003",
-        "area_km2": 67.61
+        "code": "21892",
+        "name": "Xuân An",
+        "nameEn": "Xuan An",
+        "fullName": "Xã Xuân An",
+        "fullNameEn": "Xuan An Commune",
+        "codeName": "xuan_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3003",
+        "areaKm2": 67.61
       }
     }
   ]

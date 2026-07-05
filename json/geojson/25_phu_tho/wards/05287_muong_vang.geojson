@@ -5158,11 +5158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Vang",
-        "unit_code": "05287",
-        "unit_code_name": "muong_vang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1670",
-        "area_km2": 69.79
+        "code": "05287",
+        "name": "Mường Vang",
+        "nameEn": "Muong Vang",
+        "fullName": "Xã Mường Vang",
+        "fullNameEn": "Muong Vang Commune",
+        "codeName": "muong_vang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1670",
+        "areaKm2": 69.79
       }
     }
   ]

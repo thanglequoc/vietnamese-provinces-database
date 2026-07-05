@@ -8842,11 +8842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thông Nông",
-        "unit_code": "01363",
-        "unit_code_name": "thong_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.954",
-        "area_km2": 94.29
+        "code": "01363",
+        "name": "Thông Nông",
+        "nameEn": "Thong Nong",
+        "fullName": "Xã Thông Nông",
+        "fullNameEn": "Thong Nong Commune",
+        "codeName": "thong_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.954",
+        "areaKm2": 94.29
       }
     }
   ]

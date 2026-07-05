@@ -17406,11 +17406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Xoài",
-        "unit_code": "25210",
-        "unit_code_name": "dong_xoai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2273",
-        "area_km2": 81.3
+        "code": "25210",
+        "name": "Đồng Xoài",
+        "nameEn": "Dong Xoai",
+        "fullName": "Phường Đồng Xoài",
+        "fullNameEn": "Dong Xoai Ward",
+        "codeName": "dong_xoai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2273",
+        "areaKm2": 81.3
       }
     }
   ]

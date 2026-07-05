@@ -3366,11 +3366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Lai",
-        "unit_code": "09469",
-        "unit_code_name": "dai_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2131",
-        "area_km2": 15.32
+        "code": "09469",
+        "name": "Đại Lai",
+        "nameEn": "Dai Lai",
+        "fullName": "Xã Đại Lai",
+        "fullNameEn": "Dai Lai Commune",
+        "codeName": "dai_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2131",
+        "areaKm2": 15.32
       }
     }
   ]

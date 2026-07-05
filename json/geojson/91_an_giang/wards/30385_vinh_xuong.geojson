@@ -1070,11 +1070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Xương",
-        "unit_code": "30385",
-        "unit_code_name": "vinh_xuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.317",
-        "area_km2": 50.21
+        "code": "30385",
+        "name": "Vĩnh Xương",
+        "nameEn": "Vinh Xuong",
+        "fullName": "Xã Vĩnh Xương",
+        "fullNameEn": "Vinh Xuong Commune",
+        "codeName": "vinh_xuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.317",
+        "areaKm2": 50.21
       }
     }
   ]

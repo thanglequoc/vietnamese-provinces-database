@@ -3742,11 +3742,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Giao",
-        "unit_code": "25969",
-        "unit_code_name": "thuan_giao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.34",
-        "area_km2": 16.81
+        "code": "25969",
+        "name": "Thuận Giao",
+        "nameEn": "Thuan Giao",
+        "fullName": "Phường Thuận Giao",
+        "fullNameEn": "Thuan Giao Ward",
+        "codeName": "thuan_giao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.34",
+        "areaKm2": 16.81
       }
     }
   ]

@@ -11082,11 +11082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Văn",
-        "unit_code": "08479",
-        "unit_code_name": "tho_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1595",
-        "area_km2": 43.54
+        "code": "08479",
+        "name": "Thọ Văn",
+        "nameEn": "Tho Van",
+        "fullName": "Xã Thọ Văn",
+        "fullNameEn": "Tho Van Commune",
+        "codeName": "tho_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1595",
+        "areaKm2": 43.54
       }
     }
   ]

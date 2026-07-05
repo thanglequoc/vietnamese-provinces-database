@@ -12358,11 +12358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Trà",
-        "unit_code": "29888",
-        "unit_code_name": "my_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.403",
-        "area_km2": 46.3
+        "code": "29888",
+        "name": "Mỹ Trà",
+        "nameEn": "My Tra",
+        "fullName": "Phường Mỹ Trà",
+        "fullNameEn": "My Tra Ward",
+        "codeName": "my_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.403",
+        "areaKm2": 46.3
       }
     }
   ]

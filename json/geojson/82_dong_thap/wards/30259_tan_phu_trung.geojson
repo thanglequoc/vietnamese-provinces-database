@@ -9758,11 +9758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phú Trung",
-        "unit_code": "30259",
-        "unit_code_name": "tan_phu_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.442",
-        "area_km2": 82.6
+        "code": "30259",
+        "name": "Tân Phú Trung",
+        "nameEn": "Tan Phu Trung",
+        "fullName": "Xã Tân Phú Trung",
+        "fullNameEn": "Tan Phu Trung Commune",
+        "codeName": "tan_phu_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.442",
+        "areaKm2": 82.6
       }
     }
   ]

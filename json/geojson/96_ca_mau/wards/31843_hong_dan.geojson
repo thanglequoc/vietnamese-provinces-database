@@ -6490,11 +6490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Dân",
-        "unit_code": "31843",
-        "unit_code_name": "hong_dan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.143",
-        "area_km2": 15.62
+        "code": "31843",
+        "name": "Hồng Dân",
+        "nameEn": "Hong Dan",
+        "fullName": "Xã Hồng Dân",
+        "fullNameEn": "Hong Dan Commune",
+        "codeName": "hong_dan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.143",
+        "areaKm2": 15.62
       }
     }
   ]

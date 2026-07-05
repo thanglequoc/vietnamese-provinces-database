@@ -4518,11 +4518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Thạnh",
-        "unit_code": "25663",
-        "unit_code_name": "phuoc_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2732",
-        "area_km2": 70.89
+        "code": "25663",
+        "name": "Phước Thạnh",
+        "nameEn": "Phuoc Thanh",
+        "fullName": "Xã Phước Thạnh",
+        "fullNameEn": "Phuoc Thanh Commune",
+        "codeName": "phuoc_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2732",
+        "areaKm2": 70.89
       }
     }
   ]

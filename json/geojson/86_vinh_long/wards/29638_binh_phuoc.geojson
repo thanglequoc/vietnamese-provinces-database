@@ -9622,11 +9622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Phước",
-        "unit_code": "29638",
-        "unit_code_name": "binh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2535",
-        "area_km2": 35.67
+        "code": "29638",
+        "name": "Bình Phước",
+        "nameEn": "Binh Phuoc",
+        "fullName": "Xã Bình Phước",
+        "fullNameEn": "Binh Phuoc Commune",
+        "codeName": "binh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2535",
+        "areaKm2": 35.67
       }
     }
   ]

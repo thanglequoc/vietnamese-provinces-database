@@ -7706,11 +7706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thạnh",
-        "unit_code": "27736",
-        "unit_code_name": "vinh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1281",
-        "area_km2": 118.68
+        "code": "27736",
+        "name": "Vĩnh Thạnh",
+        "nameEn": "Vinh Thanh",
+        "fullName": "Xã Vĩnh Thạnh",
+        "fullNameEn": "Vinh Thanh Commune",
+        "codeName": "vinh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1281",
+        "areaKm2": 118.68
       }
     }
   ]

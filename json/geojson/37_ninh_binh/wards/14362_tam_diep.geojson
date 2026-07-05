@@ -3690,11 +3690,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Điệp",
-        "unit_code": "14362",
-        "unit_code_name": "tam_diep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.772",
-        "area_km2": 41.2
+        "code": "14362",
+        "name": "Tam Điệp",
+        "nameEn": "Tam Diep",
+        "fullName": "Phường Tam Điệp",
+        "fullNameEn": "Tam Diep Ward",
+        "codeName": "tam_diep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.772",
+        "areaKm2": 41.2
       }
     }
   ]

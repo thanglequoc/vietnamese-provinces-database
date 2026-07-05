@@ -11386,11 +11386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hoà",
-        "unit_code": "22258",
-        "unit_code_name": "dong_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2917",
-        "area_km2": 77.54
+        "code": "22258",
+        "name": "Đông Hoà",
+        "nameEn": "Dong Hoa",
+        "fullName": "Phường Đông Hoà",
+        "fullNameEn": "Dong Hoa Ward",
+        "codeName": "dong_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2917",
+        "areaKm2": 77.54
       }
     }
   ]

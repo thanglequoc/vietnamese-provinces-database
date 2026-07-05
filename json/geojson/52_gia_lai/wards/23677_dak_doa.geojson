@@ -11894,11 +11894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đak Đoa",
-        "unit_code": "23677",
-        "unit_code_name": "dak_doa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3052",
-        "area_km2": 83.37
+        "code": "23677",
+        "name": "Đak Đoa",
+        "nameEn": "Dak Doa",
+        "fullName": "Xã Đak Đoa",
+        "fullNameEn": "Dak Doa Commune",
+        "codeName": "dak_doa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3052",
+        "areaKm2": 83.37
       }
     }
   ]

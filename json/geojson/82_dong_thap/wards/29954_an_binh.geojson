@@ -4050,11 +4050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Bình",
-        "unit_code": "29954",
-        "unit_code_name": "an_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.411",
-        "area_km2": 50.1
+        "code": "29954",
+        "name": "An Bình",
+        "nameEn": "An Binh",
+        "fullName": "Phường An Bình",
+        "fullNameEn": "An Binh Ward",
+        "codeName": "an_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.411",
+        "areaKm2": 50.1
       }
     }
   ]

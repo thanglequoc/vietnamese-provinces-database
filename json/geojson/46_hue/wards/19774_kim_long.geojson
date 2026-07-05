@@ -20158,11 +20158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Long",
-        "unit_code": "19774",
-        "unit_code_name": "kim_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1711",
-        "area_km2": 90.14
+        "code": "19774",
+        "name": "Kim Long",
+        "nameEn": "Kim Long",
+        "fullName": "Phường Kim Long",
+        "fullNameEn": "Kim Long Ward",
+        "codeName": "kim_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1711",
+        "areaKm2": 90.14
       }
     }
   ]

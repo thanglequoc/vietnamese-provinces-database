@@ -4294,11 +4294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chi Lăng",
-        "unit_code": "09313",
-        "unit_code_name": "chi_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2179",
-        "area_km2": 23.39
+        "code": "09313",
+        "name": "Chi Lăng",
+        "nameEn": "Chi Lang",
+        "fullName": "Xã Chi Lăng",
+        "fullNameEn": "Chi Lang Commune",
+        "codeName": "chi_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2179",
+        "areaKm2": 23.39
       }
     }
   ]

@@ -2562,11 +2562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Ngãi Trung",
-        "unit_code": "29143",
-        "unit_code_name": "an_ngai_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2475",
-        "area_km2": 33.87
+        "code": "29143",
+        "name": "An Ngãi Trung",
+        "nameEn": "An Ngai Trung",
+        "fullName": "Xã An Ngãi Trung",
+        "fullNameEn": "An Ngai Trung Commune",
+        "codeName": "an_ngai_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2475",
+        "areaKm2": 33.87
       }
     }
   ]

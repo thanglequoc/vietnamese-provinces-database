@@ -14890,11 +14890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Ly",
-        "unit_code": "23734",
-        "unit_code_name": "ia_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2945",
-        "area_km2": 210.56
+        "code": "23734",
+        "name": "Ia Ly",
+        "nameEn": "Ia Ly",
+        "fullName": "Xã Ia Ly",
+        "fullNameEn": "Ia Ly Commune",
+        "codeName": "ia_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2945",
+        "areaKm2": 210.56
       }
     }
   ]

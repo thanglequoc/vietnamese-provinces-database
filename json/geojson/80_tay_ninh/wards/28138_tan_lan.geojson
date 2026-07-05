@@ -5326,11 +5326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lân",
-        "unit_code": "28138",
-        "unit_code_name": "tan_lan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1323",
-        "area_km2": 38.93
+        "code": "28138",
+        "name": "Tân Lân",
+        "nameEn": "Tan Lan",
+        "fullName": "Xã Tân Lân",
+        "fullNameEn": "Tan Lan Commune",
+        "codeName": "tan_lan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1323",
+        "areaKm2": 38.93
       }
     }
   ]

@@ -7438,11 +7438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh An",
-        "unit_code": "12577",
-        "unit_code_name": "quynh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.657",
-        "area_km2": 26
+        "code": "12577",
+        "name": "Quỳnh An",
+        "nameEn": "Quynh An",
+        "fullName": "Xã Quỳnh An",
+        "fullNameEn": "Quynh An Commune",
+        "codeName": "quynh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.657",
+        "areaKm2": 26
       }
     }
   ]

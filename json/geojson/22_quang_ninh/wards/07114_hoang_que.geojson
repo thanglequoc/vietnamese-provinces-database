@@ -6538,11 +6538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Quế",
-        "unit_code": "07114",
-        "unit_code_name": "hoang_que",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1858",
-        "area_km2": 63.83
+        "code": "07114",
+        "name": "Hoàng Quế",
+        "nameEn": "Hoang Que",
+        "fullName": "Phường Hoàng Quế",
+        "fullNameEn": "Hoang Que Ward",
+        "codeName": "hoang_que",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1858",
+        "areaKm2": 63.83
       }
     }
   ]

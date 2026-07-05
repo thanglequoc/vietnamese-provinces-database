@@ -3266,11 +3266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Ngạn",
-        "unit_code": "17728",
-        "unit_code_name": "cat_ngan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1426",
-        "area_km2": 59.28
+        "code": "17728",
+        "name": "Cát Ngạn",
+        "nameEn": "Cat Ngan",
+        "fullName": "Xã Cát Ngạn",
+        "fullNameEn": "Cat Ngan Commune",
+        "codeName": "cat_ngan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1426",
+        "areaKm2": 59.28
       }
     }
   ]

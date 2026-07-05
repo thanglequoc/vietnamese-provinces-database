@@ -8274,11 +8274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiện Tín",
-        "unit_code": "21388",
-        "unit_code_name": "thien_tin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1759",
-        "area_km2": 99.1
+        "code": "21388",
+        "name": "Thiện Tín",
+        "nameEn": "Thien Tin",
+        "fullName": "Xã Thiện Tín",
+        "fullNameEn": "Thien Tin Commune",
+        "codeName": "thien_tin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1759",
+        "areaKm2": 99.1
       }
     }
   ]

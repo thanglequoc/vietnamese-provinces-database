@@ -20042,11 +20042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Yên",
-        "unit_code": "02374",
-        "unit_code_name": "ham_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2333",
-        "area_km2": 126.19
+        "code": "02374",
+        "name": "Hàm Yên",
+        "nameEn": "Ham Yen",
+        "fullName": "Xã Hàm Yên",
+        "fullNameEn": "Ham Yen Commune",
+        "codeName": "ham_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2333",
+        "areaKm2": 126.19
       }
     }
   ]

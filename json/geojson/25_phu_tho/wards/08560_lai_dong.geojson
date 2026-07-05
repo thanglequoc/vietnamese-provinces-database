@@ -6534,11 +6534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Đồng",
-        "unit_code": "08560",
-        "unit_code_name": "lai_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1580",
-        "area_km2": 108.45
+        "code": "08560",
+        "name": "Lai Đồng",
+        "nameEn": "Lai Dong",
+        "fullName": "Xã Lai Đồng",
+        "fullNameEn": "Lai Dong Commune",
+        "codeName": "lai_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1580",
+        "areaKm2": 108.45
       }
     }
   ]

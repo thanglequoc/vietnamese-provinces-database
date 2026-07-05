@@ -3302,11 +3302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Khánh",
-        "unit_code": "29983",
-        "unit_code_name": "long_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.410",
-        "area_km2": 29
+        "code": "29983",
+        "name": "Long Khánh",
+        "nameEn": "Long Khanh",
+        "fullName": "Xã Long Khánh",
+        "fullNameEn": "Long Khanh Commune",
+        "codeName": "long_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.410",
+        "areaKm2": 29
       }
     }
   ]

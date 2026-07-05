@@ -14626,11 +14626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Hoà",
-        "unit_code": "22165",
-        "unit_code_name": "son_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2901",
-        "area_km2": 267.39
+        "code": "22165",
+        "name": "Sơn Hoà",
+        "nameEn": "Son Hoa",
+        "fullName": "Xã Sơn Hoà",
+        "fullNameEn": "Son Hoa Commune",
+        "codeName": "son_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2901",
+        "areaKm2": 267.39
       }
     }
   ]

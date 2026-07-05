@@ -13290,11 +13290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuỷ Xuân",
-        "unit_code": "19813",
-        "unit_code_name": "thuy_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1691",
-        "area_km2": 37.03
+        "code": "19813",
+        "name": "Thuỷ Xuân",
+        "nameEn": "Thuy Xuan",
+        "fullName": "Phường Thuỷ Xuân",
+        "fullNameEn": "Thuy Xuan Ward",
+        "codeName": "thuy_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1691",
+        "areaKm2": 37.03
       }
     }
   ]

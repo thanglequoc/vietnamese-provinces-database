@@ -11786,11 +11786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thống Nhất",
-        "unit_code": "07060",
-        "unit_code_name": "thong_nhat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1864",
-        "area_km2": 276.12
+        "code": "07060",
+        "name": "Thống Nhất",
+        "nameEn": "Thong Nhat",
+        "fullName": "Xã Thống Nhất",
+        "fullNameEn": "Thong Nhat Commune",
+        "codeName": "thong_nhat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1864",
+        "areaKm2": 276.12
       }
     }
   ]

@@ -6054,11 +6054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hướng Lập",
-        "unit_code": "19435",
-        "unit_code_name": "huong_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.576",
-        "area_km2": 219.64
+        "code": "19435",
+        "name": "Hướng Lập",
+        "nameEn": "Huong Lap",
+        "fullName": "Xã Hướng Lập",
+        "fullNameEn": "Huong Lap Commune",
+        "codeName": "huong_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.576",
+        "areaKm2": 219.64
       }
     }
   ]

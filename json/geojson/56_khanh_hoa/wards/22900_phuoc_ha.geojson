@@ -7722,11 +7722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Hà",
-        "unit_code": "22900",
-        "unit_code_name": "phuoc_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1158",
-        "area_km2": 230
+        "code": "22900",
+        "name": "Phước Hà",
+        "nameEn": "Phuoc Ha",
+        "fullName": "Xã Phước Hà",
+        "fullNameEn": "Phuoc Ha Commune",
+        "codeName": "phuoc_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1158",
+        "areaKm2": 230
       }
     }
   ]

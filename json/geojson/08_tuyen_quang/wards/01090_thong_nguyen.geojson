@@ -11654,11 +11654,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thông Nguyên",
-        "unit_code": "01090",
-        "unit_code_name": "thong_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2409",
-        "area_km2": 108.7
+        "code": "01090",
+        "name": "Thông Nguyên",
+        "nameEn": "Thong Nguyen",
+        "fullName": "Xã Thông Nguyên",
+        "fullNameEn": "Thong Nguyen Commune",
+        "codeName": "thong_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2409",
+        "areaKm2": 108.7
       }
     }
   ]

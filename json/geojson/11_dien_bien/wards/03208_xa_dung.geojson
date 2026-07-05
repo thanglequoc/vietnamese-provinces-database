@@ -13042,11 +13042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xa Dung",
-        "unit_code": "03208",
-        "unit_code_name": "xa_dung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2246",
-        "area_km2": 215.5
+        "code": "03208",
+        "name": "Xa Dung",
+        "nameEn": "Xa Dung",
+        "fullName": "Xã Xa Dung",
+        "fullNameEn": "Xa Dung Commune",
+        "codeName": "xa_dung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2246",
+        "areaKm2": 215.5
       }
     }
   ]

@@ -5390,11 +5390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thành",
-        "unit_code": "28894",
-        "unit_code_name": "vinh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2446",
-        "area_km2": 52.01
+        "code": "28894",
+        "name": "Vĩnh Thành",
+        "nameEn": "Vinh Thanh",
+        "fullName": "Xã Vĩnh Thành",
+        "fullNameEn": "Vinh Thanh Commune",
+        "codeName": "vinh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2446",
+        "areaKm2": 52.01
       }
     }
   ]

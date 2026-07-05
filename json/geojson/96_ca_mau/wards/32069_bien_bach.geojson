@@ -9458,11 +9458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Biển Bạch",
-        "unit_code": "32069",
-        "unit_code_name": "bien_bach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.171",
-        "area_km2": 158.2
+        "code": "32069",
+        "name": "Biển Bạch",
+        "nameEn": "Bien Bach",
+        "fullName": "Xã Biển Bạch",
+        "fullNameEn": "Bien Bach Commune",
+        "codeName": "bien_bach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.171",
+        "areaKm2": 158.2
       }
     }
   ]

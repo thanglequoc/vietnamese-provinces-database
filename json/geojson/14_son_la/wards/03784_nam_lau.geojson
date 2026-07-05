@@ -7730,11 +7730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Lầu",
-        "unit_code": "03784",
-        "unit_code_name": "nam_lau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1352",
-        "area_km2": 247.63
+        "code": "03784",
+        "name": "Nậm Lầu",
+        "nameEn": "Nam Lau",
+        "fullName": "Xã Nậm Lầu",
+        "fullNameEn": "Nam Lau Commune",
+        "codeName": "nam_lau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1352",
+        "areaKm2": 247.63
       }
     }
   ]

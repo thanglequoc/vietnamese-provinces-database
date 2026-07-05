@@ -3582,11 +3582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Giang",
-        "unit_code": "12019",
-        "unit_code_name": "van_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.733",
-        "area_km2": 22.96
+        "code": "12019",
+        "name": "Văn Giang",
+        "nameEn": "Van Giang",
+        "fullName": "Xã Văn Giang",
+        "fullNameEn": "Van Giang Commune",
+        "codeName": "van_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.733",
+        "areaKm2": 22.96
       }
     }
   ]

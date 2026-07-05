@@ -13178,11 +13178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Bình",
-        "unit_code": "06529",
-        "unit_code_name": "loc_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1846",
-        "area_km2": 79.15
+        "code": "06529",
+        "name": "Lộc Bình",
+        "nameEn": "Loc Binh",
+        "fullName": "Xã Lộc Bình",
+        "fullNameEn": "Loc Binh Commune",
+        "codeName": "loc_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1846",
+        "areaKm2": 79.15
       }
     }
   ]

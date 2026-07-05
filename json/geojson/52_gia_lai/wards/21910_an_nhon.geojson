@@ -5650,11 +5650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nhơn",
-        "unit_code": "21910",
-        "unit_code_name": "an_nhon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3011",
-        "area_km2": 34.62
+        "code": "21910",
+        "name": "An Nhơn",
+        "nameEn": "An Nhon",
+        "fullName": "Phường An Nhơn",
+        "fullNameEn": "An Nhon Ward",
+        "codeName": "an_nhon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3011",
+        "areaKm2": 34.62
       }
     }
   ]

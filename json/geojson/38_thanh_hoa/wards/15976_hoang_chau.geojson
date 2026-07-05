@@ -3910,11 +3910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Châu",
-        "unit_code": "15976",
-        "unit_code_name": "hoang_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2599",
-        "area_km2": 33.31
+        "code": "15976",
+        "name": "Hoằng Châu",
+        "nameEn": "Hoang Chau",
+        "fullName": "Xã Hoằng Châu",
+        "fullNameEn": "Hoang Chau Commune",
+        "codeName": "hoang_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2599",
+        "areaKm2": 33.31
       }
     }
   ]

@@ -4926,11 +4926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Bình",
-        "unit_code": "27775",
-        "unit_code_name": "tuyen_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1285",
-        "area_km2": 137.81
+        "code": "27775",
+        "name": "Tuyên Bình",
+        "nameEn": "Tuyen Binh",
+        "fullName": "Xã Tuyên Bình",
+        "fullNameEn": "Tuyen Binh Commune",
+        "codeName": "tuyen_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1285",
+        "areaKm2": 137.81
       }
     }
   ]

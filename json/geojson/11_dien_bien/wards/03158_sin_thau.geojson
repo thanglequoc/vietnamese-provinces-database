@@ -32766,11 +32766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sín Thầu",
-        "unit_code": "03158",
-        "unit_code_name": "sin_thau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2230",
-        "area_km2": 516.42
+        "code": "03158",
+        "name": "Sín Thầu",
+        "nameEn": "Sin Thau",
+        "fullName": "Xã Sín Thầu",
+        "fullNameEn": "Sin Thau Commune",
+        "codeName": "sin_thau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2230",
+        "areaKm2": 516.42
       }
     }
   ]

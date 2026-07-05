@@ -1590,11 +1590,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Hiệp",
-        "unit_code": "26017",
-        "unit_code_name": "tam_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3105",
-        "area_km2": 10.8
+        "code": "26017",
+        "name": "Tam Hiệp",
+        "nameEn": "Tam Hiep",
+        "fullName": "Phường Tam Hiệp",
+        "fullNameEn": "Tam Hiep Ward",
+        "codeName": "tam_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3105",
+        "areaKm2": 10.8
       }
     }
   ]

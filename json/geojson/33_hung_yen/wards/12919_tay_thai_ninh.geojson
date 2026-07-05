@@ -990,11 +990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Thái Ninh",
-        "unit_code": "12919",
-        "unit_code_name": "tay_thai_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.668",
-        "area_km2": 16.56
+        "code": "12919",
+        "name": "Tây Thái Ninh",
+        "nameEn": "Tay Thai Ninh",
+        "fullName": "Xã Tây Thái Ninh",
+        "fullNameEn": "Tay Thai Ninh Commune",
+        "codeName": "tay_thai_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.668",
+        "areaKm2": 16.56
       }
     }
   ]

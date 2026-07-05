@@ -2062,11 +2062,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngãi Tứ",
-        "unit_code": "29767",
-        "unit_code_name": "ngai_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2548",
-        "area_km2": 69.12
+        "code": "29767",
+        "name": "Ngãi Tứ",
+        "nameEn": "Ngai Tu",
+        "fullName": "Xã Ngãi Tứ",
+        "fullNameEn": "Ngai Tu Commune",
+        "codeName": "ngai_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2548",
+        "areaKm2": 69.12
       }
     }
   ]

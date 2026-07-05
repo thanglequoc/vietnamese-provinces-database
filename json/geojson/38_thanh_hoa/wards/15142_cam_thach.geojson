@@ -5634,11 +5634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Thạch",
-        "unit_code": "15142",
-        "unit_code_name": "cam_thach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2654",
-        "area_km2": 106.64
+        "code": "15142",
+        "name": "Cẩm Thạch",
+        "nameEn": "Cam Thach",
+        "fullName": "Xã Cẩm Thạch",
+        "fullNameEn": "Cam Thach Commune",
+        "codeName": "cam_thach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2654",
+        "areaKm2": 106.64
       }
     }
   ]

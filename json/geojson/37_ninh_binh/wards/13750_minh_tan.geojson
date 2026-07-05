@@ -6054,11 +6054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Tân",
-        "unit_code": "13750",
-        "unit_code_name": "minh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.787",
-        "area_km2": 33.09
+        "code": "13750",
+        "name": "Minh Tân",
+        "nameEn": "Minh Tan",
+        "fullName": "Xã Minh Tân",
+        "fullNameEn": "Minh Tan Commune",
+        "codeName": "minh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.787",
+        "areaKm2": 33.09
       }
     }
   ]

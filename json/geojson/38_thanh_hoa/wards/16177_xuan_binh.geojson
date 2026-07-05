@@ -24686,11 +24686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Bình",
-        "unit_code": "16177",
-        "unit_code_name": "xuan_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2688",
-        "area_km2": 183.18
+        "code": "16177",
+        "name": "Xuân Bình",
+        "nameEn": "Xuan Binh",
+        "fullName": "Xã Xuân Bình",
+        "fullNameEn": "Xuan Binh Commune",
+        "codeName": "xuan_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2688",
+        "areaKm2": 183.18
       }
     }
   ]

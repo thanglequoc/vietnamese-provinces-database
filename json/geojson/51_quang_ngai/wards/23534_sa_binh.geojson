@@ -11078,11 +11078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Bình",
-        "unit_code": "23534",
-        "unit_code_name": "sa_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.549",
-        "area_km2": 140.32
+        "code": "23534",
+        "name": "Sa Bình",
+        "nameEn": "Sa Binh",
+        "fullName": "Xã Sa Bình",
+        "fullNameEn": "Sa Binh Commune",
+        "codeName": "sa_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.549",
+        "areaKm2": 140.32
       }
     }
   ]

@@ -8398,11 +8398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Nhơn Nam",
-        "unit_code": "21592",
-        "unit_code_name": "quy_nhon_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3022",
-        "area_km2": 36.36
+        "code": "21592",
+        "name": "Quy Nhơn Nam",
+        "nameEn": "Quy Nhon Nam",
+        "fullName": "Phường Quy Nhơn Nam",
+        "fullNameEn": "Quy Nhon Nam Ward",
+        "codeName": "quy_nhon_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3022",
+        "areaKm2": 36.36
       }
     }
   ]

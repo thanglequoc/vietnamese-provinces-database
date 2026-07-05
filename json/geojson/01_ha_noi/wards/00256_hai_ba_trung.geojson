@@ -1334,11 +1334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hai Bà Trưng",
-        "unit_code": "00256",
-        "unit_code_name": "hai_ba_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3201",
-        "area_km2": 2.65
+        "code": "00256",
+        "name": "Hai Bà Trưng",
+        "nameEn": "Hai Ba Trung",
+        "fullName": "Phường Hai Bà Trưng",
+        "fullNameEn": "Hai Ba Trung Ward",
+        "codeName": "hai_ba_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3201",
+        "areaKm2": 2.65
       }
     }
   ]

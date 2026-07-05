@@ -5210,11 +5210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Thanh",
-        "unit_code": "00664",
-        "unit_code_name": "dai_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3175",
-        "area_km2": 18.92
+        "code": "00664",
+        "name": "Đại Thanh",
+        "nameEn": "Dai Thanh",
+        "fullName": "Xã Đại Thanh",
+        "fullNameEn": "Dai Thanh Commune",
+        "codeName": "dai_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3175",
+        "areaKm2": 18.92
       }
     }
   ]

@@ -20706,11 +20706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiên Mộc",
-        "unit_code": "06625",
-        "unit_code_name": "kien_moc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1851",
-        "area_km2": 417.78
+        "code": "06625",
+        "name": "Kiên Mộc",
+        "nameEn": "Kien Moc",
+        "fullName": "Xã Kiên Mộc",
+        "fullNameEn": "Kien Moc Commune",
+        "codeName": "kien_moc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1851",
+        "areaKm2": 417.78
       }
     }
   ]

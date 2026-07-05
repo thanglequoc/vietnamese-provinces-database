@@ -14594,11 +14594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Năng",
-        "unit_code": "24988",
-        "unit_code_name": "ta_nang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.526",
-        "area_km2": 258.33
+        "code": "24988",
+        "name": "Tà Năng",
+        "nameEn": "Ta Nang",
+        "fullName": "Xã Tà Năng",
+        "fullNameEn": "Ta Nang Commune",
+        "codeName": "ta_nang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.526",
+        "areaKm2": 258.33
       }
     }
   ]

@@ -8210,11 +8210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Bài",
-        "unit_code": "09706",
-        "unit_code_name": "yen_bai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3281",
-        "area_km2": 68.19
+        "code": "09706",
+        "name": "Yên Bài",
+        "nameEn": "Yen Bai",
+        "fullName": "Xã Yên Bài",
+        "fullNameEn": "Yen Bai Commune",
+        "codeName": "yen_bai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3281",
+        "areaKm2": 68.19
       }
     }
   ]

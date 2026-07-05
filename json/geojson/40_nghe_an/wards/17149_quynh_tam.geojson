@@ -5854,11 +5854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Tam",
-        "unit_code": "17149",
-        "unit_code_name": "quynh_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1486",
-        "area_km2": 103.4
+        "code": "17149",
+        "name": "Quỳnh Tam",
+        "nameEn": "Quynh Tam",
+        "fullName": "Xã Quỳnh Tam",
+        "fullNameEn": "Quynh Tam Commune",
+        "codeName": "quynh_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1486",
+        "areaKm2": 103.4
       }
     }
   ]

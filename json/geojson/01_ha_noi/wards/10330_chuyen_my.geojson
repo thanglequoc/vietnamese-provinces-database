@@ -6326,11 +6326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chuyên Mỹ",
-        "unit_code": "10330",
-        "unit_code_name": "chuyen_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3159",
-        "area_km2": 35.54
+        "code": "10330",
+        "name": "Chuyên Mỹ",
+        "nameEn": "Chuyen My",
+        "fullName": "Xã Chuyên Mỹ",
+        "fullNameEn": "Chuyen My Commune",
+        "codeName": "chuyen_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3159",
+        "areaKm2": 35.54
       }
     }
   ]

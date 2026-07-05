@@ -7446,11 +7446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thủ Thừa",
-        "unit_code": "28036",
-        "unit_code_name": "thu_thua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1314",
-        "area_km2": 50.45
+        "code": "28036",
+        "name": "Thủ Thừa",
+        "nameEn": "Thu Thua",
+        "fullName": "Xã Thủ Thừa",
+        "fullNameEn": "Thu Thua Commune",
+        "codeName": "thu_thua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1314",
+        "areaKm2": 50.45
       }
     }
   ]

@@ -5354,11 +5354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Ngọc",
-        "unit_code": "16498",
-        "unit_code_name": "quang_ngoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2584",
-        "area_km2": 34.39
+        "code": "16498",
+        "name": "Quảng Ngọc",
+        "nameEn": "Quang Ngoc",
+        "fullName": "Xã Quảng Ngọc",
+        "fullNameEn": "Quang Ngoc Commune",
+        "codeName": "quang_ngoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2584",
+        "areaKm2": 34.39
       }
     }
   ]

@@ -6106,11 +6106,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Hiệp",
-        "unit_code": "30112",
-        "unit_code_name": "my_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.428",
-        "area_km2": 79.4
+        "code": "30112",
+        "name": "Mỹ Hiệp",
+        "nameEn": "My Hiep",
+        "fullName": "Xã Mỹ Hiệp",
+        "fullNameEn": "My Hiep Commune",
+        "codeName": "my_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.428",
+        "areaKm2": 79.4
       }
     }
   ]

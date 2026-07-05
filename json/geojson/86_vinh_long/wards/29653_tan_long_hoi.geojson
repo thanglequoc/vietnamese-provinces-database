@@ -6514,11 +6514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Long Hội",
-        "unit_code": "29653",
-        "unit_code_name": "tan_long_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2536",
-        "area_km2": 36.27
+        "code": "29653",
+        "name": "Tân Long Hội",
+        "nameEn": "Tan Long Hoi",
+        "fullName": "Xã Tân Long Hội",
+        "fullNameEn": "Tan Long Hoi Commune",
+        "codeName": "tan_long_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2536",
+        "areaKm2": 36.27
       }
     }
   ]

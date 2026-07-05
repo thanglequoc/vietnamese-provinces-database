@@ -14866,11 +14866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phiêng Cằm",
-        "unit_code": "04144",
-        "unit_code_name": "phieng_cam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1392",
-        "area_km2": 280.33
+        "code": "04144",
+        "name": "Phiêng Cằm",
+        "nameEn": "Phieng Cam",
+        "fullName": "Xã Phiêng Cằm",
+        "fullNameEn": "Phieng Cam Commune",
+        "codeName": "phieng_cam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1392",
+        "areaKm2": 280.33
       }
     }
   ]

@@ -8150,11 +8150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Lập",
-        "unit_code": "02317",
-        "unit_code_name": "yen_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2326",
-        "area_km2": 103.59
+        "code": "02317",
+        "name": "Yên Lập",
+        "nameEn": "Yen Lap",
+        "fullName": "Xã Yên Lập",
+        "fullNameEn": "Yen Lap Commune",
+        "codeName": "yen_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2326",
+        "areaKm2": 103.59
       }
     }
   ]

@@ -6442,11 +6442,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng La",
-        "unit_code": "03754",
-        "unit_code_name": "chieng_la",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1347",
-        "area_km2": 126.13
+        "code": "03754",
+        "name": "Chiềng La",
+        "nameEn": "Chieng La",
+        "fullName": "Xã Chiềng La",
+        "fullNameEn": "Chieng La Commune",
+        "codeName": "chieng_la",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1347",
+        "areaKm2": 126.13
       }
     }
   ]

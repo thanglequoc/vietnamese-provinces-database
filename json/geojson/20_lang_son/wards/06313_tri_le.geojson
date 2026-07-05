@@ -9870,11 +9870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tri Lễ",
-        "unit_code": "06313",
-        "unit_code_name": "tri_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1815",
-        "area_km2": 131.28
+        "code": "06313",
+        "name": "Tri Lễ",
+        "nameEn": "Tri Le",
+        "fullName": "Xã Tri Lễ",
+        "fullNameEn": "Tri Le Commune",
+        "codeName": "tri_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1815",
+        "areaKm2": 131.28
       }
     }
   ]

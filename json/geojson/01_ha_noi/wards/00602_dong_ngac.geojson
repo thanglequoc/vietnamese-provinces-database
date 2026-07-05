@@ -1446,11 +1446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Ngạc",
-        "unit_code": "00602",
-        "unit_code_name": "dong_ngac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3269",
-        "area_km2": 8.85
+        "code": "00602",
+        "name": "Đông Ngạc",
+        "nameEn": "Dong Ngac",
+        "fullName": "Phường Đông Ngạc",
+        "fullNameEn": "Dong Ngac Ward",
+        "codeName": "dong_ngac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3269",
+        "areaKm2": 8.85
       }
     }
   ]

@@ -6090,11 +6090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọk Bay",
-        "unit_code": "23317",
-        "unit_code_name": "ngok_bay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.552",
-        "area_km2": 62.09
+        "code": "23317",
+        "name": "Ngọk Bay",
+        "nameEn": "Ngok Bay",
+        "fullName": "Xã Ngọk Bay",
+        "fullNameEn": "Ngok Bay Commune",
+        "codeName": "ngok_bay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.552",
+        "areaKm2": 62.09
       }
     }
   ]

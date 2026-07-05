@@ -9390,11 +9390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hương",
-        "unit_code": "26566",
-        "unit_code_name": "long_huong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2204",
-        "area_km2": 41.22
+        "code": "26566",
+        "name": "Long Hương",
+        "nameEn": "Long Huong",
+        "fullName": "Phường Long Hương",
+        "fullNameEn": "Long Huong Ward",
+        "codeName": "long_huong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2204",
+        "areaKm2": 41.22
       }
     }
   ]

@@ -6782,11 +6782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Lý",
-        "unit_code": "28165",
-        "unit_code_name": "phuoc_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1326",
-        "area_km2": 27.37
+        "code": "28165",
+        "name": "Phước Lý",
+        "nameEn": "Phuoc Ly",
+        "fullName": "Xã Phước Lý",
+        "fullNameEn": "Phuoc Ly Commune",
+        "codeName": "phuoc_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1326",
+        "areaKm2": 27.37
       }
     }
   ]

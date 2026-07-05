@@ -17750,11 +17750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Nha",
-        "unit_code": "19138",
-        "unit_code_name": "phong_nha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.626",
-        "area_km2": 358.1
+        "code": "19138",
+        "name": "Phong Nha",
+        "nameEn": "Phong Nha",
+        "fullName": "Xã Phong Nha",
+        "fullNameEn": "Phong Nha Commune",
+        "codeName": "phong_nha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.626",
+        "areaKm2": 358.1
       }
     }
   ]

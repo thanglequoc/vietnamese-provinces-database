@@ -14142,11 +14142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Loong",
-        "unit_code": "23392",
-        "unit_code_name": "sa_loong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.542",
-        "area_km2": 275.26
+        "code": "23392",
+        "name": "Sa Loong",
+        "nameEn": "Sa Loong",
+        "fullName": "Xã Sa Loong",
+        "fullNameEn": "Sa Loong Commune",
+        "codeName": "sa_loong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.542",
+        "areaKm2": 275.26
       }
     }
   ]

@@ -11462,11 +11462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Kho",
-        "unit_code": "23173",
-        "unit_code_name": "dong_kho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3088",
-        "area_km2": 268.72
+        "code": "23173",
+        "name": "Đồng Kho",
+        "nameEn": "Dong Kho",
+        "fullName": "Xã Đồng Kho",
+        "fullNameEn": "Dong Kho Commune",
+        "codeName": "dong_kho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3088",
+        "areaKm2": 268.72
       }
     }
   ]

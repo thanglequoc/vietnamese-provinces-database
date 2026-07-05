@@ -16526,11 +16526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Dinh",
-        "unit_code": "22888",
-        "unit_code_name": "phuoc_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1163",
-        "area_km2": 154
+        "code": "22888",
+        "name": "Phước Dinh",
+        "nameEn": "Phuoc Dinh",
+        "fullName": "Xã Phước Dinh",
+        "fullNameEn": "Phuoc Dinh Commune",
+        "codeName": "phuoc_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1163",
+        "areaKm2": 154
       }
     }
   ]

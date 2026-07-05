@@ -5114,11 +5114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quốc Oai",
-        "unit_code": "09895",
-        "unit_code_name": "quoc_oai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3239",
-        "area_km2": 24
+        "code": "09895",
+        "name": "Quốc Oai",
+        "nameEn": "Quoc Oai",
+        "fullName": "Xã Quốc Oai",
+        "fullNameEn": "Quoc Oai Commune",
+        "codeName": "quoc_oai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3239",
+        "areaKm2": 24
       }
     }
   ]

@@ -7978,11 +7978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Hưng",
-        "unit_code": "25441",
-        "unit_code_name": "minh_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2311",
-        "area_km2": 99.7
+        "code": "25441",
+        "name": "Minh Hưng",
+        "nameEn": "Minh Hung",
+        "fullName": "Phường Minh Hưng",
+        "fullNameEn": "Minh Hung Ward",
+        "codeName": "minh_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2311",
+        "areaKm2": 99.7
       }
     }
   ]

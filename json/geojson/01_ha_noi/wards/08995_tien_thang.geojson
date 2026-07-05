@@ -8234,11 +8234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiến Thắng",
-        "unit_code": "08995",
-        "unit_code_name": "tien_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3250",
-        "area_km2": 36.34
+        "code": "08995",
+        "name": "Tiến Thắng",
+        "nameEn": "Tien Thang",
+        "fullName": "Xã Tiến Thắng",
+        "fullNameEn": "Tien Thang Commune",
+        "codeName": "tien_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3250",
+        "areaKm2": 36.34
       }
     }
   ]

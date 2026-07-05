@@ -7450,11 +7450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Nhân Tông",
-        "unit_code": "10573",
-        "unit_code_name": "tran_nhan_tong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.869",
-        "area_km2": 39.97
+        "code": "10573",
+        "name": "Trần Nhân Tông",
+        "nameEn": "Tran Nhan Tong",
+        "fullName": "Phường Trần Nhân Tông",
+        "fullNameEn": "Tran Nhan Tong Ward",
+        "codeName": "tran_nhan_tong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.869",
+        "areaKm2": 39.97
       }
     }
   ]

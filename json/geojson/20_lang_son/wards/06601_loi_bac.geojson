@@ -13478,11 +13478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lợi Bác",
-        "unit_code": "06601",
-        "unit_code_name": "loi_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1849",
-        "area_km2": 139.11
+        "code": "06601",
+        "name": "Lợi Bác",
+        "nameEn": "Loi Bac",
+        "fullName": "Xã Lợi Bác",
+        "fullNameEn": "Loi Bac Commune",
+        "codeName": "loi_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1849",
+        "areaKm2": 139.11
       }
     }
   ]

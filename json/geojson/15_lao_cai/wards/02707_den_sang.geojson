@@ -8670,11 +8670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dền Sáng",
-        "unit_code": "02707",
-        "unit_code_name": "den_sang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1095",
-        "area_km2": 148.2
+        "code": "02707",
+        "name": "Dền Sáng",
+        "nameEn": "Den Sang",
+        "fullName": "Xã Dền Sáng",
+        "fullNameEn": "Den Sang Commune",
+        "codeName": "den_sang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1095",
+        "areaKm2": 148.2
       }
     }
   ]

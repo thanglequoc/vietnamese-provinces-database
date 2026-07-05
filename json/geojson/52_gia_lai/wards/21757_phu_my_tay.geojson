@@ -10278,11 +10278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Mỹ Tây",
-        "unit_code": "21757",
-        "unit_code_name": "phu_my_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2987",
-        "area_km2": 97.53
+        "code": "21757",
+        "name": "Phù Mỹ Tây",
+        "nameEn": "Phu My Tay",
+        "fullName": "Xã Phù Mỹ Tây",
+        "fullNameEn": "Phu My Tay Commune",
+        "codeName": "phu_my_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2987",
+        "areaKm2": 97.53
       }
     }
   ]

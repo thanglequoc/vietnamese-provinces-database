@@ -3790,11 +3790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Tân",
-        "unit_code": "27442",
-        "unit_code_name": "binh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.107",
-        "area_km2": 11.25
+        "code": "27442",
+        "name": "Bình Tân",
+        "nameEn": "Binh Tan",
+        "fullName": "Phường Bình Tân",
+        "fullNameEn": "Binh Tan Ward",
+        "codeName": "binh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.107",
+        "areaKm2": 11.25
       }
     }
   ]

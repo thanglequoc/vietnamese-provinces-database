@@ -11254,11 +11254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiên Lao",
-        "unit_code": "07552",
-        "unit_code_name": "kien_lao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2105",
-        "area_km2": 85.57
+        "code": "07552",
+        "name": "Kiên Lao",
+        "nameEn": "Kien Lao",
+        "fullName": "Xã Kiên Lao",
+        "fullNameEn": "Kien Lao Commune",
+        "codeName": "kien_lao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2105",
+        "areaKm2": 85.57
       }
     }
   ]

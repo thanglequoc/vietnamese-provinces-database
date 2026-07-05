@@ -1686,11 +1686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Lãng",
-        "unit_code": "09292",
-        "unit_code_name": "phu_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2184",
-        "area_km2": 28.15
+        "code": "09292",
+        "name": "Phù Lãng",
+        "nameEn": "Phu Lang",
+        "fullName": "Xã Phù Lãng",
+        "fullNameEn": "Phu Lang Commune",
+        "codeName": "phu_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2184",
+        "areaKm2": 28.15
       }
     }
   ]

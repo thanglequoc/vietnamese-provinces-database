@@ -11954,11 +11954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạng Giang",
-        "unit_code": "07375",
-        "unit_code_name": "lang_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2167",
-        "area_km2": 55.41
+        "code": "07375",
+        "name": "Lạng Giang",
+        "nameEn": "Lang Giang",
+        "fullName": "Xã Lạng Giang",
+        "fullNameEn": "Lang Giang Commune",
+        "codeName": "lang_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2167",
+        "areaKm2": 55.41
       }
     }
   ]

@@ -6318,11 +6318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Hà",
-        "unit_code": "23500",
-        "unit_code_name": "dak_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.556",
-        "area_km2": 104.08
+        "code": "23500",
+        "name": "Đăk Hà",
+        "nameEn": "Dak Ha",
+        "fullName": "Xã Đăk Hà",
+        "fullNameEn": "Dak Ha Commune",
+        "codeName": "dak_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.556",
+        "areaKm2": 104.08
       }
     }
   ]

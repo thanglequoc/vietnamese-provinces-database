@@ -1578,11 +1578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Mỹ",
-        "unit_code": "30073",
-        "unit_code_name": "thanh_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.423",
-        "area_km2": 93.1
+        "code": "30073",
+        "name": "Thanh Mỹ",
+        "nameEn": "Thanh My",
+        "fullName": "Xã Thanh Mỹ",
+        "fullNameEn": "Thanh My Commune",
+        "codeName": "thanh_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.423",
+        "areaKm2": 93.1
       }
     }
   ]

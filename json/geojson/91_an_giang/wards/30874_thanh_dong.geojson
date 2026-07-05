@@ -7298,11 +7298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Đông",
-        "unit_code": "30874",
-        "unit_code_name": "thanh_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.374",
-        "area_km2": 130.02
+        "code": "30874",
+        "name": "Thạnh Đông",
+        "nameEn": "Thanh Dong",
+        "fullName": "Xã Thạnh Đông",
+        "fullNameEn": "Thanh Dong Commune",
+        "codeName": "thanh_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.374",
+        "areaKm2": 130.02
       }
     }
   ]

@@ -3526,11 +3526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Hoà Hưng",
-        "unit_code": "30313",
-        "unit_code_name": "my_hoa_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.308",
-        "area_km2": 19.65
+        "code": "30313",
+        "name": "Mỹ Hoà Hưng",
+        "nameEn": "My Hoa Hung",
+        "fullName": "Xã Mỹ Hoà Hưng",
+        "fullNameEn": "My Hoa Hung Commune",
+        "codeName": "my_hoa_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.308",
+        "areaKm2": 19.65
       }
     }
   ]

@@ -10866,11 +10866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Hải",
-        "unit_code": "07543",
-        "unit_code_name": "son_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2104",
-        "area_km2": 102.89
+        "code": "07543",
+        "name": "Sơn Hải",
+        "nameEn": "Son Hai",
+        "fullName": "Xã Sơn Hải",
+        "fullNameEn": "Son Hai Commune",
+        "codeName": "son_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2104",
+        "areaKm2": 102.89
       }
     }
   ]

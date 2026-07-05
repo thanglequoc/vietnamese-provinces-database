@@ -4498,11 +4498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lâm",
-        "unit_code": "17779",
-        "unit_code_name": "xuan_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1431",
-        "area_km2": 60.88
+        "code": "17779",
+        "name": "Xuân Lâm",
+        "nameEn": "Xuan Lam",
+        "fullName": "Xã Xuân Lâm",
+        "fullNameEn": "Xuan Lam Commune",
+        "codeName": "xuan_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1431",
+        "areaKm2": 60.88
       }
     }
   ]

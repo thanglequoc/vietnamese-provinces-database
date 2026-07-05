@@ -4286,11 +4286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Song Phú",
-        "unit_code": "29740",
-        "unit_code_name": "song_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2546",
-        "area_km2": 76.58
+        "code": "29740",
+        "name": "Song Phú",
+        "nameEn": "Song Phu",
+        "fullName": "Xã Song Phú",
+        "fullNameEn": "Song Phu Commune",
+        "codeName": "song_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2546",
+        "areaKm2": 76.58
       }
     }
   ]

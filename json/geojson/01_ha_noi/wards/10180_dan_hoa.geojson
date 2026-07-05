@@ -3434,11 +3434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dân Hoà",
-        "unit_code": "10180",
-        "unit_code_name": "dan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3161",
-        "area_km2": 38.43
+        "code": "10180",
+        "name": "Dân Hoà",
+        "nameEn": "Dan Hoa",
+        "fullName": "Xã Dân Hoà",
+        "fullNameEn": "Dan Hoa Commune",
+        "codeName": "dan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3161",
+        "areaKm2": 38.43
       }
     }
   ]

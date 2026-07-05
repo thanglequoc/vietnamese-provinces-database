@@ -6882,11 +6882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Liên",
-        "unit_code": "15091",
-        "unit_code_name": "ngoc_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2685",
-        "area_km2": 79.99
+        "code": "15091",
+        "name": "Ngọc Liên",
+        "nameEn": "Ngoc Lien",
+        "fullName": "Xã Ngọc Liên",
+        "fullNameEn": "Ngoc Lien Commune",
+        "codeName": "ngoc_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2685",
+        "areaKm2": 79.99
       }
     }
   ]

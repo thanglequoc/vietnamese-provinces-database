@@ -2650,11 +2650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Thành",
-        "unit_code": "14056",
-        "unit_code_name": "cat_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.808",
-        "area_km2": 23.07
+        "code": "14056",
+        "name": "Cát Thành",
+        "nameEn": "Cat Thanh",
+        "fullName": "Xã Cát Thành",
+        "fullNameEn": "Cat Thanh Commune",
+        "codeName": "cat_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.808",
+        "areaKm2": 23.07
       }
     }
   ]

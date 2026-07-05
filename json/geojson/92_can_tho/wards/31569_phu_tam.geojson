@@ -8550,11 +8550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Tâm",
-        "unit_code": "31569",
-        "unit_code_name": "phu_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.271",
-        "area_km2": 48.88
+        "code": "31569",
+        "name": "Phú Tâm",
+        "nameEn": "Phu Tam",
+        "fullName": "Xã Phú Tâm",
+        "fullNameEn": "Phu Tam Commune",
+        "codeName": "phu_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.271",
+        "areaKm2": 48.88
       }
     }
   ]

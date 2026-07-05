@@ -6702,11 +6702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Phú",
-        "unit_code": "19309",
-        "unit_code_name": "truong_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.636",
-        "area_km2": 97.18
+        "code": "19309",
+        "name": "Trường Phú",
+        "nameEn": "Truong Phu",
+        "fullName": "Xã Trường Phú",
+        "fullNameEn": "Truong Phu Commune",
+        "codeName": "truong_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.636",
+        "areaKm2": 97.18
       }
     }
   ]

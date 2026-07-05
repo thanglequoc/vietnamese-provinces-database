@@ -3698,11 +3698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trảng Bàng",
-        "unit_code": "25708",
-        "unit_code_name": "trang_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2726",
-        "area_km2": 36.97
+        "code": "25708",
+        "name": "Trảng Bàng",
+        "nameEn": "Trang Bang",
+        "fullName": "Phường Trảng Bàng",
+        "fullNameEn": "Trang Bang Ward",
+        "codeName": "trang_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2726",
+        "areaKm2": 36.97
       }
     }
   ]

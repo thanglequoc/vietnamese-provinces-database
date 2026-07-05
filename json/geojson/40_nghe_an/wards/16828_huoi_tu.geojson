@@ -11018,11 +11018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Huồi Tụ",
-        "unit_code": "16828",
-        "unit_code_name": "huoi_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1501",
-        "area_km2": 109.03
+        "code": "16828",
+        "name": "Huồi Tụ",
+        "nameEn": "Huoi Tu",
+        "fullName": "Xã Huồi Tụ",
+        "fullNameEn": "Huoi Tu Commune",
+        "codeName": "huoi_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1501",
+        "areaKm2": 109.03
       }
     }
   ]

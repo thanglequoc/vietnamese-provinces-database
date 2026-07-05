@@ -3754,11 +3754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Đường",
-        "unit_code": "02671",
-        "unit_code_name": "cam_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1056",
-        "area_km2": 59.9
+        "code": "02671",
+        "name": "Cam Đường",
+        "nameEn": "Cam Duong",
+        "fullName": "Phường Cam Đường",
+        "fullNameEn": "Cam Duong Ward",
+        "codeName": "cam_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1056",
+        "areaKm2": 59.9
       }
     }
   ]

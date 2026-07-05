@@ -11350,11 +11350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Ty",
-        "unit_code": "04186",
-        "unit_code_name": "nam_ty",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1398",
-        "area_km2": 201.89
+        "code": "04186",
+        "name": "Nậm Ty",
+        "nameEn": "Nam Ty",
+        "fullName": "Xã Nậm Ty",
+        "fullNameEn": "Nam Ty Commune",
+        "codeName": "nam_ty",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1398",
+        "areaKm2": 201.89
       }
     }
   ]

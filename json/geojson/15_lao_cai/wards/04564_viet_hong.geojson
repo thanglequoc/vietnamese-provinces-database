@@ -4734,11 +4734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Hồng",
-        "unit_code": "04564",
-        "unit_code_name": "viet_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1036",
-        "area_km2": 101.37
+        "code": "04564",
+        "name": "Việt Hồng",
+        "nameEn": "Viet Hong",
+        "fullName": "Xã Việt Hồng",
+        "fullNameEn": "Viet Hong Commune",
+        "codeName": "viet_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1036",
+        "areaKm2": 101.37
       }
     }
   ]

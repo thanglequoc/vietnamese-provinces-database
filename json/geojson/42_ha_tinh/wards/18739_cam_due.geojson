@@ -10486,11 +10486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Duệ",
-        "unit_code": "18739",
-        "unit_code_name": "cam_due",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2019",
-        "area_km2": 193.57
+        "code": "18739",
+        "name": "Cẩm Duệ",
+        "nameEn": "Cam Due",
+        "fullName": "Xã Cẩm Duệ",
+        "fullNameEn": "Cam Due Commune",
+        "codeName": "cam_due",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2019",
+        "areaKm2": 193.57
       }
     }
   ]

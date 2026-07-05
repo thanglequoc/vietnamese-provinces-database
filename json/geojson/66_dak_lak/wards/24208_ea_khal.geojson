@@ -24382,11 +24382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Khăl",
-        "unit_code": "24208",
-        "unit_code_name": "ea_khal",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2832",
-        "area_km2": 247.05
+        "code": "24208",
+        "name": "Ea Khăl",
+        "nameEn": "Ea Khal",
+        "fullName": "Xã Ea Khăl",
+        "fullNameEn": "Ea Khal Commune",
+        "codeName": "ea_khal",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2832",
+        "areaKm2": 247.05
       }
     }
   ]

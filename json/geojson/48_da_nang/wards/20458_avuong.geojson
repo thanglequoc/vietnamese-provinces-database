@@ -9606,11 +9606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Avương",
-        "unit_code": "20458",
-        "unit_code_name": "avuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1922",
-        "area_km2": 225.3
+        "code": "20458",
+        "name": "Avương",
+        "nameEn": "Avuong",
+        "fullName": "Xã Avương",
+        "fullNameEn": "Avuong Commune",
+        "codeName": "avuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1922",
+        "areaKm2": 225.3
       }
     }
   ]

@@ -7570,11 +7570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Xi Láng",
-        "unit_code": "04603",
-        "unit_code_name": "ta_xi_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1040",
-        "area_km2": 88.54
+        "code": "04603",
+        "name": "Tà Xi Láng",
+        "nameEn": "Ta Xi Lang",
+        "fullName": "Xã Tà Xi Láng",
+        "fullNameEn": "Ta Xi Lang Commune",
+        "codeName": "ta_xi_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1040",
+        "areaKm2": 88.54
       }
     }
   ]

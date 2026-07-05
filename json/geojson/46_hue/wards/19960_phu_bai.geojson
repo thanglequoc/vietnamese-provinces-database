@@ -45490,11 +45490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Bài",
-        "unit_code": "19960",
-        "unit_code_name": "phu_bai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1706",
-        "area_km2": 344.63
+        "code": "19960",
+        "name": "Phú Bài",
+        "nameEn": "Phu Bai",
+        "fullName": "Phường Phú Bài",
+        "fullNameEn": "Phu Bai Ward",
+        "codeName": "phu_bai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1706",
+        "areaKm2": 344.63
       }
     }
   ]

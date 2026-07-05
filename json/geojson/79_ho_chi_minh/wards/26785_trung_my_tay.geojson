@@ -1214,11 +1214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Mỹ Tây",
-        "unit_code": "26785",
-        "unit_code_name": "trung_my_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.44",
-        "area_km2": 6.93
+        "code": "26785",
+        "name": "Trung Mỹ Tây",
+        "nameEn": "Trung My Tay",
+        "fullName": "Phường Trung Mỹ Tây",
+        "fullNameEn": "Trung My Tay Ward",
+        "codeName": "trung_my_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.44",
+        "areaKm2": 6.93
       }
     }
   ]

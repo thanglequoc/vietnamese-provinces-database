@@ -7638,11 +7638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Phong",
-        "unit_code": "02083",
-        "unit_code_name": "yen_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1182",
-        "area_km2": 115.98
+        "code": "02083",
+        "name": "Yên Phong",
+        "nameEn": "Yen Phong",
+        "fullName": "Xã Yên Phong",
+        "fullNameEn": "Yen Phong Commune",
+        "codeName": "yen_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1182",
+        "areaKm2": 115.98
       }
     }
   ]

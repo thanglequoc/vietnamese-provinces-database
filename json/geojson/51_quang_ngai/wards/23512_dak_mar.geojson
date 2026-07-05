@@ -8502,11 +8502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đăk Mar",
-        "unit_code": "23512",
-        "unit_code_name": "dak_mar",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.555",
-        "area_km2": 112.79
+        "code": "23512",
+        "name": "Đăk Mar",
+        "nameEn": "Dak Mar",
+        "fullName": "Xã Đăk Mar",
+        "fullNameEn": "Dak Mar Commune",
+        "codeName": "dak_mar",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.555",
+        "areaKm2": 112.79
       }
     }
   ]

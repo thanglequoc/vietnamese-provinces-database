@@ -2210,11 +2210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Thành",
-        "unit_code": "14674",
-        "unit_code_name": "lai_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.769",
-        "area_km2": 22.07
+        "code": "14674",
+        "name": "Lai Thành",
+        "nameEn": "Lai Thanh",
+        "fullName": "Xã Lai Thành",
+        "fullNameEn": "Lai Thanh Commune",
+        "codeName": "lai_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.769",
+        "areaKm2": 22.07
       }
     }
   ]

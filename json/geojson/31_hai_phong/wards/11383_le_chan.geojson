@@ -850,11 +850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Chân",
-        "unit_code": "11383",
-        "unit_code_name": "le_chan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.932",
-        "area_km2": 5.65
+        "code": "11383",
+        "name": "Lê Chân",
+        "nameEn": "Le Chan",
+        "fullName": "Phường Lê Chân",
+        "fullNameEn": "Le Chan Ward",
+        "codeName": "le_chan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.932",
+        "areaKm2": 5.65
       }
     }
   ]

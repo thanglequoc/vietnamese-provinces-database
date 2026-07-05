@@ -9110,11 +9110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Bồng",
-        "unit_code": "21124",
-        "unit_code_name": "thanh_bong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1754",
-        "area_km2": 133.88
+        "code": "21124",
+        "name": "Thanh Bồng",
+        "nameEn": "Thanh Bong",
+        "fullName": "Xã Thanh Bồng",
+        "fullNameEn": "Thanh Bong Commune",
+        "codeName": "thanh_bong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1754",
+        "areaKm2": 133.88
       }
     }
   ]

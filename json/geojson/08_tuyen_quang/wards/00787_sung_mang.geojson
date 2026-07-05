@@ -10622,11 +10622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sủng Máng",
-        "unit_code": "00787",
-        "unit_code_name": "sung_mang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2373",
-        "area_km2": 76.15
+        "code": "00787",
+        "name": "Sủng Máng",
+        "nameEn": "Sung Mang",
+        "fullName": "Xã Sủng Máng",
+        "fullNameEn": "Sung Mang Commune",
+        "codeName": "sung_mang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2373",
+        "areaKm2": 76.15
       }
     }
   ]

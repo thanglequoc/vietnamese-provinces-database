@@ -2810,11 +2810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lịch Hội Thượng",
-        "unit_code": "31679",
-        "unit_code_name": "lich_hoi_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.286",
-        "area_km2": 48.99
+        "code": "31679",
+        "name": "Lịch Hội Thượng",
+        "nameEn": "Lich Hoi Thuong",
+        "fullName": "Xã Lịch Hội Thượng",
+        "fullNameEn": "Lich Hoi Thuong Commune",
+        "codeName": "lich_hoi_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.286",
+        "areaKm2": 48.99
       }
     }
   ]

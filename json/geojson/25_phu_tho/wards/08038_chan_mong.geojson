@@ -8290,11 +8290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chân Mộng",
-        "unit_code": "08038",
-        "unit_code_name": "chan_mong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1543",
-        "area_km2": 89.85
+        "code": "08038",
+        "name": "Chân Mộng",
+        "nameEn": "Chan Mong",
+        "fullName": "Xã Chân Mộng",
+        "fullNameEn": "Chan Mong Commune",
+        "codeName": "chan_mong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1543",
+        "areaKm2": 89.85
       }
     }
   ]

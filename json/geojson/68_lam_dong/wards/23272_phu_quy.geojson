@@ -2854,11 +2854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Quý",
-        "unit_code": "23272",
-        "unit_code_name": "phu_quy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3291",
-        "area_km2": 18.02
+        "code": "23272",
+        "name": "Phú Quý",
+        "nameEn": "Phu Quy",
+        "fullName": "Đặc khu Phú Quý",
+        "fullNameEn": "Phu Quy Special administrative region",
+        "codeName": "phu_quy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3291",
+        "areaKm2": 18.02
       }
     }
   ]

@@ -5682,11 +5682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Lộc",
-        "unit_code": "17857",
-        "unit_code_name": "phuc_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1527",
-        "area_km2": 70.5
+        "code": "17857",
+        "name": "Phúc Lộc",
+        "nameEn": "Phuc Loc",
+        "fullName": "Xã Phúc Lộc",
+        "fullNameEn": "Phuc Loc Commune",
+        "codeName": "phuc_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1527",
+        "areaKm2": 70.5
       }
     }
   ]

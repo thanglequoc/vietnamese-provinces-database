@@ -6222,11 +6222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Khang",
-        "unit_code": "18790",
-        "unit_code_name": "ky_khang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2025",
-        "area_km2": 48.85
+        "code": "18790",
+        "name": "Kỳ Khang",
+        "nameEn": "Ky Khang",
+        "fullName": "Xã Kỳ Khang",
+        "fullNameEn": "Ky Khang Commune",
+        "codeName": "ky_khang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2025",
+        "areaKm2": 48.85
       }
     }
   ]

@@ -1978,11 +1978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Đông",
-        "unit_code": "10882",
-        "unit_code_name": "ha_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.849",
-        "area_km2": 33.15
+        "code": "10882",
+        "name": "Hà Đông",
+        "nameEn": "Ha Dong",
+        "fullName": "Xã Hà Đông",
+        "fullNameEn": "Ha Dong Commune",
+        "codeName": "ha_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.849",
+        "areaKm2": 33.15
       }
     }
   ]

@@ -2470,11 +2470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao Ninh",
-        "unit_code": "14212",
-        "unit_code_name": "giao_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.827",
-        "area_km2": 25.81
+        "code": "14212",
+        "name": "Giao Ninh",
+        "nameEn": "Giao Ninh",
+        "fullName": "Xã Giao Ninh",
+        "fullNameEn": "Giao Ninh Commune",
+        "codeName": "giao_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.827",
+        "areaKm2": 25.81
       }
     }
   ]

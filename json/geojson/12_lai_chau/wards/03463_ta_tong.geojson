@@ -13410,11 +13410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Tổng",
-        "unit_code": "03463",
-        "unit_code_name": "ta_tong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2073",
-        "area_km2": 512.01
+        "code": "03463",
+        "name": "Tà Tổng",
+        "nameEn": "Ta Tong",
+        "fullName": "Xã Tà Tổng",
+        "fullNameEn": "Ta Tong Commune",
+        "codeName": "ta_tong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2073",
+        "areaKm2": 512.01
       }
     }
   ]

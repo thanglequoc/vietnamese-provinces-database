@@ -4914,11 +4914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hưng Thuận",
-        "unit_code": "26791",
-        "unit_code_name": "dong_hung_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.45",
-        "area_km2": 8.26
+        "code": "26791",
+        "name": "Đông Hưng Thuận",
+        "nameEn": "Dong Hung Thuan",
+        "fullName": "Phường Đông Hưng Thuận",
+        "fullNameEn": "Dong Hung Thuan Ward",
+        "codeName": "dong_hung_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.45",
+        "areaKm2": 8.26
       }
     }
   ]

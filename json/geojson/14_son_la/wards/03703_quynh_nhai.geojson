@@ -13126,11 +13126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Nhai",
-        "unit_code": "03703",
-        "unit_code_name": "quynh_nhai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1342",
-        "area_km2": 244.31
+        "code": "03703",
+        "name": "Quỳnh Nhai",
+        "nameEn": "Quynh Nhai",
+        "fullName": "Xã Quỳnh Nhai",
+        "fullNameEn": "Quynh Nhai Commune",
+        "codeName": "quynh_nhai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1342",
+        "areaKm2": 244.31
       }
     }
   ]

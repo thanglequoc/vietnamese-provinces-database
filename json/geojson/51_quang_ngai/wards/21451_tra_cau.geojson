@@ -3230,11 +3230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Câu",
-        "unit_code": "21451",
-        "unit_code_name": "tra_cau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1778",
-        "area_km2": 54.46
+        "code": "21451",
+        "name": "Trà Câu",
+        "nameEn": "Tra Cau",
+        "fullName": "Phường Trà Câu",
+        "fullNameEn": "Tra Cau Ward",
+        "codeName": "tra_cau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1778",
+        "areaKm2": 54.46
       }
     }
   ]

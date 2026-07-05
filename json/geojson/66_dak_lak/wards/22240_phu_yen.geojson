@@ -1730,11 +1730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Yên",
-        "unit_code": "22240",
-        "unit_code_name": "phu_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2891",
-        "area_km2": 44.04
+        "code": "22240",
+        "name": "Phú Yên",
+        "nameEn": "Phu Yen",
+        "fullName": "Phường Phú Yên",
+        "fullNameEn": "Phu Yen Ward",
+        "codeName": "phu_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2891",
+        "areaKm2": 44.04
       }
     }
   ]

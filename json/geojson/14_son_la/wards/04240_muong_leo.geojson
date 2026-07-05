@@ -15986,11 +15986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lèo",
-        "unit_code": "04240",
-        "unit_code_name": "muong_leo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1406",
-        "area_km2": 375.76
+        "code": "04240",
+        "name": "Mường Lèo",
+        "nameEn": "Muong Leo",
+        "fullName": "Xã Mường Lèo",
+        "fullNameEn": "Muong Leo Commune",
+        "codeName": "muong_leo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1406",
+        "areaKm2": 375.76
       }
     }
   ]

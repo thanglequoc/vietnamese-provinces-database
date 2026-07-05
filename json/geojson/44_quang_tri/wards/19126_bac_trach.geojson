@@ -5302,11 +5302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Trạch",
-        "unit_code": "19126",
-        "unit_code_name": "bac_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.622",
-        "area_km2": 97.61
+        "code": "19126",
+        "name": "Bắc Trạch",
+        "nameEn": "Bac Trach",
+        "fullName": "Xã Bắc Trạch",
+        "fullNameEn": "Bac Trach Commune",
+        "codeName": "bac_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.622",
+        "areaKm2": 97.61
       }
     }
   ]

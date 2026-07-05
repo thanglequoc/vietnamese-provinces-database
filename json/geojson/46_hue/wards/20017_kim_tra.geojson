@@ -11962,11 +11962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Trà",
-        "unit_code": "20017",
-        "unit_code_name": "kim_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1708",
-        "area_km2": 42.8
+        "code": "20017",
+        "name": "Kim Trà",
+        "nameEn": "Kim Tra",
+        "fullName": "Phường Kim Trà",
+        "fullNameEn": "Kim Tra Ward",
+        "codeName": "kim_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1708",
+        "areaKm2": 42.8
       }
     }
   ]

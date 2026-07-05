@@ -16534,11 +16534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Giã",
-        "unit_code": "26590",
-        "unit_code_name": "binh_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2208",
-        "area_km2": 66.96
+        "code": "26590",
+        "name": "Bình Giã",
+        "nameEn": "Binh Gia",
+        "fullName": "Xã Bình Giã",
+        "fullNameEn": "Binh Gia Commune",
+        "codeName": "binh_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2208",
+        "areaKm2": 66.96
       }
     }
   ]

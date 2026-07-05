@@ -3566,11 +3566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiệu Hoá",
-        "unit_code": "15772",
-        "unit_code_name": "thieu_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2682",
-        "area_km2": 36.16
+        "code": "15772",
+        "name": "Thiệu Hoá",
+        "nameEn": "Thieu Hoa",
+        "fullName": "Xã Thiệu Hoá",
+        "fullNameEn": "Thieu Hoa Commune",
+        "codeName": "thieu_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2682",
+        "areaKm2": 36.16
       }
     }
   ]

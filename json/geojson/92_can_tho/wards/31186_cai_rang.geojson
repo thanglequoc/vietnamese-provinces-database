@@ -5282,11 +5282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Răng",
-        "unit_code": "31186",
-        "unit_code_name": "cai_rang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.212",
-        "area_km2": 26.88
+        "code": "31186",
+        "name": "Cái Răng",
+        "nameEn": "Cai Rang",
+        "fullName": "Phường Cái Răng",
+        "fullNameEn": "Cai Rang Ward",
+        "codeName": "cai_rang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.212",
+        "areaKm2": 26.88
       }
     }
   ]

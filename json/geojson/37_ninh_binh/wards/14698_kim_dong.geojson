@@ -4806,11 +4806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Đông",
-        "unit_code": "14698",
-        "unit_code_name": "kim_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.780",
-        "area_km2": 81.82
+        "code": "14698",
+        "name": "Kim Đông",
+        "nameEn": "Kim Dong",
+        "fullName": "Xã Kim Đông",
+        "fullNameEn": "Kim Dong Commune",
+        "codeName": "kim_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.780",
+        "areaKm2": 81.82
       }
     }
   ]

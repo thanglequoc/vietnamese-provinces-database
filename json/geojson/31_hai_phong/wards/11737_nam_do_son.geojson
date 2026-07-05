@@ -4066,11 +4066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đồ Sơn",
-        "unit_code": "11737",
-        "unit_code_name": "nam_do_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.938",
-        "area_km2": 21
+        "code": "11737",
+        "name": "Nam Đồ Sơn",
+        "nameEn": "Nam Do Son",
+        "fullName": "Phường Nam Đồ Sơn",
+        "fullNameEn": "Nam Do Son Ward",
+        "codeName": "nam_do_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.938",
+        "areaKm2": 21
       }
     }
   ]

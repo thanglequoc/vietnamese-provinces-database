@@ -17146,11 +17146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pờ Ly Ngài",
-        "unit_code": "01057",
-        "unit_code_name": "po_ly_ngai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2406",
-        "area_km2": 49.34
+        "code": "01057",
+        "name": "Pờ Ly Ngài",
+        "nameEn": "Po Ly Ngai",
+        "fullName": "Xã Pờ Ly Ngài",
+        "fullNameEn": "Po Ly Ngai Commune",
+        "codeName": "po_ly_ngai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2406",
+        "areaKm2": 49.34
       }
     }
   ]

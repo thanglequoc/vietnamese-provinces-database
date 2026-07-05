@@ -10494,11 +10494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Yên",
-        "unit_code": "07339",
-        "unit_code_name": "tan_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2163",
-        "area_km2": 48.13
+        "code": "07339",
+        "name": "Tân Yên",
+        "nameEn": "Tan Yen",
+        "fullName": "Xã Tân Yên",
+        "fullNameEn": "Tan Yen Commune",
+        "codeName": "tan_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2163",
+        "areaKm2": 48.13
       }
     }
   ]

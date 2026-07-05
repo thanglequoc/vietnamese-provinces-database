@@ -14642,11 +14642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lay",
-        "unit_code": "03151",
-        "unit_code_name": "muong_lay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2229",
-        "area_km2": 222.65
+        "code": "03151",
+        "name": "Mường Lay",
+        "nameEn": "Muong Lay",
+        "fullName": "Phường Mường Lay",
+        "fullNameEn": "Muong Lay Ward",
+        "codeName": "muong_lay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2229",
+        "areaKm2": 222.65
       }
     }
   ]

@@ -11822,11 +11822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhu Gia",
-        "unit_code": "31708",
-        "unit_code_name": "nhu_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.290",
-        "area_km2": 75.59
+        "code": "31708",
+        "name": "Nhu Gia",
+        "nameEn": "Nhu Gia",
+        "fullName": "Xã Nhu Gia",
+        "fullNameEn": "Nhu Gia Commune",
+        "codeName": "nhu_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.290",
+        "areaKm2": 75.59
       }
     }
   ]

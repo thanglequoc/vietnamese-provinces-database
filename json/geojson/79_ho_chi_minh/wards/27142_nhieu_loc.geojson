@@ -1790,11 +1790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhiêu Lộc",
-        "unit_code": "27142",
-        "unit_code_name": "nhieu_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.82",
-        "area_km2": 1.71
+        "code": "27142",
+        "name": "Nhiêu Lộc",
+        "nameEn": "Nhieu Loc",
+        "fullName": "Phường Nhiêu Lộc",
+        "fullNameEn": "Nhieu Loc Ward",
+        "codeName": "nhieu_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.82",
+        "areaKm2": 1.71
       }
     }
   ]

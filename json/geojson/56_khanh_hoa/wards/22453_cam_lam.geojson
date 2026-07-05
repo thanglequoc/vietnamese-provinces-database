@@ -5682,11 +5682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Lâm",
-        "unit_code": "22453",
-        "unit_code_name": "cam_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1125",
-        "area_km2": 149.9
+        "code": "22453",
+        "name": "Cam Lâm",
+        "nameEn": "Cam Lam",
+        "fullName": "Xã Cam Lâm",
+        "fullNameEn": "Cam Lam Commune",
+        "codeName": "cam_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1125",
+        "areaKm2": 149.9
       }
     }
   ]

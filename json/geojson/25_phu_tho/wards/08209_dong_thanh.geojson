@@ -6974,11 +6974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thành",
-        "unit_code": "08209",
-        "unit_code_name": "dong_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1564",
-        "area_km2": 32.25
+        "code": "08209",
+        "name": "Đông Thành",
+        "nameEn": "Dong Thanh",
+        "fullName": "Xã Đông Thành",
+        "fullNameEn": "Dong Thanh Commune",
+        "codeName": "dong_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1564",
+        "areaKm2": 32.25
       }
     }
   ]

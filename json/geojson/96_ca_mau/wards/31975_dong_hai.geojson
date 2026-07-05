@@ -11342,11 +11342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Hải",
-        "unit_code": "31975",
-        "unit_code_name": "dong_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.160",
-        "area_km2": 100.16
+        "code": "31975",
+        "name": "Đông Hải",
+        "nameEn": "Dong Hai",
+        "fullName": "Xã Đông Hải",
+        "fullNameEn": "Dong Hai Commune",
+        "codeName": "dong_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.160",
+        "areaKm2": 100.16
       }
     }
   ]

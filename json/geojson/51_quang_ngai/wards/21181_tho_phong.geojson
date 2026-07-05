@@ -6222,11 +6222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Phong",
-        "unit_code": "21181",
-        "unit_code_name": "tho_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1748",
-        "area_km2": 66.64
+        "code": "21181",
+        "name": "Thọ Phong",
+        "nameEn": "Tho Phong",
+        "fullName": "Xã Thọ Phong",
+        "fullNameEn": "Tho Phong Commune",
+        "codeName": "tho_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1748",
+        "areaKm2": 66.64
       }
     }
   ]

@@ -2394,11 +2394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cao Đức",
-        "unit_code": "09466",
-        "unit_code_name": "cao_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2130",
-        "area_km2": 19.76
+        "code": "09466",
+        "name": "Cao Đức",
+        "nameEn": "Cao Duc",
+        "fullName": "Xã Cao Đức",
+        "fullNameEn": "Cao Duc Commune",
+        "codeName": "cao_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2130",
+        "areaKm2": 19.76
       }
     }
   ]

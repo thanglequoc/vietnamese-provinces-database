@@ -4238,11 +4238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Châu",
-        "unit_code": "17488",
-        "unit_code_name": "tan_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1448",
-        "area_km2": 64.6
+        "code": "17488",
+        "name": "Tân Châu",
+        "nameEn": "Tan Chau",
+        "fullName": "Xã Tân Châu",
+        "fullNameEn": "Tan Chau Commune",
+        "codeName": "tan_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1448",
+        "areaKm2": 64.6
       }
     }
   ]

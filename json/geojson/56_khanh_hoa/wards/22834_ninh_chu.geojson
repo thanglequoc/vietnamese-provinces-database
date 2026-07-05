@@ -1874,11 +1874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Chử",
-        "unit_code": "22834",
-        "unit_code_name": "ninh_chu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1151",
-        "area_km2": 20.4
+        "code": "22834",
+        "name": "Ninh Chử",
+        "nameEn": "Ninh Chu",
+        "fullName": "Phường Ninh Chử",
+        "fullNameEn": "Ninh Chu Ward",
+        "codeName": "ninh_chu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1151",
+        "areaKm2": 20.4
       }
     }
   ]

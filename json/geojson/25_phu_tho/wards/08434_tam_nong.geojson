@@ -7354,11 +7354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Nông",
-        "unit_code": "08434",
-        "unit_code_name": "tam_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1572",
-        "area_km2": 28.25
+        "code": "08434",
+        "name": "Tam Nông",
+        "nameEn": "Tam Nong",
+        "fullName": "Xã Tam Nông",
+        "fullNameEn": "Tam Nong Commune",
+        "codeName": "tam_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1572",
+        "areaKm2": 28.25
       }
     }
   ]

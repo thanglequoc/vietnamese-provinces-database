@@ -6766,11 +6766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiền Lương",
-        "unit_code": "08110",
-        "unit_code_name": "hien_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1600",
-        "area_km2": 81.39
+        "code": "08110",
+        "name": "Hiền Lương",
+        "nameEn": "Hien Luong",
+        "fullName": "Xã Hiền Lương",
+        "fullNameEn": "Hien Luong Commune",
+        "codeName": "hien_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1600",
+        "areaKm2": 81.39
       }
     }
   ]

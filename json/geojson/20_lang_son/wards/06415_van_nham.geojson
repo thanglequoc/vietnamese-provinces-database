@@ -12254,11 +12254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Nham",
-        "unit_code": "06415",
-        "unit_code_name": "van_nham",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1842",
-        "area_km2": 81.22
+        "code": "06415",
+        "name": "Vân Nham",
+        "nameEn": "Van Nham",
+        "fullName": "Xã Vân Nham",
+        "fullNameEn": "Van Nham Commune",
+        "codeName": "van_nham",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1842",
+        "areaKm2": 81.22
       }
     }
   ]

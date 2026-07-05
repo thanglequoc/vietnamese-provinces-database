@@ -3794,11 +3794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đạo Thạnh",
-        "unit_code": "28249",
-        "unit_code_name": "dao_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.445",
-        "area_km2": 14.3
+        "code": "28249",
+        "name": "Đạo Thạnh",
+        "nameEn": "Dao Thanh",
+        "fullName": "Phường Đạo Thạnh",
+        "fullNameEn": "Dao Thanh Ward",
+        "codeName": "dao_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.445",
+        "areaKm2": 14.3
       }
     }
   ]

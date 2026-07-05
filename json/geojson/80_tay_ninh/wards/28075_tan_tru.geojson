@@ -4614,11 +4614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Trụ",
-        "unit_code": "28075",
-        "unit_code_name": "tan_tru",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1333",
-        "area_km2": 30.84
+        "code": "28075",
+        "name": "Tân Trụ",
+        "nameEn": "Tan Tru",
+        "fullName": "Xã Tân Trụ",
+        "fullNameEn": "Tan Tru Commune",
+        "codeName": "tan_tru",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1333",
+        "areaKm2": 30.84
       }
     }
   ]

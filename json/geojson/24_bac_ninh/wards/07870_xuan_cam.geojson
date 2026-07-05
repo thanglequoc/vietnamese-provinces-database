@@ -4066,11 +4066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Cẩm",
-        "unit_code": "07870",
-        "unit_code_name": "xuan_cam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2157",
-        "area_km2": 54.32
+        "code": "07870",
+        "name": "Xuân Cẩm",
+        "nameEn": "Xuan Cam",
+        "fullName": "Xã Xuân Cẩm",
+        "fullNameEn": "Xuan Cam Commune",
+        "codeName": "xuan_cam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2157",
+        "areaKm2": 54.32
       }
     }
   ]

@@ -9398,11 +9398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Kiên",
-        "unit_code": "30835",
-        "unit_code_name": "son_kien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.370",
-        "area_km2": 163.41
+        "code": "30835",
+        "name": "Sơn Kiên",
+        "nameEn": "Son Kien",
+        "fullName": "Xã Sơn Kiên",
+        "fullNameEn": "Son Kien Commune",
+        "codeName": "son_kien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.370",
+        "areaKm2": 163.41
       }
     }
   ]

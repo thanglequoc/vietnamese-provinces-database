@@ -14898,11 +14898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Thịnh",
-        "unit_code": "22276",
-        "unit_code_name": "hoa_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2921",
-        "area_km2": 159.23
+        "code": "22276",
+        "name": "Hoà Thịnh",
+        "nameEn": "Hoa Thinh",
+        "fullName": "Xã Hoà Thịnh",
+        "fullNameEn": "Hoa Thinh Commune",
+        "codeName": "hoa_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2921",
+        "areaKm2": 159.23
       }
     }
   ]

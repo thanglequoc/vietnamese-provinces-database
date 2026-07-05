@@ -20154,11 +20154,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xín Mần",
-        "unit_code": "01108",
-        "unit_code_name": "xin_man",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2410",
-        "area_km2": 125.24
+        "code": "01108",
+        "name": "Xín Mần",
+        "nameEn": "Xin Man",
+        "fullName": "Xã Xín Mần",
+        "fullNameEn": "Xin Man Commune",
+        "codeName": "xin_man",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2410",
+        "areaKm2": 125.24
       }
     }
   ]

@@ -6030,11 +6030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiềng Sinh",
-        "unit_code": "03679",
-        "unit_code_name": "chieng_sinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1339",
-        "area_km2": 68.4
+        "code": "03679",
+        "name": "Chiềng Sinh",
+        "nameEn": "Chieng Sinh",
+        "fullName": "Phường Chiềng Sinh",
+        "fullNameEn": "Chieng Sinh Ward",
+        "codeName": "chieng_sinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1339",
+        "areaKm2": 68.4
       }
     }
   ]

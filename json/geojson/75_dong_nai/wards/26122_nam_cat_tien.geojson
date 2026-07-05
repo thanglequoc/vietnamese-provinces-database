@@ -18610,11 +18610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Cát Tiên",
-        "unit_code": "26122",
-        "unit_code_name": "nam_cat_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3153",
-        "area_km2": 82.9
+        "code": "26122",
+        "name": "Nam Cát Tiên",
+        "nameEn": "Nam Cat Tien",
+        "fullName": "Xã Nam Cát Tiên",
+        "fullNameEn": "Nam Cat Tien Commune",
+        "codeName": "nam_cat_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3153",
+        "areaKm2": 82.9
       }
     }
   ]

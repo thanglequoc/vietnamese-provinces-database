@@ -11226,11 +11226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Phăng",
-        "unit_code": "03325",
-        "unit_code_name": "muong_phang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2262",
-        "area_km2": 166.7
+        "code": "03325",
+        "name": "Mường Phăng",
+        "nameEn": "Muong Phang",
+        "fullName": "Xã Mường Phăng",
+        "fullNameEn": "Muong Phang Commune",
+        "codeName": "muong_phang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2262",
+        "areaKm2": 166.7
       }
     }
   ]

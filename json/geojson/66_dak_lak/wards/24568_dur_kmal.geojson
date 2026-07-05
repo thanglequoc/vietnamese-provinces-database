@@ -15534,11 +15534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dur Kmăl",
-        "unit_code": "24568",
-        "unit_code_name": "dur_kmal",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2879",
-        "area_km2": 114.49
+        "code": "24568",
+        "name": "Dur Kmăl",
+        "nameEn": "Dur Kmal",
+        "fullName": "Xã Dur Kmăl",
+        "fullNameEn": "Dur Kmal Commune",
+        "codeName": "dur_kmal",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2879",
+        "areaKm2": 114.49
       }
     }
   ]

@@ -1238,11 +1238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Diễn",
-        "unit_code": "00619",
-        "unit_code_name": "phu_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3271",
-        "area_km2": 6.29
+        "code": "00619",
+        "name": "Phú Diễn",
+        "nameEn": "Phu Dien",
+        "fullName": "Phường Phú Diễn",
+        "fullNameEn": "Phu Dien Ward",
+        "codeName": "phu_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3271",
+        "areaKm2": 6.29
       }
     }
   ]

@@ -8366,11 +8366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyễn Trãi",
-        "unit_code": "10552",
-        "unit_code_name": "nguyen_trai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.870",
-        "area_km2": 76.28
+        "code": "10552",
+        "name": "Nguyễn Trãi",
+        "nameEn": "Nguyen Trai",
+        "fullName": "Phường Nguyễn Trãi",
+        "fullNameEn": "Nguyen Trai Ward",
+        "codeName": "nguyen_trai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.870",
+        "areaKm2": 76.28
       }
     }
   ]

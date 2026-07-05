@@ -17006,11 +17006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Prao",
-        "unit_code": "24415",
-        "unit_code_name": "cu_prao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2889",
-        "area_km2": 204.89
+        "code": "24415",
+        "name": "Cư Prao",
+        "nameEn": "Cu Prao",
+        "fullName": "Xã Cư Prao",
+        "fullNameEn": "Cu Prao Commune",
+        "codeName": "cu_prao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2889",
+        "areaKm2": 204.89
       }
     }
   ]

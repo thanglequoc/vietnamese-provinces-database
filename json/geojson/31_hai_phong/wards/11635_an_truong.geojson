@@ -2298,11 +2298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Trường",
-        "unit_code": "11635",
-        "unit_code_name": "an_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.908",
-        "area_km2": 25.54
+        "code": "11635",
+        "name": "An Trường",
+        "nameEn": "An Truong",
+        "fullName": "Xã An Trường",
+        "fullNameEn": "An Truong Commune",
+        "codeName": "an_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.908",
+        "areaKm2": 25.54
       }
     }
   ]

@@ -2810,11 +2810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Phong",
-        "unit_code": "28273",
-        "unit_code_name": "my_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.447",
-        "area_km2": 23
+        "code": "28273",
+        "name": "Mỹ Phong",
+        "nameEn": "My Phong",
+        "fullName": "Phường Mỹ Phong",
+        "fullNameEn": "My Phong Ward",
+        "codeName": "my_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.447",
+        "areaKm2": 23
       }
     }
   ]

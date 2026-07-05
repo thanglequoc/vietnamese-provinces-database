@@ -4550,11 +4550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Quới",
-        "unit_code": "26911",
-        "unit_code_name": "binh_quoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.64",
-        "area_km2": 6.34
+        "code": "26911",
+        "name": "Bình Quới",
+        "nameEn": "Binh Quoi",
+        "fullName": "Phường Bình Quới",
+        "fullNameEn": "Binh Quoi Ward",
+        "codeName": "binh_quoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.64",
+        "areaKm2": 6.34
       }
     }
   ]

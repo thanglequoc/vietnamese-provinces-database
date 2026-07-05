@@ -6386,11 +6386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Bạch",
-        "unit_code": "02038",
-        "unit_code_name": "quang_bach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1180",
-        "area_km2": 75.22
+        "code": "02038",
+        "name": "Quảng Bạch",
+        "nameEn": "Quang Bach",
+        "fullName": "Xã Quảng Bạch",
+        "fullNameEn": "Quang Bach Commune",
+        "codeName": "quang_bach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1180",
+        "areaKm2": 75.22
       }
     }
   ]

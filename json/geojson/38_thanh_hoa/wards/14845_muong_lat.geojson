@@ -6158,11 +6158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lát",
-        "unit_code": "14845",
-        "unit_code_name": "muong_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2706",
-        "area_km2": 129.66
+        "code": "14845",
+        "name": "Mường Lát",
+        "nameEn": "Muong Lat",
+        "fullName": "Xã Mường Lát",
+        "fullNameEn": "Muong Lat Commune",
+        "codeName": "muong_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2706",
+        "areaKm2": 129.66
       }
     }
   ]

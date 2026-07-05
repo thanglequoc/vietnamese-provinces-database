@@ -3566,11 +3566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Lĩnh",
-        "unit_code": "16597",
-        "unit_code_name": "hai_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2571",
-        "area_km2": 41.18
+        "code": "16597",
+        "name": "Hải Lĩnh",
+        "nameEn": "Hai Linh",
+        "fullName": "Phường Hải Lĩnh",
+        "fullNameEn": "Hai Linh Ward",
+        "codeName": "hai_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2571",
+        "areaKm2": 41.18
       }
     }
   ]

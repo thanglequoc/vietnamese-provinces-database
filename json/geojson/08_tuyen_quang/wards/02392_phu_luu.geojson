@@ -20422,11 +20422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Lưu",
-        "unit_code": "02392",
-        "unit_code_name": "phu_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2335",
-        "area_km2": 120.45
+        "code": "02392",
+        "name": "Phù Lưu",
+        "nameEn": "Phu Luu",
+        "fullName": "Xã Phù Lưu",
+        "fullNameEn": "Phu Luu Commune",
+        "codeName": "phu_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2335",
+        "areaKm2": 120.45
       }
     }
   ]

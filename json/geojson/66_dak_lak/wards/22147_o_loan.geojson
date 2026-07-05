@@ -7798,11 +7798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ô Loan",
-        "unit_code": "22147",
-        "unit_code_name": "o_loan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2906",
-        "area_km2": 103.48
+        "code": "22147",
+        "name": "Ô Loan",
+        "nameEn": "O Loan",
+        "fullName": "Xã Ô Loan",
+        "fullNameEn": "O Loan Commune",
+        "codeName": "o_loan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2906",
+        "areaKm2": 103.48
       }
     }
   ]

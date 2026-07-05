@@ -10382,11 +10382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gio Linh",
-        "unit_code": "19495",
-        "unit_code_name": "gio_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.569",
-        "area_km2": 96.7
+        "code": "19495",
+        "name": "Gio Linh",
+        "nameEn": "Gio Linh",
+        "fullName": "Xã Gio Linh",
+        "fullNameEn": "Gio Linh Commune",
+        "codeName": "gio_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.569",
+        "areaKm2": 96.7
       }
     }
   ]

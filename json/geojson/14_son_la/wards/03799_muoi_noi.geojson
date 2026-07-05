@@ -8970,11 +8970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Muổi Nọi",
-        "unit_code": "03799",
-        "unit_code_name": "muoi_noi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1353",
-        "area_km2": 128.7
+        "code": "03799",
+        "name": "Muổi Nọi",
+        "nameEn": "Muoi Noi",
+        "fullName": "Xã Muổi Nọi",
+        "fullNameEn": "Muoi Noi Commune",
+        "codeName": "muoi_noi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1353",
+        "areaKm2": 128.7
       }
     }
   ]

@@ -1434,11 +1434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội An",
-        "unit_code": "20410",
-        "unit_code_name": "hoi_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1935",
-        "area_km2": 10.81
+        "code": "20410",
+        "name": "Hội An",
+        "nameEn": "Hoi An",
+        "fullName": "Phường Hội An",
+        "fullNameEn": "Hoi An Ward",
+        "codeName": "hoi_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1935",
+        "areaKm2": 10.81
       }
     }
   ]

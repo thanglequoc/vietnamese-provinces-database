@@ -13066,11 +13066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Lập",
-        "unit_code": "24955",
-        "unit_code_name": "quang_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.521",
-        "area_km2": 135.08
+        "code": "24955",
+        "name": "Quảng Lập",
+        "nameEn": "Quang Lap",
+        "fullName": "Xã Quảng Lập",
+        "fullNameEn": "Quang Lap Commune",
+        "codeName": "quang_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.521",
+        "areaKm2": 135.08
       }
     }
   ]

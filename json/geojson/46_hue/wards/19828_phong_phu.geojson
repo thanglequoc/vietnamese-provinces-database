@@ -3842,11 +3842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Phú",
-        "unit_code": "19828",
-        "unit_code_name": "phong_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1693",
-        "area_km2": 60.85
+        "code": "19828",
+        "name": "Phong Phú",
+        "nameEn": "Phong Phu",
+        "fullName": "Phường Phong Phú",
+        "fullNameEn": "Phong Phu Ward",
+        "codeName": "phong_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1693",
+        "areaKm2": 60.85
       }
     }
   ]

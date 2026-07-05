@@ -6978,11 +6978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửa Ông",
-        "unit_code": "06781",
-        "unit_code_name": "cua_ong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1871",
-        "area_km2": 41.07
+        "code": "06781",
+        "name": "Cửa Ông",
+        "nameEn": "Cua Ong",
+        "fullName": "Phường Cửa Ông",
+        "fullNameEn": "Cua Ong Ward",
+        "codeName": "cua_ong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1871",
+        "areaKm2": 41.07
       }
     }
   ]

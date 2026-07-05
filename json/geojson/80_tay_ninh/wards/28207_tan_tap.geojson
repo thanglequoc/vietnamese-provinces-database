@@ -3810,11 +3810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Tập",
-        "unit_code": "28207",
-        "unit_code_name": "tan_tap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1329",
-        "area_km2": 60.22
+        "code": "28207",
+        "name": "Tân Tập",
+        "nameEn": "Tan Tap",
+        "fullName": "Xã Tân Tập",
+        "fullNameEn": "Tan Tap Commune",
+        "codeName": "tan_tap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1329",
+        "areaKm2": 60.22
       }
     }
   ]

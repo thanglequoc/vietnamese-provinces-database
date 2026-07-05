@@ -2682,11 +2682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân An Hội",
-        "unit_code": "27496",
-        "unit_code_name": "tan_an_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.117",
-        "area_km2": 53.51
+        "code": "27496",
+        "name": "Tân An Hội",
+        "nameEn": "Tan An Hoi",
+        "fullName": "Xã Tân An Hội",
+        "fullNameEn": "Tan An Hoi Commune",
+        "codeName": "tan_an_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.117",
+        "areaKm2": 53.51
       }
     }
   ]

@@ -9126,11 +9126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Quang",
-        "unit_code": "21805",
-        "unit_code_name": "vinh_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3005",
-        "area_km2": 89.35
+        "code": "21805",
+        "name": "Vĩnh Quang",
+        "nameEn": "Vinh Quang",
+        "fullName": "Xã Vĩnh Quang",
+        "fullNameEn": "Vinh Quang Commune",
+        "codeName": "vinh_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3005",
+        "areaKm2": 89.35
       }
     }
   ]

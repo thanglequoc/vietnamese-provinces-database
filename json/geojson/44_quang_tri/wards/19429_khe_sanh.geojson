@@ -6718,11 +6718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khe Sanh",
-        "unit_code": "19429",
-        "unit_code_name": "khe_sanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.586",
-        "area_km2": 134.81
+        "code": "19429",
+        "name": "Khe Sanh",
+        "nameEn": "Khe Sanh",
+        "fullName": "Xã Khe Sanh",
+        "fullNameEn": "Khe Sanh Commune",
+        "codeName": "khe_sanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.586",
+        "areaKm2": 134.81
       }
     }
   ]

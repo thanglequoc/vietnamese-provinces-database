@@ -15934,11 +15934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Ninh",
-        "unit_code": "22489",
-        "unit_code_name": "van_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1105",
-        "area_km2": 130.5
+        "code": "22489",
+        "name": "Vạn Ninh",
+        "nameEn": "Van Ninh",
+        "fullName": "Xã Vạn Ninh",
+        "fullNameEn": "Van Ninh Commune",
+        "codeName": "van_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1105",
+        "areaKm2": 130.5
       }
     }
   ]

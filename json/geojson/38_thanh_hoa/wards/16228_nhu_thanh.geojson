@@ -7818,11 +7818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Như Thanh",
-        "unit_code": "16228",
-        "unit_code_name": "nhu_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2660",
-        "area_km2": 84.07
+        "code": "16228",
+        "name": "Như Thanh",
+        "nameEn": "Nhu Thanh",
+        "fullName": "Xã Như Thanh",
+        "fullNameEn": "Nhu Thanh Commune",
+        "codeName": "nhu_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2660",
+        "areaKm2": 84.07
       }
     }
   ]

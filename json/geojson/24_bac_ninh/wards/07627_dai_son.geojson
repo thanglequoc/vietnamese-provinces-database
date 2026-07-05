@@ -4242,11 +4242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Sơn",
-        "unit_code": "07627",
-        "unit_code_name": "dai_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2114",
-        "area_km2": 76.38
+        "code": "07627",
+        "name": "Đại Sơn",
+        "nameEn": "Dai Son",
+        "fullName": "Xã Đại Sơn",
+        "fullNameEn": "Dai Son Commune",
+        "codeName": "dai_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2114",
+        "areaKm2": 76.38
       }
     }
   ]

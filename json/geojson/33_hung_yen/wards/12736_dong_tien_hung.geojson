@@ -3578,11 +3578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Tiên Hưng",
-        "unit_code": "12736",
-        "unit_code_name": "dong_tien_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.652",
-        "area_km2": 16.32
+        "code": "12736",
+        "name": "Đông Tiên Hưng",
+        "nameEn": "Dong Tien Hung",
+        "fullName": "Xã Đông Tiên Hưng",
+        "fullNameEn": "Dong Tien Hung Commune",
+        "codeName": "dong_tien_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.652",
+        "areaKm2": 16.32
       }
     }
   ]

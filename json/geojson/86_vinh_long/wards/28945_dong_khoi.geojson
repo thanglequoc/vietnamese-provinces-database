@@ -6258,11 +6258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Khởi",
-        "unit_code": "28945",
-        "unit_code_name": "dong_khoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2452",
-        "area_km2": 41.12
+        "code": "28945",
+        "name": "Đồng Khởi",
+        "nameEn": "Dong Khoi",
+        "fullName": "Xã Đồng Khởi",
+        "fullNameEn": "Dong Khoi Commune",
+        "codeName": "dong_khoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2452",
+        "areaKm2": 41.12
       }
     }
   ]

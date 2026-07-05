@@ -22406,11 +22406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Sơn",
-        "unit_code": "24616",
-        "unit_code_name": "quang_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2820",
-        "area_km2": 454.22
+        "code": "24616",
+        "name": "Quảng Sơn",
+        "nameEn": "Quang Son",
+        "fullName": "Xã Quảng Sơn",
+        "fullNameEn": "Quang Son Commune",
+        "codeName": "quang_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2820",
+        "areaKm2": 454.22
       }
     }
   ]

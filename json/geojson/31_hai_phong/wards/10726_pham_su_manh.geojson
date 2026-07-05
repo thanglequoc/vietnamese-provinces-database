@@ -3154,11 +3154,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phạm Sư Mạnh",
-        "unit_code": "10726",
-        "unit_code_name": "pham_su_manh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.872",
-        "area_km2": 22.34
+        "code": "10726",
+        "name": "Phạm Sư Mạnh",
+        "nameEn": "Pham Su Manh",
+        "fullName": "Phường Phạm Sư Mạnh",
+        "fullNameEn": "Pham Su Manh Ward",
+        "codeName": "pham_su_manh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.872",
+        "areaKm2": 22.34
       }
     }
   ]

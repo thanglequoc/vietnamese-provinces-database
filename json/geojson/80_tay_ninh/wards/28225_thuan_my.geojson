@@ -13402,11 +13402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuận Mỹ",
-        "unit_code": "28225",
-        "unit_code_name": "thuan_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1334",
-        "area_km2": 53.37
+        "code": "28225",
+        "name": "Thuận Mỹ",
+        "nameEn": "Thuan My",
+        "fullName": "Xã Thuận Mỹ",
+        "fullNameEn": "Thuan My Commune",
+        "codeName": "thuan_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1334",
+        "areaKm2": 53.37
       }
     }
   ]

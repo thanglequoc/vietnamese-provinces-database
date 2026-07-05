@@ -37682,11 +37682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Khươl",
-        "unit_code": "23728",
-        "unit_code_name": "ia_khuol",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3057",
-        "area_km2": 351.97
+        "code": "23728",
+        "name": "Ia Khươl",
+        "nameEn": "Ia Khuol",
+        "fullName": "Xã Ia Khươl",
+        "fullNameEn": "Ia Khuol Commune",
+        "codeName": "ia_khuol",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3057",
+        "areaKm2": 351.97
       }
     }
   ]

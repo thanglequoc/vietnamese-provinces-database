@@ -11466,11 +11466,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Hải",
-        "unit_code": "02902",
-        "unit_code_name": "phong_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1070",
-        "area_km2": 120.9
+        "code": "02902",
+        "name": "Phong Hải",
+        "nameEn": "Phong Hai",
+        "fullName": "Xã Phong Hải",
+        "fullNameEn": "Phong Hai Commune",
+        "codeName": "phong_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1070",
+        "areaKm2": 120.9
       }
     }
   ]

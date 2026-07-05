@@ -14738,11 +14738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Mỹ",
-        "unit_code": "26341",
-        "unit_code_name": "cam_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3100",
-        "area_km2": 113.1
+        "code": "26341",
+        "name": "Cẩm Mỹ",
+        "nameEn": "Cam My",
+        "fullName": "Xã Cẩm Mỹ",
+        "fullNameEn": "Cam My Commune",
+        "codeName": "cam_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3100",
+        "areaKm2": 113.1
       }
     }
   ]

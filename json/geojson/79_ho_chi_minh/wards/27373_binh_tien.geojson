@@ -554,11 +554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Tiên",
-        "unit_code": "27373",
-        "unit_code_name": "binh_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.101",
-        "area_km2": 1.61
+        "code": "27373",
+        "name": "Bình Tiên",
+        "nameEn": "Binh Tien",
+        "fullName": "Phường Bình Tiên",
+        "fullNameEn": "Binh Tien Ward",
+        "codeName": "binh_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.101",
+        "areaKm2": 1.61
       }
     }
   ]

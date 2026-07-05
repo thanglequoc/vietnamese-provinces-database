@@ -2170,11 +2170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Từ",
-        "unit_code": "14728",
-        "unit_code_name": "yen_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.776",
-        "area_km2": 23.98
+        "code": "14728",
+        "name": "Yên Từ",
+        "nameEn": "Yen Tu",
+        "fullName": "Xã Yên Từ",
+        "fullNameEn": "Yen Tu Commune",
+        "codeName": "yen_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.776",
+        "areaKm2": 23.98
       }
     }
   ]

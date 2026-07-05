@@ -12170,11 +12170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Chiến",
-        "unit_code": "03820",
-        "unit_code_name": "ngoc_chien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1356",
-        "area_km2": 212.19
+        "code": "03820",
+        "name": "Ngọc Chiến",
+        "nameEn": "Ngoc Chien",
+        "fullName": "Xã Ngọc Chiến",
+        "fullNameEn": "Ngoc Chien Commune",
+        "codeName": "ngoc_chien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1356",
+        "areaKm2": 212.19
       }
     }
   ]

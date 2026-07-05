@@ -2966,11 +2966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Thọ",
-        "unit_code": "18229",
-        "unit_code_name": "duc_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2049",
-        "area_km2": 48.93
+        "code": "18229",
+        "name": "Đức Thọ",
+        "nameEn": "Duc Tho",
+        "fullName": "Xã Đức Thọ",
+        "fullNameEn": "Duc Tho Commune",
+        "codeName": "duc_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2049",
+        "areaKm2": 48.93
       }
     }
   ]

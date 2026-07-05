@@ -3522,11 +3522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỹ Nhất",
-        "unit_code": "13939",
-        "unit_code_name": "quy_nhat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.826",
-        "area_km2": 32.7
+        "code": "13939",
+        "name": "Quỹ Nhất",
+        "nameEn": "Quy Nhat",
+        "fullName": "Xã Quỹ Nhất",
+        "fullNameEn": "Quy Nhat Commune",
+        "codeName": "quy_nhat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.826",
+        "areaKm2": 32.7
       }
     }
   ]

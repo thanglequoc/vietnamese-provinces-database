@@ -15422,11 +15422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Dịch",
-        "unit_code": "01075",
-        "unit_code_name": "nam_dich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2407",
-        "area_km2": 97.78
+        "code": "01075",
+        "name": "Nậm Dịch",
+        "nameEn": "Nam Dich",
+        "fullName": "Xã Nậm Dịch",
+        "fullNameEn": "Nam Dich Commune",
+        "codeName": "nam_dich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2407",
+        "areaKm2": 97.78
       }
     }
   ]

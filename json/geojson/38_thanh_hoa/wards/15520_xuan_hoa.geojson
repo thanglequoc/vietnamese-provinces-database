@@ -2926,11 +2926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Hoà",
-        "unit_code": "15520",
-        "unit_code_name": "xuan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2668",
-        "area_km2": 28.34
+        "code": "15520",
+        "name": "Xuân Hoà",
+        "nameEn": "Xuan Hoa",
+        "fullName": "Xã Xuân Hoà",
+        "fullNameEn": "Xuan Hoa Commune",
+        "codeName": "xuan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2668",
+        "areaKm2": 28.34
       }
     }
   ]

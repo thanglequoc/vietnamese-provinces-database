@@ -2450,11 +2450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Thuận",
-        "unit_code": "25702",
-        "unit_code_name": "long_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2731",
-        "area_km2": 65.61
+        "code": "25702",
+        "name": "Long Thuận",
+        "nameEn": "Long Thuan",
+        "fullName": "Xã Long Thuận",
+        "fullNameEn": "Long Thuan Commune",
+        "codeName": "long_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2731",
+        "areaKm2": 65.61
       }
     }
   ]

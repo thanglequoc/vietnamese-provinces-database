@@ -8030,11 +8030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Cốc",
-        "unit_code": "08620",
-        "unit_code_name": "long_coc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1587",
-        "area_km2": 67.09
+        "code": "08620",
+        "name": "Long Cốc",
+        "nameEn": "Long Coc",
+        "fullName": "Xã Long Cốc",
+        "fullNameEn": "Long Coc Commune",
+        "codeName": "long_coc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1587",
+        "areaKm2": 67.09
       }
     }
   ]

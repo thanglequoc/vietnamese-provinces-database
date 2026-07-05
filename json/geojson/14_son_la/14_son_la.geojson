@@ -5530,11 +5530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn La",
-        "unit_code": "14",
-        "unit_code_name": "son_la",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.110",
-        "area_km2": 14108.89
+        "code": "14",
+        "name": "Sơn La",
+        "nameEn": "Son La",
+        "fullName": "Tỉnh Sơn La",
+        "fullNameEn": "Son La Province",
+        "codeName": "son_la",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.110",
+        "areaKm2": 14108.89
       }
     }
   ]

@@ -11850,11 +11850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Xa",
-        "unit_code": "02380",
-        "unit_code_name": "bach_xa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2334",
-        "area_km2": 127.41
+        "code": "02380",
+        "name": "Bạch Xa",
+        "nameEn": "Bach Xa",
+        "fullName": "Xã Bạch Xa",
+        "fullNameEn": "Bach Xa Commune",
+        "codeName": "bach_xa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2334",
+        "areaKm2": 127.41
       }
     }
   ]

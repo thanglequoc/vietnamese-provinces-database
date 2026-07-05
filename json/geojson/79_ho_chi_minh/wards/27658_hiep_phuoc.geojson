@@ -4330,11 +4330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Phước",
-        "unit_code": "27658",
-        "unit_code_name": "hiep_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.133",
-        "area_km2": 63.33
+        "code": "27658",
+        "name": "Hiệp Phước",
+        "nameEn": "Hiep Phuoc",
+        "fullName": "Xã Hiệp Phước",
+        "fullNameEn": "Hiep Phuoc Commune",
+        "codeName": "hiep_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.133",
+        "areaKm2": 63.33
       }
     }
   ]

@@ -3710,11 +3710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Bình",
-        "unit_code": "29719",
-        "unit_code_name": "tam_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2544",
-        "area_km2": 34.63
+        "code": "29719",
+        "name": "Tam Bình",
+        "nameEn": "Tam Binh",
+        "fullName": "Xã Tam Bình",
+        "fullNameEn": "Tam Binh Commune",
+        "codeName": "tam_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2544",
+        "areaKm2": 34.63
       }
     }
   ]

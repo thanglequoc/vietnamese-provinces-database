@@ -2198,11 +2198,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Thuỵ Anh",
-        "unit_code": "12859",
-        "unit_code_name": "bac_thuy_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.643",
-        "area_km2": 17.38
+        "code": "12859",
+        "name": "Bắc Thuỵ Anh",
+        "nameEn": "Bac Thuy Anh",
+        "fullName": "Xã Bắc Thuỵ Anh",
+        "fullNameEn": "Bac Thuy Anh Commune",
+        "codeName": "bac_thuy_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.643",
+        "areaKm2": 17.38
       }
     }
   ]

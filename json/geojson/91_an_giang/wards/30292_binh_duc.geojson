@@ -6318,11 +6318,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Đức",
-        "unit_code": "30292",
-        "unit_code_name": "binh_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.306",
-        "area_km2": 28.23
+        "code": "30292",
+        "name": "Bình Đức",
+        "nameEn": "Binh Duc",
+        "fullName": "Phường Bình Đức",
+        "fullNameEn": "Binh Duc Ward",
+        "codeName": "binh_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.306",
+        "areaKm2": 28.23
       }
     }
   ]

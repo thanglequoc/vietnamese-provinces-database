@@ -5266,11 +5266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trảng Dài",
-        "unit_code": "25993",
-        "unit_code_name": "trang_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3101",
-        "area_km2": 37.3
+        "code": "25993",
+        "name": "Trảng Dài",
+        "nameEn": "Trang Dai",
+        "fullName": "Phường Trảng Dài",
+        "fullNameEn": "Trang Dai Ward",
+        "codeName": "trang_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3101",
+        "areaKm2": 37.3
       }
     }
   ]

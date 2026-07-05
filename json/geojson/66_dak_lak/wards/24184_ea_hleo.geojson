@@ -15794,11 +15794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea H'Leo",
-        "unit_code": "24184",
-        "unit_code_name": "ea_hleo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2830",
-        "area_km2": 340.06
+        "code": "24184",
+        "name": "Ea H'Leo",
+        "nameEn": "Ea H'Leo",
+        "fullName": "Xã Ea H'Leo",
+        "fullNameEn": "Ea H'Leo Commune",
+        "codeName": "ea_hleo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2830",
+        "areaKm2": 340.06
       }
     }
   ]

@@ -2014,11 +2014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hải",
-        "unit_code": "26662",
-        "unit_code_name": "long_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2218",
-        "area_km2": 27.93
+        "code": "26662",
+        "name": "Long Hải",
+        "nameEn": "Long Hai",
+        "fullName": "Xã Long Hải",
+        "fullNameEn": "Long Hai Commune",
+        "codeName": "long_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2218",
+        "areaKm2": 27.93
       }
     }
   ]

@@ -28290,11 +28290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Su Phì",
-        "unit_code": "01021",
-        "unit_code_name": "hoang_su_phi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2402",
-        "area_km2": 86.65
+        "code": "01021",
+        "name": "Hoàng Su Phì",
+        "nameEn": "Hoang Su Phi",
+        "fullName": "Xã Hoàng Su Phì",
+        "fullNameEn": "Hoang Su Phi Commune",
+        "codeName": "hoang_su_phi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2402",
+        "areaKm2": 86.65
       }
     }
   ]

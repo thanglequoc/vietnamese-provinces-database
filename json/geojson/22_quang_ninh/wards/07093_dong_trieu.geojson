@@ -6126,11 +6126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Triều",
-        "unit_code": "07093",
-        "unit_code_name": "dong_trieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1898",
-        "area_km2": 40.42
+        "code": "07093",
+        "name": "Đông Triều",
+        "nameEn": "Dong Trieu",
+        "fullName": "Phường Đông Triều",
+        "fullNameEn": "Dong Trieu Ward",
+        "codeName": "dong_trieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1898",
+        "areaKm2": 40.42
       }
     }
   ]

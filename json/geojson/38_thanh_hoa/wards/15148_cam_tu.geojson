@@ -5014,11 +5014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Tú",
-        "unit_code": "15148",
-        "unit_code_name": "cam_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2643",
-        "area_km2": 98.09
+        "code": "15148",
+        "name": "Cẩm Tú",
+        "nameEn": "Cam Tu",
+        "fullName": "Xã Cẩm Tú",
+        "fullNameEn": "Cam Tu Commune",
+        "codeName": "cam_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2643",
+        "areaKm2": 98.09
       }
     }
   ]

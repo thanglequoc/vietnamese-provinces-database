@@ -10122,11 +10122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thắng Mố",
-        "unit_code": "00829",
-        "unit_code_name": "thang_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2434",
-        "area_km2": 67.71
+        "code": "00829",
+        "name": "Thắng Mố",
+        "nameEn": "Thang Mo",
+        "fullName": "Xã Thắng Mố",
+        "fullNameEn": "Thang Mo Commune",
+        "codeName": "thang_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2434",
+        "areaKm2": 67.71
       }
     }
   ]

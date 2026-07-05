@@ -2894,11 +2894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Quới",
-        "unit_code": "31246",
-        "unit_code_name": "thanh_quoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.221",
-        "area_km2": 103.86
+        "code": "31246",
+        "name": "Thạnh Quới",
+        "nameEn": "Thanh Quoi",
+        "fullName": "Xã Thạnh Quới",
+        "fullNameEn": "Thanh Quoi Commune",
+        "codeName": "thanh_quoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.221",
+        "areaKm2": 103.86
       }
     }
   ]

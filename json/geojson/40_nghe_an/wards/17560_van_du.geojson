@@ -6346,11 +6346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Du",
-        "unit_code": "17560",
-        "unit_code_name": "van_du",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1454",
-        "area_km2": 84.3
+        "code": "17560",
+        "name": "Vân Du",
+        "nameEn": "Van Du",
+        "fullName": "Xã Vân Du",
+        "fullNameEn": "Van Du Commune",
+        "codeName": "van_du",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1454",
+        "areaKm2": 84.3
       }
     }
   ]

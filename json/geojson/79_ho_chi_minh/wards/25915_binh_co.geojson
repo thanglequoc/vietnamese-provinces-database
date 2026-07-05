@@ -4782,11 +4782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Cơ",
-        "unit_code": "25915",
-        "unit_code_name": "binh_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.25",
-        "area_km2": 73.69
+        "code": "25915",
+        "name": "Bình Cơ",
+        "nameEn": "Binh Co",
+        "fullName": "Phường Bình Cơ",
+        "fullNameEn": "Binh Co Ward",
+        "codeName": "binh_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.25",
+        "areaKm2": 73.69
       }
     }
   ]

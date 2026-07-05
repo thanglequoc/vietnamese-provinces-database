@@ -7362,11 +7362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vàng Danh",
-        "unit_code": "06820",
-        "unit_code_name": "vang_danh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1865",
-        "area_km2": 93.77
+        "code": "06820",
+        "name": "Vàng Danh",
+        "nameEn": "Vang Danh",
+        "fullName": "Phường Vàng Danh",
+        "fullNameEn": "Vang Danh Ward",
+        "codeName": "vang_danh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1865",
+        "areaKm2": 93.77
       }
     }
   ]

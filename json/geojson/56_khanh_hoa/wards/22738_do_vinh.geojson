@@ -3082,11 +3082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đô Vinh",
-        "unit_code": "22738",
-        "unit_code_name": "do_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1141",
-        "area_km2": 62
+        "code": "22738",
+        "name": "Đô Vinh",
+        "nameEn": "Do Vinh",
+        "fullName": "Phường Đô Vinh",
+        "fullNameEn": "Do Vinh Ward",
+        "codeName": "do_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1141",
+        "areaKm2": 62
       }
     }
   ]

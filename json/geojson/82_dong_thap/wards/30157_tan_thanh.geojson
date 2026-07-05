@@ -5458,11 +5458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Thạnh",
-        "unit_code": "30157",
-        "unit_code_name": "tan_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.431",
-        "area_km2": 59.5
+        "code": "30157",
+        "name": "Tân Thạnh",
+        "nameEn": "Tan Thanh",
+        "fullName": "Xã Tân Thạnh",
+        "fullNameEn": "Tan Thanh Commune",
+        "codeName": "tan_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.431",
+        "areaKm2": 59.5
       }
     }
   ]

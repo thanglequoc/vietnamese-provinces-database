@@ -6734,11 +6734,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Khánh",
-        "unit_code": "04576",
-        "unit_code_name": "hung_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1035",
-        "area_km2": 122.18
+        "code": "04576",
+        "name": "Hưng Khánh",
+        "nameEn": "Hung Khanh",
+        "fullName": "Xã Hưng Khánh",
+        "fullNameEn": "Hung Khanh Commune",
+        "codeName": "hung_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1035",
+        "areaKm2": 122.18
       }
     }
   ]

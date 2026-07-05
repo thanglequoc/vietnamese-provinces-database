@@ -8830,11 +8830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ya Ly",
-        "unit_code": "23548",
-        "unit_code_name": "ya_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.550",
-        "area_km2": 271.31
+        "code": "23548",
+        "name": "Ya Ly",
+        "nameEn": "Ya Ly",
+        "fullName": "Xã Ya Ly",
+        "fullNameEn": "Ya Ly Commune",
+        "codeName": "ya_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.550",
+        "areaKm2": 271.31
       }
     }
   ]

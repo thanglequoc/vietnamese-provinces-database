@@ -914,11 +914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Dương",
-        "unit_code": "10525",
-        "unit_code_name": "hai_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.853",
-        "area_km2": 6.51
+        "code": "10525",
+        "name": "Hải Dương",
+        "nameEn": "Hai Duong",
+        "fullName": "Phường Hải Dương",
+        "fullNameEn": "Hai Duong Ward",
+        "codeName": "hai_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.853",
+        "areaKm2": 6.51
       }
     }
   ]

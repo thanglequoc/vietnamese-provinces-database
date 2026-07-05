@@ -5534,11 +5534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Rí Cửa",
-        "unit_code": "22972",
-        "unit_code_name": "phan_ri_cua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3068",
-        "area_km2": 67.67
+        "code": "22972",
+        "name": "Phan Rí Cửa",
+        "nameEn": "Phan Ri Cua",
+        "fullName": "Xã Phan Rí Cửa",
+        "fullNameEn": "Phan Ri Cua Commune",
+        "codeName": "phan_ri_cua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3068",
+        "areaKm2": 67.67
       }
     }
   ]

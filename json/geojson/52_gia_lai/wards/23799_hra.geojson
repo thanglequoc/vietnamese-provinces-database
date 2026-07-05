@@ -21094,11 +21094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hra",
-        "unit_code": "23799",
-        "unit_code_name": "hra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3028",
-        "area_km2": 230.89
+        "code": "23799",
+        "name": "Hra",
+        "nameEn": "Hra",
+        "fullName": "Xã Hra",
+        "fullNameEn": "Hra Commune",
+        "codeName": "hra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3028",
+        "areaKm2": 230.89
       }
     }
   ]

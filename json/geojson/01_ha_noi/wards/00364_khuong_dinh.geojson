@@ -1546,11 +1546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khương Đình",
-        "unit_code": "00364",
-        "unit_code_name": "khuong_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3186",
-        "area_km2": 3.1
+        "code": "00364",
+        "name": "Khương Đình",
+        "nameEn": "Khuong Dinh",
+        "fullName": "Phường Khương Đình",
+        "fullNameEn": "Khuong Dinh Ward",
+        "codeName": "khuong_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3186",
+        "areaKm2": 3.1
       }
     }
   ]

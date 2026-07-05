@@ -10970,11 +10970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội An",
-        "unit_code": "30673",
-        "unit_code_name": "hoi_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.352",
-        "area_km2": 63.54
+        "code": "30673",
+        "name": "Hội An",
+        "nameEn": "Hoi An",
+        "fullName": "Xã Hội An",
+        "fullNameEn": "Hoi An Commune",
+        "codeName": "hoi_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.352",
+        "areaKm2": 63.54
       }
     }
   ]

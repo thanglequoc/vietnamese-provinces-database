@@ -8718,11 +8718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Cốc",
-        "unit_code": "08023",
-        "unit_code_name": "tay_coc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1542",
-        "area_km2": 59.07
+        "code": "08023",
+        "name": "Tây Cốc",
+        "nameEn": "Tay Coc",
+        "fullName": "Xã Tây Cốc",
+        "fullNameEn": "Tay Coc Commune",
+        "codeName": "tay_coc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1542",
+        "areaKm2": 59.07
       }
     }
   ]

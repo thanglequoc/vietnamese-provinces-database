@@ -3286,11 +3286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thuỷ",
-        "unit_code": "22924",
-        "unit_code_name": "phu_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3062",
-        "area_km2": 17.31
+        "code": "22924",
+        "name": "Phú Thuỷ",
+        "nameEn": "Phu Thuy",
+        "fullName": "Phường Phú Thuỷ",
+        "fullNameEn": "Phu Thuy Ward",
+        "codeName": "phu_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3062",
+        "areaKm2": 17.31
       }
     }
   ]

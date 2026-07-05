@@ -2090,11 +2090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Quý Đôn",
-        "unit_code": "12676",
-        "unit_code_name": "le_quy_don",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.645",
-        "area_km2": 21.72
+        "code": "12676",
+        "name": "Lê Quý Đôn",
+        "nameEn": "Le Quy Don",
+        "fullName": "Xã Lê Quý Đôn",
+        "fullNameEn": "Le Quy Don Commune",
+        "codeName": "le_quy_don",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.645",
+        "areaKm2": 21.72
       }
     }
   ]

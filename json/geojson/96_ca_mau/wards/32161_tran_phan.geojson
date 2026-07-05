@@ -19562,11 +19562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Phán",
-        "unit_code": "32161",
-        "unit_code_name": "tran_phan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.187",
-        "area_km2": 74.9
+        "code": "32161",
+        "name": "Trần Phán",
+        "nameEn": "Tran Phan",
+        "fullName": "Xã Trần Phán",
+        "fullNameEn": "Tran Phan Commune",
+        "codeName": "tran_phan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.187",
+        "areaKm2": 74.9
       }
     }
   ]

@@ -8378,11 +8378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tùng Thiện",
-        "unit_code": "09604",
-        "unit_code_name": "tung_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3231",
-        "area_km2": 32.34
+        "code": "09604",
+        "name": "Tùng Thiện",
+        "nameEn": "Tung Thien",
+        "fullName": "Phường Tùng Thiện",
+        "fullNameEn": "Tung Thien Ward",
+        "codeName": "tung_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3231",
+        "areaKm2": 32.34
       }
     }
   ]

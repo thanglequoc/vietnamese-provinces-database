@@ -5262,11 +5262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Chiểu",
-        "unit_code": "20197",
-        "unit_code_name": "lien_chieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1911",
-        "area_km2": 41.19
+        "code": "20197",
+        "name": "Liên Chiểu",
+        "nameEn": "Lien Chieu",
+        "fullName": "Phường Liên Chiểu",
+        "fullNameEn": "Lien Chieu Ward",
+        "codeName": "lien_chieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1911",
+        "areaKm2": 41.19
       }
     }
   ]

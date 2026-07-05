@@ -3934,11 +3934,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thăng Trường",
-        "unit_code": "20836",
-        "unit_code_name": "thang_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1980",
-        "area_km2": 63.79
+        "code": "20836",
+        "name": "Thăng Trường",
+        "nameEn": "Thang Truong",
+        "fullName": "Xã Thăng Trường",
+        "fullNameEn": "Thang Truong Commune",
+        "codeName": "thang_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1980",
+        "areaKm2": 63.79
       }
     }
   ]

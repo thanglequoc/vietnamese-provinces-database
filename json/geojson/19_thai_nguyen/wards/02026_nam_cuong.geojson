@@ -7486,11 +7486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Cường",
-        "unit_code": "02026",
-        "unit_code_name": "nam_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1179",
-        "area_km2": 149.65
+        "code": "02026",
+        "name": "Nam Cường",
+        "nameEn": "Nam Cuong",
+        "fullName": "Xã Nam Cường",
+        "fullNameEn": "Nam Cuong Commune",
+        "codeName": "nam_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1179",
+        "areaKm2": 149.65
       }
     }
   ]

@@ -8298,11 +8298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Long",
-        "unit_code": "25867",
-        "unit_code_name": "an_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.20",
-        "area_km2": 100.05
+        "code": "25867",
+        "name": "An Long",
+        "nameEn": "An Long",
+        "fullName": "Xã An Long",
+        "fullNameEn": "An Long Commune",
+        "codeName": "an_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.20",
+        "areaKm2": 100.05
       }
     }
   ]

@@ -6770,11 +6770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Miếu",
-        "unit_code": "08611",
-        "unit_code_name": "van_mieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1598",
-        "area_km2": 89.11
+        "code": "08611",
+        "name": "Văn Miếu",
+        "nameEn": "Van Mieu",
+        "fullName": "Xã Văn Miếu",
+        "fullNameEn": "Van Mieu Commune",
+        "codeName": "van_mieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1598",
+        "areaKm2": 89.11
       }
     }
   ]

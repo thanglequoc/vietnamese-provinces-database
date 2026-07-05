@@ -9514,11 +9514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Thiết",
-        "unit_code": "02437",
-        "unit_code_name": "kien_thiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2342",
-        "area_km2": 109.48
+        "code": "02437",
+        "name": "Kiến Thiết",
+        "nameEn": "Kien Thiet",
+        "fullName": "Xã Kiến Thiết",
+        "fullNameEn": "Kien Thiet Commune",
+        "codeName": "kien_thiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2342",
+        "areaKm2": 109.48
       }
     }
   ]

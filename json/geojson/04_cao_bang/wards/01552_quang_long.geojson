@@ -9378,11 +9378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Long",
-        "unit_code": "01552",
-        "unit_code_name": "quang_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.997",
-        "area_km2": 130.15
+        "code": "01552",
+        "name": "Quang Long",
+        "nameEn": "Quang Long",
+        "fullName": "Xã Quang Long",
+        "fullNameEn": "Quang Long Commune",
+        "codeName": "quang_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.997",
+        "areaKm2": 130.15
       }
     }
   ]

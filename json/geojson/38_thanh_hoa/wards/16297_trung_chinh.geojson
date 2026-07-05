@@ -6106,11 +6106,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Chính",
-        "unit_code": "16297",
-        "unit_code_name": "trung_chinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2589",
-        "area_km2": 44.09
+        "code": "16297",
+        "name": "Trung Chính",
+        "nameEn": "Trung Chinh",
+        "fullName": "Xã Trung Chính",
+        "fullNameEn": "Trung Chinh Commune",
+        "codeName": "trung_chinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2589",
+        "areaKm2": 44.09
       }
     }
   ]

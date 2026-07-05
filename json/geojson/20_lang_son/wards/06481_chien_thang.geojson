@@ -11286,11 +11286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiến Thắng",
-        "unit_code": "06481",
-        "unit_code_name": "chien_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1801",
-        "area_km2": 114.27
+        "code": "06481",
+        "name": "Chiến Thắng",
+        "nameEn": "Chien Thang",
+        "fullName": "Xã Chiến Thắng",
+        "fullNameEn": "Chien Thang Commune",
+        "codeName": "chien_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1801",
+        "areaKm2": 114.27
       }
     }
   ]

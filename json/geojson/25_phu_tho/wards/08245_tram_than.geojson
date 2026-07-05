@@ -7510,11 +7510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trạm Thản",
-        "unit_code": "08245",
-        "unit_code_name": "tram_than",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1604",
-        "area_km2": 32.6
+        "code": "08245",
+        "name": "Trạm Thản",
+        "nameEn": "Tram Than",
+        "fullName": "Xã Trạm Thản",
+        "fullNameEn": "Tram Than Commune",
+        "codeName": "tram_than",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1604",
+        "areaKm2": 32.6
       }
     }
   ]

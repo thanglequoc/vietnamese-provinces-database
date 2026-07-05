@@ -26406,11 +26406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Hoà",
-        "unit_code": "24620",
-        "unit_code_name": "quang_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2821",
-        "area_km2": 85.44
+        "code": "24620",
+        "name": "Quảng Hoà",
+        "nameEn": "Quang Hoa",
+        "fullName": "Xã Quảng Hoà",
+        "fullNameEn": "Quang Hoa Commune",
+        "codeName": "quang_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2821",
+        "areaKm2": 85.44
       }
     }
   ]

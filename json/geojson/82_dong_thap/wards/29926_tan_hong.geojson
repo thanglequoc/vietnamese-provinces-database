@@ -6942,11 +6942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hồng",
-        "unit_code": "29926",
-        "unit_code_name": "tan_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.405",
-        "area_km2": 102.8
+        "code": "29926",
+        "name": "Tân Hồng",
+        "nameEn": "Tan Hong",
+        "fullName": "Xã Tân Hồng",
+        "fullNameEn": "Tan Hong Commune",
+        "codeName": "tan_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.405",
+        "areaKm2": 102.8
       }
     }
   ]

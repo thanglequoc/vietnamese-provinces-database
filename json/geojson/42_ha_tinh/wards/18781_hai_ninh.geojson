@@ -5150,11 +5150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Ninh",
-        "unit_code": "18781",
-        "unit_code_name": "hai_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2027",
-        "area_km2": 39.37
+        "code": "18781",
+        "name": "Hải Ninh",
+        "nameEn": "Hai Ninh",
+        "fullName": "Phường Hải Ninh",
+        "fullNameEn": "Hai Ninh Ward",
+        "codeName": "hai_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2027",
+        "areaKm2": 39.37
       }
     }
   ]

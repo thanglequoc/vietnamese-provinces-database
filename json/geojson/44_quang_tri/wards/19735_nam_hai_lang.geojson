@@ -12458,11 +12458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Hải Lăng",
-        "unit_code": "19735",
-        "unit_code_name": "nam_hai_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.580",
-        "area_km2": 114.84
+        "code": "19735",
+        "name": "Nam Hải Lăng",
+        "nameEn": "Nam Hai Lang",
+        "fullName": "Xã Nam Hải Lăng",
+        "fullNameEn": "Nam Hai Lang Commune",
+        "codeName": "nam_hai_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.580",
+        "areaKm2": 114.84
       }
     }
   ]

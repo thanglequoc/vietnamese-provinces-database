@@ -6970,11 +6970,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giao Long",
-        "unit_code": "28807",
-        "unit_code_name": "giao_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2440",
-        "area_km2": 42.45
+        "code": "28807",
+        "name": "Giao Long",
+        "nameEn": "Giao Long",
+        "fullName": "Xã Giao Long",
+        "fullNameEn": "Giao Long Commune",
+        "codeName": "giao_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2440",
+        "areaKm2": 42.45
       }
     }
   ]

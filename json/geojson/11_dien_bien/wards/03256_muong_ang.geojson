@@ -6670,11 +6670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Ảng",
-        "unit_code": "03256",
-        "unit_code_name": "muong_ang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2254",
-        "area_km2": 85.94
+        "code": "03256",
+        "name": "Mường Ảng",
+        "nameEn": "Muong Ang",
+        "fullName": "Xã Mường Ảng",
+        "fullNameEn": "Muong Ang Commune",
+        "codeName": "muong_ang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2254",
+        "areaKm2": 85.94
       }
     }
   ]

@@ -2298,11 +2298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Hồng",
-        "unit_code": "13987",
-        "unit_code_name": "nam_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.797",
-        "area_km2": 28.81
+        "code": "13987",
+        "name": "Nam Hồng",
+        "nameEn": "Nam Hong",
+        "fullName": "Xã Nam Hồng",
+        "fullNameEn": "Nam Hong Commune",
+        "codeName": "nam_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.797",
+        "areaKm2": 28.81
       }
     }
   ]

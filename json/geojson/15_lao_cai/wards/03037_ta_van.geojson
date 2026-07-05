@@ -15658,11 +15658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tả Van",
-        "unit_code": "03037",
-        "unit_code_name": "ta_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1102",
-        "area_km2": 158.5
+        "code": "03037",
+        "name": "Tả Van",
+        "nameEn": "Ta Van",
+        "fullName": "Xã Tả Van",
+        "fullNameEn": "Ta Van Commune",
+        "codeName": "ta_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1102",
+        "areaKm2": 158.5
       }
     }
   ]

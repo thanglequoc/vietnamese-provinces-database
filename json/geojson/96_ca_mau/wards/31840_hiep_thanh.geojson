@@ -16818,11 +16818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Thành",
-        "unit_code": "31840",
-        "unit_code_name": "hiep_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.141",
-        "area_km2": 29.05
+        "code": "31840",
+        "name": "Hiệp Thành",
+        "nameEn": "Hiep Thanh",
+        "fullName": "Phường Hiệp Thành",
+        "fullNameEn": "Hiep Thanh Ward",
+        "codeName": "hiep_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.141",
+        "areaKm2": 29.05
       }
     }
   ]

@@ -8434,11 +8434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thịnh",
-        "unit_code": "02044",
-        "unit_code_name": "yen_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1181",
-        "area_km2": 165.8
+        "code": "02044",
+        "name": "Yên Thịnh",
+        "nameEn": "Yen Thinh",
+        "fullName": "Xã Yên Thịnh",
+        "fullNameEn": "Yen Thinh Commune",
+        "codeName": "yen_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1181",
+        "areaKm2": 165.8
       }
     }
   ]

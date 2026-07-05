@@ -8686,11 +8686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quốc Việt",
-        "unit_code": "06058",
-        "unit_code_name": "quoc_viet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1828",
-        "area_km2": 117.97
+        "code": "06058",
+        "name": "Quốc Việt",
+        "nameEn": "Quoc Viet",
+        "fullName": "Xã Quốc Việt",
+        "fullNameEn": "Quoc Viet Commune",
+        "codeName": "quoc_viet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1828",
+        "areaKm2": 117.97
       }
     }
   ]

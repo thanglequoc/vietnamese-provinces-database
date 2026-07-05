@@ -2122,11 +2122,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Nam",
-        "unit_code": "13366",
-        "unit_code_name": "ha_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2789",
-        "area_km2": 29.98
+        "code": "13366",
+        "name": "Hà Nam",
+        "nameEn": "Ha Nam",
+        "fullName": "Phường Hà Nam",
+        "fullNameEn": "Ha Nam Ward",
+        "codeName": "ha_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2789",
+        "areaKm2": 29.98
       }
     }
   ]

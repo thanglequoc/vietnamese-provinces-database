@@ -4850,11 +4850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chánh Hiệp",
-        "unit_code": "25771",
-        "unit_code_name": "chanh_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3",
-        "area_km2": 19.89
+        "code": "25771",
+        "name": "Chánh Hiệp",
+        "nameEn": "Chanh Hiep",
+        "fullName": "Phường Chánh Hiệp",
+        "fullNameEn": "Chanh Hiep Ward",
+        "codeName": "chanh_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3",
+        "areaKm2": 19.89
       }
     }
   ]

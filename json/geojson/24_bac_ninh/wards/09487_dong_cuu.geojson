@@ -3054,11 +3054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Cứu",
-        "unit_code": "09487",
-        "unit_code_name": "dong_cuu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2133",
-        "area_km2": 20.39
+        "code": "09487",
+        "name": "Đông Cứu",
+        "nameEn": "Dong Cuu",
+        "fullName": "Xã Đông Cứu",
+        "fullNameEn": "Dong Cuu Commune",
+        "codeName": "dong_cuu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2133",
+        "areaKm2": 20.39
       }
     }
   ]

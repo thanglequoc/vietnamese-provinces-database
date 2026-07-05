@@ -23142,11 +23142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Ngũ",
-        "unit_code": "06877",
-        "unit_code_name": "dong_ngu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1893",
-        "area_km2": 142.8
+        "code": "06877",
+        "name": "Đông Ngũ",
+        "nameEn": "Dong Ngu",
+        "fullName": "Xã Đông Ngũ",
+        "fullNameEn": "Dong Ngu Commune",
+        "codeName": "dong_ngu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1893",
+        "areaKm2": 142.8
       }
     }
   ]

@@ -9310,11 +9310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sáng Nhè",
-        "unit_code": "03244",
-        "unit_code_name": "sang_nhe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2252",
-        "area_km2": 186.87
+        "code": "03244",
+        "name": "Sáng Nhè",
+        "nameEn": "Sang Nhe",
+        "fullName": "Xã Sáng Nhè",
+        "fullNameEn": "Sang Nhe Commune",
+        "codeName": "sang_nhe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2252",
+        "areaKm2": 186.87
       }
     }
   ]

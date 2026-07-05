@@ -10378,11 +10378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bằng Lang",
-        "unit_code": "01246",
-        "unit_code_name": "bang_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2421",
-        "area_km2": 115.66
+        "code": "01246",
+        "name": "Bằng Lang",
+        "nameEn": "Bang Lang",
+        "fullName": "Xã Bằng Lang",
+        "fullNameEn": "Bang Lang Commune",
+        "codeName": "bang_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2421",
+        "areaKm2": 115.66
       }
     }
   ]

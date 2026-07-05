@@ -3502,11 +3502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Đình",
-        "unit_code": "10354",
-        "unit_code_name": "van_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3213",
-        "area_km2": 41.6
+        "code": "10354",
+        "name": "Vân Đình",
+        "nameEn": "Van Dinh",
+        "fullName": "Xã Vân Đình",
+        "fullNameEn": "Van Dinh Commune",
+        "codeName": "van_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3213",
+        "areaKm2": 41.6
       }
     }
   ]

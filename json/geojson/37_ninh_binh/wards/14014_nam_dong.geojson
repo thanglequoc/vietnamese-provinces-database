@@ -3030,11 +3030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đồng",
-        "unit_code": "14014",
-        "unit_code_name": "nam_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.788",
-        "area_km2": 23.42
+        "code": "14014",
+        "name": "Nam Đồng",
+        "nameEn": "Nam Dong",
+        "fullName": "Xã Nam Đồng",
+        "fullNameEn": "Nam Dong Commune",
+        "codeName": "nam_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.788",
+        "areaKm2": 23.42
       }
     }
   ]

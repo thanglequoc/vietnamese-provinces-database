@@ -3474,11 +3474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Chỉ",
-        "unit_code": "25729",
-        "unit_code_name": "phuoc_chi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2725",
-        "area_km2": 82.84
+        "code": "25729",
+        "name": "Phước Chỉ",
+        "nameEn": "Phuoc Chi",
+        "fullName": "Xã Phước Chỉ",
+        "fullNameEn": "Phuoc Chi Commune",
+        "codeName": "phuoc_chi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2725",
+        "areaKm2": 82.84
       }
     }
   ]

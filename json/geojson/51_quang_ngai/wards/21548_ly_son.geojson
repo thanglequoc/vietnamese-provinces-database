@@ -1130,11 +1130,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Sơn",
-        "unit_code": "21548",
-        "unit_code_name": "ly_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3290",
-        "area_km2": 10.4
+        "code": "21548",
+        "name": "Lý Sơn",
+        "nameEn": "Ly Son",
+        "fullName": "Đặc khu Lý Sơn",
+        "fullNameEn": "Ly Son Special administrative region",
+        "codeName": "ly_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3290",
+        "areaKm2": 10.4
       }
     }
   ]

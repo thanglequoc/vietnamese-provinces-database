@@ -6386,11 +6386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Hoa",
-        "unit_code": "18814",
-        "unit_code_name": "ky_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2015",
-        "area_km2": 73.28
+        "code": "18814",
+        "name": "Kỳ Hoa",
+        "nameEn": "Ky Hoa",
+        "fullName": "Xã Kỳ Hoa",
+        "fullNameEn": "Ky Hoa Commune",
+        "codeName": "ky_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2015",
+        "areaKm2": 73.28
       }
     }
   ]

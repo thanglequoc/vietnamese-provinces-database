@@ -2490,11 +2490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Thạnh",
-        "unit_code": "26929",
-        "unit_code_name": "binh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.61",
-        "area_km2": 3.32
+        "code": "26929",
+        "name": "Bình Thạnh",
+        "nameEn": "Binh Thanh",
+        "fullName": "Phường Bình Thạnh",
+        "fullNameEn": "Binh Thanh Ward",
+        "codeName": "binh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.61",
+        "areaKm2": 3.32
       }
     }
   ]

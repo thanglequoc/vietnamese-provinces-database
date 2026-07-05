@@ -3042,11 +3042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Nhựt",
-        "unit_code": "27595",
-        "unit_code_name": "tan_nhut",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.125",
-        "area_km2": 43.67
+        "code": "27595",
+        "name": "Tân Nhựt",
+        "nameEn": "Tan Nhut",
+        "fullName": "Xã Tân Nhựt",
+        "fullNameEn": "Tan Nhut Commune",
+        "codeName": "tan_nhut",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.125",
+        "areaKm2": 43.67
       }
     }
   ]

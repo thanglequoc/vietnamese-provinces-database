@@ -38594,11 +38594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đầm Hà",
-        "unit_code": "06895",
-        "unit_code_name": "dam_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1889",
-        "area_km2": 142.43
+        "code": "06895",
+        "name": "Đầm Hà",
+        "nameEn": "Dam Ha",
+        "fullName": "Xã Đầm Hà",
+        "fullNameEn": "Dam Ha Commune",
+        "codeName": "dam_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1889",
+        "areaKm2": 142.43
       }
     }
   ]

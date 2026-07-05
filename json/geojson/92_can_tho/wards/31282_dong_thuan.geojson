@@ -6666,11 +6666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thuận",
-        "unit_code": "31282",
-        "unit_code_name": "dong_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.228",
-        "area_km2": 60.89
+        "code": "31282",
+        "name": "Đông Thuận",
+        "nameEn": "Dong Thuan",
+        "fullName": "Xã Đông Thuận",
+        "fullNameEn": "Dong Thuan Commune",
+        "codeName": "dong_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.228",
+        "areaKm2": 60.89
       }
     }
   ]

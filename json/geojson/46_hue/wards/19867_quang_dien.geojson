@@ -7694,11 +7694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Điền",
-        "unit_code": "19867",
-        "unit_code_name": "quang_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1699",
-        "area_km2": 45.93
+        "code": "19867",
+        "name": "Quảng Điền",
+        "nameEn": "Quang Dien",
+        "fullName": "Xã Quảng Điền",
+        "fullNameEn": "Quang Dien Commune",
+        "codeName": "quang_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1699",
+        "areaKm2": 45.93
       }
     }
   ]

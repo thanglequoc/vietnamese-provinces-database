@@ -11438,11 +11438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Hoà Đông",
-        "unit_code": "27541",
-        "unit_code_name": "phu_hoa_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.116",
-        "area_km2": 59.75
+        "code": "27541",
+        "name": "Phú Hoà Đông",
+        "nameEn": "Phu Hoa Dong",
+        "fullName": "Xã Phú Hoà Đông",
+        "fullNameEn": "Phu Hoa Dong Commune",
+        "codeName": "phu_hoa_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.116",
+        "areaKm2": 59.75
       }
     }
   ]

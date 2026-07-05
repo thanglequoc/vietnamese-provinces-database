@@ -6182,11 +6182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Tường",
-        "unit_code": "02512",
-        "unit_code_name": "an_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2350",
-        "area_km2": 53.44
+        "code": "02512",
+        "name": "An Tường",
+        "nameEn": "An Tuong",
+        "fullName": "Phường An Tường",
+        "fullNameEn": "An Tuong Ward",
+        "codeName": "an_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2350",
+        "areaKm2": 53.44
       }
     }
   ]

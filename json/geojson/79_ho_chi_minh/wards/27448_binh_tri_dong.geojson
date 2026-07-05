@@ -1026,11 +1026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Trị Đông",
-        "unit_code": "27448",
-        "unit_code_name": "binh_tri_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.106",
-        "area_km2": 7.15
+        "code": "27448",
+        "name": "Bình Trị Đông",
+        "nameEn": "Binh Tri Dong",
+        "fullName": "Phường Bình Trị Đông",
+        "fullNameEn": "Binh Tri Dong Ward",
+        "codeName": "binh_tri_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.106",
+        "areaKm2": 7.15
       }
     }
   ]

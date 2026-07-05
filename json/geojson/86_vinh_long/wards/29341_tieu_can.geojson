@@ -3330,11 +3330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiểu Cần",
-        "unit_code": "29341",
-        "unit_code_name": "tieu_can",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2495",
-        "area_km2": 49.73
+        "code": "29341",
+        "name": "Tiểu Cần",
+        "nameEn": "Tieu Can",
+        "fullName": "Xã Tiểu Cần",
+        "fullNameEn": "Tieu Can Commune",
+        "codeName": "tieu_can",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2495",
+        "areaKm2": 49.73
       }
     }
   ]

@@ -10206,11 +10206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Buôn Ma Thuột",
-        "unit_code": "24133",
-        "unit_code_name": "buon_ma_thuot",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2823",
-        "area_km2": 71.99
+        "code": "24133",
+        "name": "Buôn Ma Thuột",
+        "nameEn": "Buon Ma Thuot",
+        "fullName": "Phường Buôn Ma Thuột",
+        "fullNameEn": "Buon Ma Thuot Ward",
+        "codeName": "buon_ma_thuot",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2823",
+        "areaKm2": 71.99
       }
     }
   ]

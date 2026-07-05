@@ -522,11 +522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hội",
-        "unit_code": "27265",
-        "unit_code_name": "khanh_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.93",
-        "area_km2": 1.07
+        "code": "27265",
+        "name": "Khánh Hội",
+        "nameEn": "Khanh Hoi",
+        "fullName": "Phường Khánh Hội",
+        "fullNameEn": "Khanh Hoi Ward",
+        "codeName": "khanh_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.93",
+        "areaKm2": 1.07
       }
     }
   ]

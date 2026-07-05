@@ -8866,11 +8866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Lương",
-        "unit_code": "08344",
-        "unit_code_name": "tien_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1551",
-        "area_km2": 54.55
+        "code": "08344",
+        "name": "Tiên Lương",
+        "nameEn": "Tien Luong",
+        "fullName": "Xã Tiên Lương",
+        "fullNameEn": "Tien Luong Commune",
+        "codeName": "tien_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1551",
+        "areaKm2": 54.55
       }
     }
   ]

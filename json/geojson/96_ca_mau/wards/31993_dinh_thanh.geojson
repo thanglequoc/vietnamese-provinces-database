@@ -5962,11 +5962,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Định Thành",
-        "unit_code": "31993",
-        "unit_code_name": "dinh_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.163",
-        "area_km2": 31.58
+        "code": "31993",
+        "name": "Định Thành",
+        "nameEn": "Dinh Thanh",
+        "fullName": "Xã Định Thành",
+        "fullNameEn": "Dinh Thanh Commune",
+        "codeName": "dinh_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.163",
+        "areaKm2": 31.58
       }
     }
   ]

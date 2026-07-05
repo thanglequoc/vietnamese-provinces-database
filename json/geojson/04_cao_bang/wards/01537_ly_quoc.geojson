@@ -7878,11 +7878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Quốc",
-        "unit_code": "01537",
-        "unit_code_name": "ly_quoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.998",
-        "area_km2": 102.18
+        "code": "01537",
+        "name": "Lý Quốc",
+        "nameEn": "Ly Quoc",
+        "fullName": "Xã Lý Quốc",
+        "fullNameEn": "Ly Quoc Commune",
+        "codeName": "ly_quoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.998",
+        "areaKm2": 102.18
       }
     }
   ]

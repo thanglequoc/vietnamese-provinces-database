@@ -4814,11 +4814,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Dân",
-        "unit_code": "16594",
-        "unit_code_name": "tan_dan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2604",
-        "area_km2": 24.59
+        "code": "16594",
+        "name": "Tân Dân",
+        "nameEn": "Tan Dan",
+        "fullName": "Phường Tân Dân",
+        "fullNameEn": "Tan Dan Ward",
+        "codeName": "tan_dan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2604",
+        "areaKm2": 24.59
       }
     }
   ]

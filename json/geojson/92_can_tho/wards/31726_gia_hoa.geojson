@@ -7342,11 +7342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Hoà",
-        "unit_code": "31726",
-        "unit_code_name": "gia_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.293",
-        "area_km2": 77.06
+        "code": "31726",
+        "name": "Gia Hoà",
+        "nameEn": "Gia Hoa",
+        "fullName": "Xã Gia Hoà",
+        "fullNameEn": "Gia Hoa Commune",
+        "codeName": "gia_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.293",
+        "areaKm2": 77.06
       }
     }
   ]

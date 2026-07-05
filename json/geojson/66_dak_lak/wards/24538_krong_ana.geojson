@@ -13214,11 +13214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Ana",
-        "unit_code": "24538",
-        "unit_code_name": "krong_ana",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2827",
-        "area_km2": 107.23
+        "code": "24538",
+        "name": "Krông Ana",
+        "nameEn": "Krong Ana",
+        "fullName": "Xã Krông Ana",
+        "fullNameEn": "Krong Ana Commune",
+        "codeName": "krong_ana",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2827",
+        "areaKm2": 107.23
       }
     }
   ]

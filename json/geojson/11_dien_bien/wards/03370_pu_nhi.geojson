@@ -10706,11 +10706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pu Nhi",
-        "unit_code": "03370",
-        "unit_code_name": "pu_nhi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2269",
-        "area_km2": 181.22
+        "code": "03370",
+        "name": "Pu Nhi",
+        "nameEn": "Pu Nhi",
+        "fullName": "Xã Pu Nhi",
+        "fullNameEn": "Pu Nhi Commune",
+        "codeName": "pu_nhi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2269",
+        "areaKm2": 181.22
       }
     }
   ]

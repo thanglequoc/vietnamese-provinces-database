@@ -3258,11 +3258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Tiến",
-        "unit_code": "15724",
-        "unit_code_name": "dong_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2658",
-        "area_km2": 19.96
+        "code": "15724",
+        "name": "Đồng Tiến",
+        "nameEn": "Dong Tien",
+        "fullName": "Xã Đồng Tiến",
+        "fullNameEn": "Dong Tien Commune",
+        "codeName": "dong_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2658",
+        "areaKm2": 19.96
       }
     }
   ]

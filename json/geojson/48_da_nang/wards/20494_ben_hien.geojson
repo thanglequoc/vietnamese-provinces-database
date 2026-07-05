@@ -9354,11 +9354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Hiên",
-        "unit_code": "20494",
-        "unit_code_name": "ben_hien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1927",
-        "area_km2": 255.85
+        "code": "20494",
+        "name": "Bến Hiên",
+        "nameEn": "Ben Hien",
+        "fullName": "Xã Bến Hiên",
+        "fullNameEn": "Ben Hien Commune",
+        "codeName": "ben_hien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1927",
+        "areaKm2": 255.85
       }
     }
   ]

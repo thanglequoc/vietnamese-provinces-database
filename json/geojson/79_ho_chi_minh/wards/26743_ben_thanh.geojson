@@ -626,11 +626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Thành",
-        "unit_code": "26743",
-        "unit_code_name": "ben_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.39",
-        "area_km2": 1.85
+        "code": "26743",
+        "name": "Bến Thành",
+        "nameEn": "Ben Thanh",
+        "fullName": "Phường Bến Thành",
+        "fullNameEn": "Ben Thanh Ward",
+        "codeName": "ben_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.39",
+        "areaKm2": 1.85
       }
     }
   ]

@@ -8850,11 +8850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Phú",
-        "unit_code": "29623",
-        "unit_code_name": "nhon_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2534",
-        "area_km2": 38.09
+        "code": "29623",
+        "name": "Nhơn Phú",
+        "nameEn": "Nhon Phu",
+        "fullName": "Xã Nhơn Phú",
+        "fullNameEn": "Nhon Phu Commune",
+        "codeName": "nhon_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2534",
+        "areaKm2": 38.09
       }
     }
   ]

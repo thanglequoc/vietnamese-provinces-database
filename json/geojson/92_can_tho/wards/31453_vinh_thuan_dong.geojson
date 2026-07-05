@@ -9566,11 +9566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thuận Đông",
-        "unit_code": "31453",
-        "unit_code_name": "vinh_thuan_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.258",
-        "area_km2": 72.2
+        "code": "31453",
+        "name": "Vĩnh Thuận Đông",
+        "nameEn": "Vinh Thuan Dong",
+        "fullName": "Xã Vĩnh Thuận Đông",
+        "fullNameEn": "Vinh Thuan Dong Commune",
+        "codeName": "vinh_thuan_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.258",
+        "areaKm2": 72.2
       }
     }
   ]

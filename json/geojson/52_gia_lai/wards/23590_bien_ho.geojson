@@ -23014,11 +23014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Biển Hồ",
-        "unit_code": "23590",
-        "unit_code_name": "bien_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3044",
-        "area_km2": 170.44
+        "code": "23590",
+        "name": "Biển Hồ",
+        "nameEn": "Bien Ho",
+        "fullName": "Xã Biển Hồ",
+        "fullNameEn": "Bien Ho Commune",
+        "codeName": "bien_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3044",
+        "areaKm2": 170.44
       }
     }
   ]

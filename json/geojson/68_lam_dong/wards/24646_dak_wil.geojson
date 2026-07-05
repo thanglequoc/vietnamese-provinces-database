@@ -16254,11 +16254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Wil",
-        "unit_code": "24646",
-        "unit_code_name": "dak_wil",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2799",
-        "area_km2": 515.16
+        "code": "24646",
+        "name": "Đắk Wil",
+        "nameEn": "Dak Wil",
+        "fullName": "Xã Đắk Wil",
+        "fullNameEn": "Dak Wil Commune",
+        "codeName": "dak_wil",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2799",
+        "areaKm2": 515.16
       }
     }
   ]

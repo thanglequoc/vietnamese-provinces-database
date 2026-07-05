@@ -13822,11 +13822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Pắc",
-        "unit_code": "24490",
-        "unit_code_name": "krong_pac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2864",
-        "area_km2": 112.52
+        "code": "24490",
+        "name": "Krông Pắc",
+        "nameEn": "Krong Pac",
+        "fullName": "Xã Krông Pắc",
+        "fullNameEn": "Krong Pac Commune",
+        "codeName": "krong_pac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2864",
+        "areaKm2": 112.52
       }
     }
   ]

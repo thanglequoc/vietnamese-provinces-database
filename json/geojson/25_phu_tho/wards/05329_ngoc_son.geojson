@@ -4346,11 +4346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Sơn",
-        "unit_code": "05329",
-        "unit_code_name": "ngoc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1666",
-        "area_km2": 114.63
+        "code": "05329",
+        "name": "Ngọc Sơn",
+        "nameEn": "Ngoc Son",
+        "fullName": "Xã Ngọc Sơn",
+        "fullNameEn": "Ngoc Son Commune",
+        "codeName": "ngoc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1666",
+        "areaKm2": 114.63
       }
     }
   ]

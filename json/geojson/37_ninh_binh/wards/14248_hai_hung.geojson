@@ -4854,11 +4854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Hưng",
-        "unit_code": "14248",
-        "unit_code_name": "hai_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.824",
-        "area_km2": 39.89
+        "code": "14248",
+        "name": "Hải Hưng",
+        "nameEn": "Hai Hung",
+        "fullName": "Xã Hải Hưng",
+        "fullNameEn": "Hai Hung Commune",
+        "codeName": "hai_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.824",
+        "areaKm2": 39.89
       }
     }
   ]

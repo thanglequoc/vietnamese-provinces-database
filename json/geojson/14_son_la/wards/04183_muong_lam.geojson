@@ -12966,11 +12966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Lầm",
-        "unit_code": "04183",
-        "unit_code_name": "muong_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1397",
-        "area_km2": 167.1
+        "code": "04183",
+        "name": "Mường Lầm",
+        "nameEn": "Muong Lam",
+        "fullName": "Xã Mường Lầm",
+        "fullNameEn": "Muong Lam Commune",
+        "codeName": "muong_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1397",
+        "areaKm2": 167.1
       }
     }
   ]

@@ -946,11 +946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Nhuận",
-        "unit_code": "27073",
-        "unit_code_name": "phu_nhuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.78",
-        "area_km2": 1.46
+        "code": "27073",
+        "name": "Phú Nhuận",
+        "nameEn": "Phu Nhuan",
+        "fullName": "Phường Phú Nhuận",
+        "fullNameEn": "Phu Nhuan Ward",
+        "codeName": "phu_nhuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.78",
+        "areaKm2": 1.46
       }
     }
   ]

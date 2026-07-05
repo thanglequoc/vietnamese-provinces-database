@@ -20310,11 +20310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạc Dương",
-        "unit_code": "24848",
-        "unit_code_name": "lac_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.511",
-        "area_km2": 828.01
+        "code": "24848",
+        "name": "Lạc Dương",
+        "nameEn": "Lac Duong",
+        "fullName": "Xã Lạc Dương",
+        "fullNameEn": "Lac Duong Commune",
+        "codeName": "lac_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.511",
+        "areaKm2": 828.01
       }
     }
   ]

@@ -1374,11 +1374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Tế",
-        "unit_code": "30325",
-        "unit_code_name": "vinh_te",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.310",
-        "area_km2": 64.25
+        "code": "30325",
+        "name": "Vĩnh Tế",
+        "nameEn": "Vinh Te",
+        "fullName": "Phường Vĩnh Tế",
+        "fullNameEn": "Vinh Te Ward",
+        "codeName": "vinh_te",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.310",
+        "areaKm2": 64.25
       }
     }
   ]

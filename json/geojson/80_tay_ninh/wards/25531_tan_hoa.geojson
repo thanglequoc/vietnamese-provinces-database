@@ -9774,11 +9774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hoà",
-        "unit_code": "25531",
-        "unit_code_name": "tan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2757",
-        "area_km2": 416.82
+        "code": "25531",
+        "name": "Tân Hoà",
+        "nameEn": "Tan Hoa",
+        "fullName": "Xã Tân Hoà",
+        "fullNameEn": "Tan Hoa Commune",
+        "codeName": "tan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2757",
+        "areaKm2": 416.82
       }
     }
   ]

@@ -7914,11 +7914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Yên",
-        "unit_code": "07777",
-        "unit_code_name": "viet_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2151",
-        "area_km2": 51.97
+        "code": "07777",
+        "name": "Việt Yên",
+        "nameEn": "Viet Yen",
+        "fullName": "Phường Việt Yên",
+        "fullNameEn": "Viet Yen Ward",
+        "codeName": "viet_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2151",
+        "areaKm2": 51.97
       }
     }
   ]

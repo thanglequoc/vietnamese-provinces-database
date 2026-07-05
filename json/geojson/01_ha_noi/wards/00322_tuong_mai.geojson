@@ -1882,11 +1882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tương Mai",
-        "unit_code": "00322",
-        "unit_code_name": "tuong_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3173",
-        "area_km2": 3.56
+        "code": "00322",
+        "name": "Tương Mai",
+        "nameEn": "Tuong Mai",
+        "fullName": "Phường Tương Mai",
+        "fullNameEn": "Tuong Mai Ward",
+        "codeName": "tuong_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3173",
+        "areaKm2": 3.56
       }
     }
   ]

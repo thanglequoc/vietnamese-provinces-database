@@ -29686,11 +29686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Giáo",
-        "unit_code": "25858",
-        "unit_code_name": "phu_giao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.18",
-        "area_km2": 192.83
+        "code": "25858",
+        "name": "Phú Giáo",
+        "nameEn": "Phu Giao",
+        "fullName": "Xã Phú Giáo",
+        "fullNameEn": "Phu Giao Commune",
+        "codeName": "phu_giao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.18",
+        "areaKm2": 192.83
       }
     }
   ]

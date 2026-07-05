@@ -13466,11 +13466,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Riêng",
-        "unit_code": "24433",
-        "unit_code_name": "ea_rieng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2855",
-        "area_km2": 167.56
+        "code": "24433",
+        "name": "Ea Riêng",
+        "nameEn": "Ea Rieng",
+        "fullName": "Xã Ea Riêng",
+        "fullNameEn": "Ea Rieng Commune",
+        "codeName": "ea_rieng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2855",
+        "areaKm2": 167.56
       }
     }
   ]

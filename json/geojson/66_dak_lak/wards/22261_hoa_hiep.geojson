@@ -2818,11 +2818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Hiệp",
-        "unit_code": "22261",
-        "unit_code_name": "hoa_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2918",
-        "area_km2": 40.81
+        "code": "22261",
+        "name": "Hoà Hiệp",
+        "nameEn": "Hoa Hiep",
+        "fullName": "Phường Hoà Hiệp",
+        "fullNameEn": "Hoa Hiep Ward",
+        "codeName": "hoa_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2918",
+        "areaKm2": 40.81
       }
     }
   ]

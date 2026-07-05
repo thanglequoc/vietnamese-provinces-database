@@ -15710,11 +15710,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mẫu Sơn",
-        "unit_code": "06541",
-        "unit_code_name": "mau_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1847",
-        "area_km2": 136.04
+        "code": "06541",
+        "name": "Mẫu Sơn",
+        "nameEn": "Mau Son",
+        "fullName": "Xã Mẫu Sơn",
+        "fullNameEn": "Mau Son Commune",
+        "codeName": "mau_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1847",
+        "areaKm2": 136.04
       }
     }
   ]

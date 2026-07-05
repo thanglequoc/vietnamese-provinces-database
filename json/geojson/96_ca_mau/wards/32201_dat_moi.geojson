@@ -12410,11 +12410,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đất Mới",
-        "unit_code": "32201",
-        "unit_code_name": "dat_moi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.193",
-        "area_km2": 222.94
+        "code": "32201",
+        "name": "Đất Mới",
+        "nameEn": "Dat Moi",
+        "fullName": "Xã Đất Mới",
+        "fullNameEn": "Dat Moi Commune",
+        "codeName": "dat_moi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.193",
+        "areaKm2": 222.94
       }
     }
   ]

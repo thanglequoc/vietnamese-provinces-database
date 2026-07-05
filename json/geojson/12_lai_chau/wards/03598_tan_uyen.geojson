@@ -14266,11 +14266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Uyên",
-        "unit_code": "03598",
-        "unit_code_name": "tan_uyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2092",
-        "area_km2": 296.25
+        "code": "03598",
+        "name": "Tân Uyên",
+        "nameEn": "Tan Uyen",
+        "fullName": "Xã Tân Uyên",
+        "fullNameEn": "Tan Uyen Commune",
+        "codeName": "tan_uyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2092",
+        "areaKm2": 296.25
       }
     }
   ]

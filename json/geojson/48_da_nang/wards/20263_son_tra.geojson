@@ -10386,11 +10386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Trà",
-        "unit_code": "20263",
-        "unit_code_name": "son_tra",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1910",
-        "area_km2": 56.03
+        "code": "20263",
+        "name": "Sơn Trà",
+        "nameEn": "Son Tra",
+        "fullName": "Phường Sơn Trà",
+        "fullNameEn": "Son Tra Ward",
+        "codeName": "son_tra",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1910",
+        "areaKm2": 56.03
       }
     }
   ]

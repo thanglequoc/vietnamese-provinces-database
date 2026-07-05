@@ -12470,11 +12470,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Hoà",
-        "unit_code": "22177",
-        "unit_code_name": "van_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2909",
-        "area_km2": 151.47
+        "code": "22177",
+        "name": "Vân Hoà",
+        "nameEn": "Van Hoa",
+        "fullName": "Xã Vân Hoà",
+        "fullNameEn": "Van Hoa Commune",
+        "codeName": "van_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2909",
+        "areaKm2": 151.47
       }
     }
   ]

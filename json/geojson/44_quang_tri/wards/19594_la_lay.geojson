@@ -12998,11 +12998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Lay",
-        "unit_code": "19594",
-        "unit_code_name": "la_lay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.565",
-        "area_km2": 156.21
+        "code": "19594",
+        "name": "La Lay",
+        "nameEn": "La Lay",
+        "fullName": "Xã La Lay",
+        "fullNameEn": "La Lay Commune",
+        "codeName": "la_lay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.565",
+        "areaKm2": 156.21
       }
     }
   ]

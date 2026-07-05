@@ -12250,11 +12250,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Hoà",
-        "unit_code": "22255",
-        "unit_code_name": "tay_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2916",
-        "area_km2": 55.14
+        "code": "22255",
+        "name": "Tây Hoà",
+        "nameEn": "Tay Hoa",
+        "fullName": "Xã Tây Hoà",
+        "fullNameEn": "Tay Hoa Commune",
+        "codeName": "tay_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2916",
+        "areaKm2": 55.14
       }
     }
   ]

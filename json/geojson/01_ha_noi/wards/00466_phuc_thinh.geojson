@@ -6098,11 +6098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Thịnh",
-        "unit_code": "00466",
-        "unit_code_name": "phuc_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3247",
-        "area_km2": 42.63
+        "code": "00466",
+        "name": "Phúc Thịnh",
+        "nameEn": "Phuc Thinh",
+        "fullName": "Xã Phúc Thịnh",
+        "fullNameEn": "Phuc Thinh Commune",
+        "codeName": "phuc_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3247",
+        "areaKm2": 42.63
       }
     }
   ]

@@ -7966,11 +7966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Thịnh",
-        "unit_code": "26281",
-        "unit_code_name": "hung_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3124",
-        "area_km2": 57.6
+        "code": "26281",
+        "name": "Hưng Thịnh",
+        "nameEn": "Hung Thinh",
+        "fullName": "Xã Hưng Thịnh",
+        "fullNameEn": "Hung Thinh Commune",
+        "codeName": "hung_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3124",
+        "areaKm2": 57.6
       }
     }
   ]

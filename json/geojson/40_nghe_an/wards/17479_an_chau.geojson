@@ -4170,11 +4170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Châu",
-        "unit_code": "17479",
-        "unit_code_name": "an_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1447",
-        "area_km2": 34.87
+        "code": "17479",
+        "name": "An Châu",
+        "nameEn": "An Chau",
+        "fullName": "Xã An Châu",
+        "fullNameEn": "An Chau Commune",
+        "codeName": "an_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1447",
+        "areaKm2": 34.87
       }
     }
   ]

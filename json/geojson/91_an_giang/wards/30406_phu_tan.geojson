@@ -2694,11 +2694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Tân",
-        "unit_code": "30406",
-        "unit_code_name": "phu_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.325",
-        "area_km2": 41.88
+        "code": "30406",
+        "name": "Phú Tân",
+        "nameEn": "Phu Tan",
+        "fullName": "Xã Phú Tân",
+        "fullNameEn": "Phu Tan Commune",
+        "codeName": "phu_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.325",
+        "areaKm2": 41.88
       }
     }
   ]

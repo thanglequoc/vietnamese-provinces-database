@@ -14726,11 +14726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Phong",
-        "unit_code": "19624",
-        "unit_code_name": "trieu_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.590",
-        "area_km2": 80.79
+        "code": "19624",
+        "name": "Triệu Phong",
+        "nameEn": "Trieu Phong",
+        "fullName": "Xã Triệu Phong",
+        "fullNameEn": "Trieu Phong Commune",
+        "codeName": "trieu_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.590",
+        "areaKm2": 80.79
       }
     }
   ]

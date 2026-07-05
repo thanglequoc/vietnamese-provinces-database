@@ -8618,11 +8618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Nhum",
-        "unit_code": "29641",
-        "unit_code_name": "cai_nhum",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2533",
-        "area_km2": 52.45
+        "code": "29641",
+        "name": "Cái Nhum",
+        "nameEn": "Cai Nhum",
+        "fullName": "Xã Cái Nhum",
+        "fullNameEn": "Cai Nhum Commune",
+        "codeName": "cai_nhum",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2533",
+        "areaKm2": 52.45
       }
     }
   ]

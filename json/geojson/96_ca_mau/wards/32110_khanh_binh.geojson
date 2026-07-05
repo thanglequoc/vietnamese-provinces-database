@@ -7242,11 +7242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Bình",
-        "unit_code": "32110",
-        "unit_code_name": "khanh_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.179",
-        "area_km2": 104.5
+        "code": "32110",
+        "name": "Khánh Bình",
+        "nameEn": "Khanh Binh",
+        "fullName": "Xã Khánh Bình",
+        "fullNameEn": "Khanh Binh Commune",
+        "codeName": "khanh_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.179",
+        "areaKm2": 104.5
       }
     }
   ]

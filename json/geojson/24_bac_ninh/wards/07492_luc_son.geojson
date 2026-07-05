@@ -13078,11 +13078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Sơn",
-        "unit_code": "07492",
-        "unit_code_name": "luc_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2100",
-        "area_km2": 125.98
+        "code": "07492",
+        "name": "Lục Sơn",
+        "nameEn": "Luc Son",
+        "fullName": "Xã Lục Sơn",
+        "fullNameEn": "Luc Son Commune",
+        "codeName": "luc_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2100",
+        "areaKm2": 125.98
       }
     }
   ]

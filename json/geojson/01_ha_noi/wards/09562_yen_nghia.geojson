@@ -1986,11 +1986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Nghĩa",
-        "unit_code": "09562",
-        "unit_code_name": "yen_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3180",
-        "area_km2": 13.18
+        "code": "09562",
+        "name": "Yên Nghĩa",
+        "nameEn": "Yen Nghia",
+        "fullName": "Phường Yên Nghĩa",
+        "fullNameEn": "Yen Nghia Ward",
+        "codeName": "yen_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3180",
+        "areaKm2": 13.18
       }
     }
   ]

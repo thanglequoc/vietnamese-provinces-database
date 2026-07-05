@@ -3478,11 +3478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thuỷ Nguyên",
-        "unit_code": "11560",
-        "unit_code_name": "thuy_nguyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.926",
-        "area_km2": 45.34
+        "code": "11560",
+        "name": "Thuỷ Nguyên",
+        "nameEn": "Thuy Nguyen",
+        "fullName": "Phường Thuỷ Nguyên",
+        "fullNameEn": "Thuy Nguyen Ward",
+        "codeName": "thuy_nguyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.926",
+        "areaKm2": 45.34
       }
     }
   ]

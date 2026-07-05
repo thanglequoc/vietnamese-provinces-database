@@ -6402,11 +6402,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Sanh",
-        "unit_code": "19681",
-        "unit_code_name": "dien_sanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.581",
-        "area_km2": 87.97
+        "code": "19681",
+        "name": "Diên Sanh",
+        "nameEn": "Dien Sanh",
+        "fullName": "Xã Diên Sanh",
+        "fullNameEn": "Dien Sanh Commune",
+        "codeName": "dien_sanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.581",
+        "areaKm2": 87.97
       }
     }
   ]

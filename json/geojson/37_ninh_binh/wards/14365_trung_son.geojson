@@ -5206,11 +5206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Sơn",
-        "unit_code": "14365",
-        "unit_code_name": "trung_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.760",
-        "area_km2": 38.15
+        "code": "14365",
+        "name": "Trung Sơn",
+        "nameEn": "Trung Son",
+        "fullName": "Phường Trung Sơn",
+        "fullNameEn": "Trung Son Ward",
+        "codeName": "trung_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.760",
+        "areaKm2": 38.15
       }
     }
   ]

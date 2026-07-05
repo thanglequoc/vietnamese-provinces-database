@@ -9650,11 +9650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Trang",
-        "unit_code": "24445",
-        "unit_code_name": "ea_trang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2858",
-        "area_km2": 207.4
+        "code": "24445",
+        "name": "Ea Trang",
+        "nameEn": "Ea Trang",
+        "fullName": "Xã Ea Trang",
+        "fullNameEn": "Ea Trang Commune",
+        "codeName": "ea_trang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2858",
+        "areaKm2": 207.4
       }
     }
   ]

@@ -5290,11 +5290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kỳ Anh",
-        "unit_code": "18775",
-        "unit_code_name": "ky_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2026",
-        "area_km2": 64.74
+        "code": "18775",
+        "name": "Kỳ Anh",
+        "nameEn": "Ky Anh",
+        "fullName": "Xã Kỳ Anh",
+        "fullNameEn": "Ky Anh Commune",
+        "codeName": "ky_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2026",
+        "areaKm2": 64.74
       }
     }
   ]

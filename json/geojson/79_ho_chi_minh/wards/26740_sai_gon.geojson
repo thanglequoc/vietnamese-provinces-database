@@ -2090,11 +2090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sài Gòn",
-        "unit_code": "26740",
-        "unit_code_name": "sai_gon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.38",
-        "area_km2": 3.04
+        "code": "26740",
+        "name": "Sài Gòn",
+        "nameEn": "Sai Gon",
+        "fullName": "Phường Sài Gòn",
+        "fullNameEn": "Sai Gon Ward",
+        "codeName": "sai_gon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.38",
+        "areaKm2": 3.04
       }
     }
   ]

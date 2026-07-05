@@ -22098,11 +22098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Linh",
-        "unit_code": "23191",
-        "unit_code_name": "duc_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3090",
-        "area_km2": 103.27
+        "code": "23191",
+        "name": "Đức Linh",
+        "nameEn": "Duc Linh",
+        "fullName": "Xã Đức Linh",
+        "fullNameEn": "Duc Linh Commune",
+        "codeName": "duc_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3090",
+        "areaKm2": 103.27
       }
     }
   ]

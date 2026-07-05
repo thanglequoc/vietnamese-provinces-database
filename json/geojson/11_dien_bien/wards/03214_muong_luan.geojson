@@ -10622,11 +10622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Luân",
-        "unit_code": "03214",
-        "unit_code_name": "muong_luan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2247",
-        "area_km2": 186.22
+        "code": "03214",
+        "name": "Mường Luân",
+        "nameEn": "Muong Luan",
+        "fullName": "Xã Mường Luân",
+        "fullNameEn": "Muong Luan Commune",
+        "codeName": "muong_luan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2247",
+        "areaKm2": 186.22
       }
     }
   ]

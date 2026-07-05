@@ -10042,11 +10042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiên Đài",
-        "unit_code": "02332",
-        "unit_code_name": "kien_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2328",
-        "area_km2": 130.82
+        "code": "02332",
+        "name": "Kiên Đài",
+        "nameEn": "Kien Dai",
+        "fullName": "Xã Kiên Đài",
+        "fullNameEn": "Kien Dai Commune",
+        "codeName": "kien_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2328",
+        "areaKm2": 130.82
       }
     }
   ]

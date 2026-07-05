@@ -5366,11 +5366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thường Tân",
-        "unit_code": "25909",
-        "unit_code_name": "thuong_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.28",
-        "area_km2": 120.7
+        "code": "25909",
+        "name": "Thường Tân",
+        "nameEn": "Thuong Tan",
+        "fullName": "Xã Thường Tân",
+        "fullNameEn": "Thuong Tan Commune",
+        "codeName": "thuong_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.28",
+        "areaKm2": 120.7
       }
     }
   ]

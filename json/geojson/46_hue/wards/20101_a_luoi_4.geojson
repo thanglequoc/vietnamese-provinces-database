@@ -23302,11 +23302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "A Lưới 4",
-        "unit_code": "20101",
-        "unit_code_name": "a_luoi_4",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1716",
-        "area_km2": 233.65
+        "code": "20101",
+        "name": "A Lưới 4",
+        "nameEn": "A Luoi 4",
+        "fullName": "Xã A Lưới 4",
+        "fullNameEn": "Commune A Luoi 4",
+        "codeName": "a_luoi_4",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1716",
+        "areaKm2": 233.65
       }
     }
   ]

@@ -1518,11 +1518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Tạo",
-        "unit_code": "27457",
-        "unit_code_name": "tan_tao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.109",
-        "area_km2": 14.71
+        "code": "27457",
+        "name": "Tân Tạo",
+        "nameEn": "Tan Tao",
+        "fullName": "Phường Tân Tạo",
+        "fullNameEn": "Tan Tao Ward",
+        "codeName": "tan_tao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.109",
+        "areaKm2": 14.71
       }
     }
   ]

@@ -8530,11 +8530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Thàng",
-        "unit_code": "05116",
-        "unit_code_name": "muong_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1649",
-        "area_km2": 91.58
+        "code": "05116",
+        "name": "Mường Thàng",
+        "nameEn": "Muong Thang",
+        "fullName": "Xã Mường Thàng",
+        "fullNameEn": "Muong Thang Commune",
+        "codeName": "muong_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1649",
+        "areaKm2": 91.58
       }
     }
   ]

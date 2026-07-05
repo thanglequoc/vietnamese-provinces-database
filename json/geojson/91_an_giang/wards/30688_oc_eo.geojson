@@ -3698,11 +3698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Óc Eo",
-        "unit_code": "30688",
-        "unit_code_name": "oc_eo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.354",
-        "area_km2": 68.79
+        "code": "30688",
+        "name": "Óc Eo",
+        "nameEn": "Oc Eo",
+        "fullName": "Xã Óc Eo",
+        "fullNameEn": "Oc Eo Commune",
+        "codeName": "oc_eo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.354",
+        "areaKm2": 68.79
       }
     }
   ]

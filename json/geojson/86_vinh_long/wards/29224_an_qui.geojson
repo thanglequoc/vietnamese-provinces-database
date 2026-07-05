@@ -5554,11 +5554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Qui",
-        "unit_code": "29224",
-        "unit_code_name": "an_qui",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2481",
-        "area_km2": 73.53
+        "code": "29224",
+        "name": "An Qui",
+        "nameEn": "An Qui",
+        "fullName": "Xã An Qui",
+        "fullNameEn": "An Qui Commune",
+        "codeName": "an_qui",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2481",
+        "areaKm2": 73.53
       }
     }
   ]

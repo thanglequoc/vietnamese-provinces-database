@@ -510,11 +510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Mỗ",
-        "unit_code": "00634",
-        "unit_code_name": "tay_mo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3273",
-        "area_km2": 5.56
+        "code": "00634",
+        "name": "Tây Mỗ",
+        "nameEn": "Tay Mo",
+        "fullName": "Phường Tây Mỗ",
+        "fullNameEn": "Tay Mo Ward",
+        "codeName": "tay_mo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3273",
+        "areaKm2": 5.56
       }
     }
   ]

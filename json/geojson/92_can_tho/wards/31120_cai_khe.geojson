@@ -790,11 +790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Khế",
-        "unit_code": "31120",
-        "unit_code_name": "cai_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.202",
-        "area_km2": 10.04
+        "code": "31120",
+        "name": "Cái Khế",
+        "nameEn": "Cai Khe",
+        "fullName": "Phường Cái Khế",
+        "fullNameEn": "Cai Khe Ward",
+        "codeName": "cai_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.202",
+        "areaKm2": 10.04
       }
     }
   ]

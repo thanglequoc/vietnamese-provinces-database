@@ -2518,11 +2518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Định",
-        "unit_code": "26737",
-        "unit_code_name": "tan_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.37",
-        "area_km2": 1.23
+        "code": "26737",
+        "name": "Tân Định",
+        "nameEn": "Tan Dinh",
+        "fullName": "Phường Tân Định",
+        "fullNameEn": "Tan Dinh Ward",
+        "codeName": "tan_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.37",
+        "areaKm2": 1.23
       }
     }
   ]

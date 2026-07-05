@@ -5794,11 +5794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mộc Châu",
-        "unit_code": "03980",
-        "unit_code_name": "moc_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3296",
-        "area_km2": 167.62
+        "code": "03980",
+        "name": "Mộc Châu",
+        "nameEn": "Moc Chau",
+        "fullName": "Phường Mộc Châu",
+        "fullNameEn": "Moc Chau Ward",
+        "codeName": "moc_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3296",
+        "areaKm2": 167.62
       }
     }
   ]

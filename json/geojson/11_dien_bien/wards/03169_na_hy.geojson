@@ -18150,11 +18150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nà Hỳ",
-        "unit_code": "03169",
-        "unit_code_name": "na_hy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2236",
-        "area_km2": 275.64
+        "code": "03169",
+        "name": "Nà Hỳ",
+        "nameEn": "Na Hy",
+        "fullName": "Xã Nà Hỳ",
+        "fullNameEn": "Na Hy Commune",
+        "codeName": "na_hy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2236",
+        "areaKm2": 275.64
       }
     }
   ]

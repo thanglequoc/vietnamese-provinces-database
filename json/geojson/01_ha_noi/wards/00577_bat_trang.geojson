@@ -3374,11 +3374,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bát Tràng",
-        "unit_code": "00577",
-        "unit_code_name": "bat_trang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3193",
-        "area_km2": 20.67
+        "code": "00577",
+        "name": "Bát Tràng",
+        "nameEn": "Bat Trang",
+        "fullName": "Xã Bát Tràng",
+        "fullNameEn": "Bat Trang Commune",
+        "codeName": "bat_trang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3193",
+        "areaKm2": 20.67
       }
     }
   ]

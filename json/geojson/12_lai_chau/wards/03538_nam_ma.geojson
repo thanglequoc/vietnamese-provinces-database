@@ -7082,11 +7082,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nậm Mạ",
-        "unit_code": "03538",
-        "unit_code_name": "nam_ma",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2083",
-        "area_km2": 112.73
+        "code": "03538",
+        "name": "Nậm Mạ",
+        "nameEn": "Nam Ma",
+        "fullName": "Xã Nậm Mạ",
+        "fullNameEn": "Nam Ma Commune",
+        "codeName": "nam_ma",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2083",
+        "areaKm2": 112.73
       }
     }
   ]

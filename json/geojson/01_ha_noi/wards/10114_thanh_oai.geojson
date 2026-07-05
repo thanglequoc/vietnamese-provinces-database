@@ -3258,11 +3258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Oai",
-        "unit_code": "10114",
-        "unit_code_name": "thanh_oai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3163",
-        "area_km2": 26.86
+        "code": "10114",
+        "name": "Thanh Oai",
+        "nameEn": "Thanh Oai",
+        "fullName": "Xã Thanh Oai",
+        "fullNameEn": "Thanh Oai Commune",
+        "codeName": "thanh_oai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3163",
+        "areaKm2": 26.86
       }
     }
   ]

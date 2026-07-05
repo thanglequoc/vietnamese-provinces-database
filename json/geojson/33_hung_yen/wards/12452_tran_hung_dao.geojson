@@ -1646,11 +1646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Hưng Đạo",
-        "unit_code": "12452",
-        "unit_code_name": "tran_hung_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.693",
-        "area_km2": 9.32
+        "code": "12452",
+        "name": "Trần Hưng Đạo",
+        "nameEn": "Tran Hung Dao",
+        "fullName": "Phường Trần Hưng Đạo",
+        "fullNameEn": "Tran Hung Dao Ward",
+        "codeName": "tran_hung_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.693",
+        "areaKm2": 9.32
       }
     }
   ]

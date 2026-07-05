@@ -4754,11 +4754,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Phúc",
-        "unit_code": "08716",
-        "unit_code_name": "vinh_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1606",
-        "area_km2": 25.3
+        "code": "08716",
+        "name": "Vĩnh Phúc",
+        "nameEn": "Vinh Phuc",
+        "fullName": "Phường Vĩnh Phúc",
+        "fullNameEn": "Vinh Phuc Ward",
+        "codeName": "vinh_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1606",
+        "areaKm2": 25.3
       }
     }
   ]

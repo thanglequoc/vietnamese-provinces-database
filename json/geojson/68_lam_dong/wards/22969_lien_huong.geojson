@@ -9474,11 +9474,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Hương",
-        "unit_code": "22969",
-        "unit_code_name": "lien_huong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3067",
-        "area_km2": 128.23
+        "code": "22969",
+        "name": "Liên Hương",
+        "nameEn": "Lien Huong",
+        "fullName": "Xã Liên Hương",
+        "fullNameEn": "Lien Huong Commune",
+        "codeName": "lien_huong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3067",
+        "areaKm2": 128.23
       }
     }
   ]

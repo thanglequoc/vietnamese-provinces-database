@@ -5746,11 +5746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kon Đào",
-        "unit_code": "23430",
-        "unit_code_name": "kon_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.538",
-        "area_km2": 129.34
+        "code": "23430",
+        "name": "Kon Đào",
+        "nameEn": "Kon Dao",
+        "fullName": "Xã Kon Đào",
+        "fullNameEn": "Kon Dao Commune",
+        "codeName": "kon_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.538",
+        "areaKm2": 129.34
       }
     }
   ]

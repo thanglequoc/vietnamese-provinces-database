@@ -4770,11 +4770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Lý",
-        "unit_code": "07519",
-        "unit_code_name": "cam_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2177",
-        "area_km2": 49.08
+        "code": "07519",
+        "name": "Cẩm Lý",
+        "nameEn": "Cam Ly",
+        "fullName": "Xã Cẩm Lý",
+        "fullNameEn": "Cam Ly Commune",
+        "codeName": "cam_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2177",
+        "areaKm2": 49.08
       }
     }
   ]

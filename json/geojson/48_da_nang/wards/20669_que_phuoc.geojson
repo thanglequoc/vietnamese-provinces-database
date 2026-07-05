@@ -11570,11 +11570,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quế Phước",
-        "unit_code": "20669",
-        "unit_code_name": "que_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1951",
-        "area_km2": 359.11
+        "code": "20669",
+        "name": "Quế Phước",
+        "nameEn": "Que Phuoc",
+        "fullName": "Xã Quế Phước",
+        "fullNameEn": "Que Phuoc Commune",
+        "codeName": "que_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1951",
+        "areaKm2": 359.11
       }
     }
   ]

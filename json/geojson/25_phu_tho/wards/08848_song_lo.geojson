@@ -8598,11 +8598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Lô",
-        "unit_code": "08848",
-        "unit_code_name": "song_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1615",
-        "area_km2": 33.4
+        "code": "08848",
+        "name": "Sông Lô",
+        "nameEn": "Song Lo",
+        "fullName": "Xã Sông Lô",
+        "fullNameEn": "Song Lo Commune",
+        "codeName": "song_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1615",
+        "areaKm2": 33.4
       }
     }
   ]

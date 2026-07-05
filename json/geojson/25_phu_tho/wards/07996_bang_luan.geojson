@@ -9214,11 +9214,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bằng Luân",
-        "unit_code": "07996",
-        "unit_code_name": "bang_luan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1540",
-        "area_km2": 59.77
+        "code": "07996",
+        "name": "Bằng Luân",
+        "nameEn": "Bang Luan",
+        "fullName": "Xã Bằng Luân",
+        "fullNameEn": "Bang Luan Commune",
+        "codeName": "bang_luan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1540",
+        "areaKm2": 59.77
       }
     }
   ]

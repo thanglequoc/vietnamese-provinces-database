@@ -4842,11 +4842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiều Phú",
-        "unit_code": "09910",
-        "unit_code_name": "kieu_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3222",
-        "area_km2": 34.49
+        "code": "09910",
+        "name": "Kiều Phú",
+        "nameEn": "Kieu Phu",
+        "fullName": "Xã Kiều Phú",
+        "fullNameEn": "Kieu Phu Commune",
+        "codeName": "kieu_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3222",
+        "areaKm2": 34.49
       }
     }
   ]

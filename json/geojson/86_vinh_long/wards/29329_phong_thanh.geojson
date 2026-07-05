@@ -4766,11 +4766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Thạnh",
-        "unit_code": "29329",
-        "unit_code_name": "phong_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2494",
-        "area_km2": 77.33
+        "code": "29329",
+        "name": "Phong Thạnh",
+        "nameEn": "Phong Thanh",
+        "fullName": "Xã Phong Thạnh",
+        "fullNameEn": "Phong Thanh Commune",
+        "codeName": "phong_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2494",
+        "areaKm2": 77.33
       }
     }
   ]

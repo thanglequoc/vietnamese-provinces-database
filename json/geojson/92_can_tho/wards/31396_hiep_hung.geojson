@@ -1602,11 +1602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiệp Hưng",
-        "unit_code": "31396",
-        "unit_code_name": "hiep_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.250",
-        "area_km2": 69.25
+        "code": "31396",
+        "name": "Hiệp Hưng",
+        "nameEn": "Hiep Hung",
+        "fullName": "Xã Hiệp Hưng",
+        "fullNameEn": "Hiep Hung Commune",
+        "codeName": "hiep_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.250",
+        "areaKm2": 69.25
       }
     }
   ]

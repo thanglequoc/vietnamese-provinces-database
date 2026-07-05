@@ -4810,11 +4810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Như Xuân",
-        "unit_code": "16174",
-        "unit_code_name": "nhu_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2692",
-        "area_km2": 69.87
+        "code": "16174",
+        "name": "Như Xuân",
+        "nameEn": "Nhu Xuan",
+        "fullName": "Xã Như Xuân",
+        "fullNameEn": "Nhu Xuan Commune",
+        "codeName": "nhu_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2692",
+        "areaKm2": 69.87
       }
     }
   ]

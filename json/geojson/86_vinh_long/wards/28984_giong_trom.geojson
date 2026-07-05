@@ -6866,11 +6866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giồng Trôm",
-        "unit_code": "28984",
-        "unit_code_name": "giong_trom",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2457",
-        "area_km2": 42.39
+        "code": "28984",
+        "name": "Giồng Trôm",
+        "nameEn": "Giong Trom",
+        "fullName": "Xã Giồng Trôm",
+        "fullNameEn": "Giong Trom Commune",
+        "codeName": "giong_trom",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2457",
+        "areaKm2": 42.39
       }
     }
   ]

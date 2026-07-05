@@ -5918,11 +5918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bồng Sơn",
-        "unit_code": "21640",
-        "unit_code_name": "bong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2973",
-        "area_km2": 81.11
+        "code": "21640",
+        "name": "Bồng Sơn",
+        "nameEn": "Bong Son",
+        "fullName": "Phường Bồng Sơn",
+        "fullNameEn": "Bong Son Ward",
+        "codeName": "bong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2973",
+        "areaKm2": 81.11
       }
     }
   ]

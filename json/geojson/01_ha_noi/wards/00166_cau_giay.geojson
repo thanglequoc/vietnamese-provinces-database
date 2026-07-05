@@ -706,11 +706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Giấy",
-        "unit_code": "00166",
-        "unit_code_name": "cau_giay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3264",
-        "area_km2": 3.74
+        "code": "00166",
+        "name": "Cầu Giấy",
+        "nameEn": "Cau Giay",
+        "fullName": "Phường Cầu Giấy",
+        "fullNameEn": "Cau Giay Ward",
+        "codeName": "cau_giay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3264",
+        "areaKm2": 3.74
       }
     }
   ]

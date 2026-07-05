@@ -14910,11 +14910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Xuân",
-        "unit_code": "22291",
-        "unit_code_name": "hoa_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2920",
-        "area_km2": 129.33
+        "code": "22291",
+        "name": "Hoà Xuân",
+        "nameEn": "Hoa Xuan",
+        "fullName": "Xã Hoà Xuân",
+        "fullNameEn": "Hoa Xuan Commune",
+        "codeName": "hoa_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2920",
+        "areaKm2": 129.33
       }
     }
   ]

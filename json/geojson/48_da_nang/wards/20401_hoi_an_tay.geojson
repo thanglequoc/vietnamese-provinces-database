@@ -2162,11 +2162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội An Tây",
-        "unit_code": "20401",
-        "unit_code_name": "hoi_an_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1945",
-        "area_km2": 18.09
+        "code": "20401",
+        "name": "Hội An Tây",
+        "nameEn": "Hoi An Tay",
+        "fullName": "Phường Hội An Tây",
+        "fullNameEn": "Hoi An Tay Ward",
+        "codeName": "hoi_an_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1945",
+        "areaKm2": 18.09
       }
     }
   ]

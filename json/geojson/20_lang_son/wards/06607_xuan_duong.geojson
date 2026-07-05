@@ -15090,11 +15090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Dương",
-        "unit_code": "06607",
-        "unit_code_name": "xuan_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1850",
-        "area_km2": 206.7
+        "code": "06607",
+        "name": "Xuân Dương",
+        "nameEn": "Xuan Duong",
+        "fullName": "Xã Xuân Dương",
+        "fullNameEn": "Xuan Duong Commune",
+        "codeName": "xuan_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1850",
+        "areaKm2": 206.7
       }
     }
   ]

@@ -8054,11 +8054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Phú",
-        "unit_code": "07918",
-        "unit_code_name": "van_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1554",
-        "area_km2": 26.26
+        "code": "07918",
+        "name": "Vân Phú",
+        "nameEn": "Van Phu",
+        "fullName": "Phường Vân Phú",
+        "fullNameEn": "Van Phu Ward",
+        "codeName": "van_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1554",
+        "areaKm2": 26.26
       }
     }
   ]

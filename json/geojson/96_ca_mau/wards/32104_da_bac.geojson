@@ -12310,11 +12310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đá Bạc",
-        "unit_code": "32104",
-        "unit_code_name": "da_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.178",
-        "area_km2": 211.9
+        "code": "32104",
+        "name": "Đá Bạc",
+        "nameEn": "Da Bac",
+        "fullName": "Xã Đá Bạc",
+        "fullNameEn": "Da Bac Commune",
+        "codeName": "da_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.178",
+        "areaKm2": 211.9
       }
     }
   ]

@@ -1898,11 +1898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Cường",
-        "unit_code": "20257",
-        "unit_code_name": "hoa_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1904",
-        "area_km2": 15.72
+        "code": "20257",
+        "name": "Hoà Cường",
+        "nameEn": "Hoa Cuong",
+        "fullName": "Phường Hoà Cường",
+        "fullNameEn": "Hoa Cuong Ward",
+        "codeName": "hoa_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1904",
+        "areaKm2": 15.72
       }
     }
   ]

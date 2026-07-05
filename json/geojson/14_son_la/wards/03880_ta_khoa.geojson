@@ -6630,11 +6630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tạ Khoa",
-        "unit_code": "03880",
-        "unit_code_name": "ta_khoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1363",
-        "area_km2": 191.88
+        "code": "03880",
+        "name": "Tạ Khoa",
+        "nameEn": "Ta Khoa",
+        "fullName": "Xã Tạ Khoa",
+        "fullNameEn": "Ta Khoa Commune",
+        "codeName": "ta_khoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1363",
+        "areaKm2": 191.88
       }
     }
   ]

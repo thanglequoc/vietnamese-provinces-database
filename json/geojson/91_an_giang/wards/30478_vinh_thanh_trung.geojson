@@ -3766,11 +3766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thạnh Trung",
-        "unit_code": "30478",
-        "unit_code_name": "vinh_thanh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.329",
-        "area_km2": 64.97
+        "code": "30478",
+        "name": "Vĩnh Thạnh Trung",
+        "nameEn": "Vinh Thanh Trung",
+        "fullName": "Xã Vĩnh Thạnh Trung",
+        "fullNameEn": "Vinh Thanh Trung Commune",
+        "codeName": "vinh_thanh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.329",
+        "areaKm2": 64.97
       }
     }
   ]

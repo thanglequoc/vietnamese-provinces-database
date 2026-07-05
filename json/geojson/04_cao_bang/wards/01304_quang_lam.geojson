@@ -12538,11 +12538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Lâm",
-        "unit_code": "01304",
-        "unit_code_name": "quang_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.975",
-        "area_km2": 172.93
+        "code": "01304",
+        "name": "Quảng Lâm",
+        "nameEn": "Quang Lam",
+        "fullName": "Xã Quảng Lâm",
+        "fullNameEn": "Quang Lam Commune",
+        "codeName": "quang_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.975",
+        "areaKm2": 172.93
       }
     }
   ]

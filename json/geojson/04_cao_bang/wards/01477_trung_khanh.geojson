@@ -9730,11 +9730,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trùng Khánh",
-        "unit_code": "01477",
-        "unit_code_name": "trung_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1001",
-        "area_km2": 125.5
+        "code": "01477",
+        "name": "Trùng Khánh",
+        "nameEn": "Trung Khanh",
+        "fullName": "Xã Trùng Khánh",
+        "fullNameEn": "Trung Khanh Commune",
+        "codeName": "trung_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1001",
+        "areaKm2": 125.5
       }
     }
   ]

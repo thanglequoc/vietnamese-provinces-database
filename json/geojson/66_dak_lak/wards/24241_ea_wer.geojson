@@ -12986,11 +12986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Wer",
-        "unit_code": "24241",
-        "unit_code_name": "ea_wer",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2826",
-        "area_km2": 184.61
+        "code": "24241",
+        "name": "Ea Wer",
+        "nameEn": "Ea Wer",
+        "fullName": "Xã Ea Wer",
+        "fullNameEn": "Ea Wer Commune",
+        "codeName": "ea_wer",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2826",
+        "areaKm2": 184.61
       }
     }
   ]

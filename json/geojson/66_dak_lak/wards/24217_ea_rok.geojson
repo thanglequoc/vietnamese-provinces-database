@@ -24050,11 +24050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Rốk",
-        "unit_code": "24217",
-        "unit_code_name": "ea_rok",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2835",
-        "area_km2": 544.6
+        "code": "24217",
+        "name": "Ea Rốk",
+        "nameEn": "Ea Rok",
+        "fullName": "Xã Ea Rốk",
+        "fullNameEn": "Ea Rok Commune",
+        "codeName": "ea_rok",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2835",
+        "areaKm2": 544.6
       }
     }
   ]

@@ -17678,11 +17678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Tú",
-        "unit_code": "31717",
-        "unit_code_name": "hoa_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.291",
-        "area_km2": 67.15
+        "code": "31717",
+        "name": "Hoà Tú",
+        "nameEn": "Hoa Tu",
+        "fullName": "Xã Hoà Tú",
+        "fullNameEn": "Hoa Tu Commune",
+        "codeName": "hoa_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.291",
+        "areaKm2": 67.15
       }
     }
   ]

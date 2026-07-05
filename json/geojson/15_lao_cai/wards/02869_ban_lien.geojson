@@ -15578,11 +15578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bản Liền",
-        "unit_code": "02869",
-        "unit_code_name": "ban_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1067",
-        "area_km2": 76.7
+        "code": "02869",
+        "name": "Bản Liền",
+        "nameEn": "Ban Lien",
+        "fullName": "Xã Bản Liền",
+        "fullNameEn": "Ban Lien Commune",
+        "codeName": "ban_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1067",
+        "areaKm2": 76.7
       }
     }
   ]

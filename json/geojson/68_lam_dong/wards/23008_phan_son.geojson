@@ -16290,11 +16290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phan Sơn",
-        "unit_code": "23008",
-        "unit_code_name": "phan_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3072",
-        "area_km2": 584.52
+        "code": "23008",
+        "name": "Phan Sơn",
+        "nameEn": "Phan Son",
+        "fullName": "Xã Phan Sơn",
+        "fullNameEn": "Phan Son Commune",
+        "codeName": "phan_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3072",
+        "areaKm2": 584.52
       }
     }
   ]

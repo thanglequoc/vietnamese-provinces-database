@@ -3518,11 +3518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Hồng",
-        "unit_code": "14095",
-        "unit_code_name": "xuan_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.804",
-        "area_km2": 27.61
+        "code": "14095",
+        "name": "Xuân Hồng",
+        "nameEn": "Xuan Hong",
+        "fullName": "Xã Xuân Hồng",
+        "fullNameEn": "Xuan Hong Commune",
+        "codeName": "xuan_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.804",
+        "areaKm2": 27.61
       }
     }
   ]

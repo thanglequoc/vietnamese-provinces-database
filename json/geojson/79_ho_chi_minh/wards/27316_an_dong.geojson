@@ -938,11 +938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Đông",
-        "unit_code": "27316",
-        "unit_code_name": "an_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.96",
-        "area_km2": 1.32
+        "code": "27316",
+        "name": "An Đông",
+        "nameEn": "An Dong",
+        "fullName": "Phường An Đông",
+        "fullNameEn": "An Dong Ward",
+        "codeName": "an_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.96",
+        "areaKm2": 1.32
       }
     }
   ]

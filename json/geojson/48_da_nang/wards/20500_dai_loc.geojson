@@ -4898,11 +4898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Lộc",
-        "unit_code": "20500",
-        "unit_code_name": "dai_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1941",
-        "area_km2": 73.97
+        "code": "20500",
+        "name": "Đại Lộc",
+        "nameEn": "Dai Loc",
+        "fullName": "Xã Đại Lộc",
+        "fullNameEn": "Dai Loc Commune",
+        "codeName": "dai_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1941",
+        "areaKm2": 73.97
       }
     }
   ]

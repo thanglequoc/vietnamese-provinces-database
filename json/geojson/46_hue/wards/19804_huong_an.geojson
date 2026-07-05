@@ -10206,11 +10206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương An",
-        "unit_code": "19804",
-        "unit_code_name": "huong_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1690",
-        "area_km2": 19.43
+        "code": "19804",
+        "name": "Hương An",
+        "nameEn": "Huong An",
+        "fullName": "Phường Hương An",
+        "fullNameEn": "Huong An Ward",
+        "codeName": "huong_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1690",
+        "areaKm2": 19.43
       }
     }
   ]

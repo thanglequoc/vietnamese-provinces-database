@@ -8202,11 +8202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Võ Miếu",
-        "unit_code": "08584",
-        "unit_code_name": "vo_mieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1594",
-        "area_km2": 96.36
+        "code": "08584",
+        "name": "Võ Miếu",
+        "nameEn": "Vo Mieu",
+        "fullName": "Xã Võ Miếu",
+        "fullNameEn": "Vo Mieu Commune",
+        "codeName": "vo_mieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1594",
+        "areaKm2": 96.36
       }
     }
   ]

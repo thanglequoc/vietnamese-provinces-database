@@ -7802,11 +7802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tủa Chùa",
-        "unit_code": "03217",
-        "unit_code_name": "tua_chua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2248",
-        "area_km2": 108.33
+        "code": "03217",
+        "name": "Tủa Chùa",
+        "nameEn": "Tua Chua",
+        "fullName": "Xã Tủa Chùa",
+        "fullNameEn": "Tua Chua Commune",
+        "codeName": "tua_chua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2248",
+        "areaKm2": 108.33
       }
     }
   ]

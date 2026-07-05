@@ -2434,11 +2434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phủ Lý",
-        "unit_code": "13285",
-        "unit_code_name": "phu_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2788",
-        "area_km2": 11.84
+        "code": "13285",
+        "name": "Phủ Lý",
+        "nameEn": "Phu Ly",
+        "fullName": "Phường Phủ Lý",
+        "fullNameEn": "Phu Ly Ward",
+        "codeName": "phu_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2788",
+        "areaKm2": 11.84
       }
     }
   ]

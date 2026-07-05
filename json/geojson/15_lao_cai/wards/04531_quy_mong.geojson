@@ -7454,11 +7454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Mông",
-        "unit_code": "04531",
-        "unit_code_name": "quy_mong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1031",
-        "area_km2": 149.17
+        "code": "04531",
+        "name": "Quy Mông",
+        "nameEn": "Quy Mong",
+        "fullName": "Xã Quy Mông",
+        "fullNameEn": "Quy Mong Commune",
+        "codeName": "quy_mong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1031",
+        "areaKm2": 149.17
       }
     }
   ]

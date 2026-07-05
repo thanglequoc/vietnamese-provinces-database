@@ -5266,11 +5266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy An Đông",
-        "unit_code": "22120",
-        "unit_code_name": "tuy_an_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2904",
-        "area_km2": 46.05
+        "code": "22120",
+        "name": "Tuy An Đông",
+        "nameEn": "Tuy An Dong",
+        "fullName": "Xã Tuy An Đông",
+        "fullNameEn": "Tuy An Dong Commune",
+        "codeName": "tuy_an_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2904",
+        "areaKm2": 46.05
       }
     }
   ]

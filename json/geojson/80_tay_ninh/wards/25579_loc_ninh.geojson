@@ -6822,11 +6822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Ninh",
-        "unit_code": "25579",
-        "unit_code_name": "loc_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2739",
-        "area_km2": 90.25
+        "code": "25579",
+        "name": "Lộc Ninh",
+        "nameEn": "Loc Ninh",
+        "fullName": "Xã Lộc Ninh",
+        "fullNameEn": "Loc Ninh Commune",
+        "codeName": "loc_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2739",
+        "areaKm2": 90.25
       }
     }
   ]

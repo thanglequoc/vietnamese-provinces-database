@@ -2246,11 +2246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Đằng",
-        "unit_code": "11473",
-        "unit_code_name": "bach_dang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.922",
-        "area_km2": 53.49
+        "code": "11473",
+        "name": "Bạch Đằng",
+        "nameEn": "Bach Dang",
+        "fullName": "Phường Bạch Đằng",
+        "fullNameEn": "Bach Dang Ward",
+        "codeName": "bach_dang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.922",
+        "areaKm2": 53.49
       }
     }
   ]

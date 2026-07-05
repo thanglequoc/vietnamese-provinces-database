@@ -7990,11 +7990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Hồ",
-        "unit_code": "19918",
-        "unit_code_name": "phu_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1704",
-        "area_km2": 57.72
+        "code": "19918",
+        "name": "Phú Hồ",
+        "nameEn": "Phu Ho",
+        "fullName": "Xã Phú Hồ",
+        "fullNameEn": "Phu Ho Commune",
+        "codeName": "phu_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1704",
+        "areaKm2": 57.72
       }
     }
   ]

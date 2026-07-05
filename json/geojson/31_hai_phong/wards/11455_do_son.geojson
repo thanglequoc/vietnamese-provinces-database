@@ -7164,11 +7164,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồ Sơn",
-        "unit_code": "11455",
-        "unit_code_name": "do_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.941",
-        "area_km2": 25.54
+        "code": "11455",
+        "name": "Đồ Sơn",
+        "nameEn": "Do Son",
+        "fullName": "Phường Đồ Sơn",
+        "fullNameEn": "Do Son Ward",
+        "codeName": "do_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.941",
+        "areaKm2": 25.54
       }
     }
   ]

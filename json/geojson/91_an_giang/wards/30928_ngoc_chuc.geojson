@@ -9046,11 +9046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Chúc",
-        "unit_code": "30928",
-        "unit_code_name": "ngoc_chuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.380",
-        "area_km2": 90.25
+        "code": "30928",
+        "name": "Ngọc Chúc",
+        "nameEn": "Ngoc Chuc",
+        "fullName": "Xã Ngọc Chúc",
+        "fullNameEn": "Ngoc Chuc Commune",
+        "codeName": "ngoc_chuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.380",
+        "areaKm2": 90.25
       }
     }
   ]

@@ -2054,11 +2054,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Hưng",
-        "unit_code": "12391",
-        "unit_code_name": "quang_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.729",
-        "area_km2": 25.73
+        "code": "12391",
+        "name": "Quang Hưng",
+        "nameEn": "Quang Hung",
+        "fullName": "Xã Quang Hưng",
+        "fullNameEn": "Quang Hung Commune",
+        "codeName": "quang_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.729",
+        "areaKm2": 25.73
       }
     }
   ]

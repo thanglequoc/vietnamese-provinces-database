@@ -7390,11 +7390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Lập",
-        "unit_code": "24121",
-        "unit_code_name": "tan_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2870",
-        "area_km2": 46.7
+        "code": "24121",
+        "name": "Tân Lập",
+        "nameEn": "Tan Lap",
+        "fullName": "Phường Tân Lập",
+        "fullNameEn": "Tan Lap Ward",
+        "codeName": "tan_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2870",
+        "areaKm2": 46.7
       }
     }
   ]

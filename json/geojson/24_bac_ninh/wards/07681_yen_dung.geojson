@@ -4254,11 +4254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Dũng",
-        "unit_code": "07681",
-        "unit_code_name": "yen_dung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2145",
-        "area_km2": 52.42
+        "code": "07681",
+        "name": "Yên Dũng",
+        "nameEn": "Yen Dung",
+        "fullName": "Phường Yên Dũng",
+        "fullNameEn": "Yen Dung Ward",
+        "codeName": "yen_dung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2145",
+        "areaKm2": 52.42
       }
     }
   ]

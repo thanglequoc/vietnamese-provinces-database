@@ -3438,11 +3438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Đông",
-        "unit_code": "09556",
-        "unit_code_name": "ha_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3174",
-        "area_km2": 9
+        "code": "09556",
+        "name": "Hà Đông",
+        "nameEn": "Ha Dong",
+        "fullName": "Phường Hà Đông",
+        "fullNameEn": "Ha Dong Ward",
+        "codeName": "ha_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3174",
+        "areaKm2": 9
       }
     }
   ]

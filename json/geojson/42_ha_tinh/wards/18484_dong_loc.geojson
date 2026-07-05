@@ -6278,11 +6278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Lộc",
-        "unit_code": "18484",
-        "unit_code_name": "dong_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1997",
-        "area_km2": 70.55
+        "code": "18484",
+        "name": "Đồng Lộc",
+        "nameEn": "Dong Loc",
+        "fullName": "Xã Đồng Lộc",
+        "fullNameEn": "Dong Loc Commune",
+        "codeName": "dong_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1997",
+        "areaKm2": 70.55
       }
     }
   ]

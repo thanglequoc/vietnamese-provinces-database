@@ -14398,11 +14398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Lâm",
-        "unit_code": "00967",
-        "unit_code_name": "viet_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2397",
-        "area_km2": 92.66
+        "code": "00967",
+        "name": "Việt Lâm",
+        "nameEn": "Viet Lam",
+        "fullName": "Xã Việt Lâm",
+        "fullNameEn": "Viet Lam Commune",
+        "codeName": "viet_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2397",
+        "areaKm2": 92.66
       }
     }
   ]

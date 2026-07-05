@@ -9078,11 +9078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Hồng",
-        "unit_code": "17044",
-        "unit_code_name": "chau_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1476",
-        "area_km2": 134.05
+        "code": "17044",
+        "name": "Châu Hồng",
+        "nameEn": "Chau Hong",
+        "fullName": "Xã Châu Hồng",
+        "fullNameEn": "Chau Hong Commune",
+        "codeName": "chau_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1476",
+        "areaKm2": 134.05
       }
     }
   ]

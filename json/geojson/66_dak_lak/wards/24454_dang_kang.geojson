@@ -19750,11 +19750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dang Kang",
-        "unit_code": "24454",
-        "unit_code_name": "dang_kang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2860",
-        "area_km2": 105.91
+        "code": "24454",
+        "name": "Dang Kang",
+        "nameEn": "Dang Kang",
+        "fullName": "Xã Dang Kang",
+        "fullNameEn": "Dang Kang Commune",
+        "codeName": "dang_kang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2860",
+        "areaKm2": 105.91
       }
     }
   ]

@@ -8370,11 +8370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cự Đồng",
-        "unit_code": "08614",
-        "unit_code_name": "cu_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1590",
-        "area_km2": 45.77
+        "code": "08614",
+        "name": "Cự Đồng",
+        "nameEn": "Cu Dong",
+        "fullName": "Xã Cự Đồng",
+        "fullNameEn": "Cu Dong Commune",
+        "codeName": "cu_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1590",
+        "areaKm2": 45.77
       }
     }
   ]

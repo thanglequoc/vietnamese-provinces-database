@@ -6322,11 +6322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiết Ống",
-        "unit_code": "14980",
-        "unit_code_name": "thiet_ong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2648",
-        "area_km2": 94.32
+        "code": "14980",
+        "name": "Thiết Ống",
+        "nameEn": "Thiet Ong",
+        "fullName": "Xã Thiết Ống",
+        "fullNameEn": "Thiet Ong Commune",
+        "codeName": "thiet_ong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2648",
+        "areaKm2": 94.32
       }
     }
   ]

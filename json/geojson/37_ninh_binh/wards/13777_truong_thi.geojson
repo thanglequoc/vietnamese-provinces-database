@@ -3678,11 +3678,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Thi",
-        "unit_code": "13777",
-        "unit_code_name": "truong_thi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.800",
-        "area_km2": 31.5
+        "code": "13777",
+        "name": "Trường Thi",
+        "nameEn": "Truong Thi",
+        "fullName": "Phường Trường Thi",
+        "fullNameEn": "Truong Thi Ward",
+        "codeName": "truong_thi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.800",
+        "areaKm2": 31.5
       }
     }
   ]

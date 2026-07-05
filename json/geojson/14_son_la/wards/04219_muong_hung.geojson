@@ -11722,11 +11722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Hung",
-        "unit_code": "04219",
-        "unit_code_name": "muong_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1402",
-        "area_km2": 226.09
+        "code": "04219",
+        "name": "Mường Hung",
+        "nameEn": "Muong Hung",
+        "fullName": "Xã Mường Hung",
+        "fullNameEn": "Muong Hung Commune",
+        "codeName": "muong_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1402",
+        "areaKm2": 226.09
       }
     }
   ]

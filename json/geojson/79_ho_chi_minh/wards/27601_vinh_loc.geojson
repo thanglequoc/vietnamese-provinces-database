@@ -2414,11 +2414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Lộc",
-        "unit_code": "27601",
-        "unit_code_name": "vinh_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.126",
-        "area_km2": 30.55
+        "code": "27601",
+        "name": "Vĩnh Lộc",
+        "nameEn": "Vinh Loc",
+        "fullName": "Xã Vĩnh Lộc",
+        "fullNameEn": "Vinh Loc Commune",
+        "codeName": "vinh_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.126",
+        "areaKm2": 30.55
       }
     }
   ]

@@ -13166,11 +13166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Mỹ",
-        "unit_code": "02308",
-        "unit_code_name": "tan_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2325",
-        "area_km2": 137.31
+        "code": "02308",
+        "name": "Tân Mỹ",
+        "nameEn": "Tan My",
+        "fullName": "Xã Tân Mỹ",
+        "fullNameEn": "Tan My Commune",
+        "codeName": "tan_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2325",
+        "areaKm2": 137.31
       }
     }
   ]

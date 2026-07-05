@@ -14638,11 +14638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Thạnh",
-        "unit_code": "30943",
-        "unit_code_name": "long_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.382",
-        "area_km2": 96.37
+        "code": "30943",
+        "name": "Long Thạnh",
+        "nameEn": "Long Thanh",
+        "fullName": "Xã Long Thạnh",
+        "fullNameEn": "Long Thanh Commune",
+        "codeName": "long_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.382",
+        "areaKm2": 96.37
       }
     }
   ]

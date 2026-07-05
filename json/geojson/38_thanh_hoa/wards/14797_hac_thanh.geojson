@@ -2806,11 +2806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạc Thành",
-        "unit_code": "14797",
-        "unit_code_name": "hac_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2594",
-        "area_km2": 24.63
+        "code": "14797",
+        "name": "Hạc Thành",
+        "nameEn": "Hac Thanh",
+        "fullName": "Phường Hạc Thành",
+        "fullNameEn": "Hac Thanh Ward",
+        "codeName": "hac_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2594",
+        "areaKm2": 24.63
       }
     }
   ]

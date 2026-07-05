@@ -8394,11 +8394,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cuôr Đăng",
-        "unit_code": "24301",
-        "unit_code_name": "cuor_dang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2842",
-        "area_km2": 102.84
+        "code": "24301",
+        "name": "Cuôr Đăng",
+        "nameEn": "Cuor Dang",
+        "fullName": "Xã Cuôr Đăng",
+        "fullNameEn": "Cuor Dang Commune",
+        "codeName": "cuor_dang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2842",
+        "areaKm2": 102.84
       }
     }
   ]

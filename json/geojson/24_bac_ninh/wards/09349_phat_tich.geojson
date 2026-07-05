@@ -3650,11 +3650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phật Tích",
-        "unit_code": "09349",
-        "unit_code_name": "phat_tich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2127",
-        "area_km2": 16.83
+        "code": "09349",
+        "name": "Phật Tích",
+        "nameEn": "Phat Tich",
+        "fullName": "Xã Phật Tích",
+        "fullNameEn": "Phat Tich Commune",
+        "codeName": "phat_tich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2127",
+        "areaKm2": 16.83
       }
     }
   ]

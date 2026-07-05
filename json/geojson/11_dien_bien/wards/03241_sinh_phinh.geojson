@@ -12986,11 +12986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sính Phình",
-        "unit_code": "03241",
-        "unit_code_name": "sinh_phinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2251",
-        "area_km2": 174.53
+        "code": "03241",
+        "name": "Sính Phình",
+        "nameEn": "Sinh Phinh",
+        "fullName": "Xã Sính Phình",
+        "fullNameEn": "Sinh Phinh Commune",
+        "codeName": "sinh_phinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2251",
+        "areaKm2": 174.53
       }
     }
   ]

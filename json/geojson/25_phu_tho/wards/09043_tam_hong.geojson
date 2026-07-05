@@ -2846,11 +2846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Hồng",
-        "unit_code": "09043",
-        "unit_code_name": "tam_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1631",
-        "area_km2": 22.6
+        "code": "09043",
+        "name": "Tam Hồng",
+        "nameEn": "Tam Hong",
+        "fullName": "Xã Tam Hồng",
+        "fullNameEn": "Tam Hong Commune",
+        "codeName": "tam_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1631",
+        "areaKm2": 22.6
       }
     }
   ]

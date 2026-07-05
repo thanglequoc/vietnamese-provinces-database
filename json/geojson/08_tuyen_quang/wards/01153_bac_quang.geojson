@@ -12790,11 +12790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Quang",
-        "unit_code": "01153",
-        "unit_code_name": "bac_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2414",
-        "area_km2": 141.93
+        "code": "01153",
+        "name": "Bắc Quang",
+        "nameEn": "Bac Quang",
+        "fullName": "Xã Bắc Quang",
+        "fullNameEn": "Bac Quang Commune",
+        "codeName": "bac_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2414",
+        "areaKm2": 141.93
       }
     }
   ]

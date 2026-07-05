@@ -2930,11 +2930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kinh Bắc",
-        "unit_code": "09187",
-        "unit_code_name": "kinh_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2139",
-        "area_km2": 19.95
+        "code": "09187",
+        "name": "Kinh Bắc",
+        "nameEn": "Kinh Bac",
+        "fullName": "Phường Kinh Bắc",
+        "fullNameEn": "Kinh Bac Ward",
+        "codeName": "kinh_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2139",
+        "areaKm2": 19.95
       }
     }
   ]

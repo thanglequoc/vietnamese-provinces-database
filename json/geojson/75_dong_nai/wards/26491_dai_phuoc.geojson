@@ -3146,11 +3146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Phước",
-        "unit_code": "26491",
-        "unit_code_name": "dai_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3148",
-        "area_km2": 98
+        "code": "26491",
+        "name": "Đại Phước",
+        "nameEn": "Dai Phuoc",
+        "fullName": "Xã Đại Phước",
+        "fullNameEn": "Dai Phuoc Commune",
+        "codeName": "dai_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3148",
+        "areaKm2": 98
       }
     }
   ]

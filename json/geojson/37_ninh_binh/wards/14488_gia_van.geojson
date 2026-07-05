@@ -2738,11 +2738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Vân",
-        "unit_code": "14488",
-        "unit_code_name": "gia_van",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.751",
-        "area_km2": 26.94
+        "code": "14488",
+        "name": "Gia Vân",
+        "nameEn": "Gia Van",
+        "fullName": "Xã Gia Vân",
+        "fullNameEn": "Gia Van Commune",
+        "codeName": "gia_van",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.751",
+        "areaKm2": 26.94
       }
     }
   ]

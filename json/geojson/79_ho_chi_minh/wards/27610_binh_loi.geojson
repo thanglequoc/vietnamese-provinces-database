@@ -2714,11 +2714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Lợi",
-        "unit_code": "27610",
-        "unit_code_name": "binh_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.128",
-        "area_km2": 54.18
+        "code": "27610",
+        "name": "Bình Lợi",
+        "nameEn": "Binh Loi",
+        "fullName": "Xã Bình Lợi",
+        "fullNameEn": "Binh Loi Commune",
+        "codeName": "binh_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.128",
+        "areaKm2": 54.18
       }
     }
   ]

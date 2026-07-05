@@ -6686,11 +6686,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thạnh Hưng",
-        "unit_code": "30910",
-        "unit_code_name": "thanh_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.379",
-        "area_km2": 142.54
+        "code": "30910",
+        "name": "Thạnh Hưng",
+        "nameEn": "Thanh Hung",
+        "fullName": "Xã Thạnh Hưng",
+        "fullNameEn": "Thanh Hung Commune",
+        "codeName": "thanh_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.379",
+        "areaKm2": 142.54
       }
     }
   ]

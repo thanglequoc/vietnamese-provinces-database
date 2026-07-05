@@ -10438,11 +10438,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồ Tràm",
-        "unit_code": "26620",
-        "unit_code_name": "ho_tram",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2211",
-        "area_km2": 94.51
+        "code": "26620",
+        "name": "Hồ Tràm",
+        "nameEn": "Ho Tram",
+        "fullName": "Xã Hồ Tràm",
+        "fullNameEn": "Ho Tram Commune",
+        "codeName": "ho_tram",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2211",
+        "areaKm2": 94.51
       }
     }
   ]

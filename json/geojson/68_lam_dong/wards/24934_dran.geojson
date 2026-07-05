@@ -16370,11 +16370,14 @@
         ]
       },
       "properties": {
-        "unit_name": "D'Ran",
-        "unit_code": "24934",
-        "unit_code_name": "dran",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.518",
-        "area_km2": 240.89
+        "code": "24934",
+        "name": "D'Ran",
+        "nameEn": "D'Ran",
+        "fullName": "Xã D'Ran",
+        "fullNameEn": "D'Ran Commune",
+        "codeName": "dran",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.518",
+        "areaKm2": 240.89
       }
     }
   ]

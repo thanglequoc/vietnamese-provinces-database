@@ -2878,11 +2878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gò Dầu",
-        "unit_code": "25654",
-        "unit_code_name": "go_dau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2728",
-        "area_km2": 43.09
+        "code": "25654",
+        "name": "Gò Dầu",
+        "nameEn": "Go Dau",
+        "fullName": "Phường Gò Dầu",
+        "fullNameEn": "Go Dau Ward",
+        "codeName": "go_dau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2728",
+        "areaKm2": 43.09
       }
     }
   ]

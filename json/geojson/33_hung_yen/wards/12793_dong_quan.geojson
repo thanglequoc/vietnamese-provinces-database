@@ -1326,11 +1326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Quan",
-        "unit_code": "12793",
-        "unit_code_name": "dong_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.667",
-        "area_km2": 23.62
+        "code": "12793",
+        "name": "Đông Quan",
+        "nameEn": "Dong Quan",
+        "fullName": "Xã Đông Quan",
+        "fullNameEn": "Dong Quan Commune",
+        "codeName": "dong_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.667",
+        "areaKm2": 23.62
       }
     }
   ]

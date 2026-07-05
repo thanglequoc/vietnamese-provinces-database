@@ -19478,11 +19478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ái Tử",
-        "unit_code": "19669",
-        "unit_code_name": "ai_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.566",
-        "area_km2": 116.74
+        "code": "19669",
+        "name": "Ái Tử",
+        "nameEn": "Ai Tu",
+        "fullName": "Xã Ái Tử",
+        "fullNameEn": "Ai Tu Commune",
+        "codeName": "ai_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.566",
+        "areaKm2": 116.74
       }
     }
   ]

@@ -9886,11 +9886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Khê",
-        "unit_code": "06286",
-        "unit_code_name": "khanh_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1813",
-        "area_km2": 93.64
+        "code": "06286",
+        "name": "Khánh Khê",
+        "nameEn": "Khanh Khe",
+        "fullName": "Xã Khánh Khê",
+        "fullNameEn": "Khanh Khe Commune",
+        "codeName": "khanh_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1813",
+        "areaKm2": 93.64
       }
     }
   ]

@@ -9342,11 +9342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Phúc",
-        "unit_code": "01933",
-        "unit_code_name": "dong_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1171",
-        "area_km2": 199.11
+        "code": "01933",
+        "name": "Đồng Phúc",
+        "nameEn": "Dong Phuc",
+        "fullName": "Xã Đồng Phúc",
+        "fullNameEn": "Dong Phuc Commune",
+        "codeName": "dong_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1171",
+        "areaKm2": 199.11
       }
     }
   ]

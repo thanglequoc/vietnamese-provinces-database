@@ -18126,11 +18126,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Phong",
-        "unit_code": "31051",
-        "unit_code_name": "vinh_phong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.400",
-        "area_km2": 139.3
+        "code": "31051",
+        "name": "Vĩnh Phong",
+        "nameEn": "Vinh Phong",
+        "fullName": "Xã Vĩnh Phong",
+        "fullNameEn": "Vinh Phong Commune",
+        "codeName": "vinh_phong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.400",
+        "areaKm2": 139.3
       }
     }
   ]

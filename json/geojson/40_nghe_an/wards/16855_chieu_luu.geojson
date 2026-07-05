@@ -12282,11 +12282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chiêu Lưu",
-        "unit_code": "16855",
-        "unit_code_name": "chieu_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1506",
-        "area_km2": 196.93
+        "code": "16855",
+        "name": "Chiêu Lưu",
+        "nameEn": "Chieu Luu",
+        "fullName": "Xã Chiêu Lưu",
+        "fullNameEn": "Chieu Luu Commune",
+        "codeName": "chieu_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1506",
+        "areaKm2": 196.93
       }
     }
   ]

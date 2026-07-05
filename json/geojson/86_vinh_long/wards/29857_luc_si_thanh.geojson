@@ -1522,11 +1522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lục Sĩ Thành",
-        "unit_code": "29857",
-        "unit_code_name": "luc_si_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2559",
-        "area_km2": 43.52
+        "code": "29857",
+        "name": "Lục Sĩ Thành",
+        "nameEn": "Luc Si Thanh",
+        "fullName": "Xã Lục Sĩ Thành",
+        "fullNameEn": "Luc Si Thanh Commune",
+        "codeName": "luc_si_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2559",
+        "areaKm2": 43.52
       }
     }
   ]

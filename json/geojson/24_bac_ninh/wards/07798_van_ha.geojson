@@ -4490,11 +4490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Hà",
-        "unit_code": "07798",
-        "unit_code_name": "van_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2152",
-        "area_km2": 43.17
+        "code": "07798",
+        "name": "Vân Hà",
+        "nameEn": "Van Ha",
+        "fullName": "Phường Vân Hà",
+        "fullNameEn": "Van Ha Ward",
+        "codeName": "van_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2152",
+        "areaKm2": 43.17
       }
     }
   ]

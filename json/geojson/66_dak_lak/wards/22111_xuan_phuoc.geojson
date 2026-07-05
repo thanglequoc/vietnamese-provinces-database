@@ -8182,11 +8182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Phước",
-        "unit_code": "22111",
-        "unit_code_name": "xuan_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2902",
-        "area_km2": 102.81
+        "code": "22111",
+        "name": "Xuân Phước",
+        "nameEn": "Xuan Phuoc",
+        "fullName": "Xã Xuân Phước",
+        "fullNameEn": "Xuan Phuoc Commune",
+        "codeName": "xuan_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2902",
+        "areaKm2": 102.81
       }
     }
   ]

@@ -4738,11 +4738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Chung",
-        "unit_code": "14848",
-        "unit_code_name": "tam_chung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2702",
-        "area_km2": 121.51
+        "code": "14848",
+        "name": "Tam Chung",
+        "nameEn": "Tam Chung",
+        "fullName": "Xã Tam Chung",
+        "fullNameEn": "Tam Chung Commune",
+        "codeName": "tam_chung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2702",
+        "areaKm2": 121.51
       }
     }
   ]

@@ -10450,11 +10450,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tả Lèng",
-        "unit_code": "03405",
-        "unit_code_name": "ta_leng",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2063",
-        "area_km2": 128.36
+        "code": "03405",
+        "name": "Tả Lèng",
+        "nameEn": "Ta Leng",
+        "fullName": "Xã Tả Lèng",
+        "fullNameEn": "Ta Leng Commune",
+        "codeName": "ta_leng",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2063",
+        "areaKm2": 128.36
       }
     }
   ]

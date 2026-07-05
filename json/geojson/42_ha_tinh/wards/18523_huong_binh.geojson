@@ -9798,11 +9798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Bình",
-        "unit_code": "18523",
-        "unit_code_name": "huong_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2052",
-        "area_km2": 215.56
+        "code": "18523",
+        "name": "Hương Bình",
+        "nameEn": "Huong Binh",
+        "fullName": "Xã Hương Bình",
+        "fullNameEn": "Huong Binh Commune",
+        "codeName": "huong_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2052",
+        "areaKm2": 215.56
       }
     }
   ]

@@ -822,11 +822,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Thới",
-        "unit_code": "27232",
-        "unit_code_name": "binh_thoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.90",
-        "area_km2": 1.52
+        "code": "27232",
+        "name": "Bình Thới",
+        "nameEn": "Binh Thoi",
+        "fullName": "Phường Bình Thới",
+        "fullNameEn": "Binh Thoi Ward",
+        "codeName": "binh_thoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.90",
+        "areaKm2": 1.52
       }
     }
   ]

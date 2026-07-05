@@ -6006,11 +6006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tây Yên",
-        "unit_code": "30988",
-        "unit_code_name": "tay_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.389",
-        "area_km2": 127.5
+        "code": "30988",
+        "name": "Tây Yên",
+        "nameEn": "Tay Yen",
+        "fullName": "Xã Tây Yên",
+        "fullNameEn": "Tay Yen Commune",
+        "codeName": "tay_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.389",
+        "areaKm2": 127.5
       }
     }
   ]

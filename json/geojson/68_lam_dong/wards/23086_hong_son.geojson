@@ -8178,11 +8178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Sơn",
-        "unit_code": "23086",
-        "unit_code_name": "hong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3078",
-        "area_km2": 189.01
+        "code": "23086",
+        "name": "Hồng Sơn",
+        "nameEn": "Hong Son",
+        "fullName": "Xã Hồng Sơn",
+        "fullNameEn": "Hong Son Commune",
+        "codeName": "hong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3078",
+        "areaKm2": 189.01
       }
     }
   ]

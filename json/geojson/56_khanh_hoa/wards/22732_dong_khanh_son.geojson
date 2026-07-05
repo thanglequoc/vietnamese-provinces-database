@@ -8602,11 +8602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Khánh Sơn",
-        "unit_code": "22732",
-        "unit_code_name": "dong_khanh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1140",
-        "area_km2": 114.3
+        "code": "22732",
+        "name": "Đông Khánh Sơn",
+        "nameEn": "Dong Khanh Son",
+        "fullName": "Xã Đông Khánh Sơn",
+        "fullNameEn": "Dong Khanh Son Commune",
+        "codeName": "dong_khanh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1140",
+        "areaKm2": 114.3
       }
     }
   ]

@@ -6634,11 +6634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thắng Lộc",
-        "unit_code": "15643",
-        "unit_code_name": "thang_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2566",
-        "area_km2": 73.75
+        "code": "15643",
+        "name": "Thắng Lộc",
+        "nameEn": "Thang Loc",
+        "fullName": "Xã Thắng Lộc",
+        "fullNameEn": "Thang Loc Commune",
+        "codeName": "thang_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2566",
+        "areaKm2": 73.75
       }
     }
   ]

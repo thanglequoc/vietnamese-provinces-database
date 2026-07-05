@@ -2858,11 +2858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Hà",
-        "unit_code": "13609",
-        "unit_code_name": "nhan_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2765",
-        "area_km2": 23.98
+        "code": "13609",
+        "name": "Nhân Hà",
+        "nameEn": "Nhan Ha",
+        "fullName": "Xã Nhân Hà",
+        "fullNameEn": "Nhan Ha Commune",
+        "codeName": "nhan_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2765",
+        "areaKm2": 23.98
       }
     }
   ]

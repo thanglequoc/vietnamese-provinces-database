@@ -1090,11 +1090,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vũ Tiên",
-        "unit_code": "13279",
-        "unit_code_name": "vu_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.683",
-        "area_km2": 32.68
+        "code": "13279",
+        "name": "Vũ Tiên",
+        "nameEn": "Vu Tien",
+        "fullName": "Xã Vũ Tiên",
+        "fullNameEn": "Vu Tien Commune",
+        "codeName": "vu_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.683",
+        "areaKm2": 32.68
       }
     }
   ]

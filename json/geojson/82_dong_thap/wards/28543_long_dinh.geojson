@@ -6866,11 +6866,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Định",
-        "unit_code": "28543",
-        "unit_code_name": "long_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.476",
-        "area_km2": 43.8
+        "code": "28543",
+        "name": "Long Định",
+        "nameEn": "Long Dinh",
+        "fullName": "Xã Long Định",
+        "fullNameEn": "Long Dinh Commune",
+        "codeName": "long_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.476",
+        "areaKm2": 43.8
       }
     }
   ]

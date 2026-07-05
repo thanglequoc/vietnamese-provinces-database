@@ -7614,11 +7614,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nông Trang",
-        "unit_code": "07894",
-        "unit_code_name": "nong_trang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1558",
-        "area_km2": 15.89
+        "code": "07894",
+        "name": "Nông Trang",
+        "nameEn": "Nong Trang",
+        "fullName": "Phường Nông Trang",
+        "fullNameEn": "Nong Trang Ward",
+        "codeName": "nong_trang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1558",
+        "areaKm2": 15.89
       }
     }
   ]

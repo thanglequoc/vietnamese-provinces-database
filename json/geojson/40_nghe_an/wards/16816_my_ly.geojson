@@ -10226,11 +10226,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Lý",
-        "unit_code": "16816",
-        "unit_code_name": "my_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1497",
-        "area_km2": 211.03
+        "code": "16816",
+        "name": "Mỹ Lý",
+        "nameEn": "My Ly",
+        "fullName": "Xã Mỹ Lý",
+        "fullNameEn": "My Ly Commune",
+        "codeName": "my_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1497",
+        "areaKm2": 211.03
       }
     }
   ]

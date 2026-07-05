@@ -8406,11 +8406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Bình",
-        "unit_code": "26803",
-        "unit_code_name": "tam_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.47",
-        "area_km2": 10.71
+        "code": "26803",
+        "name": "Tam Bình",
+        "nameEn": "Tam Binh",
+        "fullName": "Phường Tam Bình",
+        "fullNameEn": "Tam Binh Ward",
+        "codeName": "tam_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.47",
+        "areaKm2": 10.71
       }
     }
   ]

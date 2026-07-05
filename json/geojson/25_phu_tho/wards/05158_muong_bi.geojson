@@ -6162,11 +6162,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Bi",
-        "unit_code": "05158",
-        "unit_code_name": "muong_bi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1641",
-        "area_km2": 94.79
+        "code": "05158",
+        "name": "Mường Bi",
+        "nameEn": "Muong Bi",
+        "fullName": "Xã Mường Bi",
+        "fullNameEn": "Muong Bi Commune",
+        "codeName": "muong_bi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1641",
+        "areaKm2": 94.79
       }
     }
   ]

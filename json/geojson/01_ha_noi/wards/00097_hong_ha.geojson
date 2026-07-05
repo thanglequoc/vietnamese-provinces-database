@@ -1594,11 +1594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Hà",
-        "unit_code": "00097",
-        "unit_code_name": "hong_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3169",
-        "area_km2": 15.09
+        "code": "00097",
+        "name": "Hồng Hà",
+        "nameEn": "Hong Ha",
+        "fullName": "Phường Hồng Hà",
+        "fullNameEn": "Hong Ha Ward",
+        "codeName": "hong_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3169",
+        "areaKm2": 15.09
       }
     }
   ]

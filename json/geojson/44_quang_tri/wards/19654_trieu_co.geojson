@@ -6110,11 +6110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Cơ",
-        "unit_code": "19654",
-        "unit_code_name": "trieu_co",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.588",
-        "area_km2": 44.54
+        "code": "19654",
+        "name": "Triệu Cơ",
+        "nameEn": "Trieu Co",
+        "fullName": "Xã Triệu Cơ",
+        "fullNameEn": "Trieu Co Commune",
+        "codeName": "trieu_co",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.588",
+        "areaKm2": 44.54
       }
     }
   ]

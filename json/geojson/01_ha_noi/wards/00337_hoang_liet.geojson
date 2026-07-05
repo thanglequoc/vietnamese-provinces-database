@@ -1878,11 +1878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Liệt",
-        "unit_code": "00337",
-        "unit_code_name": "hoang_liet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3188",
-        "area_km2": 4.04
+        "code": "00337",
+        "name": "Hoàng Liệt",
+        "nameEn": "Hoang Liet",
+        "fullName": "Phường Hoàng Liệt",
+        "fullNameEn": "Hoang Liet Ward",
+        "codeName": "hoang_liet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3188",
+        "areaKm2": 4.04
       }
     }
   ]

@@ -16974,11 +16974,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Tuy",
-        "unit_code": "01156",
-        "unit_code_name": "vinh_tuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2427",
-        "area_km2": 115.85
+        "code": "01156",
+        "name": "Vĩnh Tuy",
+        "nameEn": "Vinh Tuy",
+        "fullName": "Xã Vĩnh Tuy",
+        "fullNameEn": "Vinh Tuy Commune",
+        "codeName": "vinh_tuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2427",
+        "areaKm2": 115.85
       }
     }
   ]

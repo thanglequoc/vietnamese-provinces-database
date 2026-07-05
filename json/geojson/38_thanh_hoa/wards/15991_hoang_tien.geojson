@@ -2766,11 +2766,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoằng Tiến",
-        "unit_code": "15991",
-        "unit_code_name": "hoang_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2602",
-        "area_km2": 23.79
+        "code": "15991",
+        "name": "Hoằng Tiến",
+        "nameEn": "Hoang Tien",
+        "fullName": "Xã Hoằng Tiến",
+        "fullNameEn": "Hoang Tien Commune",
+        "codeName": "hoang_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2602",
+        "areaKm2": 23.79
       }
     }
   ]

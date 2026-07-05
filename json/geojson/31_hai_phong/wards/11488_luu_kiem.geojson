@@ -3166,11 +3166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lưu Kiếm",
-        "unit_code": "11488",
-        "unit_code_name": "luu_kiem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.921",
-        "area_km2": 42.17
+        "code": "11488",
+        "name": "Lưu Kiếm",
+        "nameEn": "Luu Kiem",
+        "fullName": "Phường Lưu Kiếm",
+        "fullNameEn": "Luu Kiem Ward",
+        "codeName": "luu_kiem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.921",
+        "areaKm2": 42.17
       }
     }
   ]

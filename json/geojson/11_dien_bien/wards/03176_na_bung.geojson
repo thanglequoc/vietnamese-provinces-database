@@ -11858,11 +11858,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nà Bủng",
-        "unit_code": "03176",
-        "unit_code_name": "na_bung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2237",
-        "area_km2": 162.52
+        "code": "03176",
+        "name": "Nà Bủng",
+        "nameEn": "Na Bung",
+        "fullName": "Xã Nà Bủng",
+        "fullNameEn": "Na Bung Commune",
+        "codeName": "na_bung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2237",
+        "areaKm2": 162.52
       }
     }
   ]

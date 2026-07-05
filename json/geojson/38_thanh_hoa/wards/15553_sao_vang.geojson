@@ -6690,11 +6690,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sao Vàng",
-        "unit_code": "15553",
-        "unit_code_name": "sao_vang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2663",
-        "area_km2": 89.27
+        "code": "15553",
+        "name": "Sao Vàng",
+        "nameEn": "Sao Vang",
+        "fullName": "Xã Sao Vàng",
+        "fullNameEn": "Sao Vang Commune",
+        "codeName": "sao_vang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2663",
+        "areaKm2": 89.27
       }
     }
   ]

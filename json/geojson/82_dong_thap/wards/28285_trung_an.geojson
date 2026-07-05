@@ -5194,11 +5194,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung An",
-        "unit_code": "28285",
-        "unit_code_name": "trung_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.446",
-        "area_km2": 23.4
+        "code": "28285",
+        "name": "Trung An",
+        "nameEn": "Trung An",
+        "fullName": "Phường Trung An",
+        "fullNameEn": "Trung An Ward",
+        "codeName": "trung_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.446",
+        "areaKm2": 23.4
       }
     }
   ]

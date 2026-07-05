@@ -7514,11 +7514,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Tân",
-        "unit_code": "31759",
-        "unit_code_name": "lam_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.298",
-        "area_km2": 90.83
+        "code": "31759",
+        "name": "Lâm Tân",
+        "nameEn": "Lam Tan",
+        "fullName": "Xã Lâm Tân",
+        "fullNameEn": "Lam Tan Commune",
+        "codeName": "lam_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.298",
+        "areaKm2": 90.83
       }
     }
   ]

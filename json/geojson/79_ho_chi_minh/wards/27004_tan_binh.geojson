@@ -846,11 +846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Bình",
-        "unit_code": "27004",
-        "unit_code_name": "tan_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.68",
-        "area_km2": 2.12
+        "code": "27004",
+        "name": "Tân Bình",
+        "nameEn": "Tan Binh",
+        "fullName": "Phường Tân Bình",
+        "fullNameEn": "Tan Binh Ward",
+        "codeName": "tan_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.68",
+        "areaKm2": 2.12
       }
     }
   ]

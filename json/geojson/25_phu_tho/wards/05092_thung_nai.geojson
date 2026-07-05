@@ -5274,11 +5274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thung Nai",
-        "unit_code": "05092",
-        "unit_code_name": "thung_nai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1667",
-        "area_km2": 86.34
+        "code": "05092",
+        "name": "Thung Nai",
+        "nameEn": "Thung Nai",
+        "fullName": "Xã Thung Nai",
+        "fullNameEn": "Thung Nai Commune",
+        "codeName": "thung_nai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1667",
+        "areaKm2": 86.34
       }
     }
   ]

@@ -20034,11 +20034,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cái Nước",
-        "unit_code": "32128",
-        "unit_code_name": "cai_nuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.181",
-        "area_km2": 118.25
+        "code": "32128",
+        "name": "Cái Nước",
+        "nameEn": "Cai Nuoc",
+        "fullName": "Xã Cái Nước",
+        "fullNameEn": "Cai Nuoc Commune",
+        "codeName": "cai_nuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.181",
+        "areaKm2": 118.25
       }
     }
   ]

@@ -11218,11 +11218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh An",
-        "unit_code": "03352",
-        "unit_code_name": "thanh_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2265",
-        "area_km2": 57.23
+        "code": "03352",
+        "name": "Thanh An",
+        "nameEn": "Thanh An",
+        "fullName": "Xã Thanh An",
+        "fullNameEn": "Thanh An Commune",
+        "codeName": "thanh_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2265",
+        "areaKm2": 57.23
       }
     }
   ]

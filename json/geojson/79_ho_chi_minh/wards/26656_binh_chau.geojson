@@ -11182,11 +11182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Châu",
-        "unit_code": "26656",
-        "unit_code_name": "binh_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2216",
-        "area_km2": 87.06
+        "code": "26656",
+        "name": "Bình Châu",
+        "nameEn": "Binh Chau",
+        "fullName": "Xã Bình Châu",
+        "fullNameEn": "Binh Chau Commune",
+        "codeName": "binh_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2216",
+        "areaKm2": 87.06
       }
     }
   ]

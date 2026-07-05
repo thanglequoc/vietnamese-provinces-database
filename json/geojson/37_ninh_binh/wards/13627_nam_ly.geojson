@@ -1518,11 +1518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Lý",
-        "unit_code": "13627",
-        "unit_code_name": "nam_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2764",
-        "area_km2": 28.69
+        "code": "13627",
+        "name": "Nam Lý",
+        "nameEn": "Nam Ly",
+        "fullName": "Xã Nam Lý",
+        "fullNameEn": "Nam Ly Commune",
+        "codeName": "nam_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2764",
+        "areaKm2": 28.69
       }
     }
   ]

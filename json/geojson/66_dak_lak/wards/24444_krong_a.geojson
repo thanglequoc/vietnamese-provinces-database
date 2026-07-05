@@ -32746,11 +32746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Krông Á",
-        "unit_code": "24444",
-        "unit_code_name": "krong_a",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2857",
-        "area_km2": 291.6
+        "code": "24444",
+        "name": "Krông Á",
+        "nameEn": "Krong A",
+        "fullName": "Xã Krông Á",
+        "fullNameEn": "Krong A Commune",
+        "codeName": "krong_a",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2857",
+        "areaKm2": 291.6
       }
     }
   ]

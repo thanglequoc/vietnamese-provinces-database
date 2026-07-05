@@ -2434,11 +2434,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Phú",
-        "unit_code": "09154",
-        "unit_code_name": "vinh_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1639",
-        "area_km2": 34.6
+        "code": "09154",
+        "name": "Vĩnh Phú",
+        "nameEn": "Vinh Phu",
+        "fullName": "Xã Vĩnh Phú",
+        "fullNameEn": "Vinh Phu Commune",
+        "codeName": "vinh_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1639",
+        "areaKm2": 34.6
       }
     }
   ]

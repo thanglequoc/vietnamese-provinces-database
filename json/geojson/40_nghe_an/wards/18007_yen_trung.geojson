@@ -3830,11 +3830,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Trung",
-        "unit_code": "18007",
-        "unit_code_name": "yen_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1536",
-        "area_km2": 37.74
+        "code": "18007",
+        "name": "Yên Trung",
+        "nameEn": "Yen Trung",
+        "fullName": "Xã Yên Trung",
+        "fullNameEn": "Yen Trung Commune",
+        "codeName": "yen_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1536",
+        "areaKm2": 37.74
       }
     }
   ]

@@ -3058,11 +3058,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tứ Mỹ",
-        "unit_code": "18202",
-        "unit_code_name": "tu_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2048",
-        "area_km2": 38.68
+        "code": "18202",
+        "name": "Tứ Mỹ",
+        "nameEn": "Tu My",
+        "fullName": "Xã Tứ Mỹ",
+        "fullNameEn": "Tu My Commune",
+        "codeName": "tu_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2048",
+        "areaKm2": 38.68
       }
     }
   ]

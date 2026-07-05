@@ -7542,11 +7542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thuỷ",
-        "unit_code": "05353",
-        "unit_code_name": "yen_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1668",
-        "area_km2": 76.19
+        "code": "05353",
+        "name": "Yên Thuỷ",
+        "nameEn": "Yen Thuy",
+        "fullName": "Xã Yên Thuỷ",
+        "fullNameEn": "Yen Thuy Commune",
+        "codeName": "yen_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1668",
+        "areaKm2": 76.19
       }
     }
   ]

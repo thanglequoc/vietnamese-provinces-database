@@ -6202,11 +6202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thốt Nốt",
-        "unit_code": "31207",
-        "unit_code_name": "thot_not",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.214",
-        "area_km2": 23.61
+        "code": "31207",
+        "name": "Thốt Nốt",
+        "nameEn": "Thot Not",
+        "fullName": "Phường Thốt Nốt",
+        "fullNameEn": "Thot Not Ward",
+        "codeName": "thot_not",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.214",
+        "areaKm2": 23.61
       }
     }
   ]

@@ -11878,11 +11878,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phượng Tiến",
-        "unit_code": "05563",
-        "unit_code_name": "phuong_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1205",
-        "area_km2": 102.7
+        "code": "05563",
+        "name": "Phượng Tiến",
+        "nameEn": "Phuong Tien",
+        "fullName": "Xã Phượng Tiến",
+        "fullNameEn": "Phuong Tien Commune",
+        "codeName": "phuong_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1205",
+        "areaKm2": 102.7
       }
     }
   ]

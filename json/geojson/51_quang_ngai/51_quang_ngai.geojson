@@ -19358,11 +19358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Ngãi",
-        "unit_code": "51",
-        "unit_code_name": "quang_ngai",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.130",
-        "area_km2": 14832.55
+        "code": "51",
+        "name": "Quảng Ngãi",
+        "nameEn": "Quang Ngai",
+        "fullName": "Tỉnh Quảng Ngãi",
+        "fullNameEn": "Quang Ngai Province",
+        "codeName": "quang_ngai",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.130",
+        "areaKm2": 14832.55
       }
     }
   ]

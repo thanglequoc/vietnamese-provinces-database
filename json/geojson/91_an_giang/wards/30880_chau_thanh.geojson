@@ -16774,11 +16774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Thành",
-        "unit_code": "30880",
-        "unit_code_name": "chau_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.375",
-        "area_km2": 107.64
+        "code": "30880",
+        "name": "Châu Thành",
+        "nameEn": "Chau Thanh",
+        "fullName": "Xã Châu Thành",
+        "fullNameEn": "Chau Thanh Commune",
+        "codeName": "chau_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.375",
+        "areaKm2": 107.64
       }
     }
   ]

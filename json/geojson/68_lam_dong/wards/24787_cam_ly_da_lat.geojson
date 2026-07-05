@@ -10046,11 +10046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Ly - Đà Lạt",
-        "unit_code": "24787",
-        "unit_code_name": "cam_ly_da_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.509",
-        "area_km2": 80.92
+        "code": "24787",
+        "name": "Cam Ly - Đà Lạt",
+        "nameEn": "Cam Ly - Da Lat",
+        "fullName": "Phường Cam Ly - Đà Lạt",
+        "fullNameEn": "Cam Ly - Da Lat Ward",
+        "codeName": "cam_ly_da_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.509",
+        "areaKm2": 80.92
       }
     }
   ]

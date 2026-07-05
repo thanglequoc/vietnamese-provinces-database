@@ -10026,11 +10026,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Bôn",
-        "unit_code": "01294",
-        "unit_code_name": "ly_bon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.969",
-        "area_km2": 173.25
+        "code": "01294",
+        "name": "Lý Bôn",
+        "nameEn": "Ly Bon",
+        "fullName": "Xã Lý Bôn",
+        "fullNameEn": "Ly Bon Commune",
+        "codeName": "ly_bon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.969",
+        "areaKm2": 173.25
       }
     }
   ]

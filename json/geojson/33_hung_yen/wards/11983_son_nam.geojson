@@ -1874,11 +1874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Nam",
-        "unit_code": "11983",
-        "unit_code_name": "son_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.722",
-        "area_km2": 23.62
+        "code": "11983",
+        "name": "Sơn Nam",
+        "nameEn": "Son Nam",
+        "fullName": "Phường Sơn Nam",
+        "fullNameEn": "Son Nam Ward",
+        "codeName": "son_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.722",
+        "areaKm2": 23.62
       }
     }
   ]

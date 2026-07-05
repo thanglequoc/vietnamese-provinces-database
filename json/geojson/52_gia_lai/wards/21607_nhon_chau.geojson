@@ -714,11 +714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Châu",
-        "unit_code": "21607",
-        "unit_code_name": "nhon_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3286",
-        "area_km2": 3.62
+        "code": "21607",
+        "name": "Nhơn Châu",
+        "nameEn": "Nhon Chau",
+        "fullName": "Xã Nhơn Châu",
+        "fullNameEn": "Nhon Chau Commune",
+        "codeName": "nhon_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3286",
+        "areaKm2": 3.62
       }
     }
   ]

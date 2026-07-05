@@ -5646,11 +5646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Triệu Bình",
-        "unit_code": "19645",
-        "unit_code_name": "trieu_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.573",
-        "area_km2": 37.2
+        "code": "19645",
+        "name": "Triệu Bình",
+        "nameEn": "Trieu Binh",
+        "fullName": "Xã Triệu Bình",
+        "fullNameEn": "Trieu Binh Commune",
+        "codeName": "trieu_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.573",
+        "areaKm2": 37.2
       }
     }
   ]

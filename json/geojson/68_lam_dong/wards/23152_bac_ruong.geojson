@@ -10546,11 +10546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Ruộng",
-        "unit_code": "23152",
-        "unit_code_name": "bac_ruong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3086",
-        "area_km2": 165.33
+        "code": "23152",
+        "name": "Bắc Ruộng",
+        "nameEn": "Bac Ruong",
+        "fullName": "Xã Bắc Ruộng",
+        "fullNameEn": "Bac Ruong Commune",
+        "codeName": "bac_ruong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3086",
+        "areaKm2": 165.33
       }
     }
   ]

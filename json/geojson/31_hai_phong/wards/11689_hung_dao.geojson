@@ -1854,11 +1854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Đạo",
-        "unit_code": "11689",
-        "unit_code_name": "hung_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.928",
-        "area_km2": 18.64
+        "code": "11689",
+        "name": "Hưng Đạo",
+        "nameEn": "Hung Dao",
+        "fullName": "Phường Hưng Đạo",
+        "fullNameEn": "Hung Dao Ward",
+        "codeName": "hung_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.928",
+        "areaKm2": 18.64
       }
     }
   ]

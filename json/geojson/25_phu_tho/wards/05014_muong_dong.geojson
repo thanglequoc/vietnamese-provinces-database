@@ -12634,11 +12634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Động",
-        "unit_code": "05014",
-        "unit_code_name": "muong_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1652",
-        "area_km2": 144.69
+        "code": "05014",
+        "name": "Mường Động",
+        "nameEn": "Muong Dong",
+        "fullName": "Xã Mường Động",
+        "fullNameEn": "Muong Dong Commune",
+        "codeName": "muong_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1652",
+        "areaKm2": 144.69
       }
     }
   ]

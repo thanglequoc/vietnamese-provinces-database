@@ -8050,11 +8050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thông",
-        "unit_code": "01981",
-        "unit_code_name": "vinh_thong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1252",
-        "area_km2": 129.55
+        "code": "01981",
+        "name": "Vĩnh Thông",
+        "nameEn": "Vinh Thong",
+        "fullName": "Xã Vĩnh Thông",
+        "fullNameEn": "Vinh Thong Commune",
+        "codeName": "vinh_thong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1252",
+        "areaKm2": 129.55
       }
     }
   ]

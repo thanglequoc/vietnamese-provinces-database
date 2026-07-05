@@ -8530,11 +8530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Sơn",
-        "unit_code": "14407",
-        "unit_code_name": "phu_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.756",
-        "area_km2": 41.12
+        "code": "14407",
+        "name": "Phú Sơn",
+        "nameEn": "Phu Son",
+        "fullName": "Xã Phú Sơn",
+        "fullNameEn": "Phu Son Commune",
+        "codeName": "phu_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.756",
+        "areaKm2": 41.12
       }
     }
   ]

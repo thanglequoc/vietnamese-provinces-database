@@ -2638,11 +2638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Trung",
-        "unit_code": "09205",
-        "unit_code_name": "yen_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2123",
-        "area_km2": 18.34
+        "code": "09205",
+        "name": "Yên Trung",
+        "nameEn": "Yen Trung",
+        "fullName": "Xã Yên Trung",
+        "fullNameEn": "Yen Trung Commune",
+        "codeName": "yen_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2123",
+        "areaKm2": 18.34
       }
     }
   ]

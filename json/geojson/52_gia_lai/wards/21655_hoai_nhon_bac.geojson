@@ -7490,11 +7490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Nhơn Bắc",
-        "unit_code": "21655",
-        "unit_code_name": "hoai_nhon_bac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2974",
-        "area_km2": 89.45
+        "code": "21655",
+        "name": "Hoài Nhơn Bắc",
+        "nameEn": "Hoai Nhon Bac",
+        "fullName": "Phường Hoài Nhơn Bắc",
+        "fullNameEn": "Hoai Nhon Bac Ward",
+        "codeName": "hoai_nhon_bac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2974",
+        "areaKm2": 89.45
       }
     }
   ]

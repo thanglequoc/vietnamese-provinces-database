@@ -3838,11 +3838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bồng Lai",
-        "unit_code": "09295",
-        "unit_code_name": "bong_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2185",
-        "area_km2": 19.76
+        "code": "09295",
+        "name": "Bồng Lai",
+        "nameEn": "Bong Lai",
+        "fullName": "Phường Bồng Lai",
+        "fullNameEn": "Bong Lai Ward",
+        "codeName": "bong_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2185",
+        "areaKm2": 19.76
       }
     }
   ]

@@ -9926,11 +9926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Lài",
-        "unit_code": "26134",
-        "unit_code_name": "ta_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3154",
-        "area_km2": 83.3
+        "code": "26134",
+        "name": "Tà Lài",
+        "nameEn": "Ta Lai",
+        "fullName": "Xã Tà Lài",
+        "fullNameEn": "Ta Lai Commune",
+        "codeName": "ta_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3154",
+        "areaKm2": 83.3
       }
     }
   ]

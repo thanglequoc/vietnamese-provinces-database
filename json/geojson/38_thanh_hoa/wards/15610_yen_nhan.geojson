@@ -7498,11 +7498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Nhân",
-        "unit_code": "15610",
-        "unit_code_name": "yen_nhan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2561",
-        "area_km2": 188.7
+        "code": "15610",
+        "name": "Yên Nhân",
+        "nameEn": "Yen Nhan",
+        "fullName": "Xã Yên Nhân",
+        "fullNameEn": "Yen Nhan Commune",
+        "codeName": "yen_nhan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2561",
+        "areaKm2": 188.7
       }
     }
   ]

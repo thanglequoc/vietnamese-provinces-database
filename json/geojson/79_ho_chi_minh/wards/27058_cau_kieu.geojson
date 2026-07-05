@@ -1670,11 +1670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cầu Kiệu",
-        "unit_code": "27058",
-        "unit_code_name": "cau_kieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.77",
-        "area_km2": 1.23
+        "code": "27058",
+        "name": "Cầu Kiệu",
+        "nameEn": "Cau Kieu",
+        "fullName": "Phường Cầu Kiệu",
+        "fullNameEn": "Cau Kieu Ward",
+        "codeName": "cau_kieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.77",
+        "areaKm2": 1.23
       }
     }
   ]

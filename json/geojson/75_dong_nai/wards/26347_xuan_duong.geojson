@@ -23050,11 +23050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Đường",
-        "unit_code": "26347",
-        "unit_code_name": "xuan_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3130",
-        "area_km2": 82.1
+        "code": "26347",
+        "name": "Xuân Đường",
+        "nameEn": "Xuan Duong",
+        "fullName": "Xã Xuân Đường",
+        "fullNameEn": "Xuan Duong Commune",
+        "codeName": "xuan_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3130",
+        "areaKm2": 82.1
       }
     }
   ]

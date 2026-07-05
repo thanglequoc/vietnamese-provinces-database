@@ -14322,11 +14322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vạn Tường",
-        "unit_code": "21061",
-        "unit_code_name": "van_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1735",
-        "area_km2": 109.28
+        "code": "21061",
+        "name": "Vạn Tường",
+        "nameEn": "Van Tuong",
+        "fullName": "Xã Vạn Tường",
+        "fullNameEn": "Van Tuong Commune",
+        "codeName": "van_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1735",
+        "areaKm2": 109.28
       }
     }
   ]

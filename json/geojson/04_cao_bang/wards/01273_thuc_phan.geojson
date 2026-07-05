@@ -4106,11 +4106,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thục Phán",
-        "unit_code": "01273",
-        "unit_code_name": "thuc_phan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.972",
-        "area_km2": 55.44
+        "code": "01273",
+        "name": "Thục Phán",
+        "nameEn": "Thuc Phan",
+        "fullName": "Phường Thục Phán",
+        "fullNameEn": "Thuc Phan Ward",
+        "codeName": "thuc_phan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.972",
+        "areaKm2": 55.44
       }
     }
   ]

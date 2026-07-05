@@ -18778,11 +18778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Quan",
-        "unit_code": "25351",
-        "unit_code_name": "tan_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2294",
-        "area_km2": 148.3
+        "code": "25351",
+        "name": "Tân Quan",
+        "nameEn": "Tan Quan",
+        "fullName": "Xã Tân Quan",
+        "fullNameEn": "Tan Quan Commune",
+        "codeName": "tan_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2294",
+        "areaKm2": 148.3
       }
     }
   ]

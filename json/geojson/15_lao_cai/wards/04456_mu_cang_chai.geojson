@@ -9294,11 +9294,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mù Cang Chải",
-        "unit_code": "04456",
-        "unit_code_name": "mu_cang_chai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1024",
-        "area_km2": 146.95
+        "code": "04456",
+        "name": "Mù Cang Chải",
+        "nameEn": "Mu Cang Chai",
+        "fullName": "Xã Mù Cang Chải",
+        "fullNameEn": "Mu Cang Chai Commune",
+        "codeName": "mu_cang_chai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1024",
+        "areaKm2": 146.95
       }
     }
   ]

@@ -21074,11 +21074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Suối Kiết",
-        "unit_code": "23188",
-        "unit_code_name": "suoi_kiet",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3089",
-        "area_km2": 378.61
+        "code": "23188",
+        "name": "Suối Kiết",
+        "nameEn": "Suoi Kiet",
+        "fullName": "Xã Suối Kiết",
+        "fullNameEn": "Suoi Kiet Commune",
+        "codeName": "suoi_kiet",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3089",
+        "areaKm2": 378.61
       }
     }
   ]

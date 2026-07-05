@@ -7518,11 +7518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Con Cuông",
-        "unit_code": "17254",
-        "unit_code_name": "con_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1413",
-        "area_km2": 155.45
+        "code": "17254",
+        "name": "Con Cuông",
+        "nameEn": "Con Cuong",
+        "fullName": "Xã Con Cuông",
+        "fullNameEn": "Con Cuong Commune",
+        "codeName": "con_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1413",
+        "areaKm2": 155.45
       }
     }
   ]

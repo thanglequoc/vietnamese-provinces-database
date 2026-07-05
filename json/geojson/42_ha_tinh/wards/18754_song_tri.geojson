@@ -5662,11 +5662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sông Trí",
-        "unit_code": "18754",
-        "unit_code_name": "song_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2016",
-        "area_km2": 69.9
+        "code": "18754",
+        "name": "Sông Trí",
+        "nameEn": "Song Tri",
+        "fullName": "Phường Sông Trí",
+        "fullNameEn": "Song Tri Ward",
+        "codeName": "song_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2016",
+        "areaKm2": 69.9
       }
     }
   ]

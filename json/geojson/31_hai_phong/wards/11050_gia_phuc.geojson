@@ -4146,11 +4146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Phúc",
-        "unit_code": "11050",
-        "unit_code_name": "gia_phuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.856",
-        "area_km2": 31.79
+        "code": "11050",
+        "name": "Gia Phúc",
+        "nameEn": "Gia Phuc",
+        "fullName": "Xã Gia Phúc",
+        "fullNameEn": "Gia Phuc Commune",
+        "codeName": "gia_phuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.856",
+        "areaKm2": 31.79
       }
     }
   ]

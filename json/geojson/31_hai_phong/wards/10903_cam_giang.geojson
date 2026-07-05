@@ -3186,11 +3186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Giàng",
-        "unit_code": "10903",
-        "unit_code_name": "cam_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.868",
-        "area_km2": 23.43
+        "code": "10903",
+        "name": "Cẩm Giàng",
+        "nameEn": "Cam Giang",
+        "fullName": "Xã Cẩm Giàng",
+        "fullNameEn": "Cam Giang Commune",
+        "codeName": "cam_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.868",
+        "areaKm2": 23.43
       }
     }
   ]

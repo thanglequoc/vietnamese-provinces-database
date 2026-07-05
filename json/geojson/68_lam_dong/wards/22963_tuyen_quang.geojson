@@ -13298,11 +13298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Quang",
-        "unit_code": "22963",
-        "unit_code_name": "tuyen_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3060",
-        "area_km2": 38.17
+        "code": "22963",
+        "name": "Tuyên Quang",
+        "nameEn": "Tuyen Quang",
+        "fullName": "Xã Tuyên Quang",
+        "fullNameEn": "Tuyen Quang Commune",
+        "codeName": "tuyen_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3060",
+        "areaKm2": 38.17
       }
     }
   ]

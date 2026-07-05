@@ -17346,11 +17346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Măng Bút",
-        "unit_code": "23455",
-        "unit_code_name": "mang_but",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1726",
-        "area_km2": 417.53
+        "code": "23455",
+        "name": "Măng Bút",
+        "nameEn": "Mang But",
+        "fullName": "Xã Măng Bút",
+        "fullNameEn": "Mang But Commune",
+        "codeName": "mang_but",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1726",
+        "areaKm2": 417.53
       }
     }
   ]

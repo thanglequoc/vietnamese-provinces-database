@@ -1914,11 +1914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Việt Hoà",
-        "unit_code": "10543",
-        "unit_code_name": "viet_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.854",
-        "area_km2": 17.02
+        "code": "10543",
+        "name": "Việt Hoà",
+        "nameEn": "Viet Hoa",
+        "fullName": "Phường Việt Hoà",
+        "fullNameEn": "Viet Hoa Ward",
+        "codeName": "viet_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.854",
+        "areaKm2": 17.02
       }
     }
   ]

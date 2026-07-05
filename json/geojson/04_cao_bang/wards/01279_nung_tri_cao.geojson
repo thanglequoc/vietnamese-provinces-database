@@ -4302,11 +4302,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nùng Trí Cao",
-        "unit_code": "01279",
-        "unit_code_name": "nung_tri_cao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.973",
-        "area_km2": 29.31
+        "code": "01279",
+        "name": "Nùng Trí Cao",
+        "nameEn": "Nung Tri Cao",
+        "fullName": "Phường Nùng Trí Cao",
+        "fullNameEn": "Nung Tri Cao Ward",
+        "codeName": "nung_tri_cao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.973",
+        "areaKm2": 29.31
       }
     }
   ]

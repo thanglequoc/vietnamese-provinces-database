@@ -3518,11 +3518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gò Quao",
-        "unit_code": "30952",
-        "unit_code_name": "go_quao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.384",
-        "area_km2": 83.92
+        "code": "30952",
+        "name": "Gò Quao",
+        "nameEn": "Go Quao",
+        "fullName": "Xã Gò Quao",
+        "fullNameEn": "Go Quao Commune",
+        "codeName": "go_quao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.384",
+        "areaKm2": 83.92
       }
     }
   ]

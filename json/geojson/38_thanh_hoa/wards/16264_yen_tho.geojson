@@ -11350,11 +11350,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thọ",
-        "unit_code": "16264",
-        "unit_code_name": "yen_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2683",
-        "area_km2": 80.63
+        "code": "16264",
+        "name": "Yên Thọ",
+        "nameEn": "Yen Tho",
+        "fullName": "Xã Yên Thọ",
+        "fullNameEn": "Yen Tho Commune",
+        "codeName": "yen_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2683",
+        "areaKm2": 80.63
       }
     }
   ]

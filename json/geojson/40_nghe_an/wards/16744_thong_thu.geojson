@@ -20010,11 +20010,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thông Thụ",
-        "unit_code": "16744",
-        "unit_code_name": "thong_thu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1492",
-        "area_km2": 706.75
+        "code": "16744",
+        "name": "Thông Thụ",
+        "nameEn": "Thong Thu",
+        "fullName": "Xã Thông Thụ",
+        "fullNameEn": "Thong Thu Commune",
+        "codeName": "thong_thu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1492",
+        "areaKm2": 706.75
       }
     }
   ]

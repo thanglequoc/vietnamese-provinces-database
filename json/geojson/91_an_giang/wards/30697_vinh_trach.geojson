@@ -7110,11 +7110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Trạch",
-        "unit_code": "30697",
-        "unit_code_name": "vinh_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.356",
-        "area_km2": 57.94
+        "code": "30697",
+        "name": "Vĩnh Trạch",
+        "nameEn": "Vinh Trach",
+        "fullName": "Xã Vĩnh Trạch",
+        "fullNameEn": "Vinh Trach Commune",
+        "codeName": "vinh_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.356",
+        "areaKm2": 57.94
       }
     }
   ]

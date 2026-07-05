@@ -4874,11 +4874,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mũi Né",
-        "unit_code": "22918",
-        "unit_code_name": "mui_ne",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3061",
-        "area_km2": 118.59
+        "code": "22918",
+        "name": "Mũi Né",
+        "nameEn": "Mui Ne",
+        "fullName": "Phường Mũi Né",
+        "fullNameEn": "Mui Ne Ward",
+        "codeName": "mui_ne",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3061",
+        "areaKm2": 118.59
       }
     }
   ]

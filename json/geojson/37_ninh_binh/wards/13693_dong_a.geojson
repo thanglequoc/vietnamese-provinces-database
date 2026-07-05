@@ -3886,11 +3886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông A",
-        "unit_code": "13693",
-        "unit_code_name": "dong_a",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.783",
-        "area_km2": 22.07
+        "code": "13693",
+        "name": "Đông A",
+        "nameEn": "Dong A",
+        "fullName": "Phường Đông A",
+        "fullNameEn": "Dong A Ward",
+        "codeName": "dong_a",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.783",
+        "areaKm2": 22.07
       }
     }
   ]

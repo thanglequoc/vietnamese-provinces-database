@@ -5150,11 +5150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Phú",
-        "unit_code": "31201",
-        "unit_code_name": "hung_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.213",
-        "area_km2": 40.93
+        "code": "31201",
+        "name": "Hưng Phú",
+        "nameEn": "Hung Phu",
+        "fullName": "Phường Hưng Phú",
+        "fullNameEn": "Hung Phu Ward",
+        "codeName": "hung_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.213",
+        "areaKm2": 40.93
       }
     }
   ]

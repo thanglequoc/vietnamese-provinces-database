@@ -4534,11 +4534,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Thuỷ",
-        "unit_code": "08674",
-        "unit_code_name": "thanh_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1571",
-        "area_km2": 31.08
+        "code": "08674",
+        "name": "Thanh Thuỷ",
+        "nameEn": "Thanh Thuy",
+        "fullName": "Xã Thanh Thuỷ",
+        "fullNameEn": "Thanh Thuy Commune",
+        "codeName": "thanh_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1571",
+        "areaKm2": 31.08
       }
     }
   ]

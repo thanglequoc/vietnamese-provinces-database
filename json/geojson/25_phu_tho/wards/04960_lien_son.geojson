@@ -13662,11 +13662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Sơn",
-        "unit_code": "04960",
-        "unit_code_name": "lien_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3295",
-        "area_km2": 120.21
+        "code": "04960",
+        "name": "Liên Sơn",
+        "nameEn": "Lien Son",
+        "fullName": "Xã Liên Sơn",
+        "fullNameEn": "Lien Son Commune",
+        "codeName": "lien_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3295",
+        "areaKm2": 120.21
       }
     }
   ]

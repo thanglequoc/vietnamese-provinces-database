@@ -4610,11 +4610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Hoà",
-        "unit_code": "31012",
-        "unit_code_name": "vinh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.397",
-        "area_km2": 146.23
+        "code": "31012",
+        "name": "Vĩnh Hoà",
+        "nameEn": "Vinh Hoa",
+        "fullName": "Xã Vĩnh Hoà",
+        "fullNameEn": "Vinh Hoa Commune",
+        "codeName": "vinh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.397",
+        "areaKm2": 146.23
       }
     }
   ]

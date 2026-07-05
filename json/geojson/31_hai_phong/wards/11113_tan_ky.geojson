@@ -3882,11 +3882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Kỳ",
-        "unit_code": "11113",
-        "unit_code_name": "tan_ky",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.895",
-        "area_km2": 27.76
+        "code": "11113",
+        "name": "Tân Kỳ",
+        "nameEn": "Tan Ky",
+        "fullName": "Xã Tân Kỳ",
+        "fullNameEn": "Tan Ky Commune",
+        "codeName": "tan_ky",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.895",
+        "areaKm2": 27.76
       }
     }
   ]

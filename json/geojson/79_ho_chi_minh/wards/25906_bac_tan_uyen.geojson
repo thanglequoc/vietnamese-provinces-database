@@ -8498,11 +8498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Tân Uyên",
-        "unit_code": "25906",
-        "unit_code_name": "bac_tan_uyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.24",
-        "area_km2": 143.69
+        "code": "25906",
+        "name": "Bắc Tân Uyên",
+        "nameEn": "Bac Tan Uyen",
+        "fullName": "Xã Bắc Tân Uyên",
+        "fullNameEn": "Bac Tan Uyen Commune",
+        "codeName": "bac_tan_uyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.24",
+        "areaKm2": 143.69
       }
     }
   ]

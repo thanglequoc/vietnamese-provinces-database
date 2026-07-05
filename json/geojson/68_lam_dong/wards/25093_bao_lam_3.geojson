@@ -24170,11 +24170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lâm 3",
-        "unit_code": "25093",
-        "unit_code_name": "bao_lam_3",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1267",
-        "area_km2": 152.13
+        "code": "25093",
+        "name": "Bảo Lâm 3",
+        "nameEn": "Bao Lam 3",
+        "fullName": "Xã Bảo Lâm 3",
+        "fullNameEn": "Commune Bao Lam 3",
+        "codeName": "bao_lam_3",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1267",
+        "areaKm2": 152.13
       }
     }
   ]

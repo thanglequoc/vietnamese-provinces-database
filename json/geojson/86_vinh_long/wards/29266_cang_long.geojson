@@ -10110,11 +10110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Càng Long",
-        "unit_code": "29266",
-        "unit_code_name": "cang_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2486",
-        "area_km2": 46.87
+        "code": "29266",
+        "name": "Càng Long",
+        "nameEn": "Cang Long",
+        "fullName": "Xã Càng Long",
+        "fullNameEn": "Cang Long Commune",
+        "codeName": "cang_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2486",
+        "areaKm2": 46.87
       }
     }
   ]

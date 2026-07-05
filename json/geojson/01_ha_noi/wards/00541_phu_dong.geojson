@@ -6074,11 +6074,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Đổng",
-        "unit_code": "00541",
-        "unit_code_name": "phu_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3172",
-        "area_km2": 41.62
+        "code": "00541",
+        "name": "Phù Đổng",
+        "nameEn": "Phu Dong",
+        "fullName": "Xã Phù Đổng",
+        "fullNameEn": "Phu Dong Commune",
+        "codeName": "phu_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3172",
+        "areaKm2": 41.62
       }
     }
   ]

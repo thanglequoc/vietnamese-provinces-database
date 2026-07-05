@@ -8538,11 +8538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hội Hoan",
-        "unit_code": "06151",
-        "unit_code_name": "hoi_hoan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1809",
-        "area_km2": 117.43
+        "code": "06151",
+        "name": "Hội Hoan",
+        "nameEn": "Hoi Hoan",
+        "fullName": "Xã Hội Hoan",
+        "fullNameEn": "Hoi Hoan Commune",
+        "codeName": "hoi_hoan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1809",
+        "areaKm2": 117.43
       }
     }
   ]

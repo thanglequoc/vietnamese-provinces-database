@@ -8270,11 +8270,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quân Chu",
-        "unit_code": "05851",
-        "unit_code_name": "quan_chu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1193",
-        "area_km2": 79.38
+        "code": "05851",
+        "name": "Quân Chu",
+        "nameEn": "Quan Chu",
+        "fullName": "Xã Quân Chu",
+        "fullNameEn": "Quan Chu Commune",
+        "codeName": "quan_chu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1193",
+        "areaKm2": 79.38
       }
     }
   ]

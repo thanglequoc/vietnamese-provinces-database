@@ -13166,11 +13166,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trạm Tấu",
-        "unit_code": "04606",
-        "unit_code_name": "tram_tau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1039",
-        "area_km2": 238.29
+        "code": "04606",
+        "name": "Trạm Tấu",
+        "nameEn": "Tram Tau",
+        "fullName": "Xã Trạm Tấu",
+        "fullNameEn": "Tram Tau Commune",
+        "codeName": "tram_tau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1039",
+        "areaKm2": 238.29
       }
     }
   ]

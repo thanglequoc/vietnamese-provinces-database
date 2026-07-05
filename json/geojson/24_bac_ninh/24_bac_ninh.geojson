@@ -5202,11 +5202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Ninh",
-        "unit_code": "24",
-        "unit_code_name": "bac_ninh",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.102",
-        "area_km2": 4718.6
+        "code": "24",
+        "name": "Bắc Ninh",
+        "nameEn": "Bac Ninh",
+        "fullName": "Tỉnh Bắc Ninh",
+        "fullNameEn": "Bac Ninh Province",
+        "codeName": "bac_ninh",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.102",
+        "areaKm2": 4718.6
       }
     }
   ]

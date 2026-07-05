@@ -5458,11 +5458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Đài",
-        "unit_code": "22076",
-        "unit_code_name": "xuan_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2897",
-        "area_km2": 13.4
+        "code": "22076",
+        "name": "Xuân Đài",
+        "nameEn": "Xuan Dai",
+        "fullName": "Phường Xuân Đài",
+        "fullNameEn": "Xuan Dai Ward",
+        "codeName": "xuan_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2897",
+        "areaKm2": 13.4
       }
     }
   ]

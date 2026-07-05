@@ -10550,11 +10550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngô Mây",
-        "unit_code": "21901",
-        "unit_code_name": "ngo_may",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3002",
-        "area_km2": 61.42
+        "code": "21901",
+        "name": "Ngô Mây",
+        "nameEn": "Ngo May",
+        "fullName": "Xã Ngô Mây",
+        "fullNameEn": "Ngo May Commune",
+        "codeName": "ngo_may",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3002",
+        "areaKm2": 61.42
       }
     }
   ]

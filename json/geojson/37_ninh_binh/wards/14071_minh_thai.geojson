@@ -2182,11 +2182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Thái",
-        "unit_code": "14071",
-        "unit_code_name": "minh_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.825",
-        "area_km2": 23.44
+        "code": "14071",
+        "name": "Minh Thái",
+        "nameEn": "Minh Thai",
+        "fullName": "Xã Minh Thái",
+        "fullNameEn": "Minh Thai Commune",
+        "codeName": "minh_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.825",
+        "areaKm2": 23.44
       }
     }
   ]

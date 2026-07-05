@@ -7706,11 +7706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Mỹ",
-        "unit_code": "31471",
-        "unit_code_name": "long_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.255",
-        "area_km2": 51.4
+        "code": "31471",
+        "name": "Long Mỹ",
+        "nameEn": "Long My",
+        "fullName": "Phường Long Mỹ",
+        "fullNameEn": "Long My Ward",
+        "codeName": "long_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.255",
+        "areaKm2": 51.4
       }
     }
   ]

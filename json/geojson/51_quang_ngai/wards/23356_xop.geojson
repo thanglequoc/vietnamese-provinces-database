@@ -7098,11 +7098,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xốp",
-        "unit_code": "23356",
-        "unit_code_name": "xop",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.560",
-        "area_km2": 265.86
+        "code": "23356",
+        "name": "Xốp",
+        "nameEn": "Xop",
+        "fullName": "Xã Xốp",
+        "fullNameEn": "Xop Commune",
+        "codeName": "xop",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.560",
+        "areaKm2": 265.86
       }
     }
   ]

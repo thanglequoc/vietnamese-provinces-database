@@ -4546,11 +4546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Bình Thọ",
-        "unit_code": "17335",
-        "unit_code_name": "thanh_binh_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1420",
-        "area_km2": 88.18
+        "code": "17335",
+        "name": "Thành Bình Thọ",
+        "nameEn": "Thanh Binh Tho",
+        "fullName": "Xã Thành Bình Thọ",
+        "fullNameEn": "Thanh Binh Tho Commune",
+        "codeName": "thanh_binh_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1420",
+        "areaKm2": 88.18
       }
     }
   ]

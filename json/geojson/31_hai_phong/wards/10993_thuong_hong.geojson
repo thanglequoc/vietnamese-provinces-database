@@ -1598,11 +1598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thượng Hồng",
-        "unit_code": "10993",
-        "unit_code_name": "thuong_hong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.883",
-        "area_km2": 24.01
+        "code": "10993",
+        "name": "Thượng Hồng",
+        "nameEn": "Thuong Hong",
+        "fullName": "Xã Thượng Hồng",
+        "fullNameEn": "Thuong Hong Commune",
+        "codeName": "thuong_hong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.883",
+        "areaKm2": 24.01
       }
     }
   ]

@@ -3650,11 +3650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Nhơn Nam",
-        "unit_code": "21673",
-        "unit_code_name": "hoai_nhon_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2978",
-        "area_km2": 37.67
+        "code": "21673",
+        "name": "Hoài Nhơn Nam",
+        "nameEn": "Hoai Nhon Nam",
+        "fullName": "Phường Hoài Nhơn Nam",
+        "fullNameEn": "Hoai Nhon Nam Ward",
+        "codeName": "hoai_nhon_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2978",
+        "areaKm2": 37.67
       }
     }
   ]

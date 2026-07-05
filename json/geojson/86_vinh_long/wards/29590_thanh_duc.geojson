@@ -4774,11 +4774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Đức",
-        "unit_code": "29590",
-        "unit_code_name": "thanh_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2529",
-        "area_km2": 16.49
+        "code": "29590",
+        "name": "Thanh Đức",
+        "nameEn": "Thanh Duc",
+        "fullName": "Phường Thanh Đức",
+        "fullNameEn": "Thanh Duc Ward",
+        "codeName": "thanh_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2529",
+        "areaKm2": 16.49
       }
     }
   ]

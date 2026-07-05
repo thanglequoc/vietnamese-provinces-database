@@ -9630,11 +9630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bát Mọt",
-        "unit_code": "15607",
-        "unit_code_name": "bat_mot",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2560",
-        "area_km2": 205.73
+        "code": "15607",
+        "name": "Bát Mọt",
+        "nameEn": "Bat Mot",
+        "fullName": "Xã Bát Mọt",
+        "fullNameEn": "Bat Mot Commune",
+        "codeName": "bat_mot",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2560",
+        "areaKm2": 205.73
       }
     }
   ]

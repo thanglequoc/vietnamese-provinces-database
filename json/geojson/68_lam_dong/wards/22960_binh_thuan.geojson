@@ -17806,11 +17806,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Thuận",
-        "unit_code": "22960",
-        "unit_code_name": "binh_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3063",
-        "area_km2": 45.16
+        "code": "22960",
+        "name": "Bình Thuận",
+        "nameEn": "Binh Thuan",
+        "fullName": "Phường Bình Thuận",
+        "fullNameEn": "Binh Thuan Ward",
+        "codeName": "binh_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3063",
+        "areaKm2": 45.16
       }
     }
   ]

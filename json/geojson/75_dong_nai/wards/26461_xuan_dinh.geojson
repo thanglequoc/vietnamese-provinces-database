@@ -14938,11 +14938,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Định",
-        "unit_code": "26461",
-        "unit_code_name": "xuan_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3146",
-        "area_km2": 52.3
+        "code": "26461",
+        "name": "Xuân Định",
+        "nameEn": "Xuan Dinh",
+        "fullName": "Xã Xuân Định",
+        "fullNameEn": "Xuan Dinh Commune",
+        "codeName": "xuan_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3146",
+        "areaKm2": 52.3
       }
     }
   ]

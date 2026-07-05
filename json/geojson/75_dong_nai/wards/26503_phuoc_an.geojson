@@ -14298,11 +14298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước An",
-        "unit_code": "26503",
-        "unit_code_name": "phuoc_an",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3149",
-        "area_km2": 170.7
+        "code": "26503",
+        "name": "Phước An",
+        "nameEn": "Phuoc An",
+        "fullName": "Xã Phước An",
+        "fullNameEn": "Phuoc An Commune",
+        "codeName": "phuoc_an",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3149",
+        "areaKm2": 170.7
       }
     }
   ]

@@ -842,11 +842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàn Kiếm",
-        "unit_code": "00070",
-        "unit_code_name": "hoan_kiem",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3202",
-        "area_km2": 1.91
+        "code": "00070",
+        "name": "Hoàn Kiếm",
+        "nameEn": "Hoan Kiem",
+        "fullName": "Phường Hoàn Kiếm",
+        "fullNameEn": "Hoan Kiem Ward",
+        "codeName": "hoan_kiem",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3202",
+        "areaKm2": 1.91
       }
     }
   ]

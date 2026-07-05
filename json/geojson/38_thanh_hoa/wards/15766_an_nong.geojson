@@ -3634,11 +3634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Nông",
-        "unit_code": "15766",
-        "unit_code_name": "an_nong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2679",
-        "area_km2": 22.79
+        "code": "15766",
+        "name": "An Nông",
+        "nameEn": "An Nong",
+        "fullName": "Xã An Nông",
+        "fullNameEn": "An Nong Commune",
+        "codeName": "an_nong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2679",
+        "areaKm2": 22.79
       }
     }
   ]

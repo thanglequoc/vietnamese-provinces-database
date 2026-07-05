@@ -13954,11 +13954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắc Pring",
-        "unit_code": "20716",
-        "unit_code_name": "dac_pring",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1920",
-        "area_km2": 412.49
+        "code": "20716",
+        "name": "Đắc Pring",
+        "nameEn": "Dac Pring",
+        "fullName": "Xã Đắc Pring",
+        "fullNameEn": "Dac Pring Commune",
+        "codeName": "dac_pring",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1920",
+        "areaKm2": 412.49
       }
     }
   ]

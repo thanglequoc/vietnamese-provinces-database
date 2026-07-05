@@ -8582,11 +8582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Bình",
-        "unit_code": "05908",
-        "unit_code_name": "phu_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1235",
-        "area_km2": 44.18
+        "code": "05908",
+        "name": "Phú Bình",
+        "nameEn": "Phu Binh",
+        "fullName": "Xã Phú Bình",
+        "fullNameEn": "Phu Binh Commune",
+        "codeName": "phu_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1235",
+        "areaKm2": 44.18
       }
     }
   ]

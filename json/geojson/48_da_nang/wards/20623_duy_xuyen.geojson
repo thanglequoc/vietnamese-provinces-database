@@ -7178,11 +7178,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Duy Xuyên",
-        "unit_code": "20623",
-        "unit_code_name": "duy_xuyen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1937",
-        "area_km2": 125.78
+        "code": "20623",
+        "name": "Duy Xuyên",
+        "nameEn": "Duy Xuyen",
+        "fullName": "Xã Duy Xuyên",
+        "fullNameEn": "Duy Xuyen Commune",
+        "codeName": "duy_xuyen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1937",
+        "areaKm2": 125.78
       }
     }
   ]

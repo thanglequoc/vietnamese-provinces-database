@@ -4134,11 +4134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Giang",
-        "unit_code": "21250",
-        "unit_code_name": "nghia_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1742",
-        "area_km2": 47.74
+        "code": "21250",
+        "name": "Nghĩa Giang",
+        "nameEn": "Nghia Giang",
+        "fullName": "Xã Nghĩa Giang",
+        "fullNameEn": "Nghia Giang Commune",
+        "codeName": "nghia_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1742",
+        "areaKm2": 47.74
       }
     }
   ]

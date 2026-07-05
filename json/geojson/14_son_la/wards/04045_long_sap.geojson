@@ -10922,11 +10922,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lóng Sập",
-        "unit_code": "04045",
-        "unit_code_name": "long_sap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1378",
-        "area_km2": 211.3
+        "code": "04045",
+        "name": "Lóng Sập",
+        "nameEn": "Long Sap",
+        "fullName": "Xã Lóng Sập",
+        "fullNameEn": "Long Sap Commune",
+        "codeName": "long_sap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1378",
+        "areaKm2": 211.3
       }
     }
   ]

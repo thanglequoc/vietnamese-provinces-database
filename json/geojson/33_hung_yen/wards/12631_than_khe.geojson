@@ -4138,11 +4138,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thần Khê",
-        "unit_code": "12631",
-        "unit_code_name": "than_khe",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.658",
-        "area_km2": 20.39
+        "code": "12631",
+        "name": "Thần Khê",
+        "nameEn": "Than Khe",
+        "fullName": "Xã Thần Khê",
+        "fullNameEn": "Than Khe Commune",
+        "codeName": "than_khe",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.658",
+        "areaKm2": 20.39
       }
     }
   ]

@@ -13746,11 +13746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cốc Pàng",
-        "unit_code": "01324",
-        "unit_code_name": "coc_pang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.979",
-        "area_km2": 170.28
+        "code": "01324",
+        "name": "Cốc Pàng",
+        "nameEn": "Coc Pang",
+        "fullName": "Xã Cốc Pàng",
+        "fullNameEn": "Coc Pang Commune",
+        "codeName": "coc_pang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.979",
+        "areaKm2": 170.28
       }
     }
   ]

@@ -3518,11 +3518,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Xương",
-        "unit_code": "13075",
-        "unit_code_name": "kien_xuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.698",
-        "area_km2": 36.73
+        "code": "13075",
+        "name": "Kiến Xương",
+        "nameEn": "Kien Xuong",
+        "fullName": "Xã Kiến Xương",
+        "fullNameEn": "Kien Xuong Commune",
+        "codeName": "kien_xuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.698",
+        "areaKm2": 36.73
       }
     }
   ]

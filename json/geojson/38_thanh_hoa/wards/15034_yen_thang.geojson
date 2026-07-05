@@ -5610,11 +5610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thắng",
-        "unit_code": "15034",
-        "unit_code_name": "yen_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2718",
-        "area_km2": 95.22
+        "code": "15034",
+        "name": "Yên Thắng",
+        "nameEn": "Yen Thang",
+        "fullName": "Xã Yên Thắng",
+        "fullNameEn": "Yen Thang Commune",
+        "codeName": "yen_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2718",
+        "areaKm2": 95.22
       }
     }
   ]

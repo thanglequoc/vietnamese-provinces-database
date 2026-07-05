@@ -2758,11 +2758,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuệ Tĩnh",
-        "unit_code": "10909",
-        "unit_code_name": "tue_tinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.855",
-        "area_km2": 17.78
+        "code": "10909",
+        "name": "Tuệ Tĩnh",
+        "nameEn": "Tue Tinh",
+        "fullName": "Xã Tuệ Tĩnh",
+        "fullNameEn": "Tue Tinh Commune",
+        "codeName": "tue_tinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.855",
+        "areaKm2": 17.78
       }
     }
   ]

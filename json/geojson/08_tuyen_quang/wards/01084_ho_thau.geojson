@@ -10290,11 +10290,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồ Thầu",
-        "unit_code": "01084",
-        "unit_code_name": "ho_thau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2408",
-        "area_km2": 136.83
+        "code": "01084",
+        "name": "Hồ Thầu",
+        "nameEn": "Ho Thau",
+        "fullName": "Xã Hồ Thầu",
+        "fullNameEn": "Ho Thau Commune",
+        "codeName": "ho_thau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2408",
+        "areaKm2": 136.83
       }
     }
   ]

@@ -32582,11 +32582,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Ninh",
-        "unit_code": "22",
-        "unit_code_name": "quang_ninh",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.106",
-        "area_km2": 6207.95
+        "code": "22",
+        "name": "Quảng Ninh",
+        "nameEn": "Quang Ninh",
+        "fullName": "Tỉnh Quảng Ninh",
+        "fullNameEn": "Quang Ninh Province",
+        "codeName": "quang_ninh",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.106",
+        "areaKm2": 6207.95
       }
     }
   ]

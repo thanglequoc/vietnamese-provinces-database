@@ -17542,11 +17542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hua Bum",
-        "unit_code": "03460",
-        "unit_code_name": "hua_bum",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2072",
-        "area_km2": 355.72
+        "code": "03460",
+        "name": "Hua Bum",
+        "nameEn": "Hua Bum",
+        "fullName": "Xã Hua Bum",
+        "fullNameEn": "Hua Bum Commune",
+        "codeName": "hua_bum",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2072",
+        "areaKm2": 355.72
       }
     }
   ]

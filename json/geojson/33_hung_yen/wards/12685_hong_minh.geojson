@@ -4478,11 +4478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồng Minh",
-        "unit_code": "12685",
-        "unit_code_name": "hong_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.644",
-        "area_km2": 23.32
+        "code": "12685",
+        "name": "Hồng Minh",
+        "nameEn": "Hong Minh",
+        "fullName": "Xã Hồng Minh",
+        "fullNameEn": "Hong Minh Commune",
+        "codeName": "hong_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.644",
+        "areaKm2": 23.32
       }
     }
   ]

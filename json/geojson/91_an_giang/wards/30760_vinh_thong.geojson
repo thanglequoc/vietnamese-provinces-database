@@ -3598,11 +3598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Thông",
-        "unit_code": "30760",
-        "unit_code_name": "vinh_thong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.360",
-        "area_km2": 95.89
+        "code": "30760",
+        "name": "Vĩnh Thông",
+        "nameEn": "Vinh Thong",
+        "fullName": "Phường Vĩnh Thông",
+        "fullNameEn": "Vinh Thong Ward",
+        "codeName": "vinh_thong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.360",
+        "areaKm2": 95.89
       }
     }
   ]

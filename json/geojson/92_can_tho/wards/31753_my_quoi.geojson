@@ -7706,11 +7706,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Quới",
-        "unit_code": "31753",
-        "unit_code_name": "my_quoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.296",
-        "area_km2": 83.91
+        "code": "31753",
+        "name": "Mỹ Quới",
+        "nameEn": "My Quoi",
+        "fullName": "Phường Mỹ Quới",
+        "fullNameEn": "My Quoi Ward",
+        "codeName": "my_quoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.296",
+        "areaKm2": 83.91
       }
     }
   ]

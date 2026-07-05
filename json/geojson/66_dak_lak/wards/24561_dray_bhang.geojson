@@ -18426,11 +18426,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dray Bhăng",
-        "unit_code": "24561",
-        "unit_code_name": "dray_bhang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2878",
-        "area_km2": 101.37
+        "code": "24561",
+        "name": "Dray Bhăng",
+        "nameEn": "Dray Bhang",
+        "fullName": "Xã Dray Bhăng",
+        "fullNameEn": "Dray Bhang Commune",
+        "codeName": "dray_bhang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2878",
+        "areaKm2": 101.37
       }
     }
   ]

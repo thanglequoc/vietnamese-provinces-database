@@ -6562,11 +6562,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Can Lộc",
-        "unit_code": "18406",
-        "unit_code_name": "can_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2001",
-        "area_km2": 65.7
+        "code": "18406",
+        "name": "Can Lộc",
+        "nameEn": "Can Loc",
+        "fullName": "Xã Can Lộc",
+        "fullNameEn": "Can Loc Commune",
+        "codeName": "can_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2001",
+        "areaKm2": 65.7
       }
     }
   ]

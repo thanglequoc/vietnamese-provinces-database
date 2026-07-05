@@ -2066,11 +2066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiến Hưng",
-        "unit_code": "11728",
-        "unit_code_name": "kien_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.937",
-        "area_km2": 21.02
+        "code": "11728",
+        "name": "Kiến Hưng",
+        "nameEn": "Kien Hung",
+        "fullName": "Xã Kiến Hưng",
+        "fullNameEn": "Kien Hung Commune",
+        "codeName": "kien_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.937",
+        "areaKm2": 21.02
       }
     }
   ]

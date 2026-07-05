@@ -3046,11 +3046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quy Nhơn",
-        "unit_code": "21583",
-        "unit_code_name": "quy_nhon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3008",
-        "area_km2": 21.78
+        "code": "21583",
+        "name": "Quy Nhơn",
+        "nameEn": "Quy Nhon",
+        "fullName": "Phường Quy Nhơn",
+        "fullNameEn": "Quy Nhon Ward",
+        "codeName": "quy_nhon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3008",
+        "areaKm2": 21.78
       }
     }
   ]

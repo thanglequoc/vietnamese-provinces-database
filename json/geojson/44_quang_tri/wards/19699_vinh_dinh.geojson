@@ -5998,11 +5998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Định",
-        "unit_code": "19699",
-        "unit_code_name": "vinh_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.582",
-        "area_km2": 63.85
+        "code": "19699",
+        "name": "Vĩnh Định",
+        "nameEn": "Vinh Dinh",
+        "fullName": "Xã Vĩnh Định",
+        "fullNameEn": "Vinh Dinh Commune",
+        "codeName": "vinh_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.582",
+        "areaKm2": 63.85
       }
     }
   ]

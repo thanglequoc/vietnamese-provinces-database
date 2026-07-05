@@ -5490,11 +5490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trà Cú",
-        "unit_code": "29461",
-        "unit_code_name": "tra_cu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2510",
-        "area_km2": 37.33
+        "code": "29461",
+        "name": "Trà Cú",
+        "nameEn": "Tra Cu",
+        "fullName": "Xã Trà Cú",
+        "fullNameEn": "Tra Cu Commune",
+        "codeName": "tra_cu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2510",
+        "areaKm2": 37.33
       }
     }
   ]

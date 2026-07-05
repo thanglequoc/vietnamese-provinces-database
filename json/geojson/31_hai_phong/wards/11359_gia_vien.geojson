@@ -1094,11 +1094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Viên",
-        "unit_code": "11359",
-        "unit_code_name": "gia_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.930",
-        "area_km2": 5.01
+        "code": "11359",
+        "name": "Gia Viên",
+        "nameEn": "Gia Vien",
+        "fullName": "Phường Gia Viên",
+        "fullNameEn": "Gia Vien Ward",
+        "codeName": "gia_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.930",
+        "areaKm2": 5.01
       }
     }
   ]

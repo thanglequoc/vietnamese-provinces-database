@@ -2110,11 +2110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cẩm Lệ",
-        "unit_code": "20260",
-        "unit_code_name": "cam_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1902",
-        "area_km2": 14.05
+        "code": "20260",
+        "name": "Cẩm Lệ",
+        "nameEn": "Cam Le",
+        "fullName": "Phường Cẩm Lệ",
+        "fullNameEn": "Cam Le Ward",
+        "codeName": "cam_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1902",
+        "areaKm2": 14.05
       }
     }
   ]

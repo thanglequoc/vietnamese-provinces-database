@@ -1218,11 +1218,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Hoà",
-        "unit_code": "27139",
-        "unit_code_name": "xuan_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.83",
-        "area_km2": 2.22
+        "code": "27139",
+        "name": "Xuân Hoà",
+        "nameEn": "Xuan Hoa",
+        "fullName": "Phường Xuân Hoà",
+        "fullNameEn": "Xuan Hoa Ward",
+        "codeName": "xuan_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.83",
+        "areaKm2": 2.22
       }
     }
   ]

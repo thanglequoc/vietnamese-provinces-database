@@ -32638,11 +32638,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dầu Giây",
-        "unit_code": "26326",
-        "unit_code_name": "dau_giay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3128",
-        "area_km2": 98.9
+        "code": "26326",
+        "name": "Dầu Giây",
+        "nameEn": "Dau Giay",
+        "fullName": "Phường Dầu Giây",
+        "fullNameEn": "Dau Giay Ward",
+        "codeName": "dau_giay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3128",
+        "areaKm2": 98.9
       }
     }
   ]

@@ -12006,11 +12006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Lăng",
-        "unit_code": "19702",
-        "unit_code_name": "hai_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.579",
-        "area_km2": 116.89
+        "code": "19702",
+        "name": "Hải Lăng",
+        "nameEn": "Hai Lang",
+        "fullName": "Xã Hải Lăng",
+        "fullNameEn": "Hai Lang Commune",
+        "codeName": "hai_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.579",
+        "areaKm2": 116.89
       }
     }
   ]

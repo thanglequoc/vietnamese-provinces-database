@@ -7182,11 +7182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Nha",
-        "unit_code": "20515",
-        "unit_code_name": "ha_nha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1926",
-        "area_km2": 132.69
+        "code": "20515",
+        "name": "Hà Nha",
+        "nameEn": "Ha Nha",
+        "fullName": "Xã Hà Nha",
+        "fullNameEn": "Ha Nha Commune",
+        "codeName": "ha_nha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1926",
+        "areaKm2": 132.69
       }
     }
   ]

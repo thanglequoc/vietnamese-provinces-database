@@ -11594,11 +11594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Bá",
-        "unit_code": "22225",
-        "unit_code_name": "ea_ba",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2913",
-        "area_km2": 131.79
+        "code": "22225",
+        "name": "Ea Bá",
+        "nameEn": "Ea Ba",
+        "fullName": "Xã Ea Bá",
+        "fullNameEn": "Ea Ba Commune",
+        "codeName": "ea_ba",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2913",
+        "areaKm2": 131.79
       }
     }
   ]

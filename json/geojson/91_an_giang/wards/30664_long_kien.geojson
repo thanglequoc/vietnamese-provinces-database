@@ -10414,11 +10414,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Kiến",
-        "unit_code": "30664",
-        "unit_code_name": "long_kien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.351",
-        "area_km2": 59.83
+        "code": "30664",
+        "name": "Long Kiến",
+        "nameEn": "Long Kien",
+        "fullName": "Xã Long Kiến",
+        "fullNameEn": "Long Kien Commune",
+        "codeName": "long_kien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.351",
+        "areaKm2": 59.83
       }
     }
   ]

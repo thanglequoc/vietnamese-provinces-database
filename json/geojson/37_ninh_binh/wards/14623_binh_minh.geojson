@@ -3546,11 +3546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Minh",
-        "unit_code": "14623",
-        "unit_code_name": "binh_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.768",
-        "area_km2": 34.44
+        "code": "14623",
+        "name": "Bình Minh",
+        "nameEn": "Binh Minh",
+        "fullName": "Xã Bình Minh",
+        "fullNameEn": "Binh Minh Commune",
+        "codeName": "binh_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.768",
+        "areaKm2": 34.44
       }
     }
   ]

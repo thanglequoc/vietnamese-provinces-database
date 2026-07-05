@@ -5890,11 +5890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Linh",
-        "unit_code": "19363",
-        "unit_code_name": "vinh_linh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.561",
-        "area_km2": 90.37
+        "code": "19363",
+        "name": "Vĩnh Linh",
+        "nameEn": "Vinh Linh",
+        "fullName": "Xã Vĩnh Linh",
+        "fullNameEn": "Vinh Linh Commune",
+        "codeName": "vinh_linh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.561",
+        "areaKm2": 90.37
       }
     }
   ]

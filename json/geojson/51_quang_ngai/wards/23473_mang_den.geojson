@@ -28266,11 +28266,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Măng Đen",
-        "unit_code": "23473",
-        "unit_code_name": "mang_den",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1728",
-        "area_km2": 396.93
+        "code": "23473",
+        "name": "Măng Đen",
+        "nameEn": "Mang Den",
+        "fullName": "Xã Măng Đen",
+        "fullNameEn": "Mang Den Commune",
+        "codeName": "mang_den",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1728",
+        "areaKm2": 396.93
       }
     }
   ]

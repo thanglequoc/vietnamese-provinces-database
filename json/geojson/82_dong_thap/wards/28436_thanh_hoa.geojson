@@ -3898,11 +3898,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Hoà",
-        "unit_code": "28436",
-        "unit_code_name": "thanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.469",
-        "area_km2": 19.5
+        "code": "28436",
+        "name": "Thanh Hoà",
+        "nameEn": "Thanh Hoa",
+        "fullName": "Phường Thanh Hoà",
+        "fullNameEn": "Thanh Hoa Ward",
+        "codeName": "thanh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.469",
+        "areaKm2": 19.5
       }
     }
   ]

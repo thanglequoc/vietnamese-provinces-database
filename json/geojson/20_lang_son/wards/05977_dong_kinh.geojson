@@ -7538,11 +7538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Kinh",
-        "unit_code": "05977",
-        "unit_code_name": "dong_kinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1792",
-        "area_km2": 54.71
+        "code": "05977",
+        "name": "Đông Kinh",
+        "nameEn": "Dong Kinh",
+        "fullName": "Phường Đông Kinh",
+        "fullNameEn": "Dong Kinh Ward",
+        "codeName": "dong_kinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1792",
+        "areaKm2": 54.71
       }
     }
   ]

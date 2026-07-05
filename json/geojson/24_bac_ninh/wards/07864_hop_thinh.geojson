@@ -5390,11 +5390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Thịnh",
-        "unit_code": "07864",
-        "unit_code_name": "hop_thinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2156",
-        "area_km2": 49.27
+        "code": "07864",
+        "name": "Hợp Thịnh",
+        "nameEn": "Hop Thinh",
+        "fullName": "Xã Hợp Thịnh",
+        "fullNameEn": "Hop Thinh Commune",
+        "codeName": "hop_thinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2156",
+        "areaKm2": 49.27
       }
     }
   ]

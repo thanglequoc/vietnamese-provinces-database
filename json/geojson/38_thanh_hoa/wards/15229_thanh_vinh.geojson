@@ -8382,11 +8382,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Vinh",
-        "unit_code": "15229",
-        "unit_code_name": "thanh_vinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2631",
-        "area_km2": 115.47
+        "code": "15229",
+        "name": "Thành Vinh",
+        "nameEn": "Thanh Vinh",
+        "fullName": "Xã Thành Vinh",
+        "fullNameEn": "Thanh Vinh Commune",
+        "codeName": "thanh_vinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2631",
+        "areaKm2": 115.47
       }
     }
   ]

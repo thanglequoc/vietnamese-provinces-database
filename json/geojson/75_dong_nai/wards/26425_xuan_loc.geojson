@@ -33238,11 +33238,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Lộc",
-        "unit_code": "26425",
-        "unit_code_name": "xuan_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3141",
-        "area_km2": 140.5
+        "code": "26425",
+        "name": "Xuân Lộc",
+        "nameEn": "Xuan Loc",
+        "fullName": "Phường Xuân Lộc",
+        "fullNameEn": "Xuan Loc Ward",
+        "codeName": "xuan_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3141",
+        "areaKm2": 140.5
       }
     }
   ]

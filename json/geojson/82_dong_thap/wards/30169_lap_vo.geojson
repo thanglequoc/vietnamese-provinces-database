@@ -10622,11 +10622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lấp Vò",
-        "unit_code": "30169",
-        "unit_code_name": "lap_vo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.434",
-        "area_km2": 85.2
+        "code": "30169",
+        "name": "Lấp Vò",
+        "nameEn": "Lap Vo",
+        "fullName": "Xã Lấp Vò",
+        "fullNameEn": "Lap Vo Commune",
+        "codeName": "lap_vo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.434",
+        "areaKm2": 85.2
       }
     }
   ]

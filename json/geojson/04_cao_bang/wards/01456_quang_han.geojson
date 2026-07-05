@@ -8038,11 +8038,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Hán",
-        "unit_code": "01456",
-        "unit_code_name": "quang_han",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.999",
-        "area_km2": 93.61
+        "code": "01456",
+        "name": "Quang Hán",
+        "nameEn": "Quang Han",
+        "fullName": "Xã Quang Hán",
+        "fullNameEn": "Quang Han Commune",
+        "codeName": "quang_han",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.999",
+        "areaKm2": 93.61
       }
     }
   ]

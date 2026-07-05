@@ -7114,11 +7114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Dơk",
-        "unit_code": "23869",
-        "unit_code_name": "ia_dok",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2937",
-        "area_km2": 100.53
+        "code": "23869",
+        "name": "Ia Dơk",
+        "nameEn": "Ia Dok",
+        "fullName": "Xã Ia Dơk",
+        "fullNameEn": "Ia Dok Commune",
+        "codeName": "ia_dok",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2937",
+        "areaKm2": 100.53
       }
     }
   ]

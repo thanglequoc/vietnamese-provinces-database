@@ -13110,11 +13110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Đal",
-        "unit_code": "23535",
-        "unit_code_name": "ia_dal",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.546",
-        "area_km2": 218.11
+        "code": "23535",
+        "name": "Ia Đal",
+        "nameEn": "Ia Dal",
+        "fullName": "Xã Ia Đal",
+        "fullNameEn": "Ia Dal Commune",
+        "codeName": "ia_dal",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.546",
+        "areaKm2": 218.11
       }
     }
   ]

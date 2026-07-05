@@ -4102,11 +4102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Phổ",
-        "unit_code": "21439",
-        "unit_code_name": "duc_pho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1772",
-        "area_km2": 69.33
+        "code": "21439",
+        "name": "Đức Phổ",
+        "nameEn": "Duc Pho",
+        "fullName": "Phường Đức Phổ",
+        "fullNameEn": "Duc Pho Ward",
+        "codeName": "duc_pho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1772",
+        "areaKm2": 69.33
       }
     }
   ]

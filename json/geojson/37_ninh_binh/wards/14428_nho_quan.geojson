@@ -3726,11 +3726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nho Quan",
-        "unit_code": "14428",
-        "unit_code_name": "nho_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.757",
-        "area_km2": 32.62
+        "code": "14428",
+        "name": "Nho Quan",
+        "nameEn": "Nho Quan",
+        "fullName": "Xã Nho Quan",
+        "fullNameEn": "Nho Quan Commune",
+        "codeName": "nho_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.757",
+        "areaKm2": 32.62
       }
     }
   ]

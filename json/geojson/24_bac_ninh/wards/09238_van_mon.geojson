@@ -3110,11 +3110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Môn",
-        "unit_code": "09238",
-        "unit_code_name": "van_mon",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2124",
-        "area_km2": 15.26
+        "code": "09238",
+        "name": "Văn Môn",
+        "nameEn": "Van Mon",
+        "fullName": "Xã Văn Môn",
+        "fullNameEn": "Van Mon Commune",
+        "codeName": "van_mon",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2124",
+        "areaKm2": 15.26
       }
     }
   ]

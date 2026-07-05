@@ -8634,11 +8634,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đàm Thuỷ",
-        "unit_code": "01501",
-        "unit_code_name": "dam_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.993",
-        "area_km2": 114.63
+        "code": "01501",
+        "name": "Đàm Thuỷ",
+        "nameEn": "Dam Thuy",
+        "fullName": "Xã Đàm Thuỷ",
+        "fullNameEn": "Dam Thuy Commune",
+        "codeName": "dam_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.993",
+        "areaKm2": 114.63
       }
     }
   ]

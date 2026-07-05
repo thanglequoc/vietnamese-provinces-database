@@ -1650,11 +1650,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gia Lộc",
-        "unit_code": "10999",
-        "unit_code_name": "gia_loc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.859",
-        "area_km2": 21.78
+        "code": "10999",
+        "name": "Gia Lộc",
+        "nameEn": "Gia Loc",
+        "fullName": "Xã Gia Lộc",
+        "fullNameEn": "Gia Loc Commune",
+        "codeName": "gia_loc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.859",
+        "areaKm2": 21.78
       }
     }
   ]

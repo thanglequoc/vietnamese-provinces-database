@@ -2446,11 +2446,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Long",
-        "unit_code": "15505",
-        "unit_code_name": "tho_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2674",
-        "area_km2": 22.13
+        "code": "15505",
+        "name": "Thọ Long",
+        "nameEn": "Tho Long",
+        "fullName": "Xã Thọ Long",
+        "fullNameEn": "Tho Long Commune",
+        "codeName": "tho_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2674",
+        "areaKm2": 22.13
       }
     }
   ]

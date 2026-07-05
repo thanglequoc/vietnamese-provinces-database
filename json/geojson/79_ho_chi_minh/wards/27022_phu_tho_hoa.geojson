@@ -658,11 +658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thọ Hoà",
-        "unit_code": "27022",
-        "unit_code_name": "phu_tho_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.73",
-        "area_km2": 3.02
+        "code": "27022",
+        "name": "Phú Thọ Hoà",
+        "nameEn": "Phu Tho Hoa",
+        "fullName": "Phường Phú Thọ Hoà",
+        "fullNameEn": "Phu Tho Hoa Ward",
+        "codeName": "phu_tho_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.73",
+        "areaKm2": 3.02
       }
     }
   ]

@@ -1642,11 +1642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Thiện",
-        "unit_code": "28378",
-        "unit_code_name": "my_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.459",
-        "area_km2": 62.6
+        "code": "28378",
+        "name": "Mỹ Thiện",
+        "nameEn": "My Thien",
+        "fullName": "Xã Mỹ Thiện",
+        "fullNameEn": "My Thien Commune",
+        "codeName": "my_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.459",
+        "areaKm2": 62.6
       }
     }
   ]

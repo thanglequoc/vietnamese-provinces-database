@@ -12578,11 +12578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chế Tạo",
-        "unit_code": "04489",
-        "unit_code_name": "che_tao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1028",
-        "area_km2": 234.44
+        "code": "04489",
+        "name": "Chế Tạo",
+        "nameEn": "Che Tao",
+        "fullName": "Xã Chế Tạo",
+        "fullNameEn": "Che Tao Commune",
+        "codeName": "che_tao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1028",
+        "areaKm2": 234.44
       }
     }
   ]

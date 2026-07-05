@@ -8546,11 +8546,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngãi Giao",
-        "unit_code": "26575",
-        "unit_code_name": "ngai_giao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2206",
-        "area_km2": 69.3
+        "code": "26575",
+        "name": "Ngãi Giao",
+        "nameEn": "Ngai Giao",
+        "fullName": "Xã Ngãi Giao",
+        "fullNameEn": "Ngai Giao Commune",
+        "codeName": "ngai_giao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2206",
+        "areaKm2": 69.3
       }
     }
   ]

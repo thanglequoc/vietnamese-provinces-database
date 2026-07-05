@@ -11550,11 +11550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuy Phước Đông",
-        "unit_code": "21970",
-        "unit_code_name": "tuy_phuoc_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3015",
-        "area_km2": 60.66
+        "code": "21970",
+        "name": "Tuy Phước Đông",
+        "nameEn": "Tuy Phuoc Dong",
+        "fullName": "Xã Tuy Phước Đông",
+        "fullNameEn": "Tuy Phuoc Dong Commune",
+        "codeName": "tuy_phuoc_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3015",
+        "areaKm2": 60.66
       }
     }
   ]

@@ -13378,11 +13378,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Na Ngoi",
-        "unit_code": "16870",
-        "unit_code_name": "na_ngoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1503",
-        "area_km2": 341.25
+        "code": "16870",
+        "name": "Na Ngoi",
+        "nameEn": "Na Ngoi",
+        "fullName": "Xã Na Ngoi",
+        "fullNameEn": "Na Ngoi Commune",
+        "codeName": "na_ngoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1503",
+        "areaKm2": 341.25
       }
     }
   ]

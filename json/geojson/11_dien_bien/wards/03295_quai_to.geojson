@@ -9150,11 +9150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quài Tở",
-        "unit_code": "03295",
-        "unit_code_name": "quai_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2258",
-        "area_km2": 182.01
+        "code": "03295",
+        "name": "Quài Tở",
+        "nameEn": "Quai To",
+        "fullName": "Xã Quài Tở",
+        "fullNameEn": "Quai To Commune",
+        "codeName": "quai_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2258",
+        "areaKm2": 182.01
       }
     }
   ]

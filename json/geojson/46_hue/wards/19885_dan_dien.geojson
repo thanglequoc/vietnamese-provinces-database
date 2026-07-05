@@ -7798,11 +7798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đan Điền",
-        "unit_code": "19885",
-        "unit_code_name": "dan_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1697",
-        "area_km2": 82.62
+        "code": "19885",
+        "name": "Đan Điền",
+        "nameEn": "Dan Dien",
+        "fullName": "Xã Đan Điền",
+        "fullNameEn": "Dan Dien Commune",
+        "codeName": "dan_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1697",
+        "areaKm2": 82.62
       }
     }
   ]

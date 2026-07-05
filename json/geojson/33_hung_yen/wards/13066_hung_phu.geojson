@@ -1802,11 +1802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Phú",
-        "unit_code": "13066",
-        "unit_code_name": "hung_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.673",
-        "area_km2": 45.08
+        "code": "13066",
+        "name": "Hưng Phú",
+        "nameEn": "Hung Phu",
+        "fullName": "Xã Hưng Phú",
+        "fullNameEn": "Hung Phu Commune",
+        "codeName": "hung_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.673",
+        "areaKm2": 45.08
       }
     }
   ]

@@ -6946,11 +6946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia O",
-        "unit_code": "23782",
-        "unit_code_name": "ia_o",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2934",
-        "area_km2": 137.39
+        "code": "23782",
+        "name": "Ia O",
+        "nameEn": "Ia O",
+        "fullName": "Xã Ia O",
+        "fullNameEn": "Ia O Commune",
+        "codeName": "ia_o",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2934",
+        "areaKm2": 137.39
       }
     }
   ]

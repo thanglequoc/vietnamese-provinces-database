@@ -6926,11 +6926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hải Lựu",
-        "unit_code": "08782",
-        "unit_code_name": "hai_luu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1611",
-        "area_km2": 38.8
+        "code": "08782",
+        "name": "Hải Lựu",
+        "nameEn": "Hai Luu",
+        "fullName": "Xã Hải Lựu",
+        "fullNameEn": "Hai Luu Commune",
+        "codeName": "hai_luu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1611",
+        "areaKm2": 38.8
       }
     }
   ]

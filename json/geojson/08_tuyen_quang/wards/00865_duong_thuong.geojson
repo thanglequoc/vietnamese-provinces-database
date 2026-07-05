@@ -11854,11 +11854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đường Thượng",
-        "unit_code": "00865",
-        "unit_code_name": "duong_thuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2382",
-        "area_km2": 103.25
+        "code": "00865",
+        "name": "Đường Thượng",
+        "nameEn": "Duong Thuong",
+        "fullName": "Xã Đường Thượng",
+        "fullNameEn": "Duong Thuong Commune",
+        "codeName": "duong_thuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2382",
+        "areaKm2": 103.25
       }
     }
   ]

@@ -11890,11 +11890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Hựu",
-        "unit_code": "30244",
-        "unit_code_name": "phu_huu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.443",
-        "area_km2": 71.3
+        "code": "30244",
+        "name": "Phú Hựu",
+        "nameEn": "Phu Huu",
+        "fullName": "Xã Phú Hựu",
+        "fullNameEn": "Phu Huu Commune",
+        "codeName": "phu_huu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.443",
+        "areaKm2": 71.3
       }
     }
   ]

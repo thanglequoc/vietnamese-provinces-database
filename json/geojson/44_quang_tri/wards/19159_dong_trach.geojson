@@ -4862,11 +4862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Trạch",
-        "unit_code": "19159",
-        "unit_code_name": "dong_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.625",
-        "area_km2": 35.72
+        "code": "19159",
+        "name": "Đông Trạch",
+        "nameEn": "Dong Trach",
+        "fullName": "Xã Đông Trạch",
+        "fullNameEn": "Dong Trach Commune",
+        "codeName": "dong_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.625",
+        "areaKm2": 35.72
       }
     }
   ]

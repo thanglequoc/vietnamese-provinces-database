@@ -6014,11 +6014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đan Phượng",
-        "unit_code": "09784",
-        "unit_code_name": "dan_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3278",
-        "area_km2": 15.3
+        "code": "09784",
+        "name": "Đan Phượng",
+        "nameEn": "Dan Phuong",
+        "fullName": "Xã Đan Phượng",
+        "fullNameEn": "Dan Phuong Commune",
+        "codeName": "dan_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3278",
+        "areaKm2": 15.3
       }
     }
   ]

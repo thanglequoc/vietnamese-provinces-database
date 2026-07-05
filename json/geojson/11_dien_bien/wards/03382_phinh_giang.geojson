@@ -11746,11 +11746,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phình Giàng",
-        "unit_code": "03382",
-        "unit_code_name": "phinh_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2270",
-        "area_km2": 226.37
+        "code": "03382",
+        "name": "Phình Giàng",
+        "nameEn": "Phinh Giang",
+        "fullName": "Xã Phình Giàng",
+        "fullNameEn": "Phinh Giang Commune",
+        "codeName": "phinh_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2270",
+        "areaKm2": 226.37
       }
     }
   ]

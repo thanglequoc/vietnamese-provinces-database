@@ -6158,11 +6158,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Pù Luông",
-        "unit_code": "14956",
-        "unit_code_name": "pu_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2650",
-        "area_km2": 81.71
+        "code": "14956",
+        "name": "Pù Luông",
+        "nameEn": "Pu Luong",
+        "fullName": "Xã Pù Luông",
+        "fullNameEn": "Pu Luong Commune",
+        "codeName": "pu_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2650",
+        "areaKm2": 81.71
       }
     }
   ]

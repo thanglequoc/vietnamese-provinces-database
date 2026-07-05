@@ -3818,11 +3818,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Đồng",
-        "unit_code": "13879",
-        "unit_code_name": "yen_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.820",
-        "area_km2": 30.53
+        "code": "13879",
+        "name": "Yên Đồng",
+        "nameEn": "Yen Dong",
+        "fullName": "Xã Yên Đồng",
+        "fullNameEn": "Yen Dong Commune",
+        "codeName": "yen_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.820",
+        "areaKm2": 30.53
       }
     }
   ]

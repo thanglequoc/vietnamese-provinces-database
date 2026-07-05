@@ -6666,11 +6666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Hoa",
-        "unit_code": "18223",
-        "unit_code_name": "kim_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2041",
-        "area_km2": 88.28
+        "code": "18223",
+        "name": "Kim Hoa",
+        "nameEn": "Kim Hoa",
+        "fullName": "Xã Kim Hoa",
+        "fullNameEn": "Kim Hoa Commune",
+        "codeName": "kim_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2041",
+        "areaKm2": 88.28
       }
     }
   ]

@@ -10418,11 +10418,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Bình",
-        "unit_code": "28651",
-        "unit_code_name": "vinh_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.488",
-        "area_km2": 39.8
+        "code": "28651",
+        "name": "Vĩnh Bình",
+        "nameEn": "Vinh Binh",
+        "fullName": "Xã Vĩnh Bình",
+        "fullNameEn": "Vinh Binh Commune",
+        "codeName": "vinh_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.488",
+        "areaKm2": 39.8
       }
     }
   ]

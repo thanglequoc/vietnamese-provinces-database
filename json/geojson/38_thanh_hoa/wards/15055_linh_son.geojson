@@ -5790,11 +5790,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Linh Sơn",
-        "unit_code": "15055",
-        "unit_code_name": "linh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2717",
-        "area_km2": 96
+        "code": "15055",
+        "name": "Linh Sơn",
+        "nameEn": "Linh Son",
+        "fullName": "Xã Linh Sơn",
+        "fullNameEn": "Linh Son Commune",
+        "codeName": "linh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2717",
+        "areaKm2": 96
       }
     }
   ]

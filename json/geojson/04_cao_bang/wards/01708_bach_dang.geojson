@@ -7694,11 +7694,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Đằng",
-        "unit_code": "01708",
-        "unit_code_name": "bach_dang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.952",
-        "area_km2": 141.61
+        "code": "01708",
+        "name": "Bạch Đằng",
+        "nameEn": "Bach Dang",
+        "fullName": "Xã Bạch Đằng",
+        "fullNameEn": "Bach Dang Commune",
+        "codeName": "bach_dang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.952",
+        "areaKm2": 141.61
       }
     }
   ]

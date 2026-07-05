@@ -2726,11 +2726,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Quang",
-        "unit_code": "18262",
-        "unit_code_name": "duc_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2055",
-        "area_km2": 30.31
+        "code": "18262",
+        "name": "Đức Quang",
+        "nameEn": "Duc Quang",
+        "fullName": "Xã Đức Quang",
+        "fullNameEn": "Duc Quang Commune",
+        "codeName": "duc_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2055",
+        "areaKm2": 30.31
       }
     }
   ]

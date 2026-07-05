@@ -27890,11 +27890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đất Mũi",
-        "unit_code": "32248",
-        "unit_code_name": "dat_mui",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.200",
-        "area_km2": 271.2
+        "code": "32248",
+        "name": "Đất Mũi",
+        "nameEn": "Dat Mui",
+        "fullName": "Xã Đất Mũi",
+        "fullNameEn": "Dat Mui Commune",
+        "codeName": "dat_mui",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.200",
+        "areaKm2": 271.2
       }
     }
   ]

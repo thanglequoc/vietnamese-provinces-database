@@ -7234,11 +7234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Đồng",
-        "unit_code": "17521",
-        "unit_code_name": "quang_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1452",
-        "area_km2": 75.61
+        "code": "17521",
+        "name": "Quang Đồng",
+        "nameEn": "Quang Dong",
+        "fullName": "Xã Quang Đồng",
+        "fullNameEn": "Quang Dong Commune",
+        "codeName": "quang_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1452",
+        "areaKm2": 75.61
       }
     }
   ]

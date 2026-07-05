@@ -5630,11 +5630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Động",
-        "unit_code": "07615",
-        "unit_code_name": "son_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2112",
-        "area_km2": 78.72
+        "code": "07615",
+        "name": "Sơn Động",
+        "nameEn": "Son Dong",
+        "fullName": "Xã Sơn Động",
+        "fullNameEn": "Son Dong Commune",
+        "codeName": "son_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2112",
+        "areaKm2": 78.72
       }
     }
   ]

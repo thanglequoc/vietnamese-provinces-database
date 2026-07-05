@@ -8022,11 +8022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Hồ",
-        "unit_code": "29602",
-        "unit_code_name": "long_ho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2527",
-        "area_km2": 47.64
+        "code": "29602",
+        "name": "Long Hồ",
+        "nameEn": "Long Ho",
+        "fullName": "Xã Long Hồ",
+        "fullNameEn": "Long Ho Commune",
+        "codeName": "long_ho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2527",
+        "areaKm2": 47.64
       }
     }
   ]

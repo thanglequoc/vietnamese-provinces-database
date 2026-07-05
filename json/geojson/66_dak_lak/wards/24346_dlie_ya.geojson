@@ -24550,11 +24550,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Dliê Ya",
-        "unit_code": "24346",
-        "unit_code_name": "dlie_ya",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2887",
-        "area_km2": 179.73
+        "code": "24346",
+        "name": "Dliê Ya",
+        "nameEn": "Dlie Ya",
+        "fullName": "Xã Dliê Ya",
+        "fullNameEn": "Dlie Ya Commune",
+        "codeName": "dlie_ya",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2887",
+        "areaKm2": 179.73
       }
     }
   ]

@@ -15910,11 +15910,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bum Nưa",
-        "unit_code": "03466",
-        "unit_code_name": "bum_nua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2074",
-        "area_km2": 315.13
+        "code": "03466",
+        "name": "Bum Nưa",
+        "nameEn": "Bum Nua",
+        "fullName": "Xã Bum Nưa",
+        "fullNameEn": "Bum Nua Commune",
+        "codeName": "bum_nua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2074",
+        "areaKm2": 315.13
       }
     }
   ]

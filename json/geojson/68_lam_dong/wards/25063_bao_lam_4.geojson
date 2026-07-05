@@ -19334,11 +19334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bảo Lâm 4",
-        "unit_code": "25063",
-        "unit_code_name": "bao_lam_4",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1266",
-        "area_km2": 343.35
+        "code": "25063",
+        "name": "Bảo Lâm 4",
+        "nameEn": "Bao Lam 4",
+        "fullName": "Xã Bảo Lâm 4",
+        "fullNameEn": "Commune Bao Lam 4",
+        "codeName": "bao_lam_4",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1266",
+        "areaKm2": 343.35
       }
     }
   ]

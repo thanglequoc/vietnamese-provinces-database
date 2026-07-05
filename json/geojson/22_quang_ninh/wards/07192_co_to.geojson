@@ -13798,11 +13798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cô Tô",
-        "unit_code": "07192",
-        "unit_code_name": "co_to",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3316",
-        "area_km2": 53.68
+        "code": "07192",
+        "name": "Cô Tô",
+        "nameEn": "Co To",
+        "fullName": "Đặc khu Cô Tô",
+        "fullNameEn": "Co To Special administrative region",
+        "codeName": "co_to",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3316",
+        "areaKm2": 53.68
       }
     }
   ]

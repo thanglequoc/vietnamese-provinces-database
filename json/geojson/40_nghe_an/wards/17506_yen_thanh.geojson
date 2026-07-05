@@ -4646,11 +4646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Thành",
-        "unit_code": "17506",
-        "unit_code_name": "yen_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1449",
-        "area_km2": 38.13
+        "code": "17506",
+        "name": "Yên Thành",
+        "nameEn": "Yen Thanh",
+        "fullName": "Xã Yên Thành",
+        "fullNameEn": "Yen Thanh Commune",
+        "codeName": "yen_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1449",
+        "areaKm2": 38.13
       }
     }
   ]

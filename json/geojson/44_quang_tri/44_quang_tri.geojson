@@ -14542,11 +14542,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Trị",
-        "unit_code": "44",
-        "unit_code_name": "quang_tri",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.54",
-        "area_km2": 12700
+        "code": "44",
+        "name": "Quảng Trị",
+        "nameEn": "Quang Tri",
+        "fullName": "Tỉnh Quảng Trị",
+        "fullNameEn": "Quang Tri Province",
+        "codeName": "quang_tri",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.54",
+        "areaKm2": 12700
       }
     }
   ]

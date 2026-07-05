@@ -6554,11 +6554,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Ngãi",
-        "unit_code": "29698",
-        "unit_code_name": "trung_ngai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2542",
-        "area_km2": 39.25
+        "code": "29698",
+        "name": "Trung Ngãi",
+        "nameEn": "Trung Ngai",
+        "fullName": "Xã Trung Ngãi",
+        "fullNameEn": "Trung Ngai Commune",
+        "codeName": "trung_ngai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2542",
+        "areaKm2": 39.25
       }
     }
   ]

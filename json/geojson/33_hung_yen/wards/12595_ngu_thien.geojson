@@ -2086,11 +2086,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngự Thiên",
-        "unit_code": "12595",
-        "unit_code_name": "ngu_thien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.649",
-        "area_km2": 22.41
+        "code": "12595",
+        "name": "Ngự Thiên",
+        "nameEn": "Ngu Thien",
+        "fullName": "Xã Ngự Thiên",
+        "fullNameEn": "Ngu Thien Commune",
+        "codeName": "ngu_thien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.649",
+        "areaKm2": 22.41
       }
     }
   ]

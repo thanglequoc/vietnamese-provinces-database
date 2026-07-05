@@ -4794,11 +4794,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Huy Tập",
-        "unit_code": "18652",
-        "unit_code_name": "ha_huy_tap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2012",
-        "area_km2": 32.62
+        "code": "18652",
+        "name": "Hà Huy Tập",
+        "nameEn": "Ha Huy Tap",
+        "fullName": "Phường Hà Huy Tập",
+        "fullNameEn": "Ha Huy Tap Ward",
+        "codeName": "ha_huy_tap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2012",
+        "areaKm2": 32.62
       }
     }
   ]

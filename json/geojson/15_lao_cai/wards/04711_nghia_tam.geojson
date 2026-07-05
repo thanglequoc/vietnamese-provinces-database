@@ -7842,11 +7842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Tâm",
-        "unit_code": "04711",
-        "unit_code_name": "nghia_tam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1049",
-        "area_km2": 133.1
+        "code": "04711",
+        "name": "Nghĩa Tâm",
+        "nameEn": "Nghia Tam",
+        "fullName": "Xã Nghĩa Tâm",
+        "fullNameEn": "Nghia Tam Commune",
+        "codeName": "nghia_tam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1049",
+        "areaKm2": 133.1
       }
     }
   ]

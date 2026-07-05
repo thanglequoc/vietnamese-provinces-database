@@ -3366,11 +3366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Diên Điền",
-        "unit_code": "22657",
-        "unit_code_name": "dien_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1134",
-        "area_km2": 63.7
+        "code": "22657",
+        "name": "Diên Điền",
+        "nameEn": "Dien Dien",
+        "fullName": "Xã Diên Điền",
+        "fullNameEn": "Dien Dien Commune",
+        "codeName": "dien_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1134",
+        "areaKm2": 63.7
       }
     }
   ]

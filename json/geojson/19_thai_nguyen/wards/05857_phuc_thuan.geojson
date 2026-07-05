@@ -11602,11 +11602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phúc Thuận",
-        "unit_code": "05857",
-        "unit_code_name": "phuc_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1231",
-        "area_km2": 74.16
+        "code": "05857",
+        "name": "Phúc Thuận",
+        "nameEn": "Phuc Thuan",
+        "fullName": "Phường Phúc Thuận",
+        "fullNameEn": "Phuc Thuan Ward",
+        "codeName": "phuc_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1231",
+        "areaKm2": 74.16
       }
     }
   ]

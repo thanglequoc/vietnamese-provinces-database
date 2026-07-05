@@ -9022,11 +9022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kon Gang",
-        "unit_code": "23701",
-        "unit_code_name": "kon_gang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3054",
-        "area_km2": 145.84
+        "code": "23701",
+        "name": "Kon Gang",
+        "nameEn": "Kon Gang",
+        "fullName": "Xã Kon Gang",
+        "fullNameEn": "Kon Gang Commune",
+        "codeName": "kon_gang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3054",
+        "areaKm2": 145.84
       }
     }
   ]

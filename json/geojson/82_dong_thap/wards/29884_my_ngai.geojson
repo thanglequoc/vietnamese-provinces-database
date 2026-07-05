@@ -11322,11 +11322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Ngãi",
-        "unit_code": "29884",
-        "unit_code_name": "my_ngai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.402",
-        "area_km2": 49
+        "code": "29884",
+        "name": "Mỹ Ngãi",
+        "nameEn": "My Ngai",
+        "fullName": "Phường Mỹ Ngãi",
+        "fullNameEn": "My Ngai Ward",
+        "codeName": "my_ngai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.402",
+        "areaKm2": 49
       }
     }
   ]

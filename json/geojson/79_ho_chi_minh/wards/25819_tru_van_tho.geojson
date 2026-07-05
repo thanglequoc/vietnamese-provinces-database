@@ -8698,11 +8698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trừ Văn Thố",
-        "unit_code": "25819",
-        "unit_code_name": "tru_van_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.11",
-        "area_km2": 76.56
+        "code": "25819",
+        "name": "Trừ Văn Thố",
+        "nameEn": "Tru Van Tho",
+        "fullName": "Xã Trừ Văn Thố",
+        "fullNameEn": "Tru Van Tho Commune",
+        "codeName": "tru_van_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.11",
+        "areaKm2": 76.56
       }
     }
   ]

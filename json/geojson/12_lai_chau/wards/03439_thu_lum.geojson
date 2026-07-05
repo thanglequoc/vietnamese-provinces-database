@@ -24630,11 +24630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thu Lũm",
-        "unit_code": "03439",
-        "unit_code_name": "thu_lum",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2067",
-        "area_km2": 251.55
+        "code": "03439",
+        "name": "Thu Lũm",
+        "nameEn": "Thu Lum",
+        "fullName": "Xã Thu Lũm",
+        "fullNameEn": "Thu Lum Commune",
+        "codeName": "thu_lum",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2067",
+        "areaKm2": 251.55
       }
     }
   ]

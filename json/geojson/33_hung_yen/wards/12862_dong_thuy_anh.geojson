@@ -3298,11 +3298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thuỵ Anh",
-        "unit_code": "12862",
-        "unit_code_name": "dong_thuy_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.642",
-        "area_km2": 34.9
+        "code": "12862",
+        "name": "Đông Thuỵ Anh",
+        "nameEn": "Dong Thuy Anh",
+        "fullName": "Xã Đông Thuỵ Anh",
+        "fullNameEn": "Dong Thuy Anh Commune",
+        "codeName": "dong_thuy_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.642",
+        "areaKm2": 34.9
       }
     }
   ]

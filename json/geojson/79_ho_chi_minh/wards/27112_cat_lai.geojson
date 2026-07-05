@@ -2022,11 +2022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Lái",
-        "unit_code": "27112",
-        "unit_code_name": "cat_lai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.81",
-        "area_km2": 19.65
+        "code": "27112",
+        "name": "Cát Lái",
+        "nameEn": "Cat Lai",
+        "fullName": "Phường Cát Lái",
+        "fullNameEn": "Cat Lai Ward",
+        "codeName": "cat_lai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.81",
+        "areaKm2": 19.65
       }
     }
   ]

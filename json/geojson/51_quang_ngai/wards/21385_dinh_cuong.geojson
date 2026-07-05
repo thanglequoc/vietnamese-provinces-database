@@ -4986,11 +4986,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đình Cương",
-        "unit_code": "21385",
-        "unit_code_name": "dinh_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1762",
-        "area_km2": 53.96
+        "code": "21385",
+        "name": "Đình Cương",
+        "nameEn": "Dinh Cuong",
+        "fullName": "Xã Đình Cương",
+        "fullNameEn": "Dinh Cuong Commune",
+        "codeName": "dinh_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1762",
+        "areaKm2": 53.96
       }
     }
   ]

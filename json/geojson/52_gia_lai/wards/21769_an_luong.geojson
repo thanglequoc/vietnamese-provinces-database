@@ -8174,11 +8174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Lương",
-        "unit_code": "21769",
-        "unit_code_name": "an_luong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2989",
-        "area_km2": 66.57
+        "code": "21769",
+        "name": "An Lương",
+        "nameEn": "An Luong",
+        "fullName": "Xã An Lương",
+        "fullNameEn": "An Luong Commune",
+        "codeName": "an_luong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2989",
+        "areaKm2": 66.57
       }
     }
   ]

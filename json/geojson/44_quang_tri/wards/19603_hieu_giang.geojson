@@ -24862,11 +24862,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hiếu Giang",
-        "unit_code": "19603",
-        "unit_code_name": "hieu_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.568",
-        "area_km2": 177.36
+        "code": "19603",
+        "name": "Hiếu Giang",
+        "nameEn": "Hieu Giang",
+        "fullName": "Xã Hiếu Giang",
+        "fullNameEn": "Hieu Giang Commune",
+        "codeName": "hieu_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.568",
+        "areaKm2": 177.36
       }
     }
   ]

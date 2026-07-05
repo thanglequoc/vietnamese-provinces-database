@@ -6106,11 +6106,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phủ Thông",
-        "unit_code": "01969",
-        "unit_code_name": "phu_thong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1176",
-        "area_km2": 96.94
+        "code": "01969",
+        "name": "Phủ Thông",
+        "nameEn": "Phu Thong",
+        "fullName": "Xã Phủ Thông",
+        "fullNameEn": "Phu Thong Commune",
+        "codeName": "phu_thong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1176",
+        "areaKm2": 96.94
       }
     }
   ]

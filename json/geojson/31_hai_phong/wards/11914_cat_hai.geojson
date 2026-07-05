@@ -57802,11 +57802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cát Hải",
-        "unit_code": "11914",
-        "unit_code_name": "cat_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3318",
-        "area_km2": 286.98
+        "code": "11914",
+        "name": "Cát Hải",
+        "nameEn": "Cat Hai",
+        "fullName": "Đặc khu Cát Hải",
+        "fullNameEn": "Cat Hai Special administrative region",
+        "codeName": "cat_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3318",
+        "areaKm2": 286.98
       }
     }
   ]

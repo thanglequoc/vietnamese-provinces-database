@@ -9286,11 +9286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sà Phìn",
-        "unit_code": "00733",
-        "unit_code_name": "sa_phin",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2370",
-        "area_km2": 83.5
+        "code": "00733",
+        "name": "Sà Phìn",
+        "nameEn": "Sa Phin",
+        "fullName": "Xã Sà Phìn",
+        "fullNameEn": "Sa Phin Commune",
+        "codeName": "sa_phin",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2370",
+        "areaKm2": 83.5
       }
     }
   ]

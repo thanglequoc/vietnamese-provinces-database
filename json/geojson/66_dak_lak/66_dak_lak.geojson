@@ -21042,11 +21042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đắk Lắk",
-        "unit_code": "66",
-        "unit_code_name": "dak_lak",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.46",
-        "area_km2": 18096.4
+        "code": "66",
+        "name": "Đắk Lắk",
+        "nameEn": "Dak Lak",
+        "fullName": "Tỉnh Đắk Lắk",
+        "fullNameEn": "Dak Lak Province",
+        "codeName": "dak_lak",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.46",
+        "areaKm2": 18096.4
       }
     }
   ]

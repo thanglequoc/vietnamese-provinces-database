@@ -4454,11 +4454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hồ Đắc Kiện",
-        "unit_code": "31570",
-        "unit_code_name": "ho_dac_kien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.270",
-        "area_km2": 72.61
+        "code": "31570",
+        "name": "Hồ Đắc Kiện",
+        "nameEn": "Ho Dac Kien",
+        "fullName": "Xã Hồ Đắc Kiện",
+        "fullNameEn": "Ho Dac Kien Commune",
+        "codeName": "ho_dac_kien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.270",
+        "areaKm2": 72.61
       }
     }
   ]

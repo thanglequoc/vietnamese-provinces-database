@@ -3658,11 +3658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạc Đạo",
-        "unit_code": "11992",
-        "unit_code_name": "lac_dao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.735",
-        "area_km2": 22.22
+        "code": "11992",
+        "name": "Lạc Đạo",
+        "nameEn": "Lac Dao",
+        "fullName": "Xã Lạc Đạo",
+        "fullNameEn": "Lac Dao Commune",
+        "codeName": "lac_dao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.735",
+        "areaKm2": 22.22
       }
     }
   ]

@@ -5498,11 +5498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phước Hậu",
-        "unit_code": "29557",
-        "unit_code_name": "phuoc_hau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2531",
-        "area_km2": 15.52
+        "code": "29557",
+        "name": "Phước Hậu",
+        "nameEn": "Phuoc Hau",
+        "fullName": "Phường Phước Hậu",
+        "fullNameEn": "Phuoc Hau Ward",
+        "codeName": "phuoc_hau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2531",
+        "areaKm2": 15.52
       }
     }
   ]

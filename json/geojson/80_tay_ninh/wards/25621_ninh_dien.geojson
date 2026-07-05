@@ -7230,11 +7230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Điền",
-        "unit_code": "25621",
-        "unit_code_name": "ninh_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2738",
-        "area_km2": 152.23
+        "code": "25621",
+        "name": "Ninh Điền",
+        "nameEn": "Ninh Dien",
+        "fullName": "Xã Ninh Điền",
+        "fullNameEn": "Ninh Dien Commune",
+        "codeName": "ninh_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2738",
+        "areaKm2": 152.23
       }
     }
   ]

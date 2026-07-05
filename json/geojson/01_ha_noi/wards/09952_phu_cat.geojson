@@ -9202,11 +9202,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Cát",
-        "unit_code": "09952",
-        "unit_code_name": "phu_cat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3221",
-        "area_km2": 51.21
+        "code": "09952",
+        "name": "Phú Cát",
+        "nameEn": "Phu Cat",
+        "fullName": "Xã Phú Cát",
+        "fullNameEn": "Phu Cat Commune",
+        "codeName": "phu_cat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3221",
+        "areaKm2": 51.21
       }
     }
   ]

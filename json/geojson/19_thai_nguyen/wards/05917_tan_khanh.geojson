@@ -6398,11 +6398,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Khánh",
-        "unit_code": "05917",
-        "unit_code_name": "tan_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1236",
-        "area_km2": 48.31
+        "code": "05917",
+        "name": "Tân Khánh",
+        "nameEn": "Tan Khanh",
+        "fullName": "Xã Tân Khánh",
+        "fullNameEn": "Tan Khanh Commune",
+        "codeName": "tan_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1236",
+        "areaKm2": 48.31
       }
     }
   ]

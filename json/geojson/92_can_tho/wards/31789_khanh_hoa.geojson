@@ -20066,11 +20066,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hoà",
-        "unit_code": "31789",
-        "unit_code_name": "khanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.301",
-        "area_km2": 130.48
+        "code": "31789",
+        "name": "Khánh Hoà",
+        "nameEn": "Khanh Hoa",
+        "fullName": "Phường Khánh Hoà",
+        "fullNameEn": "Khanh Hoa Ward",
+        "codeName": "khanh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.301",
+        "areaKm2": 130.48
       }
     }
   ]

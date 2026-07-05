@@ -9362,11 +9362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Từ",
-        "unit_code": "05830",
-        "unit_code_name": "dai_tu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1197",
-        "area_km2": 69.42
+        "code": "05830",
+        "name": "Đại Từ",
+        "nameEn": "Dai Tu",
+        "fullName": "Xã Đại Từ",
+        "fullNameEn": "Dai Tu Commune",
+        "codeName": "dai_tu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1197",
+        "areaKm2": 69.42
       }
     }
   ]

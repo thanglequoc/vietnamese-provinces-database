@@ -9142,11 +9142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Canh Tân",
-        "unit_code": "01789",
-        "unit_code_name": "canh_tan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.960",
-        "area_km2": 132.26
+        "code": "01789",
+        "name": "Canh Tân",
+        "nameEn": "Canh Tan",
+        "fullName": "Xã Canh Tân",
+        "fullNameEn": "Canh Tan Commune",
+        "codeName": "canh_tan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.960",
+        "areaKm2": 132.26
       }
     }
   ]

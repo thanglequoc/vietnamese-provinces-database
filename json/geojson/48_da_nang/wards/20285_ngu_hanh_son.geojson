@@ -3538,11 +3538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngũ Hành Sơn",
-        "unit_code": "20285",
-        "unit_code_name": "ngu_hanh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1901",
-        "area_km2": 40.19
+        "code": "20285",
+        "name": "Ngũ Hành Sơn",
+        "nameEn": "Ngu Hanh Son",
+        "fullName": "Phường Ngũ Hành Sơn",
+        "fullNameEn": "Ngu Hanh Son Ward",
+        "codeName": "ngu_hanh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1901",
+        "areaKm2": 40.19
       }
     }
   ]

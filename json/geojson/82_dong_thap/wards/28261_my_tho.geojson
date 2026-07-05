@@ -1578,11 +1578,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Tho",
-        "unit_code": "28261",
-        "unit_code_name": "my_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.444",
-        "area_km2": 6.4
+        "code": "28261",
+        "name": "Mỹ Tho",
+        "nameEn": "My Tho",
+        "fullName": "Phường Mỹ Tho",
+        "fullNameEn": "My Tho Ward",
+        "codeName": "my_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.444",
+        "areaKm2": 6.4
       }
     }
   ]

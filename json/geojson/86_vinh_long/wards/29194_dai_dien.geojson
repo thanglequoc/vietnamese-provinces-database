@@ -2506,11 +2506,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Điền",
-        "unit_code": "29194",
-        "unit_code_name": "dai_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2479",
-        "area_km2": 59.26
+        "code": "29194",
+        "name": "Đại Điền",
+        "nameEn": "Dai Dien",
+        "fullName": "Xã Đại Điền",
+        "fullNameEn": "Dai Dien Commune",
+        "codeName": "dai_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2479",
+        "areaKm2": 59.26
       }
     }
   ]

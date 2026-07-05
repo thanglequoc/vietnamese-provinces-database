@@ -4018,11 +4018,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạc Phượng",
-        "unit_code": "11140",
-        "unit_code_name": "lac_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.890",
-        "area_km2": 24.71
+        "code": "11140",
+        "name": "Lạc Phượng",
+        "nameEn": "Lac Phuong",
+        "fullName": "Xã Lạc Phượng",
+        "fullNameEn": "Lac Phuong Commune",
+        "codeName": "lac_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.890",
+        "areaKm2": 24.71
       }
     }
   ]

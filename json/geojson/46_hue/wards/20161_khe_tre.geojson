@@ -14046,11 +14046,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khe Tre",
-        "unit_code": "20161",
-        "unit_code_name": "khe_tre",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1722",
-        "area_km2": 256.02
+        "code": "20161",
+        "name": "Khe Tre",
+        "nameEn": "Khe Tre",
+        "fullName": "Xã Khe Tre",
+        "fullNameEn": "Khe Tre Commune",
+        "codeName": "khe_tre",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1722",
+        "areaKm2": 256.02
       }
     }
   ]

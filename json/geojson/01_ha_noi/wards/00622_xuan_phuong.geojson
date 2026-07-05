@@ -2626,11 +2626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Phương",
-        "unit_code": "00622",
-        "unit_code_name": "xuan_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3266",
-        "area_km2": 10.81
+        "code": "00622",
+        "name": "Xuân Phương",
+        "nameEn": "Xuan Phuong",
+        "fullName": "Phường Xuân Phương",
+        "fullNameEn": "Xuan Phuong Ward",
+        "codeName": "xuan_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3266",
+        "areaKm2": 10.81
       }
     }
   ]

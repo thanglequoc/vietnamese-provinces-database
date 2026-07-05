@@ -2254,11 +2254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lê Ích Mộc",
-        "unit_code": "11506",
-        "unit_code_name": "le_ich_moc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.944",
-        "area_km2": 27.04
+        "code": "11506",
+        "name": "Lê Ích Mộc",
+        "nameEn": "Le Ich Moc",
+        "fullName": "Phường Lê Ích Mộc",
+        "fullNameEn": "Le Ich Moc Ward",
+        "codeName": "le_ich_moc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.944",
+        "areaKm2": 27.04
       }
     }
   ]

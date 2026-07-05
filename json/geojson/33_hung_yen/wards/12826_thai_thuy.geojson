@@ -3146,11 +3146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Thuỵ",
-        "unit_code": "12826",
-        "unit_code_name": "thai_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.640",
-        "area_km2": 35.5
+        "code": "12826",
+        "name": "Thái Thuỵ",
+        "nameEn": "Thai Thuy",
+        "fullName": "Xã Thái Thuỵ",
+        "fullNameEn": "Thai Thuy Commune",
+        "codeName": "thai_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.640",
+        "areaKm2": 35.5
       }
     }
   ]

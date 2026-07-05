@@ -8778,11 +8778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhân Nghĩa",
-        "unit_code": "05290",
-        "unit_code_name": "nhan_nghia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1654",
-        "area_km2": 81.37
+        "code": "05290",
+        "name": "Nhân Nghĩa",
+        "nameEn": "Nhan Nghia",
+        "fullName": "Xã Nhân Nghĩa",
+        "fullNameEn": "Nhan Nghia Commune",
+        "codeName": "nhan_nghia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1654",
+        "areaKm2": 81.37
       }
     }
   ]

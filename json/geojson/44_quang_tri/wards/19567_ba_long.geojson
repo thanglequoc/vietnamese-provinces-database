@@ -20846,11 +20846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Lòng",
-        "unit_code": "19567",
-        "unit_code_name": "ba_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.578",
-        "area_km2": 210.58
+        "code": "19567",
+        "name": "Ba Lòng",
+        "nameEn": "Ba Long",
+        "fullName": "Xã Ba Lòng",
+        "fullNameEn": "Ba Long Commune",
+        "codeName": "ba_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.578",
+        "areaKm2": 210.58
       }
     }
   ]

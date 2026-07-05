@@ -5146,11 +5146,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Mai",
-        "unit_code": "07135",
-        "unit_code_name": "dong_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1882",
-        "area_km2": 50.61
+        "code": "07135",
+        "name": "Đông Mai",
+        "nameEn": "Dong Mai",
+        "fullName": "Phường Đông Mai",
+        "fullNameEn": "Dong Mai Ward",
+        "codeName": "dong_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1882",
+        "areaKm2": 50.61
       }
     }
   ]

@@ -1462,11 +1462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Minh",
-        "unit_code": "11779",
-        "unit_code_name": "tan_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.914",
-        "area_km2": 33
+        "code": "11779",
+        "name": "Tân Minh",
+        "nameEn": "Tan Minh",
+        "fullName": "Xã Tân Minh",
+        "fullNameEn": "Tan Minh Commune",
+        "codeName": "tan_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.914",
+        "areaKm2": 33
       }
     }
   ]

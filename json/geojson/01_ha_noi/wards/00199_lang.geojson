@@ -522,11 +522,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Láng",
-        "unit_code": "00199",
-        "unit_code_name": "lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3207",
-        "area_km2": 1.88
+        "code": "00199",
+        "name": "Láng",
+        "nameEn": "Lang",
+        "fullName": "Phường Láng",
+        "fullNameEn": "Lang Ward",
+        "codeName": "lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3207",
+        "areaKm2": 1.88
       }
     }
   ]

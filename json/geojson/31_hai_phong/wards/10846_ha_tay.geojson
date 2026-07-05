@@ -2454,11 +2454,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hà Tây",
-        "unit_code": "10846",
-        "unit_code_name": "ha_tay",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.842",
-        "area_km2": 24.41
+        "code": "10846",
+        "name": "Hà Tây",
+        "nameEn": "Ha Tay",
+        "fullName": "Xã Hà Tây",
+        "fullNameEn": "Ha Tay Commune",
+        "codeName": "ha_tay",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.842",
+        "areaKm2": 24.41
       }
     }
   ]

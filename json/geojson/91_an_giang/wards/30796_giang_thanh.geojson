@@ -18282,11 +18282,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Giang Thành",
-        "unit_code": "30796",
-        "unit_code_name": "giang_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.365",
-        "area_km2": 184.14
+        "code": "30796",
+        "name": "Giang Thành",
+        "nameEn": "Giang Thanh",
+        "fullName": "Xã Giang Thành",
+        "fullNameEn": "Giang Thanh Commune",
+        "codeName": "giang_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.365",
+        "areaKm2": 184.14
       }
     }
   ]

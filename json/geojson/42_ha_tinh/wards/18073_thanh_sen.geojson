@@ -3658,11 +3658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Sen",
-        "unit_code": "18073",
-        "unit_code_name": "thanh_sen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2060",
-        "area_km2": 28.23
+        "code": "18073",
+        "name": "Thành Sen",
+        "nameEn": "Thanh Sen",
+        "fullName": "Phường Thành Sen",
+        "fullNameEn": "Thanh Sen Ward",
+        "codeName": "thanh_sen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2060",
+        "areaKm2": 28.23
       }
     }
   ]

@@ -5138,11 +5138,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhị Chiểu",
-        "unit_code": "10714",
-        "unit_code_name": "nhi_chieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.874",
-        "area_km2": 39.28
+        "code": "10714",
+        "name": "Nhị Chiểu",
+        "nameEn": "Nhi Chieu",
+        "fullName": "Phường Nhị Chiểu",
+        "fullNameEn": "Nhi Chieu Ward",
+        "codeName": "nhi_chieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.874",
+        "areaKm2": 39.28
       }
     }
   ]

@@ -20022,11 +20022,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Giang",
-        "unit_code": "91",
-        "unit_code_name": "an_giang",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.131",
-        "area_km2": 9888.91
+        "code": "91",
+        "name": "An Giang",
+        "nameEn": "An Giang",
+        "fullName": "Tỉnh An Giang",
+        "fullNameEn": "An Giang Province",
+        "codeName": "an_giang",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.131",
+        "areaKm2": 9888.91
       }
     }
   ]

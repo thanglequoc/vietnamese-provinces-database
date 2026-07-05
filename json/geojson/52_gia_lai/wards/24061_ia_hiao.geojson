@@ -9558,11 +9558,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Hiao",
-        "unit_code": "24061",
-        "unit_code_name": "ia_hiao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2960",
-        "area_km2": 108.38
+        "code": "24061",
+        "name": "Ia Hiao",
+        "nameEn": "Ia Hiao",
+        "fullName": "Xã Ia Hiao",
+        "fullNameEn": "Ia Hiao Commune",
+        "codeName": "ia_hiao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2960",
+        "areaKm2": 108.38
       }
     }
   ]

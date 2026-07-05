@@ -6478,11 +6478,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Thắng",
-        "unit_code": "20575",
-        "unit_code_name": "an_thang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1939",
-        "area_km2": 19.64
+        "code": "20575",
+        "name": "An Thắng",
+        "nameEn": "An Thang",
+        "fullName": "Phường An Thắng",
+        "fullNameEn": "An Thang Ward",
+        "codeName": "an_thang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1939",
+        "areaKm2": 19.64
       }
     }
   ]

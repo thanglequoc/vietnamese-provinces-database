@@ -7494,11 +7494,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Ninh",
-        "unit_code": "25270",
-        "unit_code_name": "loc_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2281",
-        "area_km2": 67.4
+        "code": "25270",
+        "name": "Lộc Ninh",
+        "nameEn": "Loc Ninh",
+        "fullName": "Phường Lộc Ninh",
+        "fullNameEn": "Loc Ninh Ward",
+        "codeName": "loc_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2281",
+        "areaKm2": 67.4
       }
     }
   ]

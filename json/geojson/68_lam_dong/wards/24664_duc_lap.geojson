@@ -13322,11 +13322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đức Lập",
-        "unit_code": "24664",
-        "unit_code_name": "duc_lap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2801",
-        "area_km2": 88.19
+        "code": "24664",
+        "name": "Đức Lập",
+        "nameEn": "Duc Lap",
+        "fullName": "Xã Đức Lập",
+        "fullNameEn": "Duc Lap Commune",
+        "codeName": "duc_lap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2801",
+        "areaKm2": 88.19
       }
     }
   ]

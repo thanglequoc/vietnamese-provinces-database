@@ -1334,11 +1334,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Biên",
-        "unit_code": "00145",
-        "unit_code_name": "long_bien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3171",
-        "area_km2": 19.04
+        "code": "00145",
+        "name": "Long Biên",
+        "nameEn": "Long Bien",
+        "fullName": "Phường Long Biên",
+        "fullNameEn": "Long Bien Ward",
+        "codeName": "long_bien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3171",
+        "areaKm2": 19.04
       }
     }
   ]

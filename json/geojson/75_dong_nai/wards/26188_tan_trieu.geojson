@@ -3390,11 +3390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Triều",
-        "unit_code": "26188",
-        "unit_code_name": "tan_trieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3102",
-        "area_km2": 63.3
+        "code": "26188",
+        "name": "Tân Triều",
+        "nameEn": "Tan Trieu",
+        "fullName": "Phường Tân Triều",
+        "fullNameEn": "Tan Trieu Ward",
+        "codeName": "tan_trieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3102",
+        "areaKm2": 63.3
       }
     }
   ]

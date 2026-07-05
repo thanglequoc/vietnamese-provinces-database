@@ -1770,11 +1770,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Hoà",
-        "unit_code": "07180",
-        "unit_code_name": "lien_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1875",
-        "area_km2": 71.44
+        "code": "07180",
+        "name": "Liên Hoà",
+        "nameEn": "Lien Hoa",
+        "fullName": "Phường Liên Hoà",
+        "fullNameEn": "Lien Hoa Ward",
+        "codeName": "lien_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1875",
+        "areaKm2": 71.44
       }
     }
   ]

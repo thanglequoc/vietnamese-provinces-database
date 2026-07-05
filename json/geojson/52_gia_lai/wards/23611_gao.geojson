@@ -13902,11 +13902,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gào",
-        "unit_code": "23611",
-        "unit_code_name": "gao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2948",
-        "area_km2": 182.47
+        "code": "23611",
+        "name": "Gào",
+        "nameEn": "Gao",
+        "fullName": "Xã Gào",
+        "fullNameEn": "Gao Commune",
+        "codeName": "gao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2948",
+        "areaKm2": 182.47
       }
     }
   ]

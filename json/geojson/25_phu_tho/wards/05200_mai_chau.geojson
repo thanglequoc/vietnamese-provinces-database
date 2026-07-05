@@ -9646,11 +9646,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mai Châu",
-        "unit_code": "05200",
-        "unit_code_name": "mai_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1682",
-        "area_km2": 147.74
+        "code": "05200",
+        "name": "Mai Châu",
+        "nameEn": "Mai Chau",
+        "fullName": "Xã Mai Châu",
+        "fullNameEn": "Mai Chau Commune",
+        "codeName": "mai_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1682",
+        "areaKm2": 147.74
       }
     }
   ]

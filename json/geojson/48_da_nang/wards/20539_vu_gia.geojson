@@ -2666,11 +2666,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vu Gia",
-        "unit_code": "20539",
-        "unit_code_name": "vu_gia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1942",
-        "area_km2": 25.12
+        "code": "20539",
+        "name": "Vu Gia",
+        "nameEn": "Vu Gia",
+        "fullName": "Xã Vu Gia",
+        "fullNameEn": "Vu Gia Commune",
+        "codeName": "vu_gia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1942",
+        "areaKm2": 25.12
       }
     }
   ]

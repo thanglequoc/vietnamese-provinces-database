@@ -4662,11 +4662,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Hành",
-        "unit_code": "21364",
-        "unit_code_name": "nghia_hanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1764",
-        "area_km2": 24.4
+        "code": "21364",
+        "name": "Nghĩa Hành",
+        "nameEn": "Nghia Hanh",
+        "fullName": "Xã Nghĩa Hành",
+        "fullNameEn": "Nghia Hanh Commune",
+        "codeName": "nghia_hanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1764",
+        "areaKm2": 24.4
       }
     }
   ]

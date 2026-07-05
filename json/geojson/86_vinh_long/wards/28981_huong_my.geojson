@@ -3606,11 +3606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Mỹ",
-        "unit_code": "28981",
-        "unit_code_name": "huong_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2456",
-        "area_km2": 55.01
+        "code": "28981",
+        "name": "Hương Mỹ",
+        "nameEn": "Huong My",
+        "fullName": "Xã Hương Mỹ",
+        "fullNameEn": "Huong My Commune",
+        "codeName": "huong_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2456",
+        "areaKm2": 55.01
       }
     }
   ]

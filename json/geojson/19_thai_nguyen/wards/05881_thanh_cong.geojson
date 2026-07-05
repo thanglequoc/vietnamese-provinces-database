@@ -8642,11 +8642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thành Công",
-        "unit_code": "05881",
-        "unit_code_name": "thanh_cong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1233",
-        "area_km2": 43.45
+        "code": "05881",
+        "name": "Thành Công",
+        "nameEn": "Thanh Cong",
+        "fullName": "Xã Thành Công",
+        "fullNameEn": "Thanh Cong Commune",
+        "codeName": "thanh_cong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1233",
+        "areaKm2": 43.45
       }
     }
   ]

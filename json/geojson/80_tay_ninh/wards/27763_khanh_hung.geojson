@@ -5186,11 +5186,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hưng",
-        "unit_code": "27763",
-        "unit_code_name": "khanh_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1284",
-        "area_km2": 145.09
+        "code": "27763",
+        "name": "Khánh Hưng",
+        "nameEn": "Khanh Hung",
+        "fullName": "Xã Khánh Hưng",
+        "fullNameEn": "Khanh Hung Commune",
+        "codeName": "khanh_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1284",
+        "areaKm2": 145.09
       }
     }
   ]

@@ -2718,11 +2718,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đồng",
-        "unit_code": "10837",
-        "unit_code_name": "nam_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.860",
-        "area_km2": 19.67
+        "code": "10837",
+        "name": "Nam Đồng",
+        "nameEn": "Nam Dong",
+        "fullName": "Phường Nam Đồng",
+        "fullNameEn": "Nam Dong Ward",
+        "codeName": "nam_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.860",
+        "areaKm2": 19.67
       }
     }
   ]

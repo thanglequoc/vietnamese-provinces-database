@@ -8530,11 +8530,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trung Nhứt",
-        "unit_code": "31217",
-        "unit_code_name": "trung_nhut",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.216",
-        "area_km2": 30.84
+        "code": "31217",
+        "name": "Trung Nhứt",
+        "nameEn": "Trung Nhut",
+        "fullName": "Phường Trung Nhứt",
+        "fullNameEn": "Trung Nhut Ward",
+        "codeName": "trung_nhut",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.216",
+        "areaKm2": 30.84
       }
     }
   ]

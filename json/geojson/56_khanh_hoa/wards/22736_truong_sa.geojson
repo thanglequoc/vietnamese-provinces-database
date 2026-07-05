@@ -9510,11 +9510,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Sa",
-        "unit_code": "22736",
-        "unit_code_name": "truong_sa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3317",
-        "area_km2": 496.3
+        "code": "22736",
+        "name": "Trường Sa",
+        "nameEn": "Truong Sa",
+        "fullName": "Đặc khu Trường Sa",
+        "fullNameEn": "Truong Sa Special administrative region",
+        "codeName": "truong_sa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3317",
+        "areaKm2": 496.3
       }
     }
   ]

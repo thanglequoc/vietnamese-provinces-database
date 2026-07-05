@@ -10050,11 +10050,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Rbol",
-        "unit_code": "24065",
-        "unit_code_name": "ia_rbol",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2961",
-        "area_km2": 154.97
+        "code": "24065",
+        "name": "Ia Rbol",
+        "nameEn": "Ia Rbol",
+        "fullName": "Xã Ia Rbol",
+        "fullNameEn": "Ia Rbol Commune",
+        "codeName": "ia_rbol",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2961",
+        "areaKm2": 154.97
       }
     }
   ]

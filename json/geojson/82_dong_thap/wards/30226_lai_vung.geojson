@@ -5890,11 +5890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lai Vung",
-        "unit_code": "30226",
-        "unit_code_name": "lai_vung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.437",
-        "area_km2": 71.2
+        "code": "30226",
+        "name": "Lai Vung",
+        "nameEn": "Lai Vung",
+        "fullName": "Xã Lai Vung",
+        "fullNameEn": "Lai Vung Commune",
+        "codeName": "lai_vung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.437",
+        "areaKm2": 71.2
       }
     }
   ]

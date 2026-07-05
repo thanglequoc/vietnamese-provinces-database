@@ -15234,11 +15234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Pia",
-        "unit_code": "23926",
-        "unit_code_name": "ia_pia",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2930",
-        "area_km2": 238.59
+        "code": "23926",
+        "name": "Ia Pia",
+        "nameEn": "Ia Pia",
+        "fullName": "Xã Ia Pia",
+        "fullNameEn": "Ia Pia Commune",
+        "codeName": "ia_pia",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2930",
+        "areaKm2": 238.59
       }
     }
   ]

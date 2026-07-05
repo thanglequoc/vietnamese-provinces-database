@@ -8782,11 +8782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghinh Tường",
-        "unit_code": "05722",
-        "unit_code_name": "nghinh_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1219",
-        "area_km2": 160.73
+        "code": "05722",
+        "name": "Nghinh Tường",
+        "nameEn": "Nghinh Tuong",
+        "fullName": "Xã Nghinh Tường",
+        "fullNameEn": "Nghinh Tuong Commune",
+        "codeName": "nghinh_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1219",
+        "areaKm2": 160.73
       }
     }
   ]

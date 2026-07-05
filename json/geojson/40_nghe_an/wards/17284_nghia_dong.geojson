@@ -6834,11 +6834,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghĩa Đồng",
-        "unit_code": "17284",
-        "unit_code_name": "nghia_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1437",
-        "area_km2": 72.43
+        "code": "17284",
+        "name": "Nghĩa Đồng",
+        "nameEn": "Nghia Dong",
+        "fullName": "Xã Nghĩa Đồng",
+        "fullNameEn": "Nghia Dong Commune",
+        "codeName": "nghia_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1437",
+        "areaKm2": 72.43
       }
     }
   ]

@@ -5170,11 +5170,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Kiều",
-        "unit_code": "17854",
-        "unit_code_name": "van_kieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1524",
-        "area_km2": 63.46
+        "code": "17854",
+        "name": "Văn Kiều",
+        "nameEn": "Van Kieu",
+        "fullName": "Xã Văn Kiều",
+        "fullNameEn": "Van Kieu Commune",
+        "codeName": "van_kieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1524",
+        "areaKm2": 63.46
       }
     }
   ]

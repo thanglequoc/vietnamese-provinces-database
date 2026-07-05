@@ -10234,11 +10234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Băng",
-        "unit_code": "23710",
-        "unit_code_name": "ia_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3056",
-        "area_km2": 116.24
+        "code": "23710",
+        "name": "Ia Băng",
+        "nameEn": "Ia Bang",
+        "fullName": "Xã Ia Băng",
+        "fullNameEn": "Ia Bang Commune",
+        "codeName": "ia_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3056",
+        "areaKm2": 116.24
       }
     }
   ]

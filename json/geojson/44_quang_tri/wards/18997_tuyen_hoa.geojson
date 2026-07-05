@@ -7658,11 +7658,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tuyên Hoá",
-        "unit_code": "18997",
-        "unit_code_name": "tuyen_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.611",
-        "area_km2": 194.92
+        "code": "18997",
+        "name": "Tuyên Hoá",
+        "nameEn": "Tuyen Hoa",
+        "fullName": "Xã Tuyên Hoá",
+        "fullNameEn": "Tuyen Hoa Commune",
+        "codeName": "tuyen_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.611",
+        "areaKm2": 194.92
       }
     }
   ]

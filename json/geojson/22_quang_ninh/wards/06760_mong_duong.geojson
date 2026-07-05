@@ -8782,11 +8782,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mông Dương",
-        "unit_code": "06760",
-        "unit_code_name": "mong_duong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1869",
-        "area_km2": 167.16
+        "code": "06760",
+        "name": "Mông Dương",
+        "nameEn": "Mong Duong",
+        "fullName": "Phường Mông Dương",
+        "fullNameEn": "Mong Duong Ward",
+        "codeName": "mong_duong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1869",
+        "areaKm2": 167.16
       }
     }
   ]

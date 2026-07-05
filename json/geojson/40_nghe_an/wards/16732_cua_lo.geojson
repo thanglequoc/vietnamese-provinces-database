@@ -3174,11 +3174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cửa Lò",
-        "unit_code": "16732",
-        "unit_code_name": "cua_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1522",
-        "area_km2": 29.09
+        "code": "16732",
+        "name": "Cửa Lò",
+        "nameEn": "Cua Lo",
+        "fullName": "Phường Cửa Lò",
+        "fullNameEn": "Cua Lo Ward",
+        "codeName": "cua_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1522",
+        "areaKm2": 29.09
       }
     }
   ]

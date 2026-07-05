@@ -8594,11 +8594,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Xuân Hương - Đà Lạt",
-        "unit_code": "24781",
-        "unit_code_name": "xuan_huong_da_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.508",
-        "area_km2": 73.45
+        "code": "24781",
+        "name": "Xuân Hương - Đà Lạt",
+        "nameEn": "Xuan Huong - Da Lat",
+        "fullName": "Phường Xuân Hương - Đà Lạt",
+        "fullNameEn": "Xuan Huong - Da Lat Ward",
+        "codeName": "xuan_huong_da_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.508",
+        "areaKm2": 73.45
       }
     }
   ]

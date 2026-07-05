@@ -6430,11 +6430,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trịnh Tường",
-        "unit_code": "02695",
-        "unit_code_name": "trinh_tuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1093",
-        "area_km2": 146.6
+        "code": "02695",
+        "name": "Trịnh Tường",
+        "nameEn": "Trinh Tuong",
+        "fullName": "Xã Trịnh Tường",
+        "fullNameEn": "Trinh Tuong Commune",
+        "codeName": "trinh_tuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1093",
+        "areaKm2": 146.6
       }
     }
   ]

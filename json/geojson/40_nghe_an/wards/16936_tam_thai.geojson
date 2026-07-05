@@ -11610,11 +11610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Thái",
-        "unit_code": "16936",
-        "unit_code_name": "tam_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1515",
-        "area_km2": 356.01
+        "code": "16936",
+        "name": "Tam Thái",
+        "nameEn": "Tam Thai",
+        "fullName": "Xã Tam Thái",
+        "fullNameEn": "Tam Thai Commune",
+        "codeName": "tam_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1515",
+        "areaKm2": 356.01
       }
     }
   ]

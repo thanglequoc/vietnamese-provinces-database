@@ -9842,11 +9842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Hà",
-        "unit_code": "21289",
-        "unit_code_name": "son_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1738",
-        "area_km2": 163.44
+        "code": "21289",
+        "name": "Sơn Hà",
+        "nameEn": "Son Ha",
+        "fullName": "Xã Sơn Hà",
+        "fullNameEn": "Son Ha Commune",
+        "codeName": "son_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1738",
+        "areaKm2": 163.44
       }
     }
   ]

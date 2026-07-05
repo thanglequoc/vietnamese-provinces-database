@@ -1190,11 +1190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lý Nhân",
-        "unit_code": "13573",
-        "unit_code_name": "ly_nhan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2776",
-        "area_km2": 18.38
+        "code": "13573",
+        "name": "Lý Nhân",
+        "nameEn": "Ly Nhan",
+        "fullName": "Xã Lý Nhân",
+        "fullNameEn": "Ly Nhan Commune",
+        "codeName": "ly_nhan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2776",
+        "areaKm2": 18.38
       }
     }
   ]

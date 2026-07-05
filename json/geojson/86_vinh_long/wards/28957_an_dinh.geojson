@@ -4626,11 +4626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Định",
-        "unit_code": "28957",
-        "unit_code_name": "an_dinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2454",
-        "area_km2": 46.59
+        "code": "28957",
+        "name": "An Định",
+        "nameEn": "An Dinh",
+        "fullName": "Xã An Định",
+        "fullNameEn": "An Dinh Commune",
+        "codeName": "an_dinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2454",
+        "areaKm2": 46.59
       }
     }
   ]

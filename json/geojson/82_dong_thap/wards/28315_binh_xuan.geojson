@@ -6014,11 +6014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Xuân",
-        "unit_code": "28315",
-        "unit_code_name": "binh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.498",
-        "area_km2": 34.4
+        "code": "28315",
+        "name": "Bình Xuân",
+        "nameEn": "Binh Xuan",
+        "fullName": "Phường Bình Xuân",
+        "fullNameEn": "Binh Xuan Ward",
+        "codeName": "binh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.498",
+        "areaKm2": 34.4
       }
     }
   ]

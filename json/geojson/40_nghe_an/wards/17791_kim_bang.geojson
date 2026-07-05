@@ -9854,11 +9854,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Bảng",
-        "unit_code": "17791",
-        "unit_code_name": "kim_bang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1432",
-        "area_km2": 183.26
+        "code": "17791",
+        "name": "Kim Bảng",
+        "nameEn": "Kim Bang",
+        "fullName": "Xã Kim Bảng",
+        "fullNameEn": "Kim Bang Commune",
+        "codeName": "kim_bang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1432",
+        "areaKm2": 183.26
       }
     }
   ]

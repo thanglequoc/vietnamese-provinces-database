@@ -5070,11 +5070,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Tịnh",
-        "unit_code": "25732",
-        "unit_code_name": "an_tinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2727",
-        "area_km2": 78.44
+        "code": "25732",
+        "name": "An Tịnh",
+        "nameEn": "An Tinh",
+        "fullName": "Phường An Tịnh",
+        "fullNameEn": "An Tinh Ward",
+        "codeName": "an_tinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2727",
+        "areaKm2": 78.44
       }
     }
   ]

@@ -2954,11 +2954,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Minh",
-        "unit_code": "13786",
-        "unit_code_name": "lien_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.819",
-        "area_km2": 31.05
+        "code": "13786",
+        "name": "Liên Minh",
+        "nameEn": "Lien Minh",
+        "fullName": "Xã Liên Minh",
+        "fullNameEn": "Lien Minh Commune",
+        "codeName": "lien_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.819",
+        "areaKm2": 31.05
       }
     }
   ]

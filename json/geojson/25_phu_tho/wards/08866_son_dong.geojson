@@ -8330,11 +8330,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Đông",
-        "unit_code": "08866",
-        "unit_code_name": "son_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1617",
-        "area_km2": 26.7
+        "code": "08866",
+        "name": "Sơn Đông",
+        "nameEn": "Son Dong",
+        "fullName": "Xã Sơn Đông",
+        "fullNameEn": "Son Dong Commune",
+        "codeName": "son_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1617",
+        "areaKm2": 26.7
       }
     }
   ]

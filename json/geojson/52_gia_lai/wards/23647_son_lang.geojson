@@ -19458,11 +19458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Lang",
-        "unit_code": "23647",
-        "unit_code_name": "son_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3048",
-        "area_km2": 451.01
+        "code": "23647",
+        "name": "Sơn Lang",
+        "nameEn": "Son Lang",
+        "fullName": "Xã Sơn Lang",
+        "fullNameEn": "Son Lang Commune",
+        "codeName": "son_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3048",
+        "areaKm2": 451.01
       }
     }
   ]

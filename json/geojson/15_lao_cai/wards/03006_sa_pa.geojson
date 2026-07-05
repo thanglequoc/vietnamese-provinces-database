@@ -6490,11 +6490,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sa Pa",
-        "unit_code": "03006",
-        "unit_code_name": "sa_pa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1099",
-        "area_km2": 54.63
+        "code": "03006",
+        "name": "Sa Pa",
+        "nameEn": "Sa Pa",
+        "fullName": "Phường Sa Pa",
+        "fullNameEn": "Sa Pa Ward",
+        "codeName": "sa_pa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1099",
+        "areaKm2": 54.63
       }
     }
   ]

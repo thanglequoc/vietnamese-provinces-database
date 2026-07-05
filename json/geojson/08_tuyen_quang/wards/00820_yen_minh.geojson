@@ -21262,11 +21262,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Minh",
-        "unit_code": "00820",
-        "unit_code_name": "yen_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2378",
-        "area_km2": 154.7
+        "code": "00820",
+        "name": "Yên Minh",
+        "nameEn": "Yen Minh",
+        "fullName": "Xã Yên Minh",
+        "fullNameEn": "Yen Minh Commune",
+        "codeName": "yen_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2378",
+        "areaKm2": 154.7
       }
     }
   ]

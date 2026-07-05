@@ -7386,11 +7386,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Hải",
-        "unit_code": "23246",
-        "unit_code_name": "tan_hai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3098",
-        "area_km2": 77.18
+        "code": "23246",
+        "name": "Tân Hải",
+        "nameEn": "Tan Hai",
+        "fullName": "Xã Tân Hải",
+        "fullNameEn": "Tan Hai Commune",
+        "codeName": "tan_hai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3098",
+        "areaKm2": 77.18
       }
     }
   ]

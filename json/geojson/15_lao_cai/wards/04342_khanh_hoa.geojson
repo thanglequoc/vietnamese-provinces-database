@@ -7222,11 +7222,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Hoà",
-        "unit_code": "04342",
-        "unit_code_name": "khanh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1013",
-        "area_km2": 149.77
+        "code": "04342",
+        "name": "Khánh Hoà",
+        "nameEn": "Khanh Hoa",
+        "fullName": "Xã Khánh Hoà",
+        "fullNameEn": "Khanh Hoa Commune",
+        "codeName": "khanh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1013",
+        "areaKm2": 149.77
       }
     }
   ]

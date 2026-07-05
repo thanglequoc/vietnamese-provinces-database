@@ -8310,11 +8310,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lạng Sơn",
-        "unit_code": "20",
-        "unit_code_name": "lang_son",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.105",
-        "area_km2": 8310.18
+        "code": "20",
+        "name": "Lạng Sơn",
+        "nameEn": "Lang Son",
+        "fullName": "Tỉnh Lạng Sơn",
+        "fullNameEn": "Lang Son Province",
+        "codeName": "lang_son",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.105",
+        "areaKm2": 8310.18
       }
     }
   ]

@@ -14286,11 +14286,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Vĩ",
-        "unit_code": "00778",
-        "unit_code_name": "son_vi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2374",
-        "area_km2": 110.62
+        "code": "00778",
+        "name": "Sơn Vĩ",
+        "nameEn": "Son Vi",
+        "fullName": "Xã Sơn Vĩ",
+        "fullNameEn": "Son Vi Commune",
+        "codeName": "son_vi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2374",
+        "areaKm2": 110.62
       }
     }
   ]

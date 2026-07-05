@@ -5926,11 +5926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Thuỷ",
-        "unit_code": "15010",
-        "unit_code_name": "son_thuy",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2713",
-        "area_km2": 131.58
+        "code": "15010",
+        "name": "Sơn Thuỷ",
+        "nameEn": "Son Thuy",
+        "fullName": "Xã Sơn Thuỷ",
+        "fullNameEn": "Son Thuy Commune",
+        "codeName": "son_thuy",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2713",
+        "areaKm2": 131.58
       }
     }
   ]

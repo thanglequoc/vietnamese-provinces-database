@@ -9846,11 +9846,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hùng Lợi",
-        "unit_code": "02455",
-        "unit_code_name": "hung_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2344",
-        "area_km2": 168.93
+        "code": "02455",
+        "name": "Hùng Lợi",
+        "nameEn": "Hung Loi",
+        "fullName": "Xã Hùng Lợi",
+        "fullNameEn": "Hung Loi Commune",
+        "codeName": "hung_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2344",
+        "areaKm2": 168.93
       }
     }
   ]

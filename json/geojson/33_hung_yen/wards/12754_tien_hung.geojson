@@ -4606,11 +4606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Hưng",
-        "unit_code": "12754",
-        "unit_code_name": "tien_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.654",
-        "area_km2": 22.41
+        "code": "12754",
+        "name": "Tiên Hưng",
+        "nameEn": "Tien Hung",
+        "fullName": "Xã Tiên Hưng",
+        "fullNameEn": "Tien Hung Commune",
+        "codeName": "tien_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.654",
+        "areaKm2": 22.41
       }
     }
   ]

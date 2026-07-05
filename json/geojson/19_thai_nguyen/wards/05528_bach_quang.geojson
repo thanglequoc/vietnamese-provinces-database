@@ -6894,11 +6894,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bách Quang",
-        "unit_code": "05528",
-        "unit_code_name": "bach_quang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1202",
-        "area_km2": 35.02
+        "code": "05528",
+        "name": "Bách Quang",
+        "nameEn": "Bach Quang",
+        "fullName": "Phường Bách Quang",
+        "fullNameEn": "Bach Quang Ward",
+        "codeName": "bach_quang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1202",
+        "areaKm2": 35.02
       }
     }
   ]

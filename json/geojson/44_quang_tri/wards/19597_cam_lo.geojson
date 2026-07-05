@@ -19626,11 +19626,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cam Lộ",
-        "unit_code": "19597",
-        "unit_code_name": "cam_lo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.570",
-        "area_km2": 166.85
+        "code": "19597",
+        "name": "Cam Lộ",
+        "nameEn": "Cam Lo",
+        "fullName": "Xã Cam Lộ",
+        "fullNameEn": "Cam Lo Commune",
+        "codeName": "cam_lo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.570",
+        "areaKm2": 166.85
       }
     }
   ]

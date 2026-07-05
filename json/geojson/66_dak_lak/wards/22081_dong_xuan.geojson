@@ -12422,11 +12422,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Xuân",
-        "unit_code": "22081",
-        "unit_code_name": "dong_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2898",
-        "area_km2": 206.26
+        "code": "22081",
+        "name": "Đồng Xuân",
+        "nameEn": "Dong Xuan",
+        "fullName": "Xã Đồng Xuân",
+        "fullNameEn": "Dong Xuan Commune",
+        "codeName": "dong_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2898",
+        "areaKm2": 206.26
       }
     }
   ]

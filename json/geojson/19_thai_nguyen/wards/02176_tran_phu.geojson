@@ -6274,11 +6274,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trần Phú",
-        "unit_code": "02176",
-        "unit_code_name": "tran_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1250",
-        "area_km2": 145.29
+        "code": "02176",
+        "name": "Trần Phú",
+        "nameEn": "Tran Phu",
+        "fullName": "Xã Trần Phú",
+        "fullNameEn": "Tran Phu Commune",
+        "codeName": "tran_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1250",
+        "areaKm2": 145.29
       }
     }
   ]

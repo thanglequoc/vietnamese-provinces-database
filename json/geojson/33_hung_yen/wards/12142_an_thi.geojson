@@ -2886,11 +2886,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ân Thi",
-        "unit_code": "12142",
-        "unit_code_name": "an_thi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.712",
-        "area_km2": 24.39
+        "code": "12142",
+        "name": "Ân Thi",
+        "nameEn": "An Thi",
+        "fullName": "Xã Ân Thi",
+        "fullNameEn": "An Thi Commune",
+        "codeName": "an_thi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.712",
+        "areaKm2": 24.39
       }
     }
   ]

@@ -40150,11 +40150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tà Xùa",
-        "unit_code": "03868",
-        "unit_code_name": "ta_xua",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1361",
-        "area_km2": 233.67
+        "code": "03868",
+        "name": "Tà Xùa",
+        "nameEn": "Ta Xua",
+        "fullName": "Xã Tà Xùa",
+        "fullNameEn": "Ta Xua Commune",
+        "codeName": "ta_xua",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1361",
+        "areaKm2": 233.67
       }
     }
   ]

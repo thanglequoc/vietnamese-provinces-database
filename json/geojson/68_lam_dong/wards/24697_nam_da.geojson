@@ -13134,11 +13134,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Đà",
-        "unit_code": "24697",
-        "unit_code_name": "nam_da",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2806",
-        "area_km2": 132.69
+        "code": "24697",
+        "name": "Nam Đà",
+        "nameEn": "Nam Da",
+        "fullName": "Xã Nam Đà",
+        "fullNameEn": "Nam Da Commune",
+        "codeName": "nam_da",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2806",
+        "areaKm2": 132.69
       }
     }
   ]

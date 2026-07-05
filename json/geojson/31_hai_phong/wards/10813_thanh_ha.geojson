@@ -2458,11 +2458,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Hà",
-        "unit_code": "10813",
-        "unit_code_name": "thanh_ha",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.845",
-        "area_km2": 25.9
+        "code": "10813",
+        "name": "Thanh Hà",
+        "nameEn": "Thanh Ha",
+        "fullName": "Xã Thanh Hà",
+        "fullNameEn": "Thanh Ha Commune",
+        "codeName": "thanh_ha",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.845",
+        "areaKm2": 25.9
       }
     }
   ]

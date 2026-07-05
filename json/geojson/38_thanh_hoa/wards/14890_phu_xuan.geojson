@@ -4926,11 +4926,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Xuân",
-        "unit_code": "14890",
-        "unit_code_name": "phu_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2696",
-        "area_km2": 102.36
+        "code": "14890",
+        "name": "Phú Xuân",
+        "nameEn": "Phu Xuan",
+        "fullName": "Xã Phú Xuân",
+        "fullNameEn": "Phu Xuan Commune",
+        "codeName": "phu_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2696",
+        "areaKm2": 102.36
       }
     }
   ]

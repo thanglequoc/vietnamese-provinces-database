@@ -12738,11 +12738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nghệ An",
-        "unit_code": "40",
-        "unit_code_name": "nghe_an",
-        "gis_server_id": "diaphanhanhchinhcaptinh_sn.60",
-        "area_km2": 16486.5
+        "code": "40",
+        "name": "Nghệ An",
+        "nameEn": "Nghe An",
+        "fullName": "Tỉnh Nghệ An",
+        "fullNameEn": "Nghe An Province",
+        "codeName": "nghe_an",
+        "gisServerId": "diaphanhanhchinhcaptinh_sn.60",
+        "areaKm2": 16486.5
       }
     }
   ]

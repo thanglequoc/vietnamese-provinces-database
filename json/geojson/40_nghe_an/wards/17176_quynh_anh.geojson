@@ -3342,11 +3342,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quỳnh Anh",
-        "unit_code": "17176",
-        "unit_code_name": "quynh_anh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1489",
-        "area_km2": 39.8
+        "code": "17176",
+        "name": "Quỳnh Anh",
+        "nameEn": "Quynh Anh",
+        "fullName": "Xã Quỳnh Anh",
+        "fullNameEn": "Quynh Anh Commune",
+        "codeName": "quynh_anh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1489",
+        "areaKm2": 39.8
       }
     }
   ]

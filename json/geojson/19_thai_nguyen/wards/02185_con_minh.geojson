@@ -9698,11 +9698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Côn Minh",
-        "unit_code": "02185",
-        "unit_code_name": "con_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1249",
-        "area_km2": 146.26
+        "code": "02185",
+        "name": "Côn Minh",
+        "nameEn": "Con Minh",
+        "fullName": "Xã Côn Minh",
+        "fullNameEn": "Con Minh Commune",
+        "codeName": "con_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1249",
+        "areaKm2": 146.26
       }
     }
   ]

@@ -1798,11 +1798,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Am",
-        "unit_code": "11887",
-        "unit_code_name": "vinh_am",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.910",
-        "area_km2": 27.34
+        "code": "11887",
+        "name": "Vĩnh Am",
+        "nameEn": "Vinh Am",
+        "fullName": "Xã Vĩnh Am",
+        "fullNameEn": "Vinh Am Commune",
+        "codeName": "vinh_am",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.910",
+        "areaKm2": 27.34
       }
     }
   ]

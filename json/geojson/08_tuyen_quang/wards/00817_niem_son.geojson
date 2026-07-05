@@ -7598,11 +7598,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Niêm Sơn",
-        "unit_code": "00817",
-        "unit_code_name": "niem_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2377",
-        "area_km2": 81.73
+        "code": "00817",
+        "name": "Niêm Sơn",
+        "nameEn": "Niem Son",
+        "fullName": "Xã Niêm Sơn",
+        "fullNameEn": "Niem Son Commune",
+        "codeName": "niem_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2377",
+        "areaKm2": 81.73
       }
     }
   ]

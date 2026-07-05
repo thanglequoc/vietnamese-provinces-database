@@ -8502,11 +8502,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Thông",
-        "unit_code": "02014",
-        "unit_code_name": "bach_thong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1253",
-        "area_km2": 127.84
+        "code": "02014",
+        "name": "Bạch Thông",
+        "nameEn": "Bach Thong",
+        "fullName": "Xã Bạch Thông",
+        "fullNameEn": "Bach Thong Commune",
+        "codeName": "bach_thong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1253",
+        "areaKm2": 127.84
       }
     }
   ]

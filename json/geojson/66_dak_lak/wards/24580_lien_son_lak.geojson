@@ -25358,11 +25358,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Liên Sơn Lắk",
-        "unit_code": "24580",
-        "unit_code_name": "lien_son_lak",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2869",
-        "area_km2": 398.82
+        "code": "24580",
+        "name": "Liên Sơn Lắk",
+        "nameEn": "Lien Son Lak",
+        "fullName": "Xã Liên Sơn Lắk",
+        "fullNameEn": "Lien Son Lak Commune",
+        "codeName": "lien_son_lak",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2869",
+        "areaKm2": 398.82
       }
     }
   ]

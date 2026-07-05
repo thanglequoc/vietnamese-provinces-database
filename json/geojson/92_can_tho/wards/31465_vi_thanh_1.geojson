@@ -4354,11 +4354,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vị Thanh 1",
-        "unit_code": "31465",
-        "unit_code_name": "vi_thanh_1",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.254",
-        "area_km2": 71.12
+        "code": "31465",
+        "name": "Vị Thanh 1",
+        "nameEn": "Vi Thanh 1",
+        "fullName": "Xã Vị Thanh 1",
+        "fullNameEn": "Commune Vi Thanh 1",
+        "codeName": "vi_thanh_1",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.254",
+        "areaKm2": 71.12
       }
     }
   ]

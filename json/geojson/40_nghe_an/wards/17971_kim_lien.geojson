@@ -4890,11 +4890,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kim Liên",
-        "unit_code": "17971",
-        "unit_code_name": "kim_lien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1533",
-        "area_km2": 61.08
+        "code": "17971",
+        "name": "Kim Liên",
+        "nameEn": "Kim Lien",
+        "fullName": "Xã Kim Liên",
+        "fullNameEn": "Kim Lien Commune",
+        "codeName": "kim_lien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1533",
+        "areaKm2": 61.08
       }
     }
   ]

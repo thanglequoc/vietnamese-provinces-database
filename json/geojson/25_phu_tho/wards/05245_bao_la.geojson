@@ -4190,11 +4190,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bao La",
-        "unit_code": "05245",
-        "unit_code_name": "bao_la",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1684",
-        "area_km2": 104.27
+        "code": "05245",
+        "name": "Bao La",
+        "nameEn": "Bao La",
+        "fullName": "Xã Bao La",
+        "fullNameEn": "Bao La Commune",
+        "codeName": "bao_la",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1684",
+        "areaKm2": 104.27
       }
     }
   ]

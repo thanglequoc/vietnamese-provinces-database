@@ -2234,11 +2234,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khoái Châu",
-        "unit_code": "12205",
-        "unit_code_name": "khoai_chau",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.708",
-        "area_km2": 29.35
+        "code": "12205",
+        "name": "Khoái Châu",
+        "nameEn": "Khoai Chau",
+        "fullName": "Xã Khoái Châu",
+        "fullNameEn": "Khoai Chau Commune",
+        "codeName": "khoai_chau",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.708",
+        "areaKm2": 29.35
       }
     }
   ]

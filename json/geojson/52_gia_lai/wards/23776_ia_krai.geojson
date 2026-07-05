@@ -16338,11 +16338,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Krái",
-        "unit_code": "23776",
-        "unit_code_name": "ia_krai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2933",
-        "area_km2": 307.83
+        "code": "23776",
+        "name": "Ia Krái",
+        "nameEn": "Ia Krai",
+        "fullName": "Xã Ia Krái",
+        "fullNameEn": "Ia Krai Commune",
+        "codeName": "ia_krai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2933",
+        "areaKm2": 307.83
       }
     }
   ]

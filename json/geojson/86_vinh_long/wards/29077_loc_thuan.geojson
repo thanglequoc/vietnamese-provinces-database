@@ -4182,11 +4182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Thuận",
-        "unit_code": "29077",
-        "unit_code_name": "loc_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2467",
-        "area_km2": 42.7
+        "code": "29077",
+        "name": "Lộc Thuận",
+        "nameEn": "Loc Thuan",
+        "fullName": "Xã Lộc Thuận",
+        "fullNameEn": "Loc Thuan Commune",
+        "codeName": "loc_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2467",
+        "areaKm2": 42.7
       }
     }
   ]

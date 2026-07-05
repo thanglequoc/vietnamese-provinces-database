@@ -6346,11 +6346,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phong Hiệp",
-        "unit_code": "31885",
-        "unit_code_name": "phong_hiep",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.149",
-        "area_km2": 55.97
+        "code": "31885",
+        "name": "Phong Hiệp",
+        "nameEn": "Phong Hiep",
+        "fullName": "Xã Phong Hiệp",
+        "fullNameEn": "Phong Hiep Commune",
+        "codeName": "phong_hiep",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.149",
+        "areaKm2": 55.97
       }
     }
   ]

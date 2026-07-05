@@ -5738,11 +5738,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Viên - Đà Lạt",
-        "unit_code": "24778",
-        "unit_code_name": "lam_vien_da_lat",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.507",
-        "area_km2": 35.03
+        "code": "24778",
+        "name": "Lâm Viên - Đà Lạt",
+        "nameEn": "Lam Vien - Da Lat",
+        "fullName": "Phường Lâm Viên - Đà Lạt",
+        "fullNameEn": "Lam Vien - Da Lat Ward",
+        "codeName": "lam_vien_da_lat",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.507",
+        "areaKm2": 35.03
       }
     }
   ]

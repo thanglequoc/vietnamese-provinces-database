@@ -3990,11 +3990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Ninh",
-        "unit_code": "16540",
-        "unit_code_name": "quang_ninh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2586",
-        "area_km2": 17.1
+        "code": "16540",
+        "name": "Quảng Ninh",
+        "nameEn": "Quang Ninh",
+        "fullName": "Xã Quảng Ninh",
+        "fullNameEn": "Quang Ninh Commune",
+        "codeName": "quang_ninh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2586",
+        "areaKm2": 17.1
       }
     }
   ]

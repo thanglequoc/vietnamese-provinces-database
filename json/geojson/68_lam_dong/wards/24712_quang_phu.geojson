@@ -27142,11 +27142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Phú",
-        "unit_code": "24712",
-        "unit_code_name": "quang_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2807",
-        "area_km2": 263.58
+        "code": "24712",
+        "name": "Quảng Phú",
+        "nameEn": "Quang Phu",
+        "fullName": "Xã Quảng Phú",
+        "fullNameEn": "Quang Phu Commune",
+        "codeName": "quang_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2807",
+        "areaKm2": 263.58
       }
     }
   ]

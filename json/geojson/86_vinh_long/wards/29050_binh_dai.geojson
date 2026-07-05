@@ -4462,11 +4462,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Đại",
-        "unit_code": "29050",
-        "unit_code_name": "binh_dai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2464",
-        "area_km2": 44.7
+        "code": "29050",
+        "name": "Bình Đại",
+        "nameEn": "Binh Dai",
+        "fullName": "Xã Bình Đại",
+        "fullNameEn": "Binh Dai Commune",
+        "codeName": "binh_dai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2464",
+        "areaKm2": 44.7
       }
     }
   ]

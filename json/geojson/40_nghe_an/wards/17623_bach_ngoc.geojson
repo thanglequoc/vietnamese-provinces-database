@@ -6802,11 +6802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Ngọc",
-        "unit_code": "17623",
-        "unit_code_name": "bach_ngoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1459",
-        "area_km2": 72.2
+        "code": "17623",
+        "name": "Bạch Ngọc",
+        "nameEn": "Bach Ngoc",
+        "fullName": "Xã Bạch Ngọc",
+        "fullNameEn": "Bach Ngoc Commune",
+        "codeName": "bach_ngoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1459",
+        "areaKm2": 72.2
       }
     }
   ]

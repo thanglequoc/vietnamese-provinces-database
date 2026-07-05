@@ -5254,11 +5254,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Phú",
-        "unit_code": "31639",
-        "unit_code_name": "long_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.283",
-        "area_km2": 76.77
+        "code": "31639",
+        "name": "Long Phú",
+        "nameEn": "Long Phu",
+        "fullName": "Xã Long Phú",
+        "fullNameEn": "Long Phu Commune",
+        "codeName": "long_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.283",
+        "areaKm2": 76.77
       }
     }
   ]

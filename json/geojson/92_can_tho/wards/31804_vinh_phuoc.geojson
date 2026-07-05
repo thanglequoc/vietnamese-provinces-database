@@ -13786,11 +13786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Phước",
-        "unit_code": "31804",
-        "unit_code_name": "vinh_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.303",
-        "area_km2": 103.15
+        "code": "31804",
+        "name": "Vĩnh Phước",
+        "nameEn": "Vinh Phuoc",
+        "fullName": "Phường Vĩnh Phước",
+        "fullNameEn": "Vinh Phuoc Ward",
+        "codeName": "vinh_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.303",
+        "areaKm2": 103.15
       }
     }
   ]

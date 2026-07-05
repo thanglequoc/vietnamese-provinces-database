@@ -9906,11 +9906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Chấn",
-        "unit_code": "04672",
-        "unit_code_name": "van_chan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1045",
-        "area_km2": 140.24
+        "code": "04672",
+        "name": "Văn Chấn",
+        "nameEn": "Van Chan",
+        "fullName": "Xã Văn Chấn",
+        "fullNameEn": "Van Chan Commune",
+        "codeName": "van_chan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1045",
+        "areaKm2": 140.24
       }
     }
   ]

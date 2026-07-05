@@ -4210,11 +4210,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Mạc",
-        "unit_code": "14743",
-        "unit_code_name": "yen_mac",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.765",
-        "area_km2": 20.6
+        "code": "14743",
+        "name": "Yên Mạc",
+        "nameEn": "Yen Mac",
+        "fullName": "Xã Yên Mạc",
+        "fullNameEn": "Yen Mac Commune",
+        "codeName": "yen_mac",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.765",
+        "areaKm2": 20.6
       }
     }
   ]

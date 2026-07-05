@@ -4618,11 +4618,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Lãng",
-        "unit_code": "08980",
-        "unit_code_name": "yen_lang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3243",
-        "area_km2": 44.81
+        "code": "08980",
+        "name": "Yên Lãng",
+        "nameEn": "Yen Lang",
+        "fullName": "Xã Yên Lãng",
+        "fullNameEn": "Yen Lang Commune",
+        "codeName": "yen_lang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3243",
+        "areaKm2": 44.81
       }
     }
   ]

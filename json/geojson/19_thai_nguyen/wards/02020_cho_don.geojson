@@ -11014,11 +11014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Chợ Đồn",
-        "unit_code": "02020",
-        "unit_code_name": "cho_don",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1178",
-        "area_km2": 142.1
+        "code": "02020",
+        "name": "Chợ Đồn",
+        "nameEn": "Cho Don",
+        "fullName": "Xã Chợ Đồn",
+        "fullNameEn": "Cho Don Commune",
+        "codeName": "cho_don",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1178",
+        "areaKm2": 142.1
       }
     }
   ]

@@ -8670,11 +8670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Thành",
-        "unit_code": "31288",
-        "unit_code_name": "truong_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.233",
-        "area_km2": 59.09
+        "code": "31288",
+        "name": "Trường Thành",
+        "nameEn": "Truong Thanh",
+        "fullName": "Xã Trường Thành",
+        "fullNameEn": "Truong Thanh Commune",
+        "codeName": "truong_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.233",
+        "areaKm2": 59.09
       }
     }
   ]

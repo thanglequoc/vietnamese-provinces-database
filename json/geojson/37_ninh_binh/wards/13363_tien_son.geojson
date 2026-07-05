@@ -1982,11 +1982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Sơn",
-        "unit_code": "13363",
-        "unit_code_name": "tien_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2791",
-        "area_km2": 23.96
+        "code": "13363",
+        "name": "Tiên Sơn",
+        "nameEn": "Tien Son",
+        "fullName": "Phường Tiên Sơn",
+        "fullNameEn": "Tien Son Ward",
+        "codeName": "tien_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2791",
+        "areaKm2": 23.96
       }
     }
   ]

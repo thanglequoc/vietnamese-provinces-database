@@ -2842,11 +2842,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Thanh Miện",
-        "unit_code": "11284",
-        "unit_code_name": "nam_thanh_mien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.884",
-        "area_km2": 23.99
+        "code": "11284",
+        "name": "Nam Thanh Miện",
+        "nameEn": "Nam Thanh Mien",
+        "fullName": "Xã Nam Thanh Miện",
+        "fullNameEn": "Nam Thanh Mien Commune",
+        "codeName": "nam_thanh_mien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.884",
+        "areaKm2": 23.99
       }
     }
   ]

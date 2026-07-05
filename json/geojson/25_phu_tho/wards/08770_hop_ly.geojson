@@ -8114,11 +8114,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hợp Lý",
-        "unit_code": "08770",
-        "unit_code_name": "hop_ly",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1640",
-        "area_km2": 34.1
+        "code": "08770",
+        "name": "Hợp Lý",
+        "nameEn": "Hop Ly",
+        "fullName": "Xã Hợp Lý",
+        "fullNameEn": "Hop Ly Commune",
+        "codeName": "hop_ly",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1640",
+        "areaKm2": 34.1
       }
     }
   ]

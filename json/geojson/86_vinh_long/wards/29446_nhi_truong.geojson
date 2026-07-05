@@ -2982,11 +2982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhị Trường",
-        "unit_code": "29446",
-        "unit_code_name": "nhi_truong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2508",
-        "area_km2": 72.34
+        "code": "29446",
+        "name": "Nhị Trường",
+        "nameEn": "Nhi Truong",
+        "fullName": "Xã Nhị Trường",
+        "fullNameEn": "Nhi Truong Commune",
+        "codeName": "nhi_truong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2508",
+        "areaKm2": 72.34
       }
     }
   ]

@@ -3950,11 +3950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thọ Phú",
-        "unit_code": "15763",
-        "unit_code_name": "tho_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2665",
-        "area_km2": 35.12
+        "code": "15763",
+        "name": "Thọ Phú",
+        "nameEn": "Tho Phu",
+        "fullName": "Xã Thọ Phú",
+        "fullNameEn": "Tho Phu Commune",
+        "codeName": "tho_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2665",
+        "areaKm2": 35.12
       }
     }
   ]

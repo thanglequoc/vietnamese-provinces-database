@@ -3990,11 +3990,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Sơn Tiến",
-        "unit_code": "18163",
-        "unit_code_name": "son_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2057",
-        "area_km2": 80.97
+        "code": "18163",
+        "name": "Sơn Tiến",
+        "nameEn": "Son Tien",
+        "fullName": "Xã Sơn Tiến",
+        "fullNameEn": "Son Tien Commune",
+        "codeName": "son_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2057",
+        "areaKm2": 80.97
       }
     }
   ]

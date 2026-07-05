@@ -11258,11 +11258,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đoài Phương",
-        "unit_code": "09616",
-        "unit_code_name": "doai_phuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3225",
-        "area_km2": 57.1
+        "code": "09616",
+        "name": "Đoài Phương",
+        "nameEn": "Doai Phuong",
+        "fullName": "Xã Đoài Phương",
+        "fullNameEn": "Doai Phuong Commune",
+        "codeName": "doai_phuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3225",
+        "areaKm2": 57.1
       }
     }
   ]

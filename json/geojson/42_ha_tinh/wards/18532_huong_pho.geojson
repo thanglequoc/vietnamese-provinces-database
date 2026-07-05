@@ -8850,11 +8850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hương Phố",
-        "unit_code": "18532",
-        "unit_code_name": "huong_pho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2051",
-        "area_km2": 135.68
+        "code": "18532",
+        "name": "Hương Phố",
+        "nameEn": "Huong Pho",
+        "fullName": "Xã Hương Phố",
+        "fullNameEn": "Huong Pho Commune",
+        "codeName": "huong_pho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2051",
+        "areaKm2": 135.68
       }
     }
   ]

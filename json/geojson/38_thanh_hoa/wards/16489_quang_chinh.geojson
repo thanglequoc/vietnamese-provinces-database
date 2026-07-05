@@ -5182,11 +5182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quảng Chính",
-        "unit_code": "16489",
-        "unit_code_name": "quang_chinh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2579",
-        "area_km2": 26.14
+        "code": "16489",
+        "name": "Quảng Chính",
+        "nameEn": "Quang Chinh",
+        "fullName": "Xã Quảng Chính",
+        "fullNameEn": "Quang Chinh Commune",
+        "codeName": "quang_chinh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2579",
+        "areaKm2": 26.14
       }
     }
   ]

@@ -18110,11 +18110,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nội Bài",
-        "unit_code": "00433",
-        "unit_code_name": "noi_bai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3253",
-        "area_km2": 51.64
+        "code": "00433",
+        "name": "Nội Bài",
+        "nameEn": "Noi Bai",
+        "fullName": "Xã Nội Bài",
+        "fullNameEn": "Noi Bai Commune",
+        "codeName": "noi_bai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3253",
+        "areaKm2": 51.64
       }
     }
   ]

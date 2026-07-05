@@ -5242,11 +5242,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Thanh",
-        "unit_code": "15007",
-        "unit_code_name": "tam_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2712",
-        "area_km2": 99.24
+        "code": "15007",
+        "name": "Tam Thanh",
+        "nameEn": "Tam Thanh",
+        "fullName": "Xã Tam Thanh",
+        "fullNameEn": "Tam Thanh Commune",
+        "codeName": "tam_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2712",
+        "areaKm2": 99.24
       }
     }
   ]

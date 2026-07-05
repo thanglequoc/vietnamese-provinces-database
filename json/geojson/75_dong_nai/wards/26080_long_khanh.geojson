@@ -10326,11 +10326,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Khánh",
-        "unit_code": "26080",
-        "unit_code_name": "long_khanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3109",
-        "area_km2": 21.3
+        "code": "26080",
+        "name": "Long Khánh",
+        "nameEn": "Long Khanh",
+        "fullName": "Phường Long Khánh",
+        "fullNameEn": "Long Khanh Ward",
+        "codeName": "long_khanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3109",
+        "areaKm2": 21.3
       }
     }
   ]

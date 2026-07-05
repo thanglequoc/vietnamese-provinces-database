@@ -7622,11 +7622,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mỹ Yên",
-        "unit_code": "28018",
-        "unit_code_name": "my_yen",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1313",
-        "area_km2": 29.23
+        "code": "28018",
+        "name": "Mỹ Yên",
+        "nameEn": "My Yen",
+        "fullName": "Xã Mỹ Yên",
+        "fullNameEn": "My Yen Commune",
+        "codeName": "my_yen",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1313",
+        "areaKm2": 29.23
       }
     }
   ]

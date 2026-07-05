@@ -1802,11 +1802,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Mai",
-        "unit_code": "00292",
-        "unit_code_name": "bach_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3199",
-        "area_km2": 2.95
+        "code": "00292",
+        "name": "Bạch Mai",
+        "nameEn": "Bach Mai",
+        "fullName": "Phường Bạch Mai",
+        "fullNameEn": "Bach Mai Ward",
+        "codeName": "bach_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3199",
+        "areaKm2": 2.95
       }
     }
   ]

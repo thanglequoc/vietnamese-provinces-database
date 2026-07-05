@@ -15014,11 +15014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ea Tul",
-        "unit_code": "24277",
-        "unit_code_name": "ea_tul",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2841",
-        "area_km2": 159.51
+        "code": "24277",
+        "name": "Ea Tul",
+        "nameEn": "Ea Tul",
+        "fullName": "Xã Ea Tul",
+        "fullNameEn": "Ea Tul Commune",
+        "codeName": "ea_tul",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2841",
+        "areaKm2": 159.51
       }
     }
   ]

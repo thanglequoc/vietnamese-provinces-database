@@ -38014,11 +38014,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cư Pui",
-        "unit_code": "24478",
-        "unit_code_name": "cu_pui",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2861",
-        "area_km2": 314.08
+        "code": "24478",
+        "name": "Cư Pui",
+        "nameEn": "Cu Pui",
+        "fullName": "Xã Cư Pui",
+        "fullNameEn": "Cu Pui Commune",
+        "codeName": "cu_pui",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2861",
+        "areaKm2": 314.08
       }
     }
   ]

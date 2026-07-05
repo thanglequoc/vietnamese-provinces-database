@@ -9982,11 +9982,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Yên Bình",
-        "unit_code": "06391",
-        "unit_code_name": "yen_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1840",
-        "area_km2": 119.22
+        "code": "06391",
+        "name": "Yên Bình",
+        "nameEn": "Yen Binh",
+        "fullName": "Xã Yên Bình",
+        "fullNameEn": "Yen Binh Commune",
+        "codeName": "yen_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1840",
+        "areaKm2": 119.22
       }
     }
   ]

@@ -1642,11 +1642,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tứ Minh",
-        "unit_code": "10891",
-        "unit_code_name": "tu_minh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.861",
-        "area_km2": 14.77
+        "code": "10891",
+        "name": "Tứ Minh",
+        "nameEn": "Tu Minh",
+        "fullName": "Phường Tứ Minh",
+        "fullNameEn": "Tu Minh Ward",
+        "codeName": "tu_minh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.861",
+        "areaKm2": 14.77
       }
     }
   ]

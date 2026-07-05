@@ -3946,11 +3946,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Sơn",
-        "unit_code": "13558",
-        "unit_code_name": "binh_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2777",
-        "area_km2": 28.06
+        "code": "13558",
+        "name": "Bình Sơn",
+        "nameEn": "Binh Son",
+        "fullName": "Xã Bình Sơn",
+        "fullNameEn": "Binh Son Commune",
+        "codeName": "binh_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2777",
+        "areaKm2": 28.06
       }
     }
   ]

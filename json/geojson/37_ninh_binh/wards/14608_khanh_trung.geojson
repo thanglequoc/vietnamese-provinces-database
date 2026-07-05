@@ -1030,11 +1030,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Khánh Trung",
-        "unit_code": "14608",
-        "unit_code_name": "khanh_trung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.762",
-        "area_km2": 26.42
+        "code": "14608",
+        "name": "Khánh Trung",
+        "nameEn": "Khanh Trung",
+        "fullName": "Xã Khánh Trung",
+        "fullNameEn": "Khanh Trung Commune",
+        "codeName": "khanh_trung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.762",
+        "areaKm2": 26.42
       }
     }
   ]

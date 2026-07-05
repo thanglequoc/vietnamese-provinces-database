@@ -4042,11 +4042,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lâm Thao",
-        "unit_code": "09529",
-        "unit_code_name": "lam_thao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2137",
-        "area_km2": 26.26
+        "code": "09529",
+        "name": "Lâm Thao",
+        "nameEn": "Lam Thao",
+        "fullName": "Xã Lâm Thao",
+        "fullNameEn": "Lam Thao Commune",
+        "codeName": "lam_thao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2137",
+        "areaKm2": 26.26
       }
     }
   ]

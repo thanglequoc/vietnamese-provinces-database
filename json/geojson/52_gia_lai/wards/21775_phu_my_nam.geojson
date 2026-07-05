@@ -12670,11 +12670,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phù Mỹ Nam",
-        "unit_code": "21775",
-        "unit_code_name": "phu_my_nam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2984",
-        "area_km2": 85.1
+        "code": "21775",
+        "name": "Phù Mỹ Nam",
+        "nameEn": "Phu My Nam",
+        "fullName": "Xã Phù Mỹ Nam",
+        "fullNameEn": "Phu My Nam Commune",
+        "codeName": "phu_my_nam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2984",
+        "areaKm2": 85.1
       }
     }
   ]

@@ -8314,11 +8314,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Định Mỹ",
-        "unit_code": "30709",
-        "unit_code_name": "dinh_my",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.357",
-        "area_km2": 109.77
+        "code": "30709",
+        "name": "Định Mỹ",
+        "nameEn": "Dinh My",
+        "fullName": "Xã Định Mỹ",
+        "fullNameEn": "Dinh My Commune",
+        "codeName": "dinh_my",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.357",
+        "areaKm2": 109.77
       }
     }
   ]

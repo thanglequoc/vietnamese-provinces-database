@@ -9230,11 +9230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tri Phú",
-        "unit_code": "02359",
-        "unit_code_name": "tri_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2331",
-        "area_km2": 170.26
+        "code": "02359",
+        "name": "Tri Phú",
+        "nameEn": "Tri Phu",
+        "fullName": "Xã Tri Phú",
+        "fullNameEn": "Tri Phu Commune",
+        "codeName": "tri_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2331",
+        "areaKm2": 170.26
       }
     }
   ]

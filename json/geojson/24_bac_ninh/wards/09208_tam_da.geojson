@@ -2870,11 +2870,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Đa",
-        "unit_code": "09208",
-        "unit_code_name": "tam_da",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2121",
-        "area_km2": 20.52
+        "code": "09208",
+        "name": "Tam Đa",
+        "nameEn": "Tam Da",
+        "fullName": "Xã Tam Đa",
+        "fullNameEn": "Tam Da Commune",
+        "codeName": "tam_da",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2121",
+        "areaKm2": 20.52
       }
     }
   ]

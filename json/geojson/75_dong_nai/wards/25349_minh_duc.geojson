@@ -14230,11 +14230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Minh Đức",
-        "unit_code": "25349",
-        "unit_code_name": "minh_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2293",
-        "area_km2": 167.1
+        "code": "25349",
+        "name": "Minh Đức",
+        "nameEn": "Minh Duc",
+        "fullName": "Xã Minh Đức",
+        "fullNameEn": "Minh Duc Commune",
+        "codeName": "minh_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2293",
+        "areaKm2": 167.1
       }
     }
   ]

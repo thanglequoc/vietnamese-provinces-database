@@ -6602,11 +6602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Phú",
-        "unit_code": "25549",
-        "unit_code_name": "tan_phu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2752",
-        "area_km2": 103.08
+        "code": "25549",
+        "name": "Tân Phú",
+        "nameEn": "Tan Phu",
+        "fullName": "Xã Tân Phú",
+        "fullNameEn": "Tan Phu Commune",
+        "codeName": "tan_phu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2752",
+        "areaKm2": 103.08
       }
     }
   ]

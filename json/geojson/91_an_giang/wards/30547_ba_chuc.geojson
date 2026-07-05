@@ -2774,11 +2774,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Chúc",
-        "unit_code": "30547",
-        "unit_code_name": "ba_chuc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.338",
-        "area_km2": 70.94
+        "code": "30547",
+        "name": "Ba Chúc",
+        "nameEn": "Ba Chuc",
+        "fullName": "Xã Ba Chúc",
+        "fullNameEn": "Ba Chuc Commune",
+        "codeName": "ba_chuc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.338",
+        "areaKm2": 70.94
       }
     }
   ]

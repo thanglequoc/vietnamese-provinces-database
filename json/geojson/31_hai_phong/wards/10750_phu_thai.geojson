@@ -3362,11 +3362,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Thái",
-        "unit_code": "10750",
-        "unit_code_name": "phu_thai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.847",
-        "area_km2": 28.89
+        "code": "10750",
+        "name": "Phú Thái",
+        "nameEn": "Phu Thai",
+        "fullName": "Xã Phú Thái",
+        "fullNameEn": "Phu Thai Commune",
+        "codeName": "phu_thai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.847",
+        "areaKm2": 28.89
       }
     }
   ]

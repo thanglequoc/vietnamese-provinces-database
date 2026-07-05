@@ -17390,11 +17390,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bến Giằng",
-        "unit_code": "20710",
-        "unit_code_name": "ben_giang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1950",
-        "area_km2": 535.96
+        "code": "20710",
+        "name": "Bến Giằng",
+        "nameEn": "Ben Giang",
+        "fullName": "Xã Bến Giằng",
+        "fullNameEn": "Ben Giang Commune",
+        "codeName": "ben_giang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1950",
+        "areaKm2": 535.96
       }
     }
   ]

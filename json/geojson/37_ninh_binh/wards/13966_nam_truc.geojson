@@ -3142,11 +3142,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nam Trực",
-        "unit_code": "13966",
-        "unit_code_name": "nam_truc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.793",
-        "area_km2": 20.47
+        "code": "13966",
+        "name": "Nam Trực",
+        "nameEn": "Nam Truc",
+        "fullName": "Xã Nam Trực",
+        "fullNameEn": "Nam Truc Commune",
+        "codeName": "nam_truc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.793",
+        "areaKm2": 20.47
       }
     }
   ]

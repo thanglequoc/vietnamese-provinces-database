@@ -11102,11 +11102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nà Hang",
-        "unit_code": "02221",
-        "unit_code_name": "na_hang",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2314",
-        "area_km2": 256.53
+        "code": "02221",
+        "name": "Nà Hang",
+        "nameEn": "Na Hang",
+        "fullName": "Xã Nà Hang",
+        "fullNameEn": "Na Hang Commune",
+        "codeName": "na_hang",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2314",
+        "areaKm2": 256.53
       }
     }
   ]

@@ -17906,11 +17906,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hàm Thuận",
-        "unit_code": "23059",
-        "unit_code_name": "ham_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3059",
-        "area_km2": 198.36
+        "code": "23059",
+        "name": "Hàm Thuận",
+        "nameEn": "Ham Thuan",
+        "fullName": "Xã Hàm Thuận",
+        "fullNameEn": "Ham Thuan Commune",
+        "codeName": "ham_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3059",
+        "areaKm2": 198.36
       }
     }
   ]

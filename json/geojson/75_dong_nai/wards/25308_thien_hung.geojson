@@ -9278,11 +9278,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thiện Hưng",
-        "unit_code": "25308",
-        "unit_code_name": "thien_hung",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2288",
-        "area_km2": 111
+        "code": "25308",
+        "name": "Thiện Hưng",
+        "nameEn": "Thien Hung",
+        "fullName": "Xã Thiện Hưng",
+        "fullNameEn": "Thien Hung Commune",
+        "codeName": "thien_hung",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2288",
+        "areaKm2": 111
       }
     }
   ]

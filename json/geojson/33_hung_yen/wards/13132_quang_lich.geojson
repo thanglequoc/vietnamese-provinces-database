@@ -2150,11 +2150,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Quang Lịch",
-        "unit_code": "13132",
-        "unit_code_name": "quang_lich",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.699",
-        "area_km2": 14.92
+        "code": "13132",
+        "name": "Quang Lịch",
+        "nameEn": "Quang Lich",
+        "fullName": "Xã Quang Lịch",
+        "fullNameEn": "Quang Lich Commune",
+        "codeName": "quang_lich",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.699",
+        "areaKm2": 14.92
       }
     }
   ]

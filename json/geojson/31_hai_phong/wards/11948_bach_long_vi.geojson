@@ -682,11 +682,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bạch Long Vĩ",
-        "unit_code": "11948",
-        "unit_code_name": "bach_long_vi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3294",
-        "area_km2": 3.07
+        "code": "11948",
+        "name": "Bạch Long Vĩ",
+        "nameEn": "Bach Long Vi",
+        "fullName": "Đặc khu Bạch Long Vĩ",
+        "fullNameEn": "Bach Long Vi Special administrative region",
+        "codeName": "bach_long_vi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3294",
+        "areaKm2": 3.07
       }
     }
   ]

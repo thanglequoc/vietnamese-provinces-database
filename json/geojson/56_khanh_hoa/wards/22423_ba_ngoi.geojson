@@ -3526,11 +3526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Ngòi",
-        "unit_code": "22423",
-        "unit_code_name": "ba_ngoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1123",
-        "area_km2": 78.2
+        "code": "22423",
+        "name": "Ba Ngòi",
+        "nameEn": "Ba Ngoi",
+        "fullName": "Phường Ba Ngòi",
+        "fullNameEn": "Ba Ngoi Ward",
+        "codeName": "ba_ngoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1123",
+        "areaKm2": 78.2
       }
     }
   ]

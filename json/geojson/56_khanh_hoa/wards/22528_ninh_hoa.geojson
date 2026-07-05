@@ -7838,11 +7838,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Hoà",
-        "unit_code": "22528",
-        "unit_code_name": "ninh_hoa",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1109",
-        "area_km2": 35.8
+        "code": "22528",
+        "name": "Ninh Hoà",
+        "nameEn": "Ninh Hoa",
+        "fullName": "Phường Ninh Hoà",
+        "fullNameEn": "Ninh Hoa Ward",
+        "codeName": "ninh_hoa",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1109",
+        "areaKm2": 35.8
       }
     }
   ]

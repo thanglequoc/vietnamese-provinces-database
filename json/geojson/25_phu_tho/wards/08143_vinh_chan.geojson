@@ -3810,11 +3810,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vĩnh Chân",
-        "unit_code": "08143",
-        "unit_code_name": "vinh_chan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1547",
-        "area_km2": 27.12
+        "code": "08143",
+        "name": "Vĩnh Chân",
+        "nameEn": "Vinh Chan",
+        "fullName": "Xã Vĩnh Chân",
+        "fullNameEn": "Vinh Chan Commune",
+        "codeName": "vinh_chan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1547",
+        "areaKm2": 27.12
       }
     }
   ]

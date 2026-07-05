@@ -13230,11 +13230,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Thuận",
-        "unit_code": "25711",
-        "unit_code_name": "hung_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2734",
-        "area_km2": 102.72
+        "code": "25711",
+        "name": "Hưng Thuận",
+        "nameEn": "Hung Thuan",
+        "fullName": "Xã Hưng Thuận",
+        "fullNameEn": "Hung Thuan Commune",
+        "codeName": "hung_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2734",
+        "areaKm2": 102.72
       }
     }
   ]

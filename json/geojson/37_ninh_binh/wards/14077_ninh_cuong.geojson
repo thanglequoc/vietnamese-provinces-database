@@ -1574,11 +1574,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ninh Cường",
-        "unit_code": "14077",
-        "unit_code_name": "ninh_cuong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.822",
-        "area_km2": 22.28
+        "code": "14077",
+        "name": "Ninh Cường",
+        "nameEn": "Ninh Cuong",
+        "fullName": "Xã Ninh Cường",
+        "fullNameEn": "Ninh Cuong Commune",
+        "codeName": "ninh_cuong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.822",
+        "areaKm2": 22.28
       }
     }
   ]

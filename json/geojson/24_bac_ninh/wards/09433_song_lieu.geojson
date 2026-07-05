@@ -3526,11 +3526,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Song Liễu",
-        "unit_code": "09433",
-        "unit_code_name": "song_lieu",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2195",
-        "area_km2": 17.75
+        "code": "09433",
+        "name": "Song Liễu",
+        "nameEn": "Song Lieu",
+        "fullName": "Phường Song Liễu",
+        "fullNameEn": "Song Lieu Ward",
+        "codeName": "song_lieu",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2195",
+        "areaKm2": 17.75
       }
     }
   ]

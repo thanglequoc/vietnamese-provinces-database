@@ -5078,11 +5078,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nhơn Trạch",
-        "unit_code": "26485",
-        "unit_code_name": "nhon_trach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3147",
-        "area_km2": 108
+        "code": "26485",
+        "name": "Nhơn Trạch",
+        "nameEn": "Nhon Trach",
+        "fullName": "Phường Nhơn Trạch",
+        "fullNameEn": "Nhon Trach Ward",
+        "codeName": "nhon_trach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3147",
+        "areaKm2": 108
       }
     }
   ]

@@ -6006,11 +6006,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tự Lạn",
-        "unit_code": "07774",
-        "unit_code_name": "tu_lan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2150",
-        "area_km2": 39.89
+        "code": "07774",
+        "name": "Tự Lạn",
+        "nameEn": "Tu Lan",
+        "fullName": "Phường Tự Lạn",
+        "fullNameEn": "Tu Lan Ward",
+        "codeName": "tu_lan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2150",
+        "areaKm2": 39.89
       }
     }
   ]

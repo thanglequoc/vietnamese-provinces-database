@@ -7566,11 +7566,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tiên Lục",
-        "unit_code": "07381",
-        "unit_code_name": "tien_luc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2168",
-        "area_km2": 51.49
+        "code": "07381",
+        "name": "Tiên Lục",
+        "nameEn": "Tien Luc",
+        "fullName": "Xã Tiên Lục",
+        "fullNameEn": "Tien Luc Commune",
+        "codeName": "tien_luc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2168",
+        "areaKm2": 51.49
       }
     }
   ]

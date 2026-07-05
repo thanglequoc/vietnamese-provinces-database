@@ -10714,11 +10714,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ia Rsai",
-        "unit_code": "24112",
-        "unit_code_name": "ia_rsai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2963",
-        "area_km2": 473.69
+        "code": "24112",
+        "name": "Ia Rsai",
+        "nameEn": "Ia Rsai",
+        "fullName": "Xã Ia Rsai",
+        "fullNameEn": "Ia Rsai Commune",
+        "codeName": "ia_rsai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2963",
+        "areaKm2": 473.69
       }
     }
   ]

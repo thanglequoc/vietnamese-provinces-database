@@ -15610,11 +15610,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hạnh Lâm",
-        "unit_code": "17722",
-        "unit_code_name": "hanh_lam",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1427",
-        "area_km2": 274.57
+        "code": "17722",
+        "name": "Hạnh Lâm",
+        "nameEn": "Hanh Lam",
+        "fullName": "Xã Hạnh Lâm",
+        "fullNameEn": "Hanh Lam Commune",
+        "codeName": "hanh_lam",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1427",
+        "areaKm2": 274.57
       }
     }
   ]

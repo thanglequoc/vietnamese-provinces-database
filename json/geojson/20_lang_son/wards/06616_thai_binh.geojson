@@ -15998,11 +15998,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thái Bình",
-        "unit_code": "06616",
-        "unit_code_name": "thai_binh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1853",
-        "area_km2": 305.25
+        "code": "06616",
+        "name": "Thái Bình",
+        "nameEn": "Thai Binh",
+        "fullName": "Xã Thái Bình",
+        "fullNameEn": "Thai Binh Commune",
+        "codeName": "thai_binh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1853",
+        "areaKm2": 305.25
       }
     }
   ]

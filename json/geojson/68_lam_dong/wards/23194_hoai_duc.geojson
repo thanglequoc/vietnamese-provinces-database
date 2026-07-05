@@ -19698,11 +19698,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoài Đức",
-        "unit_code": "23194",
-        "unit_code_name": "hoai_duc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3092",
-        "area_km2": 105.04
+        "code": "23194",
+        "name": "Hoài Đức",
+        "nameEn": "Hoai Duc",
+        "fullName": "Xã Hoài Đức",
+        "fullNameEn": "Hoai Duc Commune",
+        "codeName": "hoai_duc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3092",
+        "areaKm2": 105.04
       }
     }
   ]

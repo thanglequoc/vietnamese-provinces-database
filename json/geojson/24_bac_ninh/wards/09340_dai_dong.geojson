@@ -2606,11 +2606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đại Đồng",
-        "unit_code": "09340",
-        "unit_code_name": "dai_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2120",
-        "area_km2": 19.88
+        "code": "09340",
+        "name": "Đại Đồng",
+        "nameEn": "Dai Dong",
+        "fullName": "Xã Đại Đồng",
+        "fullNameEn": "Dai Dong Commune",
+        "codeName": "dai_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2120",
+        "areaKm2": 19.88
       }
     }
   ]

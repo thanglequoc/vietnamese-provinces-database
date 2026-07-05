@@ -1786,11 +1786,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Gò Vấp",
-        "unit_code": "26884",
-        "unit_code_name": "go_vap",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.55",
-        "area_km2": 2.81
+        "code": "26884",
+        "name": "Gò Vấp",
+        "nameEn": "Go Vap",
+        "fullName": "Phường Gò Vấp",
+        "fullNameEn": "Go Vap Ward",
+        "codeName": "go_vap",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.55",
+        "areaKm2": 2.81
       }
     }
   ]

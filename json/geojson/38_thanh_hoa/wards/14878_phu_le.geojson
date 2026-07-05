@@ -5750,11 +5750,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Phú Lệ",
-        "unit_code": "14878",
-        "unit_code_name": "phu_le",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2695",
-        "area_km2": 139.5
+        "code": "14878",
+        "name": "Phú Lệ",
+        "nameEn": "Phu Le",
+        "fullName": "Xã Phú Lệ",
+        "fullNameEn": "Phu Le Commune",
+        "codeName": "phu_le",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2695",
+        "areaKm2": 139.5
       }
     }
   ]

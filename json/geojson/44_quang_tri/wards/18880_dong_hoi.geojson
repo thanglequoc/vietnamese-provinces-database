@@ -4918,11 +4918,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đồng Hới",
-        "unit_code": "18880",
-        "unit_code_name": "dong_hoi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.597",
-        "area_km2": 41.35
+        "code": "18880",
+        "name": "Đồng Hới",
+        "nameEn": "Dong Hoi",
+        "fullName": "Phường Đồng Hới",
+        "fullNameEn": "Dong Hoi Ward",
+        "codeName": "dong_hoi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.597",
+        "areaKm2": 41.35
       }
     }
   ]

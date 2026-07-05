@@ -3246,11 +3246,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Đồng",
-        "unit_code": "17743",
-        "unit_code_name": "tam_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1429",
-        "area_km2": 53.38
+        "code": "17743",
+        "name": "Tam Đồng",
+        "nameEn": "Tam Dong",
+        "fullName": "Xã Tam Đồng",
+        "fullNameEn": "Tam Dong Commune",
+        "codeName": "tam_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1429",
+        "areaKm2": 53.38
       }
     }
   ]

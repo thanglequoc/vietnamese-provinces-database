@@ -778,11 +778,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Châu Đốc",
-        "unit_code": "30316",
-        "unit_code_name": "chau_doc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.309",
-        "area_km2": 41.32
+        "code": "30316",
+        "name": "Châu Đốc",
+        "nameEn": "Chau Doc",
+        "fullName": "Phường Châu Đốc",
+        "fullNameEn": "Chau Doc Ward",
+        "codeName": "chau_doc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.309",
+        "areaKm2": 41.32
       }
     }
   ]

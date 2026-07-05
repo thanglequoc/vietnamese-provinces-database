@@ -11606,11 +11606,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Tiên",
-        "unit_code": "28504",
-        "unit_code_name": "long_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.471",
-        "area_km2": 44.6
+        "code": "28504",
+        "name": "Long Tiên",
+        "nameEn": "Long Tien",
+        "fullName": "Xã Long Tiên",
+        "fullNameEn": "Long Tien Commune",
+        "codeName": "long_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.471",
+        "areaKm2": 44.6
       }
     }
   ]

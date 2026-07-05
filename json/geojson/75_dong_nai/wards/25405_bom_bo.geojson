@@ -15630,11 +15630,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bom Bo",
-        "unit_code": "25405",
-        "unit_code_name": "bom_bo",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2303",
-        "area_km2": 245.9
+        "code": "25405",
+        "name": "Bom Bo",
+        "nameEn": "Bom Bo",
+        "fullName": "Xã Bom Bo",
+        "fullNameEn": "Bom Bo Commune",
+        "codeName": "bom_bo",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2303",
+        "areaKm2": 245.9
       }
     }
   ]

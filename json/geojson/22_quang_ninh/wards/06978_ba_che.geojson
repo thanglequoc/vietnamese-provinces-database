@@ -15882,11 +15882,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ba Chẽ",
-        "unit_code": "06978",
-        "unit_code_name": "ba_che",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1876",
-        "area_km2": 332.68
+        "code": "06978",
+        "name": "Ba Chẽ",
+        "nameEn": "Ba Che",
+        "fullName": "Xã Ba Chẽ",
+        "fullNameEn": "Ba Che Commune",
+        "codeName": "ba_che",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1876",
+        "areaKm2": 332.68
       }
     }
   ]

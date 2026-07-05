@@ -3722,11 +3722,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Thành",
-        "unit_code": "10792",
-        "unit_code_name": "an_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.840",
-        "area_km2": 23.66
+        "code": "10792",
+        "name": "An Thành",
+        "nameEn": "An Thanh",
+        "fullName": "Xã An Thành",
+        "fullNameEn": "An Thanh Commune",
+        "codeName": "an_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.840",
+        "areaKm2": 23.66
       }
     }
   ]

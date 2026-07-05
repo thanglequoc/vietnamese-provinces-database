@@ -4406,11 +4406,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bàn Thạch",
-        "unit_code": "20335",
-        "unit_code_name": "ban_thach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1971",
-        "area_km2": 34.77
+        "code": "20335",
+        "name": "Bàn Thạch",
+        "nameEn": "Ban Thach",
+        "fullName": "Phường Bàn Thạch",
+        "fullNameEn": "Ban Thach Ward",
+        "codeName": "ban_thach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1971",
+        "areaKm2": 34.77
       }
     }
   ]

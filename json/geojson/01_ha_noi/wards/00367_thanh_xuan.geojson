@@ -1102,11 +1102,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Xuân",
-        "unit_code": "00367",
-        "unit_code_name": "thanh_xuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3185",
-        "area_km2": 3.24
+        "code": "00367",
+        "name": "Thanh Xuân",
+        "nameEn": "Thanh Xuan",
+        "fullName": "Phường Thanh Xuân",
+        "fullNameEn": "Thanh Xuan Ward",
+        "codeName": "thanh_xuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3185",
+        "areaKm2": 3.24
       }
     }
   ]

@@ -3206,11 +3206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoàng Mai",
-        "unit_code": "00331",
-        "unit_code_name": "hoang_mai",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3190",
-        "area_km2": 9.04
+        "code": "00331",
+        "name": "Hoàng Mai",
+        "nameEn": "Hoang Mai",
+        "fullName": "Phường Hoàng Mai",
+        "fullNameEn": "Hoang Mai Ward",
+        "codeName": "hoang_mai",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3190",
+        "areaKm2": 9.04
       }
     }
   ]

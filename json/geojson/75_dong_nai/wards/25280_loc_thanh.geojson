@@ -27482,11 +27482,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lộc Thạnh",
-        "unit_code": "25280",
-        "unit_code_name": "loc_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2282",
-        "area_km2": 125.5
+        "code": "25280",
+        "name": "Lộc Thạnh",
+        "nameEn": "Loc Thanh",
+        "fullName": "Xã Lộc Thạnh",
+        "fullNameEn": "Loc Thanh Commune",
+        "codeName": "loc_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2282",
+        "areaKm2": 125.5
       }
     }
   ]

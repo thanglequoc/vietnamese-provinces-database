@@ -8958,11 +8958,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kế Sách",
-        "unit_code": "31528",
-        "unit_code_name": "ke_sach",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.264",
-        "area_km2": 61.58
+        "code": "31528",
+        "name": "Kế Sách",
+        "nameEn": "Ke Sach",
+        "fullName": "Xã Kế Sách",
+        "fullNameEn": "Ke Sach Commune",
+        "codeName": "ke_sach",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.264",
+        "areaKm2": 61.58
       }
     }
   ]

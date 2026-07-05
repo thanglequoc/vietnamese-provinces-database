@@ -4850,11 +4850,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Kiên Thọ",
-        "unit_code": "15112",
-        "unit_code_name": "kien_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2672",
-        "area_km2": 56.52
+        "code": "15112",
+        "name": "Kiên Thọ",
+        "nameEn": "Kien Tho",
+        "fullName": "Xã Kiên Thọ",
+        "fullNameEn": "Kien Tho Commune",
+        "codeName": "kien_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2672",
+        "areaKm2": 56.52
       }
     }
   ]

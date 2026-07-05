@@ -15702,11 +15702,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Trường Sơn",
-        "unit_code": "19204",
-        "unit_code_name": "truong_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.628",
-        "area_km2": 935.96
+        "code": "19204",
+        "name": "Trường Sơn",
+        "nameEn": "Truong Son",
+        "fullName": "Xã Trường Sơn",
+        "fullNameEn": "Truong Son Commune",
+        "codeName": "truong_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.628",
+        "areaKm2": 935.96
       }
     }
   ]

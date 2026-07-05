@@ -10182,11 +10182,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Long Thành",
-        "unit_code": "29513",
-        "unit_code_name": "long_thanh",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2517",
-        "area_km2": 51.51
+        "code": "29513",
+        "name": "Long Thành",
+        "nameEn": "Long Thanh",
+        "fullName": "Xã Long Thành",
+        "fullNameEn": "Long Thanh Commune",
+        "codeName": "long_thanh",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2517",
+        "areaKm2": 51.51
       }
     }
   ]

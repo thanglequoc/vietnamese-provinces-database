@@ -1602,11 +1602,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Nguyệt Viên",
-        "unit_code": "15925",
-        "unit_code_name": "nguyet_vien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2600",
-        "area_km2": 22.3
+        "code": "15925",
+        "name": "Nguyệt Viên",
+        "nameEn": "Nguyet Vien",
+        "fullName": "Phường Nguyệt Viên",
+        "fullNameEn": "Nguyet Vien Ward",
+        "codeName": "nguyet_vien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2600",
+        "areaKm2": 22.3
       }
     }
   ]

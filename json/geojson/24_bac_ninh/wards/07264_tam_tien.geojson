@@ -13094,11 +13094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tam Tiến",
-        "unit_code": "07264",
-        "unit_code_name": "tam_tien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2159",
-        "area_km2": 60.34
+        "code": "07264",
+        "name": "Tam Tiến",
+        "nameEn": "Tam Tien",
+        "fullName": "Xã Tam Tiến",
+        "fullNameEn": "Tam Tien Commune",
+        "codeName": "tam_tien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2159",
+        "areaKm2": 60.34
       }
     }
   ]

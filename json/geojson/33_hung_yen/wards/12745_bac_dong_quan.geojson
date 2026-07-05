@@ -1538,11 +1538,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bắc Đông Quan",
-        "unit_code": "12745",
-        "unit_code_name": "bac_dong_quan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.653",
-        "area_km2": 20.67
+        "code": "12745",
+        "name": "Bắc Đông Quan",
+        "nameEn": "Bac Dong Quan",
+        "fullName": "Xã Bắc Đông Quan",
+        "fullNameEn": "Bac Dong Quan Commune",
+        "codeName": "bac_dong_quan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.653",
+        "areaKm2": 20.67
       }
     }
   ]

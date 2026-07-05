@@ -8298,11 +8298,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Cường Lợi",
-        "unit_code": "02152",
-        "unit_code_name": "cuong_loi",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1248",
-        "area_km2": 117.85
+        "code": "02152",
+        "name": "Cường Lợi",
+        "nameEn": "Cuong Loi",
+        "fullName": "Xã Cường Lợi",
+        "fullNameEn": "Cuong Loi Commune",
+        "codeName": "cuong_loi",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1248",
+        "areaKm2": 117.85
       }
     }
   ]

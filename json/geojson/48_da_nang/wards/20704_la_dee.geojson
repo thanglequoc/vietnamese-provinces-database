@@ -10498,11 +10498,14 @@
         ]
       },
       "properties": {
-        "unit_name": "La Dêê",
-        "unit_code": "20704",
-        "unit_code_name": "la_dee",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1918",
-        "area_km2": 184.81
+        "code": "20704",
+        "name": "La Dêê",
+        "nameEn": "La Dee",
+        "fullName": "Xã La Dêê",
+        "fullNameEn": "La Dee Commune",
+        "codeName": "la_dee",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1918",
+        "areaKm2": 184.81
       }
     }
   ]

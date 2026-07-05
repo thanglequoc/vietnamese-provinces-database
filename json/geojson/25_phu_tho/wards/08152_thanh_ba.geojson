@@ -10094,11 +10094,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Thanh Ba",
-        "unit_code": "08152",
-        "unit_code_name": "thanh_ba",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1548",
-        "area_km2": 38.6
+        "code": "08152",
+        "name": "Thanh Ba",
+        "nameEn": "Thanh Ba",
+        "fullName": "Xã Thanh Ba",
+        "fullNameEn": "Thanh Ba Commune",
+        "codeName": "thanh_ba",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1548",
+        "areaKm2": 38.6
       }
     }
   ]

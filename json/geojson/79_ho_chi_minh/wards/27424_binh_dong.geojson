@@ -1174,11 +1174,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Bình Đông",
-        "unit_code": "27424",
-        "unit_code_name": "binh_dong",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.104",
-        "area_km2": 8.93
+        "code": "27424",
+        "name": "Bình Đông",
+        "nameEn": "Binh Dong",
+        "fullName": "Phường Bình Đông",
+        "fullNameEn": "Binh Dong Ward",
+        "codeName": "binh_dong",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.104",
+        "areaKm2": 8.93
       }
     }
   ]

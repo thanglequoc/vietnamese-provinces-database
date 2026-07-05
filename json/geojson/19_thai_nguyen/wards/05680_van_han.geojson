@@ -8978,11 +8978,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Văn Hán",
-        "unit_code": "05680",
-        "unit_code_name": "van_han",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1212",
-        "area_km2": 96.26
+        "code": "05680",
+        "name": "Văn Hán",
+        "nameEn": "Van Han",
+        "fullName": "Xã Văn Hán",
+        "fullNameEn": "Van Han Commune",
+        "codeName": "van_han",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1212",
+        "areaKm2": 96.26
       }
     }
   ]

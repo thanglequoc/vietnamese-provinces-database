@@ -4322,11 +4322,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Vân Sơn",
-        "unit_code": "04033",
-        "unit_code_name": "van_son",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3285",
-        "area_km2": 39.61
+        "code": "04033",
+        "name": "Vân Sơn",
+        "nameEn": "Van Son",
+        "fullName": "Phường Vân Sơn",
+        "fullNameEn": "Van Son Ward",
+        "codeName": "van_son",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3285",
+        "areaKm2": 39.61
       }
     }
   ]

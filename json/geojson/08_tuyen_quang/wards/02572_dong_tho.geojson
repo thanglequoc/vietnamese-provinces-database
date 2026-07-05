@@ -7486,11 +7486,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Đông Thọ",
-        "unit_code": "02572",
-        "unit_code_name": "dong_tho",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2357",
-        "area_km2": 74.86
+        "code": "02572",
+        "name": "Đông Thọ",
+        "nameEn": "Dong Tho",
+        "fullName": "Xã Đông Thọ",
+        "fullNameEn": "Dong Tho Commune",
+        "codeName": "dong_tho",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2357",
+        "areaKm2": 74.86
       }
     }
   ]

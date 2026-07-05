@@ -7206,11 +7206,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Lương Văn Tri",
-        "unit_code": "05983",
-        "unit_code_name": "luong_van_tri",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.1793",
-        "area_km2": 31.76
+        "code": "05983",
+        "name": "Lương Văn Tri",
+        "nameEn": "Luong Van Tri",
+        "fullName": "Phường Lương Văn Tri",
+        "fullNameEn": "Luong Van Tri Ward",
+        "codeName": "luong_van_tri",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.1793",
+        "areaKm2": 31.76
       }
     }
   ]

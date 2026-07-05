@@ -17914,11 +17914,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Mường Tè",
-        "unit_code": "03445",
-        "unit_code_name": "muong_te",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2069",
-        "area_km2": 292
+        "code": "03445",
+        "name": "Mường Tè",
+        "nameEn": "Muong Te",
+        "fullName": "Xã Mường Tè",
+        "fullNameEn": "Muong Te Commune",
+        "codeName": "muong_te",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2069",
+        "areaKm2": 292
       }
     }
   ]

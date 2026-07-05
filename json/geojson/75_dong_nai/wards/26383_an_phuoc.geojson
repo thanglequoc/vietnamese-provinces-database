@@ -5366,11 +5366,14 @@
         ]
       },
       "properties": {
-        "unit_name": "An Phước",
-        "unit_code": "26383",
-        "unit_code_name": "an_phuoc",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.3136",
-        "area_km2": 58.3
+        "code": "26383",
+        "name": "An Phước",
+        "nameEn": "An Phuoc",
+        "fullName": "Xã An Phước",
+        "fullNameEn": "An Phuoc Commune",
+        "codeName": "an_phuoc",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.3136",
+        "areaKm2": 58.3
       }
     }
   ]

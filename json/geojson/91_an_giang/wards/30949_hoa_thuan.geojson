@@ -6942,11 +6942,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hoà Thuận",
-        "unit_code": "30949",
-        "unit_code_name": "hoa_thuan",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.383",
-        "area_km2": 73.85
+        "code": "30949",
+        "name": "Hoà Thuận",
+        "nameEn": "Hoa Thuan",
+        "fullName": "Xã Hoà Thuận",
+        "fullNameEn": "Hoa Thuan Commune",
+        "codeName": "hoa_thuan",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.383",
+        "areaKm2": 73.85
       }
     }
   ]

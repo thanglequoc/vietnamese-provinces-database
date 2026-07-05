@@ -6950,11 +6950,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Ngọc Trạo",
-        "unit_code": "15250",
-        "unit_code_name": "ngoc_trao",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.2632",
-        "area_km2": 79.62
+        "code": "15250",
+        "name": "Ngọc Trạo",
+        "nameEn": "Ngoc Trao",
+        "fullName": "Xã Ngọc Trạo",
+        "fullNameEn": "Ngoc Trao Commune",
+        "codeName": "ngoc_trao",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.2632",
+        "areaKm2": 79.62
       }
     }
   ]

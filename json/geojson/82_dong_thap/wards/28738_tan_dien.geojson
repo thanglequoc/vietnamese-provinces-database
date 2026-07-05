@@ -3966,11 +3966,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Tân Điền",
-        "unit_code": "28738",
-        "unit_code_name": "tan_dien",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.500",
-        "area_km2": 39
+        "code": "28738",
+        "name": "Tân Điền",
+        "nameEn": "Tan Dien",
+        "fullName": "Xã Tân Điền",
+        "fullNameEn": "Tan Dien Commune",
+        "codeName": "tan_dien",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.500",
+        "areaKm2": 39
       }
     }
   ]

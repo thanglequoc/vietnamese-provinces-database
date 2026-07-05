@@ -3930,11 +3930,14 @@
         ]
       },
       "properties": {
-        "unit_name": "Hưng Long",
-        "unit_code": "27628",
-        "unit_code_name": "hung_long",
-        "gis_server_id": "diaphanhanhchinhcapxa_2025.130",
-        "area_km2": 35.54
+        "code": "27628",
+        "name": "Hưng Long",
+        "nameEn": "Hung Long",
+        "fullName": "Xã Hưng Long",
+        "fullNameEn": "Hung Long Commune",
+        "codeName": "hung_long",
+        "gisServerId": "diaphanhanhchinhcapxa_2025.130",
+        "areaKm2": 35.54
       }
     }
   ]
