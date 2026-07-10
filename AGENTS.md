@@ -53,8 +53,6 @@ vietnamese-provinces-database/
 │   ├── main.go                        # Entry point
 │   ├── go.mod / go.sum               # Go dependencies (Bun, postgres driver)
 │   ├── .env                          # Database credentials
-│   ├── cmd/
-│   │   └── compare-gis/              # CLI tool for GIS comparison workflows
 │   ├── docker/
 │   │   └── docker-compose.yaml       # Local Postgres/PostGIS container
 │   ├── internal/
@@ -82,7 +80,6 @@ vietnamese-provinces-database/
 │   │   │   ├── model/               # Bun ORM models (Province, Ward, AdministrativeUnit, AdministrativeRegion)
 │   │   │   └── repository/          # Repository queries
 │   │   ├── gis/                     # GIS models and shared GIS logic
-│   │   ├── gis_comparator/          # GIS data validation (model + service with reporter)
 │   │   ├── testutil/                # Test fixtures/helpers
 │   │   └── database/                # Postgres connection pool + bootstrap/SQL script execution
 │   ├── resources/
@@ -90,7 +87,6 @@ vietnamese-provinces-database/
 │   │   ├── db_region_administrative_unit.sql  # Region & administrative unit seed data
 │   │   ├── fresh_cleanup.sql         # DB cleanup script (run before each generation)
 │   │   ├── gis/
-│   │   │   ├── exported/             # Exported GIS intermediate artifacts
 │   │   │   ├── geojson_11Mar2026/    # ← GeoJSON geometry (from deprecated API)
 │   │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
 │   │   │   ├── sapnhap_bando_tables.sql          # GIS table schema
@@ -100,7 +96,6 @@ vietnamese-provinces-database/
 │   │   └── rules/                    # Vietnamese text convention rules
 │   │       └── vn_tone_mark_convention.md
 │   ├── bando_co_dvch.sql             # Raw SAPNhap administrative unit SQL dump (497KB)
-│   ├── bin/                          # Compiled binaries (compare-gis CLI)
 │   ├── sapnhap-bando-crawler/        # Historical/auxiliary crawler tooling (Python scripts)
 │   ├── memory/
 │   │   ├── MEMORY.md                # Memory index
@@ -109,7 +104,6 @@ vietnamese-provinces-database/
 │   └── tmp/                          # Temporary working directory
 ├── development/                       # Feature documentation & planning artifacts
 │   ├── adapt_the_removal_of_sapnhap_api.md  # Context: API → file-based migration
-│   ├── gis-data-comparison-tool.md   # GIS comparison CLI tool documentation
 │   ├── cleanup_old_reference/         # Completed cleanup plans (e.g., remove_bando_gisserver_references.md)
 │   └── include_geojson_export/        # GeoJSON export feature planning
 ├── docs/
@@ -175,7 +169,6 @@ Geographic data migration context (March 2026):
 |------|----------|-------|
 | Check province/ward counts | Query | `docker exec psql` or `/db-query` |
 | Verify data integrity (duplicates, orphans) | Query | SQL verification scripts |
-| Compare old vs new GIS data | Query + analysis | `gis_comparator`, `cmd/compare-gis` |
 | Generate new SQL dumps | Execute script | `go run main.go` |
 | Migrate new government decree | Query → Plan → Execute | Read decree, find affected records, generate patch |
 
@@ -220,7 +213,6 @@ Typical contents in `dataset-generation-scripts/output/` include:
 ## Testing & Validation
 
 - Unit tests in each `internal/*/` package (run with `go test -v ./...`)
-- Data validation via `gis_comparator` for geometry matching
 - Historical patch verification in `patch/` directory
 - GIS server ID matching (100% validation before release)
 
