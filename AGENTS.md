@@ -58,43 +58,65 @@ vietnamese-provinces-database/
 │   ├── docker/
 │   │   └── docker-compose.yaml       # Local Postgres/PostGIS container
 │   ├── internal/
-│   │   ├── common/                   # Shared helpers (e.g., Vietnamese text handling)
-│   │   ├── dvhcvn_data_downloader/   # Direct DVHCVN administrative data ingestion
-│   │   ├── sapnhap_bando/           # Geographic data service (formerly API, now file-based)
+│   │   ├── common/                   # Shared helpers
+│   │   │   └── viet/                 # Vietnamese text handling (tone marks, normalization)
+│   │   ├── dvhcvn_data_downloader/   # Direct DVHCVN administrative data ingestion (SOAP parser)
+│   │   ├── sapnhap_bando/           # Geographic data service (HTTP API to sapnhap.bando.com.vn)
 │   │   │   ├── fetcher/             # Loads JSON metadata & GeoJSON files
-│   │   │   ├── service/             # Business logic
-│   │   │   ├── repository/          # Database operations
-│   │   │   ├── model/               # Domain models
-│   │   │   └── dto/                 # Data transfer objects
+│   │   │   ├── service/             # Business logic (GIS fetch, backfill, metadata)
+│   │   │   ├── repository/          # Database operations (sapnhap, gis, geojson_objects)
+│   │   │   ├── model/               # Domain models (sapnhap, geojson)
+│   │   │   ├── dto/                 # Data transfer objects (geojson_file, gis_server, sapnhap_api)
+│   │   │   └── util/                # Name normalization utilities
 │   │   ├── dumper/                  # Reads admin data, persists to DB
+│   │   │   ├── config/              # Constant mappings
+│   │   │   ├── helper/              # Dumper helper functions
+│   │   │   ├── model/               # Dumper domain models
+│   │   │   ├── repository/          # Seed data repository
+│   │   │   └── service/             # DVHCVN SOAP seed dumper, corrector, manual seed dumper
 │   │   ├── dataset_writer/          # Generates SQL/JSON/NoSQL output
-│   │   ├── vn_provinces_tmp/        # Core VN provinces data layer
+│   │   │   └── dataset_file_writer/ # Per-format file writers (postgres/mysql, mssql, oracle, json, mongodb, redis, geojson)
+│   │   │       ├── dto/             # Output DTOs (geojson, json, mongo)
+│   │   │       └── helper/          # DTO mappers
+│   │   ├── vn_provinces_tmp/        # Core VN provinces data layer (provinces_tmp, wards_tmp tables)
+│   │   │   ├── model/               # Bun ORM models (Province, Ward, AdministrativeUnit, AdministrativeRegion)
+│   │   │   └── repository/          # Repository queries
 │   │   ├── gis/                     # GIS models and shared GIS logic
-│   │   ├── gis_comparator/          # GIS data validation
-│   │   ├── spatial_gis_comparator/  # Advanced spatial analysis
-│   │   ├── geojson_fetcher/         # GeoJSON handling
+│   │   ├── gis_comparator/          # GIS data validation (model + service with reporter)
 │   │   ├── testutil/                # Test fixtures/helpers
-│   │   └── database/                # Postgres connection pool
+│   │   └── database/                # Postgres connection pool + bootstrap/SQL script execution
 │   ├── resources/
-│   │   └── gis/
-│   │       ├── bando_gisserver/     # ← Provinces/wards JSON metadata
-│   │       ├── exported/            # Exported GIS intermediate artifacts
-│   │       ├── geojson_11Mar2026/   # ← GeoJSON geometry (from deprecated API)
-│   │       └── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources
-│   ├── resources/manual_seeds/       # Manual fallback seed data
-│   ├── sapnhap-bando-crawler/        # Historical/auxiliary crawler tooling
+│   │   ├── db_table_init.sql         # Core table schema (provinces_tmp, wards_tmp, etc.)
+│   │   ├── db_region_administrative_unit.sql  # Region & administrative unit seed data
+│   │   ├── fresh_cleanup.sql         # DB cleanup script (run before each generation)
+│   │   ├── gis/
+│   │   │   ├── exported/             # Exported GIS intermediate artifacts
+│   │   │   ├── geojson_11Mar2026/    # ← GeoJSON geometry (from deprecated API)
+│   │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
+│   │   │   ├── sapnhap_bando_tables.sql          # GIS table schema
+│   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Geo objects table init
+│   │   │   └── sapnhapbando_geo_objects.sql       # Geo objects seed data
+│   │   ├── manual_seeds/             # Manual fallback seed data (provinces_seed.sql + wards/)
+│   │   └── rules/                    # Vietnamese text convention rules
+│   │       └── vn_tone_mark_convention.md
+│   ├── bando_co_dvch.sql             # Raw SAPNhap administrative unit SQL dump (497KB)
+│   ├── bin/                          # Compiled binaries (compare-gis CLI)
+│   ├── sapnhap-bando-crawler/        # Historical/auxiliary crawler tooling (Python scripts)
 │   ├── memory/
 │   │   ├── MEMORY.md                # Memory index
 │   │   └── feedback_*.md            # User preferences & learnings
-│   ├── output/                       # Generated artifacts
-│   └── patch/                        # Historical decree patches
-├── development/                       # Feature documentation
+│   ├── output/                       # Generated artifacts (gitignored, staging area)
+│   └── tmp/                          # Temporary working directory
+├── development/                       # Feature documentation & planning artifacts
 │   ├── adapt_the_removal_of_sapnhap_api.md  # Context: API → file-based migration
-│   └── [phase-plans].md              # Plans for new features
-├── docs/                              # User-facing GIS and dataset documentation
+│   ├── gis-data-comparison-tool.md   # GIS comparison CLI tool documentation
+│   ├── cleanup_old_reference/         # Completed cleanup plans (e.g., remove_bando_gisserver_references.md)
+│   └── include_geojson_export/        # GeoJSON export feature planning
+├── docs/
+│   └── gis/                          # User-facing GIS documentation (gis_readme.md, gis_readme_vi.md, gis_example_query.md)
 ├── json/, mysql/, postgresql/, oracle/, sqlserver/, mongodb/, redis/
 │   └── Generated dataset exports in various formats
-└── .github/workflows/                # CI/CD pipelines
+└── .github/workflows/                # CI/CD pipelines (test-go.yml runs Go tests with PostGIS)
 ```
 
 ---
@@ -137,10 +159,9 @@ Current generation flow:
 
 Geographic data migration context (March 2026):
 - **Before**: GIS metadata fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)
-- **Now**: GIS metadata and geometry load from local files:
-  - `./resources/gis/bando_gisserver/provinces.json`
-  - `./resources/gis/bando_gisserver/wards.json`
+- **After (March 2026)**: GIS metadata and geometry load from local files:
   - `./resources/gis/geojson_11Mar2026/*.geojson`
+- **After (July 2026)**: `bando_gisserver/` local JSON files removed (dead code cleanup). Live GIS uses HTTP API (`pread_json`, `p.co_dvhc_id`) + An Giang manual patch.
 - **Key IDs**: `mahc` (province)→`sapnhap_province_matinh` (GIS), `maxa` (ward)→`sapnhap_ward_maxa` (GIS)
 - **Status**: All 3,355 records verified with 100% GIS ID match rate
 
@@ -154,7 +175,7 @@ Geographic data migration context (March 2026):
 |------|----------|-------|
 | Check province/ward counts | Query | `docker exec psql` or `/db-query` |
 | Verify data integrity (duplicates, orphans) | Query | SQL verification scripts |
-| Compare old vs new GIS data | Query + analysis | `gis_comparator`, `spatial_gis_comparator` |
+| Compare old vs new GIS data | Query + analysis | `gis_comparator`, `cmd/compare-gis` |
 | Generate new SQL dumps | Execute script | `go run main.go` |
 | Migrate new government decree | Query → Plan → Execute | Read decree, find affected records, generate patch |
 
@@ -203,6 +224,24 @@ Typical contents in `dataset-generation-scripts/output/` include:
 - Historical patch verification in `patch/` directory
 - GIS server ID matching (100% validation before release)
 
+### CI/CD Pipeline (`.github/workflows/test-go.yml`)
+
+The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
+
+1. **Service setup**: Spins up `postgis/postgis:15-3.3` as a service container on port `15432`
+2. **Schema initialization**: Runs SQL scripts in order:
+   - `resources/db_table_init.sql` — core tables
+   - `resources/db_region_administrative_unit.sql` — region/unit seed data
+   - `resources/gis/sapnhap_bando_tables.sql` — GIS tables
+   - `resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql` — geo objects table
+3. **Environment variables** (required for tests):
+   - `POSTGRES_DB_HOST=localhost`, `POSTGRES_DB_PORT=15432`
+   - `POSTGRES_DB_USERNAME=postgres`, `POSTGRES_DB_PSWD=root`
+   - `POSTGRES_TMP_DB_NAME=vn_provinces_tmp`
+4. **Test execution**: `go test -v ./...` from `dataset-generation-scripts/`
+
+> **Note**: `first-workflow.yml` is a trivial hello-world stub, not functional CI.
+
 ---
 
 ## Subsystem Deep Dive
@@ -221,8 +260,7 @@ For detailed code-level context on Go services, database models, and implementat
 ## Memory & Feedback
 
 This project maintains persistent learnings:
-- [Database Skill Preference](dataset-generation-scripts/memory/feedback_database_skill.md) — Use reusable skills for recurring tasks
-- [Automatic Skill Invocation](dataset-generation-scripts/memory/feedback_auto_db_query.md) — Skills should auto-trigger based on context
+- [Automatic Skill Invocation](dataset-generation-scripts/memory/feedback_auto_db_query.md) — Skills should auto-trigger based on context, not require manual `/skill-name` invocation
 
 ---
 
@@ -232,9 +270,12 @@ This project maintains persistent learnings:
 |----------|---------|
 | [README.md](README.md) | User guide — dataset installation & usage |
 | [CLAUDE.md](dataset-generation-scripts/CLAUDE.md) | Code agent guide — detailed subsystem context |
+| [dataset-generation-scripts/README.md](dataset-generation-scripts/README.md) | Maintainer guide — how to run generation scripts |
+| [docs/gis/](docs/gis/) | User-facing GIS documentation (readme, example queries) |
 | [development/](development/) | Feature documentation & planning artifacts |
 | [patch/](patch/) | Historical decree patches & changelog |
 | [resources/gis/](dataset-generation-scripts/resources/gis/) | GeoJSON & metadata source files |
+| [resources/rules/](dataset-generation-scripts/resources/rules/) | Vietnamese text convention rules |
 
 ---
 
