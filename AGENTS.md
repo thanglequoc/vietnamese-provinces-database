@@ -80,7 +80,6 @@ vietnamese-provinces-database/
 │   │   │   ├── model/               # Bun ORM models (Province, Ward, AdministrativeUnit, AdministrativeRegion)
 │   │   │   └── repository/          # Repository queries
 │   │   ├── gis/                     # GIS models and shared GIS logic
-│   │   ├── testutil/                # Test fixtures/helpers
 │   │   └── database/                # Postgres connection pool + bootstrap/SQL script execution
 │   ├── resources/
 │   │   ├── db_table_init.sql         # Core table schema (provinces_tmp, wards_tmp, etc.)
