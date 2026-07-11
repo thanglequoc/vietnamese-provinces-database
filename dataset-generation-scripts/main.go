@@ -8,18 +8,13 @@ import (
 )
 
 const INCLUDE_GIS = true
-const USE_DIRECT_DVHCVN_SOURCE = true
 
 func main() {
 	// pre-run
 	// Refresh temporary dataset, import existing dataset
 	db.BootstrapTemporaryDatasetStructure()
 
-	if (USE_DIRECT_DVHCVN_SOURCE) {
-		dumper.BeginDumpingDataWithDvhcvnDirectSource()
-	} else {
-		dumper.DumpFromManualSeed()
-	}
+	dumper.BeginDumpingDataWithDvhcvnDirectSource()
 	dataset_writer.ReadAndGenerateSQLDatasets()
 
 	if (INCLUDE_GIS) {

@@ -15,18 +15,14 @@ import (
 )
 
 type SapNhapService struct {
-	sapNhapRepo        *repository.SapNhapRepository
-	sapNhapGISRepo     *repository.SapNhapGISRepository
 	sapNhapGeoJSONRepo *repository.SapNhapGeoJSONObjectRepository
 	vnProvinceTmpRepo  *vnRepo.VnProvincesTmpRepository
 	db                 *bun.DB
 }
 
-func NewSapNhapService(repo *repository.SapNhapRepository, sapNhapGISRepo *repository.SapNhapGISRepository, vnRepo *vnRepo.VnProvincesTmpRepository,
+func NewSapNhapService(vnRepo *vnRepo.VnProvincesTmpRepository,
 	sapNhapGeoJSONRepo *repository.SapNhapGeoJSONObjectRepository, db *bun.DB) *SapNhapService {
 	return &SapNhapService{
-		sapNhapRepo:        repo,
-		sapNhapGISRepo:     sapNhapGISRepo,
 		sapNhapGeoJSONRepo: sapNhapGeoJSONRepo,
 		vnProvinceTmpRepo:  vnRepo,
 		db:                 db,
