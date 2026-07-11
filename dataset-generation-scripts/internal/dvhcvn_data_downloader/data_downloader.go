@@ -12,7 +12,6 @@ import (
 const DVHCVN_URL = "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx"
 
 const DVHCVN_SOAP_DANH_MUC_TINH = "DanhMucTinh"
-const DVHCVN_SOAP_DANH_MUC_QUAN_HUYEN = "DanhMucQuanHuyen"
 const DVHCVN_SOAP_DANH_MUC_PHUONG_XA = "DanhMucPhuongXa"
 
 /*
