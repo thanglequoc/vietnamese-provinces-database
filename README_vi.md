@@ -263,6 +263,14 @@ Dữ liệu ranh giới GIS được xây dựng dựa trên dữ liệu từ [B
 |`provinces`|Khoá chính: `code`. Được quy ước theo đối tượng **Tỉnh thành** do chính phủ ban hành
 |`wards`|Khoá chính: `code`. Được quy ước theo đối tượng **Phường xã** do chính phủ ban hành
 
+### Sao không dùng API từ nhà cung cấp khác, hay dataset khác trên thị trường?
+
+Mã đơn vị hành chính được Chính phủ Việt Nam quy định thống nhất, vì vậy các bộ dữ liệu được xây dựng từ cùng một nguồn dữ liệu chính thức nhìn chung đều tương thích với nhau.
+
+Điểm khác biệt lớn nhất của repository này là tính minh bạch của mã nguồn và khả năng duy trì lâu dài. Nhiều bộ dữ liệu công khai khác dần trở nên lỗi thời theo thời gian vì chỉ phát hành dữ liệu đã được sinh sẵn. Repository này công khai toàn bộ quy trình sinh dữ liệu (dataset-generation-scripts), giúp mọi người có thể xem chính xác cách dữ liệu được thu thập, làm sạch, chuẩn hóa và xuất ra. Mọi bước đều minh bạch và có thể tái tạo, giúp bạn dễ dàng kiểm chứng dữ liệu, tùy biến theo nhu cầu, tạo lại dataset mới nhất từ nguồn dữ liệu chính thức, hoặc tiếp tục duy trì dự án ngay cả khi tác giả ban đầu không còn hoạt động nữa.
+
+Repository được phát hành theo MIT License — cứ clone về dùng thôi. Bạn không mất phí, và không cần phải xin phép ai để sử dụng.
+
 ### Tại sao mối quan hệ giữa tỉnh và vùng hành chính (region) bị loại bỏ từ phiên bản v3.0.0?
 
 Sau khi số lượng tỉnh được sáp nhập còn 37, các tỉnh mới — chẳng hạn như Phú Thọ, được hình thành từ Vĩnh Phúc, Phú Thọ và Hòa Bình — hiện nay trải dài trên nhiều vùng hành chính trước đây. Do các tỉnh cũ thuộc các vùng khác nhau, nên việc xác định vùng hành chính cho tỉnh mới không còn chính xác nữa.

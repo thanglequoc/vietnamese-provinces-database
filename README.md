@@ -266,6 +266,14 @@ GIS boundary data was derived from the [Vietnam Administrative Units Reference M
 |`provinces`|Key: `code`. Officially referenced from government unit code
 |`wards`|Key: `code`. Officially referenced from government unit code
 
+### Why use this repository instead of another administrative dataset/API Provider on the market?
+
+The official administrative codes are defined by the Vietnamese government, so datasets generated from the same official source are generally compatible with each other.
+
+The main difference is **transparency** and **maintainability**. Many public datasets eventually become outdated because they only publish the generated data. This repository also includes the complete data generation pipeline (dataset-generation-scripts), allowing anyone to inspect how the dataset is collected, cleaned, normalized, and exported. Every step is transparent and reproducible, making it easy to verify the data, customize the output, regenerate the latest dataset from the official source, and continue maintaining the project even if the original maintainer is no longer active.
+
+Released under the MIT License — just use it. No fees. No permission required.
+
 ### The province - administrative region relationship is dropped from v3.0.0?
 
 After the provinces merge down to 37 provinces, the new province e.g: Phú Thọ, which is formed from Vĩnh Phúc, Phú Thọ and Hoà Bình that previously span across 3 different regions, so it's no longer applicable to determine which region does the new province belongs to.
