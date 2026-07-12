@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */
-/* Created at:  Sun, 14 Jun 2026 11:26:24 +0700 */
+/* Created at:  Sun, 12 Jul 2026 14:52:35 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -24,7 +24,7 @@ INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name
 
 -- DATA for provinces --
 INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES
-('01',N'Hà Nội',N'Ha Noi',N'Thành phố Hà Nội',N'Ha Noi City','ha_noi',1),
+('01',N'Hà Nội',N'Hanoi',N'Thành phố Hà Nội',N'Hanoi City','ha_noi',1),
 ('04',N'Cao Bằng',N'Cao Bang',N'Tỉnh Cao Bằng',N'Cao Bang Province','cao_bang',2),
 ('08',N'Tuyên Quang',N'Tuyen Quang',N'Tỉnh Tuyên Quang',N'Tuyen Quang Province','tuyen_quang',2),
 ('11',N'Điện Biên',N'Dien Bien',N'Tỉnh Điện Biên',N'Dien Bien Province','dien_bien',2),
@@ -36,7 +36,7 @@ INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,adminis
 ('22',N'Quảng Ninh',N'Quang Ninh',N'Tỉnh Quảng Ninh',N'Quang Ninh Province','quang_ninh',2),
 ('24',N'Bắc Ninh',N'Bac Ninh',N'Tỉnh Bắc Ninh',N'Bac Ninh Province','bac_ninh',2),
 ('25',N'Phú Thọ',N'Phu Tho',N'Tỉnh Phú Thọ',N'Phu Tho Province','phu_tho',2),
-('31',N'Hải Phòng',N'Hai Phong',N'Thành phố Hải Phòng',N'Hai Phong City','hai_phong',1),
+('31',N'Hải Phòng',N'Haiphong',N'Thành phố Hải Phòng',N'Haiphong City','hai_phong',1),
 ('33',N'Hưng Yên',N'Hung Yen',N'Tỉnh Hưng Yên',N'Hung Yen Province','hung_yen',2),
 ('37',N'Ninh Bình',N'Ninh Binh',N'Tỉnh Ninh Bình',N'Ninh Binh Province','ninh_binh',2),
 ('38',N'Thanh Hoá',N'Thanh Hoa',N'Tỉnh Thanh Hoá',N'Thanh Hoa Province','thanh_hoa',2),
@@ -2004,7 +2004,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('20314',N'Hoà Xuân',N'Hoa Xuan',N'Phường Hoà Xuân',N'Hoa Xuan Ward','hoa_xuan','48',3),
 ('20320',N'Hoà Vang',N'Hoa Vang',N'Xã Hoà Vang',N'Hoa Vang Commune','hoa_vang','48',4),
 ('20332',N'Hoà Tiến',N'Hoa Tien',N'Xã Hoà Tiến',N'Hoa Tien Commune','hoa_tien','48',4),
-('20333',N'Hoàng Sa',N'Hoang Sa',N'Đặc khu Hoàng Sa',N'Hoang Sa Special administrative region','hoang_sa','48',5),
+('20333',N'Hoàng Sa',N'Paracel',N'Đặc khu Hoàng Sa',N'Paracel Special administrative region','hoang_sa','48',5),
 ('20335',N'Bàn Thạch',N'Ban Thach',N'Phường Bàn Thạch',N'Ban Thach Ward','ban_thach','48',3),
 ('20341',N'Tam Kỳ',N'Tam Ky',N'Phường Tam Kỳ',N'Tam Ky Ward','tam_ky','48',3),
 ('20350',N'Hương Trà',N'Huong Tra',N'Phường Hương Trà',N'Huong Tra Ward','huong_tra','48',3),
@@ -2367,7 +2367,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('22714',N'Khánh Sơn',N'Khanh Son',N'Xã Khánh Sơn',N'Khanh Son Commune','khanh_son','56',4),
 ('22720',N'Tây Khánh Sơn',N'Tay Khanh Son',N'Xã Tây Khánh Sơn',N'Tay Khanh Son Commune','tay_khanh_son','56',4),
 ('22732',N'Đông Khánh Sơn',N'Dong Khanh Son',N'Xã Đông Khánh Sơn',N'Dong Khanh Son Commune','dong_khanh_son','56',4),
-('22736',N'Trường Sa',N'Truong Sa',N'Đặc khu Trường Sa',N'Truong Sa Special administrative region','truong_sa','56',5),
+('22736',N'Trường Sa',N'Spratly',N'Đặc khu Trường Sa',N'Spratly Special administrative region','truong_sa','56',5),
 ('22738',N'Đô Vinh',N'Do Vinh',N'Phường Đô Vinh',N'Do Vinh Ward','do_vinh','56',3),
 ('22741',N'Bảo An',N'Bao An',N'Phường Bảo An',N'Bao An Ward','bao_an','56',3),
 ('22759',N'Phan Rang',N'Phan Rang',N'Phường Phan Rang',N'Phan Rang Ward','phan_rang','56',3),
