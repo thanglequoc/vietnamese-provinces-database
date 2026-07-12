@@ -17,8 +17,8 @@ type DatasetFileWriter interface {
 		wards []model.Ward) error
 
 	WriteGISDataToFile(
-		sapNhapProvincesGIS []sapnhapmodels.SapNhapProvinceGIS,
-		sapNhapWardsGIS []sapnhapmodels.SapNhapWardGIS) error
+		sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit,
+		sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error
 }
 
 func getFileTimeSuffix() string {

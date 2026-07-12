@@ -24,27 +24,6 @@ func toDvhcvnProvinceModel(s string) DvhcvnProvinceModel {
 }
 
 /*
-Create the toDvhcvnDistrictModel from the dvhcvn response object.
-Input should be the dvhcvn content within the <TABLE> tag
-E.g: <MaTinh>01</MaTinh><TenTinh>Thành phố Hà Nội</TenTinh><MaQuanHuyen>003</MaQuanHuyen><TenQuanHuyen>Quận Tây Hồ</TenQuanHuyen><LoaiHinh>Quận</LoaiHinh>
-*/
-func toDvhcvnDistrictModel(s string) DvhcvnDistrictModel {
-	proviceCode := extractRegexValue(`<MaTinh>(.+)</MaTinh>`, s)
-	proviceName := extractRegexValue(`<TenTinh>(.+)</TenTinh>`, s)
-	districtCode := extractRegexValue(`<MaQuanHuyen>(.+)</MaQuanHuyen>`, s)
-	districtName := extractRegexValue(`<TenQuanHuyen>(.+)</TenQuanHuyen>`, s)
-	unit := extractRegexValue(`<LoaiHinh>(.+)</LoaiHinh>`, s)
-
-	return DvhcvnDistrictModel{
-		ProvinceCode: proviceCode,
-		ProvinceName: convertStandardUnitName(proviceName),
-		DistrictCode: districtCode,
-		DistrictName: convertStandardUnitName(districtName),
-		Unit:         unit,
-	}
-}
-
-/*
 Create the DvhcvnWardModel from the dvhcvn response object.
 Input should be the dvhcvn content within the <TABLE> tag
 E.g: <MaTinh>74</MaTinh><TenTinh>Tỉnh Bình Dương</TenTinh><MaQuanHuyen>721</MaQuanHuyen><TenQuanHuyen>Thành phố Bến Cát</TenQuanHuyen><MaPhuongXa>25843</MaPhuongXa><TenPhuongXa>Phường An Tây</TenPhuongXa><LoaiHinh>Phường</LoaiHinh>
@@ -123,20 +102,6 @@ func extractProvinceDvhcvnUnits(soapResponse string) []DvhcvnProvinceModel {
 	var result []DvhcvnProvinceModel
 	for _, unit := range dvhcvnUnitBlocks {
 		result = append(result, toDvhcvnProvinceModel(unit))
-	}
-	return result
-}
-
-/*
-Extract the XML response from DVHCVN api to DvhcvnDistrictModel
-*/
-func extractDistrictDvhcvnUnits(soapResponse string) []DvhcvnDistrictModel {
-	regexPattern := regexp2.MustCompile(`(?<=<TABLE\b[^>]*>)([\s\S\n]*?)(?=<\/TABLE>)`, 0)
-	dvhcvnUnitBlocks := regexp2FindAllString(regexPattern, soapResponse)
-
-	var result []DvhcvnDistrictModel
-	for _, unit := range dvhcvnUnitBlocks {
-		result = append(result, toDvhcvnDistrictModel(unit))
 	}
 	return result
 }
