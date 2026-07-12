@@ -11,7 +11,7 @@ HSET region:5 name "Duyên hải Nam Trung Bộ" nameEn "South Central Coast" co
 HSET region:6 name "Tây Nguyên" nameEn "Central Highlands" codeName "tay_nguyen" 
 HSET region:7 name "Đông Nam Bộ" nameEn "Southeast" codeName "dong_nam_bo" 
 HSET region:8 name "Đồng bằng sông Cửu Long" nameEn "Mekong River Delta" codeName "dong_bang_song_cuu_long" 
-HSET province:01 code "01" name "Hà Nội" nameEn "Ha Noi" fullName "Thành phố Hà Nội" fullNameEn "Ha Noi City" codeName "ha_noi" administrativeUnitId 1 
+HSET province:01 code "01" name "Hà Nội" nameEn "Hanoi" fullName "Thành phố Hà Nội" fullNameEn "Hanoi City" codeName "ha_noi" administrativeUnitId 1 
 HSET province:04 code "04" name "Cao Bằng" nameEn "Cao Bang" fullName "Tỉnh Cao Bằng" fullNameEn "Cao Bang Province" codeName "cao_bang" administrativeUnitId 2 
 HSET province:08 code "08" name "Tuyên Quang" nameEn "Tuyen Quang" fullName "Tỉnh Tuyên Quang" fullNameEn "Tuyen Quang Province" codeName "tuyen_quang" administrativeUnitId 2 
 HSET province:11 code "11" name "Điện Biên" nameEn "Dien Bien" fullName "Tỉnh Điện Biên" fullNameEn "Dien Bien Province" codeName "dien_bien" administrativeUnitId 2 
@@ -23,7 +23,7 @@ HSET province:20 code "20" name "Lạng Sơn" nameEn "Lang Son" fullName "Tỉnh
 HSET province:22 code "22" name "Quảng Ninh" nameEn "Quang Ninh" fullName "Tỉnh Quảng Ninh" fullNameEn "Quang Ninh Province" codeName "quang_ninh" administrativeUnitId 2 
 HSET province:24 code "24" name "Bắc Ninh" nameEn "Bac Ninh" fullName "Tỉnh Bắc Ninh" fullNameEn "Bac Ninh Province" codeName "bac_ninh" administrativeUnitId 2 
 HSET province:25 code "25" name "Phú Thọ" nameEn "Phu Tho" fullName "Tỉnh Phú Thọ" fullNameEn "Phu Tho Province" codeName "phu_tho" administrativeUnitId 2 
-HSET province:31 code "31" name "Hải Phòng" nameEn "Hai Phong" fullName "Thành phố Hải Phòng" fullNameEn "Hai Phong City" codeName "hai_phong" administrativeUnitId 1 
+HSET province:31 code "31" name "Hải Phòng" nameEn "Haiphong" fullName "Thành phố Hải Phòng" fullNameEn "Haiphong City" codeName "hai_phong" administrativeUnitId 1 
 HSET province:33 code "33" name "Hưng Yên" nameEn "Hung Yen" fullName "Tỉnh Hưng Yên" fullNameEn "Hung Yen Province" codeName "hung_yen" administrativeUnitId 2 
 HSET province:37 code "37" name "Ninh Bình" nameEn "Ninh Binh" fullName "Tỉnh Ninh Bình" fullNameEn "Ninh Binh Province" codeName "ninh_binh" administrativeUnitId 2 
 HSET province:38 code "38" name "Thanh Hoá" nameEn "Thanh Hoa" fullName "Tỉnh Thanh Hoá" fullNameEn "Thanh Hoa Province" codeName "thanh_hoa" administrativeUnitId 2 
@@ -7513,10 +7513,10 @@ HSET ward:20332 code "20332" name "Hoà Tiến" nameEn "Hoa Tien" fullName "Xã 
 SADD province:48:wards "20332" 
 HSET province:48:wards:vn "20332" "Xã Hoà Tiến" 
 HSET province:48:wards:en "20332" "Hoa Tien Commune" 
-HSET ward:20333 code "20333" name "Hoàng Sa" nameEn "Hoang Sa" fullName "Đặc khu Hoàng Sa" fullNameEn "Hoang Sa Special administrative region" codeName "hoang_sa" administrativeUnitId 5 districtCode "48" 
+HSET ward:20333 code "20333" name "Hoàng Sa" nameEn "Paracel" fullName "Đặc khu Hoàng Sa" fullNameEn "Paracel Special administrative region" codeName "hoang_sa" administrativeUnitId 5 districtCode "48" 
 SADD province:48:wards "20333" 
 HSET province:48:wards:vn "20333" "Đặc khu Hoàng Sa" 
-HSET province:48:wards:en "20333" "Hoang Sa Special administrative region" 
+HSET province:48:wards:en "20333" "Paracel Special administrative region" 
 HSET ward:20335 code "20335" name "Bàn Thạch" nameEn "Ban Thach" fullName "Phường Bàn Thạch" fullNameEn "Ban Thach Ward" codeName "ban_thach" administrativeUnitId 3 districtCode "48" 
 SADD province:48:wards "20335" 
 HSET province:48:wards:vn "20335" "Phường Bàn Thạch" 
@@ -8909,10 +8909,10 @@ HSET ward:22732 code "22732" name "Đông Khánh Sơn" nameEn "Dong Khanh Son" f
 SADD province:56:wards "22732" 
 HSET province:56:wards:vn "22732" "Xã Đông Khánh Sơn" 
 HSET province:56:wards:en "22732" "Dong Khanh Son Commune" 
-HSET ward:22736 code "22736" name "Trường Sa" nameEn "Truong Sa" fullName "Đặc khu Trường Sa" fullNameEn "Truong Sa Special administrative region" codeName "truong_sa" administrativeUnitId 5 districtCode "56" 
+HSET ward:22736 code "22736" name "Trường Sa" nameEn "Spratly" fullName "Đặc khu Trường Sa" fullNameEn "Spratly Special administrative region" codeName "truong_sa" administrativeUnitId 5 districtCode "56" 
 SADD province:56:wards "22736" 
 HSET province:56:wards:vn "22736" "Đặc khu Trường Sa" 
-HSET province:56:wards:en "22736" "Truong Sa Special administrative region" 
+HSET province:56:wards:en "22736" "Spratly Special administrative region" 
 HSET ward:22738 code "22738" name "Đô Vinh" nameEn "Do Vinh" fullName "Phường Đô Vinh" fullNameEn "Do Vinh Ward" codeName "do_vinh" administrativeUnitId 3 districtCode "56" 
 SADD province:56:wards "22738" 
 HSET province:56:wards:vn "22738" "Phường Đô Vinh" 
