@@ -409,11 +409,11 @@ Typical workflow:
 
 **A**: Yes. The following tools work well with the GIS dataset:
 
-|Tool	Type	Recommendation
-|------|--------|---------------|
-|DBeaver|	Database Client|	Recommended for most users. Supports PostgreSQL, MySQL, and SQL Server, and can preview geometry data directly on an OpenStreetMap-based map viewer.
-|QGIS|	Desktop GIS|	Best for advanced GIS analysis, spatial editing, and cartographic visualization.
-|geojson.io|	Web Viewer|	Lightweight online tool for visualizing and debugging the published GeoJSON export.
+| Tool | Type | Recommendation |
+|------|------|---------------|
+| DBeaver | Database Client | Recommended for most users. Supports PostgreSQL, MySQL, and SQL Server, and can preview geometry data directly on an OpenStreetMap-based map viewer. |
+| QGIS | Desktop GIS | Best for advanced GIS analysis, spatial editing, and cartographic visualization. |
+| geojson.io | Web Viewer | Lightweight online tool for visualizing and debugging the published GeoJSON export. |
 
 Example: Visualize Geometry in DBeaver
 [![image.png](https://i.postimg.cc/dVmQJSFg/image.png)](https://postimg.cc/k2GPcsBy)
