@@ -21,6 +21,7 @@ func main() {
 		db.BootstrapGISDataStructure()
 		sapnhap.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()
 		sapnhap.FetchGISDataFromSapNhapBando()
+		sapnhap.PatchIslandProvincesGeometry()
 		dataset_writer.GenerateGISSQLDatasets()
 	}
 }

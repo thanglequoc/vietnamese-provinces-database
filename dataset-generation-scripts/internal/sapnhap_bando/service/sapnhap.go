@@ -276,3 +276,50 @@ func (s *SapNhapService) FillMetaDataForGeoJSONObjects(ctx context.Context) erro
 	}
 	return nil
 }
+
+/*
+PatchIslandProvincesGeometry merges island ward geometries into their parent
+province geometries. This fixes an upstream GIS data defect where the province-level
+API response from sapnhap.bando.com.vn excludes island territories (Hoàng Sa and
+Trường Sa) that are present at the ward level.
+
+Affected provinces:
+  - Da Nang (ma=48) ← Hoàng Sa (ma=20333)
+  - Khanh Hoa (ma=56) ← Trường Sa (ma=22736)
+
+After the patch, each province geometry spatially contains all of its administrative
+subdivisions, including the Paracel and Spratly Islands.
+*/
+func (s *SapNhapService) PatchIslandProvincesGeometry(ctx context.Context) error {
+	// Merge Hoàng Sa into Da Nang
+	err := s.mergeWardGeometryIntoProvince(ctx, "48", "20333")
+	if err != nil {
+		return fmt.Errorf("failed to patch Da Nang with Hoàng Sa geometry: %w", err)
+	}
+	log.Println("✅ Patched Da Nang (48) with Hoàng Sa (20333) island geometry")
+
+	// Merge Trường Sa into Khanh Hoa
+	err = s.mergeWardGeometryIntoProvince(ctx, "56", "22736")
+	if err != nil {
+		return fmt.Errorf("failed to patch Khanh Hoa with Trường Sa geometry: %w", err)
+	}
+	log.Println("✅ Patched Khanh Hoa (56) with Trường Sa (22736) island geometry")
+
+	return nil
+}
+
+/*
+mergeWardGeometryIntoProvince merges the geometry of a ward (identified by wardMa)
+into the geometry of a province (identified by provinceMa) using PostGIS ST_Union.
+Both geom_wkt and bbox_wkt are updated for the province record. The bbox is
+recalculated via ST_Envelope to encompass the merged geometry.
+*/
+func (s *SapNhapService) mergeWardGeometryIntoProvince(ctx context.Context, provinceMa, wardMa string) error {
+	_, err := s.db.ExecContext(ctx, `
+		UPDATE sapnhap_geojson_objects
+		SET geom_wkt = ST_AsText(ST_Union(geom, (SELECT geom FROM sapnhap_geojson_objects WHERE ma = ?))),
+		    bbox_wkt = ST_AsText(ST_Envelope(ST_Union(geom, (SELECT geom FROM sapnhap_geojson_objects WHERE ma = ?))))
+		WHERE ma = ?`,
+		wardMa, wardMa, provinceMa)
+	return err
+}

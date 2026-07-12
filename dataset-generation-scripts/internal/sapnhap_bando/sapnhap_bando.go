@@ -56,3 +56,26 @@ func BackfillProvinceAndWardCodesInSapNhapGeojsonObjects() {
 	
 	log.Println("✅ Backfill of province and ward codes completed successfully")
 }
+
+/*
+PatchIslandProvincesGeometry merges island ward geometries (Hoàng Sa, Trường Sa)
+into their parent province geometries (Da Nang, Khanh Hoa). This fixes an upstream
+GIS data defect where the province-level API response excludes island territories
+that are present at the ward level.
+
+This should be called after FetchGISDataFromSapNhapBando() and before
+GenerateGISSQLDatasets() in the generation flow.
+*/
+func PatchIslandProvincesGeometry() {
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
+	vnRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
+	sapNhapService := sapNhapService.NewSapNhapService(vnRepo, sapNhapGeoJSONObjectRepository, postgresDB)
+
+	log.Println("ℹ️ Patching island province geometries (Hoàng Sa → Da Nang, Trường Sa → Khanh Hoa)...")
+	if err := sapNhapService.PatchIslandProvincesGeometry(context.Background()); err != nil {
+		log.Fatalf("Failed to patch island province geometries: %v", err)
+		panic(err)
+	}
+	log.Println("✅ Island province geometry patching completed successfully")
+}

@@ -8,58 +8,15 @@ This file provides subsystem-specific guidance for the Go services in `dataset-g
 
 ## When to Use Database Queries
 
-**AUTOMATICALLY use database queries when the user asks about:**
-- Data counts, totals, or statistics (e.g., "how many", "count", "total")
-- Data verification or integrity checks (e.g., "check", "verify", "missing", "orphaned")
-- Finding or searching for specific records (e.g., "find", "search", "show", "list")
-- Database schema or table information (e.g., "what tables", "schema", "columns")
-- GIS or geometry data (e.g., "geometry", "bbox", "geom", "GIS data")
-- Any question about provinces, wards, or administrative data
-- Data relationships or joins between tables
-- **Direct database read requests** (e.g., "Read from the vn_provinces_tmp db", "Query from database", "Get from [table_name]")
-
-**Do NOT wait for explicit `/db-query` invocation** - proactively use database queries when the context suggests the user needs information from the database.
-
-**Examples of automatic triggers:**
-- "How many wards are in Hà Nội?" → Run query immediately
-- "Check if there are any missing GIS data" → Run verification query
-- "Show me provinces without codes" → Query and display results
-- "Verify the data integrity" → Run verification queries
-- "Read from the vn_provinces_tmp db" → Execute database query
-- "Get data from sapnhap_wards table" → Query the specified table
+See [../AGENTS.md#database-query-skill](../AGENTS.md) for the universal db-query skill — auto-trigger rules, connection details, schema/table reference, and query patterns. Apply these rules automatically; do not wait for explicit invocation.
 
 ## Database Access
 
-This project uses a PostgreSQL database with PostGIS extension running in Docker.
-
-### Quick Database Access
-
-The database is accessible via Docker container:
-- Container: `vn_provinces_postgres_container`
-- Database: `vn_provinces_tmp`
-- Connection: `localhost:15432`
-
-To run queries, use:
+See [../AGENTS.md#database-query-skill](../AGENTS.md). Quick reminder: the database is accessible via:
 ```bash
 docker exec vn_provinces_postgres_container psql -U postgres -d vn_provinces_tmp -c "QUERY"
 ```
-
-### Database Schema
-
-**Key Tables:**
-- `provinces_tmp` (34 records) - Vietnam provinces with codes
-- `wards_tmp` (3,321 records) - Vietnam wards with codes
-- `sapnhap_provinces` (34 records) - Province metadata from SAPNhap site
-- `sapnhap_wards` (3,321 records) - Ward metadata from SAPNhap site
-- `sapnhap_provinces_gis` (34 records) - Province geometry (bbox, geom WKT)
-- `sapnhap_wards_gis` (3,321 records) - Ward geometry (bbox, geom WKT)
-- `sapnhap_geojson_objects` (3,355 records) - Combined geo objects
-
-**Important Relationships:**
-- `sapnhap_provinces.vn_province_code` → `provinces_tmp.code`
-- `sapnhap_wards.vn_ward_code` → `wards_tmp.code`
-- `sapnhap_provinces.mahc` → `sapnhap_provinces_gis.sapnhap_province_matinh`
-- `sapnhap_wards.maxa` → `sapnhap_wards_gis.sapnhap_ward_maxa`
+Container: `vn_provinces_postgres_container`, Database: `vn_provinces_tmp`, Port: `15432`
 
 ## Data Migration History
 
