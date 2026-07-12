@@ -25,20 +25,141 @@ go test -v ./...
 
 **Testing note**: Some tests connect to the temporary Postgres/PostGIS database on `localhost:15432`. If Docker is not running, `go test -v ./...` will fail in integration-style packages.
 
-### Database Connection (Docker)
+## Database Query Skill
+
+**CRITICAL: Proactively query the database whenever the task involves data verification, counts, searching, or GIS data. Do NOT wait for explicit command invocation — the triggers below signal when to auto-query.**
+
+### Auto-Trigger Rules
+
+Execute database queries automatically when user asks about any of these:
+
+| Category | Trigger Keywords |
+|----------|-----------------|
+| Count/total | "how many", "count", "total", "number of", "how much" |
+| Search/find | "find", "search", "show", "list", "get", "lookup" |
+| Verification | "check", "verify", "validate", "missing", "orphaned" |
+| Data topics | "database", "table", "data", "records", "provinces", "wards", "schema" |
+| GIS | "geometry", "bbox", "geom", "gis", "spatial", "geojson", "coordinates" |
+| Direct requests | "query from", "read from database", "get from [table]", "run a query" |
+
+**Examples:**
+- "How many wards are in Hà Nội?" → Run query immediately
+- "Check if there are any missing GIS data" → Run verification query
+- "Show me provinces without codes" → Query and display results
+- "List all tables" → Run `\dt`
+- "Get data from sapnhap_geojson_objects" → Query the table
+
+### Connection Details
+
+The temporary database runs in Docker:
 
 ```bash
-# For queries:
-docker exec vn_provinces_postgres_container psql -U postgres -d vn_provinces_tmp -c "QUERY"
+# Container: vn_provinces_postgres_container
+# Database: vn_provinces_tmp
+# Username: postgres
+# Host:     localhost
+# Port:     15432
 
-# Key tables:
-# - provinces_tmp (34 records)
-# - wards_tmp (3,321 records)  
-# - sapnhap_provinces, sapnhap_wards (with geometry)
-# - sapnhap_geojson_objects (3,355 records)
+# Single query
+docker exec vn_provinces_postgres_container psql -U postgres -d vn_provinces_tmp -c "YOUR_SQL_QUERY_HERE"
+
+# Multi-line query (heredoc)
+docker exec vn_provinces_postgres_container psql -U postgres -d vn_provinces_tmp <<'EOF'
+YOUR_MULTI_LINE_SQL_QUERY_HERE
+EOF
 ```
 
-**Note**: When working with database queries, proactively use them without waiting for explicit `/db-query` invocation if the task involves data verification, counts, searching, or GIS data.
+### Table Reference
+
+| Table | Records | Description |
+|-------|---------|-------------|
+| `provinces_tmp` | 34 | Vietnam provinces (code, name, name_en, full_name, administrative_unit_id) |
+| `wards_tmp` | 3,321 | Vietnam wards (code, name, name_en, province_code FK, administrative_unit_id) |
+| `administrative_regions` | 8 | Region lookup (id, name, name_en) |
+| `administrative_units` | 8 | Unit type lookup (id, full_name, short_name) |
+| `sapnhap_geojson_objects` | 3,355 | Combined geo objects with PostGIS geometry (ma, ten, magoc, malk, truocsapnhap, dientichkm2, bbox_wkt, geom_wkt, vn_ds_province_code FK, vn_ds_ward_code FK) |
+
+### Key Columns
+
+**`provinces_tmp`**: `code` (PK, e.g. "01", "02"), `name`, `name_en`, `full_name`, `code_name`, `administrative_unit_id`
+
+**`wards_tmp`**: `code` (PK), `name`, `name_en`, `full_name`, `province_code` (FK → `provinces_tmp.code`), `administrative_unit_id`
+
+**`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`)
+
+### Common Query Patterns
+
+**Count records:**
+```sql
+SELECT COUNT(*) FROM provinces_tmp;
+SELECT COUNT(*) FROM wards_tmp;
+```
+
+**Data completeness check:**
+```sql
+SELECT
+  (SELECT COUNT(*) FROM provinces_tmp) as provinces,
+  (SELECT COUNT(*) FROM wards_tmp) as wards,
+  (SELECT COUNT(*) FROM sapnhap_geojson_objects) as geo_objects;
+```
+
+**Join provinces and wards:**
+```sql
+SELECT p.name as province, w.name as ward
+FROM provinces_tmp p
+JOIN wards_tmp w ON p.code = w.province_code
+WHERE p.code = '01'
+LIMIT 10;
+```
+
+**GIS geometry completeness:**
+```sql
+SELECT
+  COUNT(*) as total,
+  COUNT(bbox_wkt) as with_bbox,
+  COUNT(geom_wkt) as with_geom
+FROM sapnhap_geojson_objects;
+```
+
+**Find orphaned records:**
+```sql
+-- Geo objects without matching province
+SELECT COUNT(*) FROM sapnhap_geojson_objects
+WHERE vn_ds_province_code IS NULL;
+
+-- Geo objects without matching ward
+SELECT COUNT(*) FROM sapnhap_geojson_objects
+WHERE vn_ds_ward_code IS NULL;
+```
+
+**List wards in a specific province:**
+```sql
+SELECT code, name, name_en FROM wards_tmp
+WHERE province_code = '01'
+ORDER BY name;
+```
+
+**PostGIS spatial queries:**
+```sql
+-- Get area of a province geometry
+SELECT ten, ST_Area(geom::geography) / 1000000 as area_km2
+FROM sapnhap_geojson_objects
+WHERE vn_ds_province_code = '01';
+
+-- Find objects within a bounding box (example: Hà Nội area)
+SELECT ma, ten, ST_AsText(bbox) FROM sapnhap_geojson_objects
+WHERE ST_Within(geom, ST_MakeEnvelope(105.5, 20.5, 106.0, 21.5, 4326));
+```
+
+### Agent Instructions
+
+When context triggers a database query:
+1. Execute the SQL query using the `docker exec` command pattern above
+2. Format results in a readable way (tables, lists, summaries)
+3. Provide insights or follow-up suggestions if relevant
+4. If the query returns an error, explain the issue and suggest a fix
+5. Use `LIMIT` for large result sets to avoid overwhelming output
+6. Explore schema with: `\dt` (list tables), `\d table_name` (describe table)
 
 ---
 
