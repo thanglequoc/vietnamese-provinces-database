@@ -6,12 +6,13 @@
 |PostgreSQL/PostGIS|[Download raw GIS Dataset for PostgreSQL][gis_dataset_postgresql_bucket_url]|~152.07 MB|
 |MySQL|[Download raw GIS Dataset for MySQL][gis_dataset_mysql_bucket_url]|~150.44 MB|
 |Microsoft SQL Server|[Download raw GIS Dataset for SQL Server][gis_dataset_sqlserver_bucket_url]|~152.13 MB|
+|GeoJSON| Access the geojson data in the `json/geojson/` folder of this repository | - |
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Dataset Coverage](#dataset-coverage)
-3. [GeoJSON Export](#geojson-export)
+3. [GeoJSON](#geojson)
 4. [Installation](#installation)
 5. [Database Schema](#database-schema)
 6. [Query Optimization Tips](#query-optimization-tips)
@@ -408,11 +409,11 @@ Typical workflow:
 
 **A**: Yes. The following tools work well with the GIS dataset:
 
-|Tool	Type	Recommendation
-|------|--------|---------------|
-|DBeaver|	Database Client|	Recommended for most users. Supports PostgreSQL, MySQL, and SQL Server, and can preview geometry data directly on an OpenStreetMap-based map viewer.
-|QGIS|	Desktop GIS|	Best for advanced GIS analysis, spatial editing, and cartographic visualization.
-|geojson.io|	Web Viewer|	Lightweight online tool for visualizing and debugging the published GeoJSON export.
+| Tool | Type | Recommendation |
+|------|------|---------------|
+| DBeaver | Database Client | Recommended for most users. Supports PostgreSQL, MySQL, and SQL Server, and can preview geometry data directly on an OpenStreetMap-based map viewer. |
+| QGIS | Desktop GIS | Best for advanced GIS analysis, spatial editing, and cartographic visualization. |
+| geojson.io | Web Viewer | Lightweight online tool for visualizing and debugging the published GeoJSON export. |
 
 Example: Visualize Geometry in DBeaver
 [![image.png](https://i.postimg.cc/dVmQJSFg/image.png)](https://postimg.cc/k2GPcsBy)
@@ -449,6 +450,6 @@ If you find issues with the GIS dataset or have suggestions for improvements, pl
 
 **Last Updated:** June 20, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/postgresql_ImportData_gis_2026-06-20__12_32_01.sql
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mysql_ImportData_gis_2026-06-20__12_32_01.sql
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mssql_ImportData_gis_2026-06-20__12_32_02.sql
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/postgresql_ImportData_gis_2026-07-12__19_50_50.sql
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mysql_ImportData_gis_2026-07-12__19_50_50.sql
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mssql_ImportData_gis_2026-07-12__19_50_51.sql

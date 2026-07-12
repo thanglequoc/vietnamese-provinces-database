@@ -34,6 +34,7 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
+|Add GeoJSON GIS, patch name, patch GIS province data of Da Nang and Khanh Hoa|---|---|v4.1.0|
 |Add GIS dataset|---|---|v4.0.0|
 |[30/2026/QH16][decree 30/2026/QH16], [237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
 |[19/2025/QĐ-TTg][decree 19/2025/QĐ-TTg]|30/06/2025|01/07/2025|v3.0.2|
@@ -265,6 +266,14 @@ GIS boundary data was derived from the [Vietnam Administrative Units Reference M
 |`administrative_units`|Key: `id`. Starting from `1` to `5`, follow the tier order from biggest unit to smallest unit
 |`provinces`|Key: `code`. Officially referenced from government unit code
 |`wards`|Key: `code`. Officially referenced from government unit code
+
+### Why use this repository instead of another administrative dataset/API Provider on the market?
+
+The official administrative codes are defined by the Vietnamese government, so datasets generated from the same official source are generally compatible with each other.
+
+The main difference is **transparency** and **maintainability**. Many public datasets eventually become outdated because they only publish the generated data. This repository also includes the complete data generation pipeline (dataset-generation-scripts), allowing anyone to inspect how the dataset is collected, cleaned, normalized, and exported. Every step is transparent and reproducible, making it easy to verify the data, customize the output, regenerate the latest dataset from the official source, and continue maintaining the project even if the original maintainer is no longer active.
+
+Released under the MIT License — just use it. No fees. No permission required.
 
 ### The province - administrative region relationship is dropped from v3.0.0?
 
