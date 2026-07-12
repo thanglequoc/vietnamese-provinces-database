@@ -136,6 +136,11 @@ func (s *DvhcvnSoapSeedDumperService) insertToWards(dvhcvnWardModels []data_down
 
 		codeName := helper.ToCodeName(wardShortName)
 		wardShortNameEn := viet.RemoveVietToneMark(wardShortName)
+		if override, ok := getEnglishNameOverride(wardCode); ok {
+			fmt.Printf("🇬🇧 English name override applied: [%s] '%s' → '%s'\n",
+				wardCode, wardShortNameEn, override)
+			wardShortNameEn = override
+		}
 
 		// Case when ward name is a number
 		isNumber, _ := regexp.MatchString("[0-9]+", wardShortName)
@@ -191,6 +196,11 @@ func (s *DvhcvnSoapSeedDumperService) insertToProvinces(dvhcvnProvinceModels []d
 
 		codeName := helper.ToCodeName(provinceShortName)
 		provinceShortNameEn := viet.RemoveVietToneMark(provinceShortName)
+		if override, ok := getEnglishNameOverride(p.ProvinceCode); ok {
+			fmt.Printf("🇬🇧 English name override applied: [%s] '%s' → '%s'\n",
+				p.ProvinceCode, provinceShortNameEn, override)
+			provinceShortNameEn = override
+		}
 		provinceFullNameEn := provinceShortNameEn + " " + unitName_en
 
 		provinceModel := &vn_provinces_tmp_model.Province{

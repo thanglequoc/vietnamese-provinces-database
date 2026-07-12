@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Oracle === */
-/* Created at:  Sun, 14 Jun 2026 11:26:24 +0700 */
+/* Created at:  Sun, 12 Jul 2026 12:23:03 +0700 */
 /* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -24,7 +24,7 @@ INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name
 
 -- DATA for provinces --
 INSERT ALL
-	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('01','Hà Nội','Ha Noi','Thành phố Hà Nội','Ha Noi City','ha_noi',1)
+	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('01','Hà Nội','Hanoi','Thành phố Hà Nội','Hanoi City','ha_noi',1)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('04','Cao Bằng','Cao Bang','Tỉnh Cao Bằng','Cao Bang Province','cao_bang',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('08','Tuyên Quang','Tuyen Quang','Tỉnh Tuyên Quang','Tuyen Quang Province','tuyen_quang',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('11','Điện Biên','Dien Bien','Tỉnh Điện Biên','Dien Bien Province','dien_bien',2)
@@ -36,7 +36,7 @@ INSERT ALL
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('22','Quảng Ninh','Quang Ninh','Tỉnh Quảng Ninh','Quang Ninh Province','quang_ninh',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('24','Bắc Ninh','Bac Ninh','Tỉnh Bắc Ninh','Bac Ninh Province','bac_ninh',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('25','Phú Thọ','Phu Tho','Tỉnh Phú Thọ','Phu Tho Province','phu_tho',2)
-	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('31','Hải Phòng','Hai Phong','Thành phố Hải Phòng','Hai Phong City','hai_phong',1)
+	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('31','Hải Phòng','Haiphong','Thành phố Hải Phòng','Haiphong City','hai_phong',1)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('33','Hưng Yên','Hung Yen','Tỉnh Hưng Yên','Hung Yen Province','hung_yen',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('37','Ninh Bình','Ninh Binh','Tỉnh Ninh Bình','Ninh Binh Province','ninh_binh',2)
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('38','Thanh Hoá','Thanh Hoa','Tỉnh Thanh Hoá','Thanh Hoa Province','thanh_hoa',2)
@@ -2042,7 +2042,7 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20314','Hoà Xuân','Hoa Xuan','Phường Hoà Xuân','Hoa Xuan Ward','hoa_xuan','48',3)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20320','Hoà Vang','Hoa Vang','Xã Hoà Vang','Hoa Vang Commune','hoa_vang','48',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20332','Hoà Tiến','Hoa Tien','Xã Hoà Tiến','Hoa Tien Commune','hoa_tien','48',4)
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20333','Hoàng Sa','Hoang Sa','Đặc khu Hoàng Sa','Hoang Sa Special administrative region','hoang_sa','48',5)
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20333','Hoàng Sa','Paracel','Đặc khu Hoàng Sa','Paracel Special administrative region','hoang_sa','48',5)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20335','Bàn Thạch','Ban Thach','Phường Bàn Thạch','Ban Thach Ward','ban_thach','48',3)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20341','Tam Kỳ','Tam Ky','Phường Tam Kỳ','Tam Ky Ward','tam_ky','48',3)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('20350','Hương Trà','Huong Tra','Phường Hương Trà','Huong Tra Ward','huong_tra','48',3)
@@ -2412,7 +2412,7 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22714','Khánh Sơn','Khanh Son','Xã Khánh Sơn','Khanh Son Commune','khanh_son','56',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22720','Tây Khánh Sơn','Tay Khanh Son','Xã Tây Khánh Sơn','Tay Khanh Son Commune','tay_khanh_son','56',4)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22732','Đông Khánh Sơn','Dong Khanh Son','Xã Đông Khánh Sơn','Dong Khanh Son Commune','dong_khanh_son','56',4)
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22736','Trường Sa','Truong Sa','Đặc khu Trường Sa','Truong Sa Special administrative region','truong_sa','56',5)
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22736','Trường Sa','Spratly','Đặc khu Trường Sa','Spratly Special administrative region','truong_sa','56',5)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22738','Đô Vinh','Do Vinh','Phường Đô Vinh','Do Vinh Ward','do_vinh','56',3)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22741','Bảo An','Bao An','Phường Bảo An','Bao An Ward','bao_an','56',3)
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('22759','Phan Rang','Phan Rang','Phường Phan Rang','Phan Rang Ward','phan_rang','56',3)

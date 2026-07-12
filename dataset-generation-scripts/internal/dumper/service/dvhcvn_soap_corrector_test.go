@@ -67,3 +67,79 @@ func TestCorrectDvhcvnSoapData_NoCorrectionNeeded(t *testing.T) {
 		})
 	}
 }
+
+func TestGetEnglishNameOverride_AllOverrides(t *testing.T) {
+	tests := []struct {
+		name         string
+		unitCode     string
+		expectedName string
+		expectedOk   bool
+	}{
+		{
+			name:         "Hà Nội → Hanoi",
+			unitCode:     "01",
+			expectedName: "Hanoi",
+			expectedOk:   true,
+		},
+		{
+			name:         "Hải Phòng → Haiphong",
+			unitCode:     "31",
+			expectedName: "Haiphong",
+			expectedOk:   true,
+		},
+		{
+			name:         "Hoàng Sa → Paracel",
+			unitCode:     "20333",
+			expectedName: "Paracel",
+			expectedOk:   true,
+		},
+		{
+			name:         "Trường Sa → Spratly",
+			unitCode:     "22736",
+			expectedName: "Spratly",
+			expectedOk:   true,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			name, ok := getEnglishNameOverride(tt.unitCode)
+
+			assert.Equal(t, tt.expectedOk, ok, "ok should match expected")
+			assert.Equal(t, tt.expectedName, name, "name should match expected")
+		})
+	}
+}
+
+func TestGetEnglishNameOverride_UnknownCode(t *testing.T) {
+	tests := []struct {
+		name     string
+		unitCode string
+	}{
+		{
+			name:     "Unknown province code returns empty",
+			unitCode: "99",
+		},
+		{
+			name:     "Unknown ward code returns empty",
+			unitCode: "99999",
+		},
+		{
+			name:     "Empty code returns empty",
+			unitCode: "",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			name, ok := getEnglishNameOverride(tt.unitCode)
+
+			assert.False(t, ok, "unknown code should return ok=false")
+			assert.Empty(t, name, "unknown code should return empty name")
+		})
+	}
+}
+
+func TestEnglishNameOverrides_NotEmpty(t *testing.T) {
+	assert.NotEmpty(t, englishNameOverrides, "englishNameOverrides map should not be empty")
+}

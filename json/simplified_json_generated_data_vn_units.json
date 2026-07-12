@@ -2,9 +2,9 @@
  {
   "Code": "01",
   "Name": "Hà Nội",
-  "NameEn": "Ha Noi",
+  "NameEn": "Hanoi",
   "FullName": "Thành phố Hà Nội",
-  "FullNameEn": "Ha Noi City",
+  "FullNameEn": "Hanoi City",
   "CodeName": "ha_noi",
   "Wards": [
    {
@@ -9311,9 +9311,9 @@
  {
   "Code": "31",
   "Name": "Hải Phòng",
-  "NameEn": "Hai Phong",
+  "NameEn": "Haiphong",
   "FullName": "Thành phố Hải Phòng",
-  "FullNameEn": "Hai Phong City",
+  "FullNameEn": "Haiphong City",
   "CodeName": "hai_phong",
   "Wards": [
    {
@@ -17004,9 +17004,9 @@
    {
     "Code": "20333",
     "Name": "Hoàng Sa",
-    "NameEn": "Hoang Sa",
+    "NameEn": "Paracel",
     "FullName": "Đặc khu Hoàng Sa",
-    "FullNameEn": "Hoang Sa Special administrative region",
+    "FullNameEn": "Paracel Special administrative region",
     "CodeName": "hoang_sa",
     "ProvinceCode": "48"
    },
@@ -20184,9 +20184,9 @@
    {
     "Code": "22736",
     "Name": "Trường Sa",
-    "NameEn": "Truong Sa",
+    "NameEn": "Spratly",
     "FullName": "Đặc khu Trường Sa",
-    "FullNameEn": "Truong Sa Special administrative region",
+    "FullNameEn": "Spratly Special administrative region",
     "CodeName": "truong_sa",
     "ProvinceCode": "56"
    },
