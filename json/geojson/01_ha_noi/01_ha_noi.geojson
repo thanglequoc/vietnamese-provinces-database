@@ -4640,9 +4640,9 @@
       "properties": {
         "code": "01",
         "name": "Hà Nội",
-        "nameEn": "Ha Noi",
+        "nameEn": "Hanoi",
         "fullName": "Thành phố Hà Nội",
-        "fullNameEn": "Ha Noi City",
+        "fullNameEn": "Hanoi City",
         "codeName": "ha_noi",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.108",
         "areaKm2": 3359.84
