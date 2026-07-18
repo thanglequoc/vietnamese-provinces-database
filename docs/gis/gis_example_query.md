@@ -140,3 +140,61 @@ WHERE ST_Intersects(
     )::geometry
 );
 ```
+
+### Export Provinces/Wards as GeoJSON
+
+```sql
+SELECT CONCAT(p.code, '_', p.code_name), p.name,
+json_build_object(
+        'type', 'FeatureCollection',
+        'features', json_build_array(
+            json_build_object(
+                'type', 'Feature',
+                'bbox', ARRAY[
+                    ST_XMin(gp.bbox),
+                    ST_YMin(gp.bbox),
+                    ST_XMax(gp.bbox),
+                    ST_YMax(gp.bbox)
+                ],
+                'geometry', ST_AsGeoJSON(gp.geom)::json,
+                'properties', json_build_object(
+                    'unit_name', p.name,
+                    'unit_code', gp.province_code,
+                    'unit_code_name', p.code_name,
+                    'gis_server_id', gp.gis_server_id,
+                    'area_km2', gp.area_km2
+                )
+            )
+        )
+    ) AS geojson
+FROM provinces p
+INNER JOIN gis_provinces gp
+ON p.code = gp.province_code
+
+SELECT CONCAT(w.code, '_', w.code_name), w.name,
+json_build_object(
+        'type', 'FeatureCollection',
+        'features', json_build_array(
+            json_build_object(
+                'type', 'Feature',
+                'bbox', ARRAY[
+                    ST_XMin(gw.bbox),
+                    ST_YMin(gw.bbox),
+                    ST_XMax(gw.bbox),
+                    ST_YMax(gw.bbox)
+                ],
+                'geometry', ST_AsGeoJSON(gw.geom)::json,
+                'properties', json_build_object(
+                    'unit_name', w.name,
+                    'unit_code', gw.ward_code,
+                    'unit_code_name', w.code_name,
+                    'gis_server_id', gw.gis_server_id,
+                    'area_km2', gw.area_km2
+                )
+            )
+        )
+    ) AS geojson
+FROM wards w
+INNER JOIN gis_wards gw
+ON w.code = gw.ward_code;
+```
