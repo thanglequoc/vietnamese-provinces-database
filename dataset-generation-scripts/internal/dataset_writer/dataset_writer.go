@@ -93,6 +93,17 @@ func ReadAndGenerateSQLDatasets() {
 	} else {
 		fmt.Println("✅ Redis Dataset successfully generated")
 	}
+
+	// Elasticsearch
+	elasticsearchDatasetFileWriter := datasetfilewriter.ElasticsearchDatasetFileWriter{
+		OutputFolderPath: "./output/elasticsearch",
+	}
+	err = elasticsearchDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
+	if err != nil {
+		log.Fatal("Unable to generate Elasticsearch Dataset", err)
+	} else {
+		fmt.Println("✅ Elasticsearch Dataset successfully generated")
+	}
 }
 
 /*
@@ -136,5 +147,16 @@ func GenerateGISSQLDatasets() {
 		log.Fatal("Unable to generate GeoJSON GIS Dataset", err)
 	} else {
 		fmt.Println("✅ GeoJSON GIS Dataset successfully generated")
+	}
+
+	// Elasticsearch GIS
+	elasticsearchGISFileWriter := datasetfilewriter.ElasticsearchDatasetFileWriter{
+		OutputFolderPath: "./output/elasticsearch",
+	}
+	err = elasticsearchGISFileWriter.WriteElasticsearchGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
+	if err != nil {
+		log.Fatal("Unable to generate Elasticsearch GIS Dataset", err)
+	} else {
+		fmt.Println("✅ Elasticsearch GIS Dataset successfully generated")
 	}
 }
