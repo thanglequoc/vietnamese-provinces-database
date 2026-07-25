@@ -799,6 +799,16 @@ The ` + "`provinces-gis`" + ` index extends this same structure with a ` + "`GIS
     "Geometry": {
       "type": "MultiPolygon",
       "coordinates": [[[[105.2859, 21.3851], [106.0617, 21.3851], ...]]]
+    },
+    "Properties": {
+      "Code": "01",
+      "Name": "Hà Nội",
+      "NameEn": "Hanoi",
+      "FullName": "Thành phố Hà Nội",
+      "FullNameEn": "Hanoi City",
+      "CodeName": "ha_noi",
+      "GisServerId": "diaphanhanhchinhcaptinh_sn.108",
+      "AreaKm2": 3359.84
     }
   },
   "Wards": [
@@ -815,7 +825,17 @@ The ` + "`provinces-gis`" + ` index extends this same structure with a ` + "`GIS
           "MinLongitude": 105.8115, "MinLatitude": 21.0261,
           "MaxLongitude": 105.8347, "MaxLatitude": 21.0433
         },
-        "Geometry": { "type": "Polygon", "coordinates": [[[105.8115, 21.0433], ...]] }
+        "Geometry": { "type": "Polygon", "coordinates": [[[105.8115, 21.0433], ...]] },
+        "Properties": {
+          "Code": "00004",
+          "Name": "Ba Đình",
+          "NameEn": "Ba Dinh",
+          "FullName": "Phường Ba Đình",
+          "FullNameEn": "Ba Dinh Ward",
+          "CodeName": "ba_dinh",
+          "GisServerId": "diaphanhanhchinhphuong_sn.456",
+          "AreaKm2": 5.23
+        }
       }
     }
   ],
