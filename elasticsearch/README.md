@@ -1,6 +1,6 @@
 # Vietnamese Provinces Database — Elasticsearch Dataset
 
-Created at:  Sat, 25 Jul 2026 15:37:56 +0700
+Created at:  Sat, 25 Jul 2026 17:59:15 +0700
 
 ## Overview
 
@@ -237,6 +237,26 @@ POST /provinces/_search
   "_source": ["Code", "Name"]
 }
 ```
+
+### Return only the matched ward (no parent province)
+
+Use `_source: false` on the parent document so only the nested ward hit is returned:
+
+```json
+POST /provinces/_search
+{
+  "_source": false,
+  "query": {
+    "nested": {
+      "path": "Wards",
+      "query": { "match": { "Wards.CodeName": "truong_sa" } },
+      "inner_hits": { "name": "ward", "_source": true }
+    }
+  }
+}
+```
+
+The ward document (with GIS data if present) is available at `.hits.hits[0].inner_hits.ward.hits.hits[0]._source`.
 
 ### Autocomplete search
 ```json
