@@ -127,7 +127,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
-	gisOutputFolderPath := "./output/gis"
+	gisOutputFolderPath := "./output/sqlserver/gis"
 	err := os.MkdirAll(gisOutputFolderPath, os.ModePerm)
 	if err != nil {
 		log.Fatal("Unable to create output folder", err)

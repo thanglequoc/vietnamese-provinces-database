@@ -28,20 +28,29 @@ func ReadAndGenerateSQLDatasets() {
 	provinces := vn_provinces_tmp_repo.GetAllProvinces()
 	wards := vn_provinces_tmp_repo.GetAllWards()
 
-	// Postgresql & MySQL
+	// Postgresql
 	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
-		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
+		OutputFilePath: "./output/postgresql/postgres_ImportData_vn_units.sql",
 	}
 	err := postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
-		log.Fatal("Unable to generate Postgresql-MySQL Dataset", err)
+		log.Fatal("Unable to generate Postgresql Dataset", err)
 	} else {
-		fmt.Println("✅ Postgresql-MySQL Dataset successfully generated")
+		fmt.Println("✅ Postgresql Dataset successfully generated")
+	}
+
+	// MySQL (same writer, different path)
+	postgresMySQLDatasetFileWriter.OutputFilePath = "./output/mysql/mysql_ImportData_vn_units.sql"
+	err = postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
+	if err != nil {
+		log.Fatal("Unable to generate MySQL Dataset", err)
+	} else {
+		fmt.Println("✅ MySQL Dataset successfully generated")
 	}
 
 	// Mssql
 	mssqlDatasetFileWriter := datasetfilewriter.MssqlDatasetFileWriter{
-		OutputFilePath: "./output/mssql_generated_ImportData_vn_units_%s.sql",
+		OutputFilePath: "./output/sqlserver/mssql_ImportData_vn_units.sql",
 	}
 	err = mssqlDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -52,7 +61,7 @@ func ReadAndGenerateSQLDatasets() {
 
 	// Oracle
 	oracleDatasetFileWriter := datasetfilewriter.OracleDatasetFileWriter{
-		OutputFilePath: "./output/oracle_generated_ImportData_vn_units_%s.sql",
+		OutputFilePath: "./output/oracle/oracle_ImportData_vn_units.sql",
 	}
 	err = oracleDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -125,23 +134,23 @@ func GenerateGISSQLDatasets() {
 		return
 	}
 
-	// Postgresql & MySQL
+	// Postgresql & MySQL GIS
 	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
-		OutputFilePath: "./output/postgresql_mysql_generated_ImportData_vn_units_%s.sql",
+		OutputFilePath: "./output/postgresql/postgres_ImportData_vn_units.sql",
 	}
 	postgresMySQLDatasetFileWriter.WriteGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
 	fmt.Println("✅ Postgresql-MySQL GIS Dataset successfully generated")
 
-	// Mssql
+	// Mssql GIS
 	mssqlDatasetFileWriter := datasetfilewriter.MssqlDatasetFileWriter{
-		OutputFilePath: "./output/mssql_generated_ImportData_vn_units_%s.sql",
+		OutputFilePath: "./output/sqlserver/mssql_ImportData_vn_units.sql",
 	}
 	mssqlDatasetFileWriter.WriteGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
 	fmt.Println("✅ Mssql GIS Dataset successfully generated")
 
-	// GeoJSON
+	// GeoJSON (placed in json/ alongside JSON exports)
 	geoJSONDatasetFileWriter := datasetfilewriter.JSONDatasetFileWriter{
-		OutputFolderPath: "./output/gis/geojson",
+		OutputFolderPath: "./output/json/geojson",
 	}
 	err = geoJSONDatasetFileWriter.WriteGISGeoJSONToFile(sapNhapGeoProvinces, sapNhapGeoWards)
 	if err != nil {

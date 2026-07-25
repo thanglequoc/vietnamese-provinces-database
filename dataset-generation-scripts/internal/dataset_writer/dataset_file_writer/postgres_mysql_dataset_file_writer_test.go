@@ -405,7 +405,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchSplitsA
 func readGeneratedGISFile(t *testing.T, rootDir, pattern string) string {
 	t.Helper()
 
-	matches, err := filepath.Glob(filepath.Join(rootDir, "output", "gis", pattern))
+	matches, err := filepath.Glob(filepath.Join(rootDir, "output", "mysql", "gis", pattern))
 	assert.NoError(t, err)
 	if !assert.Len(t, matches, 1, "should have created one GIS output file") {
 		return ""

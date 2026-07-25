@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"time"
 
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
@@ -135,10 +136,17 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
-	postgresMySQLGISOutputFolderPath := "./output/gis"
-	err := os.MkdirAll(postgresMySQLGISOutputFolderPath, os.ModePerm)
+	// Derive engine base directory from OutputFilePath: e.g. "./output/postgresql" → "./output/postgresql/gis"
+	engineBaseDir := filepath.Dir(w.OutputFilePath)
+	postgresGISDir := filepath.Join("./output/postgresql", "gis")
+	mysqlGISDir := filepath.Join("./output/mysql", "gis")
 
-	postgresGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/postgresql_ImportData_gis_%s.sql", fileTimeSuffix)
+	_ = os.MkdirAll(postgresGISDir, os.ModePerm)
+	_ = os.MkdirAll(mysqlGISDir, os.ModePerm)
+
+	postgresGISFilePath := filepath.Join(postgresGISDir, fmt.Sprintf("postgresql_ImportData_gis_%s.sql", fileTimeSuffix))
+	_ = engineBaseDir
+
 	provinceGISFile, err := os.OpenFile(postgresGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal("Unable to write to file", err)
@@ -146,7 +154,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 	}
 	defer provinceGISFile.Close()
 
-	mysqlGISFilePath := fmt.Sprintf(postgresMySQLGISOutputFolderPath+"/mysql_ImportData_gis_%s.sql", fileTimeSuffix)
+	mysqlGISFilePath := filepath.Join(mysqlGISDir, fmt.Sprintf("mysql_ImportData_gis_%s.sql", fileTimeSuffix))
 	mysqlGISFile, err := os.OpenFile(mysqlGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal("Unable to write to file", err)
