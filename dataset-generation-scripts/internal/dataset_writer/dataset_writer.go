@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
+	"time"
 
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	datasetfilewriter "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
@@ -104,6 +106,8 @@ func ReadAndGenerateSQLDatasets() {
 	} else {
 		fmt.Println("✅ Elasticsearch Dataset successfully generated")
 	}
+
+	writeGenerationLog("administrative")
 }
 
 /*
@@ -158,5 +162,22 @@ func GenerateGISSQLDatasets() {
 		log.Fatal("Unable to generate Elasticsearch GIS Dataset", err)
 	} else {
 		fmt.Println("✅ Elasticsearch GIS Dataset successfully generated")
+	}
+
+	writeGenerationLog("gis")
+}
+
+// writeGenerationLog writes a generation-log.txt to the output folder recording
+// the timestamp and stage of the last dataset generation run.
+func writeGenerationLog(stage string) {
+	logDir := "./output"
+	if err := os.MkdirAll(logDir, 0746); err != nil {
+		return
+	}
+	logPath := filepath.Join(logDir, "generation-log.txt")
+	timestamp := time.Now().Format(time.RFC1123Z)
+	entry := fmt.Sprintf("[%s] %s dataset generation completed\n", timestamp, stage)
+	if err := os.WriteFile(logPath, []byte(entry), 0644); err != nil {
+		log.Printf("[WARN] Unable to write generation log: %v", err)
 	}
 }
