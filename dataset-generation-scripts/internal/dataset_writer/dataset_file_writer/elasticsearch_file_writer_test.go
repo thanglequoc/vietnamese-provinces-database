@@ -125,7 +125,8 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 
 	geoProvinces := []*sapnhapbandomodel.SapNhapSiteGeoUnit{
 		{
-			Ma: "01", Ten: "Hà Nội", VNDSProvinceCode: "01",
+			Ma: "diaphanhanhchinhcaptinh_sn.108", Ten: "Hà Nội", VNDSProvinceCode: "01",
+			DienTichKM2: 3359.84,
 			BBoxGeoJSON: bboxJSON, GeomGeoJSON: geomJSON,
 			VNProvince: model.Province{
 				Code: "01", Name: "Hà Nội", NameEn: "Hanoi",
@@ -142,7 +143,8 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 
 	geoWards := []*sapnhapbandomodel.SapNhapSiteGeoUnit{
 		{
-			Ma: "00001", Ten: "Ba Đình", VNDSProvinceCode: "01",
+			Ma: "diaphanhanhchinhphuong_sn.456", Ten: "Ba Đình", VNDSProvinceCode: "01",
+			DienTichKM2: 5.23,
 			BBoxGeoJSON: bboxJSON, GeomGeoJSON: geomJSON,
 			VNWard: model.Ward{
 				Code: "00001", Name: "Ba Đình", NameEn: "Ba Dinh",
@@ -198,6 +200,40 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	}
 	if doc.Wards[0].GIS == nil {
 		t.Error("expected ward GIS field to be populated")
+	}
+
+	// Verify province GIS Properties
+	if doc.GIS.Properties == nil {
+		t.Fatal("expected province GIS Properties to be populated")
+	}
+	if doc.GIS.Properties.Code != "01" {
+		t.Errorf("expected Properties.Code '01', got %q", doc.GIS.Properties.Code)
+	}
+	if doc.GIS.Properties.Name != "Hà Nội" {
+		t.Errorf("expected Properties.Name 'Hà Nội', got %q", doc.GIS.Properties.Name)
+	}
+	if doc.GIS.Properties.GisServerId != "diaphanhanhchinhcaptinh_sn.108" {
+		t.Errorf("expected Properties.GisServerId 'diaphanhanhchinhcaptinh_sn.108', got %q", doc.GIS.Properties.GisServerId)
+	}
+	if doc.GIS.Properties.AreaKm2 != 3359.84 {
+		t.Errorf("expected Properties.AreaKm2 3359.84, got %f", doc.GIS.Properties.AreaKm2)
+	}
+
+	// Verify ward GIS Properties
+	if doc.Wards[0].GIS.Properties == nil {
+		t.Fatal("expected ward GIS Properties to be populated")
+	}
+	if doc.Wards[0].GIS.Properties.Code != "00001" {
+		t.Errorf("expected ward Properties.Code '00001', got %q", doc.Wards[0].GIS.Properties.Code)
+	}
+	if doc.Wards[0].GIS.Properties.Name != "Ba Đình" {
+		t.Errorf("expected ward Properties.Name 'Ba Đình', got %q", doc.Wards[0].GIS.Properties.Name)
+	}
+	if doc.Wards[0].GIS.Properties.GisServerId != "diaphanhanhchinhphuong_sn.456" {
+		t.Errorf("expected ward Properties.GisServerId 'diaphanhanhchinhphuong_sn.456', got %q", doc.Wards[0].GIS.Properties.GisServerId)
+	}
+	if doc.Wards[0].GIS.Properties.AreaKm2 != 5.23 {
+		t.Errorf("expected ward Properties.AreaKm2 5.23, got %f", doc.Wards[0].GIS.Properties.AreaKm2)
 	}
 
 	// Verify mappings/provinces-gis.json
