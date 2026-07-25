@@ -44,9 +44,10 @@ type ElasticsearchAdministrativeUnit struct {
 
 // ElasticsearchGIS holds optional GIS data for the provinces-gis index.
 type ElasticsearchGIS struct {
-	Center      ElasticsearchGeoPoint   `json:"Center"`
-	BoundingBox ElasticsearchBoundingBox `json:"BoundingBox"`
-	Geometry    json.RawMessage         `json:"Geometry"`
+	Center      ElasticsearchGeoPoint         `json:"Center"`
+	BoundingBox ElasticsearchBoundingBox       `json:"BoundingBox"`
+	Geometry    json.RawMessage               `json:"Geometry"`
+	Properties  *ElasticsearchGISProperties   `json:"Properties,omitempty"`
 }
 
 // ElasticsearchGeoPoint is a lat/lon point for Elasticsearch geo_point mapping.
@@ -61,6 +62,19 @@ type ElasticsearchBoundingBox struct {
 	MinLatitude  float64 `json:"MinLatitude"`
 	MaxLongitude float64 `json:"MaxLongitude"`
 	MaxLatitude  float64 `json:"MaxLatitude"`
+}
+
+// ElasticsearchGISProperties holds administrative metadata inside the GIS object
+// for the provinces-gis index.
+type ElasticsearchGISProperties struct {
+	Code        string  `json:"Code"`
+	Name        string  `json:"Name"`
+	NameEn      string  `json:"NameEn"`
+	FullName    string  `json:"FullName"`
+	FullNameEn  string  `json:"FullNameEn"`
+	CodeName    string  `json:"CodeName"`
+	GisServerId string  `json:"GisServerId"`
+	AreaKm2     float64 `json:"AreaKm2"`
 }
 
 // ElasticsearchMeta holds dataset version metadata.
