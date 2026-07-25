@@ -25,9 +25,9 @@ const (
 )
 
 // maxNDJSONChunkSize is the maximum size of a single NDJSON chunk file.
-// ES default http.max_content_length is 100 MB; we use 70 MB as a safety margin.
+// ES default http.max_content_length is 100 MB; we use 50 MB as a safety margin.
 // This is a var (not const) so tests can override it for smaller test data.
-var maxNDJSONChunkSize = 70 * 1024 * 1024 // 70 MB
+var maxNDJSONChunkSize = 50 * 1024 * 1024 // 50 MB
 
 // ElasticsearchDatasetFileWriter generates Elasticsearch NDJSON bulk files,
 // index mappings, and a README for the provinces and provinces-gis indices.
@@ -381,12 +381,13 @@ func stringsJoin(strs []string, sep string) string {
 // sapnhapGeoUnitToESGIS converts a SapNhapSiteGeoUnit's BBoxGeoJSON and
 // GeomGeoJSON into an ElasticsearchGIS struct. Returns an error if the bbox
 // cannot be parsed.
-func sapnhapGeoUnitToESGIS(unit sapnhapbandomodel.SapNhapSiteGeoUnit) (*dataset_file_writer_dto.ElasticsearchGIS, error) {
+func sapnhapGeoUnitToESGIS(unit sapnhapbandomodel.SapNhapSiteGeoUnit, properties *dataset_file_writer_dto.ElasticsearchGISProperties) (*dataset_file_writer_dto.ElasticsearchGIS, error) {
 	bbox, center, err := parseBBox(unit.BBoxGeoJSON)
 	if err != nil {
 		return nil, err
 	}
 	return &dataset_file_writer_dto.ElasticsearchGIS{
+		Properties:  properties,
 		Center:      center,
 		BoundingBox: bbox,
 		Geometry:    unit.GeomGeoJSON,
@@ -627,7 +628,16 @@ func writeProvincesGISMapping(path string) error {
 
 // writeESReadme writes the README.md for the Elasticsearch dataset.
 func writeESReadme(path string) error {
+	// Get current time in GMT+7
+	loc, err := time.LoadLocation("Asia/Saigon")
+	if err != nil {
+		loc = time.FixedZone("GMT+7", 7*60*60)
+	}
+	createdAt := time.Now().In(loc).Format(time.RFC1123Z)
+
 	content := `# Vietnamese Provinces Database — Elasticsearch Dataset
+
+Created at:  ` + createdAt + `
 
 ## Overview
 
@@ -649,6 +659,129 @@ Each province is a single denormalized document with:
 - **` + "`Wards`" + `**: Array of nested ward documents with the same structure
 - **` + "`GIS`" + `**: (provinces-gis only) Center (geo_point), BoundingBox, Geometry (geo_shape)
 - **` + "`Meta`" + `**: Dataset version metadata (DatasetVersion, AdministrativeRevision, GeneratedAt)
+
+## Example Preview Document
+
+Below is a sample province document (Hà Nội) with two of its wards:
+
+` + "```json" + `
+{
+  "Code": "01",
+  "Name": "Hà Nội",
+  "NameEn": "Hanoi",
+  "FullName": "Thành phố Hà Nội",
+  "FullNameEn": "Hanoi City",
+  "CodeName": "ha_noi",
+  "AdministrativeUnit": {
+    "Id": 1,
+    "FullName": "Thành phố trực thuộc trung ương",
+    "FullNameEn": "Municipality",
+    "ShortName": "Thành phố",
+    "ShortNameEn": "City",
+    "CodeName": "thanh_pho_truc_thuoc_trung_uong",
+    "CodeNameEn": "municipality"
+  },
+  "SearchKeywords": ["01", "ha noi", "hanoi", "ha_noi"],
+  "Wards": [
+    {
+      "Code": "00004",
+      "Name": "Ba Đình",
+      "NameEn": "Ba Dinh",
+      "FullName": "Phường Ba Đình",
+      "FullNameEn": "Ba Dinh Ward",
+      "CodeName": "ba_dinh",
+      "AdministrativeUnit": {
+        "Id": 3,
+        "FullName": "Phường",
+        "FullNameEn": "Ward",
+        "ShortName": "Phường",
+        "ShortNameEn": "Ward",
+        "CodeName": "phuong",
+        "CodeNameEn": "ward"
+      },
+      "SearchKeywords": ["00004", "ba dinh", "ba_dinh"]
+    },
+    {
+      "Code": "00070",
+      "Name": "Hoàn Kiếm",
+      "NameEn": "Hoan Kiem",
+      "FullName": "Phường Hoàn Kiếm",
+      "FullNameEn": "Hoan Kiem Ward",
+      "CodeName": "hoan_kiem",
+      "AdministrativeUnit": {
+        "Id": 3,
+        "FullName": "Phường",
+        "FullNameEn": "Ward",
+        "ShortName": "Phường",
+        "ShortNameEn": "Ward",
+        "CodeName": "phuong",
+        "CodeNameEn": "ward"
+      },
+      "SearchKeywords": ["00070", "hoan kiem", "hoan_kiem"]
+    }
+  ],
+  "Meta": {
+    "DatasetVersion": "2026.07.01",
+    "AdministrativeRevision": "2026-04-30",
+    "GeneratedAt": "2026-07-25T03:00:43Z"
+  }
+}
+` + "```" + `
+
+The ` + "`provinces-gis`" + ` index extends this same structure with a ` + "`GIS`" + ` object at both the province and ward level:
+
+` + "```json" + `
+{
+  "Code": "01",
+  "Name": "Hà Nội",
+  "FullName": "Thành phố Hà Nội",
+  "CodeName": "ha_noi",
+  "AdministrativeUnit": {
+    "Id": 1,
+    "FullName": "Thành phố trực thuộc trung ương",
+    "ShortName": "Thành phố"
+  },
+  "SearchKeywords": ["01", "ha noi", "hanoi", "ha_noi"],
+  "GIS": {
+    "Center": { "Lat": 21.0285, "Lon": 105.8542 },
+    "BoundingBox": {
+      "MinLongitude": 105.2859,
+      "MinLatitude": 20.4863,
+      "MaxLongitude": 106.0617,
+      "MaxLatitude": 21.3851
+    },
+    "Geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [[[[105.2859, 21.3851], [106.0617, 21.3851], ...]]]
+    }
+  },
+  "Wards": [
+    {
+      "Code": "00004",
+      "Name": "Ba Đình",
+      "FullName": "Phường Ba Đình",
+      "CodeName": "ba_dinh",
+      "AdministrativeUnit": { "Id": 3, "ShortName": "Phường" },
+      "SearchKeywords": ["00004", "ba dinh", "ba_dinh"],
+      "GIS": {
+        "Center": { "Lat": 21.0347, "Lon": 105.8231 },
+        "BoundingBox": {
+          "MinLongitude": 105.8115, "MinLatitude": 21.0261,
+          "MaxLongitude": 105.8347, "MaxLatitude": 21.0433
+        },
+        "Geometry": { "type": "Polygon", "coordinates": [[[105.8115, 21.0433], ...]] }
+      }
+    }
+  ],
+  "Meta": {
+    "DatasetVersion": "2026.07.01",
+    "AdministrativeRevision": "2026-04-30",
+    "GeneratedAt": "2026-07-25T03:00:43Z"
+  }
+}
+` + "```" + `
+
+> **Note**: The ` + "`Geometry`" + ` field contains full GeoJSON polygons/multipolygons. The example above uses ` + "`...`" + ` to abbreviate the coordinate arrays for readability. Actual geometries for provinces are MultiPolygon with thousands of coordinate pairs.
 
 ## Quick Start
 
