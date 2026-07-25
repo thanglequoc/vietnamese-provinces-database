@@ -1,7 +1,5 @@
 # Vietnamese Provinces Database — Elasticsearch Dataset
 
-Created at:  Sat, 25 Jul 2026 10:30:02 +0700
-
 ## Overview
 
 This dataset provides Vietnamese provinces and wards in Elasticsearch document format
