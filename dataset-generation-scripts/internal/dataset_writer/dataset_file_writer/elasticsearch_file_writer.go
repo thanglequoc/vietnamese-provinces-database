@@ -118,8 +118,18 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 			},
 		}
 
-		// Add province GIS
-		if gis, err := sapnhapGeoUnitToESGIS(*geoProvince); err == nil {
+		// Add province GIS with Properties
+		provinceProps := &dataset_file_writer_dto.ElasticsearchGISProperties{
+			Code:        province.Code,
+			Name:        province.Name,
+			NameEn:      province.NameEn,
+			FullName:    province.FullName,
+			FullNameEn:  province.FullNameEn,
+			CodeName:    province.CodeName,
+			GisServerId: geoProvince.Ma,
+			AreaKm2:     geoProvince.DienTichKM2,
+		}
+		if gis, err := sapnhapGeoUnitToESGIS(*geoProvince, provinceProps); err == nil {
 			doc.GIS = gis
 		}
 
@@ -137,7 +147,17 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 				AdministrativeUnit: convertWardToESAdminUnit(ward.AdministrativeUnit),
 				SearchKeywords:     file_writer_helper.GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
 			}
-			if gis, err := sapnhapGeoUnitToESGIS(*geoWard); err == nil {
+			wardProps := &dataset_file_writer_dto.ElasticsearchGISProperties{
+				Code:        ward.Code,
+				Name:        ward.Name,
+				NameEn:      ward.NameEn,
+				FullName:    ward.FullName,
+				FullNameEn:  ward.FullNameEn,
+				CodeName:    ward.CodeName,
+				GisServerId: geoWard.Ma,
+				AreaKm2:     geoWard.DienTichKM2,
+			}
+			if gis, err := sapnhapGeoUnitToESGIS(*geoWard, wardProps); err == nil {
 				wardDoc.GIS = gis
 			}
 			doc.Wards = append(doc.Wards, wardDoc)
