@@ -185,6 +185,7 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 	mssqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 	mssqlScriptDataWriter.Flush()
+	_ = zipFile(mssqlGISFilePath)
 
 	return nil
 }

@@ -224,7 +224,10 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 	mysqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
 	postgresScriptDataWriter.Flush()
+	_ = zipFile(postgresGISFilePath)
+
 	mysqlScriptDataWriter.Flush()
+	_ = zipFile(mysqlGISFilePath)
 
 	return nil
 }
