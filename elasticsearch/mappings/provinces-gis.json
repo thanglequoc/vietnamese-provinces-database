@@ -64,6 +64,35 @@
           },
           "Geometry": {
             "type": "geo_shape"
+          },
+          "Properties": {
+            "properties": {
+              "AreaKm2": {
+                "type": "float"
+              },
+              "Code": {
+                "type": "keyword"
+              },
+              "CodeName": {
+                "type": "keyword"
+              },
+              "FullName": {
+                "type": "keyword"
+              },
+              "FullNameEn": {
+                "type": "keyword"
+              },
+              "GisServerId": {
+                "type": "keyword"
+              },
+              "Name": {
+                "type": "keyword"
+              },
+              "NameEn": {
+                "type": "keyword"
+              }
+            },
+            "type": "object"
           }
         },
         "type": "object"
@@ -165,6 +194,35 @@
               },
               "Geometry": {
                 "type": "geo_shape"
+              },
+              "Properties": {
+                "properties": {
+                  "AreaKm2": {
+                    "type": "float"
+                  },
+                  "Code": {
+                    "type": "keyword"
+                  },
+                  "CodeName": {
+                    "type": "keyword"
+                  },
+                  "FullName": {
+                    "type": "keyword"
+                  },
+                  "FullNameEn": {
+                    "type": "keyword"
+                  },
+                  "GisServerId": {
+                    "type": "keyword"
+                  },
+                  "Name": {
+                    "type": "keyword"
+                  },
+                  "NameEn": {
+                    "type": "keyword"
+                  }
+                },
+                "type": "object"
               }
             },
             "type": "object"
