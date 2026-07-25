@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 	"time"
 
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
@@ -36,8 +37,10 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 	provinces []model.Province,
 	wards []model.Ward) error {
 
-	fileTimeSuffix := getFileTimeSuffix()
-	outputFilePath := fmt.Sprintf(w.OutputFilePath, fileTimeSuffix)
+	outputFilePath := w.OutputFilePath
+	if strings.Contains(outputFilePath, "%s") {
+		outputFilePath = fmt.Sprintf(outputFilePath, getFileTimeSuffix())
+	}
 
 	fileMsSql, err := os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
