@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
+	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 	sapnhapbandomodel "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
@@ -25,9 +25,9 @@ const (
 )
 
 // maxNDJSONChunkSize is the maximum size of a single NDJSON chunk file.
-// ES default http.max_content_length is 100 MB; we use 50 MB as a safety margin.
+// ES default http.max_content_length is 100 MB; we use 40 MB as a safety margin.
 // This is a var (not const) so tests can override it for smaller test data.
-var maxNDJSONChunkSize = 50 * 1024 * 1024 // 50 MB
+var maxNDJSONChunkSize = 40 * 1024 * 1024 // 40 MB
 
 // ElasticsearchDatasetFileWriter generates Elasticsearch NDJSON bulk files,
 // index mappings, and a README for the provinces and provinces-gis indices.
@@ -126,7 +126,7 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 			FullName:    province.FullName,
 			FullNameEn:  province.FullNameEn,
 			CodeName:    province.CodeName,
-			GisServerId: geoProvince.Ma,
+			GisServerId: geoProvince.MaLK,
 			AreaKm2:     geoProvince.DienTichKM2,
 		}
 		if gis, err := sapnhapGeoUnitToESGIS(*geoProvince, provinceProps); err == nil {
@@ -154,7 +154,7 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 				FullName:    ward.FullName,
 				FullNameEn:  ward.FullNameEn,
 				CodeName:    ward.CodeName,
-				GisServerId: geoWard.Ma,
+				GisServerId: geoWard.MaLK,
 				AreaKm2:     geoWard.DienTichKM2,
 			}
 			if gis, err := sapnhapGeoUnitToESGIS(*geoWard, wardProps); err == nil {
@@ -470,8 +470,8 @@ func writeProvincesMapping(path string) error {
 		"mappings": map[string]interface{}{
 			"dynamic": "strict",
 			"properties": map[string]interface{}{
-				"Code":     map[string]string{"type": "keyword"},
-				"CodeName": map[string]string{"type": "keyword"},
+				"Code":           map[string]string{"type": "keyword"},
+				"CodeName":       map[string]string{"type": "keyword"},
 				"SearchKeywords": map[string]string{"type": "keyword"},
 				"Name": map[string]interface{}{
 					"type":   "text",
@@ -498,8 +498,8 @@ func writeProvincesMapping(path string) error {
 				"Wards": map[string]interface{}{
 					"type": "nested",
 					"properties": map[string]interface{}{
-						"Code":         map[string]string{"type": "keyword"},
-						"CodeName":     map[string]string{"type": "keyword"},
+						"Code":           map[string]string{"type": "keyword"},
+						"CodeName":       map[string]string{"type": "keyword"},
 						"SearchKeywords": map[string]string{"type": "keyword"},
 						"Name": map[string]interface{}{
 							"type":   "text",
@@ -545,8 +545,8 @@ func writeProvincesGISMapping(path string) error {
 		"mappings": map[string]interface{}{
 			"dynamic": "strict",
 			"properties": map[string]interface{}{
-				"Code":     map[string]string{"type": "keyword"},
-				"CodeName": map[string]string{"type": "keyword"},
+				"Code":           map[string]string{"type": "keyword"},
+				"CodeName":       map[string]string{"type": "keyword"},
 				"SearchKeywords": map[string]string{"type": "keyword"},
 				"Name": map[string]interface{}{
 					"type":   "text",
@@ -573,7 +573,7 @@ func writeProvincesGISMapping(path string) error {
 				"GIS": map[string]interface{}{
 					"type": "object",
 					"properties": map[string]interface{}{
-						"Center":      map[string]string{"type": "geo_point"},
+						"Center": map[string]string{"type": "geo_point"},
 						"BoundingBox": map[string]interface{}{
 							"type": "object",
 							"properties": map[string]interface{}{
@@ -602,8 +602,8 @@ func writeProvincesGISMapping(path string) error {
 				"Wards": map[string]interface{}{
 					"type": "nested",
 					"properties": map[string]interface{}{
-						"Code":         map[string]string{"type": "keyword"},
-						"CodeName":     map[string]string{"type": "keyword"},
+						"Code":           map[string]string{"type": "keyword"},
+						"CodeName":       map[string]string{"type": "keyword"},
 						"SearchKeywords": map[string]string{"type": "keyword"},
 						"Name": map[string]interface{}{
 							"type":   "text",
@@ -630,7 +630,7 @@ func writeProvincesGISMapping(path string) error {
 						"GIS": map[string]interface{}{
 							"type": "object",
 							"properties": map[string]interface{}{
-								"Center":      map[string]string{"type": "geo_point"},
+								"Center": map[string]string{"type": "geo_point"},
 								"BoundingBox": map[string]interface{}{
 									"type": "object",
 									"properties": map[string]interface{}{
@@ -921,6 +921,26 @@ POST /provinces/_search
 }
 ` + "```" + `
 
+### Return only the matched ward (no parent province)
+
+Use ` + "`_source: false`" + ` on the parent document so only the nested ward hit is returned:
+
+` + "```json" + `
+POST /provinces/_search
+{
+  "_source": false,
+  "query": {
+    "nested": {
+      "path": "Wards",
+      "query": { "match": { "Wards.CodeName": "truong_sa" } },
+      "inner_hits": { "name": "ward", "_source": true }
+    }
+  }
+}
+` + "```" + `
+
+The ward document (with GIS data if present) is available at ` + "`.hits.hits[0].inner_hits.ward.hits.hits[0]._source`" + `.
+
 ### Autocomplete search
 ` + "```json" + `
 POST /provinces/_search
@@ -969,4 +989,3 @@ POST /provinces-gis/_search
 `
 	return os.WriteFile(path, []byte(content), 0644)
 }
-

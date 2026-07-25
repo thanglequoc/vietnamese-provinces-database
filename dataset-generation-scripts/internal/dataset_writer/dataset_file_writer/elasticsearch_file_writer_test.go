@@ -125,7 +125,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 
 	geoProvinces := []*sapnhapbandomodel.SapNhapSiteGeoUnit{
 		{
-			Ma: "diaphanhanhchinhcaptinh_sn.108", Ten: "Hà Nội", VNDSProvinceCode: "01",
+			Ma: "01", MaLK: "diaphanhanhchinhcaptinh_sn.108", Ten: "Hà Nội", VNDSProvinceCode: "01",
 			DienTichKM2: 3359.84,
 			BBoxGeoJSON: bboxJSON, GeomGeoJSON: geomJSON,
 			VNProvince: model.Province{
@@ -143,7 +143,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 
 	geoWards := []*sapnhapbandomodel.SapNhapSiteGeoUnit{
 		{
-			Ma: "diaphanhanhchinhphuong_sn.456", Ten: "Ba Đình", VNDSProvinceCode: "01",
+			Ma: "00001", MaLK: "diaphanhanhchinhphuong_sn.456", Ten: "Ba Đình", VNDSProvinceCode: "01",
 			DienTichKM2: 5.23,
 			BBoxGeoJSON: bboxJSON, GeomGeoJSON: geomJSON,
 			VNWard: model.Ward{

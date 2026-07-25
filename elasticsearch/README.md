@@ -1,5 +1,7 @@
 # Vietnamese Provinces Database — Elasticsearch Dataset
 
+Created at:  Sat, 25 Jul 2026 15:37:56 +0700
+
 ## Overview
 
 This dataset provides Vietnamese provinces and wards in Elasticsearch document format
@@ -20,6 +22,149 @@ Each province is a single denormalized document with:
 - **`Wards`**: Array of nested ward documents with the same structure
 - **`GIS`**: (provinces-gis only) Center (geo_point), BoundingBox, Geometry (geo_shape)
 - **`Meta`**: Dataset version metadata (DatasetVersion, AdministrativeRevision, GeneratedAt)
+
+## Example Preview Document
+
+Below is a sample province document (Hà Nội) with two of its wards:
+
+```json
+{
+  "Code": "01",
+  "Name": "Hà Nội",
+  "NameEn": "Hanoi",
+  "FullName": "Thành phố Hà Nội",
+  "FullNameEn": "Hanoi City",
+  "CodeName": "ha_noi",
+  "AdministrativeUnit": {
+    "Id": 1,
+    "FullName": "Thành phố trực thuộc trung ương",
+    "FullNameEn": "Municipality",
+    "ShortName": "Thành phố",
+    "ShortNameEn": "City",
+    "CodeName": "thanh_pho_truc_thuoc_trung_uong",
+    "CodeNameEn": "municipality"
+  },
+  "SearchKeywords": ["01", "ha noi", "hanoi", "ha_noi"],
+  "Wards": [
+    {
+      "Code": "00004",
+      "Name": "Ba Đình",
+      "NameEn": "Ba Dinh",
+      "FullName": "Phường Ba Đình",
+      "FullNameEn": "Ba Dinh Ward",
+      "CodeName": "ba_dinh",
+      "AdministrativeUnit": {
+        "Id": 3,
+        "FullName": "Phường",
+        "FullNameEn": "Ward",
+        "ShortName": "Phường",
+        "ShortNameEn": "Ward",
+        "CodeName": "phuong",
+        "CodeNameEn": "ward"
+      },
+      "SearchKeywords": ["00004", "ba dinh", "ba_dinh"]
+    },
+    {
+      "Code": "00070",
+      "Name": "Hoàn Kiếm",
+      "NameEn": "Hoan Kiem",
+      "FullName": "Phường Hoàn Kiếm",
+      "FullNameEn": "Hoan Kiem Ward",
+      "CodeName": "hoan_kiem",
+      "AdministrativeUnit": {
+        "Id": 3,
+        "FullName": "Phường",
+        "FullNameEn": "Ward",
+        "ShortName": "Phường",
+        "ShortNameEn": "Ward",
+        "CodeName": "phuong",
+        "CodeNameEn": "ward"
+      },
+      "SearchKeywords": ["00070", "hoan kiem", "hoan_kiem"]
+    }
+  ],
+  "Meta": {
+    "DatasetVersion": "2026.07.01",
+    "AdministrativeRevision": "2026-04-30",
+    "GeneratedAt": "2026-07-25T03:00:43Z"
+  }
+}
+```
+
+The `provinces-gis` index extends this same structure with a `GIS` object at both the province and ward level:
+
+```json
+{
+  "Code": "01",
+  "Name": "Hà Nội",
+  "FullName": "Thành phố Hà Nội",
+  "CodeName": "ha_noi",
+  "AdministrativeUnit": {
+    "Id": 1,
+    "FullName": "Thành phố trực thuộc trung ương",
+    "ShortName": "Thành phố"
+  },
+  "SearchKeywords": ["01", "ha noi", "hanoi", "ha_noi"],
+  "GIS": {
+    "Center": { "Lat": 21.0285, "Lon": 105.8542 },
+    "BoundingBox": {
+      "MinLongitude": 105.2859,
+      "MinLatitude": 20.4863,
+      "MaxLongitude": 106.0617,
+      "MaxLatitude": 21.3851
+    },
+    "Geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [[[[105.2859, 21.3851], [106.0617, 21.3851], ...]]]
+    },
+    "Properties": {
+      "Code": "01",
+      "Name": "Hà Nội",
+      "NameEn": "Hanoi",
+      "FullName": "Thành phố Hà Nội",
+      "FullNameEn": "Hanoi City",
+      "CodeName": "ha_noi",
+      "GisServerId": "diaphanhanhchinhcaptinh_sn.108",
+      "AreaKm2": 3359.84
+    }
+  },
+  "Wards": [
+    {
+      "Code": "00004",
+      "Name": "Ba Đình",
+      "FullName": "Phường Ba Đình",
+      "CodeName": "ba_dinh",
+      "AdministrativeUnit": { "Id": 3, "ShortName": "Phường" },
+      "SearchKeywords": ["00004", "ba dinh", "ba_dinh"],
+      "GIS": {
+        "Center": { "Lat": 21.0347, "Lon": 105.8231 },
+        "BoundingBox": {
+          "MinLongitude": 105.8115, "MinLatitude": 21.0261,
+          "MaxLongitude": 105.8347, "MaxLatitude": 21.0433
+        },
+        "Geometry": { "type": "Polygon", "coordinates": [[[105.8115, 21.0433], ...]] },
+        "Properties": {
+          "Code": "00004",
+          "Name": "Ba Đình",
+          "NameEn": "Ba Dinh",
+          "FullName": "Phường Ba Đình",
+          "FullNameEn": "Ba Dinh Ward",
+          "CodeName": "ba_dinh",
+          "GisServerId": "diaphanhanhchinhphuong_sn.456",
+          "AreaKm2": 5.23
+        }
+      }
+    }
+  ],
+  "Meta": {
+    "DatasetVersion": "2026.07.01",
+    "AdministrativeRevision": "2026-04-30",
+    "GeneratedAt": "2026-07-25T03:00:43Z"
+  }
+}
+```
+
+> **Note**: The `Geometry` field contains full GeoJSON polygons/multipolygons. The example above uses `...` to abbreviate the coordinate arrays for readability. Actual geometries for provinces are MultiPolygon with thousands of coordinate pairs.
 
 ## Quick Start
 
