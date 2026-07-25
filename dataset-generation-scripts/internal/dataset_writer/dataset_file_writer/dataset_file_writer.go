@@ -1,6 +1,12 @@
 package dataset_writer
 
 import (
+	"archive/zip"
+	"compress/flate"
+	"fmt"
+	"io"
+	"log"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -39,4 +45,58 @@ func parseEuropeanFloat(s string) (float64, error) {
 	s = strings.ReplaceAll(s, ",", ".")
 	// Step 3: parse as float64 (or float32 if you want)
 	return strconv.ParseFloat(s, 64)
+}
+
+// zipFile compresses a single file to <sourcePath>.zip using best compression.
+// On failure, logs a warning and returns the error. The caller may discard
+// the error if zip failure should be non-fatal.
+func zipFile(sourcePath string) error {
+	source, err := os.Open(sourcePath)
+	if err != nil {
+		log.Printf("[WARN] Unable to open source file for zip archive %s: %v", sourcePath, err)
+		return fmt.Errorf("open source file %s for zipping: %w", sourcePath, err)
+	}
+	defer source.Close()
+
+	archivePath := sourcePath + ".zip"
+	archiveFile, err := os.Create(archivePath)
+	if err != nil {
+		log.Printf("[WARN] Unable to create zip archive %s: %v", archivePath, err)
+		return fmt.Errorf("create zip archive %s: %w", archivePath, err)
+	}
+	defer archiveFile.Close()
+
+	zipWriter := zip.NewWriter(archiveFile)
+	defer zipWriter.Close()
+
+	zipWriter.RegisterCompressor(zip.Deflate, func(out io.Writer) (io.WriteCloser, error) {
+		return flate.NewWriter(out, flate.BestCompression)
+	})
+
+	sourceInfo, err := source.Stat()
+	if err != nil {
+		log.Printf("[WARN] Unable to stat source file %s: %v", sourcePath, err)
+		return fmt.Errorf("stat source file %s: %w", sourcePath, err)
+	}
+
+	header, err := zip.FileInfoHeader(sourceInfo)
+	if err != nil {
+		log.Printf("[WARN] Unable to create zip header for %s: %v", sourcePath, err)
+		return fmt.Errorf("create zip header for %s: %w", sourcePath, err)
+	}
+	header.Name = sourceInfo.Name()
+	header.Method = zip.Deflate
+
+	writer, err := zipWriter.CreateHeader(header)
+	if err != nil {
+		log.Printf("[WARN] Unable to create zip entry for %s: %v", sourcePath, err)
+		return fmt.Errorf("create zip entry for %s: %w", sourcePath, err)
+	}
+
+	if _, err := io.Copy(writer, source); err != nil {
+		log.Printf("[WARN] Unable to write content to zip archive %s: %v", archivePath, err)
+		return fmt.Errorf("copy source content into zip archive %s: %w", archivePath, err)
+	}
+
+	return nil
 }
