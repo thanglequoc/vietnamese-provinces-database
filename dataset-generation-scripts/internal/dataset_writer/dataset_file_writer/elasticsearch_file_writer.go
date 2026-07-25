@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 	"time"
 
@@ -18,7 +19,15 @@ const (
 	esGISIndexName = "provinces-gis"
 	esDatasetVer   = "2026.07.01"
 	esAdminRev     = "2026-04-30"
+
+	// largeDocWarningThreshold is the size at which a single document triggers a warning.
+	largeDocWarningThreshold = 8 * 1024 * 1024 // 8 MB
 )
+
+// maxNDJSONChunkSize is the maximum size of a single NDJSON chunk file.
+// ES default http.max_content_length is 100 MB; we use 70 MB as a safety margin.
+// This is a var (not const) so tests can override it for smaller test data.
+var maxNDJSONChunkSize = 70 * 1024 * 1024 // 70 MB
 
 // ElasticsearchDatasetFileWriter generates Elasticsearch NDJSON bulk files,
 // index mappings, and a README for the provinces and provinces-gis indices.
@@ -137,9 +146,18 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 		docs = append(docs, doc)
 	}
 
-	// Write provinces-gis.ndjson
+	// Warn about large documents that may need special handling during ES import
+	for _, doc := range docs {
+		docBytes, _ := json.Marshal(doc)
+		if len(docBytes) > largeDocWarningThreshold {
+			log.Printf("⚠️  [Elasticsearch] Large province document: Code=%s, Size=%.2f MB — may require increased ES heap during import",
+				doc.Code, float64(len(docBytes))/1024/1024)
+		}
+	}
+
+	// Write provinces-gis.ndjson (chunked if total size exceeds maxNDJSONChunkSize)
 	ndjsonPath := fmt.Sprintf("%s/provinces-gis.ndjson", w.OutputFolderPath)
-	if err := writeNDJSON(ndjsonPath, esGISIndexName, docs); err != nil {
+	if err := writeChunkedNDJSON(ndjsonPath, esGISIndexName, docs); err != nil {
 		return fmt.Errorf("write provinces-gis ndjson: %w", err)
 	}
 
@@ -182,6 +200,182 @@ func writeNDJSON(path, index string, docs []dataset_file_writer_dto.Elasticsearc
 	}
 
 	return writer.Flush()
+}
+
+// writeChunkedNDJSON writes Elasticsearch Bulk API NDJSON, splitting into
+// multiple chunk files if the total size exceeds maxNDJSONChunkSize.
+// This avoids the ES http.max_content_length limit (100 MB default).
+//
+// If the total size fits within one chunk, a single file is written at `path`
+// (same as writeNDJSON). If chunking is needed, files are written as
+// `path` with a numeric suffix: e.g. `provinces-gis-part-01.ndjson`,
+// `provinces-gis-part-02.ndjson`, etc.
+//
+// A manifest file `path + ".manifest"` is also written, listing the chunk
+// filenames in order, so import scripts can iterate them.
+func writeChunkedNDJSON(path, index string, docs []dataset_file_writer_dto.ElasticsearchProvinceDocument) error {
+	// Pre-serialize all docs to determine sizes
+	type serializedDoc struct {
+		actionLine []byte
+		docLine    []byte
+		totalSize  int
+	}
+
+	var serialized []serializedDoc
+	totalSize := 0
+	for _, doc := range docs {
+		action := map[string]interface{}{
+			"index": map[string]interface{}{
+				"_index": index,
+				"_id":    doc.Code,
+			},
+		}
+		actionBytes, err := json.Marshal(action)
+		if err != nil {
+			return fmt.Errorf("marshal index action for doc %s: %w", doc.Code, err)
+		}
+		docBytes, err := json.Marshal(doc)
+		if err != nil {
+			return fmt.Errorf("marshal doc %s: %w", doc.Code, err)
+		}
+		// Each line includes a trailing newline
+		size := len(actionBytes) + 1 + len(docBytes) + 1
+		serialized = append(serialized, serializedDoc{actionBytes, docBytes, size})
+		totalSize += size
+	}
+
+	// If total fits in one file, use the simple path
+	if totalSize <= maxNDJSONChunkSize {
+		return writeNDJSON(path, index, docs)
+	}
+
+	// Split into chunks
+	dir := filepathDir(path)
+	base := filepathBase(path)
+	ext := filepathExt(base)
+	nameNoExt := base[:len(base)-len(ext)]
+
+	var chunks [][]serializedDoc
+	currentChunk := []serializedDoc{}
+	currentSize := 0
+
+	for _, s := range serialized {
+		if currentSize+s.totalSize > maxNDJSONChunkSize && len(currentChunk) > 0 {
+			chunks = append(chunks, currentChunk)
+			currentChunk = []serializedDoc{}
+			currentSize = 0
+		}
+		currentChunk = append(currentChunk, s)
+		currentSize += s.totalSize
+	}
+	if len(currentChunk) > 0 {
+		chunks = append(chunks, currentChunk)
+	}
+
+	log.Printf("📦 [Elasticsearch] NDJSON chunked: %d docs → %d files (max %d MB each)",
+		len(docs), len(chunks), maxNDJSONChunkSize/1024/1024)
+
+	// Write each chunk file
+	var chunkNames []string
+	for i, chunk := range chunks {
+		chunkName := fmt.Sprintf("%s-part-%02d%s", nameNoExt, i+1, ext)
+		chunkPath := fmt.Sprintf("%s/%s", dir, chunkName)
+		chunkNames = append(chunkNames, chunkName)
+
+		file, err := os.OpenFile(chunkPath, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
+		if err != nil {
+			return fmt.Errorf("create chunk file %s: %w", chunkPath, err)
+		}
+
+		writer := bufio.NewWriter(file)
+		for _, s := range chunk {
+			if _, err := writer.Write(s.actionLine); err != nil {
+				file.Close()
+				return fmt.Errorf("write action line: %w", err)
+			}
+			if err := writer.WriteByte('\n'); err != nil {
+				file.Close()
+				return fmt.Errorf("write newline: %w", err)
+			}
+			if _, err := writer.Write(s.docLine); err != nil {
+				file.Close()
+				return fmt.Errorf("write doc line: %w", err)
+			}
+			if err := writer.WriteByte('\n'); err != nil {
+				file.Close()
+				return fmt.Errorf("write newline: %w", err)
+			}
+		}
+		if err := writer.Flush(); err != nil {
+			file.Close()
+			return fmt.Errorf("flush chunk file %s: %w", chunkPath, err)
+		}
+		file.Close()
+
+		chunkSize := 0
+		for _, s := range chunk {
+			chunkSize += s.totalSize
+		}
+		log.Printf("   %s: %.1f MB, %d docs", chunkName, float64(chunkSize)/1024/1024, len(chunk))
+	}
+
+	// Write manifest file
+	manifestPath := path + ".manifest"
+	manifestContent := stringsJoin(chunkNames, "\n") + "\n"
+	if err := os.WriteFile(manifestPath, []byte(manifestContent), 0644); err != nil {
+		return fmt.Errorf("write manifest file: %w", err)
+	}
+	log.Printf("   Manifest: %s", filepathBase(manifestPath))
+
+	return nil
+}
+
+// filepathDir returns the directory portion of a path (like filepath.Dir).
+func filepathDir(path string) string {
+	for i := len(path) - 1; i >= 0; i-- {
+		if path[i] == '/' {
+			if i == 0 {
+				return "/"
+			}
+			return path[:i]
+		}
+	}
+	return "."
+}
+
+// filepathBase returns the last element of a path (like filepath.Base).
+func filepathBase(path string) string {
+	for i := len(path) - 1; i >= 0; i-- {
+		if path[i] == '/' {
+			return path[i+1:]
+		}
+	}
+	return path
+}
+
+// filepathExt returns the file extension including the dot (like filepath.Ext).
+func filepathExt(path string) string {
+	for i := len(path) - 1; i >= 0; i-- {
+		if path[i] == '/' {
+			return ""
+		}
+		if path[i] == '.' {
+			return path[i:]
+		}
+	}
+	return ""
+}
+
+// stringsJoin joins strings with a separator (like strings.Join).
+func stringsJoin(strs []string, sep string) string {
+	if len(strs) == 0 {
+		return ""
+	}
+	result := strs[0]
+	for _, s := range strs[1:] {
+		result += sep + s
+	}
+	return result
 }
 
 // sapnhapGeoUnitToESGIS converts a SapNhapSiteGeoUnit's BBoxGeoJSON and

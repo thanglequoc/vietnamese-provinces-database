@@ -273,3 +273,204 @@ func TestGenerateSearchKeywords(t *testing.T) {
 		seen[kw] = true
 	}
 }
+
+func TestWriteChunkedNDJSON_SingleFile(t *testing.T) {
+	// When total size is under maxNDJSONChunkSize, should produce a single file
+	tmpDir := t.TempDir()
+	ndjsonPath := filepath.Join(tmpDir, "provinces-gis.ndjson")
+
+	docs := []dataset_file_writer_dto.ElasticsearchProvinceDocument{
+		{Code: "01", Name: "Hà Nội"},
+		{Code: "02", Name: "Hà Giang"},
+	}
+
+	err := writeChunkedNDJSON(ndjsonPath, esGISIndexName, docs)
+	if err != nil {
+		t.Fatalf("writeChunkedNDJSON failed: %v", err)
+	}
+
+	// Should produce a single file (no chunks, no manifest)
+	data, err := os.ReadFile(ndjsonPath)
+	if err != nil {
+		t.Fatalf("failed to read ndjson: %v", err)
+	}
+	if len(data) == 0 {
+		t.Fatal("ndjson file is empty")
+	}
+
+	// Should NOT have chunk files or manifest
+	manifestPath := ndjsonPath + ".manifest"
+	if _, err := os.Stat(manifestPath); !os.IsNotExist(err) {
+		t.Error("manifest file should not exist when total fits in one file")
+	}
+
+	// Verify content: 2 docs = 4 lines (action + doc per province)
+	lines := strings.Split(strings.TrimSpace(string(data)), "\n")
+	if len(lines) != 4 {
+		t.Errorf("expected 4 lines (2 actions + 2 docs), got %d", len(lines))
+	}
+}
+
+func TestWriteChunkedNDJSON_MultipleChunks(t *testing.T) {
+	// When total size exceeds maxNDJSONChunkSize, should produce multiple chunk files + manifest
+	tmpDir := t.TempDir()
+	ndjsonPath := filepath.Join(tmpDir, "provinces-gis.ndjson")
+
+	// Temporarily lower the chunk size so small test data triggers chunking
+	originalMaxSize := maxNDJSONChunkSize
+	maxNDJSONChunkSize = 100 // 100 bytes — forces chunking with any real data
+	defer func() { maxNDJSONChunkSize = originalMaxSize }()
+
+	// Create simple docs — with 100-byte limit, even small docs will be split
+	docs := []dataset_file_writer_dto.ElasticsearchProvinceDocument{
+		{Code: "01", Name: "Hà Nội"},
+		{Code: "02", Name: "Hà Giang"},
+		{Code: "03", Name: "Cao Bằng"},
+	}
+
+	err := writeChunkedNDJSON(ndjsonPath, esGISIndexName, docs)
+	if err != nil {
+		t.Fatalf("writeChunkedNDJSON failed: %v", err)
+	}
+
+	// Should NOT have a single ndjson file
+	if _, err := os.Stat(ndjsonPath); !os.IsNotExist(err) {
+		t.Error("single ndjson file should not exist when chunking is triggered")
+	}
+
+	// Should have at least 2 chunk files
+	chunk1Path := filepath.Join(tmpDir, "provinces-gis-part-01.ndjson")
+	if _, err := os.Stat(chunk1Path); os.IsNotExist(err) {
+		t.Fatal("chunk file provinces-gis-part-01.ndjson not found")
+	}
+
+	chunk2Path := filepath.Join(tmpDir, "provinces-gis-part-02.ndjson")
+	if _, err := os.Stat(chunk2Path); os.IsNotExist(err) {
+		t.Fatal("chunk file provinces-gis-part-02.ndjson not found")
+	}
+
+	// Should have manifest file
+	manifestPath := ndjsonPath + ".manifest"
+	manifestData, err := os.ReadFile(manifestPath)
+	if err != nil {
+		t.Fatalf("failed to read manifest: %v", err)
+	}
+	manifestLines := strings.Split(strings.TrimSpace(string(manifestData)), "\n")
+	if len(manifestLines) < 2 {
+		t.Errorf("expected at least 2 lines in manifest, got %d", len(manifestLines))
+	}
+
+	// Collect all chunk files from the manifest
+	var chunkFiles []string
+	for _, name := range manifestLines {
+		chunkFiles = append(chunkFiles, filepath.Join(tmpDir, name))
+	}
+
+	// Verify each chunk file has valid NDJSON (action + doc pairs)
+	for _, chunkFile := range chunkFiles {
+		data, err := os.ReadFile(chunkFile)
+		if err != nil {
+			t.Fatalf("failed to read chunk file %s: %v", chunkFile, err)
+		}
+		lines := strings.Split(strings.TrimSpace(string(data)), "\n")
+		if len(lines)%2 != 0 {
+			t.Errorf("expected even number of lines (action+doc pairs), got %d in %s", len(lines), chunkFile)
+		}
+		// Verify first line is a valid index action
+		var action map[string]interface{}
+		if err := json.Unmarshal([]byte(lines[0]), &action); err != nil {
+			t.Fatalf("first line of chunk is not valid JSON: %v", err)
+		}
+		indexAction, ok := action["index"].(map[string]interface{})
+		if !ok {
+			t.Fatal("first line of chunk missing 'index' key")
+		}
+		if indexAction["_index"] != "provinces-gis" {
+			t.Errorf("expected _index 'provinces-gis', got %v", indexAction["_index"])
+		}
+	}
+
+	// Verify all 3 docs are distributed across chunks
+	totalDocs := 0
+	for _, chunkFile := range chunkFiles {
+		data, _ := os.ReadFile(chunkFile)
+		lines := strings.Split(strings.TrimSpace(string(data)), "\n")
+		totalDocs += len(lines) / 2
+	}
+	if totalDocs != 3 {
+		t.Errorf("expected 3 total docs across all chunks, got %d", totalDocs)
+	}
+}
+
+func TestFilepathDir(t *testing.T) {
+	tests := []struct {
+		input    string
+		expected string
+	}{
+		{"/tmp/output/file.ndjson", "/tmp/output"},
+		{"output/file.ndjson", "output"},
+		{"file.ndjson", "."},
+		{"/file.ndjson", "/"},
+	}
+	for _, tt := range tests {
+		got := filepathDir(tt.input)
+		if got != tt.expected {
+			t.Errorf("filepathDir(%q) = %q, want %q", tt.input, got, tt.expected)
+		}
+	}
+}
+
+func TestFilepathBase(t *testing.T) {
+	tests := []struct {
+		input    string
+		expected string
+	}{
+		{"/tmp/output/file.ndjson", "file.ndjson"},
+		{"output/file.ndjson", "file.ndjson"},
+		{"file.ndjson", "file.ndjson"},
+	}
+	for _, tt := range tests {
+		got := filepathBase(tt.input)
+		if got != tt.expected {
+			t.Errorf("filepathBase(%q) = %q, want %q", tt.input, got, tt.expected)
+		}
+	}
+}
+
+func TestFilepathExt(t *testing.T) {
+	tests := []struct {
+		input    string
+		expected string
+	}{
+		{"file.ndjson", ".ndjson"},
+		{"provinces-gis-part-01.ndjson", ".ndjson"},
+		{"/tmp/output/file.json", ".json"},
+		{"noext", ""},
+		{"/path/file", ""},
+	}
+	for _, tt := range tests {
+		got := filepathExt(tt.input)
+		if got != tt.expected {
+			t.Errorf("filepathExt(%q) = %q, want %q", tt.input, got, tt.expected)
+		}
+	}
+}
+
+func TestStringsJoin(t *testing.T) {
+	tests := []struct {
+		strs     []string
+		sep      string
+		expected string
+	}{
+		{[]string{"a", "b", "c"}, ",", "a,b,c"},
+		{[]string{"a"}, ",", "a"},
+		{[]string{}, ",", ""},
+		{[]string{"part-01", "part-02"}, "\n", "part-01\npart-02"},
+	}
+	for _, tt := range tests {
+		got := stringsJoin(tt.strs, tt.sep)
+		if got != tt.expected {
+			t.Errorf("stringsJoin(%v, %q) = %q, want %q", tt.strs, tt.sep, got, tt.expected)
+		}
+	}
+}

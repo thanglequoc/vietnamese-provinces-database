@@ -22,6 +22,7 @@ func main() {
 		sapnhap.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()
 		sapnhap.FetchGISDataFromSapNhapBando()
 		sapnhap.PatchIslandProvincesGeometry()
+		sapnhap.ValidateAndFixGeometries()
 		dataset_writer.GenerateGISSQLDatasets()
 	}
 }
