@@ -1,5 +1,7 @@
 # Vietnamese Provinces Database — Elasticsearch Dataset
 
+Created at:  Sat, 25 Jul 2026 10:30:02 +0700
+
 ## Overview
 
 This dataset provides Vietnamese provinces and wards in Elasticsearch document format
@@ -14,12 +16,12 @@ with two indices:
 
 Each province is a single denormalized document with:
 
-- **Core fields**: `Code`, `Name`, `NameEn`, `FullName`, `FullNameEn`, `CodeName`
-- **`AdministrativeUnit`**: Embedded administrative unit object (`Id`, `FullName`, `ShortName`, etc.)
-- **`SearchKeywords`**: Pre-computed autocomplete keywords (code, tone-stripped Vietnamese name, English name, codeName)
-- **`Wards`**: Array of nested ward documents with the same structure as provinces
-- **`GIS`**: (provinces-gis only) `Center` (geo_point), `BoundingBox`, `Geometry` (geo_shape)
-- **`Meta`**: Dataset version metadata (`DatasetVersion`, `AdministrativeRevision`, `GeneratedAt`)
+- **Core fields**: Code, Name, NameEn, FullName, FullNameEn, CodeName
+- **`AdministrativeUnit`**: Embedded administrative unit object (Id, FullName, ShortName, etc.)
+- **`SearchKeywords`**: Pre-computed autocomplete keywords (code, tone-stripped name, English name, codeName)
+- **`Wards`**: Array of nested ward documents with the same structure
+- **`GIS`**: (provinces-gis only) Center (geo_point), BoundingBox, Geometry (geo_shape)
+- **`Meta`**: Dataset version metadata (DatasetVersion, AdministrativeRevision, GeneratedAt)
 
 ## Quick Start
 
@@ -40,26 +42,16 @@ curl -X PUT "localhost:9200/provinces-gis" \
 ### 2. Bulk Import the Data
 
 ```bash
-# Import province data (non-GIS, single file)
+# Import province data (non-GIS)
 curl -X POST "localhost:9200/_bulk" \
   -H 'Content-Type: application/x-ndjson' \
   --data-binary @provinces.ndjson
 
-# Import province data with GIS (chunked — import all parts)
+# Import province data (with GIS)
 curl -X POST "localhost:9200/_bulk" \
   -H 'Content-Type: application/x-ndjson' \
-  --data-binary @provinces-gis-part-01.ndjson
-
-curl -X POST "localhost:9200/_bulk" \
-  -H 'Content-Type: application/x-ndjson' \
-  --data-binary @provinces-gis-part-02.ndjson
-
-curl -X POST "localhost:9200/_bulk" \
-  -H 'Content-Type: application/x-ndjson' \
-  --data-binary @provinces-gis-part-03.ndjson
+  --data-binary @provinces-gis.ndjson
 ```
-
-> **Note**: The GIS NDJSON is split into multiple parts because each province document embeds large GeoJSON MultiPolygon geometries. The `provinces-gis.ndjson.manifest` file lists the parts in order. Import all parts against the same index; each part contains different province documents so there is no duplication.
 
 ### 3. Verify Import
 
@@ -73,7 +65,6 @@ Expected: 34 documents in each index (one per province).
 ## Example Queries
 
 ### Province dropdown (sorted by code)
-
 ```json
 POST /provinces/_search
 {
@@ -84,7 +75,6 @@ POST /provinces/_search
 ```
 
 ### Search wards within a province
-
 ```json
 POST /provinces/_search
 {
@@ -106,7 +96,6 @@ POST /provinces/_search
 ```
 
 ### Autocomplete search
-
 ```json
 POST /provinces/_search
 {
@@ -118,7 +107,6 @@ POST /provinces/_search
 ```
 
 ### GIS: Find province covering a point
-
 ```json
 POST /provinces-gis/_search
 {
@@ -141,11 +129,8 @@ POST /provinces-gis/_search
 
 | File | Description |
 |------|-------------|
-| `provinces.ndjson` | Bulk API NDJSON for the provinces index (single file, 34 docs) |
-| `provinces-gis-part-01.ndjson` | Bulk API NDJSON for the provinces-gis index — part 1 of 3 |
-| `provinces-gis-part-02.ndjson` | Bulk API NDJSON for the provinces-gis index — part 2 of 3 |
-| `provinces-gis-part-03.ndjson` | Bulk API NDJSON for the provinces-gis index — part 3 of 3 |
-| `provinces-gis.ndjson.manifest` | Text manifest listing the chunked parts in import order |
+| `provinces.ndjson` | Bulk API NDJSON for the provinces index |
+| `provinces-gis.ndjson` | Bulk API NDJSON for the provinces-gis index |
 | `mappings/provinces.json` | Index mapping for provinces |
 | `mappings/provinces-gis.json` | Index mapping for provinces-gis |
 
@@ -155,4 +140,3 @@ POST /provinces-gis/_search
 - The `Meta` field is named without underscore prefix — Elasticsearch reserves `_`-prefixed field names
 - The dataset version and administrative revision are set at generation time
 - NDJSON files use the Elasticsearch Bulk API format (each document = index action line + document line)
-- The GIS NDJSON is **chunked** because embedded GeoJSON MultiPolygon payloads produce large files. Split points are chosen between province boundaries so each part is self-contained and can be imported in any order (all parts target the same index `provinces-gis`).
