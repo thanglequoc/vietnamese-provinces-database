@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 
@@ -27,6 +28,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	if strings.Contains(outputFilePath, "%s") {
 		outputFilePath = fmt.Sprintf(outputFilePath, getFileTimeSuffix())
 	}
+	os.MkdirAll(filepath.Dir(outputFilePath), os.ModePerm)
 
 	file, err := os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
