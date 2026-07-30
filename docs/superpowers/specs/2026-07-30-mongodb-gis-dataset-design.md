@@ -193,6 +193,7 @@ We recommend Option A for simplicity and to avoid touching the existing ES write
 3. **`mongodb_gis_file_writer.go`** — GIS writer:
    - `WriteMongoGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards []*SapNhapSiteGeoUnit) error`
    - Generates `mongo_data_vn_unit_gis.json` (JSON array of province documents)
+   - **Chunking**: If total size exceeds 50MB, splits into `mongo_data_vn_unit_gis_part_01.json`, `part_02.json`, etc. + manifest file
    - Generates `create_indexes.js` (index creation script)
    - Generates `README.md` (usage documentation)
 
@@ -225,9 +226,9 @@ We recommend Option A for simplicity and to avoid touching the existing ES write
 
 - GIS JSON file will be large (~50-100MB) due to full polygon geometries for 34 provinces + 3,321 wards
 - MongoDB's 16MB document size limit is per-document; each province document with all its ward geometries should stay under this limit (largest province ~5-8MB based on ES data)
-- The `mongo_data_vn_unit_gis.json` file will be a JSON array of 34 province documents
+- **Chunking**: The output file must be kept under 50MB. If the total size exceeds 50MB, the writer will split into multiple chunk files (e.g., `mongo_data_vn_unit_gis_part_01.json`, `mongo_data_vn_unit_gis_part_02.json`, etc.), each containing a JSON array of province documents. A manifest file (`mongo_data_vn_unit_gis.manifest`) will list the chunk filenames in order, so import scripts can iterate them. This follows the same pattern as the Elasticsearch `writeChunkedNDJSON()` function.
 - 2dsphere indexes on Geometry enable efficient spatial queries (`$geoIntersects`, `$geoWithin`)
-- Import time: `mongoimport` can handle the file; for very large files, chunked import may be needed (same as ES NDJSON chunking)
+- Import time: `mongoimport` can handle each chunk file; the manifest enables automated sequential import
 
 ## 11. Testing Strategy
 
