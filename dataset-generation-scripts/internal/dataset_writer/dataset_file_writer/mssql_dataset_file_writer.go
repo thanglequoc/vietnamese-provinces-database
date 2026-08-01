@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
+	"strings"
 	"time"
 
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
@@ -36,8 +38,11 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 	provinces []model.Province,
 	wards []model.Ward) error {
 
-	fileTimeSuffix := getFileTimeSuffix()
-	outputFilePath := fmt.Sprintf(w.OutputFilePath, fileTimeSuffix)
+	outputFilePath := w.OutputFilePath
+	if strings.Contains(outputFilePath, "%s") {
+		outputFilePath = fmt.Sprintf(outputFilePath, getFileTimeSuffix())
+	}
+	os.MkdirAll(filepath.Dir(outputFilePath), os.ModePerm)
 
 	fileMsSql, err := os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -127,7 +132,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
-	gisOutputFolderPath := "./output/gis"
+	gisOutputFolderPath := "./output/sqlserver/gis"
 	err := os.MkdirAll(gisOutputFolderPath, os.ModePerm)
 	if err != nil {
 		log.Fatal("Unable to create output folder", err)
@@ -185,6 +190,7 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
 	mssqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 	mssqlScriptDataWriter.Flush()
+	_ = zipFile(mssqlGISFilePath)
 
 	return nil
 }

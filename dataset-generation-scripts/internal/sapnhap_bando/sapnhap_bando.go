@@ -79,3 +79,23 @@ func PatchIslandProvincesGeometry() {
 	}
 	log.Println("✅ Island province geometry patching completed successfully")
 }
+
+// ValidateAndFixGeometries checks all ward geometries in sapnhap_geojson_objects
+// for self-intersections and fixes them using ST_MakeValid + ST_CollectionExtract.
+// An audit log of all fixed wards is written to output/gis_geometry_fix_log_<timestamp>.txt.
+//
+// This should be called after PatchIslandProvincesGeometry() and before
+// GenerateGISSQLDatasets() in the generation flow.
+func ValidateAndFixGeometries() {
+	postgresDB := db.GetPostgresDBConnection()
+	sapNhapGeoJSONObjectRepository := sapNhapR.NewSapNhapGeoJSONObjectRepository(postgresDB)
+	vnTmpRepo := vnRepo.NewVnProvincesTmpRepository(postgresDB)
+	sapNhapSvc := sapNhapService.NewSapNhapService(vnTmpRepo, sapNhapGeoJSONObjectRepository, postgresDB)
+
+	log.Println("ℹ️ Validating and fixing GIS geometries (self-intersection repair)...")
+	if err := sapNhapSvc.ValidateAndFixGeometries(context.Background()); err != nil {
+		log.Fatalf("Failed to fix GIS geometries: %v", err)
+		panic(err)
+	}
+	log.Println("✅ GIS geometry validation and fix completed successfully")
+}

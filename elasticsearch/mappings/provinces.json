@@ -1,0 +1,140 @@
+{
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "AdministrativeUnit": {
+        "properties": {
+          "CodeName": {
+            "type": "keyword"
+          },
+          "CodeNameEn": {
+            "type": "keyword"
+          },
+          "FullName": {
+            "type": "keyword"
+          },
+          "FullNameEn": {
+            "type": "keyword"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "ShortName": {
+            "type": "keyword"
+          },
+          "ShortNameEn": {
+            "type": "keyword"
+          }
+        },
+        "type": "object"
+      },
+      "Code": {
+        "type": "keyword"
+      },
+      "CodeName": {
+        "type": "keyword"
+      },
+      "FullName": {
+        "type": "text"
+      },
+      "FullNameEn": {
+        "type": "text"
+      },
+      "Meta": {
+        "properties": {
+          "AdministrativeRevision": {
+            "type": "keyword"
+          },
+          "DatasetVersion": {
+            "type": "keyword"
+          },
+          "GeneratedAt": {
+            "type": "date"
+          }
+        },
+        "type": "object"
+      },
+      "Name": {
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        },
+        "type": "text"
+      },
+      "NameEn": {
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        },
+        "type": "text"
+      },
+      "SearchKeywords": {
+        "type": "keyword"
+      },
+      "Wards": {
+        "properties": {
+          "AdministrativeUnit": {
+            "properties": {
+              "CodeName": {
+                "type": "keyword"
+              },
+              "CodeNameEn": {
+                "type": "keyword"
+              },
+              "FullName": {
+                "type": "keyword"
+              },
+              "FullNameEn": {
+                "type": "keyword"
+              },
+              "Id": {
+                "type": "integer"
+              },
+              "ShortName": {
+                "type": "keyword"
+              },
+              "ShortNameEn": {
+                "type": "keyword"
+              }
+            },
+            "type": "object"
+          },
+          "Code": {
+            "type": "keyword"
+          },
+          "CodeName": {
+            "type": "keyword"
+          },
+          "FullName": {
+            "type": "text"
+          },
+          "FullNameEn": {
+            "type": "text"
+          },
+          "Name": {
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            },
+            "type": "text"
+          },
+          "NameEn": {
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            },
+            "type": "text"
+          },
+          "SearchKeywords": {
+            "type": "keyword"
+          }
+        },
+        "type": "nested"
+      }
+    }
+  }
+}

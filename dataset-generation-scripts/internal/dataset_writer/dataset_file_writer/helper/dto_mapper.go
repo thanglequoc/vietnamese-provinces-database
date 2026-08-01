@@ -1,8 +1,11 @@
 package helper
 
 import (
-	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
+	"strings"
+
+	"github.com/thanglequoc-vn-provinces/v2/internal/common/viet"
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 func ConvertToJsonProvinceModel(provinces []model.Province) []dataset_file_writer_dto.JsonProvinceModel {
@@ -184,4 +187,88 @@ func ConvertToMongoWardModel(wards []model.Ward) []dataset_file_writer_dto.Mongo
 	}
 
 	return result
+}
+
+// GenerateSearchKeywords builds a deduplicated keyword array for Elasticsearch
+// autocomplete/search. The array contains: code, tone-stripped lowercase name,
+// lowercase English name, and codeName.
+func GenerateSearchKeywords(code, name, nameEn, codeName string) []string {
+	keywords := []string{
+		code,
+		strings.ToLower(viet.RemoveVietToneMark(name)),
+		strings.ToLower(nameEn),
+		codeName,
+	}
+	return deduplicate(keywords)
+}
+
+// deduplicate removes duplicate strings from a slice while preserving order.
+func deduplicate(items []string) []string {
+	seen := make(map[string]bool, len(items))
+	result := make([]string, 0, len(items))
+	for _, item := range items {
+		if !seen[item] {
+			seen[item] = true
+			result = append(result, item)
+		}
+	}
+	return result
+}
+
+// ConvertToElasticsearchProvinceModel converts Province domain models to
+// Elasticsearch province documents with embedded wards and SearchKeywords.
+func ConvertToElasticsearchProvinceModel(provinces []model.Province) []dataset_file_writer_dto.ElasticsearchProvinceDocument {
+	var result []dataset_file_writer_dto.ElasticsearchProvinceDocument
+	for _, province := range provinces {
+		p := dataset_file_writer_dto.ElasticsearchProvinceDocument{
+			Code:               province.Code,
+			Name:               province.Name,
+			NameEn:             province.NameEn,
+			FullName:           province.FullName,
+			FullNameEn:         province.FullNameEn,
+			CodeName:           province.CodeName,
+			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(province.AdministrativeUnit),
+			SearchKeywords:     GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
+		}
+
+		if len(province.Wards) != 0 {
+			wards := make([]model.Ward, len(province.Wards))
+			for i, w := range province.Wards {
+				wards[i] = *w
+			}
+			p.Wards = convertToElasticsearchWardDocuments(wards)
+		}
+		result = append(result, p)
+	}
+	return result
+}
+
+func convertToElasticsearchWardDocuments(wards []model.Ward) []dataset_file_writer_dto.ElasticsearchWardDocument {
+	var result []dataset_file_writer_dto.ElasticsearchWardDocument
+	for _, ward := range wards {
+		w := dataset_file_writer_dto.ElasticsearchWardDocument{
+			Code:               ward.Code,
+			Name:               ward.Name,
+			NameEn:             ward.NameEn,
+			FullName:           ward.FullName,
+			FullNameEn:         ward.FullNameEn,
+			CodeName:           ward.CodeName,
+			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(ward.AdministrativeUnit),
+			SearchKeywords:     GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
+		}
+		result = append(result, w)
+	}
+	return result
+}
+
+func convertToElasticsearchAdministrativeUnit(au model.AdministrativeUnit) dataset_file_writer_dto.ElasticsearchAdministrativeUnit {
+	return dataset_file_writer_dto.ElasticsearchAdministrativeUnit{
+		Id:          au.Id,
+		FullName:    au.FullName,
+		FullNameEn:  au.FullNameEn,
+		ShortName:   au.ShortName,
+		ShortNameEn: au.ShortNameEn,
+		CodeName:    au.CodeName,
+		CodeNameEn:  au.CodeNameEn,
+	}
 }

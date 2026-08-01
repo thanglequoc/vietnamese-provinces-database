@@ -1,0 +1,254 @@
+{
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "AdministrativeUnit": {
+        "properties": {
+          "CodeName": {
+            "type": "keyword"
+          },
+          "CodeNameEn": {
+            "type": "keyword"
+          },
+          "FullName": {
+            "type": "keyword"
+          },
+          "FullNameEn": {
+            "type": "keyword"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "ShortName": {
+            "type": "keyword"
+          },
+          "ShortNameEn": {
+            "type": "keyword"
+          }
+        },
+        "type": "object"
+      },
+      "Code": {
+        "type": "keyword"
+      },
+      "CodeName": {
+        "type": "keyword"
+      },
+      "FullName": {
+        "type": "text"
+      },
+      "FullNameEn": {
+        "type": "text"
+      },
+      "GIS": {
+        "properties": {
+          "BoundingBox": {
+            "properties": {
+              "MaxLatitude": {
+                "type": "float"
+              },
+              "MaxLongitude": {
+                "type": "float"
+              },
+              "MinLatitude": {
+                "type": "float"
+              },
+              "MinLongitude": {
+                "type": "float"
+              }
+            },
+            "type": "object"
+          },
+          "Center": {
+            "type": "geo_point"
+          },
+          "Geometry": {
+            "type": "geo_shape"
+          },
+          "Properties": {
+            "properties": {
+              "AreaKm2": {
+                "type": "float"
+              },
+              "Code": {
+                "type": "keyword"
+              },
+              "CodeName": {
+                "type": "keyword"
+              },
+              "FullName": {
+                "type": "keyword"
+              },
+              "FullNameEn": {
+                "type": "keyword"
+              },
+              "GisServerId": {
+                "type": "keyword"
+              },
+              "Name": {
+                "type": "keyword"
+              },
+              "NameEn": {
+                "type": "keyword"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "Meta": {
+        "properties": {
+          "AdministrativeRevision": {
+            "type": "keyword"
+          },
+          "DatasetVersion": {
+            "type": "keyword"
+          },
+          "GeneratedAt": {
+            "type": "date"
+          }
+        },
+        "type": "object"
+      },
+      "Name": {
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        },
+        "type": "text"
+      },
+      "NameEn": {
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        },
+        "type": "text"
+      },
+      "SearchKeywords": {
+        "type": "keyword"
+      },
+      "Wards": {
+        "properties": {
+          "AdministrativeUnit": {
+            "properties": {
+              "CodeName": {
+                "type": "keyword"
+              },
+              "CodeNameEn": {
+                "type": "keyword"
+              },
+              "FullName": {
+                "type": "keyword"
+              },
+              "FullNameEn": {
+                "type": "keyword"
+              },
+              "Id": {
+                "type": "integer"
+              },
+              "ShortName": {
+                "type": "keyword"
+              },
+              "ShortNameEn": {
+                "type": "keyword"
+              }
+            },
+            "type": "object"
+          },
+          "Code": {
+            "type": "keyword"
+          },
+          "CodeName": {
+            "type": "keyword"
+          },
+          "FullName": {
+            "type": "text"
+          },
+          "FullNameEn": {
+            "type": "text"
+          },
+          "GIS": {
+            "properties": {
+              "BoundingBox": {
+                "properties": {
+                  "MaxLatitude": {
+                    "type": "float"
+                  },
+                  "MaxLongitude": {
+                    "type": "float"
+                  },
+                  "MinLatitude": {
+                    "type": "float"
+                  },
+                  "MinLongitude": {
+                    "type": "float"
+                  }
+                },
+                "type": "object"
+              },
+              "Center": {
+                "type": "geo_point"
+              },
+              "Geometry": {
+                "type": "geo_shape"
+              },
+              "Properties": {
+                "properties": {
+                  "AreaKm2": {
+                    "type": "float"
+                  },
+                  "Code": {
+                    "type": "keyword"
+                  },
+                  "CodeName": {
+                    "type": "keyword"
+                  },
+                  "FullName": {
+                    "type": "keyword"
+                  },
+                  "FullNameEn": {
+                    "type": "keyword"
+                  },
+                  "GisServerId": {
+                    "type": "keyword"
+                  },
+                  "Name": {
+                    "type": "keyword"
+                  },
+                  "NameEn": {
+                    "type": "keyword"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "Name": {
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            },
+            "type": "text"
+          },
+          "NameEn": {
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            },
+            "type": "text"
+          },
+          "SearchKeywords": {
+            "type": "keyword"
+          }
+        },
+        "type": "nested"
+      }
+    }
+  }
+}
