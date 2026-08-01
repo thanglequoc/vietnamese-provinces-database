@@ -194,3 +194,157 @@ echo "=========================================="
 log_info "Running create_indexes.js..."
 $MONGOSH --file "$DATA_DIR/create_indexes.js"
 log_info "Index creation complete"
+
+# ──────────────────────────────────────────────────
+# Phase 4: Verification
+# ──────────────────────────────────────────────────
+
+echo ""
+echo "=========================================="
+echo " Phase 4: Verification"
+echo "=========================================="
+
+verify_count() {
+  local check_name="$1"
+  local collection="$2"
+  local expected="$3"
+  local actual
+  actual=$($MONGOSH --eval "db.getCollection('$collection').countDocuments()" 2>/dev/null | tail -1)
+  if [[ "$actual" == "$expected" ]]; then
+    log_pass "$check_name: $actual (expected $expected)"
+    ((TOTAL_PASS++))
+  else
+    log_fail "$check_name: got $actual, expected $expected"
+    log_fail "  Re-run: $MONGOSH --eval \"db.getCollection('$collection').countDocuments()\""
+    ((TOTAL_FAIL++))
+  fi
+}
+
+verify_empty() {
+  local check_name="$1"
+  local eval_expr="$2"
+  local actual
+  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  # mongosh may return empty string or "null" for empty results
+  if [[ "$actual" == "0" || "$actual" == "null" || -z "$actual" ]]; then
+    log_pass "$check_name: no issues found"
+    ((TOTAL_PASS++))
+  else
+    log_fail "$check_name: got $actual, expected 0"
+    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    ((TOTAL_FAIL++))
+  fi
+}
+
+verify_equals() {
+  local check_name="$1"
+  local eval_expr="$2"
+  local expected="$3"
+  local actual
+  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  if [[ "$actual" == "$expected" ]]; then
+    log_pass "$check_name: $actual"
+    ((TOTAL_PASS++))
+  else
+    log_fail "$check_name: got $actual, expected $expected"
+    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    ((TOTAL_FAIL++))
+  fi
+}
+
+verify_mongosh_result() {
+  local check_name="$1"
+  local eval_expr="$2"
+  local expected_result="$3"
+  local actual
+  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  if [[ "$actual" == "$expected_result" ]]; then
+    log_pass "$check_name: $actual"
+    ((TOTAL_PASS++))
+  else
+    log_fail "$check_name: got $actual, expected $expected_result"
+    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    ((TOTAL_FAIL++))
+  fi
+}
+
+# 4.1 Document Counts
+echo ""
+log_info "--- 4.1 Document Counts ---"
+verify_count "4.1.1 Province count" "provinces" "34"
+verify_count "4.1.2 Province GIS count" "provinces-gis" "34"
+verify_count "4.1.3 Ward GIS count" "wards-gis" "3321"
+verify_count "4.1.4 Admin regions count" "administrative_regions" "8"
+verify_count "4.1.5 Admin units count" "administrative_units" "5"
+
+# 4.2 Data Integrity
+echo ""
+log_info "--- 4.2 Data Integrity ---"
+
+verify_empty "4.2.1 No duplicate province codes" \
+  "JSON.stringify(db.getCollection('provinces-gis').aggregate([{\$group:{_id:'\$Code',count:{\$sum:1}}},{\$match:{count:{\$gt:1}}},{\$count:'dupes'}]).toArray()[0]?.dupes || 0)"
+
+verify_empty "4.2.2 No duplicate ward codes" \
+  "JSON.stringify(db.getCollection('wards-gis').aggregate([{\$group:{_id:'\$Code',count:{\$sum:1}}},{\$match:{count:{\$gt:1}}},{\$count:'dupes'}]).toArray()[0]?.dupes || 0)"
+
+verify_equals "4.2.3 Every province-gis has GIS" \
+  "db.getCollection('provinces-gis').countDocuments({GIS: {\$exists: false}})" "0"
+
+verify_equals "4.2.4 Every ward-gis has GIS" \
+  "db.getCollection('wards-gis').countDocuments({GIS: {\$exists: false}})" "0"
+
+# 4.3 GIS Geometry Validity
+echo ""
+log_info "--- 4.3 GIS Geometry Validity ---"
+
+verify_equals "4.3.1 Province geometry is MultiPolygon" \
+  "db.getCollection('provinces-gis').countDocuments({'GIS.Geometry.type': {\$ne: 'MultiPolygon'}})" "0"
+
+verify_equals "4.3.2 Ward geometry is Polygon/MultiPolygon" \
+  "db.getCollection('wards-gis').countDocuments({'GIS.Geometry.type': {\$nin: ['Polygon', 'MultiPolygon']}})" "0"
+
+verify_equals "4.3.3 Province center points exist" \
+  "db.getCollection('provinces-gis').countDocuments({'GIS.Center': {\$exists: true}})" "34"
+
+# 4.4 Cross-Collection Referential Integrity
+echo ""
+log_info "--- 4.4 Cross-Collection Referential Integrity ---"
+
+verify_empty "4.4.1 Every ward refs valid province" \
+  "JSON.stringify(db.getCollection('wards-gis').aggregate([{\$lookup:{from:'provinces-gis',localField:'ProvinceCode',foreignField:'Code',as:'province'}},{\$match:{province:{\$size:0}}},{\$count:'orphaned'}]).toArray()[0]?.orphaned || 0)"
+
+verify_empty "4.4.2 Every province has wards" \
+  "JSON.stringify(db.getCollection('provinces-gis').aggregate([{\$lookup:{from:'wards-gis',localField:'Code',foreignField:'ProvinceCode',as:'wards'}},{\$match:{wards:{\$size:0}}},{\$count:'empty'}]).toArray()[0]?.empty || 0)"
+
+# 4.5 Spatial Query Samples
+echo ""
+log_info "--- 4.5 Spatial Query Samples ---"
+
+verify_mongosh_result "4.5.1 Point-in-Hà Nội (105.8542, 21.0285)" \
+  "JSON.stringify(db.getCollection('provinces-gis').findOne({'GIS.Geometry':{\$geoIntersects:{\$geometry:{type:'Point',coordinates:[105.8542,21.0285]}}}},{Code:1}).Code)" '"01"'
+
+verify_mongosh_result "4.5.2 Point-in-Ba Đình ward (105.8435, 21.0366)" \
+  "JSON.stringify(db.getCollection('wards-gis').findOne({'GIS.Geometry':{\$geoIntersects:{\$geometry:{type:'Point',coordinates:[105.8435,21.0366]}}}},{ProvinceCode:1}).ProvinceCode)" '"01"'
+
+verify_equals "4.5.3 Point-in-ocean matches nothing" \
+  "db.getCollection('provinces-gis').countDocuments({'GIS.Geometry':{\$geoIntersects:{\$geometry:{type:'Point',coordinates:[112.0,16.0]}}}})" "0"
+
+# ──────────────────────────────────────────────────
+# Phase 5: Report
+# ──────────────────────────────────────────────────
+
+echo ""
+echo "=========================================="
+echo " Phase 5: Report"
+echo "=========================================="
+echo ""
+echo "Results: ${GREEN}${TOTAL_PASS} passed${NC}, ${RED}${TOTAL_FAIL} failed${NC}"
+echo ""
+
+if [[ "$TOTAL_FAIL" -gt 0 ]]; then
+  log_error "Verification FAILED — ${TOTAL_FAIL} check(s) did not pass"
+  exit 1
+else
+  log_pass "All ${TOTAL_PASS} verification checks passed"
+  exit 0
+fi
