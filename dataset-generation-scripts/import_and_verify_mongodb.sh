@@ -10,10 +10,15 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DATA_DIR="$SCRIPT_DIR/output/mongodb"
-CONN_STRING="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin"
+CONN_STRING="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/vn_provinces?authSource=admin"
 DB_NAME="vn_provinces"
-MONGOSH="mongosh $CONN_STRING/$DB_NAME --quiet"
-MONGOIMPORT="mongoimport --uri=$CONN_STRING --db=$DB_NAME --jsonArray"
+run_mongosh() {
+  mongosh "$CONN_STRING" --quiet --eval "$1" 2>/dev/null
+}
+
+run_mongoimport() {
+  mongoimport --uri="$CONN_STRING" --jsonArray "$@"
+}
 
 TOTAL_PASS=0
 TOTAL_FAIL=0
@@ -58,7 +63,7 @@ fi
 
 # Verify mongosh can connect
 log_info "Verifying mongosh connection..."
-$MONGOSH --eval "db.version()" >/dev/null 2>&1 || {
+mongosh "$CONN_STRING" --quiet --eval "db.version()" >/dev/null 2>&1 || {
   log_error "mongosh cannot connect to MongoDB. Check tunnel and credentials."
   exit 1
 }
@@ -122,12 +127,12 @@ COLLECTIONS=("provinces" "provinces-gis" "wards-gis" "administrative_regions" "a
 
 for coll in "${COLLECTIONS[@]}"; do
   log_info "Dropping collection: $coll"
-  $MONGOSH --eval "db.getCollection('$coll').drop()" >/dev/null 2>&1 || true
+  mongosh "$CONN_STRING" --quiet --eval "db.getCollection('$coll').drop()" >/dev/null 2>&1 || true
 done
 
 log_info "Verifying all collections are empty..."
 for coll in "${COLLECTIONS[@]}"; do
-  COUNT=$($MONGOSH --eval "db.getCollection('$coll').countDocuments()" 2>/dev/null | tail -1)
+  COUNT=$(mongosh "$CONN_STRING" --quiet --eval "db.getCollection('$coll').countDocuments()" 2>/dev/null | tail -1)
   if [[ "$COUNT" != "0" ]]; then
     log_error "Collection '$coll' still has $COUNT docs after drop"
     exit 1
@@ -150,10 +155,10 @@ import_collection() {
   local expected_count="$3"
 
   log_info "Importing $coll_name from $(basename "$file")..."
-  $MONGOIMPORT --collection="$coll_name" --file="$file" 2>&1 | tail -1
+  run_mongoimport --collection="$coll_name" --file="$file" 2>&1 | tail -1
 
   local actual_count
-  actual_count=$($MONGOSH --eval "db.getCollection('$coll_name').countDocuments()" 2>/dev/null | tail -1)
+  actual_count=$(mongosh "$CONN_STRING" --quiet --eval "db.getCollection('$coll_name').countDocuments()" 2>/dev/null | tail -1)
   if [[ "$actual_count" != "$expected_count" ]]; then
     log_error "$coll_name: expected $expected_count docs, got $actual_count"
     exit 1
@@ -170,10 +175,10 @@ import_collection "provinces-gis" "$PROV_GIS_FILE" 34
 log_info "Importing wards-gis (${#WARD_PARTS[@]} parts)..."
 for i in "${!WARD_PARTS[@]}"; do
   log_info "  Part $((i+1))/${#WARD_PARTS[@]}: $(basename "${WARD_PARTS[$i]}")"
-  $MONGOIMPORT --collection="wards-gis" --file="${WARD_PARTS[$i]}" 2>&1 | tail -1
+  run_mongoimport --collection="wards-gis" --file="${WARD_PARTS[$i]}" 2>&1 | tail -1
 done
 
-WARD_COUNT=$($MONGOSH --eval "db.getCollection('wards-gis').countDocuments()" 2>/dev/null | tail -1)
+WARD_COUNT=$(mongosh "$CONN_STRING" --quiet --eval "db.getCollection('wards-gis').countDocuments()" 2>/dev/null | tail -1)
 if [[ "$WARD_COUNT" != "3321" ]]; then
   log_error "wards-gis: expected 3321 docs, got $WARD_COUNT"
   exit 1
@@ -192,7 +197,7 @@ echo " Phase 3: Index Creation"
 echo "=========================================="
 
 log_info "Running create_indexes.js..."
-$MONGOSH --file "$DATA_DIR/create_indexes.js"
+mongosh "$CONN_STRING" --quiet --file "$DATA_DIR/create_indexes.js"
 log_info "Index creation complete"
 
 # ──────────────────────────────────────────────────
@@ -209,13 +214,13 @@ verify_count() {
   local collection="$2"
   local expected="$3"
   local actual
-  actual=$($MONGOSH --eval "db.getCollection('$collection').countDocuments()" 2>/dev/null | tail -1)
+  actual=$(run_mongosh "db.getCollection('$collection').countDocuments()" | tail -1)
   if [[ "$actual" == "$expected" ]]; then
     log_pass "$check_name: $actual (expected $expected)"
     ((TOTAL_PASS++))
   else
     log_fail "$check_name: got $actual, expected $expected"
-    log_fail "  Re-run: $MONGOSH --eval \"db.getCollection('$collection').countDocuments()\""
+    log_fail "  Re-run: mongosh '$CONN_STRING' --quiet --eval \"db.getCollection('$collection').countDocuments()\""
     ((TOTAL_FAIL++))
   fi
 }
@@ -224,14 +229,14 @@ verify_empty() {
   local check_name="$1"
   local eval_expr="$2"
   local actual
-  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  actual=$(run_mongosh "$eval_expr" | tail -1)
   # mongosh may return empty string or "null" for empty results
   if [[ "$actual" == "0" || "$actual" == "null" || -z "$actual" ]]; then
     log_pass "$check_name: no issues found"
     ((TOTAL_PASS++))
   else
     log_fail "$check_name: got $actual, expected 0"
-    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    log_fail "  Re-run: mongosh '$CONN_STRING' --quiet --eval '$eval_expr'"
     ((TOTAL_FAIL++))
   fi
 }
@@ -241,13 +246,13 @@ verify_equals() {
   local eval_expr="$2"
   local expected="$3"
   local actual
-  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  actual=$(run_mongosh "$eval_expr" | tail -1)
   if [[ "$actual" == "$expected" ]]; then
     log_pass "$check_name: $actual"
     ((TOTAL_PASS++))
   else
     log_fail "$check_name: got $actual, expected $expected"
-    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    log_fail "  Re-run: mongosh '$CONN_STRING' --quiet --eval '$eval_expr'"
     ((TOTAL_FAIL++))
   fi
 }
@@ -257,13 +262,13 @@ verify_mongosh_result() {
   local eval_expr="$2"
   local expected_result="$3"
   local actual
-  actual=$($MONGOSH --eval "$eval_expr" 2>/dev/null | tail -1)
+  actual=$(run_mongosh "$eval_expr" | tail -1)
   if [[ "$actual" == "$expected_result" ]]; then
     log_pass "$check_name: $actual"
     ((TOTAL_PASS++))
   else
     log_fail "$check_name: got $actual, expected $expected_result"
-    log_fail "  Re-run: $MONGOSH --eval '$eval_expr'"
+    log_fail "  Re-run: mongosh '$CONN_STRING' --quiet --eval '$eval_expr'"
     ((TOTAL_FAIL++))
   fi
 }
