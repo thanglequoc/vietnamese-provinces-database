@@ -13,7 +13,7 @@ DATA_DIR="$SCRIPT_DIR/output/mongodb"
 CONN_STRING="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/vn_provinces?authSource=admin"
 DB_NAME="vn_provinces"
 run_mongosh() {
-  mongosh "$CONN_STRING" --quiet --eval "$1" 2>/dev/null
+  mongosh "$CONN_STRING" --quiet --eval "$1" 2>/dev/null || true
 }
 
 run_mongoimport() {
