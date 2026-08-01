@@ -378,11 +378,11 @@ Execute MongoDB queries automatically when user asks about any of these:
 | Direct requests | "query mongodb", "run mongo query", "check mongo", "get from mongo" |
 
 **Examples:**
-- "How many documents are in the provinces-gis collection?" → Run `db.provinces_gis.countDocuments()` immediately
+- "How many documents are in the provinces-gis collection?" → Run `db.getCollection('provinces-gis').countDocuments()` immediately
 - "Find which province contains coordinates 105.85, 21.03" → Run `$geoIntersects` query on provinces-gis
 - "Show me all collections in MongoDB" → Run `show collections`
 - "Import the provinces NDJSON" → Run `mongoimport` command
-- "Count wards in province 01" → Run `db.wards_gis.countDocuments({ProvinceCode: "01"})`
+- "Count wards in province 01" → Run `db.getCollection('wards-gis').countDocuments({ProvinceCode: "01"})`
 
 ### Connection & Tunnel Management
 
@@ -406,6 +406,7 @@ ssh -f -N -L 27017:localhost:27017 -i ~/.ssh/id_ed25519 thanglequoc@machine.than
 | SSH User | `thanglequoc` |
 | SSH Key | `~/.ssh/id_ed25519` |
 | Default Database | `vn_provinces` |
+| MongoDB Tools Path | `/Users/thanglequoc/projects/dev-tools/mongodb-database-tools-macos-arm64-100.17.0/bin` (includes `mongoimport`, `mongorestore`, `mongodump`, etc.) |
 | JSON Formatter | `EJSON.stringify()` or `tojson()` for single documents; pipe through `jq` where applicable |
 
 ### Collection Reference

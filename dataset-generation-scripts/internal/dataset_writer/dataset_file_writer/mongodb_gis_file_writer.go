@@ -177,17 +177,17 @@ func writeMongoGISIndexScript(path string) error {
 // Run with: mongosh vn_provinces create_indexes.js
 
 // provinces-gis collection indexes
-db.provinces_gis.createIndex({ "Code": 1 }, { unique: true });
-db.provinces_gis.createIndex({ "GIS.Geometry": "2dsphere" });
-db.provinces_gis.createIndex({ "GIS.Center": "2dsphere" });
-db.provinces_gis.createIndex({ "SearchKeywords": 1 });
+db.getCollection('provinces-gis').createIndex({ "Code": 1 }, { unique: true });
+db.getCollection('provinces-gis').createIndex({ "GIS.Geometry": "2dsphere" });
+db.getCollection('provinces-gis').createIndex({ "GIS.Center": "2dsphere" });
+db.getCollection('provinces-gis').createIndex({ "SearchKeywords": 1 });
 
 // wards-gis collection indexes
-db.wards_gis.createIndex({ "Code": 1 }, { unique: true });
-db.wards_gis.createIndex({ "ProvinceCode": 1 });
-db.wards_gis.createIndex({ "GIS.Geometry": "2dsphere" });
-db.wards_gis.createIndex({ "GIS.Center": "2dsphere" });
-db.wards_gis.createIndex({ "SearchKeywords": 1 });
+db.getCollection('wards-gis').createIndex({ "Code": 1 }, { unique: true });
+db.getCollection('wards-gis').createIndex({ "ProvinceCode": 1 });
+db.getCollection('wards-gis').createIndex({ "GIS.Geometry": "2dsphere" });
+db.getCollection('wards-gis').createIndex({ "GIS.Center": "2dsphere" });
+db.getCollection('wards-gis').createIndex({ "SearchKeywords": 1 });
 `
 	return os.WriteFile(path, []byte(content), 0644)
 }
@@ -255,7 +255,7 @@ mongosh vn_provinces create_indexes.js
 
 ` + "```javascript" + `
 // Find province containing a point
-db.provinces_gis.findOne({
+db.getCollection('provinces-gis').findOne({
   "GIS.Geometry": {
     $geoIntersects: {
       $geometry: { type: "Point", coordinates: [105.8542, 21.0285] }
@@ -264,10 +264,10 @@ db.provinces_gis.findOne({
 })
 
 // Find all wards in a province
-db.wards_gis.find({ ProvinceCode: "01" })
+db.getCollection('wards-gis').find({ ProvinceCode: "01" })
 
 // Find ward containing a point
-db.wards_gis.findOne({
+db.getCollection('wards-gis').findOne({
   "GIS.Geometry": {
     $geoIntersects: {
       $geometry: { type: "Point", coordinates: [105.8231, 21.0347] }
@@ -276,7 +276,7 @@ db.wards_gis.findOne({
 })
 
 // Find provinces near a point (within 50km)
-db.provinces_gis.find({
+db.getCollection('provinces-gis').find({
   "GIS.Center": {
     $near: {
       $geometry: { type: "Point", coordinates: [105.8542, 21.0285] },
@@ -286,10 +286,10 @@ db.provinces_gis.find({
 })
 
 // Join wards with provinces using $lookup
-db.wards_gis.aggregate([
+db.getCollection('wards-gis').aggregate([
   { $match: { ProvinceCode: "01" } },
   { $lookup: {
-      from: "provinces_gis",
+      from: "provinces-gis",
       localField: "ProvinceCode",
       foreignField: "Code",
       as: "Province"
