@@ -10,6 +10,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DATA_DIR="$SCRIPT_DIR/output/mongodb"
+GIS_DATA_DIR="$DATA_DIR/gis"
 CONN_STRING="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/vn_provinces?authSource=admin"
 DB_NAME="vn_provinces"
 run_mongosh() {
@@ -71,9 +72,9 @@ log_info "MongoDB connection OK"
 
 # Verify source files exist
 log_info "Verifying source files..."
-MANIFEST_FILE=$(ls "$DATA_DIR"/*ward_gis*.json.manifest 2>/dev/null | head -1)
+MANIFEST_FILE=$(ls "$GIS_DATA_DIR"/*ward_gis*.json.manifest 2>/dev/null | head -1)
 if [[ -z "$MANIFEST_FILE" ]]; then
-  log_error "No ward GIS manifest file found in $DATA_DIR"
+  log_error "No ward GIS manifest file found in $GIS_DATA_DIR"
   exit 1
 fi
 
@@ -81,17 +82,17 @@ FILES_TO_CHECK=(
   "$DATA_DIR"/administrative_regions_*.json
   "$DATA_DIR"/administrative_units_*.json
   "$DATA_DIR"/mongo_data_vn_unit_*.json
-  "$DATA_DIR"/mongo_data_vn_province_gis_*.json
+  "$GIS_DATA_DIR"/mongo_data_vn_province_gis_*.json
   "$MANIFEST_FILE"
-  "$DATA_DIR/create_indexes.js"
+  "$GIS_DATA_DIR/create_indexes.js"
 )
 
 ADMIN_REG_FILE=$(ls "$DATA_DIR"/administrative_regions_*.json 2>/dev/null | head -1)
 ADMIN_UNIT_FILE=$(ls "$DATA_DIR"/administrative_units_*.json 2>/dev/null | head -1)
 VN_UNIT_FILE=$(ls "$DATA_DIR"/mongo_data_vn_unit_*.json 2>/dev/null | head -1)
-PROV_GIS_FILE=$(ls "$DATA_DIR"/mongo_data_vn_province_gis_*.json 2>/dev/null | head -1)
+PROV_GIS_FILE=$(ls "$GIS_DATA_DIR"/mongo_data_vn_province_gis_*.json 2>/dev/null | head -1)
 
-for file in "$ADMIN_REG_FILE" "$ADMIN_UNIT_FILE" "$VN_UNIT_FILE" "$PROV_GIS_FILE" "$MANIFEST_FILE" "$DATA_DIR/create_indexes.js"; do
+for file in "$ADMIN_REG_FILE" "$ADMIN_UNIT_FILE" "$VN_UNIT_FILE" "$PROV_GIS_FILE" "$MANIFEST_FILE" "$GIS_DATA_DIR/create_indexes.js"; do
   if [[ ! -f "$file" ]]; then
     log_error "Missing: $file"
     exit 1
@@ -101,7 +102,7 @@ done
 # Load ward part files from manifest
 WARD_PARTS=()
 while IFS= read -r line; do
-  [[ -n "$line" ]] && WARD_PARTS+=("$DATA_DIR/$line")
+  [[ -n "$line" ]] && WARD_PARTS+=("$GIS_DATA_DIR/$line")
 done < "$MANIFEST_FILE"
 
 for part_file in "${WARD_PARTS[@]}"; do
@@ -197,7 +198,7 @@ echo " Phase 3: Index Creation"
 echo "=========================================="
 
 log_info "Running create_indexes.js..."
-mongosh "$CONN_STRING" --quiet --file "$DATA_DIR/create_indexes.js"
+mongosh "$CONN_STRING" --quiet --file "$GIS_DATA_DIR/create_indexes.js"
 log_info "Index creation complete"
 
 # ──────────────────────────────────────────────────
