@@ -1,6 +1,6 @@
 # AI Agent Instructions — Vietnamese Provinces Database
 
-A comprehensive database of Vietnamese administrative units (34 provinces, districts, wards) maintained through automated Go scripts that generate SQL, JSON, and GIS data for multiple database engines.
+A comprehensive database of Vietnamese administrative units (34 provinces, 3,321 wards) maintained through automated Go scripts that generate SQL, JSON, and GIS data for multiple database engines.
 
 ---
 
@@ -24,6 +24,10 @@ go test -v ./...
 ```
 
 **Testing note**: Some tests connect to the temporary Postgres/PostGIS database on `localhost:15432`. If Docker is not running, `go test -v ./...` will fail in integration-style packages.
+
+**Gotchas**:
+- GIS generation is gated by `const INCLUDE_GIS = true` in `main.go`. Turn it off to skip all GIS fetch/patch/validate steps.
+- `go run main.go` tees all stdout+stderr to `output/generation-log.txt` — check that file if console output seems truncated.
 
 ## Database Query Skill
 
@@ -85,7 +89,7 @@ EOF
 
 **`wards_tmp`**: `code` (PK), `name`, `name_en`, `full_name`, `province_code` (FK → `provinces_tmp.code`), `administrative_unit_id`
 
-**`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`)
+**`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`). `bbox` and `geom` are `GENERATED ALWAYS` stored PostGIS columns derived from the WKT columns.
 
 ### Common Query Patterns
 
@@ -328,6 +332,7 @@ curl -X POST "localhost:9200/_bulk" \
   -H 'Content-Type: application/x-ndjson' \
   --data-binary @elasticsearch/provinces.ndjson
 ```
+> Note: the `provinces-gis` index data is chunked — `elasticsearch/provinces-gis-part-01.ndjson` … `part-05.ndjson` (see `provinces-gis.ndjson.manifest`). Import each part with a separate `_bulk` call.
 
 Delete an index:
 ```bash
@@ -356,6 +361,204 @@ When context triggers an Elasticsearch query:
 7. Use `_source` filtering in search requests to return only needed fields
 8. Fall back to `python3 -m json.tool` if `jq` is not installed on the system
 9. If Elasticsearch returns an error (non-2xx status code), explain the issue clearly and suggest a fix
+10. If the SSH tunnel fails to connect, report the error and suggest: verifying the bastion is online, checking SSH key permissions (`chmod 600 ~/.ssh/id_ed25519`), or running `ssh -v thanglequoc@machine.thanglequoc.xyz` to debug
+
+---
+
+## MongoDB Query Skill
+
+**CRITICAL: Proactively query MongoDB whenever the task involves searching provinces/wards data, collection management, data imports, or GIS spatial queries. Do NOT wait for explicit command invocation — the triggers below signal when to auto-query.**
+
+### Auto-Trigger Rules
+
+Execute MongoDB queries automatically when user asks about any of these:
+
+| Category | Trigger Keywords |
+|----------|-----------------|
+| Search/find | "search", "find", "lookup in mongo", "query mongo", "findOne", "aggregate" |
+| Count/total | "how many in mongo", "mongo count", "count documents", "count collections" |
+| Management | "import mongo", "mongoimport", "create index", "drop collection", "show collections", "create collection" |
+| Data topics | "mongo provinces", "provinces-gis", "wards-gis", "mongodb", "mongo document" |
+| GIS queries | "geoIntersects", "near", "nearSphere", "geoWithin", "2dsphere", "point in mongo", "coordinates in mongo" |
+| Direct requests | "query mongodb", "run mongo query", "check mongo", "get from mongo" |
+
+**Examples:**
+- "How many documents are in the provinces-gis collection?" → Run `db.getCollection('provinces-gis').countDocuments()` immediately
+- "Find which province contains coordinates 105.85, 21.03" → Run `$geoIntersects` query on provinces-gis
+- "Show me all collections in MongoDB" → Run `show collections`
+- "Import the provinces NDJSON" → Run `mongoimport` command
+- "Count wards in province 01" → Run `db.getCollection('wards-gis').countDocuments({ProvinceCode: "01"})`
+
+### Connection & Tunnel Management
+
+MongoDB runs in Docker on the OVHCloud VPS and is accessible via SSH tunnel:
+
+```bash
+# Check if MongoDB is reachable through the tunnel
+echo 'db.version()' | mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin&directConnection=true" --quiet 2>/dev/null || echo "unreachable"
+
+# Start the SSH tunnel if unreachable
+ssh -f -N -L 27017:localhost:27017 -i ~/.ssh/id_ed25519 thanglequoc@machine.thanglequoc.xyz
+```
+
+| Detail | Value |
+|--------|-------|
+| Connection String | `mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin&directConnection=true` |
+| Container | `mongodb` (on VPS, managed by `docker compose -f /home/thanglequoc/docker/database/vietnamese-provinces-docker-compose.yaml`) |
+| Authentication | Root user (username: `root`, password: `Q35iSs8h5Y47VMcxZ5UC`) |
+| SSH Host | `machine.thanglequoc.xyz` |
+| SSH Port | `22` |
+| SSH User | `thanglequoc` |
+| SSH Key | `~/.ssh/id_ed25519` |
+| Default Database | `vn_provinces` |
+| MongoDB Tools Path | `/Users/thanglequoc/projects/dev-tools/mongodb-database-tools-macos-arm64-100.17.0/bin` (includes `mongoimport`, `mongorestore`, `mongodump`, etc.) |
+| JSON Formatter | `EJSON.stringify()` or `tojson()` for single documents; pipe through `jq` where applicable |
+
+### Collection Reference
+
+| Collection | Documents | Description |
+|------------|-----------|-------------|
+| `provinces` | 34 | Standard province documents with embedded wards, administrative units, and search keywords (no GIS geometry) |
+| `provinces-gis` | 34 | Province documents with province-level GIS: Center (GeoJSON Point), BoundingBox, Geometry (GeoJSON MultiPolygon), Properties — no embedded wards |
+| `wards-gis` | 3,321 | Standalone ward documents with ward-level GIS: Center (GeoJSON Point), BoundingBox, Geometry (GeoJSON Polygon), Properties — includes `ProvinceCode` for cross-collection joins |
+
+**Standard index names** (using dots for nested fields, hyphen for collection name separator):
+- `provinces-gis`: `Code_1` (unique), `GIS.Geometry_2dsphere`, `GIS.Center_2dsphere`, `SearchKeywords_1`
+- `wards-gis`: `Code_1` (unique), `ProvinceCode_1`, `GIS.Geometry_2dsphere`, `GIS.Center_2dsphere`, `SearchKeywords_1`
+
+### Data Import Workflow
+
+MongoDB datasets are generated by `go run main.go` and output to `dataset-generation-scripts/output/mongodb/` (GIS files under `output/mongodb/gis/`). Import them to the VPS MongoDB instance:
+
+```bash
+# 1. Ensure SSH tunnel is active
+ssh -f -N -L 27017:localhost:27017 -i ~/.ssh/id_ed25519 thanglequoc@machine.thanglequoc.xyz
+
+# 2. Import province GIS data (single file)
+mongoimport --uri="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --db vn_provinces --collection provinces-gis \
+  --file dataset-generation-scripts/output/mongodb/gis/mongo_data_vn_province_gis.json \
+  --jsonArray --drop
+
+# 3. Import ward GIS data (may be chunked into parts)
+# Single file:
+mongoimport --uri="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --db vn_provinces --collection wards-gis \
+  --file dataset-generation-scripts/output/mongodb/gis/mongo_data_vn_ward_gis.json \
+  --jsonArray --drop
+
+# Chunked files (if ward data exceeds 50MB per file):
+mongoimport --uri="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --db vn_provinces --collection wards-gis \
+  --file dataset-generation-scripts/output/mongodb/gis/mongo_data_vn_ward_gis_part_01.json \
+  --jsonArray
+# Repeat for part_02, part_03, etc. (omit --drop after the first import)
+
+# 4. Create indexes (or run the create_indexes.js script)
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --file dataset-generation-scripts/output/mongodb/gis/create_indexes.js
+```
+
+### Common Query Patterns
+
+All queries use `mongosh` through the SSH tunnel. Pipe through `--eval` for one-liners:
+
+**Via tunnel (primary method — local mongosh required):**
+```bash
+# Count documents
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollection('provinces-gis').countDocuments()"
+
+# Find one province by code
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); EJSON.stringify(db.getCollection('provinces-gis').findOne({Code: '01'}))"
+```
+
+**Via docker exec on VPS (fallback — no SSH tunnel needed):**
+```bash
+ssh -i ~/.ssh/id_ed25519 thanglequoc@machine.thanglequoc.xyz \
+  "docker exec mongodb mongosh -u root -p 'Q35iSs8h5Y47VMcxZ5UC' --quiet --eval \"use('vn_provinces'); db.getCollection('provinces-gis').countDocuments()\""
+```
+
+**Count documents:**
+```bash
+# Via tunnel
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollection('provinces-gis').countDocuments()"
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollection('wards-gis').countDocuments()"
+```
+
+**Search by keyword (autocomplete):**
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); EJSON.stringify(db.getCollection('provinces-gis').find({SearchKeywords: 'ha noi'}, {Code: 1, Name: 1, NameEn: 1}).toArray())"
+```
+
+**All provinces sorted by Code:**
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); EJSON.stringify(db.getCollection('provinces-gis').find({}, {Code: 1, Name: 1, NameEn: 1}).sort({Code: 1}).toArray())"
+```
+
+**GIS spatial query — find province containing a point:**
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); EJSON.stringify(db.getCollection('provinces-gis').find({ 'GIS.Geometry': { \$geoIntersects: { \$geometry: { type: 'Point', coordinates: [105.8542, 21.0285] } } } }, {Code: 1, Name: 1}).toArray())"
+```
+
+**GIS spatial query — find wards within a province:**
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); JSON.stringify(db.getCollection('wards-gis').find({ProvinceCode: '01'}, {Code: 1, Name: 1}).limit(10).toArray())"
+```
+
+**Cross-collection join — province with its wards:**
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); EJSON.stringify(db.getCollection('provinces-gis').aggregate([{ \$match: { Code: '01' } }, { \$lookup: { from: 'wards-gis', localField: 'Code', foreignField: 'ProvinceCode', as: 'Wards' } }, { \$project: { Code: 1, Name: 1, WardsCount: { \$size: '\$Wards' } } }]).toArray())"
+```
+
+**Management:**
+
+List all collections:
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollectionNames()"
+```
+
+List indexes for a collection:
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollection('provinces-gis').getIndexes()"
+```
+
+Drop a collection:
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "use('vn_provinces'); db.getCollection('wards-gis').drop()"
+```
+
+Server version and stats:
+```bash
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "db.version()"
+mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin" \
+  --quiet --eval "db.serverStatus().connections"
+```
+
+### Agent Instructions
+
+When context triggers a MongoDB query:
+1. Check tunnel reachability first: `echo 'db.version()' | mongosh "mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/?authSource=admin&directConnection=true" --quiet 2>/dev/null || echo "unreachable"`
+2. If unreachable, start the tunnel: `ssh -f -N -L 27017:localhost:27017 -i ~/.ssh/id_ed25519 thanglequoc@machine.thanglequoc.xyz`
+3. Prefer tunnel + local `mongosh` for rich output; fall back to `ssh ... docker exec mongodb mongosh` if local `mongosh` is unavailable
+4. Use `--quiet` flag to suppress mongosh startup noise
+5. Use `.countDocuments()` to get document counts — avoid fetching full documents
+6. Use projection (`{Code: 1, Name: 1}`) to return only needed fields
+7. Use `.limit(n)` for large result sets to avoid overwhelming output
+8. Use `EJSON.stringify()` for readable JSON output when returning documents
+9. If MongoDB returns an error, explain the issue clearly and suggest a fix
 10. If the SSH tunnel fails to connect, report the error and suggest: verifying the bastion is online, checking SSH key permissions (`chmod 600 ~/.ssh/id_ed25519`), or running `ssh -v thanglequoc@machine.thanglequoc.xyz` to debug
 
 ---
@@ -391,7 +594,7 @@ vietnamese-provinces-database/
 │   │   │   ├── repository/          # Seed data repository
 │   │   │   └── service/             # DVHCVN SOAP seed dumper, corrector, manual seed dumper
 │   │   ├── dataset_writer/          # Generates SQL/JSON/NoSQL output
-│   │   │   └── dataset_file_writer/ # Per-format file writers (postgres/mysql, mssql, oracle, json, mongodb, redis, geojson)
+│   │   │   └── dataset_file_writer/ # Per-format file writers (postgres/mysql, mssql, oracle, json, mongodb, redis, geojson, elasticsearch)
 │   │   │       ├── dto/             # Output DTOs (geojson, json, mongo)
 │   │   │       └── helper/          # DTO mappers
 │   │   ├── vn_provinces_tmp/        # Core VN provinces data layer (provinces_tmp, wards_tmp tables)
@@ -404,10 +607,9 @@ vietnamese-provinces-database/
 │   │   ├── db_region_administrative_unit.sql  # Region & administrative unit seed data
 │   │   ├── fresh_cleanup.sql         # DB cleanup script (run before each generation)
 │   │   ├── gis/
-│   │   │   ├── geojson_11Mar2026/    # ← GeoJSON geometry (from deprecated API)
+│   │   │   ├── geojson_11Mar2026/    # GeoJSON geometry (An Giang patch source, from deprecated API)
 │   │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
-│   │   │   ├── sapnhap_bando_tables.sql          # GIS table schema
-│   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Geo objects table init
+│   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Creates sapnhap_geojson_objects (the only GIS table)
 │   │   │   └── sapnhapbando_geo_objects.sql       # Geo objects seed data
 │   │   ├── manual_seeds/             # Manual fallback seed data (provinces_seed.sql + wards/)
 │   │   └── rules/                    # Vietnamese text convention rules
@@ -463,17 +665,19 @@ vietnamese-provinces-database/
 
 ### Important Relationships
 
-Current generation flow:
-- **Administrative source of truth**: `main.go` defaults to `USE_DIRECT_DVHCVN_SOURCE = true`, so the dumper normally ingests administrative-unit data from the direct DVHCVN source before writing exports.
-- **Fallback/manual path**: Manual seed data lives under `dataset-generation-scripts/resources/manual_seeds/` and is used only when the direct source path is disabled.
-- **GIS enrichment**: GIS metadata and geometries are joined after the main administrative dump succeeds.
+Current generation flow (exact order in `main.go`):
+1. `BootstrapTemporaryDatasetStructure()` — drops all tables (`fresh_cleanup.sql`), creates core tables, seeds regions/units
+2. `BeginDumpingDataWithDvhcvnDirectSource()` — DVHCVN SOAP dump into `provinces_tmp`/`wards_tmp` (the only ingestion path; no fallback flag)
+3. `ReadAndGenerateSQLDatasets()` — non-GIS exports (SQL/JSON/MongoDB/Redis/Elasticsearch)
+4. If `INCLUDE_GIS`: `BootstrapGISDataStructure()` → `BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()` (name-based match) → `FetchGISDataFromSapNhapBando()` (live WKT fetch) → `PatchIslandProvincesGeometry()` → `ValidateAndFixGeometries()` → `GenerateGISSQLDatasets()`
+- `resources/manual_seeds/` still exists but is **not wired into the Go code** — the direct DVHCVN source is the only dumper.
 
 Geographic data migration context (March 2026):
 - **Before**: GIS metadata fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)
 - **After (March 2026)**: GIS metadata and geometry load from local files:
   - `./resources/gis/geojson_11Mar2026/*.geojson`
 - **After (July 2026)**: `bando_gisserver/` local JSON files removed (dead code cleanup). Live GIS uses HTTP API (`pread_json`, `p.co_dvhc_id`) + An Giang manual patch.
-- **Key IDs**: `mahc` (province)→`sapnhap_province_matinh` (GIS), `maxa` (ward)→`sapnhap_ward_maxa` (GIS)
+- **Backfill**: `vn_ds_province_code`/`vn_ds_ward_code` are matched by name against `provinces_tmp`/`wards_tmp`; provinces are `magoc IS NULL`, wards have a non-null `magoc` (self-ref to parent).
 - **Status**: All 3,355 records verified with 100% GIS ID match rate
 
 ---
@@ -523,7 +727,7 @@ Output locations:
 Typical contents in `dataset-generation-scripts/output/` include:
 - timestamped import/export artifacts such as `postgresql_mysql_generated_ImportData_vn_units_*.sql`
 - JSON, MongoDB, and Redis exports in format-specific subdirectories
-- GIS import scripts in `output/gis/`
+- GIS import scripts under `output/postgresql/gis/`
 
 ---
 
@@ -538,11 +742,11 @@ Typical contents in `dataset-generation-scripts/output/` include:
 The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
 
 1. **Service setup**: Spins up `postgis/postgis:15-3.3` as a service container on port `15432`
-2. **Schema initialization**: Runs SQL scripts in order:
+2. **Schema initialization**: Runs SQL scripts in order (each suffixed with `|| true`, so failures are silently tolerated):
    - `resources/db_table_init.sql` — core tables
    - `resources/db_region_administrative_unit.sql` — region/unit seed data
-   - `resources/gis/sapnhap_bando_tables.sql` — GIS tables
    - `resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql` — geo objects table
+   - ⚠️ The workflow also runs `resources/gis/sapnhap_bando_tables.sql`, which **no longer exists** — a no-op because of `|| true`.
 3. **Environment variables** (required for tests):
    - `POSTGRES_DB_HOST=localhost`, `POSTGRES_DB_PORT=15432`
    - `POSTGRES_DB_USERNAME=postgres`, `POSTGRES_DB_PSWD=root`

@@ -170,4 +170,15 @@ func GenerateGISSQLDatasets() {
 		fmt.Println("✅ Elasticsearch GIS Dataset successfully generated")
 	}
 
+	// MongoDB GIS
+	mongoDBGISFileWriter := datasetfilewriter.MongoDBDatasetFileWriter{
+		OutputFolderPath: "./output/mongodb/gis",
+	}
+	err = mongoDBGISFileWriter.WriteMongoGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
+	if err != nil {
+		log.Fatal("Unable to generate MongoDB GIS Dataset", err)
+	} else {
+		fmt.Println("✅ MongoDB GIS Dataset successfully generated")
+	}
+
 }
