@@ -53,7 +53,7 @@ git commit -m "refactor: output MongoDB GIS files under output/mongodb/gis"
 ### Task 2: Update the MongoDB import/verify script
 
 **Files:**
-- Modify: `dataset-generation-scripts/import_and_verify_mongodb.sh`
+- Modify: `dataset-generation-scripts/integration-test/import_and_verify_mongodb.sh`
 
 The script globs `$DATA_DIR/output/mongodb` for both non-GIS and GIS files. Add a `GIS_DATA_DIR` and point GIS-only lookups there.
 
@@ -81,13 +81,13 @@ Non-GIS lookups (lines 80-83, 89-91) keep `$DATA_DIR`.
 
 - [ ] **Step 2: Syntax-check the script**
 
-Run: `bash -n dataset-generation-scripts/import_and_verify_mongodb.sh`
+Run: `bash -n dataset-generation-scripts/integration-test/import_and_verify_mongodb.sh`
 Expected: no output (exit 0).
 
 - [ ] **Step 3: Commit**
 
 ```bash
-git add dataset-generation-scripts/import_and_verify_mongodb.sh
+git add dataset-generation-scripts/integration-test/import_and_verify_mongodb.sh
 git commit -m "refactor: import MongoDB GIS files from output/mongodb/gis"
 ```
 
@@ -142,5 +142,5 @@ Expected: `gis/` holds all 4 GIS artifact types; root holds only the 3 non-GIS f
 ---
 
 ## Self-review notes
-- All references to `output/mongodb` were located (grep above): `dataset_writer.go:86` (keep), `dataset_writer.go:175` (change), `import_and_verify_mongodb.sh:12` (keep base, add `gis`), `AGENTS.md:431/440/447/453/459` (update). No other code/doc references exist; `CLAUDE.md`, `docs/gis/`, and CI workflows are unaffected.
+- All references to `output/mongodb` were located (grep above): `dataset_writer.go:86` (keep), `dataset_writer.go:175` (change), `integration-test/import_and_verify_mongodb.sh:12` (keep base, add `gis`), `AGENTS.md:431/440/447/453/459` (update). No other code/doc references exist; `CLAUDE.md`, `docs/gis/`, and CI workflows are unaffected.
 - Writer unit tests need no changes — behavior is driven entirely by `OutputFolderPath`.

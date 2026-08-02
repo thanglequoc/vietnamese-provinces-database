@@ -4,7 +4,7 @@ set -euo pipefail
 # ────────────────────────────────────────────────────────────────────
 # MongoDB Import & Verification Script
 # Imports all 5 collections and runs 17 verification queries.
-# Usage: ./import_and_verify_mongodb.sh
+# Usage: ./integration-test/import_and_verify_mongodb.sh
 # Must be run from: dataset-generation-scripts/
 # ────────────────────────────────────────────────────────────────────
 
