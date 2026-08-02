@@ -33,6 +33,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 |Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|Thêm GIS dataset cho ElasticSearch, MongoDB|---|---|v4.2.0|
 |Thêm định dạng GIS GeoJSON, vá tên tiếng Anh, vá dữ liệu GIS của tỉnh Đà Nẵng và Khánh Hòa|---|---|v4.1.0|
 |Thêm dữ liệu GIS|---|---|v4.0.0|
 |[30/2026/QH16][decree 30/2026/QH16], [237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
@@ -244,6 +245,8 @@ Phần mở rộng GIS cung cấp dữ liệu hình học ranh giới hành chí
 - PostgreSQL/PostGIS
 - MySQL
 - Microsoft SQL Server
+- ElasticSearch
+- MongoDB
 
 Xem thêm: [Bộ dữ liệu GIS](./docs/gis/gis_readme_vi.md)
 

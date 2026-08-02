@@ -34,6 +34,7 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
+|Add GIS dataset for ElasticSearch, MongoDB|---|---|v4.2.0|
 |Add GeoJSON GIS, patch name, patch GIS province data of Da Nang and Khanh Hoa|---|---|v4.1.0|
 |Add GIS dataset|---|---|v4.0.0|
 |[30/2026/QH16][decree 30/2026/QH16], [237/NQ-UBTVQH16][decree 237/NQ-UBTVQH16]|14/04/2026|30/04/2026|v3.1.0|
@@ -248,6 +249,8 @@ The GIS add-on provides administrative boundary geometries for Vietnamese admini
 - PostgreSQL/PostGIS  
 - MySQL  
 - Microsoft SQL Server  
+- ElasticSearch
+- MongoDB
 
 See [GIS Dataset](./docs/gis/gis_readme.md)
 

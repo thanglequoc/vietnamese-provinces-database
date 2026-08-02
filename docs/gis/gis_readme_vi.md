@@ -6,6 +6,8 @@
 |PostgreSQL/PostGIS|[Tải về file SQL GIS Dataset cho PostgreSQL][gis_dataset_postgresql_bucket_url]|~152.07 MB|
 |MySQL|[Tải về file SQL GIS Dataset cho MySQL][gis_dataset_mysql_bucket_url]|~150.44 MB|
 |Microsoft SQL Server|[Tải về file SQL GIS Dataset cho SQL Server][gis_dataset_sqlserver_bucket_url]|~152.13 MB|
+|Elasticsearch| Truy cập dữ liệu GIS trong thư mục `elasticsearch/` của repository này | - |
+|MongoDB| Truy cập dữ liệu GIS trong thư mục `mongodb/gis/` của repository này | - |
 
 ## Mục lục
 
@@ -93,6 +95,8 @@ Các đơn vị hành chính trong bộ dữ liệu GIS được đồng bộ v�
 Điều này cho phép kết hợp (join) dữ liệu ranh giới GIS với thông tin đơn vị hành chính, tên gọi và quan hệ phân cấp một cách liền mạch.
 [![image.png](https://i.postimg.cc/zBJQwyY1/image.png)](https://postimg.cc/nsPTpcLd)
 
+> **Lưu ý:** Đối với các nền tảng dựa trên document (Elasticsearch, MongoDB), dữ liệu GIS tương tự được phân phối dưới dạng document index/collection thay vì bảng SQL. Xem mục [Elasticsearch](#elasticsearch) và [MongoDB](#mongodb).
+
 ---
 
 ## Xuất GeoJSON
@@ -143,7 +147,7 @@ Mở [https://geojson.io](https://geojson.io) và tải bất kỳ file `.geojso
 
 ## Cài đặt
 
-Bộ dữ liệu GIS yêu cầu các tập lệnh SQL khởi tạo (bootstrap scripts) để tạo bảng và các tập lệnh nhập dữ liệu (import scripts) để nạp dữ liệu ranh giới. Các tập lệnh hiện được cung cấp cho PostgreSQL, MySQL và SQL Server.
+Bộ dữ liệu GIS yêu cầu các tập lệnh SQL khởi tạo (bootstrap scripts) để tạo bảng và các tập lệnh nhập dữ liệu (import scripts) để nạp dữ liệu ranh giới. Các tập lệnh hiện được cung cấp cho PostgreSQL, MySQL và SQL Server. Các định dạng dựa trên document (Elasticsearch và MongoDB) cũng được trình bày trong mục này.
 
 ### PostgreSQL + PostGIS
 
@@ -261,6 +265,36 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 ---
 
+### Elasticsearch
+
+Dữ liệu GIS được cung cấp dưới dạng document Elasticsearch trong thư mục `elasticsearch/` của repository này. Hai index được cung cấp:
+
+| Index | Số document | Mô tả |
+|-------|-------------|-------|
+| `provinces` | 34 | Metadata cấp tỉnh/thành phố kèm phường nhúng và từ khóa tìm kiếm (không có hình học GIS) |
+| `provinces-gis` | 34 | Cấu trúc giống `provinces` nhưng bổ sung đối tượng `GIS` ở cả cấp tỉnh và cấp phường (Center, BoundingBox, Geometry, Properties) |
+
+Trong index `provinces-gis`, mỗi document tỉnh/thành phố và phường nhúng mang một đối tượng `GIS` gồm `Center` (`geo_point`), `BoundingBox`, `Geometry` (`geo_shape`) và `Properties` (bao gồm `GisServerId` và `AreaKm2`).
+
+Để biết cách tạo index, nhập dữ liệu và các ví dụ truy vấn, xem [README Elasticsearch](../../elasticsearch/README.md).
+
+---
+
+### MongoDB
+
+Dữ liệu GIS được cung cấp dưới dạng document MongoDB trong thư mục `mongodb/gis/` của repository này. Hai collection được cung cấp:
+
+| Collection | Số document | Mô tả |
+|------------|-------------|-------|
+| `provinces-gis` | 34 | Document cấp tỉnh/thành phố có hình học GIS (Center, BoundingBox, Geometry, Properties) |
+| `wards-gis` | 3.321 | Document cấp phường độc lập có hình học GIS kèm trường `ProvinceCode` để join giữa các collection |
+
+Mỗi document mang một đối tượng `GIS` gồm `Center` (GeoJSON `Point`), `BoundingBox`, `Geometry` (GeoJSON `MultiPolygon`/`Polygon`) và `Properties` (bao gồm `GisServerId` và `AreaKm2`).
+
+Để biết cách nhập dữ liệu, tạo index và các ví dụ truy vấn, xem [README MongoDB GIS](../../mongodb/gis/README.md).
+
+---
+
 ## Lược đồ cơ sở dữ liệu
 
 ### gis_provinces
@@ -338,6 +372,8 @@ Bộ dữ liệu GIS đã được kiểm thử và hỗ trợ trên các nền 
 | **MySQL** | 8.0+ | ✓ Hỗ trợ đầy đủ | Hỗ trợ cả MariaDB 10.4+ |
 | **MariaDB** | 10.4+ | ✓ Hỗ trợ đầy đủ | Chức năng tương đương MySQL 8.0 |
 | **SQL Server** | 2019+ | ✓ Hỗ trợ đầy đủ | Tích hợp sẵn kiểu dữ liệu không gian |
+| **Elasticsearch** | 7.x / 8.x | ✓ Hỗ trợ đầy đủ | Sử dụng `geo_shape` cho ranh giới và `geo_point` cho tâm |
+| **MongoDB** | 4.0+ | ✓ Hỗ trợ đầy đủ | Sử dụng hình học GeoJSON với index `2dsphere` |
 | **WGS 84 (SRID 4326)** | ISO 19115 | ✓ Tiêu chuẩn | Được hỗ trợ trên tất cả nền tảng |
 
 ### Yêu cầu tối thiểu
@@ -346,6 +382,8 @@ Bộ dữ liệu GIS đã được kiểm thử và hỗ trợ trên các nền 
 - **PostGIS:** 3.0 (phát hành năm 2019)
 - **MySQL:** 8.0 (phát hành năm 2018)
 - **SQL Server:** 2019 (phát hành năm 2019)
+- **Elasticsearch:** 7.x (phát hành năm 2019)
+- **MongoDB:** 4.0 (phát hành năm 2019)
 
 ### Phiên bản khuyến nghị để đạt hiệu năng tối ưu
 
@@ -353,6 +391,8 @@ Bộ dữ liệu GIS đã được kiểm thử và hỗ trợ trên các nền 
 - **PostGIS:** 3.3+ (cải thiện hiệu năng)
 - **MySQL:** 8.0.30+ (các bản phát hành mới nhất của nhánh 8.0)
 - **SQL Server:** 2022 (phiên bản mới nhất)
+- **Elasticsearch:** 8.x (phiên bản chính mới nhất)
+- **MongoDB:** 6.0+ (phiên bản chính mới nhất)
 
 ---
 
@@ -434,6 +474,10 @@ Sao chép kết quả GeoJSON và dán vào https://geojson.io/ để xem trực
 - [Kiểu dữ liệu không gian trong MySQL](https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html)
 - [Các hàm không gian trong MySQL](https://dev.mysql.com/doc/refman/8.4/en/spatial-analysis-functions.html)
 - [Dữ liệu không gian trong SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-sql-server)
+- [Truy vấn không gian trong Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-queries.html)
+- [Mapping geo_shape trong Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-shape.html)
+- [Truy vấn không gian trong MongoDB](https://www.mongodb.com/docs/manual/geospatial-queries/)
+- [Index 2dsphere trong MongoDB](https://www.mongodb.com/docs/manual/core/2dsphere/)
 - [Khái niệm và tiêu chuẩn GIS](https://en.wikipedia.org/wiki/Geographic_information_system)
 - [Hệ quy chiếu WGS 84](https://epsg.io/4326)
 
@@ -443,7 +487,7 @@ Sao chép kết quả GeoJSON và dán vào https://geojson.io/ để xem trực
 
 Nếu bạn phát hiện lỗi trong bộ dữ liệu GIS hoặc có đề xuất cải tiến, vui lòng tạo một issue trong repository của dự án nha.
 
-**Cập nhật gần nhất:** June 20, 2026
+**Cập nhật gần nhất:** August 2, 2026
 
 [gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/postgresql_ImportData_gis_2026-06-20__12_32_01.sql
 [gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mysql_ImportData_gis_2026-06-20__12_32_01.sql
