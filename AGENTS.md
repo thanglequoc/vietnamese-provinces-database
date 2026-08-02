@@ -1,6 +1,6 @@
 # AI Agent Instructions — Vietnamese Provinces Database
 
-A comprehensive database of Vietnamese administrative units (34 provinces, districts, wards) maintained through automated Go scripts that generate SQL, JSON, and GIS data for multiple database engines.
+A comprehensive database of Vietnamese administrative units (34 provinces, 3,321 wards) maintained through automated Go scripts that generate SQL, JSON, and GIS data for multiple database engines.
 
 ---
 
@@ -24,6 +24,10 @@ go test -v ./...
 ```
 
 **Testing note**: Some tests connect to the temporary Postgres/PostGIS database on `localhost:15432`. If Docker is not running, `go test -v ./...` will fail in integration-style packages.
+
+**Gotchas**:
+- GIS generation is gated by `const INCLUDE_GIS = true` in `main.go`. Turn it off to skip all GIS fetch/patch/validate steps.
+- `go run main.go` tees all stdout+stderr to `output/generation-log.txt` — check that file if console output seems truncated.
 
 ## Database Query Skill
 
@@ -85,7 +89,7 @@ EOF
 
 **`wards_tmp`**: `code` (PK), `name`, `name_en`, `full_name`, `province_code` (FK → `provinces_tmp.code`), `administrative_unit_id`
 
-**`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`)
+**`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`). `bbox` and `geom` are `GENERATED ALWAYS` stored PostGIS columns derived from the WKT columns.
 
 ### Common Query Patterns
 
@@ -328,6 +332,7 @@ curl -X POST "localhost:9200/_bulk" \
   -H 'Content-Type: application/x-ndjson' \
   --data-binary @elasticsearch/provinces.ndjson
 ```
+> Note: the `provinces-gis` index data is chunked — `elasticsearch/provinces-gis-part-01.ndjson` … `part-05.ndjson` (see `provinces-gis.ndjson.manifest`). Import each part with a separate `_bulk` call.
 
 Delete an index:
 ```bash
@@ -589,7 +594,7 @@ vietnamese-provinces-database/
 │   │   │   ├── repository/          # Seed data repository
 │   │   │   └── service/             # DVHCVN SOAP seed dumper, corrector, manual seed dumper
 │   │   ├── dataset_writer/          # Generates SQL/JSON/NoSQL output
-│   │   │   └── dataset_file_writer/ # Per-format file writers (postgres/mysql, mssql, oracle, json, mongodb, redis, geojson)
+│   │   │   └── dataset_file_writer/ # Per-format file writers (postgres/mysql, mssql, oracle, json, mongodb, redis, geojson, elasticsearch)
 │   │   │       ├── dto/             # Output DTOs (geojson, json, mongo)
 │   │   │       └── helper/          # DTO mappers
 │   │   ├── vn_provinces_tmp/        # Core VN provinces data layer (provinces_tmp, wards_tmp tables)
@@ -602,10 +607,9 @@ vietnamese-provinces-database/
 │   │   ├── db_region_administrative_unit.sql  # Region & administrative unit seed data
 │   │   ├── fresh_cleanup.sql         # DB cleanup script (run before each generation)
 │   │   ├── gis/
-│   │   │   ├── geojson_11Mar2026/    # ← GeoJSON geometry (from deprecated API)
+│   │   │   ├── geojson_11Mar2026/    # GeoJSON geometry (An Giang patch source, from deprecated API)
 │   │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
-│   │   │   ├── sapnhap_bando_tables.sql          # GIS table schema
-│   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Geo objects table init
+│   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Creates sapnhap_geojson_objects (the only GIS table)
 │   │   │   └── sapnhapbando_geo_objects.sql       # Geo objects seed data
 │   │   ├── manual_seeds/             # Manual fallback seed data (provinces_seed.sql + wards/)
 │   │   └── rules/                    # Vietnamese text convention rules
@@ -661,17 +665,19 @@ vietnamese-provinces-database/
 
 ### Important Relationships
 
-Current generation flow:
-- **Administrative source of truth**: `main.go` defaults to `USE_DIRECT_DVHCVN_SOURCE = true`, so the dumper normally ingests administrative-unit data from the direct DVHCVN source before writing exports.
-- **Fallback/manual path**: Manual seed data lives under `dataset-generation-scripts/resources/manual_seeds/` and is used only when the direct source path is disabled.
-- **GIS enrichment**: GIS metadata and geometries are joined after the main administrative dump succeeds.
+Current generation flow (exact order in `main.go`):
+1. `BootstrapTemporaryDatasetStructure()` — drops all tables (`fresh_cleanup.sql`), creates core tables, seeds regions/units
+2. `BeginDumpingDataWithDvhcvnDirectSource()` — DVHCVN SOAP dump into `provinces_tmp`/`wards_tmp` (the only ingestion path; no fallback flag)
+3. `ReadAndGenerateSQLDatasets()` — non-GIS exports (SQL/JSON/MongoDB/Redis/Elasticsearch)
+4. If `INCLUDE_GIS`: `BootstrapGISDataStructure()` → `BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()` (name-based match) → `FetchGISDataFromSapNhapBando()` (live WKT fetch) → `PatchIslandProvincesGeometry()` → `ValidateAndFixGeometries()` → `GenerateGISSQLDatasets()`
+- `resources/manual_seeds/` still exists but is **not wired into the Go code** — the direct DVHCVN source is the only dumper.
 
 Geographic data migration context (March 2026):
 - **Before**: GIS metadata fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)
 - **After (March 2026)**: GIS metadata and geometry load from local files:
   - `./resources/gis/geojson_11Mar2026/*.geojson`
 - **After (July 2026)**: `bando_gisserver/` local JSON files removed (dead code cleanup). Live GIS uses HTTP API (`pread_json`, `p.co_dvhc_id`) + An Giang manual patch.
-- **Key IDs**: `mahc` (province)→`sapnhap_province_matinh` (GIS), `maxa` (ward)→`sapnhap_ward_maxa` (GIS)
+- **Backfill**: `vn_ds_province_code`/`vn_ds_ward_code` are matched by name against `provinces_tmp`/`wards_tmp`; provinces are `magoc IS NULL`, wards have a non-null `magoc` (self-ref to parent).
 - **Status**: All 3,355 records verified with 100% GIS ID match rate
 
 ---
@@ -721,7 +727,7 @@ Output locations:
 Typical contents in `dataset-generation-scripts/output/` include:
 - timestamped import/export artifacts such as `postgresql_mysql_generated_ImportData_vn_units_*.sql`
 - JSON, MongoDB, and Redis exports in format-specific subdirectories
-- GIS import scripts in `output/gis/`
+- GIS import scripts under `output/postgresql/gis/`
 
 ---
 
@@ -736,11 +742,11 @@ Typical contents in `dataset-generation-scripts/output/` include:
 The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
 
 1. **Service setup**: Spins up `postgis/postgis:15-3.3` as a service container on port `15432`
-2. **Schema initialization**: Runs SQL scripts in order:
+2. **Schema initialization**: Runs SQL scripts in order (each suffixed with `|| true`, so failures are silently tolerated):
    - `resources/db_table_init.sql` — core tables
    - `resources/db_region_administrative_unit.sql` — region/unit seed data
-   - `resources/gis/sapnhap_bando_tables.sql` — GIS tables
    - `resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql` — geo objects table
+   - ⚠️ The workflow also runs `resources/gis/sapnhap_bando_tables.sql`, which **no longer exists** — a no-op because of `|| true`.
 3. **Environment variables** (required for tests):
    - `POSTGRES_DB_HOST=localhost`, `POSTGRES_DB_PORT=15432`
    - `POSTGRES_DB_USERNAME=postgres`, `POSTGRES_DB_PSWD=root`
