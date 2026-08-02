@@ -172,7 +172,7 @@ func GenerateGISSQLDatasets() {
 
 	// MongoDB GIS
 	mongoDBGISFileWriter := datasetfilewriter.MongoDBDatasetFileWriter{
-		OutputFolderPath: "./output/mongodb",
+		OutputFolderPath: "./output/mongodb/gis",
 	}
 	err = mongoDBGISFileWriter.WriteMongoGISDataToFile(sapNhapGeoProvinces, sapNhapGeoWards)
 	if err != nil {
