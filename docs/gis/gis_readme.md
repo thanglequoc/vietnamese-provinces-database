@@ -7,6 +7,8 @@
 |MySQL|[Download raw GIS Dataset for MySQL][gis_dataset_mysql_bucket_url]|~150.44 MB|
 |Microsoft SQL Server|[Download raw GIS Dataset for SQL Server][gis_dataset_sqlserver_bucket_url]|~152.13 MB|
 |GeoJSON| Access the geojson data in the `json/geojson/` folder of this repository | - |
+|Elasticsearch| Access the GIS data in the `elasticsearch/` folder of this repository | - |
+|MongoDB| Access the GIS data in the `mongodb/gis/` folder of this repository | - |
 
 ## Table of Contents
 
@@ -95,6 +97,8 @@ Administrative units in the GIS dataset are synchronized with the main Vietnames
 This allows seamless joining of GIS boundaries with administrative unit metadata, names, and hierarchical relationships.  
 [![image.png](https://i.postimg.cc/zBJQwyY1/image.png)](https://postimg.cc/nsPTpcLd)
 
+> **Note:** For document-based platforms (Elasticsearch, MongoDB), the same GIS data is distributed as index/collection documents rather than SQL tables. See the [Elasticsearch](#elasticsearch) and [MongoDB](#mongodb) sections.
+
 ---
 
 ## GeoJSON
@@ -145,7 +149,7 @@ Open [https://geojson.io](https://geojson.io) and load any `.geojson` file from 
 
 ## Installation
 
-The GIS dataset requires bootstrap SQL scripts to create tables, and import scripts to load boundary data. Scripts are available for PostgreSQL, MySQL, and SQL Server.
+The GIS dataset requires bootstrap SQL scripts to create tables, and import scripts to load boundary data. Scripts are available for PostgreSQL, MySQL, and SQL Server. The document-based formats (Elasticsearch and MongoDB) are also covered in this section.
 
 ### PostgreSQL + PostGIS
 
@@ -260,6 +264,36 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 ---
 
+### Elasticsearch
+
+GIS data is available as Elasticsearch documents in the `elasticsearch/` folder of this repository. Two indices are provided:
+
+| Index | Documents | Description |
+|-------|-----------|-------------|
+| `provinces` | 34 | Provincial metadata with embedded wards and search keywords (no GIS geometry) |
+| `provinces-gis` | 34 | Same structure as `provinces` plus a `GIS` object at both the province and ward level (Center, BoundingBox, Geometry, Properties) |
+
+In the `provinces-gis` index, each province and embedded ward document carries a `GIS` object with `Center` (`geo_point`), `BoundingBox`, `Geometry` (`geo_shape`), and `Properties` (including `GisServerId` and `AreaKm2`).
+
+For index creation, data import, and query examples, see the [Elasticsearch README](../../elasticsearch/README.md).
+
+---
+
+### MongoDB
+
+GIS data is available as MongoDB documents in the `mongodb/gis/` folder of this repository. Two collections are provided:
+
+| Collection | Documents | Description |
+|------------|-----------|-------------|
+| `provinces-gis` | 34 | Province documents with GIS geometry (Center, BoundingBox, Geometry, Properties) |
+| `wards-gis` | 3,321 | Standalone ward documents with GIS geometry plus a `ProvinceCode` reference for cross-collection joins |
+
+Each document carries a `GIS` object with `Center` (GeoJSON `Point`), `BoundingBox`, `Geometry` (GeoJSON `MultiPolygon`/`Polygon`), and `Properties` (including `GisServerId` and `AreaKm2`).
+
+For data import, index creation, and query examples, see the [MongoDB GIS README](../../mongodb/gis/README.md).
+
+---
+
 ## Database Schema
 
 ### gis_provinces
@@ -328,6 +362,8 @@ The GIS dataset is tested and supported on the following platform versions:
 | **MySQL** | 8.0+ | ✓ Fully Supported | MariaDB 10.4+ also supported |
 | **MariaDB** | 10.4+ | ✓ Fully Supported | Equivalent functionality to MySQL 8.0 |
 | **SQL Server** | 2019+ | ✓ Fully Supported | Includes built-in spatial type support |
+| **Elasticsearch** | 7.x / 8.x | ✓ Fully Supported | Uses `geo_shape` for boundaries and `geo_point` for centers |
+| **MongoDB** | 4.0+ | ✓ Fully Supported | Uses GeoJSON geometry with `2dsphere` indexes |
 | **WGS 84 (SRID 4326)** | ISO 19115 | ✓ Standard | All platforms support this projection |
 
 ### Minimum Requirements
@@ -336,6 +372,8 @@ The GIS dataset is tested and supported on the following platform versions:
 - **PostGIS:** 3.0 (released 2019)
 - **MySQL:** 8.0 (released 2018)
 - **SQL Server:** 2019 (released 2019)
+- **Elasticsearch:** 7.x (released 2019)
+- **MongoDB:** 4.0 (released 2019)
 
 ### Recommended Versions for Optimal Performance
 
@@ -343,6 +381,8 @@ The GIS dataset is tested and supported on the following platform versions:
 - **PostGIS:** 3.3+ (performance improvements)
 - **MySQL:** 8.0.30+ (latest 8.0 release)
 - **SQL Server:** 2022 (latest version)
+- **Elasticsearch:** 8.x (latest major version)
+- **MongoDB:** 6.0+ (latest major version)
 
 ---
 
@@ -437,6 +477,10 @@ For most users of this project, [DBeaver](https://dbeaver.io/) is the recommende
 - [MySQL Spatial Data Types](https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html)
 - [MySQL Spatial Analysis Functions](https://dev.mysql.com/doc/refman/8.4/en/spatial-analysis-functions.html)
 - [SQL Server Spatial Data](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-sql-server)
+- [Elasticsearch Geo Queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-queries.html)
+- [Elasticsearch geo_shape Mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-shape.html)
+- [MongoDB Geospatial Queries](https://www.mongodb.com/docs/manual/geospatial-queries/)
+- [MongoDB 2dsphere Indexes](https://www.mongodb.com/docs/manual/core/2dsphere/)
 - [GIS Concepts & Standards](https://en.wikipedia.org/wiki/Geographic_information_system)
 - [WGS 84 Reference System](https://epsg.io/4326)
 
@@ -448,7 +492,7 @@ If you find issues with the GIS dataset or have suggestions for improvements, pl
 
 ---
 
-**Last Updated:** June 20, 2026
+**Last Updated:** August 2, 2026
 
 [gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/postgresql_ImportData_gis_2026-07-12__19_50_50.sql
 [gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mysql_ImportData_gis_2026-07-12__19_50_50.sql
