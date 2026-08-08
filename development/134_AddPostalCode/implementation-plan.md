@@ -112,6 +112,9 @@ def parse_province_prefixes(lines, code_by_norm):
     result = []
     in_summary = False
     for line in lines:
+        if line.strip().startswith("## "):
+            in_summary = False
+            continue
         c = cells(line)
         if any("Tên tỉnh" in x for x in c):
             in_summary = True
