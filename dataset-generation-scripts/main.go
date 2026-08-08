@@ -8,6 +8,7 @@ import (
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	dataset_writer "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer"
 	dumper "github.com/thanglequoc-vn-provinces/v2/internal/dumper"
+	postal_code "github.com/thanglequoc-vn-provinces/v2/internal/postal_code"
 	sapnhap "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando"
 )
 
@@ -39,6 +40,7 @@ func main() {
 	db.BootstrapTemporaryDatasetStructure()
 
 	dumper.BeginDumpingDataWithDvhcvnDirectSource()
+	postal_code.ImportPostalCodes()
 	dataset_writer.ReadAndGenerateSQLDatasets()
 
 	if INCLUDE_GIS {
