@@ -11,6 +11,7 @@ type ElasticsearchProvinceDocument struct {
 	FullName           string                          `json:"FullName"`
 	FullNameEn         string                          `json:"FullNameEn"`
 	CodeName           string                          `json:"CodeName"`
+	PostalCodePrefix   string                          `json:"PostalCodePrefix"`
 	AdministrativeUnit ElasticsearchAdministrativeUnit `json:"AdministrativeUnit"`
 	SearchKeywords     []string                        `json:"SearchKeywords"`
 	Wards              []ElasticsearchWardDocument     `json:"Wards"`
@@ -26,6 +27,7 @@ type ElasticsearchWardDocument struct {
 	FullName           string                          `json:"FullName"`
 	FullNameEn         string                          `json:"FullNameEn"`
 	CodeName           string                          `json:"CodeName"`
+	PostalCode         string                          `json:"PostalCode"`
 	AdministrativeUnit ElasticsearchAdministrativeUnit `json:"AdministrativeUnit"`
 	SearchKeywords     []string                        `json:"SearchKeywords"`
 	GIS                *ElasticsearchGIS               `json:"GIS,omitempty"`
@@ -67,14 +69,16 @@ type ElasticsearchBoundingBox struct {
 // ElasticsearchGISProperties holds administrative metadata inside the GIS object
 // for the provinces-gis index.
 type ElasticsearchGISProperties struct {
-	Code        string  `json:"Code"`
-	Name        string  `json:"Name"`
-	NameEn      string  `json:"NameEn"`
-	FullName    string  `json:"FullName"`
-	FullNameEn  string  `json:"FullNameEn"`
-	CodeName    string  `json:"CodeName"`
-	GisServerId string  `json:"GisServerId"`
-	AreaKm2     float64 `json:"AreaKm2"`
+	Code             string  `json:"Code"`
+	Name             string  `json:"Name"`
+	NameEn           string  `json:"NameEn"`
+	FullName         string  `json:"FullName"`
+	FullNameEn       string  `json:"FullNameEn"`
+	CodeName         string  `json:"CodeName"`
+	PostalCode       string  `json:"PostalCode"`
+	PostalCodePrefix string  `json:"PostalCodePrefix"`
+	GisServerId      string  `json:"GisServerId"`
+	AreaKm2          float64 `json:"AreaKm2"`
 }
 
 // ElasticsearchMeta holds dataset version metadata.

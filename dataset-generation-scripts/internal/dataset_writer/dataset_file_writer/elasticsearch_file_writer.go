@@ -120,14 +120,15 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 
 		// Add province GIS with Properties
 		provinceProps := &dataset_file_writer_dto.ElasticsearchGISProperties{
-			Code:        province.Code,
-			Name:        province.Name,
-			NameEn:      province.NameEn,
-			FullName:    province.FullName,
-			FullNameEn:  province.FullNameEn,
-			CodeName:    province.CodeName,
-			GisServerId: geoProvince.MaLK,
-			AreaKm2:     geoProvince.DienTichKM2,
+			Code:             province.Code,
+			Name:             province.Name,
+			NameEn:           province.NameEn,
+			FullName:         province.FullName,
+			FullNameEn:       province.FullNameEn,
+			CodeName:         province.CodeName,
+			PostalCodePrefix: province.PostalCodePrefix,
+			GisServerId:      geoProvince.MaLK,
+			AreaKm2:          geoProvince.DienTichKM2,
 		}
 		if gis, err := sapnhapGeoUnitToESGIS(*geoProvince, provinceProps); err == nil {
 			doc.GIS = gis
@@ -148,14 +149,15 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 				SearchKeywords:     file_writer_helper.GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
 			}
 			wardProps := &dataset_file_writer_dto.ElasticsearchGISProperties{
-				Code:        ward.Code,
-				Name:        ward.Name,
-				NameEn:      ward.NameEn,
-				FullName:    ward.FullName,
-				FullNameEn:  ward.FullNameEn,
-				CodeName:    ward.CodeName,
-				GisServerId: geoWard.MaLK,
-				AreaKm2:     geoWard.DienTichKM2,
+				Code:             ward.Code,
+				Name:             ward.Name,
+				NameEn:           ward.NameEn,
+				FullName:         ward.FullName,
+				FullNameEn:       ward.FullNameEn,
+				CodeName:         ward.CodeName,
+				PostalCode:       ward.PostalCode,
+				GisServerId:      geoWard.MaLK,
+				AreaKm2:          geoWard.DienTichKM2,
 			}
 			if gis, err := sapnhapGeoUnitToESGIS(*geoWard, wardProps); err == nil {
 				wardDoc.GIS = gis
@@ -470,9 +472,10 @@ func writeProvincesMapping(path string) error {
 		"mappings": map[string]interface{}{
 			"dynamic": "strict",
 			"properties": map[string]interface{}{
-				"Code":           map[string]string{"type": "keyword"},
-				"CodeName":       map[string]string{"type": "keyword"},
-				"SearchKeywords": map[string]string{"type": "keyword"},
+				"Code":             map[string]string{"type": "keyword"},
+				"CodeName":         map[string]string{"type": "keyword"},
+				"PostalCodePrefix": map[string]string{"type": "keyword"},
+				"SearchKeywords":   map[string]string{"type": "keyword"},
 				"Name": map[string]interface{}{
 					"type":   "text",
 					"fields": map[string]interface{}{"keyword": map[string]string{"type": "keyword"}},
@@ -500,6 +503,7 @@ func writeProvincesMapping(path string) error {
 					"properties": map[string]interface{}{
 						"Code":           map[string]string{"type": "keyword"},
 						"CodeName":       map[string]string{"type": "keyword"},
+						"PostalCode":     map[string]string{"type": "keyword"},
 						"SearchKeywords": map[string]string{"type": "keyword"},
 						"Name": map[string]interface{}{
 							"type":   "text",
@@ -545,9 +549,10 @@ func writeProvincesGISMapping(path string) error {
 		"mappings": map[string]interface{}{
 			"dynamic": "strict",
 			"properties": map[string]interface{}{
-				"Code":           map[string]string{"type": "keyword"},
-				"CodeName":       map[string]string{"type": "keyword"},
-				"SearchKeywords": map[string]string{"type": "keyword"},
+				"Code":             map[string]string{"type": "keyword"},
+				"CodeName":         map[string]string{"type": "keyword"},
+				"PostalCodePrefix": map[string]string{"type": "keyword"},
+				"SearchKeywords":   map[string]string{"type": "keyword"},
 				"Name": map[string]interface{}{
 					"type":   "text",
 					"fields": map[string]interface{}{"keyword": map[string]string{"type": "keyword"}},
@@ -584,19 +589,21 @@ func writeProvincesGISMapping(path string) error {
 							},
 						},
 						"Geometry": map[string]string{"type": "geo_shape"},
-						"Properties": map[string]interface{}{
-							"type": "object",
-							"properties": map[string]interface{}{
-								"Code":        map[string]string{"type": "keyword"},
-								"Name":        map[string]string{"type": "keyword"},
-								"NameEn":      map[string]string{"type": "keyword"},
-								"FullName":    map[string]string{"type": "keyword"},
-								"FullNameEn":  map[string]string{"type": "keyword"},
-								"CodeName":    map[string]string{"type": "keyword"},
-								"GisServerId": map[string]string{"type": "keyword"},
-								"AreaKm2":     map[string]string{"type": "float"},
-							},
+					"Properties": map[string]interface{}{
+						"type": "object",
+						"properties": map[string]interface{}{
+							"Code":             map[string]string{"type": "keyword"},
+							"Name":             map[string]string{"type": "keyword"},
+							"NameEn":           map[string]string{"type": "keyword"},
+							"FullName":         map[string]string{"type": "keyword"},
+							"FullNameEn":       map[string]string{"type": "keyword"},
+							"CodeName":         map[string]string{"type": "keyword"},
+							"PostalCode":       map[string]string{"type": "keyword"},
+							"PostalCodePrefix": map[string]string{"type": "keyword"},
+							"GisServerId":      map[string]string{"type": "keyword"},
+							"AreaKm2":          map[string]string{"type": "float"},
 						},
+					},
 					},
 				},
 				"Wards": map[string]interface{}{
@@ -604,6 +611,7 @@ func writeProvincesGISMapping(path string) error {
 					"properties": map[string]interface{}{
 						"Code":           map[string]string{"type": "keyword"},
 						"CodeName":       map[string]string{"type": "keyword"},
+						"PostalCode":     map[string]string{"type": "keyword"},
 						"SearchKeywords": map[string]string{"type": "keyword"},
 						"Name": map[string]interface{}{
 							"type":   "text",
@@ -644,14 +652,16 @@ func writeProvincesGISMapping(path string) error {
 								"Properties": map[string]interface{}{
 									"type": "object",
 									"properties": map[string]interface{}{
-										"Code":        map[string]string{"type": "keyword"},
-										"Name":        map[string]string{"type": "keyword"},
-										"NameEn":      map[string]string{"type": "keyword"},
-										"FullName":    map[string]string{"type": "keyword"},
-										"FullNameEn":  map[string]string{"type": "keyword"},
-										"CodeName":    map[string]string{"type": "keyword"},
-										"GisServerId": map[string]string{"type": "keyword"},
-										"AreaKm2":     map[string]string{"type": "float"},
+										"Code":             map[string]string{"type": "keyword"},
+										"Name":             map[string]string{"type": "keyword"},
+										"NameEn":           map[string]string{"type": "keyword"},
+										"FullName":         map[string]string{"type": "keyword"},
+										"FullNameEn":       map[string]string{"type": "keyword"},
+										"CodeName":         map[string]string{"type": "keyword"},
+										"PostalCode":       map[string]string{"type": "keyword"},
+										"PostalCodePrefix": map[string]string{"type": "keyword"},
+										"GisServerId":      map[string]string{"type": "keyword"},
+										"AreaKm2":          map[string]string{"type": "float"},
 									},
 								},
 							},

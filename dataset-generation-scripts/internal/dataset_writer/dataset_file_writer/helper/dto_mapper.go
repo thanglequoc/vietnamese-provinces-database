@@ -235,6 +235,7 @@ func ConvertToElasticsearchProvinceModel(provinces []model.Province) []dataset_f
 			FullName:           province.FullName,
 			FullNameEn:         province.FullNameEn,
 			CodeName:           province.CodeName,
+			PostalCodePrefix:   province.PostalCodePrefix,
 			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(province.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
 		}
@@ -261,6 +262,7 @@ func convertToElasticsearchWardDocuments(wards []model.Ward) []dataset_file_writ
 			FullName:           ward.FullName,
 			FullNameEn:         ward.FullNameEn,
 			CodeName:           ward.CodeName,
+			PostalCode:         ward.PostalCode,
 			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(ward.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
 		}
