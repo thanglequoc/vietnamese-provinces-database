@@ -128,6 +128,42 @@ func TestJSONDatasetFileWriter_WriteToFile_MultipleProvinces(t *testing.T) {
 	assert.Contains(t, contentStr, "Khánh Hòa")
 }
 
+func TestJSONDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	provinces := []vn_provinces_tmp_model.Province{
+		{
+			Code: "01", Name: "Hà Nội", NameEn: "Ha Noi",
+			FullName: "Thành phố Hà Nội", FullNameEn: "Ha Noi City",
+			CodeName: "ha_noi", AdministrativeUnitId: 1,
+			PostalCodePrefix: "10, 11, 12, 13, 14",
+			Wards: []*vn_provinces_tmp_model.Ward{
+				{
+					Code: "00070", Name: "Hoàn Kiếm", NameEn: "Hoan Kiem",
+					FullName: "Phường Hoàn Kiếm", FullNameEn: "Hoan Kiem Ward",
+					CodeName: "hoan_kiem", ProvinceCode: "01", AdministrativeUnitId: 3,
+					PostalCode: "11024",
+				},
+			},
+		},
+	}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	files, _ := os.ReadDir(tmpDir)
+	var fullContent []byte
+	for _, f := range files {
+		if len(f.Name()) >= 5 && f.Name()[:5] == "full_" {
+			fullContent, _ = os.ReadFile(filepath.Join(tmpDir, f.Name()))
+		}
+	}
+	assert.Contains(t, string(fullContent), "11024")
+	assert.Contains(t, string(fullContent), "10, 11, 12, 13, 14")
+}
+
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	rootDir := t.TempDir()
 	tmpDir := filepath.Join(rootDir, "geojson")
