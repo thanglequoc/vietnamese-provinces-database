@@ -36,14 +36,15 @@ func ConvertToMongoGISProvinceDocuments(
 
 		// Add province GIS
 		provinceProps := &dataset_file_writer_dto.MongoGISProperties{
-			Code:        province.Code,
-			Name:        province.Name,
-			NameEn:      province.NameEn,
-			FullName:    province.FullName,
-			FullNameEn:  province.FullNameEn,
-			CodeName:    province.CodeName,
-			GisServerId: geoProvince.MaLK,
-			AreaKm2:     geoProvince.DienTichKM2,
+			Code:             province.Code,
+			Name:             province.Name,
+			NameEn:           province.NameEn,
+			FullName:         province.FullName,
+			FullNameEn:       province.FullNameEn,
+			CodeName:         province.CodeName,
+			PostalCodePrefix: province.PostalCodePrefix,
+			GisServerId:      geoProvince.MaLK,
+			AreaKm2:          geoProvince.DienTichKM2,
 		}
 		if gis, err := sapnhapGeoUnitToMongoGIS(*geoProvince, provinceProps); err == nil {
 			doc.GIS = gis
@@ -88,6 +89,7 @@ func ConvertToMongoGISWardDocuments(
 			FullName:    ward.FullName,
 			FullNameEn:  ward.FullNameEn,
 			CodeName:    ward.CodeName,
+			PostalCode:  ward.PostalCode,
 			GisServerId: geoWard.MaLK,
 			AreaKm2:     geoWard.DienTichKM2,
 		}

@@ -57,14 +57,16 @@ type MongoBoundingBox struct {
 
 // MongoGISProperties holds administrative metadata inside the GIS object.
 type MongoGISProperties struct {
-	Code        string  `json:"Code"`
-	Name        string  `json:"Name"`
-	NameEn      string  `json:"NameEn"`
-	FullName    string  `json:"FullName"`
-	FullNameEn  string  `json:"FullNameEn"`
-	CodeName    string  `json:"CodeName"`
-	GisServerId string  `json:"GisServerId"`
-	AreaKm2     float64 `json:"AreaKm2"`
+	Code             string  `json:"Code"`
+	Name             string  `json:"Name"`
+	NameEn           string  `json:"NameEn"`
+	FullName         string  `json:"FullName"`
+	FullNameEn       string  `json:"FullNameEn"`
+	CodeName         string  `json:"CodeName"`
+	PostalCode       string  `json:"PostalCode"`
+	PostalCodePrefix string  `json:"PostalCodePrefix"`
+	GisServerId      string  `json:"GisServerId"`
+	AreaKm2          float64 `json:"AreaKm2"`
 }
 
 // MongoAdministrativeUnit is the embedded administrative unit object.

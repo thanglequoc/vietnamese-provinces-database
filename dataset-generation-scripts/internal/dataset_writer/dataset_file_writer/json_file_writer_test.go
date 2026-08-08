@@ -186,6 +186,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 				FullName:   "Thành phố Hà Nội",
 				FullNameEn: "Ha Noi City",
 				CodeName:   "ha_noi",
+				PostalCodePrefix: "10, 11, 12, 13, 14",
 			},
 		},
 	}
@@ -213,6 +214,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 				FullName:   "Phường Ba Đình",
 				FullNameEn: "Ba Dinh Ward",
 				CodeName:   "ba_dinh",
+				PostalCode: "11120",
 			},
 		},
 	}
@@ -243,6 +245,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	assert.Equal(t, "ha_noi", properties["codeName"])
 	assert.Equal(t, "diaphanhanhchinhcaptinh_sn.108", properties["gisServerId"])
 	assert.Equal(t, 3359.84, properties["areaKm2"])
+	assert.Equal(t, "10, 11, 12, 13, 14", properties["postalCodePrefix"])
 
 	wardFile := filepath.Join(tmpDir, "01_ha_noi", "wards", "00004_ba_dinh.geojson")
 	wardContent, err := os.ReadFile(wardFile)
@@ -258,6 +261,9 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	wardFeature := wardFeatures[0].(map[string]any)
 	assert.Equal(t, "00004", wardFeature["id"])
 	assert.Equal(t, wardJSON["bbox"], wardFeature["bbox"])
+
+	wardProperties := wardFeature["properties"].(map[string]any)
+	assert.Equal(t, "11120", wardProperties["postalCode"])
 
 	readmeContent, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
 	require.NoError(t, err)
