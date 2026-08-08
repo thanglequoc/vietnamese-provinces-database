@@ -98,6 +98,7 @@ func ConvertToMongoProvinceModel(provinces []model.Province) []dataset_file_writ
 			FullNameEn:           province.FullNameEn,
 			CodeName:             province.CodeName,
 			AdministrativeUnitId: province.AdministrativeUnitId,
+			PostalCodePrefix:     province.PostalCodePrefix,
 		}
 
 		if len(province.Wards) != 0 {
@@ -188,6 +189,7 @@ func ConvertToMongoWardModel(wards []model.Ward) []dataset_file_writer_dto.Mongo
 			CodeName:             ward.CodeName,
 			ProvinceCode:         ward.ProvinceCode,
 			AdministrativeUnitId: ward.AdministrativeUnitId,
+			PostalCode:           ward.PostalCode,
 		}
 		result = append(result, w)
 	}
