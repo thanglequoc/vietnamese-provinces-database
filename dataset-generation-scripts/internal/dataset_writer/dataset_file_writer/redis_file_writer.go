@@ -10,9 +10,9 @@ import (
 const hsetAdministrativeUnitTemplate string = "HSET administrativeUnit:%d id %d fullName \"%s\" fullNameEn \"%s\" shortName \"%s\" shortNameEn \"%s\" codeName \"%s\"\n"
 const hsetRegionTemplate string = "HSET region:%d name \"%s\" nameEn \"%s\" codeName \"%s\" \n"
 
-const hsetProvinceTemplate string = "HSET province:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" administrativeUnitId %d \n"
+const hsetProvinceTemplate string = "HSET province:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" postalCodePrefix \"%s\" administrativeUnitId %d \n"
 
-const hsetWardTemplate string = "HSET ward:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" administrativeUnitId %d districtCode \"%s\" \n"
+const hsetWardTemplate string = "HSET ward:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" postalCode \"%s\" administrativeUnitId %d districtCode \"%s\" \n"
 const saddProvinceWardTemplate string = "SADD province:%s:wards \"%s\" \n"
 const hsetProvinceWardVnTemplate string = "HSET province:%s:wards:vn \"%s\" \"%s\" \n"
 const hsetProvinceWardEnTemplate string = "HSET province:%s:wards:en \"%s\" \"%s\" \n"
@@ -69,11 +69,11 @@ func generateRegionRecord(r model.AdministrativeRegion) string {
 }
 
 func generateProvinceRecord(p model.Province) string {
-	return fmt.Sprintf(hsetProvinceTemplate, p.Code, p.Code, p.Name, p.NameEn, p.FullName, p.FullNameEn, p.CodeName, p.AdministrativeUnitId)
+	return fmt.Sprintf(hsetProvinceTemplate, p.Code, p.Code, p.Name, p.NameEn, p.FullName, p.FullNameEn, p.CodeName, p.PostalCodePrefix, p.AdministrativeUnitId)
 }
 
 func generateWardRecord(w model.Ward) string {
-	return fmt.Sprintf(hsetWardTemplate, w.Code, w.Code, w.Name, w.NameEn, w.FullName, w.FullNameEn, w.CodeName, w.AdministrativeUnitId, w.ProvinceCode)
+	return fmt.Sprintf(hsetWardTemplate, w.Code, w.Code, w.Name, w.NameEn, w.FullName, w.FullNameEn, w.CodeName, w.PostalCode, w.AdministrativeUnitId, w.ProvinceCode)
 }
 
 func generateProvinceWardRelationship(w model.Ward) string {

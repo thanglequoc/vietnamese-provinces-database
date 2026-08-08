@@ -26,6 +26,7 @@ func TestRedisDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 			FullNameEn:           "Ha Noi City",
 			CodeName:             "ha_noi",
 			AdministrativeUnitId: 1,
+			PostalCodePrefix:     "10, 11, 12, 13, 14",
 		},
 	}
 	
@@ -44,6 +45,7 @@ func TestRedisDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 	assert.Contains(t, contentStr, "code \"01\"")
 	assert.Contains(t, contentStr, "name \"Hà Nội\"")
 	assert.Contains(t, contentStr, "nameEn \"Ha Noi\"")
+	assert.Contains(t, contentStr, `postalCodePrefix "10, 11, 12, 13, 14"`)
 }
 
 func TestRedisDatasetFileWriter_WriteToFile_AdministrativeUnits(t *testing.T) {
@@ -131,6 +133,7 @@ func TestRedisDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 			CodeName:             "bac_son",
 			ProvinceCode:         "01",
 			AdministrativeUnitId: 3,
+			PostalCode:           "11024",
 		},
 	}
 	
@@ -147,6 +150,7 @@ func TestRedisDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 	assert.Contains(t, contentStr, "HSET ward:001")
 	assert.Contains(t, contentStr, "name \"Bắc Sơn\"")
 	assert.Contains(t, contentStr, "districtCode \"01\"")
+	assert.Contains(t, contentStr, `postalCode "11024"`)
 	assert.Contains(t, contentStr, "SADD province:01:wards")
 	assert.Contains(t, contentStr, "HSET province:01:wards:vn")
 	assert.Contains(t, contentStr, "HSET province:01:wards:en")
