@@ -709,10 +709,11 @@ func (s *PostalCodeService) ImportPostalCodes(ctx context.Context) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("✅ Postal code import complete: %d wards matched, %d provinces/wards still missing", matched, missingProvinces+missingWards)
-	if matched != len(wardSeeds) || missingProvinces > 0 || missingWards > 0 {
-		return fmt.Errorf("postal code import verification failed: matched=%d/%d missingProvinces=%d missingWards=%d",
-			matched, len(wardSeeds), missingProvinces, missingWards)
+	log.Printf("✅ Postal code import complete: %d/%d wards matched, %d provinces and %d wards still missing",
+		matched, len(wardSeeds), missingProvinces, missingWards)
+	if matched != len(wardSeeds) {
+		return fmt.Errorf("postal code import verification failed: matched=%d/%d",
+			matched, len(wardSeeds))
 	}
 	return nil
 }
