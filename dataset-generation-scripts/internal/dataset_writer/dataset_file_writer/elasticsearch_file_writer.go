@@ -109,6 +109,7 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 			FullName:           province.FullName,
 			FullNameEn:         province.FullNameEn,
 			CodeName:           province.CodeName,
+			PostalCodePrefix:   province.PostalCodePrefix,
 			AdministrativeUnit: convertProvinceToESAdminUnit(province.AdministrativeUnit),
 			SearchKeywords:     file_writer_helper.GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
 			Meta: &dataset_file_writer_dto.ElasticsearchMeta{
@@ -145,6 +146,7 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 				FullName:           ward.FullName,
 				FullNameEn:         ward.FullNameEn,
 				CodeName:           ward.CodeName,
+				PostalCode:         ward.PostalCode,
 				AdministrativeUnit: convertWardToESAdminUnit(ward.AdministrativeUnit),
 				SearchKeywords:     file_writer_helper.GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
 			}

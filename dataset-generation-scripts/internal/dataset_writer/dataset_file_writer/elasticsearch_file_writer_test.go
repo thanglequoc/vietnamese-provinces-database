@@ -149,6 +149,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 				Code: "01", Name: "Hà Nội", NameEn: "Hanoi",
 				FullName: "Thành phố Hà Nội", FullNameEn: "Hanoi City",
 				CodeName: "ha_noi",
+				PostalCodePrefix: "10, 11, 12, 13, 14",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 1, FullName: "Thành phố", FullNameEn: "City",
 					ShortName: "TP.", ShortNameEn: "City",
@@ -167,6 +168,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 				Code: "00001", Name: "Ba Đình", NameEn: "Ba Dinh",
 				FullName: "Phường Ba Đình", FullNameEn: "Ba Dinh Ward",
 				CodeName: "ba_dinh",
+				PostalCode: "11024",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 3, FullName: "Phường", FullNameEn: "Ward",
 					ShortName: "P.", ShortNameEn: "Ward",
@@ -215,6 +217,12 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	if len(doc.Wards) != 1 {
 		t.Errorf("expected 1 ward, got %d", len(doc.Wards))
 	}
+	if doc.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected province PostalCodePrefix '10, 11, 12, 13, 14', got %q", doc.PostalCodePrefix)
+	}
+	if doc.Wards[0].PostalCode != "11024" {
+		t.Errorf("expected ward PostalCode '11024', got %q", doc.Wards[0].PostalCode)
+	}
 	if doc.Wards[0].GIS == nil {
 		t.Error("expected ward GIS field to be populated")
 	}
@@ -235,6 +243,9 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	if doc.GIS.Properties.AreaKm2 != 3359.84 {
 		t.Errorf("expected Properties.AreaKm2 3359.84, got %f", doc.GIS.Properties.AreaKm2)
 	}
+	if doc.GIS.Properties.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected Properties.PostalCodePrefix '10, 11, 12, 13, 14', got %q", doc.GIS.Properties.PostalCodePrefix)
+	}
 
 	// Verify ward GIS Properties
 	if doc.Wards[0].GIS.Properties == nil {
@@ -251,6 +262,9 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	}
 	if doc.Wards[0].GIS.Properties.AreaKm2 != 5.23 {
 		t.Errorf("expected ward Properties.AreaKm2 5.23, got %f", doc.Wards[0].GIS.Properties.AreaKm2)
+	}
+	if doc.Wards[0].GIS.Properties.PostalCode != "11024" {
+		t.Errorf("expected ward Properties.PostalCode '11024', got %q", doc.Wards[0].GIS.Properties.PostalCode)
 	}
 
 	// Verify mappings/provinces-gis.json
