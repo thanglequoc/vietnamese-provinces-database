@@ -599,13 +599,23 @@ func NewPostalCodeService(
 	}
 }
 
-// normalizeName produces a stable match key mirroring the Python validation
-// script (tone-stripped, lowercased, no spaces/apostrophes/hyphens).
-func normalizeName(s string) string {
+// normalizeExact produces a tone-preserving NFC key: lowercased, NFC-normalized,
+// with curly apostrophes folded to ASCII and whitespace collapsed.
+func normalizeExact(s string) string {
 	s = strings.ToLower(strings.TrimSpace(s))
-	s = viet.NormalizeToneMarks(s)
-	s = viet.RemoveVietToneMark(s)
 	s = strings.ReplaceAll(s, "’", "'")
+	s = strings.ReplaceAll(s, "‘", "'")
+	s = viet.NormalizeToneMarks(s)
+	return strings.Join(strings.Fields(s), " ")
+}
+
+// normalizeStripped removes tone marks entirely and collapses whitespace,
+// apostrophes, and hyphens. This mirrors how the DB stores `name_en`, and is
+// used as a fallback when the tone-preserving exact match fails (e.g. the
+// source decree writes "Hòa" while the DB normalizes to "Hoà").
+func normalizeStripped(s string) string {
+	s = normalizeExact(s)
+	s = viet.RemoveVietToneMark(s)
 	s = strings.ReplaceAll(s, "'", "")
 	s = strings.ReplaceAll(s, "-", "")
 	return strings.Join(strings.Fields(s), "")
@@ -656,38 +666,69 @@ func (s *PostalCodeService) ImportPostalCodes(ctx context.Context) error {
 	}
 
 	provinces := s.vnProvinceTmpRepo.GetAllProvinces()
-	provinceCodeByName := make(map[string]string, len(provinces))
-	for _, p := range provinces {
-		provinceCodeByName[normalizeName(p.Name)] = p.Code
-	}
 
 	// Validate that every seed province_code exists in provinces_tmp.
+	validProvinceCodes := make(map[string]bool, len(provinces))
+	for _, p := range provinces {
+		validProvinceCodes[p.Code] = true
+	}
 	for _, seed := range wardSeeds {
-		found := false
-		for _, code := range provinceCodeByName {
-			if code == seed.ProvinceCode {
-				found = true
-				break
-			}
-		}
-		if !found {
+		if !validProvinceCodes[seed.ProvinceCode] {
 			return fmt.Errorf("seed province_code %q not found in provinces_tmp", seed.ProvinceCode)
 		}
 	}
 
 	wards := s.vnProvinceTmpRepo.GetAllWards()
-	wardKeyToCode := make(map[string]string, len(wards))
+
+	// Tier 1: exact tone-preserving match, scoped by province code.
+	exactKeyToCode := make(map[string]string, len(wards))
+	// Tier 2: tone-stripped match against name_en, scoped by province code.
+	// Multiple wards in the same province may share a stripped key only if they
+	// differ by tone mark (e.g. "Văn Lang" vs "Văn Lăng"); for those we require
+	// the parent province to be identical before disambiguating by exact name.
+	strippedKeyToCodes := make(map[string][]string, len(wards))
+	provinceOfWard := make(map[string]string, len(wards))
 	for _, w := range wards {
-		key := normalizeName(w.ProvinceCode) + "|" + normalizeName(w.Name)
-		wardKeyToCode[key] = w.Code
+		exactKey := w.ProvinceCode + "|" + normalizeExact(w.Name)
+		if _, exists := exactKeyToCode[exactKey]; !exists {
+			exactKeyToCode[exactKey] = w.Code
+		}
+		strippedKey := w.ProvinceCode + "|" + normalizeStripped(w.NameEn)
+		strippedKeyToCodes[strippedKey] = append(strippedKeyToCodes[strippedKey], w.Code)
+		provinceOfWard[w.Code] = w.ProvinceCode
 	}
 
 	matched := 0
 	var unmatched []wardPostalCodeSeed
 	for _, seed := range wardSeeds {
-		key := normalizeName(seed.ProvinceCode) + "|" + normalizeName(seed.Name)
-		code, ok := wardKeyToCode[key]
-		if !ok {
+		code := ""
+		// Tier 1: exact name match within the seed's province.
+		exactKey := seed.ProvinceCode + "|" + normalizeExact(seed.Name)
+		if c, ok := exactKeyToCode[exactKey]; ok {
+			code = c
+		} else {
+			// Tier 2: tone-stripped match against name_en. Only accept when the
+			// parent province is identical and the match is unambiguous.
+			strippedKey := seed.ProvinceCode + "|" + normalizeStripped(seed.Name)
+			candidates := strippedKeyToCodes[strippedKey]
+			if len(candidates) == 1 {
+				code = candidates[0]
+			} else if len(candidates) > 1 {
+				// Disambiguate by exact name among the candidates that share the
+				// same parent province.
+				for _, cand := range candidates {
+					if provinceOfWard[cand] != seed.ProvinceCode {
+						continue
+					}
+					candExactKey := seed.ProvinceCode + "|" + normalizeExact(seed.Name)
+					if c2, ok := exactKeyToCode[candExactKey]; ok && c2 == cand {
+						code = cand
+						break
+					}
+				}
+			}
+		}
+		if code == "" {
 			unmatched = append(unmatched, seed)
 			continue
 		}
