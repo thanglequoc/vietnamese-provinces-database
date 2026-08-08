@@ -39,8 +39,8 @@ Create `development/134_AddPostalCode/generate_postal_seeds.py`:
 """Generate postal code seed JSON files from postal_codes.md and db_wards.tsv.
 
 Outputs:
-  ../dataset-generation-scripts/resources/postal/province_postal_code_prefixes.json
-  ../dataset-generation-scripts/resources/postal/ward_postal_codes.json
+  ../../dataset-generation-scripts/resources/postal/province_postal_code_prefixes.json
+  ../../dataset-generation-scripts/resources/postal/ward_postal_codes.json
 
 The province summary table gives 2-digit prefix strings per province. The per-
 province tables give 5-digit postal codes per ward. Province codes are resolved
@@ -53,7 +53,7 @@ import unicodedata
 
 POSTAL_MD = "postal_codes.md"
 DB_TSV = "db_wards.tsv"
-OUT_DIR = "../dataset-generation-scripts/resources/postal"
+OUT_DIR = "../../dataset-generation-scripts/resources/postal"
 
 
 def strip_tone(s):
@@ -197,8 +197,8 @@ Expected: prints `province prefixes: 34` and `ward postal codes: 3321`.
 - [ ] **Step 3: Sanity-check the generated files**
 
 ```bash
-head -5 ../dataset-generation-scripts/resources/postal/province_postal_code_prefixes.json
-head -5 ../dataset-generation-scripts/resources/postal/ward_postal_codes.json
+head -5 ../../dataset-generation-scripts/resources/postal/province_postal_code_prefixes.json
+head -5 ../../dataset-generation-scripts/resources/postal/ward_postal_codes.json
 ```
 
 Verify `province_postal_code_prefixes.json` first entry is `{"code": "91", "postal_code_prefix": "90, 91, 92"}` (An Giang) and `ward_postal_codes.json` contains `{"province_code": "01", "name": "Hoàn Kiếm", "postal_code": "11024"}`.
