@@ -12,7 +12,7 @@ import (
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
-const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s',%d)"
+const insertProvinceOracleTemplate string = "\tINTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('%s','%s','%s','%s','%s','%s',%d,%s)"
 
 type OracleDatasetFileWriter struct {
 	OutputFilePath string
@@ -70,7 +70,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertProvinceOracleTemplate, p.Code, escapeSingleQuote(p.Name), escapeSingleQuote(p.NameEn), escapeSingleQuote(p.FullName),
-				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId))
+				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId, nullableSQLString(p.PostalCodePrefix)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
@@ -87,7 +87,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	dataWriter.WriteString("-- ----------------------------------\n\n")
 
 	// ward insert statement
-	const insertWardOracleTemplate string = "\tINTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES('%s','%s','%s','%s','%s','%s','%s',%d)"
+	const insertWardOracleTemplate string = "\tINTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('%s','%s','%s','%s','%s','%s','%s',%d,%s)"
 
 	dataWriter.WriteString("-- DATA for wards --\n")
 	counter = 0
@@ -98,7 +98,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertWardOracleTemplate, d.Code, escapeSingleQuote(d.Name), escapeSingleQuote(d.NameEn), escapeSingleQuote(d.FullName),
-				escapeSingleQuote(d.FullNameEn), d.CodeName, d.ProvinceCode, d.AdministrativeUnitId))
+				escapeSingleQuote(d.FullNameEn), d.CodeName, d.ProvinceCode, d.AdministrativeUnitId, nullableSQLString(d.PostalCode)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement

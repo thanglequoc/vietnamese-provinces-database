@@ -121,6 +121,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 			FullNameEn:           "Ha Noi City",
 			CodeName:             "ha_noi",
 			AdministrativeUnitId: 1,
+			PostalCodePrefix:     "10, 11, 12, 13, 14",
 		},
 		{
 			Code:                 "02",
@@ -130,6 +131,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 			FullNameEn:           "Hai Phong City",
 			CodeName:             "hai_phong",
 			AdministrativeUnitId: 1,
+			PostalCodePrefix:     "03, 04, 05",
 		},
 	}
 	
@@ -143,9 +145,9 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
-	assert.Contains(t, contentStr, "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id)")
-	assert.Contains(t, contentStr, "('01','Hà Nội','Ha Noi','Thành phố Hà Nội','Ha Noi City','ha_noi',1)")
-	assert.Contains(t, contentStr, "('02','Hải Phòng','Hai Phong','Thành phố Hải Phòng','Hai Phong City','hai_phong',1)")
+	assert.Contains(t, contentStr, "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix)")
+	assert.Contains(t, contentStr, "('01','Hà Nội','Ha Noi','Thành phố Hà Nội','Ha Noi City','ha_noi',1,'10, 11, 12, 13, 14')")
+	assert.Contains(t, contentStr, "('02','Hải Phòng','Hai Phong','Thành phố Hải Phòng','Hai Phong City','hai_phong',1,'03, 04, 05')")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
@@ -166,6 +168,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 			CodeName:             "bac_son",
 			ProvinceCode:         "01",
 			AdministrativeUnitId: 3,
+			PostalCode:           "11024",
 		},
 		{
 			Code:                 "002",
@@ -176,6 +179,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 			CodeName:             "tan_xa",
 			ProvinceCode:         "01",
 			AdministrativeUnitId: 4,
+			PostalCode:           "90456",
 		},
 	}
 	
@@ -189,9 +193,9 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
-	assert.Contains(t, contentStr, "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id)")
-	assert.Contains(t, contentStr, "('001','Bắc Sơn','Bac Son','Phường Bắc Sơn','Bac Son Ward','bac_son','01',3)")
-	assert.Contains(t, contentStr, "('002','Tân Xã','Tan Xa','Xã Tân Xã','Tan Xa Commune','tan_xa','01',4)")
+	assert.Contains(t, contentStr, "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code)")
+	assert.Contains(t, contentStr, "('001','Bắc Sơn','Bac Son','Phường Bắc Sơn','Bac Son Ward','bac_son','01',3,'11024')")
+	assert.Contains(t, contentStr, "('002','Tân Xã','Tan Xa','Xã Tân Xã','Tan Xa Commune','tan_xa','01',4,'90456')")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_EscapeSingleQuote(t *testing.T) {
@@ -225,7 +229,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_EscapeSingleQuote(t *testing
 	
 	contentStr := string(content)
 	// Verify single quotes are properly escaped (double single quotes)
-	assert.Contains(t, contentStr, "('99','Ea H''MLay','Ea H''''MLay','Xã Ea H''MLay','Ea H''MLay Commune','ea_hmlay',4)")
+	assert.Contains(t, contentStr, "('99','Ea H''MLay','Ea H''''MLay','Xã Ea H''MLay','Ea H''MLay Commune','ea_hmlay',4,NULL)")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_BatchInsert(t *testing.T) {

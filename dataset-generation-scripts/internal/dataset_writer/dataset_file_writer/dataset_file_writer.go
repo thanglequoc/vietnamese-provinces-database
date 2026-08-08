@@ -38,6 +38,22 @@ func escapeSingleQuote(source string) string {
 	return strings.ReplaceAll(source, "'", "''")
 }
 
+// nullableSQLString returns 'value' escaped, or NULL when value is empty.
+func nullableSQLString(s string) string {
+	if s == "" {
+		return "NULL"
+	}
+	return "'" + escapeSingleQuote(s) + "'"
+}
+
+// nullableNString returns N'value' escaped, or NULL when value is empty.
+func nullableNString(s string) string {
+	if s == "" {
+		return "NULL"
+	}
+	return "N'" + escapeSingleQuote(s) + "'"
+}
+
 func parseEuropeanFloat(s string) (float64, error) {
 	// Step 1: remove dots (thousands separator)
 	s = strings.ReplaceAll(s, ".", "")

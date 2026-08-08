@@ -25,12 +25,12 @@ const insertAdministrativeRegionTemplate string = "INSERT INTO administrative_re
 const insertAdministrativeUnitTemplate string = "INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(%d,'%s','%s','%s','%s','%s','%s');"
 
 // province insert statement
-const insertProvinceTemplate string = "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id) VALUES"
-const insertProvinceValueTemplate string = "('%s','%s','%s','%s','%s','%s',%d)"
+const insertProvinceTemplate string = "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES"
+const insertProvinceValueTemplate string = "('%s','%s','%s','%s','%s','%s',%d,%s)"
 
 // ward insert statement
-const insertWardTemplate string = "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id) VALUES"
-const insertDistrictWardValueTemplate string = "('%s','%s','%s','%s','%s','%s','%s',%d)"
+const insertWardTemplate string = "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES"
+const insertDistrictWardValueTemplate string = "('%s','%s','%s','%s','%s','%s','%s',%d,%s)"
 
 // GIS section
 const insertProvinceGISTemplate string = "INSERT INTO gis_provinces(province_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,ST_GeomFromText('%s', 4326),ST_GeomFromText('%s', 4326));"
@@ -91,7 +91,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertProvinceValueTemplate, p.Code, escapeSingleQuote(p.Name), escapeSingleQuote(p.NameEn), escapeSingleQuote(p.FullName),
-				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId))
+				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId, nullableSQLString(p.PostalCodePrefix)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
@@ -116,7 +116,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 		}
 		dataWriter.WriteString(
 			fmt.Sprintf(insertDistrictWardValueTemplate, w.Code, escapeSingleQuote(w.Name), escapeSingleQuote(w.NameEn), escapeSingleQuote(w.FullName),
-				escapeSingleQuote(w.FullNameEn), w.CodeName, w.ProvinceCode, w.AdministrativeUnitId))
+				escapeSingleQuote(w.FullNameEn), w.CodeName, w.ProvinceCode, w.AdministrativeUnitId, nullableSQLString(w.PostalCode)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement

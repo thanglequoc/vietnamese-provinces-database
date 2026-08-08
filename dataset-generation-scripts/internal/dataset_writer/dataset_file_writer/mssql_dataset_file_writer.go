@@ -24,8 +24,8 @@ const insertAdministrativeRegionTemplateMsSql string = "INSERT INTO administrati
 const insertAdministrativeUnitMsSqlTemplate string = "INSERT INTO administrative_units(id,full_name,full_name_en,short_name,short_name_en,code_name,code_name_en) VALUES(%d,N'%s',N'%s',N'%s',N'%s',N'%s',N'%s');"
 
 // province insert statement
-const insertProvinceValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s',%d)"
-const insertProvinceWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s','%s',%d)"
+const insertProvinceValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s',%d,%s)"
+const insertProvinceWardValueMsSqlTemplate string = "('%s',N'%s',N'%s',N'%s',N'%s','%s','%s',%d,%s)"
 
 // GIS section
 const insertMssqlGISProvinceTemplate string = "INSERT INTO gis_provinces(province_code, gis_server_id, area_km2, bbox, geom) VALUES ('%s','%s',%f,geometry::STGeomFromText('%s', 4326),geometry::STGeomFromText('%s', 4326));"
@@ -84,7 +84,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 		}
 		dataWriterMsSql.WriteString(
 			fmt.Sprintf(insertProvinceValueMsSqlTemplate, p.Code, escapeSingleQuote(p.Name), escapeSingleQuote(p.NameEn), escapeSingleQuote(p.FullName),
-				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId))
+				escapeSingleQuote(p.FullNameEn), p.CodeName, p.AdministrativeUnitId, nullableNString(p.PostalCodePrefix)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
@@ -108,7 +108,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 		}
 		dataWriterMsSql.WriteString(
 			fmt.Sprintf(insertProvinceWardValueMsSqlTemplate, w.Code, escapeSingleQuote(w.Name), escapeSingleQuote(w.NameEn), escapeSingleQuote(w.FullName),
-				escapeSingleQuote(w.FullNameEn), w.CodeName, w.ProvinceCode, w.AdministrativeUnitId))
+				escapeSingleQuote(w.FullNameEn), w.CodeName, w.ProvinceCode, w.AdministrativeUnitId, nullableNString(w.PostalCode)))
 		counter++
 
 		// the batch insert statement batch reach limit, break and create a new batch insert statement
