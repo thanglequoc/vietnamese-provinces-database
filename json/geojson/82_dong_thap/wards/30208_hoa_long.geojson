@@ -9908,6 +9908,8 @@
         "fullName": "Xã Hoà Long",
         "fullNameEn": "Hoa Long Commune",
         "codeName": "hoa_long",
+        "postalCode": "81763",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.439",
         "areaKm2": 81.3
       }

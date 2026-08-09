@@ -1880,6 +1880,8 @@
         "fullName": "Xã Chí Minh",
         "fullNameEn": "Chi Minh Commune",
         "codeName": "chi_minh",
+        "postalCode": "17826",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.706",
         "areaKm2": 20.73
       }

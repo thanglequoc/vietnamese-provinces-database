@@ -784,6 +784,8 @@
         "fullName": "Phường Châu Đốc",
         "fullNameEn": "Chau Doc Ward",
         "codeName": "chau_doc",
+        "postalCode": "90513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.309",
         "areaKm2": 41.32
       }

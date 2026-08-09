@@ -1792,6 +1792,8 @@
         "fullName": "Xã Chấn Hưng",
         "fullNameEn": "Chan Hung Commune",
         "codeName": "chan_hung",
+        "postalCode": "05230",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.913",
         "areaKm2": 32.11
       }

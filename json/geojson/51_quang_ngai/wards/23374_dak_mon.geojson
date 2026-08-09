@@ -8580,6 +8580,8 @@
         "fullName": "Xã Đăk Môn",
         "fullNameEn": "Dak Mon Commune",
         "codeName": "dak_mon",
+        "postalCode": "60416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.533",
         "areaKm2": 150.8
       }

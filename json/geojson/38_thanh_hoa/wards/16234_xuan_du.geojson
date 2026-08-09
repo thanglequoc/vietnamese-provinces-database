@@ -6576,6 +6576,8 @@
         "fullName": "Xã Xuân Du",
         "fullNameEn": "Xuan Du Commune",
         "codeName": "xuan_du",
+        "postalCode": "42410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2661",
         "areaKm2": 92.49
       }

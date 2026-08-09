@@ -3124,6 +3124,8 @@
         "fullName": "Xã Xuân Hưng",
         "fullNameEn": "Xuan Hung Commune",
         "codeName": "xuan_hung",
+        "postalCode": "07726",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.805",
         "areaKm2": 23.17
       }

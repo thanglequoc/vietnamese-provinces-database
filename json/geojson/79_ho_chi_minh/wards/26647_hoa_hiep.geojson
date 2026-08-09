@@ -14488,6 +14488,8 @@
         "fullName": "Xã Hoà Hiệp",
         "fullNameEn": "Hoa Hiep Commune",
         "codeName": "hoa_hiep",
+        "postalCode": "78512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2215",
         "areaKm2": 99.28
       }

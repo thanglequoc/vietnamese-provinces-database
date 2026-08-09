@@ -6576,6 +6576,8 @@
         "fullName": "Xã Mỹ Thuỷ",
         "fullNameEn": "My Thuy Commune",
         "codeName": "my_thuy",
+        "postalCode": "48926",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.583",
         "areaKm2": 43.82
       }

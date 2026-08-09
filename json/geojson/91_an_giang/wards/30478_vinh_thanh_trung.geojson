@@ -3772,6 +3772,8 @@
         "fullName": "Xã Vĩnh Thạnh Trung",
         "fullNameEn": "Vinh Thanh Trung Commune",
         "codeName": "vinh_thanh_trung",
+        "postalCode": "90607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.329",
         "areaKm2": 64.97
       }

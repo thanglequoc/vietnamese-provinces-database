@@ -4868,6 +4868,8 @@
         "fullName": "Xã Đông Trạch",
         "fullNameEn": "Dong Trach Commune",
         "codeName": "dong_trach",
+        "postalCode": "47236",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.625",
         "areaKm2": 35.72
       }

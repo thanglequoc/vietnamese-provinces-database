@@ -3588,6 +3588,8 @@
         "fullName": "Xã Văn Giang",
         "fullNameEn": "Van Giang Commune",
         "codeName": "van_giang",
+        "postalCode": "17656",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.733",
         "areaKm2": 22.96
       }

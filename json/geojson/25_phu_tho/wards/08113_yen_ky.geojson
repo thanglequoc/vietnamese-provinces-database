@@ -10340,6 +10340,8 @@
         "fullName": "Xã Yên Kỳ",
         "fullNameEn": "Yen Ky Commune",
         "codeName": "yen_ky",
+        "postalCode": "35436",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1545",
         "areaKm2": 53.58
       }

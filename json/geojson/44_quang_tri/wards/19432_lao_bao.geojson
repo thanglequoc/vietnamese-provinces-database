@@ -4032,6 +4032,8 @@
         "fullName": "Xã Lao Bảo",
         "fullNameEn": "Lao Bao Commune",
         "codeName": "lao_bao",
+        "postalCode": "48515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.594",
         "areaKm2": 83.04
       }

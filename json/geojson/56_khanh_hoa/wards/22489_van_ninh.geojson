@@ -15940,6 +15940,8 @@
         "fullName": "Xã Vạn Ninh",
         "fullNameEn": "Van Ninh Commune",
         "codeName": "van_ninh",
+        "postalCode": "57219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1105",
         "areaKm2": 130.5
       }

@@ -2944,6 +2944,8 @@
         "fullName": "Xã Văn Nho",
         "fullNameEn": "Van Nho Commune",
         "codeName": "van_nho",
+        "postalCode": "41428",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2653",
         "areaKm2": 64.77
       }

@@ -1848,6 +1848,8 @@
         "fullName": "Xã Tam Hải",
         "fullNameEn": "Tam Hai Commune",
         "codeName": "tam_hai",
+        "postalCode": "52809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1976",
         "areaKm2": 13.32
       }

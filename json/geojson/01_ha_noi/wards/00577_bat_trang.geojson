@@ -3380,6 +3380,8 @@
         "fullName": "Xã Bát Tràng",
         "fullNameEn": "Bat Trang Commune",
         "codeName": "bat_trang",
+        "postalCode": "12423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3193",
         "areaKm2": 20.67
       }

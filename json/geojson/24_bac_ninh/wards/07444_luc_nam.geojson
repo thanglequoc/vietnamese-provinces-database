@@ -12352,6 +12352,8 @@
         "fullName": "Xã Lục Nam",
         "fullNameEn": "Luc Nam Commune",
         "codeName": "luc_nam",
+        "postalCode": "26333",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2172",
         "areaKm2": 58.91
       }

@@ -2972,6 +2972,8 @@
         "fullName": "Xã Đức Thọ",
         "fullNameEn": "Duc Tho Commune",
         "codeName": "duc_tho",
+        "postalCode": "45706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2049",
         "areaKm2": 48.93
       }

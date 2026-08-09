@@ -2964,6 +2964,8 @@
         "fullName": "Xã Thượng Phúc",
         "fullNameEn": "Thuong Phuc Commune",
         "codeName": "thuong_phuc",
+        "postalCode": "13635",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3162",
         "areaKm2": 28.91
       }

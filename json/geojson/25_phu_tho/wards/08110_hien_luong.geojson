@@ -6772,6 +6772,8 @@
         "fullName": "Xã Hiền Lương",
         "fullNameEn": "Hien Luong Commune",
         "codeName": "hien_luong",
+        "postalCode": "35420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1600",
         "areaKm2": 81.39
       }

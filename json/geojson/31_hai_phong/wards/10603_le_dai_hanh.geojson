@@ -1984,6 +1984,8 @@
         "fullName": "Phường Lê Đại Hành",
         "fullNameEn": "Le Dai Hanh Ward",
         "codeName": "le_dai_hanh",
+        "postalCode": "03531",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.873",
         "areaKm2": 31.62
       }

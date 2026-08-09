@@ -12276,6 +12276,8 @@
         "fullName": "Xã Trung Giã",
         "fullNameEn": "Trung Gia Commune",
         "codeName": "trung_gia",
+        "postalCode": "12210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3255",
         "areaKm2": 77.52
       }

@@ -7144,6 +7144,8 @@
         "fullName": "Xã Quảng Yên",
         "fullNameEn": "Quang Yen Commune",
         "codeName": "quang_yen",
+        "postalCode": "35707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1549",
         "areaKm2": 39.58
       }

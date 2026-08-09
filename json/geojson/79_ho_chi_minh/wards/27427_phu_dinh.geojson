@@ -1400,6 +1400,8 @@
         "fullName": "Phường Phú Định",
         "fullNameEn": "Phu Dinh Ward",
         "codeName": "phu_dinh",
+        "postalCode": "73022",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.103",
         "areaKm2": 5.85
       }

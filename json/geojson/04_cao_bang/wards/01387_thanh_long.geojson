@@ -10844,6 +10844,8 @@
         "fullName": "Xã Thanh Long",
         "fullNameEn": "Thanh Long Commune",
         "codeName": "thanh_long",
+        "postalCode": "21233",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.963",
         "areaKm2": 118.62
       }

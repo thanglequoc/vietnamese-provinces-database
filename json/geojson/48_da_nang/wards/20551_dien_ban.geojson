@@ -4744,6 +4744,8 @@
         "fullName": "Phường Điện Bàn",
         "fullNameEn": "Dien Ban Ward",
         "codeName": "dien_ban",
+        "postalCode": "51426",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1948",
         "areaKm2": 19.78
       }

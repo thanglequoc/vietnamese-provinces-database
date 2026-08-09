@@ -3940,6 +3940,8 @@
         "fullName": "Xã Thăng Trường",
         "fullNameEn": "Thang Truong Commune",
         "codeName": "thang_truong",
+        "postalCode": "51230",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1980",
         "areaKm2": 63.79
       }

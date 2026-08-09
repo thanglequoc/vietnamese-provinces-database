@@ -20048,6 +20048,8 @@
         "fullName": "Xã Hàm Yên",
         "fullNameEn": "Ham Yen Commune",
         "codeName": "ham_yen",
+        "postalCode": "22624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2333",
         "areaKm2": 126.19
       }

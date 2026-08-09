@@ -3336,6 +3336,8 @@
         "fullName": "Xã Tiểu Cần",
         "fullNameEn": "Tieu Can Commune",
         "codeName": "tieu_can",
+        "postalCode": "87406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2495",
         "areaKm2": 49.73
       }

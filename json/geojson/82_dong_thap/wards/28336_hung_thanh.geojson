@@ -4176,6 +4176,8 @@
         "fullName": "Xã Hưng Thạnh",
         "fullNameEn": "Hung Thanh Commune",
         "codeName": "hung_thanh",
+        "postalCode": "84712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.453",
         "areaKm2": 65.2
       }

@@ -13540,6 +13540,8 @@
         "fullName": "Xã Hồ Thị Kỷ",
         "fullNameEn": "Ho Thi Ky Commune",
         "codeName": "ho_thi_ky",
+        "postalCode": "98217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.175",
         "areaKm2": 93.6
       }

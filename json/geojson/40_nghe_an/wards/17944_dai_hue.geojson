@@ -4180,6 +4180,8 @@
         "fullName": "Xã Đại Huệ",
         "fullNameEn": "Dai Hue Commune",
         "codeName": "dai_hue",
+        "postalCode": "44632",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1532",
         "areaKm2": 36.11
       }

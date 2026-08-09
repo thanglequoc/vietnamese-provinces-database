@@ -952,6 +952,8 @@
         "fullName": "Phường Phú Nhuận",
         "fullNameEn": "Phu Nhuan Ward",
         "codeName": "phu_nhuan",
+        "postalCode": "72221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.78",
         "areaKm2": 1.46
       }

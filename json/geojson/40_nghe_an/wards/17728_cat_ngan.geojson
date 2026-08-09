@@ -3272,6 +3272,8 @@
         "fullName": "Xã Cát Ngạn",
         "fullNameEn": "Cat Ngan Commune",
         "codeName": "cat_ngan",
+        "postalCode": "44747",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1426",
         "areaKm2": 59.28
       }

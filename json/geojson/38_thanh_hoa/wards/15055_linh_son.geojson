@@ -5796,6 +5796,8 @@
         "fullName": "Xã Linh Sơn",
         "fullNameEn": "Linh Son Commune",
         "codeName": "linh_son",
+        "postalCode": "41817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2717",
         "areaKm2": 96
       }

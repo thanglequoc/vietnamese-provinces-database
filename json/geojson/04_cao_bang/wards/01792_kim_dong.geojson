@@ -6600,6 +6600,8 @@
         "fullName": "Xã Kim Đồng",
         "fullNameEn": "Kim Dong Commune",
         "codeName": "kim_dong",
+        "postalCode": "21613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.961",
         "areaKm2": 112.06
       }

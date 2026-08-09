@@ -11644,6 +11644,8 @@
         "fullName": "Xã Mường Than",
         "fullNameEn": "Muong Than Commune",
         "codeName": "muong_than",
+        "postalCode": "30818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2096",
         "areaKm2": 154.08
       }

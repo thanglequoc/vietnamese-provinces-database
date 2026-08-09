@@ -1524,6 +1524,8 @@
         "fullName": "Xã Nam Lý",
         "fullNameEn": "Nam Ly Commune",
         "codeName": "nam_ly",
+        "postalCode": "18633",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2764",
         "areaKm2": 28.69
       }

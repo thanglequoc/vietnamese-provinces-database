@@ -6708,6 +6708,8 @@
         "fullName": "Xã Tân Hương",
         "fullNameEn": "Tan Huong Commune",
         "codeName": "tan_huong",
+        "postalCode": "84608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.475",
         "areaKm2": 35.1
       }

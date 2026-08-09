@@ -3516,6 +3516,8 @@
         "fullName": "Xã Hoằng Thanh",
         "fullNameEn": "Hoang Thanh Commune",
         "codeName": "hoang_thanh",
+        "postalCode": "40311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2603",
         "areaKm2": 23.24
       }

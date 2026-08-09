@@ -2440,6 +2440,8 @@
         "fullName": "Xã Vĩnh Phú",
         "fullNameEn": "Vinh Phu Commune",
         "codeName": "vinh_phu",
+        "postalCode": "15631",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1639",
         "areaKm2": 34.6
       }

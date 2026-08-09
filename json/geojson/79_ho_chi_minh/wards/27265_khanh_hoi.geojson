@@ -528,6 +528,8 @@
         "fullName": "Phường Khánh Hội",
         "fullNameEn": "Khanh Hoi Ward",
         "codeName": "khanh_hoi",
+        "postalCode": "72822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.93",
         "areaKm2": 1.07
       }

@@ -6960,6 +6960,8 @@
         "fullName": "Xã Hội Thịnh",
         "fullNameEn": "Hoi Thinh Commune",
         "codeName": "hoi_thinh",
+        "postalCode": "15214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1620",
         "areaKm2": 25.1
       }

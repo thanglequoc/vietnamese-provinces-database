@@ -8796,6 +8796,8 @@
         "fullName": "xã Bắc Sơn",
         "fullNameEn": "Bac Son Commune",
         "codeName": "bac_son",
+        "postalCode": "25456",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1837",
         "areaKm2": 80.46
       }

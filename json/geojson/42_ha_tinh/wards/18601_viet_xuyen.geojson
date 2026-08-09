@@ -5264,6 +5264,8 @@
         "fullName": "Xã Việt Xuyên",
         "fullNameEn": "Viet Xuyen Commune",
         "codeName": "viet_xuyen",
+        "postalCode": "45238",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1998",
         "areaKm2": 32.1
       }

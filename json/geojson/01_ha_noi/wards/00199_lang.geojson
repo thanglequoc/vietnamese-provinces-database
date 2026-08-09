@@ -528,6 +528,8 @@
         "fullName": "Phường Láng",
         "fullNameEn": "Lang Ward",
         "codeName": "lang",
+        "postalCode": "11528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3207",
         "areaKm2": 1.88
       }

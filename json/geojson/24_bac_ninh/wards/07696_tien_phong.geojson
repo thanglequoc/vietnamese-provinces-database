@@ -3536,6 +3536,8 @@
         "fullName": "Phường Tiền Phong",
         "fullNameEn": "Tien Phong Ward",
         "codeName": "tien_phong",
+        "postalCode": "26219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2143",
         "areaKm2": 30.7
       }

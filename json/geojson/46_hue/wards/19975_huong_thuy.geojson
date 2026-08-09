@@ -11284,6 +11284,8 @@
         "fullName": "Phường Hương Thuỷ",
         "fullNameEn": "Huong Thuy Ward",
         "codeName": "huong_thuy",
+        "postalCode": "49620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1707",
         "areaKm2": 33.93
       }

@@ -2404,6 +2404,8 @@
         "fullName": "Phường Hải Bình",
         "fullNameEn": "Hai Binh Ward",
         "codeName": "hai_binh",
+        "postalCode": "42727",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2574",
         "areaKm2": 37.74
       }

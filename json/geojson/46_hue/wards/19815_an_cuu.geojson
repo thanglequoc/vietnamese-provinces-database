@@ -9728,6 +9728,8 @@
         "fullName": "Phường An Cựu",
         "fullNameEn": "An Cuu Ward",
         "codeName": "an_cuu",
+        "postalCode": "49129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1689",
         "areaKm2": 16.71
       }

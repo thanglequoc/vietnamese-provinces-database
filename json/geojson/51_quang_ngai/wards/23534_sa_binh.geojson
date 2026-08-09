@@ -11084,6 +11084,8 @@
         "fullName": "Xã Sa Bình",
         "fullNameEn": "Sa Binh Commune",
         "codeName": "sa_binh",
+        "postalCode": "60714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.549",
         "areaKm2": 140.32
       }

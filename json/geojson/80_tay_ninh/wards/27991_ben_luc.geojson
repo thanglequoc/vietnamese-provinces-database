@@ -4232,6 +4232,8 @@
         "fullName": "Xã Bến Lức",
         "fullNameEn": "Ben Luc Commune",
         "codeName": "ben_luc",
+        "postalCode": "82606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1309",
         "areaKm2": 48.75
       }

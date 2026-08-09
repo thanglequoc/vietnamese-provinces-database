@@ -11940,6 +11940,8 @@
         "fullName": "Xã Hướng Phùng",
         "fullNameEn": "Huong Phung Commune",
         "codeName": "huong_phung",
+        "postalCode": "48512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.593",
         "areaKm2": 447.59
       }

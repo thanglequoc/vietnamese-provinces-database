@@ -1852,6 +1852,8 @@
         "fullName": "Xã Nam An Phụ",
         "fullNameEn": "Nam An Phu Commune",
         "codeName": "nam_an_phu",
+        "postalCode": "03437",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.843",
         "areaKm2": 25.9
       }

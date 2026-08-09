@@ -2252,6 +2252,8 @@
         "fullName": "Xã Nam Thái Ninh",
         "fullNameEn": "Nam Thai Ninh Commune",
         "codeName": "nam_thai_ninh",
+        "postalCode": "06464",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.680",
         "areaKm2": 26.4
       }

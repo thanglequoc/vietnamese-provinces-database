@@ -9584,6 +9584,8 @@
         "fullName": "Xã Bình Lư",
         "fullNameEn": "Binh Lu Commune",
         "codeName": "binh_lu",
+        "postalCode": "30207",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2064",
         "areaKm2": 173.91
       }

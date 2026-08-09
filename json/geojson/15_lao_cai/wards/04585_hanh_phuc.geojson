@@ -12584,6 +12584,8 @@
         "fullName": "Xã Hạnh Phúc",
         "fullNameEn": "Hanh Phuc Commune",
         "codeName": "hanh_phuc",
+        "postalCode": "33618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1037",
         "areaKm2": 193.85
       }

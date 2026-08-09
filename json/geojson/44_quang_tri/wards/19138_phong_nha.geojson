@@ -17756,6 +17756,8 @@
         "fullName": "Xã Phong Nha",
         "fullNameEn": "Phong Nha Commune",
         "codeName": "phong_nha",
+        "postalCode": "47232",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.626",
         "areaKm2": 358.1
       }

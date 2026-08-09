@@ -9292,6 +9292,8 @@
         "fullName": "Xã Sà Phìn",
         "fullNameEn": "Sa Phin Commune",
         "codeName": "sa_phin",
+        "postalCode": "20510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2370",
         "areaKm2": 83.5
       }

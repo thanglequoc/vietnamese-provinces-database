@@ -14776,6 +14776,8 @@
         "fullName": "Xã Ba Sơn",
         "fullNameEn": "Ba Son Commune",
         "codeName": "ba_son",
+        "postalCode": "25181",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1797",
         "areaKm2": 154.96
       }

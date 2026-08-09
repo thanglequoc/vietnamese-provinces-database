@@ -6724,6 +6724,8 @@
         "fullName": "Xã Khe Sanh",
         "fullNameEn": "Khe Sanh Commune",
         "codeName": "khe_sanh",
+        "postalCode": "48506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.586",
         "areaKm2": 134.81
       }

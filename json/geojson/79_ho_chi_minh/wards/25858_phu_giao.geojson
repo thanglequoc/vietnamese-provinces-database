@@ -29692,6 +29692,8 @@
         "fullName": "Xã Phú Giáo",
         "fullNameEn": "Phu Giao Commune",
         "codeName": "phu_giao",
+        "postalCode": "75618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.18",
         "areaKm2": 192.83
       }

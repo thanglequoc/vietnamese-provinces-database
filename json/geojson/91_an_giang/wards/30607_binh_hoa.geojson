@@ -6688,6 +6688,8 @@
         "fullName": "Xã Bình Hoà",
         "fullNameEn": "Binh Hoa Commune",
         "codeName": "binh_hoa",
+        "postalCode": "90908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.345",
         "areaKm2": 48.63
       }

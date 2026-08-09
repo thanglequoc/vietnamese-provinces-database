@@ -5152,6 +5152,8 @@
         "fullName": "Phường Đông Mai",
         "fullNameEn": "Dong Mai Ward",
         "codeName": "dong_mai",
+        "postalCode": "02212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1882",
         "areaKm2": 50.61
       }

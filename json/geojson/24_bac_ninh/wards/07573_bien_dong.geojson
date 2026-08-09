@@ -8088,6 +8088,8 @@
         "fullName": "Xã Biển Động",
         "fullNameEn": "Bien Dong Commune",
         "codeName": "bien_dong",
+        "postalCode": "26512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2108",
         "areaKm2": 57.7
       }

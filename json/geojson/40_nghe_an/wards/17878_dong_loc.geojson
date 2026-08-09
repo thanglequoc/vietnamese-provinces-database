@@ -2836,6 +2836,8 @@
         "fullName": "Xã Đông Lộc",
         "fullNameEn": "Dong Loc Commune",
         "codeName": "dong_loc",
+        "postalCode": "43338",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1529",
         "areaKm2": 29.32
       }

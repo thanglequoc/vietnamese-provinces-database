@@ -2532,6 +2532,8 @@
         "fullName": "Xã Phụng Hiệp",
         "fullNameEn": "Phung Hiep Commune",
         "codeName": "phung_hiep",
+        "postalCode": "95507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.247",
         "areaKm2": 66.78
       }

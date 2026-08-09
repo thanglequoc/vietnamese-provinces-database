@@ -4196,6 +4196,8 @@
         "fullName": "Xã Hoà Phú",
         "fullNameEn": "Hoa Phu Commune",
         "codeName": "hoa_phu",
+        "postalCode": "13427",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3216",
         "areaKm2": 29.87
       }

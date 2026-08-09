@@ -12276,6 +12276,8 @@
         "fullName": "Xã Vạn Đức",
         "fullNameEn": "Van Duc Commune",
         "codeName": "van_duc",
+        "postalCode": "55624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2980",
         "areaKm2": 111.88
       }

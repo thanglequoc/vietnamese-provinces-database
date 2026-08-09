@@ -17084,6 +17084,8 @@
         "fullName": "Xã Tây Sơn",
         "fullNameEn": "Tay Son Commune",
         "codeName": "tay_son",
+        "postalCode": "56522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2908",
         "areaKm2": 334.62
       }

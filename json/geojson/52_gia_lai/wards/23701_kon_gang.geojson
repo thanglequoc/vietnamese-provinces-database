@@ -9028,6 +9028,8 @@
         "fullName": "Xã Kon Gang",
         "fullNameEn": "Kon Gang Commune",
         "codeName": "kon_gang",
+        "postalCode": "61210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3054",
         "areaKm2": 145.84
       }

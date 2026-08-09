@@ -3524,6 +3524,8 @@
         "fullName": "Xã Gò Quao",
         "fullNameEn": "Go Quao Commune",
         "codeName": "go_quao",
+        "postalCode": "92206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.384",
         "areaKm2": 83.92
       }

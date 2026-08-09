@@ -6928,6 +6928,8 @@
         "fullName": "Xã Thư Lâm",
         "fullNameEn": "Thu Lam Commune",
         "codeName": "thu_lam",
+        "postalCode": "12330",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3246",
         "areaKm2": 43.84
       }

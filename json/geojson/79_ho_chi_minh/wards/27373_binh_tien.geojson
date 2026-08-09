@@ -560,6 +560,8 @@
         "fullName": "Phường Bình Tiên",
         "fullNameEn": "Binh Tien Ward",
         "codeName": "binh_tien",
+        "postalCode": "73120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.101",
         "areaKm2": 1.61
       }

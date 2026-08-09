@@ -14016,6 +14016,8 @@
         "fullName": "Xã Bố Trạch",
         "fullNameEn": "Bo Trach Commune",
         "codeName": "bo_trach",
+        "postalCode": "47237",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.623",
         "areaKm2": 299.42
       }

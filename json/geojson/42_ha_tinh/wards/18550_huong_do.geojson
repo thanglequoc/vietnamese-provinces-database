@@ -10848,6 +10848,8 @@
         "fullName": "Xã Hương Đô",
         "fullNameEn": "Huong Do Commune",
         "codeName": "huong_do",
+        "postalCode": "46007",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2036",
         "areaKm2": 140.83
       }

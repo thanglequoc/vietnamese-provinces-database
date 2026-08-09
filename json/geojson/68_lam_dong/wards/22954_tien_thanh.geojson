@@ -5472,6 +5472,8 @@
         "fullName": "Phường Tiến Thành",
         "fullNameEn": "Tien Thanh Ward",
         "codeName": "tien_thanh",
+        "postalCode": "77123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3066",
         "areaKm2": 55.06
       }

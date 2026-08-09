@@ -28296,6 +28296,8 @@
         "fullName": "Xã Hoàng Su Phì",
         "fullNameEn": "Hoang Su Phi Commune",
         "codeName": "hoang_su_phi",
+        "postalCode": "20631",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2402",
         "areaKm2": 86.65
       }

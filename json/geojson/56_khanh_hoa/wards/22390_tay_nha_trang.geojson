@@ -3652,6 +3652,8 @@
         "fullName": "Phường Tây Nha Trang",
         "fullNameEn": "Tay Nha Trang Ward",
         "codeName": "tay_nha_trang",
+        "postalCode": "57135",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1119",
         "areaKm2": 27.9
       }

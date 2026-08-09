@@ -7858,6 +7858,8 @@
         "fullName": "Xã Tuy Phước Tây",
         "fullNameEn": "Tuy Phuoc Tay Commune",
         "codeName": "tuy_phuoc_tay",
+        "postalCode": "55221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3017",
         "areaKm2": 68.81
       }

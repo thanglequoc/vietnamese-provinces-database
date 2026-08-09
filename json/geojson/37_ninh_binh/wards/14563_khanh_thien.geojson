@@ -2400,6 +2400,8 @@
         "fullName": "Xã Khánh Thiện",
         "fullNameEn": "Khanh Thien Commune",
         "codeName": "khanh_thien",
+        "postalCode": "08808",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.754",
         "areaKm2": 24.51
       }

@@ -8464,6 +8464,8 @@
         "fullName": "Xã Luận Thành",
         "fullNameEn": "Luan Thanh Commune",
         "codeName": "luan_thanh",
+        "postalCode": "42220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2564",
         "areaKm2": 73.48
       }

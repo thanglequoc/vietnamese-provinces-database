@@ -15780,6 +15780,8 @@
         "fullName": "Xã Đạ Huoai",
         "fullNameEn": "Da Huoai Commune",
         "codeName": "da_huoai",
+        "postalCode": "66666",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1274",
         "areaKm2": 113.96
       }

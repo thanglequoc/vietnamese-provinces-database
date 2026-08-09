@@ -2884,6 +2884,8 @@
         "fullName": "Phường Gò Dầu",
         "fullNameEn": "Go Dau Ward",
         "codeName": "go_dau",
+        "postalCode": "80706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2728",
         "areaKm2": 43.09
       }

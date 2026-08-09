@@ -9024,6 +9024,8 @@
         "fullName": "Xã Vĩnh Lộc",
         "fullNameEn": "Vinh Loc Commune",
         "codeName": "vinh_loc",
+        "postalCode": "41106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2633",
         "areaKm2": 56.94
       }

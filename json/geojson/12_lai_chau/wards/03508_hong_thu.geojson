@@ -27444,6 +27444,8 @@
         "fullName": "Xã Hồng Thu",
         "fullNameEn": "Hong Thu Commune",
         "codeName": "hong_thu",
+        "postalCode": "30611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2080",
         "areaKm2": 178
       }

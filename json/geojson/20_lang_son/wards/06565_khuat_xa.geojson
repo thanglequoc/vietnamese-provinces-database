@@ -13676,6 +13676,8 @@
         "fullName": "Xã Khuất Xá",
         "fullNameEn": "Khuat Xa Commune",
         "codeName": "khuat_xa",
+        "postalCode": "25831",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1848",
         "areaKm2": 124.91
       }

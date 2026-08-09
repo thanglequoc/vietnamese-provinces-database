@@ -3152,6 +3152,8 @@
         "fullName": "Xã Thái Thuỵ",
         "fullNameEn": "Thai Thuy Commune",
         "codeName": "thai_thuy",
+        "postalCode": "06454",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.640",
         "areaKm2": 35.5
       }

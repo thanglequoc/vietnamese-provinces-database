@@ -11888,6 +11888,8 @@
         "fullName": "Xã Mường Bang",
         "fullNameEn": "Muong Bang Commune",
         "codeName": "muong_bang",
+        "postalCode": "34932",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1371",
         "areaKm2": 270.15
       }

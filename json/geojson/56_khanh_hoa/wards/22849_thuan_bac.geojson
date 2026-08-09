@@ -15732,6 +15732,8 @@
         "fullName": "Xã Thuận Bắc",
         "fullNameEn": "Thuan Bac Commune",
         "codeName": "thuan_bac",
+        "postalCode": "59312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1153",
         "areaKm2": 137.2
       }

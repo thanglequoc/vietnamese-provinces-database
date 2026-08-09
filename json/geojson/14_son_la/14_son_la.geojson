@@ -5536,6 +5536,8 @@
         "fullName": "Tỉnh Sơn La",
         "fullNameEn": "Son La Province",
         "codeName": "son_la",
+        "postalCode": "",
+        "postalCodePrefix": "34",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.110",
         "areaKm2": 14108.89
       }

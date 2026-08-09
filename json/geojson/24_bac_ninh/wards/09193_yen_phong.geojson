@@ -3000,6 +3000,8 @@
         "fullName": "Xã Yên Phong",
         "fullNameEn": "Yen Phong Commune",
         "codeName": "yen_phong",
+        "postalCode": "16220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2180",
         "areaKm2": 27.89
       }

@@ -2152,6 +2152,8 @@
         "fullName": "Xã Hải Hậu",
         "fullNameEn": "Hai Hau Commune",
         "codeName": "hai_hau",
+        "postalCode": "07941",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.833",
         "areaKm2": 23.87
       }

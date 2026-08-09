@@ -6112,6 +6112,8 @@
         "fullName": "Xã Mỹ Hiệp",
         "fullNameEn": "My Hiep Commune",
         "codeName": "my_hiep",
+        "postalCode": "81172",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.428",
         "areaKm2": 79.4
       }

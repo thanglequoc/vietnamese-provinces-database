@@ -16828,6 +16828,8 @@
         "fullName": "Xã Biên Sơn",
         "fullNameEn": "Bien Son Commune",
         "codeName": "bien_son",
+        "postalCode": "26521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2106",
         "areaKm2": 294.22
       }

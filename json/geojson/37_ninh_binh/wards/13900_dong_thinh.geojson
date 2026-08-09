@@ -3008,6 +3008,8 @@
         "fullName": "Xã Đồng Thịnh",
         "fullNameEn": "Dong Thinh Commune",
         "codeName": "dong_thinh",
+        "postalCode": "07408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.794",
         "areaKm2": 30.45
       }

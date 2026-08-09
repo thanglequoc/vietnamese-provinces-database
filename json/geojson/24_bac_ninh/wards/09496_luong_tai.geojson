@@ -7492,6 +7492,8 @@
         "fullName": "Xã Lương Tài",
         "fullNameEn": "Luong Tai Commune",
         "codeName": "luong_tai",
+        "postalCode": "16620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2134",
         "areaKm2": 24.69
       }

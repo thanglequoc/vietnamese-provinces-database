@@ -9608,6 +9608,8 @@
         "fullName": "Xã Hùng Sơn",
         "fullNameEn": "Hung Son Commune",
         "codeName": "hung_son",
+        "postalCode": "51817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1917",
         "areaKm2": 287.95
       }

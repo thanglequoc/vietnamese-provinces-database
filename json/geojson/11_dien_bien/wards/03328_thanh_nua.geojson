@@ -15668,6 +15668,8 @@
         "fullName": "Xã Thanh Nưa",
         "fullNameEn": "Thanh Nua Commune",
         "codeName": "thanh_nua",
+        "postalCode": "32216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2263",
         "areaKm2": 176.97
       }

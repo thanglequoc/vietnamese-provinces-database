@@ -6392,6 +6392,8 @@
         "fullName": "Phường Thới Hoà",
         "fullNameEn": "Thoi Hoa Ward",
         "codeName": "thoi_hoa",
+        "postalCode": "75911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.15",
         "areaKm2": 37.93
       }

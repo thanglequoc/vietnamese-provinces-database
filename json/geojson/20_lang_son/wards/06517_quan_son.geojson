@@ -14728,6 +14728,8 @@
         "fullName": "Xã Quan Sơn",
         "fullNameEn": "Quan Son Commune",
         "codeName": "quan_son",
+        "postalCode": "25718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1805",
         "areaKm2": 138.05
       }

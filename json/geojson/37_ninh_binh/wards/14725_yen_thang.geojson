@@ -3312,6 +3312,8 @@
         "fullName": "Phường Yên Thắng",
         "fullNameEn": "Yen Thang Ward",
         "codeName": "yen_thang",
+        "postalCode": "08124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.771",
         "areaKm2": 29.95
       }

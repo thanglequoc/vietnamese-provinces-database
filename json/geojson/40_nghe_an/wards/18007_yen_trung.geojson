@@ -3836,6 +3836,8 @@
         "fullName": "Xã Yên Trung",
         "fullNameEn": "Yen Trung Commune",
         "codeName": "yen_trung",
+        "postalCode": "44529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1536",
         "areaKm2": 37.74
       }

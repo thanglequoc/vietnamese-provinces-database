@@ -1764,6 +1764,8 @@
         "fullName": "Xã Giao Hưng",
         "fullNameEn": "Giao Hung Commune",
         "codeName": "giao_hung",
+        "postalCode": "07831",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.810",
         "areaKm2": 21.74
       }

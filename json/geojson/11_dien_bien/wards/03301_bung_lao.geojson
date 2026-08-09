@@ -6836,6 +6836,8 @@
         "fullName": "Xã Búng Lao",
         "fullNameEn": "Bung Lao Commune",
         "codeName": "bung_lao",
+        "postalCode": "32415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2260",
         "areaKm2": 145.85
       }

@@ -3824,6 +3824,8 @@
         "fullName": "Xã Yên Đồng",
         "fullNameEn": "Yen Dong Commune",
         "codeName": "yen_dong",
+        "postalCode": "07328",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.820",
         "areaKm2": 30.53
       }

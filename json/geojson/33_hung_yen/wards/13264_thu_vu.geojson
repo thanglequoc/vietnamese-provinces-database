@@ -2592,6 +2592,8 @@
         "fullName": "Xã Thư Vũ",
         "fullNameEn": "Thu Vu Commune",
         "codeName": "thu_vu",
+        "postalCode": "06938",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.687",
         "areaKm2": 24.99
       }

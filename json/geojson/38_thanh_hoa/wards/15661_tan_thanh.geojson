@@ -7260,6 +7260,8 @@
         "fullName": "Xã Tân Thành",
         "fullNameEn": "Tan Thanh Commune",
         "codeName": "tan_thanh",
+        "postalCode": "42221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2567",
         "areaKm2": 90.38
       }

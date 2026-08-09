@@ -11640,6 +11640,8 @@
         "fullName": "Xã Nhân Lý",
         "fullNameEn": "Nhan Ly Commune",
         "codeName": "nhan_ly",
+        "postalCode": "25719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1803",
         "areaKm2": 126.86
       }

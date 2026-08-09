@@ -11860,6 +11860,8 @@
         "fullName": "Xã Đường Thượng",
         "fullNameEn": "Duong Thuong Commune",
         "codeName": "duong_thuong",
+        "postalCode": "20317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2382",
         "areaKm2": 103.25
       }

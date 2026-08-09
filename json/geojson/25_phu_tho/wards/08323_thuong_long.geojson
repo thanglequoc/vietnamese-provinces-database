@@ -5492,6 +5492,8 @@
         "fullName": "Xã Thượng Long",
         "fullNameEn": "Thuong Long Commune",
         "codeName": "thuong_long",
+        "postalCode": "35516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1576",
         "areaKm2": 60.36
       }

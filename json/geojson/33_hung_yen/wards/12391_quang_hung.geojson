@@ -2060,6 +2060,8 @@
         "fullName": "Xã Quang Hưng",
         "fullNameEn": "Quang Hung Commune",
         "codeName": "quang_hung",
+        "postalCode": "17309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.729",
         "areaKm2": 25.73
       }

@@ -5096,6 +5096,8 @@
         "fullName": "Phường Nông Tiến",
         "fullNameEn": "Nong Tien Ward",
         "codeName": "nong_tien",
+        "postalCode": "22107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2313",
         "areaKm2": 26.99
       }

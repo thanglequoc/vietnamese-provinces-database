@@ -5980,6 +5980,8 @@
         "fullName": "Phường Nghi Sơn",
         "fullNameEn": "Nghi Son Ward",
         "codeName": "nghi_son",
+        "postalCode": "42739",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2591",
         "areaKm2": 42.82
       }

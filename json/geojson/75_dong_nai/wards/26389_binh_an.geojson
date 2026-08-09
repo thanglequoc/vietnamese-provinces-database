@@ -13412,6 +13412,8 @@
         "fullName": "Xã Bình An",
         "fullNameEn": "Binh An Commune",
         "codeName": "binh_an",
+        "postalCode": "76208",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3137",
         "areaKm2": 59.4
       }

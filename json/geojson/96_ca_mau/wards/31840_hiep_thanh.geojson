@@ -16824,6 +16824,8 @@
         "fullName": "Phường Hiệp Thành",
         "fullNameEn": "Hiep Thanh Ward",
         "codeName": "hiep_thanh",
+        "postalCode": "97114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.141",
         "areaKm2": 29.05
       }

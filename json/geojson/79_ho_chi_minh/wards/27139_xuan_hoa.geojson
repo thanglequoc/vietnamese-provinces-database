@@ -1224,6 +1224,8 @@
         "fullName": "Phường Xuân Hoà",
         "fullNameEn": "Xuan Hoa Ward",
         "codeName": "xuan_hoa",
+        "postalCode": "72421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.83",
         "areaKm2": 2.22
       }

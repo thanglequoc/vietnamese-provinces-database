@@ -3360,6 +3360,8 @@
         "fullName": "Xã Nguyên Giáp",
         "fullNameEn": "Nguyen Giap Commune",
         "codeName": "nguyen_giap",
+        "postalCode": "03928",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.891",
         "areaKm2": 27.21
       }

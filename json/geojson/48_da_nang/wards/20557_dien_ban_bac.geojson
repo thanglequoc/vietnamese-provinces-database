@@ -9608,6 +9608,8 @@
         "fullName": "Phường Điện Bàn Bắc",
         "fullNameEn": "Dien Ban Bac Ward",
         "codeName": "dien_ban_bac",
+        "postalCode": "51429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1946",
         "areaKm2": 36.39
       }

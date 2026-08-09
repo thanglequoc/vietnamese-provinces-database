@@ -3160,6 +3160,8 @@
         "fullName": "Phường Phạm Sư Mạnh",
         "fullNameEn": "Pham Su Manh Ward",
         "codeName": "pham_su_manh",
+        "postalCode": "03435",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.872",
         "areaKm2": 22.34
       }

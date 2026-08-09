@@ -4544,6 +4544,8 @@
         "fullName": "Xã Mỹ Long",
         "fullNameEn": "My Long Commune",
         "codeName": "my_long",
+        "postalCode": "87807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2524",
         "areaKm2": 73.61
       }

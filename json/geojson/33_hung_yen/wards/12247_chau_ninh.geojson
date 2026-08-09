@@ -1588,6 +1588,8 @@
         "fullName": "Xã Châu Ninh",
         "fullNameEn": "Chau Ninh Commune",
         "codeName": "chau_ninh",
+        "postalCode": "17833",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.730",
         "areaKm2": 22.22
       }

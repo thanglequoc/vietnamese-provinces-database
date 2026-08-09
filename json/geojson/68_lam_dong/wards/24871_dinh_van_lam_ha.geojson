@@ -10680,6 +10680,8 @@
         "fullName": "Xã Đinh Văn Lâm Hà",
         "fullNameEn": "Dinh Van Lam Ha Commune",
         "codeName": "dinh_van_lam_ha",
+        "postalCode": "66322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.513",
         "areaKm2": 89.87
       }

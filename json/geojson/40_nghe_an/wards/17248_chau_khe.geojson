@@ -15412,6 +15412,8 @@
         "fullName": "Xã Châu Khê",
         "fullNameEn": "Chau Khe Commune",
         "codeName": "chau_khe",
+        "postalCode": "44310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1415",
         "areaKm2": 544.31
       }

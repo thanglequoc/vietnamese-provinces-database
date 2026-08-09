@@ -9920,6 +9920,8 @@
         "fullName": "Xã Nam Ninh Hoà",
         "fullNameEn": "Nam Ninh Hoa Commune",
         "codeName": "nam_ninh_hoa",
+        "postalCode": "57338",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1129",
         "areaKm2": 201.4
       }

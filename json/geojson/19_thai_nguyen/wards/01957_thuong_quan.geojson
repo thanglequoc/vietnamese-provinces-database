@@ -10220,6 +10220,8 @@
         "fullName": "Xã Thượng Quan",
         "fullNameEn": "Thuong Quan Commune",
         "codeName": "thuong_quan",
+        "postalCode": "23316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1255",
         "areaKm2": 154.86
       }

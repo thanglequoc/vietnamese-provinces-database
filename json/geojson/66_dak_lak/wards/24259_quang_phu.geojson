@@ -10380,6 +10380,8 @@
         "fullName": "Xã Quảng Phú",
         "fullNameEn": "Quang Phu Commune",
         "codeName": "quang_phu",
+        "postalCode": "63906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2873",
         "areaKm2": 111.34
       }

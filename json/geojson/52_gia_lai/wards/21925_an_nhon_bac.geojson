@@ -12316,6 +12316,8 @@
         "fullName": "Phường An Nhơn Bắc",
         "fullNameEn": "An Nhon Bac Ward",
         "codeName": "an_nhon_bac",
+        "postalCode": "55273",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3012",
         "areaKm2": 31.95
       }

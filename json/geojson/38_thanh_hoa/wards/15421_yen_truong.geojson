@@ -2120,6 +2120,8 @@
         "fullName": "Xã Yên Trường",
         "fullNameEn": "Yen Truong Commune",
         "codeName": "yen_truong",
+        "postalCode": "41025",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2610",
         "areaKm2": 26.95
       }

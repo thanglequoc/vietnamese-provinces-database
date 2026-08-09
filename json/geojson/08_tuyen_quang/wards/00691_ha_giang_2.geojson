@@ -16988,6 +16988,8 @@
         "fullName": "Phường Hà Giang 2",
         "fullNameEn": "Ward Ha Giang 2",
         "codeName": "ha_giang_2",
+        "postalCode": "20115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2364",
         "areaKm2": 60.62
       }

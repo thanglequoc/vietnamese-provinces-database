@@ -9360,6 +9360,8 @@
         "fullName": "Xã Bến Hiên",
         "fullNameEn": "Ben Hien Commune",
         "codeName": "ben_hien",
+        "postalCode": "51719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1927",
         "areaKm2": 255.85
       }

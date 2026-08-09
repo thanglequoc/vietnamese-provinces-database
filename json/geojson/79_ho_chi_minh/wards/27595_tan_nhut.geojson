@@ -3048,6 +3048,8 @@
         "fullName": "Xã Tân Nhựt",
         "fullNameEn": "Tan Nhut Commune",
         "codeName": "tan_nhut",
+        "postalCode": "71816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.125",
         "areaKm2": 43.67
       }

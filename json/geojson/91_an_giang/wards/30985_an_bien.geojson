@@ -6792,6 +6792,8 @@
         "fullName": "Xã An Biên",
         "fullNameEn": "An Bien Commune",
         "codeName": "an_bien",
+        "postalCode": "91815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.388",
         "areaKm2": 118.27
       }

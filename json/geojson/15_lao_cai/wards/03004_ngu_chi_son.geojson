@@ -7632,6 +7632,8 @@
         "fullName": "Xã Ngũ Chỉ Sơn",
         "fullNameEn": "Ngu Chi Son Commune",
         "codeName": "ngu_chi_son",
+        "postalCode": "31710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1100",
         "areaKm2": 82.47
       }

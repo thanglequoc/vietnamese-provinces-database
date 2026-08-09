@@ -8336,6 +8336,8 @@
         "fullName": "Xã Sơn Đông",
         "fullNameEn": "Son Dong Commune",
         "codeName": "son_dong",
+        "postalCode": "15421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1617",
         "areaKm2": 26.7
       }

@@ -22708,6 +22708,8 @@
         "fullName": "Xã Ninh Gia",
         "fullNameEn": "Ninh Gia Commune",
         "codeName": "ninh_gia",
+        "postalCode": "66815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.525",
         "areaKm2": 143.83
       }

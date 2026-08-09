@@ -2392,6 +2392,8 @@
         "fullName": "Phường Lĩnh Nam",
         "fullNameEn": "Linh Nam Ward",
         "codeName": "linh_nam",
+        "postalCode": "11709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3191",
         "areaKm2": 10.86
       }

@@ -6732,6 +6732,8 @@
         "fullName": "Xã Phương Thịnh",
         "fullNameEn": "Phuong Thinh Commune",
         "codeName": "phuong_thinh",
+        "postalCode": "81161",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.424",
         "areaKm2": 104.7
       }

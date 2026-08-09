@@ -5120,6 +5120,8 @@
         "fullName": "Xã Quốc Oai",
         "fullNameEn": "Quoc Oai Commune",
         "codeName": "quoc_oai",
+        "postalCode": "13306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3239",
         "areaKm2": 24
       }

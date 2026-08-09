@@ -12040,6 +12040,8 @@
         "fullName": "Phường Yên Tử",
         "fullNameEn": "Yen Tu Ward",
         "codeName": "yen_tu",
+        "postalCode": "02317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1856",
         "areaKm2": 113.23
       }

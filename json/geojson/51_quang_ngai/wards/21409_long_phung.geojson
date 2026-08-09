@@ -3548,6 +3548,8 @@
         "fullName": "Xã Long Phụng",
         "fullNameEn": "Long Phung Commune",
         "codeName": "long_phung",
+        "postalCode": "54120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1760",
         "areaKm2": 36.1
       }

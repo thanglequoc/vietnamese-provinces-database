@@ -3700,6 +3700,8 @@
         "fullName": "Xã Thanh Lâm",
         "fullNameEn": "Thanh Lam Commune",
         "codeName": "thanh_lam",
+        "postalCode": "18425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2780",
         "areaKm2": 52.91
       }

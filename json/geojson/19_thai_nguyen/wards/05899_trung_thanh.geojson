@@ -3824,6 +3824,8 @@
         "fullName": "Phường Trung Thành",
         "fullNameEn": "Trung Thanh Ward",
         "codeName": "trung_thanh",
+        "postalCode": "24717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1234",
         "areaKm2": 25.84
       }

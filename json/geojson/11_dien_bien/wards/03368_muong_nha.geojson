@@ -25212,6 +25212,8 @@
         "fullName": "Xã Mường Nhà",
         "fullNameEn": "Muong Nha Commune",
         "codeName": "muong_nha",
+        "postalCode": "32228",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2268",
         "areaKm2": 463
       }

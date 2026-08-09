@@ -7848,6 +7848,8 @@
         "fullName": "Xã Nghĩa Tâm",
         "fullNameEn": "Nghia Tam Commune",
         "codeName": "nghia_tam",
+        "postalCode": "33831",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1049",
         "areaKm2": 133.1
       }

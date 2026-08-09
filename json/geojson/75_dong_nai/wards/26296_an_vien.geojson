@@ -5784,6 +5784,8 @@
         "fullName": "Xã An Viễn",
         "fullNameEn": "An Vien Commune",
         "codeName": "an_vien",
+        "postalCode": "76320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3126",
         "areaKm2": 47.7
       }

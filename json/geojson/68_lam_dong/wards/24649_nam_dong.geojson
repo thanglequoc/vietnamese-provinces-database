@@ -16124,6 +16124,8 @@
         "fullName": "Xã Nam Dong",
         "fullNameEn": "Nam Dong Commune",
         "codeName": "nam_dong",
+        "postalCode": "65410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2800",
         "areaKm2": 104.04
       }

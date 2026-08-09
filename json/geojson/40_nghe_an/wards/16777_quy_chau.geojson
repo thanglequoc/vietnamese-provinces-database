@@ -18024,6 +18024,8 @@
         "fullName": "Xã Quỳ Châu",
         "fullNameEn": "Quy Chau Commune",
         "codeName": "quy_chau",
+        "postalCode": "44018",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1409",
         "areaKm2": 327.53
       }

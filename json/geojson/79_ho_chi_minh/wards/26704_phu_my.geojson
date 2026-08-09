@@ -7904,6 +7904,8 @@
         "fullName": "Phường Phú Mỹ",
         "fullNameEn": "Phu My Ward",
         "codeName": "phu_my",
+        "postalCode": "78706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2221",
         "areaKm2": 70.92
       }

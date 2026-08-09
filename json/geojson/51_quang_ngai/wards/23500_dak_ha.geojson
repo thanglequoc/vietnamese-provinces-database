@@ -6324,6 +6324,8 @@
         "fullName": "Xã Đăk Hà",
         "fullNameEn": "Dak Ha Commune",
         "codeName": "dak_ha",
+        "postalCode": "60606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.556",
         "areaKm2": 104.08
       }

@@ -5676,6 +5676,8 @@
         "fullName": "Tỉnh Thái Nguyên",
         "fullNameEn": "Thai Nguyen Province",
         "codeName": "thai_nguyen",
+        "postalCode": "",
+        "postalCodePrefix": "23, 24",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.101",
         "areaKm2": 8375.21
       }

@@ -10100,6 +10100,8 @@
         "fullName": "Xã Thanh Ba",
         "fullNameEn": "Thanh Ba Commune",
         "codeName": "thanh_ba",
+        "postalCode": "35706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1548",
         "areaKm2": 38.6
       }

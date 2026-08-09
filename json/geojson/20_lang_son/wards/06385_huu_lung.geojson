@@ -10280,6 +10280,8 @@
         "fullName": "Xã Hữu Lũng",
         "fullNameEn": "Huu Lung Commune",
         "codeName": "huu_lung",
+        "postalCode": "25606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1839",
         "areaKm2": 52.87
       }

@@ -16376,6 +16376,8 @@
         "fullName": "Xã D'Ran",
         "fullNameEn": "D'Ran Commune",
         "codeName": "dran",
+        "postalCode": "66915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.518",
         "areaKm2": 240.89
       }

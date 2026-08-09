@@ -952,6 +952,8 @@
         "fullName": "Phường Nghĩa Đô",
         "fullNameEn": "Nghia Do Ward",
         "codeName": "nghia_do",
+        "postalCode": "11307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3262",
         "areaKm2": 4.34
       }

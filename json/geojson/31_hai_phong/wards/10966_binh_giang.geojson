@@ -2536,6 +2536,8 @@
         "fullName": "Xã Bình Giang",
         "fullNameEn": "Binh Giang Commune",
         "codeName": "binh_giang",
+        "postalCode": "03724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.865",
         "areaKm2": 26.01
       }

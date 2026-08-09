@@ -1452,6 +1452,8 @@
         "fullName": "Phường Vĩnh Hưng",
         "fullNameEn": "Vinh Hung Ward",
         "codeName": "vinh_hung",
+        "postalCode": "11712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3192",
         "areaKm2": 4.47
       }

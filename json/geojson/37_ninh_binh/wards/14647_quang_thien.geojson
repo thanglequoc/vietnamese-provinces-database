@@ -2604,6 +2604,8 @@
         "fullName": "Xã Quang Thiện",
         "fullNameEn": "Quang Thien Commune",
         "codeName": "quang_thien",
+        "postalCode": "08708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.770",
         "areaKm2": 20.73
       }

@@ -59,7 +59,12 @@ Results land in the `output/` directory. By default, the script generates:
 
 - SQL import scripts for PostgreSQL/MySQL, SQL Server, Oracle
 - JSON, MongoDB, and Redis exports
+- Elasticsearch NDJSON + mappings
 - GIS SQL scripts and GeoJSON files
+
+All exported formats include national postal codes: `postal_code_prefix` on
+provinces and `postal_code` on wards (sourced from Quyết định 2334/QĐ-BKHCN via
+`resources/postal/` seed files).
 
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.
 

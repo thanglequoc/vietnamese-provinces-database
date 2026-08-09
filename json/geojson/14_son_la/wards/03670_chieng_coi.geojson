@@ -8072,6 +8072,8 @@
         "fullName": "Phường Chiềng Cơi",
         "fullNameEn": "Chieng Coi Ward",
         "codeName": "chieng_coi",
+        "postalCode": "34111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1337",
         "areaKm2": 93.56
       }

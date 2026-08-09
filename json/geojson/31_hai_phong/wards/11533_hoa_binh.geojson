@@ -2068,6 +2068,8 @@
         "fullName": "Phường Hoà Bình",
         "fullNameEn": "Hoa Binh Ward",
         "codeName": "hoa_binh",
+        "postalCode": "04308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.923",
         "areaKm2": 19.47
       }

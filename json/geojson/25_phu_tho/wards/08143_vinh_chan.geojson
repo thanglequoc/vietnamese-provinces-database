@@ -3816,6 +3816,8 @@
         "fullName": "Xã Vĩnh Chân",
         "fullNameEn": "Vinh Chan Commune",
         "codeName": "vinh_chan",
+        "postalCode": "35429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1547",
         "areaKm2": 27.12
       }

@@ -5940,6 +5940,8 @@
         "fullName": "Phường Mỹ Lộc",
         "fullNameEn": "My Loc Ward",
         "codeName": "my_loc",
+        "postalCode": "07137",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.784",
         "areaKm2": 35.54
       }

@@ -984,6 +984,8 @@
         "fullName": "Phường Ngọc Hà",
         "fullNameEn": "Ngoc Ha Ward",
         "codeName": "ngoc_ha",
+        "postalCode": "11119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3257",
         "areaKm2": 2.68
       }

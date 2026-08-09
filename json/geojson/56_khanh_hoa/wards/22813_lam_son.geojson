@@ -8848,6 +8848,8 @@
         "fullName": "Xã Lâm Sơn",
         "fullNameEn": "Lam Son Commune",
         "codeName": "lam_son",
+        "postalCode": "59508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1160",
         "areaKm2": 191.5
       }

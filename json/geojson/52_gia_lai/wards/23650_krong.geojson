@@ -13876,6 +13876,8 @@
         "fullName": "Xã Krong",
         "fullNameEn": "Krong Commune",
         "codeName": "krong",
+        "postalCode": "62612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3049",
         "areaKm2": 311.58
       }

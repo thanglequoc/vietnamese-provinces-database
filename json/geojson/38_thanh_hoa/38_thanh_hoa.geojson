@@ -8024,6 +8024,8 @@
         "fullName": "Tỉnh Thanh Hoá",
         "fullNameEn": "Thanh Hoa Province",
         "codeName": "thanh_hoa",
+        "postalCode": "",
+        "postalCodePrefix": "40, 41, 42",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.61",
         "areaKm2": 11114.71
       }

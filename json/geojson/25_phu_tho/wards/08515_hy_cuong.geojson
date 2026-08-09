@@ -5620,6 +5620,8 @@
         "fullName": "Xã Hy Cương",
         "fullNameEn": "Hy Cuong Commune",
         "codeName": "hy_cuong",
+        "postalCode": "35114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1557",
         "areaKm2": 23.95
       }

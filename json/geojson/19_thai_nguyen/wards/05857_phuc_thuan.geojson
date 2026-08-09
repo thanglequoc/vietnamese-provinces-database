@@ -11608,6 +11608,8 @@
         "fullName": "Phường Phúc Thuận",
         "fullNameEn": "Phuc Thuan Ward",
         "codeName": "phuc_thuan",
+        "postalCode": "24715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1231",
         "areaKm2": 74.16
       }

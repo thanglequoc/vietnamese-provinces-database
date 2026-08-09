@@ -2620,6 +2620,8 @@
         "fullName": "Xã Pù Nhi",
         "fullNameEn": "Pu Nhi Commune",
         "codeName": "pu_nhi",
+        "postalCode": "42112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3299",
         "areaKm2": 65.72
       }

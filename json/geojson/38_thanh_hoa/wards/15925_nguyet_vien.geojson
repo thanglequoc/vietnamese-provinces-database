@@ -1608,6 +1608,8 @@
         "fullName": "Phường Nguyệt Viên",
         "fullNameEn": "Nguyet Vien Ward",
         "codeName": "nguyet_vien",
+        "postalCode": "40145",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2600",
         "areaKm2": 22.3
       }

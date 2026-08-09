@@ -1792,6 +1792,8 @@
         "fullName": "Phường Gò Vấp",
         "fullNameEn": "Go Vap Ward",
         "codeName": "go_vap",
+        "postalCode": "71422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.55",
         "areaKm2": 2.81
       }

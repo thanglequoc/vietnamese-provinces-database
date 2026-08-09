@@ -17092,6 +17092,8 @@
         "fullName": "Xã Cốc Lầu",
         "fullNameEn": "Coc Lau Commune",
         "codeName": "coc_lau",
+        "postalCode": "31322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1069",
         "areaKm2": 135.8
       }

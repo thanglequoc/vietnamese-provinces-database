@@ -3392,6 +3392,8 @@
         "fullName": "Xã Đại Đồng",
         "fullNameEn": "Dai Dong Commune",
         "codeName": "dai_dong",
+        "postalCode": "17609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.739",
         "areaKm2": 25.68
       }

@@ -1640,6 +1640,8 @@
         "fullName": "Xã Tây Thuỵ Anh",
         "fullNameEn": "Tay Thuy Anh Commune",
         "codeName": "tay_thuy_anh",
+        "postalCode": "06458",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.671",
         "areaKm2": 16.68
       }

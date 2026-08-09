@@ -10724,6 +10724,8 @@
         "fullName": "Xã Đồng Yên",
         "fullNameEn": "Dong Yen Commune",
         "codeName": "dong_yen",
+        "postalCode": "20816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2429",
         "areaKm2": 79.36
       }

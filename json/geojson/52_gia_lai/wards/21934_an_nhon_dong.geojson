@@ -6352,6 +6352,8 @@
         "fullName": "Phường An Nhơn Đông",
         "fullNameEn": "An Nhon Dong Ward",
         "codeName": "an_nhon_dong",
+        "postalCode": "55272",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3013",
         "areaKm2": 17.21
       }

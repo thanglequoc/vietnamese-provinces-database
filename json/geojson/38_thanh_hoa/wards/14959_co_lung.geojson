@@ -6944,6 +6944,8 @@
         "fullName": "Xã Cổ Lũng",
         "fullNameEn": "Co Lung Commune",
         "codeName": "co_lung",
+        "postalCode": "41412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2652",
         "areaKm2": 127.05
       }

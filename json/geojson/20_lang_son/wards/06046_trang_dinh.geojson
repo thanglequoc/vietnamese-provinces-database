@@ -9132,6 +9132,8 @@
         "fullName": "Xã Tràng Định",
         "fullNameEn": "Trang Dinh Commune",
         "codeName": "trang_dinh",
+        "postalCode": "25329",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1826",
         "areaKm2": 118.41
       }

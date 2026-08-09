@@ -2604,6 +2604,8 @@
         "fullName": "Xã Nguyễn Lương Bằng",
         "fullNameEn": "Nguyen Luong Bang Commune",
         "codeName": "nguyen_luong_bang",
+        "postalCode": "03777",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.894",
         "areaKm2": 21.78
       }

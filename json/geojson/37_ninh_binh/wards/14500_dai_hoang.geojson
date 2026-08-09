@@ -2076,6 +2076,8 @@
         "fullName": "Xã Đại Hoàng",
         "fullNameEn": "Dai Hoang Commune",
         "codeName": "dai_hoang",
+        "postalCode": "08328",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.753",
         "areaKm2": 23.75
       }

@@ -5380,6 +5380,8 @@
         "fullName": "Xã Phú Vang",
         "fullNameEn": "Phu Vang Commune",
         "codeName": "phu_vang",
+        "postalCode": "49929",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1705",
         "areaKm2": 86.19
       }

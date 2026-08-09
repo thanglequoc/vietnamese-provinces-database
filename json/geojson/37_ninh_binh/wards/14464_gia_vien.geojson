@@ -4444,6 +4444,8 @@
         "fullName": "Xã Gia Viễn",
         "fullNameEn": "Gia Vien Commune",
         "codeName": "gia_vien",
+        "postalCode": "08327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.749",
         "areaKm2": 39.8
       }

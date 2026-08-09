@@ -1724,6 +1724,8 @@
         "fullName": "Phường Hội An Đông",
         "fullNameEn": "Hoi An Dong Ward",
         "codeName": "hoi_an_dong",
+        "postalCode": "51320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1947",
         "areaKm2": 18.22
       }

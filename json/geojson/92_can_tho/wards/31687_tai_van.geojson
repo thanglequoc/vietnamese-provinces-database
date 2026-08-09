@@ -7508,6 +7508,8 @@
         "fullName": "Xã Tài Văn",
         "fullNameEn": "Tai Van Commune",
         "codeName": "tai_van",
+        "postalCode": "96714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.288",
         "areaKm2": 68.07
       }

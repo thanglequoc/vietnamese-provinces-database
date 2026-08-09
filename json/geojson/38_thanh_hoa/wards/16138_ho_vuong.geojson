@@ -4656,6 +4656,8 @@
         "fullName": "Xã Hồ Vương",
         "fullNameEn": "Ho Vuong Commune",
         "codeName": "ho_vuong",
+        "postalCode": "40533",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2627",
         "areaKm2": 19.28
       }

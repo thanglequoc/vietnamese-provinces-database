@@ -1604,6 +1604,8 @@
         "fullName": "Phường Tam Thắng",
         "fullNameEn": "Tam Thang Ward",
         "codeName": "tam_thang",
+        "postalCode": "78224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2199",
         "areaKm2": 11.76
       }

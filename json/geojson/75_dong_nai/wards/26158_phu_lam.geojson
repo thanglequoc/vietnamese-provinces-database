@@ -17164,6 +17164,8 @@
         "fullName": "Xã Phú Lâm",
         "fullNameEn": "Phu Lam Commune",
         "codeName": "phu_lam",
+        "postalCode": "76821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3114",
         "areaKm2": 67.4
       }

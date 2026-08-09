@@ -1608,6 +1608,8 @@
         "fullName": "Xã Hiệp Hưng",
         "fullNameEn": "Hiep Hung Commune",
         "codeName": "hiep_hung",
+        "postalCode": "95509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.250",
         "areaKm2": 69.25
       }

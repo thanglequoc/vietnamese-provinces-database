@@ -6840,6 +6840,8 @@
         "fullName": "Xã Nghĩa Đồng",
         "fullNameEn": "Nghia Dong Commune",
         "codeName": "nghia_dong",
+        "postalCode": "43815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1437",
         "areaKm2": 72.43
       }

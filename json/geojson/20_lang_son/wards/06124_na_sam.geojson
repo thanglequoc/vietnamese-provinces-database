@@ -9700,6 +9700,8 @@
         "fullName": "Xã Na Sầm",
         "fullNameEn": "Na Sam Commune",
         "codeName": "na_sam",
+        "postalCode": "25206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1807",
         "areaKm2": 94.47
       }

@@ -2400,6 +2400,8 @@
         "fullName": "Xã An Ninh",
         "fullNameEn": "An Ninh Commune",
         "codeName": "an_ninh",
+        "postalCode": "82726",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1304",
         "areaKm2": 57.69
       }

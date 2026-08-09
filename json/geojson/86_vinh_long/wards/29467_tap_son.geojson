@@ -5500,6 +5500,8 @@
         "fullName": "Xã Tập Sơn",
         "fullNameEn": "Tap Son Commune",
         "codeName": "tap_son",
+        "postalCode": "87511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2511",
         "areaKm2": 67.44
       }

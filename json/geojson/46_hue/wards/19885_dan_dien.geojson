@@ -7804,6 +7804,8 @@
         "fullName": "Xã Đan Điền",
         "fullNameEn": "Dan Dien Commune",
         "codeName": "dan_dien",
+        "postalCode": "49218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1697",
         "areaKm2": 82.62
       }

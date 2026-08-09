@@ -2384,6 +2384,8 @@
         "fullName": "Phường Phố Hiến",
         "fullNameEn": "Pho Hien Ward",
         "codeName": "pho_hien",
+        "postalCode": "17123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.720",
         "areaKm2": 21.5
       }

@@ -2188,6 +2188,8 @@
         "fullName": "Xã Hoằng Phú",
         "fullNameEn": "Hoang Phu Commune",
         "codeName": "hoang_phu",
+        "postalCode": "40331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2608",
         "areaKm2": 15.35
       }

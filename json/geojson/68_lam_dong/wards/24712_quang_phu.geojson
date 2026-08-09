@@ -27148,6 +27148,8 @@
         "fullName": "Xã Quảng Phú",
         "fullNameEn": "Quang Phu Commune",
         "codeName": "quang_phu",
+        "postalCode": "65317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2807",
         "areaKm2": 263.58
       }

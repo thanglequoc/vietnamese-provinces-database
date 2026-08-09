@@ -5744,6 +5744,8 @@
         "fullName": "Phường Lâm Viên - Đà Lạt",
         "fullNameEn": "Lam Vien - Da Lat Ward",
         "codeName": "lam_vien_da_lat",
+        "postalCode": "66124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.507",
         "areaKm2": 35.03
       }

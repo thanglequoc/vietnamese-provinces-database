@@ -14084,6 +14084,8 @@
         "fullName": "Xã Hướng Hiệp",
         "fullNameEn": "Huong Hiep Commune",
         "codeName": "huong_hiep",
+        "postalCode": "48607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.574",
         "areaKm2": 185.61
       }

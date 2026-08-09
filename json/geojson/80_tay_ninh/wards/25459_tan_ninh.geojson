@@ -2716,6 +2716,8 @@
         "fullName": "Phường Tân Ninh",
         "fullNameEn": "Tan Ninh Ward",
         "codeName": "tan_ninh",
+        "postalCode": "80116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2743",
         "areaKm2": 21.35
       }

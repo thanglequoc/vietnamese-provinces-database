@@ -13856,6 +13856,8 @@
         "fullName": "Xã Gào",
         "fullNameEn": "Gao Commune",
         "codeName": "gao",
+        "postalCode": "61126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2948",
         "areaKm2": 182.47
       }

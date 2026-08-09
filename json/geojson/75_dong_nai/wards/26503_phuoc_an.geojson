@@ -14304,6 +14304,8 @@
         "fullName": "Xã Phước An",
         "fullNameEn": "Phuoc An Commune",
         "codeName": "phuoc_an",
+        "postalCode": "76267",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3149",
         "areaKm2": 170.7
       }

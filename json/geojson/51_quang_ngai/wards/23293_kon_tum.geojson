@@ -7964,6 +7964,8 @@
         "fullName": "Phường Kon Tum",
         "fullNameEn": "Kon Tum Ward",
         "codeName": "kon_tum",
+        "postalCode": "60127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1730",
         "areaKm2": 19.14
       }

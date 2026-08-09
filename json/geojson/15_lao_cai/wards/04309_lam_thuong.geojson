@@ -9420,6 +9420,8 @@
         "fullName": "Xã Lâm Thượng",
         "fullNameEn": "Lam Thuong Commune",
         "codeName": "lam_thuong",
+        "postalCode": "33312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1010",
         "areaKm2": 128
       }

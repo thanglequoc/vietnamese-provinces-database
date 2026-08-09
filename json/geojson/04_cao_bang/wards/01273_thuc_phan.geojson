@@ -4112,6 +4112,8 @@
         "fullName": "Phường Thục Phán",
         "fullNameEn": "Thuc Phan Ward",
         "codeName": "thuc_phan",
+        "postalCode": "21117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.972",
         "areaKm2": 55.44
       }

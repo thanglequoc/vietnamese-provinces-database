@@ -2488,6 +2488,8 @@
         "fullName": "Xã Xuân Trúc",
         "fullNameEn": "Xuan Truc Commune",
         "codeName": "xuan_truc",
+        "postalCode": "17414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.711",
         "areaKm2": 20.04
       }

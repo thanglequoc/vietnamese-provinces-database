@@ -11728,6 +11728,8 @@
         "fullName": "Xã Mường Hung",
         "fullNameEn": "Muong Hung Commune",
         "codeName": "muong_hung",
+        "postalCode": "34421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1402",
         "areaKm2": 226.09
       }

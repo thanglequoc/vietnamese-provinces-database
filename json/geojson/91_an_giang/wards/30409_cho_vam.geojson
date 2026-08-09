@@ -3128,6 +3128,8 @@
         "fullName": "Xã Chợ Vàm",
         "fullNameEn": "Cho Vam Commune",
         "codeName": "cho_vam",
+        "postalCode": "90310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.321",
         "areaKm2": 67.48
       }

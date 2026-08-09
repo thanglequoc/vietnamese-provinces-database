@@ -14396,6 +14396,8 @@
         "fullName": "Xã Bản Lầu",
         "fullNameEn": "Ban Lau Commune",
         "codeName": "ban_lau",
+        "postalCode": "31513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1061",
         "areaKm2": 125.3
       }

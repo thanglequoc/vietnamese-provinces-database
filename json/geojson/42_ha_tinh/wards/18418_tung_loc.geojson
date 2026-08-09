@@ -3900,6 +3900,8 @@
         "fullName": "Xã Tùng Lộc",
         "fullNameEn": "Tung Loc Commune",
         "codeName": "tung_loc",
+        "postalCode": "45310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2003",
         "areaKm2": 37.49
       }

@@ -5660,6 +5660,8 @@
         "fullName": "Xã Vân Bán",
         "fullNameEn": "Van Ban Commune",
         "codeName": "van_ban",
+        "postalCode": "35618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1586",
         "areaKm2": 22.72
       }

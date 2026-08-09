@@ -2512,6 +2512,8 @@
         "fullName": "Xã Đại Điền",
         "fullNameEn": "Dai Dien Commune",
         "codeName": "dai_dien",
+        "postalCode": "86912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2479",
         "areaKm2": 59.26
       }

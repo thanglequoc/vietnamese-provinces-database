@@ -8556,6 +8556,8 @@
         "fullName": "Xã Phú Tâm",
         "fullNameEn": "Phu Tam Commune",
         "codeName": "phu_tam",
+        "postalCode": "96407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.271",
         "areaKm2": 48.88
       }

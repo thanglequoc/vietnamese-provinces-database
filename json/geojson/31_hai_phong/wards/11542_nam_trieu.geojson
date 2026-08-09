@@ -2388,6 +2388,8 @@
         "fullName": "Phường Nam Triệu",
         "fullNameEn": "Nam Trieu Ward",
         "codeName": "nam_trieu",
+        "postalCode": "04345",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.927",
         "areaKm2": 29.51
       }

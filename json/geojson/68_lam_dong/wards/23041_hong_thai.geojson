@@ -8328,6 +8328,8 @@
         "fullName": "Xã Hồng Thái",
         "fullNameEn": "Hong Thai Commune",
         "codeName": "hong_thai",
+        "postalCode": "77321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3076",
         "areaKm2": 101.64
       }

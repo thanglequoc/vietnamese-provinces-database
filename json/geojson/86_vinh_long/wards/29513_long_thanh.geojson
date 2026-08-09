@@ -10188,6 +10188,8 @@
         "fullName": "Xã Long Thành",
         "fullNameEn": "Long Thanh Commune",
         "codeName": "long_thanh",
+        "postalCode": "87706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2517",
         "areaKm2": 51.51
       }

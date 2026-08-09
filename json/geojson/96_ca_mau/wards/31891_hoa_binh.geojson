@@ -12008,6 +12008,8 @@
         "fullName": "Xã Hoà Bình",
         "fullNameEn": "Hoa Binh Commune",
         "codeName": "hoa_binh",
+        "postalCode": "97706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.150",
         "areaKm2": 26.54
       }

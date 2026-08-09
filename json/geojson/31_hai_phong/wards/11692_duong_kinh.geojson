@@ -2080,6 +2080,8 @@
         "fullName": "Phường Dương Kinh",
         "fullNameEn": "Duong Kinh Ward",
         "codeName": "duong_kinh",
+        "postalCode": "04912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.936",
         "areaKm2": 27.96
       }

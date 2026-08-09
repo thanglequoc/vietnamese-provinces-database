@@ -1168,6 +1168,8 @@
         "fullName": "Phường Tân Hưng",
         "fullNameEn": "Tan Hung Ward",
         "codeName": "tan_hung",
+        "postalCode": "03120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.857",
         "areaKm2": 14.18
       }

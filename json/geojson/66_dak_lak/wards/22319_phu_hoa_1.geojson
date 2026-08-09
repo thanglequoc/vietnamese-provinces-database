@@ -6552,6 +6552,8 @@
         "fullName": "Xã Phú Hoà 1",
         "fullNameEn": "Commune Phu Hoa 1",
         "codeName": "phu_hoa_1",
+        "postalCode": "56915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2923",
         "areaKm2": 142.54
       }

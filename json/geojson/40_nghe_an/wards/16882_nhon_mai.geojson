@@ -14748,6 +14748,8 @@
         "fullName": "Xã Nhôn Mai",
         "fullNameEn": "Nhon Mai Commune",
         "codeName": "nhon_mai",
+        "postalCode": "44367",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1509",
         "areaKm2": 310.26
       }

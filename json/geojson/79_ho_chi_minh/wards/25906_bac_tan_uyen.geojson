@@ -8504,6 +8504,8 @@
         "fullName": "Xã Bắc Tân Uyên",
         "fullNameEn": "Bac Tan Uyen Commune",
         "codeName": "bac_tan_uyen",
+        "postalCode": "75516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.24",
         "areaKm2": 143.69
       }

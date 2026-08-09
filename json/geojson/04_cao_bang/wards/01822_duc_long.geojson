@@ -10588,6 +10588,8 @@
         "fullName": "Xã Đức Long",
         "fullNameEn": "Duc Long Commune",
         "codeName": "duc_long",
+        "postalCode": "21608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.989",
         "areaKm2": 106.93
       }

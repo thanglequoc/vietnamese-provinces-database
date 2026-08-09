@@ -1412,6 +1412,8 @@
         "fullName": "Phường Tân Thuận",
         "fullNameEn": "Tan Thuan Ward",
         "codeName": "tan_thuan",
+        "postalCode": "72917",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.110",
         "areaKm2": 10.16
       }

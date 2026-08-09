@@ -6676,6 +6676,8 @@
         "fullName": "Xã Đồng Lương",
         "fullNameEn": "Dong Luong Commune",
         "codeName": "dong_luong",
+        "postalCode": "41807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2720",
         "areaKm2": 76.1
       }

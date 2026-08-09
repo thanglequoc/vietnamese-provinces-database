@@ -2520,6 +2520,8 @@
         "fullName": "Phường Thái Bình",
         "fullNameEn": "Thai Binh Ward",
         "codeName": "thai_binh",
+        "postalCode": "06125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.686",
         "areaKm2": 28.03
       }

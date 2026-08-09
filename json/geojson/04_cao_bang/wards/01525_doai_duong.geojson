@@ -9660,6 +9660,8 @@
         "fullName": "Xã Đoài Dương",
         "fullNameEn": "Doai Duong Commune",
         "codeName": "doai_duong",
+        "postalCode": "21818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1002",
         "areaKm2": 114.48
       }

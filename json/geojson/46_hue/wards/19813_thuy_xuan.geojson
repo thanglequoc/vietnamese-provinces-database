@@ -13296,6 +13296,8 @@
         "fullName": "Phường Thuỷ Xuân",
         "fullNameEn": "Thuy Xuan Ward",
         "codeName": "thuy_xuan",
+        "postalCode": "49131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1691",
         "areaKm2": 37.03
       }

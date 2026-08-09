@@ -2904,6 +2904,8 @@
         "fullName": "Phường Trí Quả",
         "fullNameEn": "Tri Qua Ward",
         "codeName": "tri_qua",
+        "postalCode": "16510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2192",
         "areaKm2": 19.95
       }

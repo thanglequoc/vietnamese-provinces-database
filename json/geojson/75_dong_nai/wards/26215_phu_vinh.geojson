@@ -9888,6 +9888,8 @@
         "fullName": "Xã Phú Vinh",
         "fullNameEn": "Phu Vinh Commune",
         "codeName": "phu_vinh",
+        "postalCode": "76709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3118",
         "areaKm2": 69.5
       }

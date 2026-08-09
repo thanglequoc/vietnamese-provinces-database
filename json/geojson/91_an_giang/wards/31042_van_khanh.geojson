@@ -6804,6 +6804,8 @@
         "fullName": "Xã Vân Khánh",
         "fullNameEn": "Van Khanh Commune",
         "codeName": "van_khanh",
+        "postalCode": "91913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.396",
         "areaKm2": 90.84
       }

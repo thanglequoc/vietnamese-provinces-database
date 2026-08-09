@@ -32200,6 +32200,8 @@
         "fullName": "Xã Tân Tiến",
         "fullNameEn": "Tan Tien Commune",
         "codeName": "tan_tien",
+        "postalCode": "98720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.189",
         "areaKm2": 207.2
       }

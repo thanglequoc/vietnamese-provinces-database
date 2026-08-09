@@ -10292,6 +10292,8 @@
         "fullName": "Tỉnh Tây Ninh",
         "fullNameEn": "Tay Ninh Province",
         "codeName": "tay_ninh",
+        "postalCode": "",
+        "postalCodePrefix": "80, 82, 83",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.40",
         "areaKm2": 8536.44
       }

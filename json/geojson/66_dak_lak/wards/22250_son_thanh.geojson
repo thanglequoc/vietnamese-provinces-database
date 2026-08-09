@@ -10776,6 +10776,8 @@
         "fullName": "Xã Sơn Thành",
         "fullNameEn": "Son Thanh Commune",
         "codeName": "son_thanh",
+        "postalCode": "56719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2915",
         "areaKm2": 218.11
       }

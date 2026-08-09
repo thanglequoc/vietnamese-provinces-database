@@ -9212,6 +9212,8 @@
         "fullName": "Xã Diên Lâm",
         "fullNameEn": "Dien Lam Commune",
         "codeName": "dien_lam",
+        "postalCode": "57510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1133",
         "areaKm2": 117.8
       }

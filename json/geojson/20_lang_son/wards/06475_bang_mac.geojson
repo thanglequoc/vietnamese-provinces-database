@@ -11200,6 +11200,8 @@
         "fullName": "Xã Bằng Mạc",
         "fullNameEn": "Bang Mac Commune",
         "codeName": "bang_mac",
+        "postalCode": "25711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1802",
         "areaKm2": 117.82
       }

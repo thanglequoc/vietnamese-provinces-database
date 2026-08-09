@@ -10808,6 +10808,8 @@
         "fullName": "Xã Côn Lôn",
         "fullNameEn": "Con Lon Commune",
         "codeName": "con_lon",
+        "postalCode": "22414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2317",
         "areaKm2": 160.76
       }

@@ -14148,6 +14148,8 @@
         "fullName": "Xã Sa Loong",
         "fullNameEn": "Sa Loong Commune",
         "codeName": "sa_loong",
+        "postalCode": "60513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.542",
         "areaKm2": 275.26
       }

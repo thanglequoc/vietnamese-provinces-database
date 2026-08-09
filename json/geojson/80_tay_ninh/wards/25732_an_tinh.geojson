@@ -5076,6 +5076,8 @@
         "fullName": "Phường An Tịnh",
         "fullNameEn": "An Tinh Ward",
         "codeName": "an_tinh",
+        "postalCode": "80916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2727",
         "areaKm2": 78.44
       }

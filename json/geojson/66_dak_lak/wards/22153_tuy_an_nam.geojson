@@ -6080,6 +6080,8 @@
         "fullName": "Xã Tuy An Nam",
         "fullNameEn": "Tuy An Nam Commune",
         "codeName": "tuy_an_nam",
+        "postalCode": "56225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2907",
         "areaKm2": 69.99
       }

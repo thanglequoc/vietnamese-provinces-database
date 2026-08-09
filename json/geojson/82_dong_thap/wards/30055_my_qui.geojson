@@ -4636,6 +4636,8 @@
         "fullName": "Xã Mỹ Quí",
         "fullNameEn": "My Qui Commune",
         "codeName": "my_qui",
+        "postalCode": "81212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.421",
         "areaKm2": 119.9
       }

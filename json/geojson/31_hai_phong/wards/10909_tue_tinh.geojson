@@ -2764,6 +2764,8 @@
         "fullName": "Xã Tuệ Tĩnh",
         "fullNameEn": "Tue Tinh Commune",
         "codeName": "tue_tinh",
+        "postalCode": "03627",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.855",
         "areaKm2": 17.78
       }

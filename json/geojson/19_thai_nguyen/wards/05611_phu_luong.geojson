@@ -11944,6 +11944,8 @@
         "fullName": "Xã Phú Lương",
         "fullNameEn": "Phu Luong Commune",
         "codeName": "phu_luong",
+        "postalCode": "24421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1214",
         "areaKm2": 112.39
       }

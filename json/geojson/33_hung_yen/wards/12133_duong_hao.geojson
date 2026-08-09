@@ -3124,6 +3124,8 @@
         "fullName": "Phường Đường Hào",
         "fullNameEn": "Duong Hao Ward",
         "codeName": "duong_hao",
+        "postalCode": "17520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.717",
         "areaKm2": 25.62
       }

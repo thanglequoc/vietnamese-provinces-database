@@ -1828,6 +1828,8 @@
         "fullName": "Xã Cổ Đạm",
         "fullNameEn": "Co Dam Commune",
         "codeName": "co_dam",
+        "postalCode": "45519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2008",
         "areaKm2": 62.67
       }

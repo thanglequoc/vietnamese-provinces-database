@@ -6392,6 +6392,8 @@
         "fullName": "Xã Kỳ Hoa",
         "fullNameEn": "Ky Hoa Commune",
         "codeName": "ky_hoa",
+        "postalCode": "46217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2015",
         "areaKm2": 73.28
       }

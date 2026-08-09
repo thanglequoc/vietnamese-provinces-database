@@ -16540,6 +16540,8 @@
         "fullName": "Xã Bình Giã",
         "fullNameEn": "Binh Gia Commune",
         "codeName": "binh_gia",
+        "postalCode": "78607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2208",
         "areaKm2": 66.96
       }

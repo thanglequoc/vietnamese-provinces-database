@@ -1352,6 +1352,8 @@
         "fullName": "Xã Nam Tiền Hải",
         "fullNameEn": "Nam Tien Hai Commune",
         "codeName": "nam_tien_hai",
+        "postalCode": "06343",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.675",
         "areaKm2": 22.62
       }

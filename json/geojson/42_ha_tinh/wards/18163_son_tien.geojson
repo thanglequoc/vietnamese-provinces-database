@@ -3996,6 +3996,8 @@
         "fullName": "Xã Sơn Tiến",
         "fullNameEn": "Son Tien Commune",
         "codeName": "son_tien",
+        "postalCode": "45820",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2057",
         "areaKm2": 80.97
       }

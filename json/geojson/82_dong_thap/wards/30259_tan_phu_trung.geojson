@@ -9764,6 +9764,8 @@
         "fullName": "Xã Tân Phú Trung",
         "fullNameEn": "Tan Phu Trung Commune",
         "codeName": "tan_phu_trung",
+        "postalCode": "81911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.442",
         "areaKm2": 82.6
       }

@@ -5688,6 +5688,8 @@
         "fullName": "Xã Cam Lâm",
         "fullNameEn": "Cam Lam Commune",
         "codeName": "cam_lam",
+        "postalCode": "57620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1125",
         "areaKm2": 149.9
       }

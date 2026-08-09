@@ -4992,6 +4992,8 @@
         "fullName": "Xã Đình Cương",
         "fullNameEn": "Dinh Cuong Commune",
         "codeName": "dinh_cuong",
+        "postalCode": "54019",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1762",
         "areaKm2": 53.96
       }

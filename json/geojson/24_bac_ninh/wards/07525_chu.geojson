@@ -16228,6 +16228,8 @@
         "fullName": "Phường Chũ",
         "fullNameEn": "Chu Ward",
         "codeName": "chu",
+        "postalCode": "26506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2101",
         "areaKm2": 57.18
       }

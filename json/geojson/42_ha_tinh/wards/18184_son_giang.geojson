@@ -7000,6 +7000,8 @@
         "fullName": "Xã Sơn Giang",
         "fullNameEn": "Son Giang Commune",
         "codeName": "son_giang",
+        "postalCode": "45822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2042",
         "areaKm2": 86.32
       }

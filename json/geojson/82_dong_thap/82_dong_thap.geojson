@@ -6484,6 +6484,8 @@
         "fullName": "Tỉnh Đồng Tháp",
         "fullNameEn": "Dong Thap Province",
         "codeName": "dong_thap",
+        "postalCode": "",
+        "postalCodePrefix": "81, 84",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.127",
         "areaKm2": 5938.64
       }

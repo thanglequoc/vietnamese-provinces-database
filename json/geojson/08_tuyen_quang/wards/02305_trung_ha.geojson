@@ -15500,6 +15500,8 @@
         "fullName": "Xã Trung Hà",
         "fullNameEn": "Trung Ha Commune",
         "codeName": "trung_ha",
+        "postalCode": "22314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2324",
         "areaKm2": 103.18
       }

@@ -5280,6 +5280,8 @@
         "fullName": "Xã Thung Nai",
         "fullNameEn": "Thung Nai Commune",
         "codeName": "thung_nai",
+        "postalCode": "36511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1667",
         "areaKm2": 86.34
       }

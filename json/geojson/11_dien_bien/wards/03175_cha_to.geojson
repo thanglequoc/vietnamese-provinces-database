@@ -16532,6 +16532,8 @@
         "fullName": "Xã Chà Tở",
         "fullNameEn": "Cha To Commune",
         "codeName": "cha_to",
+        "postalCode": "32810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2239",
         "areaKm2": 227.92
       }

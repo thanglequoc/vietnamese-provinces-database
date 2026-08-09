@@ -6196,6 +6196,8 @@
         "fullName": "Xã Xuân Lộc",
         "fullNameEn": "Xuan Loc Commune",
         "codeName": "xuan_loc",
+        "postalCode": "45324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1996",
         "areaKm2": 33.08
       }

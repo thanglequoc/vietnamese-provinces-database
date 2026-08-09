@@ -3044,6 +3044,8 @@
         "fullName": "Xã Long Chữ",
         "fullNameEn": "Long Chu Commune",
         "codeName": "long_chu",
+        "postalCode": "80808",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2733",
         "areaKm2": 92
       }

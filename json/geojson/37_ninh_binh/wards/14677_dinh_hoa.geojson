@@ -2812,6 +2812,8 @@
         "fullName": "Xã Định Hoá",
         "fullNameEn": "Dinh Hoa Commune",
         "codeName": "dinh_hoa",
+        "postalCode": "08724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.777",
         "areaKm2": 21.44
       }

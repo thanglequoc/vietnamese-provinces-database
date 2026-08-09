@@ -5868,6 +5868,8 @@
         "fullName": "Phường Long Thành",
         "fullNameEn": "Long Thanh Ward",
         "codeName": "long_thanh",
+        "postalCode": "76206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3133",
         "areaKm2": 130.1
       }

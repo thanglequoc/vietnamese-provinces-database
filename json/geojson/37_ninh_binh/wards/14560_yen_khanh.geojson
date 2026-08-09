@@ -1904,6 +1904,8 @@
         "fullName": "Xã Yên Khánh",
         "fullNameEn": "Yen Khanh Commune",
         "codeName": "yen_khanh",
+        "postalCode": "08825",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.763",
         "areaKm2": 29.88
       }

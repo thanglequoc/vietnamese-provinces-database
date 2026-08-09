@@ -3028,6 +3028,8 @@
         "fullName": "Xã Phong Doanh",
         "fullNameEn": "Phong Doanh Commune",
         "codeName": "phong_doanh",
+        "postalCode": "07341",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.813",
         "areaKm2": 34.98
       }

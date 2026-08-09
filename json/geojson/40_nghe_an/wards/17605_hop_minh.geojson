@@ -4348,6 +4348,8 @@
         "fullName": "Xã Hợp Minh",
         "fullNameEn": "Hop Minh Commune",
         "codeName": "hop_minh",
+        "postalCode": "43647",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1456",
         "areaKm2": 54.75
       }

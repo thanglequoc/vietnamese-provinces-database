@@ -16600,6 +16600,8 @@
         "fullName": "Xã Nha Bích",
         "fullNameEn": "Nha Bich Commune",
         "codeName": "nha_bich",
+        "postalCode": "67908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2307",
         "areaKm2": 137.1
       }

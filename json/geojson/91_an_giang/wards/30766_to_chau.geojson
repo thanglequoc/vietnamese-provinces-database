@@ -37428,6 +37428,8 @@
         "fullName": "Phường Tô Châu",
         "fullNameEn": "To Chau Ward",
         "codeName": "to_chau",
+        "postalCode": "91510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.361",
         "areaKm2": 79.77
       }

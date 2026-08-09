@@ -9272,6 +9272,8 @@
         "fullName": "Xã Xuân Lãnh",
         "fullNameEn": "Xuan Lanh Commune",
         "codeName": "xuan_lanh",
+        "postalCode": "56415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2900",
         "areaKm2": 174.65
       }

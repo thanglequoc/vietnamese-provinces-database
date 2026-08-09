@@ -11164,6 +11164,8 @@
         "fullName": "Xã Bàu Lâm",
         "fullNameEn": "Bau Lam Commune",
         "codeName": "bau_lam",
+        "postalCode": "78514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2213",
         "areaKm2": 123.83
       }

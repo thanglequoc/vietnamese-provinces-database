@@ -8320,6 +8320,8 @@
         "fullName": "Xã Yên Bình",
         "fullNameEn": "Yen Binh Commune",
         "codeName": "yen_binh",
+        "postalCode": "23724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1184",
         "areaKm2": 100.71
       }

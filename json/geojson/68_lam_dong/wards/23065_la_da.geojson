@@ -25600,6 +25600,8 @@
         "fullName": "Xã La Dạ",
         "fullNameEn": "La Da Commune",
         "codeName": "la_da",
+        "postalCode": "77413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3080",
         "areaKm2": 264.17
       }

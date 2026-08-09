@@ -2196,6 +2196,8 @@
         "fullName": "Phường Định Công",
         "fullNameEn": "Dinh Cong Ward",
         "codeName": "dinh_cong",
+        "postalCode": "11717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3187",
         "areaKm2": 5.34
       }

@@ -5848,6 +5848,8 @@
         "fullName": "Phường Vũng Áng",
         "fullNameEn": "Vung Ang Ward",
         "codeName": "vung_ang",
+        "postalCode": "46221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2017",
         "areaKm2": 82.98
       }

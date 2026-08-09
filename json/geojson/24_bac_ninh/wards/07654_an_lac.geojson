@@ -7528,6 +7528,8 @@
         "fullName": "Xã An Lạc",
         "fullNameEn": "An Lac Commune",
         "codeName": "an_lac",
+        "postalCode": "26421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2116",
         "areaKm2": 134.15
       }

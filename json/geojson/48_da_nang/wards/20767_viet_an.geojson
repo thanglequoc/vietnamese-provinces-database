@@ -10564,6 +10564,8 @@
         "fullName": "Xã Việt An",
         "fullNameEn": "Viet An Commune",
         "codeName": "viet_an",
+        "postalCode": "52219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1991",
         "areaKm2": 150.17
       }

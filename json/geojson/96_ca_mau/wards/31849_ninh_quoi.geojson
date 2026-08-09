@@ -6020,6 +6020,8 @@
         "fullName": "Xã Ninh Quới",
         "fullNameEn": "Ninh Quoi Commune",
         "codeName": "ninh_quoi",
+        "postalCode": "97313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.142",
         "areaKm2": 32.42
       }

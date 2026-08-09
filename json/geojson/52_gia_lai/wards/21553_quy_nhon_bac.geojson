@@ -3540,6 +3540,8 @@
         "fullName": "Phường Quy Nhơn Bắc",
         "fullNameEn": "Quy Nhon Bac Ward",
         "codeName": "quy_nhon_bac",
+        "postalCode": "55129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3007",
         "areaKm2": 23.7
       }

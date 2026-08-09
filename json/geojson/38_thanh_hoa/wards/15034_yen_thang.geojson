@@ -5616,6 +5616,8 @@
         "fullName": "Xã Yên Thắng",
         "fullNameEn": "Yen Thang Commune",
         "codeName": "yen_thang",
+        "postalCode": "41813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2718",
         "areaKm2": 95.22
       }

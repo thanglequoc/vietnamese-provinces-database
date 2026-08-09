@@ -7396,6 +7396,8 @@
         "fullName": "Phường Tân Lập",
         "fullNameEn": "Tan Lap Ward",
         "codeName": "tan_lap",
+        "postalCode": "63108",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2870",
         "areaKm2": 46.7
       }

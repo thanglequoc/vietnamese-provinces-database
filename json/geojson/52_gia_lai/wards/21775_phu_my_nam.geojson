@@ -12676,6 +12676,8 @@
         "fullName": "Xã Phù Mỹ Nam",
         "fullNameEn": "Phu My Nam Commune",
         "codeName": "phu_my_nam",
+        "postalCode": "55379",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2984",
         "areaKm2": 85.1
       }

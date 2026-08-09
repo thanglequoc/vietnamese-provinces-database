@@ -2936,6 +2936,8 @@
         "fullName": "Phường Kinh Bắc",
         "fullNameEn": "Kinh Bac Ward",
         "codeName": "kinh_bac",
+        "postalCode": "16114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2139",
         "areaKm2": 19.95
       }

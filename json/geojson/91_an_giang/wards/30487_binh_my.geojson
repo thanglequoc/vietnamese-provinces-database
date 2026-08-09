@@ -3816,6 +3816,8 @@
         "fullName": "Xã Bình Mỹ",
         "fullNameEn": "Binh My Commune",
         "codeName": "binh_my",
+        "postalCode": "90617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.331",
         "areaKm2": 82.62
       }

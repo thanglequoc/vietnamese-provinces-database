@@ -5992,6 +5992,8 @@
         "fullName": "Xã Dân Chủ",
         "fullNameEn": "Dan Chu Commune",
         "codeName": "dan_chu",
+        "postalCode": "35225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1552",
         "areaKm2": 29.85
       }

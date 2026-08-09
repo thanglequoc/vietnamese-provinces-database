@@ -8344,6 +8344,8 @@
         "fullName": "Xã Lâm Giang",
         "fullNameEn": "Lam Giang Commune",
         "codeName": "lam_giang",
+        "postalCode": "33411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1016",
         "areaKm2": 179.48
       }

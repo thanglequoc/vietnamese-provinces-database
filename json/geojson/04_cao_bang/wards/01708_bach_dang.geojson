@@ -7700,6 +7700,8 @@
         "fullName": "Xã Bạch Đằng",
         "fullNameEn": "Bach Dang Commune",
         "codeName": "bach_dang",
+        "postalCode": "21166",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.952",
         "areaKm2": 141.61
       }

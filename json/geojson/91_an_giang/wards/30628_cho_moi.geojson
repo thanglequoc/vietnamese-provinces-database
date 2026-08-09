@@ -5596,6 +5596,8 @@
         "fullName": "Xã Chợ Mới",
         "fullNameEn": "Cho Moi Commune",
         "codeName": "cho_moi",
+        "postalCode": "90206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.347",
         "areaKm2": 50.43
       }

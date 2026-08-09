@@ -11096,6 +11096,8 @@
         "fullName": "Xã Hoà Vang",
         "fullNameEn": "Hoa Vang Commune",
         "codeName": "hoa_vang",
+        "postalCode": "50817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1900",
         "areaKm2": 107.61
       }

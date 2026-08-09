@@ -19632,6 +19632,8 @@
         "fullName": "Xã Cam Lộ",
         "fullNameEn": "Cam Lo Commune",
         "codeName": "cam_lo",
+        "postalCode": "48206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.570",
         "areaKm2": 166.85
       }

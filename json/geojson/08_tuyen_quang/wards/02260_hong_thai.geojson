@@ -14100,6 +14100,8 @@
         "fullName": "Xã Hồng Thái",
         "fullNameEn": "Hong Thai Commune",
         "codeName": "hong_thai",
+        "postalCode": "22409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2319",
         "areaKm2": 222.59
       }

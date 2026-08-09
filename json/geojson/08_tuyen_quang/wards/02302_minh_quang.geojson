@@ -15916,6 +15916,8 @@
         "fullName": "Xã Minh Quang",
         "fullNameEn": "Minh Quang Commune",
         "codeName": "minh_quang",
+        "postalCode": "22515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2323",
         "areaKm2": 191.34
       }

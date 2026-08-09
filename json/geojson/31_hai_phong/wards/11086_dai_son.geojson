@@ -1592,6 +1592,8 @@
         "fullName": "Xã Đại Sơn",
         "fullNameEn": "Dai Son Commune",
         "codeName": "dai_son",
+        "postalCode": "03912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.841",
         "areaKm2": 22.99
       }

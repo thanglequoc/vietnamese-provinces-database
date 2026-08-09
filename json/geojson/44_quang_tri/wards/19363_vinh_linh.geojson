@@ -5896,6 +5896,8 @@
         "fullName": "Xã Vĩnh Linh",
         "fullNameEn": "Vinh Linh Commune",
         "codeName": "vinh_linh",
+        "postalCode": "48428",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.561",
         "areaKm2": 90.37
       }

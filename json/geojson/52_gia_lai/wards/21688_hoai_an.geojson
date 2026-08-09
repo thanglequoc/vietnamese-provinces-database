@@ -13792,6 +13792,8 @@
         "fullName": "Xã Hoài Ân",
         "fullNameEn": "Hoai An Commune",
         "codeName": "hoai_an",
+        "postalCode": "55621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2981",
         "areaKm2": 115.72
       }

@@ -33244,6 +33244,8 @@
         "fullName": "Phường Xuân Lộc",
         "fullNameEn": "Xuan Loc Ward",
         "codeName": "xuan_loc",
+        "postalCode": "76621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3141",
         "areaKm2": 140.5
       }

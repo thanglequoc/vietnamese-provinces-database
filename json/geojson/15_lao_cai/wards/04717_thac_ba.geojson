@@ -9196,6 +9196,8 @@
         "fullName": "Xã Thác Bà",
         "fullNameEn": "Thac Ba Commune",
         "codeName": "thac_ba",
+        "postalCode": "33231",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1051",
         "areaKm2": 142.54
       }

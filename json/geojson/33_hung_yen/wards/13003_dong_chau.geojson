@@ -3940,6 +3940,8 @@
         "fullName": "Xã Đồng Châu",
         "fullNameEn": "Dong Chau Commune",
         "codeName": "dong_chau",
+        "postalCode": "06344",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.678",
         "areaKm2": 30.67
       }

@@ -10888,6 +10888,8 @@
         "fullName": "Xã Hoàn Lão",
         "fullNameEn": "Hoan Lao Commune",
         "codeName": "hoan_lao",
+        "postalCode": "47206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.620",
         "areaKm2": 99.03
       }

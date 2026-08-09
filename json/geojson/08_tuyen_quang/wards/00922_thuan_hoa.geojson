@@ -6136,6 +6136,8 @@
         "fullName": "Xã Thuận Hoà",
         "fullNameEn": "Thuan Hoa Commune",
         "codeName": "thuan_hoa",
+        "postalCode": "20213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2390",
         "areaKm2": 108.4
       }

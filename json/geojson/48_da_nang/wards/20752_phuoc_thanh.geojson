@@ -9188,6 +9188,8 @@
         "fullName": "Xã Phước Thành",
         "fullNameEn": "Phuoc Thanh Commune",
         "codeName": "phuoc_thanh",
+        "postalCode": "52314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1988",
         "areaKm2": 286.65
       }

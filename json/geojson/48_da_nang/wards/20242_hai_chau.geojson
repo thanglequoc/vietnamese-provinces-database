@@ -1348,6 +1348,8 @@
         "fullName": "Phường Hải Châu",
         "fullNameEn": "Hai Chau Ward",
         "codeName": "hai_chau",
+        "postalCode": "50206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1908",
         "areaKm2": 7.58
       }

@@ -2308,6 +2308,8 @@
         "fullName": "Phường Đồng Nguyên",
         "fullNameEn": "Dong Nguyen Ward",
         "codeName": "dong_nguyen",
+        "postalCode": "16307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2189",
         "areaKm2": 12.64
       }

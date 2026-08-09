@@ -2252,6 +2252,8 @@
         "fullName": "Phường Hoà Thuận",
         "fullNameEn": "Hoa Thuan Ward",
         "codeName": "hoa_thuan",
+        "postalCode": "87118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2500",
         "areaKm2": 16.51
       }

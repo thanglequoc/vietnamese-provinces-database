@@ -23020,6 +23020,8 @@
         "fullName": "Xã Biển Hồ",
         "fullNameEn": "Bien Ho Commune",
         "codeName": "bien_ho",
+        "postalCode": "61121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3044",
         "areaKm2": 170.44
       }

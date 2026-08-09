@@ -7572,6 +7572,8 @@
         "fullName": "Xã Tiên Lục",
         "fullNameEn": "Tien Luc Commune",
         "codeName": "tien_luc",
+        "postalCode": "26618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2168",
         "areaKm2": 51.49
       }

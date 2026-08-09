@@ -5868,6 +5868,8 @@
         "fullName": "Phường Phú Tân",
         "fullNameEn": "Phu Tan Ward",
         "codeName": "phu_tan",
+        "postalCode": "86112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2437",
         "areaKm2": 26.58
       }

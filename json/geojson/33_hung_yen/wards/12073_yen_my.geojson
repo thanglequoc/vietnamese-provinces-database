@@ -3100,6 +3100,8 @@
         "fullName": "Xã Yên Mỹ",
         "fullNameEn": "Yen My Commune",
         "codeName": "yen_my",
+        "postalCode": "17706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.713",
         "areaKm2": 33.12
       }

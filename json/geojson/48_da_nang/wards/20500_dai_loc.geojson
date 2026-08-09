@@ -4904,6 +4904,8 @@
         "fullName": "Xã Đại Lộc",
         "fullNameEn": "Dai Loc Commune",
         "codeName": "dai_loc",
+        "postalCode": "51624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1941",
         "areaKm2": 73.97
       }

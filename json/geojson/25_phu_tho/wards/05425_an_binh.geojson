@@ -13460,6 +13460,8 @@
         "fullName": "Xã An Bình",
         "fullNameEn": "An Binh Commune",
         "codeName": "an_binh",
+        "postalCode": "36818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1672",
         "areaKm2": 127.41
       }

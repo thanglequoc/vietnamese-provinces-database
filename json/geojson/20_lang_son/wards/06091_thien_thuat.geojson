@@ -10076,6 +10076,8 @@
         "fullName": "Xã Thiện Thuật",
         "fullNameEn": "Thien Thuat Commune",
         "codeName": "thien_thuat",
+        "postalCode": "25416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1833",
         "areaKm2": 134.5
       }

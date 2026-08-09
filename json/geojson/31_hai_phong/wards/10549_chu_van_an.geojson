@@ -3552,6 +3552,8 @@
         "fullName": "Phường Chu Văn An",
         "fullNameEn": "Chu Van An Ward",
         "codeName": "chu_van_an",
+        "postalCode": "03526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.877",
         "areaKm2": 40.86
       }

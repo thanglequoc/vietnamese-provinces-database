@@ -9228,6 +9228,8 @@
         "fullName": "Xã Minh Sơn",
         "fullNameEn": "Minh Son Commune",
         "codeName": "minh_son",
+        "postalCode": "20909",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2398",
         "areaKm2": 146.96
       }

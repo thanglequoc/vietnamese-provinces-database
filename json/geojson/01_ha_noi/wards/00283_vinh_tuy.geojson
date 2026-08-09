@@ -1748,6 +1748,8 @@
         "fullName": "Phường Vĩnh Tuy",
         "fullNameEn": "Vinh Tuy Ward",
         "codeName": "vinh_tuy",
+        "postalCode": "11622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3200",
         "areaKm2": 2.33
       }

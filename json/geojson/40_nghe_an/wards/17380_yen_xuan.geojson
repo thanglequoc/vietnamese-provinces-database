@@ -5312,6 +5312,8 @@
         "fullName": "Xã Yên Xuân",
         "fullNameEn": "Yen Xuan Commune",
         "codeName": "yen_xuan",
+        "postalCode": "44228",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1424",
         "areaKm2": 90.41
       }

@@ -4924,6 +4924,8 @@
         "fullName": "Phường Đồng Hới",
         "fullNameEn": "Dong Hoi Ward",
         "codeName": "dong_hoi",
+        "postalCode": "47122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.597",
         "areaKm2": 41.35
       }

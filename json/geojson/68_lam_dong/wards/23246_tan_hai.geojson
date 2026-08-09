@@ -7392,6 +7392,8 @@
         "fullName": "Xã Tân Hải",
         "fullNameEn": "Tan Hai Commune",
         "codeName": "tan_hai",
+        "postalCode": "77660",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3098",
         "areaKm2": 77.18
       }

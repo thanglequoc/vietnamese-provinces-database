@@ -2188,6 +2188,8 @@
         "fullName": "Xã Bắc Lý",
         "fullNameEn": "Bac Ly Commune",
         "codeName": "bac_ly",
+        "postalCode": "18609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2774",
         "areaKm2": 31.17
       }

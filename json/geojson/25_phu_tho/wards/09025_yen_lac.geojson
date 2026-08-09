@@ -4960,6 +4960,8 @@
         "fullName": "Xã Yên Lạc",
         "fullNameEn": "Yen Lac Commune",
         "codeName": "yen_lac",
+        "postalCode": "15706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1629",
         "areaKm2": 21.7
       }

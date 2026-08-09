@@ -6364,6 +6364,8 @@
         "fullName": "Phường Đông Quang",
         "fullNameEn": "Dong Quang Ward",
         "codeName": "dong_quang",
+        "postalCode": "40819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2588",
         "areaKm2": 48.6
       }

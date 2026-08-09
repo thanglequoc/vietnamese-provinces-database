@@ -7564,6 +7564,8 @@
         "fullName": "Xã Tân Pheo",
         "fullNameEn": "Tan Pheo Commune",
         "codeName": "tan_pheo",
+        "postalCode": "36310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1681",
         "areaKm2": 139.38
       }

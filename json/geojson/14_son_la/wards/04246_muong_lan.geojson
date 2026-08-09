@@ -12008,6 +12008,8 @@
         "fullName": "Xã Mường Lạn",
         "fullNameEn": "Muong Lan Commune",
         "codeName": "muong_lan",
+        "postalCode": "34463",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1407",
         "areaKm2": 264.89
       }

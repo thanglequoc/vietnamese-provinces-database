@@ -1896,6 +1896,8 @@
         "fullName": "Xã Đông Thành",
         "fullNameEn": "Dong Thanh Commune",
         "codeName": "dong_thanh",
+        "postalCode": "82806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1299",
         "areaKm2": 130.94
       }

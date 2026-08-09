@@ -1680,6 +1680,8 @@
         "fullName": "Xã Lam Sơn",
         "fullNameEn": "Lam Son Commune",
         "codeName": "lam_son",
+        "postalCode": "41628",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2670",
         "areaKm2": 24.9
       }

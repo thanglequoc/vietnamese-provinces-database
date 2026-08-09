@@ -8336,6 +8336,8 @@
         "fullName": "Xã Bình Minh",
         "fullNameEn": "Binh Minh Commune",
         "codeName": "binh_minh",
+        "postalCode": "76315",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3125",
         "areaKm2": 36.7
       }

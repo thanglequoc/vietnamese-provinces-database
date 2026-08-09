@@ -16488,6 +16488,8 @@
         "fullName": "Phường Hạ Long",
         "fullNameEn": "Ha Long Ward",
         "codeName": "ha_long",
+        "postalCode": "01139",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3289",
         "areaKm2": 6.08
       }

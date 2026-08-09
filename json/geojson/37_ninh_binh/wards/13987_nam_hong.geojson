@@ -2304,6 +2304,8 @@
         "fullName": "Xã Nam Hồng",
         "fullNameEn": "Nam Hong Commune",
         "codeName": "nam_hong",
+        "postalCode": "07509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.797",
         "areaKm2": 28.81
       }

@@ -14624,6 +14624,8 @@
         "fullName": "Xã Thống Nhất",
         "fullNameEn": "Thong Nhat Commune",
         "codeName": "thong_nhat",
+        "postalCode": "25815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1838",
         "areaKm2": 190.61
       }

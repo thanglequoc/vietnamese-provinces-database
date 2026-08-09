@@ -23380,6 +23380,8 @@
         "fullName": "Xã Quảng Trực",
         "fullNameEn": "Quang Truc Commune",
         "codeName": "quang_truc",
+        "postalCode": "65711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2794",
         "areaKm2": 558.78
       }

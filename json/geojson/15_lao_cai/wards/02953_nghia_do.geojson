@@ -11080,6 +11080,8 @@
         "fullName": "Xã Nghĩa Đô",
         "fullNameEn": "Nghia Do Commune",
         "codeName": "nghia_do",
+        "postalCode": "31910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1075",
         "areaKm2": 159.4
       }

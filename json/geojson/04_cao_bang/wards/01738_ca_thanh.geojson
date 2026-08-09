@@ -8528,6 +8528,8 @@
         "fullName": "Xã Ca Thành",
         "fullNameEn": "Ca Thanh Commune",
         "codeName": "ca_thanh",
+        "postalCode": "21512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.980",
         "areaKm2": 109.85
       }

@@ -16296,6 +16296,8 @@
         "fullName": "Xã Phan Sơn",
         "fullNameEn": "Phan Son Commune",
         "codeName": "phan_son",
+        "postalCode": "77312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3072",
         "areaKm2": 584.52
       }

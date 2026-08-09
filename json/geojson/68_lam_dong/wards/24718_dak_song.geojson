@@ -6764,6 +6764,8 @@
         "fullName": "Xã Đắk Song",
         "fullNameEn": "Dak Song Commune",
         "codeName": "dak_song",
+        "postalCode": "65615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2816",
         "areaKm2": 193.19
       }

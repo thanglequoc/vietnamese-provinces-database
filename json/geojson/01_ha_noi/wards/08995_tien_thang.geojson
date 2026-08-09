@@ -8240,6 +8240,8 @@
         "fullName": "Xã Tiến Thắng",
         "fullNameEn": "Tien Thang Commune",
         "codeName": "tien_thang",
+        "postalCode": "12912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3250",
         "areaKm2": 36.34
       }

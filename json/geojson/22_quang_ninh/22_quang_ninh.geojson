@@ -32588,6 +32588,8 @@
         "fullName": "Tỉnh Quảng Ninh",
         "fullNameEn": "Quang Ninh Province",
         "codeName": "quang_ninh",
+        "postalCode": "",
+        "postalCodePrefix": "01, 02",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.106",
         "areaKm2": 6207.95
       }

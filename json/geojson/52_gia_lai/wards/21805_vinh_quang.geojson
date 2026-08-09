@@ -9132,6 +9132,8 @@
         "fullName": "Xã Vĩnh Quang",
         "fullNameEn": "Vinh Quang Commune",
         "codeName": "vinh_quang",
+        "postalCode": "55711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3005",
         "areaKm2": 89.35
       }

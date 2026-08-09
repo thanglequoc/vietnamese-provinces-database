@@ -7988,6 +7988,8 @@
         "fullName": "Xã Mỹ Lệ",
         "fullNameEn": "My Le Commune",
         "codeName": "my_le",
+        "postalCode": "82408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1322",
         "areaKm2": 39.85
       }

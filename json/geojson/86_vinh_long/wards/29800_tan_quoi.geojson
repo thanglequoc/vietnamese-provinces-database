@@ -2580,6 +2580,8 @@
         "fullName": "Xã Tân Quới",
         "fullNameEn": "Tan Quoi Commune",
         "codeName": "tan_quoi",
+        "postalCode": "85406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2552",
         "areaKm2": 45.66
       }

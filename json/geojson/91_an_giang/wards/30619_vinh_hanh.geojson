@@ -10520,6 +10520,8 @@
         "fullName": "Xã Vĩnh Hanh",
         "fullNameEn": "Vinh Hanh Commune",
         "codeName": "vinh_hanh",
+        "postalCode": "90911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.344",
         "areaKm2": 76.81
       }

@@ -12432,6 +12432,8 @@
         "fullName": "Xã Bình Khê",
         "fullNameEn": "Binh Khe Commune",
         "codeName": "binh_khe",
+        "postalCode": "55822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2995",
         "areaKm2": 151.83
       }

@@ -3956,6 +3956,8 @@
         "fullName": "Xã Thọ Phú",
         "fullNameEn": "Tho Phu Commune",
         "codeName": "tho_phu",
+        "postalCode": "41513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2665",
         "areaKm2": 35.12
       }

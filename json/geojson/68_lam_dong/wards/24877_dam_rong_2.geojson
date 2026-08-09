@@ -43848,6 +43848,8 @@
         "fullName": "Xã Đam Rông 2",
         "fullNameEn": "Commune Dam Rong 2",
         "codeName": "dam_rong_2",
+        "postalCode": "66265",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.501",
         "areaKm2": 365.58
       }

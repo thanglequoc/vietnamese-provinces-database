@@ -15588,6 +15588,8 @@
         "fullName": "Xã Bảo Đài",
         "fullNameEn": "Bao Dai Commune",
         "codeName": "bao_dai",
+        "postalCode": "26313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2174",
         "areaKm2": 83.02
       }

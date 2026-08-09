@@ -4556,6 +4556,8 @@
         "fullName": "Phường Bình Quới",
         "fullNameEn": "Binh Quoi Ward",
         "codeName": "binh_quoi",
+        "postalCode": "72328",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.64",
         "areaKm2": 6.34
       }

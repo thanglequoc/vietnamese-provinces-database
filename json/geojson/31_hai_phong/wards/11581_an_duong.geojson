@@ -2216,6 +2216,8 @@
         "fullName": "Phường An Dương",
         "fullNameEn": "An Duong Ward",
         "codeName": "an_duong",
+        "postalCode": "04422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.920",
         "areaKm2": 31.23
       }

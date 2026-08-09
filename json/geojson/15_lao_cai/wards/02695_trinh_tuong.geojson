@@ -6436,6 +6436,8 @@
         "fullName": "Xã Trịnh Tường",
         "fullNameEn": "Trinh Tuong Commune",
         "codeName": "trinh_tuong",
+        "postalCode": "31610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1093",
         "areaKm2": 146.6
       }

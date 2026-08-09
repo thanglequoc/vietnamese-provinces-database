@@ -8056,6 +8056,8 @@
         "fullName": "Xã Sông Mã",
         "fullNameEn": "Song Ma Commune",
         "codeName": "song_ma",
+        "postalCode": "34406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1395",
         "areaKm2": 105.99
       }

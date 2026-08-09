@@ -2696,6 +2696,8 @@
         "fullName": "Phường Bình Trưng",
         "fullNameEn": "Binh Trung Ward",
         "codeName": "binh_trung",
+        "postalCode": "71322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.80",
         "areaKm2": 14.82
       }

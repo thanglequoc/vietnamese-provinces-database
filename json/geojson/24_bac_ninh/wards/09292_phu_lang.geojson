@@ -1692,6 +1692,8 @@
         "fullName": "Xã Phù Lãng",
         "fullNameEn": "Phu Lang Commune",
         "codeName": "phu_lang",
+        "postalCode": "16826",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2184",
         "areaKm2": 28.15
       }

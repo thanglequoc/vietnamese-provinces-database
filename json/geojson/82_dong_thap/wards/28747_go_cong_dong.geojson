@@ -4528,6 +4528,8 @@
         "fullName": "Xã Gò Công Đông",
         "fullNameEn": "Go Cong Dong Commune",
         "codeName": "go_cong_dong",
+        "postalCode": "84369",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.496",
         "areaKm2": 106.4
       }

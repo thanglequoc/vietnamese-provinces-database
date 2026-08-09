@@ -10048,6 +10048,8 @@
         "fullName": "Xã Đồng Sơn",
         "fullNameEn": "Dong Son Commune",
         "codeName": "dong_son",
+        "postalCode": "84411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.489",
         "areaKm2": 44.3
       }

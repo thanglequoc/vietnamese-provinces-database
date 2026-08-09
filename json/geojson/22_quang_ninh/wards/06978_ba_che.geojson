@@ -15888,6 +15888,8 @@
         "fullName": "Xã Ba Chẽ",
         "fullNameEn": "Ba Che Commune",
         "codeName": "ba_che",
+        "postalCode": "02006",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1876",
         "areaKm2": 332.68
       }

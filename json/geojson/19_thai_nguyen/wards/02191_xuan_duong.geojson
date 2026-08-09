@@ -8668,6 +8668,8 @@
         "fullName": "Xã Xuân Dương",
         "fullNameEn": "Xuan Duong Commune",
         "codeName": "xuan_duong",
+        "postalCode": "23819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1251",
         "areaKm2": 160.15
       }

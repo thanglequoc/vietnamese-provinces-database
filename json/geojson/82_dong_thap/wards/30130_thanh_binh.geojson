@@ -6760,6 +6760,8 @@
         "fullName": "Xã Thanh Bình",
         "fullNameEn": "Thanh Binh Commune",
         "codeName": "thanh_binh",
+        "postalCode": "81606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.430",
         "areaKm2": 86
       }

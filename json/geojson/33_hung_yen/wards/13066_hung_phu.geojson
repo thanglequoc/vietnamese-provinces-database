@@ -1808,6 +1808,8 @@
         "fullName": "Xã Hưng Phú",
         "fullNameEn": "Hung Phu Commune",
         "codeName": "hung_phu",
+        "postalCode": "06345",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.673",
         "areaKm2": 45.08
       }

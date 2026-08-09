@@ -6808,6 +6808,8 @@
         "fullName": "Xã Na Mèo",
         "fullNameEn": "Na Meo Commune",
         "codeName": "na_meo",
+        "postalCode": "42017",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2722",
         "areaKm2": 127.44
       }

@@ -10512,6 +10512,8 @@
         "fullName": "Xã Tân Thành Bình",
         "fullNameEn": "Tan Thanh Binh Commune",
         "codeName": "tan_thanh_binh",
+        "postalCode": "86409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2451",
         "areaKm2": 52.65
       }

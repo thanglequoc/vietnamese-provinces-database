@@ -6828,6 +6828,8 @@
         "fullName": "Xã Lộc Ninh",
         "fullNameEn": "Loc Ninh Commune",
         "codeName": "loc_ninh",
+        "postalCode": "80212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2739",
         "areaKm2": 90.25
       }

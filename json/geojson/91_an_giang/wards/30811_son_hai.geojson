@@ -6276,6 +6276,8 @@
         "fullName": "Xã Sơn Hải",
         "fullNameEn": "Son Hai Commune",
         "codeName": "son_hai",
+        "postalCode": "91612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3305",
         "areaKm2": 4.31
       }

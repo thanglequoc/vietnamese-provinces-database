@@ -5160,6 +5160,8 @@
         "fullName": "Xã Quỳnh Phú",
         "fullNameEn": "Quynh Phu Commune",
         "codeName": "quynh_phu",
+        "postalCode": "43541",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1490",
         "areaKm2": 33.48
       }

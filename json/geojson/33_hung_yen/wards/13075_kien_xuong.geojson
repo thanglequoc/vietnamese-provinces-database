@@ -3524,6 +3524,8 @@
         "fullName": "Xã Kiến Xương",
         "fullNameEn": "Kien Xuong Commune",
         "codeName": "kien_xuong",
+        "postalCode": "06206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.698",
         "areaKm2": 36.73
       }

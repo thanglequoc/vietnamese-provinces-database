@@ -9068,6 +9068,8 @@
         "fullName": "Thành phố Huế",
         "fullNameEn": "Hue City",
         "codeName": "hue",
+        "postalCode": "",
+        "postalCodePrefix": "49",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.134",
         "areaKm2": 4947.11
       }

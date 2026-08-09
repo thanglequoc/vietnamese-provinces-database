@@ -26412,6 +26412,8 @@
         "fullName": "Xã Quảng Hoà",
         "fullNameEn": "Quang Hoa Commune",
         "codeName": "quang_hoa",
+        "postalCode": "65212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2821",
         "areaKm2": 85.44
       }

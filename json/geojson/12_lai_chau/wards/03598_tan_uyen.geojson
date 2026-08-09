@@ -14272,6 +14272,8 @@
         "fullName": "Xã Tân Uyên",
         "fullNameEn": "Tan Uyen Commune",
         "codeName": "tan_uyen",
+        "postalCode": "30706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2092",
         "areaKm2": 296.25
       }

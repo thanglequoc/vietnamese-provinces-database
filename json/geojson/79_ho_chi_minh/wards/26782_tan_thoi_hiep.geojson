@@ -3684,6 +3684,8 @@
         "fullName": "Phường Tân Thới Hiệp",
         "fullNameEn": "Tan Thoi Hiep Ward",
         "codeName": "tan_thoi_hiep",
+        "postalCode": "71511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.43",
         "areaKm2": 8.06
       }

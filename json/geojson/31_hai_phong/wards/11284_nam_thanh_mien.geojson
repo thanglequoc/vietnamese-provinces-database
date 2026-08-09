@@ -2848,6 +2848,8 @@
         "fullName": "Xã Nam Thanh Miện",
         "fullNameEn": "Nam Thanh Mien Commune",
         "codeName": "nam_thanh_mien",
+        "postalCode": "03778",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.884",
         "areaKm2": 23.99
       }

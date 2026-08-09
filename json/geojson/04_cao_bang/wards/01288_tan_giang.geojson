@@ -5060,6 +5060,8 @@
         "fullName": "Phường Tân Giang",
         "fullNameEn": "Tan Giang Ward",
         "codeName": "tan_giang",
+        "postalCode": "21112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.974",
         "areaKm2": 84.26
       }

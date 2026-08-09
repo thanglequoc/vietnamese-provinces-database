@@ -1232,6 +1232,8 @@
         "fullName": "Phường Phù Vân",
         "fullNameEn": "Phu Van Ward",
         "codeName": "phu_van",
+        "postalCode": "18113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2792",
         "areaKm2": 19.34
       }

@@ -16324,6 +16324,8 @@
         "fullName": "Xã Mường Tùng",
         "fullNameEn": "Muong Tung Commune",
         "codeName": "muong_tung",
+        "postalCode": "32763",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2240",
         "areaKm2": 278.93
       }

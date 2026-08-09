@@ -3300,6 +3300,8 @@
         "fullName": "Phường Trà Vinh",
         "fullNameEn": "Tra Vinh Ward",
         "codeName": "tra_vinh",
+        "postalCode": "87116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2484",
         "areaKm2": 15.73
       }

@@ -8284,6 +8284,8 @@
         "fullName": "Phường Hoành Bồ",
         "fullNameEn": "Hoanh Bo Ward",
         "codeName": "hoanh_bo",
+        "postalCode": "01126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1863",
         "areaKm2": 175.94
       }

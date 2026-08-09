@@ -11676,6 +11676,8 @@
         "fullName": "Xã Lương Minh",
         "fullNameEn": "Luong Minh Commune",
         "codeName": "luong_minh",
+        "postalCode": "02010",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1859",
         "areaKm2": 225.28
       }

@@ -4760,6 +4760,8 @@
         "fullName": "Phường Vĩnh Phúc",
         "fullNameEn": "Vinh Phuc Ward",
         "codeName": "vinh_phuc",
+        "postalCode": "15115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1606",
         "areaKm2": 25.3
       }

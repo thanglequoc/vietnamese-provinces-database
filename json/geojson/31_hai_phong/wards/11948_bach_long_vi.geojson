@@ -688,6 +688,8 @@
         "fullName": "Đặc khu Bạch Long Vĩ",
         "fullNameEn": "Bach Long Vi Special administrative region",
         "codeName": "bach_long_vi",
+        "postalCode": "05506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3294",
         "areaKm2": 3.07
       }

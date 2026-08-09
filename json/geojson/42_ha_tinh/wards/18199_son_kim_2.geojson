@@ -10852,6 +10852,8 @@
         "fullName": "Xã Sơn Kim 2",
         "fullNameEn": "Commune Son Kim 2",
         "codeName": "son_kim_2",
+        "postalCode": "45837",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2053",
         "areaKm2": 208.46
       }

@@ -5888,6 +5888,8 @@
         "fullName": "Xã Ia Sao",
         "fullNameEn": "Ia Sao Commune",
         "codeName": "ia_sao",
+        "postalCode": "62012",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2962",
         "areaKm2": 114.6
       }

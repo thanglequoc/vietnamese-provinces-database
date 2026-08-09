@@ -14632,6 +14632,8 @@
         "fullName": "Xã Sơn Hoà",
         "fullNameEn": "Son Hoa Commune",
         "codeName": "son_hoa",
+        "postalCode": "56520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2901",
         "areaKm2": 267.39
       }

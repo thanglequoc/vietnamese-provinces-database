@@ -6800,6 +6800,8 @@
         "fullName": "Xã Đại Xuyên",
         "fullNameEn": "Dai Xuyen Commune",
         "codeName": "dai_xuyen",
+        "postalCode": "13930",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3275",
         "areaKm2": 51.66
       }

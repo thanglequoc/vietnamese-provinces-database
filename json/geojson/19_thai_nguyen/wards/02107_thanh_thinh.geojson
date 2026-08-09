@@ -6888,6 +6888,8 @@
         "fullName": "Xã Thanh Thịnh",
         "fullNameEn": "Thanh Thinh Commune",
         "codeName": "thanh_thinh",
+        "postalCode": "23716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1245",
         "areaKm2": 112.31
       }

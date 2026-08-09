@@ -6280,6 +6280,8 @@
         "fullName": "Xã Trần Phú",
         "fullNameEn": "Tran Phu Commune",
         "codeName": "tran_phu",
+        "postalCode": "23821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1250",
         "areaKm2": 145.29
       }

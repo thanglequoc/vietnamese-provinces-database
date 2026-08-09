@@ -19344,6 +19344,8 @@
         "fullName": "Xã Hảo Đước",
         "fullNameEn": "Hao Duoc Commune",
         "codeName": "hao_duoc",
+        "postalCode": "80509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2747",
         "areaKm2": 93.75
       }

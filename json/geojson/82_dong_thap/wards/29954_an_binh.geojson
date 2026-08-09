@@ -4056,6 +4056,8 @@
         "fullName": "Phường An Bình",
         "fullNameEn": "An Binh Ward",
         "codeName": "an_binh",
+        "postalCode": "81513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.411",
         "areaKm2": 50.1
       }

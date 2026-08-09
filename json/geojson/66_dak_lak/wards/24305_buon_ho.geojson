@@ -10552,6 +10552,8 @@
         "fullName": "Phường Buôn Hồ",
         "fullNameEn": "Buon Ho Ward",
         "codeName": "buon_ho",
+        "postalCode": "64018",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2843",
         "areaKm2": 66.54
       }

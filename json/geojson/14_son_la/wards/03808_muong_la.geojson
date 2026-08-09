@@ -13936,6 +13936,8 @@
         "fullName": "Xã Mường La",
         "fullNameEn": "Muong La Commune",
         "codeName": "muong_la",
+        "postalCode": "34222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1354",
         "areaKm2": 341.86
       }

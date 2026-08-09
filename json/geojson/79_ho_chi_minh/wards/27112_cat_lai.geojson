@@ -2028,6 +2028,8 @@
         "fullName": "Phường Cát Lái",
         "fullNameEn": "Cat Lai Ward",
         "codeName": "cat_lai",
+        "postalCode": "71115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.81",
         "areaKm2": 19.65
       }

@@ -4428,6 +4428,8 @@
         "fullName": "Xã Tân Minh",
         "fullNameEn": "Tan Minh Commune",
         "codeName": "tan_minh",
+        "postalCode": "07309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.782",
         "areaKm2": 44.65
       }

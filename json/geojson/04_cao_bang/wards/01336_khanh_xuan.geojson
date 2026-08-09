@@ -13044,6 +13044,8 @@
         "fullName": "Xã Khánh Xuân",
         "fullNameEn": "Khanh Xuan Commune",
         "codeName": "khanh_xuan",
+        "postalCode": "21372",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.985",
         "areaKm2": 109.96
       }

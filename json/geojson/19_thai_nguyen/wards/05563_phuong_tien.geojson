@@ -11884,6 +11884,8 @@
         "fullName": "Xã Phượng Tiến",
         "fullNameEn": "Phuong Tien Commune",
         "codeName": "phuong_tien",
+        "postalCode": "24529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1205",
         "areaKm2": 102.7
       }

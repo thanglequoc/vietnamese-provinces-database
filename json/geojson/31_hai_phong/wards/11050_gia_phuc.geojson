@@ -4152,6 +4152,8 @@
         "fullName": "Xã Gia Phúc",
         "fullNameEn": "Gia Phuc Commune",
         "codeName": "gia_phuc",
+        "postalCode": "03657",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.856",
         "areaKm2": 31.79
       }

@@ -13180,6 +13180,8 @@
         "fullName": "Phường Đông Gia Nghĩa",
         "fullNameEn": "Dong Gia Nghia Ward",
         "codeName": "dong_gia_nghia",
+        "postalCode": "65114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2810",
         "areaKm2": 105.78
       }

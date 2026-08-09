@@ -11828,6 +11828,8 @@
         "fullName": "Xã Nhu Gia",
         "fullNameEn": "Nhu Gia Commune",
         "codeName": "nhu_gia",
+        "postalCode": "96619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.290",
         "areaKm2": 75.59
       }

@@ -4144,6 +4144,8 @@
         "fullName": "Xã Thần Khê",
         "fullNameEn": "Than Khe Commune",
         "codeName": "than_khe",
+        "postalCode": "06743",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.658",
         "areaKm2": 20.39
       }

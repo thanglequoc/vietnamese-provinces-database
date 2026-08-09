@@ -8296,6 +8296,8 @@
         "fullName": "Phường Điện Biên Phủ",
         "fullNameEn": "Dien Bien Phu Ward",
         "codeName": "dien_bien_phu",
+        "postalCode": "32120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2228",
         "areaKm2": 56.75
       }

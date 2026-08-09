@@ -10868,6 +10868,8 @@
         "fullName": "Phường An Phú Đông",
         "fullNameEn": "An Phu Dong Ward",
         "codeName": "an_phu_dong",
+        "postalCode": "71516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.138",
         "areaKm2": 14.59
       }

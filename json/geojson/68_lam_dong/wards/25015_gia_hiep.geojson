@@ -26508,6 +26508,8 @@
         "fullName": "Xã Gia Hiệp",
         "fullNameEn": "Gia Hiep Commune",
         "codeName": "gia_hiep",
+        "postalCode": "66713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.529",
         "areaKm2": 324.43
       }

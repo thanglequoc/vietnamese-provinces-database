@@ -20332,6 +20332,8 @@
         "fullName": "Xã Đắk Liêng",
         "fullNameEn": "Dak Lieng Commune",
         "codeName": "dak_lieng",
+        "postalCode": "64307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2880",
         "areaKm2": 135.55
       }

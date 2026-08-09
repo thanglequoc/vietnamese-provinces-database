@@ -16724,6 +16724,8 @@
         "fullName": "Xã Tân Tiến",
         "fullNameEn": "Tan Tien Commune",
         "codeName": "tan_tien",
+        "postalCode": "67662",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2283",
         "areaKm2": 147.5
       }

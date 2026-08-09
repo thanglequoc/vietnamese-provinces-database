@@ -13804,6 +13804,8 @@
         "fullName": "Đặc khu Cô Tô",
         "fullNameEn": "Co To Special administrative region",
         "codeName": "co_to",
+        "postalCode": "01409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3316",
         "areaKm2": 53.68
       }

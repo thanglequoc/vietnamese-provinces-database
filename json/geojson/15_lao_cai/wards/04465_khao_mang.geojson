@@ -16292,6 +16292,8 @@
         "fullName": "Xã Khao Mang",
         "fullNameEn": "Khao Mang Commune",
         "codeName": "khao_mang",
+        "postalCode": "33508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1026",
         "areaKm2": 120.06
       }

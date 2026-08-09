@@ -2216,6 +2216,8 @@
         "fullName": "Xã Lai Thành",
         "fullNameEn": "Lai Thanh Commune",
         "codeName": "lai_thanh",
+        "postalCode": "08723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.769",
         "areaKm2": 22.07
       }

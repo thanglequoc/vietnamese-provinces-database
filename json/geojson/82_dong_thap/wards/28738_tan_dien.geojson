@@ -3972,6 +3972,8 @@
         "fullName": "Xã Tân Điền",
         "fullNameEn": "Tan Dien Commune",
         "codeName": "tan_dien",
+        "postalCode": "84359",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.500",
         "areaKm2": 39
       }

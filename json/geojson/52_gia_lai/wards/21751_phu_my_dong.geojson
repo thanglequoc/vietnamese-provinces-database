@@ -9504,6 +9504,8 @@
         "fullName": "Xã Phù Mỹ Đông",
         "fullNameEn": "Phu My Dong Commune",
         "codeName": "phu_my_dong",
+        "postalCode": "55376",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2988",
         "areaKm2": 85.62
       }

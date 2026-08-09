@@ -1596,6 +1596,8 @@
         "fullName": "Phường Thượng Cát",
         "fullNameEn": "Thuong Cat Ward",
         "codeName": "thuong_cat",
+        "postalCode": "11912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3268",
         "areaKm2": 14.77
       }

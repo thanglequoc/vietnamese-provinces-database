@@ -11480,6 +11480,8 @@
         "fullName": "Xã Sơn Lộ",
         "fullNameEn": "Son Lo Commune",
         "codeName": "son_lo",
+        "postalCode": "21365",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.978",
         "areaKm2": 97.38
       }

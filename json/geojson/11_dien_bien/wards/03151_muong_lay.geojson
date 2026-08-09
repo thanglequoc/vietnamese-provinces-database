@@ -14648,6 +14648,8 @@
         "fullName": "Phường Mường Lay",
         "fullNameEn": "Muong Lay Ward",
         "codeName": "muong_lay",
+        "postalCode": "32709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2229",
         "areaKm2": 222.65
       }

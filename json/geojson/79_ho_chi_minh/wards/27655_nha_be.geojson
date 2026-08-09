@@ -2404,6 +2404,8 @@
         "fullName": "Xã Nhà Bè",
         "fullNameEn": "Nha Be Commune",
         "codeName": "nha_be",
+        "postalCode": "73206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.132",
         "areaKm2": 37.1
       }

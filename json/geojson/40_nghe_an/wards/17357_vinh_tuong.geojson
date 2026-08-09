@@ -3768,6 +3768,8 @@
         "fullName": "Xã Vĩnh Tường",
         "fullNameEn": "Vinh Tuong Commune",
         "codeName": "vinh_tuong",
+        "postalCode": "44231",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1422",
         "areaKm2": 76.44
       }

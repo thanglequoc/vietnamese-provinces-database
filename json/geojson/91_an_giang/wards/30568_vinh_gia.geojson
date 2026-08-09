@@ -7472,6 +7472,8 @@
         "fullName": "Xã Vĩnh Gia",
         "fullNameEn": "Vinh Gia Commune",
         "codeName": "vinh_gia",
+        "postalCode": "90811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.339",
         "areaKm2": 180.37
       }

@@ -816,6 +816,8 @@
         "fullName": "Phường Chợ Quán",
         "fullNameEn": "Cho Quan Ward",
         "codeName": "cho_quan",
+        "postalCode": "72722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.95",
         "areaKm2": 1.28
       }

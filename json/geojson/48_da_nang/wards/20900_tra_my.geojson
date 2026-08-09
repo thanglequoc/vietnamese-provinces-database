@@ -9144,6 +9144,8 @@
         "fullName": "Xã Trà My",
         "fullNameEn": "Tra My Commune",
         "codeName": "tra_my",
+        "postalCode": "52506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1967",
         "areaKm2": 130.6
       }

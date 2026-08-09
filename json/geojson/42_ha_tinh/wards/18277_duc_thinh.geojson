@@ -6588,6 +6588,8 @@
         "fullName": "Xã Đức Thịnh",
         "fullNameEn": "Duc Thinh Commune",
         "codeName": "duc_thinh",
+        "postalCode": "45735",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2046",
         "areaKm2": 53.39
       }

@@ -5356,6 +5356,8 @@
         "fullName": "Xã Thăng Điền",
         "fullNameEn": "Thang Dien Commune",
         "codeName": "thang_dien",
+        "postalCode": "51231",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1970",
         "areaKm2": 61.59
       }

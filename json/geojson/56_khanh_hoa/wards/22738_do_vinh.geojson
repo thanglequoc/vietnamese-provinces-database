@@ -3088,6 +3088,8 @@
         "fullName": "Phường Đô Vinh",
         "fullNameEn": "Do Vinh Ward",
         "codeName": "do_vinh",
+        "postalCode": "59121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1141",
         "areaKm2": 62
       }

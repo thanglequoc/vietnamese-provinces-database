@@ -6340,6 +6340,8 @@
         "fullName": "Xã Trấn Yên",
         "fullNameEn": "Tran Yen Commune",
         "codeName": "tran_yen",
+        "postalCode": "33928",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1030",
         "areaKm2": 110.72
       }

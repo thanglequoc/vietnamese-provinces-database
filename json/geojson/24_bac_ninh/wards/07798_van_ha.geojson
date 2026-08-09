@@ -4496,6 +4496,8 @@
         "fullName": "Phường Vân Hà",
         "fullNameEn": "Van Ha Ward",
         "codeName": "van_ha",
+        "postalCode": "26166",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2152",
         "areaKm2": 43.17
       }

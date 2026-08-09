@@ -10548,6 +10548,8 @@
         "fullName": "Xã Mỹ Tú",
         "fullNameEn": "My Tu Commune",
         "codeName": "my_tu",
+        "postalCode": "96460",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.275",
         "areaKm2": 86.63
       }

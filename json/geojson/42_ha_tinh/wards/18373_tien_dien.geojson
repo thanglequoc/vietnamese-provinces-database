@@ -1368,6 +1368,8 @@
         "fullName": "Xã Tiên Điền",
         "fullNameEn": "Tien Dien Commune",
         "codeName": "tien_dien",
+        "postalCode": "45506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1994",
         "areaKm2": 31.6
       }

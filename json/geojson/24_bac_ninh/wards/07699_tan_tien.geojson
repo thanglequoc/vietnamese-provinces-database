@@ -3184,6 +3184,8 @@
         "fullName": "Phường Tân Tiến",
         "fullNameEn": "Tan Tien Ward",
         "codeName": "tan_tien",
+        "postalCode": "26117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2147",
         "areaKm2": 25.46
       }

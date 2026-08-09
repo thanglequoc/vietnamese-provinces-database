@@ -8528,6 +8528,8 @@
         "fullName": "Phường Vĩnh Tân",
         "fullNameEn": "Vinh Tan Ward",
         "codeName": "vinh_tan",
+        "postalCode": "75409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.26",
         "areaKm2": 61.35
       }

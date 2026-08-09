@@ -9652,6 +9652,8 @@
         "fullName": "Xã Phù Mỹ Bắc",
         "fullNameEn": "Phu My Bac Commune",
         "codeName": "phu_my_bac",
+        "postalCode": "55377",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2986",
         "areaKm2": 100.98
       }

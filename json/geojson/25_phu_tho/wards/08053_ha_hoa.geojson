@@ -7704,6 +7704,8 @@
         "fullName": "Xã Hạ Hoà",
         "fullNameEn": "Ha Hoa Commune",
         "codeName": "ha_hoa",
+        "postalCode": "35406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1544",
         "areaKm2": 41.23
       }

@@ -2788,6 +2788,8 @@
         "fullName": "Xã Bình Nguyên",
         "fullNameEn": "Binh Nguyen Commune",
         "codeName": "binh_nguyen",
+        "postalCode": "06222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.700",
         "areaKm2": 17.21
       }

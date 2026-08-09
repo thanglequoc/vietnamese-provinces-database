@@ -2656,6 +2656,8 @@
         "fullName": "Xã Gia Trấn",
         "fullNameEn": "Gia Tran Commune",
         "codeName": "gia_tran",
+        "postalCode": "08308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.746",
         "areaKm2": 18.76
       }

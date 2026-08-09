@@ -9560,6 +9560,8 @@
         "fullName": "Xã Tân Thuỷ",
         "fullNameEn": "Tan Thuy Commune",
         "codeName": "tan_thuy",
+        "postalCode": "86828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2477",
         "areaKm2": 52.55
       }

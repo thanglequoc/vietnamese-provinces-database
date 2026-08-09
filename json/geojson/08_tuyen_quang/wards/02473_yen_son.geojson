@@ -7800,6 +7800,8 @@
         "fullName": "Xã Yên Sơn",
         "fullNameEn": "Yen Son Commune",
         "codeName": "yen_son",
+        "postalCode": "22206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2346",
         "areaKm2": 117.92
       }

@@ -11444,6 +11444,8 @@
         "fullName": "Xã Phú Hoà Đông",
         "fullNameEn": "Phu Hoa Dong Commune",
         "codeName": "phu_hoa_dong",
+        "postalCode": "71616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.116",
         "areaKm2": 59.75
       }

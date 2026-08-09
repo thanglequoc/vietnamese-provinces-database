@@ -4240,6 +4240,8 @@
         "fullName": "Xã Thần Lĩnh",
         "fullNameEn": "Than Linh Commune",
         "codeName": "than_linh",
+        "postalCode": "43340",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1526",
         "areaKm2": 44.69
       }

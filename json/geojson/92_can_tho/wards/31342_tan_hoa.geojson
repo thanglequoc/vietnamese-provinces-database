@@ -7696,6 +7696,8 @@
         "fullName": "Xã Tân Hoà",
         "fullNameEn": "Tan Hoa Commune",
         "codeName": "tan_hoa",
+        "postalCode": "95811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.238",
         "areaKm2": 58.6
       }

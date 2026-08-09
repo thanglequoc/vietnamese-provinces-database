@@ -12348,6 +12348,8 @@
         "fullName": "Xã Đặng Thuỳ Trâm",
         "fullNameEn": "Dang Thuy Tram Commune",
         "codeName": "dang_thuy_tram",
+        "postalCode": "54226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1786",
         "areaKm2": 199.4
       }

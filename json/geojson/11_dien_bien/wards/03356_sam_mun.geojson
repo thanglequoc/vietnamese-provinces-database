@@ -13636,6 +13636,8 @@
         "fullName": "Xã Sam Mứn",
         "fullNameEn": "Sam Mun Commune",
         "codeName": "sam_mun",
+        "postalCode": "32231",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2266",
         "areaKm2": 156.12
       }

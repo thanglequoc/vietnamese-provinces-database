@@ -11532,6 +11532,8 @@
         "fullName": "Xã Ân Hảo",
         "fullNameEn": "An Hao Commune",
         "codeName": "an_hao",
+        "postalCode": "55625",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2979",
         "areaKm2": 95.46
       }

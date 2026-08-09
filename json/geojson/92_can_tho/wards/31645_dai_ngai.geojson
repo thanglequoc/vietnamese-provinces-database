@@ -2224,6 +2224,8 @@
         "fullName": "Xã Đại Ngãi",
         "fullNameEn": "Dai Ngai Commune",
         "codeName": "dai_ngai",
+        "postalCode": "96209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.280",
         "areaKm2": 37.67
       }

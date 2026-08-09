@@ -7804,6 +7804,8 @@
         "fullName": "Xã Ngũ Hiệp",
         "fullNameEn": "Ngu Hiep Commune",
         "codeName": "ngu_hiep",
+        "postalCode": "84821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.473",
         "areaKm2": 47.9
       }

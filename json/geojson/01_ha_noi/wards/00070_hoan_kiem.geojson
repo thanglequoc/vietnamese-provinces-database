@@ -848,6 +848,8 @@
         "fullName": "Phường Hoàn Kiếm",
         "fullNameEn": "Hoan Kiem Ward",
         "codeName": "hoan_kiem",
+        "postalCode": "11024",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3202",
         "areaKm2": 1.91
       }

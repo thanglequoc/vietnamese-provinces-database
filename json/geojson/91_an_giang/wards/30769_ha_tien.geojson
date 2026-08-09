@@ -36700,6 +36700,8 @@
         "fullName": "Phường Hà Tiên",
         "fullNameEn": "Ha Tien Ward",
         "codeName": "ha_tien",
+        "postalCode": "91513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.362",
         "areaKm2": 61.35
       }

@@ -8800,6 +8800,8 @@
         "fullName": "Phường Hàng Gòn",
         "fullNameEn": "Hang Gon Ward",
         "codeName": "hang_gon",
+        "postalCode": "76470",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3112",
         "areaKm2": 45.6
       }

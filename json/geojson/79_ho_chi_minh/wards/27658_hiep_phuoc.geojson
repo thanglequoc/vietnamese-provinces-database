@@ -4336,6 +4336,8 @@
         "fullName": "Xã Hiệp Phước",
         "fullNameEn": "Hiep Phuoc Commune",
         "codeName": "hiep_phuoc",
+        "postalCode": "73212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.133",
         "areaKm2": 63.33
       }

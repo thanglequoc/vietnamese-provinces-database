@@ -11316,6 +11316,8 @@
         "fullName": "Xã Nậm Có",
         "fullNameEn": "Nam Co Commune",
         "codeName": "nam_co",
+        "postalCode": "33519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1025",
         "areaKm2": 201.6
       }

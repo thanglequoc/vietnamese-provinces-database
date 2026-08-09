@@ -2604,6 +2604,8 @@
         "fullName": "Phường Vinh Lộc",
         "fullNameEn": "Vinh Loc Ward",
         "codeName": "vinh_loc",
+        "postalCode": "43135",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1521",
         "areaKm2": 38.86
       }

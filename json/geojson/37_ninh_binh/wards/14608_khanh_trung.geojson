@@ -1036,6 +1036,8 @@
         "fullName": "Xã Khánh Trung",
         "fullNameEn": "Khanh Trung Commune",
         "codeName": "khanh_trung",
+        "postalCode": "08818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.762",
         "areaKm2": 26.42
       }

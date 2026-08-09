@@ -6144,6 +6144,8 @@
         "fullName": "Xã La Ngà",
         "fullNameEn": "La Nga Commune",
         "codeName": "la_nga",
+        "postalCode": "76714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3120",
         "areaKm2": 133.5
       }

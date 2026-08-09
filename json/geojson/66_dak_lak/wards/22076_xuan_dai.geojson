@@ -5464,6 +5464,8 @@
         "fullName": "Phường Xuân Đài",
         "fullNameEn": "Xuan Dai Ward",
         "codeName": "xuan_dai",
+        "postalCode": "56308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2897",
         "areaKm2": 13.4
       }

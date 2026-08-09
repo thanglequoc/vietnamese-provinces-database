@@ -3868,6 +3868,8 @@
         "fullName": "Xã Thái Tân",
         "fullNameEn": "Thai Tan Commune",
         "codeName": "thai_tan",
+        "postalCode": "03570",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.862",
         "areaKm2": 20.73
       }

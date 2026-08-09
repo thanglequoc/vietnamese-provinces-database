@@ -12744,6 +12744,8 @@
         "fullName": "Tỉnh Nghệ An",
         "fullNameEn": "Nghe An Province",
         "codeName": "nghe_an",
+        "postalCode": "",
+        "postalCodePrefix": "43, 44",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.60",
         "areaKm2": 16486.5
       }

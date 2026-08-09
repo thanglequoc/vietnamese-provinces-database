@@ -7544,6 +7544,8 @@
         "fullName": "Phường Đông Kinh",
         "fullNameEn": "Dong Kinh Ward",
         "codeName": "dong_kinh",
+        "postalCode": "25107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1792",
         "areaKm2": 54.71
       }

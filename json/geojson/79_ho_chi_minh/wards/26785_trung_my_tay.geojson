@@ -1220,6 +1220,8 @@
         "fullName": "Phường Trung Mỹ Tây",
         "fullNameEn": "Trung My Tay Ward",
         "codeName": "trung_my_tay",
+        "postalCode": "71507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.44",
         "areaKm2": 6.93
       }

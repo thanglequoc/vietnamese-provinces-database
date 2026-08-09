@@ -13416,6 +13416,8 @@
         "fullName": "Xã Tà Tổng",
         "fullNameEn": "Ta Tong Commune",
         "codeName": "ta_tong",
+        "postalCode": "30417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2073",
         "areaKm2": 512.01
       }

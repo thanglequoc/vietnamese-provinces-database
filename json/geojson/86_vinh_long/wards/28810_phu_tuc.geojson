@@ -11660,6 +11660,8 @@
         "fullName": "Xã Phú Túc",
         "fullNameEn": "Phu Tuc Commune",
         "codeName": "phu_tuc",
+        "postalCode": "86222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2441",
         "areaKm2": 63.14
       }

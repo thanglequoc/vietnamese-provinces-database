@@ -1196,6 +1196,8 @@
         "fullName": "Phường Giảng Võ",
         "fullNameEn": "Giang Vo Ward",
         "codeName": "giang_vo",
+        "postalCode": "11110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3258",
         "areaKm2": 2.6
       }

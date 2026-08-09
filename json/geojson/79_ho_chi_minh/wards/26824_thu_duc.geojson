@@ -1528,6 +1528,8 @@
         "fullName": "Phường Thủ Đức",
         "fullNameEn": "Thu Duc Ward",
         "codeName": "thu_duc",
+        "postalCode": "71319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.48",
         "areaKm2": 8.81
       }

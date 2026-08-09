@@ -10172,6 +10172,8 @@
         "fullName": "Xã Hòn Đất",
         "fullNameEn": "Hon Dat Commune",
         "codeName": "hon_dat",
+        "postalCode": "91306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.367",
         "areaKm2": 281.7
       }

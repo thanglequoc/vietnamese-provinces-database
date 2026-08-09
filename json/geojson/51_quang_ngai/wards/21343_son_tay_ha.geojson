@@ -8236,6 +8236,8 @@
         "fullName": "Xã Sơn Tây Hạ",
         "fullNameEn": "Son Tay Ha Commune",
         "codeName": "son_tay_ha",
+        "postalCode": "53617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1774",
         "areaKm2": 136.15
       }

@@ -9656,6 +9656,8 @@
         "fullName": "Xã Pắc Ta",
         "fullNameEn": "Pac Ta Commune",
         "codeName": "pac_ta",
+        "postalCode": "30713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2095",
         "areaKm2": 168.58
       }

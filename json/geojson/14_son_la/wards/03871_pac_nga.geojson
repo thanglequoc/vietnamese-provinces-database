@@ -7216,6 +7216,8 @@
         "fullName": "Xã Pắc Ngà",
         "fullNameEn": "Pac Nga Commune",
         "codeName": "pac_nga",
+        "postalCode": "34611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1362",
         "areaKm2": 122.59
       }

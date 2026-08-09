@@ -18848,6 +18848,8 @@
         "fullName": "Xã Mô Rai",
         "fullNameEn": "Mo Rai Commune",
         "codeName": "mo_rai",
+        "postalCode": "60711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.547",
         "areaKm2": 583.92
       }

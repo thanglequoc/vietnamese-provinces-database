@@ -5076,6 +5076,8 @@
         "fullName": "Xã Thổ Tang",
         "fullNameEn": "Tho Tang Commune",
         "codeName": "tho_tang",
+        "postalCode": "15612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1638",
         "areaKm2": 21.3
       }

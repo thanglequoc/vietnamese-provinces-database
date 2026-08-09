@@ -3800,6 +3800,8 @@
         "fullName": "Phường Đạo Thạnh",
         "fullNameEn": "Dao Thanh Ward",
         "codeName": "dao_thanh",
+        "postalCode": "84113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.445",
         "areaKm2": 14.3
       }

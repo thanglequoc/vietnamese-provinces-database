@@ -8052,6 +8052,8 @@
         "fullName": "Xã Tân Định",
         "fullNameEn": "Tan Dinh Commune",
         "codeName": "tan_dinh",
+        "postalCode": "57339",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1114",
         "areaKm2": 92.4
       }

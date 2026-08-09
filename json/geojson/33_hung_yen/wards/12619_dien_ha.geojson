@@ -6108,6 +6108,8 @@
         "fullName": "Xã Diên Hà",
         "fullNameEn": "Dien Ha Commune",
         "codeName": "dien_ha",
+        "postalCode": "06744",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.659",
         "areaKm2": 27.3
       }

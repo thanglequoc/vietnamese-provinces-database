@@ -3380,6 +3380,8 @@
         "fullName": "Xã Hoả Lựu",
         "fullNameEn": "Hoa Luu Commune",
         "codeName": "hoa_luu",
+        "postalCode": "95112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.236",
         "areaKm2": 59.68
       }

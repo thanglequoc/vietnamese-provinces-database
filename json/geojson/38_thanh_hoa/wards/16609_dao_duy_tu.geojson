@@ -3812,6 +3812,8 @@
         "fullName": "Phường Đào Duy Từ",
         "fullNameEn": "Dao Duy Tu Ward",
         "codeName": "dao_duy_tu",
+        "postalCode": "42742",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2572",
         "areaKm2": 42.86
       }

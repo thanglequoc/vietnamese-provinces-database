@@ -7404,6 +7404,8 @@
         "fullName": "Xã Trà Leng",
         "fullNameEn": "Tra Leng Commune",
         "codeName": "tra_leng",
+        "postalCode": "52409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1987",
         "areaKm2": 221.15
       }

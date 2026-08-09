@@ -12296,6 +12296,8 @@
         "fullName": "Phường Phước Bình",
         "fullNameEn": "Phuoc Binh Ward",
         "codeName": "phuoc_binh",
+        "postalCode": "67407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2275",
         "areaKm2": 72.6
       }

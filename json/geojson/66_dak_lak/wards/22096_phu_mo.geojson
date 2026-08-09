@@ -17740,6 +17740,8 @@
         "fullName": "Xã Phú Mỡ",
         "fullNameEn": "Phu Mo Commune",
         "codeName": "phu_mo",
+        "postalCode": "56416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2899",
         "areaKm2": 547.2
       }

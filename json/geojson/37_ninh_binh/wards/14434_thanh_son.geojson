@@ -3784,6 +3784,8 @@
         "fullName": "Xã Thanh Sơn",
         "fullNameEn": "Thanh Son Commune",
         "codeName": "thanh_son",
+        "postalCode": "08421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.743",
         "areaKm2": 35.69
       }

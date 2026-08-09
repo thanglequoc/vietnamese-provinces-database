@@ -14600,6 +14600,8 @@
         "fullName": "Xã Tà Năng",
         "fullNameEn": "Ta Nang Commune",
         "codeName": "ta_nang",
+        "postalCode": "66819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.526",
         "areaKm2": 258.33
       }

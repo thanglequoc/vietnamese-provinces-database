@@ -112856,6 +112856,8 @@
         "fullName": "Xã Kiên Lương",
         "fullNameEn": "Kien Luong Commune",
         "codeName": "kien_luong",
+        "postalCode": "91606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.363",
         "areaKm2": 138.07
       }

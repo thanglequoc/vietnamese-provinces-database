@@ -3288,6 +3288,8 @@
         "fullName": "Xã Hải Châu",
         "fullNameEn": "Hai Chau Commune",
         "codeName": "hai_chau",
+        "postalCode": "43448",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1443",
         "areaKm2": 29.13
       }

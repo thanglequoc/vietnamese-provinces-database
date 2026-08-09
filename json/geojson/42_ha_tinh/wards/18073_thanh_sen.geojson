@@ -3664,6 +3664,8 @@
         "fullName": "Phường Thành Sen",
         "fullNameEn": "Thanh Sen Ward",
         "codeName": "thanh_sen",
+        "postalCode": "45122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2060",
         "areaKm2": 28.23
       }

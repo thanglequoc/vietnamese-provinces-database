@@ -7544,6 +7544,8 @@
         "fullName": "Xã Bình Trưng",
         "fullNameEn": "Binh Trung Commune",
         "codeName": "binh_trung",
+        "postalCode": "84619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.478",
         "areaKm2": 31.2
       }

@@ -840,6 +840,8 @@
         "fullName": "Phường An Biên",
         "fullNameEn": "An Bien Ward",
         "codeName": "an_bien",
+        "postalCode": "04707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.931",
         "areaKm2": 6.56
       }

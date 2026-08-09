@@ -11188,6 +11188,8 @@
         "fullName": "Phường Hiệp Bình",
         "fullNameEn": "Hiep Binh Ward",
         "codeName": "hiep_binh",
+        "postalCode": "71318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.42",
         "areaKm2": 16.01
       }

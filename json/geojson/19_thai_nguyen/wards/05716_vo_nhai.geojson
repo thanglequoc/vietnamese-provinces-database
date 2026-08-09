@@ -6824,6 +6824,8 @@
         "fullName": "Xã Võ Nhai",
         "fullNameEn": "Vo Nhai Commune",
         "codeName": "vo_nhai",
+        "postalCode": "24321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1218",
         "areaKm2": 99.78
       }

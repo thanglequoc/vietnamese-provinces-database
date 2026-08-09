@@ -5652,6 +5652,8 @@
         "fullName": "Xã Trung Thành",
         "fullNameEn": "Trung Thanh Commune",
         "codeName": "trung_thanh",
+        "postalCode": "85714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2541",
         "areaKm2": 35.88
       }

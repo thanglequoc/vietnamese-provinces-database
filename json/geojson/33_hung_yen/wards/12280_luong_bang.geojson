@@ -1964,6 +1964,8 @@
         "fullName": "Xã Lương Bằng",
         "fullNameEn": "Luong Bang Commune",
         "codeName": "luong_bang",
+        "postalCode": "17906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.704",
         "areaKm2": 29.08
       }

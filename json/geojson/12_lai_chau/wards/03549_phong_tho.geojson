@@ -29744,6 +29744,8 @@
         "fullName": "Xã Phong Thổ",
         "fullNameEn": "Phong Tho Commune",
         "codeName": "phong_tho",
+        "postalCode": "30306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2086",
         "areaKm2": 266.71
       }

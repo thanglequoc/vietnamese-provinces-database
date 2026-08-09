@@ -11280,6 +11280,8 @@
         "fullName": "Xã Tà Rụt",
         "fullNameEn": "Ta Rut Commune",
         "codeName": "ta_rut",
+        "postalCode": "48617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.591",
         "areaKm2": 273.15
       }

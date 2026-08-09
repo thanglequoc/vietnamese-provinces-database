@@ -9224,6 +9224,8 @@
         "fullName": "Xã Nà Tấu",
         "fullNameEn": "Na Tau Commune",
         "codeName": "na_tau",
+        "postalCode": "32118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2259",
         "areaKm2": 188.55
       }

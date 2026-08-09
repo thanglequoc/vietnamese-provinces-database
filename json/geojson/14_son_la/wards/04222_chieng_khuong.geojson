@@ -8360,6 +8360,8 @@
         "fullName": "Xã Chiềng Khương",
         "fullNameEn": "Chieng Khuong Commune",
         "codeName": "chieng_khuong",
+        "postalCode": "34422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1403",
         "areaKm2": 149.82
       }

@@ -3660,6 +3660,8 @@
         "fullName": "Xã Ninh Châu",
         "fullNameEn": "Ninh Chau Commune",
         "codeName": "ninh_chau",
+        "postalCode": "47722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.629",
         "areaKm2": 86.03
       }

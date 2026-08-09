@@ -2252,6 +2252,8 @@
         "fullName": "Xã Đường An",
         "fullNameEn": "Duong An Commune",
         "codeName": "duong_an",
+        "postalCode": "03725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.864",
         "areaKm2": 25.53
       }

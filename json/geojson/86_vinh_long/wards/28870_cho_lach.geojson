@@ -4544,6 +4544,8 @@
         "fullName": "Xã Chợ Lách",
         "fullNameEn": "Cho Lach Commune",
         "codeName": "cho_lach",
+        "postalCode": "86306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2444",
         "areaKm2": 49.72
       }

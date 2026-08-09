@@ -11088,6 +11088,8 @@
         "fullName": "Xã Đông Phú",
         "fullNameEn": "Dong Phu Commune",
         "codeName": "dong_phu",
+        "postalCode": "26310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2173",
         "areaKm2": 77.05
       }

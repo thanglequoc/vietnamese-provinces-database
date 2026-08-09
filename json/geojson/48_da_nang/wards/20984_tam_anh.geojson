@@ -5172,6 +5172,8 @@
         "fullName": "Xã Tam Anh",
         "fullNameEn": "Tam Anh Commune",
         "codeName": "tam_anh",
+        "postalCode": "52824",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1977",
         "areaKm2": 68.84
       }

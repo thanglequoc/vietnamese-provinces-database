@@ -4608,6 +4608,8 @@
         "fullName": "Xã Xuân Hải",
         "fullNameEn": "Xuan Hai Commune",
         "codeName": "xuan_hai",
+        "postalCode": "59210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1155",
         "areaKm2": 43.4
       }

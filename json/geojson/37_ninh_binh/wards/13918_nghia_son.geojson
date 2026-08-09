@@ -1956,6 +1956,8 @@
         "fullName": "Xã Nghĩa Sơn",
         "fullNameEn": "Nghia Son Commune",
         "codeName": "nghia_son",
+        "postalCode": "07414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.829",
         "areaKm2": 26.83
       }

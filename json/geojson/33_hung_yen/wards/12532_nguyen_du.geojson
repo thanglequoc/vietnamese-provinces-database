@@ -16704,6 +16704,8 @@
         "fullName": "Xã Nguyễn Du",
         "fullNameEn": "Nguyen Du Commune",
         "codeName": "nguyen_du",
+        "postalCode": "06646",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.662",
         "areaKm2": 16.75
       }

@@ -6328,6 +6328,8 @@
         "fullName": "Xã Mường Bám",
         "fullNameEn": "Muong Bam Commune",
         "codeName": "muong_bam",
+        "postalCode": "34324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1349",
         "areaKm2": 76.16
       }

@@ -5028,6 +5028,8 @@
         "fullName": "Xã Bình Yên",
         "fullNameEn": "Binh Yen Commune",
         "codeName": "binh_yen",
+        "postalCode": "24524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1200",
         "areaKm2": 48.36
       }

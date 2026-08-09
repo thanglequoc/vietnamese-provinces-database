@@ -11708,6 +11708,8 @@
         "fullName": "Phường Phước Thới",
         "fullNameEn": "Phuoc Thoi Ward",
         "codeName": "phuoc_thoi",
+        "postalCode": "94308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.208",
         "areaKm2": 53.11
       }

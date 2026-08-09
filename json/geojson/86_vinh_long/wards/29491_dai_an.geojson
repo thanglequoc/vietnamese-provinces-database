@@ -1784,6 +1784,8 @@
         "fullName": "Xã Đại An",
         "fullNameEn": "Dai An Commune",
         "codeName": "dai_an",
+        "postalCode": "87520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2514",
         "areaKm2": 32.32
       }

@@ -1552,6 +1552,8 @@
         "fullName": "Phường Khương Đình",
         "fullNameEn": "Khuong Dinh Ward",
         "codeName": "khuong_dinh",
+        "postalCode": "11410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3186",
         "areaKm2": 3.1
       }

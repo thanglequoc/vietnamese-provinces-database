@@ -4420,6 +4420,8 @@
         "fullName": "Xã Bản Nguyên",
         "fullNameEn": "Ban Nguyen Commune",
         "codeName": "ban_nguyen",
+        "postalCode": "35266",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1585",
         "areaKm2": 28.29
       }

@@ -8304,6 +8304,8 @@
         "fullName": "Xã An Long",
         "fullNameEn": "An Long Commune",
         "codeName": "an_long",
+        "postalCode": "75610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.20",
         "areaKm2": 100.05
       }

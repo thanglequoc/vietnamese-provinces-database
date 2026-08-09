@@ -11264,6 +11264,8 @@
         "fullName": "Xã Đoài Phương",
         "fullNameEn": "Doai Phuong Commune",
         "codeName": "doai_phuong",
+        "postalCode": "12723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3225",
         "areaKm2": 57.1
       }

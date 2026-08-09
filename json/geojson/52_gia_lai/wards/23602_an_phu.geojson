@@ -9360,6 +9360,8 @@
         "fullName": "Phường An Phú",
         "fullNameEn": "An Phu Ward",
         "codeName": "an_phu",
+        "postalCode": "61118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3045",
         "areaKm2": 32.49
       }

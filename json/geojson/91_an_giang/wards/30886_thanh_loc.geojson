@@ -6312,6 +6312,8 @@
         "fullName": "Xã Thạnh Lộc",
         "fullNameEn": "Thanh Loc Commune",
         "codeName": "thanh_loc",
+        "postalCode": "91711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.377",
         "areaKm2": 104.62
       }

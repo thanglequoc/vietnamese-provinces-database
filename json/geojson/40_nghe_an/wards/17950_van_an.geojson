@@ -3272,6 +3272,8 @@
         "fullName": "Xã Vạn An",
         "fullNameEn": "Van An Commune",
         "codeName": "van_an",
+        "postalCode": "44630",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1530",
         "areaKm2": 56.37
       }

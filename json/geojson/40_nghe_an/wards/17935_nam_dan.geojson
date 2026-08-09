@@ -6552,6 +6552,8 @@
         "fullName": "Xã Nam Đàn",
         "fullNameEn": "Nam Dan Commune",
         "codeName": "nam_dan",
+        "postalCode": "44631",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1531",
         "areaKm2": 67.6
       }

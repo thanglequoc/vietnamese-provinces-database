@@ -2332,6 +2332,8 @@
         "fullName": "Phường Trần Phú",
         "fullNameEn": "Tran Phu Ward",
         "codeName": "tran_phu",
+        "postalCode": "45123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2059",
         "areaKm2": 29.5
       }

@@ -2184,6 +2184,8 @@
         "fullName": "Phường Châu Sơn",
         "fullNameEn": "Chau Son Ward",
         "codeName": "chau_son",
+        "postalCode": "18115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2787",
         "areaKm2": 17.45
       }

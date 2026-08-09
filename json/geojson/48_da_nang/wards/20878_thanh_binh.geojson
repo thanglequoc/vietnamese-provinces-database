@@ -9944,6 +9944,8 @@
         "fullName": "Xã Thạnh Bình",
         "fullNameEn": "Thanh Binh Commune",
         "codeName": "thanh_binh",
+        "postalCode": "52623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1969",
         "areaKm2": 100.89
       }

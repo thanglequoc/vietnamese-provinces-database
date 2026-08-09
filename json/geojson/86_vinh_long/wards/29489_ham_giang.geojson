@@ -5944,6 +5944,8 @@
         "fullName": "Xã Hàm Giang",
         "fullNameEn": "Ham Giang Commune",
         "codeName": "ham_giang",
+        "postalCode": "87521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2513",
         "areaKm2": 60.66
       }

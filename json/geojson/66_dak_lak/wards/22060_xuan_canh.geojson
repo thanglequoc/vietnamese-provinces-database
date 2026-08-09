@@ -7652,6 +7652,8 @@
         "fullName": "Xã Xuân Cảnh",
         "fullNameEn": "Xuan Canh Commune",
         "codeName": "xuan_canh",
+        "postalCode": "56315",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2896",
         "areaKm2": 83.81
       }

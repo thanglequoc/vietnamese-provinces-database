@@ -9464,6 +9464,8 @@
         "fullName": "Xã Cát Tiên",
         "fullNameEn": "Cat Tien Commune",
         "codeName": "cat_tien",
+        "postalCode": "66506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1257",
         "areaKm2": 78.13
       }

@@ -2004,6 +2004,8 @@
         "fullName": "Phường Phong Quảng",
         "fullNameEn": "Phong Quang Ward",
         "codeName": "phong_quang",
+        "postalCode": "49324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1695",
         "areaKm2": 41.7
       }

@@ -12376,6 +12376,8 @@
         "fullName": "Xã Quảng Tân",
         "fullNameEn": "Quang Tan Commune",
         "codeName": "quang_tan",
+        "postalCode": "01807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1888",
         "areaKm2": 184.81
       }

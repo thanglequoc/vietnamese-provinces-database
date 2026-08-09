@@ -2940,6 +2940,8 @@
         "fullName": "Xã Tiên Tiến",
         "fullNameEn": "Tien Tien Commune",
         "codeName": "tien_tien",
+        "postalCode": "17315",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.728",
         "areaKm2": 25.8
       }

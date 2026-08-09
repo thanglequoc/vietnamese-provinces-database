@@ -4152,6 +4152,8 @@
         "fullName": "Xã Lương Sơn",
         "fullNameEn": "Luong Son Commune",
         "codeName": "luong_son",
+        "postalCode": "42210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2568",
         "areaKm2": 79.91
       }

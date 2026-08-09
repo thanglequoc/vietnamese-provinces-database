@@ -6404,6 +6404,8 @@
         "fullName": "Phường Hoàng Mai",
         "fullNameEn": "Hoang Mai Ward",
         "codeName": "hoang_mai",
+        "postalCode": "44916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1483",
         "areaKm2": 79.67
       }

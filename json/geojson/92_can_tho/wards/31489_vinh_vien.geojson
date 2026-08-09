@@ -3468,6 +3468,8 @@
         "fullName": "Xã Vĩnh Viễn",
         "fullNameEn": "Vinh Vien Commune",
         "codeName": "vinh_vien",
+        "postalCode": "95306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.261",
         "areaKm2": 68.86
       }

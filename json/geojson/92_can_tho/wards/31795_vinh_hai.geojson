@@ -6052,6 +6052,8 @@
         "fullName": "Xã Vĩnh Hải",
         "fullNameEn": "Vinh Hai Commune",
         "codeName": "vinh_hai",
+        "postalCode": "96809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.302",
         "areaKm2": 83.75
       }

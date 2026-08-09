@@ -2940,6 +2940,8 @@
         "fullName": "Phường Thành Nam",
         "fullNameEn": "Thanh Nam Ward",
         "codeName": "thanh_nam",
+        "postalCode": "07135",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.786",
         "areaKm2": 16.03
       }

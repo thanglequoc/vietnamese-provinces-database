@@ -6812,6 +6812,8 @@
         "fullName": "Xã Thành Thới",
         "fullNameEn": "Thanh Thoi Commune",
         "codeName": "thanh_thoi",
+        "postalCode": "86524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2455",
         "areaKm2": 49.35
       }

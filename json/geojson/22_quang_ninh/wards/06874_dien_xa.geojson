@@ -14448,6 +14448,8 @@
         "fullName": "Xã Điền Xá",
         "fullNameEn": "Dien Xa Commune",
         "codeName": "dien_xa",
+        "postalCode": "01914",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1873",
         "areaKm2": 240.49
       }

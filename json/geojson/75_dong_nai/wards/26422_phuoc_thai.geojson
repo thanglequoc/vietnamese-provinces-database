@@ -10820,6 +10820,8 @@
         "fullName": "Xã Phước Thái",
         "fullNameEn": "Phuoc Thai Commune",
         "codeName": "phuoc_thai",
+        "postalCode": "76214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3140",
         "areaKm2": 85.9
       }

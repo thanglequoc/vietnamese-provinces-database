@@ -2820,6 +2820,8 @@
         "fullName": "Xã Thiệu Trung",
         "fullNameEn": "Thieu Trung Commune",
         "codeName": "thieu_trung",
+        "postalCode": "40931",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2681",
         "areaKm2": 21.82
       }

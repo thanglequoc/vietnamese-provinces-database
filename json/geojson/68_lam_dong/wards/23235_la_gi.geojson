@@ -8192,6 +8192,8 @@
         "fullName": "Phường La Gi",
         "fullNameEn": "La Gi Ward",
         "codeName": "la_gi",
+        "postalCode": "77665",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3096",
         "areaKm2": 68.47
       }

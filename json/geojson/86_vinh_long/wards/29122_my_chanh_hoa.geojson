@@ -6924,6 +6924,8 @@
         "fullName": "Xã Mỹ Chánh Hoà",
         "fullNameEn": "My Chanh Hoa Commune",
         "codeName": "my_chanh_hoa",
+        "postalCode": "86830",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2473",
         "areaKm2": 50.61
       }

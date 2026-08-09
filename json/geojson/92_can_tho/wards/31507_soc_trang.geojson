@@ -4708,6 +4708,8 @@
         "fullName": "Phường Sóc Trăng",
         "fullNameEn": "Soc Trang Ward",
         "codeName": "soc_trang",
+        "postalCode": "96117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.262",
         "areaKm2": 41.67
       }

@@ -2364,6 +2364,8 @@
         "fullName": "Xã Trung Lộc",
         "fullNameEn": "Trung Loc Commune",
         "codeName": "trung_loc",
+        "postalCode": "43339",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1528",
         "areaKm2": 31.35
       }

@@ -8220,6 +8220,8 @@
         "fullName": "Phường Tân Phước",
         "fullNameEn": "Tan Phuoc Ward",
         "codeName": "tan_phuoc",
+        "postalCode": "78711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2223",
         "areaKm2": 83.62
       }

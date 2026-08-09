@@ -3116,6 +3116,8 @@
         "fullName": "Xã Văn Môn",
         "fullNameEn": "Van Mon Commune",
         "codeName": "van_mon",
+        "postalCode": "16218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2124",
         "areaKm2": 15.26
       }

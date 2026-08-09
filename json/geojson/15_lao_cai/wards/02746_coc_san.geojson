@@ -5008,6 +5008,8 @@
         "fullName": "Xã Cốc San",
         "fullNameEn": "Coc San Commune",
         "codeName": "coc_san",
+        "postalCode": "31123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1098",
         "areaKm2": 57.2
       }

@@ -4560,6 +4560,8 @@
         "fullName": "Xã Tân Lập",
         "fullNameEn": "Tan Lap Commune",
         "codeName": "tan_lap",
+        "postalCode": "48517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.592",
         "areaKm2": 83.18
       }

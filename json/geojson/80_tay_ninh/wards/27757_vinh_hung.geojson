@@ -4060,6 +4060,8 @@
         "fullName": "Xã Vĩnh Hưng",
         "fullNameEn": "Vinh Hung Commune",
         "codeName": "vinh_hung",
+        "postalCode": "83206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1283",
         "areaKm2": 95.26
       }

@@ -3056,6 +3056,8 @@
         "fullName": "Phường Ayun Pa",
         "fullNameEn": "Ayun Pa Ward",
         "codeName": "ayun_pa",
+        "postalCode": "62014",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2959",
         "areaKm2": 17.61
       }

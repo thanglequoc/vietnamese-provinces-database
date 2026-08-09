@@ -7104,6 +7104,8 @@
         "fullName": "Xã Minh Đài",
         "fullNameEn": "Minh Dai Commune",
         "codeName": "minh_dai",
+        "postalCode": "35571",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1574",
         "areaKm2": 84.74
       }

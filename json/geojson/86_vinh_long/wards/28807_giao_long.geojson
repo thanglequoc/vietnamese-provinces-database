@@ -6976,6 +6976,8 @@
         "fullName": "Xã Giao Long",
         "fullNameEn": "Giao Long Commune",
         "codeName": "giao_long",
+        "postalCode": "86213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2440",
         "areaKm2": 42.45
       }

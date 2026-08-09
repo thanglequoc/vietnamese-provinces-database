@@ -1544,6 +1544,8 @@
         "fullName": "Xã Bắc Đông Quan",
         "fullNameEn": "Bac Dong Quan Commune",
         "codeName": "bac_dong_quan",
+        "postalCode": "06856",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.653",
         "areaKm2": 20.67
       }

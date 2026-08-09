@@ -21240,6 +21240,8 @@
         "fullName": "Xã Yên Minh",
         "fullNameEn": "Yen Minh Commune",
         "codeName": "yen_minh",
+        "postalCode": "20306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2378",
         "areaKm2": 154.7
       }

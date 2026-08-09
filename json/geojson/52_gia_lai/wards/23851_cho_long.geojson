@@ -13196,6 +13196,8 @@
         "fullName": "Xã Chơ Long",
         "fullNameEn": "Cho Long Commune",
         "codeName": "cho_long",
+        "postalCode": "62314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3025",
         "areaKm2": 195.07
       }

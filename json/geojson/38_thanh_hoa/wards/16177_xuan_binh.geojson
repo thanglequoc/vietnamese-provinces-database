@@ -20720,6 +20720,8 @@
         "fullName": "Xã Xuân Bình",
         "fullNameEn": "Xuan Binh Commune",
         "codeName": "xuan_binh",
+        "postalCode": "42522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2688",
         "areaKm2": 183.18
       }

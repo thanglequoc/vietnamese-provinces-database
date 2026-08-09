@@ -1108,6 +1108,8 @@
         "fullName": "Phường Thanh Xuân",
         "fullNameEn": "Thanh Xuan Ward",
         "codeName": "thanh_xuan",
+        "postalCode": "11417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3185",
         "areaKm2": 3.24
       }

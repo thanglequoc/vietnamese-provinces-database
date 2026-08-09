@@ -18288,6 +18288,8 @@
         "fullName": "Xã Giang Thành",
         "fullNameEn": "Giang Thanh Commune",
         "codeName": "giang_thanh",
+        "postalCode": "91411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.365",
         "areaKm2": 184.14
       }

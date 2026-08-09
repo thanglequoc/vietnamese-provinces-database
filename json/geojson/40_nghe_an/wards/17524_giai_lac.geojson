@@ -7168,6 +7168,8 @@
         "fullName": "Xã Giai Lạc",
         "fullNameEn": "Giai Lac Commune",
         "codeName": "giai_lac",
+        "postalCode": "43675",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1451",
         "areaKm2": 88.58
       }

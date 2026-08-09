@@ -10212,6 +10212,8 @@
         "fullName": "Phường Buôn Ma Thuột",
         "fullNameEn": "Buon Ma Thuot Ward",
         "codeName": "buon_ma_thuot",
+        "postalCode": "63127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2823",
         "areaKm2": 71.99
       }

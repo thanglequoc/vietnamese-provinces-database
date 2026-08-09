@@ -5688,6 +5688,8 @@
         "fullName": "Xã Phúc Lộc",
         "fullNameEn": "Phuc Loc Commune",
         "codeName": "phuc_loc",
+        "postalCode": "43337",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1527",
         "areaKm2": 70.5
       }

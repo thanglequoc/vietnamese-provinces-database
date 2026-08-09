@@ -6112,6 +6112,8 @@
         "fullName": "Xã Phủ Thông",
         "fullNameEn": "Phu Thong Commune",
         "codeName": "phu_thong",
+        "postalCode": "23206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1176",
         "areaKm2": 96.94
       }

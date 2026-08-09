@@ -10628,6 +10628,8 @@
         "fullName": "Xã Mường Luân",
         "fullNameEn": "Muong Luan Commune",
         "codeName": "muong_luan",
+        "postalCode": "32319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2247",
         "areaKm2": 186.22
       }

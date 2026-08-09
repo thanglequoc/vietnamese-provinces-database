@@ -5672,6 +5672,8 @@
         "fullName": "Xã Phú Long",
         "fullNameEn": "Phu Long Commune",
         "codeName": "phu_long",
+        "postalCode": "08431",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.779",
         "areaKm2": 74.79
       }

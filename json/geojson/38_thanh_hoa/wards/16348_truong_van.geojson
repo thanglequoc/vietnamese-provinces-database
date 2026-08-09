@@ -3700,6 +3700,8 @@
         "fullName": "Xã Trường Văn",
         "fullNameEn": "Truong Van Commune",
         "codeName": "truong_van",
+        "postalCode": "42339",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2578",
         "areaKm2": 28.32
       }

@@ -7700,6 +7700,8 @@
         "fullName": "Xã Quảng Điền",
         "fullNameEn": "Quang Dien Commune",
         "codeName": "quang_dien",
+        "postalCode": "49217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1699",
         "areaKm2": 45.93
       }

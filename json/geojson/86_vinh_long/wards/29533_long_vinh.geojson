@@ -5604,6 +5604,8 @@
         "fullName": "Xã Long Vĩnh",
         "fullNameEn": "Long Vinh Commune",
         "codeName": "long_vinh",
+        "postalCode": "87711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2522",
         "areaKm2": 96.37
       }

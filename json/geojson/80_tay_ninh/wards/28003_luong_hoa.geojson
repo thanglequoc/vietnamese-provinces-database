@@ -3324,6 +3324,8 @@
         "fullName": "Xã Lương Hoà",
         "fullNameEn": "Luong Hoa Commune",
         "codeName": "luong_hoa",
+        "postalCode": "82614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1311",
         "areaKm2": 62.16
       }

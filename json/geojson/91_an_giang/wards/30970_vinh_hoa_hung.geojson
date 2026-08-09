@@ -3956,6 +3956,8 @@
         "fullName": "Xã Vĩnh Hoà Hưng",
         "fullNameEn": "Vinh Hoa Hung Commune",
         "codeName": "vinh_hoa_hung",
+        "postalCode": "92217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.385",
         "areaKm2": 95.94
       }

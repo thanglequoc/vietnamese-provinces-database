@@ -2016,6 +2016,8 @@
         "fullName": "Xã Bắc Thanh Miện",
         "fullNameEn": "Bac Thanh Mien Commune",
         "codeName": "bac_thanh_mien",
+        "postalCode": "03775",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.898",
         "areaKm2": 25.27
       }

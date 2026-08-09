@@ -3368,6 +3368,8 @@
         "fullName": "Xã Phú Thái",
         "fullNameEn": "Phu Thai Commune",
         "codeName": "phu_thai",
+        "postalCode": "03306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.847",
         "areaKm2": 28.89
       }

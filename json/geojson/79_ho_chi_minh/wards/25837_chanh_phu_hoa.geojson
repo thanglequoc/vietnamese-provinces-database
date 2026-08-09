@@ -7152,6 +7152,8 @@
         "fullName": "Phường Chánh Phú Hoà",
         "fullNameEn": "Chanh Phu Hoa Ward",
         "codeName": "chanh_phu_hoa",
+        "postalCode": "75913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.14",
         "areaKm2": 69.54
       }

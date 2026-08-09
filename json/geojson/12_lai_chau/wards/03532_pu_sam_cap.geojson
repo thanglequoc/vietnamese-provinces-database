@@ -8740,6 +8740,8 @@
         "fullName": "Xã Pu Sam Cáp",
         "fullNameEn": "Pu Sam Cap Commune",
         "codeName": "pu_sam_cap",
+        "postalCode": "30624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2082",
         "areaKm2": 152.23
       }

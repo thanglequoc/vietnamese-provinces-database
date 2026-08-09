@@ -1096,6 +1096,8 @@
         "fullName": "Xã Vũ Tiên",
         "fullNameEn": "Vu Tien Commune",
         "codeName": "vu_tien",
+        "postalCode": "06939",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.683",
         "areaKm2": 32.68
       }

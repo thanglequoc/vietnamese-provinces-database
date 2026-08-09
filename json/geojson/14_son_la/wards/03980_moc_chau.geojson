@@ -5800,6 +5800,8 @@
         "fullName": "Phường Mộc Châu",
         "fullNameEn": "Moc Chau Ward",
         "codeName": "moc_chau",
+        "postalCode": "34725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3296",
         "areaKm2": 167.62
       }

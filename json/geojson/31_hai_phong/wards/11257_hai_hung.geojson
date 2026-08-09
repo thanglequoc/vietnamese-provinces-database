@@ -1964,6 +1964,8 @@
         "fullName": "Xã Hải Hưng",
         "fullNameEn": "Hai Hung Commune",
         "codeName": "hai_hung",
+        "postalCode": "03776",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.899",
         "areaKm2": 24.85
       }

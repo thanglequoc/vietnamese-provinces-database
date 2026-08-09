@@ -7228,6 +7228,8 @@
         "fullName": "Xã Khánh Hoà",
         "fullNameEn": "Khanh Hoa Commune",
         "codeName": "khanh_hoa",
+        "postalCode": "33319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1013",
         "areaKm2": 149.77
       }

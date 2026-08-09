@@ -9148,6 +9148,8 @@
         "fullName": "Xã Vĩnh Thuận",
         "fullNameEn": "Vinh Thuan Commune",
         "codeName": "vinh_thuan",
+        "postalCode": "92112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.399",
         "areaKm2": 95.46
       }

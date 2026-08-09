@@ -7844,6 +7844,8 @@
         "fullName": "Xã Thuỵ Hùng",
         "fullNameEn": "Thuy Hung Commune",
         "codeName": "thuy_hung",
+        "postalCode": "25209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1806",
         "areaKm2": 108.76
       }

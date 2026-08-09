@@ -5484,6 +5484,8 @@
         "fullName": "Phường Nam Nha Trang",
         "fullNameEn": "Nam Nha Trang Ward",
         "codeName": "nam_nha_trang",
+        "postalCode": "57136",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1120",
         "areaKm2": 82.2
       }

@@ -8044,6 +8044,8 @@
         "fullName": "Xã Quang Hán",
         "fullNameEn": "Quang Han Commune",
         "codeName": "quang_han",
+        "postalCode": "21830",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.999",
         "areaKm2": 93.61
       }

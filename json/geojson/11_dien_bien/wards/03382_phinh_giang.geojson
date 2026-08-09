@@ -11752,6 +11752,8 @@
         "fullName": "Xã Phình Giàng",
         "fullNameEn": "Phinh Giang Commune",
         "codeName": "phinh_giang",
+        "postalCode": "32314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2270",
         "areaKm2": 226.37
       }

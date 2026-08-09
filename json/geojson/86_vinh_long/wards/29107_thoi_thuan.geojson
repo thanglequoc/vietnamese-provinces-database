@@ -13560,6 +13560,8 @@
         "fullName": "Xã Thới Thuận",
         "fullNameEn": "Thoi Thuan Commune",
         "codeName": "thoi_thuan",
+        "postalCode": "86725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2470",
         "areaKm2": 116.95
       }

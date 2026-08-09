@@ -3316,6 +3316,8 @@
         "fullName": "Xã Hiếu Phụng",
         "fullNameEn": "Hieu Phung Commune",
         "codeName": "hieu_phung",
+        "postalCode": "85716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2540",
         "areaKm2": 42.46
       }

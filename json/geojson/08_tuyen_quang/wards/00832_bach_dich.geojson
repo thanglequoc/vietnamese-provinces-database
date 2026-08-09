@@ -12134,6 +12134,8 @@
         "fullName": "Xã Bạch Đích",
         "fullNameEn": "Bach Dich Commune",
         "codeName": "bach_dich",
+        "postalCode": "20312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2379",
         "areaKm2": 95.17
       }

@@ -5656,6 +5656,8 @@
         "fullName": "Xã Ngọc Linh",
         "fullNameEn": "Ngoc Linh Commune",
         "codeName": "ngoc_linh",
+        "postalCode": "60408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.557",
         "areaKm2": 180.35
       }

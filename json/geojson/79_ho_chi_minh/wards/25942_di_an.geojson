@@ -2604,6 +2604,8 @@
         "fullName": "Phường Dĩ An",
         "fullNameEn": "Di An Ward",
         "codeName": "di_an",
+        "postalCode": "75306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.29",
         "areaKm2": 21.38
       }

@@ -12048,6 +12048,8 @@
         "fullName": "Xã Tây Giang",
         "fullNameEn": "Tay Giang Commune",
         "codeName": "tay_giang",
+        "postalCode": "51816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1915",
         "areaKm2": 400.45
       }

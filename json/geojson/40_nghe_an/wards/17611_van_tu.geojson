@@ -4832,6 +4832,8 @@
         "fullName": "Xã Vân Tụ",
         "fullNameEn": "Van Tu Commune",
         "codeName": "van_tu",
+        "postalCode": "43620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1457",
         "areaKm2": 48.73
       }

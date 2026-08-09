@@ -4860,6 +4860,8 @@
         "fullName": "Xã Hải Hưng",
         "fullNameEn": "Hai Hung Commune",
         "codeName": "hai_hung",
+        "postalCode": "07912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.824",
         "areaKm2": 39.89
       }

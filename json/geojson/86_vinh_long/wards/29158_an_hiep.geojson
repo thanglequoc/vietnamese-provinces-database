@@ -2976,6 +2976,8 @@
         "fullName": "Xã An Hiệp",
         "fullNameEn": "An Hiep Commune",
         "codeName": "an_hiep",
+        "postalCode": "86823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2476",
         "areaKm2": 56.33
       }

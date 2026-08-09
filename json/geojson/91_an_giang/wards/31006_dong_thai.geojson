@@ -10080,6 +10080,8 @@
         "fullName": "Xã Đông Thái",
         "fullNameEn": "Dong Thai Commune",
         "codeName": "dong_thai",
+        "postalCode": "91813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.390",
         "areaKm2": 154.52
       }

@@ -5112,6 +5112,8 @@
         "fullName": "Xã Thạch Khê",
         "fullNameEn": "Thach Khe Commune",
         "codeName": "thach_khe",
+        "postalCode": "45211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2024",
         "areaKm2": 46.32
       }

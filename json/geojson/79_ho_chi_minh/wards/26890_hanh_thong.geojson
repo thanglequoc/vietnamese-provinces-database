@@ -1532,6 +1532,8 @@
         "fullName": "Phường Hạnh Thông",
         "fullNameEn": "Hanh Thong Ward",
         "codeName": "hanh_thong",
+        "postalCode": "71423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.58",
         "areaKm2": 3.37
       }

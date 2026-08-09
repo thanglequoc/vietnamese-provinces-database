@@ -7008,6 +7008,8 @@
         "fullName": "Xã Lực Hành",
         "fullNameEn": "Luc Hanh Commune",
         "codeName": "luc_hanh",
+        "postalCode": "22213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2341",
         "areaKm2": 87.97
       }

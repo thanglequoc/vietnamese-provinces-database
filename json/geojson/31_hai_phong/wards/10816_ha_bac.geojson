@@ -1928,6 +1928,8 @@
         "fullName": "Xã Hà Bắc",
         "fullNameEn": "Ha Bac Commune",
         "codeName": "ha_bac",
+        "postalCode": "03232",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.837",
         "areaKm2": 26.29
       }

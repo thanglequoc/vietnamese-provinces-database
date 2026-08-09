@@ -5816,6 +5816,8 @@
         "fullName": "Phường Duyên Hải",
         "fullNameEn": "Duyen Hai Ward",
         "codeName": "duyen_hai",
+        "postalCode": "87613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2518",
         "areaKm2": 69.63
       }

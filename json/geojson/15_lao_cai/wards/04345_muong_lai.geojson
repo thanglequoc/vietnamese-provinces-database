@@ -11384,6 +11384,8 @@
         "fullName": "Xã Mường Lai",
         "fullNameEn": "Muong Lai Commune",
         "codeName": "muong_lai",
+        "postalCode": "33308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1011",
         "areaKm2": 143.84
       }

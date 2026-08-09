@@ -19172,6 +19172,8 @@
         "fullName": "Xã Pa Tần",
         "fullNameEn": "Pa Tan Commune",
         "codeName": "pa_tan",
+        "postalCode": "30610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2079",
         "areaKm2": 316.53
       }

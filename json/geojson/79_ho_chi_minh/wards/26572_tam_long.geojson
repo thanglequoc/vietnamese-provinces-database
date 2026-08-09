@@ -5416,6 +5416,8 @@
         "fullName": "Phường Tam Long",
         "fullNameEn": "Tam Long Ward",
         "codeName": "tam_long",
+        "postalCode": "78118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2203",
         "areaKm2": 34.7
       }

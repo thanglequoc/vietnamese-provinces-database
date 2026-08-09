@@ -4788,6 +4788,8 @@
         "fullName": "Phường Bình Cơ",
         "fullNameEn": "Binh Co Ward",
         "codeName": "binh_co",
+        "postalCode": "75418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.25",
         "areaKm2": 73.69
       }

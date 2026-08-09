@@ -14500,6 +14500,8 @@
         "fullName": "Xã Thuận Hạnh",
         "fullNameEn": "Thuan Hanh Commune",
         "codeName": "thuan_hanh",
+        "postalCode": "65610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2817",
         "areaKm2": 129.78
       }

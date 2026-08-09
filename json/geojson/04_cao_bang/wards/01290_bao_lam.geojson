@@ -9888,6 +9888,8 @@
         "fullName": "Xã Bảo Lâm",
         "fullNameEn": "Bao Lam Commune",
         "codeName": "bao_lam",
+        "postalCode": "21420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.968",
         "areaKm2": 161.82
       }

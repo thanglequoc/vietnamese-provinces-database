@@ -2632,6 +2632,8 @@
         "fullName": "Phường Xuân Phương",
         "fullNameEn": "Xuan Phuong Ward",
         "codeName": "xuan_phuong",
+        "postalCode": "12008",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3266",
         "areaKm2": 10.81
       }

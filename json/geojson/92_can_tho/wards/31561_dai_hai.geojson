@@ -7632,6 +7632,8 @@
         "fullName": "Xã Đại Hải",
         "fullNameEn": "Dai Hai Commune",
         "codeName": "dai_hai",
+        "postalCode": "96317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.269",
         "areaKm2": 70.52
       }

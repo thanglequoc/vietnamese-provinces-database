@@ -11220,6 +11220,8 @@
         "fullName": "Phường Quy Nhơn Tây",
         "fullNameEn": "Quy Nhon Tay Ward",
         "codeName": "quy_nhon_tay",
+        "postalCode": "55130",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3018",
         "areaKm2": 118.63
       }

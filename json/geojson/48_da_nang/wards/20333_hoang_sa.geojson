@@ -4816,6 +4816,8 @@
         "fullName": "Đặc khu Hoàng Sa",
         "fullNameEn": "Paracel Special administrative region",
         "codeName": "hoang_sa",
+        "postalCode": "50906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3293",
         "areaKm2": 350
       }

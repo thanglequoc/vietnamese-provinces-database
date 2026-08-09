@@ -1848,6 +1848,8 @@
         "fullName": "Phường Thành Vinh",
         "fullNameEn": "Thanh Vinh Ward",
         "codeName": "thanh_vinh",
+        "postalCode": "43132",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1517",
         "areaKm2": 15.54
       }

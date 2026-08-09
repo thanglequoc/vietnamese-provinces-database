@@ -5316,6 +5316,8 @@
         "fullName": "Xã Tân Hộ Cơ",
         "fullNameEn": "Tan Ho Co Commune",
         "codeName": "tan_ho_co",
+        "postalCode": "81410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.406",
         "areaKm2": 77.5
       }

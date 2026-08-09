@@ -4980,6 +4980,8 @@
         "fullName": "Xã Thạnh Mỹ Tây",
         "fullNameEn": "Thanh My Tay Commune",
         "codeName": "thanh_my_tay",
+        "postalCode": "90613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.330",
         "areaKm2": 162.08
       }

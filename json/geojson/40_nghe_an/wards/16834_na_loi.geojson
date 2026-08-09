@@ -10196,6 +10196,8 @@
         "fullName": "Xã Na Loi",
         "fullNameEn": "Na Loi Commune",
         "codeName": "na_loi",
+        "postalCode": "44415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1500",
         "areaKm2": 141.86
       }

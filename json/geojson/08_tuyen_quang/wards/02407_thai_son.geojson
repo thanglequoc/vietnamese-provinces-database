@@ -9224,6 +9224,8 @@
         "fullName": "Xã Thái Sơn",
         "fullNameEn": "Thai Son Commune",
         "codeName": "thai_son",
+        "postalCode": "22622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2338",
         "areaKm2": 93.54
       }

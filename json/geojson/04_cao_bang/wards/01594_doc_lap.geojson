@@ -6332,6 +6332,8 @@
         "fullName": "Xã Độc Lập",
         "fullNameEn": "Doc Lap Commune",
         "codeName": "doc_lap",
+        "postalCode": "21907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.988",
         "areaKm2": 102.21
       }

@@ -4128,6 +4128,8 @@
         "fullName": "Xã Giao An",
         "fullNameEn": "Giao An Commune",
         "codeName": "giao_an",
+        "postalCode": "41815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2719",
         "areaKm2": 113.88
       }

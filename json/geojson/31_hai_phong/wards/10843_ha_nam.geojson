@@ -1668,6 +1668,8 @@
         "fullName": "Xã Hà Nam",
         "fullNameEn": "Ha Nam Commune",
         "codeName": "ha_nam",
+        "postalCode": "03233",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.839",
         "areaKm2": 27.78
       }

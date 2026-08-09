@@ -16464,6 +16464,8 @@
         "fullName": "Xã Sơn Mỹ",
         "fullNameEn": "Son My Commune",
         "codeName": "son_my",
+        "postalCode": "77613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3099",
         "areaKm2": 254.52
       }

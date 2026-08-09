@@ -5660,6 +5660,8 @@
         "fullName": "Phường Long Tuyền",
         "fullNameEn": "Long Tuyen Ward",
         "codeName": "long_tuyen",
+        "postalCode": "94211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.211",
         "areaKm2": 28.48
       }

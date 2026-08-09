@@ -20860,6 +20860,8 @@
         "fullName": "Xã Long Hà",
         "fullNameEn": "Long Ha Commune",
         "codeName": "long_ha",
+        "postalCode": "67711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2278",
         "areaKm2": 168.4
       }

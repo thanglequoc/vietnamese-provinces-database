@@ -4300,6 +4300,8 @@
         "fullName": "Xã Hậu Lộc",
         "fullNameEn": "Hau Loc Commune",
         "codeName": "hau_loc",
+        "postalCode": "40406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2617",
         "areaKm2": 24.92
       }

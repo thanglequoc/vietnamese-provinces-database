@@ -3200,6 +3200,8 @@
         "fullName": "Phường Biên Hoà",
         "fullNameEn": "Bien Hoa Ward",
         "codeName": "bien_hoa",
+        "postalCode": "76136",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3108",
         "areaKm2": 21.5
       }

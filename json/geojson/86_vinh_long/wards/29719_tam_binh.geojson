@@ -3716,6 +3716,8 @@
         "fullName": "Xã Tam Bình",
         "fullNameEn": "Tam Binh Commune",
         "codeName": "tam_binh",
+        "postalCode": "85306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2544",
         "areaKm2": 34.63
       }

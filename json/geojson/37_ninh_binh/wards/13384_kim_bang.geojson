@@ -1976,6 +1976,8 @@
         "fullName": "Phường Kim Bảng",
         "fullNameEn": "Kim Bang Ward",
         "codeName": "kim_bang",
+        "postalCode": "18327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2784",
         "areaKm2": 15.22
       }

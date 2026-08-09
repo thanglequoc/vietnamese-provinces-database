@@ -1056,6 +1056,8 @@
         "fullName": "Phường Phú Thạnh",
         "fullNameEn": "Phu Thanh Ward",
         "codeName": "phu_thanh",
+        "postalCode": "72013",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.74",
         "areaKm2": 2.99
       }

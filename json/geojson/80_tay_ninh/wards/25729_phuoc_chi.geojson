@@ -3480,6 +3480,8 @@
         "fullName": "Xã Phước Chỉ",
         "fullNameEn": "Phuoc Chi Commune",
         "codeName": "phuoc_chi",
+        "postalCode": "80914",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2725",
         "areaKm2": 82.84
       }

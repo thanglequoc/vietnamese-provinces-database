@@ -19672,6 +19672,8 @@
         "fullName": "Xã Hoà Sơn",
         "fullNameEn": "Hoa Son Commune",
         "codeName": "hoa_son",
+        "postalCode": "64408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2862",
         "areaKm2": 108.55
       }

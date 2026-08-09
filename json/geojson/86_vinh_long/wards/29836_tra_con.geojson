@@ -6896,6 +6896,8 @@
         "fullName": "Xã Trà Côn",
         "fullNameEn": "Tra Con Commune",
         "codeName": "tra_con",
+        "postalCode": "85611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2557",
         "areaKm2": 59.37
       }

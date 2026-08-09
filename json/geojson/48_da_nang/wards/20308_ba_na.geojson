@@ -14016,6 +14016,8 @@
         "fullName": "Xã Bà Nà",
         "fullNameEn": "Ba Na Commune",
         "codeName": "ba_na",
+        "postalCode": "50818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1913",
         "areaKm2": 136.41
       }

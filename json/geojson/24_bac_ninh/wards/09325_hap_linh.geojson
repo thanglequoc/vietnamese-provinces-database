@@ -2944,6 +2944,8 @@
         "fullName": "Phường Hạp Lĩnh",
         "fullNameEn": "Hap Linh Ward",
         "codeName": "hap_linh",
+        "postalCode": "16120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2197",
         "areaKm2": 12.65
       }

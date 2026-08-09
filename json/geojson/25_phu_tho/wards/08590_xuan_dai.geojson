@@ -10112,6 +10112,8 @@
         "fullName": "Xã Xuân Đài",
         "fullNameEn": "Xuan Dai Commune",
         "codeName": "xuan_dai",
+        "postalCode": "35564",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1561",
         "areaKm2": 209.6
       }

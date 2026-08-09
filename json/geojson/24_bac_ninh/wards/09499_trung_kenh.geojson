@@ -3492,6 +3492,8 @@
         "fullName": "Xã Trung Kênh",
         "fullNameEn": "Trung Kenh Commune",
         "codeName": "trung_kenh",
+        "postalCode": "16611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2135",
         "areaKm2": 27.32
       }

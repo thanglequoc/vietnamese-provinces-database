@@ -6352,6 +6352,8 @@
         "fullName": "Xã Phong Hiệp",
         "fullNameEn": "Phong Hiep Commune",
         "codeName": "phong_hiep",
+        "postalCode": "97415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.149",
         "areaKm2": 55.97
       }

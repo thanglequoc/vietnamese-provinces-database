@@ -2008,6 +2008,8 @@
         "fullName": "Phường Chánh Hưng",
         "fullNameEn": "Chanh Hung Ward",
         "codeName": "chanh_hung",
+        "postalCode": "73023",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.102",
         "areaKm2": 4.61
       }

@@ -20016,6 +20016,8 @@
         "fullName": "Xã Thông Thụ",
         "fullNameEn": "Thong Thu Commune",
         "codeName": "thong_thu",
+        "postalCode": "44066",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1492",
         "areaKm2": 706.75
       }

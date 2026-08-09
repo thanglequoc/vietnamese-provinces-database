@@ -5756,6 +5756,8 @@
         "fullName": "Xã Đông Hiệp",
         "fullNameEn": "Dong Hiep Commune",
         "codeName": "dong_hiep",
+        "postalCode": "94615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.227",
         "areaKm2": 46.25
       }

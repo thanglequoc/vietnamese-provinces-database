@@ -4816,6 +4816,8 @@
         "fullName": "Xã Như Xuân",
         "fullNameEn": "Nhu Xuan Commune",
         "codeName": "nhu_xuan",
+        "postalCode": "42524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2692",
         "areaKm2": 69.87
       }

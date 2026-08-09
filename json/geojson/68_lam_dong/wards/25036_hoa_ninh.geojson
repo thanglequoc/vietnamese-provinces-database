@@ -20552,6 +20552,8 @@
         "fullName": "Xã Hoà Ninh",
         "fullNameEn": "Hoa Ninh Commune",
         "codeName": "hoa_ninh",
+        "postalCode": "66720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1271",
         "areaKm2": 95.17
       }

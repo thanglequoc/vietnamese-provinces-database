@@ -6212,6 +6212,8 @@
         "fullName": "Xã Hương Sơn",
         "fullNameEn": "Huong Son Commune",
         "codeName": "huong_son",
+        "postalCode": "13723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3209",
         "areaKm2": 69.11
       }

@@ -12036,6 +12036,8 @@
         "fullName": "Xã Đoàn Kết",
         "fullNameEn": "Doan Ket Commune",
         "codeName": "doan_ket",
+        "postalCode": "25314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1823",
         "areaKm2": 156.29
       }

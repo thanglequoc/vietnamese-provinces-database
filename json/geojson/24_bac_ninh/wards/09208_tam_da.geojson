@@ -2876,6 +2876,8 @@
         "fullName": "Xã Tam Đa",
         "fullNameEn": "Tam Da Commune",
         "codeName": "tam_da",
+        "postalCode": "16211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2121",
         "areaKm2": 20.52
       }

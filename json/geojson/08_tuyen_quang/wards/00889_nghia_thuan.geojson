@@ -10188,6 +10188,8 @@
         "fullName": "Xã Nghĩa Thuận",
         "fullNameEn": "Nghia Thuan Commune",
         "codeName": "nghia_thuan",
+        "postalCode": "20359",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2363",
         "areaKm2": 80.12
       }

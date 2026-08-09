@@ -9236,6 +9236,8 @@
         "fullName": "Xã Tri Phú",
         "fullNameEn": "Tri Phu Commune",
         "codeName": "tri_phu",
+        "postalCode": "22329",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2331",
         "areaKm2": 170.26
       }

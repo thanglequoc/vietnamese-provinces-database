@@ -3180,6 +3180,8 @@
         "fullName": "Phường Bắc Giang",
         "fullNameEn": "Bac Giang Ward",
         "codeName": "bac_giang",
+        "postalCode": "26122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2141",
         "areaKm2": 23.23
       }

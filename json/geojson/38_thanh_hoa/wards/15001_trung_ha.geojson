@@ -9312,6 +9312,8 @@
         "fullName": "Xã Trung Hạ",
         "fullNameEn": "Trung Ha Commune",
         "codeName": "trung_ha",
+        "postalCode": "42009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2710",
         "areaKm2": 123.86
       }

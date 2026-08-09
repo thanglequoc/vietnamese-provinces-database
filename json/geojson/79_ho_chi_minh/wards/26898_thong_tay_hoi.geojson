@@ -1140,6 +1140,8 @@
         "fullName": "Phường Thông Tây Hội",
         "fullNameEn": "Thong Tay Hoi Ward",
         "codeName": "thong_tay_hoi",
+        "postalCode": "71426",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.59",
         "areaKm2": 3.24
       }

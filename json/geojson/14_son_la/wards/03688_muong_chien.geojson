@@ -14772,6 +14772,8 @@
         "fullName": "Xã Mường Chiên",
         "fullNameEn": "Muong Chien Commune",
         "codeName": "muong_chien",
+        "postalCode": "34256",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1340",
         "areaKm2": 382.2
       }

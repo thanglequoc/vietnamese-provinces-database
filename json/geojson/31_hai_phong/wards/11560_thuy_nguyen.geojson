@@ -3484,6 +3484,8 @@
         "fullName": "Phường Thuỷ Nguyên",
         "fullNameEn": "Thuy Nguyen Ward",
         "codeName": "thuy_nguyen",
+        "postalCode": "04344",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.926",
         "areaKm2": 45.34
       }

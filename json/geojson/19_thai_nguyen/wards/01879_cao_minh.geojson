@@ -11676,6 +11676,8 @@
         "fullName": "Xã Cao Minh",
         "fullNameEn": "Cao Minh Commune",
         "codeName": "cao_minh",
+        "postalCode": "23416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1165",
         "areaKm2": 134.89
       }

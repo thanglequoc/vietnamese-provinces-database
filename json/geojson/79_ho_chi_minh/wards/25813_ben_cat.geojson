@@ -8072,6 +8072,8 @@
         "fullName": "Phường Bến Cát",
         "fullNameEn": "Ben Cat Ward",
         "codeName": "ben_cat",
+        "postalCode": "75915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.10",
         "areaKm2": 100.89
       }

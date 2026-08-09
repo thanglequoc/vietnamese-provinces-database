@@ -11072,6 +11072,8 @@
         "fullName": "Xã Đăk Long",
         "fullNameEn": "Dak Long Commune",
         "codeName": "dak_long",
+        "postalCode": "60417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.532",
         "areaKm2": 280.5
       }

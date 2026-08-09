@@ -10988,6 +10988,8 @@
         "fullName": "Phường Đăk Cấm",
         "fullNameEn": "Dak Cam Ward",
         "codeName": "dak_cam",
+        "postalCode": "60118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1731",
         "areaKm2": 66.33
       }

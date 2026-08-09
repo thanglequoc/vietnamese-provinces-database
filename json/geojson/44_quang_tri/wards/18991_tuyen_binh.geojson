@@ -8964,6 +8964,8 @@
         "fullName": "Xã Tuyên Bình",
         "fullNameEn": "Tuyen Binh Commune",
         "codeName": "tuyen_binh",
+        "postalCode": "47529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.609",
         "areaKm2": 119.19
       }
