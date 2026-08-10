@@ -28,7 +28,7 @@ All required data files (including GeoJSON geometry) are committed in the reposi
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:ThangLeQuoc/vietnamese-provinces-database.git
+git clone git@github.com:thanglequoc/vietnamese-provinces-database.git
 cd vietnamese-provinces-database
 ```
 

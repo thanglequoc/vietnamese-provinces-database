@@ -39,7 +39,7 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	dataWriter := bufio.NewWriter(file)
 	dataWriter.WriteString("/* === Vietnamese Provinces Database Dataset for Oracle === */\n")
 	dataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	dataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	dataWriter.WriteString("/* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */\n")
 	dataWriter.WriteString("/* =============================================== */\n\n")
 
 	dataWriter.WriteString("-- DATA for administrative_regions --\n")
