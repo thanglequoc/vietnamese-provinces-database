@@ -18,6 +18,13 @@ POSTAL_MD = "postal_codes.md"
 DB_TSV = "db_wards.tsv"
 OUT_DIR = "../../dataset-generation-scripts/resources/postal"
 
+# Decree spellings that differ from the DB-convention ward name. Keyed by
+# postal code (unique) so regeneration reproduces the corrected seed names.
+WARD_NAME_OVERRIDES = {
+    "66126": "Lang Biang - Đà Lạt",
+    "66459": "B'Lao",
+}
+
 
 def strip_tone(s):
     s = unicodedata.normalize("NFD", s)
@@ -91,7 +98,7 @@ def parse_province_prefixes(lines, code_by_norm):
         except ValueError:
             continue
         name = c[1]
-        prefix = c[2]
+        prefix = ", ".join(p.strip() for p in c[2].split(","))
         if not name:
             continue
         code = code_by_norm.get(norm(name))
@@ -125,6 +132,7 @@ def parse_ward_postal_codes(lines, code_by_norm):
         if not re.fullmatch(r"\d{5}", postal):
             continue
         name = strip_unit_prefix(name_raw)
+        name = WARD_NAME_OVERRIDES.get(postal, name)
         if not name:
             continue
         result.append({"province_code": cur_prov_code, "name": name, "postal_code": postal})
