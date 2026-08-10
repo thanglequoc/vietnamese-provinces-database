@@ -53,7 +53,7 @@ func (w *MssqlDatasetFileWriter) WriteToFile(
 	dataWriterMsSql := bufio.NewWriter(fileMsSql)
 	dataWriterMsSql.WriteString("/* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */\n")
 	dataWriterMsSql.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	dataWriterMsSql.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	dataWriterMsSql.WriteString("/* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */\n")
 	dataWriterMsSql.WriteString("/* =============================================== */\n\n")
 
 	dataWriterMsSql.WriteString("-- DATA for administrative_regions --\n")
@@ -133,64 +133,55 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 	fileTimeSuffix := getFileTimeSuffix()
 
 	gisOutputFolderPath := "./output/sqlserver/gis"
-	err := os.MkdirAll(gisOutputFolderPath, os.ModePerm)
-	if err != nil {
-		log.Fatal("Unable to create output folder", err)
-		return err
+	if err := os.MkdirAll(gisOutputFolderPath, os.ModePerm); err != nil {
+		return fmt.Errorf("create output folder %s: %w", gisOutputFolderPath, err)
 	}
 
 	mssqlGISFilePath := fmt.Sprintf(gisOutputFolderPath+"/mssql_ImportData_gis_%s.sql", fileTimeSuffix)
-	mssqlGISFile, err := os.OpenFile(mssqlGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Fatal("Unable to write to file", err)
-		return err
+
+	header := chunkHeaderInfo{
+		Banner:     "Add-on GIS Dataset for Microsoft SQL Server of Vietnamese Provinces Database",
+		CreatedAt:  time.Now().Format(time.RFC1123Z),
+		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
-	defer mssqlGISFile.Close()
 
-	mssqlScriptDataWriter := bufio.NewWriter(mssqlGISFile)
-	mssqlScriptDataWriter.WriteString("/* === Vietnamese Provinces Database GIS Dataset for Microsoft SQL Server === */\n")
-	mssqlScriptDataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	mssqlScriptDataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
-	mssqlScriptDataWriter.WriteString("/* =============================================== */\n\n")
-
-	mssqlScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
+	var blocks [][]byte
+	blocks = append(blocks, []byte("-- DATA for gis_provinces --\n"))
 	for _, p := range sapNhapProvincesGIS {
 		vnProvinceCode := p.VNDSProvinceCode
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISProvinceTemplate+"\n",
 			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
-		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
+		blocks = append(blocks, []byte(mssqlInsertLine))
 	}
-	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+	blocks = append(blocks, []byte("-- ----------------------------------\n\n-- DATA for gis_wards --\n"))
 
-	mssqlScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
 	counter := 0
-	isAppending := false
-
+	batch := strings.Builder{}
 	for i, w := range sapNhapWardsGIS {
-		if !isAppending {
-			mssqlScriptDataWriter.WriteString(insertMssqlGISWardTemplate + "\n")
+		if counter == 0 {
+			batch.WriteString(insertMssqlGISWardTemplate + "\n")
 		}
-		
+
 		vnWardCode := w.VNDSWardCode
 		mssqlInsertLine := fmt.Sprintf(insertMssqlGISWardValueTemplate,
 			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
-		mssqlScriptDataWriter.WriteString(mssqlInsertLine)
-		counter++
+		batch.WriteString(mssqlInsertLine)
 
-		// the batch insert statement batch reach limit, break and create a new batch insert statement
+		counter++
 		if counter == batchInsertItemSize || i == len(sapNhapWardsGIS)-1 {
-			isAppending = false
-			mssqlScriptDataWriter.WriteString(";\n\nGO\n\n")
-			counter = 0 // reset counter
+			batch.WriteString(";\n\nGO\n\n")
+			blocks = append(blocks, []byte(batch.String()))
+			counter = 0
+			batch.Reset()
 		} else {
-			mssqlScriptDataWriter.WriteString(",\n")
-			isAppending = true
+			batch.WriteString(",\n")
 		}
 	}
-	mssqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
-	mssqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
-	mssqlScriptDataWriter.Flush()
-	_ = zipFile(mssqlGISFilePath)
 
+	blocks = append(blocks, []byte("-- ----------------------------------\n\n-- END OF SCRIPT FILE --\n"))
+
+	if err := writeChunkedSQLFile(mssqlGISFilePath, blocks, header); err != nil {
+		return fmt.Errorf("write mssql GIS chunks: %w", err)
+	}
 	return nil
 }
