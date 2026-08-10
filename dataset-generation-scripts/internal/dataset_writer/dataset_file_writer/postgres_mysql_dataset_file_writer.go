@@ -59,7 +59,7 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 	dataWriter := bufio.NewWriter(file)
 	dataWriter.WriteString("/* === Vietnamese Provinces Database Dataset for PostgreSQL/MySQL === */\n")
 	dataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	dataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
+	dataWriter.WriteString("/* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */\n")
 	dataWriter.WriteString("/* =============================================== */\n\n")
 
 	dataWriter.WriteString("-- DATA for administrative_regions --\n")
@@ -140,8 +140,6 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
 	fileTimeSuffix := getFileTimeSuffix()
 
-	// Derive engine base directory from OutputFilePath: e.g. "./output/postgresql" → "./output/postgresql/gis"
-	engineBaseDir := filepath.Dir(w.OutputFilePath)
 	postgresGISDir := filepath.Join("./output/postgresql", "gis")
 	mysqlGISDir := filepath.Join("./output/mysql", "gis")
 
@@ -149,97 +147,84 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 	_ = os.MkdirAll(mysqlGISDir, os.ModePerm)
 
 	postgresGISFilePath := filepath.Join(postgresGISDir, fmt.Sprintf("postgresql_ImportData_gis_%s.sql", fileTimeSuffix))
-	_ = engineBaseDir
-
-	provinceGISFile, err := os.OpenFile(postgresGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Fatal("Unable to write to file", err)
-		panic(err)
-	}
-	defer provinceGISFile.Close()
-
 	mysqlGISFilePath := filepath.Join(mysqlGISDir, fmt.Sprintf("mysql_ImportData_gis_%s.sql", fileTimeSuffix))
-	mysqlGISFile, err := os.OpenFile(mysqlGISFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Fatal("Unable to write to file", err)
-		panic(err)
+
+	createdAt := time.Now().Format(time.RFC1123Z)
+	postgresHeader := chunkHeaderInfo{
+		Banner:     "Add-on GIS Dataset for PostgreSQL of Vietnamese Provinces Database",
+		CreatedAt:  createdAt,
+		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
-	defer mysqlGISFile.Close()
+	mysqlHeader := chunkHeaderInfo{
+		Banner:     "Add-on GIS Dataset for MySQL of Vietnamese Provinces Database",
+		CreatedAt:  createdAt,
+		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
+	}
 
-	postgresScriptDataWriter := bufio.NewWriter(provinceGISFile)
-	postgresScriptDataWriter.WriteString("/* === Add-on GIS Dataset for PostgreSQL of Vietnamese Provinces Database  === */\n")
-	postgresScriptDataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	postgresScriptDataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
-	postgresScriptDataWriter.WriteString("/* =============================================== */\n\n")
+	var postgresBlocks [][]byte
+	var mysqlBlocks [][]byte
 
-	mysqlScriptDataWriter := bufio.NewWriter(mysqlGISFile)
-	mysqlScriptDataWriter.WriteString("/* === Add-on GIS Dataset for MySQL of Vietnamese Provinces Database  === */\n")
-	mysqlScriptDataWriter.WriteString(fmt.Sprintf("/* Created at:  %s */\n", time.Now().Format(time.RFC1123Z)))
-	mysqlScriptDataWriter.WriteString("/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */\n")
-	mysqlScriptDataWriter.WriteString("/* =============================================== */\n\n")
+	postgresBlocks = append(postgresBlocks, []byte("-- DATA for gis_provinces --\n"))
+	mysqlBlocks = append(mysqlBlocks, []byte("-- DATA for gis_provinces --\n"))
 
-	postgresScriptDataWriter.WriteString("-- DATA for gis_provinces --\n")
 	for _, p := range sapNhapProvincesGIS {
 		vnProvinceCode := p.VNDSProvinceCode
 
-		// Postgres - Postgis use OGC (Open Geospatial Consortium) standard (lng - lat)
+		// Postgres - PostGIS use OGC (Open Geospatial Consortium) standard (lng - lat)
 		postgresInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
 			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKT, p.GeomWKT)
-		postgresScriptDataWriter.WriteString(postgresInsertLine)
+		postgresBlocks = append(postgresBlocks, []byte(postgresInsertLine))
 
-		// MySQL use official EPSG standard (lat - lng)
+		// MySQL uses official EPSG standard (lat - lng)
 		mysqlInsertLine := fmt.Sprintf(insertProvinceGISTemplate+"\n",
 			vnProvinceCode, p.MaLK, p.DienTichKM2, p.BBoxWKTLatLng, p.GeomWKTLatLng)
-		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
+		mysqlBlocks = append(mysqlBlocks, []byte(mysqlInsertLine))
 	}
 
-	postgresScriptDataWriter.WriteString("-- ----------------------------------\n\n")
-	mysqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
+	postgresBlocks = append(postgresBlocks, []byte("-- ----------------------------------\n\n-- DATA for gis_wards --\n"))
+	mysqlBlocks = append(mysqlBlocks, []byte("-- ----------------------------------\n\n-- DATA for gis_wards --\n"))
 
-	postgresScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
-	mysqlScriptDataWriter.WriteString("-- DATA for gis_wards --\n")
 	counter := 0
-	isAppending := false
-
+	postgresBatch := strings.Builder{}
+	mysqlBatch := strings.Builder{}
 	for i, w := range sapNhapWardsGIS {
-		if !isAppending {
-			postgresScriptDataWriter.WriteString(insertWardGISTemplate + "\n")
-			mysqlScriptDataWriter.WriteString(insertWardGISTemplate + "\n")
+		if counter == 0 {
+			postgresBatch.WriteString(insertWardGISTemplate + "\n")
+			mysqlBatch.WriteString(insertWardGISTemplate + "\n")
 		}
 
 		vnWardCode := w.VNDSWardCode
 		postgresInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
 			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKT, w.GeomWKT)
-		postgresScriptDataWriter.WriteString(postgresInsertLine)
+		postgresBatch.WriteString(postgresInsertLine)
 
 		mysqlInsertLine := fmt.Sprintf(insertWardGISValueTemplate+"\n",
 			vnWardCode, w.MaLK, w.DienTichKM2, w.BBoxWKTLatLng, w.GeomWKTLatLng)
-		mysqlScriptDataWriter.WriteString(mysqlInsertLine)
+		mysqlBatch.WriteString(mysqlInsertLine)
 
 		counter++
-		// the batch insert statement batch reach limit, break and create a new batch insert statement
 		if counter == batchInsertItemSize || i == len(sapNhapWardsGIS)-1 {
-			isAppending = false
-			postgresScriptDataWriter.WriteString(";\n\n")
-			mysqlScriptDataWriter.WriteString(";\n\n")
-			counter = 0 // reset counter
+			postgresBatch.WriteString(";\n\n")
+			mysqlBatch.WriteString(";\n\n")
+			postgresBlocks = append(postgresBlocks, []byte(postgresBatch.String()))
+			mysqlBlocks = append(mysqlBlocks, []byte(mysqlBatch.String()))
+			counter = 0
+			postgresBatch.Reset()
+			mysqlBatch.Reset()
 		} else {
-			postgresScriptDataWriter.WriteString(",\n")
-			mysqlScriptDataWriter.WriteString(",\n")
-			isAppending = true
+			postgresBatch.WriteString(",\n")
+			mysqlBatch.WriteString(",\n")
 		}
 	}
-	postgresScriptDataWriter.WriteString("-- ----------------------------------\n\n")
-	postgresScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
-	mysqlScriptDataWriter.WriteString("-- ----------------------------------\n\n")
-	mysqlScriptDataWriter.WriteString("-- END OF SCRIPT FILE --\n")
+	postgresBlocks = append(postgresBlocks, []byte("-- ----------------------------------\n\n-- END OF SCRIPT FILE --\n"))
+	mysqlBlocks = append(mysqlBlocks, []byte("-- ----------------------------------\n\n-- END OF SCRIPT FILE --\n"))
 
-	postgresScriptDataWriter.Flush()
-	_ = zipFile(postgresGISFilePath)
-
-	mysqlScriptDataWriter.Flush()
-	_ = zipFile(mysqlGISFilePath)
-
+	if err := writeChunkedSQLFile(postgresGISFilePath, postgresBlocks, postgresHeader); err != nil {
+		return fmt.Errorf("write postgres GIS chunks: %w", err)
+	}
+	if err := writeChunkedSQLFile(mysqlGISFilePath, mysqlBlocks, mysqlHeader); err != nil {
+		return fmt.Errorf("write mysql GIS chunks: %w", err)
+	}
 	return nil
 }

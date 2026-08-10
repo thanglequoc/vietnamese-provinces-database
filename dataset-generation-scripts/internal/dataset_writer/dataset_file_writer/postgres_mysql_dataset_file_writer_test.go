@@ -409,14 +409,21 @@ func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchSplitsA
 func readGeneratedGISFile(t *testing.T, rootDir, pattern string) string {
 	t.Helper()
 
-	matches, err := filepath.Glob(filepath.Join(rootDir, "output", "mysql", "gis", pattern))
+	// Find the manifest (pattern is e.g. "mysql_ImportData_gis_*.sql")
+	manifestMatches, err := filepath.Glob(filepath.Join(rootDir, "output", "mysql", "gis", pattern+".manifest"))
 	assert.NoError(t, err)
-	if !assert.Len(t, matches, 1, "should have created one GIS output file") {
+	if !assert.Len(t, manifestMatches, 1, "should have created one GIS manifest file") {
 		return ""
 	}
 
-	content, err := os.ReadFile(matches[0])
+	manifestData, err := os.ReadFile(manifestMatches[0])
 	assert.NoError(t, err)
 
-	return string(content)
+	var sb strings.Builder
+	for _, name := range strings.Split(strings.TrimSpace(string(manifestData)), "\n") {
+		content, err := os.ReadFile(filepath.Join(rootDir, "output", "mysql", "gis", name))
+		assert.NoError(t, err)
+		sb.Write(content)
+	}
+	return sb.String()
 }
