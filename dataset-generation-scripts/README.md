@@ -88,8 +88,8 @@ output/
 ├── redis/
 │   └── redis_vn_provinces_dataset_*.redis                   # Redis commands
 └── gis/                                                     # (only if INCLUDE_GIS=true)
-    ├── *_ImportData_gis_*.sql                               # GIS SQL imports per engine
-    ├── *_ImportData_gis_*.sql.zip                           # Compressed versions
+    ├── *_ImportData_gis_*-part-*.sql                        # GIS SQL import chunks per engine (each < 40 MB)
+    ├── *_ImportData_gis_*.sql.manifest                      # Ordered chunk list per engine
     ├── vn_provinces_wards_geojson_*.zip                     # Combined GeoJSON archive
     └── geojson/                                             # Per-province GeoJSON
         ├── README.md

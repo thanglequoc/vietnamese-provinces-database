@@ -180,14 +180,15 @@ psql -U <username> -d <database_name> -f postgresql/gis/postgresql_CreateGISTabl
 
 #### Bước 3: Nhập dữ liệu GIS
 
-Giải nén gói dữ liệu GIS PostgreSQL tại thư mục [postgresql/gis](../../postgresql/gis/)
-
-Hoặc tải trực tiếp tập dữ liệu GIS từ [vn-province bucket][gis_dataset_postgresql_bucket_url]
-
-Thực thi tập lệnh nhập dữ liệu để nạp dữ liệu ranh giới:
+Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [postgresql/gis](../../postgresql/gis/).
+Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
+`postgresql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ
+tự**, theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```bash
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+# ... một lệnh psql cho mỗi phần, theo thứ tự trong manifest
 ```
 
 ### MySQL / MariaDB
@@ -209,14 +210,15 @@ mysql -u <username> -p <database_name> < mysql/gis/mysql_CreateGISTables.sql
 
 #### Bước 2: Nhập dữ liệu GIS
 
-Giải nén gói dữ liệu GIS MySQL tại thư mục [mysql/gis](../../mysql/gis/)
-
-Hoặc tải trực tiếp tập dữ liệu GIS từ [vn-province bucket][gis_dataset_mysql_bucket_url]
-
-Thực thi tập lệnh nhập dữ liệu:
+Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [mysql/gis](../../mysql/gis/).
+Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
+`mysql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ tự**,
+theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```bash
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+# ... một lệnh mysql cho mỗi phần, theo thứ tự trong manifest
 ```
 
 #### Lưu ý riêng cho MySQL
@@ -246,14 +248,15 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 #### Bước 2: Nhập dữ liệu GIS
 
-Giải nén gói dữ liệu GIS SQL Server tại thư mục [sqlserver/gis](../../sqlserver/gis/)
-
-Hoặc tải trực tiếp tập dữ liệu GIS từ [vn-province bucket][gis_dataset_sqlserver_bucket_url]
-
-Thực thi tập lệnh nhập dữ liệu:
+Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [sqlserver/gis](../../sqlserver/gis/).
+Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
+`mssql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ tự**,
+theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```cmd
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-01.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-02.sql
+# ... một lệnh sqlcmd cho mỗi phần, theo thứ tự trong manifest
 ```
 
 #### Lưu ý riêng cho SQL Server
@@ -489,6 +492,6 @@ Nếu bạn phát hiện lỗi trong bộ dữ liệu GIS hoặc có đề xuấ
 
 **Cập nhật gần nhất:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/postgresql_ImportData_gis_2026-06-20__12_32_01.sql
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mysql_ImportData_gis_2026-06-20__12_32_01.sql
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mssql_ImportData_gis_2026-06-20__12_32_02.sql
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/postgresql_ImportData_gis_2026-06-20__12_32_01.sql.manifest
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mysql_ImportData_gis_2026-06-20__12_32_01.sql.manifest
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mssql_ImportData_gis_2026-06-20__12_32_02.sql.manifest
