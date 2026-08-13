@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -37,7 +38,7 @@ func TestJSONDatasetFileWriter_WriteToFile_FullJSON(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 5, "should create 5 JSON files (full, simplified + minified, vn_only + minified)")
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
 
 	// Deterministic filename — no datetime suffix
 	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
@@ -63,10 +64,13 @@ func TestJSONDatasetFileWriter_WriteToFile_EmptyDataset(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 5, "should create 5 JSON files even with empty data")
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md even with empty data")
 
 	// Verify files are created and valid JSON
 	for _, f := range files {
+		if !strings.HasSuffix(f.Name(), ".json") {
+			continue
+		}
 		content, err := os.ReadFile(filepath.Join(tmpDir, f.Name()))
 		assert.NoError(t, err)
 
@@ -118,7 +122,7 @@ func TestJSONDatasetFileWriter_WriteToFile_MultipleProvinces(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 5)
+	assert.Len(t, files, 6)
 
 	// Verify full JSON contains all provinces
 	fullContent, _ := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
@@ -181,7 +185,7 @@ func TestJSONDatasetFileWriter_WriteToFile_Minified(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	require.NoError(t, err)
-	assert.Len(t, files, 5, "should create 5 JSON files (full, simplified + minified, vn_only + minified)")
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
 
 	minifiedFiles := []string{
 		"simplified_json_generated_data_vn_units_minified.json",
@@ -204,6 +208,30 @@ func TestJSONDatasetFileWriter_WriteToFile_Minified(t *testing.T) {
 	minifiedInfo, err := os.Stat(filepath.Join(tmpDir, "simplified_json_generated_data_vn_units_minified.json"))
 	require.NoError(t, err)
 	assert.Less(t, minifiedInfo.Size(), prettyInfo.Size())
+}
+
+func TestJSONDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	err := writer.WriteToFile(nil, nil, nil, nil)
+	require.NoError(t, err)
+
+	files, err := os.ReadDir(tmpDir)
+	require.NoError(t, err)
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
+
+	readmeContent, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	require.NoError(t, err)
+
+	contentStr := string(readmeContent)
+	assert.Contains(t, contentStr, "**Generated at:")
+	assert.Contains(t, contentStr, "full_json_generated_data_vn_units.json")
+	assert.Contains(t, contentStr, "simplified_json_generated_data_vn_units_minified.json")
+	assert.Contains(t, contentStr, "vn_only_simplified_json_generated_data_vn_units_minified.json")
+	assert.Contains(t, contentStr, "geojson/")
+	assert.Contains(t, contentStr, "vn_provinces_wards_geojson.zip")
 }
 
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
