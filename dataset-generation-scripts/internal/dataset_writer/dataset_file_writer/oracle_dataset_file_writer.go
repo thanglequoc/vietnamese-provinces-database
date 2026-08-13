@@ -117,5 +117,28 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 	dataWriter.Flush()
 	file.Close()
-	return nil
+
+	return writeOracleReadme(filepath.Dir(outputFilePath))
+}
+
+func writeOracleReadme(outputFolderPath string) error {
+	return writeDatasetReadme(outputFolderPath,
+		"Oracle Dataset — Vietnamese Provinces Database",
+		"Import script for the Vietnamese Provinces Database on Oracle.",
+		[]DatasetReadmeFile{
+			{Name: "oracle_ImportData_vn_units.sql", Description: "INSERT ALL statements for regions, units, provinces, and wards"},
+		},
+		[]string{
+			"## Data Structure",
+			"",
+			"The import script populates: `administrative_regions` (8), `administrative_units` (8), `provinces` (34), and `wards` (3,321). Each province and ward carries postal code fields (`postal_code_prefix` / `postal_code`).",
+			"",
+			"## Sample Queries",
+			"",
+			"```sql",
+			"SELECT COUNT(*) FROM provinces;",
+			"",
+			"SELECT w.code, w.name FROM wards w WHERE w.province_code = '01' ORDER BY w.name;",
+			"```",
+		})
 }
