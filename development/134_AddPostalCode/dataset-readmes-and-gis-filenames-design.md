@@ -139,11 +139,10 @@ published folders:
 - `sqlserver/gis/mssql_ImportData_gis_*.sql*`
 - `mongodb/gis/mongo_data_vn_province_gis_*.json`
 - `mongodb/gis/mongo_data_vn_ward_gis_*.json*`
-- `json/geojson/README.md` (removed so the stale gis-subfolder README does not
-  linger in the published folder)
 
 (glob patterns that match the datetime-suffixed variants but not the new
-fixed-name files). The generated READMEs copy over naturally via `cp -R`.
+fixed-name files). The generated READMEs copy over naturally via `cp -R`. The
+stale `json/geojson/README.md` is deleted manually by the maintainer.
 
 ### 5. Tests
 
