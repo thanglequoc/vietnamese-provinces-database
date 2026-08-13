@@ -39,8 +39,8 @@ func TestJSONDatasetFileWriter_WriteToFile_FullJSON(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Len(t, files, 3, "should create 3 JSON files (full, simplified, vn_only)")
 
-	// Verify full JSON file
-	fullContent, err := os.ReadFile(tmpDir + "/full_json_generated_data_vn_units_" + files[0].Name()[len("full_json_generated_data_vn_units_"):])
+	// Deterministic filename — no datetime suffix
+	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
 	assert.NoError(t, err)
 
 	var data interface{}
@@ -67,7 +67,7 @@ func TestJSONDatasetFileWriter_WriteToFile_EmptyDataset(t *testing.T) {
 
 	// Verify files are created and valid JSON
 	for _, f := range files {
-		content, err := os.ReadFile(tmpDir + "/" + f.Name())
+		content, err := os.ReadFile(filepath.Join(tmpDir, f.Name()))
 		assert.NoError(t, err)
 
 		var data interface{}
@@ -121,7 +121,7 @@ func TestJSONDatasetFileWriter_WriteToFile_MultipleProvinces(t *testing.T) {
 	assert.Len(t, files, 3)
 
 	// Verify full JSON contains all provinces
-	fullContent, _ := os.ReadFile(tmpDir + "/" + files[0].Name())
+	fullContent, _ := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
 	contentStr := string(fullContent)
 	assert.Contains(t, contentStr, "Hà Nội")
 	assert.Contains(t, contentStr, "Hải Phòng")
@@ -153,13 +153,8 @@ func TestJSONDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
 	err := writer.WriteToFile(nil, nil, provinces, nil)
 	assert.NoError(t, err)
 
-	files, _ := os.ReadDir(tmpDir)
-	var fullContent []byte
-	for _, f := range files {
-		if len(f.Name()) >= 5 && f.Name()[:5] == "full_" {
-			fullContent, _ = os.ReadFile(filepath.Join(tmpDir, f.Name()))
-		}
-	}
+	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
+	assert.NoError(t, err)
 	assert.Contains(t, string(fullContent), "11024")
 	assert.Contains(t, string(fullContent), "10, 11, 12, 13, 14")
 }

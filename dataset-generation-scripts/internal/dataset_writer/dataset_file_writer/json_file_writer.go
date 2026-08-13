@@ -1,10 +1,11 @@
 package dataset_writer
 
 import (
-	"bufio"
 	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
+
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 )
@@ -20,37 +21,32 @@ func (w *JSONDatasetFileWriter) WriteToFile(
 	wards []model.Ward) error {
 
 	os.MkdirAll(w.OutputFolderPath, 0746)
-	fileTimeSuffix := getFileTimeSuffix()
-	outputFilePath := fmt.Sprintf("%s/full_json_generated_data_vn_units_%s.json", w.OutputFolderPath, fileTimeSuffix)
-	file, err := os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-
-	dataWriter := bufio.NewWriter(file)
 
 	provinceData := file_writer_helper.ConvertToJsonProvinceModel(provinces)
-	data, _ := json.MarshalIndent(provinceData, "", " ")
-	dataWriter.Write(data)
-	dataWriter.Flush()
-	file.Close()
+	if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "full_json_generated_data_vn_units.json"), provinceData); err != nil {
+		return err
+	}
 
 	// JSON Simplified file
-	outputFilePath = fmt.Sprintf("%s/simplified_json_generated_data_vn_units_%s.json", w.OutputFolderPath, fileTimeSuffix)
-	file, err = os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-
-	dataWriter = bufio.NewWriter(file)
 	provinceSimplifiedData := file_writer_helper.ConvertToJsonProvinceSimplifiedModel(provinces)
-	data, _ = json.MarshalIndent(provinceSimplifiedData, "", " ")
-	dataWriter.Write(data)
-	dataWriter.Flush()
-	file.Close()
+	if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "simplified_json_generated_data_vn_units.json"), provinceSimplifiedData); err != nil {
+		return err
+	}
 
 	// VN only JSON Simplified file
-	outputFilePath = fmt.Sprintf("%s/vn_only_simplified_json_generated_data_vn_units_%s.json", w.OutputFolderPath, fileTimeSuffix)
-	file, err = os.OpenFile(outputFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	dataWriter = bufio.NewWriter(file)
 	provinceVNSimplifiedData := file_writer_helper.ConvertToJsonProvinceVNSimplifiedModel(provinces)
-	data, _ = json.MarshalIndent(provinceVNSimplifiedData, "", " ")
-	dataWriter.Write(data)
-	dataWriter.Flush()
-	file.Close()
-	return err
+	if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "vn_only_simplified_json_generated_data_vn_units.json"), provinceVNSimplifiedData); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// writePrettyJSON marshals payload with a single-space indent and writes it to filePath.
+func writePrettyJSON(filePath string, payload any) error {
+	data, err := json.MarshalIndent(payload, "", " ")
+	if err != nil {
+		return fmt.Errorf("marshal pretty json payload for %s: %w", filePath, err)
+	}
+	return os.WriteFile(filePath, data, 0644)
 }
