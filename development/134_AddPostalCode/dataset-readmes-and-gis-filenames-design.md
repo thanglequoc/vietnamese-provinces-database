@@ -88,8 +88,17 @@ the shared helper so all writers reuse it.
 - `mongodb_gis_file_writer.go`: `mongo_data_vn_province_gis.json`,
   `mongo_data_vn_ward_gis.json` → chunked `mongo_data_vn_ward_gis_part_NN.json`
   + `.json.manifest`.
-- Remove the now-unused `fileTimeSuffix` locals in these three functions.
+- `mongodb_file_writer.go` (base): drop `fileTimeSuffix` from
+  `administrative_units.json`, `administrative_regions.json`,
+  `mongo_data_vn_unit.json`.
+- `redis_file_writer.go` (base): drop `fileTimeSuffix` from
+  `redis_vn_provinces_dataset.redis`.
+- Remove the now-unused `fileTimeSuffix` locals in these functions.
 - Elasticsearch: unchanged (already deterministic).
+
+The published folder names for mongodb/redis do not change (they were already
+non-suffixed); the output becomes deterministic so the copy script can mirror
+them directly and READMEs show accurate file sizes.
 
 ### 3. README generation per writer
 
@@ -131,14 +140,19 @@ gis-subfolder README generation:
 
 ### 4. Copy script (`copy-datasets-to-repo.sh`)
 
-After copying each SQL/mongo dataset, prune old timestamped GIS variants in the
-published folders:
+All outputs are now deterministic, so every dataset is a direct mirror
+(`cp -R output/<name>/. <repo>/<name>/`). After copying each SQL/mongo dataset,
+prune old timestamped GIS/base variants in the published folders:
 
 - `postgresql/gis/postgresql_ImportData_gis_*.sql*`
 - `mysql/gis/mysql_ImportData_gis_*.sql*`
 - `sqlserver/gis/mssql_ImportData_gis_*.sql*`
 - `mongodb/gis/mongo_data_vn_province_gis_*.json`
 - `mongodb/gis/mongo_data_vn_ward_gis_*.json*`
+- `mongodb/administrative_units_*.json`
+- `mongodb/administrative_regions_*.json`
+- `mongodb/mongo_data_vn_unit_*.json`
+- `redis/redis_vn_provinces_dataset_*.redis`
 
 (glob patterns that match the datetime-suffixed variants but not the new
 fixed-name files). The generated READMEs copy over naturally via `cp -R`. The
