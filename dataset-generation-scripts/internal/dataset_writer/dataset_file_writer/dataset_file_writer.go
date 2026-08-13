@@ -1,6 +1,9 @@
 package dataset_writer
 
 import (
+	"fmt"
+	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
@@ -23,6 +26,58 @@ type DatasetFileWriter interface {
 
 func getFileTimeSuffix() string {
 	return strings.ReplaceAll(strings.ReplaceAll(time.Now().Format(time.DateTime), ":", "_"), " ", "__")
+}
+
+// DatasetReadmeFile describes one generated file for the dataset README.
+type DatasetReadmeFile struct {
+	Name        string
+	Description string
+}
+
+// writeDatasetReadme writes README.md at outputFolderPath: a bold generation
+// timestamp, a "Files" list with per-file sizes, then dataset-specific sections.
+func writeDatasetReadme(outputFolderPath, title, intro string, files []DatasetReadmeFile, sections []string) error {
+	lines := []string{
+		"# " + title,
+		"",
+		fmt.Sprintf("**Generated at: %s**", time.Now().Format(time.RFC1123Z)),
+		"",
+		intro,
+		"",
+	}
+	lines = append(lines, renderReadmeFilesSection(outputFolderPath, files)...)
+	if len(sections) > 0 {
+		lines = append(lines, "", strings.Join(sections, "\n"))
+	}
+	content := strings.Join(lines, "\n") + "\n"
+	return os.WriteFile(filepath.Join(outputFolderPath, "README.md"), []byte(content), 0644)
+}
+
+// renderReadmeFilesSection renders a "## Files" markdown block with per-file sizes.
+// Files that do not exist yet are skipped.
+func renderReadmeFilesSection(outputFolderPath string, files []DatasetReadmeFile) []string {
+	lines := []string{"## Files", ""}
+	for _, f := range files {
+		filePath := filepath.Join(outputFolderPath, f.Name)
+		info, err := os.Stat(filePath)
+		if err != nil {
+			continue
+		}
+		lines = append(lines, fmt.Sprintf("- `%s` — %s (%s)", f.Name, f.Description, formatFileSize(info.Size())))
+	}
+	return lines
+}
+
+func formatFileSize(size int64) string {
+	const kb = 1024
+	switch {
+	case size >= kb*kb:
+		return fmt.Sprintf("%.2f MB", float64(size)/(kb*kb))
+	case size >= kb:
+		return fmt.Sprintf("%.2f KB", float64(size)/kb)
+	default:
+		return fmt.Sprintf("%d B", size)
+	}
 }
 
 /*

@@ -110,15 +110,3 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 
 	return os.WriteFile(readmePath, []byte(content), 0644)
 }
-
-func formatFileSize(size int64) string {
-	const kb = 1024
-	switch {
-	case size >= kb*kb:
-		return fmt.Sprintf("%.2f MB", float64(size)/(kb*kb))
-	case size >= kb:
-		return fmt.Sprintf("%.2f KB", float64(size)/kb)
-	default:
-		return fmt.Sprintf("%d B", size)
-	}
-}

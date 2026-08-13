@@ -1,6 +1,8 @@
 package dataset_writer
 
 import (
+	"os"
+	"path/filepath"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -160,4 +162,30 @@ func TestGetFileTimeSuffix(t *testing.T) {
 	
 	// Check that it contains underscore for time separator
 	assert.Contains(t, result, "_", "should contain underscore for time separator")
+}
+
+func TestWriteDatasetReadme(t *testing.T) {
+	tmpDir := t.TempDir()
+	err := os.WriteFile(filepath.Join(tmpDir, "data.sql"), []byte("-- test\n"), 0644)
+	assert.NoError(t, err)
+
+	err = writeDatasetReadme(tmpDir,
+		"PostgreSQL Dataset — Vietnamese Provinces Database",
+		"Import script for the Vietnamese Provinces Database.",
+		[]DatasetReadmeFile{{Name: "data.sql", Description: "Sample file"}},
+		[]string{"## Data Structure\n\nsample", "## Sample Queries\n\nSELECT 1;"})
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "# PostgreSQL Dataset")
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "`data.sql` — Sample file")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Queries")
+
+	// Missing files are skipped without error
+	err = writeDatasetReadme(tmpDir, "T", "I", []DatasetReadmeFile{{Name: "nope.sql", Description: "missing"}}, nil)
+	assert.NoError(t, err)
 }
