@@ -1,6 +1,6 @@
 /* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */
-/* Created at:  Mon, 10 Aug 2026 21:50:49 +0700 */
-/* Reference: https://github.com/ThangLeQuoc/vietnamese-provinces-database */
+/* Created at:  Fri, 14 Aug 2026 00:26:03 +0700 */
+/* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
 -- DATA for administrative_regions --

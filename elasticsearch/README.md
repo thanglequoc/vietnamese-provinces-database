@@ -1,6 +1,6 @@
 # Vietnamese Provinces Database — Elasticsearch Dataset
 
-Created at:  Mon, 10 Aug 2026 21:50:49 +0700
+Created at:  Fri, 14 Aug 2026 00:26:03 +0700
 
 ## Overview
 
