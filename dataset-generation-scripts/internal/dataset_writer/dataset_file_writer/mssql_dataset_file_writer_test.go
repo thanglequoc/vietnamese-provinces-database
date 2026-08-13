@@ -8,6 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	vn_provinces_tmp_model "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 func TestMssqlDatasetFileWriter_WriteGISDataToFile_Chunked(t *testing.T) {
@@ -68,7 +69,7 @@ func TestMssqlDatasetFileWriter_WriteGISDataToFile_Chunked(t *testing.T) {
 func readGeneratedMssqlGISFile(t *testing.T, rootDir string) string {
 	t.Helper()
 
-	manifestMatches, err := filepath.Glob(filepath.Join(rootDir, "output", "sqlserver", "gis", "mssql_ImportData_gis_*.sql.manifest"))
+	manifestMatches, err := filepath.Glob(filepath.Join(rootDir, "output", "sqlserver", "gis", "mssql_ImportData_gis.sql.manifest"))
 	assert.NoError(t, err)
 	if !assert.Len(t, manifestMatches, 1, "should have created one MSSQL GIS manifest file") {
 		return ""
@@ -84,4 +85,23 @@ func readGeneratedMssqlGISFile(t *testing.T, rootDir string) string {
 		sb.Write(content)
 	}
 	return sb.String()
+}
+
+func TestMssqlDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := &MssqlDatasetFileWriter{
+		OutputFilePath: filepath.Join(tmpDir, "mssql_ImportData_vn_units.sql"),
+	}
+	provinces := []vn_provinces_tmp_model.Province{{Code: "01", Name: "Hà Nội", AdministrativeUnitId: 1}}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "mssql_ImportData_vn_units.sql")
+	assert.Contains(t, s, "## Sample Queries")
+	assert.Contains(t, s, "gis/")
 }
