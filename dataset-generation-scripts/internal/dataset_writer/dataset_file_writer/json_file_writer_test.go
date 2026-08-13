@@ -341,11 +341,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	assert.Contains(t, string(readmeContent), "geojson.io")
 	assert.Contains(t, string(readmeContent), "{province_code}_{province_code_name}")
 
-	zipMatches, err := filepath.Glob(filepath.Join(rootDir, "vn_provinces_wards_geojson_*.zip"))
-	require.NoError(t, err)
-	require.Len(t, zipMatches, 1)
-
-	zipReader, err := zip.OpenReader(zipMatches[0])
+	zipReader, err := zip.OpenReader(filepath.Join(rootDir, "vn_provinces_wards_geojson.zip"))
 	require.NoError(t, err)
 	defer zipReader.Close()
 

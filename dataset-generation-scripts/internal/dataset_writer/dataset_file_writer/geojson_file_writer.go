@@ -72,7 +72,7 @@ func (w *JSONDatasetFileWriter) WriteGISGeoJSONToFile(
 		return fmt.Errorf("found wards without a matching province export folder: %v", remainingProvinceCodes)
 	}
 
-	if err := archiveGeoJSONDirectory(outputFolderPath, executionTime); err != nil {
+	if err := archiveGeoJSONDirectory(outputFolderPath); err != nil {
 		return err
 	}
 
@@ -242,9 +242,9 @@ func writeGeoJSONReadme(outputFolderPath string, executionTime time.Time) error 
 	return nil
 }
 
-func archiveGeoJSONDirectory(outputFolderPath string, executionTime time.Time) error {
+func archiveGeoJSONDirectory(outputFolderPath string) error {
 	archiveBaseDir := filepath.Dir(outputFolderPath)
-	archiveName := fmt.Sprintf("vn_provinces_wards_geojson_%s.zip", formatFileTimeSuffix(executionTime))
+	archiveName := "vn_provinces_wards_geojson.zip"
 	archivePath := filepath.Join(archiveBaseDir, archiveName)
 
 	archiveFile, err := os.Create(archivePath)
@@ -301,6 +301,3 @@ func archiveGeoJSONDirectory(outputFolderPath string, executionTime time.Time) e
 	})
 }
 
-func formatFileTimeSuffix(t time.Time) string {
-	return strings.ReplaceAll(strings.ReplaceAll(t.Format(time.DateTime), ":", "_"), " ", "__")
-}
