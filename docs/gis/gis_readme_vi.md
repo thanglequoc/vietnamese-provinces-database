@@ -125,7 +125,7 @@ geojson/
 Quá trình xuất cũng tạo file nén:
 
 ```text
-vn_provinces_wards_geojson_<datetime>.zip
+vn_provinces_wards_geojson.zip
 ```
 
 ### Cấu trúc GeoJSON

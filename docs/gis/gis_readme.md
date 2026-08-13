@@ -127,7 +127,7 @@ geojson/
 The export process also creates a zip archive:
 
 ```text
-vn_provinces_wards_geojson_<datetime>.zip
+vn_provinces_wards_geojson.zip
 ```
 
 ### GeoJSON Shape

@@ -78,28 +78,28 @@ output/
 ├── mssql_generated_ImportData_vn_units_*.sql               # SQL Server import
 ├── oracle_generated_ImportData_vn_units_*.sql              # Oracle import
 ├── json/
-│   ├── full_json_generated_data_vn_units_*.json            # Full dataset (provinces + wards + districts)
-│   ├── simplified_json_generated_data_vn_units_*.json      # Simplified names
-│   └── vn_only_simplified_json_generated_data_vn_units_*.json  # Vietnamese-only simplified
+│   ├── README.md                                           # Generated dataset README with bold timestamp
+│   ├── full_json_generated_data_vn_units.json              # Full dataset (provinces + wards + districts)
+│   ├── simplified_json_generated_data_vn_units.json        # Simplified names
+│   ├── simplified_json_generated_data_vn_units_minified.json  # Simplified names (minified)
+│   ├── vn_only_simplified_json_generated_data_vn_units.json  # Vietnamese-only simplified
+│   ├── vn_only_simplified_json_generated_data_vn_units_minified.json  # Vietnamese-only simplified (minified)
+│   ├── vn_provinces_wards_geojson.zip                      # Combined GeoJSON archive
+│   └── geojson/                                            # Per-province GeoJSON
+│       ├── README.md
+│       ├── 01_ha_noi/
+│       │   ├── 01_ha_noi.geojson                           # Province boundary
+│       │   └── wards/                                      # Per-ward boundaries
+│       │       ├── 00004_ba_dinh.geojson
+│       │       └── ...
+│       ├── 04_cao_bang/
+│       └── ...
 ├── mongodb/
 │   ├── administrative_regions_*.json
 │   ├── administrative_units_*.json
 │   └── mongo_data_vn_unit_*.json                           # Full MongoDB import
-├── redis/
-│   └── redis_vn_provinces_dataset_*.redis                   # Redis commands
-└── gis/                                                     # (only if INCLUDE_GIS=true)
-    ├── *_ImportData_gis_*-part-*.sql                        # GIS SQL import chunks per engine (each < 40 MB)
-    ├── *_ImportData_gis_*.sql.manifest                      # Ordered chunk list per engine
-    ├── vn_provinces_wards_geojson_*.zip                     # Combined GeoJSON archive
-    └── geojson/                                             # Per-province GeoJSON
-        ├── README.md
-        ├── 01_ha_noi/
-        │   ├── 01_ha_noi.geojson                            # Province boundary
-        │   └── wards/                                       # Per-ward boundaries
-        │       ├── 00004_ba_dinh.geojson
-        │       └── ...
-        ├── 04_cao_bang/
-        └── ...
+└── redis/
+    └── redis_vn_provinces_dataset_*.redis                   # Redis commands
 ```
 
 ## Verify success
