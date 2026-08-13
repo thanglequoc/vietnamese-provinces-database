@@ -37,7 +37,7 @@ func TestJSONDatasetFileWriter_WriteToFile_FullJSON(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3, "should create 3 JSON files (full, simplified, vn_only)")
+	assert.Len(t, files, 5, "should create 5 JSON files (full, simplified + minified, vn_only + minified)")
 
 	// Deterministic filename — no datetime suffix
 	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
@@ -63,7 +63,7 @@ func TestJSONDatasetFileWriter_WriteToFile_EmptyDataset(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3, "should create 3 JSON files even with empty data")
+	assert.Len(t, files, 5, "should create 5 JSON files even with empty data")
 
 	// Verify files are created and valid JSON
 	for _, f := range files {
@@ -118,7 +118,7 @@ func TestJSONDatasetFileWriter_WriteToFile_MultipleProvinces(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3)
+	assert.Len(t, files, 5)
 
 	// Verify full JSON contains all provinces
 	fullContent, _ := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
@@ -157,6 +157,53 @@ func TestJSONDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Contains(t, string(fullContent), "11024")
 	assert.Contains(t, string(fullContent), "10, 11, 12, 13, 14")
+}
+
+func TestJSONDatasetFileWriter_WriteToFile_Minified(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	provinces := []vn_provinces_tmp_model.Province{
+		{
+			Code:                 "01",
+			Name:                 "Hà Nội",
+			NameEn:               "Ha Noi",
+			FullName:             "Thành phố Hà Nội",
+			FullNameEn:           "Ha Noi City",
+			CodeName:             "ha_noi",
+			AdministrativeUnitId: 1,
+		},
+	}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	require.NoError(t, err)
+
+	files, err := os.ReadDir(tmpDir)
+	require.NoError(t, err)
+	assert.Len(t, files, 5, "should create 5 JSON files (full, simplified + minified, vn_only + minified)")
+
+	minifiedFiles := []string{
+		"simplified_json_generated_data_vn_units_minified.json",
+		"vn_only_simplified_json_generated_data_vn_units_minified.json",
+	}
+	for _, name := range minifiedFiles {
+		path := filepath.Join(tmpDir, name)
+		content, err := os.ReadFile(path)
+		require.NoError(t, err, name+" should exist")
+
+		var data interface{}
+		require.NoError(t, json.Unmarshal(content, &data), name+" should be valid JSON")
+		assert.NotContains(t, string(content), "\n", name+" should be a single line")
+		assert.Contains(t, string(content), "Hà Nội")
+	}
+
+	// Minified simplified must be smaller than its pretty counterpart
+	prettyInfo, err := os.Stat(filepath.Join(tmpDir, "simplified_json_generated_data_vn_units.json"))
+	require.NoError(t, err)
+	minifiedInfo, err := os.Stat(filepath.Join(tmpDir, "simplified_json_generated_data_vn_units_minified.json"))
+	require.NoError(t, err)
+	assert.Less(t, minifiedInfo.Size(), prettyInfo.Size())
 }
 
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
