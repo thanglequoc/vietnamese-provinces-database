@@ -135,9 +135,9 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 		t.Fatal("create_indexes.js not found")
 	}
 
-	// Verify README.md exists
+	// GIS subfolder no longer carries its own README
 	readmePath := filepath.Join(tmpDir, "README.md")
-	if _, err := os.Stat(readmePath); os.IsNotExist(err) {
-		t.Fatal("README.md not found")
+	if _, err := os.Stat(readmePath); !os.IsNotExist(err) {
+		t.Fatal("README.md should NOT be written in the mongodb gis folder")
 	}
 }

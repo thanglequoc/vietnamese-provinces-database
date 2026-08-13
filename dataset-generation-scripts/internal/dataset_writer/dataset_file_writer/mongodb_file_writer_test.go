@@ -127,3 +127,20 @@ func TestMongoDBDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
 	assert.Contains(t, string(mongoContent), "11024")
 	assert.Contains(t, string(mongoContent), "10, 11, 12, 13, 14")
 }
+
+func TestMongoDBDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := MongoDBDatasetFileWriter{OutputFolderPath: tmpDir}
+	provinces := []vn_provinces_tmp_model.Province{{Code: "01", Name: "Hà Nội", AdministrativeUnitId: 1}}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "mongo_data_vn_unit.json")
+	assert.Contains(t, s, "## Sample Queries")
+	assert.Contains(t, s, "gis/")
+}
