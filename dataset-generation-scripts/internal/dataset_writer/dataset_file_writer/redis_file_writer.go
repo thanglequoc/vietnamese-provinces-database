@@ -28,9 +28,8 @@ func (w *RedisDatasetFileWriter) WriteToFile(
 	wards []model.Ward) error {
 
 	os.MkdirAll(w.OutputFolderPath, 0746)
-	fileTimeSuffix := getFileTimeSuffix()
 
-	redisDatasetFilePath := fmt.Sprintf("%s/redis_vn_provinces_dataset_%s.redis", w.OutputFolderPath, fileTimeSuffix)
+	redisDatasetFilePath := fmt.Sprintf("%s/redis_vn_provinces_dataset.redis", w.OutputFolderPath)
 	redisDatasetFile, err := os.OpenFile(redisDatasetFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return err
@@ -57,7 +56,34 @@ func (w *RedisDatasetFileWriter) WriteToFile(
 	dataWriter.Flush()
 	redisDatasetFile.Close()
 
-	return nil
+	return writeRedisReadme(w.OutputFolderPath)
+}
+
+func writeRedisReadme(outputFolderPath string) error {
+	return writeDatasetReadme(outputFolderPath,
+		"Redis Dataset — Vietnamese Provinces Database",
+		"Redis commands loading all Vietnamese provinces, wards, regions, and administrative units.",
+		[]DatasetReadmeFile{
+			{Name: "redis_vn_provinces_dataset.redis", Description: "Redis HSET/SADD commands"},
+		},
+		[]string{
+			"## Data Structure",
+			"",
+			"- `province:<code>` — province hash (name, nameEn, fullName, codeName, postalCodePrefix, administrativeUnitId)",
+			"- `ward:<code>` — ward hash (name, fullName, codeName, postalCode, administrativeUnitId, districtCode)",
+			"- `administrativeUnit:<id>` — unit type hash",
+			"- `region:<id>` — region hash",
+			"- `province:<code>:wards` — SET of ward codes",
+			"- `province:<code>:wards:vn` / `province:<code>:wards:en` — ward code → name hashes",
+			"",
+			"## Sample Queries",
+			"",
+			"```bash",
+			"redis-cli HGETALL province:01",
+			"redis-cli SMEMBERS province:01:wards",
+			"redis-cli HGET ward:00004 fullName",
+			"```",
+		})
 }
 
 func generateAdministrativeRecord(a model.AdministrativeUnit) string {

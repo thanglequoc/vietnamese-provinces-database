@@ -7,6 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	vn_provinces_tmp_model "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
@@ -35,9 +36,17 @@ func TestRedisDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 	
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 1)
+	assert.Len(t, files, 2)
 	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
+	var datasetName string
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".redis") {
+			datasetName = f.Name()
+			break
+		}
+	}
+	require.NotEmpty(t, datasetName, "expected a .redis dataset file")
+	content, err := os.ReadFile(filepath.Join(tmpDir, datasetName))
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
@@ -73,7 +82,15 @@ func TestRedisDatasetFileWriter_WriteToFile_AdministrativeUnits(t *testing.T) {
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
 	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
+	var datasetName string
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".redis") {
+			datasetName = f.Name()
+			break
+		}
+	}
+	require.NotEmpty(t, datasetName, "expected a .redis dataset file")
+	content, err := os.ReadFile(filepath.Join(tmpDir, datasetName))
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
@@ -106,7 +123,15 @@ func TestRedisDatasetFileWriter_WriteToFile_Regions(t *testing.T) {
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
 	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
+	var datasetName string
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".redis") {
+			datasetName = f.Name()
+			break
+		}
+	}
+	require.NotEmpty(t, datasetName, "expected a .redis dataset file")
+	content, err := os.ReadFile(filepath.Join(tmpDir, datasetName))
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
@@ -143,7 +168,15 @@ func TestRedisDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
 	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
+	var datasetName string
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".redis") {
+			datasetName = f.Name()
+			break
+		}
+	}
+	require.NotEmpty(t, datasetName, "expected a .redis dataset file")
+	content, err := os.ReadFile(filepath.Join(tmpDir, datasetName))
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
@@ -184,9 +217,17 @@ func TestRedisDatasetFileWriter_WriteToFile_CompleteDataset(t *testing.T) {
 	
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 1)
+	assert.Len(t, files, 2)
 	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
+	var datasetName string
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".redis") {
+			datasetName = f.Name()
+			break
+		}
+	}
+	require.NotEmpty(t, datasetName, "expected a .redis dataset file")
+	content, err := os.ReadFile(filepath.Join(tmpDir, datasetName))
 	assert.NoError(t, err)
 	
 	contentStr := string(content)
@@ -212,4 +253,20 @@ func TestRedisDatasetFileWriter_WriteToFile_CompleteDataset(t *testing.T) {
 	}
 	assert.Greater(t, hsetCount, 0, "should have HSET commands")
 	assert.Greater(t, saddCount, 0, "should have SADD commands")
+}
+func TestRedisDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := RedisDatasetFileWriter{OutputFolderPath: tmpDir}
+	provinces := []vn_provinces_tmp_model.Province{{Code: "01", Name: "Hà Nội", AdministrativeUnitId: 1}}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "redis_vn_provinces_dataset.redis")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Queries")
 }
