@@ -134,20 +134,19 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 
 	dataWriter.Flush()
 	file.Close()
-	return nil
+
+	return writePostgresMySQLReadme(filepath.Dir(outputFilePath), outputFilePath)
 }
 
 func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnhapmodels.SapNhapSiteGeoUnit, sapNhapWardsGIS []*sapnhapmodels.SapNhapSiteGeoUnit) error {
-	fileTimeSuffix := getFileTimeSuffix()
-
 	postgresGISDir := filepath.Join("./output/postgresql", "gis")
 	mysqlGISDir := filepath.Join("./output/mysql", "gis")
 
 	_ = os.MkdirAll(postgresGISDir, os.ModePerm)
 	_ = os.MkdirAll(mysqlGISDir, os.ModePerm)
 
-	postgresGISFilePath := filepath.Join(postgresGISDir, fmt.Sprintf("postgresql_ImportData_gis_%s.sql", fileTimeSuffix))
-	mysqlGISFilePath := filepath.Join(mysqlGISDir, fmt.Sprintf("mysql_ImportData_gis_%s.sql", fileTimeSuffix))
+	postgresGISFilePath := filepath.Join(postgresGISDir, "postgresql_ImportData_gis.sql")
+	mysqlGISFilePath := filepath.Join(mysqlGISDir, "mysql_ImportData_gis.sql")
 
 	createdAt := time.Now().Format(time.RFC1123Z)
 	postgresHeader := chunkHeaderInfo{
@@ -227,4 +226,58 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 		return fmt.Errorf("write mysql GIS chunks: %w", err)
 	}
 	return nil
+}
+
+// writePostgresMySQLReadme writes the dataset README for the PostgreSQL or
+// MySQL export. isPostgres is inferred from the output file path.
+func writePostgresMySQLReadme(outputFolderPath, outputFilePath string) error {
+	isPostgres := strings.Contains(filepath.Base(outputFilePath), "postgres")
+	if isPostgres {
+		return writeDatasetReadme(outputFolderPath,
+			"PostgreSQL Dataset — Vietnamese Provinces Database",
+			"Import script for the Vietnamese Provinces Database on PostgreSQL/PostGIS.",
+			[]DatasetReadmeFile{
+				{Name: "postgres_ImportData_vn_units.sql", Description: "INSERT statements for regions, units, provinces, and wards"},
+			},
+			postgresMySQLReadmeSections("PostgreSQL/PostGIS", true))
+	}
+	return writeDatasetReadme(outputFolderPath,
+		"MySQL Dataset — Vietnamese Provinces Database",
+		"Import script for the Vietnamese Provinces Database on MySQL/MariaDB.",
+		[]DatasetReadmeFile{
+			{Name: "mysql_ImportData_vn_units.sql", Description: "INSERT statements for regions, units, provinces, and wards"},
+		},
+		postgresMySQLReadmeSections("MySQL", false))
+}
+
+func postgresMySQLReadmeSections(engine string, isPostgres bool) []string {
+	pointLiteral := "ST_SetSRID(ST_MakePoint(105.8542, 21.0285), 4326)"
+	if !isPostgres {
+		pointLiteral = "ST_GeomFromText('POINT(105.8542 21.0285)', 4326)"
+	}
+	return []string{
+		"## Data Structure",
+		"",
+		"The import script populates: `administrative_regions` (8), `administrative_units` (8), `provinces` (34), and `wards` (3,321). Each province and ward carries postal code fields (`postal_code_prefix` / `postal_code`).",
+		"",
+		"GIS geometry (in `gis/`) populates `gis_provinces` and `gis_wards` with `bbox` and `geom` spatial columns.",
+		"",
+		"## Sample Queries",
+		"",
+		"```sql",
+		"SELECT COUNT(*) FROM provinces;",
+		"",
+		"SELECT w.code, w.name FROM wards w WHERE w.province_code = '01' ORDER BY w.name;",
+		"",
+		"-- GIS: province containing a point",
+		"SELECT p.code, p.name",
+		"FROM provinces p",
+		"JOIN gis_provinces g ON p.code = g.province_code",
+		"WHERE ST_Within(" + pointLiteral + ", g.geom);",
+		"```",
+		"",
+		"## GIS / GeoJSON",
+		"",
+		"The `gis/` subfolder contains chunked GIS import scripts (`" + engine + "` part files `*-part-NN.sql`) plus a `.manifest` file listing the chunks in order. Import each chunk in order after importing the base script.",
+	}
 }
