@@ -25,10 +25,6 @@ for arg in "$@"; do
   esac
 done
 
-# Matches the datetime suffix segment used by generated files,
-# e.g. "_2026-08-13__22_43_48"
-readonly DATETIME_SUFFIX_RE='_2[0-9]{3}-[0-9]{2}-[0-9]{2}__[0-9]{2}_[0-9]{2}_[0-9]{2}'
-
 run() {
   if [[ "$DRY_RUN" -eq 1 ]]; then
     echo "[dry-run] $*"
@@ -37,37 +33,31 @@ run() {
   fi
 }
 
-# copy_datasets <output_subdir> <repo_target_dir> [--strip-datetime]
+# copy_datasets <output_subdir> <repo_target_dir>
 #   Copies every top-level entry (files + subdirs) from output/<output_subdir>
 #   into <repo_target_dir>, overwriting existing files.
-#   With --strip-datetime, the datetime suffix is removed from copied filenames
-#   (used where the published root files have no suffix).
 copy_datasets() {
   local src="$OUTPUT_DIR/$1"
   local dst="$REPO_ROOT/$2"
-  local strip="${3:-}"
-
   if [[ ! -d "$src" ]]; then
     echo "skip: $1 not found in output/"
     return 0
   fi
-
   echo "== $1 -> $2 =="
   run mkdir -p "$dst"
+  run cp -R "$src/." "$dst/"
+}
 
-  if [[ "$strip" == "--strip-datetime" ]]; then
-    while IFS= read -r -d '' entry; do
-      local name new_name
-      name="$(basename "$entry")"
-      new_name="$(printf '%s' "$name" | sed -E "s/${DATETIME_SUFFIX_RE}//")"
-      if [[ "$new_name" == "$name" ]]; then
-        run cp -R "$entry" "$dst/"
-      else
-        run cp -R "$entry" "$dst/$new_name"
-      fi
-    done < <(find "$src" -mindepth 1 -maxdepth 1 -print0)
-  else
-    run cp -R "$src/." "$dst/"
+# prune_datetime_variants <repo_target_dir> <glob>
+#   Removes timestamped artifact variants (matching <glob>) from <repo_target_dir>.
+prune_datetime_variants() {
+  local target="$REPO_ROOT/$1"
+  local stale=("$target"/$2)
+  if [[ -f "${stale[0]:-}" ]]; then
+    for f in "${stale[@]}"; do
+      echo "remove stale: $f"
+      run rm "$f"
+    done
   fi
 }
 
@@ -85,23 +75,30 @@ prune_stale_geojson_zips() {
 }
 
 copy_all() {
-  # JSON: filenames are deterministic (no suffix). Also prune old zips.
   copy_datasets json json
   prune_stale_geojson_zips
 
-  # SQL engines: root import files are deterministic; GIS subfolders keep
-  # timestamped part files (matches the published convention).
   copy_datasets postgresql postgresql
+  prune_datetime_variants postgresql/gis 'postgresql_ImportData_gis_*.sql*'
+
   copy_datasets mysql mysql
+  prune_datetime_variants mysql/gis 'mysql_ImportData_gis_*.sql*'
+
   copy_datasets sqlserver sqlserver
+  prune_datetime_variants sqlserver/gis 'mssql_ImportData_gis_*.sql*'
+
   copy_datasets oracle oracle
 
-  # MongoDB / Redis: output root files carry a datetime suffix that the
-  # published root files do not, so strip it.
-  copy_datasets mongodb mongodb --strip-datetime
-  copy_datasets redis redis --strip-datetime
+  copy_datasets mongodb mongodb
+  prune_datetime_variants mongodb 'administrative_units_*.json'
+  prune_datetime_variants mongodb 'administrative_regions_*.json'
+  prune_datetime_variants mongodb 'mongo_data_vn_unit_*.json'
+  prune_datetime_variants mongodb/gis 'mongo_data_vn_province_gis_*.json'
+  prune_datetime_variants mongodb/gis 'mongo_data_vn_ward_gis_2*.json*'
 
-  # Elasticsearch: output mirrors the published folder exactly.
+  copy_datasets redis redis
+  prune_datetime_variants redis 'redis_vn_provinces_dataset_*.redis'
+
   copy_datasets elasticsearch elasticsearch
 }
 
@@ -109,14 +106,14 @@ if [[ "${#DATASETS[@]}" -eq 0 ]]; then
   copy_all
 else
   case "${DATASETS[0]}" in
-    json)            copy_datasets json json; prune_stale_geojson_zips ;;
-    postgresql)      copy_datasets postgresql postgresql ;;
-    mysql)           copy_datasets mysql mysql ;;
-    sqlserver)       copy_datasets sqlserver sqlserver ;;
-    oracle)          copy_datasets oracle oracle ;;
-    mongodb)         copy_datasets mongodb mongodb --strip-datetime ;;
-    redis)           copy_datasets redis redis --strip-datetime ;;
-    elasticsearch)   copy_datasets elasticsearch elasticsearch ;;
+    json)          copy_datasets json json; prune_stale_geojson_zips ;;
+    postgresql)    copy_datasets postgresql postgresql; prune_datetime_variants postgresql/gis 'postgresql_ImportData_gis_*.sql*' ;;
+    mysql)         copy_datasets mysql mysql; prune_datetime_variants mysql/gis 'mysql_ImportData_gis_*.sql*' ;;
+    sqlserver)     copy_datasets sqlserver sqlserver; prune_datetime_variants sqlserver/gis 'mssql_ImportData_gis_*.sql*' ;;
+    oracle)        copy_datasets oracle oracle ;;
+    mongodb)       copy_datasets mongodb mongodb; prune_datetime_variants mongodb 'administrative_units_*.json'; prune_datetime_variants mongodb 'administrative_regions_*.json'; prune_datetime_variants mongodb 'mongo_data_vn_unit_*.json'; prune_datetime_variants mongodb/gis 'mongo_data_vn_province_gis_*.json'; prune_datetime_variants mongodb/gis 'mongo_data_vn_ward_gis_2*.json*' ;;
+    redis)         copy_datasets redis redis; prune_datetime_variants redis 'redis_vn_provinces_dataset_*.redis' ;;
+    elasticsearch) copy_datasets elasticsearch elasticsearch ;;
     *) echo "unknown dataset: ${DATASETS[0]}" >&2; exit 1 ;;
   esac
 fi
