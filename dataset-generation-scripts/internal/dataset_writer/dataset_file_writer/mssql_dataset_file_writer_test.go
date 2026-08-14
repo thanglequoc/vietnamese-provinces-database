@@ -102,6 +102,12 @@ func TestMssqlDatasetFileWriter_WriteToFile_README(t *testing.T) {
 	s := string(content)
 	assert.Contains(t, s, "**Generated at:")
 	assert.Contains(t, s, "mssql_ImportData_vn_units.sql")
+	assert.Contains(t, s, "## Overview")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Document")
+	assert.Contains(t, s, "## Quick Start")
 	assert.Contains(t, s, "## Sample Queries")
-	assert.Contains(t, s, "gis/")
+	assert.Contains(t, s, "## GIS / GeoJSON")
+	assert.Contains(t, s, "mssql_CreateTables_vn_units.sql")
+	assert.Contains(t, s, "STContains")
 }
