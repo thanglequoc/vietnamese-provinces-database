@@ -184,12 +184,12 @@ psql -U <username> -d <database_name> -f postgresql/gis/postgresql_CreateGISTabl
 
 Download the chunked GIS dataset from [postgresql/gis](../../postgresql/gis/). The
 data is split into parts smaller than 40 MB, named
-`postgresql_ImportData_gis_<timestamp>-part-NN.sql`. Import every part **in
+`postgresql_ImportData_gis-part-NN.sql`. Import every part **in
 order**, following the list in the accompanying `.manifest` file. For example:
 
 ```bash
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-02.sql
 # ... one psql invocation per part, in manifest order
 ```
 
@@ -214,12 +214,12 @@ mysql -u <username> -p <database_name> < mysql/gis/mysql_CreateGISTables.sql
 
 Download the chunked GIS dataset from [mysql/gis](../../mysql/gis/). The data is
 split into parts smaller than 40 MB, named
-`mysql_ImportData_gis_<timestamp>-part-NN.sql`. Import every part **in order**,
+`mysql_ImportData_gis-part-NN.sql`. Import every part **in order**,
 following the list in the accompanying `.manifest` file. For example:
 
 ```bash
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-02.sql
 # ... one mysql invocation per part, in manifest order
 ```
 
@@ -252,12 +252,12 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 Download the chunked GIS dataset from [sqlserver/gis](../../sqlserver/gis/). The
 data is split into parts smaller than 40 MB, named
-`mssql_ImportData_gis_<timestamp>-part-NN.sql`. Import every part **in order**,
+`mssql_ImportData_gis-part-NN.sql`. Import every part **in order**,
 following the list in the accompanying `.manifest` file. For example:
 
 ```cmd
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-01.sql
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-02.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-01.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-02.sql
 # ... one sqlcmd invocation per part, in manifest order
 ```
 

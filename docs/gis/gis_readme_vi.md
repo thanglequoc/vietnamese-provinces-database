@@ -182,12 +182,12 @@ psql -U <username> -d <database_name> -f postgresql/gis/postgresql_CreateGISTabl
 
 Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [postgresql/gis](../../postgresql/gis/).
 Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
-`postgresql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ
+`postgresql_ImportData_gis-part-NN.sql`. Nhập từng phần **theo thứ
 tự**, theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```bash
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-02.sql
 # ... một lệnh psql cho mỗi phần, theo thứ tự trong manifest
 ```
 
@@ -212,12 +212,12 @@ mysql -u <username> -p <database_name> < mysql/gis/mysql_CreateGISTables.sql
 
 Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [mysql/gis](../../mysql/gis/).
 Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
-`mysql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ tự**,
+`mysql_ImportData_gis-part-NN.sql`. Nhập từng phần **theo thứ tự**,
 theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```bash
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-01.sql
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01-part-02.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-02.sql
 # ... một lệnh mysql cho mỗi phần, theo thứ tự trong manifest
 ```
 
@@ -250,12 +250,12 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 Tải tập dữ liệu GIS đã chia nhỏ từ thư mục [sqlserver/gis](../../sqlserver/gis/).
 Dữ liệu được chia thành các phần nhỏ hơn 40 MB, đặt tên
-`mssql_ImportData_gis_<timestamp>-part-NN.sql`. Nhập từng phần **theo thứ tự**,
+`mssql_ImportData_gis-part-NN.sql`. Nhập từng phần **theo thứ tự**,
 theo danh sách trong tệp `.manifest` đi kèm. Ví dụ:
 
 ```cmd
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-01.sql
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02-part-02.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-01.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-02.sql
 # ... một lệnh sqlcmd cho mỗi phần, theo thứ tự trong manifest
 ```
 
