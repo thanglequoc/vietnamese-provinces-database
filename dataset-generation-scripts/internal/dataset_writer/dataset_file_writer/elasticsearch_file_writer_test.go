@@ -1,6 +1,7 @@
 package dataset_writer
 
 import (
+	"bytes"
 	"encoding/json"
 	"os"
 	"path/filepath"
@@ -131,6 +132,15 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 	}
 	if len(readme) == 0 {
 		t.Fatal("README.md is empty")
+	}
+	if !bytes.Contains(readme, []byte("**Generated at:")) {
+		t.Fatal("README.md missing bold Generated at header")
+	}
+	if !bytes.Contains(readme, []byte("## Files")) {
+		t.Fatal("README.md missing Files section")
+	}
+	if !bytes.Contains(readme, []byte("## Sample Queries")) {
+		t.Fatal("README.md missing Sample Queries section")
 	}
 }
 
