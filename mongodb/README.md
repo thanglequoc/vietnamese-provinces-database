@@ -1,104 +1,31 @@
-# Vietnamese Provinces Database — MongoDB GIS Dataset
+# MongoDB Dataset — Vietnamese Provinces Database
 
-Created at:  Sat, 01 Aug 2026 15:56:28 +0700
+**Generated at: Fri, 14 Aug 2026 08:42:28 +0700**
 
-## Overview
+MongoDB documents for Vietnamese provinces with embedded wards.
 
-This dataset provides Vietnamese provinces and wards in MongoDB document format
-with two GIS collections:
+## Files
 
-| Collection | Documents | Description |
-|------------|-----------|-------------|
-| `provinces-gis` | 34 | Province documents with GIS geometry (bounding boxes + GeoJSON polygons) |
-| `wards-gis` | 3,321 | Standalone ward documents with GIS geometry + ProvinceCode reference |
+- `administrative_units.json` — Array of 8 administrative unit types (1016 B)
+- `administrative_regions.json` — Array of 8 regions (1.15 KB)
+- `mongo_data_vn_unit.json` — Array of 34 province documents, each embedding its Wards array (953.51 KB)
 
-## Document Structure
+## Data Structure
 
-### Province GIS Document
+- `administrative_units.json` — array of 8 administrative unit types
+- `administrative_regions.json` — array of 8 regions
+- `mongo_data_vn_unit.json` — the `provinces` collection: 34 province documents, each with an embedded `Wards` array
 
-- **Core fields**: Code, Name, NameEn, FullName, FullNameEn, CodeName
-- **`AdministrativeUnit`**: Embedded administrative unit object
-- **`SearchKeywords`**: Pre-computed autocomplete keywords
-- **`GIS`**: Center (GeoJSON Point), BoundingBox, Geometry (GeoJSON MultiPolygon), Properties
-- **`Meta`**: Dataset version metadata
-
-### Ward GIS Document
-
-- Same structure as province, plus **`ProvinceCode`** for cross-collection joins
-
-## Quick Start
-
-### 1. Import the Data
-
-```bash
-# Import province GIS data
-mongoimport --db vn_provinces --collection provinces_gis --file mongo_data_vn_province_gis_*.json --jsonArray
-
-# Import ward GIS data (may be chunked — import each part sequentially)
-mongoimport --db vn_provinces --collection wards_gis --file mongo_data_vn_ward_gis_*.json --jsonArray
-```
-
-> **Note**: If the ward GIS file was chunked, you'll see multiple files like
-> `mongo_data_vn_ward_gis_*_part_01.json`, `part_02.json`, etc.
-> Import each part individually, or use a script that reads the manifest file
-> (`*.manifest`) for automated sequential import.
-
-### 2. Create Indexes
-
-```bash
-mongosh vn_provinces create_indexes.js
-```
-
-### 3. Example Queries
+## Sample Queries
 
 ```javascript
-// Find province containing a point
-db.provinces_gis.findOne({
-  "GIS.Geometry": {
-    $geoIntersects: {
-      $geometry: { type: "Point", coordinates: [105.8542, 21.0285] }
-    }
-  }
-})
+// Count provinces
+db.getCollection('provinces').countDocuments();
 
-// Find all wards in a province
-db.wards_gis.find({ ProvinceCode: "01" })
-
-// Find ward containing a point
-db.wards_gis.findOne({
-  "GIS.Geometry": {
-    $geoIntersects: {
-      $geometry: { type: "Point", coordinates: [105.8231, 21.0347] }
-    }
-  }
-})
-
-// Find provinces near a point (within 50km)
-db.provinces_gis.find({
-  "GIS.Center": {
-    $near: {
-      $geometry: { type: "Point", coordinates: [105.8542, 21.0285] },
-      $maxDistance: 50000
-    }
-  }
-})
-
-// Join wards with provinces using $lookup
-db.wards_gis.aggregate([
-  { $match: { ProvinceCode: "01" } },
-  { $lookup: {
-      from: "provinces_gis",
-      localField: "ProvinceCode",
-      foreignField: "Code",
-      as: "Province"
-  }}
-])
+// Wards of a province
+db.getCollection('provinces').findOne({Code: '01'}, {Name: 1, Wards: 1});
 ```
 
-## File Listing
+## GIS / GeoJSON
 
-| File | Description |
-|------|-------------|
-| `mongo_data_vn_province_gis_*.json` | Province GIS documents (JSON array) |
-| `mongo_data_vn_ward_gis_*.json` | Ward GIS documents (JSON array, may be chunked) |
-| `create_indexes.js` | Index creation script for both collections |
+The `gis/` subfolder contains the `provinces-gis` (34) and `wards-gis` (3,321) collections (`mongo_data_vn_province_gis.json`, `mongo_data_vn_ward_gis[_part_NN].json`), the `create_indexes.js` index script, and a `.manifest`. Import them, run `create_indexes.js`, then query with `$geoIntersects`.

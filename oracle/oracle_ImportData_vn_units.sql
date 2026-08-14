@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Oracle === */
-/* Created at:  Fri, 14 Aug 2026 00:26:03 +0700 */
+/* Created at:  Fri, 14 Aug 2026 08:42:28 +0700 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
