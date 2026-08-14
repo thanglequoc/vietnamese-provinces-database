@@ -232,6 +232,8 @@ func TestJSONDatasetFileWriter_WriteToFile_README(t *testing.T) {
 	assert.Contains(t, contentStr, "vn_only_simplified_json_generated_data_vn_units_minified.json")
 	assert.Contains(t, contentStr, "geojson/")
 	assert.Contains(t, contentStr, "vn_provinces_wards_geojson.zip")
+	assert.Contains(t, contentStr, "## Data Structure")
+	assert.Contains(t, contentStr, "## Sample Queries")
 }
 
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
@@ -335,11 +337,8 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	wardProperties := wardFeature["properties"].(map[string]any)
 	assert.Equal(t, "11120", wardProperties["postalCode"])
 
-	readmeContent, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
-	require.NoError(t, err)
-	assert.Contains(t, string(readmeContent), "Created at:")
-	assert.Contains(t, string(readmeContent), "geojson.io")
-	assert.Contains(t, string(readmeContent), "{province_code}_{province_code_name}")
+	_, err = os.Stat(filepath.Join(tmpDir, "README.md"))
+	require.Error(t, err, "geojson subfolder should no longer have a README.md")
 
 	zipReader, err := zip.OpenReader(filepath.Join(rootDir, "vn_provinces_wards_geojson.zip"))
 	require.NoError(t, err)
@@ -349,7 +348,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	for _, f := range zipReader.File {
 		names = append(names, f.Name)
 	}
-	assert.Contains(t, names, "geojson/README.md")
+	assert.NotContains(t, names, "geojson/README.md")
 	assert.Contains(t, names, "geojson/01_ha_noi/01_ha_noi.geojson")
 	assert.Contains(t, names, "geojson/01_ha_noi/wards/00004_ba_dinh.geojson")
 }
