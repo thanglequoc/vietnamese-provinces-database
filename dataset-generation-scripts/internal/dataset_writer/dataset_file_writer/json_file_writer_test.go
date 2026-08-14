@@ -234,6 +234,10 @@ func TestJSONDatasetFileWriter_WriteToFile_README(t *testing.T) {
 	assert.Contains(t, contentStr, "vn_provinces_wards_geojson.zip")
 	assert.Contains(t, contentStr, "## Data Structure")
 	assert.Contains(t, contentStr, "## Sample Queries")
+	assert.Contains(t, contentStr, "## Overview")
+	assert.Contains(t, contentStr, "## Sample Document")
+	assert.Contains(t, contentStr, "## Quick Start")
+	assert.Contains(t, contentStr, "require(")
 }
 
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
