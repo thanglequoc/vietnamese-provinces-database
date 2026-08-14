@@ -142,6 +142,21 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 	if !bytes.Contains(readme, []byte("## Sample Queries")) {
 		t.Fatal("README.md missing Sample Queries section")
 	}
+	if !bytes.Contains(readme, []byte("## Overview")) {
+		t.Fatal("README.md missing Overview section")
+	}
+	if !bytes.Contains(readme, []byte("## Data Structure")) {
+		t.Fatal("README.md missing Data Structure section")
+	}
+	if !bytes.Contains(readme, []byte("## Sample Document")) {
+		t.Fatal("README.md missing Sample Document section")
+	}
+	if !bytes.Contains(readme, []byte("## Quick Start")) {
+		t.Fatal("README.md missing Quick Start section")
+	}
+	if !bytes.Contains(readme, []byte("_bulk")) {
+		t.Fatal("README.md missing _bulk import reference")
+	}
 }
 
 func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
