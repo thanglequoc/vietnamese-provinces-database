@@ -14,7 +14,6 @@ type MongoGISProvinceDocument struct {
 	AdministrativeUnit MongoAdministrativeUnit `json:"AdministrativeUnit"`
 	SearchKeywords     []string                `json:"SearchKeywords"`
 	GIS                *MongoGIS               `json:"GIS,omitempty"`
-	Meta               *MongoMeta              `json:"Meta,omitempty"`
 }
 
 // MongoGISWardDocument represents a ward document in the
@@ -30,7 +29,6 @@ type MongoGISWardDocument struct {
 	AdministrativeUnit MongoAdministrativeUnit `json:"AdministrativeUnit"`
 	SearchKeywords     []string                `json:"SearchKeywords"`
 	GIS                *MongoGIS               `json:"GIS,omitempty"`
-	Meta               *MongoMeta              `json:"Meta,omitempty"`
 }
 
 // MongoGIS holds GIS data for the provinces-gis and wards-gis collections.
@@ -78,11 +76,4 @@ type MongoAdministrativeUnit struct {
 	ShortNameEn string `json:"ShortNameEn"`
 	CodeName    string `json:"CodeName"`
 	CodeNameEn  string `json:"CodeNameEn"`
-}
-
-// MongoMeta holds dataset version metadata.
-type MongoMeta struct {
-	DatasetVersion         string `json:"DatasetVersion"`
-	AdministrativeRevision string `json:"AdministrativeRevision"`
-	GeneratedAt            string `json:"GeneratedAt"`
 }

@@ -7,7 +7,6 @@ import (
 	"log"
 	"os"
 	"reflect"
-	"time"
 
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 	sapnhapbandomodel "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
@@ -26,15 +25,12 @@ func (w *MongoDBDatasetFileWriter) WriteMongoGISDataToFile(
 	sapNhapGeoWards []*sapnhapbandomodel.SapNhapSiteGeoUnit) error {
 
 	os.MkdirAll(w.OutputFolderPath, 0746)
-	generatedAt := time.Now().UTC().Format(time.RFC3339)
 
 	// Build province GIS documents
-	provinceDocs := file_writer_helper.ConvertToMongoGISProvinceDocuments(
-		sapNhapGeoProvinces, mongoDatasetVer, mongoAdminRev, generatedAt)
+	provinceDocs := file_writer_helper.ConvertToMongoGISProvinceDocuments(sapNhapGeoProvinces)
 
 	// Build ward GIS documents
-	wardDocs := file_writer_helper.ConvertToMongoGISWardDocuments(
-		sapNhapGeoWards, mongoDatasetVer, mongoAdminRev, generatedAt)
+	wardDocs := file_writer_helper.ConvertToMongoGISWardDocuments(sapNhapGeoWards)
 
 	// Write province GIS file (chunked if needed)
 	provincePath := fmt.Sprintf("%s/mongo_data_vn_province_gis.json", w.OutputFolderPath)

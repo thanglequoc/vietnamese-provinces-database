@@ -13,7 +13,6 @@ import (
 // to MongoDB GIS province documents.
 func ConvertToMongoGISProvinceDocuments(
 	geoProvinces []*sapnhapbandomodel.SapNhapSiteGeoUnit,
-	datasetVersion, adminRevision, generatedAt string,
 ) []dataset_file_writer_dto.MongoGISProvinceDocument {
 	var docs []dataset_file_writer_dto.MongoGISProvinceDocument
 	for _, geoProvince := range geoProvinces {
@@ -27,11 +26,6 @@ func ConvertToMongoGISProvinceDocuments(
 			CodeName:           province.CodeName,
 			AdministrativeUnit: convertToMongoAdministrativeUnit(province.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
-			Meta: &dataset_file_writer_dto.MongoMeta{
-				DatasetVersion:         datasetVersion,
-				AdministrativeRevision: adminRevision,
-				GeneratedAt:            generatedAt,
-			},
 		}
 
 		// Add province GIS
@@ -59,7 +53,6 @@ func ConvertToMongoGISProvinceDocuments(
 // to MongoDB GIS ward documents.
 func ConvertToMongoGISWardDocuments(
 	geoWards []*sapnhapbandomodel.SapNhapSiteGeoUnit,
-	datasetVersion, adminRevision, generatedAt string,
 ) []dataset_file_writer_dto.MongoGISWardDocument {
 	var docs []dataset_file_writer_dto.MongoGISWardDocument
 	for _, geoWard := range geoWards {
@@ -74,11 +67,6 @@ func ConvertToMongoGISWardDocuments(
 			ProvinceCode:       geoWard.VNDSProvinceCode,
 			AdministrativeUnit: convertToMongoAdministrativeUnit(ward.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
-			Meta: &dataset_file_writer_dto.MongoMeta{
-				DatasetVersion:         datasetVersion,
-				AdministrativeRevision: adminRevision,
-				GeneratedAt:            generatedAt,
-			},
 		}
 
 		// Add ward GIS
