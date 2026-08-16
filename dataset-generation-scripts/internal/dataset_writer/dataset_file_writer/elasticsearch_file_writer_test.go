@@ -89,12 +89,6 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 	if doc.Name != "Hà Nội" {
 		t.Errorf("expected Name 'Hà Nội', got %q", doc.Name)
 	}
-	if doc.Meta == nil {
-		t.Fatal("expected Meta to be set")
-	}
-	if doc.Meta.DatasetVersion != esDatasetVer {
-		t.Errorf("expected DatasetVersion %q, got %q", esDatasetVer, doc.Meta.DatasetVersion)
-	}
 	if len(doc.Wards) != 1 {
 		t.Errorf("expected 1 ward, got %d", len(doc.Wards))
 	}

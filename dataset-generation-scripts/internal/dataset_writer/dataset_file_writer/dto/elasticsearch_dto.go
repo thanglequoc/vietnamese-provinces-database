@@ -16,7 +16,6 @@ type ElasticsearchProvinceDocument struct {
 	SearchKeywords     []string                        `json:"SearchKeywords"`
 	Wards              []ElasticsearchWardDocument     `json:"Wards"`
 	GIS                *ElasticsearchGIS               `json:"GIS,omitempty"`
-	Meta               *ElasticsearchMeta              `json:"Meta,omitempty"`
 }
 
 // ElasticsearchWardDocument represents an embedded ward inside a province document.
@@ -79,11 +78,4 @@ type ElasticsearchGISProperties struct {
 	PostalCodePrefix string  `json:"PostalCodePrefix"`
 	GisServerId      string  `json:"GisServerId"`
 	AreaKm2          float64 `json:"AreaKm2"`
-}
-
-// ElasticsearchMeta holds dataset version metadata.
-type ElasticsearchMeta struct {
-	DatasetVersion         string `json:"DatasetVersion"`
-	AdministrativeRevision string `json:"AdministrativeRevision"`
-	GeneratedAt            string `json:"GeneratedAt"`
 }

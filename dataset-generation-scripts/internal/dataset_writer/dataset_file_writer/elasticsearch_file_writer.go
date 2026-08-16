@@ -7,7 +7,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"time"
 
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
@@ -49,16 +48,6 @@ func (w *ElasticsearchDatasetFileWriter) WriteToFile(
 	}
 
 	docs := file_writer_helper.ConvertToElasticsearchProvinceModel(provinces)
-	generatedAt := time.Now().UTC().Format(time.RFC3339)
-
-	// Attach Meta to each document
-	for i := range docs {
-		docs[i].Meta = &dataset_file_writer_dto.ElasticsearchMeta{
-			DatasetVersion:         esDatasetVer,
-			AdministrativeRevision: esAdminRev,
-			GeneratedAt:            generatedAt,
-		}
-	}
 
 	// Write provinces.ndjson
 	ndjsonPath := fmt.Sprintf("%s/provinces.ndjson", w.OutputFolderPath)
@@ -97,8 +86,6 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 		wardsByProvince[ward.VNDSProvinceCode] = append(wardsByProvince[ward.VNDSProvinceCode], ward)
 	}
 
-	generatedAt := time.Now().UTC().Format(time.RFC3339)
-
 	var docs []dataset_file_writer_dto.ElasticsearchProvinceDocument
 	for _, geoProvince := range sapNhapGeoProvinces {
 		province := geoProvince.VNProvince
@@ -113,11 +100,6 @@ func (w *ElasticsearchDatasetFileWriter) WriteElasticsearchGISDataToFile(
 			PostalCodePrefix:   province.PostalCodePrefix,
 			AdministrativeUnit: convertProvinceToESAdminUnit(province.AdministrativeUnit),
 			SearchKeywords:     file_writer_helper.GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
-			Meta: &dataset_file_writer_dto.ElasticsearchMeta{
-				DatasetVersion:         esDatasetVer,
-				AdministrativeRevision: esAdminRev,
-				GeneratedAt:            generatedAt,
-			},
 		}
 
 		// Add province GIS with Properties
@@ -532,14 +514,6 @@ func writeProvincesMapping(path string) error {
 						},
 					},
 				},
-				"Meta": map[string]interface{}{
-					"type": "object",
-					"properties": map[string]interface{}{
-						"DatasetVersion":         map[string]string{"type": "keyword"},
-						"AdministrativeRevision": map[string]string{"type": "keyword"},
-						"GeneratedAt":            map[string]string{"type": "date"},
-					},
-				},
 			},
 		},
 	}
@@ -669,14 +643,6 @@ func writeProvincesGISMapping(path string) error {
 								},
 							},
 						},
-					},
-				},
-				"Meta": map[string]interface{}{
-					"type": "object",
-					"properties": map[string]interface{}{
-						"DatasetVersion":         map[string]string{"type": "keyword"},
-						"AdministrativeRevision": map[string]string{"type": "keyword"},
-						"GeneratedAt":            map[string]string{"type": "date"},
 					},
 				},
 			},
