@@ -1,13 +1,13 @@
 # Elasticsearch Dataset — Vietnamese Provinces Database
 
-**Generated at: Fri, 14 Aug 2026 09:21:21 +0700**
+**Generated at: Sun, 16 Aug 2026 11:22:46 +0700**
 
 Provinces and wards as Elasticsearch documents in two indices: `provinces` (no geometry) and `provinces-gis` (with GIS geometry).
 
 ## Files
 
 - `provinces.ndjson` — Bulk API NDJSON for the provinces index (1.18 MB)
-- `mappings/provinces.json` — Index mapping for provinces (3.01 KB)
+- `mappings/provinces.json` — Index mapping for provinces (2.72 KB)
 
 ## Overview
 
@@ -26,7 +26,6 @@ Each province is a single denormalized document with:
 - **`AdministrativeUnit`**: embedded administrative unit object (Id, FullName, ShortName, CodeName, ...)
 - **`SearchKeywords`**: pre-computed autocomplete keywords (code, tone-stripped name, English name, codeName)
 - **`Wards`**: nested array of ward documents with the same field shape (plus `PostalCode`)
-- **`Meta`**: `DatasetVersion`, `AdministrativeRevision`, `GeneratedAt`
 - **`GIS`**: (provinces-gis only) `Center` (geo_point), `BoundingBox`, `Geometry` (geo_shape), `Properties`
 
 ## Sample Document
@@ -87,5 +86,4 @@ POST /provinces-gis/_search
 ## Notes
 
 - Field names use **PascalCase** (consistent with MongoDB/JSON exports).
-- The `Meta` field is named without an underscore prefix — Elasticsearch reserves `_`-prefixed field names.
 - NDJSON files use the Elasticsearch Bulk API format.

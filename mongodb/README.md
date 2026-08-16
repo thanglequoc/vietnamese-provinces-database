@@ -1,6 +1,6 @@
 # MongoDB Dataset — Vietnamese Provinces Database
 
-**Generated at: Fri, 14 Aug 2026 09:21:21 +0700**
+**Generated at: Sun, 16 Aug 2026 11:22:46 +0700**
 
 MongoDB documents for Vietnamese provinces and wards, with an optional GIS add-on.
 
@@ -31,7 +31,6 @@ A province document in the `provinces` collection:
 - **`AdministrativeUnit`** — embedded unit object (Id, FullName, ShortName, ...)
 - **`SearchKeywords`** — pre-computed autocomplete keywords (code, tone-stripped name, English name, codeName)
 - **`Wards`** — embedded array of ward documents (same field shape, plus `PostalCode` and `ProvinceCode`)
-- **`Meta`** — dataset version metadata
 
 The GIS collections add a **`GIS`** object: `Center` (GeoJSON Point), `BoundingBox`, `Geometry` (GeoJSON MultiPolygon/Polygon), and `Properties`.
 

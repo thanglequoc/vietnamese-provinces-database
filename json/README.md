@@ -1,6 +1,6 @@
 # JSON Dataset — Vietnamese Provinces Database
 
-**Generated at: Fri, 14 Aug 2026 09:21:21 +0700**
+**Generated at: Sun, 16 Aug 2026 11:22:46 +0700**
 
 Administrative unit JSON data for Vietnam: provinces with embedded wards, in full and simplified forms.
 

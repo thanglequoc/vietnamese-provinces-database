@@ -40,20 +40,6 @@
       "FullNameEn": {
         "type": "text"
       },
-      "Meta": {
-        "properties": {
-          "AdministrativeRevision": {
-            "type": "keyword"
-          },
-          "DatasetVersion": {
-            "type": "keyword"
-          },
-          "GeneratedAt": {
-            "type": "date"
-          }
-        },
-        "type": "object"
-      },
       "Name": {
         "fields": {
           "keyword": {
