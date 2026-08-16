@@ -673,7 +673,6 @@ func writeESReadme(path string) error {
 		"- **`AdministrativeUnit`**: embedded administrative unit object (Id, FullName, ShortName, CodeName, ...)",
 		"- **`SearchKeywords`**: pre-computed autocomplete keywords (code, tone-stripped name, English name, codeName)",
 		"- **`Wards`**: nested array of ward documents with the same field shape (plus `PostalCode`)",
-		"- **`Meta`**: `DatasetVersion`, `AdministrativeRevision`, `GeneratedAt`",
 		"- **`GIS`**: (provinces-gis only) `Center` (geo_point), `BoundingBox`, `Geometry` (geo_shape), `Properties`",
 		"",
 		"## Sample Document",
@@ -734,7 +733,6 @@ func writeESReadme(path string) error {
 		"## Notes",
 		"",
 		"- Field names use **PascalCase** (consistent with MongoDB/JSON exports).",
-		"- The `Meta` field is named without an underscore prefix — Elasticsearch reserves `_`-prefixed field names.",
 		"- NDJSON files use the Elasticsearch Bulk API format.",
 	}
 

@@ -236,7 +236,6 @@ ssh -f -N -L 9200:localhost:9200 -i ~/.ssh/id_ed25519 thanglequoc@machine.thangl
 | `AdministrativeUnit` | object | Embedded unit: Id, FullName, FullNameEn, ShortName, ShortNameEn, CodeName, CodeNameEn |
 | `SearchKeywords` | keyword[] | Pre-computed autocomplete array (code, tone-stripped Vietnamese name, English name, codeName) |
 | `Wards` | nested | Array of ward documents (same fields as province: Code, Name, NameEn, FullName, FullNameEn, CodeName, AdministrativeUnit, SearchKeywords) |
-| `Meta` | object | DatasetVersion, AdministrativeRevision, GeneratedAt |
 | `GIS` | object | **(provinces-gis only)** Center (geo_point: lat/lon), BoundingBox (MinLongitude, MinLatitude, MaxLongitude, MaxLatitude), Geometry (geo_shape, GeoJSON MultiPolygon) |
 
 **Ward fields** (inside `Wards[]`): `Code`, `Name`, `NameEn`, `FullName`, `FullNameEn`, `CodeName`, `AdministrativeUnit`, `SearchKeywords`; plus `GIS` in provinces-gis.

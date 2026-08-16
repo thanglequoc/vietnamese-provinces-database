@@ -94,7 +94,6 @@ func writeMongoReadme(outputFolderPath string) error {
 			"- **`AdministrativeUnit`** — embedded unit object (Id, FullName, ShortName, ...)",
 			"- **`SearchKeywords`** — pre-computed autocomplete keywords (code, tone-stripped name, English name, codeName)",
 			"- **`Wards`** — embedded array of ward documents (same field shape, plus `PostalCode` and `ProvinceCode`)",
-			"- **`Meta`** — dataset version metadata",
 			"",
 			"The GIS collections add a **`GIS`** object: `Center` (GeoJSON Point), `BoundingBox`, `Geometry` (GeoJSON MultiPolygon/Polygon), and `Properties`.",
 			"",
