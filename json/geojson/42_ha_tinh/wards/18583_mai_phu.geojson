@@ -3156,6 +3156,8 @@
         "fullName": "Xã Mai Phụ",
         "fullNameEn": "Mai Phu Commune",
         "codeName": "mai_phu",
+        "postalCode": "45417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2000",
         "areaKm2": 31.93
       }

@@ -2304,6 +2304,8 @@
         "fullName": "Xã Phát Diệm",
         "fullNameEn": "Phat Diem Commune",
         "codeName": "phat_diem",
+        "postalCode": "08706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.778",
         "areaKm2": 23.1
       }

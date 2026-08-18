@@ -856,6 +856,8 @@
         "fullName": "Phường Bình Tây",
         "fullNameEn": "Binh Tay Ward",
         "codeName": "binh_tay",
+        "postalCode": "73121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.99",
         "areaKm2": 1.05
       }

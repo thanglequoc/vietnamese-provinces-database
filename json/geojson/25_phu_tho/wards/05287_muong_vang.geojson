@@ -5164,6 +5164,8 @@
         "fullName": "Xã Mường Vang",
         "fullNameEn": "Muong Vang Commune",
         "codeName": "muong_vang",
+        "postalCode": "36636",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1670",
         "areaKm2": 69.79
       }

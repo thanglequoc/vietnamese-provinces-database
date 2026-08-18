@@ -8964,6 +8964,8 @@
         "fullName": "Xã Kế Sách",
         "fullNameEn": "Ke Sach Commune",
         "codeName": "ke_sach",
+        "postalCode": "96306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.264",
         "areaKm2": 61.58
       }

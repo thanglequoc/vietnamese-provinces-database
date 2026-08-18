@@ -6056,6 +6056,8 @@
         "fullName": "Xã Mỹ Lợi",
         "fullNameEn": "My Loi Commune",
         "codeName": "my_loi",
+        "postalCode": "84932",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.458",
         "areaKm2": 43.8
       }

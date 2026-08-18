@@ -21312,6 +21312,8 @@
         "fullName": "Xã Mường Quàng",
         "fullNameEn": "Muong Quang Commune",
         "codeName": "muong_quang",
+        "postalCode": "44071",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1495",
         "areaKm2": 342.15
       }

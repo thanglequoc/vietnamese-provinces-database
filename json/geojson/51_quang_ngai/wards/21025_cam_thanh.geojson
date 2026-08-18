@@ -1412,6 +1412,8 @@
         "fullName": "Phường Cẩm Thành",
         "fullNameEn": "Cam Thanh Ward",
         "codeName": "cam_thanh",
+        "postalCode": "53129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1766",
         "areaKm2": 7.93
       }

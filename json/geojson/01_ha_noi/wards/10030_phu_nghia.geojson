@@ -5396,6 +5396,8 @@
         "fullName": "Xã Phú Nghĩa",
         "fullNameEn": "Phu Nghia Commune",
         "codeName": "phu_nghia",
+        "postalCode": "13411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3220",
         "areaKm2": 40.25
       }

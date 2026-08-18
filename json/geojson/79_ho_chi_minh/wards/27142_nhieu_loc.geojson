@@ -1796,6 +1796,8 @@
         "fullName": "Phường Nhiêu Lộc",
         "fullNameEn": "Nhieu Loc Ward",
         "codeName": "nhieu_loc",
+        "postalCode": "72422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.82",
         "areaKm2": 1.71
       }

@@ -3308,6 +3308,8 @@
         "fullName": "Xã Long Khánh",
         "fullNameEn": "Long Khanh Commune",
         "codeName": "long_khanh",
+        "postalCode": "81568",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.410",
         "areaKm2": 29
       }

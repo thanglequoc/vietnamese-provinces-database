@@ -10304,6 +10304,8 @@
         "fullName": "Xã Sơn Tây",
         "fullNameEn": "Son Tay Commune",
         "codeName": "son_tay",
+        "postalCode": "45833",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2040",
         "areaKm2": 129.21
       }

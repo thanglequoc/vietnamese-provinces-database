@@ -11980,6 +11980,8 @@
         "fullName": "Xã Phong Điền",
         "fullNameEn": "Phong Dien Commune",
         "codeName": "phong_dien",
+        "postalCode": "94806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.229",
         "areaKm2": 45.58
       }

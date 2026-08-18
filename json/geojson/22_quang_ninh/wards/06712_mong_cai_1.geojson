@@ -12908,6 +12908,8 @@
         "fullName": "Phường Móng Cái 1",
         "fullNameEn": "Ward Mong Cai 1",
         "codeName": "mong_cai_1",
+        "postalCode": "01524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3321",
         "areaKm2": 82.47
       }

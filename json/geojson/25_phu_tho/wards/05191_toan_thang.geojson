@@ -5668,6 +5668,8 @@
         "fullName": "Xã Toàn Thắng",
         "fullNameEn": "Toan Thang Commune",
         "codeName": "toan_thang",
+        "postalCode": "36582",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1645",
         "areaKm2": 71.11
       }

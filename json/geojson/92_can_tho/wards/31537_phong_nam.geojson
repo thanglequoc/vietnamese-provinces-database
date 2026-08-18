@@ -736,6 +736,8 @@
         "fullName": "Xã Phong Nẫm",
         "fullNameEn": "Phong Nam Commune",
         "codeName": "phong_nam",
+        "postalCode": "96312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.266",
         "areaKm2": 17.3
       }

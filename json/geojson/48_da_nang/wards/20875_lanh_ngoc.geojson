@@ -7164,6 +7164,8 @@
         "fullName": "Xã Lãnh Ngọc",
         "fullNameEn": "Lanh Ngoc Commune",
         "codeName": "lanh_ngoc",
+        "postalCode": "52621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1968",
         "areaKm2": 161.14
       }

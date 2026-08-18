@@ -3812,6 +3812,8 @@
         "fullName": "Xã Quảng Châu",
         "fullNameEn": "Quang Chau Commune",
         "codeName": "quang_chau",
+        "postalCode": "43447",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1445",
         "areaKm2": 26.4
       }

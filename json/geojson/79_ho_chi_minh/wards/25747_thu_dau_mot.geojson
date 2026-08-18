@@ -7608,6 +7608,8 @@
         "fullName": "Phường Thủ Dầu Một",
         "fullNameEn": "Thu Dau Mot Ward",
         "codeName": "thu_dau_mot",
+        "postalCode": "75123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2",
         "areaKm2": 15.68
       }

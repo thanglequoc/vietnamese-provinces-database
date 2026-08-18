@@ -6580,6 +6580,8 @@
         "fullName": "Xã Mường Chọng",
         "fullNameEn": "Muong Chong Commune",
         "codeName": "muong_chong",
+        "postalCode": "43928",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1480",
         "areaKm2": 173.65
       }

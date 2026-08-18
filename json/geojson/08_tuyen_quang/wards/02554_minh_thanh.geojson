@@ -12120,6 +12120,8 @@
         "fullName": "Xã Minh Thanh",
         "fullNameEn": "Minh Thanh Commune",
         "codeName": "minh_thanh",
+        "postalCode": "22711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2354",
         "areaKm2": 78.57
       }

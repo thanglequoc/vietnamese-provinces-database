@@ -5848,6 +5848,8 @@
         "fullName": "Xã Hoà Trạch",
         "fullNameEn": "Hoa Trach Commune",
         "codeName": "hoa_trach",
+        "postalCode": "47426",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.614",
         "areaKm2": 52.67
       }

@@ -1340,6 +1340,8 @@
         "fullName": "Phường Long Biên",
         "fullNameEn": "Long Bien Ward",
         "codeName": "long_bien",
+        "postalCode": "11814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3171",
         "areaKm2": 19.04
       }

@@ -1724,6 +1724,8 @@
         "fullName": "Xã Mễ Sở",
         "fullNameEn": "Me So Commune",
         "codeName": "me_so",
+        "postalCode": "17666",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.731",
         "areaKm2": 17.51
       }

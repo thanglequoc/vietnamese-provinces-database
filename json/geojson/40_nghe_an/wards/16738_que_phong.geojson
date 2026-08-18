@@ -16836,6 +16836,8 @@
         "fullName": "Xã Quế Phong",
         "fullNameEn": "Que Phong Commune",
         "codeName": "que_phong",
+        "postalCode": "44070",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1491",
         "areaKm2": 276.57
       }

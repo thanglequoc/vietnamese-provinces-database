@@ -5312,6 +5312,8 @@
         "fullName": "Xã Tân An",
         "fullNameEn": "Tan An Commune",
         "codeName": "tan_an",
+        "postalCode": "03836",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.887",
         "areaKm2": 24.9
       }

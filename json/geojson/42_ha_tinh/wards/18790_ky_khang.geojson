@@ -6228,6 +6228,8 @@
         "fullName": "Xã Kỳ Khang",
         "fullNameEn": "Ky Khang Commune",
         "codeName": "ky_khang",
+        "postalCode": "46313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2025",
         "areaKm2": 48.85
       }

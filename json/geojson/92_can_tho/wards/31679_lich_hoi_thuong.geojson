@@ -2816,6 +2816,8 @@
         "fullName": "Xã Lịch Hội Thượng",
         "fullNameEn": "Lich Hoi Thuong Commune",
         "codeName": "lich_hoi_thuong",
+        "postalCode": "96709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.286",
         "areaKm2": 48.99
       }

@@ -9896,6 +9896,8 @@
         "fullName": "Xã Trà Liên",
         "fullNameEn": "Tra Lien Commune",
         "codeName": "tra_lien",
+        "postalCode": "52519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1964",
         "areaKm2": 178.15
       }

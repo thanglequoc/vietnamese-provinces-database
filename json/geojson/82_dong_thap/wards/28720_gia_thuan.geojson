@@ -2512,6 +2512,8 @@
         "fullName": "Xã Gia Thuận",
         "fullNameEn": "Gia Thuan Commune",
         "codeName": "gia_thuan",
+        "postalCode": "84362",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.497",
         "areaKm2": 67.4
       }

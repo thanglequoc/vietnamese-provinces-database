@@ -10684,6 +10684,8 @@
         "fullName": "Xã Đình Lập",
         "fullNameEn": "Dinh Lap Commune",
         "codeName": "dinh_lap",
+        "postalCode": "25910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1852",
         "areaKm2": 164.66
       }

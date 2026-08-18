@@ -5396,6 +5396,8 @@
         "fullName": "Xã Hưng Hà",
         "fullNameEn": "Hung Ha Commune",
         "codeName": "hung_ha",
+        "postalCode": "06706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.646",
         "areaKm2": 38.93
       }

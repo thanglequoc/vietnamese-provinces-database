@@ -3940,6 +3940,8 @@
         "fullName": "Xã Tiên Trang",
         "fullNameEn": "Tien Trang Commune",
         "codeName": "tien_trang",
+        "postalCode": "42627",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2580",
         "areaKm2": 17.75
       }

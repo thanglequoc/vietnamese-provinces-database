@@ -12280,6 +12280,8 @@
         "fullName": "Xã Khánh Lâm",
         "fullNameEn": "Khanh Lam Commune",
         "codeName": "khanh_lam",
+        "postalCode": "98311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.169",
         "areaKm2": 208.2
       }

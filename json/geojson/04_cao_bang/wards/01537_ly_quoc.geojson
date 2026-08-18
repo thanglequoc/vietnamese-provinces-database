@@ -7884,6 +7884,8 @@
         "fullName": "Xã Lý Quốc",
         "fullNameEn": "Ly Quoc Commune",
         "codeName": "ly_quoc",
+        "postalCode": "21709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.998",
         "areaKm2": 102.18
       }

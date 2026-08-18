@@ -7168,6 +7168,8 @@
         "fullName": "Xã Đồng Dương",
         "fullNameEn": "Dong Duong Commune",
         "codeName": "dong_duong",
+        "postalCode": "51233",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1958",
         "areaKm2": 76.49
       }

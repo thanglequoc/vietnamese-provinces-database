@@ -3432,6 +3432,8 @@
         "fullName": "Xã Dương Hoà",
         "fullNameEn": "Duong Hoa Commune",
         "codeName": "duong_hoa",
+        "postalCode": "13227",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3241",
         "areaKm2": 17.41
       }

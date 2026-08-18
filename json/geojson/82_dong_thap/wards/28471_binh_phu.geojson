@@ -7644,6 +7644,8 @@
         "fullName": "Xã Bình Phú",
         "fullNameEn": "Binh Phu Commune",
         "codeName": "binh_phu",
+        "postalCode": "84806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.467",
         "areaKm2": 47.3
       }

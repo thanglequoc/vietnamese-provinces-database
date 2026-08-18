@@ -4800,6 +4800,8 @@
         "fullName": "Xã Giáp Trung",
         "fullNameEn": "Giap Trung Commune",
         "codeName": "giap_trung",
+        "postalCode": "20908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2399",
         "areaKm2": 73.21
       }

@@ -756,6 +756,8 @@
         "fullName": "Phường Cửa Nam",
         "fullNameEn": "Cua Nam Ward",
         "codeName": "cua_nam",
+        "postalCode": "11018",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3203",
         "areaKm2": 1.68
       }

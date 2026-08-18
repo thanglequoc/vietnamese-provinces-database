@@ -12696,6 +12696,8 @@
         "fullName": "Phường Cẩm Phả",
         "fullNameEn": "Cam Pha Ward",
         "codeName": "cam_pha",
+        "postalCode": "01222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1870",
         "areaKm2": 17.52
       }

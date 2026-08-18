@@ -13576,6 +13576,8 @@
         "fullName": "Xã Thạnh An",
         "fullNameEn": "Thanh An Commune",
         "codeName": "thanh_an",
+        "postalCode": "73308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.137",
         "areaKm2": 131.31
       }

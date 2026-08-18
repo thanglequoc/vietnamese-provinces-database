@@ -7248,6 +7248,8 @@
         "fullName": "Xã Khánh Bình",
         "fullNameEn": "Khanh Binh Commune",
         "codeName": "khanh_binh",
+        "postalCode": "98413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.179",
         "areaKm2": 104.5
       }

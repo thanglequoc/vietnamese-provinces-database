@@ -5644,6 +5644,8 @@
         "fullName": "Xã Quảng Bị",
         "fullNameEn": "Quang Bi Commune",
         "codeName": "quang_bi",
+        "postalCode": "13432",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3218",
         "areaKm2": 37.14
       }

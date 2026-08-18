@@ -4468,6 +4468,8 @@
         "fullName": "Xã Bình Đại",
         "fullNameEn": "Binh Dai Commune",
         "codeName": "binh_dai",
+        "postalCode": "86706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2464",
         "areaKm2": 44.7
       }

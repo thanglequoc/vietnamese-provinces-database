@@ -14564,6 +14564,8 @@
         "fullName": "Xã Long Phước",
         "fullNameEn": "Long Phuoc Commune",
         "codeName": "long_phuoc",
+        "postalCode": "76213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3139",
         "areaKm2": 81.8
       }

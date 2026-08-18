@@ -5656,6 +5656,8 @@
         "fullName": "Phường An Nhơn",
         "fullNameEn": "An Nhon Ward",
         "codeName": "an_nhon",
+        "postalCode": "55271",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3011",
         "areaKm2": 34.62
       }

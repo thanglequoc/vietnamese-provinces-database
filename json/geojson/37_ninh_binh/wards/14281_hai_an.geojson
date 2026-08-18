@@ -1648,6 +1648,8 @@
         "fullName": "Xã Hải An",
         "fullNameEn": "Hai An Commune",
         "codeName": "hai_an",
+        "postalCode": "07920",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.828",
         "areaKm2": 25.19
       }

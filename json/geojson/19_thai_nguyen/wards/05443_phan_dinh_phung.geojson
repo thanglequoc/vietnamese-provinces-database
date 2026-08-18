@@ -3204,6 +3204,8 @@
         "fullName": "Phường Phan Đình Phùng",
         "fullNameEn": "Phan Dinh Phung Ward",
         "codeName": "phan_dinh_phung",
+        "postalCode": "24124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1186",
         "areaKm2": 14.73
       }

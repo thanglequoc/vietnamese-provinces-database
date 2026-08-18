@@ -19628,6 +19628,8 @@
         "fullName": "Phường An Lộc",
         "fullNameEn": "An Loc Ward",
         "codeName": "an_loc",
+        "postalCode": "67863",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2291",
         "areaKm2": 88.7
       }

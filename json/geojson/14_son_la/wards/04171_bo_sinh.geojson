@@ -8200,6 +8200,8 @@
         "fullName": "Xã Bó Sinh",
         "fullNameEn": "Bo Sinh Commune",
         "codeName": "bo_sinh",
+        "postalCode": "34412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1396",
         "areaKm2": 153.83
       }

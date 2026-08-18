@@ -8844,6 +8844,8 @@
         "fullName": "Xã Đông Khê",
         "fullNameEn": "Dong Khe Commune",
         "codeName": "dong_khe",
+        "postalCode": "21606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.990",
         "areaKm2": 125.27
       }

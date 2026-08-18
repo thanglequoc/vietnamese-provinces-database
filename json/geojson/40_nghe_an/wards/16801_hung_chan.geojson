@@ -14676,6 +14676,8 @@
         "fullName": "Xã Hùng Chân",
         "fullNameEn": "Hung Chan Commune",
         "codeName": "hung_chan",
+        "postalCode": "44019",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1411",
         "areaKm2": 351.87
       }

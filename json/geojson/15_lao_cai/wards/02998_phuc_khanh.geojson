@@ -8768,6 +8768,8 @@
         "fullName": "Xã Phúc Khánh",
         "fullNameEn": "Phuc Khanh Commune",
         "codeName": "phuc_khanh",
+        "postalCode": "31921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1080",
         "areaKm2": 114
       }

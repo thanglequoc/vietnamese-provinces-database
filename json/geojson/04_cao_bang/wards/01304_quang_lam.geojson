@@ -12544,6 +12544,8 @@
         "fullName": "Xã Quảng Lâm",
         "fullNameEn": "Quang Lam Commune",
         "codeName": "quang_lam",
+        "postalCode": "21416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.975",
         "areaKm2": 172.93
       }

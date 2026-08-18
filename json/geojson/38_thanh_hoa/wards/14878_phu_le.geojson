@@ -5756,6 +5756,8 @@
         "fullName": "Xã Phú Lệ",
         "fullNameEn": "Phu Le Commune",
         "codeName": "phu_le",
+        "postalCode": "41918",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2695",
         "areaKm2": 139.5
       }

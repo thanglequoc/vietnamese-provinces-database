@@ -3688,6 +3688,8 @@
         "fullName": "Xã Cầu Ngang",
         "fullNameEn": "Cau Ngang Commune",
         "codeName": "cau_ngang",
+        "postalCode": "87806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2506",
         "areaKm2": 35.32
       }

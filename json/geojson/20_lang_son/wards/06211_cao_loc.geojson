@@ -7580,6 +7580,8 @@
         "fullName": "Xã Cao Lộc",
         "fullNameEn": "Cao Loc Commune",
         "codeName": "cao_loc",
+        "postalCode": "25179",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1796",
         "areaKm2": 103.86
       }

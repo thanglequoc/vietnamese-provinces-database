@@ -2548,6 +2548,8 @@
         "fullName": "Xã Liên Châu",
         "fullNameEn": "Lien Chau Commune",
         "codeName": "lien_chau",
+        "postalCode": "15715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1633",
         "areaKm2": 26
       }

@@ -1316,6 +1316,8 @@
         "fullName": "Phường An Hải",
         "fullNameEn": "An Hai Ward",
         "codeName": "an_hai",
+        "postalCode": "50413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1909",
         "areaKm2": 7.37
       }

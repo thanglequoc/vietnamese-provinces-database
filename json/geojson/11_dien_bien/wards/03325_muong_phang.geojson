@@ -11232,6 +11232,8 @@
         "fullName": "Xã Mường Phăng",
         "fullNameEn": "Muong Phang Commune",
         "codeName": "muong_phang",
+        "postalCode": "32116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2262",
         "areaKm2": 166.7
       }

@@ -3180,6 +3180,8 @@
         "fullName": "Phường Cửa Lò",
         "fullNameEn": "Cua Lo Ward",
         "codeName": "cua_lo",
+        "postalCode": "43136",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1522",
         "areaKm2": 29.09
       }

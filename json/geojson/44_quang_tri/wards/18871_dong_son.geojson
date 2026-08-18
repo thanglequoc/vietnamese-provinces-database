@@ -7264,6 +7264,8 @@
         "fullName": "Phường Đồng Sơn",
         "fullNameEn": "Dong Son Ward",
         "codeName": "dong_son",
+        "postalCode": "47110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.599",
         "areaKm2": 88.03
       }

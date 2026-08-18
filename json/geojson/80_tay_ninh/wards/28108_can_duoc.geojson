@@ -6216,6 +6216,8 @@
         "fullName": "Xã Cần Đước",
         "fullNameEn": "Can Duoc Commune",
         "codeName": "can_duoc",
+        "postalCode": "82406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1335",
         "areaKm2": 48.56
       }

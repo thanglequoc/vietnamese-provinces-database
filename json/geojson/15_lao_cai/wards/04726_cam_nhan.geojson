@@ -8588,6 +8588,8 @@
         "fullName": "Xã Cảm Nhân",
         "fullNameEn": "Cam Nhan Commune",
         "codeName": "cam_nhan",
+        "postalCode": "33215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1052",
         "areaKm2": 151.77
       }

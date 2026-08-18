@@ -9136,6 +9136,8 @@
         "fullName": "Xã Trung Hiệp",
         "fullNameEn": "Trung Hiep Commune",
         "codeName": "trung_hiep",
+        "postalCode": "85712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2539",
         "areaKm2": 46.73
       }

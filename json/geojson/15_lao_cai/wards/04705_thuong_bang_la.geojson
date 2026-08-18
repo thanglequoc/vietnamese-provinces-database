@@ -9808,6 +9808,8 @@
         "fullName": "Xã Thượng Bằng La",
         "fullNameEn": "Thuong Bang La Commune",
         "codeName": "thuong_bang_la",
+        "postalCode": "33829",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1048",
         "areaKm2": 111.61
       }

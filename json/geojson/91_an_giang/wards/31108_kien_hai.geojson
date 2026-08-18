@@ -5432,6 +5432,8 @@
         "fullName": "Đặc khu Kiên Hải",
         "fullNameEn": "Kien Hai Special administrative region",
         "codeName": "kien_hai",
+        "postalCode": "92410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3302",
         "areaKm2": 24.75
       }

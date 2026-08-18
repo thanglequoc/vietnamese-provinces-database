@@ -3260,6 +3260,8 @@
         "fullName": "Xã Kim Thành",
         "fullNameEn": "Kim Thanh Commune",
         "codeName": "kim_thanh",
+        "postalCode": "03328",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.880",
         "areaKm2": 33.79
       }

@@ -3528,6 +3528,8 @@
         "fullName": "Xã Quỹ Nhất",
         "fullNameEn": "Quy Nhat Commune",
         "codeName": "quy_nhat",
+        "postalCode": "07417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.826",
         "areaKm2": 32.7
       }

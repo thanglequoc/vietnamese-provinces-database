@@ -2712,6 +2712,8 @@
         "fullName": "Xã Thanh Bình",
         "fullNameEn": "Thanh Binh Commune",
         "codeName": "thanh_binh",
+        "postalCode": "18424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2781",
         "areaKm2": 23.85
       }

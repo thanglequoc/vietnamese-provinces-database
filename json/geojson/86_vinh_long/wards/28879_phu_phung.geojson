@@ -3816,6 +3816,8 @@
         "fullName": "Xã Phú Phụng",
         "fullNameEn": "Phu Phung Commune",
         "codeName": "phu_phung",
+        "postalCode": "86314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2445",
         "areaKm2": 47.89
       }

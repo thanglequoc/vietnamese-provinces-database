@@ -8588,6 +8588,8 @@
         "fullName": "Xã Phú Bình",
         "fullNameEn": "Phu Binh Commune",
         "codeName": "phu_binh",
+        "postalCode": "24926",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1235",
         "areaKm2": 44.18
       }

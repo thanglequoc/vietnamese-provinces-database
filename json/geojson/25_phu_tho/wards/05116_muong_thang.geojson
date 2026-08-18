@@ -8536,6 +8536,8 @@
         "fullName": "Xã Mường Thàng",
         "fullNameEn": "Muong Thang Commune",
         "codeName": "muong_thang",
+        "postalCode": "36519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1649",
         "areaKm2": 91.58
       }

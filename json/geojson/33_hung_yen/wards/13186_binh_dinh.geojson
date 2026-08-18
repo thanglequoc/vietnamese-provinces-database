@@ -1616,6 +1616,8 @@
         "fullName": "Xã Bình Định",
         "fullNameEn": "Binh Dinh Commune",
         "codeName": "binh_dinh",
+        "postalCode": "06237",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.696",
         "areaKm2": 24.47
       }

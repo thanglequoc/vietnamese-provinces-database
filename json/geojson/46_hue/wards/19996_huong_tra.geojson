@@ -22960,6 +22960,8 @@
         "fullName": "Phường Hương Trà",
         "fullNameEn": "Huong Tra Ward",
         "codeName": "huong_tra",
+        "postalCode": "49422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1709",
         "areaKm2": 83.28
       }

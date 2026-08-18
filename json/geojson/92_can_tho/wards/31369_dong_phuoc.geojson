@@ -6412,6 +6412,8 @@
         "fullName": "Xã Đông Phước",
         "fullNameEn": "Dong Phuoc Commune",
         "codeName": "dong_phuoc",
+        "postalCode": "95716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.243",
         "areaKm2": 40
       }

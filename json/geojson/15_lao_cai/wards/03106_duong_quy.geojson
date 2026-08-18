@@ -12440,6 +12440,8 @@
         "fullName": "Xã Dương Quỳ",
         "fullNameEn": "Duong Quy Commune",
         "codeName": "duong_quy",
+        "postalCode": "31820",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1088",
         "areaKm2": 157.1
       }

@@ -2092,6 +2092,8 @@
         "fullName": "Xã Ngự Thiên",
         "fullNameEn": "Ngu Thien Commune",
         "codeName": "ngu_thien",
+        "postalCode": "06745",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.649",
         "areaKm2": 22.41
       }

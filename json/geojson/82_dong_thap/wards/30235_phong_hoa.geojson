@@ -6784,6 +6784,8 @@
         "fullName": "Xã Phong Hoà",
         "fullNameEn": "Phong Hoa Commune",
         "codeName": "phong_hoa",
+        "postalCode": "81767",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.440",
         "areaKm2": 87.9
       }

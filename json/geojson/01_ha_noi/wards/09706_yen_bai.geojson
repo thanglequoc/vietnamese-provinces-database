@@ -8216,6 +8216,8 @@
         "fullName": "Xã Yên Bài",
         "fullNameEn": "Yen Bai Commune",
         "codeName": "yen_bai",
+        "postalCode": "12630",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3281",
         "areaKm2": 68.19
       }

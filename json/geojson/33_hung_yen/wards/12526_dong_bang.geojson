@@ -4720,6 +4720,8 @@
         "fullName": "Xã Đồng Bằng",
         "fullNameEn": "Dong Bang Commune",
         "codeName": "dong_bang",
+        "postalCode": "06649",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.664",
         "areaKm2": 20.04
       }

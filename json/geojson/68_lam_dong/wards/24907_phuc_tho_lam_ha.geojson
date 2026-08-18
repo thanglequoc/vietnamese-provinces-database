@@ -16300,6 +16300,8 @@
         "fullName": "Xã Phúc Thọ Lâm Hà",
         "fullNameEn": "Phuc Tho Lam Ha Commune",
         "codeName": "phuc_tho_lam_ha",
+        "postalCode": "66317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.502",
         "areaKm2": 230.47
       }

@@ -2724,6 +2724,8 @@
         "fullName": "Phường Nam Đồng",
         "fullNameEn": "Nam Dong Ward",
         "codeName": "nam_dong",
+        "postalCode": "03121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.860",
         "areaKm2": 19.67
       }

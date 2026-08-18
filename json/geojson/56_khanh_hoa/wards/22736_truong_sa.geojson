@@ -9516,6 +9516,8 @@
         "fullName": "Đặc khu Trường Sa",
         "fullNameEn": "Spratly Special administrative region",
         "codeName": "truong_sa",
+        "postalCode": "57906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3317",
         "areaKm2": 496.3
       }

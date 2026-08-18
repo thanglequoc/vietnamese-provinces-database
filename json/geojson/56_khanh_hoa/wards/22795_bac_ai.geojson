@@ -14704,6 +14704,8 @@
         "fullName": "Xã Bác Ái",
         "fullNameEn": "Bac Ai Commune",
         "codeName": "bac_ai",
+        "postalCode": "59415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1146",
         "areaKm2": 188.5
       }

@@ -7334,6 +7334,8 @@
         "fullName": "Xã Hoá Quỳ",
         "fullNameEn": "Hoa Quy Commune",
         "codeName": "hoa_quy",
+        "postalCode": "42511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2693",
         "areaKm2": 116.65
       }

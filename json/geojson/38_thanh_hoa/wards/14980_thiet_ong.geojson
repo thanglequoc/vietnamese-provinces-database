@@ -6328,6 +6328,8 @@
         "fullName": "Xã Thiết Ống",
         "fullNameEn": "Thiet Ong Commune",
         "codeName": "thiet_ong",
+        "postalCode": "41425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2648",
         "areaKm2": 94.32
       }

@@ -2148,6 +2148,8 @@
         "fullName": "Phường Phan Thiết",
         "fullNameEn": "Phan Thiet Ward",
         "codeName": "phan_thiet",
+        "postalCode": "77124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3064",
         "areaKm2": 4.46
       }

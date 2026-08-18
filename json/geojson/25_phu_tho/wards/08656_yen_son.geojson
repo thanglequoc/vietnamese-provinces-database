@@ -6032,6 +6032,8 @@
         "fullName": "Xã Yên Sơn",
         "fullNameEn": "Yen Son Commune",
         "codeName": "yen_son",
+        "postalCode": "35819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1575",
         "areaKm2": 75.52
       }

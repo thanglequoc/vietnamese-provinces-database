@@ -17412,6 +17412,8 @@
         "fullName": "Phường Đồng Xoài",
         "fullNameEn": "Dong Xoai Ward",
         "codeName": "dong_xoai",
+        "postalCode": "67115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2273",
         "areaKm2": 81.3
       }

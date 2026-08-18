@@ -6544,6 +6544,8 @@
         "fullName": "Xã Lũng Phìn",
         "fullNameEn": "Lung Phin Commune",
         "codeName": "lung_phin",
+        "postalCode": "20518",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2371",
         "areaKm2": 69.46
       }

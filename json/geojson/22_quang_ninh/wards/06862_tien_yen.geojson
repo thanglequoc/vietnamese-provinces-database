@@ -13152,6 +13152,8 @@
         "fullName": "Xã Tiên Yên",
         "fullNameEn": "Tien Yen Commune",
         "codeName": "tien_yen",
+        "postalCode": "01906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1878",
         "areaKm2": 137.87
       }

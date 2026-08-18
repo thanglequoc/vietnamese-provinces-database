@@ -13172,6 +13172,8 @@
         "fullName": "Xã Trạm Tấu",
         "fullNameEn": "Tram Tau Commune",
         "codeName": "tram_tau",
+        "postalCode": "33609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1039",
         "areaKm2": 238.29
       }

@@ -15708,6 +15708,8 @@
         "fullName": "Xã Trường Sơn",
         "fullNameEn": "Truong Son Commune",
         "codeName": "truong_son",
+        "postalCode": "47720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.628",
         "areaKm2": 935.96
       }

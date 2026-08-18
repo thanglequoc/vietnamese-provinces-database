@@ -10008,6 +10008,8 @@
         "fullName": "Xã Đông Sơn",
         "fullNameEn": "Dong Son Commune",
         "codeName": "dong_son",
+        "postalCode": "53333",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1769",
         "areaKm2": 115.83
       }

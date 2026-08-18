@@ -6288,6 +6288,8 @@
         "fullName": "Phường Phước Hội",
         "fullNameEn": "Phuoc Hoi Ward",
         "codeName": "phuoc_hoi",
+        "postalCode": "77656",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3095",
         "areaKm2": 38.09
       }

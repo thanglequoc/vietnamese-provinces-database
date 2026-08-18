@@ -4892,6 +4892,8 @@
         "fullName": "Xã Vĩnh Hảo",
         "fullNameEn": "Vinh Hao Commune",
         "codeName": "vinh_hao",
+        "postalCode": "77209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3070",
         "areaKm2": 138.58
       }

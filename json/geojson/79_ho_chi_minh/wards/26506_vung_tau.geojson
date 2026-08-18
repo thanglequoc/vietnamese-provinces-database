@@ -4536,6 +4536,8 @@
         "fullName": "Phường Vũng Tàu",
         "fullNameEn": "Vung Tau Ward",
         "codeName": "vung_tau",
+        "postalCode": "78223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2198",
         "areaKm2": 16.86
       }

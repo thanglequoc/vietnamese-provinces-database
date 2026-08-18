@@ -12476,6 +12476,8 @@
         "fullName": "Xã Vân Hoà",
         "fullNameEn": "Van Hoa Commune",
         "codeName": "van_hoa",
+        "postalCode": "56521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2909",
         "areaKm2": 151.47
       }

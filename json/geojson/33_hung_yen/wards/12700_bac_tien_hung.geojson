@@ -3112,6 +3112,8 @@
         "fullName": "Xã Bắc Tiên Hưng",
         "fullNameEn": "Bac Tien Hung Commune",
         "codeName": "bac_tien_hung",
+        "postalCode": "06854",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.656",
         "areaKm2": 28.03
       }

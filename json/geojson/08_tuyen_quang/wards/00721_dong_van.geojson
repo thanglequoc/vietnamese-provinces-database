@@ -12820,6 +12820,8 @@
         "fullName": "Xã Đồng Văn",
         "fullNameEn": "Dong Van Commune",
         "codeName": "dong_van",
+        "postalCode": "20506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2369",
         "areaKm2": 122.49
       }

@@ -6756,6 +6756,8 @@
         "fullName": "Xã Tân Sơn",
         "fullNameEn": "Tan Son Commune",
         "codeName": "tan_son",
+        "postalCode": "35573",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1553",
         "areaKm2": 118.21
       }

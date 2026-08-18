@@ -11652,6 +11652,8 @@
         "fullName": "Xã Bằng Thành",
         "fullNameEn": "Bang Thanh Commune",
         "codeName": "bang_thanh",
+        "postalCode": "23407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1164",
         "areaKm2": 208.22
       }

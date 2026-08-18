@@ -3168,6 +3168,8 @@
         "fullName": "Phường Bắc Hồng Lĩnh",
         "fullNameEn": "Bac Hong Linh Ward",
         "codeName": "bac_hong_linh",
+        "postalCode": "45612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2010",
         "areaKm2": 35.31
       }

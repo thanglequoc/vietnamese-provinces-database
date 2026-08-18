@@ -10456,6 +10456,8 @@
         "fullName": "Xã Tả Lèng",
         "fullNameEn": "Ta Leng Commune",
         "codeName": "ta_leng",
+        "postalCode": "30211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2063",
         "areaKm2": 128.36
       }

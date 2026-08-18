@@ -5640,6 +5640,8 @@
         "fullName": "Xã Cẩm Thạch",
         "fullNameEn": "Cam Thach Commune",
         "codeName": "cam_thach",
+        "postalCode": "41314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2654",
         "areaKm2": 106.64
       }

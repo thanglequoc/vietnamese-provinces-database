@@ -2852,6 +2852,8 @@
         "fullName": "Xã Hoằng Giang",
         "fullNameEn": "Hoang Giang Commune",
         "codeName": "hoang_giang",
+        "postalCode": "40332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2597",
         "areaKm2": 30.53
       }

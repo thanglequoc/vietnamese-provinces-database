@@ -15584,6 +15584,8 @@
         "fullName": "Xã Bản Liền",
         "fullNameEn": "Ban Lien Commune",
         "codeName": "ban_lien",
+        "postalCode": "31326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1067",
         "areaKm2": 76.7
       }

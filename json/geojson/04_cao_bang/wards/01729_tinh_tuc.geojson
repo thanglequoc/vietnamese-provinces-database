@@ -8076,6 +8076,8 @@
         "fullName": "Xã Tĩnh Túc",
         "fullNameEn": "Tinh Tuc Commune",
         "codeName": "tinh_tuc",
+        "postalCode": "21514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.965",
         "areaKm2": 86.79
       }

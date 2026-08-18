@@ -808,6 +808,8 @@
         "fullName": "Phường Cầu Ông Lãnh",
         "fullNameEn": "Cau Ong Lanh Ward",
         "codeName": "cau_ong_lanh",
+        "postalCode": "71011",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.40",
         "areaKm2": 1.6
       }

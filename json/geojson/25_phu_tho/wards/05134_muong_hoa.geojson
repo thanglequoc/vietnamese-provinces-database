@@ -5112,6 +5112,8 @@
         "fullName": "Xã Mường Hoa",
         "fullNameEn": "Muong Hoa Commune",
         "codeName": "muong_hoa",
+        "postalCode": "36583",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1651",
         "areaKm2": 104.54
       }

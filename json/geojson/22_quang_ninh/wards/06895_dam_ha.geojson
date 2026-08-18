@@ -38600,6 +38600,8 @@
         "fullName": "Xã Đầm Hà",
         "fullNameEn": "Dam Ha Commune",
         "codeName": "dam_ha",
+        "postalCode": "01815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1889",
         "areaKm2": 142.43
       }

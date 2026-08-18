@@ -8228,6 +8228,8 @@
         "fullName": "Xã Trần Văn Thời",
         "fullNameEn": "Tran Van Thoi Commune",
         "codeName": "tran_van_thoi",
+        "postalCode": "98406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.176",
         "areaKm2": 128.72
       }

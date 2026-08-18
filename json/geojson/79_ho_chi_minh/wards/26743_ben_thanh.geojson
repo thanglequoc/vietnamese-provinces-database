@@ -632,6 +632,8 @@
         "fullName": "Phường Bến Thành",
         "fullNameEn": "Ben Thanh Ward",
         "codeName": "ben_thanh",
+        "postalCode": "71009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.39",
         "areaKm2": 1.85
       }

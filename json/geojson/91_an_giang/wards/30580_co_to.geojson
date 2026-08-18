@@ -4288,6 +4288,8 @@
         "fullName": "Xã Cô Tô",
         "fullNameEn": "Co To Commune",
         "codeName": "co_to",
+        "postalCode": "90818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.340",
         "areaKm2": 176.75
       }

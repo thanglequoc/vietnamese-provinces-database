@@ -10632,6 +10632,8 @@
         "fullName": "Xã Lạc Lương",
         "fullNameEn": "Lac Luong Commune",
         "codeName": "lac_luong",
+        "postalCode": "36711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1661",
         "areaKm2": 130.41
       }

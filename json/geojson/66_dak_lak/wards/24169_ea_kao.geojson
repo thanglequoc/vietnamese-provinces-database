@@ -10276,6 +10276,8 @@
         "fullName": "Phường Ea Kao",
         "fullNameEn": "Ea Kao Ward",
         "codeName": "ea_kao",
+        "postalCode": "63123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2872",
         "areaKm2": 60.7
       }

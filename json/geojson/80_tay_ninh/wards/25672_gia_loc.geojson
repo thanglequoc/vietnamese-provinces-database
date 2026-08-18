@@ -4200,6 +4200,8 @@
         "fullName": "Phường Gia Lộc",
         "fullNameEn": "Gia Loc Ward",
         "codeName": "gia_loc",
+        "postalCode": "80907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2730",
         "areaKm2": 50.26
       }

@@ -8108,6 +8108,8 @@
         "fullName": "Phường Hoà Thành",
         "fullNameEn": "Hoa Thanh Ward",
         "codeName": "hoa_thanh",
+        "postalCode": "98120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.167",
         "areaKm2": 97.29
       }

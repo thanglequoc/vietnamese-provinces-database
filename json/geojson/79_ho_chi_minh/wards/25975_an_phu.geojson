@@ -2984,6 +2984,8 @@
         "fullName": "Phường An Phú",
         "fullNameEn": "An Phu Ward",
         "codeName": "an_phu",
+        "postalCode": "75209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.35",
         "areaKm2": 16.85
       }

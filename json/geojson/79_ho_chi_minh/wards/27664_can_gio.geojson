@@ -5836,6 +5836,8 @@
         "fullName": "Xã Cần Giờ",
         "fullNameEn": "Can Gio Commune",
         "codeName": "can_gio",
+        "postalCode": "72018",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.134",
         "areaKm2": 157.01
       }

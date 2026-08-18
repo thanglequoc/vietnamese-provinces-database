@@ -4860,6 +4860,8 @@
         "fullName": "Xã Kim Phượng",
         "fullNameEn": "Kim Phuong Commune",
         "codeName": "kim_phuong",
+        "postalCode": "24512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1216",
         "areaKm2": 78.61
       }

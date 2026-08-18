@@ -1882,6 +1882,8 @@
         "fullName": "Phường Sơn Nam",
         "fullNameEn": "Son Nam Ward",
         "codeName": "son_nam",
+        "postalCode": "17124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.722",
         "areaKm2": 23.62
       }

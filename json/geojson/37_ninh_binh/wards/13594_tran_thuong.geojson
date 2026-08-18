@@ -3268,6 +3268,8 @@
         "fullName": "Xã Trần Thương",
         "fullNameEn": "Tran Thuong Commune",
         "codeName": "tran_thuong",
+        "postalCode": "18631",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2771",
         "areaKm2": 26.32
       }

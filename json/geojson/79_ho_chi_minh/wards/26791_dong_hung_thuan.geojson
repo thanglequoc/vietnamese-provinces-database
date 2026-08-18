@@ -4920,6 +4920,8 @@
         "fullName": "Phường Đông Hưng Thuận",
         "fullNameEn": "Dong Hung Thuan Ward",
         "codeName": "dong_hung_thuan",
+        "postalCode": "71508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.45",
         "areaKm2": 8.26
       }

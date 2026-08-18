@@ -14052,6 +14052,8 @@
         "fullName": "Xã Khe Tre",
         "fullNameEn": "Khe Tre Commune",
         "codeName": "khe_tre",
+        "postalCode": "49706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1722",
         "areaKm2": 256.02
       }

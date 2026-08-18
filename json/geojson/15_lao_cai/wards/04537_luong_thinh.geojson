@@ -5716,6 +5716,8 @@
         "fullName": "Xã Lương Thịnh",
         "fullNameEn": "Luong Thinh Commune",
         "codeName": "luong_thinh",
+        "postalCode": "33923",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1032",
         "areaKm2": 94.21
       }

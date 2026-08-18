@@ -11520,6 +11520,8 @@
         "fullName": "Xã Nam Trà My",
         "fullNameEn": "Nam Tra My Commune",
         "codeName": "nam_tra_my",
+        "postalCode": "52416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1983",
         "areaKm2": 178.31
       }

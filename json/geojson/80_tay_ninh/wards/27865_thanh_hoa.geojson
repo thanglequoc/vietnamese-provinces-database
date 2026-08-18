@@ -6852,6 +6852,8 @@
         "fullName": "Xã Thạnh Hoá",
         "fullNameEn": "Thanh Hoa Commune",
         "codeName": "thanh_hoa",
+        "postalCode": "82906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1298",
         "areaKm2": 108.18
       }

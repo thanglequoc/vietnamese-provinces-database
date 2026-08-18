@@ -8180,6 +8180,8 @@
         "fullName": "Xã An Lương",
         "fullNameEn": "An Luong Commune",
         "codeName": "an_luong",
+        "postalCode": "55375",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2989",
         "areaKm2": 66.57
       }

@@ -4988,6 +4988,8 @@
         "fullName": "Xã Sơn Tịnh",
         "fullNameEn": "Son Tinh Commune",
         "codeName": "son_tinh",
+        "postalCode": "53217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1747",
         "areaKm2": 59.78
       }

@@ -5868,6 +5868,8 @@
         "fullName": "Phường Tân Uyên",
         "fullNameEn": "Tan Uyen Ward",
         "codeName": "tan_uyen",
+        "postalCode": "75419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.22",
         "areaKm2": 94.67
       }

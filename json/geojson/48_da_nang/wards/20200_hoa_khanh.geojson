@@ -5164,6 +5164,8 @@
         "fullName": "Phường Hoà Khánh",
         "fullNameEn": "Hoa Khanh Ward",
         "codeName": "hoa_khanh",
+        "postalCode": "50613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1906",
         "areaKm2": 40.93
       }

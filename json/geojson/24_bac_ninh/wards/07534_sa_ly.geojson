@@ -10788,6 +10788,8 @@
         "fullName": "Xã Sa Lý",
         "fullNameEn": "Sa Ly Commune",
         "codeName": "sa_ly",
+        "postalCode": "26514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2103",
         "areaKm2": 83.95
       }

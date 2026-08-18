@@ -3912,6 +3912,8 @@
         "fullName": "Xã Thắng Lợi",
         "fullNameEn": "Thang Loi Commune",
         "codeName": "thang_loi",
+        "postalCode": "42338",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2590",
         "areaKm2": 40.26
       }

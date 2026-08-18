@@ -19664,6 +19664,8 @@
         "fullName": "Phường Lang Biang - Đà Lạt",
         "fullNameEn": "Lang Biang - Da Lat Ward",
         "codeName": "lang_biang_da_lat",
+        "postalCode": "66126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.506",
         "areaKm2": 322.66
       }

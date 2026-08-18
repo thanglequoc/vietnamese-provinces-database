@@ -8688,6 +8688,8 @@
         "fullName": "Xã Cam An",
         "fullNameEn": "Cam An Commune",
         "codeName": "cam_an",
+        "postalCode": "57623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1127",
         "areaKm2": 122
       }

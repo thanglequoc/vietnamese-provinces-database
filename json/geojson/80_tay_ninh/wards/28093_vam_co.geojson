@@ -7020,6 +7020,8 @@
         "fullName": "Xã Vàm Cỏ",
         "fullNameEn": "Vam Co Commune",
         "codeName": "vam_co",
+        "postalCode": "82317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1319",
         "areaKm2": 40.73
       }

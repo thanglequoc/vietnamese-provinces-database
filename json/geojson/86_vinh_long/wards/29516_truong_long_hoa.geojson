@@ -6436,6 +6436,8 @@
         "fullName": "Phường Trường Long Hoà",
         "fullNameEn": "Truong Long Hoa Ward",
         "codeName": "truong_long_hoa",
+        "postalCode": "87612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2520",
         "areaKm2": 56.49
       }

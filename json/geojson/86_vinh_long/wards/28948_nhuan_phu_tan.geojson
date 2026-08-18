@@ -11260,6 +11260,8 @@
         "fullName": "Xã Nhuận Phú Tân",
         "fullNameEn": "Nhuan Phu Tan Commune",
         "codeName": "nhuan_phu_tan",
+        "postalCode": "86415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2453",
         "areaKm2": 41.64
       }

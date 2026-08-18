@@ -3288,6 +3288,8 @@
         "fullName": "Xã Nguyễn Trãi",
         "fullNameEn": "Nguyen Trai Commune",
         "codeName": "nguyen_trai",
+        "postalCode": "17420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.707",
         "areaKm2": 30.68
       }

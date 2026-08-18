@@ -11952,6 +11952,8 @@
         "fullName": "Xã Trà Tân",
         "fullNameEn": "Tra Tan Commune",
         "codeName": "tra_tan",
+        "postalCode": "52511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1986",
         "areaKm2": 183.08
       }

@@ -3052,6 +3052,8 @@
         "fullName": "Phường Quy Nhơn",
         "fullNameEn": "Quy Nhon Ward",
         "codeName": "quy_nhon",
+        "postalCode": "55127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3008",
         "areaKm2": 21.78
       }

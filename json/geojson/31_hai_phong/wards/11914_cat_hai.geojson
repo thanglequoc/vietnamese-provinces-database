@@ -57808,6 +57808,8 @@
         "fullName": "Đặc khu Cát Hải",
         "fullNameEn": "Cat Hai Special administrative region",
         "codeName": "cat_hai",
+        "postalCode": "05418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3318",
         "areaKm2": 286.98
       }

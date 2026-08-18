@@ -3464,6 +3464,8 @@
         "fullName": "Phường Vỹ Dạ",
         "fullNameEn": "Vy Da Ward",
         "codeName": "vy_da",
+        "postalCode": "49107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1687",
         "areaKm2": 8.93
       }

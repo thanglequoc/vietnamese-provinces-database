@@ -9180,6 +9180,8 @@
         "fullName": "Xã Nguyễn Huệ",
         "fullNameEn": "Nguyen Hue Commune",
         "codeName": "nguyen_hue",
+        "postalCode": "21172",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.951",
         "areaKm2": 146.8
       }

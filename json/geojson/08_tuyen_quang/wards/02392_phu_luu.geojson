@@ -20428,6 +20428,8 @@
         "fullName": "Xã Phù Lưu",
         "fullNameEn": "Phu Luu Commune",
         "codeName": "phu_luu",
+        "postalCode": "22609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2335",
         "areaKm2": 120.45
       }

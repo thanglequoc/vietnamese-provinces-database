@@ -13628,6 +13628,8 @@
         "fullName": "Xã Vạn Thắng",
         "fullNameEn": "Van Thang Commune",
         "codeName": "van_thang",
+        "postalCode": "57212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1107",
         "areaKm2": 74.8
       }

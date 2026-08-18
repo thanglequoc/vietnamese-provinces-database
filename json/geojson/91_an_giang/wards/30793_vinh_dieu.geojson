@@ -9580,6 +9580,8 @@
         "fullName": "Xã Vĩnh Điều",
         "fullNameEn": "Vinh Dieu Commune",
         "codeName": "vinh_dieu",
+        "postalCode": "91408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.364",
         "areaKm2": 229.35
       }

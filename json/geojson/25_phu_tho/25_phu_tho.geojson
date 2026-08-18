@@ -7156,6 +7156,8 @@
         "fullName": "Tỉnh Phú Thọ",
         "fullNameEn": "Phu Tho Province",
         "codeName": "phu_tho",
+        "postalCode": "",
+        "postalCodePrefix": "15, 35, 36",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.125",
         "areaKm2": 9361.38
       }

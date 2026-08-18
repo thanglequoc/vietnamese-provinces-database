@@ -6760,6 +6760,8 @@
         "fullName": "Phường Thuận Hưng",
         "fullNameEn": "Thuan Hung Ward",
         "codeName": "thuan_hung",
+        "postalCode": "94413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.217",
         "areaKm2": 31.13
       }

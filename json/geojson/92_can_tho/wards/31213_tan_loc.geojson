@@ -1604,6 +1604,8 @@
         "fullName": "Phường Tân Lộc",
         "fullNameEn": "Tan Loc Ward",
         "codeName": "tan_loc",
+        "postalCode": "94412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.215",
         "areaKm2": 33.4
       }

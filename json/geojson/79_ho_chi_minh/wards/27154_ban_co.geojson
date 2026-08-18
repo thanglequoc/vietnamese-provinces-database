@@ -264,6 +264,8 @@
         "fullName": "Phường Bàn Cờ",
         "fullNameEn": "Ban Co Ward",
         "codeName": "ban_co",
+        "postalCode": "72420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.84",
         "areaKm2": 0.99
       }

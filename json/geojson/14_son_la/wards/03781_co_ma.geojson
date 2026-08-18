@@ -14632,6 +14632,8 @@
         "fullName": "Xã Co Mạ",
         "fullNameEn": "Co Ma Commune",
         "codeName": "co_ma",
+        "postalCode": "34325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1351",
         "areaKm2": 214.28
       }

@@ -14080,6 +14080,8 @@
         "fullName": "Phường Tân Phú",
         "fullNameEn": "Tan Phu Ward",
         "codeName": "tan_phu",
+        "postalCode": "76806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3113",
         "areaKm2": 105.8
       }

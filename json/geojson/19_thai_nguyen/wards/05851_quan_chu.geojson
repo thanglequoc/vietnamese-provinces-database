@@ -8276,6 +8276,8 @@
         "fullName": "Xã Quân Chu",
         "fullNameEn": "Quan Chu Commune",
         "codeName": "quan_chu",
+        "postalCode": "24627",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1193",
         "areaKm2": 79.38
       }

@@ -1380,6 +1380,8 @@
         "fullName": "Phường Vĩnh Tế",
         "fullNameEn": "Vinh Te Ward",
         "codeName": "vinh_te",
+        "postalCode": "90509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.310",
         "areaKm2": 64.25
       }

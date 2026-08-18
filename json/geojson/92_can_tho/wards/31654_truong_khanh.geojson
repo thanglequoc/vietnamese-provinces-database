@@ -3356,6 +3356,8 @@
         "fullName": "Xã Trường Khánh",
         "fullNameEn": "Truong Khanh Commune",
         "codeName": "truong_khanh",
+        "postalCode": "96211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.281",
         "areaKm2": 58.33
       }

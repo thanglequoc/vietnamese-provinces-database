@@ -29180,6 +29180,8 @@
         "fullName": "Phường B'Lao",
         "fullNameEn": "B'Lao Ward",
         "codeName": "blao",
+        "postalCode": "66459",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1263",
         "areaKm2": 33.72
       }

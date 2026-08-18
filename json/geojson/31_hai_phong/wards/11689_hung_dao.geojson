@@ -1860,6 +1860,8 @@
         "fullName": "Phường Hưng Đạo",
         "fullNameEn": "Hung Dao Ward",
         "codeName": "hung_dao",
+        "postalCode": "04907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.928",
         "areaKm2": 18.64
       }

@@ -2948,6 +2948,8 @@
         "fullName": "Phường Linh Xuân",
         "fullNameEn": "Linh Xuan Ward",
         "codeName": "linh_xuan",
+        "postalCode": "71309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.46",
         "areaKm2": 12.29
       }

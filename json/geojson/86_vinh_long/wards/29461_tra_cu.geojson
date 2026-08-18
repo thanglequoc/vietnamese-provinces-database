@@ -5496,6 +5496,8 @@
         "fullName": "Xã Trà Cú",
         "fullNameEn": "Tra Cu Commune",
         "codeName": "tra_cu",
+        "postalCode": "87506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2510",
         "areaKm2": 37.33
       }

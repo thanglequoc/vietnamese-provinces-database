@@ -2304,6 +2304,8 @@
         "fullName": "Xã An Trường",
         "fullNameEn": "An Truong Commune",
         "codeName": "an_truong",
+        "postalCode": "04526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.908",
         "areaKm2": 25.54
       }

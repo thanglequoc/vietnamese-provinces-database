@@ -5760,6 +5760,8 @@
         "fullName": "Xã Thanh Mai",
         "fullNameEn": "Thanh Mai Commune",
         "codeName": "thanh_mai",
+        "postalCode": "23714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1244",
         "areaKm2": 111.08
       }

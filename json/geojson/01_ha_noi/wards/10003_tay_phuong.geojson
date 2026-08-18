@@ -5272,6 +5272,8 @@
         "fullName": "Xã Tây Phương",
         "fullNameEn": "Tay Phuong Commune",
         "codeName": "tay_phuong",
+        "postalCode": "13130",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3226",
         "areaKm2": 31.1
       }

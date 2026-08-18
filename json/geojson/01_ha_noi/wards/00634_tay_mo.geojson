@@ -516,6 +516,8 @@
         "fullName": "Phường Tây Mỗ",
         "fullNameEn": "Tay Mo Ward",
         "codeName": "tay_mo",
+        "postalCode": "12009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3273",
         "areaKm2": 5.56
       }

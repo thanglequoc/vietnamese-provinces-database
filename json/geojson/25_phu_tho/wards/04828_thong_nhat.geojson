@@ -4072,6 +4072,8 @@
         "fullName": "Phường Thống Nhất",
         "fullNameEn": "Thong Nhat Ward",
         "codeName": "thong_nhat",
+        "postalCode": "36118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1671",
         "areaKm2": 55.21
       }

@@ -2740,6 +2740,8 @@
         "fullName": "Xã Cổ Lễ",
         "fullNameEn": "Co Le Commune",
         "codeName": "co_le",
+        "postalCode": "07606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.806",
         "areaKm2": 18.33
       }

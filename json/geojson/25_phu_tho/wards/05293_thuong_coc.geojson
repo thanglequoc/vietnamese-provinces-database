@@ -5668,6 +5668,8 @@
         "fullName": "Xã Thượng Cốc",
         "fullNameEn": "Thuong Coc Commune",
         "codeName": "thuong_coc",
+        "postalCode": "36618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1658",
         "areaKm2": 58.38
       }

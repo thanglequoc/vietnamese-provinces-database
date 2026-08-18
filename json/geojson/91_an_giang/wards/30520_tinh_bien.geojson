@@ -5388,6 +5388,8 @@
         "fullName": "Phường Tịnh Biên",
         "fullNameEn": "Tinh Bien Ward",
         "codeName": "tinh_bien",
+        "postalCode": "90706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.333",
         "areaKm2": 75.57
       }

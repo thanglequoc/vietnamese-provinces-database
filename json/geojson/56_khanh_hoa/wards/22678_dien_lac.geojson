@@ -4740,6 +4740,8 @@
         "fullName": "Xã Diên Lạc",
         "fullNameEn": "Dien Lac Commune",
         "codeName": "dien_lac",
+        "postalCode": "57519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1136",
         "areaKm2": 14.9
       }

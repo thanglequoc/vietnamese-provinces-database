@@ -1648,6 +1648,8 @@
         "fullName": "Phường Tứ Minh",
         "fullNameEn": "Tu Minh Ward",
         "codeName": "tu_minh",
+        "postalCode": "03126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.861",
         "areaKm2": 14.77
       }

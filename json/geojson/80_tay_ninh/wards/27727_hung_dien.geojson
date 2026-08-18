@@ -6084,6 +6084,8 @@
         "fullName": "Xã Hưng Điền",
         "fullNameEn": "Hung Dien Commune",
         "codeName": "hung_dien",
+        "postalCode": "83311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1280",
         "areaKm2": 131.16
       }

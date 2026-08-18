@@ -9400,6 +9400,8 @@
         "fullName": "Xã Kim Phú",
         "fullNameEn": "Kim Phu Commune",
         "codeName": "kim_phu",
+        "postalCode": "47624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.604",
         "areaKm2": 552.57
       }

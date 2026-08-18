@@ -1248,6 +1248,8 @@
         "fullName": "Phường Bắc Gianh",
         "fullNameEn": "Bac Gianh Ward",
         "codeName": "bac_gianh",
+        "postalCode": "47322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.617",
         "areaKm2": 31.14
       }

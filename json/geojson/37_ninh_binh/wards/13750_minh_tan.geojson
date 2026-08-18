@@ -6060,6 +6060,8 @@
         "fullName": "Xã Minh Tân",
         "fullNameEn": "Minh Tan Commune",
         "codeName": "minh_tan",
+        "postalCode": "07272",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.787",
         "areaKm2": 33.09
       }

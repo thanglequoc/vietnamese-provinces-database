@@ -4252,6 +4252,8 @@
         "fullName": "Xã Rạng Đông",
         "fullNameEn": "Rang Dong Commune",
         "codeName": "rang_dong",
+        "postalCode": "07421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.835",
         "areaKm2": 32.39
       }

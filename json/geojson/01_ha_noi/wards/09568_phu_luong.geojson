@@ -1680,6 +1680,8 @@
         "fullName": "Phường Phú Lương",
         "fullNameEn": "Phu Luong Ward",
         "codeName": "phu_luong",
+        "postalCode": "12120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3181",
         "areaKm2": 9.4
       }

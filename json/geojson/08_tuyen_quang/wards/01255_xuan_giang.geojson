@@ -6812,6 +6812,8 @@
         "fullName": "Xã Xuân Giang",
         "fullNameEn": "Xuan Giang Commune",
         "codeName": "xuan_giang",
+        "postalCode": "20766",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2422",
         "areaKm2": 86.06
       }

@@ -10032,6 +10032,8 @@
         "fullName": "Xã Lý Bôn",
         "fullNameEn": "Ly Bon Commune",
         "codeName": "ly_bon",
+        "postalCode": "21410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.969",
         "areaKm2": 173.25
       }

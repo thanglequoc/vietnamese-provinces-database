@@ -8372,6 +8372,8 @@
         "fullName": "Phường Nguyễn Trãi",
         "fullNameEn": "Nguyen Trai Ward",
         "codeName": "nguyen_trai",
+        "postalCode": "03529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.870",
         "areaKm2": 76.28
       }

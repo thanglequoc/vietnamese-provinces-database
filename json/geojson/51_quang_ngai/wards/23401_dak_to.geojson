@@ -9816,6 +9816,8 @@
         "fullName": "Xã Đăk Tô",
         "fullNameEn": "Dak To Commune",
         "codeName": "dak_to",
+        "postalCode": "60656",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.543",
         "areaKm2": 218.38
       }

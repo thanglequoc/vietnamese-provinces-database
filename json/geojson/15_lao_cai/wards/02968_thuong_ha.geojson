@@ -13668,6 +13668,8 @@
         "fullName": "Xã Thượng Hà",
         "fullNameEn": "Thuong Ha Commune",
         "codeName": "thuong_ha",
+        "postalCode": "31913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1077",
         "areaKm2": 143.8
       }

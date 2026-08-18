@@ -4432,6 +4432,8 @@
         "fullName": "Phường Long Hưng",
         "fullNameEn": "Long Hung Ward",
         "codeName": "long_hung",
+        "postalCode": "76131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3107",
         "areaKm2": 32.4
       }

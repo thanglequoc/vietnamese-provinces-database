@@ -14384,6 +14384,8 @@
         "fullName": "Xã Dào San",
         "fullNameEn": "Dao San Commune",
         "codeName": "dao_san",
+        "postalCode": "30309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2088",
         "areaKm2": 137.29
       }

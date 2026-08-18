@@ -3080,6 +3080,8 @@
         "fullName": "Phường Hà Lầm",
         "fullNameEn": "Ha Lam Ward",
         "codeName": "ha_lam",
+        "postalCode": "01111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1867",
         "areaKm2": 11.99
       }

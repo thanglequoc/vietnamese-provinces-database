@@ -6412,6 +6412,8 @@
         "fullName": "Xã Rạch Kiến",
         "fullNameEn": "Rach Kien Commune",
         "codeName": "rach_kien",
+        "postalCode": "82423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1320",
         "areaKm2": 24.53
       }

@@ -2260,6 +2260,8 @@
         "fullName": "Phường Lê Ích Mộc",
         "fullNameEn": "Le Ich Moc Ward",
         "codeName": "le_ich_moc",
+        "postalCode": "04346",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.944",
         "areaKm2": 27.04
       }

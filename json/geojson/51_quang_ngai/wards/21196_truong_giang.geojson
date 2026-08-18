@@ -4516,6 +4516,8 @@
         "fullName": "Xã Trường Giang",
         "fullNameEn": "Truong Giang Commune",
         "codeName": "truong_giang",
+        "postalCode": "53218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1745",
         "areaKm2": 51.3
       }

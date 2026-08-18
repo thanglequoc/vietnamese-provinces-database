@@ -3720,6 +3720,8 @@
         "fullName": "Phường Tam Chúc",
         "fullNameEn": "Tam Chuc Ward",
         "codeName": "tam_chuc",
+        "postalCode": "18324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2785",
         "areaKm2": 46.56
       }

@@ -7348,6 +7348,8 @@
         "fullName": "Xã Gia Hoà",
         "fullNameEn": "Gia Hoa Commune",
         "codeName": "gia_hoa",
+        "postalCode": "96618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.293",
         "areaKm2": 77.06
       }

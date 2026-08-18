@@ -992,6 +992,8 @@
         "fullName": "Phường Văn Miếu - Quốc Tử Giám",
         "fullNameEn": "Van Mieu - Quoc Tu Giam Ward",
         "codeName": "van_mieu_quoc_tu_giam",
+        "postalCode": "11508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3205",
         "areaKm2": 1.92
       }

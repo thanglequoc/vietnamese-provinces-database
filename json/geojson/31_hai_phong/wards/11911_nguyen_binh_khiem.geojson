@@ -1264,6 +1264,8 @@
         "fullName": "Xã Nguyễn Bỉnh Khiêm",
         "fullNameEn": "Nguyen Binh Khiem Commune",
         "codeName": "nguyen_binh_khiem",
+        "postalCode": "05336",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.911",
         "areaKm2": 26.37
       }

@@ -5476,6 +5476,8 @@
         "fullName": "Xã Quảng Oai",
         "fullNameEn": "Quang Oai Commune",
         "codeName": "quang_oai",
+        "postalCode": "12637",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3235",
         "areaKm2": 49.26
       }

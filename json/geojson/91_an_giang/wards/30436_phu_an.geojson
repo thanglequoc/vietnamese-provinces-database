@@ -4468,6 +4468,8 @@
         "fullName": "Xã Phú An",
         "fullNameEn": "Phu An Commune",
         "codeName": "phu_an",
+        "postalCode": "90308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.324",
         "areaKm2": 57.35
       }

@@ -9464,6 +9464,8 @@
         "fullName": "Xã Biển Bạch",
         "fullNameEn": "Bien Bach Commune",
         "codeName": "bien_bach",
+        "postalCode": "98211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.171",
         "areaKm2": 158.2
       }

@@ -3252,6 +3252,8 @@
         "fullName": "Phường Âu Lâu",
         "fullNameEn": "Au Lau Ward",
         "codeName": "au_lau",
+        "postalCode": "33112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1033",
         "areaKm2": 66.17
       }

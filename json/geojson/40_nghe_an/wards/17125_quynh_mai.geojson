@@ -3492,6 +3492,8 @@
         "fullName": "Phường Quỳnh Mai",
         "fullNameEn": "Quynh Mai Ward",
         "codeName": "quynh_mai",
+        "postalCode": "44918",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1487",
         "areaKm2": 40.5
       }

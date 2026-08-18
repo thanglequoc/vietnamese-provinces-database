@@ -2344,6 +2344,8 @@
         "fullName": "Phường Đồng Văn",
         "fullNameEn": "Dong Van Ward",
         "codeName": "dong_van",
+        "postalCode": "18216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2768",
         "areaKm2": 18.88
       }

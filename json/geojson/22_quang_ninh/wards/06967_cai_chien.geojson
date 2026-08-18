@@ -6128,6 +6128,8 @@
         "fullName": "Xã Cái Chiên",
         "fullNameEn": "Cai Chien Commune",
         "codeName": "cai_chien",
+        "postalCode": "01621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3314",
         "areaKm2": 25.9
       }

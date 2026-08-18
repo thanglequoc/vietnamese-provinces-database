@@ -1440,6 +1440,8 @@
         "fullName": "Phường Hồng Bàng",
         "fullNameEn": "Hong Bang Ward",
         "codeName": "hong_bang",
+        "postalCode": "04117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.929",
         "areaKm2": 12.11
       }

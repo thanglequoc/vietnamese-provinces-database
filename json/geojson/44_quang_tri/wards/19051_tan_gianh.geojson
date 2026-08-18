@@ -5588,6 +5588,8 @@
         "fullName": "Xã Tân Gianh",
         "fullNameEn": "Tan Gianh Commune",
         "codeName": "tan_gianh",
+        "postalCode": "47428",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.610",
         "areaKm2": 41.05
       }

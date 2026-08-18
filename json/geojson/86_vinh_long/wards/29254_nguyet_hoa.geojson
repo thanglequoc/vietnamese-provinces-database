@@ -4424,6 +4424,8 @@
         "fullName": "Phường Nguyệt Hoá",
         "fullNameEn": "Nguyet Hoa Ward",
         "codeName": "nguyet_hoa",
+        "postalCode": "87117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2501",
         "areaKm2": 21.14
       }

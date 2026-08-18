@@ -3396,6 +3396,8 @@
         "fullName": "Phường Tân Triều",
         "fullNameEn": "Tan Trieu Ward",
         "codeName": "tan_trieu",
+        "postalCode": "76139",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3102",
         "areaKm2": 63.3
       }

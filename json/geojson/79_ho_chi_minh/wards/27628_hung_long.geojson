@@ -3936,6 +3936,8 @@
         "fullName": "Xã Hưng Long",
         "fullNameEn": "Hung Long Commune",
         "codeName": "hung_long",
+        "postalCode": "71809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.130",
         "areaKm2": 35.54
       }

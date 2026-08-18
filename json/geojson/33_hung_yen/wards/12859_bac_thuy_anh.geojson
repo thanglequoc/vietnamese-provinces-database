@@ -2204,6 +2204,8 @@
         "fullName": "Xã Bắc Thuỵ Anh",
         "fullNameEn": "Bac Thuy Anh Commune",
         "codeName": "bac_thuy_anh",
+        "postalCode": "06457",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.643",
         "areaKm2": 17.38
       }

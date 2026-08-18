@@ -8988,6 +8988,8 @@
         "fullName": "Xã Hoà Hội",
         "fullNameEn": "Hoa Hoi Commune",
         "codeName": "hoa_hoi",
+        "postalCode": "78511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2214",
         "areaKm2": 136.27
       }

@@ -6352,6 +6352,8 @@
         "fullName": "Phường Khánh Hậu",
         "fullNameEn": "Khanh Hau Ward",
         "codeName": "khanh_hau",
+        "postalCode": "82113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1278",
         "areaKm2": 22.81
       }

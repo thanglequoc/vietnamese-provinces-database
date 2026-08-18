@@ -13336,6 +13336,8 @@
         "fullName": "Phường Bãi Cháy",
         "fullNameEn": "Bai Chay Ward",
         "codeName": "bai_chay",
+        "postalCode": "01119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1866",
         "areaKm2": 25.39
       }

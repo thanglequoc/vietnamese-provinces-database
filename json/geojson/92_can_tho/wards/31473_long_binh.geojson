@@ -10908,6 +10908,8 @@
         "fullName": "Phường Long Bình",
         "fullNameEn": "Long Binh Ward",
         "codeName": "long_binh",
+        "postalCode": "95411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.256",
         "areaKm2": 40.2
       }

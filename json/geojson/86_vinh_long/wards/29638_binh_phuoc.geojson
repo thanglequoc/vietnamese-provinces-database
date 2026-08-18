@@ -9628,6 +9628,8 @@
         "fullName": "Xã Bình Phước",
         "fullNameEn": "Binh Phuoc Commune",
         "codeName": "binh_phuoc",
+        "postalCode": "85815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2535",
         "areaKm2": 35.67
       }

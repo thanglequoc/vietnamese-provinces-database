@@ -11064,6 +11064,8 @@
         "fullName": "Xã Bắc Mê",
         "fullNameEn": "Bac Me Commune",
         "codeName": "bac_me",
+        "postalCode": "20919",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2400",
         "areaKm2": 154.3
       }

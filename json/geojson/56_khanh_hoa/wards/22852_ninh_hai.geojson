@@ -12964,6 +12964,8 @@
         "fullName": "Xã Ninh Hải",
         "fullNameEn": "Ninh Hai Commune",
         "codeName": "ninh_hai",
+        "postalCode": "59215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1154",
         "areaKm2": 100.1
       }

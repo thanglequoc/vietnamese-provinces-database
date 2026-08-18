@@ -8404,6 +8404,8 @@
         "fullName": "Xã Sa Thầy",
         "fullNameEn": "Sa Thay Commune",
         "codeName": "sa_thay",
+        "postalCode": "60706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.544",
         "areaKm2": 137.89
       }

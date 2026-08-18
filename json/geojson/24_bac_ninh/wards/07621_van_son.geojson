@@ -6048,6 +6048,8 @@
         "fullName": "Xã Vân Sơn",
         "fullNameEn": "Van Son Commune",
         "codeName": "van_son",
+        "postalCode": "26410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2115",
         "areaKm2": 73.99
       }

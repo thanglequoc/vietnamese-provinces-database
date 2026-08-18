@@ -1776,6 +1776,8 @@
         "fullName": "Xã Nghi Dương",
         "fullNameEn": "Nghi Duong Commune",
         "codeName": "nghi_duong",
+        "postalCode": "05127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.901",
         "areaKm2": 19.48
       }

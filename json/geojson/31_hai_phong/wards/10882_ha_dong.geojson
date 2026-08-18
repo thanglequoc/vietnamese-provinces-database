@@ -1984,6 +1984,8 @@
         "fullName": "Xã Hà Đông",
         "fullNameEn": "Ha Dong Commune",
         "codeName": "ha_dong",
+        "postalCode": "03234",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.849",
         "areaKm2": 33.15
       }

@@ -9488,6 +9488,8 @@
         "fullName": "Xã Phục Hoà",
         "fullNameEn": "Phuc Hoa Commune",
         "codeName": "phuc_hoa",
+        "postalCode": "21665",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.991",
         "areaKm2": 122.7
       }

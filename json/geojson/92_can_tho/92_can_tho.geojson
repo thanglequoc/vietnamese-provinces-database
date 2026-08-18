@@ -5608,6 +5608,8 @@
         "fullName": "Thành phố Cần Thơ",
         "fullNameEn": "Can Tho City",
         "codeName": "can_tho",
+        "postalCode": "",
+        "postalCodePrefix": "94, 95, 96",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.1",
         "areaKm2": 6360.83
       }

@@ -9996,6 +9996,8 @@
         "fullName": "Phường Bắc Nha Trang",
         "fullNameEn": "Bac Nha Trang Ward",
         "codeName": "bac_nha_trang",
+        "postalCode": "57134",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1118",
         "areaKm2": 97
       }

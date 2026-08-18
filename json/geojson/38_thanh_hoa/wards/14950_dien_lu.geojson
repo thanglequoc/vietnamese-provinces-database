@@ -3940,6 +3940,8 @@
         "fullName": "Xã Điền Lư",
         "fullNameEn": "Dien Lu Commune",
         "codeName": "dien_lu",
+        "postalCode": "41419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2649",
         "areaKm2": 66.54
       }

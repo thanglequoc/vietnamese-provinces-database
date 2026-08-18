@@ -6124,6 +6124,8 @@
         "fullName": "Xã Cầu Kè",
         "fullNameEn": "Cau Ke Commune",
         "codeName": "cau_ke",
+        "postalCode": "87306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2491",
         "areaKm2": 54.12
       }

@@ -1700,6 +1700,8 @@
         "fullName": "Xã Vạn Lộc",
         "fullNameEn": "Van Loc Commune",
         "codeName": "van_loc",
+        "postalCode": "40434",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2623",
         "areaKm2": 28.4
       }

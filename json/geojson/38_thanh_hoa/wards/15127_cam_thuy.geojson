@@ -5084,6 +5084,8 @@
         "fullName": "Xã Cẩm Thuỷ",
         "fullNameEn": "Cam Thuy Commune",
         "codeName": "cam_thuy",
+        "postalCode": "41326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2642",
         "areaKm2": 64.42
       }

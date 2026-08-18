@@ -7460,6 +7460,8 @@
         "fullName": "Xã Quy Mông",
         "fullNameEn": "Quy Mong Commune",
         "codeName": "quy_mong",
+        "postalCode": "33913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1031",
         "areaKm2": 149.17
       }

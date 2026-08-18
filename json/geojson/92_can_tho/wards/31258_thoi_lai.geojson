@@ -6424,6 +6424,8 @@
         "fullName": "Xã Thới Lai",
         "fullNameEn": "Thoi Lai Commune",
         "codeName": "thoi_lai",
+        "postalCode": "94706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.224",
         "areaKm2": 50.78
       }

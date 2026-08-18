@@ -17668,6 +17668,8 @@
         "fullName": "Phường An Xuyên",
         "fullNameEn": "An Xuyen Ward",
         "codeName": "an_xuyen",
+        "postalCode": "98113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.164",
         "areaKm2": 69.9
       }

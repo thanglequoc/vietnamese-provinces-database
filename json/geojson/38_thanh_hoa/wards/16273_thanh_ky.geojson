@@ -8652,6 +8652,8 @@
         "fullName": "Xã Thanh Kỳ",
         "fullNameEn": "Thanh Ky Commune",
         "codeName": "thanh_ky",
+        "postalCode": "42422",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2656",
         "areaKm2": 145.26
       }

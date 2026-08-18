@@ -5560,6 +5560,8 @@
         "fullName": "Xã An Qui",
         "fullNameEn": "An Qui Commune",
         "codeName": "an_qui",
+        "postalCode": "86923",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2481",
         "areaKm2": 73.53
       }

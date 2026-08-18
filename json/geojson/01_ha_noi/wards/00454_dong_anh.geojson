@@ -3484,6 +3484,8 @@
         "fullName": "Xã Đông Anh",
         "fullNameEn": "Dong Anh Commune",
         "codeName": "dong_anh",
+        "postalCode": "12306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3244",
         "areaKm2": 48.68
       }

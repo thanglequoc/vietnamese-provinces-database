@@ -16976,6 +16976,8 @@
         "fullName": "Tỉnh Gia Lai",
         "fullNameEn": "Gia Lai Province",
         "codeName": "gia_lai",
+        "postalCode": "",
+        "postalCodePrefix": "55, 61, 62",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.51",
         "areaKm2": 21576.53
       }

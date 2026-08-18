@@ -4620,6 +4620,8 @@
         "fullName": "Xã Hải Lộc",
         "fullNameEn": "Hai Loc Commune",
         "codeName": "hai_loc",
+        "postalCode": "43341",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1525",
         "areaKm2": 41.25
       }

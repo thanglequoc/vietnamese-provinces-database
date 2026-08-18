@@ -8664,6 +8664,8 @@
         "fullName": "Xã Trà Vân",
         "fullNameEn": "Tra Van Commune",
         "codeName": "tra_van",
+        "postalCode": "52414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1982",
         "areaKm2": 85.58
       }

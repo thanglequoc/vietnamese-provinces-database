@@ -12780,6 +12780,8 @@
         "fullName": "Xã A Lưới 2",
         "fullNameEn": "Commune A Luoi 2",
         "codeName": "a_luoi_2",
+        "postalCode": "49528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1712",
         "areaKm2": 97.62
       }

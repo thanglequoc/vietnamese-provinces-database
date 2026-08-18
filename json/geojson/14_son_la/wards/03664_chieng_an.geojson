@@ -7880,6 +7880,8 @@
         "fullName": "Phường Chiềng An",
         "fullNameEn": "Chieng An Ward",
         "codeName": "chieng_an",
+        "postalCode": "34107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1338",
         "areaKm2": 149.08
       }

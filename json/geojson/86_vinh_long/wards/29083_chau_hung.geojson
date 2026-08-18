@@ -6336,6 +6336,8 @@
         "fullName": "Xã Châu Hưng",
         "fullNameEn": "Chau Hung Commune",
         "codeName": "chau_hung",
+        "postalCode": "86719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2466",
         "areaKm2": 35.22
       }

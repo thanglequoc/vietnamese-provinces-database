@@ -780,6 +780,8 @@
         "fullName": "Xã Nhơn Ninh",
         "fullNameEn": "Nhon Ninh Commune",
         "codeName": "nhon_ninh",
+        "postalCode": "83416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1294",
         "areaKm2": 92.67
       }

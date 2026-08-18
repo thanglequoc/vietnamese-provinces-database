@@ -2260,6 +2260,8 @@
         "fullName": "Xã Vĩnh Thuận",
         "fullNameEn": "Vinh Thuan Commune",
         "codeName": "vinh_thuan",
+        "postalCode": "05339",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.903",
         "areaKm2": 23.5
       }

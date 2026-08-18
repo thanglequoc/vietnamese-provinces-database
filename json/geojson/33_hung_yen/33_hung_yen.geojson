@@ -3324,6 +3324,8 @@
         "fullName": "Tỉnh Hưng Yên",
         "fullNameEn": "Hung Yen Province",
         "codeName": "hung_yen",
+        "postalCode": "",
+        "postalCodePrefix": "06, 17",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.103",
         "areaKm2": 2514.81
       }

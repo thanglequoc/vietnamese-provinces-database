@@ -10364,6 +10364,8 @@
         "fullName": "Xã Mường Xén",
         "fullNameEn": "Muong Xen Commune",
         "codeName": "muong_xen",
+        "postalCode": "44406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1496",
         "areaKm2": 182.49
       }

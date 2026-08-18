@@ -9812,6 +9812,8 @@
         "fullName": "Xã Thịnh Minh",
         "fullNameEn": "Thinh Minh Commune",
         "codeName": "thinh_minh",
+        "postalCode": "36127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1675",
         "areaKm2": 89.21
       }

@@ -8452,6 +8452,8 @@
         "fullName": "Xã Sơn Kỳ",
         "fullNameEn": "Son Ky Commune",
         "codeName": "son_ky",
+        "postalCode": "53818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1773",
         "areaKm2": 188.07
       }

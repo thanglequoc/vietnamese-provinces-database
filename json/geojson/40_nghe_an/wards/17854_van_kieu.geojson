@@ -5176,6 +5176,8 @@
         "fullName": "Xã Văn Kiều",
         "fullNameEn": "Van Kieu Commune",
         "codeName": "van_kieu",
+        "postalCode": "43342",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1524",
         "areaKm2": 63.46
       }

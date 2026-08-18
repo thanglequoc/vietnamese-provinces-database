@@ -7844,6 +7844,8 @@
         "fullName": "Phường Ninh Hoà",
         "fullNameEn": "Ninh Hoa Ward",
         "codeName": "ninh_hoa",
+        "postalCode": "57333",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1109",
         "areaKm2": 35.8
       }

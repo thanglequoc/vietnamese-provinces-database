@@ -4256,6 +4256,8 @@
         "fullName": "Phường Mạo Khê",
         "fullNameEn": "Mao Khe Ward",
         "codeName": "mao_khe",
+        "postalCode": "02411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1899",
         "areaKm2": 46.55
       }

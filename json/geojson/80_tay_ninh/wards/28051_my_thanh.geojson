@@ -4284,6 +4284,8 @@
         "fullName": "Xã Mỹ Thạnh",
         "fullNameEn": "My Thanh Commune",
         "codeName": "my_thanh",
+        "postalCode": "83513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1316",
         "areaKm2": 63.7
       }

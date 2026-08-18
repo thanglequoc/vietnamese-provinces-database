@@ -6900,6 +6900,8 @@
         "fullName": "Phường Bách Quang",
         "fullNameEn": "Bach Quang Ward",
         "codeName": "bach_quang",
+        "postalCode": "24806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1202",
         "areaKm2": 35.02
       }

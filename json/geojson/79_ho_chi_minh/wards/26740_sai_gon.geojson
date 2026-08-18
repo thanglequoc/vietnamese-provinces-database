@@ -2096,6 +2096,8 @@
         "fullName": "Phường Sài Gòn",
         "fullNameEn": "Sai Gon Ward",
         "codeName": "sai_gon",
+        "postalCode": "71016",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.38",
         "areaKm2": 3.04
       }

@@ -9636,6 +9636,8 @@
         "fullName": "Xã Bát Mọt",
         "fullNameEn": "Bat Mot Commune",
         "codeName": "bat_mot",
+        "postalCode": "42212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2560",
         "areaKm2": 205.73
       }

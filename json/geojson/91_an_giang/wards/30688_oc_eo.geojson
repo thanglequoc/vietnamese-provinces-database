@@ -3704,6 +3704,8 @@
         "fullName": "Xã Óc Eo",
         "fullNameEn": "Oc Eo Commune",
         "codeName": "oc_eo",
+        "postalCode": "90969",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.354",
         "areaKm2": 68.79
       }

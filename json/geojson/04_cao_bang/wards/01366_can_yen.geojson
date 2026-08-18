@@ -8204,6 +8204,8 @@
         "fullName": "Xã Cần Yên",
         "fullNameEn": "Can Yen Commune",
         "codeName": "can_yen",
+        "postalCode": "21229",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.956",
         "areaKm2": 144.64
       }

@@ -9860,6 +9860,8 @@
         "fullName": "Xã Kim Bảng",
         "fullNameEn": "Kim Bang Commune",
         "codeName": "kim_bang",
+        "postalCode": "44733",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1432",
         "areaKm2": 183.26
       }

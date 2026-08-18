@@ -18784,6 +18784,8 @@
         "fullName": "Xã Tân Quan",
         "fullNameEn": "Tan Quan Commune",
         "codeName": "tan_quan",
+        "postalCode": "67807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2294",
         "areaKm2": 148.3
       }

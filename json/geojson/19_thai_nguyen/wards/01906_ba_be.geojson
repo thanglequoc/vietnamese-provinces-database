@@ -7880,6 +7880,8 @@
         "fullName": "Xã Ba Bể",
         "fullNameEn": "Ba Be Commune",
         "codeName": "ba_be",
+        "postalCode": "23522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1169",
         "areaKm2": 148.08
       }

@@ -8872,6 +8872,8 @@
         "fullName": "Xã Tiên Lương",
         "fullNameEn": "Tien Luong Commune",
         "codeName": "tien_luong",
+        "postalCode": "35614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1551",
         "areaKm2": 54.55
       }

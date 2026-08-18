@@ -5192,6 +5192,8 @@
         "fullName": "Xã Khánh Hưng",
         "fullNameEn": "Khanh Hung Commune",
         "codeName": "khanh_hung",
+        "postalCode": "83210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1284",
         "areaKm2": 145.09
       }

@@ -20072,6 +20072,8 @@
         "fullName": "Phường Khánh Hoà",
         "fullNameEn": "Khanh Hoa Ward",
         "codeName": "khanh_hoa",
+        "postalCode": "96811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.301",
         "areaKm2": 130.48
       }

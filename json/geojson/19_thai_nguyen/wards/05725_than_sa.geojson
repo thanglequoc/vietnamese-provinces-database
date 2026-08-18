@@ -6916,6 +6916,8 @@
         "fullName": "Xã Thần Sa",
         "fullNameEn": "Than Sa Commune",
         "codeName": "than_sa",
+        "postalCode": "24322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1220",
         "areaKm2": 146.08
       }

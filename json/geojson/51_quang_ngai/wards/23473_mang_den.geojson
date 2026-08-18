@@ -28272,6 +28272,8 @@
         "fullName": "Xã Măng Đen",
         "fullNameEn": "Mang Den Commune",
         "codeName": "mang_den",
+        "postalCode": "60256",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1728",
         "areaKm2": 396.93
       }

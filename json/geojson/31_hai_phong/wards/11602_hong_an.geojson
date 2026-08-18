@@ -1396,6 +1396,8 @@
         "fullName": "Phường Hồng An",
         "fullNameEn": "Hong An Ward",
         "codeName": "hong_an",
+        "postalCode": "04118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.943",
         "areaKm2": 27.64
       }

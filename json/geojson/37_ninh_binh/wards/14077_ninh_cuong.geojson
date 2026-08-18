@@ -1580,6 +1580,8 @@
         "fullName": "Xã Ninh Cường",
         "fullNameEn": "Ninh Cuong Commune",
         "codeName": "ninh_cuong",
+        "postalCode": "07617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.822",
         "areaKm2": 22.28
       }

@@ -6188,6 +6188,8 @@
         "fullName": "Phường An Tường",
         "fullNameEn": "An Tuong Ward",
         "codeName": "an_tuong",
+        "postalCode": "22106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2350",
         "areaKm2": 53.44
       }

@@ -13140,6 +13140,8 @@
         "fullName": "Xã Nam Đà",
         "fullNameEn": "Nam Da Commune",
         "codeName": "nam_da",
+        "postalCode": "65308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2806",
         "areaKm2": 132.69
       }

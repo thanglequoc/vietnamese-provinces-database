@@ -3304,6 +3304,8 @@
         "fullName": "Xã Đông Thuỵ Anh",
         "fullNameEn": "Dong Thuy Anh Commune",
         "codeName": "dong_thuy_anh",
+        "postalCode": "06456",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.642",
         "areaKm2": 34.9
       }

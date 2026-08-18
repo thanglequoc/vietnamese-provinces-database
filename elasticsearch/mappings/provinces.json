@@ -40,20 +40,6 @@
       "FullNameEn": {
         "type": "text"
       },
-      "Meta": {
-        "properties": {
-          "AdministrativeRevision": {
-            "type": "keyword"
-          },
-          "DatasetVersion": {
-            "type": "keyword"
-          },
-          "GeneratedAt": {
-            "type": "date"
-          }
-        },
-        "type": "object"
-      },
       "Name": {
         "fields": {
           "keyword": {
@@ -69,6 +55,9 @@
           }
         },
         "type": "text"
+      },
+      "PostalCodePrefix": {
+        "type": "keyword"
       },
       "SearchKeywords": {
         "type": "keyword"
@@ -128,6 +117,9 @@
               }
             },
             "type": "text"
+          },
+          "PostalCode": {
+            "type": "keyword"
           },
           "SearchKeywords": {
             "type": "keyword"

@@ -2056,6 +2056,8 @@
         "fullName": "Phường Lý Thường Kiệt",
         "fullNameEn": "Ly Thuong Kiet Ward",
         "codeName": "ly_thuong_kiet",
+        "postalCode": "18325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2786",
         "areaKm2": 53.66
       }

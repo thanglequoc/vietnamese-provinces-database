@@ -9956,6 +9956,8 @@
         "fullName": "Xã Chiềng Hặc",
         "fullNameEn": "Chieng Hac Commune",
         "codeName": "chieng_hac",
+        "postalCode": "34666",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1383",
         "areaKm2": 239.91
       }

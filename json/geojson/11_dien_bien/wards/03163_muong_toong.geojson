@@ -21876,6 +21876,8 @@
         "fullName": "Xã Mường Toong",
         "fullNameEn": "Muong Toong Commune",
         "codeName": "muong_toong",
+        "postalCode": "32916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2234",
         "areaKm2": 230.69
       }

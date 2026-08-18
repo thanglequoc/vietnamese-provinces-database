@@ -16932,6 +16932,8 @@
         "fullName": "Thành phố Hồ Chí Minh",
         "fullNameEn": "Ho Chi Minh City",
         "codeName": "ho_chi_minh",
+        "postalCode": "",
+        "postalCodePrefix": "70, 71, 72, 73, 74, 75, 78",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.49",
         "areaKm2": 6772.59
       }

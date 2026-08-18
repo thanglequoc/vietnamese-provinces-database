@@ -10536,6 +10536,8 @@
         "fullName": "Xã Minh Ngọc",
         "fullNameEn": "Minh Ngoc Commune",
         "codeName": "minh_ngoc",
+        "postalCode": "20911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2401",
         "areaKm2": 159.34
       }

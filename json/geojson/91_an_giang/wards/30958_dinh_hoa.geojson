@@ -13160,6 +13160,8 @@
         "fullName": "Xã Định Hoà",
         "fullNameEn": "Dinh Hoa Commune",
         "codeName": "dinh_hoa",
+        "postalCode": "92210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.386",
         "areaKm2": 143.79
       }

@@ -6104,6 +6104,8 @@
         "fullName": "Xã Phúc Thịnh",
         "fullNameEn": "Phuc Thinh Commune",
         "codeName": "phuc_thinh",
+        "postalCode": "12331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3247",
         "areaKm2": 42.63
       }

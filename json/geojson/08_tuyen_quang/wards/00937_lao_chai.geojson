@@ -7612,6 +7612,8 @@
         "fullName": "Xã Lao Chải",
         "fullNameEn": "Lao Chai Commune",
         "codeName": "lao_chai",
+        "postalCode": "20218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2393",
         "areaKm2": 98.87
       }

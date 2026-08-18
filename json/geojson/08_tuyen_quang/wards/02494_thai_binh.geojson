@@ -11556,6 +11556,8 @@
         "fullName": "Xã Thái Bình",
         "fullNameEn": "Thai Binh Commune",
         "codeName": "thai_binh",
+        "postalCode": "22229",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2348",
         "areaKm2": 102.59
       }

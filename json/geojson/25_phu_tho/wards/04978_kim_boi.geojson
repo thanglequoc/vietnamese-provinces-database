@@ -11048,6 +11048,8 @@
         "fullName": "Xã Kim Bôi",
         "fullNameEn": "Kim Boi Commune",
         "codeName": "kim_boi",
+        "postalCode": "36925",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1662",
         "areaKm2": 64.57
       }

@@ -3152,6 +3152,8 @@
         "fullName": "Xã Đại Phước",
         "fullNameEn": "Dai Phuoc Commune",
         "codeName": "dai_phuoc",
+        "postalCode": "76259",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3148",
         "areaKm2": 98
       }

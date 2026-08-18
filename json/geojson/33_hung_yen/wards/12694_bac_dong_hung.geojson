@@ -1816,6 +1816,8 @@
         "fullName": "Xã Bắc Đông Hưng",
         "fullNameEn": "Bac Dong Hung Commune",
         "codeName": "bac_dong_hung",
+        "postalCode": "06850",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.660",
         "areaKm2": 20.84
       }

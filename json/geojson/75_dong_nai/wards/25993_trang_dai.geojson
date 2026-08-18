@@ -5272,6 +5272,8 @@
         "fullName": "Phường Trảng Dài",
         "fullNameEn": "Trang Dai Ward",
         "codeName": "trang_dai",
+        "postalCode": "76116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3101",
         "areaKm2": 37.3
       }

@@ -3148,6 +3148,8 @@
         "fullName": "Xã Hội Cư",
         "fullNameEn": "Hoi Cu Commune",
         "codeName": "hoi_cu",
+        "postalCode": "84935",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.457",
         "areaKm2": 48.7
       }

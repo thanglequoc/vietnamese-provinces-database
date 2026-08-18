@@ -1192,6 +1192,8 @@
         "fullName": "Phường Trà Lý",
         "fullNameEn": "Tra Ly Ward",
         "codeName": "tra_ly",
+        "postalCode": "06126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.688",
         "areaKm2": 20.94
       }

@@ -7956,6 +7956,8 @@
         "fullName": "Thành phố Hải Phòng",
         "fullNameEn": "Haiphong City",
         "codeName": "hai_phong",
+        "postalCode": "",
+        "postalCodePrefix": "03, 04, 05",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.107",
         "areaKm2": 3194.72
       }

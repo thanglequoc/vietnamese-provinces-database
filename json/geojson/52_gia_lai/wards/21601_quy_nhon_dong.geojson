@@ -16072,6 +16072,8 @@
         "fullName": "Phường Quy Nhơn Đông",
         "fullNameEn": "Quy Nhon Dong Ward",
         "codeName": "quy_nhon_dong",
+        "postalCode": "55128",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3009",
         "areaKm2": 81.97
       }

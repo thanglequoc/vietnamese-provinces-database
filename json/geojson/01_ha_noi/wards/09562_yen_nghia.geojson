@@ -1992,6 +1992,8 @@
         "fullName": "Phường Yên Nghĩa",
         "fullNameEn": "Yen Nghia Ward",
         "codeName": "yen_nghia",
+        "postalCode": "12116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3180",
         "areaKm2": 13.18
       }

@@ -11960,6 +11960,8 @@
         "fullName": "Xã Lạng Giang",
         "fullNameEn": "Lang Giang Commune",
         "codeName": "lang_giang",
+        "postalCode": "26629",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2167",
         "areaKm2": 55.41
       }

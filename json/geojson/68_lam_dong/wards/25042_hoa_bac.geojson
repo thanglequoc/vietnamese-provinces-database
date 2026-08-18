@@ -13016,6 +13016,8 @@
         "fullName": "Xã Hoà Bắc",
         "fullNameEn": "Hoa Bac Commune",
         "codeName": "hoa_bac",
+        "postalCode": "66722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1272",
         "areaKm2": 159.35
       }

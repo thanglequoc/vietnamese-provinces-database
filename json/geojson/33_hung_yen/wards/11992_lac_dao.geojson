@@ -3664,6 +3664,8 @@
         "fullName": "Xã Lạc Đạo",
         "fullNameEn": "Lac Dao Commune",
         "codeName": "lac_dao",
+        "postalCode": "17607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.735",
         "areaKm2": 22.22
       }

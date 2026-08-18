@@ -9816,6 +9816,8 @@
         "fullName": "Xã Pa Ham",
         "fullNameEn": "Pa Ham Commune",
         "codeName": "pa_ham",
+        "postalCode": "32759",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2241",
         "areaKm2": 135.84
       }

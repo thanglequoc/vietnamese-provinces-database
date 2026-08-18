@@ -11520,6 +11520,8 @@
         "fullName": "Xã Phước Năng",
         "fullNameEn": "Phuoc Nang Commune",
         "codeName": "phuoc_nang",
+        "postalCode": "52309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1989",
         "areaKm2": 257.1
       }

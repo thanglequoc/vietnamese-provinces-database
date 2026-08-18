@@ -3912,6 +3912,8 @@
         "fullName": "Xã Ngọc Lặc",
         "fullNameEn": "Ngoc Lac Commune",
         "codeName": "ngoc_lac",
+        "postalCode": "41706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2686",
         "areaKm2": 90.39
       }

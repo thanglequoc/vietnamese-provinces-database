@@ -4244,6 +4244,8 @@
         "fullName": "Phường Đại Thành",
         "fullNameEn": "Dai Thanh Ward",
         "codeName": "dai_thanh",
+        "postalCode": "95607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.246",
         "areaKm2": 53
       }

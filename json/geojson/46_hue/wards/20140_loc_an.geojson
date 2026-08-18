@@ -17504,6 +17504,8 @@
         "fullName": "Xã Lộc An",
         "fullNameEn": "Loc An Commune",
         "codeName": "loc_an",
+        "postalCode": "49814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1720",
         "areaKm2": 177.58
       }

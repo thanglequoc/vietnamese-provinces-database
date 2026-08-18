@@ -2068,6 +2068,8 @@
         "fullName": "Xã Núi Cấm",
         "fullNameEn": "Nui Cam Commune",
         "codeName": "nui_cam",
+        "postalCode": "90720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.336",
         "areaKm2": 84.18
       }

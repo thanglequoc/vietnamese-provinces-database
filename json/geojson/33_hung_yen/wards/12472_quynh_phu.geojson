@@ -10508,6 +10508,8 @@
         "fullName": "Xã Quỳnh Phụ",
         "fullNameEn": "Quynh Phu Commune",
         "codeName": "quynh_phu",
+        "postalCode": "06644",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.663",
         "areaKm2": 31.98
       }

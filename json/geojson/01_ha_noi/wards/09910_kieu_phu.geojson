@@ -4848,6 +4848,8 @@
         "fullName": "Xã Kiều Phú",
         "fullNameEn": "Kieu Phu Commune",
         "codeName": "kieu_phu",
+        "postalCode": "13327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3222",
         "areaKm2": 34.49
       }

@@ -25364,6 +25364,8 @@
         "fullName": "Xã Liên Sơn Lắk",
         "fullNameEn": "Lien Son Lak Commune",
         "codeName": "lien_son_lak",
+        "postalCode": "64317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2869",
         "areaKm2": 398.82
       }

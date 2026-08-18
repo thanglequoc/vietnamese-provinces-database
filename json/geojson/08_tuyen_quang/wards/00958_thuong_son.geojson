@@ -14392,6 +14392,8 @@
         "fullName": "Xã Thượng Sơn",
         "fullNameEn": "Thuong Son Commune",
         "codeName": "thuong_son",
+        "postalCode": "20224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2395",
         "areaKm2": 142.6
       }

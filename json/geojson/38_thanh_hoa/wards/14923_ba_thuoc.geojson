@@ -4492,6 +4492,8 @@
         "fullName": "Xã Bá Thước",
         "fullNameEn": "Ba Thuoc Commune",
         "codeName": "ba_thuoc",
+        "postalCode": "41429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2646",
         "areaKm2": 106.1
       }

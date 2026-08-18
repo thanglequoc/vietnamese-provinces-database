@@ -1584,6 +1584,8 @@
         "fullName": "Phường Mỹ Tho",
         "fullNameEn": "My Tho Ward",
         "codeName": "my_tho",
+        "postalCode": "84123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.444",
         "areaKm2": 6.4
       }

@@ -3192,6 +3192,8 @@
         "fullName": "Xã Thanh Miện",
         "fullNameEn": "Thanh Mien Commune",
         "codeName": "thanh_mien",
+        "postalCode": "03756",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.892",
         "areaKm2": 33.47
       }

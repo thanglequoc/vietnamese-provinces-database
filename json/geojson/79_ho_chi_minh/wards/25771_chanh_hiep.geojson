@@ -4856,6 +4856,8 @@
         "fullName": "Phường Chánh Hiệp",
         "fullNameEn": "Chanh Hiep Ward",
         "codeName": "chanh_hiep",
+        "postalCode": "75122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3",
         "areaKm2": 19.89
       }

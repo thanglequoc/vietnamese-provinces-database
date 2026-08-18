@@ -4708,6 +4708,8 @@
         "fullName": "Xã Tân Phước 2",
         "fullNameEn": "Commune Tan Phuoc 2",
         "codeName": "tan_phuoc_2",
+        "postalCode": "84720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.452",
         "areaKm2": 89.4
       }

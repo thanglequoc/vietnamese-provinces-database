@@ -1980,6 +1980,8 @@
         "fullName": "Xã Chương Dương",
         "fullNameEn": "Chuong Duong Commune",
         "codeName": "chuong_duong",
+        "postalCode": "13632",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3164",
         "areaKm2": 28.89
       }

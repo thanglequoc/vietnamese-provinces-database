@@ -3656,6 +3656,8 @@
         "fullName": "Xã Phật Tích",
         "fullNameEn": "Phat Tich Commune",
         "codeName": "phat_tich",
+        "postalCode": "16413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2127",
         "areaKm2": 16.83
       }

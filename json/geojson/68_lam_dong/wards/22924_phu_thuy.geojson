@@ -3292,6 +3292,8 @@
         "fullName": "Phường Phú Thuỷ",
         "fullNameEn": "Phu Thuy Ward",
         "codeName": "phu_thuy",
+        "postalCode": "77120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3062",
         "areaKm2": 17.31
       }

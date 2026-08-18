@@ -11612,6 +11612,8 @@
         "fullName": "Xã Long Tiên",
         "fullNameEn": "Long Tien Commune",
         "codeName": "long_tien",
+        "postalCode": "84815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.471",
         "areaKm2": 44.6
       }

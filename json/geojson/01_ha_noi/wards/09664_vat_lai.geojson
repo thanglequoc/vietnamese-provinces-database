@@ -3784,6 +3784,8 @@
         "fullName": "Xã Vật Lại",
         "fullNameEn": "Vat Lai Commune",
         "codeName": "vat_lai",
+        "postalCode": "12620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3236",
         "areaKm2": 51.75
       }

@@ -4632,6 +4632,8 @@
         "fullName": "Xã An Định",
         "fullNameEn": "An Dinh Commune",
         "codeName": "an_dinh",
+        "postalCode": "86514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2454",
         "areaKm2": 46.59
       }

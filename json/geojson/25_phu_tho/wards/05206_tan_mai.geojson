@@ -8476,6 +8476,8 @@
         "fullName": "Xã Tân Mai",
         "fullNameEn": "Tan Mai Commune",
         "codeName": "tan_mai",
+        "postalCode": "36429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1656",
         "areaKm2": 130.71
       }

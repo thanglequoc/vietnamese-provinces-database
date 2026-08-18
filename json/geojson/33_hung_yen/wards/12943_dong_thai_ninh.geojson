@@ -6416,6 +6416,8 @@
         "fullName": "Xã Đông Thái Ninh",
         "fullNameEn": "Dong Thai Ninh Commune",
         "codeName": "dong_thai_ninh",
+        "postalCode": "06461",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.676",
         "areaKm2": 31.08
       }

@@ -10628,6 +10628,8 @@
         "fullName": "Xã Lấp Vò",
         "fullNameEn": "Lap Vo Commune",
         "codeName": "lap_vo",
+        "postalCode": "81706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.434",
         "areaKm2": 85.2
       }

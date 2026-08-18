@@ -8796,6 +8796,8 @@
         "fullName": "Xã Hát Môn",
         "fullNameEn": "Hat Mon Commune",
         "codeName": "hat_mon",
+        "postalCode": "12810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3229",
         "areaKm2": 37.67
       }

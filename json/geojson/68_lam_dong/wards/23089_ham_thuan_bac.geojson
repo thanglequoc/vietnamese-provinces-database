@@ -18420,6 +18420,8 @@
         "fullName": "Xã Hàm Thuận Bắc",
         "fullNameEn": "Ham Thuan Bac Commune",
         "codeName": "ham_thuan_bac",
+        "postalCode": "77424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3155",
         "areaKm2": 292.7
       }

@@ -10124,6 +10124,8 @@
         "fullName": "Phường Tây Hiếu",
         "fullNameEn": "Tay Hieu Ward",
         "codeName": "tay_hieu",
+        "postalCode": "44813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1470",
         "areaKm2": 43.96
       }

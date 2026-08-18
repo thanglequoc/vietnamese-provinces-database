@@ -5804,6 +5804,8 @@
         "fullName": "Xã Trần Đề",
         "fullNameEn": "Tran De Commune",
         "codeName": "tran_de",
+        "postalCode": "96706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.284",
         "areaKm2": 93.92
       }

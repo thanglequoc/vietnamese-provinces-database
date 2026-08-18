@@ -1572,6 +1572,8 @@
         "fullName": "Xã Nhơn Hội",
         "fullNameEn": "Nhon Hoi Commune",
         "codeName": "nhon_hoi",
+        "postalCode": "90462",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.313",
         "areaKm2": 43.82
       }

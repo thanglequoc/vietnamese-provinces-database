@@ -8608,6 +8608,8 @@
         "fullName": "Xã Pha Long",
         "fullNameEn": "Pha Long Commune",
         "codeName": "pha_long",
+        "postalCode": "31509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1058",
         "areaKm2": 105.6
       }

@@ -10112,6 +10112,8 @@
         "fullName": "Phường Hà Giang 1",
         "fullNameEn": "Ward Ha Giang 1",
         "codeName": "ha_giang_1",
+        "postalCode": "20114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2365",
         "areaKm2": 82.69
       }

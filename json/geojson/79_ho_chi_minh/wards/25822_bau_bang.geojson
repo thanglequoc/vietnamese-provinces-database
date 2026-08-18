@@ -4492,6 +4492,8 @@
         "fullName": "Xã Bàu Bàng",
         "fullNameEn": "Bau Bang Commune",
         "codeName": "bau_bang",
+        "postalCode": "75713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.12",
         "areaKm2": 84.09
       }

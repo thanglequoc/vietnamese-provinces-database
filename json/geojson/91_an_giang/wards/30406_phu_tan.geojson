@@ -2700,6 +2700,8 @@
         "fullName": "Xã Phú Tân",
         "fullNameEn": "Phu Tan Commune",
         "codeName": "phu_tan",
+        "postalCode": "90324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.325",
         "areaKm2": 41.88
       }

@@ -11528,6 +11528,8 @@
         "fullName": "Xã Nam Hà Lâm Hà",
         "fullNameEn": "Nam Ha Lam Ha Commune",
         "codeName": "nam_ha_lam_ha",
+        "postalCode": "66307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.515",
         "areaKm2": 100.34
       }

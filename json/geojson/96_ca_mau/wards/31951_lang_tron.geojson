@@ -12272,6 +12272,8 @@
         "fullName": "Phường Láng Tròn",
         "fullNameEn": "Lang Tron Ward",
         "codeName": "lang_tron",
+        "postalCode": "97508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.157",
         "areaKm2": 32.18
       }

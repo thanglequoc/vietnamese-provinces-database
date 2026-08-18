@@ -1780,6 +1780,8 @@
         "fullName": "Xã An Hưng",
         "fullNameEn": "An Hung Commune",
         "codeName": "an_hung",
+        "postalCode": "04523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.902",
         "areaKm2": 20.23
       }

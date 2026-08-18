@@ -2408,6 +2408,8 @@
         "fullName": "Xã Thanh Trì",
         "fullNameEn": "Thanh Tri Commune",
         "codeName": "thanh_tri",
+        "postalCode": "12522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3183",
         "areaKm2": 9.94
       }

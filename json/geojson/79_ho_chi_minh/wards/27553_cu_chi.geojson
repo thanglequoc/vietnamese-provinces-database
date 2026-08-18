@@ -8148,6 +8148,8 @@
         "fullName": "Xã Củ Chi",
         "fullNameEn": "Cu Chi Commune",
         "codeName": "cu_chi",
+        "postalCode": "71627",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.118",
         "areaKm2": 64.88
       }

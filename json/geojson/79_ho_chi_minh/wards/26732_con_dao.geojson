@@ -4932,6 +4932,8 @@
         "fullName": "Đặc khu Côn Đảo",
         "fullNameEn": "Con Dao Special administrative region",
         "codeName": "con_dao",
+        "postalCode": "78807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3307",
         "areaKm2": 75.79
       }

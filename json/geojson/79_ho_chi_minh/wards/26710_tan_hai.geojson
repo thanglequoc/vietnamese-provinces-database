@@ -4876,6 +4876,8 @@
         "fullName": "Phường Tân Hải",
         "fullNameEn": "Tan Hai Ward",
         "codeName": "tan_hai",
+        "postalCode": "78714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2222",
         "areaKm2": 51.86
       }

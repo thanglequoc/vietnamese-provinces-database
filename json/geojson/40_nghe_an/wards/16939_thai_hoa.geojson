@@ -13552,6 +13552,8 @@
         "fullName": "Phường Thái Hoà",
         "fullNameEn": "Thai Hoa Ward",
         "codeName": "thai_hoa",
+        "postalCode": "44816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1464",
         "areaKm2": 27.09
       }

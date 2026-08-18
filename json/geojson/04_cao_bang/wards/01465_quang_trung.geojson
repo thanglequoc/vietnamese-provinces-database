@@ -5420,6 +5420,8 @@
         "fullName": "Xã Quang Trung",
         "fullNameEn": "Quang Trung Commune",
         "codeName": "quang_trung",
+        "postalCode": "21828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1000",
         "areaKm2": 82.6
       }

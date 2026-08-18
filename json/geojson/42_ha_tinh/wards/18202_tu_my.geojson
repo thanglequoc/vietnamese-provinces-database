@@ -3064,6 +3064,8 @@
         "fullName": "Xã Tứ Mỹ",
         "fullNameEn": "Tu My Commune",
         "codeName": "tu_my",
+        "postalCode": "45839",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2048",
         "areaKm2": 38.68
       }

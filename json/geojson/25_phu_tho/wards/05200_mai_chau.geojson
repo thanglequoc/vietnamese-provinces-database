@@ -9652,6 +9652,8 @@
         "fullName": "Xã Mai Châu",
         "fullNameEn": "Mai Chau Commune",
         "codeName": "mai_chau",
+        "postalCode": "36406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1682",
         "areaKm2": 147.74
       }

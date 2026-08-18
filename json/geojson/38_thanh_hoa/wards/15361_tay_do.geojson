@@ -11816,6 +11816,8 @@
         "fullName": "Xã Tây Đô",
         "fullNameEn": "Tay Do Commune",
         "codeName": "tay_do",
+        "postalCode": "41122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2634",
         "areaKm2": 35.36
       }

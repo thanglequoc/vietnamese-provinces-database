@@ -3060,6 +3060,8 @@
         "fullName": "Xã Vĩnh Thịnh",
         "fullNameEn": "Vinh Thinh Commune",
         "codeName": "vinh_thinh",
+        "postalCode": "05338",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.918",
         "areaKm2": 21.5
       }

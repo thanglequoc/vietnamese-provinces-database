@@ -2376,6 +2376,8 @@
         "fullName": "Xã Mỹ Hạnh",
         "fullNameEn": "My Hanh Commune",
         "codeName": "my_hanh",
+        "postalCode": "82729",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1308",
         "areaKm2": 63.44
       }

@@ -16520,6 +16520,8 @@
         "fullName": "Xã Trường Xuân",
         "fullNameEn": "Truong Xuan Commune",
         "codeName": "truong_xuan",
+        "postalCode": "65614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2818",
         "areaKm2": 332.47
       }

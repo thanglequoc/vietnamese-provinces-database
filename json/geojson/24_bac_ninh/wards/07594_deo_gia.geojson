@@ -8700,6 +8700,8 @@
         "fullName": "Xã Đèo Gia",
         "fullNameEn": "Deo Gia Commune",
         "codeName": "deo_gia",
+        "postalCode": "26534",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2110",
         "areaKm2": 102.93
       }

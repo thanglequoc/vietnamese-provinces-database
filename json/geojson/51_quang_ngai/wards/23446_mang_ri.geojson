@@ -11884,6 +11884,8 @@
         "fullName": "Xã Măng Ri",
         "fullNameEn": "Mang Ri Commune",
         "codeName": "mang_ri",
+        "postalCode": "60311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3156",
         "areaKm2": 401.18
       }

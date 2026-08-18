@@ -4984,6 +4984,8 @@
         "fullName": "Phường Long Phú 1",
         "fullNameEn": "Ward Long Phu 1",
         "codeName": "long_phu_1",
+        "postalCode": "95409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.257",
         "areaKm2": 57.67
       }

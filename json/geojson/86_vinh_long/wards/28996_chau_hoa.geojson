@@ -7392,6 +7392,8 @@
         "fullName": "Xã Châu Hoà",
         "fullNameEn": "Chau Hoa Commune",
         "codeName": "chau_hoa",
+        "postalCode": "86609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2458",
         "areaKm2": 52.05
       }

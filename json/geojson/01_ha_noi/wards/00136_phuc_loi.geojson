@@ -1008,6 +1008,8 @@
         "fullName": "Phường Phúc Lợi",
         "fullNameEn": "Phuc Loi Ward",
         "codeName": "phuc_loi",
+        "postalCode": "11817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3198",
         "areaKm2": 10.41
       }

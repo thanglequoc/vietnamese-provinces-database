@@ -12272,6 +12272,8 @@
         "fullName": "Xã Ngọk Réo",
         "fullNameEn": "Ngok Reo Commune",
         "codeName": "ngok_reo",
+        "postalCode": "60616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1734",
         "areaKm2": 170.29
       }

@@ -9352,6 +9352,8 @@
         "fullName": "Xã Tiên Thuỷ",
         "fullNameEn": "Tien Thuy Commune",
         "codeName": "tien_thuy",
+        "postalCode": "86225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2443",
         "areaKm2": 33.81
       }

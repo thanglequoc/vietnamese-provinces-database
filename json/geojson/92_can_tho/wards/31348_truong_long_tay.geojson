@@ -3592,6 +3592,8 @@
         "fullName": "Xã Trường Long Tây",
         "fullNameEn": "Truong Long Tay Commune",
         "codeName": "truong_long_tay",
+        "postalCode": "95810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.239",
         "areaKm2": 50.59
       }

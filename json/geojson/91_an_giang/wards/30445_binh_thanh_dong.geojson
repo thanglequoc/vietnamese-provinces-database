@@ -4048,6 +4048,8 @@
         "fullName": "Xã Bình Thạnh Đông",
         "fullNameEn": "Binh Thanh Dong Commune",
         "codeName": "binh_thanh_dong",
+        "postalCode": "90320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.326",
         "areaKm2": 61.7
       }

@@ -10056,6 +10056,8 @@
         "fullName": "Phường Bình Minh",
         "fullNameEn": "Binh Minh Ward",
         "codeName": "binh_minh",
+        "postalCode": "80115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2748",
         "areaKm2": 105.35
       }

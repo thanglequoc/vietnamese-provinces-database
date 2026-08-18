@@ -4344,6 +4344,8 @@
         "fullName": "Xã Hùng Việt",
         "fullNameEn": "Hung Viet Commune",
         "codeName": "hung_viet",
+        "postalCode": "35632",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1581",
         "areaKm2": 32.77
       }

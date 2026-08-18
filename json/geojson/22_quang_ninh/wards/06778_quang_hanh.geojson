@@ -14232,6 +14232,8 @@
         "fullName": "Phường Quang Hanh",
         "fullNameEn": "Quang Hanh Ward",
         "codeName": "quang_hanh",
+        "postalCode": "01219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1868",
         "areaKm2": 62.63
       }

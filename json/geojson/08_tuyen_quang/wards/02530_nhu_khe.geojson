@@ -12612,6 +12612,8 @@
         "fullName": "Xã Nhữ Khê",
         "fullNameEn": "Nhu Khe Commune",
         "codeName": "nhu_khe",
+        "postalCode": "22222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2352",
         "areaKm2": 59.04
       }

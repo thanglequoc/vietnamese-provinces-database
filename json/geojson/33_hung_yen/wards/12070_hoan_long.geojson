@@ -2540,6 +2540,8 @@
         "fullName": "Xã Hoàn Long",
         "fullNameEn": "Hoan Long Commune",
         "codeName": "hoan_long",
+        "postalCode": "17712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.736",
         "areaKm2": 19.6
       }

@@ -5608,6 +5608,8 @@
         "fullName": "Xã Tượng Lĩnh",
         "fullNameEn": "Tuong Linh Commune",
         "codeName": "tuong_linh",
+        "postalCode": "42332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2606",
         "areaKm2": 33.23
       }

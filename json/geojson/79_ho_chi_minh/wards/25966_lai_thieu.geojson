@@ -6148,6 +6148,8 @@
         "fullName": "Phường Lái Thiêu",
         "fullNameEn": "Lai Thieu Ward",
         "codeName": "lai_thieu",
+        "postalCode": "75206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.33",
         "areaKm2": 15.46
       }

@@ -4072,6 +4072,8 @@
         "fullName": "Phường Nam Đồ Sơn",
         "fullNameEn": "Nam Do Son Ward",
         "codeName": "nam_do_son",
+        "postalCode": "05013",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.938",
         "areaKm2": 21
       }

@@ -8304,6 +8304,8 @@
         "fullName": "Xã Cường Lợi",
         "fullNameEn": "Cuong Loi Commune",
         "codeName": "cuong_loi",
+        "postalCode": "23808",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1248",
         "areaKm2": 117.85
       }

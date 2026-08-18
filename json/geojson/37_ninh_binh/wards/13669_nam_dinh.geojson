@@ -2672,6 +2672,8 @@
         "fullName": "Phường Nam Định",
         "fullNameEn": "Nam Dinh Ward",
         "codeName": "nam_dinh",
+        "postalCode": "07131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.798",
         "areaKm2": 19.91
       }

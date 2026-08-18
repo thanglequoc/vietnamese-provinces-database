@@ -4160,6 +4160,8 @@
         "fullName": "Phường Nhị Quý",
         "fullNameEn": "Nhi Quy Ward",
         "codeName": "nhi_quy",
+        "postalCode": "84871",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.468",
         "areaKm2": 21.4
       }

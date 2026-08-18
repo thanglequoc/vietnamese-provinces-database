@@ -12152,6 +12152,8 @@
         "fullName": "Xã Kim Điền",
         "fullNameEn": "Kim Dien Commune",
         "codeName": "kim_dien",
+        "postalCode": "47623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.603",
         "areaKm2": 229.42
       }

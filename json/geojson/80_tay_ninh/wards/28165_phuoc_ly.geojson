@@ -6788,6 +6788,8 @@
         "fullName": "Xã Phước Lý",
         "fullNameEn": "Phuoc Ly Commune",
         "codeName": "phuoc_ly",
+        "postalCode": "82511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1326",
         "areaKm2": 27.37
       }

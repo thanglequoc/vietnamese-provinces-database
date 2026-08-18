@@ -2436,6 +2436,8 @@
         "fullName": "Xã Tiên Hoa",
         "fullNameEn": "Tien Hoa Commune",
         "codeName": "tien_hoa",
+        "postalCode": "17223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.727",
         "areaKm2": 21.65
       }

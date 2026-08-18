@@ -6544,6 +6544,8 @@
         "fullName": "Phường Hoàng Quế",
         "fullNameEn": "Hoang Que Ward",
         "codeName": "hoang_que",
+        "postalCode": "02414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1858",
         "areaKm2": 63.83
       }

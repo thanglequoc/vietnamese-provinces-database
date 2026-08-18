@@ -17588,6 +17588,8 @@
         "fullName": "Xã Đồng Lê",
         "fullNameEn": "Dong Le Commune",
         "codeName": "dong_le",
+        "postalCode": "47506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.605",
         "areaKm2": 291.93
       }

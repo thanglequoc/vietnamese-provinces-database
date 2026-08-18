@@ -1808,6 +1808,8 @@
         "fullName": "Phường Bạch Mai",
         "fullNameEn": "Bach Mai Ward",
         "codeName": "bach_mai",
+        "postalCode": "11618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3199",
         "areaKm2": 2.95
       }

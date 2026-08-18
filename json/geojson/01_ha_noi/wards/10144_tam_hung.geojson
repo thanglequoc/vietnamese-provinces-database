@@ -4124,6 +4124,8 @@
         "fullName": "Xã Tam Hưng",
         "fullNameEn": "Tam Hung Commune",
         "codeName": "tam_hung",
+        "postalCode": "13510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3165",
         "areaKm2": 29.45
       }

@@ -5212,6 +5212,8 @@
         "fullName": "Phường Trung Sơn",
         "fullNameEn": "Trung Son Ward",
         "codeName": "trung_son",
+        "postalCode": "08507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.760",
         "areaKm2": 38.15
       }

@@ -14404,6 +14404,8 @@
         "fullName": "Xã Việt Lâm",
         "fullNameEn": "Viet Lam Commune",
         "codeName": "viet_lam",
+        "postalCode": "20226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2397",
         "areaKm2": 92.66
       }

@@ -9368,6 +9368,8 @@
         "fullName": "Xã Nghĩa Phương",
         "fullNameEn": "Nghia Phuong Commune",
         "codeName": "nghia_phuong",
+        "postalCode": "26327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2175",
         "areaKm2": 88.32
       }

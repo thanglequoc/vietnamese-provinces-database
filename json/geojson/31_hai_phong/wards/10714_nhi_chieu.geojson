@@ -5144,6 +5144,8 @@
         "fullName": "Phường Nhị Chiểu",
         "fullNameEn": "Nhi Chieu Ward",
         "codeName": "nhi_chieu",
+        "postalCode": "03436",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.874",
         "areaKm2": 39.28
       }

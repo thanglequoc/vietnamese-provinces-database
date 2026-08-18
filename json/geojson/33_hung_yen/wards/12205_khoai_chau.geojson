@@ -2240,6 +2240,8 @@
         "fullName": "Xã Khoái Châu",
         "fullNameEn": "Khoai Chau Commune",
         "codeName": "khoai_chau",
+        "postalCode": "17806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.708",
         "areaKm2": 29.35
       }

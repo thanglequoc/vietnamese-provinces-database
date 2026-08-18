@@ -12348,6 +12348,8 @@
         "fullName": "Xã Hoà Phú",
         "fullNameEn": "Hoa Phu Commune",
         "codeName": "hoa_phu",
+        "postalCode": "63121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2824",
         "areaKm2": 109.07
       }

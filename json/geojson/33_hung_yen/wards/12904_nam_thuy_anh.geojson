@@ -1320,6 +1320,8 @@
         "fullName": "Xã Nam Thuỵ Anh",
         "fullNameEn": "Nam Thuy Anh Commune",
         "codeName": "nam_thuy_anh",
+        "postalCode": "06459",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.669",
         "areaKm2": 17.4
       }

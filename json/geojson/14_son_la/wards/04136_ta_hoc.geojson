@@ -9828,6 +9828,8 @@
         "fullName": "Xã Tà Hộc",
         "fullNameEn": "Ta Hoc Commune",
         "codeName": "ta_hoc",
+        "postalCode": "34508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1394",
         "areaKm2": 149.56
       }

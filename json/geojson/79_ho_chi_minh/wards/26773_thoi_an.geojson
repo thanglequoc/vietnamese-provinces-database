@@ -8420,6 +8420,8 @@
         "fullName": "Phường Thới An",
         "fullNameEn": "Thoi An Ward",
         "codeName": "thoi_an",
+        "postalCode": "71513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.41",
         "areaKm2": 14.9
       }

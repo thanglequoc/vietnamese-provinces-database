@@ -11468,6 +11468,8 @@
         "fullName": "Xã Đồng Kho",
         "fullNameEn": "Dong Kho Commune",
         "codeName": "dong_kho",
+        "postalCode": "77508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3088",
         "areaKm2": 268.72
       }

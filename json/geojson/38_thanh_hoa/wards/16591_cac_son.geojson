@@ -8352,6 +8352,8 @@
         "fullName": "Xã Các Sơn",
         "fullNameEn": "Cac Son Commune",
         "codeName": "cac_son",
+        "postalCode": "42722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2575",
         "areaKm2": 46.88
       }

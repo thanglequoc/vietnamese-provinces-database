@@ -24868,6 +24868,8 @@
         "fullName": "Xã Hiếu Giang",
         "fullNameEn": "Hieu Giang Commune",
         "codeName": "hieu_giang",
+        "postalCode": "48215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.568",
         "areaKm2": 177.36
       }

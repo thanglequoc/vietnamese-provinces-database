@@ -12452,6 +12452,8 @@
         "fullName": "Xã Minh Khai",
         "fullNameEn": "Minh Khai Commune",
         "codeName": "minh_khai",
+        "postalCode": "21615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.962",
         "areaKm2": 173.4
       }

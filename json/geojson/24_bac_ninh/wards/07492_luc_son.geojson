@@ -13084,6 +13084,8 @@
         "fullName": "Xã Lục Sơn",
         "fullNameEn": "Luc Son Commune",
         "codeName": "luc_son",
+        "postalCode": "26332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2100",
         "areaKm2": 125.98
       }

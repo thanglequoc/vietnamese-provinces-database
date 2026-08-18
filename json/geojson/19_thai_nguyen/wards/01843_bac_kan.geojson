@@ -6460,6 +6460,8 @@
         "fullName": "Phường Bắc Kạn",
         "fullNameEn": "Bac Kan Ward",
         "codeName": "bac_kan",
+        "postalCode": "23114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1240",
         "areaKm2": 72
       }

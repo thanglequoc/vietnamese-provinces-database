@@ -3936,6 +3936,8 @@
         "fullName": "Xã Phước Giang",
         "fullNameEn": "Phuoc Giang Commune",
         "codeName": "phuoc_giang",
+        "postalCode": "54021",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1744",
         "areaKm2": 57.02
       }

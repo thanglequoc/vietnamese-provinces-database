@@ -2900,6 +2900,8 @@
         "fullName": "Xã Thạnh Quới",
         "fullNameEn": "Thanh Quoi Commune",
         "codeName": "thanh_quoi",
+        "postalCode": "94508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.221",
         "areaKm2": 103.86
       }

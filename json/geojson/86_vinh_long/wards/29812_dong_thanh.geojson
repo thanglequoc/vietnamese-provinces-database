@@ -1952,6 +1952,8 @@
         "fullName": "Phường Đông Thành",
         "fullNameEn": "Dong Thanh Ward",
         "codeName": "dong_thanh",
+        "postalCode": "85513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2553",
         "areaKm2": 44.35
       }

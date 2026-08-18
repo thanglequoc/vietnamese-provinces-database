@@ -11472,6 +11472,8 @@
         "fullName": "Xã Phong Hải",
         "fullNameEn": "Phong Hai Commune",
         "codeName": "phong_hai",
+        "postalCode": "31222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1070",
         "areaKm2": 120.9
       }

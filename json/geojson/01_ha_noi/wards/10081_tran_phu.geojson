@@ -8552,6 +8552,8 @@
         "fullName": "Xã Trần Phú",
         "fullNameEn": "Tran Phu Commune",
         "codeName": "tran_phu",
+        "postalCode": "13423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3276",
         "areaKm2": 44.36
       }

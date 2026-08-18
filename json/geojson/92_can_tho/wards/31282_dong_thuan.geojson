@@ -6672,6 +6672,8 @@
         "fullName": "Xã Đông Thuận",
         "fullNameEn": "Dong Thuan Commune",
         "codeName": "dong_thuan",
+        "postalCode": "94712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.228",
         "areaKm2": 60.89
       }

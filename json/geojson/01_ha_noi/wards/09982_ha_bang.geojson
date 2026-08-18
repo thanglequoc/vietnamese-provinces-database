@@ -10364,6 +10364,8 @@
         "fullName": "Xã Hạ Bằng",
         "fullNameEn": "Ha Bang Commune",
         "codeName": "ha_bang",
+        "postalCode": "13117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3283",
         "areaKm2": 32.14
       }

@@ -11348,6 +11348,8 @@
         "fullName": "Xã Hưng Đạo",
         "fullNameEn": "Hung Dao Commune",
         "codeName": "hung_dao",
+        "postalCode": "21363",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.977",
         "areaKm2": 122.43
       }

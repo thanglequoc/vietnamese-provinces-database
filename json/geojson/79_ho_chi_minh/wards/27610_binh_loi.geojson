@@ -2720,6 +2720,8 @@
         "fullName": "Xã Bình Lợi",
         "fullNameEn": "Binh Loi Commune",
         "codeName": "binh_loi",
+        "postalCode": "71818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.128",
         "areaKm2": 54.18
       }

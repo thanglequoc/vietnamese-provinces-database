@@ -1648,6 +1648,8 @@
         "fullName": "Xã Mỹ Thiện",
         "fullNameEn": "My Thien Commune",
         "codeName": "my_thien",
+        "postalCode": "84933",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.459",
         "areaKm2": 62.6
       }

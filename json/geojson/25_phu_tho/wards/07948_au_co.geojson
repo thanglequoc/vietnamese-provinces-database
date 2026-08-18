@@ -4116,6 +4116,8 @@
         "fullName": "Phường Âu Cơ",
         "fullNameEn": "Au Co Ward",
         "codeName": "au_co",
+        "postalCode": "35906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1579",
         "areaKm2": 12.51
       }

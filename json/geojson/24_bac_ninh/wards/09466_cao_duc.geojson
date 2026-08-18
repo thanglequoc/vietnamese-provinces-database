@@ -2400,6 +2400,8 @@
         "fullName": "Xã Cao Đức",
         "fullNameEn": "Cao Duc Commune",
         "codeName": "cao_duc",
+        "postalCode": "16710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2130",
         "areaKm2": 19.76
       }

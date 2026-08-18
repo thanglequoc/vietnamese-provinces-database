@@ -18116,6 +18116,8 @@
         "fullName": "Xã Nội Bài",
         "fullNameEn": "Noi Bai Commune",
         "codeName": "noi_bai",
+        "postalCode": "12233",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3253",
         "areaKm2": 51.64
       }

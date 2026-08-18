@@ -2288,6 +2288,8 @@
         "fullName": "Phường Trần Lãm",
         "fullNameEn": "Tran Lam Ward",
         "codeName": "tran_lam",
+        "postalCode": "06122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.692",
         "areaKm2": 34.63
       }

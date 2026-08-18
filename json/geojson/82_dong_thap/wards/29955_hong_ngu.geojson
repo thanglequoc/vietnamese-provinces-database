@@ -7308,6 +7308,8 @@
         "fullName": "Phường Hồng Ngự",
         "fullNameEn": "Hong Ngu Ward",
         "codeName": "hong_ngu",
+        "postalCode": "81514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.407",
         "areaKm2": 64.2
       }

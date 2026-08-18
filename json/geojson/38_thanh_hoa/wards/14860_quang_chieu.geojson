@@ -5668,6 +5668,8 @@
         "fullName": "Xã Quang Chiểu",
         "fullNameEn": "Quang Chieu Commune",
         "codeName": "quang_chieu",
+        "postalCode": "42113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2707",
         "areaKm2": 109.88
       }

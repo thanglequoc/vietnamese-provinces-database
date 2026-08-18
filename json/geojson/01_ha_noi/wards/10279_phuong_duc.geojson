@@ -3752,6 +3752,8 @@
         "fullName": "Xã Phượng Dực",
         "fullNameEn": "Phuong Duc Commune",
         "codeName": "phuong_duc",
+        "postalCode": "13921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3160",
         "areaKm2": 44.69
       }

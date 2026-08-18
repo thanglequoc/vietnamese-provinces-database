@@ -13456,6 +13456,8 @@
         "fullName": "Xã Trung Sơn",
         "fullNameEn": "Trung Son Commune",
         "codeName": "trung_son",
+        "postalCode": "22234",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2345",
         "areaKm2": 134.29
       }

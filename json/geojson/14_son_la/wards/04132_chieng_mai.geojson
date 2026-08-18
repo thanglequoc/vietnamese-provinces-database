@@ -11264,6 +11264,8 @@
         "fullName": "Xã Chiềng Mai",
         "fullNameEn": "Chieng Mai Commune",
         "codeName": "chieng_mai",
+        "postalCode": "34520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1390",
         "areaKm2": 151.85
       }

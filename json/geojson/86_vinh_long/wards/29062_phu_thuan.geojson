@@ -2084,6 +2084,8 @@
         "fullName": "Xã Phú Thuận",
         "fullNameEn": "Phu Thuan Commune",
         "codeName": "phu_thuan",
+        "postalCode": "86718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2465",
         "areaKm2": 29.28
       }

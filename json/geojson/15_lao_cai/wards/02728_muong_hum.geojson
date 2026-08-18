@@ -11524,6 +11524,8 @@
         "fullName": "Xã Mường Hum",
         "fullNameEn": "Muong Hum Commune",
         "codeName": "muong_hum",
+        "postalCode": "31619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1097",
         "areaKm2": 212.8
       }

@@ -10628,6 +10628,8 @@
         "fullName": "Xã Thượng Lâm",
         "fullNameEn": "Thuong Lam Commune",
         "codeName": "thuong_lam",
+        "postalCode": "22507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2320",
         "areaKm2": 277.16
       }

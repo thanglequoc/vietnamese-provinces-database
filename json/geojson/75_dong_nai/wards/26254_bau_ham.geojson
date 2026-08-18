@@ -11908,6 +11908,8 @@
         "fullName": "Xã Bàu Hàm",
         "fullNameEn": "Bau Ham Commune",
         "codeName": "bau_ham",
+        "postalCode": "76309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3123",
         "areaKm2": 97.5
       }

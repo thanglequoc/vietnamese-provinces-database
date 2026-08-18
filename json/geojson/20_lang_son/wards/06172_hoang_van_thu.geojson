@@ -10044,6 +10044,8 @@
         "fullName": "Xã Hoàng Văn Thụ",
         "fullNameEn": "Hoang Van Thu Commune",
         "codeName": "hoang_van_thu",
+        "postalCode": "25223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1810",
         "areaKm2": 114.5
       }

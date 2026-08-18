@@ -15872,6 +15872,8 @@
         "fullName": "Xã Sơn Dương",
         "fullNameEn": "Son Duong Commune",
         "codeName": "son_duong",
+        "postalCode": "22706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2353",
         "areaKm2": 123.17
       }

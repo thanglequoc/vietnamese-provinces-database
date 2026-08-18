@@ -7992,6 +7992,8 @@
         "fullName": "Phường Tân Phong",
         "fullNameEn": "Tan Phong Ward",
         "codeName": "tan_phong",
+        "postalCode": "30110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2061",
         "areaKm2": 106.77
       }

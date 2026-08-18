@@ -5184,6 +5184,8 @@
         "fullName": "Tỉnh Điện Biên",
         "fullNameEn": "Dien Bien Province",
         "codeName": "dien_bien",
+        "postalCode": "",
+        "postalCodePrefix": "32",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.109",
         "areaKm2": 9539.93
       }

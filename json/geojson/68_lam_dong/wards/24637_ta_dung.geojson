@@ -56552,6 +56552,8 @@
         "fullName": "Xã Tà Đùng",
         "fullNameEn": "Ta Dung Commune",
         "codeName": "ta_dung",
+        "postalCode": "65213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2812",
         "areaKm2": 531.33
       }

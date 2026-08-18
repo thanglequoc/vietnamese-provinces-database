@@ -4724,6 +4724,8 @@
         "fullName": "Phường Phù Khê",
         "fullNameEn": "Phu Khe Ward",
         "codeName": "phu_khe",
+        "postalCode": "16312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2188",
         "areaKm2": 14.03
       }

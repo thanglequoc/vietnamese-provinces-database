@@ -6096,6 +6096,8 @@
         "fullName": "Phường Thành Nhất",
         "fullNameEn": "Thanh Nhat Ward",
         "codeName": "thanh_nhat",
+        "postalCode": "63116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2822",
         "areaKm2": 32.22
       }

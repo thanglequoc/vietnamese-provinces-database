@@ -3744,6 +3744,8 @@
         "fullName": "Xã Thường Phước",
         "fullNameEn": "Thuong Phuoc Commune",
         "codeName": "thuong_phuoc",
+        "postalCode": "81567",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.408",
         "areaKm2": 80.7
       }

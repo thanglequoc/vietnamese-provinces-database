@@ -12900,6 +12900,8 @@
         "fullName": "Xã Tìa Dình",
         "fullNameEn": "Tia Dinh Commune",
         "codeName": "tia_dinh",
+        "postalCode": "32316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2271",
         "areaKm2": 166.76
       }

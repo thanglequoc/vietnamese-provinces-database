@@ -10048,6 +10048,8 @@
         "fullName": "Xã Kiên Đài",
         "fullNameEn": "Kien Dai Commune",
         "codeName": "kien_dai",
+        "postalCode": "22331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2328",
         "areaKm2": 130.82
       }

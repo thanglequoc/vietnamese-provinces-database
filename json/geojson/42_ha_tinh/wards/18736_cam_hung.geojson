@@ -10664,6 +10664,8 @@
         "fullName": "Xã Cẩm Hưng",
         "fullNameEn": "Cam Hung Commune",
         "codeName": "cam_hung",
+        "postalCode": "46124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2020",
         "areaKm2": 103.8
       }

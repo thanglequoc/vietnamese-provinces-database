@@ -8676,6 +8676,8 @@
         "fullName": "Xã Dền Sáng",
         "fullNameEn": "Den Sang Commune",
         "codeName": "den_sang",
+        "postalCode": "31616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1095",
         "areaKm2": 148.2
       }

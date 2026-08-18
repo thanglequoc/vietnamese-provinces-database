@@ -5880,6 +5880,8 @@
         "fullName": "Xã Bắc Lũng",
         "fullNameEn": "Bac Lung Commune",
         "codeName": "bac_lung",
+        "postalCode": "26322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2176",
         "areaKm2": 53.72
       }

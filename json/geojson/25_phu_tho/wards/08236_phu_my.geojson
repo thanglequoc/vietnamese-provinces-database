@@ -4720,6 +4720,8 @@
         "fullName": "Xã Phú Mỹ",
         "fullNameEn": "Phu My Commune",
         "codeName": "phu_my",
+        "postalCode": "35214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1550",
         "areaKm2": 27.36
       }

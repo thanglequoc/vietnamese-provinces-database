@@ -11936,6 +11936,8 @@
         "fullName": "Xã Hoành Mô",
         "fullNameEn": "Hoanh Mo Commune",
         "codeName": "hoanh_mo",
+        "postalCode": "01709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1890",
         "areaKm2": 137.91
       }

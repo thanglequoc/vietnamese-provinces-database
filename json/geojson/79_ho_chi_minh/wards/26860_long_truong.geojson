@@ -2308,6 +2308,8 @@
         "fullName": "Phường Long Trường",
         "fullNameEn": "Long Truong Ward",
         "codeName": "long_truong",
+        "postalCode": "71213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.53",
         "areaKm2": 24.49
       }

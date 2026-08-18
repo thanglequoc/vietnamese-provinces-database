@@ -10600,6 +10600,8 @@
         "fullName": "Xã Phúc Trạch",
         "fullNameEn": "Phuc Trach Commune",
         "codeName": "phuc_trach",
+        "postalCode": "46026",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2035",
         "areaKm2": 201.42
       }

@@ -11260,6 +11260,8 @@
         "fullName": "Xã Kiên Lao",
         "fullNameEn": "Kien Lao Commune",
         "codeName": "kien_lao",
+        "postalCode": "26526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2105",
         "areaKm2": 85.57
       }

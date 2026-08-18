@@ -10476,6 +10476,8 @@
         "fullName": "Xã Bắc Bình",
         "fullNameEn": "Bac Binh Commune",
         "codeName": "bac_binh",
+        "postalCode": "77324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3071",
         "areaKm2": 148.99
       }

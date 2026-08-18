@@ -3412,6 +3412,8 @@
         "fullName": "Phường Tân Hạnh",
         "fullNameEn": "Tan Hanh Ward",
         "codeName": "tan_hanh",
+        "postalCode": "85120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2530",
         "areaKm2": 17.84
       }

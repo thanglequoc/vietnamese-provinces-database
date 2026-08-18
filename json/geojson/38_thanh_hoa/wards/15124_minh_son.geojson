@@ -7420,6 +7420,8 @@
         "fullName": "Xã Minh Sơn",
         "fullNameEn": "Minh Son Commune",
         "codeName": "minh_son",
+        "postalCode": "41720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2673",
         "areaKm2": 81.77
       }

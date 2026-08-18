@@ -2544,6 +2544,8 @@
         "fullName": "Phường Yên Bái",
         "fullNameEn": "Yen Bai Ward",
         "codeName": "yen_bai",
+        "postalCode": "33123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1005",
         "areaKm2": 16.92
       }

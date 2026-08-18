@@ -9120,6 +9120,8 @@
         "fullName": "Xã Chư Prông",
         "fullNameEn": "Chu Prong Commune",
         "codeName": "chu_prong",
+        "postalCode": "61606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2926",
         "areaKm2": 124.77
       }

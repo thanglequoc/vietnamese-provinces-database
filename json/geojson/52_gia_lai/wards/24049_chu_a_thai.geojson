@@ -9608,6 +9608,8 @@
         "fullName": "Xã Chư A Thai",
         "fullNameEn": "Chu A Thai Commune",
         "codeName": "chu_a_thai",
+        "postalCode": "61707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2958",
         "areaKm2": 133.92
       }

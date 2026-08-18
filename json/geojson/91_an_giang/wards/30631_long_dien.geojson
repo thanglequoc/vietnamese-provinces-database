@@ -7376,6 +7376,8 @@
         "fullName": "Xã Long Điền",
         "fullNameEn": "Long Dien Commune",
         "codeName": "long_dien",
+        "postalCode": "90225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.348",
         "areaKm2": 47.25
       }

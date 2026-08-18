@@ -11520,6 +11520,8 @@
         "fullName": "Xã Thiện Tân",
         "fullNameEn": "Thien Tan Commune",
         "codeName": "thien_tan",
+        "postalCode": "25615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1841",
         "areaKm2": 93.07
       }

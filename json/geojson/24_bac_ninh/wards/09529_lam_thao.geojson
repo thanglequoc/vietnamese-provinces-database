@@ -4048,6 +4048,8 @@
         "fullName": "Xã Lâm Thao",
         "fullNameEn": "Lam Thao Commune",
         "codeName": "lam_thao",
+        "postalCode": "16618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2137",
         "areaKm2": 26.26
       }

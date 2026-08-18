@@ -7360,6 +7360,8 @@
         "fullName": "Xã Yên Lập",
         "fullNameEn": "Yen Lap Commune",
         "codeName": "yen_lap",
+        "postalCode": "35506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1565",
         "areaKm2": 69.05
       }

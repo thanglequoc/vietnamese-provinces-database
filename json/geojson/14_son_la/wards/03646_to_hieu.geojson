@@ -4900,6 +4900,8 @@
         "fullName": "Phường Tô Hiệu",
         "fullNameEn": "To Hieu Ward",
         "codeName": "to_hieu",
+        "postalCode": "34112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1336",
         "areaKm2": 11.92
       }

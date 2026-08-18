@@ -12416,6 +12416,8 @@
         "fullName": "Xã Đất Mới",
         "fullNameEn": "Dat Moi Commune",
         "codeName": "dat_moi",
+        "postalCode": "98810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.193",
         "areaKm2": 222.94
       }

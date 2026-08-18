@@ -5532,6 +5532,8 @@
         "fullName": "Xã Dương Minh Châu",
         "fullNameEn": "Duong Minh Chau Commune",
         "codeName": "duong_minh_chau",
+        "postalCode": "80206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2749",
         "areaKm2": 177.15
       }

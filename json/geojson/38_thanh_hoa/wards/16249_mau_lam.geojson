@@ -5972,6 +5972,8 @@
         "fullName": "Xã Mậu Lâm",
         "fullNameEn": "Mau Lam Commune",
         "codeName": "mau_lam",
+        "postalCode": "42408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2659",
         "areaKm2": 64.27
       }

@@ -8376,6 +8376,8 @@
         "fullName": "Xã Cự Đồng",
         "fullNameEn": "Cu Dong Commune",
         "codeName": "cu_dong",
+        "postalCode": "35825",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1590",
         "areaKm2": 45.77
       }

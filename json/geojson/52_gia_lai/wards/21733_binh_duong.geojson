@@ -9476,6 +9476,8 @@
         "fullName": "Xã Bình Dương",
         "fullNameEn": "Binh Duong Commune",
         "codeName": "binh_duong",
+        "postalCode": "55372",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2985",
         "areaKm2": 65.81
       }

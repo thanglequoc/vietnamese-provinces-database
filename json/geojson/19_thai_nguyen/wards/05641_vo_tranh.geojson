@@ -9356,6 +9356,8 @@
         "fullName": "Xã Vô Tranh",
         "fullNameEn": "Vo Tranh Commune",
         "codeName": "vo_tranh",
+        "postalCode": "24418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1210",
         "areaKm2": 83.53
       }

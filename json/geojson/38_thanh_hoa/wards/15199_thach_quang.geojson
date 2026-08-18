@@ -5924,6 +5924,8 @@
         "fullName": "Xã Thạch Quảng",
         "fullNameEn": "Thach Quang Commune",
         "codeName": "thach_quang",
+        "postalCode": "41218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2638",
         "areaKm2": 123.54
       }

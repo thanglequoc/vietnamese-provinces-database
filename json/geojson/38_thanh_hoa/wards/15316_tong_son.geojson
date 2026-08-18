@@ -5820,6 +5820,8 @@
         "fullName": "Xã Tống Sơn",
         "fullNameEn": "Tong Son Commune",
         "codeName": "tong_son",
+        "postalCode": "40631",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2614",
         "areaKm2": 69.36
       }

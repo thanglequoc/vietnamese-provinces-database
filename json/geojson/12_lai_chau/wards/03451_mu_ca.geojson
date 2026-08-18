@@ -22532,6 +22532,8 @@
         "fullName": "Xã Mù Cả",
         "fullNameEn": "Mu Ca Commune",
         "codeName": "mu_ca",
+        "postalCode": "30413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2070",
         "areaKm2": 384.04
       }

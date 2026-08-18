@@ -8860,6 +8860,8 @@
         "fullName": "Phường Lý Văn Lâm",
         "fullNameEn": "Ly Van Lam Ward",
         "codeName": "ly_van_lam",
+        "postalCode": "98121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.166",
         "areaKm2": 44.5
       }

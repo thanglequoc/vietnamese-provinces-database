@@ -5744,6 +5744,8 @@
         "fullName": "Phường Hoà Thắng",
         "fullNameEn": "Hoa Thang Ward",
         "codeName": "hoa_thang",
+        "postalCode": "57334",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1128",
         "areaKm2": 78.6
       }

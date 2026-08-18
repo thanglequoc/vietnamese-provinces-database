@@ -1992,6 +1992,8 @@
         "fullName": "Xã Bắc Thái Ninh",
         "fullNameEn": "Bac Thai Ninh Commune",
         "codeName": "bac_thai_ninh",
+        "postalCode": "06462",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.638",
         "areaKm2": 23.12
       }

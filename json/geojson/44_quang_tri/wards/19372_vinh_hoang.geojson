@@ -4848,6 +4848,8 @@
         "fullName": "Xã Vĩnh Hoàng",
         "fullNameEn": "Vinh Hoang Commune",
         "codeName": "vinh_hoang",
+        "postalCode": "48429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.562",
         "areaKm2": 87.06
       }

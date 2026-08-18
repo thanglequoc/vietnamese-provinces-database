@@ -9620,6 +9620,8 @@
         "fullName": "Xã Năm Căn",
         "fullNameEn": "Nam Can Commune",
         "codeName": "nam_can",
+        "postalCode": "98806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.192",
         "areaKm2": 70.06
       }

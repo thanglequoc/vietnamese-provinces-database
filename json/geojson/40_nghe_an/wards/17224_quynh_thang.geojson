@@ -7180,6 +7180,8 @@
         "fullName": "Xã Quỳnh Thắng",
         "fullNameEn": "Quynh Thang Commune",
         "codeName": "quynh_thang",
+        "postalCode": "43534",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1482",
         "areaKm2": 107.99
       }

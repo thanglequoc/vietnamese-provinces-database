@@ -14904,6 +14904,8 @@
         "fullName": "Xã Hoà Thịnh",
         "fullNameEn": "Hoa Thinh Commune",
         "codeName": "hoa_thinh",
+        "postalCode": "56710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2921",
         "areaKm2": 159.23
       }

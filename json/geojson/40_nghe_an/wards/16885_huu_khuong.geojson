@@ -11612,6 +11612,8 @@
         "fullName": "Xã Hữu Khuông",
         "fullNameEn": "Huu Khuong Commune",
         "codeName": "huu_khuong",
+        "postalCode": "44365",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1510",
         "areaKm2": 263.79
       }

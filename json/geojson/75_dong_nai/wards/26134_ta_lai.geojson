@@ -9932,6 +9932,8 @@
         "fullName": "Xã Tà Lài",
         "fullNameEn": "Ta Lai Commune",
         "codeName": "ta_lai",
+        "postalCode": "76817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3154",
         "areaKm2": 83.3
       }

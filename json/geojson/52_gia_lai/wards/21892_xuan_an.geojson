@@ -9778,6 +9778,8 @@
         "fullName": "Xã Xuân An",
         "fullNameEn": "Xuan An Commune",
         "codeName": "xuan_an",
+        "postalCode": "55325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3003",
         "areaKm2": 67.61
       }

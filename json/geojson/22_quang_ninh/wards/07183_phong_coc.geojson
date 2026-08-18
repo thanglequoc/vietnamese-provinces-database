@@ -1580,6 +1580,8 @@
         "fullName": "Phường Phong Cốc",
         "fullNameEn": "Phong Coc Ward",
         "codeName": "phong_coc",
+        "postalCode": "02219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1874",
         "areaKm2": 42.17
       }

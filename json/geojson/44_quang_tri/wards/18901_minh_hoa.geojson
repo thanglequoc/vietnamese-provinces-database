@@ -7156,6 +7156,8 @@
         "fullName": "Xã Minh Hoá",
         "fullNameEn": "Minh Hoa Commune",
         "codeName": "minh_hoa",
+        "postalCode": "47622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.600",
         "areaKm2": 156.97
       }

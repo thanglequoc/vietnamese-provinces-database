@@ -3024,6 +3024,8 @@
         "fullName": "Xã Ninh Giang",
         "fullNameEn": "Ninh Giang Commune",
         "codeName": "ninh_giang",
+        "postalCode": "03806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.889",
         "areaKm2": 27.41
       }

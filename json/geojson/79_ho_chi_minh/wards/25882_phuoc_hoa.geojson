@@ -7596,6 +7596,8 @@
         "fullName": "Xã Phước Hoà",
         "fullNameEn": "Phuoc Hoa Commune",
         "codeName": "phuoc_hoa",
+        "postalCode": "75614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.21",
         "areaKm2": 128.07
       }

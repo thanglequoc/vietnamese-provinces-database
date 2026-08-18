@@ -3484,6 +3484,8 @@
         "fullName": "Phường Hiệp Hoà",
         "fullNameEn": "Hiep Hoa Ward",
         "codeName": "hiep_hoa",
+        "postalCode": "02215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1881",
         "areaKm2": 35.83
       }

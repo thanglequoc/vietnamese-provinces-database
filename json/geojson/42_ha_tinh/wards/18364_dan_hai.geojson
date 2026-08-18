@@ -1616,6 +1616,8 @@
         "fullName": "Xã Đan Hải",
         "fullNameEn": "Dan Hai Commune",
         "codeName": "dan_hai",
+        "postalCode": "45526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1992",
         "areaKm2": 37.77
       }

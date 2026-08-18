@@ -6176,6 +6176,8 @@
         "fullName": "Xã Hương Cần",
         "fullNameEn": "Huong Can Commune",
         "codeName": "huong_can",
+        "postalCode": "35823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1597",
         "areaKm2": 81.3
       }

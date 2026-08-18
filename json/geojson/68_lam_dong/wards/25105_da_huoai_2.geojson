@@ -16392,6 +16392,8 @@
         "fullName": "Xã Đạ Huoai 2",
         "fullNameEn": "Commune Da Huoai 2",
         "codeName": "da_huoai_2",
+        "postalCode": "66667",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1268",
         "areaKm2": 249.57
       }

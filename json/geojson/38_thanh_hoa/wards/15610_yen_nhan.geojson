@@ -7504,6 +7504,8 @@
         "fullName": "Xã Yên Nhân",
         "fullNameEn": "Yen Nhan Commune",
         "codeName": "yen_nhan",
+        "postalCode": "42211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2561",
         "areaKm2": 188.7
       }

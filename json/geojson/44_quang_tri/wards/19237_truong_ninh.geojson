@@ -3176,6 +3176,8 @@
         "fullName": "Xã Trường Ninh",
         "fullNameEn": "Truong Ninh Commune",
         "codeName": "truong_ninh",
+        "postalCode": "47723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.630",
         "areaKm2": 71.92
       }

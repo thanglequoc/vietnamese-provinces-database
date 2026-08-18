@@ -2984,6 +2984,8 @@
         "fullName": "Phường Nguyễn Úy",
         "fullNameEn": "Nguyen Uy Ward",
         "codeName": "nguyen_uy",
+        "postalCode": "18314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2767",
         "areaKm2": 24.21
       }

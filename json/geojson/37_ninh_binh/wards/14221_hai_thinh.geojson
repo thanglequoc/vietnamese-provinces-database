@@ -2672,6 +2672,8 @@
         "fullName": "Xã Hải Thịnh",
         "fullNameEn": "Hai Thinh Commune",
         "codeName": "hai_thinh",
+        "postalCode": "07943",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.830",
         "areaKm2": 32.92
       }

@@ -7472,6 +7472,8 @@
         "fullName": "Xã Hợp Kim",
         "fullNameEn": "Hop Kim Commune",
         "codeName": "hop_kim",
+        "postalCode": "36936",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1657",
         "areaKm2": 86.29
       }

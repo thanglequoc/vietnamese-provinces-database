@@ -4504,6 +4504,8 @@
         "fullName": "Xã Xuân Lâm",
         "fullNameEn": "Xuan Lam Commune",
         "codeName": "xuan_lam",
+        "postalCode": "44776",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1431",
         "areaKm2": 60.88
       }

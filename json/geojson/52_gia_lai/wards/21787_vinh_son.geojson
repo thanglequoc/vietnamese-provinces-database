@@ -11524,6 +11524,8 @@
         "fullName": "Xã Vĩnh Sơn",
         "fullNameEn": "Vinh Son Commune",
         "codeName": "vinh_son",
+        "postalCode": "55714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2991",
         "areaKm2": 328.89
       }

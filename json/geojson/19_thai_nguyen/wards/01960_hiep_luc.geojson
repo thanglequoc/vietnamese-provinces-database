@@ -7644,6 +7644,8 @@
         "fullName": "Xã Hiệp Lực",
         "fullNameEn": "Hiep Luc Commune",
         "codeName": "hiep_luc",
+        "postalCode": "23313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1175",
         "areaKm2": 105.02
       }

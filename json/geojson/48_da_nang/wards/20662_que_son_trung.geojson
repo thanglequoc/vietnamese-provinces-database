@@ -9912,6 +9912,8 @@
         "fullName": "Xã Quế Sơn Trung",
         "fullNameEn": "Que Son Trung Commune",
         "codeName": "que_son_trung",
+        "postalCode": "52122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1932",
         "areaKm2": 111.37
       }

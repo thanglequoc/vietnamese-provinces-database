@@ -2932,6 +2932,8 @@
         "fullName": "Xã Xuân Hoà",
         "fullNameEn": "Xuan Hoa Commune",
         "codeName": "xuan_hoa",
+        "postalCode": "41613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2668",
         "areaKm2": 28.34
       }

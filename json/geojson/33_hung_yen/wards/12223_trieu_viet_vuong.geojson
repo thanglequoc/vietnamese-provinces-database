@@ -2288,6 +2288,8 @@
         "fullName": "Xã Triệu Việt Vương",
         "fullNameEn": "Trieu Viet Vuong Commune",
         "codeName": "trieu_viet_vuong",
+        "postalCode": "17831",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.714",
         "areaKm2": 27.15
       }

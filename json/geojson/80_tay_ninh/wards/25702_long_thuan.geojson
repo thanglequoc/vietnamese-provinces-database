@@ -2456,6 +2456,8 @@
         "fullName": "Xã Long Thuận",
         "fullNameEn": "Long Thuan Commune",
         "codeName": "long_thuan",
+        "postalCode": "80812",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2731",
         "areaKm2": 65.61
       }

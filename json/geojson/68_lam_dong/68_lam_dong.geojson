@@ -13100,6 +13100,8 @@
         "fullName": "Tỉnh Lâm Đồng",
         "fullNameEn": "Lam Dong Province",
         "codeName": "lam_dong",
+        "postalCode": "",
+        "postalCodePrefix": "65, 66, 77",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.47",
         "areaKm2": 24233.07
       }

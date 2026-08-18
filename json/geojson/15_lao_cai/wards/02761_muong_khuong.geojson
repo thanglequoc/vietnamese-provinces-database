@@ -14656,6 +14656,8 @@
         "fullName": "Xã Mường Khương",
         "fullNameEn": "Muong Khuong Commune",
         "codeName": "muong_khuong",
+        "postalCode": "31506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1059",
         "areaKm2": 169.2
       }

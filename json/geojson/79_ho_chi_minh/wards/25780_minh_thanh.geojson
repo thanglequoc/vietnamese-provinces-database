@@ -5540,6 +5540,8 @@
         "fullName": "Xã Minh Thạnh",
         "fullNameEn": "Minh Thanh Commune",
         "codeName": "minh_thanh",
+        "postalCode": "75815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.6",
         "areaKm2": 159.06
       }

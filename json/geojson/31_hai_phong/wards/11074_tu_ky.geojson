@@ -2900,6 +2900,8 @@
         "fullName": "Xã Tứ Kỳ",
         "fullNameEn": "Tu Ky Commune",
         "codeName": "tu_ky",
+        "postalCode": "03906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.896",
         "areaKm2": 30.86
       }

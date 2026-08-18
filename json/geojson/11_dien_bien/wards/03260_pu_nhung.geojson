@@ -6476,6 +6476,8 @@
         "fullName": "Xã Pú Nhung",
         "fullNameEn": "Pu Nhung Commune",
         "codeName": "pu_nhung",
+        "postalCode": "32513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2255",
         "areaKm2": 209.93
       }

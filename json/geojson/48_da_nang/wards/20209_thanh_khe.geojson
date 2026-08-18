@@ -1932,6 +1932,8 @@
         "fullName": "Phường Thanh Khê",
         "fullNameEn": "Thanh Khe Ward",
         "codeName": "thanh_khe",
+        "postalCode": "50316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1907",
         "areaKm2": 7.92
       }

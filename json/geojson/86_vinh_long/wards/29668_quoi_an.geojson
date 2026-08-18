@@ -8172,6 +8172,8 @@
         "fullName": "Xã Quới An",
         "fullNameEn": "Quoi An Commune",
         "codeName": "quoi_an",
+        "postalCode": "85708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2538",
         "areaKm2": 44.93
       }

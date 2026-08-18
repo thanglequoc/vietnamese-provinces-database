@@ -4740,6 +4740,8 @@
         "fullName": "Xã Hiển Khánh",
         "fullNameEn": "Hien Khanh Commune",
         "codeName": "hien_khanh",
+        "postalCode": "07268",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.785",
         "areaKm2": 30.24
       }

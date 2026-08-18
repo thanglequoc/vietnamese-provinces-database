@@ -6324,6 +6324,8 @@
         "fullName": "Phường Bình Đức",
         "fullNameEn": "Binh Duc Ward",
         "codeName": "binh_duc",
+        "postalCode": "90112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.306",
         "areaKm2": 28.23
       }

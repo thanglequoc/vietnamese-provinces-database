@@ -6892,6 +6892,8 @@
         "fullName": "Xã Gia Phù",
         "fullNameEn": "Gia Phu Commune",
         "codeName": "gia_phu",
+        "postalCode": "34916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1368",
         "areaKm2": 111.32
       }

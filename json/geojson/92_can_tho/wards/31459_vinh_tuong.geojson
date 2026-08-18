@@ -4668,6 +4668,8 @@
         "fullName": "Xã Vĩnh Tường",
         "fullNameEn": "Vinh Tuong Commune",
         "codeName": "vinh_tuong",
+        "postalCode": "95209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.253",
         "areaKm2": 67.01
       }

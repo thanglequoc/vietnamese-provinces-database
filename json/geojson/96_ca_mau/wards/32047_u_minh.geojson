@@ -7564,6 +7564,8 @@
         "fullName": "Xã U Minh",
         "fullNameEn": "U Minh Commune",
         "codeName": "u_minh",
+        "postalCode": "98314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.168",
         "areaKm2": 145
       }

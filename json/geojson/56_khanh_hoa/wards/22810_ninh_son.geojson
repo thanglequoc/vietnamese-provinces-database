@@ -7848,6 +7848,8 @@
         "fullName": "Xã Ninh Sơn",
         "fullNameEn": "Ninh Son Commune",
         "codeName": "ninh_son",
+        "postalCode": "59514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1148",
         "areaKm2": 99.3
       }

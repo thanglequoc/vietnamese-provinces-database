@@ -8088,6 +8088,8 @@
         "fullName": "Xã Quản Bạ",
         "fullNameEn": "Quan Ba Commune",
         "codeName": "quan_ba",
+        "postalCode": "20365",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2386",
         "areaKm2": 102.87
       }

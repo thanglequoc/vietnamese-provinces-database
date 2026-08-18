@@ -5540,6 +5540,8 @@
         "fullName": "Xã Phan Rí Cửa",
         "fullNameEn": "Phan Ri Cua Commune",
         "codeName": "phan_ri_cua",
+        "postalCode": "77216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3068",
         "areaKm2": 67.67
       }

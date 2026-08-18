@@ -16344,6 +16344,8 @@
         "fullName": "Xã Phước Dinh",
         "fullNameEn": "Phuoc Dinh Commune",
         "codeName": "phuoc_dinh",
+        "postalCode": "59713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1163",
         "areaKm2": 154
       }

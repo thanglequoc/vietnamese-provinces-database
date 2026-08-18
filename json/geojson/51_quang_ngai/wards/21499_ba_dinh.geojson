@@ -6952,6 +6952,8 @@
         "fullName": "Xã Ba Dinh",
         "fullNameEn": "Ba Dinh Commune",
         "codeName": "ba_dinh",
+        "postalCode": "54209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1784",
         "areaKm2": 97.05
       }

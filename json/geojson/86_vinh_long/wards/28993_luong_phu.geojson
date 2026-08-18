@@ -9128,6 +9128,8 @@
         "fullName": "Xã Lương Phú",
         "fullNameEn": "Luong Phu Commune",
         "codeName": "luong_phu",
+        "postalCode": "86615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2460",
         "areaKm2": 27.88
       }

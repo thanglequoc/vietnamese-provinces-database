@@ -6936,6 +6936,8 @@
         "fullName": "Xã Quý Hoà",
         "fullNameEn": "Quy Hoa Commune",
         "codeName": "quy_hoa",
+        "postalCode": "25413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1830",
         "areaKm2": 130.28
       }

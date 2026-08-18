@@ -8192,6 +8192,8 @@
         "fullName": "Xã Phước Long",
         "fullNameEn": "Phuoc Long Commune",
         "codeName": "phuoc_long",
+        "postalCode": "86619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2461",
         "areaKm2": 39.95
       }

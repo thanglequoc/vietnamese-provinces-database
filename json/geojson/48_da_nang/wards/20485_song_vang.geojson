@@ -8460,6 +8460,8 @@
         "fullName": "Xã Sông Vàng",
         "fullNameEn": "Song Vang Commune",
         "codeName": "song_vang",
+        "postalCode": "51718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1924",
         "areaKm2": 183.63
       }

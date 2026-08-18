@@ -1984,6 +1984,8 @@
         "fullName": "Xã Thiệu Toán",
         "fullNameEn": "Thieu Toan Commune",
         "codeName": "thieu_toan",
+        "postalCode": "40922",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2666",
         "areaKm2": 28.39
       }

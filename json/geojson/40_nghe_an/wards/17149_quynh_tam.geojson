@@ -5860,6 +5860,8 @@
         "fullName": "Xã Quỳnh Tam",
         "fullNameEn": "Quynh Tam Commune",
         "codeName": "quynh_tam",
+        "postalCode": "43536",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1486",
         "areaKm2": 103.4
       }

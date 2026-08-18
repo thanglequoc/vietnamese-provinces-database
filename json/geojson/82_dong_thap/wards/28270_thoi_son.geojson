@@ -2804,6 +2804,8 @@
         "fullName": "Phường Thới Sơn",
         "fullNameEn": "Thoi Son Ward",
         "codeName": "thoi_son",
+        "postalCode": "84122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.481",
         "areaKm2": 15.2
       }

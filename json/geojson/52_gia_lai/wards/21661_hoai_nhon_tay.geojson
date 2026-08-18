@@ -10356,6 +10356,8 @@
         "fullName": "Phường Hoài Nhơn Tây",
         "fullNameEn": "Hoai Nhon Tay Ward",
         "codeName": "hoai_nhon_tay",
+        "postalCode": "55426",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2975",
         "areaKm2": 78.15
       }

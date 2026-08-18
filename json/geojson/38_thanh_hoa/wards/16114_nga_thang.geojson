@@ -4296,6 +4296,8 @@
         "fullName": "Xã Nga Thắng",
         "fullNameEn": "Nga Thang Commune",
         "codeName": "nga_thang",
+        "postalCode": "40522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2624",
         "areaKm2": 27.52
       }

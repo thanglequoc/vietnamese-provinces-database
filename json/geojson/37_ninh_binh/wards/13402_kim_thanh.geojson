@@ -2040,6 +2040,8 @@
         "fullName": "Phường Kim Thanh",
         "fullNameEn": "Kim Thanh Ward",
         "codeName": "kim_thanh",
+        "postalCode": "18326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2770",
         "areaKm2": 13.49
       }

@@ -10724,6 +10724,8 @@
         "fullName": "Xã Cao Bồ",
         "fullNameEn": "Cao Bo Commune",
         "codeName": "cao_bo",
+        "postalCode": "20223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2394",
         "areaKm2": 111.18
       }

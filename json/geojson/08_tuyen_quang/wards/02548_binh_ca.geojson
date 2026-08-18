@@ -6592,6 +6592,8 @@
         "fullName": "Xã Bình Ca",
         "fullNameEn": "Binh Ca Commune",
         "codeName": "binh_ca",
+        "postalCode": "22739",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2356",
         "areaKm2": 69.48
       }

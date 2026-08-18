@@ -9764,6 +9764,8 @@
         "fullName": "Xã Mỹ Tịnh An",
         "fullNameEn": "My Tinh An Commune",
         "codeName": "my_tinh_an",
+        "postalCode": "84520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.483",
         "areaKm2": 41.2
       }

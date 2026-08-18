@@ -7664,6 +7664,8 @@
         "fullName": "Xã Tuyên Hoá",
         "fullNameEn": "Tuyen Hoa Commune",
         "codeName": "tuyen_hoa",
+        "postalCode": "47530",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.611",
         "areaKm2": 194.92
       }

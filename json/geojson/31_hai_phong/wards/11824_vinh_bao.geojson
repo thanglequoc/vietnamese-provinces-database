@@ -2152,6 +2152,8 @@
         "fullName": "Xã Vĩnh Bảo",
         "fullNameEn": "Vinh Bao Commune",
         "codeName": "vinh_bao",
+        "postalCode": "05306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.919",
         "areaKm2": 30.6
       }

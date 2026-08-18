@@ -3580,6 +3580,8 @@
         "fullName": "Xã Quảng Trạch",
         "fullNameEn": "Quang Trach Commune",
         "codeName": "quang_trach",
+        "postalCode": "47424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.616",
         "areaKm2": 56.64
       }

@@ -8616,6 +8616,8 @@
         "fullName": "Xã Tây Trà",
         "fullNameEn": "Tay Tra Commune",
         "codeName": "tay_tra",
+        "postalCode": "53419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1755",
         "areaKm2": 170.86
       }

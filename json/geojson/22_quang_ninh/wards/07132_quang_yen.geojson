@@ -3364,6 +3364,8 @@
         "fullName": "Phường Quảng Yên",
         "fullNameEn": "Quang Yen Ward",
         "codeName": "quang_yen",
+        "postalCode": "02206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1880",
         "areaKm2": 20.69
       }

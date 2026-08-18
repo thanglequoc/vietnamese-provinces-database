@@ -25564,6 +25564,8 @@
         "fullName": "Xã Lộc Thành",
         "fullNameEn": "Loc Thanh Commune",
         "codeName": "loc_thanh",
+        "postalCode": "67614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2286",
         "areaKm2": 206.1
       }

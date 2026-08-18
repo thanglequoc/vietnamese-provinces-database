@@ -1352,6 +1352,8 @@
         "fullName": "Xã Tiên Lãng",
         "fullNameEn": "Tien Lang Commune",
         "codeName": "tien_lang",
+        "postalCode": "05206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.916",
         "areaKm2": 27.89
       }

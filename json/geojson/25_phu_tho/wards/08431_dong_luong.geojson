@@ -5940,6 +5940,8 @@
         "fullName": "Xã Đồng Lương",
         "fullNameEn": "Dong Luong Commune",
         "codeName": "dong_luong",
+        "postalCode": "35630",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1563",
         "areaKm2": 36.33
       }

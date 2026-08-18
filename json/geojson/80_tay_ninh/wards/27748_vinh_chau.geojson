@@ -4180,6 +4180,8 @@
         "fullName": "Xã Vĩnh Châu",
         "fullNameEn": "Vinh Chau Commune",
         "codeName": "vinh_chau",
+        "postalCode": "83319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1282",
         "areaKm2": 144.28
       }

@@ -12972,6 +12972,8 @@
         "fullName": "Xã Mường Lầm",
         "fullNameEn": "Muong Lam Commune",
         "codeName": "muong_lam",
+        "postalCode": "34411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1397",
         "areaKm2": 167.1
       }

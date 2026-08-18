@@ -2920,6 +2920,8 @@
         "fullName": "Xã Bất Bạt",
         "fullNameEn": "Bat Bat Commune",
         "codeName": "bat_bat",
+        "postalCode": "12638",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3234",
         "areaKm2": 56.43
       }

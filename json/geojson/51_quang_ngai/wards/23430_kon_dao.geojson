@@ -5752,6 +5752,8 @@
         "fullName": "Xã Kon Đào",
         "fullNameEn": "Kon Dao Commune",
         "codeName": "kon_dao",
+        "postalCode": "60657",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.538",
         "areaKm2": 129.34
       }

@@ -10608,6 +10608,8 @@
         "fullName": "Phường Bình Lộc",
         "fullNameEn": "Binh Loc Ward",
         "codeName": "binh_loc",
+        "postalCode": "76461",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3110",
         "areaKm2": 77.2
       }

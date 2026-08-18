@@ -2584,6 +2584,8 @@
         "fullName": "Phường Tân Sơn",
         "fullNameEn": "Tan Son Ward",
         "codeName": "tan_son",
+        "postalCode": "72126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.70",
         "areaKm2": 10.12
       }

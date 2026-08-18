@@ -1416,6 +1416,8 @@
         "fullName": "Xã An Quang",
         "fullNameEn": "An Quang Commune",
         "codeName": "an_quang",
+        "postalCode": "04525",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.906",
         "areaKm2": 21.4
       }

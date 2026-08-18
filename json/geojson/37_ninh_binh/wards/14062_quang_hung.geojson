@@ -1772,6 +1772,8 @@
         "fullName": "Xã Quang Hưng",
         "fullNameEn": "Quang Hung Commune",
         "codeName": "quang_hung",
+        "postalCode": "07629",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.791",
         "areaKm2": 15.89
       }

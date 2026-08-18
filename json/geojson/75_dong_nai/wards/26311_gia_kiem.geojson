@@ -14552,6 +14552,8 @@
         "fullName": "Xã Gia Kiệm",
         "fullNameEn": "Gia Kiem Commune",
         "codeName": "gia_kiem",
+        "postalCode": "76412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3127",
         "areaKm2": 82.7
       }

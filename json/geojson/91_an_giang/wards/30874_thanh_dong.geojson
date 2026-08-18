@@ -7304,6 +7304,8 @@
         "fullName": "Xã Thạnh Đông",
         "fullNameEn": "Thanh Dong Commune",
         "codeName": "thanh_dong",
+        "postalCode": "91217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.374",
         "areaKm2": 130.02
       }

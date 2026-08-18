@@ -5960,6 +5960,8 @@
         "fullName": "Phường Xuân Lập",
         "fullNameEn": "Xuan Lap Ward",
         "codeName": "xuan_lap",
+        "postalCode": "76468",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3138",
         "areaKm2": 29.2
       }

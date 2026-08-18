@@ -2272,6 +2272,8 @@
         "fullName": "Xã Cẩm Tân",
         "fullNameEn": "Cam Tan Commune",
         "codeName": "cam_tan",
+        "postalCode": "41323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2645",
         "areaKm2": 66.63
       }

@@ -5664,6 +5664,8 @@
         "fullName": "Xã Bình Khánh",
         "fullNameEn": "Binh Khanh Commune",
         "codeName": "binh_khanh",
+        "postalCode": "73310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.135",
         "areaKm2": 158.28
       }

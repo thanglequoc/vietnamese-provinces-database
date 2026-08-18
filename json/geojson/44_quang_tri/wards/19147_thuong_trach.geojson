@@ -18592,6 +18592,8 @@
         "fullName": "Xã Thượng Trạch",
         "fullNameEn": "Thuong Trach Commune",
         "codeName": "thuong_trach",
+        "postalCode": "47230",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.624",
         "areaKm2": 1095.78
       }

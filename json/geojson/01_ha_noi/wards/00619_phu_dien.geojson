@@ -1244,6 +1244,8 @@
         "fullName": "Phường Phú Diễn",
         "fullNameEn": "Phu Dien Ward",
         "codeName": "phu_dien",
+        "postalCode": "11916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3271",
         "areaKm2": 6.29
       }

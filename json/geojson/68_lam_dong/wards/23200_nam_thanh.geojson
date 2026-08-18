@@ -28788,6 +28788,8 @@
         "fullName": "Xã Nam Thành",
         "fullNameEn": "Nam Thanh Commune",
         "codeName": "nam_thanh",
+        "postalCode": "77570",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3091",
         "areaKm2": 201.78
       }

@@ -2780,6 +2780,8 @@
         "fullName": "Xã Ba Chúc",
         "fullNameEn": "Ba Chuc Commune",
         "codeName": "ba_chuc",
+        "postalCode": "90809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.338",
         "areaKm2": 70.94
       }

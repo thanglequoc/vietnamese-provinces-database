@@ -6824,6 +6824,8 @@
         "fullName": "Phường Việt Trì",
         "fullNameEn": "Viet Tri Ward",
         "codeName": "viet_tri",
+        "postalCode": "35129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1569",
         "areaKm2": 25.83
       }

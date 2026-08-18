@@ -13568,6 +13568,8 @@
         "fullName": "Xã Quốc Khánh",
         "fullNameEn": "Quoc Khanh Commune",
         "codeName": "quoc_khanh",
+        "postalCode": "25309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1824",
         "areaKm2": 168.15
       }

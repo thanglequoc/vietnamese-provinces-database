@@ -2900,6 +2900,8 @@
         "fullName": "Xã Cam Hồng",
         "fullNameEn": "Cam Hong Commune",
         "codeName": "cam_hong",
+        "postalCode": "47835",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.633",
         "areaKm2": 87.89
       }

@@ -11468,6 +11468,8 @@
         "fullName": "Xã Cát Tiến",
         "fullNameEn": "Cat Tien Commune",
         "codeName": "cat_tien",
+        "postalCode": "55319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3004",
         "areaKm2": 103.36
       }

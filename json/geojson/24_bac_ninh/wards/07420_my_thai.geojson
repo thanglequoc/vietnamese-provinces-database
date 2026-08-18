@@ -8616,6 +8616,8 @@
         "fullName": "Xã Mỹ Thái",
         "fullNameEn": "My Thai Commune",
         "codeName": "my_thai",
+        "postalCode": "26622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2170",
         "areaKm2": 46.63
       }

@@ -29152,6 +29152,8 @@
         "fullName": "Xã Bình Tân",
         "fullNameEn": "Binh Tan Commune",
         "codeName": "binh_tan",
+        "postalCode": "67714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2277",
         "areaKm2": 190.9
       }

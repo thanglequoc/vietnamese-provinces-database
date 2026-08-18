@@ -16248,6 +16248,8 @@
         "fullName": "Phường Thanh Thuỷ",
         "fullNameEn": "Thanh Thuy Ward",
         "codeName": "thanh_thuy",
+        "postalCode": "49619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1692",
         "areaKm2": 48.92
       }

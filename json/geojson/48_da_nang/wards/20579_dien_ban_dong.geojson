@@ -7936,6 +7936,8 @@
         "fullName": "Phường Điện Bàn Đông",
         "fullNameEn": "Dien Ban Dong Ward",
         "codeName": "dien_ban_dong",
+        "postalCode": "51427",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1949",
         "areaKm2": 61.02
       }

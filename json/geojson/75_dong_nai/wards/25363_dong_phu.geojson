@@ -16688,6 +16688,8 @@
         "fullName": "Phường Đồng Phú",
         "fullNameEn": "Dong Phu Ward",
         "codeName": "dong_phu",
+        "postalCode": "67217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2308",
         "areaKm2": 138.7
       }

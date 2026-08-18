@@ -6984,6 +6984,8 @@
         "fullName": "Phường Cửa Ông",
         "fullNameEn": "Cua Ong Ward",
         "codeName": "cua_ong",
+        "postalCode": "01214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1871",
         "areaKm2": 41.07
       }

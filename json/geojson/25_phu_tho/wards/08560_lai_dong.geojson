@@ -6540,6 +6540,8 @@
         "fullName": "Xã Lai Đồng",
         "fullNameEn": "Lai Dong Commune",
         "codeName": "lai_dong",
+        "postalCode": "35561",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1580",
         "areaKm2": 108.45
       }

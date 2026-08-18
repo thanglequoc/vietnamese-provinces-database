@@ -7996,6 +7996,8 @@
         "fullName": "Xã Phú Hồ",
         "fullNameEn": "Phu Ho Commune",
         "codeName": "phu_ho",
+        "postalCode": "49925",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1704",
         "areaKm2": 57.72
       }

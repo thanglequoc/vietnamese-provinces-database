@@ -6160,6 +6160,8 @@
         "fullName": "Phường Ngã Năm",
         "fullNameEn": "Nga Nam Ward",
         "codeName": "nga_nam",
+        "postalCode": "96514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.294",
         "areaKm2": 95.3
       }

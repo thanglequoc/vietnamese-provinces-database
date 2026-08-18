@@ -1788,6 +1788,8 @@
         "fullName": "Phường Vinh Phú",
         "fullNameEn": "Vinh Phu Ward",
         "codeName": "vinh_phu",
+        "postalCode": "43134",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1518",
         "areaKm2": 23.04
       }

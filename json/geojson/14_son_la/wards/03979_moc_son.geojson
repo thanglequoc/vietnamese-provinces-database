@@ -3400,6 +3400,8 @@
         "fullName": "Phường Mộc Sơn",
         "fullNameEn": "Moc Son Ward",
         "codeName": "moc_son",
+        "postalCode": "34721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1379",
         "areaKm2": 37.88
       }

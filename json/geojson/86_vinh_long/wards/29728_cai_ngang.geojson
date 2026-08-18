@@ -9500,6 +9500,8 @@
         "fullName": "Xã Cái Ngang",
         "fullNameEn": "Cai Ngang Commune",
         "codeName": "cai_ngang",
+        "postalCode": "85323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2545",
         "areaKm2": 63.14
       }

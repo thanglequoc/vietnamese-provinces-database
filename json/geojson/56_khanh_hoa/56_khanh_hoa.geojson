@@ -35940,6 +35940,8 @@
         "fullName": "Tỉnh Khánh Hoà",
         "fullNameEn": "Khanh Hoa Province",
         "codeName": "khanh_hoa",
+        "postalCode": "",
+        "postalCodePrefix": "57, 59",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.133",
         "areaKm2": 8555.86
       }

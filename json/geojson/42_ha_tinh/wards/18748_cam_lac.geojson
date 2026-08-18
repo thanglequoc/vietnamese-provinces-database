@@ -4876,6 +4876,8 @@
         "fullName": "Xã Cẩm Lạc",
         "fullNameEn": "Cam Lac Commune",
         "codeName": "cam_lac",
+        "postalCode": "46127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2021",
         "areaKm2": 115.86
       }

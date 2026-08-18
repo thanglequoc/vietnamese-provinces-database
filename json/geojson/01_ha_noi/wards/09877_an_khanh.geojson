@@ -3176,6 +3176,8 @@
         "fullName": "Xã An Khánh",
         "fullNameEn": "An Khanh Commune",
         "codeName": "an_khanh",
+        "postalCode": "13219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3272",
         "areaKm2": 28.69
       }

@@ -7844,6 +7844,8 @@
         "fullName": "Xã Hạnh Phúc",
         "fullNameEn": "Hanh Phuc Commune",
         "codeName": "hanh_phuc",
+        "postalCode": "21918",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1003",
         "areaKm2": 126.78
       }

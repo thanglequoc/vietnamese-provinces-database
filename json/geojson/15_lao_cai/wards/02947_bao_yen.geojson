@@ -9096,6 +9096,8 @@
         "fullName": "Xã Bảo Yên",
         "fullNameEn": "Bao Yen Commune",
         "codeName": "bao_yen",
+        "postalCode": "31924",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1078",
         "areaKm2": 119.1
       }

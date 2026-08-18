@@ -13184,6 +13184,8 @@
         "fullName": "Xã Lộc Bình",
         "fullNameEn": "Loc Binh Commune",
         "codeName": "loc_binh",
+        "postalCode": "25806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1846",
         "areaKm2": 79.15
       }

@@ -2576,6 +2576,8 @@
         "fullName": "Xã Nam Gianh",
         "fullNameEn": "Nam Gianh Commune",
         "codeName": "nam_gianh",
+        "postalCode": "47324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.619",
         "areaKm2": 34.43
       }

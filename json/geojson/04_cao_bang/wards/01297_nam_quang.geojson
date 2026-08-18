@@ -10976,6 +10976,8 @@
         "fullName": "Xã Nam Quang",
         "fullNameEn": "Nam Quang Commune",
         "codeName": "nam_quang",
+        "postalCode": "21414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.970",
         "areaKm2": 148.16
       }

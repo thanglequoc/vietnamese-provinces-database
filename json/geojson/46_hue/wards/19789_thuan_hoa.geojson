@@ -3808,6 +3808,8 @@
         "fullName": "Phường Thuận Hoá",
         "fullNameEn": "Thuan Hoa Ward",
         "codeName": "thuan_hoa",
+        "postalCode": "49135",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1688",
         "areaKm2": 7.57
       }

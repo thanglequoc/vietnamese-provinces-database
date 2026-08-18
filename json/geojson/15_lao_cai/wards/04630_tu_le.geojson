@@ -6968,6 +6968,8 @@
         "fullName": "Xã Tú Lệ",
         "fullNameEn": "Tu Le Commune",
         "codeName": "tu_le",
+        "postalCode": "33814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1042",
         "areaKm2": 115.35
       }

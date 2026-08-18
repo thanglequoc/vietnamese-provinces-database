@@ -5056,6 +5056,8 @@
         "fullName": "Xã Phước Vĩnh Tây",
         "fullNameEn": "Phuoc Vinh Tay Commune",
         "codeName": "phuoc_vinh_tay",
+        "postalCode": "82518",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1328",
         "areaKm2": 34.4
       }

@@ -10404,6 +10404,8 @@
         "fullName": "Xã An Vinh",
         "fullNameEn": "An Vinh Commune",
         "codeName": "an_vinh",
+        "postalCode": "55510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2969",
         "areaKm2": 196.19
       }

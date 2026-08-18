@@ -784,6 +784,8 @@
         "fullName": "Phường Ô Chợ Dừa",
         "fullNameEn": "O Cho Dua Ward",
         "codeName": "o_cho_dua",
+        "postalCode": "11511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3204",
         "areaKm2": 1.83
       }

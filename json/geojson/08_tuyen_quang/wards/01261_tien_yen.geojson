@@ -11428,6 +11428,8 @@
         "fullName": "Xã Tiên Yên",
         "fullNameEn": "Tien Yen Commune",
         "codeName": "tien_yen",
+        "postalCode": "20767",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2423",
         "areaKm2": 97.18
       }

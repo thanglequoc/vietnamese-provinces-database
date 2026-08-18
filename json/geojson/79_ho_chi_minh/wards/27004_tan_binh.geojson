@@ -852,6 +852,8 @@
         "fullName": "Phường Tân Bình",
         "fullNameEn": "Tan Binh Ward",
         "codeName": "tan_binh",
+        "postalCode": "72123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.68",
         "areaKm2": 2.12
       }

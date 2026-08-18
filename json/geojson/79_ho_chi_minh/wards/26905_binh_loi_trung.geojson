@@ -5928,6 +5928,8 @@
         "fullName": "Phường Bình Lợi Trung",
         "fullNameEn": "Binh Loi Trung Ward",
         "codeName": "binh_loi_trung",
+        "postalCode": "72329",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.60",
         "areaKm2": 3.89
       }

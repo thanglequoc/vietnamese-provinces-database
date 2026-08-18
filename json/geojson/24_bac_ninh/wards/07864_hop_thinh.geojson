@@ -5396,6 +5396,8 @@
         "fullName": "Xã Hợp Thịnh",
         "fullNameEn": "Hop Thinh Commune",
         "codeName": "hop_thinh",
+        "postalCode": "26920",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2156",
         "areaKm2": 49.27
       }

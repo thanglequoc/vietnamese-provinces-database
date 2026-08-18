@@ -4016,6 +4016,8 @@
         "fullName": "Xã Liêu Tú",
         "fullNameEn": "Lieu Tu Commune",
         "codeName": "lieu_tu",
+        "postalCode": "96711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.285",
         "areaKm2": 83.15
       }

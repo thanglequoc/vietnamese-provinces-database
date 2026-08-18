@@ -10816,6 +10816,8 @@
         "fullName": "Xã Mường Ham",
         "fullNameEn": "Muong Ham Commune",
         "codeName": "muong_ham",
+        "postalCode": "43927",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1478",
         "areaKm2": 160.35
       }

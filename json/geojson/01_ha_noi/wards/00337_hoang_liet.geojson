@@ -1884,6 +1884,8 @@
         "fullName": "Phường Hoàng Liệt",
         "fullNameEn": "Hoang Liet Ward",
         "codeName": "hoang_liet",
+        "postalCode": "11719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3188",
         "areaKm2": 4.04
       }

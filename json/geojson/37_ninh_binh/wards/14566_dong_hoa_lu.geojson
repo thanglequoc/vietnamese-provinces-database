@@ -2432,6 +2432,8 @@
         "fullName": "Phường Đông Hoa Lư",
         "fullNameEn": "Dong Hoa Lu Ward",
         "codeName": "dong_hoa_lu",
+        "postalCode": "08121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.752",
         "areaKm2": 25.62
       }

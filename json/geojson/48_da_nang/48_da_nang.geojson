@@ -17800,6 +17800,8 @@
         "fullName": "Thành phố Đà Nẵng",
         "fullNameEn": "Da Nang City",
         "codeName": "da_nang",
+        "postalCode": "",
+        "postalCodePrefix": "50, 51, 52",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.132",
         "areaKm2": 11859.59
       }

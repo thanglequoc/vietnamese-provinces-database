@@ -12428,6 +12428,8 @@
         "fullName": "Xã Đồng Xuân",
         "fullNameEn": "Dong Xuan Commune",
         "codeName": "dong_xuan",
+        "postalCode": "56417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2898",
         "areaKm2": 206.26
       }

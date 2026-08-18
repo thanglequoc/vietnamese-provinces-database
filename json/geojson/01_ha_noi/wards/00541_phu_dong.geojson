@@ -6080,6 +6080,8 @@
         "fullName": "Xã Phù Đổng",
         "fullNameEn": "Phu Dong Commune",
         "codeName": "phu_dong",
+        "postalCode": "12413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3172",
         "areaKm2": 41.62
       }

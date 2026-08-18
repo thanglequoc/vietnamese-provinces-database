@@ -4220,6 +4220,8 @@
         "fullName": "Phường An Nhơn",
         "fullNameEn": "An Nhon Ward",
         "codeName": "an_nhon",
+        "postalCode": "71424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.56",
         "areaKm2": 3.23
       }

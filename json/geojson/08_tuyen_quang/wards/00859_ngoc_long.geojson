@@ -9832,6 +9832,8 @@
         "fullName": "Xã Ngọc Long",
         "fullNameEn": "Ngoc Long Commune",
         "codeName": "ngoc_long",
+        "postalCode": "20320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2381",
         "areaKm2": 84.26
       }

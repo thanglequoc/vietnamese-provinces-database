@@ -2548,6 +2548,8 @@
         "fullName": "Xã Trực Ninh",
         "fullNameEn": "Truc Ninh Commune",
         "codeName": "truc_ninh",
+        "postalCode": "07628",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.795",
         "areaKm2": 17.26
       }

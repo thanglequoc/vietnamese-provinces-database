@@ -13468,6 +13468,8 @@
         "fullName": "Xã Kim Sơn",
         "fullNameEn": "Kim Son Commune",
         "codeName": "kim_son",
+        "postalCode": "55623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2982",
         "areaKm2": 202.7
       }

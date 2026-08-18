@@ -5296,6 +5296,8 @@
         "fullName": "Xã Kỳ Anh",
         "fullNameEn": "Ky Anh Commune",
         "codeName": "ky_anh",
+        "postalCode": "46327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2026",
         "areaKm2": 64.74
       }

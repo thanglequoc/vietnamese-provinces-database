@@ -9724,6 +9724,8 @@
         "fullName": "Xã Tam Mỹ",
         "fullNameEn": "Tam My Commune",
         "codeName": "tam_my",
+        "postalCode": "52823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1965",
         "areaKm2": 173.14
       }

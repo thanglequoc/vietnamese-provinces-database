@@ -5196,6 +5196,8 @@
         "fullName": "Xã Song Lộc",
         "fullNameEn": "Song Loc Commune",
         "codeName": "song_loc",
+        "postalCode": "87915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2504",
         "areaKm2": 80.1
       }

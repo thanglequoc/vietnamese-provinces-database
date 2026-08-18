@@ -90,23 +90,15 @@
               },
               "NameEn": {
                 "type": "keyword"
+              },
+              "PostalCode": {
+                "type": "keyword"
+              },
+              "PostalCodePrefix": {
+                "type": "keyword"
               }
             },
             "type": "object"
-          }
-        },
-        "type": "object"
-      },
-      "Meta": {
-        "properties": {
-          "AdministrativeRevision": {
-            "type": "keyword"
-          },
-          "DatasetVersion": {
-            "type": "keyword"
-          },
-          "GeneratedAt": {
-            "type": "date"
           }
         },
         "type": "object"
@@ -126,6 +118,9 @@
           }
         },
         "type": "text"
+      },
+      "PostalCodePrefix": {
+        "type": "keyword"
       },
       "SearchKeywords": {
         "type": "keyword"
@@ -220,6 +215,12 @@
                   },
                   "NameEn": {
                     "type": "keyword"
+                  },
+                  "PostalCode": {
+                    "type": "keyword"
+                  },
+                  "PostalCodePrefix": {
+                    "type": "keyword"
                   }
                 },
                 "type": "object"
@@ -242,6 +243,9 @@
               }
             },
             "type": "text"
+          },
+          "PostalCode": {
+            "type": "keyword"
           },
           "SearchKeywords": {
             "type": "keyword"

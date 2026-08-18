@@ -12580,6 +12580,8 @@
         "fullName": "Xã Tân Dương",
         "fullNameEn": "Tan Duong Commune",
         "codeName": "tan_duong",
+        "postalCode": "81758",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.438",
         "areaKm2": 46.7
       }

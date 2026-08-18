@@ -6824,6 +6824,8 @@
         "fullName": "Xã Truông Mít",
         "fullNameEn": "Truong Mit Commune",
         "codeName": "truong_mit",
+        "postalCode": "80211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2736",
         "areaKm2": 74.43
       }

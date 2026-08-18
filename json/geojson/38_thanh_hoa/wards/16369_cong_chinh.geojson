@@ -7408,6 +7408,8 @@
         "fullName": "Xã Công Chính",
         "fullNameEn": "Cong Chinh Commune",
         "codeName": "cong_chinh",
+        "postalCode": "42335",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2576",
         "areaKm2": 54.24
       }

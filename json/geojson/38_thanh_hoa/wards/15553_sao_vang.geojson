@@ -6696,6 +6696,8 @@
         "fullName": "Xã Sao Vàng",
         "fullNameEn": "Sao Vang Commune",
         "codeName": "sao_vang",
+        "postalCode": "41629",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2663",
         "areaKm2": 89.27
       }

@@ -10492,6 +10492,8 @@
         "fullName": "Phường Tân Thành",
         "fullNameEn": "Tan Thanh Ward",
         "codeName": "tan_thanh",
+        "postalCode": "78716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2224",
         "areaKm2": 61.63
       }

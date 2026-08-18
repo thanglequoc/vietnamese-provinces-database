@@ -5188,6 +5188,8 @@
         "fullName": "Xã Quảng Chính",
         "fullNameEn": "Quang Chinh Commune",
         "codeName": "quang_chinh",
+        "postalCode": "42633",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2579",
         "areaKm2": 26.14
       }

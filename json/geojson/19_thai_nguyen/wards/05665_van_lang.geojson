@@ -4552,6 +4552,8 @@
         "fullName": "Xã Văn Lăng",
         "fullNameEn": "Van Lang Commune",
         "codeName": "van_lang",
+        "postalCode": "24211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1211",
         "areaKm2": 75.27
       }

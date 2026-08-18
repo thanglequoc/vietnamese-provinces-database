@@ -7232,6 +7232,8 @@
         "fullName": "Xã Lục Hồn",
         "fullNameEn": "Luc Hon Commune",
         "codeName": "luc_hon",
+        "postalCode": "01711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1891",
         "areaKm2": 107.13
       }

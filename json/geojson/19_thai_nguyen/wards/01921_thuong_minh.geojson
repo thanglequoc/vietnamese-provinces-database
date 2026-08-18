@@ -6124,6 +6124,8 @@
         "fullName": "Xã Thượng Minh",
         "fullNameEn": "Thuong Minh Commune",
         "codeName": "thuong_minh",
+        "postalCode": "23523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1170",
         "areaKm2": 131.64
       }

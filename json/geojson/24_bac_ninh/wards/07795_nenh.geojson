@@ -3596,6 +3596,8 @@
         "fullName": "Phường Nếnh",
         "fullNameEn": "Nenh Ward",
         "codeName": "nenh",
+        "postalCode": "26169",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2153",
         "areaKm2": 35.98
       }

@@ -7104,6 +7104,8 @@
         "fullName": "Xã An Hoà",
         "fullNameEn": "An Hoa Commune",
         "codeName": "an_hoa",
+        "postalCode": "81312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.415",
         "areaKm2": 77.9
       }

@@ -1844,6 +1844,8 @@
         "fullName": "Phường Phan Rang",
         "fullNameEn": "Phan Rang Ward",
         "codeName": "phan_rang",
+        "postalCode": "59122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1143",
         "areaKm2": 9.4
       }

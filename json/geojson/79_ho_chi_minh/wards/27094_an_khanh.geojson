@@ -6164,6 +6164,8 @@
         "fullName": "Phường An Khánh",
         "fullNameEn": "An Khanh Ward",
         "codeName": "an_khanh",
+        "postalCode": "71108",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.79",
         "areaKm2": 15.33
       }
