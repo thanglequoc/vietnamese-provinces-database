@@ -1,8 +1,6 @@
 package dataset_writer
 
 import (
-	"archive/zip"
-	"io"
 	"os"
 	"path/filepath"
 	"testing"
@@ -166,64 +164,28 @@ func TestGetFileTimeSuffix(t *testing.T) {
 	assert.Contains(t, result, "_", "should contain underscore for time separator")
 }
 
-func TestZipFile_CreatesValidArchive(t *testing.T) {
+func TestWriteDatasetReadme(t *testing.T) {
 	tmpDir := t.TempDir()
-
-	sourcePath := filepath.Join(tmpDir, "test_ImportData_gis.sql")
-	content := []byte("INSERT INTO gis_provinces(province_code, gis_server_id) VALUES ('01','prov.1');\n")
-	err := os.WriteFile(sourcePath, content, 0644)
+	err := os.WriteFile(filepath.Join(tmpDir, "data.sql"), []byte("-- test\n"), 0644)
 	assert.NoError(t, err)
 
-	err = zipFile(sourcePath)
+	err = writeDatasetReadme(tmpDir,
+		"PostgreSQL Dataset — Vietnamese Provinces Database",
+		"Import script for the Vietnamese Provinces Database.",
+		[]DatasetReadmeFile{{Name: "data.sql", Description: "Sample file"}},
+		[]string{"## Data Structure\n\nsample", "## Sample Queries\n\nSELECT 1;"})
 	assert.NoError(t, err)
 
-	archivePath := sourcePath + ".zip"
-	assert.FileExists(t, archivePath)
-
-	archive, err := zip.OpenReader(archivePath)
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
 	assert.NoError(t, err)
-	defer archive.Close()
+	s := string(content)
+	assert.Contains(t, s, "# PostgreSQL Dataset")
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "`data.sql` — Sample file")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Queries")
 
-	assert.Len(t, archive.File, 1, "archive should contain exactly one file")
-	assert.Equal(t, filepath.Base(sourcePath), archive.File[0].Name)
-
-	rc, err := archive.File[0].Open()
+	// Missing files are skipped without error
+	err = writeDatasetReadme(tmpDir, "T", "I", []DatasetReadmeFile{{Name: "nope.sql", Description: "missing"}}, nil)
 	assert.NoError(t, err)
-	defer rc.Close()
-
-	extracted, err := io.ReadAll(rc)
-	assert.NoError(t, err)
-	assert.Equal(t, content, extracted)
-}
-
-func TestZipFile_SourceFileNotFound(t *testing.T) {
-	err := zipFile("/nonexistent/path/to/file.sql")
-	assert.Error(t, err)
-}
-
-func TestZipFile_EmptyFile(t *testing.T) {
-	tmpDir := t.TempDir()
-
-	sourcePath := filepath.Join(tmpDir, "empty.sql")
-	err := os.WriteFile(sourcePath, []byte{}, 0644)
-	assert.NoError(t, err)
-
-	err = zipFile(sourcePath)
-	assert.NoError(t, err)
-
-	archivePath := sourcePath + ".zip"
-	assert.FileExists(t, archivePath)
-
-	archive, err := zip.OpenReader(archivePath)
-	assert.NoError(t, err)
-	defer archive.Close()
-
-	assert.Len(t, archive.File, 1)
-	rc, err := archive.File[0].Open()
-	assert.NoError(t, err)
-	defer rc.Close()
-
-	extracted, err := io.ReadAll(rc)
-	assert.NoError(t, err)
-	assert.Empty(t, extracted)
 }

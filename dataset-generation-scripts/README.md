@@ -28,7 +28,7 @@ All required data files (including GeoJSON geometry) are committed in the reposi
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:ThangLeQuoc/vietnamese-provinces-database.git
+git clone git@github.com:thanglequoc/vietnamese-provinces-database.git
 cd vietnamese-provinces-database
 ```
 
@@ -59,7 +59,12 @@ Results land in the `output/` directory. By default, the script generates:
 
 - SQL import scripts for PostgreSQL/MySQL, SQL Server, Oracle
 - JSON, MongoDB, and Redis exports
+- Elasticsearch NDJSON + mappings
 - GIS SQL scripts and GeoJSON files
+
+All exported formats include national postal codes: `postal_code_prefix` on
+provinces and `postal_code` on wards (sourced from Quyết định 2334/QĐ-BKHCN via
+`resources/postal/` seed files).
 
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.
 
@@ -73,28 +78,30 @@ output/
 ├── mssql_generated_ImportData_vn_units_*.sql               # SQL Server import
 ├── oracle_generated_ImportData_vn_units_*.sql              # Oracle import
 ├── json/
-│   ├── full_json_generated_data_vn_units_*.json            # Full dataset (provinces + wards + districts)
-│   ├── simplified_json_generated_data_vn_units_*.json      # Simplified names
-│   └── vn_only_simplified_json_generated_data_vn_units_*.json  # Vietnamese-only simplified
+│   ├── README.md                                           # Generated dataset README with bold timestamp
+│   ├── full_json_generated_data_vn_units.json              # Full dataset (provinces + wards + districts)
+│   ├── simplified_json_generated_data_vn_units.json        # Simplified names
+│   ├── simplified_json_generated_data_vn_units_minified.json  # Simplified names (minified)
+│   ├── vn_only_simplified_json_generated_data_vn_units.json  # Vietnamese-only simplified
+│   ├── vn_only_simplified_json_generated_data_vn_units_minified.json  # Vietnamese-only simplified (minified)
+│   ├── vn_provinces_wards_geojson.zip                      # Combined GeoJSON archive
+│   └── geojson/                                            # Per-province GeoJSON
+│       ├── 01_ha_noi/
+│       │   ├── 01_ha_noi.geojson                           # Province boundary
+│       │   └── wards/                                      # Per-ward boundaries
+│       │       ├── 00004_ba_dinh.geojson
+│       │       └── ...
+│       ├── 04_cao_bang/
+│       └── ...
 ├── mongodb/
-│   ├── administrative_regions_*.json
-│   ├── administrative_units_*.json
-│   └── mongo_data_vn_unit_*.json                           # Full MongoDB import
-├── redis/
-│   └── redis_vn_provinces_dataset_*.redis                   # Redis commands
-└── gis/                                                     # (only if INCLUDE_GIS=true)
-    ├── *_ImportData_gis_*.sql                               # GIS SQL imports per engine
-    ├── *_ImportData_gis_*.sql.zip                           # Compressed versions
-    ├── vn_provinces_wards_geojson_*.zip                     # Combined GeoJSON archive
-    └── geojson/                                             # Per-province GeoJSON
-        ├── README.md
-        ├── 01_ha_noi/
-        │   ├── 01_ha_noi.geojson                            # Province boundary
-        │   └── wards/                                       # Per-ward boundaries
-        │       ├── 00004_ba_dinh.geojson
-        │       └── ...
-        ├── 04_cao_bang/
-        └── ...
+│   ├── README.md                                           # Generated dataset README with bold timestamp
+│   ├── administrative_units.json
+│   ├── administrative_regions.json
+│   ├── mongo_data_vn_unit.json                             # Full MongoDB import
+│   └── gis/                                                # provinces-gis / wards-gis collections
+└── redis/
+    ├── README.md                                           # Generated dataset README with bold timestamp
+    └── redis_vn_provinces_dataset.redis                     # Redis commands
 ```
 
 ## Verify success

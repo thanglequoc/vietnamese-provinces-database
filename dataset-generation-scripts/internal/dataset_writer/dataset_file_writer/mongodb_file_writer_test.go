@@ -93,3 +93,61 @@ func TestMongoDBDatasetFileWriter_WriteToFile_CompleteDataset(t *testing.T) {
 		assert.Greater(t, len(provincesData), 0, "should have at least one province")
 	}
 }
+
+func TestMongoDBDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &MongoDBDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	provinces := []vn_provinces_tmp_model.Province{
+		{
+			Code: "01", Name: "Hà Nội", NameEn: "Ha Noi",
+			FullName: "Thành phố Hà Nội", FullNameEn: "Ha Noi City",
+			CodeName: "ha_noi", AdministrativeUnitId: 1, PostalCodePrefix: "10, 11, 12, 13, 14",
+			Wards: []*vn_provinces_tmp_model.Ward{
+				{
+					Code: "00070", Name: "Hoàn Kiếm", NameEn: "Hoan Kiem",
+					FullName: "Phường Hoàn Kiếm", FullNameEn: "Hoan Kiem Ward",
+					CodeName: "hoan_kiem", ProvinceCode: "01", AdministrativeUnitId: 3, PostalCode: "11024",
+				},
+			},
+		},
+	}
+
+	err := writer.WriteToFile(nil, nil, provinces, []vn_provinces_tmp_model.Ward{})
+	assert.NoError(t, err)
+
+	files, _ := os.ReadDir(tmpDir)
+	var mongoContent []byte
+	for _, f := range files {
+		if len(f.Name()) >= 18 && f.Name()[:18] == "mongo_data_vn_unit" {
+			mongoContent, _ = os.ReadFile(filepath.Join(tmpDir, f.Name()))
+		}
+	}
+	assert.Contains(t, string(mongoContent), "11024")
+	assert.Contains(t, string(mongoContent), "10, 11, 12, 13, 14")
+}
+
+func TestMongoDBDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := MongoDBDatasetFileWriter{OutputFolderPath: tmpDir}
+	provinces := []vn_provinces_tmp_model.Province{{Code: "01", Name: "Hà Nội", AdministrativeUnitId: 1}}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "mongo_data_vn_unit.json")
+	assert.Contains(t, s, "## Overview")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Document")
+	assert.Contains(t, s, "## Quick Start")
+	assert.Contains(t, s, "## Sample Queries")
+	assert.Contains(t, s, "## GIS / GeoJSON")
+	assert.Contains(t, s, "$geoIntersects")
+	assert.Contains(t, s, "mongoimport")
+	assert.Contains(t, s, "create_indexes.js")
+}

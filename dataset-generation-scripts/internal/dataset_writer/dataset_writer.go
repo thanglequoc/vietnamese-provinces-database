@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
 	datasetfilewriter "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
@@ -13,15 +14,39 @@ import (
 )
 
 /*
+cleanupOutputFolder removes the generated dataset artifacts inside ./output while
+preserving generation-log.txt (and other top-level files like .gitignore) so the
+tee'd log file opened by main() at startup keeps capturing output.
+*/
+func cleanupOutputFolder() {
+	entries, err := os.ReadDir("./output")
+	if err != nil {
+		log.Fatalf("Failed to read output folder for cleanup: %v", err)
+	}
+	for _, entry := range entries {
+		// Preserve the generation log file opened by main()
+		if entry.Name() == "generation-log.txt" {
+			continue
+		}
+		err := os.RemoveAll(filepath.Join("./output", entry.Name()))
+		if err != nil {
+			log.Fatalf("Failed to clean output folder entry %s: %v", entry.Name(), err)
+		}
+	}
+	_ = os.MkdirAll("./output", 0746)
+}
+
+/*
 Generate the Vietnamese Provinces Dataset SQL files
 */
 func ReadAndGenerateSQLDatasets() {
 
 	vn_provinces_tmp_repo := vnprovincestmprepo.NewVnProvincesTmpRepository(db.GetPostgresDBConnection())
 
-	// Clean up the output folder
-	os.RemoveAll("./output")
-	os.MkdirAll("./output", 0746)
+	// Clean up the output folder, but preserve generation-log.txt which is
+	// opened by main() at startup and routed through a tee pipe. Removing the
+	// whole directory would unlink the log file mid-run and lose its contents.
+	cleanupOutputFolder()
 
 	regions := vn_provinces_tmp_repo.GetAllAdministrativeRegions()
 	administrativeUnits := vn_provinces_tmp_repo.GetAllAdministrativeUnits()

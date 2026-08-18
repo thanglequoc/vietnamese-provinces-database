@@ -8,6 +8,7 @@ type JsonProvinceModel struct {
 	FullName   string
 	FullNameEn string
 	CodeName   string
+	PostalCodePrefix string
 
 	// Administrative Unit props
 	AdministrativeUnitId          int
@@ -28,6 +29,7 @@ type JsonWardModel struct {
 	FullNameEn   string
 	CodeName     string
 	ProvinceCode string
+	PostalCode   string
 
 	// Administrative Unit props
 	AdministrativeUnitId          int
@@ -45,6 +47,7 @@ type JsonProvinceSimplifiedModel struct {
 	FullName   string
 	FullNameEn string
 	CodeName   string
+	PostalCodePrefix string
 	Wards      []JsonWardSimplifiedModel
 }
 
@@ -56,12 +59,14 @@ type JsonWardSimplifiedModel struct {
 	FullNameEn   string
 	CodeName     string
 	ProvinceCode string
+	PostalCode   string
 }
 
 // VN only Simplified version
 type JsonProvinceVNSimplifiedModel struct {
 	Code     string
 	FullName string
+	PostalCodePrefix string
 	Wards    []JsonWardVNSimplifiedModel
 }
 
@@ -69,4 +74,5 @@ type JsonWardVNSimplifiedModel struct {
 	Code         string
 	FullName     string
 	ProvinceCode string
+	PostalCode   string
 }

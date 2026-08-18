@@ -1,6 +1,7 @@
 package dataset_writer
 
 import (
+	"bytes"
 	"encoding/json"
 	"os"
 	"path/filepath"
@@ -24,6 +25,7 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 			FullName: "Thành phố Hà Nội",
 			FullNameEn: "Hanoi City",
 			CodeName: "ha_noi",
+			PostalCodePrefix: "10, 11, 12, 13, 14",
 			AdministrativeUnit: model.AdministrativeUnit{
 				Id: 1, FullName: "Thành phố", FullNameEn: "City",
 				ShortName: "TP.", ShortNameEn: "City",
@@ -33,7 +35,7 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 				{
 					Code: "00001", Name: "Ba Đình", NameEn: "Ba Dinh",
 					FullName: "Phường Ba Đình", FullNameEn: "Ba Dinh Ward",
-					CodeName: "ba_dinh", AdministrativeUnit: model.AdministrativeUnit{
+					CodeName: "ba_dinh", PostalCode: "11024", AdministrativeUnit: model.AdministrativeUnit{
 						Id: 3, FullName: "Phường", FullNameEn: "Ward",
 						ShortName: "P.", ShortNameEn: "Ward",
 						CodeName: "phuong", CodeNameEn: "ward",
@@ -87,23 +89,33 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 	if doc.Name != "Hà Nội" {
 		t.Errorf("expected Name 'Hà Nội', got %q", doc.Name)
 	}
-	if doc.Meta == nil {
-		t.Fatal("expected Meta to be set")
-	}
-	if doc.Meta.DatasetVersion != esDatasetVer {
-		t.Errorf("expected DatasetVersion %q, got %q", esDatasetVer, doc.Meta.DatasetVersion)
-	}
 	if len(doc.Wards) != 1 {
 		t.Errorf("expected 1 ward, got %d", len(doc.Wards))
 	}
 	if len(doc.SearchKeywords) == 0 {
 		t.Error("expected SearchKeywords to be populated")
 	}
+	if doc.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected PostalCodePrefix '10, 11, 12, 13, 14', got %q", doc.PostalCodePrefix)
+	}
+	if len(doc.Wards) == 1 && doc.Wards[0].PostalCode != "11024" {
+		t.Errorf("expected ward PostalCode '11024', got %q", doc.Wards[0].PostalCode)
+	}
 
 	// Verify mappings/provinces.json
 	mappingPath := filepath.Join(tmpDir, "mappings", "provinces.json")
 	if _, err := os.Stat(mappingPath); os.IsNotExist(err) {
 		t.Fatal("mappings/provinces.json not found")
+	}
+	mapping, err := os.ReadFile(mappingPath)
+	if err != nil {
+		t.Fatalf("failed to read mappings/provinces.json: %v", err)
+	}
+	if !strings.Contains(string(mapping), "PostalCode") {
+		t.Error("mapping missing PostalCode field")
+	}
+	if !strings.Contains(string(mapping), "PostalCodePrefix") {
+		t.Error("mapping missing PostalCodePrefix field")
 	}
 
 	// Verify README.md
@@ -114,6 +126,30 @@ func TestWriteToFile_NonGIS(t *testing.T) {
 	}
 	if len(readme) == 0 {
 		t.Fatal("README.md is empty")
+	}
+	if !bytes.Contains(readme, []byte("**Generated at:")) {
+		t.Fatal("README.md missing bold Generated at header")
+	}
+	if !bytes.Contains(readme, []byte("## Files")) {
+		t.Fatal("README.md missing Files section")
+	}
+	if !bytes.Contains(readme, []byte("## Sample Queries")) {
+		t.Fatal("README.md missing Sample Queries section")
+	}
+	if !bytes.Contains(readme, []byte("## Overview")) {
+		t.Fatal("README.md missing Overview section")
+	}
+	if !bytes.Contains(readme, []byte("## Data Structure")) {
+		t.Fatal("README.md missing Data Structure section")
+	}
+	if !bytes.Contains(readme, []byte("## Sample Document")) {
+		t.Fatal("README.md missing Sample Document section")
+	}
+	if !bytes.Contains(readme, []byte("## Quick Start")) {
+		t.Fatal("README.md missing Quick Start section")
+	}
+	if !bytes.Contains(readme, []byte("_bulk")) {
+		t.Fatal("README.md missing _bulk import reference")
 	}
 }
 
@@ -132,6 +168,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 				Code: "01", Name: "Hà Nội", NameEn: "Hanoi",
 				FullName: "Thành phố Hà Nội", FullNameEn: "Hanoi City",
 				CodeName: "ha_noi",
+				PostalCodePrefix: "10, 11, 12, 13, 14",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 1, FullName: "Thành phố", FullNameEn: "City",
 					ShortName: "TP.", ShortNameEn: "City",
@@ -150,6 +187,7 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 				Code: "00001", Name: "Ba Đình", NameEn: "Ba Dinh",
 				FullName: "Phường Ba Đình", FullNameEn: "Ba Dinh Ward",
 				CodeName: "ba_dinh",
+				PostalCode: "11024",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 3, FullName: "Phường", FullNameEn: "Ward",
 					ShortName: "P.", ShortNameEn: "Ward",
@@ -198,6 +236,12 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	if len(doc.Wards) != 1 {
 		t.Errorf("expected 1 ward, got %d", len(doc.Wards))
 	}
+	if doc.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected province PostalCodePrefix '10, 11, 12, 13, 14', got %q", doc.PostalCodePrefix)
+	}
+	if doc.Wards[0].PostalCode != "11024" {
+		t.Errorf("expected ward PostalCode '11024', got %q", doc.Wards[0].PostalCode)
+	}
 	if doc.Wards[0].GIS == nil {
 		t.Error("expected ward GIS field to be populated")
 	}
@@ -218,6 +262,9 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	if doc.GIS.Properties.AreaKm2 != 3359.84 {
 		t.Errorf("expected Properties.AreaKm2 3359.84, got %f", doc.GIS.Properties.AreaKm2)
 	}
+	if doc.GIS.Properties.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected Properties.PostalCodePrefix '10, 11, 12, 13, 14', got %q", doc.GIS.Properties.PostalCodePrefix)
+	}
 
 	// Verify ward GIS Properties
 	if doc.Wards[0].GIS.Properties == nil {
@@ -234,6 +281,9 @@ func TestWriteElasticsearchGISDataToFile_GIS(t *testing.T) {
 	}
 	if doc.Wards[0].GIS.Properties.AreaKm2 != 5.23 {
 		t.Errorf("expected ward Properties.AreaKm2 5.23, got %f", doc.Wards[0].GIS.Properties.AreaKm2)
+	}
+	if doc.Wards[0].GIS.Properties.PostalCode != "11024" {
+		t.Errorf("expected ward Properties.PostalCode '11024', got %q", doc.Wards[0].GIS.Properties.PostalCode)
 	}
 
 	// Verify mappings/provinces-gis.json
@@ -508,5 +558,24 @@ func TestStringsJoin(t *testing.T) {
 		if got != tt.expected {
 			t.Errorf("stringsJoin(%v, %q) = %q, want %q", tt.strs, tt.sep, got, tt.expected)
 		}
+	}
+}
+
+func TestWriteToFile_MappingContainsPostalFields(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := ElasticsearchDatasetFileWriter{OutputFolderPath: tmpDir}
+	err := writer.WriteToFile(nil, nil, nil, nil)
+	if err != nil {
+		t.Fatalf("WriteToFile failed: %v", err)
+	}
+	mapping, err := os.ReadFile(filepath.Join(tmpDir, "mappings", "provinces.json"))
+	if err != nil {
+		t.Fatalf("read mapping: %v", err)
+	}
+	if !strings.Contains(string(mapping), "PostalCode") {
+		t.Error("mapping missing PostalCode")
+	}
+	if !strings.Contains(string(mapping), "PostalCodePrefix") {
+		t.Error("mapping missing PostalCodePrefix")
 	}
 }

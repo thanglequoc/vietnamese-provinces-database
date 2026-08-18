@@ -19,6 +19,7 @@ func ConvertToJsonProvinceModel(provinces []model.Province) []dataset_file_write
 			FullName:   province.FullName,
 			FullNameEn: province.FullNameEn,
 			CodeName:   province.CodeName,
+			PostalCodePrefix: province.PostalCodePrefix,
 
 			AdministrativeUnitId:          province.AdministrativeUnitId,
 			AdministrativeUnitShortName:   province.AdministrativeUnit.ShortName,
@@ -49,6 +50,7 @@ func ConvertToJsonProvinceSimplifiedModel(provinces []model.Province) []dataset_
 			FullName:   province.FullName,
 			FullNameEn: province.FullNameEn,
 			CodeName:   province.CodeName,
+			PostalCodePrefix: province.PostalCodePrefix,
 		}
 
 		if len(province.Wards) != 0 {
@@ -69,6 +71,7 @@ func ConvertToJsonProvinceVNSimplifiedModel(provinces []model.Province) []datase
 		p := dataset_file_writer_dto.JsonProvinceVNSimplifiedModel{
 			Code:     province.Code,
 			FullName: province.FullName,
+			PostalCodePrefix: province.PostalCodePrefix,
 		}
 
 		if len(province.Wards) != 0 {
@@ -95,6 +98,7 @@ func ConvertToMongoProvinceModel(provinces []model.Province) []dataset_file_writ
 			FullNameEn:           province.FullNameEn,
 			CodeName:             province.CodeName,
 			AdministrativeUnitId: province.AdministrativeUnitId,
+			PostalCodePrefix:     province.PostalCodePrefix,
 		}
 
 		if len(province.Wards) != 0 {
@@ -123,6 +127,7 @@ func ConvertToJsonWardModel(wards []model.Ward) []dataset_file_writer_dto.JsonWa
 			FullNameEn:   ward.FullNameEn,
 			CodeName:     ward.CodeName,
 			ProvinceCode: ward.ProvinceCode,
+			PostalCode:   ward.PostalCode,
 
 			AdministrativeUnitId:          ward.AdministrativeUnitId,
 			AdministrativeUnitShortName:   ward.AdministrativeUnit.ShortName,
@@ -148,6 +153,7 @@ func ConvertToJsonWardSimplifiedModel(wards []model.Ward) []dataset_file_writer_
 			FullNameEn:   ward.FullNameEn,
 			CodeName:     ward.CodeName,
 			ProvinceCode: ward.ProvinceCode,
+			PostalCode:   ward.PostalCode,
 		}
 		result = append(result, w)
 	}
@@ -162,6 +168,7 @@ func ConvertToJsonWardVNSimplifiedModel(wards []model.Ward) []dataset_file_write
 			Code:         ward.Code,
 			FullName:     ward.FullName,
 			ProvinceCode: ward.ProvinceCode,
+			PostalCode:   ward.PostalCode,
 		}
 		result = append(result, w)
 	}
@@ -182,6 +189,7 @@ func ConvertToMongoWardModel(wards []model.Ward) []dataset_file_writer_dto.Mongo
 			CodeName:             ward.CodeName,
 			ProvinceCode:         ward.ProvinceCode,
 			AdministrativeUnitId: ward.AdministrativeUnitId,
+			PostalCode:           ward.PostalCode,
 		}
 		result = append(result, w)
 	}
@@ -227,6 +235,7 @@ func ConvertToElasticsearchProvinceModel(provinces []model.Province) []dataset_f
 			FullName:           province.FullName,
 			FullNameEn:         province.FullNameEn,
 			CodeName:           province.CodeName,
+			PostalCodePrefix:   province.PostalCodePrefix,
 			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(province.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
 		}
@@ -253,6 +262,7 @@ func convertToElasticsearchWardDocuments(wards []model.Ward) []dataset_file_writ
 			FullName:           ward.FullName,
 			FullNameEn:         ward.FullNameEn,
 			CodeName:           ward.CodeName,
+			PostalCode:         ward.PostalCode,
 			AdministrativeUnit: convertToElasticsearchAdministrativeUnit(ward.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
 		}

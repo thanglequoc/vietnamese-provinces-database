@@ -26,6 +26,7 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 				Code: "01", Name: "Hà Nội", NameEn: "Hanoi",
 				FullName: "Thành phố Hà Nội", FullNameEn: "Hanoi City",
 				CodeName: "ha_noi",
+				PostalCodePrefix: "10, 11, 12, 13, 14",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 1, FullName: "Thành phố", FullNameEn: "City",
 					ShortName: "TP.", ShortNameEn: "City",
@@ -44,6 +45,7 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 				Code: "00001", Name: "Ba Đình", NameEn: "Ba Dinh",
 				FullName: "Phường Ba Đình", FullNameEn: "Ba Dinh Ward",
 				CodeName: "ba_dinh",
+				PostalCode: "11024",
 				AdministrativeUnit: model.AdministrativeUnit{
 					Id: 3, FullName: "Phường", FullNameEn: "Ward",
 					ShortName: "P.", ShortNameEn: "Ward",
@@ -86,6 +88,12 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 	if provinceDocs[0].GIS.Center.Type != "Point" {
 		t.Errorf("expected province Center.Type 'Point', got %q", provinceDocs[0].GIS.Center.Type)
 	}
+	if provinceDocs[0].GIS.Properties == nil {
+		t.Fatal("expected province GIS Properties to be populated")
+	}
+	if provinceDocs[0].GIS.Properties.PostalCodePrefix != "10, 11, 12, 13, 14" {
+		t.Errorf("expected PostalCodePrefix '10, 11, 12, 13, 14', got %q", provinceDocs[0].GIS.Properties.PostalCodePrefix)
+	}
 
 	// Verify ward GIS file exists
 	wardFiles, err := filepath.Glob(filepath.Join(tmpDir, "mongo_data_vn_ward_gis*.json"))
@@ -114,6 +122,12 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 	if wardDocs[0].GIS == nil {
 		t.Fatal("expected ward GIS to be populated")
 	}
+	if wardDocs[0].GIS.Properties == nil {
+		t.Fatal("expected ward GIS Properties to be populated")
+	}
+	if wardDocs[0].GIS.Properties.PostalCode != "11024" {
+		t.Errorf("expected PostalCode '11024', got %q", wardDocs[0].GIS.Properties.PostalCode)
+	}
 
 	// Verify create_indexes.js exists
 	indexPath := filepath.Join(tmpDir, "create_indexes.js")
@@ -121,9 +135,9 @@ func TestWriteMongoGISDataToFile(t *testing.T) {
 		t.Fatal("create_indexes.js not found")
 	}
 
-	// Verify README.md exists
+	// GIS subfolder no longer carries its own README
 	readmePath := filepath.Join(tmpDir, "README.md")
-	if _, err := os.Stat(readmePath); os.IsNotExist(err) {
-		t.Fatal("README.md not found")
+	if _, err := os.Stat(readmePath); !os.IsNotExist(err) {
+		t.Fatal("README.md should NOT be written in the mongodb gis folder")
 	}
 }

@@ -127,7 +127,7 @@ geojson/
 The export process also creates a zip archive:
 
 ```text
-vn_provinces_wards_geojson_<datetime>.zip
+vn_provinces_wards_geojson.zip
 ```
 
 ### GeoJSON Shape
@@ -182,13 +182,15 @@ psql -U <username> -d <database_name> -f postgresql/gis/postgresql_CreateGISTabl
 
 #### Step 3: Import GIS Data
 
-Unzip the Postg GIS data archive at [postgresql/gis](../../postgresql/gis/)
-Or download the raw GIS dataset file directly from [vn-province bucket][gis_dataset_postgresql_bucket_url]
-
-Execute the data import script to populate boundaries:
+Download the chunked GIS dataset from [postgresql/gis](../../postgresql/gis/). The
+data is split into parts smaller than 40 MB, named
+`postgresql_ImportData_gis-part-NN.sql`. Import every part **in
+order**, following the list in the accompanying `.manifest` file. For example:
 
 ```bash
-psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis_2026-06-20__12_32_01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-01.sql
+psql -U <username> -d <database_name> -f postgresql/gis/postgresql_ImportData_gis-part-02.sql
+# ... one psql invocation per part, in manifest order
 ```
 
 ### MySQL / MariaDB
@@ -210,13 +212,15 @@ mysql -u <username> -p <database_name> < mysql/gis/mysql_CreateGISTables.sql
 
 #### Step 2: Import GIS Data
 
-Unzip the MySQL GIS data archive at [mysql/gis](../../mysql/gis/)
-Or download the raw GIS dataset file directly from [vn-province bucket][gis_dataset_mysql_bucket_url]
-
-Execute the data import script:
+Download the chunked GIS dataset from [mysql/gis](../../mysql/gis/). The data is
+split into parts smaller than 40 MB, named
+`mysql_ImportData_gis-part-NN.sql`. Import every part **in order**,
+following the list in the accompanying `.manifest` file. For example:
 
 ```bash
-mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis_2026-06-20__12_32_01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-01.sql
+mysql -u <username> -p <database_name> < mysql/gis/mysql_ImportData_gis-part-02.sql
+# ... one mysql invocation per part, in manifest order
 ```
 
 #### MySQL Specific Notes
@@ -246,13 +250,15 @@ sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlser
 
 #### Step 2: Import GIS Data
 
-Unzip the SQL Server GIS data archive at [sqlserver/gis](../../sqlserver/gis/)
-Or download the raw GIS dataset file directly from [vn-province bucket][gis_dataset_sqlserver_bucket_url]
-
-Execute the data import script:
+Download the chunked GIS dataset from [sqlserver/gis](../../sqlserver/gis/). The
+data is split into parts smaller than 40 MB, named
+`mssql_ImportData_gis-part-NN.sql`. Import every part **in order**,
+following the list in the accompanying `.manifest` file. For example:
 
 ```cmd
-sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis_2026-06-20__12_32_02.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-01.sql
+sqlcmd -S <server_name> -d <database_name> -U <username> -P <password> -i sqlserver/gis/mssql_ImportData_gis-part-02.sql
+# ... one sqlcmd invocation per part, in manifest order
 ```
 
 #### SQL Server Specific Notes
@@ -494,6 +500,6 @@ If you find issues with the GIS dataset or have suggestions for improvements, pl
 
 **Last Updated:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/postgresql_ImportData_gis_2026-07-12__19_50_50.sql
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mysql_ImportData_gis_2026-07-12__19_50_50.sql
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mssql_ImportData_gis_2026-07-12__19_50_51.sql
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/postgresql_ImportData_gis_2026-07-12__19_50_50.sql.manifest
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mysql_ImportData_gis_2026-07-12__19_50_50.sql.manifest
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mssql_ImportData_gis_2026-07-12__19_50_51.sql.manifest

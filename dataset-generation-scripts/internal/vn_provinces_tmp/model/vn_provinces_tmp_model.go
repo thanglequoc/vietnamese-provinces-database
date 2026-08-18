@@ -32,6 +32,7 @@ type Province struct {
 	FullName string `bun:"full_name,notnull"`
 	FullNameEn string `bun:"full_name_en"`
 	CodeName string `bun:"code_name"`
+	PostalCodePrefix string `bun:"postal_code_prefix"`
 	AdministrativeUnitId int `bun:"administrative_unit_id"`
 
 	// Province has many Wards
@@ -47,6 +48,7 @@ type Ward struct {
 	FullName string `bun:"full_name,notnull"`
 	FullNameEn string `bun:"full_name_en"`
 	CodeName string `bun:"code_name"`
+	PostalCode string `bun:"postal_code"`
 	ProvinceCode string `bun:"province_code"`
 	AdministrativeUnitId int `bun:"administrative_unit_id"`
 	AdministrativeUnit AdministrativeUnit `bun:"rel:belongs-to,join:administrative_unit_id=id"`

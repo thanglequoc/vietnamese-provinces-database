@@ -41,12 +41,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Regions(t *testing.T) {
 	assert.NoError(t, err)
 	
 	// Read the file and verify content
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	assert.Len(t, files, 1, "should have created one output file")
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
 	
@@ -92,11 +87,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_AdministrativeUnits(t *testi
 	err := writer.WriteToFile(nil, administrativeUnits, nil, nil)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
 	assert.Contains(t, contentStr, "administrative_units")
@@ -121,6 +112,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 			FullNameEn:           "Ha Noi City",
 			CodeName:             "ha_noi",
 			AdministrativeUnitId: 1,
+			PostalCodePrefix:     "10, 11, 12, 13, 14",
 		},
 		{
 			Code:                 "02",
@@ -130,22 +122,19 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Provinces(t *testing.T) {
 			FullNameEn:           "Hai Phong City",
 			CodeName:             "hai_phong",
 			AdministrativeUnitId: 1,
+			PostalCodePrefix:     "03, 04, 05",
 		},
 	}
 	
 	err := writer.WriteToFile(nil, nil, provinces, nil)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
-	assert.Contains(t, contentStr, "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id)")
-	assert.Contains(t, contentStr, "('01','Hà Nội','Ha Noi','Thành phố Hà Nội','Ha Noi City','ha_noi',1)")
-	assert.Contains(t, contentStr, "('02','Hải Phòng','Hai Phong','Thành phố Hải Phòng','Hai Phong City','hai_phong',1)")
+	assert.Contains(t, contentStr, "INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix)")
+	assert.Contains(t, contentStr, "('01','Hà Nội','Ha Noi','Thành phố Hà Nội','Ha Noi City','ha_noi',1,'10, 11, 12, 13, 14')")
+	assert.Contains(t, contentStr, "('02','Hải Phòng','Hai Phong','Thành phố Hải Phòng','Hai Phong City','hai_phong',1,'03, 04, 05')")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
@@ -166,6 +155,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 			CodeName:             "bac_son",
 			ProvinceCode:         "01",
 			AdministrativeUnitId: 3,
+			PostalCode:           "11024",
 		},
 		{
 			Code:                 "002",
@@ -176,22 +166,19 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_Wards(t *testing.T) {
 			CodeName:             "tan_xa",
 			ProvinceCode:         "01",
 			AdministrativeUnitId: 4,
+			PostalCode:           "90456",
 		},
 	}
 	
 	err := writer.WriteToFile(nil, nil, nil, wards)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
-	assert.Contains(t, contentStr, "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id)")
-	assert.Contains(t, contentStr, "('001','Bắc Sơn','Bac Son','Phường Bắc Sơn','Bac Son Ward','bac_son','01',3)")
-	assert.Contains(t, contentStr, "('002','Tân Xã','Tan Xa','Xã Tân Xã','Tan Xa Commune','tan_xa','01',4)")
+	assert.Contains(t, contentStr, "INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code)")
+	assert.Contains(t, contentStr, "('001','Bắc Sơn','Bac Son','Phường Bắc Sơn','Bac Son Ward','bac_son','01',3,'11024')")
+	assert.Contains(t, contentStr, "('002','Tân Xã','Tan Xa','Xã Tân Xã','Tan Xa Commune','tan_xa','01',4,'90456')")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_EscapeSingleQuote(t *testing.T) {
@@ -217,15 +204,11 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_EscapeSingleQuote(t *testing
 	err := writer.WriteToFile(nil, nil, provinces, nil)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
 	// Verify single quotes are properly escaped (double single quotes)
-	assert.Contains(t, contentStr, "('99','Ea H''MLay','Ea H''''MLay','Xã Ea H''MLay','Ea H''MLay Commune','ea_hmlay',4)")
+	assert.Contains(t, contentStr, "('99','Ea H''MLay','Ea H''''MLay','Xã Ea H''MLay','Ea H''MLay Commune','ea_hmlay',4,NULL)")
 }
 
 func TestPostgresMySQLDatasetFileWriter_WriteToFile_BatchInsert(t *testing.T) {
@@ -253,11 +236,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_BatchInsert(t *testing.T) {
 	err := writer.WriteToFile(nil, nil, provinces, nil)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
 	
@@ -299,11 +278,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteToFile_CompleteDataset(t *testing.T
 	err := writer.WriteToFile(regions, administrativeUnits, provinces, wards)
 	assert.NoError(t, err)
 	
-	files, err := os.ReadDir(tmpDir)
-	assert.NoError(t, err)
-	
-	content, err := os.ReadFile(filepath.Join(tmpDir, files[0].Name()))
-	assert.NoError(t, err)
+	content := readGeneratedSQLFile(t, tmpDir)
 	
 	contentStr := string(content)
 	
@@ -351,7 +326,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchUsesCom
 	err = writer.WriteGISDataToFile(nil, wards)
 	assert.NoError(t, err)
 
-	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis_*.sql")
+	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis.sql")
 
 	assert.Contains(t, content, "INSERT INTO gis_wards(ward_code, gis_server_id, area_km2, bbox, geom) VALUES")
 	assert.Contains(t, content, "'00001','xa1.1'")
@@ -394,7 +369,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchSplitsA
 	err = writer.WriteGISDataToFile(nil, wards)
 	assert.NoError(t, err)
 
-	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis_*.sql")
+	content := readGeneratedGISFile(t, tmpDir, "mysql_ImportData_gis.sql")
 
 	assert.Equal(t, 2, strings.Count(content, "INSERT INTO gis_wards("))
 	assert.Contains(t, content, "'00001','xa.test',1.000000")
@@ -402,17 +377,64 @@ func TestPostgresMySQLDatasetFileWriter_WriteGISDataToFile_MySQLWardBatchSplitsA
 	assert.NotContains(t, content, "));\n\n(")
 }
 
+func readGeneratedSQLFile(t *testing.T, tmpDir string) string {
+	t.Helper()
+	files, err := os.ReadDir(tmpDir)
+	assert.NoError(t, err)
+	for _, f := range files {
+		if strings.HasSuffix(f.Name(), ".sql") {
+			content, err := os.ReadFile(filepath.Join(tmpDir, f.Name()))
+			assert.NoError(t, err)
+			return string(content)
+		}
+	}
+	t.Fatal("no .sql file found")
+	return ""
+}
+
 func readGeneratedGISFile(t *testing.T, rootDir, pattern string) string {
 	t.Helper()
 
-	matches, err := filepath.Glob(filepath.Join(rootDir, "output", "mysql", "gis", pattern))
+	// Find the manifest (pattern is e.g. "mysql_ImportData_gis.sql")
+	manifestMatches, err := filepath.Glob(filepath.Join(rootDir, "output", "mysql", "gis", pattern+".manifest"))
 	assert.NoError(t, err)
-	if !assert.Len(t, matches, 1, "should have created one GIS output file") {
+	if !assert.Len(t, manifestMatches, 1, "should have created one GIS manifest file") {
 		return ""
 	}
 
-	content, err := os.ReadFile(matches[0])
+	manifestData, err := os.ReadFile(manifestMatches[0])
 	assert.NoError(t, err)
 
-	return string(content)
+	var sb strings.Builder
+	for _, name := range strings.Split(strings.TrimSpace(string(manifestData)), "\n") {
+		content, err := os.ReadFile(filepath.Join(rootDir, "output", "mysql", "gis", name))
+		assert.NoError(t, err)
+		sb.Write(content)
+	}
+	return sb.String()
+}
+
+func TestPostgresMySQLDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+	writer := &PostgresMySQLDatasetFileWriter{
+		OutputFilePath: filepath.Join(tmpDir, "postgres_ImportData_vn_units.sql"),
+	}
+	provinces := []vn_provinces_tmp_model.Province{{Code: "01", Name: "Hà Nội", AdministrativeUnitId: 1}}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	content, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	assert.NoError(t, err)
+	s := string(content)
+	assert.Contains(t, s, "**Generated at:")
+	assert.Contains(t, s, "postgres_ImportData_vn_units.sql")
+	assert.Contains(t, s, "## Overview")
+	assert.Contains(t, s, "## Data Structure")
+	assert.Contains(t, s, "## Sample Document")
+	assert.Contains(t, s, "## Quick Start")
+	assert.Contains(t, s, "## Sample Queries")
+	assert.Contains(t, s, "## GIS / GeoJSON")
+	assert.Contains(t, s, "postgres_CreateTables_vn_units.sql")
+	assert.Contains(t, s, "administrative_regions")
 }

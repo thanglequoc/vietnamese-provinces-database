@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -37,10 +38,10 @@ func TestJSONDatasetFileWriter_WriteToFile_FullJSON(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3, "should create 3 JSON files (full, simplified, vn_only)")
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
 
-	// Verify full JSON file
-	fullContent, err := os.ReadFile(tmpDir + "/full_json_generated_data_vn_units_" + files[0].Name()[len("full_json_generated_data_vn_units_"):])
+	// Deterministic filename — no datetime suffix
+	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
 	assert.NoError(t, err)
 
 	var data interface{}
@@ -63,11 +64,14 @@ func TestJSONDatasetFileWriter_WriteToFile_EmptyDataset(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3, "should create 3 JSON files even with empty data")
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md even with empty data")
 
 	// Verify files are created and valid JSON
 	for _, f := range files {
-		content, err := os.ReadFile(tmpDir + "/" + f.Name())
+		if !strings.HasSuffix(f.Name(), ".json") {
+			continue
+		}
+		content, err := os.ReadFile(filepath.Join(tmpDir, f.Name()))
 		assert.NoError(t, err)
 
 		var data interface{}
@@ -118,14 +122,122 @@ func TestJSONDatasetFileWriter_WriteToFile_MultipleProvinces(t *testing.T) {
 
 	files, err := os.ReadDir(tmpDir)
 	assert.NoError(t, err)
-	assert.Len(t, files, 3)
+	assert.Len(t, files, 6)
 
 	// Verify full JSON contains all provinces
-	fullContent, _ := os.ReadFile(tmpDir + "/" + files[0].Name())
+	fullContent, _ := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
 	contentStr := string(fullContent)
 	assert.Contains(t, contentStr, "Hà Nội")
 	assert.Contains(t, contentStr, "Hải Phòng")
 	assert.Contains(t, contentStr, "Khánh Hòa")
+}
+
+func TestJSONDatasetFileWriter_WriteToFile_PostalCodes(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	provinces := []vn_provinces_tmp_model.Province{
+		{
+			Code: "01", Name: "Hà Nội", NameEn: "Ha Noi",
+			FullName: "Thành phố Hà Nội", FullNameEn: "Ha Noi City",
+			CodeName: "ha_noi", AdministrativeUnitId: 1,
+			PostalCodePrefix: "10, 11, 12, 13, 14",
+			Wards: []*vn_provinces_tmp_model.Ward{
+				{
+					Code: "00070", Name: "Hoàn Kiếm", NameEn: "Hoan Kiem",
+					FullName: "Phường Hoàn Kiếm", FullNameEn: "Hoan Kiem Ward",
+					CodeName: "hoan_kiem", ProvinceCode: "01", AdministrativeUnitId: 3,
+					PostalCode: "11024",
+				},
+			},
+		},
+	}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	assert.NoError(t, err)
+
+	fullContent, err := os.ReadFile(filepath.Join(tmpDir, "full_json_generated_data_vn_units.json"))
+	assert.NoError(t, err)
+	assert.Contains(t, string(fullContent), "11024")
+	assert.Contains(t, string(fullContent), "10, 11, 12, 13, 14")
+}
+
+func TestJSONDatasetFileWriter_WriteToFile_Minified(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	provinces := []vn_provinces_tmp_model.Province{
+		{
+			Code:                 "01",
+			Name:                 "Hà Nội",
+			NameEn:               "Ha Noi",
+			FullName:             "Thành phố Hà Nội",
+			FullNameEn:           "Ha Noi City",
+			CodeName:             "ha_noi",
+			AdministrativeUnitId: 1,
+		},
+	}
+
+	err := writer.WriteToFile(nil, nil, provinces, nil)
+	require.NoError(t, err)
+
+	files, err := os.ReadDir(tmpDir)
+	require.NoError(t, err)
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
+
+	minifiedFiles := []string{
+		"simplified_json_generated_data_vn_units_minified.json",
+		"vn_only_simplified_json_generated_data_vn_units_minified.json",
+	}
+	for _, name := range minifiedFiles {
+		path := filepath.Join(tmpDir, name)
+		content, err := os.ReadFile(path)
+		require.NoError(t, err, name+" should exist")
+
+		var data interface{}
+		require.NoError(t, json.Unmarshal(content, &data), name+" should be valid JSON")
+		assert.NotContains(t, string(content), "\n", name+" should be a single line")
+		assert.Contains(t, string(content), "Hà Nội")
+	}
+
+	// Minified simplified must be smaller than its pretty counterpart
+	prettyInfo, err := os.Stat(filepath.Join(tmpDir, "simplified_json_generated_data_vn_units.json"))
+	require.NoError(t, err)
+	minifiedInfo, err := os.Stat(filepath.Join(tmpDir, "simplified_json_generated_data_vn_units_minified.json"))
+	require.NoError(t, err)
+	assert.Less(t, minifiedInfo.Size(), prettyInfo.Size())
+}
+
+func TestJSONDatasetFileWriter_WriteToFile_README(t *testing.T) {
+	tmpDir := t.TempDir()
+
+	writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
+
+	err := writer.WriteToFile(nil, nil, nil, nil)
+	require.NoError(t, err)
+
+	files, err := os.ReadDir(tmpDir)
+	require.NoError(t, err)
+	assert.Len(t, files, 6, "should create 5 JSON files + README.md")
+
+	readmeContent, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
+	require.NoError(t, err)
+
+	contentStr := string(readmeContent)
+	assert.Contains(t, contentStr, "**Generated at:")
+	assert.Contains(t, contentStr, "full_json_generated_data_vn_units.json")
+	assert.Contains(t, contentStr, "simplified_json_generated_data_vn_units_minified.json")
+	assert.Contains(t, contentStr, "vn_only_simplified_json_generated_data_vn_units_minified.json")
+	assert.Contains(t, contentStr, "geojson/")
+	assert.Contains(t, contentStr, "vn_provinces_wards_geojson.zip")
+	assert.Contains(t, contentStr, "## Data Structure")
+	assert.Contains(t, contentStr, "## Sample Queries")
+	assert.Contains(t, contentStr, "## Overview")
+	assert.Contains(t, contentStr, "## Sample Document")
+	assert.Contains(t, contentStr, "## Quick Start")
+	assert.Contains(t, contentStr, "require(")
 }
 
 func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
@@ -150,6 +262,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 				FullName:   "Thành phố Hà Nội",
 				FullNameEn: "Ha Noi City",
 				CodeName:   "ha_noi",
+				PostalCodePrefix: "10, 11, 12, 13, 14",
 			},
 		},
 	}
@@ -177,6 +290,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 				FullName:   "Phường Ba Đình",
 				FullNameEn: "Ba Dinh Ward",
 				CodeName:   "ba_dinh",
+				PostalCode: "11120",
 			},
 		},
 	}
@@ -207,6 +321,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	assert.Equal(t, "ha_noi", properties["codeName"])
 	assert.Equal(t, "diaphanhanhchinhcaptinh_sn.108", properties["gisServerId"])
 	assert.Equal(t, 3359.84, properties["areaKm2"])
+	assert.Equal(t, "10, 11, 12, 13, 14", properties["postalCodePrefix"])
 
 	wardFile := filepath.Join(tmpDir, "01_ha_noi", "wards", "00004_ba_dinh.geojson")
 	wardContent, err := os.ReadFile(wardFile)
@@ -223,17 +338,13 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	assert.Equal(t, "00004", wardFeature["id"])
 	assert.Equal(t, wardJSON["bbox"], wardFeature["bbox"])
 
-	readmeContent, err := os.ReadFile(filepath.Join(tmpDir, "README.md"))
-	require.NoError(t, err)
-	assert.Contains(t, string(readmeContent), "Created at:")
-	assert.Contains(t, string(readmeContent), "geojson.io")
-	assert.Contains(t, string(readmeContent), "{province_code}_{province_code_name}")
+	wardProperties := wardFeature["properties"].(map[string]any)
+	assert.Equal(t, "11120", wardProperties["postalCode"])
 
-	zipMatches, err := filepath.Glob(filepath.Join(rootDir, "vn_provinces_wards_geojson_*.zip"))
-	require.NoError(t, err)
-	require.Len(t, zipMatches, 1)
+	_, err = os.Stat(filepath.Join(tmpDir, "README.md"))
+	require.Error(t, err, "geojson subfolder should no longer have a README.md")
 
-	zipReader, err := zip.OpenReader(zipMatches[0])
+	zipReader, err := zip.OpenReader(filepath.Join(rootDir, "vn_provinces_wards_geojson.zip"))
 	require.NoError(t, err)
 	defer zipReader.Close()
 
@@ -241,7 +352,7 @@ func TestJSONDatasetFileWriter_WriteGISGeoJSONToFile(t *testing.T) {
 	for _, f := range zipReader.File {
 		names = append(names, f.Name)
 	}
-	assert.Contains(t, names, "geojson/README.md")
+	assert.NotContains(t, names, "geojson/README.md")
 	assert.Contains(t, names, "geojson/01_ha_noi/01_ha_noi.geojson")
 	assert.Contains(t, names, "geojson/01_ha_noi/wards/00004_ba_dinh.geojson")
 }

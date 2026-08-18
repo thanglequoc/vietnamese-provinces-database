@@ -2,6 +2,7 @@ package helper
 
 import (
 	"encoding/json"
+	"strings"
 	"testing"
 
 	sapnhapbandomodel "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
@@ -92,7 +93,7 @@ func TestConvertToMongoGISProvinceDocuments(t *testing.T) {
 		},
 	}
 
-	docs := ConvertToMongoGISProvinceDocuments(geoProvinces, "2026.07.01", "2026-04-30", "2026-07-25T00:00:00Z")
+	docs := ConvertToMongoGISProvinceDocuments(geoProvinces)
 	if len(docs) != 1 {
 		t.Fatalf("expected 1 doc, got %d", len(docs))
 	}
@@ -115,14 +116,15 @@ func TestConvertToMongoGISProvinceDocuments(t *testing.T) {
 	if doc.GIS.Properties.AreaKm2 != 3359.84 {
 		t.Errorf("expected AreaKm2 3359.84, got %f", doc.GIS.Properties.AreaKm2)
 	}
-	if doc.Meta == nil {
-		t.Fatal("expected Meta to be populated")
-	}
-	if doc.Meta.DatasetVersion != "2026.07.01" {
-		t.Errorf("expected DatasetVersion '2026.07.01', got %q", doc.Meta.DatasetVersion)
-	}
 	if len(doc.SearchKeywords) == 0 {
 		t.Error("expected SearchKeywords to be populated")
+	}
+	raw, err := json.Marshal(doc)
+	if err != nil {
+		t.Fatalf("marshal doc: %v", err)
+	}
+	if strings.Contains(string(raw), "Meta") {
+		t.Error("document should not contain a Meta object")
 	}
 }
 
@@ -148,7 +150,7 @@ func TestConvertToMongoGISWardDocuments(t *testing.T) {
 		},
 	}
 
-	docs := ConvertToMongoGISWardDocuments(geoWards, "2026.07.01", "2026-04-30", "2026-07-25T00:00:00Z")
+	docs := ConvertToMongoGISWardDocuments(geoWards)
 	if len(docs) != 1 {
 		t.Fatalf("expected 1 doc, got %d", len(docs))
 	}
