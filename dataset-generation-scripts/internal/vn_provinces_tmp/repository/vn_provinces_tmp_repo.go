@@ -40,7 +40,9 @@ func (r *VnProvincesTmpRepository) GetAllAdministrativeRegions() []model.Adminis
 func (r *VnProvincesTmpRepository) GetAllProvinces() []model.Province {
 	var result []model.Province
 	ctx := context.Background()
-	err := r.db.NewSelect().Model(&result).Relation("AdministrativeUnit").Relation("Wards").Relation("Wards.AdministrativeUnit").Scan(ctx)
+	err := r.db.NewSelect().Model(&result).Order("code ASC").Relation("AdministrativeUnit").Relation("Wards", func(q *bun.SelectQuery) *bun.SelectQuery {
+		return q.Order("code ASC")
+	}).Relation("Wards.AdministrativeUnit").Scan(ctx)
 	if err != nil {
 		log.Fatal("Unable to query provinces", err)
 	}
@@ -51,7 +53,7 @@ func (r *VnProvincesTmpRepository) GetAllProvinces() []model.Province {
 func (r *VnProvincesTmpRepository) GetAllWards() []model.Ward {
 	var result []model.Ward
 	ctx := context.Background()
-	err := r.db.NewSelect().Model(&result).Scan(ctx)
+	err := r.db.NewSelect().Model(&result).Order("code ASC").Scan(ctx)
 	if err != nil {
 		log.Fatal("Unable to query wards", err)
 	}

@@ -5,3 +5,6 @@
 .vscode
 dataset-generation-scripts/output/*
 dataset-generation-scripts/.env
+
+# Agent credentials (never commit)
+.env.agent

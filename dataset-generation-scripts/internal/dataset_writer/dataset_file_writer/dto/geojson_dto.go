@@ -17,12 +17,14 @@ type GeoJSONFeature struct {
 }
 
 type GeoJSONFeatureProperties struct {
-	Code        string  `json:"code"`
-	Name        string  `json:"name"`
-	NameEn      string  `json:"nameEn"`
-	FullName    string  `json:"fullName"`
-	FullNameEn  string  `json:"fullNameEn"`
-	CodeName    string  `json:"codeName"`
-	GISServerID string  `json:"gisServerId"`
-	AreaKm2     float64 `json:"areaKm2"`
+	Code             string  `json:"code"`
+	Name             string  `json:"name"`
+	NameEn           string  `json:"nameEn"`
+	FullName         string  `json:"fullName"`
+	FullNameEn       string  `json:"fullNameEn"`
+	CodeName         string  `json:"codeName"`
+	PostalCode       string  `json:"postalCode"`
+	PostalCodePrefix string  `json:"postalCodePrefix"`
+	GISServerID      string  `json:"gisServerId"`
+	AreaKm2          float64 `json:"areaKm2"`
 }

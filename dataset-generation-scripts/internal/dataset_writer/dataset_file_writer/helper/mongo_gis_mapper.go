@@ -13,7 +13,6 @@ import (
 // to MongoDB GIS province documents.
 func ConvertToMongoGISProvinceDocuments(
 	geoProvinces []*sapnhapbandomodel.SapNhapSiteGeoUnit,
-	datasetVersion, adminRevision, generatedAt string,
 ) []dataset_file_writer_dto.MongoGISProvinceDocument {
 	var docs []dataset_file_writer_dto.MongoGISProvinceDocument
 	for _, geoProvince := range geoProvinces {
@@ -27,23 +26,19 @@ func ConvertToMongoGISProvinceDocuments(
 			CodeName:           province.CodeName,
 			AdministrativeUnit: convertToMongoAdministrativeUnit(province.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(province.Code, province.Name, province.NameEn, province.CodeName),
-			Meta: &dataset_file_writer_dto.MongoMeta{
-				DatasetVersion:         datasetVersion,
-				AdministrativeRevision: adminRevision,
-				GeneratedAt:            generatedAt,
-			},
 		}
 
 		// Add province GIS
 		provinceProps := &dataset_file_writer_dto.MongoGISProperties{
-			Code:        province.Code,
-			Name:        province.Name,
-			NameEn:      province.NameEn,
-			FullName:    province.FullName,
-			FullNameEn:  province.FullNameEn,
-			CodeName:    province.CodeName,
-			GisServerId: geoProvince.MaLK,
-			AreaKm2:     geoProvince.DienTichKM2,
+			Code:             province.Code,
+			Name:             province.Name,
+			NameEn:           province.NameEn,
+			FullName:         province.FullName,
+			FullNameEn:       province.FullNameEn,
+			CodeName:         province.CodeName,
+			PostalCodePrefix: province.PostalCodePrefix,
+			GisServerId:      geoProvince.MaLK,
+			AreaKm2:          geoProvince.DienTichKM2,
 		}
 		if gis, err := sapnhapGeoUnitToMongoGIS(*geoProvince, provinceProps); err == nil {
 			doc.GIS = gis
@@ -58,7 +53,6 @@ func ConvertToMongoGISProvinceDocuments(
 // to MongoDB GIS ward documents.
 func ConvertToMongoGISWardDocuments(
 	geoWards []*sapnhapbandomodel.SapNhapSiteGeoUnit,
-	datasetVersion, adminRevision, generatedAt string,
 ) []dataset_file_writer_dto.MongoGISWardDocument {
 	var docs []dataset_file_writer_dto.MongoGISWardDocument
 	for _, geoWard := range geoWards {
@@ -73,11 +67,6 @@ func ConvertToMongoGISWardDocuments(
 			ProvinceCode:       geoWard.VNDSProvinceCode,
 			AdministrativeUnit: convertToMongoAdministrativeUnit(ward.AdministrativeUnit),
 			SearchKeywords:     GenerateSearchKeywords(ward.Code, ward.Name, ward.NameEn, ward.CodeName),
-			Meta: &dataset_file_writer_dto.MongoMeta{
-				DatasetVersion:         datasetVersion,
-				AdministrativeRevision: adminRevision,
-				GeneratedAt:            generatedAt,
-			},
 		}
 
 		// Add ward GIS
@@ -88,6 +77,7 @@ func ConvertToMongoGISWardDocuments(
 			FullName:    ward.FullName,
 			FullNameEn:  ward.FullNameEn,
 			CodeName:    ward.CodeName,
+			PostalCode:  ward.PostalCode,
 			GisServerId: geoWard.MaLK,
 			AreaKm2:     geoWard.DienTichKM2,
 		}

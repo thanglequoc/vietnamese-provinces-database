@@ -11,8 +11,11 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DATA_DIR="$SCRIPT_DIR/output/mongodb"
 GIS_DATA_DIR="$DATA_DIR/gis"
-CONN_STRING="mongodb://root:Q35iSs8h5Y47VMcxZ5UC@localhost:27017/vn_provinces?authSource=admin"
-DB_NAME="vn_provinces"
+
+# Load MongoDB credentials from the git-ignored .env.agent file (repo root)
+set -a; source "$(git rev-parse --show-toplevel)/.env.agent"; set +a
+CONN_STRING="mongodb://${MONGO_ROOT_USER}:${MONGO_ROOT_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB_NAME}?authSource=admin"
+DB_NAME="$MONGO_DB_NAME"
 run_mongosh() {
   mongosh "$CONN_STRING" --quiet --eval "$1" 2>/dev/null || true
 }

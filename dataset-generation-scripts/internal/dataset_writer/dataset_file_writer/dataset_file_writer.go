@@ -1,12 +1,9 @@
 package dataset_writer
 
 import (
-	"archive/zip"
-	"compress/flate"
 	"fmt"
-	"io"
-	"log"
 	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 	"time"
@@ -31,11 +28,79 @@ func getFileTimeSuffix() string {
 	return strings.ReplaceAll(strings.ReplaceAll(time.Now().Format(time.DateTime), ":", "_"), " ", "__")
 }
 
+// DatasetReadmeFile describes one generated file for the dataset README.
+type DatasetReadmeFile struct {
+	Name        string
+	Description string
+}
+
+// writeDatasetReadme writes README.md at outputFolderPath: a bold generation
+// timestamp, a "Files" list with per-file sizes, then dataset-specific sections.
+func writeDatasetReadme(outputFolderPath, title, intro string, files []DatasetReadmeFile, sections []string) error {
+	lines := []string{
+		"# " + title,
+		"",
+		fmt.Sprintf("**Generated at: %s**", time.Now().Format(time.RFC1123Z)),
+		"",
+		intro,
+		"",
+	}
+	lines = append(lines, renderReadmeFilesSection(outputFolderPath, files)...)
+	if len(sections) > 0 {
+		lines = append(lines, "", strings.Join(sections, "\n"))
+	}
+	content := strings.Join(lines, "\n") + "\n"
+	return os.WriteFile(filepath.Join(outputFolderPath, "README.md"), []byte(content), 0644)
+}
+
+// renderReadmeFilesSection renders a "## Files" markdown block with per-file sizes.
+// Files that do not exist yet are skipped.
+func renderReadmeFilesSection(outputFolderPath string, files []DatasetReadmeFile) []string {
+	lines := []string{"## Files", ""}
+	for _, f := range files {
+		filePath := filepath.Join(outputFolderPath, f.Name)
+		info, err := os.Stat(filePath)
+		if err != nil {
+			continue
+		}
+		lines = append(lines, fmt.Sprintf("- `%s` — %s (%s)", f.Name, f.Description, formatFileSize(info.Size())))
+	}
+	return lines
+}
+
+func formatFileSize(size int64) string {
+	const kb = 1024
+	switch {
+	case size >= kb*kb:
+		return fmt.Sprintf("%.2f MB", float64(size)/(kb*kb))
+	case size >= kb:
+		return fmt.Sprintf("%.2f KB", float64(size)/kb)
+	default:
+		return fmt.Sprintf("%d B", size)
+	}
+}
+
 /*
 Some unit name might have a single quote character, e.g: Ea H'MLay. This method return the escaped single quote
 */
 func escapeSingleQuote(source string) string {
 	return strings.ReplaceAll(source, "'", "''")
+}
+
+// nullableSQLString returns 'value' escaped, or NULL when value is empty.
+func nullableSQLString(s string) string {
+	if s == "" {
+		return "NULL"
+	}
+	return "'" + escapeSingleQuote(s) + "'"
+}
+
+// nullableNString returns N'value' escaped, or NULL when value is empty.
+func nullableNString(s string) string {
+	if s == "" {
+		return "NULL"
+	}
+	return "N'" + escapeSingleQuote(s) + "'"
 }
 
 func parseEuropeanFloat(s string) (float64, error) {
@@ -45,58 +110,4 @@ func parseEuropeanFloat(s string) (float64, error) {
 	s = strings.ReplaceAll(s, ",", ".")
 	// Step 3: parse as float64 (or float32 if you want)
 	return strconv.ParseFloat(s, 64)
-}
-
-// zipFile compresses a single file to <sourcePath>.zip using best compression.
-// On failure, logs a warning and returns the error. The caller may discard
-// the error if zip failure should be non-fatal.
-func zipFile(sourcePath string) error {
-	source, err := os.Open(sourcePath)
-	if err != nil {
-		log.Printf("[WARN] Unable to open source file for zip archive %s: %v", sourcePath, err)
-		return fmt.Errorf("open source file %s for zipping: %w", sourcePath, err)
-	}
-	defer source.Close()
-
-	archivePath := sourcePath + ".zip"
-	archiveFile, err := os.Create(archivePath)
-	if err != nil {
-		log.Printf("[WARN] Unable to create zip archive %s: %v", archivePath, err)
-		return fmt.Errorf("create zip archive %s: %w", archivePath, err)
-	}
-	defer archiveFile.Close()
-
-	zipWriter := zip.NewWriter(archiveFile)
-	defer zipWriter.Close()
-
-	zipWriter.RegisterCompressor(zip.Deflate, func(out io.Writer) (io.WriteCloser, error) {
-		return flate.NewWriter(out, flate.BestCompression)
-	})
-
-	sourceInfo, err := source.Stat()
-	if err != nil {
-		log.Printf("[WARN] Unable to stat source file %s: %v", sourcePath, err)
-		return fmt.Errorf("stat source file %s: %w", sourcePath, err)
-	}
-
-	header, err := zip.FileInfoHeader(sourceInfo)
-	if err != nil {
-		log.Printf("[WARN] Unable to create zip header for %s: %v", sourcePath, err)
-		return fmt.Errorf("create zip header for %s: %w", sourcePath, err)
-	}
-	header.Name = sourceInfo.Name()
-	header.Method = zip.Deflate
-
-	writer, err := zipWriter.CreateHeader(header)
-	if err != nil {
-		log.Printf("[WARN] Unable to create zip entry for %s: %v", sourcePath, err)
-		return fmt.Errorf("create zip entry for %s: %w", sourcePath, err)
-	}
-
-	if _, err := io.Copy(writer, source); err != nil {
-		log.Printf("[WARN] Unable to write content to zip archive %s: %v", archivePath, err)
-		return fmt.Errorf("copy source content into zip archive %s: %w", archivePath, err)
-	}
-
-	return nil
 }
