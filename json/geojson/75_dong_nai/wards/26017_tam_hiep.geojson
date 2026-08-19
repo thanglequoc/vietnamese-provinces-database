@@ -1596,6 +1596,8 @@
         "fullName": "Phường Tam Hiệp",
         "fullNameEn": "Tam Hiep Ward",
         "codeName": "tam_hiep",
+        "postalCode": "76109",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3105",
         "areaKm2": 10.8
       }

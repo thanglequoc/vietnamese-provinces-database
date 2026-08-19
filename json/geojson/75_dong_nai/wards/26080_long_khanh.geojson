@@ -10332,6 +10332,8 @@
         "fullName": "Phường Long Khánh",
         "fullNameEn": "Long Khanh Ward",
         "codeName": "long_khanh",
+        "postalCode": "76471",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3109",
         "areaKm2": 21.3
       }

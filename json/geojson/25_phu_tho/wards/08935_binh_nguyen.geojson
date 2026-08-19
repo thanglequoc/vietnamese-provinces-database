@@ -6732,6 +6732,8 @@
         "fullName": "Xã Bình Nguyên",
         "fullNameEn": "Binh Nguyen Commune",
         "codeName": "binh_nguyen",
+        "postalCode": "15820",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1627",
         "areaKm2": 30.6
       }

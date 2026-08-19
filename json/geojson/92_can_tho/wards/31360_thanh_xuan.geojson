@@ -4024,6 +4024,8 @@
         "fullName": "Xã Thạnh Xuân",
         "fullNameEn": "Thanh Xuan Commune",
         "codeName": "thanh_xuan",
+        "postalCode": "95813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.240",
         "areaKm2": 43.95
       }

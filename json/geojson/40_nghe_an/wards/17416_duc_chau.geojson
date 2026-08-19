@@ -2804,6 +2804,8 @@
         "fullName": "Xã Đức Châu",
         "fullNameEn": "Duc Chau Commune",
         "codeName": "duc_chau",
+        "postalCode": "43446",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1444",
         "areaKm2": 20.97
       }

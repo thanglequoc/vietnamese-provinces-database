@@ -2848,6 +2848,8 @@
         "fullName": "Xã Nghĩa Dân",
         "fullNameEn": "Nghia Dan Commune",
         "codeName": "nghia_dan",
+        "postalCode": "17907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.709",
         "areaKm2": 23.29
       }

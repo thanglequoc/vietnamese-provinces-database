@@ -4024,6 +4024,8 @@
         "fullName": "Xã Lạc Phượng",
         "fullNameEn": "Lac Phuong Commune",
         "codeName": "lac_phuong",
+        "postalCode": "03924",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.890",
         "areaKm2": 24.71
       }

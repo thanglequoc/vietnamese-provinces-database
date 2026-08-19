@@ -2440,6 +2440,8 @@
         "fullName": "Phường Phủ Lý",
         "fullNameEn": "Phu Ly Ward",
         "codeName": "phu_ly",
+        "postalCode": "18128",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2788",
         "areaKm2": 11.84
       }

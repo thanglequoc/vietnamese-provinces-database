@@ -6496,6 +6496,8 @@
         "fullName": "Phường Sa Pa",
         "fullNameEn": "Sa Pa Ward",
         "codeName": "sa_pa",
+        "postalCode": "31706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1099",
         "areaKm2": 54.63
       }

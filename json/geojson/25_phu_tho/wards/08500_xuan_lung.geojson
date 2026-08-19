@@ -5644,6 +5644,8 @@
         "fullName": "Xã Xuân Lũng",
         "fullNameEn": "Xuan Lung Commune",
         "codeName": "xuan_lung",
+        "postalCode": "35260",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1584",
         "areaKm2": 24.03
       }

@@ -5516,6 +5516,8 @@
         "fullName": "Xã Phú Lộc",
         "fullNameEn": "Phu Loc Commune",
         "codeName": "phu_loc",
+        "postalCode": "96556",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.297",
         "areaKm2": 80.15
       }

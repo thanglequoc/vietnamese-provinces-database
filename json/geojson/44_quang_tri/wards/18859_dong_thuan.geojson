@@ -2024,6 +2024,8 @@
         "fullName": "Phường Đồng Thuận",
         "fullNameEn": "Dong Thuan Ward",
         "codeName": "dong_thuan",
+        "postalCode": "47123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.598",
         "areaKm2": 26.49
       }

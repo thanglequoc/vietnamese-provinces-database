@@ -4064,6 +4064,8 @@
         "fullName": "Xã Ô Diên",
         "fullNameEn": "O Dien Commune",
         "codeName": "o_dien",
+        "postalCode": "13022",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3242",
         "areaKm2": 32.06
       }

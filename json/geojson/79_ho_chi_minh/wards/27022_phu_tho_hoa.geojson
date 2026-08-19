@@ -664,6 +664,8 @@
         "fullName": "Phường Phú Thọ Hoà",
         "fullNameEn": "Phu Tho Hoa Ward",
         "codeName": "phu_tho_hoa",
+        "postalCode": "72012",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.73",
         "areaKm2": 3.02
       }

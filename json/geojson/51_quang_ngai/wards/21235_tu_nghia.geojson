@@ -7652,6 +7652,8 @@
         "fullName": "Xã Tư Nghĩa",
         "fullNameEn": "Tu Nghia Commune",
         "codeName": "tu_nghia",
+        "postalCode": "53921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1765",
         "areaKm2": 41.93
       }

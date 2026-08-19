@@ -12840,6 +12840,8 @@
         "fullName": "Phường Lào Cai",
         "fullNameEn": "Lao Cai Ward",
         "codeName": "lao_cai",
+        "postalCode": "31109",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1090",
         "areaKm2": 72.32
       }

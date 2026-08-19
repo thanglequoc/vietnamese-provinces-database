@@ -7828,6 +7828,8 @@
         "fullName": "Xã Tu Vũ",
         "fullNameEn": "Tu Vu Commune",
         "codeName": "tu_vu",
+        "postalCode": "35867",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1573",
         "areaKm2": 49.07
       }

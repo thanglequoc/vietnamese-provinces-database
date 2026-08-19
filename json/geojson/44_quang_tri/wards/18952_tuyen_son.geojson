@@ -12700,6 +12700,8 @@
         "fullName": "Xã Tuyên Sơn",
         "fullNameEn": "Tuyen Son Commune",
         "codeName": "tuyen_son",
+        "postalCode": "47526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.606",
         "areaKm2": 132.14
       }

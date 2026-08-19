@@ -23332,6 +23332,8 @@
         "fullName": "Xã Bảo Lâm 1",
         "fullNameEn": "Commune Bao Lam 1",
         "codeName": "bao_lam_1",
+        "postalCode": "66420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1264",
         "areaKm2": 204.43
       }

@@ -1412,6 +1412,8 @@
         "fullName": "Phường Nguyễn Đại Năng",
         "fullNameEn": "Nguyen Dai Nang Ward",
         "codeName": "nguyen_dai_nang",
+        "postalCode": "03432",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.881",
         "areaKm2": 17.4
       }

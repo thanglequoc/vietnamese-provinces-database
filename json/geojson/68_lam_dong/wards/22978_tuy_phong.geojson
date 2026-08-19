@@ -7132,6 +7132,8 @@
         "fullName": "Xã Tuy Phong",
         "fullNameEn": "Tuy Phong Commune",
         "codeName": "tuy_phong",
+        "postalCode": "77218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3069",
         "areaKm2": 444.1
       }

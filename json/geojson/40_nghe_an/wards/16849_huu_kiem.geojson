@@ -11680,6 +11680,8 @@
         "fullName": "Xã Hữu Kiệm",
         "fullNameEn": "Huu Kiem Commune",
         "codeName": "huu_kiem",
+        "postalCode": "44420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1505",
         "areaKm2": 188.97
       }

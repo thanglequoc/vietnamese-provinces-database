@@ -3544,6 +3544,8 @@
         "fullName": "Phường Ngũ Hành Sơn",
         "fullNameEn": "Ngu Hanh Son Ward",
         "codeName": "ngu_hanh_son",
+        "postalCode": "50510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1901",
         "areaKm2": 40.19
       }

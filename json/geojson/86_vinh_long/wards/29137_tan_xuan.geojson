@@ -9908,6 +9908,8 @@
         "fullName": "Xã Tân Xuân",
         "fullNameEn": "Tan Xuan Commune",
         "codeName": "tan_xuan",
+        "postalCode": "86811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2472",
         "areaKm2": 50.44
       }

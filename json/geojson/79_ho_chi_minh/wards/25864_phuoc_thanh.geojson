@@ -13976,6 +13976,8 @@
         "fullName": "Xã Phước Thành",
         "fullNameEn": "Phuoc Thanh Commune",
         "codeName": "phuoc_thanh",
+        "postalCode": "75617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.19",
         "areaKm2": 123.49
       }

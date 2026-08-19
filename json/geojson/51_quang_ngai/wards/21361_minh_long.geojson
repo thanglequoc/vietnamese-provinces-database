@@ -7736,6 +7736,8 @@
         "fullName": "Xã Minh Long",
         "fullNameEn": "Minh Long Commune",
         "codeName": "minh_long",
+        "postalCode": "53711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1775",
         "areaKm2": 124.74
       }

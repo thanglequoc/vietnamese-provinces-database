@@ -8816,6 +8816,8 @@
         "fullName": "Xã Đình Phong",
         "fullNameEn": "Dinh Phong Commune",
         "codeName": "dinh_phong",
+        "postalCode": "21808",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.996",
         "areaKm2": 113.77
       }

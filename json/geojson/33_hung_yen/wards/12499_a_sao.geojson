@@ -1992,6 +1992,8 @@
         "fullName": "Xã A Sào",
         "fullNameEn": "A Sao Commune",
         "codeName": "a_sao",
+        "postalCode": "06675",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.665",
         "areaKm2": 20.46
       }

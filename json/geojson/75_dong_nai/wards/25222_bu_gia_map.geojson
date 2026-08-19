@@ -19724,6 +19724,8 @@
         "fullName": "Xã Bù Gia Mập",
         "fullNameEn": "Bu Gia Map Commune",
         "codeName": "bu_gia_map",
+        "postalCode": "67513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2306",
         "areaKm2": 342.5
       }

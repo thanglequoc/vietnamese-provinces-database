@@ -14592,6 +14592,8 @@
         "fullName": "Xã Hùng An",
         "fullNameEn": "Hung An Commune",
         "codeName": "hung_an",
+        "postalCode": "20820",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2418",
         "areaKm2": 118.57
       }

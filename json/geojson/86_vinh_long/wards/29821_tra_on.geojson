@@ -5060,6 +5060,8 @@
         "fullName": "Xã Trà Ôn",
         "fullNameEn": "Tra On Commune",
         "codeName": "tra_on",
+        "postalCode": "85606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2555",
         "areaKm2": 42.78
       }

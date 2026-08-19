@@ -1780,6 +1780,8 @@
         "fullName": "Xã Hồng Vũ",
         "fullNameEn": "Hong Vu Commune",
         "codeName": "hong_vu",
+        "postalCode": "06229",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.695",
         "areaKm2": 18.77
       }

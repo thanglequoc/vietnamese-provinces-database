@@ -11480,6 +11480,8 @@
         "fullName": "Xã Anh Dũng",
         "fullNameEn": "Anh Dung Commune",
         "codeName": "anh_dung",
+        "postalCode": "59515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1150",
         "areaKm2": 320.6
       }

@@ -3604,6 +3604,8 @@
         "fullName": "Xã Thiệu Tiến",
         "fullNameEn": "Thieu Tien Commune",
         "codeName": "thieu_tien",
+        "postalCode": "40921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2662",
         "areaKm2": 23.68
       }

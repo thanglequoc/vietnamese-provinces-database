@@ -12676,6 +12676,8 @@
         "fullName": "Xã Sóc Sơn",
         "fullNameEn": "Soc Son Commune",
         "codeName": "soc_son",
+        "postalCode": "12206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3251",
         "areaKm2": 68.24
       }

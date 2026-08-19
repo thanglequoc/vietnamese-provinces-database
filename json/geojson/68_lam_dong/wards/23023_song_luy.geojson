@@ -10792,6 +10792,8 @@
         "fullName": "Xã Sông Luỹ",
         "fullNameEn": "Song Luy Commune",
         "codeName": "song_luy",
+        "postalCode": "77317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3074",
         "areaKm2": 253.33
       }

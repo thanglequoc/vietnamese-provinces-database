@@ -604,6 +604,8 @@
         "fullName": "Xã Hòn Nghệ",
         "fullNameEn": "Hon Nghe Commune",
         "codeName": "hon_nghe",
+        "postalCode": "91613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3304",
         "areaKm2": 3.46
       }

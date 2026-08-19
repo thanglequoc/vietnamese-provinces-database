@@ -9128,6 +9128,8 @@
         "fullName": "Phường An Nhơn Nam",
         "fullNameEn": "An Nhon Nam Ward",
         "codeName": "an_nhon_nam",
+        "postalCode": "55275",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3023",
         "areaKm2": 60.05
       }

@@ -5464,6 +5464,8 @@
         "fullName": "Xã Bảo Ái",
         "fullNameEn": "Bao Ai Commune",
         "codeName": "bao_ai",
+        "postalCode": "33221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1053",
         "areaKm2": 163.41
       }

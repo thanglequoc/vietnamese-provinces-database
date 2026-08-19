@@ -8320,6 +8320,8 @@
         "fullName": "Phường Phú Thọ",
         "fullNameEn": "Phu Tho Ward",
         "codeName": "phu_tho",
+        "postalCode": "35916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1583",
         "areaKm2": 23.07
       }

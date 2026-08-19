@@ -2288,6 +2288,8 @@
         "fullName": "Xã Yết Kiêu",
         "fullNameEn": "Yet Kieu Commune",
         "codeName": "yet_kieu",
+        "postalCode": "03665",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.900",
         "areaKm2": 21.53
       }

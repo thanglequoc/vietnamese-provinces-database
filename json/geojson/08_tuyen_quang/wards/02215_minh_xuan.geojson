@@ -3832,6 +3832,8 @@
         "fullName": "Phường Minh Xuân",
         "fullNameEn": "Minh Xuan Ward",
         "codeName": "minh_xuan",
+        "postalCode": "22110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2312",
         "areaKm2": 34.9
       }

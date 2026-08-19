@@ -9404,6 +9404,8 @@
         "fullName": "Xã Hoà Điền",
         "fullNameEn": "Hoa Dien Commune",
         "codeName": "hoa_dien",
+        "postalCode": "91608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.366",
         "areaKm2": 285.38
       }

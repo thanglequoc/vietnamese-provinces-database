@@ -15940,6 +15940,8 @@
         "fullName": "Xã Phú Thiện",
         "fullNameEn": "Phu Thien Commune",
         "codeName": "phu_thien",
+        "postalCode": "61706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2957",
         "areaKm2": 262.87
       }

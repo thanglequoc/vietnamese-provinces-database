@@ -4536,6 +4536,8 @@
         "fullName": "Xã Giai Xuân",
         "fullNameEn": "Giai Xuan Commune",
         "codeName": "giai_xuan",
+        "postalCode": "43817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1435",
         "areaKm2": 121.55
       }

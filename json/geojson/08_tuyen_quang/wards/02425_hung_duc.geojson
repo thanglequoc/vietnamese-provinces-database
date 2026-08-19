@@ -5916,6 +5916,8 @@
         "fullName": "Xã Hùng Đức",
         "fullNameEn": "Hung Duc Commune",
         "codeName": "hung_duc",
+        "postalCode": "22619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2340",
         "areaKm2": 63.63
       }

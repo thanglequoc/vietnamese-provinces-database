@@ -6808,6 +6808,8 @@
         "fullName": "Xã Trà Linh",
         "fullNameEn": "Tra Linh Commune",
         "codeName": "tra_linh",
+        "postalCode": "52410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1985",
         "areaKm2": 158.19
       }

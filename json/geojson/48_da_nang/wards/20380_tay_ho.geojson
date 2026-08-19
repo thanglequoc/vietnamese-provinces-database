@@ -7664,6 +7664,8 @@
         "fullName": "Xã Tây Hồ",
         "fullNameEn": "Tay Ho Commune",
         "codeName": "tay_ho",
+        "postalCode": "52717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1961",
         "areaKm2": 75.67
       }

@@ -2980,6 +2980,8 @@
         "fullName": "Xã Lê Lợi",
         "fullNameEn": "Le Loi Commune",
         "codeName": "le_loi",
+        "postalCode": "06213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.702",
         "areaKm2": 21.39
       }

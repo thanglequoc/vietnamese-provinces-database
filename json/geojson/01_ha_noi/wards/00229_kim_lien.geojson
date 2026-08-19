@@ -980,6 +980,8 @@
         "fullName": "Phường Kim Liên",
         "fullNameEn": "Kim Lien Ward",
         "codeName": "kim_lien",
+        "postalCode": "11520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3206",
         "areaKm2": 2.46
       }

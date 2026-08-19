@@ -6004,6 +6004,8 @@
         "fullName": "Xã Kim Bon",
         "fullNameEn": "Kim Bon Commune",
         "codeName": "kim_bon",
+        "postalCode": "34921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1370",
         "areaKm2": 104.51
       }

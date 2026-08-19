@@ -9744,6 +9744,8 @@
         "fullName": "Xã Phú Hoà",
         "fullNameEn": "Phu Hoa Commune",
         "codeName": "phu_hoa",
+        "postalCode": "76707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3119",
         "areaKm2": 61.5
       }

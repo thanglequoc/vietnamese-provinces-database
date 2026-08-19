@@ -4808,6 +4808,8 @@
         "fullName": "Xã An Minh",
         "fullNameEn": "An Minh Commune",
         "codeName": "an_minh",
+        "postalCode": "91917",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.391",
         "areaKm2": 142.3
       }

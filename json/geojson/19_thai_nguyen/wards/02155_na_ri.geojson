@@ -6236,6 +6236,8 @@
         "fullName": "Xã Na Rì",
         "fullNameEn": "Na Ri Commune",
         "codeName": "na_ri",
+        "postalCode": "23828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1246",
         "areaKm2": 112.73
       }

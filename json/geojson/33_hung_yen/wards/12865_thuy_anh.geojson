@@ -2460,6 +2460,8 @@
         "fullName": "Xã Thuỵ Anh",
         "fullNameEn": "Thuy Anh Commune",
         "codeName": "thuy_anh",
+        "postalCode": "06455",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.641",
         "areaKm2": 20.07
       }

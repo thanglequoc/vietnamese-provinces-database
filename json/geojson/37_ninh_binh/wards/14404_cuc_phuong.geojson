@@ -9132,6 +9132,8 @@
         "fullName": "Xã Cúc Phương",
         "fullNameEn": "Cuc Phuong Commune",
         "codeName": "cuc_phuong",
+        "postalCode": "08429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.759",
         "areaKm2": 132.68
       }

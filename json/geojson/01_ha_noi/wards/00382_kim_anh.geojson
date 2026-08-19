@@ -9864,6 +9864,8 @@
         "fullName": "Xã Kim Anh",
         "fullNameEn": "Kim Anh Commune",
         "codeName": "kim_anh",
+        "postalCode": "12234",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3254",
         "areaKm2": 52.8
       }

@@ -11616,6 +11616,8 @@
         "fullName": "Xã Tam Thái",
         "fullNameEn": "Tam Thai Commune",
         "codeName": "tam_thai",
+        "postalCode": "44369",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1515",
         "areaKm2": 356.01
       }

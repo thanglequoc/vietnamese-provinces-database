@@ -1096,6 +1096,8 @@
         "fullName": "Phường Bảy Hiền",
         "fullNameEn": "Bay Hien Ward",
         "codeName": "bay_hien",
+        "postalCode": "72124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.67",
         "areaKm2": 2.86
       }

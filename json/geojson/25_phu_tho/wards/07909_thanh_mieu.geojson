@@ -3204,6 +3204,8 @@
         "fullName": "Phường Thanh Miếu",
         "fullNameEn": "Thanh Mieu Ward",
         "codeName": "thanh_mieu",
+        "postalCode": "35107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1562",
         "areaKm2": 19.57
       }

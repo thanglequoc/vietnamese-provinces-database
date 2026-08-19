@@ -7604,6 +7604,8 @@
         "fullName": "Phường Quảng Trị",
         "fullNameEn": "Quang Tri Ward",
         "codeName": "quang_tri",
+        "postalCode": "48811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.589",
         "areaKm2": 72.82
       }

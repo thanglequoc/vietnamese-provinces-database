@@ -4612,6 +4612,8 @@
         "fullName": "Xã Tiên Hưng",
         "fullNameEn": "Tien Hung Commune",
         "codeName": "tien_hung",
+        "postalCode": "06852",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.654",
         "areaKm2": 22.41
       }

@@ -4500,6 +4500,8 @@
         "fullName": "Phường An Hội",
         "fullNameEn": "An Hoi Ward",
         "codeName": "an_hoi",
+        "postalCode": "86106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2438",
         "areaKm2": 31.9
       }

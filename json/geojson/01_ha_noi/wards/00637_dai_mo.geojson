@@ -1628,6 +1628,8 @@
         "fullName": "Phường Đại Mỗ",
         "fullNameEn": "Dai Mo Ward",
         "codeName": "dai_mo",
+        "postalCode": "12010",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3267",
         "areaKm2": 8.1
       }

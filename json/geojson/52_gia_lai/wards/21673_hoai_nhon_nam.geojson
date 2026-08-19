@@ -3656,6 +3656,8 @@
         "fullName": "Phường Hoài Nhơn Nam",
         "fullNameEn": "Hoai Nhon Nam Ward",
         "codeName": "hoai_nhon_nam",
+        "postalCode": "55427",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2978",
         "areaKm2": 37.67
       }

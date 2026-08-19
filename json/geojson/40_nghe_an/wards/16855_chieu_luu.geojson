@@ -12288,6 +12288,8 @@
         "fullName": "Xã Chiêu Lưu",
         "fullNameEn": "Chieu Luu Commune",
         "codeName": "chieu_luu",
+        "postalCode": "44407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1506",
         "areaKm2": 196.93
       }

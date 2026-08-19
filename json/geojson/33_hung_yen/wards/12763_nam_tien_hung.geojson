@@ -3536,6 +3536,8 @@
         "fullName": "Xã Nam Tiên Hưng",
         "fullNameEn": "Nam Tien Hung Commune",
         "codeName": "nam_tien_hung",
+        "postalCode": "06855",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.661",
         "areaKm2": 23.94
       }

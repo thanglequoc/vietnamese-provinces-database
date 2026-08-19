@@ -11188,6 +11188,8 @@
         "fullName": "Xã Bình Châu",
         "fullNameEn": "Binh Chau Commune",
         "codeName": "binh_chau",
+        "postalCode": "78510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2216",
         "areaKm2": 87.06
       }

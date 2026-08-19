@@ -9804,6 +9804,8 @@
         "fullName": "Xã Hương Bình",
         "fullNameEn": "Huong Binh Commune",
         "codeName": "huong_binh",
+        "postalCode": "46016",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2052",
         "areaKm2": 215.56
       }

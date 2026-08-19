@@ -12796,6 +12796,8 @@
         "fullName": "Xã Bắc Quang",
         "fullNameEn": "Bac Quang Commune",
         "codeName": "bac_quang",
+        "postalCode": "20829",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2414",
         "areaKm2": 141.93
       }

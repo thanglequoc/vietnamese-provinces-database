@@ -7132,6 +7132,8 @@
         "fullName": "Xã Tiên Phước",
         "fullNameEn": "Tien Phuoc Commune",
         "codeName": "tien_phuoc",
+        "postalCode": "52622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1960",
         "areaKm2": 74.63
       }

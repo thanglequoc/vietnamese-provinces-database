@@ -5568,6 +5568,8 @@
         "fullName": "Xã Bản Xèo",
         "fullNameEn": "Ban Xeo Commune",
         "codeName": "ban_xeo",
+        "postalCode": "31622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1096",
         "areaKm2": 78.3
       }

@@ -3172,6 +3172,8 @@
         "fullName": "Xã Tân Phú",
         "fullNameEn": "Tan Phu Commune",
         "codeName": "tan_phu",
+        "postalCode": "84861",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.466",
         "areaKm2": 38.6
       }

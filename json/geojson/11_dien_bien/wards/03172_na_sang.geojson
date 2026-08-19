@@ -30400,6 +30400,8 @@
         "fullName": "Xã Na Sang",
         "fullNameEn": "Na Sang Commune",
         "codeName": "na_sang",
+        "postalCode": "32766",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2238",
         "areaKm2": 360.15
       }

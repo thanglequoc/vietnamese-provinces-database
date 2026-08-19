@@ -22080,6 +22080,8 @@
         "fullName": "Xã Hàm Thạnh",
         "fullNameEn": "Ham Thanh Commune",
         "codeName": "ham_thanh",
+        "postalCode": "77714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3082",
         "areaKm2": 440.7
       }

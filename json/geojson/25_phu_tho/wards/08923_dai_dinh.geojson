@@ -7088,6 +7088,8 @@
         "fullName": "Xã Đại Đình",
         "fullNameEn": "Dai Dinh Commune",
         "codeName": "dai_dinh",
+        "postalCode": "15308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1624",
         "areaKm2": 44
       }

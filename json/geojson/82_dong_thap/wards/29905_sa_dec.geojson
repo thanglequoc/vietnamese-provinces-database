@@ -9396,6 +9396,8 @@
         "fullName": "Phường Sa Đéc",
         "fullNameEn": "Sa Dec Ward",
         "codeName": "sa_dec",
+        "postalCode": "81815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.404",
         "areaKm2": 46.9
       }

@@ -5848,6 +5848,8 @@
         "fullName": "Xã Hợp Tiến",
         "fullNameEn": "Hop Tien Commune",
         "codeName": "hop_tien",
+        "postalCode": "41526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2678",
         "areaKm2": 43.11
       }

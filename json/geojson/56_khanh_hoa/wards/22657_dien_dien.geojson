@@ -3372,6 +3372,8 @@
         "fullName": "Xã Diên Điền",
         "fullNameEn": "Dien Dien Commune",
         "codeName": "dien_dien",
+        "postalCode": "57508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1134",
         "areaKm2": 63.7
       }

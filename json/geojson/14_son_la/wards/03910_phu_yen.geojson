@@ -7736,6 +7736,8 @@
         "fullName": "Xã Phù Yên",
         "fullNameEn": "Phu Yen Commune",
         "codeName": "phu_yen",
+        "postalCode": "34933",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1365",
         "areaKm2": 117.98
       }

@@ -19220,6 +19220,8 @@
         "fullName": "Xã Mậu Duệ",
         "fullNameEn": "Mau Due Commune",
         "codeName": "mau_due",
+        "postalCode": "20323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2380",
         "areaKm2": 163.31
       }

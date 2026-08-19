@@ -8208,6 +8208,8 @@
         "fullName": "Xã Tuấn Đạo",
         "fullNameEn": "Tuan Dao Commune",
         "codeName": "tuan_dao",
+        "postalCode": "26425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2118",
         "areaKm2": 97.87
       }

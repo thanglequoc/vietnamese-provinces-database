@@ -7124,6 +7124,8 @@
         "fullName": "Phường Trung Tâm",
         "fullNameEn": "Trung Tam Ward",
         "codeName": "trung_tam",
+        "postalCode": "33706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1007",
         "areaKm2": 43.15
       }

@@ -3812,6 +3812,8 @@
         "fullName": "Phường Nam Hồng Lĩnh",
         "fullNameEn": "Nam Hong Linh Ward",
         "codeName": "nam_hong_linh",
+        "postalCode": "45613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2007",
         "areaKm2": 36.47
       }

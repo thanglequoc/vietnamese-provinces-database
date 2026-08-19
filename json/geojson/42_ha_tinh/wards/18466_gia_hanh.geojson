@@ -7416,6 +7416,8 @@
         "fullName": "Xã Gia Hanh",
         "fullNameEn": "Gia Hanh Commune",
         "codeName": "gia_hanh",
+        "postalCode": "45321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2005",
         "areaKm2": 45.39
       }

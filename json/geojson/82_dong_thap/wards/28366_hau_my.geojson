@@ -1456,6 +1456,8 @@
         "fullName": "Xã Hậu Mỹ",
         "fullNameEn": "Hau My Commune",
         "codeName": "hau_my",
+        "postalCode": "84934",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.456",
         "areaKm2": 78.6
       }

@@ -4428,6 +4428,8 @@
         "fullName": "Xã Liên Bão",
         "fullNameEn": "Lien Bao Commune",
         "codeName": "lien_bao",
+        "postalCode": "16419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2126",
         "areaKm2": 19.82
       }

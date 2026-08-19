@@ -2768,6 +2768,8 @@
         "fullName": "Tỉnh Vĩnh Long",
         "fullNameEn": "Vinh Long Province",
         "codeName": "vinh_long",
+        "postalCode": "",
+        "postalCodePrefix": "85, 86, 87",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.42",
         "areaKm2": 6296.2
       }

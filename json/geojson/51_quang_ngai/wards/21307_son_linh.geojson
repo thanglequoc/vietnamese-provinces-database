@@ -5620,6 +5620,8 @@
         "fullName": "Xã Sơn Linh",
         "fullNameEn": "Son Linh Commune",
         "codeName": "son_linh",
+        "postalCode": "53813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1739",
         "areaKm2": 126.7
       }

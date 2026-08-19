@@ -15296,6 +15296,8 @@
         "fullName": "Xã Mậu A",
         "fullNameEn": "Mau A Commune",
         "codeName": "mau_a",
+        "postalCode": "33406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1015",
         "areaKm2": 144.52
       }

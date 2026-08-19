@@ -7404,6 +7404,8 @@
         "fullName": "Xã Ba Tri",
         "fullNameEn": "Ba Tri Commune",
         "codeName": "ba_tri",
+        "postalCode": "86806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2471",
         "areaKm2": 49.47
       }

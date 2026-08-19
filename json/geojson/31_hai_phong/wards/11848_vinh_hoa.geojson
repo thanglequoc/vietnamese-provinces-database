@@ -1484,6 +1484,8 @@
         "fullName": "Xã Vĩnh Hoà",
         "fullNameEn": "Vinh Hoa Commune",
         "codeName": "vinh_hoa",
+        "postalCode": "05314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.917",
         "areaKm2": 21.66
       }

@@ -8920,6 +8920,8 @@
         "fullName": "Xã Trường Hà",
         "fullNameEn": "Truong Ha Commune",
         "codeName": "truong_ha",
+        "postalCode": "21214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.957",
         "areaKm2": 143.3
       }

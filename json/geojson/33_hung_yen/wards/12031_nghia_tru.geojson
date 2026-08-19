@@ -2684,6 +2684,8 @@
         "fullName": "Xã Nghĩa Trụ",
         "fullNameEn": "Nghia Tru Commune",
         "codeName": "nghia_tru",
+        "postalCode": "17660",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.734",
         "areaKm2": 22.8
       }

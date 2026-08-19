@@ -8188,6 +8188,8 @@
         "fullName": "Xã Xuân Phước",
         "fullNameEn": "Xuan Phuoc Commune",
         "codeName": "xuan_phuoc",
+        "postalCode": "56410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2902",
         "areaKm2": 102.81
       }

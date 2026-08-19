@@ -1808,6 +1808,8 @@
         "fullName": "Xã Tiên Minh",
         "fullNameEn": "Tien Minh Commune",
         "codeName": "tien_minh",
+        "postalCode": "05218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.915",
         "areaKm2": 36.48
       }

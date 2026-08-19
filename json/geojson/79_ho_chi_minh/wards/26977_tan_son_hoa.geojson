@@ -1308,6 +1308,8 @@
         "fullName": "Phường Tân Sơn Hoà",
         "fullNameEn": "Tan Son Hoa Ward",
         "codeName": "tan_son_hoa",
+        "postalCode": "72122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.65",
         "areaKm2": 2.62
       }

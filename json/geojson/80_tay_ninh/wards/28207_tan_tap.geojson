@@ -3816,6 +3816,8 @@
         "fullName": "Xã Tân Tập",
         "fullNameEn": "Tan Tap Commune",
         "codeName": "tan_tap",
+        "postalCode": "82522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1329",
         "areaKm2": 60.22
       }

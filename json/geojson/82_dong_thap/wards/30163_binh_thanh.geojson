@@ -6740,6 +6740,8 @@
         "fullName": "Xã Bình Thành",
         "fullNameEn": "Binh Thanh Commune",
         "codeName": "binh_thanh",
+        "postalCode": "81607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.432",
         "areaKm2": 72.1
       }

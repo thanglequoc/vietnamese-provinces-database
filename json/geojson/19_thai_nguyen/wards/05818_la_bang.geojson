@@ -10028,6 +10028,8 @@
         "fullName": "Xã La Bằng",
         "fullNameEn": "La Bang Commune",
         "codeName": "la_bang",
+        "postalCode": "24618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1196",
         "areaKm2": 60.84
       }

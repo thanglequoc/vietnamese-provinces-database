@@ -4360,6 +4360,8 @@
         "fullName": "Xã Vị Thanh 1",
         "fullNameEn": "Commune Vi Thanh 1",
         "codeName": "vi_thanh_1",
+        "postalCode": "95212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.254",
         "areaKm2": 71.12
       }

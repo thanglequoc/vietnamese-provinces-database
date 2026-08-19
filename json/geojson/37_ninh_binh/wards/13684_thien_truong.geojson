@@ -1376,6 +1376,8 @@
         "fullName": "Phường Thiên Trường",
         "fullNameEn": "Thien Truong Ward",
         "codeName": "thien_truong",
+        "postalCode": "07139",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.799",
         "areaKm2": 20.53
       }

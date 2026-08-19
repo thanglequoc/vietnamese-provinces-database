@@ -11688,6 +11688,8 @@
         "fullName": "Xã Bắc Khánh Vĩnh",
         "fullNameEn": "Bac Khanh Vinh Commune",
         "codeName": "bac_khanh_vinh",
+        "postalCode": "57420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1116",
         "areaKm2": 144.2
       }

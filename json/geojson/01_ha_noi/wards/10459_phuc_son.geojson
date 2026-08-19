@@ -4644,6 +4644,8 @@
         "fullName": "Xã Phúc Sơn",
         "fullNameEn": "Phuc Son Commune",
         "codeName": "phuc_son",
+        "postalCode": "13729",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3215",
         "areaKm2": 49.31
       }

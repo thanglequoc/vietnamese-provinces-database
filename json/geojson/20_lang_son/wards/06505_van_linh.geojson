@@ -12264,6 +12264,8 @@
         "fullName": "Xã Vạn Linh",
         "fullNameEn": "Van Linh Commune",
         "codeName": "van_linh",
+        "postalCode": "25712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1804",
         "areaKm2": 126.54
       }

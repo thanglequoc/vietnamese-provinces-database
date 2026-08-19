@@ -22976,6 +22976,8 @@
         "fullName": "Xã Sông Hinh",
         "fullNameEn": "Song Hinh Commune",
         "codeName": "song_hinh",
+        "postalCode": "56611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2914",
         "areaKm2": 460.13
       }

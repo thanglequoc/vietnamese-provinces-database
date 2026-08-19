@@ -6692,6 +6692,8 @@
         "fullName": "Xã Thạnh Hưng",
         "fullNameEn": "Thanh Hung Commune",
         "codeName": "thanh_hung",
+        "postalCode": "92308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.379",
         "areaKm2": 142.54
       }

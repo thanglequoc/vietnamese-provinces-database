@@ -2460,6 +2460,8 @@
         "fullName": "Xã Hà Tây",
         "fullNameEn": "Ha Tay Commune",
         "codeName": "ha_tay",
+        "postalCode": "03231",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.842",
         "areaKm2": 24.41
       }

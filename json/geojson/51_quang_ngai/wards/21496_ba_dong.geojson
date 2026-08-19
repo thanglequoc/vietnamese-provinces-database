@@ -7988,6 +7988,8 @@
         "fullName": "Xã Ba Động",
         "fullNameEn": "Ba Dong Commune",
         "codeName": "ba_dong",
+        "postalCode": "54214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1783",
         "areaKm2": 103.01
       }

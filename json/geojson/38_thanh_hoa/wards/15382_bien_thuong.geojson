@@ -4568,6 +4568,8 @@
         "fullName": "Xã Biện Thượng",
         "fullNameEn": "Bien Thuong Commune",
         "codeName": "bien_thuong",
+        "postalCode": "41123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2613",
         "areaKm2": 65.4
       }

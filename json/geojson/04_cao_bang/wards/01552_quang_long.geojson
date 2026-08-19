@@ -9384,6 +9384,8 @@
         "fullName": "Xã Quang Long",
         "fullNameEn": "Quang Long Commune",
         "codeName": "quang_long",
+        "postalCode": "21707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.997",
         "areaKm2": 130.15
       }

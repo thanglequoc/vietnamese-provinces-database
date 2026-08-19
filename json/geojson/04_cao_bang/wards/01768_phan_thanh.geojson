@@ -18624,6 +18624,8 @@
         "fullName": "Xã Phan Thanh",
         "fullNameEn": "Phan Thanh Commune",
         "codeName": "phan_thanh",
+        "postalCode": "21516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.981",
         "areaKm2": 138.09
       }

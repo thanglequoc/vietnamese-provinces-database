@@ -3476,6 +3476,8 @@
         "fullName": "Xã Gia Hưng",
         "fullNameEn": "Gia Hung Commune",
         "codeName": "gia_hung",
+        "postalCode": "08312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.750",
         "areaKm2": 28.37
       }

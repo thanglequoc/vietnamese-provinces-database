@@ -6116,6 +6116,8 @@
         "fullName": "Phường Tây Hoa Lư",
         "fullNameEn": "Tay Hoa Lu Ward",
         "codeName": "tay_hoa_lu",
+        "postalCode": "08122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.742",
         "areaKm2": 84.96
       }

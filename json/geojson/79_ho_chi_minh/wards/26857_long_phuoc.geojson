@@ -2040,6 +2040,8 @@
         "fullName": "Phường Long Phước",
         "fullNameEn": "Long Phuoc Ward",
         "codeName": "long_phuoc",
+        "postalCode": "71214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.52",
         "areaKm2": 34.29
       }

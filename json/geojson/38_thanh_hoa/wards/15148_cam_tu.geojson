@@ -5020,6 +5020,8 @@
         "fullName": "Xã Cẩm Tú",
         "fullNameEn": "Cam Tu Commune",
         "codeName": "cam_tu",
+        "postalCode": "41309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2643",
         "areaKm2": 98.09
       }

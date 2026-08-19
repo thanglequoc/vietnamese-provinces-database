@@ -2496,6 +2496,8 @@
         "fullName": "Phường Bình Thạnh",
         "fullNameEn": "Binh Thanh Ward",
         "codeName": "binh_thanh",
+        "postalCode": "72326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.61",
         "areaKm2": 3.32
       }

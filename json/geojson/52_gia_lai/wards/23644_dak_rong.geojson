@@ -17452,6 +17452,8 @@
         "fullName": "Xã Đak Rong",
         "fullNameEn": "Dak Rong Commune",
         "codeName": "dak_rong",
+        "postalCode": "62610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3047",
         "areaKm2": 516.25
       }

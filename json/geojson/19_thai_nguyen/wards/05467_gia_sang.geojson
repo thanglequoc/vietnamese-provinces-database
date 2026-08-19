@@ -5268,6 +5268,8 @@
         "fullName": "Phường Gia Sàng",
         "fullNameEn": "Gia Sang Ward",
         "codeName": "gia_sang",
+        "postalCode": "24127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1187",
         "areaKm2": 25.47
       }

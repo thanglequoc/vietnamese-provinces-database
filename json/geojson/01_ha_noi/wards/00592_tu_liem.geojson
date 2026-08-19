@@ -716,6 +716,8 @@
         "fullName": "Phường Từ Liêm",
         "fullNameEn": "Tu Liem Ward",
         "codeName": "tu_liem",
+        "postalCode": "12016",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3263",
         "areaKm2": 10.18
       }

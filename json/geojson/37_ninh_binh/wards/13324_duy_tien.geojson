@@ -1800,6 +1800,8 @@
         "fullName": "Phường Duy Tiên",
         "fullNameEn": "Duy Tien Ward",
         "codeName": "duy_tien",
+        "postalCode": "18224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2761",
         "areaKm2": 28.93
       }

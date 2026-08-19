@@ -6264,6 +6264,8 @@
         "fullName": "Xã Đồng Khởi",
         "fullNameEn": "Dong Khoi Commune",
         "codeName": "dong_khoi",
+        "postalCode": "86523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2452",
         "areaKm2": 41.12
       }

@@ -3924,6 +3924,8 @@
         "fullName": "Xã Phú Đình",
         "fullNameEn": "Phu Dinh Commune",
         "codeName": "phu_dinh",
+        "postalCode": "24521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1207",
         "areaKm2": 47.89
       }

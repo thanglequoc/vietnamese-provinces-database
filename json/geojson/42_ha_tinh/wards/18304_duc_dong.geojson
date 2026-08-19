@@ -3028,6 +3028,8 @@
         "fullName": "Xã Đức Đồng",
         "fullNameEn": "Duc Dong Commune",
         "codeName": "duc_dong",
+        "postalCode": "45731",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2047",
         "areaKm2": 47.29
       }

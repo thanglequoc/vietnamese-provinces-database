@@ -9676,6 +9676,8 @@
         "fullName": "Xã Sơn Hồng",
         "fullNameEn": "Son Hong Commune",
         "codeName": "son_hong",
+        "postalCode": "45835",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2058",
         "areaKm2": 209.04
       }

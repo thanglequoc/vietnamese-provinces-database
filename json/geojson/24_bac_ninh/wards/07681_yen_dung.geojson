@@ -4260,6 +4260,8 @@
         "fullName": "Phường Yên Dũng",
         "fullNameEn": "Yen Dung Ward",
         "codeName": "yen_dung",
+        "postalCode": "26227",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2145",
         "areaKm2": 52.42
       }

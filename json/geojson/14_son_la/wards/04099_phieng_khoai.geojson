@@ -7336,6 +7336,8 @@
         "fullName": "Xã Phiêng Khoài",
         "fullNameEn": "Phieng Khoai Commune",
         "codeName": "phieng_khoai",
+        "postalCode": "34664",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1386",
         "areaKm2": 103.77
       }

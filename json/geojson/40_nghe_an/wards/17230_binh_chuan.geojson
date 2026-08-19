@@ -7972,6 +7972,8 @@
         "fullName": "Xã Bình Chuẩn",
         "fullNameEn": "Binh Chuan Commune",
         "codeName": "binh_chuan",
+        "postalCode": "44318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1414",
         "areaKm2": 182.19
       }

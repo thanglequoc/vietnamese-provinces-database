@@ -11112,6 +11112,8 @@
         "fullName": "Xã Phước Trà",
         "fullNameEn": "Phuoc Tra Commune",
         "codeName": "phuoc_tra",
+        "postalCode": "52214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1955",
         "areaKm2": 196.22
       }

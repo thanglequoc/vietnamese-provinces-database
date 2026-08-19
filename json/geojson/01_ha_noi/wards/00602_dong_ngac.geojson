@@ -1452,6 +1452,8 @@
         "fullName": "Phường Đông Ngạc",
         "fullNameEn": "Dong Ngac Ward",
         "codeName": "dong_ngac",
+        "postalCode": "11909",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3269",
         "areaKm2": 8.85
       }

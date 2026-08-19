@@ -17952,6 +17952,8 @@
         "fullName": "Xã Thạch Bình",
         "fullNameEn": "Thach Binh Commune",
         "codeName": "thach_binh",
+        "postalCode": "41221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2630",
         "areaKm2": 90.47
       }

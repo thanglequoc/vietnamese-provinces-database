@@ -8704,6 +8704,8 @@
         "fullName": "Xã Trừ Văn Thố",
         "fullNameEn": "Tru Van Tho Commune",
         "codeName": "tru_van_tho",
+        "postalCode": "75707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.11",
         "areaKm2": 76.56
       }

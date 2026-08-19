@@ -6100,6 +6100,8 @@
         "fullName": "Xã Phú Hoà 2",
         "fullNameEn": "Commune Phu Hoa 2",
         "codeName": "phu_hoa_2",
+        "postalCode": "56916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2922",
         "areaKm2": 95.78
       }

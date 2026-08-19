@@ -8984,6 +8984,8 @@
         "fullName": "Xã Văn Hán",
         "fullNameEn": "Van Han Commune",
         "codeName": "van_han",
+        "postalCode": "24220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1212",
         "areaKm2": 96.26
       }

@@ -9688,6 +9688,8 @@
         "fullName": "Xã Tu Bông",
         "fullNameEn": "Tu Bong Commune",
         "codeName": "tu_bong",
+        "postalCode": "57220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1104",
         "areaKm2": 99.6
       }

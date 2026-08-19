@@ -13820,6 +13820,8 @@
         "fullName": "Phường Xuân Trường - Đà Lạt",
         "fullNameEn": "Xuan Truong - Da Lat Ward",
         "codeName": "xuan_truong_da_lat",
+        "postalCode": "66125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.510",
         "areaKm2": 168.83
       }

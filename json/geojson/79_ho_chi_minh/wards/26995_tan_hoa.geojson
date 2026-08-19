@@ -1028,6 +1028,8 @@
         "fullName": "Phường Tân Hoà",
         "fullNameEn": "Tan Hoa Ward",
         "codeName": "tan_hoa",
+        "postalCode": "72125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.69",
         "areaKm2": 1.47
       }

@@ -4332,6 +4332,8 @@
         "fullName": "Xã Thiên Nhẫn",
         "fullNameEn": "Thien Nhan Commune",
         "codeName": "thien_nhan",
+        "postalCode": "44633",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1534",
         "areaKm2": 70.81
       }

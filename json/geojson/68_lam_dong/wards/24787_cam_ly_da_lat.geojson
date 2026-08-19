@@ -10052,6 +10052,8 @@
         "fullName": "Phường Cam Ly - Đà Lạt",
         "fullNameEn": "Cam Ly - Da Lat Ward",
         "codeName": "cam_ly_da_lat",
+        "postalCode": "66123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.509",
         "areaKm2": 80.92
       }

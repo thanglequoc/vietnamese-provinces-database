@@ -11900,6 +11900,8 @@
         "fullName": "Xã Đak Đoa",
         "fullNameEn": "Dak Doa Commune",
         "codeName": "dak_doa",
+        "postalCode": "61206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3052",
         "areaKm2": 83.37
       }

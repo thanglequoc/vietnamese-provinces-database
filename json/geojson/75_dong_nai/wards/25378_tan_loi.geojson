@@ -55464,6 +55464,8 @@
         "fullName": "Xã Tân Lợi",
         "fullNameEn": "Tan Loi Commune",
         "codeName": "tan_loi",
+        "postalCode": "67210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2309",
         "areaKm2": 379.8
       }

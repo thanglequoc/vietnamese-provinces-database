@@ -23384,6 +23384,8 @@
         "fullName": "Xã Krông Bông",
         "fullNameEn": "Krong Bong Commune",
         "codeName": "krong_bong",
+        "postalCode": "64420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2859",
         "areaKm2": 166.03
       }

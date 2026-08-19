@@ -8388,6 +8388,8 @@
         "fullName": "Xã Thành Vinh",
         "fullNameEn": "Thanh Vinh Commune",
         "codeName": "thanh_vinh",
+        "postalCode": "41213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2631",
         "areaKm2": 115.47
       }

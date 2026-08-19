@@ -9724,6 +9724,8 @@
         "fullName": "Xã Tây Khánh Sơn",
         "fullNameEn": "Tay Khanh Son Commune",
         "codeName": "tay_khanh_son",
+        "postalCode": "57565",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1139",
         "areaKm2": 125.6
       }

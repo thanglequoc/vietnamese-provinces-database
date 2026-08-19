@@ -13052,6 +13052,8 @@
         "fullName": "Xã Kỳ Thượng",
         "fullNameEn": "Ky Thuong Commune",
         "codeName": "ky_thuong",
+        "postalCode": "46323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2014",
         "areaKm2": 218.82
       }

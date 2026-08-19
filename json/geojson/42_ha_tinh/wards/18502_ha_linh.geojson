@@ -6356,6 +6356,8 @@
         "fullName": "Xã Hà Linh",
         "fullNameEn": "Ha Linh Commune",
         "codeName": "ha_linh",
+        "postalCode": "46011",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2044",
         "areaKm2": 140.43
       }

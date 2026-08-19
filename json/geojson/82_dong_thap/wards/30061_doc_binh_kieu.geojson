@@ -2328,6 +2328,8 @@
         "fullName": "Xã Đốc Binh Kiều",
         "fullNameEn": "Doc Binh Kieu Commune",
         "codeName": "doc_binh_kieu",
+        "postalCode": "81217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.422",
         "areaKm2": 77.8
       }

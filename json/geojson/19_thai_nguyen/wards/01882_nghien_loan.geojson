@@ -16688,6 +16688,8 @@
         "fullName": "Xã Nghiên Loan",
         "fullNameEn": "Nghien Loan Commune",
         "codeName": "nghien_loan",
+        "postalCode": "23413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1166",
         "areaKm2": 130.33
       }

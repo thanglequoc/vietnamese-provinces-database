@@ -6624,6 +6624,8 @@
         "fullName": "Xã Đào Xá",
         "fullNameEn": "Dao Xa Commune",
         "codeName": "dao_xa",
+        "postalCode": "35860",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1582",
         "areaKm2": 45.53
       }

@@ -972,6 +972,8 @@
         "fullName": "Phường Xuân Đỉnh",
         "fullNameEn": "Xuan Dinh Ward",
         "codeName": "xuan_dinh",
+        "postalCode": "11908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3261",
         "areaKm2": 5.46
       }

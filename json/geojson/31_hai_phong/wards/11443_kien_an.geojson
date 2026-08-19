@@ -852,6 +852,8 @@
         "fullName": "Phường Kiến An",
         "fullNameEn": "Kien An Ward",
         "codeName": "kien_an",
+        "postalCode": "04616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.947",
         "areaKm2": 11.18
       }

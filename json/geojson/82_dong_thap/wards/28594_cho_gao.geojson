@@ -8440,6 +8440,8 @@
         "fullName": "Xã Chợ Gạo",
         "fullNameEn": "Cho Gao Commune",
         "codeName": "cho_gao",
+        "postalCode": "84506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.482",
         "areaKm2": 25.2
       }

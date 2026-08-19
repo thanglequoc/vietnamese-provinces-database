@@ -6116,6 +6116,8 @@
         "fullName": "Xã Triệu Cơ",
         "fullNameEn": "Trieu Co Commune",
         "codeName": "trieu_co",
+        "postalCode": "48711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.588",
         "areaKm2": 44.54
       }

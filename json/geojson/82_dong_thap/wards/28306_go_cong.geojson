@@ -4992,6 +4992,8 @@
         "fullName": "Phường Gò Công",
         "fullNameEn": "Go Cong Ward",
         "codeName": "go_cong",
+        "postalCode": "84318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.448",
         "areaKm2": 10.1
       }

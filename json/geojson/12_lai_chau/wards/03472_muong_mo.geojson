@@ -27692,6 +27692,8 @@
         "fullName": "Xã Mường Mô",
         "fullNameEn": "Muong Mo Commune",
         "codeName": "muong_mo",
+        "postalCode": "30513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2075",
         "areaKm2": 395.16
       }

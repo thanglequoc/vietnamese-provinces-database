@@ -6484,6 +6484,8 @@
         "fullName": "Phường An Thắng",
         "fullNameEn": "An Thang Ward",
         "codeName": "an_thang",
+        "postalCode": "51428",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1939",
         "areaKm2": 19.64
       }

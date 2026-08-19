@@ -9860,6 +9860,8 @@
         "fullName": "Xã Hàm Tân",
         "fullNameEn": "Ham Tan Commune",
         "codeName": "ham_tan",
+        "postalCode": "77616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3097",
         "areaKm2": 198.46
       }

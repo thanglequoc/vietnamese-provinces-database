@@ -6708,6 +6708,8 @@
         "fullName": "Xã Dân Tiến",
         "fullNameEn": "Dan Tien Commune",
         "codeName": "dan_tien",
+        "postalCode": "24318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1223",
         "areaKm2": 144.28
       }

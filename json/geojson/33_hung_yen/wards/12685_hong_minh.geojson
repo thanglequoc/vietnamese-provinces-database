@@ -4484,6 +4484,8 @@
         "fullName": "Xã Hồng Minh",
         "fullNameEn": "Hong Minh Commune",
         "codeName": "hong_minh",
+        "postalCode": "06738",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.644",
         "areaKm2": 23.32
       }

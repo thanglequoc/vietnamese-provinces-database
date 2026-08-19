@@ -3524,6 +3524,8 @@
         "fullName": "Xã Xuân Hồng",
         "fullNameEn": "Xuan Hong Commune",
         "codeName": "xuan_hong",
+        "postalCode": "07721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.804",
         "areaKm2": 27.61
       }

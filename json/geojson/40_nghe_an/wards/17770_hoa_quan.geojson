@@ -9080,6 +9080,8 @@
         "fullName": "Xã Hoa Quân",
         "fullNameEn": "Hoa Quan Commune",
         "codeName": "hoa_quan",
+        "postalCode": "44749",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1430",
         "areaKm2": 107.67
       }

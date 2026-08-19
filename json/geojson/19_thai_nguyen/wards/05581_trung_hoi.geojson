@@ -7576,6 +7576,8 @@
         "fullName": "Xã Trung Hội",
         "fullNameEn": "Trung Hoi Commune",
         "codeName": "trung_hoi",
+        "postalCode": "24528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1206",
         "areaKm2": 54.21
       }

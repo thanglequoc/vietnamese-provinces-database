@@ -2936,6 +2936,8 @@
         "fullName": "Xã Lam Thành",
         "fullNameEn": "Lam Thanh Commune",
         "codeName": "lam_thanh",
+        "postalCode": "44531",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1538",
         "areaKm2": 39.67
       }

@@ -7728,6 +7728,8 @@
         "fullName": "Xã Phước Hà",
         "fullNameEn": "Phuoc Ha Commune",
         "codeName": "phuoc_ha",
+        "postalCode": "59707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1158",
         "areaKm2": 230
       }

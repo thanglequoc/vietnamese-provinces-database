@@ -2816,6 +2816,8 @@
         "fullName": "Phường Mỹ Phong",
         "fullNameEn": "My Phong Ward",
         "codeName": "my_phong",
+        "postalCode": "84112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.447",
         "areaKm2": 23
       }

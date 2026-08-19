@@ -4444,6 +4444,8 @@
         "fullName": "Xã Tịnh Khê",
         "fullNameEn": "Tinh Khe Commune",
         "codeName": "tinh_khe",
+        "postalCode": "53125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1770",
         "areaKm2": 46.05
       }

@@ -11640,6 +11640,8 @@
         "fullName": "Phường Phong Thái",
         "fullNameEn": "Phong Thai Ward",
         "codeName": "phong_thai",
+        "postalCode": "49323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1725",
         "areaKm2": 187.02
       }

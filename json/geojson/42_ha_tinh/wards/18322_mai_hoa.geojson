@@ -3600,6 +3600,8 @@
         "fullName": "Xã Mai Hoa",
         "fullNameEn": "Mai Hoa Commune",
         "codeName": "mai_hoa",
+        "postalCode": "45918",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2039",
         "areaKm2": 45.85
       }

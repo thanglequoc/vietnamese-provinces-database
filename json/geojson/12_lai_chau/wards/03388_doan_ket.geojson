@@ -6400,6 +6400,8 @@
         "fullName": "Phường Đoàn Kết",
         "fullNameEn": "Doan Ket Ward",
         "codeName": "doan_ket",
+        "postalCode": "30109",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2062",
         "areaKm2": 134.31
       }

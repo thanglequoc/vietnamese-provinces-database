@@ -16680,6 +16680,8 @@
         "fullName": "Xã Tân Trịnh",
         "fullNameEn": "Tan Trinh Commune",
         "codeName": "tan_trinh",
+        "postalCode": "20758",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2420",
         "areaKm2": 114.75
       }

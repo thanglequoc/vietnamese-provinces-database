@@ -2836,6 +2836,8 @@
         "fullName": "Phường Thượng Hồng",
         "fullNameEn": "Thuong Hong Ward",
         "codeName": "thuong_hong",
+        "postalCode": "17521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.738",
         "areaKm2": 25.41
       }

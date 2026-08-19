@@ -8720,6 +8720,8 @@
         "fullName": "Xã Phước Hậu",
         "fullNameEn": "Phuoc Hau Commune",
         "codeName": "phuoc_hau",
+        "postalCode": "59609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1157",
         "areaKm2": 74.7
       }

@@ -4108,6 +4108,8 @@
         "fullName": "Phường Đức Phổ",
         "fullNameEn": "Duc Pho Ward",
         "codeName": "duc_pho",
+        "postalCode": "54321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1772",
         "areaKm2": 69.33
       }

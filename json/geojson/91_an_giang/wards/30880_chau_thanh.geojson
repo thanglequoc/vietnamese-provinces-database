@@ -16780,6 +16780,8 @@
         "fullName": "Xã Châu Thành",
         "fullNameEn": "Chau Thanh Commune",
         "codeName": "chau_thanh",
+        "postalCode": "91717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.375",
         "areaKm2": 107.64
       }

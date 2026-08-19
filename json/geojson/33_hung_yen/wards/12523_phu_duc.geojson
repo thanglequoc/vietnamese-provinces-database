@@ -3960,6 +3960,8 @@
         "fullName": "Xã Phụ Dực",
         "fullNameEn": "Phu Duc Commune",
         "codeName": "phu_duc",
+        "postalCode": "06676",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.672",
         "areaKm2": 33.16
       }

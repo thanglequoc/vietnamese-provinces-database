@@ -4568,6 +4568,8 @@
         "fullName": "Xã Mường Lý",
         "fullNameEn": "Muong Ly Commune",
         "codeName": "muong_ly",
+        "postalCode": "42108",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2704",
         "areaKm2": 83.99
       }

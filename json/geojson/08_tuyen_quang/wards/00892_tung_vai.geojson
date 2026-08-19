@@ -10440,6 +10440,8 @@
         "fullName": "Xã Tùng Vài",
         "fullNameEn": "Tung Vai Commune",
         "codeName": "tung_vai",
+        "postalCode": "20361",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2385",
         "areaKm2": 149.98
       }

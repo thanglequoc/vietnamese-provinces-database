@@ -4936,6 +4936,8 @@
         "fullName": "Phường Nam Đông Hà",
         "fullNameEn": "Nam Dong Ha Ward",
         "codeName": "nam_dong_ha",
+        "postalCode": "48116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.572",
         "areaKm2": 35.04
       }

@@ -19568,6 +19568,8 @@
         "fullName": "Xã Trần Phán",
         "fullNameEn": "Tran Phan Commune",
         "codeName": "tran_phan",
+        "postalCode": "98710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.187",
         "areaKm2": 74.9
       }

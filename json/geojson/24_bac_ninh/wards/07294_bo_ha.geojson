@@ -8104,6 +8104,8 @@
         "fullName": "Xã Bố Hạ",
         "fullNameEn": "Bo Ha Commune",
         "codeName": "bo_ha",
+        "postalCode": "26723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2162",
         "areaKm2": 41.32
       }

@@ -13196,6 +13196,8 @@
         "fullName": "Xã Kỳ Lạc",
         "fullNameEn": "Ky Lac Commune",
         "codeName": "ky_lac",
+        "postalCode": "46326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2013",
         "areaKm2": 169.13
       }

@@ -5348,6 +5348,8 @@
         "fullName": "Phường Sơn Tây",
         "fullNameEn": "Son Tay Ward",
         "codeName": "son_tay",
+        "postalCode": "12721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3238",
         "areaKm2": 23.08
       }

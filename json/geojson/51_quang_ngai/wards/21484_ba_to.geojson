@@ -10424,6 +10424,8 @@
         "fullName": "Xã Ba Tơ",
         "fullNameEn": "Ba To Commune",
         "codeName": "ba_to",
+        "postalCode": "54206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1781",
         "areaKm2": 120.91
       }

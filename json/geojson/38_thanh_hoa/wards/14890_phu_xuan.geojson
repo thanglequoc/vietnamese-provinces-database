@@ -4932,6 +4932,8 @@
         "fullName": "Xã Phú Xuân",
         "fullNameEn": "Phu Xuan Commune",
         "codeName": "phu_xuan",
+        "postalCode": "41917",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2696",
         "areaKm2": 102.36
       }

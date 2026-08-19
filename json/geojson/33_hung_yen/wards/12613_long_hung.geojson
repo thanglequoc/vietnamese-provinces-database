@@ -2816,6 +2816,8 @@
         "fullName": "Xã Long Hưng",
         "fullNameEn": "Long Hung Commune",
         "codeName": "long_hung",
+        "postalCode": "06746",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.648",
         "areaKm2": 33.67
       }

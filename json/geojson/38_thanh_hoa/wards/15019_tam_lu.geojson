@@ -7796,6 +7796,8 @@
         "fullName": "Xã Tam Lư",
         "fullNameEn": "Tam Lu Commune",
         "codeName": "tam_lu",
+        "postalCode": "42012",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2711",
         "areaKm2": 162.72
       }

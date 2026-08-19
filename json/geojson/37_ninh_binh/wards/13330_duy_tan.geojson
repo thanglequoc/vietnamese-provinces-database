@@ -2284,6 +2284,8 @@
         "fullName": "Phường Duy Tân",
         "fullNameEn": "Duy Tan Ward",
         "codeName": "duy_tan",
+        "postalCode": "18225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2762",
         "areaKm2": 28.86
       }

@@ -2668,6 +2668,8 @@
         "fullName": "Xã Thọ Xuân",
         "fullNameEn": "Tho Xuan Commune",
         "codeName": "tho_xuan",
+        "postalCode": "41606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2667",
         "areaKm2": 27.4
       }

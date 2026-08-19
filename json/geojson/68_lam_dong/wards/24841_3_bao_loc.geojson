@@ -19088,6 +19088,8 @@
         "fullName": "Phường 3 Bảo Lộc",
         "fullNameEn": "Ward 3 Bao Loc",
         "codeName": "3_bao_loc",
+        "postalCode": "66469",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1261",
         "areaKm2": 108.98
       }

@@ -10996,6 +10996,8 @@
         "fullName": "Xã Trường Sơn",
         "fullNameEn": "Truong Son Commune",
         "codeName": "truong_son",
+        "postalCode": "26330",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2099",
         "areaKm2": 72.55
       }

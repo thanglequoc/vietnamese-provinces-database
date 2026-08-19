@@ -4496,6 +4496,8 @@
         "fullName": "Xã Đông Hoà",
         "fullNameEn": "Dong Hoa Commune",
         "codeName": "dong_hoa",
+        "postalCode": "91908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.393",
         "areaKm2": 151.88
       }

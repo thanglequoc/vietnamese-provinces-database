@@ -1872,6 +1872,8 @@
         "fullName": "Xã Giao Phúc",
         "fullNameEn": "Giao Phuc Commune",
         "codeName": "giao_phuc",
+        "postalCode": "07830",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.811",
         "areaKm2": 19.47
       }

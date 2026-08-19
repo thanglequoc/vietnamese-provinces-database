@@ -2772,6 +2772,8 @@
         "fullName": "Phường Trần Liễu",
         "fullNameEn": "Tran Lieu Ward",
         "codeName": "tran_lieu",
+        "postalCode": "03433",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.846",
         "areaKm2": 23.87
       }

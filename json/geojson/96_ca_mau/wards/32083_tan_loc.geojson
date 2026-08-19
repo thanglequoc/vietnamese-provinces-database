@@ -12436,6 +12436,8 @@
         "fullName": "Xã Tân Lộc",
         "fullNameEn": "Tan Loc Commune",
         "codeName": "tan_loc",
+        "postalCode": "98216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.174",
         "areaKm2": 96.8
       }

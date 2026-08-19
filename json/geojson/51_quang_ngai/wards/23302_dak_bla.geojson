@@ -14744,6 +14744,8 @@
         "fullName": "Phường Đăk Bla",
         "fullNameEn": "Dak Bla Ward",
         "codeName": "dak_bla",
+        "postalCode": "60128",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.551",
         "areaKm2": 14.99
       }

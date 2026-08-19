@@ -7712,6 +7712,8 @@
         "fullName": "Phường Mỹ Quới",
         "fullNameEn": "My Quoi Ward",
         "codeName": "my_quoi",
+        "postalCode": "96510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.296",
         "areaKm2": 83.91
       }

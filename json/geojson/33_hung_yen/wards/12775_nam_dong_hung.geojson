@@ -3156,6 +3156,8 @@
         "fullName": "Xã Nam Đông Hưng",
         "fullNameEn": "Nam Dong Hung Commune",
         "codeName": "nam_dong_hung",
+        "postalCode": "06851",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.651",
         "areaKm2": 16.25
       }

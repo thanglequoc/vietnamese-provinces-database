@@ -6624,6 +6624,8 @@
         "fullName": "Phường Bình Hoà",
         "fullNameEn": "Binh Hoa Ward",
         "codeName": "binh_hoa",
+        "postalCode": "75208",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.36",
         "areaKm2": 18.49
       }

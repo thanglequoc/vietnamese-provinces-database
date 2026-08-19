@@ -3736,6 +3736,8 @@
         "fullName": "Phường Trương Quang Trọng",
         "fullNameEn": "Truong Quang Trong Ward",
         "codeName": "truong_quang_trong",
+        "postalCode": "53111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1771",
         "areaKm2": 34.65
       }

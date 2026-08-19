@@ -11068,6 +11068,8 @@
         "fullName": "Xã Tương Dương",
         "fullNameEn": "Tuong Duong Commune",
         "codeName": "tuong_duong",
+        "postalCode": "44374",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1508",
         "areaKm2": 330.95
       }

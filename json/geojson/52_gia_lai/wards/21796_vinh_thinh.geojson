@@ -10956,6 +10956,8 @@
         "fullName": "Xã Vĩnh Thịnh",
         "fullNameEn": "Vinh Thinh Commune",
         "codeName": "vinh_thinh",
+        "postalCode": "55707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2992",
         "areaKm2": 133.91
       }

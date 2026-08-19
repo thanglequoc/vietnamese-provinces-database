@@ -17844,6 +17844,8 @@
         "fullName": "Xã Tân Biên",
         "fullNameEn": "Tan Bien Commune",
         "codeName": "tan_bien",
+        "postalCode": "80406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2754",
         "areaKm2": 244.71
       }

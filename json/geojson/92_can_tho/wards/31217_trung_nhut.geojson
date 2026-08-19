@@ -8536,6 +8536,8 @@
         "fullName": "Phường Trung Nhứt",
         "fullNameEn": "Trung Nhut Ward",
         "codeName": "trung_nhut",
+        "postalCode": "94409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.216",
         "areaKm2": 30.84
       }

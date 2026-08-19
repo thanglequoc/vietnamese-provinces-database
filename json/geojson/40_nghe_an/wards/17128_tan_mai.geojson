@@ -4572,6 +4572,8 @@
         "fullName": "Phường Tân Mai",
         "fullNameEn": "Tan Mai Ward",
         "codeName": "tan_mai",
+        "postalCode": "44917",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1484",
         "areaKm2": 51.61
       }

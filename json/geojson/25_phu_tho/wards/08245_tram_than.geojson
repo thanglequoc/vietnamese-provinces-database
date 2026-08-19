@@ -7516,6 +7516,8 @@
         "fullName": "Xã Trạm Thản",
         "fullNameEn": "Tram Than Commune",
         "codeName": "tram_than",
+        "postalCode": "35216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1604",
         "areaKm2": 32.6
       }

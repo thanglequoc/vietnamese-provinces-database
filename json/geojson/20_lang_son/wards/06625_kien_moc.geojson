@@ -20712,6 +20712,8 @@
         "fullName": "Xã Kiên Mộc",
         "fullNameEn": "Kien Moc Commune",
         "codeName": "kien_moc",
+        "postalCode": "25907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1851",
         "areaKm2": 417.78
       }

@@ -7492,6 +7492,8 @@
         "fullName": "Xã Nam Cường",
         "fullNameEn": "Nam Cuong Commune",
         "codeName": "nam_cuong",
+        "postalCode": "23612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1179",
         "areaKm2": 149.65
       }

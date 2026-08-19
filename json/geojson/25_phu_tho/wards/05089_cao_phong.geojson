@@ -8396,6 +8396,8 @@
         "fullName": "Xã Cao Phong",
         "fullNameEn": "Cao Phong Commune",
         "codeName": "cao_phong",
+        "postalCode": "36506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1655",
         "areaKm2": 77.76
       }

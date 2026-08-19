@@ -13668,6 +13668,8 @@
         "fullName": "Xã Liên Sơn",
         "fullNameEn": "Lien Son Commune",
         "codeName": "lien_son",
+        "postalCode": "36275",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3295",
         "areaKm2": 120.21
       }

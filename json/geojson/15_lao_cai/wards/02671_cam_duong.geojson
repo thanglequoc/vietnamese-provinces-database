@@ -3760,6 +3760,8 @@
         "fullName": "Phường Cam Đường",
         "fullNameEn": "Cam Duong Ward",
         "codeName": "cam_duong",
+        "postalCode": "31116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1056",
         "areaKm2": 59.9
       }

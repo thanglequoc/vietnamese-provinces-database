@@ -12948,6 +12948,8 @@
         "fullName": "Xã Tây Ninh Hoà",
         "fullNameEn": "Tay Ninh Hoa Commune",
         "codeName": "tay_ninh_hoa",
+        "postalCode": "57337",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1111",
         "areaKm2": 275.9
       }

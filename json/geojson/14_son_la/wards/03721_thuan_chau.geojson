@@ -9792,6 +9792,8 @@
         "fullName": "Xã Thuận Châu",
         "fullNameEn": "Thuan Chau Commune",
         "codeName": "thuan_chau",
+        "postalCode": "34306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1344",
         "areaKm2": 132.83
       }

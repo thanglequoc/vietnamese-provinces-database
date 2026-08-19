@@ -2184,6 +2184,8 @@
         "fullName": "Xã Tiên Lữ",
         "fullNameEn": "Tien Lu Commune",
         "codeName": "tien_lu",
+        "postalCode": "17221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.721",
         "areaKm2": 19.51
       }

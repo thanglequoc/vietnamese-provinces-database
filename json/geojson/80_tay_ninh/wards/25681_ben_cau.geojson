@@ -2892,6 +2892,8 @@
         "fullName": "Xã Bến Cầu",
         "fullNameEn": "Ben Cau Commune",
         "codeName": "ben_cau",
+        "postalCode": "80806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2729",
         "areaKm2": 112.02
       }

@@ -912,6 +912,8 @@
         "fullName": "Phường Tây Thạnh",
         "fullNameEn": "Tay Thanh Ward",
         "codeName": "tay_thanh",
+        "postalCode": "72009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.72",
         "areaKm2": 3.95
       }

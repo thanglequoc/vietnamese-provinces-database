@@ -25964,6 +25964,8 @@
         "fullName": "Xã Bảo Nhai",
         "fullNameEn": "Bao Nhai Commune",
         "codeName": "bao_nhai",
+        "postalCode": "31321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1068",
         "areaKm2": 156
       }

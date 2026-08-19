@@ -3604,6 +3604,8 @@
         "fullName": "Phường Vĩnh Thông",
         "fullNameEn": "Vinh Thong Ward",
         "codeName": "vinh_thong",
+        "postalCode": "91110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.360",
         "areaKm2": 95.89
       }

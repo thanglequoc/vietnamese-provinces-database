@@ -8676,6 +8676,8 @@
         "fullName": "Xã Trường Thành",
         "fullNameEn": "Truong Thanh Commune",
         "codeName": "truong_thanh",
+        "postalCode": "94718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.233",
         "areaKm2": 59.09
       }

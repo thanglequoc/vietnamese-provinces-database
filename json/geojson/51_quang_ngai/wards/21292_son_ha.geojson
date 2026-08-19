@@ -8092,6 +8092,8 @@
         "fullName": "Xã Sơn Hạ",
         "fullNameEn": "Son Ha Commune",
         "codeName": "son_ha",
+        "postalCode": "53815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1756",
         "areaKm2": 154.29
       }

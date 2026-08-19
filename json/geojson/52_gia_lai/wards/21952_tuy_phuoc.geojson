@@ -8844,6 +8844,8 @@
         "fullName": "Xã Tuy Phước",
         "fullNameEn": "Tuy Phuoc Commune",
         "codeName": "tuy_phuoc",
+        "postalCode": "55206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3014",
         "areaKm2": 53.37
       }

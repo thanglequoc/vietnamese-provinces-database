@@ -4644,6 +4644,8 @@
         "fullName": "Thành phố Hà Nội",
         "fullNameEn": "Hanoi City",
         "codeName": "ha_noi",
+        "postalCode": "",
+        "postalCodePrefix": "10, 11, 12, 13, 14",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.108",
         "areaKm2": 3359.84
       }

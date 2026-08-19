@@ -704,6 +704,8 @@
         "fullName": "Xã Châu Phong",
         "fullNameEn": "Chau Phong Commune",
         "codeName": "chau_phong",
+        "postalCode": "90415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.320",
         "areaKm2": 49.28
       }

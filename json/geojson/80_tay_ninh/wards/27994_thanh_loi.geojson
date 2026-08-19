@@ -3084,6 +3084,8 @@
         "fullName": "Xã Thạnh Lợi",
         "fullNameEn": "Thanh Loi Commune",
         "codeName": "thanh_loi",
+        "postalCode": "82612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1310",
         "areaKm2": 96.52
       }

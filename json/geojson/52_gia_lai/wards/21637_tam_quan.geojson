@@ -9096,6 +9096,8 @@
         "fullName": "Phường Tam Quan",
         "fullNameEn": "Tam Quan Ward",
         "codeName": "tam_quan",
+        "postalCode": "55417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2972",
         "areaKm2": 29.82
       }

@@ -3296,6 +3296,8 @@
         "fullName": "Xã Mê Linh",
         "fullNameEn": "Me Linh Commune",
         "codeName": "me_linh",
+        "postalCode": "12923",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3248",
         "areaKm2": 34.97
       }

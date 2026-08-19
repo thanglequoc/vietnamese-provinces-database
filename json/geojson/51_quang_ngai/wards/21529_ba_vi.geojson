@@ -7036,6 +7036,8 @@
         "fullName": "Xã Ba Vì",
         "fullNameEn": "Ba Vi Commune",
         "codeName": "ba_vi",
+        "postalCode": "54221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1785",
         "areaKm2": 125.4
       }

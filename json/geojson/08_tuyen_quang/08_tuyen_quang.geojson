@@ -6200,6 +6200,8 @@
         "fullName": "Tỉnh Tuyên Quang",
         "fullNameEn": "Tuyen Quang Province",
         "codeName": "tuyen_quang",
+        "postalCode": "",
+        "postalCodePrefix": "20, 22",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.121",
         "areaKm2": 13795.5
       }

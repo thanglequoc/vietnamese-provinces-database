@@ -4840,6 +4840,8 @@
         "fullName": "Phường An Hội Tây",
         "fullNameEn": "An Hoi Tay Ward",
         "codeName": "an_hoi_tay",
+        "postalCode": "71427",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.57",
         "areaKm2": 3.81
       }

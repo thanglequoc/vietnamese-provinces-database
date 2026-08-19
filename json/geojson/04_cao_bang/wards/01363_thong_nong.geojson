@@ -8848,6 +8848,8 @@
         "fullName": "Xã Thông Nông",
         "fullNameEn": "Thong Nong Commune",
         "codeName": "thong_nong",
+        "postalCode": "21225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.954",
         "areaKm2": 94.29
       }

@@ -30176,6 +30176,8 @@
         "fullName": "Xã Đồng Tâm",
         "fullNameEn": "Dong Tam Commune",
         "codeName": "dong_tam",
+        "postalCode": "20808",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2415",
         "areaKm2": 156.97
       }

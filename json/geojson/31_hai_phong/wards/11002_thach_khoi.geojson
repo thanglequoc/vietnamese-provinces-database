@@ -2212,6 +2212,8 @@
         "fullName": "Phường Thạch Khôi",
         "fullNameEn": "Thach Khoi Ward",
         "codeName": "thach_khoi",
+        "postalCode": "03119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.852",
         "areaKm2": 19.94
       }

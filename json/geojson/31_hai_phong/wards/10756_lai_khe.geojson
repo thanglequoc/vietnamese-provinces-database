@@ -1892,6 +1892,8 @@
         "fullName": "Xã Lai Khê",
         "fullNameEn": "Lai Khe Commune",
         "codeName": "lai_khe",
+        "postalCode": "03312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.838",
         "areaKm2": 30.07
       }

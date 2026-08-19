@@ -476,6 +476,8 @@
         "fullName": "Phường Tân Mỹ",
         "fullNameEn": "Tan My Ward",
         "codeName": "tan_my",
+        "postalCode": "72916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.113",
         "areaKm2": 6.45
       }

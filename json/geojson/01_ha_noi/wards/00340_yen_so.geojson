@@ -1984,6 +1984,8 @@
         "fullName": "Phường Yên Sở",
         "fullNameEn": "Yen So Ward",
         "codeName": "yen_so",
+        "postalCode": "11707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3189",
         "areaKm2": 5.62
       }

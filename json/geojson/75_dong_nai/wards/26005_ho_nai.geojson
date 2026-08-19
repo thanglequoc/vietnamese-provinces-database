@@ -4496,6 +4496,8 @@
         "fullName": "Phường Hố Nai",
         "fullNameEn": "Ho Nai Ward",
         "codeName": "ho_nai",
+        "postalCode": "76138",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3104",
         "areaKm2": 22.9
       }

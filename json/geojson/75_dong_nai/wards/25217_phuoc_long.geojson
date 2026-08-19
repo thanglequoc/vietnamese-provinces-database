@@ -7944,6 +7944,8 @@
         "fullName": "Phường Phước Long",
         "fullNameEn": "Phuoc Long Ward",
         "codeName": "phuoc_long",
+        "postalCode": "67716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2274",
         "areaKm2": 71.9
       }

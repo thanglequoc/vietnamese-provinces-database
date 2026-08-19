@@ -5832,6 +5832,8 @@
         "fullName": "Xã Bình Sơn",
         "fullNameEn": "Binh Son Commune",
         "codeName": "binh_son",
+        "postalCode": "91309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.368",
         "areaKm2": 281.7
       }

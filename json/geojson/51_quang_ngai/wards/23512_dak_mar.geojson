@@ -8508,6 +8508,8 @@
         "fullName": "Xã Đăk Mar",
         "fullNameEn": "Dak Mar Commune",
         "codeName": "dak_mar",
+        "postalCode": "60612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.555",
         "areaKm2": 112.79
       }

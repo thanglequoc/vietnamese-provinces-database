@@ -13384,6 +13384,8 @@
         "fullName": "Xã Na Ngoi",
         "fullNameEn": "Na Ngoi Commune",
         "codeName": "na_ngoi",
+        "postalCode": "44425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1503",
         "areaKm2": 341.25
       }

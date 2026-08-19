@@ -7500,6 +7500,8 @@
         "fullName": "Phường Lộc Ninh",
         "fullNameEn": "Loc Ninh Ward",
         "codeName": "loc_ninh",
+        "postalCode": "67606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2281",
         "areaKm2": 67.4
       }

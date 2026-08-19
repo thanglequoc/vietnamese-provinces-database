@@ -6808,6 +6808,8 @@
         "fullName": "Xã Bạch Ngọc",
         "fullNameEn": "Bach Ngoc Commune",
         "codeName": "bach_ngoc",
+        "postalCode": "44129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1459",
         "areaKm2": 72.2
       }

@@ -14952,6 +14952,8 @@
         "fullName": "Phường Phượng Sơn",
         "fullNameEn": "Phuong Son Ward",
         "codeName": "phuong_son",
+        "postalCode": "26531",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2111",
         "areaKm2": 78.74
       }

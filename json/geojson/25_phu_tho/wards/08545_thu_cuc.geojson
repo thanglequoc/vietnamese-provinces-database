@@ -5720,6 +5720,8 @@
         "fullName": "Xã Thu Cúc",
         "fullNameEn": "Thu Cuc Commune",
         "codeName": "thu_cuc",
+        "postalCode": "35559",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1603",
         "areaKm2": 100.51
       }

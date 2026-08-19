@@ -13940,6 +13940,8 @@
         "fullName": "Xã Châu Bình",
         "fullNameEn": "Chau Binh Commune",
         "codeName": "chau_binh",
+        "postalCode": "44007",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1412",
         "areaKm2": 130.91
       }

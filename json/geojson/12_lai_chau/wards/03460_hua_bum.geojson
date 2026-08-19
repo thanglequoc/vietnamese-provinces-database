@@ -17552,6 +17552,8 @@
         "fullName": "Xã Hua Bum",
         "fullNameEn": "Hua Bum Commune",
         "codeName": "hua_bum",
+        "postalCode": "30512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2072",
         "areaKm2": 355.72
       }

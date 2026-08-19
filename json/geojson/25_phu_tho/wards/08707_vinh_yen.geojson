@@ -7464,6 +7464,8 @@
         "fullName": "Phường Vĩnh Yên",
         "fullNameEn": "Vinh Yen Ward",
         "codeName": "vinh_yen",
+        "postalCode": "15116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1605",
         "areaKm2": 25
       }

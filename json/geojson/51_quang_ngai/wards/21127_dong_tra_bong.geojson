@@ -5384,6 +5384,8 @@
         "fullName": "Xã Đông Trà Bồng",
         "fullNameEn": "Dong Tra Bong Commune",
         "codeName": "dong_tra_bong",
+        "postalCode": "53417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1750",
         "areaKm2": 74.83
       }

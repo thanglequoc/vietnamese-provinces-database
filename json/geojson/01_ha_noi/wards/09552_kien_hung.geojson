@@ -2752,6 +2752,8 @@
         "fullName": "Phường Kiến Hưng",
         "fullNameEn": "Kien Hung Ward",
         "codeName": "kien_hung",
+        "postalCode": "12121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3179",
         "areaKm2": 6.65
       }

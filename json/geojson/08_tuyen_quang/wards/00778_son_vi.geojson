@@ -14292,6 +14292,8 @@
         "fullName": "Xã Sơn Vĩ",
         "fullNameEn": "Son Vi Commune",
         "codeName": "son_vi",
+        "postalCode": "20423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2374",
         "areaKm2": 110.62
       }

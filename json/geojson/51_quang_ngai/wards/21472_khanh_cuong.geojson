@@ -5248,6 +5248,8 @@
         "fullName": "Xã Khánh Cường",
         "fullNameEn": "Khanh Cuong Commune",
         "codeName": "khanh_cuong",
+        "postalCode": "54324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1780",
         "areaKm2": 103.98
       }

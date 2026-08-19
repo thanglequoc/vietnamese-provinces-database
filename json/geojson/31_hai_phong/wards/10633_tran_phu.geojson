@@ -5080,6 +5080,8 @@
         "fullName": "Xã Trần Phú",
         "fullNameEn": "Tran Phu Commune",
         "codeName": "tran_phu",
+        "postalCode": "03566",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.878",
         "areaKm2": 24.99
       }

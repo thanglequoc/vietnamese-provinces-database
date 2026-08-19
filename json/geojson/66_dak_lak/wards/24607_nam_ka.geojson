@@ -9220,6 +9220,8 @@
         "fullName": "Xã Nam Ka",
         "fullNameEn": "Nam Ka Commune",
         "codeName": "nam_ka",
+        "postalCode": "64311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2829",
         "areaKm2": 172.86
       }

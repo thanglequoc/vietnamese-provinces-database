@@ -4908,6 +4908,8 @@
         "fullName": "Xã Liên Minh",
         "fullNameEn": "Lien Minh Commune",
         "codeName": "lien_minh",
+        "postalCode": "13023",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3274",
         "areaKm2": 23.57
       }

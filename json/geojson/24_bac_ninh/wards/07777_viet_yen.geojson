@@ -7920,6 +7920,8 @@
         "fullName": "Phường Việt Yên",
         "fullNameEn": "Viet Yen Ward",
         "codeName": "viet_yen",
+        "postalCode": "26175",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2151",
         "areaKm2": 51.97
       }

@@ -1748,6 +1748,8 @@
         "fullName": "Phường Thảo Nguyên",
         "fullNameEn": "Thao Nguyen Ward",
         "codeName": "thao_nguyen",
+        "postalCode": "34722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1408",
         "areaKm2": 53.09
       }

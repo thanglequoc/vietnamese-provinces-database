@@ -7840,6 +7840,8 @@
         "fullName": "Xã Thiên Phủ",
         "fullNameEn": "Thien Phu Commune",
         "codeName": "thien_phu",
+        "postalCode": "41912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2699",
         "areaKm2": 147.48
       }

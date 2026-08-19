@@ -2744,6 +2744,8 @@
         "fullName": "Xã Gia Vân",
         "fullNameEn": "Gia Van Commune",
         "codeName": "gia_van",
+        "postalCode": "08310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.751",
         "areaKm2": 26.94
       }

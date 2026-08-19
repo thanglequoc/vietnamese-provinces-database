@@ -14948,6 +14948,8 @@
         "fullName": "Phường Hải Vân",
         "fullNameEn": "Hai Van Ward",
         "codeName": "hai_van",
+        "postalCode": "50611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1912",
         "areaKm2": 406.09
       }

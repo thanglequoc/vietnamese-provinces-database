@@ -9640,6 +9640,8 @@
         "fullName": "Phường Phú An",
         "fullNameEn": "Phu An Ward",
         "codeName": "phu_an",
+        "postalCode": "75124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.17",
         "areaKm2": 34.97
       }

@@ -2500,6 +2500,8 @@
         "fullName": "Xã Mỹ Thành",
         "fullNameEn": "My Thanh Commune",
         "codeName": "my_thanh",
+        "postalCode": "84822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.464",
         "areaKm2": 52.3
       }

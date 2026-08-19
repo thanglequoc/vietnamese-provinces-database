@@ -15272,6 +15272,8 @@
         "fullName": "Xã Bảo Thắng",
         "fullNameEn": "Bao Thang Commune",
         "codeName": "bao_thang",
+        "postalCode": "31221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1071",
         "areaKm2": 160.4
       }

@@ -5360,6 +5360,8 @@
         "fullName": "Xã Quảng Ngọc",
         "fullNameEn": "Quang Ngoc Commune",
         "codeName": "quang_ngoc",
+        "postalCode": "42623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2584",
         "areaKm2": 34.39
       }

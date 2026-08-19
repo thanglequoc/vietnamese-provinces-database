@@ -12256,6 +12256,8 @@
         "fullName": "Xã Tây Hoà",
         "fullNameEn": "Tay Hoa Commune",
         "codeName": "tay_hoa",
+        "postalCode": "56717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2916",
         "areaKm2": 55.14
       }

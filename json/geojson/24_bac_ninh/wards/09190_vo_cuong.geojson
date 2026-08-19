@@ -3916,6 +3916,8 @@
         "fullName": "Phường Võ Cường",
         "fullNameEn": "Vo Cuong Ward",
         "codeName": "vo_cuong",
+        "postalCode": "16118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2140",
         "areaKm2": 18.08
       }

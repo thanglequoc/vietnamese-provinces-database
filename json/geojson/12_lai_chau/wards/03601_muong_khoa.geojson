@@ -19168,6 +19168,8 @@
         "fullName": "Xã Mường Khoa",
         "fullNameEn": "Muong Khoa Commune",
         "codeName": "muong_khoa",
+        "postalCode": "30708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2093",
         "areaKm2": 168.83
       }

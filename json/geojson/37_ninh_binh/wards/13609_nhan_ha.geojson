@@ -2864,6 +2864,8 @@
         "fullName": "Xã Nhân Hà",
         "fullNameEn": "Nhan Ha Commune",
         "codeName": "nhan_ha",
+        "postalCode": "18632",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2765",
         "areaKm2": 23.98
       }

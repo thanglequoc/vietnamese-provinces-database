@@ -6776,6 +6776,8 @@
         "fullName": "Xã Văn Miếu",
         "fullNameEn": "Van Mieu Commune",
         "codeName": "van_mieu",
+        "postalCode": "35812",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1598",
         "areaKm2": 89.11
       }

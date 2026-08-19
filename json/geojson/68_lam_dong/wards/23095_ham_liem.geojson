@@ -11808,6 +11808,8 @@
         "fullName": "Xã Hàm Liêm",
         "fullNameEn": "Ham Liem Commune",
         "codeName": "ham_liem",
+        "postalCode": "77417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3079",
         "areaKm2": 113.81
       }

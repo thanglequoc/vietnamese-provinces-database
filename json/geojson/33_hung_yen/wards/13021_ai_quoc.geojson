@@ -2228,6 +2228,8 @@
         "fullName": "Xã Ái Quốc",
         "fullNameEn": "Ai Quoc Commune",
         "codeName": "ai_quoc",
+        "postalCode": "06325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.679",
         "areaKm2": 14.98
       }

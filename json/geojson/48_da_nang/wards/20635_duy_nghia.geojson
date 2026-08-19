@@ -3820,6 +3820,8 @@
         "fullName": "Xã Duy Nghĩa",
         "fullNameEn": "Duy Nghia Commune",
         "codeName": "duy_nghia",
+        "postalCode": "51510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1931",
         "areaKm2": 35.36
       }

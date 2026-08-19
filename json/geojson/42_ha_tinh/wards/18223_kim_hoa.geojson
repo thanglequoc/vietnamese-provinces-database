@@ -6672,6 +6672,8 @@
         "fullName": "Xã Kim Hoa",
         "fullNameEn": "Kim Hoa Commune",
         "codeName": "kim_hoa",
+        "postalCode": "45829",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2041",
         "areaKm2": 88.28
       }

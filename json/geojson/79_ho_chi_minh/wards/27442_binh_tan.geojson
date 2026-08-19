@@ -3796,6 +3796,8 @@
         "fullName": "Phường Bình Tân",
         "fullNameEn": "Binh Tan Ward",
         "codeName": "binh_tan",
+        "postalCode": "71916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.107",
         "areaKm2": 11.25
       }

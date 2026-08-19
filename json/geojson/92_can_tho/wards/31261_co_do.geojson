@@ -4860,6 +4860,8 @@
         "fullName": "Xã Cờ Đỏ",
         "fullNameEn": "Co Do Commune",
         "codeName": "co_do",
+        "postalCode": "94606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.225",
         "areaKm2": 44.59
       }

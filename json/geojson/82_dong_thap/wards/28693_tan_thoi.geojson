@@ -4676,6 +4676,8 @@
         "fullName": "Xã Tân Thới",
         "fullNameEn": "Tan Thoi Commune",
         "codeName": "tan_thoi",
+        "postalCode": "84210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.493",
         "areaKm2": 65.8
       }

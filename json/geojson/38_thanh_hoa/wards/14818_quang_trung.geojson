@@ -5068,6 +5068,8 @@
         "fullName": "Phường Quang Trung",
         "fullNameEn": "Quang Trung Ward",
         "codeName": "quang_trung",
+        "postalCode": "40710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2724",
         "areaKm2": 29.22
       }

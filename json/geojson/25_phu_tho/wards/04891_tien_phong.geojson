@@ -4248,6 +4248,8 @@
         "fullName": "Xã Tiền Phong",
         "fullNameEn": "Tien Phong Commune",
         "codeName": "tien_phong",
+        "postalCode": "36321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1660",
         "areaKm2": 116.31
       }

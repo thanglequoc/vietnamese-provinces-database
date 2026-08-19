@@ -12352,6 +12352,8 @@
         "fullName": "Xã Hiệp Đức",
         "fullNameEn": "Hiep Duc Commune",
         "codeName": "hiep_duc",
+        "postalCode": "52218",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1956",
         "areaKm2": 150.47
       }

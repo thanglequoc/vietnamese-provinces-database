@@ -24,15 +24,16 @@ func main() {
 		// Tee stdout and stderr to both the original console and the log file.
 		// Go's log package writes to stderr by default, so both streams must be
 		// routed through the pipe to ensure the log file captures everything.
+		// origStdout is the single console sink — writing to both origStdout and
+		// origStderr would duplicate output, since they are the same terminal device.
 		origStdout := os.Stdout
-		origStderr := os.Stderr
 		r, w, _ := os.Pipe()
 		os.Stdout = w
 		os.Stderr = w
 		log.SetOutput(w)
 
 		go func() {
-			_, _ = io.Copy(io.MultiWriter(origStdout, origStderr, logFile), r)
+			_, _ = io.Copy(io.MultiWriter(origStdout, logFile), r)
 		}()
 
 		defer func() {

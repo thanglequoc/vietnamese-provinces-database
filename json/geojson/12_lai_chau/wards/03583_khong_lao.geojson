@@ -17748,6 +17748,8 @@
         "fullName": "Xã Khổng Lào",
         "fullNameEn": "Khong Lao Commune",
         "codeName": "khong_lao",
+        "postalCode": "30307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2089",
         "areaKm2": 188.12
       }

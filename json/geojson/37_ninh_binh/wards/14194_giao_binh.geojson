@@ -1616,6 +1616,8 @@
         "fullName": "Xã Giao Bình",
         "fullNameEn": "Giao Binh Commune",
         "codeName": "giao_binh",
+        "postalCode": "07832",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.812",
         "areaKm2": 21.75
       }

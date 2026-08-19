@@ -11076,6 +11076,8 @@
         "fullName": "Xã Canh Vinh",
         "fullNameEn": "Canh Vinh Commune",
         "codeName": "canh_vinh",
+        "postalCode": "55911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3021",
         "areaKm2": 258.72
       }

@@ -3224,6 +3224,8 @@
         "fullName": "Phường Yên Sơn",
         "fullNameEn": "Yen Son Ward",
         "codeName": "yen_son",
+        "postalCode": "08510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.767",
         "areaKm2": 35.86
       }

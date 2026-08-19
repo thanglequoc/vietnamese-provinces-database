@@ -6168,6 +6168,8 @@
         "fullName": "Xã Mường Bi",
         "fullNameEn": "Muong Bi Commune",
         "codeName": "muong_bi",
+        "postalCode": "36581",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1641",
         "areaKm2": 94.79
       }

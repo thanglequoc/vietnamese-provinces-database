@@ -5716,6 +5716,8 @@
         "fullName": "Xã Pà Cò",
         "fullNameEn": "Pa Co Commune",
         "codeName": "pa_co",
+        "postalCode": "36414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1683",
         "areaKm2": 115.76
       }

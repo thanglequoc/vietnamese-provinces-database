@@ -4248,6 +4248,8 @@
         "fullName": "Xã Đại Sơn",
         "fullNameEn": "Dai Son Commune",
         "codeName": "dai_son",
+        "postalCode": "26414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2114",
         "areaKm2": 76.38
       }

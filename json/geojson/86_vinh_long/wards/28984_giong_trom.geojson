@@ -6872,6 +6872,8 @@
         "fullName": "Xã Giồng Trôm",
         "fullNameEn": "Giong Trom Commune",
         "codeName": "giong_trom",
+        "postalCode": "86606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2457",
         "areaKm2": 42.39
       }

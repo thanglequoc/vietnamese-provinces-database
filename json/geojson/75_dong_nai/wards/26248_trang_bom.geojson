@@ -11252,6 +11252,8 @@
         "fullName": "Phường Trảng Bom",
         "fullNameEn": "Trang Bom Ward",
         "codeName": "trang_bom",
+        "postalCode": "76306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3122",
         "areaKm2": 68.8
       }

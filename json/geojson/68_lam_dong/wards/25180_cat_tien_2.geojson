@@ -6672,6 +6672,8 @@
         "fullName": "Xã Cát Tiên 2",
         "fullNameEn": "Commune Cat Tien 2",
         "codeName": "cat_tien_2",
+        "postalCode": "66517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1258",
         "areaKm2": 177.26
       }

@@ -8184,6 +8184,8 @@
         "fullName": "Xã Hà Quảng",
         "fullNameEn": "Ha Quang Commune",
         "codeName": "ha_quang",
+        "postalCode": "21226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.955",
         "areaKm2": 112.25
       }

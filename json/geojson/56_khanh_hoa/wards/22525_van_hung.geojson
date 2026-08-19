@@ -8464,6 +8464,8 @@
         "fullName": "Xã Vạn Hưng",
         "fullNameEn": "Van Hung Commune",
         "codeName": "van_hung",
+        "postalCode": "57207",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1108",
         "areaKm2": 86.1
       }

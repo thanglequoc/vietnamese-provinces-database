@@ -6448,6 +6448,8 @@
         "fullName": "Xã Trường Lâm",
         "fullNameEn": "Truong Lam Commune",
         "codeName": "truong_lam",
+        "postalCode": "42736",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2569",
         "areaKm2": 68.16
       }

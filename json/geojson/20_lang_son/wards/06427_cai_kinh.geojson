@@ -16440,6 +16440,8 @@
         "fullName": "Xã Cai Kinh",
         "fullNameEn": "Cai Kinh Commune",
         "codeName": "cai_kinh",
+        "postalCode": "25608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1800",
         "areaKm2": 105.56
       }

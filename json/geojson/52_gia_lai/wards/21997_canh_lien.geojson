@@ -10688,6 +10688,8 @@
         "fullName": "Xã Canh Liên",
         "fullNameEn": "Canh Lien Commune",
         "codeName": "canh_lien",
+        "postalCode": "55912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3020",
         "areaKm2": 331.67
       }

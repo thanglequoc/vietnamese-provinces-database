@@ -9312,6 +9312,8 @@
         "fullName": "Xã Tuyên Lâm",
         "fullNameEn": "Tuyen Lam Commune",
         "codeName": "tuyen_lam",
+        "postalCode": "47527",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.607",
         "areaKm2": 235.2
       }

@@ -3220,6 +3220,8 @@
         "fullName": "Xã Nghi Lộc",
         "fullNameEn": "Nghi Loc Commune",
         "codeName": "nghi_loc",
+        "postalCode": "43336",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1523",
         "areaKm2": 33.31
       }

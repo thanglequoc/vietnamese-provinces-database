@@ -7972,6 +7972,8 @@
         "fullName": "Xã Trường Sinh",
         "fullNameEn": "Truong Sinh Commune",
         "codeName": "truong_sinh",
+        "postalCode": "22721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2362",
         "areaKm2": 53.36
       }

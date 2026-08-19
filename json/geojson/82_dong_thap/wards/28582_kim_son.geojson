@@ -4204,6 +4204,8 @@
         "fullName": "Xã Kim Sơn",
         "fullNameEn": "Kim Son Commune",
         "codeName": "kim_son",
+        "postalCode": "84627",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.480",
         "areaKm2": 29.4
       }

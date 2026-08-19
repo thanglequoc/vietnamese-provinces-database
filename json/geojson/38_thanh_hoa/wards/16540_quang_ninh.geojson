@@ -3996,6 +3996,8 @@
         "fullName": "Xã Quảng Ninh",
         "fullNameEn": "Quang Ninh Commune",
         "codeName": "quang_ninh",
+        "postalCode": "42617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2586",
         "areaKm2": 17.1
       }

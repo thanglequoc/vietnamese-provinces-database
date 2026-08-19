@@ -16120,6 +16120,8 @@
         "fullName": "Xã Ninh Thạnh Lợi",
         "fullNameEn": "Ninh Thanh Loi Commune",
         "codeName": "ninh_thanh_loi",
+        "postalCode": "97310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.145",
         "areaKm2": 66.4
       }

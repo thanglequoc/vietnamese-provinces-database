@@ -20028,6 +20028,8 @@
         "fullName": "Tỉnh An Giang",
         "fullNameEn": "An Giang Province",
         "codeName": "an_giang",
+        "postalCode": "",
+        "postalCodePrefix": "90, 91, 92",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.131",
         "areaKm2": 9888.91
       }

@@ -6568,6 +6568,8 @@
         "fullName": "Xã Can Lộc",
         "fullNameEn": "Can Loc Commune",
         "codeName": "can_loc",
+        "postalCode": "45329",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2001",
         "areaKm2": 65.7
       }

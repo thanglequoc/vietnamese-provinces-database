@@ -1196,6 +1196,8 @@
         "fullName": "Phường Việt Hưng",
         "fullNameEn": "Viet Hung Ward",
         "codeName": "viet_hung",
+        "postalCode": "11806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3197",
         "areaKm2": 12.91
       }

@@ -968,6 +968,8 @@
         "fullName": "Phường Bồ Đề",
         "fullNameEn": "Bo De Ward",
         "codeName": "bo_de",
+        "postalCode": "11813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3196",
         "areaKm2": 12.94
       }

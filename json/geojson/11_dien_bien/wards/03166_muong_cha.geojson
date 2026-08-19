@@ -21892,6 +21892,8 @@
         "fullName": "Xã Mường Chà",
         "fullNameEn": "Muong Cha Commune",
         "codeName": "muong_cha",
+        "postalCode": "32821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2231",
         "areaKm2": 462.28
       }

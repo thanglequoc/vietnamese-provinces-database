@@ -9984,6 +9984,8 @@
         "fullName": "Xã Tân Văn",
         "fullNameEn": "Tan Van Commune",
         "codeName": "tan_van",
+        "postalCode": "25423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1836",
         "areaKm2": 112.06
       }

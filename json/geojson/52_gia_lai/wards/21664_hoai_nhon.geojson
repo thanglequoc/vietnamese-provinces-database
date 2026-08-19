@@ -6064,6 +6064,8 @@
         "fullName": "Phường Hoài Nhơn",
         "fullNameEn": "Hoai Nhon Ward",
         "codeName": "hoai_nhon",
+        "postalCode": "55423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2976",
         "areaKm2": 40.32
       }

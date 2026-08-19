@@ -4160,6 +4160,8 @@
         "fullName": "Xã Ứng Hoà",
         "fullNameEn": "Ung Hoa Commune",
         "codeName": "ung_hoa",
+        "postalCode": "13837",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3211",
         "areaKm2": 67.8
       }

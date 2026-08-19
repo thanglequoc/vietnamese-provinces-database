@@ -3660,6 +3660,8 @@
         "fullName": "Xã Quỳnh Sơn",
         "fullNameEn": "Quynh Son Commune",
         "codeName": "quynh_son",
+        "postalCode": "43529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1488",
         "areaKm2": 61.21
       }

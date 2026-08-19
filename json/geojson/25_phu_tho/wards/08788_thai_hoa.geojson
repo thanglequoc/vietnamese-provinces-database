@@ -7608,6 +7608,8 @@
         "fullName": "Xã Thái Hoà",
         "fullNameEn": "Thai Hoa Commune",
         "codeName": "thai_hoa",
+        "postalCode": "15412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1612",
         "areaKm2": 29
       }

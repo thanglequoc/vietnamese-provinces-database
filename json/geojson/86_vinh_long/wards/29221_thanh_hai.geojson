@@ -10340,6 +10340,8 @@
         "fullName": "Xã Thạnh Hải",
         "fullNameEn": "Thanh Hai Commune",
         "codeName": "thanh_hai",
+        "postalCode": "86921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2482",
         "areaKm2": 100.71
       }

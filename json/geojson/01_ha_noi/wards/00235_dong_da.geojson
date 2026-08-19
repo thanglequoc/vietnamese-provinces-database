@@ -804,6 +804,8 @@
         "fullName": "Phường Đống Đa",
         "fullNameEn": "Dong Da Ward",
         "codeName": "dong_da",
+        "postalCode": "11527",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3170",
         "areaKm2": 2.07
       }

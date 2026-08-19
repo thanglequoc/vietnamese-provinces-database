@@ -7916,6 +7916,8 @@
         "fullName": "Xã Khánh An",
         "fullNameEn": "Khanh An Commune",
         "codeName": "khanh_an",
+        "postalCode": "98313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.170",
         "areaKm2": 177.7
       }

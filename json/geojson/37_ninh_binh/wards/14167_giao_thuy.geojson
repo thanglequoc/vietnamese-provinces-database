@@ -2236,6 +2236,8 @@
         "fullName": "Xã Giao Thuỷ",
         "fullNameEn": "Giao Thuy Commune",
         "codeName": "giao_thuy",
+        "postalCode": "07806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.809",
         "areaKm2": 23.52
       }

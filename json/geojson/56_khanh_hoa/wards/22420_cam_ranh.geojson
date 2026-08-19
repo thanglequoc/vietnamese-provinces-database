@@ -1392,6 +1392,8 @@
         "fullName": "Phường Cam Ranh",
         "fullNameEn": "Cam Ranh Ward",
         "codeName": "cam_ranh",
+        "postalCode": "57821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1122",
         "areaKm2": 17.5
       }

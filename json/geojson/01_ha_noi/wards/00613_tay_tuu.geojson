@@ -1220,6 +1220,8 @@
         "fullName": "Phường Tây Tựu",
         "fullNameEn": "Tay Tuu Ward",
         "codeName": "tay_tuu",
+        "postalCode": "11914",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3270",
         "areaKm2": 7.54
       }

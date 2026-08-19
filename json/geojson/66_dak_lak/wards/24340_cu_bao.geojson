@@ -10792,6 +10792,8 @@
         "fullName": "Phường Cư Bao",
         "fullNameEn": "Cu Bao Ward",
         "codeName": "cu_bao",
+        "postalCode": "64014",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2846",
         "areaKm2": 104.94
       }

@@ -2892,6 +2892,8 @@
         "fullName": "Phường Thành Đông",
         "fullNameEn": "Thanh Dong Ward",
         "codeName": "thanh_dong",
+        "postalCode": "03128",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.851",
         "areaKm2": 12.22
       }

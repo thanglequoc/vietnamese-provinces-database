@@ -6068,6 +6068,8 @@
         "fullName": "Xã Sơn Thuỷ",
         "fullNameEn": "Son Thuy Commune",
         "codeName": "son_thuy",
+        "postalCode": "53817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1737",
         "areaKm2": 95.77
       }

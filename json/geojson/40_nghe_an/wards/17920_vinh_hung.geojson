@@ -1984,6 +1984,8 @@
         "fullName": "Phường Vinh Hưng",
         "fullNameEn": "Vinh Hung Ward",
         "codeName": "vinh_hung",
+        "postalCode": "43133",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1519",
         "areaKm2": 25.47
       }

@@ -10744,6 +10744,8 @@
         "fullName": "Phường Kỳ Lừa",
         "fullNameEn": "Ky Lua Ward",
         "codeName": "ky_lua",
+        "postalCode": "25115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1791",
         "areaKm2": 61.7
       }

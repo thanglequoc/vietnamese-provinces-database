@@ -8524,6 +8524,8 @@
         "fullName": "Xã Kha Sơn",
         "fullNameEn": "Kha Son Commune",
         "codeName": "kha_son",
+        "postalCode": "24921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1239",
         "areaKm2": 37.85
       }

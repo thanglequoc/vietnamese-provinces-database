@@ -5872,6 +5872,8 @@
         "fullName": "Xã Vĩnh An",
         "fullNameEn": "Vinh An Commune",
         "codeName": "vinh_an",
+        "postalCode": "15636",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1635",
         "areaKm2": 21.4
       }

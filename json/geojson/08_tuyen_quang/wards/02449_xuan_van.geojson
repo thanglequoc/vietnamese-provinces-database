@@ -7216,6 +7216,8 @@
         "fullName": "Xã Xuân Vân",
         "fullNameEn": "Xuan Van Commune",
         "codeName": "xuan_van",
+        "postalCode": "22211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2343",
         "areaKm2": 104.25
       }

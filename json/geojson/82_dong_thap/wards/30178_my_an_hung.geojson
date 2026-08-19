@@ -12324,6 +12324,8 @@
         "fullName": "Xã Mỹ An Hưng",
         "fullNameEn": "My An Hung Commune",
         "codeName": "my_an_hung",
+        "postalCode": "81719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.435",
         "areaKm2": 65.3
       }

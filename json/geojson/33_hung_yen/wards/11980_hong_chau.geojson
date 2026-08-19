@@ -1824,6 +1824,8 @@
         "fullName": "Phường Hồng Châu",
         "fullNameEn": "Hong Chau Ward",
         "codeName": "hong_chau",
+        "postalCode": "17110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.719",
         "areaKm2": 15.41
       }

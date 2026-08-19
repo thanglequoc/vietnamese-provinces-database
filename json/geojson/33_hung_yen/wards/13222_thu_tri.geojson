@@ -3900,6 +3900,8 @@
         "fullName": "Xã Thư Trì",
         "fullNameEn": "Thu Tri Commune",
         "codeName": "thu_tri",
+        "postalCode": "06936",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.685",
         "areaKm2": 20.97
       }

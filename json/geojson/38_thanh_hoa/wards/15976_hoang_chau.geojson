@@ -3916,6 +3916,8 @@
         "fullName": "Xã Hoằng Châu",
         "fullNameEn": "Hoang Chau Commune",
         "codeName": "hoang_chau",
+        "postalCode": "40348",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2599",
         "areaKm2": 33.31
       }

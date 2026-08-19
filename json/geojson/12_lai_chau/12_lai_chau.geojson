@@ -4764,6 +4764,8 @@
         "fullName": "Tỉnh Lai Châu",
         "fullNameEn": "Lai Chau Province",
         "codeName": "lai_chau",
+        "postalCode": "",
+        "postalCodePrefix": "30",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.113",
         "areaKm2": 9068.73
       }

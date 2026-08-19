@@ -3712,6 +3712,8 @@
         "fullName": "Xã Nam Ninh",
         "fullNameEn": "Nam Ninh Commune",
         "codeName": "nam_ninh",
+        "postalCode": "07529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.790",
         "areaKm2": 25.8
       }

@@ -7220,6 +7220,8 @@
         "fullName": "Xã Thạch Xuân",
         "fullNameEn": "Thach Xuan Commune",
         "codeName": "thach_xuan",
+        "postalCode": "45234",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2009",
         "areaKm2": 72.53
       }

@@ -2656,6 +2656,8 @@
         "fullName": "Xã Cát Thành",
         "fullNameEn": "Cat Thanh Commune",
         "codeName": "cat_thanh",
+        "postalCode": "07622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.808",
         "areaKm2": 23.07
       }

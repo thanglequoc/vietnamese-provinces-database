@@ -10420,6 +10420,8 @@
         "fullName": "Xã Nam Giang",
         "fullNameEn": "Nam Giang Commune",
         "codeName": "nam_giang",
+        "postalCode": "51919",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1919",
         "areaKm2": 262.94
       }

@@ -4216,6 +4216,8 @@
         "fullName": "Xã Yên Mạc",
         "fullNameEn": "Yen Mac Commune",
         "codeName": "yen_mac",
+        "postalCode": "08619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.765",
         "areaKm2": 20.6
       }

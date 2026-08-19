@@ -3168,6 +3168,8 @@
         "fullName": "Xã Vĩnh Lại",
         "fullNameEn": "Vinh Lai Commune",
         "codeName": "vinh_lai",
+        "postalCode": "03834",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.888",
         "areaKm2": 26.15
       }

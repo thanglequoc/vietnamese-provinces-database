@@ -3744,6 +3744,8 @@
         "fullName": "Phường Dương Nỗ",
         "fullNameEn": "Duong No Ward",
         "codeName": "duong_no",
+        "postalCode": "49142",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1701",
         "areaKm2": 20.63
       }

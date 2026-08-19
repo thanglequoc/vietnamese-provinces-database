@@ -2272,6 +2272,8 @@
         "fullName": "Phường Trường Vinh",
         "fullNameEn": "Truong Vinh Ward",
         "codeName": "truong_vinh",
+        "postalCode": "43131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1520",
         "areaKm2": 34.22
       }

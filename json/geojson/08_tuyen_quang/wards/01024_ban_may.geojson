@@ -15324,6 +15324,8 @@
         "fullName": "Xã Bản Máy",
         "fullNameEn": "Ban May Commune",
         "codeName": "ban_may",
+        "postalCode": "20613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2403",
         "areaKm2": 76.17
       }

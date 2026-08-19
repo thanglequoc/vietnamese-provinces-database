@@ -15636,6 +15636,8 @@
         "fullName": "Xã Bom Bo",
         "fullNameEn": "Bom Bo Commune",
         "codeName": "bom_bo",
+        "postalCode": "67312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2303",
         "areaKm2": 245.9
       }

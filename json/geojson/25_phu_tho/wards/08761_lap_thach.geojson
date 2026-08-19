@@ -9396,6 +9396,8 @@
         "fullName": "Xã Lập Thạch",
         "fullNameEn": "Lap Thach Commune",
         "codeName": "lap_thach",
+        "postalCode": "15406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1609",
         "areaKm2": 39.1
       }

@@ -9684,6 +9684,8 @@
         "fullName": "Xã Tân Dĩnh",
         "fullNameEn": "Tan Dinh Commune",
         "codeName": "tan_dinh",
+        "postalCode": "26626",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2171",
         "areaKm2": 31.96
       }

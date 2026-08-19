@@ -6252,6 +6252,8 @@
         "fullName": "Xã Cẩm Xuyên",
         "fullNameEn": "Cam Xuyen Commune",
         "codeName": "cam_xuyen",
+        "postalCode": "46106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2029",
         "areaKm2": 82.98
       }

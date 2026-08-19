@@ -5340,6 +5340,8 @@
         "fullName": "Xã Hải Lạng",
         "fullNameEn": "Hai Lang Commune",
         "codeName": "hai_lang",
+        "postalCode": "01916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1879",
         "areaKm2": 131.03
       }

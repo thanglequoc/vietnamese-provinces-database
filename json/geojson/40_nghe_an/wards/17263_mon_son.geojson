@@ -16856,6 +16856,8 @@
         "fullName": "Xã Môn Sơn",
         "fullNameEn": "Mon Son Commune",
         "codeName": "mon_son",
+        "postalCode": "44312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1418",
         "areaKm2": 529.42
       }

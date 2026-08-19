@@ -3836,6 +3836,8 @@
         "fullName": "Xã Cẩm Giang",
         "fullNameEn": "Cam Giang Commune",
         "codeName": "cam_giang",
+        "postalCode": "03606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.863",
         "areaKm2": 26.64
       }

@@ -5012,6 +5012,8 @@
         "fullName": "Xã Tuần Giáo",
         "fullNameEn": "Tuan Giao Commune",
         "codeName": "tuan_giao",
+        "postalCode": "32506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2253",
         "areaKm2": 108.49
       }

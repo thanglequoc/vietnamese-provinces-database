@@ -2168,6 +2168,8 @@
         "fullName": "Phường Hội An Tây",
         "fullNameEn": "Hoi An Tay Ward",
         "codeName": "hoi_an_tay",
+        "postalCode": "51321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1945",
         "areaKm2": 18.09
       }

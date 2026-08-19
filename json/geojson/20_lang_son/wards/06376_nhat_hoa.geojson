@@ -7712,6 +7712,8 @@
         "fullName": "Xã Nhất Hoà",
         "fullNameEn": "Nhat Hoa Commune",
         "codeName": "nhat_hoa",
+        "postalCode": "25468",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1821",
         "areaKm2": 143.72
       }

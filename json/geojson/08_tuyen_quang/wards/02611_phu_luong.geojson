@@ -8608,6 +8608,8 @@
         "fullName": "Xã Phú Lương",
         "fullNameEn": "Phu Luong Commune",
         "codeName": "phu_luong",
+        "postalCode": "22731",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2361",
         "areaKm2": 85.65
       }

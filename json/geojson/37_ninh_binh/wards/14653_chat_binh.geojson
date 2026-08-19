@@ -1124,6 +1124,8 @@
         "fullName": "Xã Chất Bình",
         "fullNameEn": "Chat Binh Commune",
         "codeName": "chat_binh",
+        "postalCode": "08713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.764",
         "areaKm2": 18.6
       }

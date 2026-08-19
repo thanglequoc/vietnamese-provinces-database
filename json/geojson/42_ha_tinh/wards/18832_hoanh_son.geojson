@@ -5396,6 +5396,8 @@
         "fullName": "Phường Hoành Sơn",
         "fullNameEn": "Hoanh Son Ward",
         "codeName": "hoanh_son",
+        "postalCode": "46220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2018",
         "areaKm2": 70.48
       }

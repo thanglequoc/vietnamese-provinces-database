@@ -19340,6 +19340,8 @@
         "fullName": "Xã Bảo Lâm 4",
         "fullNameEn": "Commune Bao Lam 4",
         "codeName": "bao_lam_4",
+        "postalCode": "66423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1266",
         "areaKm2": 343.35
       }

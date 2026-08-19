@@ -4364,6 +4364,8 @@
         "fullName": "Xã Anh Sơn Đông",
         "fullNameEn": "Anh Son Dong Commune",
         "codeName": "anh_son_dong",
+        "postalCode": "44230",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1423",
         "areaKm2": 65.85
       }

@@ -1676,6 +1676,8 @@
         "fullName": "Phường Cầu Kiệu",
         "fullNameEn": "Cau Kieu Ward",
         "codeName": "cau_kieu",
+        "postalCode": "72222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.77",
         "areaKm2": 1.23
       }

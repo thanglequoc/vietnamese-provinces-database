@@ -8320,6 +8320,8 @@
         "fullName": "Xã Định Mỹ",
         "fullNameEn": "Dinh My Commune",
         "codeName": "dinh_my",
+        "postalCode": "90963",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.357",
         "areaKm2": 109.77
       }

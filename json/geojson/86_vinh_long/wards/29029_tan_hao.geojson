@@ -6268,6 +6268,8 @@
         "fullName": "Xã Tân Hào",
         "fullNameEn": "Tan Hao Commune",
         "codeName": "tan_hao",
+        "postalCode": "86623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2462",
         "areaKm2": 44.45
       }

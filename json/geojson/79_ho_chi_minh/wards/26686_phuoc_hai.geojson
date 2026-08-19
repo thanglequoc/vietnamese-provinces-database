@@ -9000,6 +9000,8 @@
         "fullName": "Xã Phước Hải",
         "fullNameEn": "Phuoc Hai Commune",
         "codeName": "phuoc_hai",
+        "postalCode": "78313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2220",
         "areaKm2": 70.04
       }

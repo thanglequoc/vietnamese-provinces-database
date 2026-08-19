@@ -7276,6 +7276,8 @@
         "fullName": "Xã Đông Hiếu",
         "fullNameEn": "Dong Hieu Commune",
         "codeName": "dong_hieu",
+        "postalCode": "44815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1471",
         "areaKm2": 63.87
       }

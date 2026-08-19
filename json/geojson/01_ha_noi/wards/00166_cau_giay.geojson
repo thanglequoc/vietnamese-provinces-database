@@ -712,6 +712,8 @@
         "fullName": "Phường Cầu Giấy",
         "fullNameEn": "Cau Giay Ward",
         "codeName": "cau_giay",
+        "postalCode": "11314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3264",
         "areaKm2": 3.74
       }

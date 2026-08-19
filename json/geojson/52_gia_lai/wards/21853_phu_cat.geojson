@@ -9896,6 +9896,8 @@
         "fullName": "Xã Phù Cát",
         "fullNameEn": "Phu Cat Commune",
         "codeName": "phu_cat",
+        "postalCode": "55324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2998",
         "areaKm2": 83.96
       }

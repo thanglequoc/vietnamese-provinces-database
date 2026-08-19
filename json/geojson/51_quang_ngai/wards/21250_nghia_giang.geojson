@@ -4140,6 +4140,8 @@
         "fullName": "Xã Nghĩa Giang",
         "fullNameEn": "Nghia Giang Commune",
         "codeName": "nghia_giang",
+        "postalCode": "53923",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1742",
         "areaKm2": 47.74
       }

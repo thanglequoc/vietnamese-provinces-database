@@ -1528,6 +1528,8 @@
         "fullName": "Xã Lục Sĩ Thành",
         "fullNameEn": "Luc Si Thanh Commune",
         "codeName": "luc_si_thanh",
+        "postalCode": "85618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2559",
         "areaKm2": 43.52
       }

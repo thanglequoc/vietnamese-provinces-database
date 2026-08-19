@@ -2092,6 +2092,8 @@
         "fullName": "Phường Tăng Nhơn Phú",
         "fullNameEn": "Tang Nhon Phu Ward",
         "codeName": "tang_nhon_phu",
+        "postalCode": "71320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.50",
         "areaKm2": 16.51
       }

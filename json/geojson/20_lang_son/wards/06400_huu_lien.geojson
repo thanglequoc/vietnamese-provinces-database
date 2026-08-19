@@ -14528,6 +14528,8 @@
         "fullName": "Xã Hữu Liên",
         "fullNameEn": "Huu Lien Commune",
         "codeName": "huu_lien",
+        "postalCode": "25610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1799",
         "areaKm2": 122.56
       }

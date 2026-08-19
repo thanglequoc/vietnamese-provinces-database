@@ -2180,6 +2180,8 @@
         "fullName": "Phường Vũ Ninh",
         "fullNameEn": "Vu Ninh Ward",
         "codeName": "vu_ninh",
+        "postalCode": "16111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2138",
         "areaKm2": 13.43
       }

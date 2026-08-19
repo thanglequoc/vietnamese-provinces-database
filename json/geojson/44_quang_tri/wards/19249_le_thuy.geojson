@@ -1156,6 +1156,8 @@
         "fullName": "Xã Lệ Thuỷ",
         "fullNameEn": "Le Thuy Commune",
         "codeName": "le_thuy",
+        "postalCode": "47834",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.632",
         "areaKm2": 55.93
       }

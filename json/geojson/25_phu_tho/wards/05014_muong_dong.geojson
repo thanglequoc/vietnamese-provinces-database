@@ -12640,6 +12640,8 @@
         "fullName": "Xã Mường Động",
         "fullNameEn": "Muong Dong Commune",
         "codeName": "muong_dong",
+        "postalCode": "36934",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1652",
         "areaKm2": 144.69
       }

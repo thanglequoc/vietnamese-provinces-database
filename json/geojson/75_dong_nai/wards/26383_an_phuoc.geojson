@@ -5372,6 +5372,8 @@
         "fullName": "Xã An Phước",
         "fullNameEn": "An Phuoc Commune",
         "codeName": "an_phuoc",
+        "postalCode": "76210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3136",
         "areaKm2": 58.3
       }

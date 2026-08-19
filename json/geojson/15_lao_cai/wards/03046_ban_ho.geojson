@@ -13268,6 +13268,8 @@
         "fullName": "Xã Bản Hồ",
         "fullNameEn": "Ban Ho Commune",
         "codeName": "ban_ho",
+        "postalCode": "31715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1103",
         "areaKm2": 166.2
       }

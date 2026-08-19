@@ -828,6 +828,8 @@
         "fullName": "Phường Bình Thới",
         "fullNameEn": "Binh Thoi Ward",
         "codeName": "binh_thoi",
+        "postalCode": "72622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.90",
         "areaKm2": 1.52
       }

@@ -7516,6 +7516,8 @@
         "fullName": "Xã Hùng Châu",
         "fullNameEn": "Hung Chau Commune",
         "codeName": "hung_chau",
+        "postalCode": "43476",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1442",
         "areaKm2": 69.11
       }

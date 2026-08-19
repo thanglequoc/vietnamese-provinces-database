@@ -13708,6 +13708,8 @@
         "fullName": "Xã Huổi Một",
         "fullNameEn": "Huoi Mot Commune",
         "codeName": "huoi_mot",
+        "postalCode": "34419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1401",
         "areaKm2": 240.66
       }

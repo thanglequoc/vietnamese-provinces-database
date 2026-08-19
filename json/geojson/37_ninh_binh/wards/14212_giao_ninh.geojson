@@ -2476,6 +2476,8 @@
         "fullName": "Xã Giao Ninh",
         "fullNameEn": "Giao Ninh Commune",
         "codeName": "giao_ninh",
+        "postalCode": "07833",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.827",
         "areaKm2": 25.81
       }

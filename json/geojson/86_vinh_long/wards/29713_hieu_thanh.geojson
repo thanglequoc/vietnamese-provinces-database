@@ -5172,6 +5172,8 @@
         "fullName": "Xã Hiếu Thành",
         "fullNameEn": "Hieu Thanh Commune",
         "codeName": "hieu_thanh",
+        "postalCode": "85724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2543",
         "areaKm2": 53.41
       }

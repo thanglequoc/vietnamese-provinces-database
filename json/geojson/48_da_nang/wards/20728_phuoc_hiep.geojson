@@ -11288,6 +11288,8 @@
         "fullName": "Xã Phước Hiệp",
         "fullNameEn": "Phuoc Hiep Commune",
         "codeName": "phuoc_hiep",
+        "postalCode": "52317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1954",
         "areaKm2": 340.05
       }

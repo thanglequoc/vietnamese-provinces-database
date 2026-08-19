@@ -3684,6 +3684,8 @@
         "fullName": "Xã Hoà Lạc",
         "fullNameEn": "Hoa Lac Commune",
         "codeName": "hoa_lac",
+        "postalCode": "13131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3282",
         "areaKm2": 35.37
       }

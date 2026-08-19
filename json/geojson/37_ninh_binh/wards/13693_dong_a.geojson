@@ -3892,6 +3892,8 @@
         "fullName": "Phường Đông A",
         "fullNameEn": "Dong A Ward",
         "codeName": "dong_a",
+        "postalCode": "07133",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.783",
         "areaKm2": 22.07
       }

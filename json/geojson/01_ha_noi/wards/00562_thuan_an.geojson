@@ -6568,6 +6568,8 @@
         "fullName": "Xã Thuận An",
         "fullNameEn": "Thuan An Commune",
         "codeName": "thuan_an",
+        "postalCode": "12429",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3195",
         "areaKm2": 29.67
       }

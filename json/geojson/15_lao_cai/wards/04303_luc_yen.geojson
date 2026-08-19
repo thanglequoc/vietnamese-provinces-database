@@ -7600,6 +7600,8 @@
         "fullName": "Xã Lục Yên",
         "fullNameEn": "Luc Yen Commune",
         "codeName": "luc_yen",
+        "postalCode": "33330",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1009",
         "areaKm2": 79.94
       }

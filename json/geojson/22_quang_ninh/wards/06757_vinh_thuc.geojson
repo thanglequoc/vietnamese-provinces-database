@@ -4348,6 +4348,8 @@
         "fullName": "Xã Vĩnh Thực",
         "fullNameEn": "Vinh Thuc Commune",
         "codeName": "vinh_thuc",
+        "postalCode": "01519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3313",
         "areaKm2": 49.11
       }

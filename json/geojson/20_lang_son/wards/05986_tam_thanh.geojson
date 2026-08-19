@@ -5884,6 +5884,8 @@
         "fullName": "Phường Tam Thanh",
         "fullNameEn": "Tam Thanh Ward",
         "codeName": "tam_thanh",
+        "postalCode": "25110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1790",
         "areaKm2": 27.35
       }

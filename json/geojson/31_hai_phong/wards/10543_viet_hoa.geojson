@@ -1920,6 +1920,8 @@
         "fullName": "Phường Việt Hoà",
         "fullNameEn": "Viet Hoa Ward",
         "codeName": "viet_hoa",
+        "postalCode": "03125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.854",
         "areaKm2": 17.02
       }

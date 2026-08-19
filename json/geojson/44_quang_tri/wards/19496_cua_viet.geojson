@@ -1924,6 +1924,8 @@
         "fullName": "Xã Cửa Việt",
         "fullNameEn": "Cua Viet Commune",
         "codeName": "cua_viet",
+        "postalCode": "48319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.567",
         "areaKm2": 50.83
       }

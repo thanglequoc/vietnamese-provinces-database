@@ -8200,6 +8200,8 @@
         "fullName": "Xã Nam Tuấn",
         "fullNameEn": "Nam Tuan Commune",
         "codeName": "nam_tuan",
+        "postalCode": "21157",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.949",
         "areaKm2": 119.66
       }

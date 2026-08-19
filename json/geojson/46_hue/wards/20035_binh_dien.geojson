@@ -34840,6 +34840,8 @@
         "fullName": "Xã Bình Điền",
         "fullNameEn": "Binh Dien Commune",
         "codeName": "binh_dien",
+        "postalCode": "49424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1710",
         "areaKm2": 266.5
       }

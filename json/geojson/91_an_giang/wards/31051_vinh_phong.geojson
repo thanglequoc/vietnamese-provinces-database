@@ -18132,6 +18132,8 @@
         "fullName": "Xã Vĩnh Phong",
         "fullNameEn": "Vinh Phong Commune",
         "codeName": "vinh_phong",
+        "postalCode": "92113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.400",
         "areaKm2": 139.3
       }

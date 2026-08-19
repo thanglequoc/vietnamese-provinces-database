@@ -14880,6 +14880,8 @@
         "fullName": "Xã Hoà Trí",
         "fullNameEn": "Hoa Tri Commune",
         "codeName": "hoa_tri",
+        "postalCode": "57340",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1112",
         "areaKm2": 109.4
       }

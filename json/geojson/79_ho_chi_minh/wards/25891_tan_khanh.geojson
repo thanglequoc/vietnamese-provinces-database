@@ -6964,6 +6964,8 @@
         "fullName": "Phường Tân Khánh",
         "fullNameEn": "Tan Khanh Ward",
         "codeName": "tan_khanh",
+        "postalCode": "75420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.23",
         "areaKm2": 38.23
       }

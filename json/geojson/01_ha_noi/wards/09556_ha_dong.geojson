@@ -3444,6 +3444,8 @@
         "fullName": "Phường Hà Đông",
         "fullNameEn": "Ha Dong Ward",
         "codeName": "ha_dong",
+        "postalCode": "12123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3174",
         "areaKm2": 9
       }

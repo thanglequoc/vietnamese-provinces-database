@@ -1656,6 +1656,8 @@
         "fullName": "Xã Bình Lục",
         "fullNameEn": "Binh Luc Commune",
         "codeName": "binh_luc",
+        "postalCode": "18525",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2773",
         "areaKm2": 23.97
       }

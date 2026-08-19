@@ -5804,6 +5804,8 @@
         "fullName": "Xã Quỳnh Văn",
         "fullNameEn": "Quynh Van Commune",
         "codeName": "quynh_van",
+        "postalCode": "43531",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1485",
         "areaKm2": 53.35
       }

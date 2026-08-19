@@ -6568,6 +6568,8 @@
         "fullName": "Xã Lạc Thuỷ",
         "fullNameEn": "Lac Thuy Commune",
         "codeName": "lac_thuy",
+        "postalCode": "36821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1643",
         "areaKm2": 90.69
       }

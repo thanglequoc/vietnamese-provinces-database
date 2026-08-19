@@ -18616,6 +18616,8 @@
         "fullName": "Xã Nam Cát Tiên",
         "fullNameEn": "Nam Cat Tien Commune",
         "codeName": "nam_cat_tien",
+        "postalCode": "76813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3153",
         "areaKm2": 82.9
       }

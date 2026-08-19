@@ -3236,6 +3236,8 @@
         "fullName": "Xã Tam Giang",
         "fullNameEn": "Tam Giang Commune",
         "codeName": "tam_giang",
+        "postalCode": "16215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2122",
         "areaKm2": 14.93
       }

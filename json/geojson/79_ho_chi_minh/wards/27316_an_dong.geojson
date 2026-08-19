@@ -944,6 +944,8 @@
         "fullName": "Phường An Đông",
         "fullNameEn": "An Dong Ward",
         "codeName": "an_dong",
+        "postalCode": "72721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.96",
         "areaKm2": 1.32
       }

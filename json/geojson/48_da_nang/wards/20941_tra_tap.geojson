@@ -6928,6 +6928,8 @@
         "fullName": "Xã Trà Tập",
         "fullNameEn": "Tra Tap Commune",
         "codeName": "tra_tap",
+        "postalCode": "52407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1984",
         "areaKm2": 183.17
       }

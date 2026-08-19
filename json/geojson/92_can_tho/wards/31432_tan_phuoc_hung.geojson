@@ -2288,6 +2288,8 @@
         "fullName": "Xã Tân Phước Hưng",
         "fullNameEn": "Tan Phuoc Hung Commune",
         "codeName": "tan_phuoc_hung",
+        "postalCode": "95511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.251",
         "areaKm2": 57.77
       }

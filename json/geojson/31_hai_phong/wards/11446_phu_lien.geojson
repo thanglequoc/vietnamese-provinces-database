@@ -2124,6 +2124,8 @@
         "fullName": "Phường Phù Liễn",
         "fullNameEn": "Phu Lien Ward",
         "codeName": "phu_lien",
+        "postalCode": "04617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.946",
         "areaKm2": 18.46
       }

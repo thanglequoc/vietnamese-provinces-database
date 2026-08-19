@@ -2768,6 +2768,8 @@
         "fullName": "Xã Cầu Khởi",
         "fullNameEn": "Cau Khoi Commune",
         "codeName": "cau_khoi",
+        "postalCode": "80210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2740",
         "areaKm2": 90.51
       }

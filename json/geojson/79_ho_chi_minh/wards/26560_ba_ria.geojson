@@ -5328,6 +5328,8 @@
         "fullName": "Phường Bà Rịa",
         "fullNameEn": "Ba Ria Ward",
         "codeName": "ba_ria",
+        "postalCode": "78117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2202",
         "areaKm2": 15.55
       }

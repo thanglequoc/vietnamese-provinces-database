@@ -4844,6 +4844,8 @@
         "fullName": "Xã Hưng Nguyên",
         "fullNameEn": "Hung Nguyen Commune",
         "codeName": "hung_nguyen",
+        "postalCode": "44506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1535",
         "areaKm2": 46.14
       }

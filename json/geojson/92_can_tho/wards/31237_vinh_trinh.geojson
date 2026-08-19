@@ -4628,6 +4628,8 @@
         "fullName": "Xã Vĩnh Trinh",
         "fullNameEn": "Vinh Trinh Commune",
         "codeName": "vinh_trinh",
+        "postalCode": "94516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.220",
         "areaKm2": 51.01
       }

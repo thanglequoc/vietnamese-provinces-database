@@ -4492,6 +4492,8 @@
         "fullName": "Xã Quang Sơn",
         "fullNameEn": "Quang Son Commune",
         "codeName": "quang_son",
+        "postalCode": "24209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1227",
         "areaKm2": 58.63
       }

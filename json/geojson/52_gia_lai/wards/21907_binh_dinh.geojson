@@ -7540,6 +7540,8 @@
         "fullName": "Phường Bình Định",
         "fullNameEn": "Binh Dinh Ward",
         "codeName": "binh_dinh",
+        "postalCode": "55256",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3010",
         "areaKm2": 25.16
       }

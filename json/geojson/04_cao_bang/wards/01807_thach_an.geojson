@@ -11940,6 +11940,8 @@
         "fullName": "Xã Thạch An",
         "fullNameEn": "Thach An Commune",
         "codeName": "thach_an",
+        "postalCode": "21622",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.959",
         "areaKm2": 113.74
       }

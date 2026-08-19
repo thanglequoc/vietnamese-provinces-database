@@ -7444,6 +7444,8 @@
         "fullName": "Xã Quỳnh An",
         "fullNameEn": "Quynh An Commune",
         "codeName": "quynh_an",
+        "postalCode": "06647",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.657",
         "areaKm2": 26
       }

@@ -5316,6 +5316,8 @@
         "fullName": "Xã An Phú Tân",
         "fullNameEn": "An Phu Tan Commune",
         "codeName": "an_phu_tan",
+        "postalCode": "87311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2493",
         "areaKm2": 53.91
       }

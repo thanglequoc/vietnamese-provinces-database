@@ -5000,6 +5000,8 @@
         "fullName": "Xã Đức Nhàn",
         "fullNameEn": "Duc Nhan Commune",
         "codeName": "duc_nhan",
+        "postalCode": "36326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1680",
         "areaKm2": 107.6
       }

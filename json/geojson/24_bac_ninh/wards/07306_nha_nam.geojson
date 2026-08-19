@@ -9584,6 +9584,8 @@
         "fullName": "Xã Nhã Nam",
         "fullNameEn": "Nha Nam Commune",
         "codeName": "nha_nam",
+        "postalCode": "26811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2164",
         "areaKm2": 34.43
       }

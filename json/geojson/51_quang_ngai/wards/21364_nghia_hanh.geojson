@@ -4668,6 +4668,8 @@
         "fullName": "Xã Nghĩa Hành",
         "fullNameEn": "Nghia Hanh Commune",
         "codeName": "nghia_hanh",
+        "postalCode": "54018",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1764",
         "areaKm2": 24.4
       }

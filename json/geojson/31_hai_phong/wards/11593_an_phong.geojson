@@ -2972,6 +2972,8 @@
         "fullName": "Phường An Phong",
         "fullNameEn": "An Phong Ward",
         "codeName": "an_phong",
+        "postalCode": "04424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.909",
         "areaKm2": 27.92
       }

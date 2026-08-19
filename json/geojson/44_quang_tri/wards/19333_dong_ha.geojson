@@ -10608,6 +10608,8 @@
         "fullName": "Phường Đông Hà",
         "fullNameEn": "Dong Ha Ward",
         "codeName": "dong_ha",
+        "postalCode": "48115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.571",
         "areaKm2": 38.05
       }

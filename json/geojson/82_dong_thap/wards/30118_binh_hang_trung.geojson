@@ -5452,6 +5452,8 @@
         "fullName": "Xã Bình Hàng Trung",
         "fullNameEn": "Binh Hang Trung Commune",
         "codeName": "binh_hang_trung",
+        "postalCode": "81169",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.429",
         "areaKm2": 78.2
       }

@@ -8492,6 +8492,8 @@
         "fullName": "Xã Sơn Cẩm Hà",
         "fullNameEn": "Son Cam Ha Commune",
         "codeName": "son_cam_ha",
+        "postalCode": "52624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1959",
         "areaKm2": 118.75
       }

@@ -9708,6 +9708,8 @@
         "fullName": "Xã Mường Giôn",
         "fullNameEn": "Muong Gion Commune",
         "codeName": "muong_gion",
+        "postalCode": "34266",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1341",
         "areaKm2": 290.54
       }

@@ -5408,6 +5408,8 @@
         "fullName": "Xã Nguyệt Ấn",
         "fullNameEn": "Nguyet An Commune",
         "codeName": "nguyet_an",
+        "postalCode": "41723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2676",
         "areaKm2": 98.52
       }

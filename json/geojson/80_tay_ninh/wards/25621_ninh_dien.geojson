@@ -7236,6 +7236,8 @@
         "fullName": "Xã Ninh Điền",
         "fullNameEn": "Ninh Dien Commune",
         "codeName": "ninh_dien",
+        "postalCode": "80517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2738",
         "areaKm2": 152.23
       }

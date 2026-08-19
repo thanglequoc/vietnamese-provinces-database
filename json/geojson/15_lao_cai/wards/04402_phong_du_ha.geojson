@@ -6768,6 +6768,8 @@
         "fullName": "Xã Phong Dụ Hạ",
         "fullNameEn": "Phong Du Ha Commune",
         "codeName": "phong_du_ha",
+        "postalCode": "33417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1019",
         "areaKm2": 138.39
       }

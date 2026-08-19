@@ -12772,6 +12772,8 @@
         "fullName": "Xã Mường Lống",
         "fullNameEn": "Muong Long Commune",
         "codeName": "muong_long",
+        "postalCode": "44411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1502",
         "areaKm2": 148.31
       }

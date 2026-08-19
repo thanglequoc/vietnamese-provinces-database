@@ -4972,6 +4972,8 @@
         "fullName": "Phường Tân Ngãi",
         "fullNameEn": "Tan Ngai Ward",
         "codeName": "tan_ngai",
+        "postalCode": "85114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2526",
         "areaKm2": 21.7
       }

@@ -2280,6 +2280,8 @@
         "fullName": "Xã Hợp Tiến",
         "fullNameEn": "Hop Tien Commune",
         "codeName": "hop_tien",
+        "postalCode": "03564",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.879",
         "areaKm2": 17.5
       }

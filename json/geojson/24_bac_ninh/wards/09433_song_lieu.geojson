@@ -3532,6 +3532,8 @@
         "fullName": "Phường Song Liễu",
         "fullNameEn": "Song Lieu Ward",
         "codeName": "song_lieu",
+        "postalCode": "16514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2195",
         "areaKm2": 17.75
       }

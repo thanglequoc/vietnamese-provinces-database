@@ -3808,6 +3808,8 @@
         "fullName": "Xã Hưng Nguyên Nam",
         "fullNameEn": "Hung Nguyen Nam Commune",
         "codeName": "hung_nguyen_nam",
+        "postalCode": "44530",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1537",
         "areaKm2": 35.77
       }

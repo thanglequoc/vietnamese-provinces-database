@@ -5740,6 +5740,8 @@
         "fullName": "Tỉnh Lào Cai",
         "fullNameEn": "Lao Cai Province",
         "codeName": "lao_cai",
+        "postalCode": "",
+        "postalCodePrefix": "31, 33",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.114",
         "areaKm2": 13256.92
       }

@@ -3212,6 +3212,8 @@
         "fullName": "Xã Lưu Vệ",
         "fullNameEn": "Luu Ve Commune",
         "codeName": "luu_ve",
+        "postalCode": "42636",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2581",
         "areaKm2": 26.84
       }

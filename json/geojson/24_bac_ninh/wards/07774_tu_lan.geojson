@@ -6012,6 +6012,8 @@
         "fullName": "Phường Tự Lạn",
         "fullNameEn": "Tu Lan Ward",
         "codeName": "tu_lan",
+        "postalCode": "26162",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2150",
         "areaKm2": 39.89
       }

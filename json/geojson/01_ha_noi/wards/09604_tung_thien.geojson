@@ -8384,6 +8384,8 @@
         "fullName": "Phường Tùng Thiện",
         "fullNameEn": "Tung Thien Ward",
         "codeName": "tung_thien",
+        "postalCode": "12722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3231",
         "areaKm2": 32.34
       }

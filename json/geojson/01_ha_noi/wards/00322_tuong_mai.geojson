@@ -1888,6 +1888,8 @@
         "fullName": "Phường Tương Mai",
         "fullNameEn": "Tuong Mai Ward",
         "codeName": "tuong_mai",
+        "postalCode": "11715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3173",
         "areaKm2": 3.56
       }

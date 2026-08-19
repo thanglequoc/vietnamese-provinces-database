@@ -3044,6 +3044,8 @@
         "fullName": "Xã Mộc Hoá",
         "fullNameEn": "Moc Hoa Commune",
         "codeName": "moc_hoa",
+        "postalCode": "83114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1290",
         "areaKm2": 135.56
       }

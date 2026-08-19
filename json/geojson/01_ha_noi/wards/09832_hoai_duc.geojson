@@ -4448,6 +4448,8 @@
         "fullName": "Xã Hoài Đức",
         "fullNameEn": "Hoai Duc Commune",
         "codeName": "hoai_duc",
+        "postalCode": "13226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3279",
         "areaKm2": 16.73
       }

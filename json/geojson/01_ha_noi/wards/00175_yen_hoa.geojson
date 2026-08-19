@@ -592,6 +592,8 @@
         "fullName": "Phường Yên Hoà",
         "fullNameEn": "Yen Hoa Ward",
         "codeName": "yen_hoa",
+        "postalCode": "11312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3265",
         "areaKm2": 4.1
       }

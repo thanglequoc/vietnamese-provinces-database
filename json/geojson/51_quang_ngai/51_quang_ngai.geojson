@@ -19364,6 +19364,8 @@
         "fullName": "Tỉnh Quảng Ngãi",
         "fullNameEn": "Quang Ngai Province",
         "codeName": "quang_ngai",
+        "postalCode": "",
+        "postalCodePrefix": "53, 54, 60",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.130",
         "areaKm2": 14832.55
       }

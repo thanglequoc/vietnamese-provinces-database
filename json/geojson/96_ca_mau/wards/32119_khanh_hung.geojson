@@ -9472,6 +9472,8 @@
         "fullName": "Xã Khánh Hưng",
         "fullNameEn": "Khanh Hung Commune",
         "codeName": "khanh_hung",
+        "postalCode": "98409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.180",
         "areaKm2": 129.6
       }

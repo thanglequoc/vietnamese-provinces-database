@@ -3348,6 +3348,8 @@
         "fullName": "Xã Quỳnh Anh",
         "fullNameEn": "Quynh Anh Commune",
         "codeName": "quynh_anh",
+        "postalCode": "43540",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1489",
         "areaKm2": 39.8
       }

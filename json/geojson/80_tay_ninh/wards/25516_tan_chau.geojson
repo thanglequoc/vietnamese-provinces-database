@@ -2060,6 +2060,8 @@
         "fullName": "Xã Tân Châu",
         "fullNameEn": "Tan Chau Commune",
         "codeName": "tan_chau",
+        "postalCode": "80306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2755",
         "areaKm2": 54.77
       }

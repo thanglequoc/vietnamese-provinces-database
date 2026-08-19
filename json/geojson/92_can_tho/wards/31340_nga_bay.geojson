@@ -1772,6 +1772,8 @@
         "fullName": "Phường Ngã Bảy",
         "fullNameEn": "Nga Bay Ward",
         "codeName": "nga_bay",
+        "postalCode": "95606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.237",
         "areaKm2": 25.17
       }

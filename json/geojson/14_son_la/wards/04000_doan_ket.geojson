@@ -7028,6 +7028,8 @@
         "fullName": "Xã Đoàn Kết",
         "fullNameEn": "Doan Ket Commune",
         "codeName": "doan_ket",
+        "postalCode": "34709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1373",
         "areaKm2": 240.66
       }

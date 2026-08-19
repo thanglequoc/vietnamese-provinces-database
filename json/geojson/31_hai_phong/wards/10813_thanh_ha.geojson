@@ -2464,6 +2464,8 @@
         "fullName": "Xã Thanh Hà",
         "fullNameEn": "Thanh Ha Commune",
         "codeName": "thanh_ha",
+        "postalCode": "03206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.845",
         "areaKm2": 25.9
       }

@@ -8600,6 +8600,8 @@
         "fullName": "Phường Xuân Hương - Đà Lạt",
         "fullNameEn": "Xuan Huong - Da Lat Ward",
         "codeName": "xuan_huong_da_lat",
+        "postalCode": "66122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.508",
         "areaKm2": 73.45
       }

@@ -7436,6 +7436,8 @@
         "fullName": "Xã Sơn Tây Thượng",
         "fullNameEn": "Son Tay Thuong Commune",
         "codeName": "son_tay_thuong",
+        "postalCode": "53616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1753",
         "areaKm2": 122.43
       }

@@ -5328,6 +5328,8 @@
         "fullName": "Xã Phú Cường",
         "fullNameEn": "Phu Cuong Commune",
         "codeName": "phu_cuong",
+        "postalCode": "81307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.417",
         "areaKm2": 89.9
       }

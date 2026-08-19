@@ -3120,6 +3120,8 @@
         "fullName": "Phường Vị Khê",
         "fullNameEn": "Vi Khe Ward",
         "codeName": "vi_khe",
+        "postalCode": "07134",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.801",
         "areaKm2": 25.27
       }

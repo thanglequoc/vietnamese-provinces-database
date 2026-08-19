@@ -8700,6 +8700,8 @@
         "fullName": "Xã Yên Hoa",
         "fullNameEn": "Yen Hoa Commune",
         "codeName": "yen_hoa",
+        "postalCode": "22410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2318",
         "areaKm2": 143.83
       }

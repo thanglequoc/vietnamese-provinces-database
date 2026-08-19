@@ -7060,6 +7060,8 @@
         "fullName": "Xã Hồi Xuân",
         "fullNameEn": "Hoi Xuan Commune",
         "codeName": "hoi_xuan",
+        "postalCode": "41906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2700",
         "areaKm2": 117.25
       }

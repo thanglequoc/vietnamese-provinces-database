@@ -4288,6 +4288,8 @@
         "fullName": "Xã Triệu Sơn",
         "fullNameEn": "Trieu Son Commune",
         "codeName": "trieu_son",
+        "postalCode": "41506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2680",
         "areaKm2": 41.09
       }

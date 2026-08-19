@@ -9540,6 +9540,8 @@
         "fullName": "Xã Thạnh Mỹ",
         "fullNameEn": "Thanh My Commune",
         "codeName": "thanh_my",
+        "postalCode": "51906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1928",
         "areaKm2": 207.28
       }

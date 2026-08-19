@@ -4460,6 +4460,8 @@
         "fullName": "Xã Hồ Đắc Kiện",
         "fullNameEn": "Ho Dac Kien Commune",
         "codeName": "ho_dac_kien",
+        "postalCode": "96408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.270",
         "areaKm2": 72.61
       }

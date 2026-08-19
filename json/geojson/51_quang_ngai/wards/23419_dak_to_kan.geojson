@@ -4584,6 +4584,8 @@
         "fullName": "Xã Đăk Tờ Kan",
         "fullNameEn": "Dak To Kan Commune",
         "codeName": "dak_to_kan",
+        "postalCode": "60316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.536",
         "areaKm2": 131.84
       }

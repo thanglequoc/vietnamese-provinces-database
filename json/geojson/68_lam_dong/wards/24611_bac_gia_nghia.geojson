@@ -14240,6 +14240,8 @@
         "fullName": "Phường Bắc Gia Nghĩa",
         "fullNameEn": "Bac Gia Nghia Ward",
         "codeName": "bac_gia_nghia",
+        "postalCode": "65115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2808",
         "areaKm2": 250.55
       }

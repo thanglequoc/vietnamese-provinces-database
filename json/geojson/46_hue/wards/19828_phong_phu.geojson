@@ -3848,6 +3848,8 @@
         "fullName": "Phường Phong Phú",
         "fullNameEn": "Phong Phu Ward",
         "codeName": "phong_phu",
+        "postalCode": "49309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1693",
         "areaKm2": 60.85
       }

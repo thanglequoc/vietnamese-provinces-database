@@ -6020,6 +6020,8 @@
         "fullName": "Phường Bình Xuân",
         "fullNameEn": "Binh Xuan Ward",
         "codeName": "binh_xuan",
+        "postalCode": "84312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.498",
         "areaKm2": 34.4
       }

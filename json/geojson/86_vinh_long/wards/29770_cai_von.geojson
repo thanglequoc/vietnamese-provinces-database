@@ -2132,6 +2132,8 @@
         "fullName": "Phường Cái Vồn",
         "fullNameEn": "Cai Von Ward",
         "codeName": "cai_von",
+        "postalCode": "85506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2554",
         "areaKm2": 26.52
       }

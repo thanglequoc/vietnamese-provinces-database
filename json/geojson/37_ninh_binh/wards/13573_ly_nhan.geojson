@@ -1196,6 +1196,8 @@
         "fullName": "Xã Lý Nhân",
         "fullNameEn": "Ly Nhan Commune",
         "codeName": "ly_nhan",
+        "postalCode": "18629",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2776",
         "areaKm2": 18.38
       }

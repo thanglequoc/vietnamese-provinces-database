@@ -9540,6 +9540,8 @@
         "fullName": "Xã Tiên Nguyên",
         "fullNameEn": "Tien Nguyen Commune",
         "codeName": "tien_nguyen",
+        "postalCode": "20760",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2419",
         "areaKm2": 90.13
       }

@@ -6112,6 +6112,8 @@
         "fullName": "Xã Trung Chính",
         "fullNameEn": "Trung Chinh Commune",
         "codeName": "trung_chinh",
+        "postalCode": "42324",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2589",
         "areaKm2": 44.09
       }

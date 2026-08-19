@@ -4760,6 +4760,8 @@
         "fullName": "Xã Tề Lỗ",
         "fullNameEn": "Te Lo Commune",
         "codeName": "te_lo",
+        "postalCode": "15711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1630",
         "areaKm2": 18.3
       }

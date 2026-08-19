@@ -5116,6 +5116,8 @@
         "fullName": "Xã Tả Phìn",
         "fullNameEn": "Ta Phin Commune",
         "codeName": "ta_phin",
+        "postalCode": "31709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1101",
         "areaKm2": 74.68
       }

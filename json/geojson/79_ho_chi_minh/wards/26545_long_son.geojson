@@ -5224,6 +5224,8 @@
         "fullName": "Xã Long Sơn",
         "fullNameEn": "Long Son Commune",
         "codeName": "long_son",
+        "postalCode": "78222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2226",
         "areaKm2": 56.5
       }

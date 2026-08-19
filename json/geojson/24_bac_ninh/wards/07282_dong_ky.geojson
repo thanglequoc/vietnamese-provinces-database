@@ -10168,6 +10168,8 @@
         "fullName": "Xã Đồng Kỳ",
         "fullNameEn": "Dong Ky Commune",
         "codeName": "dong_ky",
+        "postalCode": "26724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2161",
         "areaKm2": 61.44
       }

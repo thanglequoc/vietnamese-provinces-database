@@ -1908,6 +1908,8 @@
         "fullName": "Xã Khánh Nhạc",
         "fullNameEn": "Khanh Nhac Commune",
         "codeName": "khanh_nhac",
+        "postalCode": "08821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.773",
         "areaKm2": 19.58
       }

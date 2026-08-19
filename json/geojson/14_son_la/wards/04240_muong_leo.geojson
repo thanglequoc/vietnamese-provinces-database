@@ -15992,6 +15992,8 @@
         "fullName": "Xã Mường Lèo",
         "fullNameEn": "Muong Leo Commune",
         "codeName": "muong_leo",
+        "postalCode": "34460",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1406",
         "areaKm2": 375.76
       }

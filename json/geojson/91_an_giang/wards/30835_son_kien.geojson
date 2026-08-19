@@ -9404,6 +9404,8 @@
         "fullName": "Xã Sơn Kiên",
         "fullNameEn": "Son Kien Commune",
         "codeName": "son_kien",
+        "postalCode": "91313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.370",
         "areaKm2": 163.41
       }

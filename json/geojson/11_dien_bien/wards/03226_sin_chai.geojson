@@ -8528,6 +8528,8 @@
         "fullName": "Xã Sín Chải",
         "fullNameEn": "Sin Chai Commune",
         "codeName": "sin_chai",
+        "postalCode": "32612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2250",
         "areaKm2": 189.13
       }

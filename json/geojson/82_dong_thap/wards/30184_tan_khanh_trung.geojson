@@ -8444,6 +8444,8 @@
         "fullName": "Xã Tân Khánh Trung",
         "fullNameEn": "Tan Khanh Trung Commune",
         "codeName": "tan_khanh_trung",
+        "postalCode": "81718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.436",
         "areaKm2": 60.1
       }

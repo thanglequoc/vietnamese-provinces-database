@@ -3264,6 +3264,8 @@
         "fullName": "Xã Thanh Oai",
         "fullNameEn": "Thanh Oai Commune",
         "codeName": "thanh_oai",
+        "postalCode": "13527",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3163",
         "areaKm2": 26.86
       }

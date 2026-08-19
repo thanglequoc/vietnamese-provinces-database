@@ -8420,6 +8420,8 @@
         "fullName": "Xã Long Cang",
         "fullNameEn": "Long Cang Commune",
         "codeName": "long_cang",
+        "postalCode": "82420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1321",
         "areaKm2": 31.73
       }

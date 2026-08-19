@@ -2136,6 +2136,8 @@
         "fullName": "Phường Hải An",
         "fullNameEn": "Hai An Ward",
         "codeName": "hai_an",
+        "postalCode": "04814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.933",
         "areaKm2": 39.99
       }

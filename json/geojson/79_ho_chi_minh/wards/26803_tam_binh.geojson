@@ -8412,6 +8412,8 @@
         "fullName": "Phường Tam Bình",
         "fullNameEn": "Tam Binh Ward",
         "codeName": "tam_binh",
+        "postalCode": "71312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.47",
         "areaKm2": 10.71
       }

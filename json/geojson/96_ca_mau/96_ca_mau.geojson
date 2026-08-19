@@ -11340,6 +11340,8 @@
         "fullName": "Tỉnh Cà Mau",
         "fullNameEn": "Ca Mau Province",
         "codeName": "ca_mau",
+        "postalCode": "",
+        "postalCodePrefix": "97, 98",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.39",
         "areaKm2": 7942.39
       }

@@ -4860,6 +4860,8 @@
         "fullName": "Xã Châu Phú",
         "fullNameEn": "Chau Phu Commune",
         "codeName": "chau_phu",
+        "postalCode": "90619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.327",
         "areaKm2": 80.11
       }

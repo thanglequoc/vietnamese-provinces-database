@@ -12364,6 +12364,8 @@
         "fullName": "Phường Mỹ Trà",
         "fullNameEn": "My Tra Ward",
         "codeName": "my_tra",
+        "postalCode": "81108",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.403",
         "areaKm2": 46.3
       }

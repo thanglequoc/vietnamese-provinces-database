@@ -920,6 +920,8 @@
         "fullName": "Phường Hải Dương",
         "fullNameEn": "Hai Duong Ward",
         "codeName": "hai_duong",
+        "postalCode": "03127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.853",
         "areaKm2": 6.51
       }

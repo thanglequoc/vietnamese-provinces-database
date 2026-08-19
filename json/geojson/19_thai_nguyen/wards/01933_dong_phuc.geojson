@@ -9348,6 +9348,8 @@
         "fullName": "Xã Đồng Phúc",
         "fullNameEn": "Dong Phuc Commune",
         "codeName": "dong_phuc",
+        "postalCode": "23521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1171",
         "areaKm2": 199.11
       }

@@ -23380,6 +23380,8 @@
         "fullName": "Xã Tân Hưng",
         "fullNameEn": "Tan Hung Commune",
         "codeName": "tan_hung",
+        "postalCode": "67809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2292",
         "areaKm2": 204.7
       }

@@ -7092,6 +7092,8 @@
         "fullName": "Xã Tân Phước 3",
         "fullNameEn": "Commune Tan Phuoc 3",
         "codeName": "tan_phuoc_3",
+        "postalCode": "84721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.454",
         "areaKm2": 80.2
       }

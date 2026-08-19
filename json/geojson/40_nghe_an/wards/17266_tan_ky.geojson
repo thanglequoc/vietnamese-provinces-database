@@ -8324,6 +8324,8 @@
         "fullName": "Xã Tân Kỳ",
         "fullNameEn": "Tan Ky Commune",
         "codeName": "tan_ky",
+        "postalCode": "43806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1434",
         "areaKm2": 116.5
       }

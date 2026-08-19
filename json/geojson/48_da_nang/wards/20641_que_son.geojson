@@ -7708,6 +7708,8 @@
         "fullName": "Xã Quế Sơn",
         "fullNameEn": "Que Son Commune",
         "codeName": "que_son",
+        "postalCode": "52121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1957",
         "areaKm2": 94.1
       }

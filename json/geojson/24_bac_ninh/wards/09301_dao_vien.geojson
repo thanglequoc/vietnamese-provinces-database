@@ -2640,6 +2640,8 @@
         "fullName": "Phường Đào Viên",
         "fullNameEn": "Dao Vien Ward",
         "codeName": "dao_vien",
+        "postalCode": "16822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2183",
         "areaKm2": 26.63
       }

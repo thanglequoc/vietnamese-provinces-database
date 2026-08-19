@@ -11184,6 +11184,8 @@
         "fullName": "Xã Núi Thành",
         "fullNameEn": "Nui Thanh Commune",
         "codeName": "nui_thanh",
+        "postalCode": "52806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1975",
         "areaKm2": 124.75
       }

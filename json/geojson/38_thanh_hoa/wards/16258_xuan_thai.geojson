@@ -10116,6 +10116,8 @@
         "fullName": "Xã Xuân Thái",
         "fullNameEn": "Xuan Thai Commune",
         "codeName": "xuan_thai",
+        "postalCode": "42416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2655",
         "areaKm2": 120.72
       }

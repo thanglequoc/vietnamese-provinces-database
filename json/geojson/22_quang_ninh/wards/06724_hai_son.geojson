@@ -13684,6 +13684,8 @@
         "fullName": "Xã Hải Sơn",
         "fullNameEn": "Hai Son Commune",
         "codeName": "hai_son",
+        "postalCode": "01513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1884",
         "areaKm2": 132.04
       }

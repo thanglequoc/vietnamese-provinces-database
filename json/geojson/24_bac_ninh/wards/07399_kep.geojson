@@ -9700,6 +9700,8 @@
         "fullName": "Xã Kép",
         "fullNameEn": "Kep Commune",
         "codeName": "kep",
+        "postalCode": "26610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2169",
         "areaKm2": 58.65
       }

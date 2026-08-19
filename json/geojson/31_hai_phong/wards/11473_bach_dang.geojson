@@ -2252,6 +2252,8 @@
         "fullName": "Phường Bạch Đằng",
         "fullNameEn": "Bach Dang Ward",
         "codeName": "bach_dang",
+        "postalCode": "04318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.922",
         "areaKm2": 53.49
       }

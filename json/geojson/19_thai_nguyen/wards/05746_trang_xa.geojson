@@ -6260,6 +6260,8 @@
         "fullName": "Xã Tràng Xá",
         "fullNameEn": "Trang Xa Commune",
         "codeName": "trang_xa",
+        "postalCode": "24317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1222",
         "areaKm2": 119.18
       }

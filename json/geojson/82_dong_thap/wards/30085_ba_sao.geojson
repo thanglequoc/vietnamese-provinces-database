@@ -12056,6 +12056,8 @@
         "fullName": "Xã Ba Sao",
         "fullNameEn": "Ba Sao Commune",
         "codeName": "ba_sao",
+        "postalCode": "81160",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.425",
         "areaKm2": 81.1
       }

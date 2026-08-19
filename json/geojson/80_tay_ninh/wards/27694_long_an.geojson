@@ -6792,6 +6792,8 @@
         "fullName": "Phường Long An",
         "fullNameEn": "Long An Ward",
         "codeName": "long_an",
+        "postalCode": "82120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1276",
         "areaKm2": 34.9
       }

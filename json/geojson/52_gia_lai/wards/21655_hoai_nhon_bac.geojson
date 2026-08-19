@@ -7496,6 +7496,8 @@
         "fullName": "Phường Hoài Nhơn Bắc",
         "fullNameEn": "Hoai Nhon Bac Ward",
         "codeName": "hoai_nhon_bac",
+        "postalCode": "55425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2974",
         "areaKm2": 89.45
       }

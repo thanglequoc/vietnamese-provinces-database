@@ -14920,6 +14920,8 @@
         "fullName": "Xã Xuân Định",
         "fullNameEn": "Xuan Dinh Commune",
         "codeName": "xuan_dinh",
+        "postalCode": "76614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3146",
         "areaKm2": 52.3
       }

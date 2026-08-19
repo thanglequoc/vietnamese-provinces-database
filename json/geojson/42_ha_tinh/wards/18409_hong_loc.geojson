@@ -2344,6 +2344,8 @@
         "fullName": "Xã Hồng Lộc",
         "fullNameEn": "Hong Loc Commune",
         "codeName": "hong_loc",
+        "postalCode": "45410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2004",
         "areaKm2": 33.78
       }

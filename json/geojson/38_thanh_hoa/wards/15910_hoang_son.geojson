@@ -5164,6 +5164,8 @@
         "fullName": "Xã Hoằng Sơn",
         "fullNameEn": "Hoang Son Commune",
         "codeName": "hoang_son",
+        "postalCode": "40323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2598",
         "areaKm2": 21.9
       }

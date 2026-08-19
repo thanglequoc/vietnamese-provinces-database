@@ -17684,6 +17684,8 @@
         "fullName": "Xã Hoà Tú",
         "fullNameEn": "Hoa Tu Commune",
         "codeName": "hoa_tu",
+        "postalCode": "96617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.291",
         "areaKm2": 67.15
       }

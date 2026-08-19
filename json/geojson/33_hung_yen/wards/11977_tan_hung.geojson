@@ -2232,6 +2232,8 @@
         "fullName": "Xã Tân Hưng",
         "fullNameEn": "Tan Hung Commune",
         "codeName": "tan_hung",
+        "postalCode": "17121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.718",
         "areaKm2": 19.2
       }

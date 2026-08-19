@@ -4048,6 +4048,8 @@
         "fullName": "Xã Hồng Vân",
         "fullNameEn": "Hong Van Commune",
         "codeName": "hong_van",
+        "postalCode": "13611",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3167",
         "areaKm2": 24.53
       }

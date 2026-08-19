@@ -20804,6 +20804,8 @@
         "fullName": "Xã Kông Bơ La",
         "fullNameEn": "Kong Bo La Commune",
         "codeName": "kong_bo_la",
+        "postalCode": "62617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3051",
         "areaKm2": 133.42
       }

@@ -8788,6 +8788,8 @@
         "fullName": "Phường Mông Dương",
         "fullNameEn": "Mong Duong Ward",
         "codeName": "mong_duong",
+        "postalCode": "01217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1869",
         "areaKm2": 167.16
       }

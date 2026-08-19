@@ -11216,6 +11216,8 @@
         "fullName": "Xã Hoà Mỹ",
         "fullNameEn": "Hoa My Commune",
         "codeName": "hoa_my",
+        "postalCode": "56718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2919",
         "areaKm2": 190.14
       }

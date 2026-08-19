@@ -3948,6 +3948,8 @@
         "fullName": "Xã Tân Vĩnh Lộc",
         "fullNameEn": "Tan Vinh Loc Commune",
         "codeName": "tan_vinh_loc",
+        "postalCode": "71822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.127",
         "areaKm2": 34.05
       }

@@ -4300,6 +4300,8 @@
         "fullName": "Xã Chi Lăng",
         "fullNameEn": "Chi Lang Commune",
         "codeName": "chi_lang",
+        "postalCode": "16819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2179",
         "areaKm2": 23.39
       }

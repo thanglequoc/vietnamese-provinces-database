@@ -996,6 +996,8 @@
         "fullName": "Xã Nhơn Hoà Lập",
         "fullNameEn": "Nhon Hoa Lap Commune",
         "codeName": "nhon_hoa_lap",
+        "postalCode": "83410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1292",
         "areaKm2": 109.77
       }

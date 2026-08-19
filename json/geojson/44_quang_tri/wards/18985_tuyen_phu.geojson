@@ -12192,6 +12192,8 @@
         "fullName": "Xã Tuyên Phú",
         "fullNameEn": "Tuyen Phu Commune",
         "codeName": "tuyen_phu",
+        "postalCode": "47528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.608",
         "areaKm2": 155.38
       }

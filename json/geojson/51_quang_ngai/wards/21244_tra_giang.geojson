@@ -4368,6 +4368,8 @@
         "fullName": "Xã Trà Giang",
         "fullNameEn": "Tra Giang Commune",
         "codeName": "tra_giang",
+        "postalCode": "53924",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1740",
         "areaKm2": 91.72
       }

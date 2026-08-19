@@ -6392,6 +6392,8 @@
         "fullName": "Xã Quảng Bạch",
         "fullNameEn": "Quang Bach Commune",
         "codeName": "quang_bach",
+        "postalCode": "23615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1180",
         "areaKm2": 75.22
       }

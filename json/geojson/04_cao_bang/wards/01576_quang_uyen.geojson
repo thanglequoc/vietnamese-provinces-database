@@ -8672,6 +8672,8 @@
         "fullName": "Xã Quảng Uyên",
         "fullNameEn": "Quang Uyen Commune",
         "codeName": "quang_uyen",
+        "postalCode": "21906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.987",
         "areaKm2": 128.05
       }

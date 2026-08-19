@@ -6036,6 +6036,8 @@
         "fullName": "Phường Chiềng Sinh",
         "fullNameEn": "Chieng Sinh Ward",
         "codeName": "chieng_sinh",
+        "postalCode": "34116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1339",
         "areaKm2": 68.4
       }

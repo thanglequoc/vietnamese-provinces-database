@@ -14608,6 +14608,8 @@
         "fullName": "Xã Đức An",
         "fullNameEn": "Duc An Commune",
         "codeName": "duc_an",
+        "postalCode": "65606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2815",
         "areaKm2": 161.02
       }

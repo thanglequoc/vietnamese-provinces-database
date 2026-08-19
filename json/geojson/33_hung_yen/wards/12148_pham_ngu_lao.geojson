@@ -2676,6 +2676,8 @@
         "fullName": "Xã Phạm Ngũ Lão",
         "fullNameEn": "Pham Ngu Lao Commune",
         "codeName": "pham_ngu_lao",
+        "postalCode": "17427",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.715",
         "areaKm2": 29.32
       }

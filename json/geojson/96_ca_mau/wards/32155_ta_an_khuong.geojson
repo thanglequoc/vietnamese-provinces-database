@@ -15104,6 +15104,8 @@
         "fullName": "Xã Tạ An Khương",
         "fullNameEn": "Ta An Khuong Commune",
         "codeName": "ta_an_khuong",
+        "postalCode": "98708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.186",
         "areaKm2": 104.2
       }

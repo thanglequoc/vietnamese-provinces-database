@@ -2224,6 +2224,8 @@
         "fullName": "Phường Phương Liễu",
         "fullNameEn": "Phuong Lieu Ward",
         "codeName": "phuong_lieu",
+        "postalCode": "16814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2182",
         "areaKm2": 13.37
       }

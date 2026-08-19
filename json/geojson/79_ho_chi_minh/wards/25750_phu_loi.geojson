@@ -2784,6 +2784,8 @@
         "fullName": "Phường Phú Lợi",
         "fullNameEn": "Phu Loi Ward",
         "codeName": "phu_loi",
+        "postalCode": "75110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1",
         "areaKm2": 17.96
       }

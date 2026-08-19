@@ -1556,6 +1556,8 @@
         "fullName": "Phường Xóm Chiếu",
         "fullNameEn": "Xom Chieu Ward",
         "codeName": "xom_chieu",
+        "postalCode": "72823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.92",
         "areaKm2": 1.94
       }

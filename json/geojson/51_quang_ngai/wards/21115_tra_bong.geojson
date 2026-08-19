@@ -8404,6 +8404,8 @@
         "fullName": "Xã Trà Bồng",
         "fullNameEn": "Tra Bong Commune",
         "codeName": "tra_bong",
+        "postalCode": "53416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1749",
         "areaKm2": 139.43
       }

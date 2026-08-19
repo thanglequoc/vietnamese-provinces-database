@@ -7456,6 +7456,8 @@
         "fullName": "Phường Trần Nhân Tông",
         "fullNameEn": "Tran Nhan Tong Ward",
         "codeName": "tran_nhan_tong",
+        "postalCode": "03530",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.869",
         "areaKm2": 39.97
       }

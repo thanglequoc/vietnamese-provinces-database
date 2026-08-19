@@ -17392,6 +17392,8 @@
         "fullName": "Xã Ngọc Đường",
         "fullNameEn": "Ngoc Duong Commune",
         "codeName": "ngoc_duong",
+        "postalCode": "20108",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2366",
         "areaKm2": 98.07
       }

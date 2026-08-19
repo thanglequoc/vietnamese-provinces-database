@@ -10452,6 +10452,8 @@
         "fullName": "Xã Cao Sơn",
         "fullNameEn": "Cao Son Commune",
         "codeName": "cao_son",
+        "postalCode": "31517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1060",
         "areaKm2": 164.5
       }

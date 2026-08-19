@@ -4988,6 +4988,8 @@
         "fullName": "Xã Phùng Nguyên",
         "fullNameEn": "Phung Nguyen Commune",
         "codeName": "phung_nguyen",
+        "postalCode": "35262",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1588",
         "areaKm2": 30.57
       }

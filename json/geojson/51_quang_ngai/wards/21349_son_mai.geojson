@@ -6444,6 +6444,8 @@
         "fullName": "Xã Sơn Mai",
         "fullNameEn": "Son Mai Commune",
         "codeName": "son_mai",
+        "postalCode": "53712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1743",
         "areaKm2": 112.56
       }

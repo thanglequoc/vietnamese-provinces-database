@@ -12784,6 +12784,8 @@
         "fullName": "Xã Yên Na",
         "fullNameEn": "Yen Na Commune",
         "codeName": "yen_na",
+        "postalCode": "44359",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1511",
         "areaKm2": 297.32
       }

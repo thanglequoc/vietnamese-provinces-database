@@ -10104,6 +10104,8 @@
         "fullName": "Xã Phước Hữu",
         "fullNameEn": "Phuoc Huu Commune",
         "codeName": "phuoc_huu",
+        "postalCode": "59613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1159",
         "areaKm2": 177.7
       }

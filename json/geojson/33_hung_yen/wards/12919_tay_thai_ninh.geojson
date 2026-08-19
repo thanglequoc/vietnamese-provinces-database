@@ -996,6 +996,8 @@
         "fullName": "Xã Tây Thái Ninh",
         "fullNameEn": "Tay Thai Ninh Commune",
         "codeName": "tay_thai_ninh",
+        "postalCode": "06463",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.668",
         "areaKm2": 16.56
       }

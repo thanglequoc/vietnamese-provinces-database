@@ -13792,6 +13792,8 @@
         "fullName": "Phường Vĩnh Phước",
         "fullNameEn": "Vinh Phuoc Ward",
         "codeName": "vinh_phuoc",
+        "postalCode": "96813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.303",
         "areaKm2": 103.15
       }

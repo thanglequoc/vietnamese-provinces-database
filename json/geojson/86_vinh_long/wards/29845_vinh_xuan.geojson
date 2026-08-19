@@ -9408,6 +9408,8 @@
         "fullName": "Xã Vĩnh Xuân",
         "fullNameEn": "Vinh Xuan Commune",
         "codeName": "vinh_xuan",
+        "postalCode": "85609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2558",
         "areaKm2": 57.79
       }

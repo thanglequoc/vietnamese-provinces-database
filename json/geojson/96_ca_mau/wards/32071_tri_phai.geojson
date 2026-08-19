@@ -11600,6 +11600,8 @@
         "fullName": "Xã Trí Phải",
         "fullNameEn": "Tri Phai Commune",
         "codeName": "tri_phai",
+        "postalCode": "98207",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.172",
         "areaKm2": 166.6
       }

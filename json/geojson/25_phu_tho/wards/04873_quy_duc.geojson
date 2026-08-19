@@ -6412,6 +6412,8 @@
         "fullName": "Xã Quy Đức",
         "fullNameEn": "Quy Duc Commune",
         "codeName": "quy_duc",
+        "postalCode": "36327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1677",
         "areaKm2": 146.97
       }

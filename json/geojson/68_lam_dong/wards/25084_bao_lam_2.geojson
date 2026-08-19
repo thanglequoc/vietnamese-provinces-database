@@ -36680,6 +36680,8 @@
         "fullName": "Xã Bảo Lâm 2",
         "fullNameEn": "Commune Bao Lam 2",
         "codeName": "bao_lam_2",
+        "postalCode": "66421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1273",
         "areaKm2": 114
       }

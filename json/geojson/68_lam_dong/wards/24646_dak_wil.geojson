@@ -16260,6 +16260,8 @@
         "fullName": "Xã Đắk Wil",
         "fullNameEn": "Dak Wil Commune",
         "codeName": "dak_wil",
+        "postalCode": "65413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2799",
         "areaKm2": 515.16
       }

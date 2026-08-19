@@ -10628,6 +10628,8 @@
         "fullName": "Xã Sủng Máng",
         "fullNameEn": "Sung Mang Commune",
         "codeName": "sung_mang",
+        "postalCode": "20413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2373",
         "areaKm2": 76.15
       }

@@ -9972,6 +9972,8 @@
         "fullName": "Phường Phong Châu",
         "fullNameEn": "Phong Chau Ward",
         "codeName": "phong_chau",
+        "postalCode": "35907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1591",
         "areaKm2": 29.61
       }

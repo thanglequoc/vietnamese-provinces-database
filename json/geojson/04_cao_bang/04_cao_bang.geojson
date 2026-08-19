@@ -6408,6 +6408,8 @@
         "fullName": "Tỉnh Cao Bằng",
         "fullNameEn": "Cao Bang Province",
         "codeName": "cao_bang",
+        "postalCode": "",
+        "postalCodePrefix": "21",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.135",
         "areaKm2": 6700.39
       }

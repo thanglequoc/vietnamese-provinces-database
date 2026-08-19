@@ -4264,6 +4264,8 @@
         "fullName": "Phường Cai Lậy",
         "fullNameEn": "Cai Lay Ward",
         "codeName": "cai_lay",
+        "postalCode": "84872",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.470",
         "areaKm2": 25.5
       }

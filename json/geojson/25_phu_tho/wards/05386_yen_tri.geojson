@@ -9096,6 +9096,8 @@
         "fullName": "Xã Yên Trị",
         "fullNameEn": "Yen Tri Commune",
         "codeName": "yen_tri",
+        "postalCode": "36716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1664",
         "areaKm2": 81.97
       }

@@ -16924,6 +16924,8 @@
         "fullName": "Xã Lâm Bình",
         "fullNameEn": "Lam Binh Commune",
         "codeName": "lam_binh",
+        "postalCode": "22514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2315",
         "areaKm2": 327.65
       }

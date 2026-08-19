@@ -4540,6 +4540,8 @@
         "fullName": "Xã Dầu Tiếng",
         "fullNameEn": "Dau Tieng Commune",
         "codeName": "dau_tieng",
+        "postalCode": "75806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.5",
         "areaKm2": 182.69
       }

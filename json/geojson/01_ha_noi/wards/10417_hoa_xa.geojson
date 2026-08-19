@@ -3216,6 +3216,8 @@
         "fullName": "Xã Hoà Xá",
         "fullNameEn": "Hoa Xa Commune",
         "codeName": "hoa_xa",
+        "postalCode": "13836",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3208",
         "areaKm2": 40.42
       }

@@ -25624,6 +25624,8 @@
         "fullName": "Xã Hoà Hội",
         "fullNameEn": "Hoa Hoi Commune",
         "codeName": "hoa_hoi",
+        "postalCode": "80514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2745",
         "areaKm2": 111.3
       }

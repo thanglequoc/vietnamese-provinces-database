@@ -8420,6 +8420,8 @@
         "fullName": "Xã Đà Bắc",
         "fullNameEn": "Da Bac Commune",
         "codeName": "da_bac",
+        "postalCode": "36306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1678",
         "areaKm2": 136.8
       }

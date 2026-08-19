@@ -4616,6 +4616,8 @@
         "fullName": "Xã Vĩnh Hoà",
         "fullNameEn": "Vinh Hoa Commune",
         "codeName": "vinh_hoa",
+        "postalCode": "92008",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.397",
         "areaKm2": 146.23
       }

@@ -4716,6 +4716,8 @@
         "fullName": "Phường Nam Hoa Lư",
         "fullNameEn": "Nam Hoa Lu Ward",
         "codeName": "nam_hoa_lu",
+        "postalCode": "08123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.758",
         "areaKm2": 54.3
       }

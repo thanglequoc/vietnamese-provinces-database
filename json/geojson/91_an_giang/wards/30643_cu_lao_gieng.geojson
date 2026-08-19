@@ -6532,6 +6532,8 @@
         "fullName": "Xã Cù Lao Giêng",
         "fullNameEn": "Cu Lao Gieng Commune",
         "codeName": "cu_lao_gieng",
+        "postalCode": "90224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.349",
         "areaKm2": 68.92
       }

@@ -9224,6 +9224,8 @@
         "fullName": "Xã Đăk Sao",
         "fullNameEn": "Dak Sao Commune",
         "codeName": "dak_sao",
+        "postalCode": "60313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.535",
         "areaKm2": 172.29
       }

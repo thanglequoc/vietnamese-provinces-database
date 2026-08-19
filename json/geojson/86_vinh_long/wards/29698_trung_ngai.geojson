@@ -6560,6 +6560,8 @@
         "fullName": "Xã Trung Ngãi",
         "fullNameEn": "Trung Ngai Commune",
         "codeName": "trung_ngai",
+        "postalCode": "85719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2542",
         "areaKm2": 39.25
       }

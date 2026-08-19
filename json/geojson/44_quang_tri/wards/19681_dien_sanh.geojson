@@ -6408,6 +6408,8 @@
         "fullName": "Xã Diên Sanh",
         "fullNameEn": "Dien Sanh Commune",
         "codeName": "dien_sanh",
+        "postalCode": "48906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.581",
         "areaKm2": 87.97
       }

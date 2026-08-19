@@ -2880,6 +2880,8 @@
         "fullName": "Phường Trấn Biên",
         "fullNameEn": "Tran Bien Ward",
         "codeName": "tran_bien",
+        "postalCode": "76137",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3106",
         "areaKm2": 31
       }

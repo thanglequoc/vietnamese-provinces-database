@@ -4788,6 +4788,8 @@
         "fullName": "Xã Hải Tiến",
         "fullNameEn": "Hai Tien Commune",
         "codeName": "hai_tien",
+        "postalCode": "07942",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.823",
         "areaKm2": 24.19
       }

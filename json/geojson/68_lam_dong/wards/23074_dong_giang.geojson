@@ -19552,6 +19552,8 @@
         "fullName": "Xã Đông Giang",
         "fullNameEn": "Dong Giang Commune",
         "codeName": "dong_giang",
+        "postalCode": "77414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3058",
         "areaKm2": 205.23
       }

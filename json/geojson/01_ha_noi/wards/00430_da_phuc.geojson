@@ -11020,6 +11020,8 @@
         "fullName": "Xã Đa Phúc",
         "fullNameEn": "Da Phuc Commune",
         "codeName": "da_phuc",
+        "postalCode": "12232",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3252",
         "areaKm2": 55.32
       }

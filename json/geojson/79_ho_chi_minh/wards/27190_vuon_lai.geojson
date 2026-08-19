@@ -628,6 +628,8 @@
         "fullName": "Phường Vườn Lài",
         "fullNameEn": "Vuon Lai Ward",
         "codeName": "vuon_lai",
+        "postalCode": "72522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.87",
         "areaKm2": 1.28
       }

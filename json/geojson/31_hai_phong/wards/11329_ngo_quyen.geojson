@@ -644,6 +644,8 @@
         "fullName": "Phường Ngô Quyền",
         "fullNameEn": "Ngo Quyen Ward",
         "codeName": "ngo_quyen",
+        "postalCode": "04219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.924",
         "areaKm2": 5.81
       }

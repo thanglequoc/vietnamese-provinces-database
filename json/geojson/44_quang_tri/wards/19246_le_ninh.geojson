@@ -4400,6 +4400,8 @@
         "fullName": "Xã Lệ Ninh",
         "fullNameEn": "Le Ninh Commune",
         "codeName": "le_ninh",
+        "postalCode": "47839",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.631",
         "areaKm2": 56.32
       }

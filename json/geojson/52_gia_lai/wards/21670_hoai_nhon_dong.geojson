@@ -4668,6 +4668,8 @@
         "fullName": "Phường Hoài Nhơn Đông",
         "fullNameEn": "Hoai Nhon Dong Ward",
         "codeName": "hoai_nhon_dong",
+        "postalCode": "55424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2977",
         "areaKm2": 64.36
       }

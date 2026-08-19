@@ -12084,6 +12084,8 @@
         "fullName": "Xã Chi Lăng",
         "fullNameEn": "Chi Lang Commune",
         "codeName": "chi_lang",
+        "postalCode": "25715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1794",
         "areaKm2": 80.74
       }

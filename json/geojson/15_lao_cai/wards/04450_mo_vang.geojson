@@ -12624,6 +12624,8 @@
         "fullName": "Xã Mỏ Vàng",
         "fullNameEn": "Mo Vang Commune",
         "codeName": "mo_vang",
+        "postalCode": "33425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1023",
         "areaKm2": 167.55
       }

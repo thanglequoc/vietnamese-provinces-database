@@ -5156,6 +5156,8 @@
         "fullName": "Phường Hưng Phú",
         "fullNameEn": "Hung Phu Ward",
         "codeName": "hung_phu",
+        "postalCode": "94912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.213",
         "areaKm2": 40.93
       }

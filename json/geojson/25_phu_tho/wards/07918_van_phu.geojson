@@ -8060,6 +8060,8 @@
         "fullName": "Phường Vân Phú",
         "fullNameEn": "Van Phu Ward",
         "codeName": "van_phu",
+        "postalCode": "35118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1554",
         "areaKm2": 26.26
       }

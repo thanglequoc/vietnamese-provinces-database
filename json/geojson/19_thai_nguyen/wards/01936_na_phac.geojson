@@ -6492,6 +6492,8 @@
         "fullName": "Xã Nà Phặc",
         "fullNameEn": "Na Phac Commune",
         "codeName": "na_phac",
+        "postalCode": "23312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1172",
         "areaKm2": 101.18
       }

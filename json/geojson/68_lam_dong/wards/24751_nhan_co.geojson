@@ -30772,6 +30772,8 @@
         "fullName": "Xã Nhân Cơ",
         "fullNameEn": "Nhan Co Commune",
         "codeName": "nhan_co",
+        "postalCode": "65810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2811",
         "areaKm2": 158.05
       }

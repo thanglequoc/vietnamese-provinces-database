@@ -6352,6 +6352,8 @@
         "fullName": "Xã Vân Du",
         "fullNameEn": "Van Du Commune",
         "codeName": "van_du",
+        "postalCode": "43648",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1454",
         "areaKm2": 84.3
       }

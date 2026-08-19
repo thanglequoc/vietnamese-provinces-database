@@ -6120,6 +6120,8 @@
         "fullName": "Xã Hóc Môn",
         "fullNameEn": "Hoc Mon Commune",
         "codeName": "hoc_mon",
+        "postalCode": "71706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.121",
         "areaKm2": 16.43
       }

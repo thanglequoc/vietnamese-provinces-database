@@ -2672,6 +2672,8 @@
         "fullName": "Phường Bắc An Phụ",
         "fullNameEn": "Bac An Phu Ward",
         "codeName": "bac_an_phu",
+        "postalCode": "03434",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.875",
         "areaKm2": 26.1
       }

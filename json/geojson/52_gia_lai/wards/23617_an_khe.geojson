@@ -11236,6 +11236,8 @@
         "fullName": "Phường An Khê",
         "fullNameEn": "An Khe Ward",
         "codeName": "an_khe",
+        "postalCode": "62517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3036",
         "areaKm2": 57.44
       }

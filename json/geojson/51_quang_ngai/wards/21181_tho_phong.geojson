@@ -6228,6 +6228,8 @@
         "fullName": "Xã Thọ Phong",
         "fullNameEn": "Tho Phong Commune",
         "codeName": "tho_phong",
+        "postalCode": "53220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1748",
         "areaKm2": 66.64
       }

@@ -2432,6 +2432,8 @@
         "fullName": "Xã Đồng Tiến",
         "fullNameEn": "Dong Tien Commune",
         "codeName": "dong_tien",
+        "postalCode": "45125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2022",
         "areaKm2": 33.57
       }

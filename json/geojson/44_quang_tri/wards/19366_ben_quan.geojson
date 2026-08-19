@@ -22316,6 +22316,8 @@
         "fullName": "Xã Bến Quan",
         "fullNameEn": "Ben Quan Commune",
         "codeName": "ben_quan",
+        "postalCode": "48423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.563",
         "areaKm2": 278.99
       }

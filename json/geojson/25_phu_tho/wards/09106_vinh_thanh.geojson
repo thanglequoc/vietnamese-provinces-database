@@ -4652,6 +4652,8 @@
         "fullName": "Xã Vĩnh Thành",
         "fullNameEn": "Vinh Thanh Commune",
         "codeName": "vinh_thanh",
+        "postalCode": "15637",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1637",
         "areaKm2": 22
       }

@@ -8828,6 +8828,8 @@
         "fullName": "Xã Hoạt Giang",
         "fullNameEn": "Hoat Giang Commune",
         "codeName": "hoat_giang",
+        "postalCode": "40610",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2640",
         "areaKm2": 27.34
       }

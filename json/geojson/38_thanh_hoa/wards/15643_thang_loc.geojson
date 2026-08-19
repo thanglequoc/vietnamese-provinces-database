@@ -6640,6 +6640,8 @@
         "fullName": "Xã Thắng Lộc",
         "fullNameEn": "Thang Loc Commune",
         "codeName": "thang_loc",
+        "postalCode": "42223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2566",
         "areaKm2": 73.75
       }

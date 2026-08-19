@@ -4448,6 +4448,8 @@
         "fullName": "Xã Hoà Thắng",
         "fullNameEn": "Hoa Thang Commune",
         "codeName": "hoa_thang",
+        "postalCode": "77322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3077",
         "areaKm2": 328.09
       }

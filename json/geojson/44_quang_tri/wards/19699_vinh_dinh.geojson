@@ -6004,6 +6004,8 @@
         "fullName": "Xã Vĩnh Định",
         "fullNameEn": "Vinh Dinh Commune",
         "codeName": "vinh_dinh",
+        "postalCode": "48929",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.582",
         "areaKm2": 63.85
       }

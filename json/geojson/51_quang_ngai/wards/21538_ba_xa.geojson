@@ -6156,6 +6156,8 @@
         "fullName": "Xã Ba Xa",
         "fullNameEn": "Ba Xa Commune",
         "codeName": "ba_xa",
+        "postalCode": "54223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1789",
         "areaKm2": 102.79
       }

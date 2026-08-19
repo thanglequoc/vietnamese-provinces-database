@@ -6324,6 +6324,8 @@
         "fullName": "Xã Thăng Bình",
         "fullNameEn": "Thang Binh Commune",
         "codeName": "thang_binh",
+        "postalCode": "42328",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2607",
         "areaKm2": 34.73
       }

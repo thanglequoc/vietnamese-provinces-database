@@ -11572,6 +11572,8 @@
         "fullName": "Xã Đạ Huoai 3",
         "fullNameEn": "Commune Da Huoai 3",
         "codeName": "da_huoai_3",
+        "postalCode": "66662",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1275",
         "areaKm2": 131.51
       }

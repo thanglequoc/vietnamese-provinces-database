@@ -2688,6 +2688,8 @@
         "fullName": "Xã Tân An Hội",
         "fullNameEn": "Tan An Hoi Commune",
         "codeName": "tan_an_hoi",
+        "postalCode": "71607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.117",
         "areaKm2": 53.51
       }

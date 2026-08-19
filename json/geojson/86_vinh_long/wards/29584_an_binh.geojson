@@ -3668,6 +3668,8 @@
         "fullName": "Xã An Bình",
         "fullNameEn": "An Binh Commune",
         "codeName": "an_binh",
+        "postalCode": "85211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2528",
         "areaKm2": 61.84
       }

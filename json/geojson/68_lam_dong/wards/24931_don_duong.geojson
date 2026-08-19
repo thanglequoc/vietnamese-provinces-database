@@ -11300,6 +11300,8 @@
         "fullName": "Xã Đơn Dương",
         "fullNameEn": "Don Duong Commune",
         "codeName": "don_duong",
+        "postalCode": "66916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.519",
         "areaKm2": 127.81
       }

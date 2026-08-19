@@ -8788,6 +8788,8 @@
         "fullName": "Xã Nghinh Tường",
         "fullNameEn": "Nghinh Tuong Commune",
         "codeName": "nghinh_tuong",
+        "postalCode": "24308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1219",
         "areaKm2": 160.73
       }

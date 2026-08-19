@@ -1332,6 +1332,8 @@
         "fullName": "Xã Đông Quan",
         "fullNameEn": "Dong Quan Commune",
         "codeName": "dong_quan",
+        "postalCode": "06843",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.667",
         "areaKm2": 23.62
       }

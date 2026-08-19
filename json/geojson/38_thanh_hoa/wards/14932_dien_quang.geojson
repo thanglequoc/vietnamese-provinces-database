@@ -5432,6 +5432,8 @@
         "fullName": "Xã Điền Quang",
         "fullNameEn": "Dien Quang Commune",
         "codeName": "dien_quang",
+        "postalCode": "41424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2647",
         "areaKm2": 103.67
       }

@@ -20544,6 +20544,8 @@
         "fullName": "Xã Tân Quang",
         "fullNameEn": "Tan Quang Commune",
         "codeName": "tan_quang",
+        "postalCode": "20812",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2416",
         "areaKm2": 174.14
       }

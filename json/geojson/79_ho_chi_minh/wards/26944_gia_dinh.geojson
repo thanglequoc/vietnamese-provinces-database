@@ -2116,6 +2116,8 @@
         "fullName": "Phường Gia Định",
         "fullNameEn": "Gia Dinh Ward",
         "codeName": "gia_dinh",
+        "postalCode": "72330",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.63",
         "areaKm2": 2.76
       }

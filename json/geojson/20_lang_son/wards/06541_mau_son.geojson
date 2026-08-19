@@ -15592,6 +15592,8 @@
         "fullName": "Xã Mẫu Sơn",
         "fullNameEn": "Mau Son Commune",
         "codeName": "mau_son",
+        "postalCode": "25809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1847",
         "areaKm2": 136.04
       }

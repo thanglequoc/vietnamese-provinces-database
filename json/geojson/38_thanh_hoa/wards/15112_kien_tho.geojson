@@ -4856,6 +4856,8 @@
         "fullName": "Xã Kiên Thọ",
         "fullNameEn": "Kien Tho Commune",
         "codeName": "kien_tho",
+        "postalCode": "41727",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2672",
         "areaKm2": 56.52
       }

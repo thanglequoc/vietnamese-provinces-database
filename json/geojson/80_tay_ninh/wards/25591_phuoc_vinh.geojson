@@ -33484,6 +33484,8 @@
         "fullName": "Xã Phước Vinh",
         "fullNameEn": "Phuoc Vinh Commune",
         "codeName": "phuoc_vinh",
+        "postalCode": "80511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2750",
         "areaKm2": 165.08
       }

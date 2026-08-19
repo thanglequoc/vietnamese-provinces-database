@@ -10296,6 +10296,8 @@
         "fullName": "Xã Hồ Thầu",
         "fullNameEn": "Ho Thau Commune",
         "codeName": "ho_thau",
+        "postalCode": "20621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2408",
         "areaKm2": 136.83
       }

@@ -4188,6 +4188,8 @@
         "fullName": "Xã Lộc Thuận",
         "fullNameEn": "Loc Thuan Commune",
         "codeName": "loc_thuan",
+        "postalCode": "86713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2467",
         "areaKm2": 42.7
       }

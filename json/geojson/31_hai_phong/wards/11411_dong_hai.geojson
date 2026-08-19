@@ -2284,6 +2284,8 @@
         "fullName": "Phường Đông Hải",
         "fullNameEn": "Dong Hai Ward",
         "codeName": "dong_hai",
+        "postalCode": "04815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.925",
         "areaKm2": 57.65
       }

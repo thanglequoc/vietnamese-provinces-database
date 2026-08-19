@@ -14804,6 +14804,8 @@
         "fullName": "Xã Dục Nông",
         "fullNameEn": "Duc Nong Commune",
         "codeName": "duc_nong",
+        "postalCode": "60515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.534",
         "areaKm2": 321.99
       }

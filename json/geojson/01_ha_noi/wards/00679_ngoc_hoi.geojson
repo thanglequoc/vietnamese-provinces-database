@@ -3732,6 +3732,8 @@
         "fullName": "Xã Ngọc Hồi",
         "fullNameEn": "Ngoc Hoi Commune",
         "codeName": "ngoc_hoi",
+        "postalCode": "12516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3177",
         "areaKm2": 13.35
       }

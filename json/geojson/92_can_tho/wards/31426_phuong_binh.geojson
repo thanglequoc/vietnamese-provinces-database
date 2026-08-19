@@ -4276,6 +4276,8 @@
         "fullName": "Xã Phương Bình",
         "fullNameEn": "Phuong Binh Commune",
         "codeName": "phuong_binh",
+        "postalCode": "95519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.249",
         "areaKm2": 85.87
       }

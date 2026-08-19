@@ -7170,6 +7170,8 @@
         "fullName": "Phường Đồ Sơn",
         "fullNameEn": "Do Son Ward",
         "codeName": "do_son",
+        "postalCode": "05014",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.941",
         "areaKm2": 25.54
       }

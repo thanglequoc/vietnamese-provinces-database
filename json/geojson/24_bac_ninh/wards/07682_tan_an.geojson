@@ -5716,6 +5716,8 @@
         "fullName": "Phường Tân An",
         "fullNameEn": "Tan An Ward",
         "codeName": "tan_an",
+        "postalCode": "26215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2146",
         "areaKm2": 42.87
       }

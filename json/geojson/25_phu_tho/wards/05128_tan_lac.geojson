@@ -7504,6 +7504,8 @@
         "fullName": "Xã Tân Lạc",
         "fullNameEn": "Tan Lac Commune",
         "codeName": "tan_lac",
+        "postalCode": "36580",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1642",
         "areaKm2": 139.9
       }

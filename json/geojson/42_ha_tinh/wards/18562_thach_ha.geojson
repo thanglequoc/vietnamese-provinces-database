@@ -3816,6 +3816,8 @@
         "fullName": "Xã Thạch Hà",
         "fullNameEn": "Thach Ha Commune",
         "codeName": "thach_ha",
+        "postalCode": "45206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1995",
         "areaKm2": 31.18
       }

@@ -3732,6 +3732,8 @@
         "fullName": "Xã Nho Quan",
         "fullNameEn": "Nho Quan Commune",
         "codeName": "nho_quan",
+        "postalCode": "08406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.757",
         "areaKm2": 32.62
       }
