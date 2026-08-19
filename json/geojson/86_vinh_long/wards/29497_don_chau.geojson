@@ -2120,6 +2120,8 @@
         "fullName": "Xã Đôn Châu",
         "fullNameEn": "Don Chau Commune",
         "codeName": "don_chau",
+        "postalCode": "87708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2515",
         "areaKm2": 58.93
       }

@@ -20648,6 +20648,8 @@
         "fullName": "Xã Lộc Hưng",
         "fullNameEn": "Loc Hung Commune",
         "codeName": "loc_hung",
+        "postalCode": "67616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2287",
         "areaKm2": 99
       }

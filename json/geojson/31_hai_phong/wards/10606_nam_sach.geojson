@@ -6048,6 +6048,8 @@
         "fullName": "Xã Nam Sách",
         "fullNameEn": "Nam Sach Commune",
         "codeName": "nam_sach",
+        "postalCode": "03556",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.858",
         "areaKm2": 19.75
       }

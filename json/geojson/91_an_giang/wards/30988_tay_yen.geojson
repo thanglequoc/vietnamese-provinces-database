@@ -6012,6 +6012,8 @@
         "fullName": "Xã Tây Yên",
         "fullNameEn": "Tay Yen Commune",
         "codeName": "tay_yen",
+        "postalCode": "91809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.389",
         "areaKm2": 127.5
       }

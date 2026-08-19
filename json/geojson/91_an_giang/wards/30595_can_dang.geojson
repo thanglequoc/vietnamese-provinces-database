@@ -10540,6 +10540,8 @@
         "fullName": "Xã Cần Đăng",
         "fullNameEn": "Can Dang Commune",
         "codeName": "can_dang",
+        "postalCode": "90910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.343",
         "areaKm2": 65.21
       }

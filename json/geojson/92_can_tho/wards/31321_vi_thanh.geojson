@@ -2260,6 +2260,8 @@
         "fullName": "Phường Vị Thanh",
         "fullNameEn": "Vi Thanh Ward",
         "codeName": "vi_thanh",
+        "postalCode": "95115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.234",
         "areaKm2": 22.11
       }

@@ -9608,6 +9608,8 @@
         "fullName": "Xã Phù Mỹ",
         "fullNameEn": "Phu My Commune",
         "codeName": "phu_my",
+        "postalCode": "55356",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3006",
         "areaKm2": 54.47
       }

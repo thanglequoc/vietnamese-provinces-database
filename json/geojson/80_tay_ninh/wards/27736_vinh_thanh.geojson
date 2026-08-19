@@ -7712,6 +7712,8 @@
         "fullName": "Xã Vĩnh Thạnh",
         "fullNameEn": "Vinh Thanh Commune",
         "codeName": "vinh_thanh",
+        "postalCode": "83318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1281",
         "areaKm2": 118.68
       }

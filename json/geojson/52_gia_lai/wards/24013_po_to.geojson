@@ -12924,6 +12924,8 @@
         "fullName": "Xã Pờ Tó",
         "fullNameEn": "Po To Commune",
         "codeName": "po_to",
+        "postalCode": "62208",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2955",
         "areaKm2": 177.9
       }

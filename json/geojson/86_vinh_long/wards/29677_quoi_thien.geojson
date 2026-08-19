@@ -2484,6 +2484,8 @@
         "fullName": "Xã Quới Thiện",
         "fullNameEn": "Quoi Thien Commune",
         "codeName": "quoi_thien",
+        "postalCode": "85722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2537",
         "areaKm2": 46.95
       }

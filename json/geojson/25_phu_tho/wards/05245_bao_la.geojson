@@ -4196,6 +4196,8 @@
         "fullName": "Xã Bao La",
         "fullNameEn": "Bao La Commune",
         "codeName": "bao_la",
+        "postalCode": "36418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1684",
         "areaKm2": 104.27
       }

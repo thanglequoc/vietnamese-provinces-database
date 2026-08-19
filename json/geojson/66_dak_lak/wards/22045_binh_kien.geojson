@@ -5796,6 +5796,8 @@
         "fullName": "Phường Bình Kiến",
         "fullNameEn": "Binh Kien Ward",
         "codeName": "binh_kien",
+        "postalCode": "56119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2892",
         "areaKm2": 73.71
       }

@@ -3140,6 +3140,8 @@
         "fullName": "Xã Hoằng Lộc",
         "fullNameEn": "Hoang Loc Commune",
         "codeName": "hoang_loc",
+        "postalCode": "40340",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2601",
         "areaKm2": 20.57
       }

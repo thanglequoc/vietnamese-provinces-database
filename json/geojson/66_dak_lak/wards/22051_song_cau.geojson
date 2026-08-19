@@ -18916,6 +18916,8 @@
         "fullName": "Phường Sông Cầu",
         "fullNameEn": "Song Cau Ward",
         "codeName": "song_cau",
+        "postalCode": "56320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2893",
         "areaKm2": 90.49
       }

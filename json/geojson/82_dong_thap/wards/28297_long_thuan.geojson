@@ -4204,6 +4204,8 @@
         "fullName": "Phường Long Thuận",
         "fullNameEn": "Long Thuan Ward",
         "codeName": "long_thuan",
+        "postalCode": "84308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.450",
         "areaKm2": 8.3
       }

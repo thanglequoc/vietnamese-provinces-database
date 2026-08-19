@@ -4396,6 +4396,8 @@
         "fullName": "Xã Triệu Lộc",
         "fullNameEn": "Trieu Loc Commune",
         "codeName": "trieu_loc",
+        "postalCode": "40426",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2621",
         "areaKm2": 29.27
       }

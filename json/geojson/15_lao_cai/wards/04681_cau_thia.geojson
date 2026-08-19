@@ -6288,6 +6288,8 @@
         "fullName": "Phường Cầu Thia",
         "fullNameEn": "Cau Thia Ward",
         "codeName": "cau_thia",
+        "postalCode": "33712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1008",
         "areaKm2": 31.84
       }

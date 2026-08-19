@@ -1656,6 +1656,8 @@
         "fullName": "Xã Gia Lộc",
         "fullNameEn": "Gia Loc Commune",
         "codeName": "gia_loc",
+        "postalCode": "03656",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.859",
         "areaKm2": 21.78
       }

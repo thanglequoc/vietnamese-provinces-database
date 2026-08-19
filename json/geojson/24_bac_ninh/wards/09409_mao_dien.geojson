@@ -2140,6 +2140,8 @@
         "fullName": "Phường Mão Điền",
         "fullNameEn": "Mao Dien Ward",
         "codeName": "mao_dien",
+        "postalCode": "16522",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2191",
         "areaKm2": 19.5
       }

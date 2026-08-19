@@ -6468,6 +6468,8 @@
         "fullName": "Xã Đức Lương",
         "fullNameEn": "Duc Luong Commune",
         "codeName": "duc_luong",
+        "postalCode": "24609",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1199",
         "areaKm2": 60.9
       }

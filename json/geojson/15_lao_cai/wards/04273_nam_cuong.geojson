@@ -4444,6 +4444,8 @@
         "fullName": "Phường Nam Cường",
         "fullNameEn": "Nam Cuong Ward",
         "codeName": "nam_cuong",
+        "postalCode": "33110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1006",
         "areaKm2": 46.09
       }

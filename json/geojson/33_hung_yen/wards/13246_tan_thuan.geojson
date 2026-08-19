@@ -1684,6 +1684,8 @@
         "fullName": "Xã Tân Thuận",
         "fullNameEn": "Tan Thuan Commune",
         "codeName": "tan_thuan",
+        "postalCode": "06937",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.684",
         "areaKm2": 22.11
       }

@@ -4392,6 +4392,8 @@
         "fullName": "Phường Quế Võ",
         "fullNameEn": "Que Vo Ward",
         "codeName": "que_vo",
+        "postalCode": "16827",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2178",
         "areaKm2": 23.51
       }

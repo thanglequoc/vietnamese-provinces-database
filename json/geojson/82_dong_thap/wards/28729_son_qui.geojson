@@ -4716,6 +4716,8 @@
         "fullName": "Phường Sơn Qui",
         "fullNameEn": "Son Qui Ward",
         "codeName": "son_qui",
+        "postalCode": "84319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.449",
         "areaKm2": 49
       }

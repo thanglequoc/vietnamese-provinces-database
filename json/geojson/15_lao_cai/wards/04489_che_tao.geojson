@@ -12584,6 +12584,8 @@
         "fullName": "Xã Chế Tạo",
         "fullNameEn": "Che Tao Commune",
         "codeName": "che_tao",
+        "postalCode": "33512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1028",
         "areaKm2": 234.44
       }

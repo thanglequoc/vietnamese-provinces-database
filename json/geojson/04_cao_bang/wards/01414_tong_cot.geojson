@@ -9196,6 +9196,8 @@
         "fullName": "Xã Tổng Cọt",
         "fullNameEn": "Tong Cot Commune",
         "codeName": "tong_cot",
+        "postalCode": "21224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.953",
         "areaKm2": 100.48
       }

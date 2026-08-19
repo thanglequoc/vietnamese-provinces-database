@@ -14368,6 +14368,8 @@
         "fullName": "Xã Trà Tân",
         "fullNameEn": "Tra Tan Commune",
         "codeName": "tra_tan",
+        "postalCode": "77567",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3093",
         "areaKm2": 135.94
       }

@@ -1876,6 +1876,8 @@
         "fullName": "Xã Đồng Việt",
         "fullNameEn": "Dong Viet Commune",
         "codeName": "dong_viet",
+        "postalCode": "26226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2149",
         "areaKm2": 33.21
       }

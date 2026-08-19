@@ -12036,6 +12036,8 @@
         "fullName": "Xã An Hoà",
         "fullNameEn": "An Hoa Commune",
         "codeName": "an_hoa",
+        "postalCode": "55513",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2971",
         "areaKm2": 101.48
       }

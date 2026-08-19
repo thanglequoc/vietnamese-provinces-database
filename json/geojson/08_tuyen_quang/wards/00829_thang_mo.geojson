@@ -10128,6 +10128,8 @@
         "fullName": "Xã Thắng Mố",
         "fullNameEn": "Thang Mo Commune",
         "codeName": "thang_mo",
+        "postalCode": "20310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2434",
         "areaKm2": 67.71
       }

@@ -8624,6 +8624,8 @@
         "fullName": "Xã Cái Nhum",
         "fullNameEn": "Cai Nhum Commune",
         "codeName": "cai_nhum",
+        "postalCode": "85806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2533",
         "areaKm2": 52.45
       }

@@ -2708,6 +2708,8 @@
         "fullName": "Xã Bình Hưng",
         "fullNameEn": "Binh Hung Commune",
         "codeName": "binh_hung",
+        "postalCode": "71813",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.129",
         "areaKm2": 32.63
       }

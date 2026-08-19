@@ -8136,6 +8136,8 @@
         "fullName": "Xã Trà Giáp",
         "fullNameEn": "Tra Giap Commune",
         "codeName": "tra_giap",
+        "postalCode": "52517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1981",
         "areaKm2": 121.55
       }

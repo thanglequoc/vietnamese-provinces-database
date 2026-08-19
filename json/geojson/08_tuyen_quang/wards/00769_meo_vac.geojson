@@ -12848,6 +12848,8 @@
         "fullName": "Xã Mèo Vạc",
         "fullNameEn": "Meo Vac Commune",
         "codeName": "meo_vac",
+        "postalCode": "20406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2372",
         "areaKm2": 92.21
       }

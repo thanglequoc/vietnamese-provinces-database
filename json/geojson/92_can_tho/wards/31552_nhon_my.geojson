@@ -4612,6 +4612,8 @@
         "fullName": "Xã Nhơn Mỹ",
         "fullNameEn": "Nhon My Commune",
         "codeName": "nhon_my",
+        "postalCode": "96310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.268",
         "areaKm2": 79.73
       }

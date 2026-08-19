@@ -5488,6 +5488,8 @@
         "fullName": "Phường Long Châu",
         "fullNameEn": "Long Chau Ward",
         "codeName": "long_chau",
+        "postalCode": "85118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2525",
         "areaKm2": 12.63
       }

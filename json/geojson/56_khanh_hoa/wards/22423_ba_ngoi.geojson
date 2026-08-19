@@ -3532,6 +3532,8 @@
         "fullName": "Phường Ba Ngòi",
         "fullNameEn": "Ba Ngoi Ward",
         "codeName": "ba_ngoi",
+        "postalCode": "57811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1123",
         "areaKm2": 78.2
       }

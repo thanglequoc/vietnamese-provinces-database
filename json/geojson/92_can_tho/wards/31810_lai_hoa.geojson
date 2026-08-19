@@ -8644,6 +8644,8 @@
         "fullName": "Xã Lai Hoà",
         "fullNameEn": "Lai Hoa Commune",
         "codeName": "lai_hoa",
+        "postalCode": "96815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.304",
         "areaKm2": 55.37
       }

@@ -3904,6 +3904,8 @@
         "fullName": "Phường Thanh Hoà",
         "fullNameEn": "Thanh Hoa Ward",
         "codeName": "thanh_hoa",
+        "postalCode": "84867",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.469",
         "areaKm2": 19.5
       }

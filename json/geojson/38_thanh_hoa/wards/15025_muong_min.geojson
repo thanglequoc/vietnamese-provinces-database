@@ -6080,6 +6080,8 @@
         "fullName": "Xã Mường Mìn",
         "fullNameEn": "Muong Min Commune",
         "codeName": "muong_min",
+        "postalCode": "42016",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2715",
         "areaKm2": 89.21
       }

@@ -7232,6 +7232,8 @@
         "fullName": "Xã Phú Khê",
         "fullNameEn": "Phu Khe Commune",
         "codeName": "phu_khe",
+        "postalCode": "35623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1593",
         "areaKm2": 37.11
       }

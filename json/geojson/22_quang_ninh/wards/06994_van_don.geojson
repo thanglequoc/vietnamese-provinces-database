@@ -123120,6 +123120,8 @@
         "fullName": "Đặc khu Vân Đồn",
         "fullNameEn": "Van Don Special administrative region",
         "codeName": "van_don",
+        "postalCode": "01318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3315",
         "areaKm2": 583.92
       }

@@ -6676,6 +6676,8 @@
         "fullName": "Xã Mường Ảng",
         "fullNameEn": "Muong Ang Commune",
         "codeName": "muong_ang",
+        "postalCode": "32406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2254",
         "areaKm2": 85.94
       }

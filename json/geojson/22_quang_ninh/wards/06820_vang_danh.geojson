@@ -7368,6 +7368,8 @@
         "fullName": "Phường Vàng Danh",
         "fullNameEn": "Vang Danh Ward",
         "codeName": "vang_danh",
+        "postalCode": "02309",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1865",
         "areaKm2": 93.77
       }

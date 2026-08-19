@@ -1068,6 +1068,8 @@
         "fullName": "Phường Ba Đồn",
         "fullNameEn": "Ba Don Ward",
         "codeName": "ba_don",
+        "postalCode": "47306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.612",
         "areaKm2": 20.45
       }

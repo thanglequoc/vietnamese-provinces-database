@@ -1568,6 +1568,8 @@
         "fullName": "Xã Vĩnh Trụ",
         "fullNameEn": "Vinh Tru Commune",
         "codeName": "vinh_tru",
+        "postalCode": "18606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2775",
         "areaKm2": 17.59
       }

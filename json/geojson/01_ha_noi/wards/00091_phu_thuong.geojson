@@ -624,6 +624,8 @@
         "fullName": "Phường Phú Thượng",
         "fullNameEn": "Phu Thuong Ward",
         "codeName": "phu_thuong",
+        "postalCode": "11210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3259",
         "areaKm2": 7.21
       }

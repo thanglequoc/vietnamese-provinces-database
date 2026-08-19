@@ -11556,6 +11556,8 @@
         "fullName": "Xã Tuy Phước Đông",
         "fullNameEn": "Tuy Phuoc Dong Commune",
         "codeName": "tuy_phuoc_dong",
+        "postalCode": "55219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3015",
         "areaKm2": 60.66
       }

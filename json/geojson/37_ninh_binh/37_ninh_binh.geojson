@@ -3304,6 +3304,8 @@
         "fullName": "Tỉnh Ninh Bình",
         "fullNameEn": "Ninh Binh Province",
         "codeName": "ninh_binh",
+        "postalCode": "",
+        "postalCodePrefix": "07, 08, 18",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.104",
         "areaKm2": 3942.62
       }

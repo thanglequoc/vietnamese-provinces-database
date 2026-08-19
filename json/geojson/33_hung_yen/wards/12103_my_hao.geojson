@@ -2612,6 +2612,8 @@
         "fullName": "Phường Mỹ Hào",
         "fullNameEn": "My Hao Ward",
         "codeName": "my_hao",
+        "postalCode": "17519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.740",
         "areaKm2": 28.36
       }

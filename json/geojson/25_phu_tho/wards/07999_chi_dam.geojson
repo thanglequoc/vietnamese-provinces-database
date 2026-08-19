@@ -8524,6 +8524,8 @@
         "fullName": "Xã Chí Đám",
         "fullNameEn": "Chi Dam Commune",
         "codeName": "chi_dam",
+        "postalCode": "35308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1541",
         "areaKm2": 49.36
       }

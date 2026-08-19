@@ -6536,6 +6536,8 @@
         "fullName": "Phường Trần Hưng Đạo",
         "fullNameEn": "Tran Hung Dao Ward",
         "codeName": "tran_hung_dao",
+        "postalCode": "03528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.871",
         "areaKm2": 66.89
       }

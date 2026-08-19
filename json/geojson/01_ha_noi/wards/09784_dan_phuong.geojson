@@ -6020,6 +6020,8 @@
         "fullName": "Xã Đan Phượng",
         "fullNameEn": "Dan Phuong Commune",
         "codeName": "dan_phuong",
+        "postalCode": "13007",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3278",
         "areaKm2": 15.3
       }

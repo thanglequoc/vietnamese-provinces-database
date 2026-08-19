@@ -7304,6 +7304,8 @@
         "fullName": "Phường Thới Long",
         "fullNameEn": "Thoi Long Ward",
         "codeName": "thoi_long",
+        "postalCode": "94310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.207",
         "areaKm2": 54.1
       }

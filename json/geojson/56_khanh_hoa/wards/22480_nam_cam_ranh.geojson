@@ -10040,6 +10040,8 @@
         "fullName": "Xã Nam Cam Ranh",
         "fullNameEn": "Nam Cam Ranh Commune",
         "codeName": "nam_cam_ranh",
+        "postalCode": "57823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3310",
         "areaKm2": 92.6
       }

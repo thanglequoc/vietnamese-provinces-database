@@ -1136,6 +1136,8 @@
         "fullName": "Đặc khu Lý Sơn",
         "fullNameEn": "Ly Son Special administrative region",
         "codeName": "ly_son",
+        "postalCode": "54409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3290",
         "areaKm2": 10.4
       }

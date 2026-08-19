@@ -6492,6 +6492,8 @@
         "fullName": "Xã Tân Yên",
         "fullNameEn": "Tan Yen Commune",
         "codeName": "tan_yen",
+        "postalCode": "34711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1375",
         "areaKm2": 192.79
       }

@@ -13172,6 +13172,8 @@
         "fullName": "Xã Tân Mỹ",
         "fullNameEn": "Tan My Commune",
         "codeName": "tan_my",
+        "postalCode": "22316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2325",
         "areaKm2": 137.31
       }

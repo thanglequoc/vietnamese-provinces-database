@@ -4168,6 +4168,8 @@
         "fullName": "Xã Đông Kinh",
         "fullNameEn": "Dong Kinh Commune",
         "codeName": "dong_kinh",
+        "postalCode": "45239",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1999",
         "areaKm2": 27.57
       }

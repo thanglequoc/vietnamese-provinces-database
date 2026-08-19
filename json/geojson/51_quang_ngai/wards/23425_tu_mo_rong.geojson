@@ -5848,6 +5848,8 @@
         "fullName": "Xã Tu Mơ Rông",
         "fullNameEn": "Tu Mo Rong Commune",
         "codeName": "tu_mo_rong",
+        "postalCode": "60307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3157",
         "areaKm2": 152.13
       }

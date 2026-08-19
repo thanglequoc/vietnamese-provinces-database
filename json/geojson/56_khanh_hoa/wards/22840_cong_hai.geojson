@@ -6404,6 +6404,8 @@
         "fullName": "Xã Công Hải",
         "fullNameEn": "Cong Hai Commune",
         "codeName": "cong_hai",
+        "postalCode": "59307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1152",
         "areaKm2": 124.3
       }

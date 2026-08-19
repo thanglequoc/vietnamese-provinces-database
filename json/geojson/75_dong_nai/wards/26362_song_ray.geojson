@@ -9048,6 +9048,8 @@
         "fullName": "Xã Sông Ray",
         "fullNameEn": "Song Ray Commune",
         "codeName": "song_ray",
+        "postalCode": "76509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3132",
         "areaKm2": 65.6
       }

@@ -7824,6 +7824,8 @@
         "fullName": "Xã Như Thanh",
         "fullNameEn": "Nhu Thanh Commune",
         "codeName": "nhu_thanh",
+        "postalCode": "42423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2660",
         "areaKm2": 84.07
       }

@@ -320,6 +320,8 @@
         "fullName": "Phường Phú Thuận",
         "fullNameEn": "Phu Thuan Ward",
         "codeName": "phu_thuan",
+        "postalCode": "72907",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.112",
         "areaKm2": 10.55
       }

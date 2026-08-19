@@ -4312,6 +4312,8 @@
         "fullName": "Xã Tiên La",
         "fullNameEn": "Tien La Commune",
         "codeName": "tien_la",
+        "postalCode": "06741",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.647",
         "areaKm2": 22.54
       }

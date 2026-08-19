@@ -5444,6 +5444,8 @@
         "fullName": "Xã Minh Tâm",
         "fullNameEn": "Minh Tam Commune",
         "codeName": "minh_tam",
+        "postalCode": "21524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.966",
         "areaKm2": 106.64
       }

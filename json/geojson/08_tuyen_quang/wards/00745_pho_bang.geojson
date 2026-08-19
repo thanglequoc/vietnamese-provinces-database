@@ -9108,6 +9108,8 @@
         "fullName": "Xã Phố Bảng",
         "fullNameEn": "Pho Bang Commune",
         "codeName": "pho_bang",
+        "postalCode": "20512",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2435",
         "areaKm2": 77.71
       }

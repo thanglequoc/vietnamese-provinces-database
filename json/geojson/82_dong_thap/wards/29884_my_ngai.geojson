@@ -11328,6 +11328,8 @@
         "fullName": "Phường Mỹ Ngãi",
         "fullNameEn": "My Ngai Ward",
         "codeName": "my_ngai",
+        "postalCode": "81110",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.402",
         "areaKm2": 49
       }

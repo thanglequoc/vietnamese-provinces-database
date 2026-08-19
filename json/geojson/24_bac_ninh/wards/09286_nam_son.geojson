@@ -2768,6 +2768,8 @@
         "fullName": "Phường Nam Sơn",
         "fullNameEn": "Nam Son Ward",
         "codeName": "nam_son",
+        "postalCode": "16121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2196",
         "areaKm2": 18.53
       }

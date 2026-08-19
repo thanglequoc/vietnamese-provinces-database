@@ -1100,6 +1100,8 @@
         "fullName": "Phường Gia Viên",
         "fullNameEn": "Gia Vien Ward",
         "codeName": "gia_vien",
+        "postalCode": "04213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.930",
         "areaKm2": 5.01
       }

@@ -816,6 +816,8 @@
         "fullName": "Xã An Phú",
         "fullNameEn": "An Phu Commune",
         "codeName": "an_phu",
+        "postalCode": "90456",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.311",
         "areaKm2": 34.7
       }

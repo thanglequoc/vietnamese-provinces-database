@@ -6964,6 +6964,8 @@
         "fullName": "Phường Phổ Yên",
         "fullNameEn": "Pho Yen Ward",
         "codeName": "pho_yen",
+        "postalCode": "24724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1230",
         "areaKm2": 40.7
       }

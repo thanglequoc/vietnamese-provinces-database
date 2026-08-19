@@ -16324,6 +16324,8 @@
         "fullName": "Xã Thanh Yên",
         "fullNameEn": "Thanh Yen Commune",
         "codeName": "thanh_yen",
+        "postalCode": "32220",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2264",
         "areaKm2": 130.1
       }

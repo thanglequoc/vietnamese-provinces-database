@@ -14436,6 +14436,8 @@
         "fullName": "Xã Cái Đôi Vàm",
         "fullNameEn": "Cai Doi Vam Commune",
         "codeName": "cai_doi_vam",
+        "postalCode": "98507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.195",
         "areaKm2": 131.1
       }

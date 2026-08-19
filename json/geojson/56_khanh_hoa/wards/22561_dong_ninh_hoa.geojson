@@ -20348,6 +20348,8 @@
         "fullName": "Phường Đông Ninh Hoà",
         "fullNameEn": "Dong Ninh Hoa Ward",
         "codeName": "dong_ninh_hoa",
+        "postalCode": "57335",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1113",
         "areaKm2": 134.2
       }

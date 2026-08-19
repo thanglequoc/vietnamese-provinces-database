@@ -3888,6 +3888,8 @@
         "fullName": "Phường Bá Xuyên",
         "fullNameEn": "Ba Xuyen Ward",
         "codeName": "ba_xuyen",
+        "postalCode": "24807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1203",
         "areaKm2": 21.13
       }

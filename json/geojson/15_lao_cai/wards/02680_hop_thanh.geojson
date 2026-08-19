@@ -7784,6 +7784,8 @@
         "fullName": "Xã Hợp Thành",
         "fullNameEn": "Hop Thanh Commune",
         "codeName": "hop_thanh",
+        "postalCode": "31115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1057",
         "areaKm2": 116.3
       }

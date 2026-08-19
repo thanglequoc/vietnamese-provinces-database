@@ -7072,6 +7072,8 @@
         "fullName": "Xã Châu Quế",
         "fullNameEn": "Chau Que Commune",
         "codeName": "chau_que",
+        "postalCode": "33433",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1017",
         "areaKm2": 162.25
       }

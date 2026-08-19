@@ -7188,6 +7188,8 @@
         "fullName": "Xã Hà Nha",
         "fullNameEn": "Ha Nha Commune",
         "codeName": "ha_nha",
+        "postalCode": "51625",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1926",
         "areaKm2": 132.69
       }

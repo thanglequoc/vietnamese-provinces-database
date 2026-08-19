@@ -4284,6 +4284,8 @@
         "fullName": "Xã Quan Thành",
         "fullNameEn": "Quan Thanh Commune",
         "codeName": "quan_thanh",
+        "postalCode": "43646",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1455",
         "areaKm2": 37.71
       }

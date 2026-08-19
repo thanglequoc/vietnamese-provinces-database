@@ -8440,6 +8440,8 @@
         "fullName": "Xã Yên Thịnh",
         "fullNameEn": "Yen Thinh Commune",
         "codeName": "yen_thinh",
+        "postalCode": "23618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1181",
         "areaKm2": 165.8
       }

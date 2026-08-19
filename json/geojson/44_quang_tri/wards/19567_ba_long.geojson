@@ -20852,6 +20852,8 @@
         "fullName": "Xã Ba Lòng",
         "fullNameEn": "Ba Long Commune",
         "codeName": "ba_long",
+        "postalCode": "48612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.578",
         "areaKm2": 210.58
       }

@@ -2248,6 +2248,8 @@
         "fullName": "Xã Hồng Quang",
         "fullNameEn": "Hong Quang Commune",
         "codeName": "hong_quang",
+        "postalCode": "17425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.703",
         "areaKm2": 25.53
       }

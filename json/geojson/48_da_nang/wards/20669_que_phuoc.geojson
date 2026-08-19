@@ -11548,6 +11548,8 @@
         "fullName": "Xã Quế Phước",
         "fullNameEn": "Que Phuoc Commune",
         "codeName": "que_phuoc",
+        "postalCode": "52124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1951",
         "areaKm2": 359.11
       }

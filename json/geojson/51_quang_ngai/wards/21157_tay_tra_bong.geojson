@@ -7388,6 +7388,8 @@
         "fullName": "Xã Tây Trà Bồng",
         "fullNameEn": "Tay Tra Bong Commune",
         "codeName": "tay_tra_bong",
+        "postalCode": "53421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1758",
         "areaKm2": 129.05
       }

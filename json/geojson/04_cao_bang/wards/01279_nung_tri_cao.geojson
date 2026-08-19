@@ -4308,6 +4308,8 @@
         "fullName": "Phường Nùng Trí Cao",
         "fullNameEn": "Nung Tri Cao Ward",
         "codeName": "nung_tri_cao",
+        "postalCode": "21118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.973",
         "areaKm2": 29.31
       }

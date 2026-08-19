@@ -9412,6 +9412,8 @@
         "fullName": "Xã Trung Thịnh",
         "fullNameEn": "Trung Thinh Commune",
         "codeName": "trung_thinh",
+        "postalCode": "20724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2411",
         "areaKm2": 72.11
       }

@@ -5372,6 +5372,8 @@
         "fullName": "Xã Thường Tân",
         "fullNameEn": "Thuong Tan Commune",
         "codeName": "thuong_tan",
+        "postalCode": "75515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.28",
         "areaKm2": 120.7
       }

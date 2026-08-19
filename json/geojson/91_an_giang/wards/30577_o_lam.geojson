@@ -3844,6 +3844,8 @@
         "fullName": "Xã Ô Lâm",
         "fullNameEn": "O Lam Commune",
         "codeName": "o_lam",
+        "postalCode": "90817",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.341",
         "areaKm2": 99.52
       }

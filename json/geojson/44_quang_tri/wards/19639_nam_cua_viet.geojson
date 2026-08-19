@@ -5788,6 +5788,8 @@
         "fullName": "Xã Nam Cửa Việt",
         "fullNameEn": "Nam Cua Viet Commune",
         "codeName": "nam_cua_viet",
+        "postalCode": "48728",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.587",
         "areaKm2": 74.12
       }

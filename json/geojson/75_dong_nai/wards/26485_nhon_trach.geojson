@@ -5084,6 +5084,8 @@
         "fullName": "Phường Nhơn Trạch",
         "fullNameEn": "Nhon Trach Ward",
         "codeName": "nhon_trach",
+        "postalCode": "76268",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3147",
         "areaKm2": 108
       }

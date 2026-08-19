@@ -7924,6 +7924,8 @@
         "fullName": "Xã Lũng Nặm",
         "fullNameEn": "Lung Nam Commune",
         "codeName": "lung_nam",
+        "postalCode": "21212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.958",
         "areaKm2": 97.59
       }

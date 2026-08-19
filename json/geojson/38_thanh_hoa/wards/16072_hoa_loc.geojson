@@ -2580,6 +2580,8 @@
         "fullName": "Xã Hoa Lộc",
         "fullNameEn": "Hoa Loc Commune",
         "codeName": "hoa_loc",
+        "postalCode": "40413",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2622",
         "areaKm2": 34.69
       }

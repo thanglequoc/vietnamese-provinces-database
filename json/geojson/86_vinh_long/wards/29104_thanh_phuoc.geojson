@@ -17644,6 +17644,8 @@
         "fullName": "Xã Thạnh Phước",
         "fullNameEn": "Thanh Phuoc Commune",
         "codeName": "thanh_phuoc",
+        "postalCode": "86723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2469",
         "areaKm2": 76.99
       }

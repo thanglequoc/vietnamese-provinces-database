@@ -6104,6 +6104,8 @@
         "fullName": "Xã Kỳ Xuân",
         "fullNameEn": "Ky Xuan Commune",
         "codeName": "ky_xuan",
+        "postalCode": "46308",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2031",
         "areaKm2": 72.94
       }

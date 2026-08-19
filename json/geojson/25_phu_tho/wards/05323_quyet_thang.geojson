@@ -5648,6 +5648,8 @@
         "fullName": "Xã Quyết Thắng",
         "fullNameEn": "Quyet Thang Commune",
         "codeName": "quyet_thang",
+        "postalCode": "36619",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1673",
         "areaKm2": 59.66
       }

@@ -46700,6 +46700,8 @@
         "fullName": "Phường Hồng Gai",
         "fullNameEn": "Hong Gai Ward",
         "codeName": "hong_gai",
+        "postalCode": "01106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3288",
         "areaKm2": 5
       }

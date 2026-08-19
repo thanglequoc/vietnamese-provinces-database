@@ -5388,6 +5388,8 @@
         "fullName": "Xã Hùng Hoà",
         "fullNameEn": "Hung Hoa Commune",
         "codeName": "hung_hoa",
+        "postalCode": "87414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2497",
         "areaKm2": 57.51
       }

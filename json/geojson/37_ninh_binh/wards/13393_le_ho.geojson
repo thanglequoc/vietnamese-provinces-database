@@ -2104,6 +2104,8 @@
         "fullName": "Phường Lê Hồ",
         "fullNameEn": "Le Ho Ward",
         "codeName": "le_ho",
+        "postalCode": "18313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2766",
         "areaKm2": 22.27
       }

@@ -5200,6 +5200,8 @@
         "fullName": "Phường Trung An",
         "fullNameEn": "Trung An Ward",
         "codeName": "trung_an",
+        "postalCode": "84118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.446",
         "areaKm2": 23.4
       }

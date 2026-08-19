@@ -6984,6 +6984,8 @@
         "fullName": "Xã Thới An Hội",
         "fullNameEn": "Thoi An Hoi Commune",
         "codeName": "thoi_an_hoi",
+        "postalCode": "96307",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.267",
         "areaKm2": 60.32
       }

@@ -2988,6 +2988,8 @@
         "fullName": "Phường Trạm Lộ",
         "fullNameEn": "Tram Lo Ward",
         "codeName": "tram_lo",
+        "postalCode": "16520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2193",
         "areaKm2": 18.24
       }

@@ -2420,6 +2420,8 @@
         "fullName": "Xã Vĩnh Lộc",
         "fullNameEn": "Vinh Loc Commune",
         "codeName": "vinh_loc",
+        "postalCode": "71823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.126",
         "areaKm2": 30.55
       }

@@ -5752,6 +5752,8 @@
         "fullName": "Xã Đoan Hùng",
         "fullNameEn": "Doan Hung Commune",
         "codeName": "doan_hung",
+        "postalCode": "35306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1539",
         "areaKm2": 44.8
       }

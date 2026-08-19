@@ -3768,6 +3768,8 @@
         "fullName": "Xã Thăng An",
         "fullNameEn": "Thang An Commune",
         "codeName": "thang_an",
+        "postalCode": "51229",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1930",
         "areaKm2": 80.98
       }

@@ -2448,6 +2448,8 @@
         "fullName": "Phường Duy Hà",
         "fullNameEn": "Duy Ha Ward",
         "codeName": "duy_ha",
+        "postalCode": "18226",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2769",
         "areaKm2": 15.46
       }

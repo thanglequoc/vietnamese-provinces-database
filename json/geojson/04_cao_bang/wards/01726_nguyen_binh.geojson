@@ -6692,6 +6692,8 @@
         "fullName": "Xã Nguyên Bình",
         "fullNameEn": "Nguyen Binh Commune",
         "codeName": "nguyen_binh",
+        "postalCode": "21506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.964",
         "areaKm2": 99.73
       }

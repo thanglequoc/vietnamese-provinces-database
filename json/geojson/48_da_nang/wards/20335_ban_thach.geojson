@@ -4412,6 +4412,8 @@
         "fullName": "Phường Bàn Thạch",
         "fullNameEn": "Ban Thach Ward",
         "codeName": "ban_thach",
+        "postalCode": "51121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1971",
         "areaKm2": 34.77
       }

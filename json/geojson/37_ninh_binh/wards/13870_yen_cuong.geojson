@@ -3404,6 +3404,8 @@
         "fullName": "Xã Yên Cường",
         "fullNameEn": "Yen Cuong Commune",
         "codeName": "yen_cuong",
+        "postalCode": "07331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.818",
         "areaKm2": 32.44
       }

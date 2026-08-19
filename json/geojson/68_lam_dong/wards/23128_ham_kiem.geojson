@@ -20116,6 +20116,8 @@
         "fullName": "Xã Hàm Kiệm",
         "fullNameEn": "Ham Kiem Commune",
         "codeName": "ham_kiem",
+        "postalCode": "77711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3083",
         "areaKm2": 162.09
       }

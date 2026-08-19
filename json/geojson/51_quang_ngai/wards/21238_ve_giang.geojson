@@ -3500,6 +3500,8 @@
         "fullName": "Xã Vệ Giang",
         "fullNameEn": "Ve Giang Commune",
         "codeName": "ve_giang",
+        "postalCode": "53922",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1763",
         "areaKm2": 24.21
       }

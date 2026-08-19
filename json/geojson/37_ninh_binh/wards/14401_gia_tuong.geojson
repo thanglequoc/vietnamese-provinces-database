@@ -6124,6 +6124,8 @@
         "fullName": "Xã Gia Tường",
         "fullNameEn": "Gia Tuong Commune",
         "codeName": "gia_tuong",
+        "postalCode": "08410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.745",
         "areaKm2": 27.09
       }

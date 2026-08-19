@@ -13100,6 +13100,8 @@
         "fullName": "Xã Tam Tiến",
         "fullNameEn": "Tam Tien Commune",
         "codeName": "tam_tien",
+        "postalCode": "26714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2159",
         "areaKm2": 60.34
       }

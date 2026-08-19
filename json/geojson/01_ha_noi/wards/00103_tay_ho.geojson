@@ -1372,6 +1372,8 @@
         "fullName": "Phường Tây Hồ",
         "fullNameEn": "Tay Ho Ward",
         "codeName": "tay_ho",
+        "postalCode": "11214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3260",
         "areaKm2": 10.72
       }

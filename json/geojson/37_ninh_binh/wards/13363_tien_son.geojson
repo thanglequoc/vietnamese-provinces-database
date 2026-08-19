@@ -1988,6 +1988,8 @@
         "fullName": "Phường Tiên Sơn",
         "fullNameEn": "Tien Son Ward",
         "codeName": "tien_son",
+        "postalCode": "18219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2791",
         "areaKm2": 23.96
       }

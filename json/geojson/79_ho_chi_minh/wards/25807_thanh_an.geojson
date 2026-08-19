@@ -21370,6 +21370,8 @@
         "fullName": "Xã Thanh An",
         "fullNameEn": "Thanh An Commune",
         "codeName": "thanh_an",
+        "postalCode": "75807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.9",
         "areaKm2": 136.72
       }

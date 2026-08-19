@@ -5288,6 +5288,8 @@
         "fullName": "Xã Nhân Thắng",
         "fullNameEn": "Nhan Thang Commune",
         "codeName": "nhan_thang",
+        "postalCode": "16708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2132",
         "areaKm2": 22.14
       }

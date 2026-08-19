@@ -4752,6 +4752,8 @@
         "fullName": "Xã Nguyệt Đức",
         "fullNameEn": "Nguyet Duc Commune",
         "codeName": "nguyet_duc",
+        "postalCode": "15722",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1632",
         "areaKm2": 19
       }

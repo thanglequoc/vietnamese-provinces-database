@@ -4356,6 +4356,8 @@
         "fullName": "Xã Nguyễn Nghiêm",
         "fullNameEn": "Nguyen Nghiem Commune",
         "codeName": "nguyen_nghiem",
+        "postalCode": "54323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1779",
         "areaKm2": 95.33
       }

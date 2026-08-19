@@ -13304,6 +13304,8 @@
         "fullName": "Xã Tuyên Quang",
         "fullNameEn": "Tuyen Quang Commune",
         "codeName": "tuyen_quang",
+        "postalCode": "77425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3060",
         "areaKm2": 38.17
       }

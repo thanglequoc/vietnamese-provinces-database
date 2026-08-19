@@ -1024,6 +1024,8 @@
         "fullName": "Phường Bình Phú",
         "fullNameEn": "Binh Phu Ward",
         "codeName": "binh_phu",
+        "postalCode": "73122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.100",
         "areaKm2": 2.86
       }

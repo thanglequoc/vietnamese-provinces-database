@@ -8140,6 +8140,8 @@
         "fullName": "Xã Long Bình",
         "fullNameEn": "Long Binh Commune",
         "codeName": "long_binh",
+        "postalCode": "84417",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.492",
         "areaKm2": 36.6
       }

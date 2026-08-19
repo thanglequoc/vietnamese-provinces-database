@@ -4776,6 +4776,8 @@
         "fullName": "Xã Nhựt Tảo",
         "fullNameEn": "Nhut Tao Commune",
         "codeName": "nhut_tao",
+        "postalCode": "82318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1318",
         "areaKm2": 36.45
       }

@@ -5816,6 +5816,8 @@
         "fullName": "Phường Bình Dương",
         "fullNameEn": "Binh Duong Ward",
         "codeName": "binh_duong",
+        "postalCode": "75121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.4",
         "areaKm2": 58.16
       }

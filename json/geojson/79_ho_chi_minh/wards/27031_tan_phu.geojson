@@ -996,6 +996,8 @@
         "fullName": "Phường Tân Phú",
         "fullNameEn": "Tan Phu Ward",
         "codeName": "tan_phu",
+        "postalCode": "72017",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.75",
         "areaKm2": 2.52
       }

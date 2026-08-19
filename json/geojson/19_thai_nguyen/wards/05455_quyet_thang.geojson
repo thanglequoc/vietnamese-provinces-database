@@ -6120,6 +6120,8 @@
         "fullName": "Phường Quyết Thắng",
         "fullNameEn": "Quyet Thang Ward",
         "codeName": "quyet_thang",
+        "postalCode": "24119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1189",
         "areaKm2": 24.43
       }

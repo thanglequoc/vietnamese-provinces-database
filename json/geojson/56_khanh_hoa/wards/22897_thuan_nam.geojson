@@ -12456,6 +12456,8 @@
         "fullName": "Xã Thuận Nam",
         "fullNameEn": "Thuan Nam Commune",
         "codeName": "thuan_nam",
+        "postalCode": "59714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1161",
         "areaKm2": 140.8
       }

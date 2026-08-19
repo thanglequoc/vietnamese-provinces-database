@@ -4552,6 +4552,8 @@
         "fullName": "Phường Ninh Thạnh",
         "fullNameEn": "Ninh Thanh Ward",
         "codeName": "ninh_thanh",
+        "postalCode": "80111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2746",
         "areaKm2": 52.66
       }

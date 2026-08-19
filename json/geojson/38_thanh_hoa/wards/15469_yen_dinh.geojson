@@ -4068,6 +4068,8 @@
         "fullName": "Xã Yên Định",
         "fullNameEn": "Yen Dinh Commune",
         "codeName": "yen_dinh",
+        "postalCode": "41035",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2609",
         "areaKm2": 29.42
       }

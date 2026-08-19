@@ -14108,6 +14108,8 @@
         "fullName": "Xã A Lưới 1",
         "fullNameEn": "Commune A Luoi 1",
         "codeName": "a_luoi_1",
+        "postalCode": "49527",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1713",
         "areaKm2": 198.59
       }

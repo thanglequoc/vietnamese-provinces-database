@@ -3248,6 +3248,8 @@
         "fullName": "Xã Mường Chanh",
         "fullNameEn": "Muong Chanh Commune",
         "codeName": "muong_chanh",
+        "postalCode": "42114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2708",
         "areaKm2": 65.48
       }

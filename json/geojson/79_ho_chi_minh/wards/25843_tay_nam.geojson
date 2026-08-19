@@ -25200,6 +25200,8 @@
         "fullName": "Phường Tây Nam",
         "fullNameEn": "Tay Nam Ward",
         "codeName": "tay_nam",
+        "postalCode": "75914",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.8",
         "areaKm2": 119.8
       }

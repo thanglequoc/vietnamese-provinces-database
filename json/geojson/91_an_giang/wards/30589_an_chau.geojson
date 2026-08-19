@@ -11172,6 +11172,8 @@
         "fullName": "Xã An Châu",
         "fullNameEn": "An Chau Commune",
         "codeName": "an_chau",
+        "postalCode": "90906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.342",
         "areaKm2": 70.25
       }

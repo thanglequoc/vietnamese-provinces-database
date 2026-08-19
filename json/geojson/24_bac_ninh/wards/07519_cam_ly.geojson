@@ -4776,6 +4776,8 @@
         "fullName": "Xã Cẩm Lý",
         "fullNameEn": "Cam Ly Commune",
         "codeName": "cam_ly",
+        "postalCode": "26321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2177",
         "areaKm2": 49.08
       }

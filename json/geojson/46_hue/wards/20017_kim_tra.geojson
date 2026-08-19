@@ -11968,6 +11968,8 @@
         "fullName": "Phường Kim Trà",
         "fullNameEn": "Kim Tra Ward",
         "codeName": "kim_tra",
+        "postalCode": "49423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1708",
         "areaKm2": 42.8
       }

@@ -10344,6 +10344,8 @@
         "fullName": "Xã Yên Xuân",
         "fullNameEn": "Yen Xuan Commune",
         "codeName": "yen_xuan",
+        "postalCode": "13132",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3224",
         "areaKm2": 78.01
       }

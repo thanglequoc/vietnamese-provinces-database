@@ -6852,6 +6852,8 @@
         "fullName": "Phường Thường Lạc",
         "fullNameEn": "Thuong Lac Ward",
         "codeName": "thuong_lac",
+        "postalCode": "81561",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.409",
         "areaKm2": 43.7
       }

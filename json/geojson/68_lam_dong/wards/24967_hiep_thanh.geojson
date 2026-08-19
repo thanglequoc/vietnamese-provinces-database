@@ -9692,6 +9692,8 @@
         "fullName": "Xã Hiệp Thạnh",
         "fullNameEn": "Hiep Thanh Commune",
         "codeName": "hiep_thanh",
+        "postalCode": "66807",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.523",
         "areaKm2": 127.19
       }

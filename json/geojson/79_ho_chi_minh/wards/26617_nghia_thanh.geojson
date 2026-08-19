@@ -13332,6 +13332,8 @@
         "fullName": "Xã Nghĩa Thành",
         "fullNameEn": "Nghia Thanh Commune",
         "codeName": "nghia_thanh",
+        "postalCode": "78617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2210",
         "areaKm2": 65.67
       }

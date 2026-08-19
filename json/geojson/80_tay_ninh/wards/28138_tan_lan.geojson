@@ -5332,6 +5332,8 @@
         "fullName": "Xã Tân Lân",
         "fullNameEn": "Tan Lan Commune",
         "codeName": "tan_lan",
+        "postalCode": "82407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1323",
         "areaKm2": 38.93
       }

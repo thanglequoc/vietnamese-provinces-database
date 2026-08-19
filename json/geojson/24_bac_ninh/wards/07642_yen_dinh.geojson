@@ -4760,6 +4760,8 @@
         "fullName": "Xã Yên Định",
         "fullNameEn": "Yen Dinh Commune",
         "codeName": "yen_dinh",
+        "postalCode": "26418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2117",
         "areaKm2": 48.17
       }

@@ -7548,6 +7548,8 @@
         "fullName": "Xã Yên Thuỷ",
         "fullNameEn": "Yen Thuy Commune",
         "codeName": "yen_thuy",
+        "postalCode": "36719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1668",
         "areaKm2": 76.19
       }

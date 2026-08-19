@@ -5852,6 +5852,8 @@
         "fullName": "Xã Mỹ Phước",
         "fullNameEn": "My Phuoc Commune",
         "codeName": "my_phuoc",
+        "postalCode": "96461",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.277",
         "areaKm2": 97.36
       }

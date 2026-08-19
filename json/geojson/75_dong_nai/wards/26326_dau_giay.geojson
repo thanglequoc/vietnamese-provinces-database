@@ -32644,6 +32644,8 @@
         "fullName": "Phường Dầu Giây",
         "fullNameEn": "Dau Giay Ward",
         "codeName": "dau_giay",
+        "postalCode": "76406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3128",
         "areaKm2": 98.9
       }

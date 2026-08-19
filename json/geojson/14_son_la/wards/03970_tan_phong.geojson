@@ -7604,6 +7604,8 @@
         "fullName": "Xã Tân Phong",
         "fullNameEn": "Tan Phong Commune",
         "codeName": "tan_phong",
+        "postalCode": "34930",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1372",
         "areaKm2": 135.45
       }

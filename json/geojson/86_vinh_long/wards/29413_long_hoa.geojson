@@ -1816,6 +1816,8 @@
         "fullName": "Xã Long Hoà",
         "fullNameEn": "Long Hoa Commune",
         "codeName": "long_hoa",
+        "postalCode": "87919",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2505",
         "areaKm2": 52.67
       }

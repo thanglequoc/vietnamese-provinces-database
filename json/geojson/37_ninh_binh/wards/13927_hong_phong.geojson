@@ -2104,6 +2104,8 @@
         "fullName": "Xã Hồng Phong",
         "fullNameEn": "Hong Phong Commune",
         "codeName": "hong_phong",
+        "postalCode": "07432",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.832",
         "areaKm2": 29.21
       }

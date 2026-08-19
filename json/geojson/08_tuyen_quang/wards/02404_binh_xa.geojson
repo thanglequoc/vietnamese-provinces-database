@@ -15908,6 +15908,8 @@
         "fullName": "Xã Bình Xa",
         "fullNameEn": "Binh Xa Commune",
         "codeName": "binh_xa",
+        "postalCode": "22623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2337",
         "areaKm2": 91.17
       }

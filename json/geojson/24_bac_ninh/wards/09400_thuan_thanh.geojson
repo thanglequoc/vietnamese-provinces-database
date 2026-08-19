@@ -2456,6 +2456,8 @@
         "fullName": "Phường Thuận Thành",
         "fullNameEn": "Thuan Thanh Ward",
         "codeName": "thuan_thanh",
+        "postalCode": "16524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2190",
         "areaKm2": 26.58
       }

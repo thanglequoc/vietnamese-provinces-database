@@ -3904,6 +3904,8 @@
         "fullName": "Xã Bình Hoà",
         "fullNameEn": "Binh Hoa Commune",
         "codeName": "binh_hoa",
+        "postalCode": "83113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1289",
         "areaKm2": 117.85
       }

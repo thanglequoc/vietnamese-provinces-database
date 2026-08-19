@@ -4088,6 +4088,8 @@
         "fullName": "Phường Bạc Liêu",
         "fullNameEn": "Bac Lieu Ward",
         "codeName": "bac_lieu",
+        "postalCode": "97116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.139",
         "areaKm2": 5.98
       }

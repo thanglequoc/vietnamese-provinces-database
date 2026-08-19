@@ -4328,6 +4328,8 @@
         "fullName": "Xã Thu Bồn",
         "fullNameEn": "Thu Bon Commune",
         "codeName": "thu_bon",
+        "postalCode": "51521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1936",
         "areaKm2": 108.77
       }

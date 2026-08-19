@@ -2804,6 +2804,8 @@
         "fullName": "Xã Kiến Hải",
         "fullNameEn": "Kien Hai Commune",
         "codeName": "kien_hai",
+        "postalCode": "05126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.939",
         "areaKm2": 31.86
       }

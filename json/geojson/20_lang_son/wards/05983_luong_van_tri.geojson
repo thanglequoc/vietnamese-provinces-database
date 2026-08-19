@@ -7212,6 +7212,8 @@
         "fullName": "Phường Lương Văn Tri",
         "fullNameEn": "Luong Van Tri Ward",
         "codeName": "luong_van_tri",
+        "postalCode": "25114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1793",
         "areaKm2": 31.76
       }

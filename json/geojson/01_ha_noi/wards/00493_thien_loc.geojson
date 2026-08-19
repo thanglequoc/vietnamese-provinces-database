@@ -2964,6 +2964,8 @@
         "fullName": "Xã Thiên Lộc",
         "fullNameEn": "Thien Loc Commune",
         "codeName": "thien_loc",
+        "postalCode": "12332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3245",
         "areaKm2": 27.96
       }

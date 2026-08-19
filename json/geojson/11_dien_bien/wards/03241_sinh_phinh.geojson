@@ -12992,6 +12992,8 @@
         "fullName": "Xã Sính Phình",
         "fullNameEn": "Sinh Phinh Commune",
         "codeName": "sinh_phinh",
+        "postalCode": "32617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2251",
         "areaKm2": 174.53
       }

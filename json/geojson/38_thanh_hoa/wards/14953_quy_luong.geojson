@@ -3892,6 +3892,8 @@
         "fullName": "Xã Quý Lương",
         "fullNameEn": "Quy Luong Commune",
         "codeName": "quy_luong",
+        "postalCode": "41430",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2651",
         "areaKm2": 133.44
       }

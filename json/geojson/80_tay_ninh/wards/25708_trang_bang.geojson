@@ -3704,6 +3704,8 @@
         "fullName": "Phường Trảng Bàng",
         "fullNameEn": "Trang Bang Ward",
         "codeName": "trang_bang",
+        "postalCode": "80906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2726",
         "areaKm2": 36.97
       }

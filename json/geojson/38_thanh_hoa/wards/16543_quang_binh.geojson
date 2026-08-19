@@ -3372,6 +3372,8 @@
         "fullName": "Xã Quảng Bình",
         "fullNameEn": "Quang Binh Commune",
         "codeName": "quang_binh",
+        "postalCode": "42621",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2585",
         "areaKm2": 23.51
       }

@@ -1748,6 +1748,8 @@
         "fullName": "Phường Tân Châu",
         "fullNameEn": "Tan Chau Ward",
         "codeName": "tan_chau",
+        "postalCode": "90420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.316",
         "areaKm2": 17.39
       }

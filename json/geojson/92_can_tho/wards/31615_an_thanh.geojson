@@ -3420,6 +3420,8 @@
         "fullName": "Xã An Thạnh",
         "fullNameEn": "An Thanh Commune",
         "codeName": "an_thanh",
+        "postalCode": "96914",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.278",
         "areaKm2": 94.92
       }

@@ -10200,6 +10200,8 @@
         "fullName": "Xã Thành Công",
         "fullNameEn": "Thanh Cong Commune",
         "codeName": "thanh_cong",
+        "postalCode": "21517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.982",
         "areaKm2": 140.63
       }

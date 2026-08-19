@@ -22104,6 +22104,8 @@
         "fullName": "Xã Đức Linh",
         "fullNameEn": "Duc Linh Commune",
         "codeName": "duc_linh",
+        "postalCode": "77569",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3090",
         "areaKm2": 103.27
       }

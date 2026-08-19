@@ -1600,6 +1600,8 @@
         "fullName": "Phường Hồng Hà",
         "fullNameEn": "Hong Ha Ward",
         "codeName": "hong_ha",
+        "postalCode": "11025",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3169",
         "areaKm2": 15.09
       }

@@ -3748,6 +3748,8 @@
         "fullName": "Phường Thuận Giao",
         "fullNameEn": "Thuan Giao Ward",
         "codeName": "thuan_giao",
+        "postalCode": "75211",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.34",
         "areaKm2": 16.81
       }

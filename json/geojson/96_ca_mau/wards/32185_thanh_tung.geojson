@@ -14528,6 +14528,8 @@
         "fullName": "Xã Thanh Tùng",
         "fullNameEn": "Thanh Tung Commune",
         "codeName": "thanh_tung",
+        "postalCode": "98717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.191",
         "areaKm2": 89.9
       }

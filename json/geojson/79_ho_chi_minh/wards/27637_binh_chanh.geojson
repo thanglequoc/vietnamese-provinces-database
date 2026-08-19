@@ -3532,6 +3532,8 @@
         "fullName": "Xã Bình Chánh",
         "fullNameEn": "Binh Chanh Commune",
         "codeName": "binh_chanh",
+        "postalCode": "71814",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.131",
         "areaKm2": 21.33
       }

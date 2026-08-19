@@ -4576,6 +4576,8 @@
         "fullName": "Phường Hoa Lư",
         "fullNameEn": "Hoa Lu Ward",
         "codeName": "hoa_lu",
+        "postalCode": "08120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.744",
         "areaKm2": 53.72
       }

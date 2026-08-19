@@ -6708,6 +6708,8 @@
         "fullName": "Xã Trường Phú",
         "fullNameEn": "Truong Phu Commune",
         "codeName": "truong_phu",
+        "postalCode": "47838",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.636",
         "areaKm2": 97.18
       }

@@ -1864,6 +1864,8 @@
         "fullName": "Xã Vũ Quý",
         "fullNameEn": "Vu Quy Commune",
         "codeName": "vu_quy",
+        "postalCode": "06227",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.691",
         "areaKm2": 15.09
       }

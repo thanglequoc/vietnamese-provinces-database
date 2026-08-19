@@ -4076,6 +4076,8 @@
         "fullName": "Xã Tân Long",
         "fullNameEn": "Tan Long Commune",
         "codeName": "tan_long",
+        "postalCode": "81616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.433",
         "areaKm2": 94.9
       }

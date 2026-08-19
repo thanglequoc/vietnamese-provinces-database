@@ -3844,6 +3844,8 @@
         "fullName": "Phường Bồng Lai",
         "fullNameEn": "Bong Lai Ward",
         "codeName": "bong_lai",
+        "postalCode": "16820",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2185",
         "areaKm2": 19.76
       }

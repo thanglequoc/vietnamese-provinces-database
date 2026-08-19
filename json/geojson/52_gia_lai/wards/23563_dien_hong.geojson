@@ -5620,6 +5620,8 @@
         "fullName": "Phường Diên Hồng",
         "fullNameEn": "Dien Hong Ward",
         "codeName": "dien_hong",
+        "postalCode": "61112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3041",
         "areaKm2": 26.71
       }

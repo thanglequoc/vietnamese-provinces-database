@@ -5016,6 +5016,8 @@
         "fullName": "Xã Phú Xuyên",
         "fullNameEn": "Phu Xuyen Commune",
         "codeName": "phu_xuyen",
+        "postalCode": "13906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3158",
         "areaKm2": 60.02
       }

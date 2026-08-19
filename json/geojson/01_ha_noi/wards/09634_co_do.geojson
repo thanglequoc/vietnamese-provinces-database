@@ -2504,6 +2504,8 @@
         "fullName": "Xã Cổ Đô",
         "fullNameEn": "Co Do Commune",
         "codeName": "co_do",
+        "postalCode": "12614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3237",
         "areaKm2": 53.25
       }

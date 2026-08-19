@@ -2376,6 +2376,8 @@
         "fullName": "Xã Tân Hiệp",
         "fullNameEn": "Tan Hiep Commune",
         "codeName": "tan_hiep",
+        "postalCode": "51318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3311",
         "areaKm2": 16.43
       }

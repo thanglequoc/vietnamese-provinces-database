@@ -12560,6 +12560,8 @@
         "fullName": "Xã Mường Cơi",
         "fullNameEn": "Muong Coi Commune",
         "codeName": "muong_coi",
+        "postalCode": "34908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1367",
         "areaKm2": 194.98
       }

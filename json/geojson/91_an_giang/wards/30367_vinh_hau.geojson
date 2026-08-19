@@ -984,6 +984,8 @@
         "fullName": "Xã Vĩnh Hậu",
         "fullNameEn": "Vinh Hau Commune",
         "codeName": "vinh_hau",
+        "postalCode": "90469",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.315",
         "areaKm2": 48.45
       }

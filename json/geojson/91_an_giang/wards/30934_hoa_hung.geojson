@@ -6992,6 +6992,8 @@
         "fullName": "Xã Hoà Hưng",
         "fullNameEn": "Hoa Hung Commune",
         "codeName": "hoa_hung",
+        "postalCode": "92320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.381",
         "areaKm2": 114.24
       }

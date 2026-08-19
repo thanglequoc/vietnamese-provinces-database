@@ -18228,6 +18228,8 @@
         "fullName": "Xã An Toàn",
         "fullNameEn": "An Toan Commune",
         "codeName": "an_toan",
+        "postalCode": "55514",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2970",
         "areaKm2": 295.34
       }

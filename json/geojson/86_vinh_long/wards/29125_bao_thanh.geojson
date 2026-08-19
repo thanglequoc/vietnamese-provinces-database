@@ -16856,6 +16856,8 @@
         "fullName": "Xã Bảo Thạnh",
         "fullNameEn": "Bao Thanh Commune",
         "codeName": "bao_thanh",
+        "postalCode": "86809",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2474",
         "areaKm2": 62.28
       }

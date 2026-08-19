@@ -3504,6 +3504,8 @@
         "fullName": "Xã Tháp Mười",
         "fullNameEn": "Thap Muoi Commune",
         "codeName": "thap_muoi",
+        "postalCode": "81219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.419",
         "areaKm2": 70.4
       }

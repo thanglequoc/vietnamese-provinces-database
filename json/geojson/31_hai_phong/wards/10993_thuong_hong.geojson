@@ -1604,6 +1604,8 @@
         "fullName": "Xã Thượng Hồng",
         "fullNameEn": "Thuong Hong Commune",
         "codeName": "thuong_hong",
+        "postalCode": "03726",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.883",
         "areaKm2": 24.01
       }

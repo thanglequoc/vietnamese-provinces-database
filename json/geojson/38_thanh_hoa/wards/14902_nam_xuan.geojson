@@ -7892,6 +7892,8 @@
         "fullName": "Xã Nam Xuân",
         "fullNameEn": "Nam Xuan Commune",
         "codeName": "nam_xuan",
+        "postalCode": "41910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2698",
         "areaKm2": 131.4
       }

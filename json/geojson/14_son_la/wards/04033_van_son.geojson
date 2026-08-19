@@ -4328,6 +4328,8 @@
         "fullName": "Phường Vân Sơn",
         "fullNameEn": "Van Son Ward",
         "codeName": "van_son",
+        "postalCode": "34724",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3285",
         "areaKm2": 39.61
       }

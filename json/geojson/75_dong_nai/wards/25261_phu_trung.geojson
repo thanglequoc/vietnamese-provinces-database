@@ -23836,6 +23836,8 @@
         "fullName": "Xã Phú Trung",
         "fullNameEn": "Phu Trung Commune",
         "codeName": "phu_trung",
+        "postalCode": "67707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2298",
         "areaKm2": 172
       }

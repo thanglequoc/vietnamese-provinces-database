@@ -10052,6 +10052,8 @@
         "fullName": "Xã Phú Túc",
         "fullNameEn": "Phu Tuc Commune",
         "codeName": "phu_tuc",
+        "postalCode": "62106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2965",
         "areaKm2": 357.97
       }

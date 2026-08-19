@@ -2056,6 +2056,8 @@
         "fullName": "Xã Tiên Hải",
         "fullNameEn": "Tien Hai Commune",
         "codeName": "tien_hai",
+        "postalCode": "91511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3306",
         "areaKm2": 2.54
       }

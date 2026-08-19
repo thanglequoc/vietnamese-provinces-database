@@ -2772,6 +2772,8 @@
         "fullName": "Xã Hoằng Tiến",
         "fullNameEn": "Hoang Tien Commune",
         "codeName": "hoang_tien",
+        "postalCode": "40312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2602",
         "areaKm2": 23.79
       }

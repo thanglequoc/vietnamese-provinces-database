@@ -3252,6 +3252,8 @@
         "fullName": "Xã Tam Đồng",
         "fullNameEn": "Tam Dong Commune",
         "codeName": "tam_dong",
+        "postalCode": "44746",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1429",
         "areaKm2": 53.38
       }

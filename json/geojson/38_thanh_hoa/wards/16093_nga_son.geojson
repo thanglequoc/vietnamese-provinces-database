@@ -4572,6 +4572,8 @@
         "fullName": "Xã Nga Sơn",
         "fullNameEn": "Nga Son Commune",
         "codeName": "nga_son",
+        "postalCode": "40506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2625",
         "areaKm2": 27.14
       }

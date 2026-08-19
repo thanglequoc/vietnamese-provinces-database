@@ -17072,6 +17072,8 @@
         "fullName": "Xã Xuân Phú",
         "fullNameEn": "Xuan Phu Commune",
         "codeName": "xuan_phu",
+        "postalCode": "76615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3145",
         "areaKm2": 55.6
       }

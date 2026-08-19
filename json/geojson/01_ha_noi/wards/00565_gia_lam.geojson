@@ -7064,6 +7064,8 @@
         "fullName": "Xã Gia Lâm",
         "fullNameEn": "Gia Lam Commune",
         "codeName": "gia_lam",
+        "postalCode": "12428",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3194",
         "areaKm2": 25.72
       }

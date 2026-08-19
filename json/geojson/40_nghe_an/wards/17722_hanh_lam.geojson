@@ -15616,6 +15616,8 @@
         "fullName": "Xã Hạnh Lâm",
         "fullNameEn": "Hanh Lam Commune",
         "codeName": "hanh_lam",
+        "postalCode": "44720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1427",
         "areaKm2": 274.57
       }

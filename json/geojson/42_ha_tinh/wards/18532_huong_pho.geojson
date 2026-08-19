@@ -8856,6 +8856,8 @@
         "fullName": "Xã Hương Phố",
         "fullNameEn": "Huong Pho Commune",
         "codeName": "huong_pho",
+        "postalCode": "46028",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2051",
         "areaKm2": 135.68
       }

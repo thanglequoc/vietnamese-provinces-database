@@ -1120,6 +1120,8 @@
         "fullName": "Xã Khánh Hội",
         "fullNameEn": "Khanh Hoi Commune",
         "codeName": "khanh_hoi",
+        "postalCode": "08819",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.766",
         "areaKm2": 22.89
       }

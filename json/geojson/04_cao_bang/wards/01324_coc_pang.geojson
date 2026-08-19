@@ -13752,6 +13752,8 @@
         "fullName": "Xã Cốc Pàng",
         "fullNameEn": "Coc Pang Commune",
         "codeName": "coc_pang",
+        "postalCode": "21359",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.979",
         "areaKm2": 170.28
       }

@@ -5384,6 +5384,8 @@
         "fullName": "Xã Lộc Quang",
         "fullNameEn": "Loc Quang Commune",
         "codeName": "loc_quang",
+        "postalCode": "67620",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2285",
         "areaKm2": 105
       }

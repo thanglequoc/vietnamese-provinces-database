@@ -12204,6 +12204,8 @@
         "fullName": "Xã Bình Liêu",
         "fullNameEn": "Binh Lieu Commune",
         "codeName": "binh_lieu",
+        "postalCode": "01706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1872",
         "areaKm2": 225.29
       }

@@ -7820,6 +7820,8 @@
         "fullName": "Xã Phú Thành",
         "fullNameEn": "Phu Thanh Commune",
         "codeName": "phu_thanh",
+        "postalCode": "84419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.490",
         "areaKm2": 31.9
       }

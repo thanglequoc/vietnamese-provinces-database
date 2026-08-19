@@ -2944,6 +2944,8 @@
         "fullName": "Xã Kiến Thuỵ",
         "fullNameEn": "Kien Thuy Commune",
         "codeName": "kien_thuy",
+        "postalCode": "05124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.935",
         "areaKm2": 20.18
       }

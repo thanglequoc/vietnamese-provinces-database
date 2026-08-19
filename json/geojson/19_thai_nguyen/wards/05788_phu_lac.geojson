@@ -8496,6 +8496,8 @@
         "fullName": "Xã Phú Lạc",
         "fullNameEn": "Phu Lac Commune",
         "codeName": "phu_lac",
+        "postalCode": "24608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1194",
         "areaKm2": 58.07
       }

@@ -10976,6 +10976,8 @@
         "fullName": "Xã Hội An",
         "fullNameEn": "Hoi An Commune",
         "codeName": "hoi_an",
+        "postalCode": "90221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.352",
         "areaKm2": 63.54
       }

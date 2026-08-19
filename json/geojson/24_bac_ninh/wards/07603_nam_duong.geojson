@@ -10588,6 +10588,8 @@
         "fullName": "Xã Nam Dương",
         "fullNameEn": "Nam Duong Commune",
         "codeName": "nam_duong",
+        "postalCode": "26529",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2109",
         "areaKm2": 67.19
       }

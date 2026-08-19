@@ -2000,6 +2000,8 @@
         "fullName": "Phường An Lạc",
         "fullNameEn": "An Lac Ward",
         "codeName": "an_lac",
+        "postalCode": "71906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.108",
         "areaKm2": 10.47
       }

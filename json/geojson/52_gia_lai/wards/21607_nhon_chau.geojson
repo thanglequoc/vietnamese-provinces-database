@@ -720,6 +720,8 @@
         "fullName": "Xã Nhơn Châu",
         "fullNameEn": "Nhon Chau Commune",
         "codeName": "nhon_chau",
+        "postalCode": "55126",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3286",
         "areaKm2": 3.62
       }

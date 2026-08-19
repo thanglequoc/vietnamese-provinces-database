@@ -15924,6 +15924,8 @@
         "fullName": "Xã Kim Tân",
         "fullNameEn": "Kim Tan Commune",
         "codeName": "kim_tan",
+        "postalCode": "41206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2628",
         "areaKm2": 61.61
       }

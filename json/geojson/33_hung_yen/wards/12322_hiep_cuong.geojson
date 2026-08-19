@@ -2852,6 +2852,8 @@
         "fullName": "Xã Hiệp Cường",
         "fullNameEn": "Hiep Cuong Commune",
         "codeName": "hiep_cuong",
+        "postalCode": "17922",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.705",
         "areaKm2": 28.37
       }

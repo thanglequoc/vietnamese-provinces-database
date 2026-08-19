@@ -10284,6 +10284,8 @@
         "fullName": "Xã Phù Mỹ Tây",
         "fullNameEn": "Phu My Tay Commune",
         "codeName": "phu_my_tay",
+        "postalCode": "55378",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2987",
         "areaKm2": 97.53
       }

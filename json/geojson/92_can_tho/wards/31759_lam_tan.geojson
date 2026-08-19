@@ -7520,6 +7520,8 @@
         "fullName": "Xã Lâm Tân",
         "fullNameEn": "Lam Tan Commune",
         "codeName": "lam_tan",
+        "postalCode": "96560",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.298",
         "areaKm2": 90.83
       }

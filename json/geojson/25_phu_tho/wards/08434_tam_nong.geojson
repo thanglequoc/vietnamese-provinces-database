@@ -7360,6 +7360,8 @@
         "fullName": "Xã Tam Nông",
         "fullNameEn": "Tam Nong Commune",
         "codeName": "tam_nong",
+        "postalCode": "35976",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1572",
         "areaKm2": 28.25
       }

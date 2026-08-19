@@ -3508,6 +3508,8 @@
         "fullName": "Xã Vân Đình",
         "fullNameEn": "Van Dinh Commune",
         "codeName": "van_dinh",
+        "postalCode": "13806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3213",
         "areaKm2": 41.6
       }

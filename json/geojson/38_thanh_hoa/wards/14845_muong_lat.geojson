@@ -6164,6 +6164,8 @@
         "fullName": "Xã Mường Lát",
         "fullNameEn": "Muong Lat Commune",
         "codeName": "muong_lat",
+        "postalCode": "42106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2706",
         "areaKm2": 129.66
       }

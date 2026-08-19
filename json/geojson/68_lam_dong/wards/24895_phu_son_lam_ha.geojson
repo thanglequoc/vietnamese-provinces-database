@@ -18600,6 +18600,8 @@
         "fullName": "Xã Phú Sơn Lâm Hà",
         "fullNameEn": "Phu Son Lam Ha Commune",
         "codeName": "phu_son_lam_ha",
+        "postalCode": "66316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.514",
         "areaKm2": 240.08
       }

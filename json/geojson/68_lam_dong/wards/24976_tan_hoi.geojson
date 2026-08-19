@@ -15904,6 +15904,8 @@
         "fullName": "Xã Tân Hội",
         "fullNameEn": "Tan Hoi Commune",
         "codeName": "tan_hoi",
+        "postalCode": "66810",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.524",
         "areaKm2": 79.94
       }

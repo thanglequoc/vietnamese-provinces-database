@@ -16812,6 +16812,8 @@
         "fullName": "Phường Móng Cái 3",
         "fullNameEn": "Ward Mong Cai 3",
         "codeName": "mong_cai_3",
+        "postalCode": "01526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1887",
         "areaKm2": 90.03
       }

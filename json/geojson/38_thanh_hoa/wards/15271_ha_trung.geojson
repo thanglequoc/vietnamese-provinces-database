@@ -2940,6 +2940,8 @@
         "fullName": "Xã Hà Trung",
         "fullNameEn": "Ha Trung Commune",
         "codeName": "ha_trung",
+        "postalCode": "40606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2618",
         "areaKm2": 34.14
       }

@@ -9704,6 +9704,8 @@
         "fullName": "Xã Côn Minh",
         "fullNameEn": "Con Minh Commune",
         "codeName": "con_minh",
+        "postalCode": "23815",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1249",
         "areaKm2": 146.26
       }

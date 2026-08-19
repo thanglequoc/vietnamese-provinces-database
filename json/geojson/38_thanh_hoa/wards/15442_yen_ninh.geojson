@@ -2820,6 +2820,8 @@
         "fullName": "Xã Yên Ninh",
         "fullNameEn": "Yen Ninh Commune",
         "codeName": "yen_ninh",
+        "postalCode": "41020",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2611",
         "areaKm2": 24.67
       }

@@ -12316,6 +12316,8 @@
         "fullName": "Xã Đá Bạc",
         "fullNameEn": "Da Bac Commune",
         "codeName": "da_bac",
+        "postalCode": "98419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.178",
         "areaKm2": 211.9
       }

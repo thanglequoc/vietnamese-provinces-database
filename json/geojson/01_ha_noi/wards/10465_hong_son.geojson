@@ -5172,6 +5172,8 @@
         "fullName": "Xã Hồng Sơn",
         "fullNameEn": "Hong Son Commune",
         "codeName": "hong_son",
+        "postalCode": "13718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3212",
         "areaKm2": 54.38
       }

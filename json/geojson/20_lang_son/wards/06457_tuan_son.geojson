@@ -13992,6 +13992,8 @@
         "fullName": "Xã Tuấn Sơn",
         "fullNameEn": "Tuan Son Commune",
         "codeName": "tuan_son",
+        "postalCode": "25632",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1844",
         "areaKm2": 111.21
       }

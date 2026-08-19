@@ -8044,6 +8044,8 @@
         "fullName": "Xã Châu Pha",
         "fullNameEn": "Chau Pha Commune",
         "codeName": "chau_pha",
+        "postalCode": "78712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2225",
         "areaKm2": 65.64
       }

@@ -11348,6 +11348,8 @@
         "fullName": "Xã Đông Hải",
         "fullNameEn": "Dong Hai Commune",
         "codeName": "dong_hai",
+        "postalCode": "97617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.160",
         "areaKm2": 100.16
       }

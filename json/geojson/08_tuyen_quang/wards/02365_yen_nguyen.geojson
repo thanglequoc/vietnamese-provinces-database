@@ -12396,6 +12396,8 @@
         "fullName": "Xã Yên Nguyên",
         "fullNameEn": "Yen Nguyen Commune",
         "codeName": "yen_nguyen",
+        "postalCode": "22322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2332",
         "areaKm2": 97.36
       }

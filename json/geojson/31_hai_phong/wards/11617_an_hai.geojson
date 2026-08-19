@@ -1500,6 +1500,8 @@
         "fullName": "Phường An Hải",
         "fullNameEn": "An Hai Ward",
         "codeName": "an_hai",
+        "postalCode": "04423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.948",
         "areaKm2": 19.96
       }

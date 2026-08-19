@@ -7524,6 +7524,8 @@
         "fullName": "Phường Rạch Giá",
         "fullNameEn": "Rach Gia Ward",
         "codeName": "rach_gia",
+        "postalCode": "91118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.359",
         "areaKm2": 45.53
       }

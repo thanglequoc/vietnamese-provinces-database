@@ -6796,6 +6796,8 @@
         "fullName": "Xã Điềm Thuỵ",
         "fullNameEn": "Diem Thuy Commune",
         "codeName": "diem_thuy",
+        "postalCode": "24916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1238",
         "areaKm2": 42.03
       }

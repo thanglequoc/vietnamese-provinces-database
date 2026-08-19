@@ -9520,6 +9520,8 @@
         "fullName": "Xã Kiến Thiết",
         "fullNameEn": "Kien Thiet Commune",
         "codeName": "kien_thiet",
+        "postalCode": "22209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2342",
         "areaKm2": 109.48
       }

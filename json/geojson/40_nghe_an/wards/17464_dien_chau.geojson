@@ -2148,6 +2148,8 @@
         "fullName": "Xã Diễn Châu",
         "fullNameEn": "Dien Chau Commune",
         "codeName": "dien_chau",
+        "postalCode": "43445",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1441",
         "areaKm2": 22.21
       }

@@ -15188,6 +15188,8 @@
         "fullName": "Xã Quý Lộc",
         "fullNameEn": "Quy Loc Commune",
         "codeName": "quy_loc",
+        "postalCode": "41032",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2635",
         "areaKm2": 38.01
       }

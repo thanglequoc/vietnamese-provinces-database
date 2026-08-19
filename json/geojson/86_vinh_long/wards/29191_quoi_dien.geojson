@@ -2564,6 +2564,8 @@
         "fullName": "Xã Quới Điền",
         "fullNameEn": "Quoi Dien Commune",
         "codeName": "quoi_dien",
+        "postalCode": "86910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2480",
         "areaKm2": 49.58
       }

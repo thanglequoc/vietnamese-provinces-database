@@ -1812,6 +1812,8 @@
         "fullName": "Xã An Lão",
         "fullNameEn": "An Lao Commune",
         "codeName": "an_lao",
+        "postalCode": "04506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.907",
         "areaKm2": 26.39
       }

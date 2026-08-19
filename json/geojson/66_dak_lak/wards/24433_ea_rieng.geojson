@@ -13472,6 +13472,8 @@
         "fullName": "Xã Ea Riêng",
         "fullNameEn": "Ea Rieng Commune",
         "codeName": "ea_rieng",
+        "postalCode": "64508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2855",
         "areaKm2": 167.56
       }

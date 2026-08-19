@@ -7944,6 +7944,8 @@
         "fullName": "Xã Gia Bình",
         "fullNameEn": "Gia Binh Commune",
         "codeName": "gia_binh",
+        "postalCode": "16706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2129",
         "areaKm2": 29.98
       }

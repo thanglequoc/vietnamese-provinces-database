@@ -12936,6 +12936,8 @@
         "fullName": "Xã Phúc Thọ",
         "fullNameEn": "Phuc Tho Commune",
         "codeName": "phuc_tho",
+        "postalCode": "12806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3230",
         "areaKm2": 39.66
       }

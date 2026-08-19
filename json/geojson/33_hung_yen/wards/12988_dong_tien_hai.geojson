@@ -2488,6 +2488,8 @@
         "fullName": "Xã Đông Tiền Hải",
         "fullNameEn": "Dong Tien Hai Commune",
         "codeName": "dong_tien_hai",
+        "postalCode": "06341",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.681",
         "areaKm2": 38.64
       }

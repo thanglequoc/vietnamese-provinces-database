@@ -11612,6 +11612,8 @@
         "fullName": "Phường Bảo Vinh",
         "fullNameEn": "Bao Vinh Ward",
         "codeName": "bao_vinh",
+        "postalCode": "76459",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3111",
         "areaKm2": 50.9
       }

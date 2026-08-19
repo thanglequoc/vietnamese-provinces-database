@@ -3584,6 +3584,8 @@
         "fullName": "Xã Đông Tiên Hưng",
         "fullNameEn": "Dong Tien Hung Commune",
         "codeName": "dong_tien_hung",
+        "postalCode": "06853",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.652",
         "areaKm2": 16.32
       }

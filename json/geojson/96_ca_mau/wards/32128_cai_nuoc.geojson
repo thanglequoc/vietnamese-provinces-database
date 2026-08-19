@@ -20040,6 +20040,8 @@
         "fullName": "Xã Cái Nước",
         "fullNameEn": "Cai Nuoc Commune",
         "codeName": "cai_nuoc",
+        "postalCode": "98606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.181",
         "areaKm2": 118.25
       }

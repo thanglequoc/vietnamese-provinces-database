@@ -5460,6 +5460,8 @@
         "fullName": "Phường Vạn Xuân",
         "fullNameEn": "Van Xuan Ward",
         "codeName": "van_xuan",
+        "postalCode": "24725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1232",
         "areaKm2": 40.2
       }

@@ -6912,6 +6912,8 @@
         "fullName": "Xã Minh Thọ",
         "fullNameEn": "Minh Tho Commune",
         "codeName": "minh_tho",
+        "postalCode": "06645",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.666",
         "areaKm2": 22.11
       }

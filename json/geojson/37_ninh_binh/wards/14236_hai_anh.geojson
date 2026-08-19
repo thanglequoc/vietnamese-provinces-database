@@ -2120,6 +2120,8 @@
         "fullName": "Xã Hải Anh",
         "fullNameEn": "Hai Anh Commune",
         "codeName": "hai_anh",
+        "postalCode": "07915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.834",
         "areaKm2": 26.13
       }

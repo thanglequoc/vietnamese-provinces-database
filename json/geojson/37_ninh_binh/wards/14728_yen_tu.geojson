@@ -2176,6 +2176,8 @@
         "fullName": "Xã Yên Từ",
         "fullNameEn": "Yen Tu Commune",
         "codeName": "yen_tu",
+        "postalCode": "08615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.776",
         "areaKm2": 23.98
       }

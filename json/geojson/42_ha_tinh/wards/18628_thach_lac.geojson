@@ -4664,6 +4664,8 @@
         "fullName": "Xã Thạch Lạc",
         "fullNameEn": "Thach Lac Commune",
         "codeName": "thach_lac",
+        "postalCode": "45213",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2023",
         "areaKm2": 27.6
       }

@@ -3628,6 +3628,8 @@
         "fullName": "Phường Cao Xanh",
         "fullNameEn": "Cao Xanh Ward",
         "codeName": "cao_xanh",
+        "postalCode": "01117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1883",
         "areaKm2": 38.89
       }

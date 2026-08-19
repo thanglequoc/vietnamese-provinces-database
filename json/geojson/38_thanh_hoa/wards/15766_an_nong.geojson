@@ -3640,6 +3640,8 @@
         "fullName": "Xã An Nông",
         "fullNameEn": "An Nong Commune",
         "codeName": "an_nong",
+        "postalCode": "41532",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2679",
         "areaKm2": 22.79
       }

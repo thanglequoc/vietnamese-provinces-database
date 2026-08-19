@@ -1580,6 +1580,8 @@
         "fullName": "Phường Hàm Rồng",
         "fullNameEn": "Ham Rong Ward",
         "codeName": "ham_rong",
+        "postalCode": "40106",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2595",
         "areaKm2": 20.88
       }

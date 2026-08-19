@@ -14744,6 +14744,8 @@
         "fullName": "Xã Cẩm Mỹ",
         "fullNameEn": "Cam My Commune",
         "codeName": "cam_my",
+        "postalCode": "76519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3100",
         "areaKm2": 113.1
       }

@@ -6216,6 +6216,8 @@
         "fullName": "Xã Phúc Lợi",
         "fullNameEn": "Phuc Loi Commune",
         "codeName": "phuc_loi",
+        "postalCode": "33323",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1014",
         "areaKm2": 160.71
       }

@@ -5796,6 +5796,8 @@
         "fullName": "Phường Bình Long",
         "fullNameEn": "Binh Long Ward",
         "codeName": "binh_long",
+        "postalCode": "67862",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2290",
         "areaKm2": 49.1
       }

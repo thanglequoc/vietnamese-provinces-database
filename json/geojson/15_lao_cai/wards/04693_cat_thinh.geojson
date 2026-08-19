@@ -13196,6 +13196,8 @@
         "fullName": "Xã Cát Thịnh",
         "fullNameEn": "Cat Thinh Commune",
         "codeName": "cat_thinh",
+        "postalCode": "33828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1046",
         "areaKm2": 169.11
       }

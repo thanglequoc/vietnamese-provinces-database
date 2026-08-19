@@ -2152,6 +2152,8 @@
         "fullName": "Phường Chi Lăng",
         "fullNameEn": "Chi Lang Ward",
         "codeName": "chi_lang",
+        "postalCode": "90715",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.332",
         "areaKm2": 51.17
       }

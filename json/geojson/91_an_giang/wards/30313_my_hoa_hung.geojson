@@ -3532,6 +3532,8 @@
         "fullName": "Xã Mỹ Hoà Hưng",
         "fullNameEn": "My Hoa Hung Commune",
         "codeName": "my_hoa_hung",
+        "postalCode": "90111",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.308",
         "areaKm2": 19.65
       }

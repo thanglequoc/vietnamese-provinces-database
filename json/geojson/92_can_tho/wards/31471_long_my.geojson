@@ -7712,6 +7712,8 @@
         "fullName": "Phường Long Mỹ",
         "fullNameEn": "Long My Ward",
         "codeName": "long_my",
+        "postalCode": "95415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.255",
         "areaKm2": 51.4
       }

@@ -8064,6 +8064,8 @@
         "fullName": "Xã Thượng Nông",
         "fullNameEn": "Thuong Nong Commune",
         "codeName": "thuong_nong",
+        "postalCode": "22411",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2316",
         "areaKm2": 79.83
       }

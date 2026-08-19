@@ -7240,6 +7240,8 @@
         "fullName": "Xã Quang Đồng",
         "fullNameEn": "Quang Dong Commune",
         "codeName": "quang_dong",
+        "postalCode": "43649",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1452",
         "areaKm2": 75.61
       }

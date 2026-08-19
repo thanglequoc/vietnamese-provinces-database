@@ -1640,6 +1640,8 @@
         "fullName": "Xã Nam Phù",
         "fullNameEn": "Nam Phu Commune",
         "codeName": "nam_phu",
+        "postalCode": "12524",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3176",
         "areaKm2": 13.74
       }

@@ -10552,6 +10552,8 @@
         "fullName": "Xã Bắc Ruộng",
         "fullNameEn": "Bac Ruong Commune",
         "codeName": "bac_ruong",
+        "postalCode": "77511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3086",
         "areaKm2": 165.33
       }

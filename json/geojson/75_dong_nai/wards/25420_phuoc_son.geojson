@@ -16828,6 +16828,8 @@
         "fullName": "Xã Phước Sơn",
         "fullNameEn": "Phuoc Son Commune",
         "codeName": "phuoc_son",
+        "postalCode": "67320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2305",
         "areaKm2": 386.6
       }

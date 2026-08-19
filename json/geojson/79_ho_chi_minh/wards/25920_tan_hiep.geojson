@@ -8088,6 +8088,8 @@
         "fullName": "Phường Tân Hiệp",
         "fullNameEn": "Tan Hiep Ward",
         "codeName": "tan_hiep",
+        "postalCode": "75408",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.27",
         "areaKm2": 47.06
       }

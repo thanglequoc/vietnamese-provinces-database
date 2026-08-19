@@ -3480,6 +3480,8 @@
         "fullName": "Xã Long Hiệp",
         "fullNameEn": "Long Hiep Commune",
         "codeName": "long_hiep",
+        "postalCode": "87508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2516",
         "areaKm2": 65.17
       }

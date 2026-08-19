@@ -16384,6 +16384,8 @@
         "fullName": "Phường Bình Phước",
         "fullNameEn": "Binh Phuoc Ward",
         "codeName": "binh_phuoc",
+        "postalCode": "67114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2272",
         "areaKm2": 86.4
       }

@@ -14908,6 +14908,8 @@
         "fullName": "Xã Bình Ninh",
         "fullNameEn": "Binh Ninh Commune",
         "codeName": "binh_ninh",
+        "postalCode": "84515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.487",
         "areaKm2": 46.6
       }

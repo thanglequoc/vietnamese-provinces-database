@@ -7016,6 +7016,8 @@
         "fullName": "Phường Hàm Thắng",
         "fullNameEn": "Ham Thang Ward",
         "codeName": "ham_thang",
+        "postalCode": "77420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3065",
         "areaKm2": 44.9
       }

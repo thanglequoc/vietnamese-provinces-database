@@ -11972,6 +11972,8 @@
         "fullName": "Xã Hải Ninh",
         "fullNameEn": "Hai Ninh Commune",
         "codeName": "hai_ninh",
+        "postalCode": "77314",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3073",
         "areaKm2": 289.99
       }

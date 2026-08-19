@@ -5448,6 +5448,8 @@
         "fullName": "Phường Vĩnh Trạch",
         "fullNameEn": "Vinh Trach Ward",
         "codeName": "vinh_trach",
+        "postalCode": "97112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.140",
         "areaKm2": 10.22
       }

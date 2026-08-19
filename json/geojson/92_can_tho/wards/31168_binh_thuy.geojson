@@ -1548,6 +1548,8 @@
         "fullName": "Phường Bình Thuỷ",
         "fullNameEn": "Binh Thuy Ward",
         "codeName": "binh_thuy",
+        "postalCode": "94206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.209",
         "areaKm2": 15.17
       }

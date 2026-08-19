@@ -1148,6 +1148,8 @@
         "fullName": "Phường Vĩnh Hội",
         "fullNameEn": "Vinh Hoi Ward",
         "codeName": "vinh_hoi",
+        "postalCode": "72821",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.94",
         "areaKm2": 1.17
       }

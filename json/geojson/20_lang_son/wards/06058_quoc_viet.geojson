@@ -8692,6 +8692,8 @@
         "fullName": "Xã Quốc Việt",
         "fullNameEn": "Quoc Viet Commune",
         "codeName": "quoc_viet",
+        "postalCode": "25325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1828",
         "areaKm2": 117.97
       }

@@ -15664,6 +15664,8 @@
         "fullName": "Xã Tả Van",
         "fullNameEn": "Ta Van Commune",
         "codeName": "ta_van",
+        "postalCode": "31714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1102",
         "areaKm2": 158.5
       }

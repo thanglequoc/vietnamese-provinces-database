@@ -9736,6 +9736,8 @@
         "fullName": "Xã Trùng Khánh",
         "fullNameEn": "Trung Khanh Commune",
         "codeName": "trung_khanh",
+        "postalCode": "21806",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1001",
         "areaKm2": 125.5
       }

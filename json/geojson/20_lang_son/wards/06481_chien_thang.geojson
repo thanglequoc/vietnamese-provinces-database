@@ -11292,6 +11292,8 @@
         "fullName": "Xã Chiến Thắng",
         "fullNameEn": "Chien Thang Commune",
         "codeName": "chien_thang",
+        "postalCode": "25725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1801",
         "areaKm2": 114.27
       }

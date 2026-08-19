@@ -1968,6 +1968,8 @@
         "fullName": "Phường Bình Hưng Hoà",
         "fullNameEn": "Binh Hung Hoa Ward",
         "codeName": "binh_hung_hoa",
+        "postalCode": "71913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.105",
         "areaKm2": 8.47
       }

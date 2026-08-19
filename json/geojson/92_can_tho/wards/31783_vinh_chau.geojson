@@ -14260,6 +14260,8 @@
         "fullName": "Phường Vĩnh Châu",
         "fullNameEn": "Vinh Chau Ward",
         "codeName": "vinh_chau",
+        "postalCode": "96816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.300",
         "areaKm2": 98.26
       }

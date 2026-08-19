@@ -16576,6 +16576,8 @@
         "fullName": "Xã Tân Hợp",
         "fullNameEn": "Tan Hop Commune",
         "codeName": "tan_hop",
+        "postalCode": "33420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1020",
         "areaKm2": 200.45
       }

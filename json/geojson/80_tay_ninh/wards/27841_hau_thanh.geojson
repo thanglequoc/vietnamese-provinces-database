@@ -1060,6 +1060,8 @@
         "fullName": "Xã Hậu Thạnh",
         "fullNameEn": "Hau Thanh Commune",
         "codeName": "hau_thanh",
+        "postalCode": "83419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1293",
         "areaKm2": 93.82
       }

@@ -6416,6 +6416,8 @@
         "fullName": "Xã Nhân Hoà",
         "fullNameEn": "Nhan Hoa Commune",
         "codeName": "nhan_hoa",
+        "postalCode": "44229",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1421",
         "areaKm2": 86.88
       }

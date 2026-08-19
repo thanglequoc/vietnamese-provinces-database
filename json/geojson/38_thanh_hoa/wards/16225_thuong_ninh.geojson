@@ -5440,6 +5440,8 @@
         "fullName": "Xã Thượng Ninh",
         "fullNameEn": "Thuong Ninh Commune",
         "codeName": "thuong_ninh",
+        "postalCode": "42509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2691",
         "areaKm2": 92.61
       }

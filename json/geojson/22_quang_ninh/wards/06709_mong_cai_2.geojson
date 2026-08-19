@@ -28588,6 +28588,8 @@
         "fullName": "Phường Móng Cái 2",
         "fullNameEn": "Ward Mong Cai 2",
         "codeName": "mong_cai_2",
+        "postalCode": "01525",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1895",
         "areaKm2": 72.97
       }

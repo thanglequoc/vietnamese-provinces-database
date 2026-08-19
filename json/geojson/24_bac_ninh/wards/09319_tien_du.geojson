@@ -3084,6 +3084,8 @@
         "fullName": "Xã Tiên Du",
         "fullNameEn": "Tien Du Commune",
         "codeName": "tien_du",
+        "postalCode": "16420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2125",
         "areaKm2": 20.97
       }

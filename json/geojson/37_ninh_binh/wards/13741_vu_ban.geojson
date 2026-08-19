@@ -7556,6 +7556,8 @@
         "fullName": "Xã Vụ Bản",
         "fullNameEn": "Vu Ban Commune",
         "codeName": "vu_ban",
+        "postalCode": "07274",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.814",
         "areaKm2": 21.56
       }

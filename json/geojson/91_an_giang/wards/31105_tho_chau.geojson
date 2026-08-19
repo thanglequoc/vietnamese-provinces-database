@@ -1152,6 +1152,8 @@
         "fullName": "Đặc khu Thổ Châu",
         "fullNameEn": "Tho Chau Special administrative region",
         "codeName": "tho_chau",
+        "postalCode": "92515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3292",
         "areaKm2": 13.98
       }

@@ -6948,6 +6948,8 @@
         "fullName": "Xã Tân Hồng",
         "fullNameEn": "Tan Hong Commune",
         "codeName": "tan_hong",
+        "postalCode": "81415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.405",
         "areaKm2": 102.8
       }

@@ -6956,6 +6956,8 @@
         "fullName": "Xã Bình Thuận",
         "fullNameEn": "Binh Thuan Commune",
         "codeName": "binh_thuan",
+        "postalCode": "34335",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1345",
         "areaKm2": 121.78
       }

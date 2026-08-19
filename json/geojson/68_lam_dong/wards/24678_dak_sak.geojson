@@ -16836,6 +16836,8 @@
         "fullName": "Xã Đắk Sắk",
         "fullNameEn": "Dak Sak Commune",
         "codeName": "dak_sak",
+        "postalCode": "65509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2804",
         "areaKm2": 99
       }

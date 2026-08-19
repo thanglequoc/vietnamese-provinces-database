@@ -15384,6 +15384,8 @@
         "fullName": "Xã Sốp Cộp",
         "fullNameEn": "Sop Cop Commune",
         "codeName": "sop_cop",
+        "postalCode": "34456",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1405",
         "areaKm2": 466.95
       }

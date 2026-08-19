@@ -2852,6 +2852,8 @@
         "fullName": "Xã Tam Hồng",
         "fullNameEn": "Tam Hong Commune",
         "codeName": "tam_hong",
+        "postalCode": "15712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1631",
         "areaKm2": 22.6
       }

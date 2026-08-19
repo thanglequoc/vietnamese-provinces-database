@@ -8532,6 +8532,8 @@
         "fullName": "Xã Khâm Đức",
         "fullNameEn": "Kham Duc Commune",
         "codeName": "kham_duc",
+        "postalCode": "52306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1952",
         "areaKm2": 161.98
       }

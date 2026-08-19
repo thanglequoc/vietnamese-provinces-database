@@ -11108,6 +11108,8 @@
         "fullName": "Xã Nà Hang",
         "fullNameEn": "Na Hang Commune",
         "codeName": "na_hang",
+        "postalCode": "22418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2314",
         "areaKm2": 256.53
       }

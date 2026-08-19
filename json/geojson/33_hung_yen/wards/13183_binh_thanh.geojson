@@ -2220,6 +2220,8 @@
         "fullName": "Xã Bình Thanh",
         "fullNameEn": "Binh Thanh Commune",
         "codeName": "binh_thanh",
+        "postalCode": "06235",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.694",
         "areaKm2": 22.37
       }

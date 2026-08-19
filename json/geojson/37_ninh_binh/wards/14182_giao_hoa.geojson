@@ -2720,6 +2720,8 @@
         "fullName": "Xã Giao Hoà",
         "fullNameEn": "Giao Hoa Commune",
         "codeName": "giao_hoa",
+        "postalCode": "07829",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.781",
         "areaKm2": 29.62
       }

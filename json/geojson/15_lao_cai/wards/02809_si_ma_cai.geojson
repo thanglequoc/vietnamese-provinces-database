@@ -8040,6 +8040,8 @@
         "fullName": "Xã Si Ma Cai",
         "fullNameEn": "Si Ma Cai Commune",
         "codeName": "si_ma_cai",
+        "postalCode": "31406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1062",
         "areaKm2": 109
       }

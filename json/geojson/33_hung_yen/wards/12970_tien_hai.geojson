@@ -2532,6 +2532,8 @@
         "fullName": "Xã Tiền Hải",
         "fullNameEn": "Tien Hai Commune",
         "codeName": "tien_hai",
+        "postalCode": "06306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.677",
         "areaKm2": 32.99
       }

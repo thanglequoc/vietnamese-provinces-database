@@ -6128,6 +6128,8 @@
         "fullName": "Xã Mường Khiêng",
         "fullNameEn": "Muong Khieng Commune",
         "codeName": "muong_khieng",
+        "postalCode": "34311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1348",
         "areaKm2": 204.2
       }

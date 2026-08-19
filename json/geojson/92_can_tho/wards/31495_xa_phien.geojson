@@ -7292,6 +7292,8 @@
         "fullName": "Xã Xà Phiên",
         "fullNameEn": "Xa Phien Commune",
         "codeName": "xa_phien",
+        "postalCode": "95310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.260",
         "areaKm2": 100.48
       }

@@ -3252,6 +3252,8 @@
         "fullName": "Xã Cẩm Bình",
         "fullNameEn": "Cam Binh Commune",
         "codeName": "cam_binh",
+        "postalCode": "46117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2034",
         "areaKm2": 33.14
       }

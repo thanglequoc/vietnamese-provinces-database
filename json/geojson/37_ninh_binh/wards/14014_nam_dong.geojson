@@ -3036,6 +3036,8 @@
         "fullName": "Xã Nam Đồng",
         "fullNameEn": "Nam Dong Commune",
         "codeName": "nam_dong",
+        "postalCode": "07528",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.788",
         "areaKm2": 23.42
       }

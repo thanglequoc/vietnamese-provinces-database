@@ -4596,6 +4596,8 @@
         "fullName": "Xã Hải Xuân",
         "fullNameEn": "Hai Xuan Commune",
         "codeName": "hai_xuan",
+        "postalCode": "07929",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.836",
         "areaKm2": 31.27
       }

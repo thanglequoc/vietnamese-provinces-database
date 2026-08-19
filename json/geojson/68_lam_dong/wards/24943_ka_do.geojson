@@ -12152,6 +12152,8 @@
         "fullName": "Xã Ka Đô",
         "fullNameEn": "Ka Do Commune",
         "codeName": "ka_do",
+        "postalCode": "66913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.520",
         "areaKm2": 108.08
       }

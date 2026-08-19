@@ -11420,6 +11420,8 @@
         "fullName": "Phường Mường Thanh",
         "fullNameEn": "Muong Thanh Ward",
         "codeName": "muong_thanh",
+        "postalCode": "32119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2227",
         "areaKm2": 27.56
       }

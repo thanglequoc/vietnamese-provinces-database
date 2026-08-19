@@ -7472,6 +7472,8 @@
         "fullName": "Xã Tường Hạ",
         "fullNameEn": "Tuong Ha Commune",
         "codeName": "tuong_ha",
+        "postalCode": "34923",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1369",
         "areaKm2": 120.85
       }

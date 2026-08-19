@@ -6096,6 +6096,8 @@
         "fullName": "Xã Ngọk Bay",
         "fullNameEn": "Ngok Bay Commune",
         "codeName": "ngok_bay",
+        "postalCode": "60120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.552",
         "areaKm2": 62.09
       }

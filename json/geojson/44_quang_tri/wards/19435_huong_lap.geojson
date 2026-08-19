@@ -6060,6 +6060,8 @@
         "fullName": "Xã Hướng Lập",
         "fullNameEn": "Huong Lap Commune",
         "codeName": "huong_lap",
+        "postalCode": "48510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.576",
         "areaKm2": 219.64
       }

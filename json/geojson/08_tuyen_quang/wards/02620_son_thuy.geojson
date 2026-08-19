@@ -8916,6 +8916,8 @@
         "fullName": "Xã Sơn Thuỷ",
         "fullNameEn": "Son Thuy Commune",
         "codeName": "son_thuy",
+        "postalCode": "22740",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2360",
         "areaKm2": 76.13
       }

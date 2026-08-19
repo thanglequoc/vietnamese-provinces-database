@@ -10420,6 +10420,8 @@
         "fullName": "Xã Long Kiến",
         "fullNameEn": "Long Kien Commune",
         "codeName": "long_kien",
+        "postalCode": "90217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.351",
         "areaKm2": 59.83
       }

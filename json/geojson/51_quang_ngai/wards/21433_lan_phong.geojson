@@ -3772,6 +3772,8 @@
         "fullName": "Xã Lân Phong",
         "fullNameEn": "Lan Phong Commune",
         "codeName": "lan_phong",
+        "postalCode": "54122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1777",
         "areaKm2": 57.01
       }

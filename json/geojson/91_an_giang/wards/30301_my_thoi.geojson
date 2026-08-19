@@ -6320,6 +6320,8 @@
         "fullName": "Phường Mỹ Thới",
         "fullNameEn": "My Thoi Ward",
         "codeName": "my_thoi",
+        "postalCode": "90117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.307",
         "areaKm2": 37.09
       }

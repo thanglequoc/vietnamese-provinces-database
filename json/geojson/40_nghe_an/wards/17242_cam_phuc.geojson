@@ -7732,6 +7732,8 @@
         "fullName": "Xã Cam Phục",
         "fullNameEn": "Cam Phuc Commune",
         "codeName": "cam_phuc",
+        "postalCode": "44321",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1416",
         "areaKm2": 162.43
       }

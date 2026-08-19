@@ -14872,6 +14872,8 @@
         "fullName": "Xã Phiêng Cằm",
         "fullNameEn": "Phieng Cam Commune",
         "codeName": "phieng_cam",
+        "postalCode": "34518",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1392",
         "areaKm2": 280.33
       }

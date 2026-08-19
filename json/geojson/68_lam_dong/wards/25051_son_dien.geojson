@@ -12824,6 +12824,8 @@
         "fullName": "Xã Sơn Điền",
         "fullNameEn": "Son Dien Commune",
         "codeName": "son_dien",
+        "postalCode": "66723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.530",
         "areaKm2": 261.88
       }

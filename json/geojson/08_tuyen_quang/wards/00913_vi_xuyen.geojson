@@ -18544,6 +18544,8 @@
         "fullName": "Xã Vị Xuyên",
         "fullNameEn": "Vi Xuyen Commune",
         "codeName": "vi_xuyen",
+        "postalCode": "20206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2388",
         "areaKm2": 80.44
       }

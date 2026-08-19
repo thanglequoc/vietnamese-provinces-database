@@ -4308,6 +4308,8 @@
         "fullName": "Xã Nga An",
         "fullNameEn": "Nga An Commune",
         "codeName": "nga_an",
+        "postalCode": "40511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2636",
         "areaKm2": 28.1
       }

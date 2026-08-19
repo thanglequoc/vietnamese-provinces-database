@@ -43092,6 +43092,8 @@
         "fullName": "Phường Trị An",
         "fullNameEn": "Tri An Ward",
         "codeName": "tri_an",
+        "postalCode": "76910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3115",
         "areaKm2": 660.5
       }

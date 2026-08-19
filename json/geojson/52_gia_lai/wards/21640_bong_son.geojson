@@ -5924,6 +5924,8 @@
         "fullName": "Phường Bồng Sơn",
         "fullNameEn": "Bong Son Ward",
         "codeName": "bong_son",
+        "postalCode": "55406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2973",
         "areaKm2": 81.11
       }

@@ -39864,6 +39864,8 @@
         "fullName": "Phường Hà Tu",
         "fullNameEn": "Ha Tu Ward",
         "codeName": "ha_tu",
+        "postalCode": "01114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3287",
         "areaKm2": 37.6
       }

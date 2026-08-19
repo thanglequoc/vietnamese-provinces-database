@@ -4460,6 +4460,8 @@
         "fullName": "Phường Ngọc Sơn",
         "fullNameEn": "Ngoc Son Ward",
         "codeName": "ngoc_son",
+        "postalCode": "42740",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2605",
         "areaKm2": 38.16
       }

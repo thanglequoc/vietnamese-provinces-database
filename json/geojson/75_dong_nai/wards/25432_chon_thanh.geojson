@@ -11716,6 +11716,8 @@
         "fullName": "Phường Chơn Thành",
         "fullNameEn": "Chon Thanh Ward",
         "codeName": "chon_thanh",
+        "postalCode": "67915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2310",
         "areaKm2": 124.4
       }

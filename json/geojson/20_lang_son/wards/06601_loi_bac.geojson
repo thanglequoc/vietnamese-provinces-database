@@ -13484,6 +13484,8 @@
         "fullName": "Xã Lợi Bác",
         "fullNameEn": "Loi Bac Commune",
         "codeName": "loi_bac",
+        "postalCode": "25828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1849",
         "areaKm2": 139.11
       }

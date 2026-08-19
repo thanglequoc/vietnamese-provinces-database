@@ -9048,6 +9048,8 @@
         "fullName": "Xã Hội Sơn",
         "fullNameEn": "Hoi Son Commune",
         "codeName": "hoi_son",
+        "postalCode": "55329",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2999",
         "areaKm2": 182.34
       }

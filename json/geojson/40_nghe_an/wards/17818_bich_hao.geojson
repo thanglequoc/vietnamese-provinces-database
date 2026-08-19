@@ -5960,6 +5960,8 @@
         "fullName": "Xã Bích Hào",
         "fullNameEn": "Bich Hao Commune",
         "codeName": "bich_hao",
+        "postalCode": "44775",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1433",
         "areaKm2": 147.06
       }

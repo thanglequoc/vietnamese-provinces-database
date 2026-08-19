@@ -14456,6 +14456,8 @@
         "fullName": "Xã Hưng Mỹ",
         "fullNameEn": "Hung My Commune",
         "codeName": "hung_my",
+        "postalCode": "98613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.184",
         "areaKm2": 98.4
       }

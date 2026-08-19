@@ -19356,6 +19356,8 @@
         "fullName": "Xã Phình Hồ",
         "fullNameEn": "Phinh Ho Commune",
         "codeName": "phinh_ho",
+        "postalCode": "33616",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1038",
         "areaKm2": 226.02
       }

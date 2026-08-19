@@ -14916,6 +14916,8 @@
         "fullName": "Xã Hoà Xuân",
         "fullNameEn": "Hoa Xuan Commune",
         "codeName": "hoa_xuan",
+        "postalCode": "56818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2920",
         "areaKm2": 129.33
       }

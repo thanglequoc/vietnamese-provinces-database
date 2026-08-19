@@ -6900,6 +6900,8 @@
         "fullName": "Xã Quỳ Hợp",
         "fullNameEn": "Quy Hop Commune",
         "codeName": "quy_hop",
+        "postalCode": "43906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1474",
         "areaKm2": 90.07
       }

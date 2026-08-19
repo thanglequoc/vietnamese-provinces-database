@@ -2072,6 +2072,8 @@
         "fullName": "Xã Kiến Hưng",
         "fullNameEn": "Kien Hung Commune",
         "codeName": "kien_hung",
+        "postalCode": "05115",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.937",
         "areaKm2": 21.02
       }

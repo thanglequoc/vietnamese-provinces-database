@@ -11584,6 +11584,8 @@
         "fullName": "Xã Mường Mùn",
         "fullNameEn": "Muong Mun Commune",
         "codeName": "muong_mun",
+        "postalCode": "32516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2256",
         "areaKm2": 252.84
       }

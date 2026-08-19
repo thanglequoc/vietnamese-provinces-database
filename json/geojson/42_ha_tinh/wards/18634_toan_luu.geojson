@@ -5248,6 +5248,8 @@
         "fullName": "Xã Toàn Lưu",
         "fullNameEn": "Toan Luu Commune",
         "codeName": "toan_luu",
+        "postalCode": "45237",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2011",
         "areaKm2": 60.65
       }

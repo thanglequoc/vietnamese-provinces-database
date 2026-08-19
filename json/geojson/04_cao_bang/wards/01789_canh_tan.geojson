@@ -9148,6 +9148,8 @@
         "fullName": "Xã Canh Tân",
         "fullNameEn": "Canh Tan Commune",
         "codeName": "canh_tan",
+        "postalCode": "21614",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.960",
         "areaKm2": 132.26
       }

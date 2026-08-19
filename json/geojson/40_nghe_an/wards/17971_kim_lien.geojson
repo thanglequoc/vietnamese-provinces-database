@@ -4896,6 +4896,8 @@
         "fullName": "Xã Kim Liên",
         "fullNameEn": "Kim Lien Commune",
         "codeName": "kim_lien",
+        "postalCode": "44617",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1533",
         "areaKm2": 61.08
       }

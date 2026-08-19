@@ -1032,6 +1032,8 @@
         "fullName": "Phường Bình Trị Đông",
         "fullNameEn": "Binh Tri Dong Ward",
         "codeName": "binh_tri_dong",
+        "postalCode": "71910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.106",
         "areaKm2": 7.15
       }

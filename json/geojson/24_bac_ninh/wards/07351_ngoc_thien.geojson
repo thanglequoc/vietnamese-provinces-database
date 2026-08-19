@@ -10936,6 +10936,8 @@
         "fullName": "Xã Ngọc Thiện",
         "fullNameEn": "Ngoc Thien Commune",
         "codeName": "ngoc_thien",
+        "postalCode": "26825",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2166",
         "areaKm2": 51.26
       }

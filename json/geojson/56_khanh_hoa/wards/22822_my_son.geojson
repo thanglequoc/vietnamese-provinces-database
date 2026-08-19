@@ -9560,6 +9560,8 @@
         "fullName": "Xã Mỹ Sơn",
         "fullNameEn": "My Son Commune",
         "codeName": "my_son",
+        "postalCode": "59511",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1149",
         "areaKm2": 248.1
       }

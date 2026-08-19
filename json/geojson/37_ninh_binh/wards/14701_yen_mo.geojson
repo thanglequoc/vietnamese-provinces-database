@@ -2124,6 +2124,8 @@
         "fullName": "Xã Yên Mô",
         "fullNameEn": "Yen Mo Commune",
         "codeName": "yen_mo",
+        "postalCode": "08623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.775",
         "areaKm2": 28.6
       }

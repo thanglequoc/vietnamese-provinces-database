@@ -8616,6 +8616,8 @@
         "fullName": "Xã Hoàng Vân",
         "fullNameEn": "Hoang Van Commune",
         "codeName": "hoang_van",
+        "postalCode": "26912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2155",
         "areaKm2": 40.23
       }

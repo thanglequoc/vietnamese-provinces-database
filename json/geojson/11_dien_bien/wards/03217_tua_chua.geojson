@@ -7808,6 +7808,8 @@
         "fullName": "Xã Tủa Chùa",
         "fullNameEn": "Tua Chua Commune",
         "codeName": "tua_chua",
+        "postalCode": "32606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2248",
         "areaKm2": 108.33
       }

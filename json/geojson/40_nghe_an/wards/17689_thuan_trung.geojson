@@ -7376,6 +7376,8 @@
         "fullName": "Xã Thuần Trung",
         "fullNameEn": "Thuan Trung Commune",
         "codeName": "thuan_trung",
+        "postalCode": "44141",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1462",
         "areaKm2": 49.26
       }

@@ -3852,6 +3852,8 @@
         "fullName": "Xã Mộ Đức",
         "fullNameEn": "Mo Duc Commune",
         "codeName": "mo_duc",
+        "postalCode": "54119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1776",
         "areaKm2": 76.17
       }

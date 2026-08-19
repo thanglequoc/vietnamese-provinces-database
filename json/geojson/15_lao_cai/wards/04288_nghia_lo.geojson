@@ -4972,6 +4972,8 @@
         "fullName": "Phường Nghĩa Lộ",
         "fullNameEn": "Nghia Lo Ward",
         "codeName": "nghia_lo",
+        "postalCode": "33713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1055",
         "areaKm2": 29.88
       }

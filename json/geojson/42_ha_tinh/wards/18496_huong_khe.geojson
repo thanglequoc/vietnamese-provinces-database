@@ -11196,6 +11196,8 @@
         "fullName": "Xã Hương Khê",
         "fullNameEn": "Huong Khe Commune",
         "codeName": "huong_khe",
+        "postalCode": "46006",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2050",
         "areaKm2": 165.89
       }

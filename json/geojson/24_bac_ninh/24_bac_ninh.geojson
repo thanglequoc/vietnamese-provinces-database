@@ -5208,6 +5208,8 @@
         "fullName": "Tỉnh Bắc Ninh",
         "fullNameEn": "Bac Ninh Province",
         "codeName": "bac_ninh",
+        "postalCode": "",
+        "postalCodePrefix": "16, 26",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.102",
         "areaKm2": 4718.6
       }

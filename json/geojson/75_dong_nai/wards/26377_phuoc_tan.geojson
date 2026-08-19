@@ -9540,6 +9540,8 @@
         "fullName": "Phường Phước Tân",
         "fullNameEn": "Phuoc Tan Ward",
         "codeName": "phuoc_tan",
+        "postalCode": "76132",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3135",
         "areaKm2": 42.8
       }

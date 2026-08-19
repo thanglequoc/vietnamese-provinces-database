@@ -5260,6 +5260,8 @@
         "fullName": "Xã Long Phú",
         "fullNameEn": "Long Phu Commune",
         "codeName": "long_phu",
+        "postalCode": "96216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.283",
         "areaKm2": 76.77
       }

@@ -4168,6 +4168,8 @@
         "fullName": "Xã Bà Điểm",
         "fullNameEn": "Ba Diem Commune",
         "codeName": "ba_diem",
+        "postalCode": "71714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.124",
         "areaKm2": 27.36
       }

@@ -20948,6 +20948,8 @@
         "fullName": "Xã Bảo Thuận",
         "fullNameEn": "Bao Thuan Commune",
         "codeName": "bao_thuan",
+        "postalCode": "66711",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.528",
         "areaKm2": 300.3
       }

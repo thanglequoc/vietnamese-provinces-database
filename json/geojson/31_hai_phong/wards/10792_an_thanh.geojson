@@ -3728,6 +3728,8 @@
         "fullName": "Xã An Thành",
         "fullNameEn": "An Thanh Commune",
         "codeName": "an_thanh",
+        "postalCode": "03327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.840",
         "areaKm2": 23.66
       }

@@ -8848,6 +8848,8 @@
         "fullName": "Xã Gia Hội",
         "fullNameEn": "Gia Hoi Commune",
         "codeName": "gia_hoi",
+        "postalCode": "33812",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1043",
         "areaKm2": 213.25
       }

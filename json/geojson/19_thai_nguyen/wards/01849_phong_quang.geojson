@@ -7496,6 +7496,8 @@
         "fullName": "Xã Phong Quang",
         "fullNameEn": "Phong Quang Commune",
         "codeName": "phong_quang",
+        "postalCode": "23225",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1254",
         "areaKm2": 153.46
       }

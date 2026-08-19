@@ -11812,6 +11812,8 @@
         "fullName": "Xã Trung Khánh Vĩnh",
         "fullNameEn": "Trung Khanh Vinh Commune",
         "codeName": "trung_khanh_vinh",
+        "postalCode": "57421",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1115",
         "areaKm2": 338.5
       }

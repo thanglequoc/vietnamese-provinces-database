@@ -17380,6 +17380,8 @@
         "fullName": "Phường 2 Bảo Lộc",
         "fullNameEn": "Ward 2 Bao Loc",
         "codeName": "2_bao_loc",
+        "postalCode": "66468",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1262",
         "areaKm2": 176.72
       }

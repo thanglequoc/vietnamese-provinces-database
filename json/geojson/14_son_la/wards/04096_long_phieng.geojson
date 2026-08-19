@@ -9936,6 +9936,8 @@
         "fullName": "Xã Lóng Phiêng",
         "fullNameEn": "Long Phieng Commune",
         "codeName": "long_phieng",
+        "postalCode": "34667",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1385",
         "areaKm2": 147.81
       }

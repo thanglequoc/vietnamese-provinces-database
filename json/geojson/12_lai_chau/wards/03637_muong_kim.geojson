@@ -21356,6 +21356,8 @@
         "fullName": "Xã Mường Kim",
         "fullNameEn": "Muong Kim Commune",
         "codeName": "muong_kim",
+        "postalCode": "30816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2097",
         "areaKm2": 316.32
       }

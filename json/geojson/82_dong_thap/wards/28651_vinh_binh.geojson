@@ -10424,6 +10424,8 @@
         "fullName": "Xã Vĩnh Bình",
         "fullNameEn": "Vinh Binh Commune",
         "codeName": "vinh_binh",
+        "postalCode": "84406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.488",
         "areaKm2": 39.8
       }

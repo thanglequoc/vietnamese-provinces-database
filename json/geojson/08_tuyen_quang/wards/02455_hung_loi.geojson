@@ -9852,6 +9852,8 @@
         "fullName": "Xã Hùng Lợi",
         "fullNameEn": "Hung Loi Commune",
         "codeName": "hung_loi",
+        "postalCode": "22235",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2344",
         "areaKm2": 168.93
       }

@@ -5652,6 +5652,8 @@
         "fullName": "Xã Triệu Bình",
         "fullNameEn": "Trieu Binh Commune",
         "codeName": "trieu_binh",
+        "postalCode": "48727",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.573",
         "areaKm2": 37.2
       }

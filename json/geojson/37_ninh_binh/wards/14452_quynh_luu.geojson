@@ -3304,6 +3304,8 @@
         "fullName": "Xã Quỳnh Lưu",
         "fullNameEn": "Quynh Luu Commune",
         "codeName": "quynh_luu",
+        "postalCode": "08425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.747",
         "areaKm2": 26.49
       }

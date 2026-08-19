@@ -2848,6 +2848,8 @@
         "fullName": "Xã Tập Ngãi",
         "fullNameEn": "Tap Ngai Commune",
         "codeName": "tap_ngai",
+        "postalCode": "87407",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2496",
         "areaKm2": 58.77
       }

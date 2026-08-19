@@ -4812,6 +4812,8 @@
         "fullName": "Phường Hồng Quang",
         "fullNameEn": "Hong Quang Ward",
         "codeName": "hong_quang",
+        "postalCode": "07515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.796",
         "areaKm2": 27.53
       }

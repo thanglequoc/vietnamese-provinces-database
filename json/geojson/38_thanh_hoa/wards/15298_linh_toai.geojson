@@ -8368,6 +8368,8 @@
         "fullName": "Xã Lĩnh Toại",
         "fullNameEn": "Linh Toai Commune",
         "codeName": "linh_toai",
+        "postalCode": "40618",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2619",
         "areaKm2": 30.48
       }

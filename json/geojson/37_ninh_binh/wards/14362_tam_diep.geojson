@@ -3696,6 +3696,8 @@
         "fullName": "Phường Tam Điệp",
         "fullNameEn": "Tam Diep Ward",
         "codeName": "tam_diep",
+        "postalCode": "08515",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.772",
         "areaKm2": 41.2
       }

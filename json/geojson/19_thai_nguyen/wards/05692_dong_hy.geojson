@@ -7464,6 +7464,8 @@
         "fullName": "Xã Đồng Hỷ",
         "fullNameEn": "Dong Hy Commune",
         "codeName": "dong_hy",
+        "postalCode": "24221",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1225",
         "areaKm2": 53.72
       }

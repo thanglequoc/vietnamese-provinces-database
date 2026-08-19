@@ -16532,6 +16532,8 @@
         "fullName": "Xã Tầm Vu",
         "fullNameEn": "Tam Vu Commune",
         "codeName": "tam_vu",
+        "postalCode": "82206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1330",
         "areaKm2": 43.5
       }

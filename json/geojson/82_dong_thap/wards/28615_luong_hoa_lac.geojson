@@ -4876,6 +4876,8 @@
         "fullName": "Xã Lương Hoà Lạc",
         "fullNameEn": "Luong Hoa Lac Commune",
         "codeName": "luong_hoa_lac",
+        "postalCode": "84523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.484",
         "areaKm2": 35.3
       }

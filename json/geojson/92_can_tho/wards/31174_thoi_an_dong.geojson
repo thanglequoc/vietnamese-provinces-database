@@ -4116,6 +4116,8 @@
         "fullName": "Phường Thới An Đông",
         "fullNameEn": "Thoi An Dong Ward",
         "codeName": "thoi_an_dong",
+        "postalCode": "94210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.210",
         "areaKm2": 25.04
       }

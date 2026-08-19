@@ -3164,6 +3164,8 @@
         "fullName": "Xã Thiệu Quang",
         "fullNameEn": "Thieu Quang Commune",
         "codeName": "thieu_quang",
+        "postalCode": "40911",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2684",
         "areaKm2": 35.45
       }

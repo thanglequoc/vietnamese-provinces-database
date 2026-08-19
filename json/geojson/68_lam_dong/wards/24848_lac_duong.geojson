@@ -20316,6 +20316,8 @@
         "fullName": "Xã Lạc Dương",
         "fullNameEn": "Lac Duong Commune",
         "codeName": "lac_duong",
+        "postalCode": "66917",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.511",
         "areaKm2": 828.01
       }

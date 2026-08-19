@@ -11676,6 +11676,8 @@
         "fullName": "Xã Quảng Khê",
         "fullNameEn": "Quang Khe Commune",
         "codeName": "quang_khe",
+        "postalCode": "65206",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2813",
         "areaKm2": 224.29
       }

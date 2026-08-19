@@ -7792,6 +7792,8 @@
         "fullName": "Xã Thạnh Trị",
         "fullNameEn": "Thanh Tri Commune",
         "codeName": "thanh_tri",
+        "postalCode": "86710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2468",
         "areaKm2": 73.26
       }

@@ -292,6 +292,8 @@
         "fullName": "Đặc khu Cồn Cỏ",
         "fullNameEn": "Con Co Special administrative region",
         "codeName": "con_co",
+        "postalCode": "48956",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3312",
         "areaKm2": 2.3
       }

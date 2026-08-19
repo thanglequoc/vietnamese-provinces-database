@@ -18916,6 +18916,8 @@
         "fullName": "Xã Đak Nhau",
         "fullNameEn": "Dak Nhau Commune",
         "codeName": "dak_nhau",
+        "postalCode": "67310",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2301",
         "areaKm2": 182.5
       }

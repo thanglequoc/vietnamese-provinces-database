@@ -6520,6 +6520,8 @@
         "fullName": "Xã Tân Long Hội",
         "fullNameEn": "Tan Long Hoi Commune",
         "codeName": "tan_long_hoi",
+        "postalCode": "85818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2536",
         "areaKm2": 36.27
       }

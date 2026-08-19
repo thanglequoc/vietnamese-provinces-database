@@ -9052,6 +9052,8 @@
         "fullName": "Xã Ngọc Chúc",
         "fullNameEn": "Ngoc Chuc Commune",
         "codeName": "ngoc_chuc",
+        "postalCode": "92317",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.380",
         "areaKm2": 90.25
       }

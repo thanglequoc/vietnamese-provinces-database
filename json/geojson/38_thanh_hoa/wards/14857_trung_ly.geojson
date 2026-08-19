@@ -5012,6 +5012,8 @@
         "fullName": "Xã Trung Lý",
         "fullNameEn": "Trung Ly Commune",
         "codeName": "trung_ly",
+        "postalCode": "42107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2705",
         "areaKm2": 197.5
       }

@@ -14328,6 +14328,8 @@
         "fullName": "Xã Vạn Tường",
         "fullNameEn": "Van Tuong Commune",
         "codeName": "van_tuong",
+        "postalCode": "53332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1735",
         "areaKm2": 109.28
       }

@@ -7968,6 +7968,8 @@
         "fullName": "Phường Hoá Châu",
         "fullNameEn": "Hoa Chau Ward",
         "codeName": "hoa_chau",
+        "postalCode": "49134",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1698",
         "areaKm2": 34.6
       }

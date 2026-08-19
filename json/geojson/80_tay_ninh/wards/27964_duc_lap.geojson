@@ -1812,6 +1812,8 @@
         "fullName": "Xã Đức Lập",
         "fullNameEn": "Duc Lap Commune",
         "codeName": "duc_lap",
+        "postalCode": "82728",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1306",
         "areaKm2": 59.41
       }

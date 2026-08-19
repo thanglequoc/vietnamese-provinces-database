@@ -4424,6 +4424,8 @@
         "fullName": "Xã Tân Phú Đông",
         "fullNameEn": "Tan Phu Dong Commune",
         "codeName": "tan_phu_dong",
+        "postalCode": "84212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.494",
         "areaKm2": 175.2
       }

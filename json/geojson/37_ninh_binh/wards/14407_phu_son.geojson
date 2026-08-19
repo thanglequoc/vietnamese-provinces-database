@@ -8536,6 +8536,8 @@
         "fullName": "Xã Phú Sơn",
         "fullNameEn": "Phu Son Commune",
         "codeName": "phu_son",
+        "postalCode": "08416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.756",
         "areaKm2": 41.12
       }

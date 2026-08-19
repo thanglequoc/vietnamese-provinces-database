@@ -13092,6 +13092,8 @@
         "fullName": "Xã Nam Ban Lâm Hà",
         "fullNameEn": "Nam Ban Lam Ha Commune",
         "codeName": "nam_ban_lam_ha",
+        "postalCode": "66313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.512",
         "areaKm2": 117.55
       }

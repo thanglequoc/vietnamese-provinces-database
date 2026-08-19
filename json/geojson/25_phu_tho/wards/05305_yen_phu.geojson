@@ -9132,6 +9132,8 @@
         "fullName": "Xã Yên Phú",
         "fullNameEn": "Yen Phu Commune",
         "codeName": "yen_phu",
+        "postalCode": "36607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1665",
         "areaKm2": 63.7
       }

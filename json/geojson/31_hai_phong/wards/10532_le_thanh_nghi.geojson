@@ -896,6 +896,8 @@
         "fullName": "Phường Lê Thanh Nghị",
         "fullNameEn": "Le Thanh Nghi Ward",
         "codeName": "le_thanh_nghi",
+        "postalCode": "03112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.850",
         "areaKm2": 8.04
       }

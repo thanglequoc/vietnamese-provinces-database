@@ -5408,6 +5408,8 @@
         "fullName": "Xã Chí Tiên",
         "fullNameEn": "Chi Tien Commune",
         "codeName": "chi_tien",
+        "postalCode": "35721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1592",
         "areaKm2": 23.75
       }

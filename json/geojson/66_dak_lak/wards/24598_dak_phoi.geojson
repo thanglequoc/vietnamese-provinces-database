@@ -14108,6 +14108,8 @@
         "fullName": "Xã Đắk Phơi",
         "fullNameEn": "Dak Phoi Commune",
         "codeName": "dak_phoi",
+        "postalCode": "64313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2881",
         "areaKm2": 266.83
       }

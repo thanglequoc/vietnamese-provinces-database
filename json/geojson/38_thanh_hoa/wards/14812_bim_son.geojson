@@ -9364,6 +9364,8 @@
         "fullName": "Phường Bỉm Sơn",
         "fullNameEn": "Bim Son Ward",
         "codeName": "bim_son",
+        "postalCode": "40714",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2637",
         "areaKm2": 51.84
       }

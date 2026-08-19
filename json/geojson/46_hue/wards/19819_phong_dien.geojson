@@ -20120,6 +20120,8 @@
         "fullName": "Phường Phong Điền",
         "fullNameEn": "Phong Dien Ward",
         "codeName": "phong_dien",
+        "postalCode": "49322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1696",
         "areaKm2": 592.48
       }

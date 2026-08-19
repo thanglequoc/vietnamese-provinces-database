@@ -2640,6 +2640,8 @@
         "fullName": "Phường Quảng Phú",
         "fullNameEn": "Quang Phu Ward",
         "codeName": "quang_phu",
+        "postalCode": "51120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1972",
         "areaKm2": 36.21
       }

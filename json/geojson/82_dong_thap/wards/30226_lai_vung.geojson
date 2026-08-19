@@ -5896,6 +5896,8 @@
         "fullName": "Xã Lai Vung",
         "fullNameEn": "Lai Vung Commune",
         "codeName": "lai_vung",
+        "postalCode": "81768",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.437",
         "areaKm2": 71.2
       }

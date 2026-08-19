@@ -11644,6 +11644,8 @@
         "fullName": "Thành phố Đồng Nai",
         "fullNameEn": "Dong Nai City",
         "codeName": "dong_nai",
+        "postalCode": "",
+        "postalCodePrefix": "67, 76",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.50",
         "areaKm2": 12737.18
       }

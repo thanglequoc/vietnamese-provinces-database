@@ -4420,6 +4420,8 @@
         "fullName": "Xã Phú Thọ",
         "fullNameEn": "Phu Tho Commune",
         "codeName": "phu_tho",
+        "postalCode": "81316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.418",
         "areaKm2": 84.9
       }

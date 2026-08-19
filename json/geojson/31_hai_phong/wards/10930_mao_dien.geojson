@@ -2624,6 +2624,8 @@
         "fullName": "Xã Mao Điền",
         "fullNameEn": "Mao Dien Commune",
         "codeName": "mao_dien",
+        "postalCode": "03625",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.866",
         "areaKm2": 24.37
       }

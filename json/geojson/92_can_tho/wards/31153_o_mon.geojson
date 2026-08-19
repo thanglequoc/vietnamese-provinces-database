@@ -9388,6 +9388,8 @@
         "fullName": "Phường Ô Môn",
         "fullNameEn": "O Mon Ward",
         "codeName": "o_mon",
+        "postalCode": "94313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.206",
         "areaKm2": 54.69
       }

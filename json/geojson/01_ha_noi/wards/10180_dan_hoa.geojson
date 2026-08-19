@@ -3440,6 +3440,8 @@
         "fullName": "Xã Dân Hoà",
         "fullNameEn": "Dan Hoa Commune",
         "codeName": "dan_hoa",
+        "postalCode": "13521",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3161",
         "areaKm2": 38.43
       }

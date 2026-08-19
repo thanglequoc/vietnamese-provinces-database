@@ -17912,6 +17912,8 @@
         "fullName": "Xã Hàm Thuận",
         "fullNameEn": "Ham Thuan Commune",
         "codeName": "ham_thuan",
+        "postalCode": "77423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3059",
         "areaKm2": 198.36
       }

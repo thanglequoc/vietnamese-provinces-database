@@ -3936,6 +3936,8 @@
         "fullName": "Xã Phụng Công",
         "fullNameEn": "Phung Cong Commune",
         "codeName": "phung_cong",
+        "postalCode": "17659",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.732",
         "areaKm2": 14.62
       }

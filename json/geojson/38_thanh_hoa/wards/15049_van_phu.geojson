@@ -8904,6 +8904,8 @@
         "fullName": "Xã Văn Phú",
         "fullNameEn": "Van Phu Commune",
         "codeName": "van_phu",
+        "postalCode": "41818",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2721",
         "areaKm2": 106.55
       }

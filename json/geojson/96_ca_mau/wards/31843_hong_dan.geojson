@@ -6496,6 +6496,8 @@
         "fullName": "Xã Hồng Dân",
         "fullNameEn": "Hong Dan Commune",
         "codeName": "hong_dan",
+        "postalCode": "97315",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.143",
         "areaKm2": 15.62
       }

@@ -1984,6 +1984,8 @@
         "fullName": "Xã Tống Trân",
         "fullNameEn": "Tong Tran Commune",
         "codeName": "tong_tran",
+        "postalCode": "17319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.726",
         "areaKm2": 20.73
       }

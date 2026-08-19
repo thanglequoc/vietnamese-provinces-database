@@ -15280,6 +15280,8 @@
         "fullName": "Đặc khu Phú Quốc",
         "fullNameEn": "Phu Quoc Special administrative region",
         "codeName": "phu_quoc",
+        "postalCode": "92516",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3303",
         "areaKm2": 575.29
       }

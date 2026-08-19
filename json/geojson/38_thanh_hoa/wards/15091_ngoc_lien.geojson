@@ -6888,6 +6888,8 @@
         "fullName": "Xã Ngọc Liên",
         "fullNameEn": "Ngoc Lien Commune",
         "codeName": "ngoc_lien",
+        "postalCode": "41712",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2685",
         "areaKm2": 79.99
       }

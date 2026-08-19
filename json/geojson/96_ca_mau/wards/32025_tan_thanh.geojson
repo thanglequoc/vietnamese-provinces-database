@@ -8140,6 +8140,8 @@
         "fullName": "Phường Tân Thành",
         "fullNameEn": "Tan Thanh Ward",
         "codeName": "tan_thanh",
+        "postalCode": "98112",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.165",
         "areaKm2": 48.42
       }

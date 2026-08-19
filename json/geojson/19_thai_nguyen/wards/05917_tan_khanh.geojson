@@ -6404,6 +6404,8 @@
         "fullName": "Xã Tân Khánh",
         "fullNameEn": "Tan Khanh Commune",
         "codeName": "tan_khanh",
+        "postalCode": "24910",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1236",
         "areaKm2": 48.31
       }

@@ -8472,6 +8472,8 @@
         "fullName": "Xã Lũng Cú",
         "fullNameEn": "Lung Cu Commune",
         "codeName": "lung_cu",
+        "postalCode": "20508",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2368",
         "areaKm2": 95.2
       }

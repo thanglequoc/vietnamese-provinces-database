@@ -7620,6 +7620,8 @@
         "fullName": "Phường Nông Trang",
         "fullNameEn": "Nong Trang Ward",
         "codeName": "nong_trang",
+        "postalCode": "35120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1558",
         "areaKm2": 15.89
       }

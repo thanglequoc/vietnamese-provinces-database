@@ -4240,6 +4240,8 @@
         "fullName": "Xã Trường Tân",
         "fullNameEn": "Truong Tan Commune",
         "codeName": "truong_tan",
+        "postalCode": "03679",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.893",
         "areaKm2": 24.56
       }

@@ -14668,6 +14668,8 @@
         "fullName": "Xã Bảo Lâm 5",
         "fullNameEn": "Commune Bao Lam 5",
         "codeName": "bao_lam_5",
+        "postalCode": "66424",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1265",
         "areaKm2": 511.88
       }

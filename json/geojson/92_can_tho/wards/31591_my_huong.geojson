@@ -11260,6 +11260,8 @@
         "fullName": "Xã Mỹ Hương",
         "fullNameEn": "My Huong Commune",
         "codeName": "my_huong",
+        "postalCode": "96459",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.274",
         "areaKm2": 104.74
       }

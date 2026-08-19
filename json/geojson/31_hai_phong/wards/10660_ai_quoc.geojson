@@ -2332,6 +2332,8 @@
         "fullName": "Phường Ái Quốc",
         "fullNameEn": "Ai Quoc Ward",
         "codeName": "ai_quoc",
+        "postalCode": "03122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.848",
         "areaKm2": 17.6
       }

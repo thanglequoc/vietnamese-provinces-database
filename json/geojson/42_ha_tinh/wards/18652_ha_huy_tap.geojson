@@ -4800,6 +4800,8 @@
         "fullName": "Phường Hà Huy Tập",
         "fullNameEn": "Ha Huy Tap Ward",
         "codeName": "ha_huy_tap",
+        "postalCode": "45124",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2012",
         "areaKm2": 32.62
       }

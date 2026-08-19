@@ -8840,6 +8840,8 @@
         "fullName": "Xã Hoàng Cương",
         "fullNameEn": "Hoang Cuong Commune",
         "codeName": "hoang_cuong",
+        "postalCode": "35720",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1589",
         "areaKm2": 39.51
       }

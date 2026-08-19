@@ -5344,6 +5344,8 @@
         "fullName": "Phường Sơn Đông",
         "fullNameEn": "Son Dong Ward",
         "codeName": "son_dong",
+        "postalCode": "86113",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2439",
         "areaKm2": 23.48
       }

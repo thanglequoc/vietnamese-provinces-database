@@ -3212,6 +3212,8 @@
         "fullName": "Xã Long Phú Thuận",
         "fullNameEn": "Long Phu Thuan Commune",
         "codeName": "long_phu_thuan",
+        "postalCode": "81569",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.412",
         "areaKm2": 56.6
       }

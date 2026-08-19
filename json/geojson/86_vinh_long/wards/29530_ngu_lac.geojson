@@ -9396,6 +9396,8 @@
         "fullName": "Xã Ngũ Lạc",
         "fullNameEn": "Ngu Lac Commune",
         "codeName": "ngu_lac",
+        "postalCode": "87710",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2521",
         "areaKm2": 60.92
       }

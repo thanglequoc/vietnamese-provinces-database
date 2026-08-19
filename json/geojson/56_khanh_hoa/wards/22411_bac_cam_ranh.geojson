@@ -5828,6 +5828,8 @@
         "fullName": "Phường Bắc Cam Ranh",
         "fullNameEn": "Bac Cam Ranh Ward",
         "codeName": "bac_cam_ranh",
+        "postalCode": "57822",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3323",
         "areaKm2": 134
       }

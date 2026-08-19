@@ -10240,6 +10240,8 @@
         "fullName": "Xã Ia Băng",
         "fullNameEn": "Ia Bang Commune",
         "codeName": "ia_bang",
+        "postalCode": "61222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3056",
         "areaKm2": 116.24
       }

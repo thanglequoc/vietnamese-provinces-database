@@ -5740,6 +5740,8 @@
         "fullName": "Xã Phong Dụ Thượng",
         "fullNameEn": "Phong Du Thuong Commune",
         "codeName": "phong_du_thuong",
+        "postalCode": "33418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1021",
         "areaKm2": 195.21
       }

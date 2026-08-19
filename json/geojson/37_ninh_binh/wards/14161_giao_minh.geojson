@@ -5232,6 +5232,8 @@
         "fullName": "Xã Giao Minh",
         "fullNameEn": "Giao Minh Commune",
         "codeName": "giao_minh",
+        "postalCode": "07828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3297",
         "areaKm2": 27.74
       }

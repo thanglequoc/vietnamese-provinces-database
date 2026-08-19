@@ -8580,6 +8580,8 @@
         "fullName": "Xã Thàng Tín",
         "fullNameEn": "Thang Tin Commune",
         "codeName": "thang_tin",
+        "postalCode": "20612",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2404",
         "areaKm2": 70.78
       }

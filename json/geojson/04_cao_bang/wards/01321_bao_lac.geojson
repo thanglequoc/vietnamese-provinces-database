@@ -8608,6 +8608,8 @@
         "fullName": "Xã Bảo Lạc",
         "fullNameEn": "Bao Lac Commune",
         "codeName": "bao_lac",
+        "postalCode": "21356",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.976",
         "areaKm2": 118.7
       }

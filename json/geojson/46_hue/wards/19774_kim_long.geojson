@@ -20164,6 +20164,8 @@
         "fullName": "Phường Kim Long",
         "fullNameEn": "Kim Long Ward",
         "codeName": "kim_long",
+        "postalCode": "49122",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1711",
         "areaKm2": 90.14
       }

@@ -3816,6 +3816,8 @@
         "fullName": "Phường Từ Sơn",
         "fullNameEn": "Tu Son Ward",
         "codeName": "tu_son",
+        "postalCode": "16318",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2186",
         "areaKm2": 20.31
       }

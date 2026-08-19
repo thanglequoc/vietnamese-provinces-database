@@ -2128,6 +2128,8 @@
         "fullName": "Phường Hà Nam",
         "fullNameEn": "Ha Nam Ward",
         "codeName": "ha_nam",
+        "postalCode": "18127",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2789",
         "areaKm2": 29.98
       }

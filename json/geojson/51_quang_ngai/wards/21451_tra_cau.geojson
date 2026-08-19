@@ -3236,6 +3236,8 @@
         "fullName": "Phường Trà Câu",
         "fullNameEn": "Tra Cau Ward",
         "codeName": "tra_cau",
+        "postalCode": "54322",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1778",
         "areaKm2": 54.46
       }

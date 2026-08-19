@@ -8280,6 +8280,8 @@
         "fullName": "Phường Thuận An",
         "fullNameEn": "Thuan An Ward",
         "codeName": "thuan_an",
+        "postalCode": "75216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.32",
         "areaKm2": 16.11
       }

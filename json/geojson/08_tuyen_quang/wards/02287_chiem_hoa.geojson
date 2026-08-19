@@ -10312,6 +10312,8 @@
         "fullName": "Xã Chiêm Hoá",
         "fullNameEn": "Chiem Hoa Commune",
         "codeName": "chiem_hoa",
+        "postalCode": "22332",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2321",
         "areaKm2": 111.65
       }

@@ -12040,6 +12040,8 @@
         "fullName": "Xã Huy Giáp",
         "fullNameEn": "Huy Giap Commune",
         "codeName": "huy_giap",
+        "postalCode": "21368",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.983",
         "areaKm2": 133.76
       }

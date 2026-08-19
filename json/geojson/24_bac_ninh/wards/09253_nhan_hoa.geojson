@@ -2364,6 +2364,8 @@
         "fullName": "Phường Nhân Hoà",
         "fullNameEn": "Nhan Hoa Ward",
         "codeName": "nhan_hoa",
+        "postalCode": "16811",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2181",
         "areaKm2": 20.3
       }

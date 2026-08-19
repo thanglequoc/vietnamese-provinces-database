@@ -2620,6 +2620,8 @@
         "fullName": "Xã Kẻ Sặt",
         "fullNameEn": "Ke Sat Commune",
         "codeName": "ke_sat",
+        "postalCode": "03706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.867",
         "areaKm2": 24.67
       }

@@ -2060,6 +2060,8 @@
         "fullName": "Xã Tây Tiền Hải",
         "fullNameEn": "Tay Tien Hai Commune",
         "codeName": "tay_tien_hai",
+        "postalCode": "06342",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.697",
         "areaKm2": 17.56
       }

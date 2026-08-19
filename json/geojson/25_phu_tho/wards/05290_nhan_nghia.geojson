@@ -8784,6 +8784,8 @@
         "fullName": "Xã Nhân Nghĩa",
         "fullNameEn": "Nhan Nghia Commune",
         "codeName": "nhan_nghia",
+        "postalCode": "36615",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1654",
         "areaKm2": 81.37
       }

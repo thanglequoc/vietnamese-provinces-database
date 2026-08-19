@@ -11512,6 +11512,8 @@
         "fullName": "Xã Hương Xuân",
         "fullNameEn": "Huong Xuan Commune",
         "codeName": "huong_xuan",
+        "postalCode": "46022",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2037",
         "areaKm2": 263.14
       }

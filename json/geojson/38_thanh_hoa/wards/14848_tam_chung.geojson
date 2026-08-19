@@ -4744,6 +4744,8 @@
         "fullName": "Xã Tam Chung",
         "fullNameEn": "Tam Chung Commune",
         "codeName": "tam_chung",
+        "postalCode": "42109",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2702",
         "areaKm2": 121.51
       }

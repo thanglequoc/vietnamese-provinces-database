@@ -2188,6 +2188,8 @@
         "fullName": "Xã Minh Thái",
         "fullNameEn": "Minh Thai Commune",
         "codeName": "minh_thai",
+        "postalCode": "07630",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.825",
         "areaKm2": 23.44
       }

@@ -3544,6 +3544,8 @@
         "fullName": "Phường Vị Tân",
         "fullNameEn": "Vi Tan Ward",
         "codeName": "vi_tan",
+        "postalCode": "95109",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.235",
         "areaKm2": 37.07
       }

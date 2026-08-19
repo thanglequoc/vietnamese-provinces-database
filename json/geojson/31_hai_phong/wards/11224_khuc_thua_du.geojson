@@ -4856,6 +4856,8 @@
         "fullName": "Xã Khúc Thừa Dụ",
         "fullNameEn": "Khuc Thua Du Commune",
         "codeName": "khuc_thua_du",
+        "postalCode": "03835",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.886",
         "areaKm2": 28.79
       }

@@ -1644,6 +1644,8 @@
         "fullName": "Xã Hậu Nghĩa",
         "fullNameEn": "Hau Nghia Commune",
         "codeName": "hau_nghia",
+        "postalCode": "82706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1302",
         "areaKm2": 66.48
       }

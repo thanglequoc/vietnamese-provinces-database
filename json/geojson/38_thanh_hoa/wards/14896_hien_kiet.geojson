@@ -5288,6 +5288,8 @@
         "fullName": "Xã Hiền Kiệt",
         "fullNameEn": "Hien Kiet Commune",
         "codeName": "hien_kiet",
+        "postalCode": "41913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2697",
         "areaKm2": 140.29
       }

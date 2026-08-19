@@ -2156,6 +2156,8 @@
         "fullName": "Xã Quang Lịch",
         "fullNameEn": "Quang Lich Commune",
         "codeName": "quang_lich",
+        "postalCode": "06224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.699",
         "areaKm2": 14.92
       }

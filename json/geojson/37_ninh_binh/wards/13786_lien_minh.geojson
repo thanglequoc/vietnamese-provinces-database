@@ -2960,6 +2960,8 @@
         "fullName": "Xã Liên Minh",
         "fullNameEn": "Lien Minh Commune",
         "codeName": "lien_minh",
+        "postalCode": "07258",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.819",
         "areaKm2": 31.05
       }

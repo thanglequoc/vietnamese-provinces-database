@@ -8680,6 +8680,8 @@
         "fullName": "Phường Cao Lãnh",
         "fullNameEn": "Cao Lanh Ward",
         "codeName": "cao_lanh",
+        "postalCode": "81121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.401",
         "areaKm2": 73.3
       }

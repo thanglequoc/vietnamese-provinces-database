@@ -13828,6 +13828,8 @@
         "fullName": "Xã Krông Pắc",
         "fullNameEn": "Krong Pac Commune",
         "codeName": "krong_pac",
+        "postalCode": "63222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2864",
         "areaKm2": 112.52
       }

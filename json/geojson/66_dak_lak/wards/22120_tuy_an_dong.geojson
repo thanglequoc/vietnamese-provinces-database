@@ -5272,6 +5272,8 @@
         "fullName": "Xã Tuy An Đông",
         "fullNameEn": "Tuy An Dong Commune",
         "codeName": "tuy_an_dong",
+        "postalCode": "56223",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2904",
         "areaKm2": 46.05
       }

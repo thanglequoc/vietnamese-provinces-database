@@ -6956,6 +6956,8 @@
         "fullName": "Xã Bình Hiệp",
         "fullNameEn": "Binh Hiep Commune",
         "codeName": "binh_hiep",
+        "postalCode": "83009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1287",
         "areaKm2": 123.68
       }

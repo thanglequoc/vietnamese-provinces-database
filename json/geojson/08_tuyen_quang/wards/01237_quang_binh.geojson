@@ -17588,6 +17588,8 @@
         "fullName": "Xã Quang Bình",
         "fullNameEn": "Quang Binh Commune",
         "codeName": "quang_binh",
+        "postalCode": "20771",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2433",
         "areaKm2": 130.14
       }

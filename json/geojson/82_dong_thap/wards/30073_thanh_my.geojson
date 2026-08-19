@@ -1584,6 +1584,8 @@
         "fullName": "Xã Thanh Mỹ",
         "fullNameEn": "Thanh My Commune",
         "codeName": "thanh_my",
+        "postalCode": "81215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.423",
         "areaKm2": 93.1
       }

@@ -5216,6 +5216,8 @@
         "fullName": "Xã Đại Thanh",
         "fullNameEn": "Dai Thanh Commune",
         "codeName": "dai_thanh",
+        "postalCode": "12523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3175",
         "areaKm2": 18.92
       }

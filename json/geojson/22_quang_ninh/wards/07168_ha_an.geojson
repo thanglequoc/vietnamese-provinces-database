@@ -8888,6 +8888,8 @@
         "fullName": "Phường Hà An",
         "fullNameEn": "Ha An Ward",
         "codeName": "ha_an",
+        "postalCode": "02207",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1862",
         "areaKm2": 100.18
       }

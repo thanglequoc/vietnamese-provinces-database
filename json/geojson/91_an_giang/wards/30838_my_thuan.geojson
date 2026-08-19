@@ -8504,6 +8504,8 @@
         "fullName": "Xã Mỹ Thuận",
         "fullNameEn": "My Thuan Commune",
         "codeName": "my_thuan",
+        "postalCode": "91319",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.371",
         "areaKm2": 210.5
       }

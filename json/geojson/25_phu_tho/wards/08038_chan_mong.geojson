@@ -8296,6 +8296,8 @@
         "fullName": "Xã Chân Mộng",
         "fullNameEn": "Chan Mong Commune",
         "codeName": "chan_mong",
+        "postalCode": "35331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1543",
         "areaKm2": 89.85
       }

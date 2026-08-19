@@ -2608,6 +2608,8 @@
         "fullName": "Phường Thanh Liệt",
         "fullNameEn": "Thanh Liet Ward",
         "codeName": "thanh_liet",
+        "postalCode": "12510",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3182",
         "areaKm2": 6.44
       }

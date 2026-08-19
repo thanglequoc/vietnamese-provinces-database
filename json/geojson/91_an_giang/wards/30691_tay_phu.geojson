@@ -4168,6 +4168,8 @@
         "fullName": "Xã Tây Phú",
         "fullNameEn": "Tay Phu Commune",
         "codeName": "tay_phu",
+        "postalCode": "90966",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.355",
         "areaKm2": 93.8
       }

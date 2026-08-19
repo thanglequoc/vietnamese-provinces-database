@@ -7448,6 +7448,8 @@
         "fullName": "Xã Quảng La",
         "fullNameEn": "Quang La Commune",
         "codeName": "quang_la",
+        "postalCode": "01137",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1860",
         "areaKm2": 165.67
       }

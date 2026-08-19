@@ -9396,6 +9396,8 @@
         "fullName": "Phường Long Hương",
         "fullNameEn": "Long Huong Ward",
         "codeName": "long_huong",
+        "postalCode": "78116",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2204",
         "areaKm2": 41.22
       }

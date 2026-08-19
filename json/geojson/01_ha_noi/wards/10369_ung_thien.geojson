@@ -3188,6 +3188,8 @@
         "fullName": "Xã Ứng Thiên",
         "fullNameEn": "Ung Thien Commune",
         "codeName": "ung_thien",
+        "postalCode": "13835",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3214",
         "areaKm2": 38.4
       }

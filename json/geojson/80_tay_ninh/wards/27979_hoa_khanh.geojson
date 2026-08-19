@@ -6108,6 +6108,8 @@
         "fullName": "Xã Hoà Khánh",
         "fullNameEn": "Hoa Khanh Commune",
         "codeName": "hoa_khanh",
+        "postalCode": "82727",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1307",
         "areaKm2": 59.75
       }

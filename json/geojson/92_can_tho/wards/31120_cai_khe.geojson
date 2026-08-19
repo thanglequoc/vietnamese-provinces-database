@@ -796,6 +796,8 @@
         "fullName": "Phường Cái Khế",
         "fullNameEn": "Cai Khe Ward",
         "codeName": "cai_khe",
+        "postalCode": "94107",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.202",
         "areaKm2": 10.04
       }

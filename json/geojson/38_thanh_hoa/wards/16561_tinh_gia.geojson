@@ -2100,6 +2100,8 @@
         "fullName": "Phường Tĩnh Gia",
         "fullNameEn": "Tinh Gia Ward",
         "codeName": "tinh_gia",
+        "postalCode": "42741",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2573",
         "areaKm2": 32.18
       }

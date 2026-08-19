@@ -3148,6 +3148,8 @@
         "fullName": "Xã Nam Trực",
         "fullNameEn": "Nam Truc Commune",
         "codeName": "nam_truc",
+        "postalCode": "07526",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.793",
         "areaKm2": 20.47
       }

@@ -12816,6 +12816,8 @@
         "fullName": "Xã M'Drắk",
         "fullNameEn": "M'Drak Commune",
         "codeName": "mdrak",
+        "postalCode": "64506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2854",
         "areaKm2": 151.87
       }

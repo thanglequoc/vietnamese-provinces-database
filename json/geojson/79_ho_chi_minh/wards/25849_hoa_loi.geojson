@@ -6840,6 +6840,8 @@
         "fullName": "Phường Hoà Lợi",
         "fullNameEn": "Hoa Loi Ward",
         "codeName": "hoa_loi",
+        "postalCode": "75912",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.16",
         "areaKm2": 33.59
       }

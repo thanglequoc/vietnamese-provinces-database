@@ -33488,6 +33488,8 @@
         "fullName": "Xã Mường Pồn",
         "fullNameEn": "Muong Pon Commune",
         "codeName": "muong_pon",
+        "postalCode": "32214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2244",
         "areaKm2": 258.76
       }

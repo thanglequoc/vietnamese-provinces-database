@@ -10556,6 +10556,8 @@
         "fullName": "Xã Ngô Mây",
         "fullNameEn": "Ngo May Commune",
         "codeName": "ngo_may",
+        "postalCode": "55326",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3002",
         "areaKm2": 61.42
       }

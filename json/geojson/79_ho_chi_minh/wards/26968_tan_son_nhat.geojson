@@ -1224,6 +1224,8 @@
         "fullName": "Phường Tân Sơn Nhất",
         "fullNameEn": "Tan Son Nhat Ward",
         "codeName": "tan_son_nhat",
+        "postalCode": "72121",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.66",
         "areaKm2": 3.19
       }

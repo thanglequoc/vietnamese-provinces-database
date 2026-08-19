@@ -3812,6 +3812,8 @@
         "fullName": "Xã Tân Đông",
         "fullNameEn": "Tan Dong Commune",
         "codeName": "tan_dong",
+        "postalCode": "84365",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.499",
         "areaKm2": 50.4
       }

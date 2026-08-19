@@ -5344,6 +5344,8 @@
         "fullName": "Phường Chương Mỹ",
         "fullNameEn": "Chuong My Ward",
         "codeName": "chuong_my",
+        "postalCode": "13438",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3219",
         "areaKm2": 38.9
       }

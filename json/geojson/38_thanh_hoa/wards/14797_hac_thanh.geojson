@@ -2812,6 +2812,8 @@
         "fullName": "Phường Hạc Thành",
         "fullNameEn": "Hac Thanh Ward",
         "codeName": "hac_thanh",
+        "postalCode": "40143",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2594",
         "areaKm2": 24.63
       }

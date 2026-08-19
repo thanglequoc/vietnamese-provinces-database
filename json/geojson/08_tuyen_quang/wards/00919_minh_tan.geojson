@@ -8428,6 +8428,8 @@
         "fullName": "Xã Minh Tân",
         "fullNameEn": "Minh Tan Commune",
         "codeName": "minh_tan",
+        "postalCode": "20214",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2389",
         "areaKm2": 105.7
       }

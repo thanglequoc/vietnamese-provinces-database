@@ -4524,6 +4524,8 @@
         "fullName": "Xã Phước Thạnh",
         "fullNameEn": "Phuoc Thanh Commune",
         "codeName": "phuoc_thanh",
+        "postalCode": "80708",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2732",
         "areaKm2": 70.89
       }

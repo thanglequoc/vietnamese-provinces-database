@@ -8504,6 +8504,8 @@
         "fullName": "Xã Vĩnh Phước",
         "fullNameEn": "Vinh Phuoc Commune",
         "codeName": "vinh_phuoc",
+        "postalCode": "97414",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.147",
         "areaKm2": 75.5
       }

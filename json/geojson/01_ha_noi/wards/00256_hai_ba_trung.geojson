@@ -1340,6 +1340,8 @@
         "fullName": "Phường Hai Bà Trưng",
         "fullNameEn": "Hai Ba Trung Ward",
         "codeName": "hai_ba_trung",
+        "postalCode": "11626",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3201",
         "areaKm2": 2.65
       }

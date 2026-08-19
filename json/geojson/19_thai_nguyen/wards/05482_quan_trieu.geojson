@@ -5340,6 +5340,8 @@
         "fullName": "Phường Quan Triều",
         "fullNameEn": "Quan Trieu Ward",
         "codeName": "quan_trieu",
+        "postalCode": "24114",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1185",
         "areaKm2": 24.72
       }

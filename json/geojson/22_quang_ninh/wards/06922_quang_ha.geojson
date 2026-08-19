@@ -29464,6 +29464,8 @@
         "fullName": "Xã Quảng Hà",
         "fullNameEn": "Quang Ha Commune",
         "codeName": "quang_ha",
+        "postalCode": "01606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1886",
         "areaKm2": 134.37
       }

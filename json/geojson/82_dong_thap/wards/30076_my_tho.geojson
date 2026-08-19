@@ -7584,6 +7584,8 @@
         "fullName": "Xã Mỹ Thọ",
         "fullNameEn": "My Tho Commune",
         "codeName": "my_tho",
+        "postalCode": "81157",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.427",
         "areaKm2": 61.5
       }

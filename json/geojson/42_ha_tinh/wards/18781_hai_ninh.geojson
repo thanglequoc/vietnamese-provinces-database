@@ -5156,6 +5156,8 @@
         "fullName": "Phường Hải Ninh",
         "fullNameEn": "Hai Ninh Ward",
         "codeName": "hai_ninh",
+        "postalCode": "46219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2027",
         "areaKm2": 39.37
       }

@@ -11392,6 +11392,8 @@
         "fullName": "Phường Đông Hoà",
         "fullNameEn": "Dong Hoa Ward",
         "codeName": "dong_hoa",
+        "postalCode": "56816",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2917",
         "areaKm2": 77.54
       }

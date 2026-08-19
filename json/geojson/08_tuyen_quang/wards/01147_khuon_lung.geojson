@@ -9228,6 +9228,8 @@
         "fullName": "Xã Khuôn Lùng",
         "fullNameEn": "Khuon Lung Commune",
         "codeName": "khuon_lung",
+        "postalCode": "20717",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2413",
         "areaKm2": 120.28
       }

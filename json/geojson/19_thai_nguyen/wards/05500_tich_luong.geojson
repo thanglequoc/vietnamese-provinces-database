@@ -5992,6 +5992,8 @@
         "fullName": "Phường Tích Lương",
         "fullNameEn": "Tich Luong Ward",
         "codeName": "tich_luong",
+        "postalCode": "24131",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1190",
         "areaKm2": 23.56
       }

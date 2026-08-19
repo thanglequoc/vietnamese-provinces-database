@@ -1180,6 +1180,8 @@
         "fullName": "Phường Bình Đông",
         "fullNameEn": "Binh Dong Ward",
         "codeName": "binh_dong",
+        "postalCode": "73024",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.104",
         "areaKm2": 8.93
       }

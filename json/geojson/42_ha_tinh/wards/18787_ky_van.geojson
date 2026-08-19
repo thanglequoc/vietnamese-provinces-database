@@ -6444,6 +6444,8 @@
         "fullName": "Xã Kỳ Văn",
         "fullNameEn": "Ky Van Commune",
         "codeName": "ky_van",
+        "postalCode": "46315",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2028",
         "areaKm2": 135.75
       }

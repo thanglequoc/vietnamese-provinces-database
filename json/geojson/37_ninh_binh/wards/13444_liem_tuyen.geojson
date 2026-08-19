@@ -3160,6 +3160,8 @@
         "fullName": "Phường Liêm Tuyền",
         "fullNameEn": "Liem Tuyen Ward",
         "codeName": "liem_tuyen",
+        "postalCode": "18129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2790",
         "areaKm2": 21.44
       }

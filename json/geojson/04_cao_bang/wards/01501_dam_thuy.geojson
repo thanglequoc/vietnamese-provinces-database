@@ -8640,6 +8640,8 @@
         "fullName": "Xã Đàm Thuỷ",
         "fullNameEn": "Dam Thuy Commune",
         "codeName": "dam_thuy",
+        "postalCode": "21825",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.993",
         "areaKm2": 114.63
       }

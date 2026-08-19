@@ -7604,6 +7604,8 @@
         "fullName": "Xã Niêm Sơn",
         "fullNameEn": "Niem Son Commune",
         "codeName": "niem_son",
+        "postalCode": "20416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2377",
         "areaKm2": 81.73
       }

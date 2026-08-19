@@ -10444,6 +10444,8 @@
         "fullName": "Xã Hồ Tràm",
         "fullNameEn": "Ho Tram Commune",
         "codeName": "ho_tram",
+        "postalCode": "78519",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2211",
         "areaKm2": 94.51
       }

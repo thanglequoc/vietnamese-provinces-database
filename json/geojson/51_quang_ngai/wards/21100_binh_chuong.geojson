@@ -4440,6 +4440,8 @@
         "fullName": "Xã Bình Chương",
         "fullNameEn": "Binh Chuong Commune",
         "codeName": "binh_chuong",
+        "postalCode": "53312",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1752",
         "areaKm2": 30.79
       }

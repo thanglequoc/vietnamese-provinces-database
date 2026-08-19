@@ -1524,6 +1524,8 @@
         "fullName": "Phường Tân Tạo",
         "fullNameEn": "Tan Tao Ward",
         "codeName": "tan_tao",
+        "postalCode": "71915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.109",
         "areaKm2": 14.71
       }

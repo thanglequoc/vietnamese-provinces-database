@@ -1076,6 +1076,8 @@
         "fullName": "Xã Vĩnh Xương",
         "fullNameEn": "Vinh Xuong Commune",
         "codeName": "vinh_xuong",
+        "postalCode": "90410",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.317",
         "areaKm2": 50.21
       }

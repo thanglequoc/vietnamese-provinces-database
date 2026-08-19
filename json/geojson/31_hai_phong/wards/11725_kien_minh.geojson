@@ -1952,6 +1952,8 @@
         "fullName": "Xã Kiến Minh",
         "fullNameEn": "Kien Minh Commune",
         "codeName": "kien_minh",
+        "postalCode": "05125",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.934",
         "areaKm2": 16.32
       }

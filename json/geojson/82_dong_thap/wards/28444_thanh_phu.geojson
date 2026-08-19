@@ -1316,6 +1316,8 @@
         "fullName": "Xã Thạnh Phú",
         "fullNameEn": "Thanh Phu Commune",
         "codeName": "thanh_phu",
+        "postalCode": "84823",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.463",
         "areaKm2": 56.6
       }

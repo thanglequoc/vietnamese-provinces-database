@@ -3628,6 +3628,8 @@
         "fullName": "Phường Sầm Sơn",
         "fullNameEn": "Sam Son Ward",
         "codeName": "sam_son",
+        "postalCode": "40217",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2577",
         "areaKm2": 30.29
       }

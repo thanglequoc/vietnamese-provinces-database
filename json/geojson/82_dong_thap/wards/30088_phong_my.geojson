@@ -6324,6 +6324,8 @@
         "fullName": "Xã Phong Mỹ",
         "fullNameEn": "Phong My Commune",
         "codeName": "phong_my",
+        "postalCode": "81163",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.426",
         "areaKm2": 78.6
       }

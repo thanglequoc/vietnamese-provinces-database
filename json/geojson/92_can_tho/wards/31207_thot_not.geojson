@@ -6208,6 +6208,8 @@
         "fullName": "Phường Thốt Nốt",
         "fullNameEn": "Thot Not Ward",
         "codeName": "thot_not",
+        "postalCode": "94406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.214",
         "areaKm2": 23.61
       }

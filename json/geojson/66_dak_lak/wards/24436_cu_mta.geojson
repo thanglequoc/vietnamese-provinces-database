@@ -17164,6 +17164,8 @@
         "fullName": "Xã Cư M'ta",
         "fullNameEn": "Cu M'ta Commune",
         "codeName": "cu_mta",
+        "postalCode": "64507",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2856",
         "areaKm2": 261.06
       }

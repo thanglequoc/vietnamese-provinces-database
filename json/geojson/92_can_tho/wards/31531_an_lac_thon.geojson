@@ -9488,6 +9488,8 @@
         "fullName": "Xã An Lạc Thôn",
         "fullNameEn": "An Lac Thon Commune",
         "codeName": "an_lac_thon",
+        "postalCode": "96313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.265",
         "areaKm2": 84.99
       }

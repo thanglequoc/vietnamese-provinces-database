@@ -4668,6 +4668,8 @@
         "fullName": "Xã Mỹ Đức Tây",
         "fullNameEn": "My Duc Tay Commune",
         "codeName": "my_duc_tay",
+        "postalCode": "84921",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.460",
         "areaKm2": 45.8
       }

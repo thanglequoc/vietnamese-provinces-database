@@ -12728,6 +12728,8 @@
         "fullName": "Xã Đường Hồng",
         "fullNameEn": "Duong Hong Commune",
         "codeName": "duong_hong",
+        "postalCode": "20916",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2426",
         "areaKm2": 135.42
       }

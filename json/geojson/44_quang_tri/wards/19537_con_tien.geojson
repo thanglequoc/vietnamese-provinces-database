@@ -25296,6 +25296,8 @@
         "fullName": "Xã Cồn Tiên",
         "fullNameEn": "Con Tien Commune",
         "codeName": "con_tien",
+        "postalCode": "48327",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.575",
         "areaKm2": 268.58
       }

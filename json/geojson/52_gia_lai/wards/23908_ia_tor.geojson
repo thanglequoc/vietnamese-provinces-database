@@ -8684,6 +8684,8 @@
         "fullName": "Xã Ia Tôr",
         "fullNameEn": "Ia Tor Commune",
         "codeName": "ia_tor",
+        "postalCode": "61608",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2927",
         "areaKm2": 102.31
       }

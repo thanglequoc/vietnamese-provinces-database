@@ -5288,6 +5288,8 @@
         "fullName": "Phường Cái Răng",
         "fullNameEn": "Cai Rang Ward",
         "codeName": "cai_rang",
+        "postalCode": "94913",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.212",
         "areaKm2": 26.88
       }

@@ -4912,6 +4912,8 @@
         "fullName": "Xã Xuân Viên",
         "fullNameEn": "Xuan Vien Commune",
         "codeName": "xuan_vien",
+        "postalCode": "35509",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1556",
         "areaKm2": 46.19
       }

@@ -4004,6 +4004,8 @@
         "fullName": "Xã Tràm Chim",
         "fullNameEn": "Tram Chim Commune",
         "codeName": "tram_chim",
+        "postalCode": "81306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.413",
         "areaKm2": 90.2
       }

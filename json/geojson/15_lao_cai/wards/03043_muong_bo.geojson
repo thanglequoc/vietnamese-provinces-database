@@ -11008,6 +11008,8 @@
         "fullName": "Xã Mường Bo",
         "fullNameEn": "Muong Bo Commune",
         "codeName": "muong_bo",
+        "postalCode": "31718",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1081",
         "areaKm2": 148.3
       }

@@ -3684,6 +3684,8 @@
         "fullName": "Phường Trường Thi",
         "fullNameEn": "Truong Thi Ward",
         "codeName": "truong_thi",
+        "postalCode": "07119",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.800",
         "areaKm2": 31.5
       }

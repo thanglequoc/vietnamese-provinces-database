@@ -6948,6 +6948,8 @@
         "fullName": "Xã Hoà Thuận",
         "fullNameEn": "Hoa Thuan Commune",
         "codeName": "hoa_thuan",
+        "postalCode": "92316",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.383",
         "areaKm2": 73.85
       }

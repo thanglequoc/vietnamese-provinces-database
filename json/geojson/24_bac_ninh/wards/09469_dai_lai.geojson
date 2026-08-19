@@ -3372,6 +3372,8 @@
         "fullName": "Xã Đại Lai",
         "fullNameEn": "Dai Lai Commune",
         "codeName": "dai_lai",
+        "postalCode": "16713",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2131",
         "areaKm2": 15.32
       }

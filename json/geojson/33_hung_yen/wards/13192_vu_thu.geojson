@@ -4528,6 +4528,8 @@
         "fullName": "Xã Vũ Thư",
         "fullNameEn": "Vu Thu Commune",
         "codeName": "vu_thu",
+        "postalCode": "06906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.690",
         "areaKm2": 29.07
       }

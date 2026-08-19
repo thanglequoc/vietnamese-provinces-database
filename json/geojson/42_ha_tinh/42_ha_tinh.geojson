@@ -8352,6 +8352,8 @@
         "fullName": "Tỉnh Hà Tĩnh",
         "fullNameEn": "Ha Tinh Province",
         "codeName": "ha_tinh",
+        "postalCode": "",
+        "postalCodePrefix": "45, 46",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.53",
         "areaKm2": 5994.45
       }

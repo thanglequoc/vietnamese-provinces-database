@@ -11660,6 +11660,8 @@
         "fullName": "Xã Thông Nguyên",
         "fullNameEn": "Thong Nguyen Commune",
         "codeName": "thong_nguyen",
+        "postalCode": "20623",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2409",
         "areaKm2": 108.7
       }

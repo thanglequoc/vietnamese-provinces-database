@@ -7628,6 +7628,8 @@
         "fullName": "Xã Mỹ Yên",
         "fullNameEn": "My Yen Commune",
         "codeName": "my_yen",
+        "postalCode": "82607",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1313",
         "areaKm2": 29.23
       }

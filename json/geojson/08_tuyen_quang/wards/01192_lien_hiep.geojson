@@ -20496,6 +20496,8 @@
         "fullName": "Xã Liên Hiệp",
         "fullNameEn": "Lien Hiep Commune",
         "codeName": "lien_hiep",
+        "postalCode": "20824",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2428",
         "areaKm2": 166.67
       }

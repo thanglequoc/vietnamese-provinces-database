@@ -2596,6 +2596,8 @@
         "fullName": "Xã An Trạch",
         "fullNameEn": "An Trach Commune",
         "codeName": "an_trach",
+        "postalCode": "97613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.162",
         "areaKm2": 49.22
       }

@@ -756,6 +756,8 @@
         "fullName": "Phường Hoà Hưng",
         "fullNameEn": "Hoa Hung Ward",
         "codeName": "hoa_hung",
+        "postalCode": "72523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.85",
         "areaKm2": 2.59
       }

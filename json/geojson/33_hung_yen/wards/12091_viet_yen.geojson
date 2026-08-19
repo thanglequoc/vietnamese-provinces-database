@@ -2704,6 +2704,8 @@
         "fullName": "Xã Việt Yên",
         "fullNameEn": "Viet Yen Commune",
         "codeName": "viet_yen",
+        "postalCode": "17716",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.716",
         "areaKm2": 23.99
       }

@@ -960,6 +960,8 @@
         "fullName": "Phường Phương Liệt",
         "fullNameEn": "Phuong Liet Ward",
         "codeName": "phuong_liet",
+        "postalCode": "11412",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3184",
         "areaKm2": 3.2
       }

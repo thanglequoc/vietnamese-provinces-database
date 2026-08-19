@@ -2016,6 +2016,8 @@
         "fullName": "Phường Kinh Môn",
         "fullNameEn": "Kinh Mon Ward",
         "codeName": "kinh_mon",
+        "postalCode": "03431",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.882",
         "areaKm2": 11.47
       }

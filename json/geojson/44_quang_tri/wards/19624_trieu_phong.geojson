@@ -14732,6 +14732,8 @@
         "fullName": "Xã Triệu Phong",
         "fullNameEn": "Trieu Phong Commune",
         "codeName": "trieu_phong",
+        "postalCode": "48725",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.590",
         "areaKm2": 80.79
       }

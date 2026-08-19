@@ -7724,6 +7724,8 @@
         "fullName": "Phường Sa Huỳnh",
         "fullNameEn": "Sa Huynh Ward",
         "codeName": "sa_huynh",
+        "postalCode": "54325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1788",
         "areaKm2": 49.95
       }

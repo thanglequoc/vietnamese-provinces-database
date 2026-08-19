@@ -7804,6 +7804,8 @@
         "fullName": "Xã Ô Loan",
         "fullNameEn": "O Loan Commune",
         "codeName": "o_loan",
+        "postalCode": "56224",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2906",
         "areaKm2": 103.48
       }

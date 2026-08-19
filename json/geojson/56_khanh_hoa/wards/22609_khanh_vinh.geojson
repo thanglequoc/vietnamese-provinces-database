@@ -9632,6 +9632,8 @@
         "fullName": "Xã Khánh Vĩnh",
         "fullNameEn": "Khanh Vinh Commune",
         "codeName": "khanh_vinh",
+        "postalCode": "57406",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1130",
         "areaKm2": 192.4
       }

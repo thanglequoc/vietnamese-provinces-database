@@ -2164,6 +2164,8 @@
         "fullName": "Phường Mỹ Phước Tây",
         "fullNameEn": "My Phuoc Tay Ward",
         "codeName": "my_phuoc_tay",
+        "postalCode": "84864",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.465",
         "areaKm2": 36.1
       }

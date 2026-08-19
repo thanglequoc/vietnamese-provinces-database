@@ -2220,6 +2220,8 @@
         "fullName": "Xã Đoàn Đào",
         "fullNameEn": "Doan Dao Commune",
         "codeName": "doan_dao",
+        "postalCode": "17311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.725",
         "areaKm2": 22.39
       }

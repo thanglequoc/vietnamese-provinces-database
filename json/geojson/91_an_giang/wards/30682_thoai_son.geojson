@@ -4928,6 +4928,8 @@
         "fullName": "Xã Thoại Sơn",
         "fullNameEn": "Thoai Son Commune",
         "codeName": "thoai_son",
+        "postalCode": "90973",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.358",
         "areaKm2": 68.92
       }

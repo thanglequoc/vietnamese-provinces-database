@@ -6300,6 +6300,8 @@
         "fullName": "Xã Mậu Thạch",
         "fullNameEn": "Mau Thach Commune",
         "codeName": "mau_thach",
+        "postalCode": "44320",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1417",
         "areaKm2": 164.26
       }

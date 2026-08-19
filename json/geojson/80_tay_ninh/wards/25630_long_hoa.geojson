@@ -3844,6 +3844,8 @@
         "fullName": "Phường Long Hoa",
         "fullNameEn": "Long Hoa Ward",
         "codeName": "long_hoa",
+        "postalCode": "80606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2742",
         "areaKm2": 55.99
       }

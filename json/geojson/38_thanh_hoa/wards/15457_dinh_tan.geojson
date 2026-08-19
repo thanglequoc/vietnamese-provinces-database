@@ -2964,6 +2964,8 @@
         "fullName": "Xã Định Tân",
         "fullNameEn": "Dinh Tan Commune",
         "codeName": "dinh_tan",
+        "postalCode": "41009",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2616",
         "areaKm2": 30.67
       }

@@ -14548,6 +14548,8 @@
         "fullName": "Tỉnh Quảng Trị",
         "fullNameEn": "Quang Tri Province",
         "codeName": "quang_tri",
+        "postalCode": "",
+        "postalCodePrefix": "47, 48",
         "gisServerId": "diaphanhanhchinhcaptinh_sn.54",
         "areaKm2": 12700
       }

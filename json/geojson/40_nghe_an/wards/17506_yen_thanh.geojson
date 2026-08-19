@@ -4652,6 +4652,8 @@
         "fullName": "Xã Yên Thành",
         "fullNameEn": "Yen Thanh Commune",
         "codeName": "yen_thanh",
+        "postalCode": "43645",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1449",
         "areaKm2": 38.13
       }

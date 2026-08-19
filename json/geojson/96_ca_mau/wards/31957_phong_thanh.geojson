@@ -9244,6 +9244,8 @@
         "fullName": "Xã Phong Thạnh",
         "fullNameEn": "Phong Thanh Commune",
         "codeName": "phong_thanh",
+        "postalCode": "97517",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.158",
         "areaKm2": 27.08
       }

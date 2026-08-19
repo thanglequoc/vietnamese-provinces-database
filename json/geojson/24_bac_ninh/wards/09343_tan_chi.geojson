@@ -3624,6 +3624,8 @@
         "fullName": "Xã Tân Chi",
         "fullNameEn": "Tan Chi Commune",
         "codeName": "tan_chi",
+        "postalCode": "16416",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2128",
         "areaKm2": 18.11
       }

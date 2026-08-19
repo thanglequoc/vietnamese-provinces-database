@@ -2676,6 +2676,8 @@
         "fullName": "Xã An Thới Đông",
         "fullNameEn": "An Thoi Dong Commune",
         "codeName": "an_thoi_dong",
+        "postalCode": "73311",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.136",
         "areaKm2": 257.85
       }

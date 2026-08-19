@@ -6788,6 +6788,8 @@
         "fullName": "Xã Tam Đảo",
         "fullNameEn": "Tam Dao Commune",
         "codeName": "tam_dao",
+        "postalCode": "15313",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1622",
         "areaKm2": 79.2
       }

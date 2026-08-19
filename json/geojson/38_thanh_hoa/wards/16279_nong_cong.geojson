@@ -7632,6 +7632,8 @@
         "fullName": "Xã Nông Cống",
         "fullNameEn": "Nong Cong Commune",
         "codeName": "nong_cong",
+        "postalCode": "42306",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2587",
         "areaKm2": 50.7
       }

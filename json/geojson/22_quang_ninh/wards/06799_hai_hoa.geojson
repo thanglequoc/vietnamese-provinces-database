@@ -4432,6 +4432,8 @@
         "fullName": "Xã Hải Hoà",
         "fullNameEn": "Hai Hoa Commune",
         "codeName": "hai_hoa",
+        "postalCode": "01215",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1896",
         "areaKm2": 95.87
       }

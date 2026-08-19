@@ -9116,6 +9116,8 @@
         "fullName": "Xã Thanh Bồng",
         "fullNameEn": "Thanh Bong Commune",
         "codeName": "thanh_bong",
+        "postalCode": "53420",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1754",
         "areaKm2": 133.88
       }

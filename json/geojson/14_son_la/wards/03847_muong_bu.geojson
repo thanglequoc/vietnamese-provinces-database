@@ -10912,6 +10912,8 @@
         "fullName": "Xã Mường Bú",
         "fullNameEn": "Muong Bu Commune",
         "codeName": "muong_bu",
+        "postalCode": "34216",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1357",
         "areaKm2": 213.65
       }

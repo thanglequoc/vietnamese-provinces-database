@@ -9672,6 +9672,8 @@
         "fullName": "Xã Yên Cường",
         "fullNameEn": "Yen Cuong Commune",
         "codeName": "yen_cuong",
+        "postalCode": "20915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2425",
         "areaKm2": 116.9
       }

@@ -3376,6 +3376,8 @@
         "fullName": "Phường Kiến Tường",
         "fullNameEn": "Kien Tuong Ward",
         "codeName": "kien_tuong",
+        "postalCode": "83014",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1286",
         "areaKm2": 26.28
       }

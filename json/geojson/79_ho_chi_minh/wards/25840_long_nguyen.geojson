@@ -18056,6 +18056,8 @@
         "fullName": "Phường Long Nguyên",
         "fullNameEn": "Long Nguyen Ward",
         "codeName": "long_nguyen",
+        "postalCode": "75709",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.13",
         "areaKm2": 108
       }

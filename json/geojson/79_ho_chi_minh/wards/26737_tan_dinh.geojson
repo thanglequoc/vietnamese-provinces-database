@@ -2524,6 +2524,8 @@
         "fullName": "Phường Tân Định",
         "fullNameEn": "Tan Dinh Ward",
         "codeName": "tan_dinh",
+        "postalCode": "71008",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.37",
         "areaKm2": 1.23
       }

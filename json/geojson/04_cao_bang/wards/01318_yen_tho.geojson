@@ -10960,6 +10960,8 @@
         "fullName": "Xã Yên Thổ",
         "fullNameEn": "Yen Tho Commune",
         "codeName": "yen_tho",
+        "postalCode": "21418",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.971",
         "areaKm2": 167.67
       }

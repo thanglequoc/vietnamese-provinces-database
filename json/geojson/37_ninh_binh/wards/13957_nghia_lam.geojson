@@ -2360,6 +2360,8 @@
         "fullName": "Xã Nghĩa Lâm",
         "fullNameEn": "Nghia Lam Commune",
         "codeName": "nghia_lam",
+        "postalCode": "07423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.821",
         "areaKm2": 28.1
       }

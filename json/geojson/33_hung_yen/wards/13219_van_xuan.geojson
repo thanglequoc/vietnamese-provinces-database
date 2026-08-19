@@ -2564,6 +2564,8 @@
         "fullName": "Xã Vạn Xuân",
         "fullNameEn": "Van Xuan Commune",
         "codeName": "van_xuan",
+        "postalCode": "06940",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.682",
         "areaKm2": 30.36
       }

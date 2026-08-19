@@ -5308,6 +5308,8 @@
         "fullName": "Xã Bắc Trạch",
         "fullNameEn": "Bac Trach Commune",
         "codeName": "bac_trach",
+        "postalCode": "47212",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.622",
         "areaKm2": 97.61
       }

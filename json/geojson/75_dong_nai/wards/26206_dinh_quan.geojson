@@ -22568,6 +22568,8 @@
         "fullName": "Xã Định Quán",
         "fullNameEn": "Dinh Quan Commune",
         "codeName": "dinh_quan",
+        "postalCode": "76706",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3152",
         "areaKm2": 295.8
       }

@@ -11868,6 +11868,8 @@
         "fullName": "Xã Châu Tiến",
         "fullNameEn": "Chau Tien Commune",
         "codeName": "chau_tien",
+        "postalCode": "44013",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1410",
         "areaKm2": 247.16
       }

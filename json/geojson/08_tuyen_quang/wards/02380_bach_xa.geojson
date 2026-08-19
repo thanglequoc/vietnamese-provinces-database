@@ -11856,6 +11856,8 @@
         "fullName": "Xã Bạch Xa",
         "fullNameEn": "Bach Xa Commune",
         "codeName": "bach_xa",
+        "postalCode": "22613",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2334",
         "areaKm2": 127.41
       }

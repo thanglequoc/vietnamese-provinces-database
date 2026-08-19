@@ -4308,6 +4308,8 @@
         "fullName": "Xã Tuyên Thạnh",
         "fullNameEn": "Tuyen Thanh Commune",
         "codeName": "tuyen_thanh",
+        "postalCode": "83012",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1288",
         "areaKm2": 108.81
       }

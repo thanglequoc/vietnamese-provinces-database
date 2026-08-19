@@ -3284,6 +3284,8 @@
         "fullName": "Xã Diên Khánh",
         "fullNameEn": "Dien Khanh Commune",
         "codeName": "dien_khanh",
+        "postalCode": "57506",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1132",
         "areaKm2": 18.4
       }

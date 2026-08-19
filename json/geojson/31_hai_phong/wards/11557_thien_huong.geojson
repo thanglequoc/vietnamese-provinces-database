@@ -1180,6 +1180,8 @@
         "fullName": "Phường Thiên Hương",
         "fullNameEn": "Thien Huong Ward",
         "codeName": "thien_huong",
+        "postalCode": "04338",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.942",
         "areaKm2": 21.1
       }

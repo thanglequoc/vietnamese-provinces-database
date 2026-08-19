@@ -15204,6 +15204,8 @@
         "fullName": "Xã Phú Ninh",
         "fullNameEn": "Phu Ninh Commune",
         "codeName": "phu_ninh",
+        "postalCode": "52719",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1963",
         "areaKm2": 131.35
       }

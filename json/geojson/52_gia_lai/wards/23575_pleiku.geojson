@@ -4836,6 +4836,8 @@
         "fullName": "Phường Pleiku",
         "fullNameEn": "Pleiku Ward",
         "codeName": "pleiku",
+        "postalCode": "61129",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2947",
         "areaKm2": 25
       }

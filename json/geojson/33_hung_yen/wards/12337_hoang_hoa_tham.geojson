@@ -2192,6 +2192,8 @@
         "fullName": "Xã Hoàng Hoa Thám",
         "fullNameEn": "Hoang Hoa Tham Commune",
         "codeName": "hoang_hoa_tham",
+        "postalCode": "17222",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.723",
         "areaKm2": 31.85
       }

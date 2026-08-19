@@ -19676,6 +19676,8 @@
         "fullName": "Xã Phú Lý",
         "fullNameEn": "Phu Ly Commune",
         "codeName": "phu_ly",
+        "postalCode": "76908",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3151",
         "areaKm2": 279
       }

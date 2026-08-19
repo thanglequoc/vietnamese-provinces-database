@@ -2496,6 +2496,8 @@
         "fullName": "Xã Gia Phong",
         "fullNameEn": "Gia Phong Commune",
         "codeName": "gia_phong",
+        "postalCode": "08325",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.748",
         "areaKm2": 18.53
       }

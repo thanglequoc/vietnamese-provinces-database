@@ -5596,6 +5596,8 @@
         "fullName": "Xã Liên Hoà",
         "fullNameEn": "Lien Hoa Commune",
         "codeName": "lien_hoa",
+        "postalCode": "15409",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1613",
         "areaKm2": 18.8
       }

@@ -13408,6 +13408,8 @@
         "fullName": "Xã Thuận Mỹ",
         "fullNameEn": "Thuan My Commune",
         "codeName": "thuan_my",
+        "postalCode": "82210",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1334",
         "areaKm2": 53.37
       }

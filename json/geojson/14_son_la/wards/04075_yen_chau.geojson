@@ -10304,6 +10304,8 @@
         "fullName": "Xã Yên Châu",
         "fullNameEn": "Yen Chau Commune",
         "codeName": "yen_chau",
+        "postalCode": "34656",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1382",
         "areaKm2": 246.55
       }

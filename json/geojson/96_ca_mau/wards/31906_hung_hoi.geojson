@@ -18040,6 +18040,8 @@
         "fullName": "Xã Hưng Hội",
         "fullNameEn": "Hung Hoi Commune",
         "codeName": "hung_hoi",
+        "postalCode": "97209",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.152",
         "areaKm2": 28.38
       }

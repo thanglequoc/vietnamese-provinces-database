@@ -2360,6 +2360,8 @@
         "fullName": "Xã Nguyễn Văn Linh",
         "fullNameEn": "Nguyen Van Linh Commune",
         "codeName": "nguyen_van_linh",
+        "postalCode": "17707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.741",
         "areaKm2": 20.9
       }

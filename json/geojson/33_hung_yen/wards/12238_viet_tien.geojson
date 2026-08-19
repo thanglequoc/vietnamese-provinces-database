@@ -1956,6 +1956,8 @@
         "fullName": "Xã Việt Tiến",
         "fullNameEn": "Viet Tien Commune",
         "codeName": "viet_tien",
+        "postalCode": "17832",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.710",
         "areaKm2": 20.18
       }

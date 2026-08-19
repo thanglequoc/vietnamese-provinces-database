@@ -3336,6 +3336,8 @@
         "fullName": "Xã Tiên Đồng",
         "fullNameEn": "Tien Dong Commune",
         "codeName": "tien_dong",
+        "postalCode": "43828",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1439",
         "areaKm2": 119.62
       }

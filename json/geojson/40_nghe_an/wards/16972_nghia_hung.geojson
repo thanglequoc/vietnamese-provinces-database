@@ -8924,6 +8924,8 @@
         "fullName": "Xã Nghĩa Hưng",
         "fullNameEn": "Nghia Hung Commune",
         "codeName": "nghia_hung",
+        "postalCode": "43721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1469",
         "areaKm2": 68.65
       }

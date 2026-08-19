@@ -5140,6 +5140,8 @@
         "fullName": "Xã Thường Tín",
         "fullNameEn": "Thuong Tin Commune",
         "codeName": "thuong_tin",
+        "postalCode": "13606",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3166",
         "areaKm2": 28.29
       }

@@ -5820,6 +5820,8 @@
         "fullName": "Phường Mỹ Xuyên",
         "fullNameEn": "My Xuyen Ward",
         "codeName": "my_xuyen",
+        "postalCode": "96118",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.287",
         "areaKm2": 48.34
       }

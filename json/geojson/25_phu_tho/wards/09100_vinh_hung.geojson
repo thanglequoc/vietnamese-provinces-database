@@ -6112,6 +6112,8 @@
         "fullName": "Xã Vĩnh Hưng",
         "fullNameEn": "Vinh Hung Commune",
         "codeName": "vinh_hung",
+        "postalCode": "15635",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1636",
         "areaKm2": 18.7
       }

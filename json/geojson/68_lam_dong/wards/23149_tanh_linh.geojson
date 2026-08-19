@@ -26328,6 +26328,8 @@
         "fullName": "Xã Tánh Linh",
         "fullNameEn": "Tanh Linh Commune",
         "codeName": "tanh_linh",
+        "postalCode": "77520",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.3087",
         "areaKm2": 271.39
       }

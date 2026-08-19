@@ -796,6 +796,8 @@
         "fullName": "Phường Minh Phụng",
         "fullNameEn": "Minh Phung Ward",
         "codeName": "minh_phung",
+        "postalCode": "72624",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.91",
         "areaKm2": 1.27
       }

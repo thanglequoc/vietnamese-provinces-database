@@ -1416,6 +1416,8 @@
         "fullName": "Phường Phú Lâm",
         "fullNameEn": "Phu Lam Ward",
         "codeName": "phu_lam",
+        "postalCode": "73123",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.98",
         "areaKm2": 2
       }

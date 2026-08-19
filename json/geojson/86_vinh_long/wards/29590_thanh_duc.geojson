@@ -4780,6 +4780,8 @@
         "fullName": "Phường Thanh Đức",
         "fullNameEn": "Thanh Duc Ward",
         "codeName": "thanh_duc",
+        "postalCode": "85117",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2529",
         "areaKm2": 16.49
       }

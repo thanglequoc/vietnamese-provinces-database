@@ -6920,6 +6920,8 @@
         "fullName": "Xã Sơn Lương",
         "fullNameEn": "Son Luong Commune",
         "codeName": "son_luong",
+        "postalCode": "35523",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1601",
         "areaKm2": 96.92
       }

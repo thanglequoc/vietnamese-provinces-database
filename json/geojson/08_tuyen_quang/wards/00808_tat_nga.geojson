@@ -10732,6 +10732,8 @@
         "fullName": "Xã Tát Ngà",
         "fullNameEn": "Tat Nga Commune",
         "codeName": "tat_nga",
+        "postalCode": "20419",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2375",
         "areaKm2": 90.6
       }

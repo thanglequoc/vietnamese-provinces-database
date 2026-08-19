@@ -7224,6 +7224,8 @@
         "fullName": "Xã Tân Tây",
         "fullNameEn": "Tan Tay Commune",
         "codeName": "tan_tay",
+        "postalCode": "82915",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1297",
         "areaKm2": 113.45
       }

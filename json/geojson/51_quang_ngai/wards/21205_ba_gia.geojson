@@ -7068,6 +7068,8 @@
         "fullName": "Xã Ba Gia",
         "fullNameEn": "Ba Gia Commune",
         "codeName": "ba_gia",
+        "postalCode": "53219",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1746",
         "areaKm2": 66.14
       }

@@ -848,6 +848,8 @@
         "fullName": "Phường Chợ Lớn",
         "fullNameEn": "Cho Lon Ward",
         "codeName": "cho_lon",
+        "postalCode": "72723",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.97",
         "areaKm2": 1.67
       }

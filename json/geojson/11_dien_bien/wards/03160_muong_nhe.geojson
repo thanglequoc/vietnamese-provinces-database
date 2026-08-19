@@ -27096,6 +27096,8 @@
         "fullName": "Xã Mường Nhé",
         "fullNameEn": "Muong Nhe Commune",
         "codeName": "muong_nhe",
+        "postalCode": "32906",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2232",
         "areaKm2": 489.47
       }

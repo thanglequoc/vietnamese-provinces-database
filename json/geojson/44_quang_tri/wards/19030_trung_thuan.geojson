@@ -8372,6 +8372,8 @@
         "fullName": "Xã Trung Thuần",
         "fullNameEn": "Trung Thuan Commune",
         "codeName": "trung_thuan",
+        "postalCode": "47425",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.615",
         "areaKm2": 98.83
       }

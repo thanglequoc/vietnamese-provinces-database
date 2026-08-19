@@ -3560,6 +3560,8 @@
         "fullName": "Xã Hoà An",
         "fullNameEn": "Hoa An Commune",
         "codeName": "hoa_an",
+        "postalCode": "95518",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.248",
         "areaKm2": 61.62
       }

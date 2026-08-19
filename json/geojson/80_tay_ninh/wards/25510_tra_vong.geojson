@@ -20656,6 +20656,8 @@
         "fullName": "Xã Trà Vong",
         "fullNameEn": "Tra Vong Commune",
         "codeName": "tra_vong",
+        "postalCode": "80415",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2751",
         "areaKm2": 88.67
       }

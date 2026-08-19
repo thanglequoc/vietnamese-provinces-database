@@ -4812,6 +4812,8 @@
         "fullName": "Xã Kim Đông",
         "fullNameEn": "Kim Dong Commune",
         "codeName": "kim_dong",
+        "postalCode": "08731",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.780",
         "areaKm2": 81.82
       }

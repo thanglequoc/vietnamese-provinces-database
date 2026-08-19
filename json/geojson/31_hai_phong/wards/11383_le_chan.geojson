@@ -856,6 +856,8 @@
         "fullName": "Phường Lê Chân",
         "fullNameEn": "Le Chan Ward",
         "codeName": "le_chan",
+        "postalCode": "04721",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.932",
         "areaKm2": 5.65
       }

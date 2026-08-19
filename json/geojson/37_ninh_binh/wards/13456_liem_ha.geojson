@@ -3440,6 +3440,8 @@
         "fullName": "Xã Liêm Hà",
         "fullNameEn": "Liem Ha Commune",
         "codeName": "liem_ha",
+        "postalCode": "18423",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2783",
         "areaKm2": 20.95
       }

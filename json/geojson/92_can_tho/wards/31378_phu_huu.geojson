@@ -8724,6 +8724,8 @@
         "fullName": "Xã Phú Hữu",
         "fullNameEn": "Phu Huu Commune",
         "codeName": "phu_huu",
+        "postalCode": "95707",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.242",
         "areaKm2": 60.54
       }

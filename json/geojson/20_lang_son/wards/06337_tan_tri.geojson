@@ -11456,6 +11456,8 @@
         "fullName": "Xã Tân Tri",
         "fullNameEn": "Tan Tri Commune",
         "codeName": "tan_tri",
+        "postalCode": "25463",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1817",
         "areaKm2": 137.61
       }

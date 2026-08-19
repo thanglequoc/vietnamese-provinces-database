@@ -6688,6 +6688,8 @@
         "fullName": "Phường Bình Thuận",
         "fullNameEn": "Binh Thuan Ward",
         "codeName": "binh_thuan",
+        "postalCode": "22120",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.2351",
         "areaKm2": 46.34
       }

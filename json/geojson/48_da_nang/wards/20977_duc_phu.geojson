@@ -10876,6 +10876,8 @@
         "fullName": "Xã Đức Phú",
         "fullNameEn": "Duc Phu Commune",
         "codeName": "duc_phu",
+        "postalCode": "52825",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.1966",
         "areaKm2": 108.97
       }

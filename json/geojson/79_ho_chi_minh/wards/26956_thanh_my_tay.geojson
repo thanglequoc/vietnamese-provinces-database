@@ -3108,6 +3108,8 @@
         "fullName": "Phường Thạnh Mỹ Tây",
         "fullNameEn": "Thanh My Tay Ward",
         "codeName": "thanh_my_tay",
+        "postalCode": "72331",
+        "postalCodePrefix": "",
         "gisServerId": "diaphanhanhchinhcapxa_2025.62",
         "areaKm2": 4.4
       }
