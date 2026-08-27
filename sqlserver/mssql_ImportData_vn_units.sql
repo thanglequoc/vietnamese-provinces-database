@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */
-/* Created at:  Thu, 27 Aug 2026 00:49:01 +0700 */
+/* Created at:  Thu, 27 Aug 2026 08:52:13 +0700 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -828,7 +828,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('06931',N'Quảng Đức',N'Quang Duc',N'Xã Quảng Đức',N'Quang Duc Commune','quang_duc','22',4,N'01610'),
 ('06946',N'Đường Hoa',N'Duong Hoa',N'Xã Đường Hoa',N'Duong Hoa Commune','duong_hoa','22',4,N'01612'),
 ('06967',N'Cái Chiên',N'Cai Chien',N'Xã Cái Chiên',N'Cai Chien Commune','cai_chien','22',4,N'01621'),
-('06978',N'Ba Chẽ',N'Ba Che',N'Xã Ba Chẽ',N'Ba Che Commune','ba_che','22',4,N'02006'),
+('06970',N'Ba Chẽ',N'Ba Che',N'Xã Ba Chẽ',N'Ba Che Commune','ba_che','22',4,N'02006'),
 ('06979',N'Kỳ Thượng',N'Ky Thuong',N'Xã Kỳ Thượng',N'Ky Thuong Commune','ky_thuong','22',4,N'01133'),
 ('06985',N'Lương Minh',N'Luong Minh',N'Xã Lương Minh',N'Luong Minh Commune','luong_minh','22',4,N'02010'),
 ('06994',N'Vân Đồn',N'Van Don',N'Đặc khu Vân Đồn',N'Van Don Special administrative region','van_don','22',5,N'01318'),

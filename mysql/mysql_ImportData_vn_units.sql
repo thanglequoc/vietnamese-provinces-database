@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for PostgreSQL/MySQL === */
-/* Created at:  Thu, 27 Aug 2026 00:49:01 +0700 */
+/* Created at:  Thu, 27 Aug 2026 08:52:13 +0700 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -828,7 +828,7 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('06931','Quảng Đức','Quang Duc','Xã Quảng Đức','Quang Duc Commune','quang_duc','22',4,'01610'),
 ('06946','Đường Hoa','Duong Hoa','Xã Đường Hoa','Duong Hoa Commune','duong_hoa','22',4,'01612'),
 ('06967','Cái Chiên','Cai Chien','Xã Cái Chiên','Cai Chien Commune','cai_chien','22',4,'01621'),
-('06978','Ba Chẽ','Ba Che','Xã Ba Chẽ','Ba Che Commune','ba_che','22',4,'02006'),
+('06970','Ba Chẽ','Ba Che','Xã Ba Chẽ','Ba Che Commune','ba_che','22',4,'02006'),
 ('06979','Kỳ Thượng','Ky Thuong','Xã Kỳ Thượng','Ky Thuong Commune','ky_thuong','22',4,'01133'),
 ('06985','Lương Minh','Luong Minh','Xã Lương Minh','Luong Minh Commune','luong_minh','22',4,'02010'),
 ('06994','Vân Đồn','Van Don','Đặc khu Vân Đồn','Van Don Special administrative region','van_don','22',5,'01318'),
