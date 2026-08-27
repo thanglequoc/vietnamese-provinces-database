@@ -1,6 +1,6 @@
 # Elasticsearch Dataset — Vietnamese Provinces Database
 
-**Generated at: Wed, 26 Aug 2026 23:10:25 +0700**
+**Generated at: Thu, 27 Aug 2026 08:52:14 +0700**
 
 Provinces and wards as Elasticsearch documents in two indices: `provinces` (no geometry) and `provinces-gis` (with GIS geometry).
 

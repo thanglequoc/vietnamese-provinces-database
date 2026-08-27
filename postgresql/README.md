@@ -1,6 +1,6 @@
 # PostgreSQL Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 00:49:01 +0700**
+**Generated at: Thu, 27 Aug 2026 08:52:13 +0700**
 
 Import script for the Vietnamese Provinces Database on PostgreSQL/PostGIS.
 
