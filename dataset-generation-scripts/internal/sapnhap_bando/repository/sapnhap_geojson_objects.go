@@ -62,6 +62,7 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONProvinces(ctx conte
 		ColumnExpr("ST_AsText(ST_FlipCoordinates(sp.geom)) AS geom_wkt_lat_lng").
 		Relation("VNProvince.AdministrativeUnit").
 		Where("sp.vn_ds_ward_code IS NULL").
+		Order("sp.vn_ds_province_code ASC").
 		Scan(ctx)
 	if err != nil {
 		return nil, err
@@ -94,6 +95,7 @@ func (r *SapNhapGeoJSONObjectRepository) GetAllSapNhapGeoJSONWards(ctx context.C
 		Relation("VNProvince.AdministrativeUnit").
 		Relation("VNWard.AdministrativeUnit").
 		Where("sp.vn_ds_ward_code IS NOT NULL").
+		Order("sp.vn_ds_province_code ASC", "sp.vn_ds_ward_code ASC").
 		Scan(ctx)
 
 	if err != nil {
