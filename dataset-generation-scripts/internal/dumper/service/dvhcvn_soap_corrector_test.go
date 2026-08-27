@@ -15,13 +15,6 @@ func TestCorrectDvhcvnSoapData_UnitCodeCorrection(t *testing.T) {
 		expectedName string
 	}{
 		{
-			name:         "Corrects Ba Chẽ ward code from 06970 to 06978",
-			unitCode:     "06970",
-			unitName:     "Xã Ba Chẽ",
-			expectedCode: "06978",
-			expectedName: "Xã Ba Chẽ",
-		},
-		{
 			name:         "No correction for unknown code",
 			unitCode:     "99999",
 			unitName:     "Xã Unknown",
@@ -55,6 +48,11 @@ func TestCorrectDvhcvnSoapData_NoCorrectionNeeded(t *testing.T) {
 			name:     "Another unlisted code",
 			unitCode: "54321",
 			unitName: "Phường Tân Bình",
+		},
+		{
+			name:     "Ba Chẽ ward code remains unchanged",
+			unitCode: "06970",
+			unitName: "Xã Ba Chẽ",
 		},
 	}
 
