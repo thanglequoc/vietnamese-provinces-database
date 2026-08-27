@@ -1,6 +1,6 @@
 # Microsoft SQL Server Dataset — Vietnamese Provinces Database
 
-**Generated at: Wed, 26 Aug 2026 23:10:25 +0700**
+**Generated at: Thu, 27 Aug 2026 00:49:01 +0700**
 
 Import script for the Vietnamese Provinces Database on Microsoft SQL Server.
 
