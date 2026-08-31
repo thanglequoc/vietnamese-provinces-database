@@ -1,4 +1,4 @@
-# Release v4.2.1 — Ward code correction
+# Release v5.0.0 — Ward code correction
 
 ## Nội dung bản cập nhật
 
@@ -10,13 +10,13 @@ Không có thêm / xóa / thay đổi bản ghi nào khác trong dữ liệu đ�
 
 ### Hướng dẫn cập nhật
 
-Cập nhật bằng cách chạy trực tiếp tệp patch [v4.2.1_patch.sql](v4.2.1_patch.sql) trên cơ sở dữ liệu đã có dữ liệu v4.2.0 trở xuống.
+Cập nhật bằng cách chạy trực tiếp tệp patch [v5.0.0_patch.sql](v5.0.0_patch.sql) trên cơ sở dữ liệu đã có dữ liệu v4.2.0 trở xuống.
 
 ---
 
 _English_
 
-## Release v4.2.1 — Ward code correction
+## Release v5.0.0 — Ward code correction
 
 - Correct the administrative code of **Xã Ba Chẽ**, Ba Chẽ district, Quảng Ninh province:
   - Old code: `06978`
@@ -26,4 +26,4 @@ No other administrative-unit rows (administrative_regions, administrative_units,
 
 ### How to apply
 
-Execute the patch [v4.2.1_patch.sql](v4.2.1_patch.sql) directly on a database previously upgraded from v4.2.0 (or earlier).
+Execute the patch [v5.0.0_patch.sql](v5.0.0_patch.sql) directly on a database previously upgraded from v4.2.0 (or earlier).
