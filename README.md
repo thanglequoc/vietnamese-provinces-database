@@ -34,6 +34,7 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
+|Postal codes for all formats; Ba Chẽ ward code correction|---|---|v5.0.0|
 |Add GIS dataset for ElasticSearch, MongoDB|---|---|v4.2.0|
 |Add GeoJSON GIS, patch name, patch GIS province data of Da Nang and Khanh Hoa|---|---|v4.1.0|
 |Add GIS dataset|---|---|v4.0.0|
