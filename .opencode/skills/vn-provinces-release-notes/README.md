@@ -4,8 +4,9 @@ Generates a **bilingual (Vietnamese + English) end-user release note** for the V
 provinces database by diffing the current repository state (`HEAD`/working tree) against the
 **most recent release tag** (or a user-provided tag/commit), focusing only on changes
 beneficial to end users and **excluding** the internal `dataset-generation-scripts/` folder.
-The note is stored under `docs/release_notes/<version>.md` and the
-`docs/release_notes/README.md` index is updated.
+The note is stored under `docs/release_notes/<version>.md`, the
+`docs/release_notes/README.md` index is updated, and the new version + summary is added to the
+release-version tables in the root `README.md` and `README_vi.md`.
 
 This skill follows the open [Agent Skills](https://agent-skills.anthropic.dev/) spec
 (`SKILL.md` with `name`/`description` frontmatter), so any platform that understands

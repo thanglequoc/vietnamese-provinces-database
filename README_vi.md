@@ -33,6 +33,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 |Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|Mã bưu chính cho tất cả các định dạng; sửa mã xã Ba Chẽ|---|---|v5.0.0|
 |Thêm GIS dataset cho ElasticSearch, MongoDB|---|---|v4.2.0|
 |Thêm định dạng GIS GeoJSON, vá tên tiếng Anh, vá dữ liệu GIS của tỉnh Đà Nẵng và Khánh Hòa|---|---|v4.1.0|
 |Thêm dữ liệu GIS|---|---|v4.0.0|

@@ -1,6 +1,6 @@
 ---
 name: vn-provinces-release-notes
-description: Generate a bilingual (Vietnamese + English) end-user release note by diffing the current repository state (HEAD/working tree) against the most recent release tag (or a user-provided git tag/commit), focusing only on changes beneficial to end users and excluding the internal dataset-generation-scripts folder, then store it under docs/release_notes/<version>.md and update the docs/release_notes/README.md index. Use when asked to "generate/draft/write release notes", "create a release note for the next version", "what changed since <tag>", "summarize changes for users", or when preparing a new release.
+description: Generate a bilingual (Vietnamese + English) end-user release note by diffing the current repository state (HEAD/working tree) against the most recent release tag (or a user-provided git tag/commit), focusing only on changes beneficial to end users and excluding the internal dataset-generation-scripts folder, then store it under docs/release_notes/<version>.md, update the docs/release_notes/README.md index, and add the new version + summary to the release-version tables in the root README.md and README_vi.md. Use when asked to "generate/draft/write release notes", "create a release note for the next version", "what changed since <tag>", "summarize changes for users", or when preparing a new release.
 ---
 
 # VN Provinces Release Notes
@@ -118,10 +118,23 @@ Follow the style of `docs/release_notes_v4.1.0.md` / `docs/release_notes_v4.2.0.
 - Keep numbers consistent with the generated data (e.g. 34 provinces, 3,321 wards).
 - The release note is Vietnamese-first; the English block is a full mirror.
 
-### Step 6 — Update the release notes index
+### Step 6 — Update the release notes index & root README version tables
 
 Append the new version to `docs/release_notes/README.md`: version, date, one-line summary,
 and a link to the note file.
+
+Also update the **release-version tables** in the root `README.md` and `README_vi.md`
+(section "Dataset releases and Government issued decrees" / "Các phiên bản của bộ dữ liệu và
+Nghị định của Chính phủ"):
+
+- Add a new row at the **top** of the table (above the previous latest version):
+  - `README.md` (English description): `| <one-line summary>|---|---|v<version>|`
+  - `README_vi.md` (Vietnamese description): `| <one-line Vietnamese summary>|---|---|v<version>|`
+- Use the release note's one-line summary (matching the `docs/release_notes/README.md` row),
+  written in English for `README.md` and Vietnamese for `README_vi.md`.
+- Use `---` for the "Issued on"/"Effect from" (or "Ngày ban hành"/"Ngày có hiệu lực")
+  columns unless the release is tied to a government administrative decree — in that case fill
+  in the decree dates and link the decree reference.
 
 ### Step 7 — Verify
 
@@ -129,6 +142,8 @@ and a link to the note file.
   relevant path). Re-check counts and names.
 - Confirm the file is written to `docs/release_notes/<release_version>.md` and the index is
   updated.
+- Confirm the new version row was added at the top of the version tables in both root
+  `README.md` and `README_vi.md`.
 
 ## Reporting
 
@@ -136,6 +151,7 @@ Summarize for the user:
 - OLD baseline ref, NEW state, and target release version.
 - The user-facing themes covered (and anything explicitly excluded).
 - The output file path `docs/release_notes/<version>.md` and index update.
+- The root `README.md` / `README_vi.md` version-table update.
 
 ## Cross-platform portability
 
