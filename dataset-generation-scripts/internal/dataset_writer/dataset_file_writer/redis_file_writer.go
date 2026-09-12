@@ -12,7 +12,7 @@ import (
 const hsetAdministrativeUnitTemplate string = "HSET administrativeUnit:%d id %d fullName \"%s\" fullNameEn \"%s\" shortName \"%s\" shortNameEn \"%s\" codeName \"%s\"\n"
 const hsetRegionTemplate string = "HSET region:%d name \"%s\" nameEn \"%s\" codeName \"%s\" \n"
 
-const hsetDatasetMetadataTemplate string = "HSET datasetMetadata datasetVersion \"%s\" latestDecree \"%s\" generatedAt \"%s\" \n"
+const hsetDatasetMetadataTemplate string = "HSET vnProvincesMetadata datasetVersion \"%s\" latestDecree \"%s\" generatedAt \"%s\" \n"
 
 const hsetProvinceTemplate string = "HSET province:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" postalCodePrefix \"%s\" administrativeUnitId %d \n"
 
@@ -88,7 +88,7 @@ func writeRedisReadme(outputFolderPath string) error {
 			"| `region:<id>` | hash | 8 |",
 			"| `province:<code>:wards` | set | 34 |",
 			"| `province:<code>:wards:vn` / `:en` | hash | 34 each |",
-			"| `datasetMetadata` | hash | 1 |",
+			"| `vnProvincesMetadata` | hash | 1 |",
 			"",
 			"## Data Structure",
 			"",
@@ -96,7 +96,7 @@ func writeRedisReadme(outputFolderPath string) error {
 			"",
 			"`ward:<code>` fields: `code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `postalCode`, `administrativeUnitId`, `districtCode`.",
 			"",
-			"`datasetMetadata` fields: `datasetVersion`, `latestDecree`, `generatedAt` (UTC, RFC 3339).",
+			"`vnProvincesMetadata` fields: `datasetVersion`, `latestDecree`, `generatedAt` (UTC, RFC 3339).",
 			"",
 			"`province:<code>:wards:vn` / `:en` map ward codes to Vietnamese/English full names.",
 			"",
@@ -122,7 +122,7 @@ func writeRedisReadme(outputFolderPath string) error {
 			"redis-cli SMEMBERS province:01:wards",
 			"redis-cli HGET ward:00004 fullName",
 			"redis-cli HGET province:01:wards:vn 00004",
-			"redis-cli HGETALL datasetMetadata",
+			"redis-cli HGETALL vnProvincesMetadata",
 			"```",
 		})
 }

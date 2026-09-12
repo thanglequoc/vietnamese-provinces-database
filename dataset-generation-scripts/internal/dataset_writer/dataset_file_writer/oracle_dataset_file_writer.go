@@ -117,9 +117,9 @@ func (w *OracleDatasetFileWriter) WriteToFile(
 	dataWriter.WriteString("-- ----------------------------------\n\n")
 
 	if !w.Metadata.IsEmpty() {
-		dataWriter.WriteString("-- DATA for dataset_metadata --\n")
+		dataWriter.WriteString("-- DATA for vn_provinces_metadata --\n")
 		dataWriter.WriteString(fmt.Sprintf(
-			"INSERT INTO dataset_metadata(dataset_version,latest_decree,generated_at) VALUES('%s',%s,TO_TIMESTAMP('%s','YYYY-MM-DD HH24:MI:SS'));\n",
+			"INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES('%s',%s,TO_TIMESTAMP('%s','YYYY-MM-DD HH24:MI:SS'));\n",
 			escapeSingleQuote(w.Metadata.DatasetVersion),
 			nullableSQLString(w.Metadata.LatestDecree),
 			w.Metadata.GeneratedAtSQL(),
@@ -152,7 +152,7 @@ func writeOracleReadme(outputFolderPath string) error {
 			"| `administrative_units` | 8 | Administrative unit types (city, province, ward, ...) |",
 			"| `provinces` | 34 | Provinces and municipalities |",
 			"| `wards` | 3,321 | Wards, communes, and town townships |",
-			"| `dataset_metadata` | 1 | Dataset version, latest decree, and generation timestamp |",
+			"| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp |",
 			"",
 			"## Data Structure",
 			"",
@@ -181,7 +181,7 @@ func writeOracleReadme(outputFolderPath string) error {
 			"",
 			"`administrative_regions` and `administrative_units` hold the region and unit-type lookup rows (8 each).",
 			"",
-			"### dataset_metadata",
+			"### vn_provinces_metadata",
 			"",
 			"Single-row table describing the dataset release:",
 			"",
@@ -210,7 +210,7 @@ func writeOracleReadme(outputFolderPath string) error {
 			"SELECT (SELECT COUNT(*) FROM provinces) AS provinces, (SELECT COUNT(*) FROM wards) AS wards FROM dual;",
 			"",
 			"-- Dataset version and latest decree",
-			"SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;",
+			"SELECT dataset_version, latest_decree, generated_at FROM vn_provinces_metadata;",
 			"",
 			"SELECT w.code, w.name FROM wards w WHERE w.province_code = '01' ORDER BY w.name;",
 			"",

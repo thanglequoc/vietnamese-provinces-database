@@ -19,7 +19,7 @@ The generation timestamp is captured at run time (UTC) and is **not** stored in 
 
 ## Metadata shape
 
-A **separate, single-row** `dataset_metadata` entity. No existing table/collection/index
+A **separate, single-row** `vn_provinces_metadata` entity. No existing table/collection/index
 structure is modified.
 
 | Column | Type | Notes |
@@ -33,21 +33,21 @@ structure is modified.
 | Component | Change |
 |-----------|--------|
 | `version.txt` | New version source file |
-| `internal/dataset_metadata/` | New loader package (`Parse`, `LoadFromFile`, `Load`) + tests |
-| `resources/db_table_init.sql` | Add `dataset_metadata` DDL (tmp Postgres) |
-| `resources/fresh_cleanup.sql` | Drop `dataset_metadata` |
+| `internal/vn_provinces_metadata/` | New loader package (`Parse`, `LoadFromFile`, `Load`) + tests |
+| `resources/db_table_init.sql` | Add `vn_provinces_metadata` DDL (tmp Postgres) |
+| `resources/fresh_cleanup.sql` | Drop `vn_provinces_metadata` |
 | `internal/database/vn_province_db_service.go` | `BootstrapDatasetMetadata()` inserts the row |
 | `main.go` | Call `BootstrapDatasetMetadata()` after structure bootstrap |
-| `postgresql/`, `mysql/`, `sqlserver/`, `oracle/` `*_CreateTables_vn_units.sql` | Add engine-native `dataset_metadata` DDL |
+| `postgresql/`, `mysql/`, `sqlserver/`, `oracle/` `*_CreateTables_vn_units.sql` | Add engine-native `vn_provinces_metadata` DDL |
 | `postgres_mysql_dataset_file_writer.go` | `Metadata` field → `INSERT` in base import file |
 | `mssql_dataset_file_writer.go` | `Metadata` field → `INSERT` (N'' literals) |
 | `oracle_dataset_file_writer.go` | `Metadata` field → `INSERT` (`TO_TIMESTAMP`) |
-| `json_file_writer.go` | `Metadata` field → `metadata.json` |
-| `mongodb_file_writer.go` | `Metadata` field → `mongo_data_vn_metadata.json` |
-| `redis_file_writer.go` | `Metadata` field → `HSET datasetMetadata ...` |
-| `elasticsearch_file_writer.go` | `Metadata` field → `dataset_metadata.ndjson` + mapping (index `dataset_metadata`) |
+| `json_file_writer.go` | `Metadata` field → `vn_provinces_metadata.json` |
+| `mongodb_file_writer.go` | `Metadata` field → `mongo_data_vn_provinces_metadata.json` |
+| `redis_file_writer.go` | `Metadata` field → `HSET vnProvincesMetadata ...` |
+| `elasticsearch_file_writer.go` | `Metadata` field → `vn_provinces_metadata.ndjson` + mapping (index `vn_provinces_metadata`) |
 | `dataset_writer.go` | Load metadata once, pass to every writer |
-| `.opencode/skills/vn-provinces-patch/` | Ignore `dataset_metadata` when diffing |
+| `.opencode/skills/vn-provinces-patch/` | Ignore `vn_provinces_metadata` when diffing |
 | `README.md`, `README_vi.md`, `AGENTS.md`, `CLAUDE.md` | Documentation |
 
 ## Implementation notes
@@ -67,7 +67,7 @@ structure is modified.
 - Missing/invalid `version.txt` aborts generation with a clear error.
 - Empty `latest_decree` is written as `NULL` (SQL) / empty string (JSON/Redis/ES).
 - Timestamps are always UTC (`YYYY-MM-DD HH:MM:SS` for SQL, RFC 3339 elsewhere).
-- `dataset_metadata` changes on every regeneration (timestamp), so the patch skill must
+- `vn_provinces_metadata` changes on every regeneration (timestamp), so the patch skill must
   ignore it; otherwise every patch would be non-empty.
 
 ## Upstream GIS version decision
@@ -84,5 +84,5 @@ basis.
 - The dataset is regenerated (and published) whenever a new decree or dataset version is
   prepared.
 - Consumers run the provided `*_CreateTables_*` script before importing, so the
-  `dataset_metadata` table exists.
-- `dataset_metadata` is intentionally excluded from data-only upgrade patches.
+  `vn_provinces_metadata` table exists.
+- `vn_provinces_metadata` is intentionally excluded from data-only upgrade patches.

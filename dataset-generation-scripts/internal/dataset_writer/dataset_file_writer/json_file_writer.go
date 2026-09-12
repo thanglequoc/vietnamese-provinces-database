@@ -57,7 +57,7 @@ func (w *JSONDatasetFileWriter) WriteToFile(
 			LatestDecree:   w.Metadata.LatestDecree,
 			GeneratedAt:    w.Metadata.GeneratedAtRFC3339(),
 		}
-		if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "metadata.json"), metadataDoc); err != nil {
+		if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "vn_provinces_metadata.json"), metadataDoc); err != nil {
 			return err
 		}
 	}
@@ -95,7 +95,7 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			{Name: "simplified_json_generated_data_vn_units_minified.json", Description: "Simplified dataset (minified)"},
 			{Name: "vn_only_simplified_json_generated_data_vn_units.json", Description: "Vietnamese-only simplified (pretty-printed)"},
 			{Name: "vn_only_simplified_json_generated_data_vn_units_minified.json", Description: "Vietnamese-only simplified (minified)"},
-			{Name: "metadata.json", Description: "Dataset version, latest decree, and generation timestamp"},
+			{Name: "vn_provinces_metadata.json", Description: "Dataset version, latest decree, and generation timestamp"},
 		},
 		[]string{
 			"## Overview",
@@ -107,7 +107,7 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			"| `simplified_json_generated_data_vn_units_minified.json` | Simplified, minified (no whitespace) |",
 			"| `vn_only_simplified_json_generated_data_vn_units.json` | Vietnamese-only fields (pretty-printed) |",
 			"| `vn_only_simplified_json_generated_data_vn_units_minified.json` | Vietnamese-only fields (minified) |",
-			"| `metadata.json` | Dataset version, latest decree, and generation timestamp |",
+			"| `vn_provinces_metadata.json` | Dataset version, latest decree, and generation timestamp |",
 			"",
 			"## Data Structure",
 			"",
@@ -121,7 +121,7 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			"- **`postalCodePrefix`** — comma-separated 2-digit postal prefixes",
 			"- **`wards`** — array of ward objects (`code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `provinceCode`, `postalCode`, unit fields)",
 			"",
-			"`metadata.json` is a separate single object describing the dataset release:",
+			"`vn_provinces_metadata.json` is a separate single object describing the dataset release:",
 			"",
 			"- **`DatasetVersion`** — dataset release version (e.g. `v5.1.0`)",
 			"- **`LatestDecree`** — latest government decree reflected in the data (e.g. `30/2026/QH16`)",

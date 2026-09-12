@@ -61,7 +61,7 @@ The following table contains a list of issued decrees and their effective dates,
 - Assigned administrative units to province and ward data  
 - Generated English names for provinces and wards, offering both full and short forms  
 - Generated code names (slugs) for provinces and wards  
-- Added `dataset_metadata` table (dataset version, latest decree, generation timestamp)  
+- Added `vn_provinces_metadata` table (dataset version, latest decree, generation timestamp)  
 - **Add-on**: Additional GIS dataset for administrative units
 
 ## Installation
@@ -203,9 +203,9 @@ The `wards` table contains a list of **second administrative tier - the commune 
 |25975|An Phú|An Phu|Phường An Phú|An Phu Ward|an_phu|79|3|
 
 
-### `dataset_metadata` table
+### `vn_provinces_metadata` table
 
-The `dataset_metadata` table is a single-row table that describes which release of the dataset is installed, so applications can detect the current version and know when an update is available.
+The `vn_provinces_metadata` table is a single-row table that describes which release of the dataset is installed, so applications can detect the current version and know when an update is available.
 
 #### Table definition
 
@@ -221,7 +221,7 @@ The `dataset_metadata` table is a single-row table that describes which release 
 |--|--|--|
 |v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
 
-The same metadata is exported for the non-SQL formats: `metadata.json` (JSON), the `dataset_metadata` collection (MongoDB), the `datasetMetadata` hash (Redis), and the `dataset_metadata` index (Elasticsearch).
+The same metadata is exported for the non-SQL formats: `vn_provinces_metadata.json` (JSON), the `vn_provinces_metadata` collection (MongoDB), the `vnProvincesMetadata` hash (Redis), and the `vn_provinces_metadata` index (Elasticsearch).
 
 
 ## Sample Queries
@@ -256,7 +256,7 @@ ORDER BY w.code;
 ### Get the installed dataset version
 
 ```sql
-SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;
+SELECT dataset_version, latest_decree, generated_at FROM vn_provinces_metadata;
 ```
 
 ## Non-SQL Formats

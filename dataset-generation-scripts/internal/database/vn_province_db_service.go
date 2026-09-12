@@ -61,7 +61,7 @@ func BootstrapDatasetMetadata() {
 	ctx := context.Background()
 	_, err = db.ExecContext(
 		ctx,
-		`INSERT INTO dataset_metadata(dataset_version, latest_decree, generated_at)
+		`INSERT INTO vn_provinces_metadata(dataset_version, latest_decree, generated_at)
 		VALUES (?, ?, ?)`,
 		metadata.DatasetVersion,
 		latestDecree,

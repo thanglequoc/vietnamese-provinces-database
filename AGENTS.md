@@ -81,7 +81,7 @@ EOF
 | `wards_tmp` | 3,321 | Vietnam wards (code, name, name_en, province_code FK, administrative_unit_id) |
 | `administrative_regions` | 8 | Region lookup (id, name, name_en) |
 | `administrative_units` | 8 | Unit type lookup (id, full_name, short_name) |
-| `dataset_metadata` | 1 | Dataset version descriptor (dataset_version, latest_decree, generated_at) |
+| `vn_provinces_metadata` | 1 | Dataset version descriptor (dataset_version, latest_decree, generated_at) |
 | `sapnhap_geojson_objects` | 3,355 | Combined geo objects with PostGIS geometry (ma, ten, magoc, malk, truocsapnhap, dientichkm2, bbox_wkt, geom_wkt, vn_ds_province_code FK, vn_ds_ward_code FK) |
 
 ### Key Columns
@@ -92,7 +92,7 @@ EOF
 
 **`sapnhap_geojson_objects`**: `ma` (PK), `ten` (name), `magoc` (parent FK, self-ref), `truocsapnhap` (pre-merge name), `dientichkm2` (area in km²), `bbox_wkt` (WKT POLYGON), `geom_wkt` (WKT MULTIPOLYGON), `vn_ds_province_code` (FK → `provinces_tmp.code`), `vn_ds_ward_code` (FK → `wards_tmp.code`). `bbox` and `geom` are `GENERATED ALWAYS` stored PostGIS columns derived from the WKT columns.
 
-**`dataset_metadata`**: `dataset_version` (e.g. `"v5.1.0"`), `latest_decree` (e.g. `"30/2026/QH16"`), `generated_at` (UTC timestamp). Single row, sourced from `dataset-generation-scripts/version.txt`.
+**`vn_provinces_metadata`**: `dataset_version` (e.g. `"v5.1.0"`), `latest_decree` (e.g. `"30/2026/QH16"`), `generated_at` (UTC timestamp). Single row, sourced from `dataset-generation-scripts/version.txt`.
 
 ### Common Query Patterns
 
@@ -683,10 +683,10 @@ vietnamese-provinces-database/
 
 Current generation flow (exact order in `main.go`):
 1. `BootstrapTemporaryDatasetStructure()` — drops all tables (`fresh_cleanup.sql`), creates core tables, seeds regions/units
-2. `BootstrapDatasetMetadata()` — loads `version.txt` and inserts the single `dataset_metadata` row
+2. `BootstrapDatasetMetadata()` — loads `version.txt` and inserts the single `vn_provinces_metadata` row
 3. `BeginDumpingDataWithDvhcvnDirectSource()` — DVHCVN SOAP dump into `provinces_tmp`/`wards_tmp` (the only ingestion path; no fallback flag)
 4. `postal_code.ImportPostalCodes()` — imports postal codes from `resources/postal/` seed files into `provinces_tmp.postal_code_prefix` / `wards_tmp.postal_code` (name-based match scoped by province, tone-stripped `name_en` fallback)
-5. `ReadAndGenerateSQLDatasets()` — non-GIS exports (SQL/JSON/MongoDB/Redis/Elasticsearch), each carrying the `dataset_metadata` version info
+5. `ReadAndGenerateSQLDatasets()` — non-GIS exports (SQL/JSON/MongoDB/Redis/Elasticsearch), each carrying the `vn_provinces_metadata` version info
 6. If `INCLUDE_GIS`: `BootstrapGISDataStructure()` → `BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()` (name-based match) → `FetchGISDataFromSapNhapBando()` (live WKT fetch) → `PatchIslandProvincesGeometry()` → `ValidateAndFixGeometries()` → `GenerateGISSQLDatasets()`
 - `resources/manual_seeds/` still exists but is **not wired into the Go code** — the direct DVHCVN source is the only dumper.
 

@@ -8,17 +8,17 @@ import (
 	"os"
 	"path/filepath"
 
-	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
 	sapnhapbandomodel "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 const (
 	esIndexName         = "provinces"
 	esGISIndexName      = "provinces-gis"
-	esMetadataIndexName = "dataset_metadata"
+	esMetadataIndexName = "vn_provinces_metadata"
 
 	// largeDocWarningThreshold is the size at which a single document triggers a warning.
 	largeDocWarningThreshold = 8 * 1024 * 1024 // 8 MB
@@ -217,7 +217,7 @@ func writeNDJSON(path, index string, docs []dataset_file_writer_dto.Elasticsearc
 	return writer.Flush()
 }
 
-// writeDatasetMetadataIndex writes the single-document dataset_metadata index
+// writeDatasetMetadataIndex writes the single-document vn_provinces_metadata index
 // (NDJSON + mapping) describing the dataset version, decree, and generation time.
 func writeDatasetMetadataIndex(outputFolderPath string, metadata datasetmetadata.Metadata) error {
 	doc := dataset_file_writer_dto.DatasetMetadataDocument{
@@ -226,12 +226,12 @@ func writeDatasetMetadataIndex(outputFolderPath string, metadata datasetmetadata
 		GeneratedAt:    metadata.GeneratedAtRFC3339(),
 	}
 
-	ndjsonPath := fmt.Sprintf("%s/dataset_metadata.ndjson", outputFolderPath)
+	ndjsonPath := fmt.Sprintf("%s/vn_provinces_metadata.ndjson", outputFolderPath)
 	if err := writeMetadataNDJSON(ndjsonPath, doc); err != nil {
 		return err
 	}
 
-	mappingPath := fmt.Sprintf("%s/mappings/dataset_metadata.json", outputFolderPath)
+	mappingPath := fmt.Sprintf("%s/mappings/vn_provinces_metadata.json", outputFolderPath)
 	return writeDatasetMetadataMapping(mappingPath)
 }
 
@@ -263,7 +263,7 @@ func writeMetadataNDJSON(path string, doc dataset_file_writer_dto.DatasetMetadat
 	return writer.Flush()
 }
 
-// writeDatasetMetadataMapping writes the static mapping for the dataset_metadata index.
+// writeDatasetMetadataMapping writes the static mapping for the vn_provinces_metadata index.
 func writeDatasetMetadataMapping(path string) error {
 	mapping := map[string]interface{}{
 		"mappings": map[string]interface{}{
@@ -733,7 +733,7 @@ func writeESReadme(path string) error {
 		"|-------|-----------|-------------|",
 		"| `provinces` | 34 | Provincial metadata with embedded wards, search keywords, and administrative unit data (no GIS geometry) |",
 		"| `provinces-gis` | 34 | Same structure plus GIS geometry for both provinces and wards (bounding boxes + GeoJSON polygons) |",
-		"| `dataset_metadata` | 1 | Dataset version, latest decree, and generation timestamp |",
+		"| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp |",
 		"",
 		"## Data Structure",
 		"",
@@ -770,18 +770,18 @@ func writeESReadme(path string) error {
 		"```bash",
 		`curl -X PUT "localhost:9200/provinces" -H 'Content-Type: application/json' -d @mappings/provinces.json`,
 		`curl -X PUT "localhost:9200/provinces-gis" -H 'Content-Type: application/json' -d @mappings/provinces-gis.json`,
-		`curl -X PUT "localhost:9200/dataset_metadata" -H 'Content-Type: application/json' -d @mappings/dataset_metadata.json`,
+		`curl -X PUT "localhost:9200/vn_provinces_metadata" -H 'Content-Type: application/json' -d @mappings/vn_provinces_metadata.json`,
 		"```",
 		"",
-		"2. Bulk import `provinces.ndjson`, `dataset_metadata.ndjson`, and the `provinces-gis-part-*.ndjson` chunks in order (per `provinces-gis.ndjson.manifest`):",
+		"2. Bulk import `provinces.ndjson`, `vn_provinces_metadata.ndjson`, and the `provinces-gis-part-*.ndjson` chunks in order (per `provinces-gis.ndjson.manifest`):",
 		"",
 		"```bash",
 		`curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @provinces.ndjson`,
-		`curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @dataset_metadata.ndjson`,
+		`curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @vn_provinces_metadata.ndjson`,
 		`curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @provinces-gis-part-01.ndjson`,
 		"```",
 		"",
-		"3. Verify: 34 documents in each province index, 1 in `dataset_metadata`.",
+		"3. Verify: 34 documents in each province index, 1 in `vn_provinces_metadata`.",
 		"",
 		"## Sample Queries",
 		"",
@@ -790,7 +790,7 @@ func writeESReadme(path string) error {
 		"POST /provinces/_count",
 		"",
 		"// Dataset version and latest decree",
-		"GET /dataset_metadata/_doc/1",
+		"GET /vn_provinces_metadata/_doc/1",
 		"",
 		"// Autocomplete search",
 		"POST /provinces/_search",
@@ -818,10 +818,10 @@ func writeESReadme(path string) error {
 			{Name: "provinces.ndjson", Description: "Bulk API NDJSON for the provinces index"},
 			{Name: "provinces-gis-part-01.ndjson", Description: "Bulk API NDJSON for provinces-gis (part 1 of 5)"},
 			{Name: "provinces-gis.ndjson.manifest", Description: "Ordered chunk list for provinces-gis"},
-			{Name: "dataset_metadata.ndjson", Description: "Bulk API NDJSON for the dataset_metadata index"},
+			{Name: "vn_provinces_metadata.ndjson", Description: "Bulk API NDJSON for the vn_provinces_metadata index"},
 			{Name: "mappings/provinces.json", Description: "Index mapping for provinces"},
 			{Name: "mappings/provinces-gis.json", Description: "Index mapping for provinces-gis"},
-			{Name: "mappings/dataset_metadata.json", Description: "Index mapping for dataset_metadata"},
+			{Name: "mappings/vn_provinces_metadata.json", Description: "Index mapping for vn_provinces_metadata"},
 		},
 		sections)
 }

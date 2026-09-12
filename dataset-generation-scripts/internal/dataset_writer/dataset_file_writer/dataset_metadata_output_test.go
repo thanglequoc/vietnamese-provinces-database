@@ -30,7 +30,7 @@ func TestPostgresMySQLDatasetFileWriter_WriteMetadata(t *testing.T) {
 
 	content := readGeneratedSQLFile(t, tmpDir)
 	assert.Contains(t, content,
-		"INSERT INTO dataset_metadata(dataset_version,latest_decree,generated_at) VALUES('v5.1.0','30/2026/QH16','2026-09-12 10:00:00');")
+		"INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES('v5.1.0','30/2026/QH16','2026-09-12 10:00:00');")
 }
 
 func TestMssqlDatasetFileWriter_WriteMetadata(t *testing.T) {
@@ -44,7 +44,7 @@ func TestMssqlDatasetFileWriter_WriteMetadata(t *testing.T) {
 
 	content := readGeneratedSQLFile(t, tmpDir)
 	assert.Contains(t, content,
-		"INSERT INTO dataset_metadata(dataset_version,latest_decree,generated_at) VALUES(N'v5.1.0',N'30/2026/QH16','2026-09-12 10:00:00');")
+		"INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES(N'v5.1.0',N'30/2026/QH16','2026-09-12 10:00:00');")
 }
 
 func TestOracleDatasetFileWriter_WriteMetadata(t *testing.T) {
@@ -57,7 +57,7 @@ func TestOracleDatasetFileWriter_WriteMetadata(t *testing.T) {
 	require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
 
 	content := readGeneratedSQLFile(t, tmpDir)
-	assert.Contains(t, content, "INSERT INTO dataset_metadata(dataset_version,latest_decree,generated_at)")
+	assert.Contains(t, content, "INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at)")
 	assert.Contains(t, content, "TO_TIMESTAMP('2026-09-12 10:00:00','YYYY-MM-DD HH24:MI:SS')")
 }
 
@@ -70,7 +70,7 @@ func TestJSONDatasetFileWriter_WriteMetadata(t *testing.T) {
 
 	require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
 
-	content, err := os.ReadFile(filepath.Join(tmpDir, "metadata.json"))
+	content, err := os.ReadFile(filepath.Join(tmpDir, "vn_provinces_metadata.json"))
 	require.NoError(t, err)
 	s := string(content)
 	assert.Contains(t, s, `"DatasetVersion": "v5.1.0"`)
@@ -87,7 +87,7 @@ func TestMongoDBDatasetFileWriter_WriteMetadata(t *testing.T) {
 
 	require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
 
-	content, err := os.ReadFile(filepath.Join(tmpDir, "mongo_data_vn_metadata.json"))
+	content, err := os.ReadFile(filepath.Join(tmpDir, "mongo_data_vn_provinces_metadata.json"))
 	require.NoError(t, err)
 	s := string(content)
 	assert.Contains(t, s, `"DatasetVersion": "v5.1.0"`)
@@ -118,7 +118,7 @@ func TestRedisDatasetFileWriter_WriteMetadata(t *testing.T) {
 	content, err := os.ReadFile(filepath.Join(tmpDir, datasetFile))
 	require.NoError(t, err)
 	assert.Contains(t, string(content),
-		`HSET datasetMetadata datasetVersion "v5.1.0" latestDecree "30/2026/QH16" generatedAt "2026-09-12T10:00:00Z"`)
+		`HSET vnProvincesMetadata datasetVersion "v5.1.0" latestDecree "30/2026/QH16" generatedAt "2026-09-12T10:00:00Z"`)
 }
 
 func TestElasticsearchDatasetFileWriter_WriteMetadata(t *testing.T) {
@@ -130,14 +130,14 @@ func TestElasticsearchDatasetFileWriter_WriteMetadata(t *testing.T) {
 
 	require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
 
-	ndjson, err := os.ReadFile(filepath.Join(tmpDir, "dataset_metadata.ndjson"))
+	ndjson, err := os.ReadFile(filepath.Join(tmpDir, "vn_provinces_metadata.ndjson"))
 	require.NoError(t, err)
 	s := string(ndjson)
-	assert.Contains(t, s, `"_index":"dataset_metadata"`)
+	assert.Contains(t, s, `"_index":"vn_provinces_metadata"`)
 	assert.Contains(t, s, `"DatasetVersion":"v5.1.0"`)
 	assert.Contains(t, s, `"GeneratedAt":"2026-09-12T10:00:00Z"`)
 
-	mapping, err := os.ReadFile(filepath.Join(tmpDir, "mappings", "dataset_metadata.json"))
+	mapping, err := os.ReadFile(filepath.Join(tmpDir, "mappings", "vn_provinces_metadata.json"))
 	require.NoError(t, err)
 	assert.Contains(t, string(mapping), `"GeneratedAt"`)
 	assert.Contains(t, string(mapping), `"date"`)
@@ -148,14 +148,14 @@ func TestWriters_EmptyMetadataProducesNoArtifacts(t *testing.T) {
 		tmpDir := t.TempDir()
 		writer := &PostgresMySQLDatasetFileWriter{OutputFilePath: filepath.Join(tmpDir, "postgres_ImportData_vn_units.sql")}
 		require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
-		assert.NotContains(t, readGeneratedSQLFile(t, tmpDir), "dataset_metadata")
+		assert.NotContains(t, readGeneratedSQLFile(t, tmpDir), "vn_provinces_metadata")
 	})
 
 	t.Run("json", func(t *testing.T) {
 		tmpDir := t.TempDir()
 		writer := &JSONDatasetFileWriter{OutputFolderPath: tmpDir}
 		require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
-		_, err := os.Stat(filepath.Join(tmpDir, "metadata.json"))
+		_, err := os.Stat(filepath.Join(tmpDir, "vn_provinces_metadata.json"))
 		assert.True(t, os.IsNotExist(err))
 	})
 
@@ -163,7 +163,7 @@ func TestWriters_EmptyMetadataProducesNoArtifacts(t *testing.T) {
 		tmpDir := t.TempDir()
 		writer := &MongoDBDatasetFileWriter{OutputFolderPath: tmpDir}
 		require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
-		_, err := os.Stat(filepath.Join(tmpDir, "mongo_data_vn_metadata.json"))
+		_, err := os.Stat(filepath.Join(tmpDir, "mongo_data_vn_provinces_metadata.json"))
 		assert.True(t, os.IsNotExist(err))
 	})
 
@@ -177,7 +177,7 @@ func TestWriters_EmptyMetadataProducesNoArtifacts(t *testing.T) {
 			if strings.HasSuffix(entry.Name(), ".redis") {
 				content, err := os.ReadFile(filepath.Join(tmpDir, entry.Name()))
 				require.NoError(t, err)
-				assert.NotContains(t, string(content), "datasetMetadata")
+				assert.NotContains(t, string(content), "vnProvincesMetadata")
 			}
 		}
 	})
@@ -186,7 +186,7 @@ func TestWriters_EmptyMetadataProducesNoArtifacts(t *testing.T) {
 		tmpDir := t.TempDir()
 		writer := &ElasticsearchDatasetFileWriter{OutputFolderPath: tmpDir}
 		require.NoError(t, writer.WriteToFile(nil, nil, nil, nil))
-		_, err := os.Stat(filepath.Join(tmpDir, "dataset_metadata.ndjson"))
+		_, err := os.Stat(filepath.Join(tmpDir, "vn_provinces_metadata.ndjson"))
 		assert.True(t, os.IsNotExist(err))
 	})
 }

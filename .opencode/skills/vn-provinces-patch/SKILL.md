@@ -13,7 +13,7 @@ then verify and publish it as a drop-in upgrade script for downstream users.
 
 - **Covered**: `administrative_regions`, `administrative_units`, `provinces`, `wards` rows only.
 - **Excluded**: all GIS data, everything under `postgresql/gis/` or `resources/gis/`, the
-  generated-timestamp header comment (`/* Created at: ... */`), and the `dataset_metadata`
+  generated-timestamp header comment (`/* Created at: ... */`), and the `vn_provinces_metadata`
   table (its `generated_at` changes on every regeneration) — none of these must produce a patch.
 - **Only PostgreSQL** baseline (`postgresql/`). Other engines (mysql, mssql, oracle, mongodb, …) are out of scope.
 
@@ -178,7 +178,7 @@ Summarize for the user:
 ## Patch generation rules (recap)
 
 - Data only — never touch GIS, never let the `Created at` comment cause a diff, and never
-  include `dataset_metadata` (provenance metadata changes on every regeneration).
+  include `vn_provinces_metadata` (provenance metadata changes on every regeneration).
 - Diff rows as keyed sets, so reordering rows in the file is NOT a change.
 - `INSERT` new rows with the full column list; `UPDATE` only changed columns (`SET col=... WHERE <pk>=...`);
   `DELETE` removed rows with a reference-migration note.

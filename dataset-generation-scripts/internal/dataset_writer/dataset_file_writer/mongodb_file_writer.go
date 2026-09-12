@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
@@ -67,7 +67,7 @@ func (w *MongoDBDatasetFileWriter) WriteToFile(
 
 	// Write dataset metadata document (version, decree, generation timestamp)
 	if !w.Metadata.IsEmpty() {
-		metadataPath := fmt.Sprintf("%s/mongo_data_vn_metadata.json", w.OutputFolderPath)
+		metadataPath := fmt.Sprintf("%s/mongo_data_vn_provinces_metadata.json", w.OutputFolderPath)
 		metadataDoc := dataset_file_writer_dto.DatasetMetadataDocument{
 			DatasetVersion: w.Metadata.DatasetVersion,
 			LatestDecree:   w.Metadata.LatestDecree,
@@ -93,7 +93,7 @@ func writeMongoReadme(outputFolderPath string) error {
 			{Name: "administrative_units.json", Description: "Array of 8 administrative unit types"},
 			{Name: "administrative_regions.json", Description: "Array of 8 regions"},
 			{Name: "mongo_data_vn_unit.json", Description: "Array of 34 province documents, each embedding its Wards array"},
-			{Name: "mongo_data_vn_metadata.json", Description: "Single dataset metadata document (version, decree, timestamp)"},
+			{Name: "mongo_data_vn_provinces_metadata.json", Description: "Single dataset metadata document (version, decree, timestamp)"},
 		},
 		[]string{
 			"## Overview",
@@ -101,7 +101,7 @@ func writeMongoReadme(outputFolderPath string) error {
 			"| Collection | Documents | Description |",
 			"|------------|-----------|-------------|",
 			"| `provinces` | 34 | Province documents with embedded wards (`mongo_data_vn_unit.json`) |",
-			"| `dataset_metadata` | 1 | Dataset version, latest decree, and generation timestamp (`mongo_data_vn_metadata.json`) |",
+			"| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp (`mongo_data_vn_provinces_metadata.json`) |",
 			"| `provinces-gis` | 34 | GIS add-on: province documents with geometry |",
 			"| `wards-gis` | 3,321 | GIS add-on: standalone ward documents with geometry |",
 			"",
@@ -121,7 +121,7 @@ func writeMongoReadme(outputFolderPath string) error {
 			"",
 			"The GIS collections add a **`GIS`** object: `Center` (GeoJSON Point), `BoundingBox`, `Geometry` (GeoJSON MultiPolygon/Polygon), and `Properties`.",
 			"",
-			"The `dataset_metadata` collection holds a single document: **`DatasetVersion`**, **`LatestDecree`**, and **`GeneratedAt`** (UTC, RFC 3339).",
+			"The `vn_provinces_metadata` collection holds a single document: **`DatasetVersion`**, **`LatestDecree`**, and **`GeneratedAt`** (UTC, RFC 3339).",
 			"",
 			"## Sample Document",
 			"",
@@ -149,7 +149,7 @@ func writeMongoReadme(outputFolderPath string) error {
 			"mongoimport --db vn_provinces --collection provinces --file mongo_data_vn_unit.json --jsonArray",
 			"mongoimport --db vn_provinces --collection administrative_units --file administrative_units.json --jsonArray",
 			"mongoimport --db vn_provinces --collection administrative_regions --file administrative_regions.json --jsonArray",
-			"mongoimport --db vn_provinces --collection dataset_metadata --file mongo_data_vn_metadata.json --jsonArray",
+			"mongoimport --db vn_provinces --collection vn_provinces_metadata --file mongo_data_vn_provinces_metadata.json --jsonArray",
 			"```",
 			"",
 			"2. GIS add-on (optional): import each file in `gis/` (ward files may be chunked — follow the `.manifest`), then run `mongosh vn_provinces create_indexes.js`.",
@@ -161,7 +161,7 @@ func writeMongoReadme(outputFolderPath string) error {
 			"db.getCollection('provinces').countDocuments();",
 			"",
 			"// Dataset version and latest decree",
-			"db.getCollection('dataset_metadata').findOne();",
+			"db.getCollection('vn_provinces_metadata').findOne();",
 			"",
 			"// Wards of Hà Nội",
 			"db.getCollection('provinces').findOne({Code: '01'}, {Name: 1, Wards: 1});",

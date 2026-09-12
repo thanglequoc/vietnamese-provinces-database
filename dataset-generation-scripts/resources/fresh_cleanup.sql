@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS sapnhap_provinces_gis;
 DROP TABLE IF EXISTS sapnhap_wards;
 DROP TABLE IF EXISTS sapnhap_provinces; 
 
-DROP TABLE IF EXISTS dataset_metadata;
+DROP TABLE IF EXISTS vn_provinces_metadata;
 DROP TABLE IF EXISTS wards_tmp;
 DROP TABLE IF EXISTS districts_tmp;
 DROP TABLE IF EXISTS provinces_tmp;

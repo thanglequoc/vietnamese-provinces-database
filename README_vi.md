@@ -60,7 +60,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 - Đặt dữ liệu tên đơn vị hành chính cho các giá trị tỉnh thành, phường xã  
 - Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, phường xã  
 - Tạo mã từ tên các tỉnh thành, phường xã  
-- Thêm bảng quan hệ `dataset_metadata` (phiên bản dataset, nghị định mới nhất, thời điểm tạo)  
+- Thêm bảng quan hệ `vn_provinces_metadata` (phiên bản dataset, nghị định mới nhất, thời điểm tạo)  
 - **Add-on**: Hệ thống thông tin địa lý (GIS) trên bản đồ cho các đơn vị hành chính
 
 ## Hướng dẫn cài đặt
@@ -200,9 +200,9 @@ Bảng quan hệ `wards` chứa danh sách **đơn vị hành chính cấp 2**, 
 |25969|Thuận Giao|Thuan Giao|Phường Thuận Giao|Thuan Giao Ward|thuan_giao|79|3|
 |25975|An Phú|An Phu|Phường An Phú|An Phu Ward|an_phu|79|3|
 
-### Bảng quan hệ `dataset_metadata`
+### Bảng quan hệ `vn_provinces_metadata`
 
-Bảng `dataset_metadata` là bảng một dòng mô tả phiên bản dataset đang được cài đặt, giúp ứng dụng biết được phiên bản hiện tại và khi nào cần cập nhật.
+Bảng `vn_provinces_metadata` là bảng một dòng mô tả phiên bản dataset đang được cài đặt, giúp ứng dụng biết được phiên bản hiện tại và khi nào cần cập nhật.
 
 #### Định nghĩa bảng
 
@@ -218,7 +218,7 @@ Bảng `dataset_metadata` là bảng một dòng mô tả phiên bản dataset �
 |--|--|--|
 |v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
 
-Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `metadata.json` (JSON), collection `dataset_metadata` (MongoDB), hash `datasetMetadata` (Redis), và index `dataset_metadata` (Elasticsearch).
+Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `vn_provinces_metadata.json` (JSON), collection `vn_provinces_metadata` (MongoDB), hash `vnProvincesMetadata` (Redis), và index `vn_provinces_metadata` (Elasticsearch).
 
 ## Câu truy vấn SQL mẫu
 
@@ -252,7 +252,7 @@ ORDER BY w.code;
 ### Lấy phiên bản dataset đang cài đặt
 
 ```sql
-SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;
+SELECT dataset_version, latest_decree, generated_at FROM vn_provinces_metadata;
 ```
 
 ## Dữ liệu định dạng Non-SQL
