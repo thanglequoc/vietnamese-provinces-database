@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Oracle === */
-/* Created at:  Thu, 27 Aug 2026 08:52:13 +0700 */
+/* Created at:  Sat, 12 Sep 2026 14:42:08 +0700 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -33,7 +33,7 @@ INSERT ALL
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('15','Lào Cai','Lao Cai','Tỉnh Lào Cai','Lao Cai Province','lao_cai',2,'31, 33')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('19','Thái Nguyên','Thai Nguyen','Tỉnh Thái Nguyên','Thai Nguyen Province','thai_nguyen',2,'23, 24')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('20','Lạng Sơn','Lang Son','Tỉnh Lạng Sơn','Lang Son Province','lang_son',2,'25')
-	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('22','Quảng Ninh','Quang Ninh','Tỉnh Quảng Ninh','Quang Ninh Province','quang_ninh',2,'01, 02')
+	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('22','Quảng Ninh','Quang Ninh','Thành phố Quảng Ninh','Quang Ninh City','quang_ninh',1,'01, 02')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('24','Bắc Ninh','Bac Ninh','Tỉnh Bắc Ninh','Bac Ninh Province','bac_ninh',2,'16, 26')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('25','Phú Thọ','Phu Tho','Tỉnh Phú Thọ','Phu Tho Province','phu_tho',2,'15, 35, 36')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('31','Hải Phòng','Haiphong','Thành phố Hải Phòng','Haiphong City','hai_phong',1,'03, 04, 05')
@@ -3585,6 +3585,10 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('32248','Đất Mũi','Dat Mui','Xã Đất Mũi','Dat Mui Commune','dat_mui','96',4,'98912')
 	SELECT 1 FROM DUAL;
 
+-- ----------------------------------
+
+-- DATA for vn_provinces_metadata --
+INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES('v5.1.0','36/2026/QH16',TO_TIMESTAMP('2026-09-12 07:42:08','YYYY-MM-DD HH24:MI:SS'));
 -- ----------------------------------
 
 -- END OF SCRIPT FILE --

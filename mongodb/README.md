@@ -1,6 +1,6 @@
 # MongoDB Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 08:52:13 +0700**
+**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
 
 MongoDB documents for Vietnamese provinces and wards, with an optional GIS add-on.
 
@@ -9,12 +9,14 @@ MongoDB documents for Vietnamese provinces and wards, with an optional GIS add-o
 - `administrative_units.json` — Array of 8 administrative unit types (1016 B)
 - `administrative_regions.json` — Array of 8 regions (1.15 KB)
 - `mongo_data_vn_unit.json` — Array of 34 province documents, each embedding its Wards array (953.51 KB)
+- `mongo_data_vn_provinces_metadata.json` — Single dataset metadata document (version, decree, timestamp) (104 B)
 
 ## Overview
 
 | Collection | Documents | Description |
 |------------|-----------|-------------|
 | `provinces` | 34 | Province documents with embedded wards (`mongo_data_vn_unit.json`) |
+| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp (`mongo_data_vn_provinces_metadata.json`) |
 | `provinces-gis` | 34 | GIS add-on: province documents with geometry |
 | `wards-gis` | 3,321 | GIS add-on: standalone ward documents with geometry |
 
@@ -33,6 +35,8 @@ A province document in the `provinces` collection:
 - **`Wards`** — embedded array of ward documents (same field shape, plus `PostalCode` and `ProvinceCode`)
 
 The GIS collections add a **`GIS`** object: `Center` (GeoJSON Point), `BoundingBox`, `Geometry` (GeoJSON MultiPolygon/Polygon), and `Properties`.
+
+The `vn_provinces_metadata` collection holds a single document: **`DatasetVersion`**, **`LatestDecree`**, and **`GeneratedAt`** (UTC, RFC 3339).
 
 ## Sample Document
 
@@ -60,6 +64,7 @@ The GIS collections add a **`GIS`** object: `Center` (GeoJSON Point), `BoundingB
 mongoimport --db vn_provinces --collection provinces --file mongo_data_vn_unit.json --jsonArray
 mongoimport --db vn_provinces --collection administrative_units --file administrative_units.json --jsonArray
 mongoimport --db vn_provinces --collection administrative_regions --file administrative_regions.json --jsonArray
+mongoimport --db vn_provinces --collection vn_provinces_metadata --file mongo_data_vn_provinces_metadata.json --jsonArray
 ```
 
 2. GIS add-on (optional): import each file in `gis/` (ward files may be chunked — follow the `.manifest`), then run `mongosh vn_provinces create_indexes.js`.
@@ -69,6 +74,9 @@ mongoimport --db vn_provinces --collection administrative_regions --file adminis
 ```javascript
 // Count provinces
 db.getCollection('provinces').countDocuments();
+
+// Dataset version and latest decree
+db.getCollection('vn_provinces_metadata').findOne();
 
 // Wards of Hà Nội
 db.getCollection('provinces').findOne({Code: '01'}, {Name: 1, Wards: 1});

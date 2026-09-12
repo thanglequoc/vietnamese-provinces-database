@@ -1,6 +1,6 @@
 # JSON Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 08:52:13 +0700**
+**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
 
 Administrative unit JSON data for Vietnam: provinces with embedded wards, in full and simplified forms.
 
@@ -8,9 +8,10 @@ Administrative unit JSON data for Vietnam: provinces with embedded wards, in ful
 
 - `full_json_generated_data_vn_units.json` — Full dataset (provinces + wards + administrative info) (1.51 MB)
 - `simplified_json_generated_data_vn_units.json` — Simplified dataset (pretty-printed) (786.42 KB)
-- `simplified_json_generated_data_vn_units_minified.json` — Simplified dataset (minified) (603.50 KB)
+- `simplified_json_generated_data_vn_units_minified.json` — Simplified dataset (minified) (603.51 KB)
 - `vn_only_simplified_json_generated_data_vn_units.json` — Vietnamese-only simplified (pretty-printed) (393.83 KB)
-- `vn_only_simplified_json_generated_data_vn_units_minified.json` — Vietnamese-only simplified (minified) (289.28 KB)
+- `vn_only_simplified_json_generated_data_vn_units_minified.json` — Vietnamese-only simplified (minified) (289.29 KB)
+- `vn_provinces_metadata.json` — Dataset version, latest decree, and generation timestamp (104 B)
 
 ## Overview
 
@@ -21,6 +22,7 @@ Administrative unit JSON data for Vietnam: provinces with embedded wards, in ful
 | `simplified_json_generated_data_vn_units_minified.json` | Simplified, minified (no whitespace) |
 | `vn_only_simplified_json_generated_data_vn_units.json` | Vietnamese-only fields (pretty-printed) |
 | `vn_only_simplified_json_generated_data_vn_units_minified.json` | Vietnamese-only fields (minified) |
+| `vn_provinces_metadata.json` | Dataset version, latest decree, and generation timestamp |
 
 ## Data Structure
 
@@ -33,6 +35,12 @@ Each entry is a province object:
 - **`administrativeUnitId` / `administrativeUnitShortName` / `administrativeUnitFullName`** — unit type
 - **`postalCodePrefix`** — comma-separated 2-digit postal prefixes
 - **`wards`** — array of ward objects (`code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `provinceCode`, `postalCode`, unit fields)
+
+`vn_provinces_metadata.json` is a separate single object describing the dataset release:
+
+- **`DatasetVersion`** — dataset release version (e.g. `v5.1.0`)
+- **`LatestDecree`** — latest government decree reflected in the data (e.g. `30/2026/QH16`)
+- **`GeneratedAt`** — dataset generation timestamp (UTC, RFC 3339)
 
 ## Sample Document
 

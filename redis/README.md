@@ -1,6 +1,6 @@
 # Redis Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 08:52:14 +0700**
+**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
 
 Redis commands (HSET/SADD) loading all Vietnamese provinces, wards, regions, and administrative units.
 
@@ -20,12 +20,15 @@ The dataset stores every administrative unit as Redis hashes and sets:
 | `region:<id>` | hash | 8 |
 | `province:<code>:wards` | set | 34 |
 | `province:<code>:wards:vn` / `:en` | hash | 34 each |
+| `vnProvincesMetadata` | hash | 1 |
 
 ## Data Structure
 
 `province:<code>` fields: `code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `postalCodePrefix`, `administrativeUnitId`.
 
 `ward:<code>` fields: `code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `postalCode`, `administrativeUnitId`, `districtCode`.
+
+`vnProvincesMetadata` fields: `datasetVersion`, `latestDecree`, `generatedAt` (UTC, RFC 3339).
 
 `province:<code>:wards:vn` / `:en` map ward codes to Vietnamese/English full names.
 
@@ -51,4 +54,5 @@ redis-cli HGETALL province:01
 redis-cli SMEMBERS province:01:wards
 redis-cli HGET ward:00004 fullName
 redis-cli HGET province:01:wards:vn 00004
+redis-cli HGETALL vnProvincesMetadata
 ```

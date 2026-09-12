@@ -1,13 +1,15 @@
 # Elasticsearch Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 08:52:14 +0700**
+**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
 
 Provinces and wards as Elasticsearch documents in two indices: `provinces` (no geometry) and `provinces-gis` (with GIS geometry).
 
 ## Files
 
 - `provinces.ndjson` — Bulk API NDJSON for the provinces index (1.18 MB)
+- `vn_provinces_metadata.ndjson` — Bulk API NDJSON for the vn_provinces_metadata index (150 B)
 - `mappings/provinces.json` — Index mapping for provinces (2.72 KB)
+- `mappings/vn_provinces_metadata.json` — Index mapping for vn_provinces_metadata (248 B)
 
 ## Overview
 
@@ -17,6 +19,7 @@ This dataset provides Vietnamese provinces and wards in Elasticsearch document f
 |-------|-----------|-------------|
 | `provinces` | 34 | Provincial metadata with embedded wards, search keywords, and administrative unit data (no GIS geometry) |
 | `provinces-gis` | 34 | Same structure plus GIS geometry for both provinces and wards (bounding boxes + GeoJSON polygons) |
+| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp |
 
 ## Data Structure
 
@@ -53,22 +56,27 @@ Each province is a single denormalized document with:
 ```bash
 curl -X PUT "localhost:9200/provinces" -H 'Content-Type: application/json' -d @mappings/provinces.json
 curl -X PUT "localhost:9200/provinces-gis" -H 'Content-Type: application/json' -d @mappings/provinces-gis.json
+curl -X PUT "localhost:9200/vn_provinces_metadata" -H 'Content-Type: application/json' -d @mappings/vn_provinces_metadata.json
 ```
 
-2. Bulk import `provinces.ndjson`, and the `provinces-gis-part-*.ndjson` chunks in order (per `provinces-gis.ndjson.manifest`):
+2. Bulk import `provinces.ndjson`, `vn_provinces_metadata.ndjson`, and the `provinces-gis-part-*.ndjson` chunks in order (per `provinces-gis.ndjson.manifest`):
 
 ```bash
 curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @provinces.ndjson
+curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @vn_provinces_metadata.ndjson
 curl -X POST "localhost:9200/_bulk" -H 'Content-Type: application/x-ndjson' --data-binary @provinces-gis-part-01.ndjson
 ```
 
-3. Verify: 34 documents in each index.
+3. Verify: 34 documents in each province index, 1 in `vn_provinces_metadata`.
 
 ## Sample Queries
 
 ```json
 // Count documents
 POST /provinces/_count
+
+// Dataset version and latest decree
+GET /vn_provinces_metadata/_doc/1
 
 // Autocomplete search
 POST /provinces/_search
