@@ -6,12 +6,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
+	dataset_file_writer_dto "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/dto"
 	file_writer_helper "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer/helper"
+	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 type JSONDatasetFileWriter struct {
 	OutputFolderPath string
+	Metadata         datasetmetadata.Metadata
 }
 
 func (w *JSONDatasetFileWriter) WriteToFile(
@@ -47,6 +50,18 @@ func (w *JSONDatasetFileWriter) WriteToFile(
 		return err
 	}
 
+	// Dataset metadata (version, decree, generation timestamp)
+	if !w.Metadata.IsEmpty() {
+		metadataDoc := dataset_file_writer_dto.DatasetMetadataDocument{
+			DatasetVersion: w.Metadata.DatasetVersion,
+			LatestDecree:   w.Metadata.LatestDecree,
+			GeneratedAt:    w.Metadata.GeneratedAtRFC3339(),
+		}
+		if err := writePrettyJSON(filepath.Join(w.OutputFolderPath, "metadata.json"), metadataDoc); err != nil {
+			return err
+		}
+	}
+
 	return writeJSONDatasetReadme(w.OutputFolderPath)
 }
 
@@ -80,6 +95,7 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			{Name: "simplified_json_generated_data_vn_units_minified.json", Description: "Simplified dataset (minified)"},
 			{Name: "vn_only_simplified_json_generated_data_vn_units.json", Description: "Vietnamese-only simplified (pretty-printed)"},
 			{Name: "vn_only_simplified_json_generated_data_vn_units_minified.json", Description: "Vietnamese-only simplified (minified)"},
+			{Name: "metadata.json", Description: "Dataset version, latest decree, and generation timestamp"},
 		},
 		[]string{
 			"## Overview",
@@ -91,6 +107,7 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			"| `simplified_json_generated_data_vn_units_minified.json` | Simplified, minified (no whitespace) |",
 			"| `vn_only_simplified_json_generated_data_vn_units.json` | Vietnamese-only fields (pretty-printed) |",
 			"| `vn_only_simplified_json_generated_data_vn_units_minified.json` | Vietnamese-only fields (minified) |",
+			"| `metadata.json` | Dataset version, latest decree, and generation timestamp |",
 			"",
 			"## Data Structure",
 			"",
@@ -103,6 +120,12 @@ func writeJSONDatasetReadme(outputFolderPath string) error {
 			"- **`administrativeUnitId` / `administrativeUnitShortName` / `administrativeUnitFullName`** — unit type",
 			"- **`postalCodePrefix`** — comma-separated 2-digit postal prefixes",
 			"- **`wards`** — array of ward objects (`code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `provinceCode`, `postalCode`, unit fields)",
+			"",
+			"`metadata.json` is a separate single object describing the dataset release:",
+			"",
+			"- **`DatasetVersion`** — dataset release version (e.g. `v5.1.0`)",
+			"- **`LatestDecree`** — latest government decree reflected in the data (e.g. `30/2026/QH16`)",
+			"- **`GeneratedAt`** — dataset generation timestamp (UTC, RFC 3339)",
 			"",
 			"## Sample Document",
 			"",

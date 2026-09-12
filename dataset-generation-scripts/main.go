@@ -45,6 +45,7 @@ func main() {
 	// pre-run
 	// Refresh temporary dataset, import existing dataset
 	db.BootstrapTemporaryDatasetStructure()
+	db.BootstrapDatasetMetadata()
 
 	dumper.BeginDumpingDataWithDvhcvnDirectSource()
 	postal_code.ImportPostalCodes()

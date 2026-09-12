@@ -61,6 +61,7 @@ The following table contains a list of issued decrees and their effective dates,
 - Assigned administrative units to province and ward data  
 - Generated English names for provinces and wards, offering both full and short forms  
 - Generated code names (slugs) for provinces and wards  
+- Added `dataset_metadata` table (dataset version, latest decree, generation timestamp)  
 - **Add-on**: Additional GIS dataset for administrative units
 
 ## Installation
@@ -202,6 +203,27 @@ The `wards` table contains a list of **second administrative tier - the commune 
 |25975|An Phú|An Phu|Phường An Phú|An Phu Ward|an_phu|79|3|
 
 
+### `dataset_metadata` table
+
+The `dataset_metadata` table is a single-row table that describes which release of the dataset is installed, so applications can detect the current version and know when an update is available.
+
+#### Table definition
+
+|Column|Data type|Meaning|
+|------|-----------|---------|
+|`dataset_version`|varchar(50)|Dataset release version (e.g. `v5.1.0`)|
+|`latest_decree`|varchar(100)|Latest government decree reflected in the data (e.g. `30/2026/QH16`)|
+|`generated_at`|timestamp|Dataset generation timestamp (UTC)|
+
+#### Data preview
+
+|dataset_version|latest_decree|generated_at|
+|--|--|--|
+|v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
+
+The same metadata is exported for the non-SQL formats: `metadata.json` (JSON), the `dataset_metadata` collection (MongoDB), the `dataset_metadata` hash (Redis), and the `dataset_metadata` index (Elasticsearch).
+
+
 ## Sample Queries
 
 You can easily create query to get all the kind of data you need since the tables are clearly referenced between each others.  
@@ -230,6 +252,12 @@ ORDER BY w.code;
 |22420|Cam Ranh|Phường Cam Ranh|Cam Ranh Ward|Phường|
 |22423|Ba Ngòi|Phường Ba Ngòi|Ba Ngoi Ward|Phường|
 |22432|Cam Linh|Phường Cam Linh|Cam Linh Ward|Phường|
+
+### Get the installed dataset version
+
+```sql
+SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;
+```
 
 ## Non-SQL Formats
 

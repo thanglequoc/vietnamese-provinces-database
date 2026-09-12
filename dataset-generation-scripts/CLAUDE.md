@@ -146,6 +146,7 @@ dataset-generation-scripts/
 | `.env` | Database credentials — 5 env vars: `POSTGRES_DB_USERNAME`, `POSTGRES_DB_PSWD`, `POSTGRES_DB_HOST`, `POSTGRES_DB_PORT`, `POSTGRES_TMP_DB_NAME`. The DSN is constructed programmatically in `internal/database/postgres_connector.go` |
 | `.env.example` | Template for `.env` (copy to `.env` and fill in credentials) |
 | `docker/docker-compose.yaml` | Docker Postgres/PostGIS service (port 15432→5432) |
+| `version.txt` | Dataset version source — `dataset_version` + `latest_decree`, loaded by `internal/dataset_metadata` and written to the `dataset_metadata` table/entity in every exported format |
 | `go.mod` | Go module definition & dependencies (Go 1.24.0) |
 | `resources/gis/geojson_11Mar2026/` | GeoJSON geometry files from deprecated API |
 | `resources/gis/sapnhapbando_geojson/` | 3,355 auxiliary GIS GeoJSON resource files |

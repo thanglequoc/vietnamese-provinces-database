@@ -66,6 +66,20 @@ All exported formats include national postal codes: `postal_code_prefix` on
 provinces and `postal_code` on wards (sourced from Quyết định 2334/QĐ-BKHCN via
 `resources/postal/` seed files).
 
+### Dataset version metadata
+
+The maintainer-controlled version source is `version.txt` (`dataset_version` +
+`latest_decree`). Each run stamps it with a UTC `generated_at` and writes a separate
+`dataset_metadata` entity to every format:
+
+| Format | Metadata location |
+|--------|-------------------|
+| PostgreSQL / MySQL / SQL Server / Oracle | `dataset_metadata` table (`INSERT` in the base import script) |
+| JSON | `json/metadata.json` |
+| MongoDB | `mongodb/mongo_data_vn_metadata.json` |
+| Redis | `dataset_metadata` hash |
+| Elasticsearch | `dataset_metadata` index (`dataset_metadata.ndjson` + `mappings/dataset_metadata.json`) |
+
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.
 
 ## Output structure

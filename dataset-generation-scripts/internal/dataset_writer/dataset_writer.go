@@ -8,10 +8,21 @@ import (
 	"path/filepath"
 
 	db "github.com/thanglequoc-vn-provinces/v2/internal/database"
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	datasetfilewriter "github.com/thanglequoc-vn-provinces/v2/internal/dataset_writer/dataset_file_writer"
 	sapnhapbandorepo "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/repository"
 	vnprovincestmprepo "github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/repository"
 )
+
+// mustLoadDatasetMetadata loads the dataset version source (version.txt) and
+// aborts generation if it is missing or malformed.
+func mustLoadDatasetMetadata() datasetmetadata.Metadata {
+	metadata, err := datasetmetadata.Load()
+	if err != nil {
+		log.Fatal("Unable to load dataset metadata from version.txt: ", err)
+	}
+	return metadata
+}
 
 /*
 cleanupOutputFolder removes the generated dataset artifacts inside ./output while
@@ -48,6 +59,8 @@ func ReadAndGenerateSQLDatasets() {
 	// whole directory would unlink the log file mid-run and lose its contents.
 	cleanupOutputFolder()
 
+	metadata := mustLoadDatasetMetadata()
+
 	regions := vn_provinces_tmp_repo.GetAllAdministrativeRegions()
 	administrativeUnits := vn_provinces_tmp_repo.GetAllAdministrativeUnits()
 	provinces := vn_provinces_tmp_repo.GetAllProvinces()
@@ -56,6 +69,7 @@ func ReadAndGenerateSQLDatasets() {
 	// Postgresql
 	postgresMySQLDatasetFileWriter := datasetfilewriter.PostgresMySQLDatasetFileWriter{
 		OutputFilePath: "./output/postgresql/postgres_ImportData_vn_units.sql",
+		Metadata:       metadata,
 	}
 	err := postgresMySQLDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -76,6 +90,7 @@ func ReadAndGenerateSQLDatasets() {
 	// Mssql
 	mssqlDatasetFileWriter := datasetfilewriter.MssqlDatasetFileWriter{
 		OutputFilePath: "./output/sqlserver/mssql_ImportData_vn_units.sql",
+		Metadata:       metadata,
 	}
 	err = mssqlDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -87,6 +102,7 @@ func ReadAndGenerateSQLDatasets() {
 	// Oracle
 	oracleDatasetFileWriter := datasetfilewriter.OracleDatasetFileWriter{
 		OutputFilePath: "./output/oracle/oracle_ImportData_vn_units.sql",
+		Metadata:       metadata,
 	}
 	err = oracleDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -98,6 +114,7 @@ func ReadAndGenerateSQLDatasets() {
 	// JSON
 	jsonDatasetFileWriter := datasetfilewriter.JSONDatasetFileWriter{
 		OutputFolderPath: "./output/json",
+		Metadata:         metadata,
 	}
 	err = jsonDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -109,6 +126,7 @@ func ReadAndGenerateSQLDatasets() {
 	// MongoDB
 	mongoDBDatasetFileWriter := datasetfilewriter.MongoDBDatasetFileWriter{
 		OutputFolderPath: "./output/mongodb",
+		Metadata:         metadata,
 	}
 	err = mongoDBDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -120,6 +138,7 @@ func ReadAndGenerateSQLDatasets() {
 	// Redis
 	redisDatasetFileWriter := datasetfilewriter.RedisDatasetFileWriter{
 		OutputFolderPath: "./output/redis",
+		Metadata:         metadata,
 	}
 	err = redisDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {
@@ -131,6 +150,7 @@ func ReadAndGenerateSQLDatasets() {
 	// Elasticsearch
 	elasticsearchDatasetFileWriter := datasetfilewriter.ElasticsearchDatasetFileWriter{
 		OutputFolderPath: "./output/elasticsearch",
+		Metadata:         metadata,
 	}
 	err = elasticsearchDatasetFileWriter.WriteToFile(regions, administrativeUnits, provinces, wards)
 	if err != nil {

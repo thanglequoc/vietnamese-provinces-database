@@ -11,11 +11,13 @@ import (
 
 	sapnhapmodels "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/model"
 
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 type PostgresMySQLDatasetFileWriter struct {
 	OutputFilePath string
+	Metadata       datasetmetadata.Metadata
 }
 
 // region insert statement
@@ -130,6 +132,16 @@ func (w *PostgresMySQLDatasetFileWriter) WriteToFile(
 		}
 	}
 	dataWriter.WriteString("-- ----------------------------------\n")
+	if !w.Metadata.IsEmpty() {
+		dataWriter.WriteString("-- DATA for dataset_metadata --\n")
+		dataWriter.WriteString(fmt.Sprintf(
+			"INSERT INTO dataset_metadata(dataset_version,latest_decree,generated_at) VALUES('%s',%s,'%s');\n",
+			escapeSingleQuote(w.Metadata.DatasetVersion),
+			nullableSQLString(w.Metadata.LatestDecree),
+			w.Metadata.GeneratedAtSQL(),
+		))
+		dataWriter.WriteString("-- ----------------------------------\n")
+	}
 	dataWriter.WriteString("-- END OF SCRIPT FILE --\n")
 
 	dataWriter.Flush()
@@ -262,6 +274,7 @@ func postgresMySQLReadmeSections(engine, createTablesFile, pointLiteral string) 
 		"| `administrative_units` | 8 | Administrative unit types (city, province, ward, ...) |",
 		"| `provinces` | 34 | Provinces and municipalities |",
 		"| `wards` | 3,321 | Wards, communes, and town townships |",
+		"| `dataset_metadata` | 1 | Dataset version, latest decree, and generation timestamp |",
 		"",
 		"GIS boundary geometry (in `gis/`) populates `gis_provinces` and `gis_wards`.",
 		"",
@@ -309,6 +322,16 @@ func postgresMySQLReadmeSections(engine, createTablesFile, pointLiteral string) 
 		"| `administrative_unit_id` | FK to `administrative_units.id` |",
 		"| `postal_code` | 5-digit national postal code |",
 		"",
+		"### dataset_metadata",
+		"",
+		"Single-row table describing the dataset release:",
+		"",
+		"| Column | Description |",
+		"|--------|-------------|",
+		"| `dataset_version` | Dataset release version (e.g. `v5.1.0`) |",
+		"| `latest_decree` | Latest government decree reflected in the data (e.g. `30/2026/QH16`) |",
+		"| `generated_at` | Dataset generation timestamp (UTC) |",
+		"",
 		"## Sample Document",
 		"",
 		"A province row:",
@@ -328,6 +351,9 @@ func postgresMySQLReadmeSections(engine, createTablesFile, pointLiteral string) 
 		"```sql",
 		"-- Total provinces and wards",
 		"SELECT (SELECT COUNT(*) FROM provinces) AS provinces, (SELECT COUNT(*) FROM wards) AS wards;",
+		"",
+		"-- Dataset version and latest decree",
+		"SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;",
 		"",
 		"-- Wards of Hà Nội (code 01), sorted by name",
 		"SELECT w.code, w.name FROM wards w WHERE w.province_code = '01' ORDER BY w.name;",

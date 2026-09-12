@@ -60,6 +60,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 - Đặt dữ liệu tên đơn vị hành chính cho các giá trị tỉnh thành, phường xã  
 - Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, phường xã  
 - Tạo mã từ tên các tỉnh thành, phường xã  
+- Thêm bảng quan hệ `dataset_metadata` (phiên bản dataset, nghị định mới nhất, thời điểm tạo)  
 - **Add-on**: Hệ thống thông tin địa lý (GIS) trên bản đồ cho các đơn vị hành chính
 
 ## Hướng dẫn cài đặt
@@ -199,6 +200,26 @@ Bảng quan hệ `wards` chứa danh sách **đơn vị hành chính cấp 2**, 
 |25969|Thuận Giao|Thuan Giao|Phường Thuận Giao|Thuan Giao Ward|thuan_giao|79|3|
 |25975|An Phú|An Phu|Phường An Phú|An Phu Ward|an_phu|79|3|
 
+### Bảng quan hệ `dataset_metadata`
+
+Bảng `dataset_metadata` là bảng một dòng mô tả phiên bản dataset đang được cài đặt, giúp ứng dụng biết được phiên bản hiện tại và khi nào cần cập nhật.
+
+#### Định nghĩa bảng
+
+|Cột|Kiểu dữ liệu|Ý nghĩa|
+|------|-----------|---------|
+|`dataset_version`|varchar(50)|Phiên bản dataset (ví dụ `v5.1.0`)|
+|`latest_decree`|varchar(100)|Nghị định mới nhất đã phản ánh trong dữ liệu (ví dụ `30/2026/QH16`)|
+|`generated_at`|timestamp|Thời điểm tạo dataset (UTC)|
+
+#### Dữ liệu mẫu
+
+|dataset_version|latest_decree|generated_at|
+|--|--|--|
+|v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
+
+Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `metadata.json` (JSON), collection `dataset_metadata` (MongoDB), hash `dataset_metadata` (Redis), và index `dataset_metadata` (Elasticsearch).
+
 ## Câu truy vấn SQL mẫu
 
 Bạn có thể dễ dàng viết các câu truy vấn để lấy, lọc dữ liệu tương ứng bằng cách tạo các kết (`JOIN`) giữa các bảng dựa trên giá trị khoá chính, khoá ngoại.  
@@ -227,6 +248,12 @@ ORDER BY w.code;
 |22420|Cam Ranh|Phường Cam Ranh|Cam Ranh Ward|Phường|
 |22423|Ba Ngòi|Phường Ba Ngòi|Ba Ngoi Ward|Phường|
 |22432|Cam Linh|Phường Cam Linh|Cam Linh Ward|Phường|
+
+### Lấy phiên bản dataset đang cài đặt
+
+```sql
+SELECT dataset_version, latest_decree, generated_at FROM dataset_metadata;
+```
 
 ## Dữ liệu định dạng Non-SQL
 
