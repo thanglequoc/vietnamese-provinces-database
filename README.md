@@ -15,7 +15,9 @@
 
 A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
 Data is updated as of the most recent effective decree: [30/2026/QH16][source government decree]  
-**Add-on includes**: GIS Dataset
+**Add-on includes**: 
+ - GIS Dataset
+ - Postal Code Dataset
 
 If you find this repository helpful, please consider giving it a ⭐ — it helps us stay motivated to keep improving and delivering valuable tools for the community. Also, starring the repo makes it easier to stay updated with future releases.
 
