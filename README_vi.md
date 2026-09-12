@@ -218,7 +218,7 @@ Bảng `dataset_metadata` là bảng một dòng mô tả phiên bản dataset �
 |--|--|--|
 |v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
 
-Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `metadata.json` (JSON), collection `dataset_metadata` (MongoDB), hash `dataset_metadata` (Redis), và index `dataset_metadata` (Elasticsearch).
+Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `metadata.json` (JSON), collection `dataset_metadata` (MongoDB), hash `datasetMetadata` (Redis), và index `dataset_metadata` (Elasticsearch).
 
 ## Câu truy vấn SQL mẫu
 

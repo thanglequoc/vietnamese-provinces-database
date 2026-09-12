@@ -221,7 +221,7 @@ The `dataset_metadata` table is a single-row table that describes which release 
 |--|--|--|
 |v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
 
-The same metadata is exported for the non-SQL formats: `metadata.json` (JSON), the `dataset_metadata` collection (MongoDB), the `dataset_metadata` hash (Redis), and the `dataset_metadata` index (Elasticsearch).
+The same metadata is exported for the non-SQL formats: `metadata.json` (JSON), the `dataset_metadata` collection (MongoDB), the `datasetMetadata` hash (Redis), and the `dataset_metadata` index (Elasticsearch).
 
 
 ## Sample Queries

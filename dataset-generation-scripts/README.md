@@ -77,7 +77,7 @@ The maintainer-controlled version source is `version.txt` (`dataset_version` +
 | PostgreSQL / MySQL / SQL Server / Oracle | `dataset_metadata` table (`INSERT` in the base import script) |
 | JSON | `json/metadata.json` |
 | MongoDB | `mongodb/mongo_data_vn_metadata.json` |
-| Redis | `dataset_metadata` hash |
+| Redis | `datasetMetadata` hash |
 | Elasticsearch | `dataset_metadata` index (`dataset_metadata.ndjson` + `mappings/dataset_metadata.json`) |
 
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.

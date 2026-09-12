@@ -118,7 +118,7 @@ func TestRedisDatasetFileWriter_WriteMetadata(t *testing.T) {
 	content, err := os.ReadFile(filepath.Join(tmpDir, datasetFile))
 	require.NoError(t, err)
 	assert.Contains(t, string(content),
-		`HSET dataset_metadata datasetVersion "v5.1.0" latestDecree "30/2026/QH16" generatedAt "2026-09-12T10:00:00Z"`)
+		`HSET datasetMetadata datasetVersion "v5.1.0" latestDecree "30/2026/QH16" generatedAt "2026-09-12T10:00:00Z"`)
 }
 
 func TestElasticsearchDatasetFileWriter_WriteMetadata(t *testing.T) {
@@ -177,7 +177,7 @@ func TestWriters_EmptyMetadataProducesNoArtifacts(t *testing.T) {
 			if strings.HasSuffix(entry.Name(), ".redis") {
 				content, err := os.ReadFile(filepath.Join(tmpDir, entry.Name()))
 				require.NoError(t, err)
-				assert.NotContains(t, string(content), "dataset_metadata")
+				assert.NotContains(t, string(content), "datasetMetadata")
 			}
 		}
 	})

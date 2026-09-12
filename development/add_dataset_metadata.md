@@ -44,7 +44,7 @@ structure is modified.
 | `oracle_dataset_file_writer.go` | `Metadata` field → `INSERT` (`TO_TIMESTAMP`) |
 | `json_file_writer.go` | `Metadata` field → `metadata.json` |
 | `mongodb_file_writer.go` | `Metadata` field → `mongo_data_vn_metadata.json` |
-| `redis_file_writer.go` | `Metadata` field → `HSET dataset_metadata ...` |
+| `redis_file_writer.go` | `Metadata` field → `HSET datasetMetadata ...` |
 | `elasticsearch_file_writer.go` | `Metadata` field → `dataset_metadata.ndjson` + mapping (index `dataset_metadata`) |
 | `dataset_writer.go` | Load metadata once, pass to every writer |
 | `.opencode/skills/vn-provinces-patch/` | Ignore `dataset_metadata` when diffing |
