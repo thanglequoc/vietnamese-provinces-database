@@ -14,7 +14,7 @@
 # Vietnamese Provinces Database
 
 A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
-Data is updated as of the most recent effective decree: [30/2026/QH16][source government decree]  
+Data is updated as of the most recent effective decree: [36/2026/QH16][source government decree]  
 **Add-on includes**: 
  - GIS Dataset
  - Postal Code Dataset
@@ -36,6 +36,8 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
+|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Work in Progress|
+|[36/2026/QH16][decree 36/2026/QH16]; dataset metadata table for all formats|24/08/2026|01/09/2026|v5.1.0|
 |Postal codes for all formats; Ba Chẽ ward code correction|---|---|v5.0.0|
 |Add GIS dataset for ElasticSearch, MongoDB|---|---|v4.2.0|
 |Add GeoJSON GIS, patch name, patch GIS province data of Da Nang and Khanh Hoa|---|---|v4.1.0|
@@ -214,14 +216,14 @@ The `vn_provinces_metadata` table is a single-row table that describes which rel
 |Column|Data type|Meaning|
 |------|-----------|---------|
 |`dataset_version`|varchar(50)|Dataset release version (e.g. `v5.1.0`)|
-|`latest_decree`|varchar(100)|Latest government decree reflected in the data (e.g. `30/2026/QH16`)|
+|`latest_decree`|varchar(100)|Latest government decree reflected in the data (e.g. `36/2026/QH16`)|
 |`generated_at`|timestamp|Dataset generation timestamp (UTC)|
 
 #### Data preview
 
 |dataset_version|latest_decree|generated_at|
 |--|--|--|
-|v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
+|v5.1.0|36/2026/QH16|2026-09-12 07:42:08|
 
 The same metadata is exported for the non-SQL formats: `vn_provinces_metadata.json` (JSON), the `vn_provinces_metadata` collection (MongoDB), the `vnProvincesMetadata` hash (Redis), and the `vn_provinces_metadata` index (Elasticsearch).
 
@@ -352,7 +354,9 @@ Vietnam Map in the banner by [vietcentertourist](https://vietcentertourist.com/a
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
 [decree 237/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-237-NQ-UBTVQH16-2026-thanh-lap-10-phuong-thuoc-tinh-Dong-Nai-702513.aspx
 [decree 30/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-30-2026-QH16-thanh-lap-thanh-pho-Dong-Nai-703888.aspx
-
+[decree 36/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-36-2026-QH16-thanh-lap-thanh-pho-Quang-Ninh-722881.aspx
+[decree 39/2026/QH16]: https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/Nghi-quyet-39-2026-QH16-thanh-lap-thanh-pho-Bac-Ninh-722250.aspx
+[decree 388/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-388-NQ-UBTVQH16-2026-thanh-lap-cac-phuong-thuoc-tinh-Bac-Ninh-720767.aspx
 
 ## Contributors
 <a href="https://github.com/thanglequoc/vietnamese-provinces-database/graphs/contributors">

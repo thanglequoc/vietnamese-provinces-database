@@ -14,7 +14,7 @@
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
 Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **34 tỉnh thành** và các Quận huyện, phường xã liên quan.  
-Dữ liệu được cập nhật theo nghị định gần nhất: [30/2026/QH16][source government decree]  
+Dữ liệu được cập nhật theo nghị định gần nhất: [36/2026/QH16][source government decree]  
 **Add-ons mở rộng**: 
 - Dataset toạ độ địa lý (GIS)
 - Dataset mã bưu chính (Postal Code)
@@ -35,6 +35,8 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 |Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Chưa triển khai|
+|[36/2026/QH16][decree 36/2026/QH16]; bảng metadata dataset cho tất cả các định dạng|24/08/2026|01/09/2026|v5.1.0|
 |Mã bưu chính cho tất cả các định dạng; sửa mã xã Ba Chẽ|---|---|v5.0.0|
 |Thêm GIS dataset cho ElasticSearch, MongoDB|---|---|v4.2.0|
 |Thêm định dạng GIS GeoJSON, vá tên tiếng Anh, vá dữ liệu GIS của tỉnh Đà Nẵng và Khánh Hòa|---|---|v4.1.0|
@@ -211,14 +213,14 @@ Bảng `vn_provinces_metadata` là bảng một dòng mô tả phiên bản data
 |Cột|Kiểu dữ liệu|Ý nghĩa|
 |------|-----------|---------|
 |`dataset_version`|varchar(50)|Phiên bản dataset (ví dụ `v5.1.0`)|
-|`latest_decree`|varchar(100)|Nghị định mới nhất đã phản ánh trong dữ liệu (ví dụ `30/2026/QH16`)|
+|`latest_decree`|varchar(100)|Nghị định mới nhất đã phản ánh trong dữ liệu (ví dụ `36/2026/QH16`)|
 |`generated_at`|timestamp|Thời điểm tạo dataset (UTC)|
 
 #### Dữ liệu mẫu
 
 |dataset_version|latest_decree|generated_at|
 |--|--|--|
-|v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
+|v5.1.0|36/2026/QH16|2026-09-12 07:42:08|
 
 Thông tin metadata tương tự cũng được xuất cho các định dạng non-SQL: `vn_provinces_metadata.json` (JSON), collection `vn_provinces_metadata` (MongoDB), hash `vnProvincesMetadata` (Redis), và index `vn_provinces_metadata` (Elasticsearch).
 
@@ -356,3 +358,6 @@ Bản đồ Việt Nam dùng làm banner từ [vietcentertourist](https://vietce
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
 [decree 237/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-237-NQ-UBTVQH16-2026-thanh-lap-10-phuong-thuoc-tinh-Dong-Nai-702513.aspx
 [decree 30/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-30-2026-QH16-thanh-lap-thanh-pho-Dong-Nai-703888.aspx
+[decree 36/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-36-2026-QH16-thanh-lap-thanh-pho-Quang-Ninh-722881.aspx
+[decree 39/2026/QH16]: https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/Nghi-quyet-39-2026-QH16-thanh-lap-thanh-pho-Bac-Ninh-722250.aspx
+[decree 388/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-388-NQ-UBTVQH16-2026-thanh-lap-cac-phuong-thuoc-tinh-Bac-Ninh-720767.aspx
