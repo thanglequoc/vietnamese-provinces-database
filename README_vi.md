@@ -35,6 +35,8 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 |Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
+|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Chưa triển khai|
+|[36/2026/QH16][decree 36/2026/QH16]|24/08/2026|01/09/2026|v5.0.1|
 |Mã bưu chính cho tất cả các định dạng; sửa mã xã Ba Chẽ|---|---|v5.0.0|
 |Thêm GIS dataset cho ElasticSearch, MongoDB|---|---|v4.2.0|
 |Thêm định dạng GIS GeoJSON, vá tên tiếng Anh, vá dữ liệu GIS của tỉnh Đà Nẵng và Khánh Hòa|---|---|v4.1.0|
@@ -356,3 +358,6 @@ Bản đồ Việt Nam dùng làm banner từ [vietcentertourist](https://vietce
 [decree 19/2025/QĐ-TTg]: https://www.nso.gov.vn/default/2025/07/quyet-dinh-ban-hanh-bang-danh-muc-va-ma-so-cac-don-vi-hanh-chinh-viet-nam/
 [decree 237/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-237-NQ-UBTVQH16-2026-thanh-lap-10-phuong-thuoc-tinh-Dong-Nai-702513.aspx
 [decree 30/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-30-2026-QH16-thanh-lap-thanh-pho-Dong-Nai-703888.aspx
+[decree 36/2026/QH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-36-2026-QH16-thanh-lap-thanh-pho-Quang-Ninh-722881.aspx
+[decree 39/2026/QH16]: https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/Nghi-quyet-39-2026-QH16-thanh-lap-thanh-pho-Bac-Ninh-722250.aspx
+[decree 388/NQ-UBTVQH16]: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-388-NQ-UBTVQH16-2026-thanh-lap-cac-phuong-thuoc-tinh-Bac-Ninh-720767.aspx
