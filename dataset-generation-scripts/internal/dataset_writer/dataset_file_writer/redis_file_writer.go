@@ -4,11 +4,15 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 	"github.com/thanglequoc-vn-provinces/v2/internal/vn_provinces_tmp/model"
 )
 
 const hsetAdministrativeUnitTemplate string = "HSET administrativeUnit:%d id %d fullName \"%s\" fullNameEn \"%s\" shortName \"%s\" shortNameEn \"%s\" codeName \"%s\"\n"
 const hsetRegionTemplate string = "HSET region:%d name \"%s\" nameEn \"%s\" codeName \"%s\" \n"
+
+const hsetDatasetMetadataTemplate string = "HSET vnProvincesMetadata datasetVersion \"%s\" latestDecree \"%s\" generatedAt \"%s\" \n"
 
 const hsetProvinceTemplate string = "HSET province:%s code \"%s\" name \"%s\" nameEn \"%s\" fullName \"%s\" fullNameEn \"%s\" codeName \"%s\" postalCodePrefix \"%s\" administrativeUnitId %d \n"
 
@@ -19,6 +23,7 @@ const hsetProvinceWardEnTemplate string = "HSET province:%s:wards:en \"%s\" \"%s
 
 type RedisDatasetFileWriter struct {
 	OutputFolderPath string
+	Metadata         datasetmetadata.Metadata
 }
 
 func (w *RedisDatasetFileWriter) WriteToFile(
@@ -36,6 +41,10 @@ func (w *RedisDatasetFileWriter) WriteToFile(
 	}
 
 	dataWriter := bufio.NewWriter(redisDatasetFile)
+
+	if !w.Metadata.IsEmpty() {
+		dataWriter.WriteString(generateDatasetMetadataRecord(w.Metadata))
+	}
 
 	for _, a := range administrativeUnits {
 		dataWriter.WriteString(generateAdministrativeRecord(a))
@@ -79,12 +88,15 @@ func writeRedisReadme(outputFolderPath string) error {
 			"| `region:<id>` | hash | 8 |",
 			"| `province:<code>:wards` | set | 34 |",
 			"| `province:<code>:wards:vn` / `:en` | hash | 34 each |",
+			"| `vnProvincesMetadata` | hash | 1 |",
 			"",
 			"## Data Structure",
 			"",
 			"`province:<code>` fields: `code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `postalCodePrefix`, `administrativeUnitId`.",
 			"",
 			"`ward:<code>` fields: `code`, `name`, `nameEn`, `fullName`, `fullNameEn`, `codeName`, `postalCode`, `administrativeUnitId`, `districtCode`.",
+			"",
+			"`vnProvincesMetadata` fields: `datasetVersion`, `latestDecree`, `generatedAt` (UTC, RFC 3339).",
 			"",
 			"`province:<code>:wards:vn` / `:en` map ward codes to Vietnamese/English full names.",
 			"",
@@ -110,8 +122,13 @@ func writeRedisReadme(outputFolderPath string) error {
 			"redis-cli SMEMBERS province:01:wards",
 			"redis-cli HGET ward:00004 fullName",
 			"redis-cli HGET province:01:wards:vn 00004",
+			"redis-cli HGETALL vnProvincesMetadata",
 			"```",
 		})
+}
+
+func generateDatasetMetadataRecord(m datasetmetadata.Metadata) string {
+	return fmt.Sprintf(hsetDatasetMetadataTemplate, m.DatasetVersion, m.LatestDecree, m.GeneratedAtRFC3339())
 }
 
 func generateAdministrativeRecord(a model.AdministrativeUnit) string {

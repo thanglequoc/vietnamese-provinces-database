@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "DatasetVersion": {
+        "type": "keyword"
+      },
+      "GeneratedAt": {
+        "type": "date"
+      },
+      "LatestDecree": {
+        "type": "keyword"
+      }
+    }
+  }
+}

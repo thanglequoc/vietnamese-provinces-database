@@ -4,11 +4,14 @@ import (
 	"context"
 	"fmt"
 	"os"
+
+	datasetmetadata "github.com/thanglequoc-vn-provinces/v2/internal/dataset_metadata"
 )
 
 const cleanUpScript = "./resources/fresh_cleanup.sql"
 const pathToTableInitFile = "./resources/db_table_init.sql"
 const pathToRegionAdministrativeInitFile = "./resources/db_region_administrative_unit.sql"
+const pathToVersionFile = "./version.txt"
 
 // GIS data structure scripts
 const pathToSapNhapGeoObjectsInitTbl = "./resources/gis/sapnhapbando_init_geo_json_objects_tbl.sql"
@@ -25,7 +28,7 @@ func BootstrapTemporaryDatasetStructure() {
 		panic(err)
 	}
 	fmt.Println("DB Fresh cleanup script executed")
-	
+
 	err = ExecuteSQLScript(pathToTableInitFile)
 	if err != nil {
 		panic(err)
@@ -37,6 +40,37 @@ func BootstrapTemporaryDatasetStructure() {
 		panic(err)
 	}
 	fmt.Println("Data for regions & administrative unit persisted")
+}
+
+/*
+BootstrapDatasetMetadata loads the dataset version source (version.txt) and
+persists a single metadata row into the temporary database.
+*/
+func BootstrapDatasetMetadata() {
+	metadata, err := datasetmetadata.LoadFromFile(pathToVersionFile)
+	if err != nil {
+		panic(err)
+	}
+
+	var latestDecree any
+	if metadata.LatestDecree != "" {
+		latestDecree = metadata.LatestDecree
+	}
+
+	db := GetPostgresDBConnection()
+	ctx := context.Background()
+	_, err = db.ExecContext(
+		ctx,
+		`INSERT INTO vn_provinces_metadata(dataset_version, latest_decree, generated_at)
+		VALUES (?, ?, ?)`,
+		metadata.DatasetVersion,
+		latestDecree,
+		metadata.GeneratedAt,
+	)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("Dataset metadata persisted")
 }
 
 /*

@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Microsoft SQL Server === */
-/* Created at:  Thu, 27 Aug 2026 08:52:13 +0700 */
+/* Created at:  Sat, 12 Sep 2026 14:42:08 +0700 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -33,7 +33,7 @@ INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,adminis
 ('15',N'Lào Cai',N'Lao Cai',N'Tỉnh Lào Cai',N'Lao Cai Province','lao_cai',2,N'31, 33'),
 ('19',N'Thái Nguyên',N'Thai Nguyen',N'Tỉnh Thái Nguyên',N'Thai Nguyen Province','thai_nguyen',2,N'23, 24'),
 ('20',N'Lạng Sơn',N'Lang Son',N'Tỉnh Lạng Sơn',N'Lang Son Province','lang_son',2,N'25'),
-('22',N'Quảng Ninh',N'Quang Ninh',N'Tỉnh Quảng Ninh',N'Quang Ninh Province','quang_ninh',2,N'01, 02'),
+('22',N'Quảng Ninh',N'Quang Ninh',N'Thành phố Quảng Ninh',N'Quang Ninh City','quang_ninh',1,N'01, 02'),
 ('24',N'Bắc Ninh',N'Bac Ninh',N'Tỉnh Bắc Ninh',N'Bac Ninh Province','bac_ninh',2,N'16, 26'),
 ('25',N'Phú Thọ',N'Phu Tho',N'Tỉnh Phú Thọ',N'Phu Tho Province','phu_tho',2,N'15, 35, 36'),
 ('31',N'Hải Phòng',N'Haiphong',N'Thành phố Hải Phòng',N'Haiphong City','hai_phong',1,N'03, 04, 05'),
@@ -3517,5 +3517,8 @@ INSERT INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_co
 ('32244',N'Phan Ngọc Hiển',N'Phan Ngoc Hien',N'Xã Phan Ngọc Hiển',N'Phan Ngoc Hien Commune','phan_ngoc_hien','96',4,N'98913'),
 ('32248',N'Đất Mũi',N'Dat Mui',N'Xã Đất Mũi',N'Dat Mui Commune','dat_mui','96',4,N'98912');
 
+-- ----------------------------------
+-- DATA for vn_provinces_metadata --
+INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES(N'v5.1.0',N'36/2026/QH16','2026-09-12 07:42:08');
 -- ----------------------------------
 -- END OF SCRIPT FILE --

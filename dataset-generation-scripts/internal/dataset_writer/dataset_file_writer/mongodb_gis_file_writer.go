@@ -13,8 +13,6 @@ import (
 )
 
 const (
-	mongoDatasetVer   = "2026.07.01"
-	mongoAdminRev     = "2026-04-30"
 	mongoGISChunkSize = 50 * 1024 * 1024 // 50 MB
 )
 

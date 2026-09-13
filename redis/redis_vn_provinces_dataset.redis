@@ -1,3 +1,4 @@
+HSET vnProvincesMetadata datasetVersion "v5.1.0" latestDecree "36/2026/QH16" generatedAt "2026-09-12T07:42:08Z" 
 HSET administrativeUnit:1 id 1 fullName "Thành phố trực thuộc trung ương" fullNameEn "Municipality" shortName "Thành phố" shortNameEn "City" codeName "thanh_pho_truc_thuoc_trung_uong"
 HSET administrativeUnit:2 id 2 fullName "Tỉnh" fullNameEn "Province" shortName "Tỉnh" shortNameEn "Province" codeName "tinh"
 HSET administrativeUnit:3 id 3 fullName "Phường" fullNameEn "Ward" shortName "Phường" shortNameEn "Ward" codeName "phuong"
@@ -20,7 +21,7 @@ HSET province:14 code "14" name "Sơn La" nameEn "Son La" fullName "Tỉnh Sơn 
 HSET province:15 code "15" name "Lào Cai" nameEn "Lao Cai" fullName "Tỉnh Lào Cai" fullNameEn "Lao Cai Province" codeName "lao_cai" postalCodePrefix "31, 33" administrativeUnitId 2 
 HSET province:19 code "19" name "Thái Nguyên" nameEn "Thai Nguyen" fullName "Tỉnh Thái Nguyên" fullNameEn "Thai Nguyen Province" codeName "thai_nguyen" postalCodePrefix "23, 24" administrativeUnitId 2 
 HSET province:20 code "20" name "Lạng Sơn" nameEn "Lang Son" fullName "Tỉnh Lạng Sơn" fullNameEn "Lang Son Province" codeName "lang_son" postalCodePrefix "25" administrativeUnitId 2 
-HSET province:22 code "22" name "Quảng Ninh" nameEn "Quang Ninh" fullName "Tỉnh Quảng Ninh" fullNameEn "Quang Ninh Province" codeName "quang_ninh" postalCodePrefix "01, 02" administrativeUnitId 2 
+HSET province:22 code "22" name "Quảng Ninh" nameEn "Quang Ninh" fullName "Thành phố Quảng Ninh" fullNameEn "Quang Ninh City" codeName "quang_ninh" postalCodePrefix "01, 02" administrativeUnitId 1 
 HSET province:24 code "24" name "Bắc Ninh" nameEn "Bac Ninh" fullName "Tỉnh Bắc Ninh" fullNameEn "Bac Ninh Province" codeName "bac_ninh" postalCodePrefix "16, 26" administrativeUnitId 2 
 HSET province:25 code "25" name "Phú Thọ" nameEn "Phu Tho" fullName "Tỉnh Phú Thọ" fullNameEn "Phu Tho Province" codeName "phu_tho" postalCodePrefix "15, 35, 36" administrativeUnitId 2 
 HSET province:31 code "31" name "Hải Phòng" nameEn "Haiphong" fullName "Thành phố Hải Phòng" fullNameEn "Haiphong City" codeName "hai_phong" postalCodePrefix "03, 04, 05" administrativeUnitId 1 

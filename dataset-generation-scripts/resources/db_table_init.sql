@@ -58,3 +58,10 @@ ALTER TABLE wards_tmp ADD CONSTRAINT wards_tmp_administrative_unit_id_fkey FOREI
 ALTER TABLE wards_tmp ADD CONSTRAINT wards_tmp_province_code_fkey FOREIGN KEY (province_code) REFERENCES provinces_tmp(code);
 CREATE INDEX idx_wards_tmp_province ON wards_tmp(province_code);
 CREATE INDEX idx_wards_tmp_tmp_unit ON wards_tmp(administrative_unit_id);
+
+-- CREATE vn_provinces_metadata TABLE (single-row dataset version descriptor)
+CREATE TABLE vn_provinces_metadata (
+	dataset_version varchar(50) NOT NULL,
+	latest_decree varchar(100) NULL,
+	generated_at timestamp NOT NULL
+);

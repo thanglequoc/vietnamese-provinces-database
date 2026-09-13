@@ -69,3 +69,11 @@ ALTER TABLE wards ADD CONSTRAINT wards_province_code_fkey FOREIGN KEY (province_
 
 CREATE INDEX idx_wards_province ON wards(province_code);
 CREATE INDEX idx_wards_unit ON wards(administrative_unit_id);
+
+
+-- CREATE vn_provinces_metadata TABLE (single-row dataset version descriptor)
+CREATE TABLE vn_provinces_metadata (
+	dataset_version nvarchar(50) NOT NULL,
+	latest_decree nvarchar(100) NULL,
+	generated_at datetime2 NOT NULL
+);

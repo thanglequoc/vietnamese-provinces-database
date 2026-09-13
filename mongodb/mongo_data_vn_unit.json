@@ -8761,10 +8761,10 @@
   "Code": "22",
   "Name": "Quảng Ninh",
   "NameEn": "Quang Ninh",
-  "FullName": "Tỉnh Quảng Ninh",
-  "FullNameEn": "Quang Ninh Province",
+  "FullName": "Thành phố Quảng Ninh",
+  "FullNameEn": "Quang Ninh City",
   "CodeName": "quang_ninh",
-  "AdministrativeUnitId": 2,
+  "AdministrativeUnitId": 1,
   "PostalCodePrefix": "01, 02",
   "Wards": [
    {

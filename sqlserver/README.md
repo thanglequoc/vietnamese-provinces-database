@@ -1,12 +1,12 @@
 # Microsoft SQL Server Dataset — Vietnamese Provinces Database
 
-**Generated at: Thu, 27 Aug 2026 08:52:13 +0700**
+**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
 
 Import script for the Vietnamese Provinces Database on Microsoft SQL Server.
 
 ## Files
 
-- `mssql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (359.24 KB)
+- `mssql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (359.45 KB)
 
 ## Overview
 
@@ -18,6 +18,7 @@ The Vietnamese Provinces Database for Microsoft SQL Server. The import script po
 | `administrative_units` | 8 | Administrative unit types (city, province, ward, ...) |
 | `provinces` | 34 | Provinces and municipalities |
 | `wards` | 3,321 | Wards, communes, and town townships |
+| `vn_provinces_metadata` | 1 | Dataset version, latest decree, and generation timestamp |
 
 GIS boundary geometry (in `gis/`) populates `gis_provinces` and `gis_wards`.
 
@@ -48,6 +49,16 @@ GIS boundary geometry (in `gis/`) populates `gis_provinces` and `gis_wards`.
 
 `administrative_regions` and `administrative_units` hold the region and unit-type lookup rows (8 each).
 
+### vn_provinces_metadata
+
+Single-row table describing the dataset release:
+
+| Column | Description |
+|--------|-------------|
+| `dataset_version` | Dataset release version (e.g. `v5.1.0`) |
+| `latest_decree` | Latest government decree reflected in the data (e.g. `30/2026/QH16`) |
+| `generated_at` | Dataset generation timestamp (UTC) |
+
 ## Sample Document
 
 A province row:
@@ -66,6 +77,9 @@ INSERT INTO provinces(code,name,name_en,full_name,full_name_en,code_name,adminis
 
 ```sql
 SELECT (SELECT COUNT(*) FROM provinces) AS provinces, (SELECT COUNT(*) FROM wards) AS wards;
+
+-- Dataset version and latest decree
+SELECT dataset_version, latest_decree, generated_at FROM vn_provinces_metadata;
 
 SELECT w.code, w.name FROM wards w WHERE w.province_code = '01' ORDER BY w.name;
 

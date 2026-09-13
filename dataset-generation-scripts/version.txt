@@ -1,0 +1,5 @@
+# Vietnamese Provinces Database — dataset version source
+# Consumed by the dataset generator to populate the `vn_provinces_metadata` table
+# across every exported format. Update both values when preparing a release.
+dataset_version=v5.1.0
+latest_decree=36/2026/QH16
