@@ -14,7 +14,7 @@
 # Vietnamese Provinces Database
 
 A complete SQL (and also non-SQL) databases of Vietnamese administrative units, includes all **34 Vietnamese provinces** and associated districts, wards sub-divisions.  
-Data is updated as of the most recent effective decree: [30/2026/QH16][source government decree]  
+Data is updated as of the most recent effective decree: [36/2026/QH16][source government decree]  
 **Add-on includes**: 
  - GIS Dataset
  - Postal Code Dataset
@@ -37,7 +37,7 @@ The following table contains a list of issued decrees and their effective dates,
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
 |[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Work in Progress|
-|[36/2026/QH16][decree 36/2026/QH16]|24/08/2026|01/09/2026|v5.0.1|
+|[36/2026/QH16][decree 36/2026/QH16]; dataset metadata table for all formats|24/08/2026|01/09/2026|v5.1.0|
 |Postal codes for all formats; Ba Chẽ ward code correction|---|---|v5.0.0|
 |Add GIS dataset for ElasticSearch, MongoDB|---|---|v4.2.0|
 |Add GeoJSON GIS, patch name, patch GIS province data of Da Nang and Khanh Hoa|---|---|v4.1.0|
@@ -216,14 +216,14 @@ The `vn_provinces_metadata` table is a single-row table that describes which rel
 |Column|Data type|Meaning|
 |------|-----------|---------|
 |`dataset_version`|varchar(50)|Dataset release version (e.g. `v5.1.0`)|
-|`latest_decree`|varchar(100)|Latest government decree reflected in the data (e.g. `30/2026/QH16`)|
+|`latest_decree`|varchar(100)|Latest government decree reflected in the data (e.g. `36/2026/QH16`)|
 |`generated_at`|timestamp|Dataset generation timestamp (UTC)|
 
 #### Data preview
 
 |dataset_version|latest_decree|generated_at|
 |--|--|--|
-|v5.1.0|30/2026/QH16|2026-09-12 06:34:14|
+|v5.1.0|36/2026/QH16|2026-09-12 07:42:08|
 
 The same metadata is exported for the non-SQL formats: `vn_provinces_metadata.json` (JSON), the `vn_provinces_metadata` collection (MongoDB), the `vnProvincesMetadata` hash (Redis), and the `vn_provinces_metadata` index (Elasticsearch).
 
