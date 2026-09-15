@@ -773,6 +773,22 @@ The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
 
 > **Note**: `first-workflow.yml` is a trivial hello-world stub, not functional CI.
 
+### Automated Decree Detection (`.github/workflows/decree-automation.yml`)
+
+A scheduled workflow (Mon/Wed/Fri 08:00 ICT + Sat 22:00 ICT) inspects the GSO decree
+listing at <https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx> and, when a decree that
+is already effective differs from `version.txt`'s `latest_decree`, regenerates the full
+dataset and opens a PR against `master`.
+
+- **Checker**: `internal/decree_check/` (parser + selection) and `cmd/decreecheck/` (CLI).
+  It picks the first row whose effective date ≤ today in `Asia/Ho_Chi_Minh` — the GSO list
+  is newest-*published*-first, so future-effective decrees are skipped.
+- **Version bump**: `go run ./cmd/decreecheck --apply --decree "<n>"` minor-bumps
+  `dataset_version` (middle digit) and updates `latest_decree`.
+- **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
+  `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
+- **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
+
 ---
 
 ## Subsystem Deep Dive
