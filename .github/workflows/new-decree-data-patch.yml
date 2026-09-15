@@ -31,7 +31,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: decree-automation
+  group: new-decree-data-patch
   cancel-in-progress: false
 
 jobs:
