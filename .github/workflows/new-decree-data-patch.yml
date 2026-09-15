@@ -1,0 +1,178 @@
+name: New Decree Data Patch
+
+# Checks the GSO administrative-unit decree table on a schedule. When a decree
+# that is effective today (or earlier) differs from the dataset's recorded
+# `latest_decree`, the full dataset is regenerated and a PR is opened against
+# `master`.
+#
+# Required repository secret:
+#   DECREE_AUTOMATION_PAT — a PAT (classic: repo + workflow; fine-grained:
+#   Contents RW + Pull requests RW). A PAT is required so the generated PR
+#   triggers the `Test Go Code` workflow (PRs opened with the default
+#   GITHUB_TOKEN do not trigger `pull_request` workflows).
+
+on:
+  schedule:
+    - cron: '0 1 * * 1,3,5' # 08:00 ICT (GMT+7) — Mon, Wed, Fri
+    - cron: '0 15 * * 6'    # 22:00 ICT (GMT+7) — Saturday
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force generation even when no new decree is detected'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Generate the dataset but do not open a pull request'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: new-decree-data-patch
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    name: Detect new decree
+    runs-on: ubuntu-latest
+    outputs:
+      should_generate: ${{ steps.check.outputs.should_generate }}
+      decree: ${{ steps.check.outputs.decree }}
+      decree_slug: ${{ steps.check.outputs.decree_slug }}
+      effective_date: ${{ steps.check.outputs.effective_date }}
+      current_decree: ${{ steps.check.outputs.current_decree }}
+      current_version: ${{ steps.check.outputs.current_version }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: dataset-generation-scripts/go.mod
+          cache-dependency-path: dataset-generation-scripts/go.sum
+
+      - name: Inspect GSO decree table
+        id: check
+        working-directory: ./dataset-generation-scripts
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          set -o pipefail
+
+          go run ./cmd/decreecheck | tee /tmp/decree.out
+
+          if [ "${FORCE}" = "true" ]; then
+            echo "::notice::force=true — overriding should_generate"
+            sed -i 's/^should_generate=false/should_generate=true/' /tmp/decree.out
+          fi
+
+          cat /tmp/decree.out >> "$GITHUB_OUTPUT"
+
+  generate:
+    name: Regenerate dataset and open PR
+    needs: detect
+    if: needs.detect.outputs.should_generate == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    services:
+      postgres:
+        image: postgis/postgis:15-3.3
+        env:
+          POSTGRES_PASSWORD: root
+          POSTGRES_DB: vn_provinces_tmp
+          POSTGRES_USER: postgres
+        ports:
+          - 15432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: dataset-generation-scripts/go.mod
+          cache-dependency-path: dataset-generation-scripts/go.sum
+
+      - name: Write database .env
+        working-directory: ./dataset-generation-scripts
+        run: |
+          cat > .env <<'EOF'
+          POSTGRES_DB_USERNAME=postgres
+          POSTGRES_DB_PSWD=root
+          POSTGRES_DB_HOST=localhost
+          POSTGRES_DB_PORT=15432
+          POSTGRES_TMP_DB_NAME=vn_provinces_tmp
+          EOF
+
+      - name: Apply dataset version bump
+        working-directory: ./dataset-generation-scripts
+        env:
+          DECREE: ${{ needs.detect.outputs.decree }}
+        run: go run ./cmd/decreecheck --apply --decree "$DECREE"
+
+      - name: Generate dataset
+        working-directory: ./dataset-generation-scripts
+        run: go run main.go
+
+      - name: Copy datasets into repository folders
+        working-directory: ./dataset-generation-scripts
+        run: ./copy-datasets-to-repo.sh
+
+      - name: Upload generation logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generation-logs
+          path: |
+            dataset-generation-scripts/output/generation-log.txt
+            dataset-generation-scripts/output/*fix_log*.txt
+          if-no-files-found: ignore
+
+      - name: Create or update pull request
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run != true }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.DECREE_AUTOMATION_PAT }}
+          base: master
+          branch: auto/decree-${{ needs.detect.outputs.decree_slug }}
+          delete-branch: true
+          author: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          committer: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          title: 'chore: update dataset to decree ${{ needs.detect.outputs.decree }}'
+          commit-message: 'feat: update dataset with latest decree ${{ needs.detect.outputs.decree }}'
+          add-paths: |
+            json
+            postgresql
+            mysql
+            sqlserver
+            oracle
+            mongodb
+            redis
+            elasticsearch
+            dataset-generation-scripts/version.txt
+          body: |
+            Automated dataset update triggered by the scheduled decree check.
+
+            | Field | Value |
+            |-------|-------|
+            | New decree | `${{ needs.detect.outputs.decree }}` |
+            | Effective date | ${{ needs.detect.outputs.effective_date }} |
+            | Previous decree | `${{ needs.detect.outputs.current_decree }}` |
+            | Previous version | `${{ needs.detect.outputs.current_version }}` |
+
+            Regenerated with `go run main.go` and published via `copy-datasets-to-repo.sh`
+            by `.github/workflows/new-decree-data-patch.yml`.

@@ -82,6 +82,53 @@ The maintainer-controlled version source is `version.txt` (`dataset_version` +
 
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.
 
+## Automated decree detection (GitHub Actions)
+
+The [`.github/workflows/new-decree-data-patch.yml`](../.github/workflows/new-decree-data-patch.yml)
+workflow checks the GSO decree listing at
+<https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx> on a schedule
+(Mon/Wed/Fri 08:00 ICT and Sat 22:00 ICT). When a decree that is already
+effective is newer than `version.txt`'s `latest_decree`, it regenerates the
+dataset and opens a PR against `master`.
+
+How the decision is made (`internal/decree_check` + `cmd/decreecheck`):
+
+1. Fetch the GSO page and parse the decree grid (decree number, issue date,
+   effective date, content).
+2. Pick the first row whose effective date is on or before today in
+   `Asia/Ho_Chi_Minh`. The GSO list is newest-*published*-first, so
+   future-effective decrees sitting at the top are skipped.
+3. Compare it with `latest_decree` in `version.txt`. If it differs (and does not
+   appear older), the workflow proceeds.
+
+The `generate` job then:
+
+1. Writes `dataset-generation-scripts/.env` for the PostGIS service container.
+2. Runs `go run ./cmd/decreecheck --apply --decree "<n>"` — this minor-bumps
+   `dataset_version` (middle digit, `v5.1.0 → v5.2.0`) and sets `latest_decree`.
+3. Runs `go run main.go` and `./copy-datasets-to-repo.sh`.
+4. Opens or updates the PR `auto/decree-<slug>` via
+   `peter-evans/create-pull-request`.
+
+**Required secret**: `DECREE_AUTOMATION_PAT` — a PAT (classic: `repo` +
+`workflow`; fine-grained: Contents RW + Pull requests RW). A PAT is required so
+the generated PR triggers `Test Go Code`; PRs opened with the default
+`GITHUB_TOKEN` do not trigger `pull_request` workflows.
+
+**Manual run** via `workflow_dispatch`:
+
+- `force: true` — generate even when no new decree is detected.
+- `dry_run: true` — generate but do not open the PR.
+
+**Local dry run**:
+
+```bash
+cd dataset-generation-scripts
+go run ./cmd/decreecheck \
+  --html-file ./internal/decree_check/testdata/nghidinh_sample.html \
+  --today 2026-09-21
+```
+
 ## Output structure
 
 After a successful run, the `output/` directory contains:
@@ -147,3 +194,4 @@ go test -v ./...
 | GIS pipeline errors or missing geometry | GeoJSON files missing from `resources/gis/geojson_11Mar2026/` | Ensure the repository was cloned correctly; the GeoJSON files are committed in Git |
 | `package ... is not in GOROOT` | Go module dependencies not downloaded | Run `go mod download` from `dataset-generation-scripts/` |
 | Tests fail with database connection errors | Database container not started | Verify with `docker ps`, check `.env` values match the Docker config |
+| Decree check fails with `markup may have changed` | The GSO page markup changed | Update the patterns in `internal/decree_check/decree_check.go` and refresh `internal/decree_check/testdata/nghidinh_sample.html` |
