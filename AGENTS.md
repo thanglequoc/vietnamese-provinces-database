@@ -773,7 +773,7 @@ The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
 
 > **Note**: `first-workflow.yml` is a trivial hello-world stub, not functional CI.
 
-### Automated Decree Detection (`.github/workflows/decree-automation.yml`)
+### Automated Decree Detection (`.github/workflows/new-decree-data-patch.yml`)
 
 A scheduled workflow (Mon/Wed/Fri 08:00 ICT + Sat 22:00 ICT) inspects the GSO decree
 listing at <https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx> and, when a decree that

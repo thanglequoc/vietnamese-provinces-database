@@ -175,4 +175,4 @@ jobs:
             | Previous version | `${{ needs.detect.outputs.current_version }}` |
 
             Regenerated with `go run main.go` and published via `copy-datasets-to-repo.sh`
-            by `.github/workflows/decree-automation.yml`.
+            by `.github/workflows/new-decree-data-patch.yml`.

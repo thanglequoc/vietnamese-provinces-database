@@ -49,7 +49,7 @@ Automate the "new decree → regenerate dataset → open PR" loop:
 - `--apply --decree <n>`: bumps `version.txt`.
 - Testability flags: `--html-file`, `--today`, `--url`, `--version-file`.
 
-### 3. `.github/workflows/decree-automation.yml`
+### 3. `.github/workflows/new-decree-data-patch.yml`
 
 - **Job A `detect`** — no DB, no secrets. Runs `decreecheck`, exposes
   `should_generate`, `decree`, `decree_slug`, `effective_date`,
