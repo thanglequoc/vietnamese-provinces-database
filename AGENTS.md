@@ -775,7 +775,7 @@ The CI pipeline runs on pull requests to `main`/`master` and on manual dispatch:
 
 ### Automated Decree Detection (`.github/workflows/new-decree-data-patch.yml`)
 
-A scheduled workflow (Mon/Wed/Fri 08:00 ICT + Sat 22:00 ICT) inspects the GSO decree
+A scheduled workflow (daily 08:00 ICT) inspects the GSO decree
 listing at <https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx> and, when a decree that
 is already effective differs from `version.txt`'s `latest_decree`, regenerates the full
 dataset and opens a PR against `master`.
