@@ -22,7 +22,7 @@ Automate the "new decree → regenerate dataset → open PR" loop:
 | Version bump | Auto minor-bump `dataset_version` (middle digit, `v5.1.0 → v5.2.0`) and set `latest_decree` to the detected decree. |
 | CI generation scope | Full `main.go` (GIS included) + `copy-datasets-to-repo.sh`. |
 | PR tooling | `peter-evans/create-pull-request` with a PAT secret so `test-go.yml` runs on the auto-PR. |
-| Schedule | Mon/Wed/Fri 08:00 ICT and Sat 22:00 ICT → `0 1 * * 1,3,5` + `0 15 * * 6` (UTC). |
+| Schedule | Daily 08:00 ICT → `0 1 * * *` (UTC). |
 
 ## Components
 

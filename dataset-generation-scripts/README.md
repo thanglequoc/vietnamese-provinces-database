@@ -87,7 +87,7 @@ The maintainer-controlled version source is `version.txt` (`dataset_version` +
 The [`.github/workflows/new-decree-data-patch.yml`](../.github/workflows/new-decree-data-patch.yml)
 workflow checks the GSO decree listing at
 <https://danhmuchanhchinh.nso.gov.vn/NghiDinh.aspx> on a schedule
-(Mon/Wed/Fri 08:00 ICT and Sat 22:00 ICT). When a decree that is already
+(daily 08:00 ICT). When a decree that is already
 effective is newer than `version.txt`'s `latest_decree`, it regenerates the
 dataset and opens a PR against `master`.
 
