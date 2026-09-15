@@ -1,4 +1,4 @@
-name: Automated Decree Detection & Dataset PR
+name: New Decree Data Patch
 
 # Checks the GSO administrative-unit decree table on a schedule. When a decree
 # that is effective today (or earlier) differs from the dataset's recorded
