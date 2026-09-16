@@ -147,7 +147,7 @@ dataset-generation-scripts/
 | `.env.example` | Template for `.env` (copy to `.env` and fill in credentials) |
 | `docker/docker-compose.yaml` | Docker Postgres/PostGIS service (port 15432→5432) |
 | `version.txt` | Dataset version source — `dataset_version` + `latest_decree`, loaded by `internal/vn_provinces_metadata` and written to the `vn_provinces_metadata` table/entity in every exported format |
-| `go.mod` | Go module definition & dependencies (Go 1.24.0) |
+| `go.mod` | Go module definition & dependencies (Go 1.26.0) |
 | `resources/gis/geojson_11Mar2026/` | GeoJSON geometry files from deprecated API |
 | `resources/gis/sapnhapbando_geojson/` | 3,355 auxiliary GIS GeoJSON resource files |
 | `main.go` | Entry point for dataset generation |
