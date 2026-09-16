@@ -653,7 +653,7 @@ vietnamese-provinces-database/
 ## Key Conventions
 
 ### Code Style
-- **Language**: Go 1.24.0
+- **Language**: Go 1.26.0
 - **ORM**: Bun with PostgreSQL dialect
 - **Naming**: Database=`snake_case`, Go structs=`PascalCase`, JSON=`snake_case`
 - **Error Handling**: Always wrap with context using `fmt.Errorf`
