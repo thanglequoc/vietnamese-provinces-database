@@ -1,0 +1,201 @@
+name: Publish Dataset Archives
+
+# Manually packages each published dataset folder into a ZIP archive, uploads
+# the archives to the maintainer's Cloudflare R2 bucket, and opens a PR that
+# refreshes the download tables in the READMEs / GIS docs.
+#
+# Required repository secrets:
+#   R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
+# Required repository variables:
+#   R2_ACCOUNT_ID, R2_BUCKET_NAME, R2_PUBLIC_BASE_URL
+# Optional secret:
+#   DECREE_AUTOMATION_PAT — PAT so the generated PR triggers `test-go.yml`
+#   (falls back to the default GITHUB_TOKEN, whose PRs do not trigger CI).
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release tag to package (default: latest GitHub release)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Build archives and print URLs without uploading or opening a PR'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publish-dataset-archives
+  cancel-in-progress: false
+
+jobs:
+  package:
+    name: Package and upload archives
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+
+    steps:
+      - name: Resolve version
+        id: version
+        env:
+          INPUT_VERSION: ${{ inputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${INPUT_VERSION}" ]]; then
+            VERSION="${INPUT_VERSION}"
+          else
+            VERSION="$(gh release view --repo "${GITHUB_REPOSITORY}" --json tagName -q .tagName)"
+          fi
+          [[ "${VERSION}" == v* ]] || VERSION="v${VERSION}"
+          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+          echo "Resolved version: ${VERSION}"
+
+      - name: Checkout tooling
+        uses: actions/checkout@v7
+        with:
+          path: repo
+          fetch-depth: 1
+          sparse-checkout: .github
+
+      - name: Checkout dataset at ${{ steps.version.outputs.version }}
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.version.outputs.version }}
+          path: data
+          fetch-depth: 1
+          sparse-checkout: |
+            postgresql
+            mysql
+            sqlserver
+            oracle
+            json
+            mongodb
+            redis
+            elasticsearch
+
+      - name: Package datasets
+        env:
+          R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
+        run: |
+          ./repo/.github/scripts/package-datasets.sh \
+            "${{ steps.version.outputs.version }}" \
+            "${RUNNER_TEMP}/archives" \
+            --repo-root data
+
+      - name: Upload archives to Cloudflare R2
+        if: ${{ inputs.dry_run != true }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          AWS_ENDPOINT_URL_S3: https://${{ vars.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          MANIFEST="${RUNNER_TEMP}/archives/downloads.json"
+          while IFS=$'\t' read -r archive dataset_name; do
+            echo "::group::Uploading ${dataset_name}/${archive}"
+            aws s3 cp "${RUNNER_TEMP}/archives/${archive}" \
+              "s3://${R2_BUCKET_NAME}/${VERSION}/${dataset_name}/${archive}" \
+              --no-progress
+            echo "::endgroup::"
+          done < <(jq -r '.datasets[] | [.archive, .dataset_name] | @tsv' "${MANIFEST}")
+          aws s3 cp "${MANIFEST}" "s3://${R2_BUCKET_NAME}/${VERSION}/downloads.json" --no-progress
+
+      - name: Verify CDN URLs
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          set -euo pipefail
+          MANIFEST="${RUNNER_TEMP}/archives/downloads.json"
+          fail=0
+          while read -r url; do
+            code="$(curl -s -o /dev/null -w '%{http_code}' "${url}")"
+            echo "${code} ${url}"
+            [[ "${code}" == "200" ]] || fail=1
+          done < <(jq -r '.datasets[].url' "${MANIFEST}")
+          if [[ "${fail}" -ne 0 ]]; then
+            echo "::warning::One or more CDN URLs did not return HTTP 200. Check the bucket's public access / custom domain configuration."
+          fi
+
+      - name: Write run summary
+        run: |
+          set -euo pipefail
+          MANIFEST="${RUNNER_TEMP}/archives/downloads.json"
+          {
+            echo "## Dataset archives — $(jq -r .version "${MANIFEST}")"
+            echo
+            if [[ "${{ inputs.dry_run }}" == "true" ]]; then
+              echo "**Dry run** — archives were built but not uploaded."
+              echo
+            fi
+            echo "| Dataset | Size | URL |"
+            echo "|---------|------|-----|"
+            jq -r '.datasets[] | "| \(.dataset_name) | \(.size_human) | \(.url) |"' "${MANIFEST}"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Upload manifest artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: downloads-manifest
+          path: ${{ runner.temp }}/archives/downloads.json
+          if-no-files-found: error
+
+  docs:
+    name: Update download tables and open PR
+    needs: package
+    if: ${{ inputs.dry_run != true }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v7
+        with:
+          ref: master
+          fetch-depth: 1
+          sparse-checkout: |
+            .github
+            docs/gis
+
+      - name: Download manifest artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: downloads-manifest
+          path: ${{ runner.temp }}/manifest
+
+      - name: Update download tables
+        run: |
+          python3 .github/scripts/update_download_tables.py \
+            --downloads "${RUNNER_TEMP}/manifest/downloads.json" \
+            --repo-root .
+
+      - name: Create or update pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.DECREE_AUTOMATION_PAT || github.token }}
+          base: master
+          branch: auto/downloads-${{ needs.package.outputs.version }}
+          delete-branch: true
+          author: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          committer: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          title: 'chore: publish dataset archives for ${{ needs.package.outputs.version }}'
+          commit-message: 'docs: add download links for ${{ needs.package.outputs.version }}'
+          add-paths: |
+            README.md
+            README_vi.md
+            docs/gis/gis_readme.md
+            docs/gis/gis_readme_vi.md
+          body: |
+            Automated dataset archive publication for `${{ needs.package.outputs.version }}`.
+
+            - Archives uploaded to Cloudflare R2 under `<version>/<DataSetName>/`
+            - Download tables refreshed in `README.md`, `README_vi.md`, and `docs/gis/`
+
+            Triggered manually via `.github/workflows/publish-dataset-archives.yml`.

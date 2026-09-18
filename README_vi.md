@@ -64,8 +64,26 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 - Đặt dữ liệu tên đơn vị hành chính cho các giá trị tỉnh thành, phường xã  
 - Tạo các tên riêng bằng tiếng Anh cho các giá trị tỉnh thành, phường xã  
 - Tạo mã từ tên các tỉnh thành, phường xã  
-- Thêm bảng quan hệ `vn_provinces_metadata` (phiên bản dataset, nghị định mới nhất, thời điểm tạo)  
-- **Add-on**: Hệ thống thông tin địa lý (GIS) trên bản đồ cho các đơn vị hành chính
+- **Add-on**: Bộ dữ liệu GIS và Mã bưu chính
+
+## Tải xuống
+
+Bạn có thể tải xuống gói dữ liệu (archive) sẵn sàng sử dụng cho hệ quản trị cơ sở dữ liệu hoặc định dạng bạn cần bên dưới. Mỗi gói chứa đầy đủ thư mục dữ liệu của phiên bản phát hành mới nhất.
+
+> Các gói dữ liệu được phát hành cho tag phiên bản mới nhất. Các phiên bản cũ vẫn được lưu trữ theo đường dẫn phiên bản riêng trên CDN.
+
+<!-- DOWNLOAD_TABLE:START -->
+| Bộ dữ liệu | Định dạng | Phiên bản | Kích thước | Tải xuống |
+|------------|-----------|-----------|------------|-----------|
+| PostgreSQL / PostGIS | SQL | v5.1.0 | 41.82 MB | [vn_provinces_postgresql_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_v5.1.0.zip) |
+| MySQL / MariaDB | SQL | v5.1.0 | 40.70 MB | [vn_provinces_mysql_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_v5.1.0.zip) |
+| Microsoft SQL Server | SQL | v5.1.0 | 41.84 MB | [vn_provinces_sqlserver_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_v5.1.0.zip) |
+| Oracle | SQL | v5.1.0 | 88.43 KB | [vn_provinces_oracle_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/OracleDataSet/vn_provinces_oracle_v5.1.0.zip) |
+| JSON | JSON | v5.1.0 | 96.18 MB | [vn_provinces_json_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_v5.1.0.zip) |
+| MongoDB | NoSQL | v5.1.0 | 46.10 MB | [vn_provinces_mongodb_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_v5.1.0.zip) |
+| Redis | NoSQL | v5.1.0 | 170.17 KB | [vn_provinces_redis_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/RedisDataSet/vn_provinces_redis_v5.1.0.zip) |
+| Elasticsearch | NoSQL | v5.1.0 | 42.91 MB | [vn_provinces_elasticsearch_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_v5.1.0.zip) |
+<!-- DOWNLOAD_TABLE:END -->
 
 ## Hướng dẫn cài đặt
 Tạo cơ sở dữ liệu (nếu cần):

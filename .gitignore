@@ -8,3 +8,10 @@ dataset-generation-scripts/.env
 
 # Agent credentials (never commit)
 .env.agent
+
+# R2 publishing credentials for local testing (never commit)
+.env.r2
+
+# Python bytecode
+__pycache__/
+*.pyc
