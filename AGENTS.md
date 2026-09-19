@@ -845,6 +845,7 @@ This project maintains persistent learnings:
 | [README.md](README.md) | User guide — dataset installation & usage |
 | [CLAUDE.md](dataset-generation-scripts/CLAUDE.md) | Code agent guide — detailed subsystem context |
 | [dataset-generation-scripts/README.md](dataset-generation-scripts/README.md) | Maintainer guide — how to run generation scripts |
+| [dataset-generation-scripts/RELEASE.md](dataset-generation-scripts/RELEASE.md) | Maintainer guide — full release & generation process (secrets, R2, tagging, publishing) |
 | [docs/gis/](docs/gis/) | User-facing GIS documentation (readme, example queries) |
 | [development/](development/) | Feature documentation & planning artifacts |
 | [patch/](patch/) | Historical decree patches & changelog |

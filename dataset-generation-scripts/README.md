@@ -1,5 +1,7 @@
 > ⚠️ **Heads-up!**
 > This section is for maintainers who need to regenerate the dataset. If you're looking to use the dataset, see the [root README](../README.md).
+>
+> 📦 **Cutting a new release?** Follow the step-by-step [Release & Generation Guide](RELEASE.md).
 
 # Vietnamese Provinces Database Dataset Automation Scripts
 
