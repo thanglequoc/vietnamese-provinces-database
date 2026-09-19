@@ -6,6 +6,9 @@
 dataset-generation-scripts/output/*
 dataset-generation-scripts/.env
 
+# Local GIS mock cache (large; regenerate with dataset-generation-scripts/pull-gis-cache.sh)
+dataset-generation-scripts/resources/gis/gis_server_cache/
+
 # Agent credentials (never commit)
 .env.agent
 

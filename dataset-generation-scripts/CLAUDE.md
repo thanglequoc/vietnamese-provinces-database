@@ -76,6 +76,7 @@ dataset-generation-scripts/
 │   ├── db_region_administrative_unit.sql
 │   ├── fresh_cleanup.sql
 │   ├── gis/
+│   │   ├── gis_server_cache/  # Captured GIS responses for the local mock server (gzip per malk)
 │   │   ├── geojson_11Mar2026/ # GeoJSON geometry files (from deprecated API)
 │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
 │   │   ├── sapnhap_bando_tables.sql
@@ -143,14 +144,37 @@ dataset-generation-scripts/
 
 | File | Purpose |
 |------|---------|
-| `.env` | Database credentials — 5 env vars: `POSTGRES_DB_USERNAME`, `POSTGRES_DB_PSWD`, `POSTGRES_DB_HOST`, `POSTGRES_DB_PORT`, `POSTGRES_TMP_DB_NAME`. The DSN is constructed programmatically in `internal/database/postgres_connector.go` |
+| `.env` | Database credentials — 5 env vars: `POSTGRES_DB_USERNAME`, `POSTGRES_DB_PSWD`, `POSTGRES_DB_HOST`, `POSTGRES_DB_PORT`, `POSTGRES_TMP_DB_NAME`. The DSN is constructed programmatically in `internal/database/postgres_connector.go`. Optional `GIS_SERVER_BASE_URL` overrides the GIS server (default `https://sapnhap.bando.com.vn`; point at `http://127.0.0.1:18080` for the mock) |
 | `.env.example` | Template for `.env` (copy to `.env` and fill in credentials) |
 | `docker/docker-compose.yaml` | Docker Postgres/PostGIS service (port 15432→5432) |
 | `version.txt` | Dataset version source — `dataset_version` + `latest_decree`, loaded by `internal/vn_provinces_metadata` and written to the `vn_provinces_metadata` table/entity in every exported format |
 | `go.mod` | Go module definition & dependencies (Go 1.26.0) |
+| `resources/gis/gis_server_cache/` | Local (gitignored) capture of GIS server responses (gzip per `malk`) replayed by `cmd/mockgis`; pull with `./pull-gis-cache.sh` |
 | `resources/gis/geojson_11Mar2026/` | GeoJSON geometry files from deprecated API |
 | `resources/gis/sapnhapbando_geojson/` | 3,355 auxiliary GIS GeoJSON resource files |
 | `main.go` | Entry point for dataset generation |
+
+## Local GIS mock server
+
+The GIS phase normally calls `https://sapnhap.bando.com.vn` twice per geo object
+(6,710 requests/run). To run offline, replay the committed capture instead:
+
+```bash
+go run ./cmd/mockgis --data ./resources/gis/gis_server_cache --addr 127.0.0.1:18080
+GIS_SERVER_BASE_URL=http://127.0.0.1:18080 go run main.go
+```
+
+- `internal/sapnhap_bando/fetcher` resolves the base URL from `GIS_SERVER_BASE_URL`
+  (lazy, per request) and logs it once per process.
+- `internal/mock_gis_server` serves `POST /pread_json` (form `id`) and
+  `POST /p.co_dvhc_id` (form `malk`) from `resources/gis/gis_server_cache/`.
+  Unknown keys return 404; no authentication (local-only).
+- The cache is **gitignored** (large). Pull it once with `./pull-gis-cache.sh`
+  (wraps `go run ./cmd/giscapture --source json --force`).
+- `internal/sapnhap_bando/capture` + `cmd/giscapture` dump the real server into the
+  cache. `--source json` (script default) uses the committed `donvi_tinhthanh.json`;
+  `--source db` reads the `malk` list from `sapnhap_geojson_objects`. It is resumable
+  (`--force` to overwrite) and writes `manifest.json`.
 
 ## GIS Server ID Matching
 
