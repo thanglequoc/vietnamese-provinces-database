@@ -109,6 +109,7 @@ echo "  base url  : ${R2_PUBLIC_BASE_URL}"
 echo
 
 json="$OUT_DIR/downloads.json"
+packaged=0
 {
   echo "{"
   printf '  "version": "%s",\n' "$VERSION"
@@ -122,8 +123,8 @@ json="$OUT_DIR/downloads.json"
     should_package "$id" || continue
 
     if [[ ! -d "$REPO_ROOT/$id" ]]; then
-      echo "error: dataset folder not found: $REPO_ROOT/$id" >&2
-      exit 1
+      echo "warning: dataset folder not found, skipping: $REPO_ROOT/$id" >&2
+      continue
     fi
 
     archive="vn_provinces_${id}_${VERSION}.zip"
@@ -159,11 +160,17 @@ json="$OUT_DIR/downloads.json"
       printf '      "url": "%s"\n' "$url"
       echo -n "    }"
     }
+    packaged=$((packaged + 1))
   done
   echo
   echo "  ]"
   echo "}"
 } > "$json"
+
+if [[ "$packaged" -eq 0 ]]; then
+  echo "error: no dataset folders were packaged (check --repo-root and --only)" >&2
+  exit 1
+fi
 
 echo
 echo "Wrote ${json}"

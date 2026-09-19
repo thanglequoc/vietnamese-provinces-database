@@ -785,6 +785,10 @@ dataset and opens a PR against `master`.
   is newest-*published*-first, so future-effective decrees are skipped.
 - **Version bump**: `go run ./cmd/decreecheck --apply --decree "<n>"` minor-bumps
   `dataset_version` (middle digit) and updates `latest_decree`.
+- **Archive publishing**: the `generate` job chains the same scripts used by the manual
+  `publish-dataset-archives.yml` workflow — `package-datasets.sh` → `upload-archives-to-r2.sh`
+  → `update_download_tables.py` — so the freshly generated version is uploaded to R2 and
+  its download tables are updated in the same PR.
 - **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
   `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
 - **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
