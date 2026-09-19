@@ -160,15 +160,12 @@ func (w *PostgresMySQLDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS 
 	postgresGISFilePath := filepath.Join(postgresGISDir, "postgresql_ImportData_gis.sql")
 	mysqlGISFilePath := filepath.Join(mysqlGISDir, "mysql_ImportData_gis.sql")
 
-	createdAt := time.Now().Format(time.RFC1123Z)
 	postgresHeader := chunkHeaderInfo{
 		Banner:     "Add-on GIS Dataset for PostgreSQL of Vietnamese Provinces Database",
-		CreatedAt:  createdAt,
 		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
 	mysqlHeader := chunkHeaderInfo{
 		Banner:     "Add-on GIS Dataset for MySQL of Vietnamese Provinces Database",
-		CreatedAt:  createdAt,
 		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
 

@@ -16,7 +16,6 @@ var maxSQLGISChunkSize = 40 * 1024 * 1024 // 40 MB
 // SQL comment. The part/total numbers are interpolated per chunk at write time.
 type chunkHeaderInfo struct {
 	Banner     string
-	CreatedAt  string
 	Repository string
 }
 
@@ -27,7 +26,9 @@ type chunkHeaderInfo struct {
 // matching the Elasticsearch naming convention.
 //
 // Every chunk starts with a self-describing SQL header comment containing the
-// banner, "Part X of N", created-at timestamp, and repository link.
+// banner, "Part X of N", and repository link. The header is intentionally free
+// of any generation timestamp so that regenerating unchanged GIS data produces
+// byte-identical files (no spurious diffs).
 func writeChunkedSQLFile(path string, blocks [][]byte, header chunkHeaderInfo) error {
 	if len(blocks) == 0 {
 		return nil
@@ -73,7 +74,6 @@ func writeChunkedSQLFile(path string, blocks [][]byte, header chunkHeaderInfo) e
 		headerLines := []string{
 			fmt.Sprintf("/* === %s === */\n", header.Banner),
 			fmt.Sprintf("/* Part %d of %d */\n", i+1, len(chunks)),
-			fmt.Sprintf("/* Created at:  %s */\n", header.CreatedAt),
 			fmt.Sprintf("/* Reference: %s */\n", header.Repository),
 			"/* =============================================== */\n\n",
 		}
