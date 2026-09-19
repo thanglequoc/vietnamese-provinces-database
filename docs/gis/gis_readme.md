@@ -4,12 +4,12 @@
 <!-- GIS_DOWNLOAD_TABLE:START -->
 | Platform | Download Link | File Size |
 |----------|---------------|-----------|
-| PostgreSQL / PostGIS | [Download PostgreSQL / PostGIS dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip) | 41.82 MB |
-| MySQL / MariaDB | [Download MySQL / MariaDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip) | 40.70 MB |
-| Microsoft SQL Server | [Download Microsoft SQL Server dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip) | 41.84 MB |
-| JSON | [Download JSON dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_dataset_v5.1.0.zip) | 96.18 MB |
-| Elasticsearch | [Download Elasticsearch dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_dataset_v5.1.0.zip) | 42.91 MB |
-| MongoDB | [Download MongoDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_dataset_v5.1.0.zip) | 46.10 MB |
+| PostgreSQL / PostGIS | [Download PostgreSQL / PostGIS dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/postgresql/vn_provinces_postgresql_dataset_v5.1.0.zip) | 41.82 MB |
+| MySQL / MariaDB | [Download MySQL / MariaDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/mysql/vn_provinces_mysql_dataset_v5.1.0.zip) | 40.70 MB |
+| Microsoft SQL Server | [Download Microsoft SQL Server dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/sqlserver/vn_provinces_sqlserver_dataset_v5.1.0.zip) | 41.84 MB |
+| JSON | [Download JSON dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/json/vn_provinces_json_dataset_v5.1.0.zip) | 96.18 MB |
+| Elasticsearch | [Download Elasticsearch dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/elasticsearch/vn_provinces_elasticsearch_dataset_v5.1.0.zip) | 42.91 MB |
+| MongoDB | [Download MongoDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/mongodb/vn_provinces_mongodb_dataset_v5.1.0.zip) | 46.10 MB |
 <!-- GIS_DOWNLOAD_TABLE:END -->
 
 ## Table of Contents
@@ -502,6 +502,6 @@ If you find issues with the GIS dataset or have suggestions for improvements, pl
 
 **Last Updated:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/postgresql/vn_provinces_postgresql_dataset_v5.1.0.zip
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/mysql/vn_provinces_mysql_dataset_v5.1.0.zip
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/sqlserver/vn_provinces_sqlserver_dataset_v5.1.0.zip

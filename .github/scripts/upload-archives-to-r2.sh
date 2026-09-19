@@ -23,13 +23,13 @@ command -v jq >/dev/null 2>&1 || { echo "error: jq is required" >&2; exit 1; }
 command -v aws >/dev/null 2>&1 || { echo "error: aws-cli is required" >&2; exit 1; }
 
 echo "Uploading archives for ${VERSION} to s3://${R2_BUCKET_NAME}/"
-while IFS=$'\t' read -r archive dataset_name; do
-  echo "::group::Uploading ${dataset_name}/${archive}"
+while IFS=$'\t' read -r archive dataset_id; do
+  echo "::group::Uploading ${dataset_id}/${archive}"
   aws s3 cp "${ARCHIVES_DIR}/${archive}" \
-    "s3://${R2_BUCKET_NAME}/${VERSION}/${dataset_name}/${archive}" \
+    "s3://${R2_BUCKET_NAME}/${VERSION}/${dataset_id}/${archive}" \
     --no-progress
   echo "::endgroup::"
-done < <(jq -r '.datasets[] | [.archive, .dataset_name] | @tsv' "$MANIFEST")
+done < <(jq -r '.datasets[] | [.archive, .id] | @tsv' "$MANIFEST")
 
 aws s3 cp "$MANIFEST" "s3://${R2_BUCKET_NAME}/${VERSION}/downloads.json" --no-progress
 

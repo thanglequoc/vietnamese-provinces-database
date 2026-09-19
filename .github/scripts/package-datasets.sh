@@ -20,16 +20,17 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEFAULT_REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
-# "<folder>:<R2 dataset prefix>"
+# Published dataset folders. The folder name doubles as the R2 key prefix
+# (lowercase, e.g. "postgresql", "elasticsearch").
 DATASETS=(
-  "postgresql:PostgreSQLDataSet"
-  "mysql:MySQLDataSet"
-  "sqlserver:SQLServerDataSet"
-  "oracle:OracleDataSet"
-  "json:JSONDataSet"
-  "mongodb:MongoDBDataSet"
-  "redis:RedisDataSet"
-  "elasticsearch:ElasticsearchDataSet"
+  postgresql
+  mysql
+  sqlserver
+  oracle
+  json
+  mongodb
+  redis
+  elasticsearch
 )
 
 usage() {
@@ -117,9 +118,7 @@ packaged=0
   printf '  "base_url": "%s",\n' "${R2_PUBLIC_BASE_URL%/}"
   echo '  "datasets": ['
   first=1
-  for entry in "${DATASETS[@]}"; do
-    id="${entry%%:*}"
-    prefix="${entry##*:}"
+  for id in "${DATASETS[@]}"; do
     should_package "$id" || continue
 
     if [[ ! -d "$REPO_ROOT/$id" ]]; then
@@ -145,14 +144,13 @@ packaged=0
       printf '  %-42s %10s  %s\n' "$archive" "$human" "$sha" >&2
     fi
 
-    url="${R2_PUBLIC_BASE_URL%/}/$VERSION/$prefix/$archive"
+    url="${R2_PUBLIC_BASE_URL%/}/$VERSION/$id/$archive"
 
     [[ "$first" -eq 1 ]] || echo ","
     first=0
     {
       echo "    {"
       printf '      "id": "%s",\n' "$id"
-      printf '      "dataset_name": "%s",\n' "$prefix"
       printf '      "archive": "%s",\n' "$archive"
       printf '      "size_bytes": %s,\n' "$bytes"
       printf '      "size_human": "%s",\n' "$human"
