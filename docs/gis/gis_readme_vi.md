@@ -4,12 +4,12 @@
 <!-- GIS_DOWNLOAD_TABLE:START -->
 | Nền tảng | Link tải | Kích thước |
 |----------|----------|------------|
-| PostgreSQL / PostGIS | [Tải bộ dữ liệu PostgreSQL / PostGIS (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_v5.1.0.zip) | 41.82 MB |
-| MySQL / MariaDB | [Tải bộ dữ liệu MySQL / MariaDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_v5.1.0.zip) | 40.70 MB |
-| Microsoft SQL Server | [Tải bộ dữ liệu Microsoft SQL Server (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_v5.1.0.zip) | 41.84 MB |
-| JSON | [Tải bộ dữ liệu JSON (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_v5.1.0.zip) | 96.18 MB |
-| Elasticsearch | [Tải bộ dữ liệu Elasticsearch (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_v5.1.0.zip) | 42.91 MB |
-| MongoDB | [Tải bộ dữ liệu MongoDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_v5.1.0.zip) | 46.10 MB |
+| PostgreSQL / PostGIS | [Tải bộ dữ liệu PostgreSQL / PostGIS (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip) | 41.82 MB |
+| MySQL / MariaDB | [Tải bộ dữ liệu MySQL / MariaDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip) | 40.70 MB |
+| Microsoft SQL Server | [Tải bộ dữ liệu Microsoft SQL Server (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip) | 41.84 MB |
+| JSON | [Tải bộ dữ liệu JSON (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_dataset_v5.1.0.zip) | 96.18 MB |
+| Elasticsearch | [Tải bộ dữ liệu Elasticsearch (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_dataset_v5.1.0.zip) | 42.91 MB |
+| MongoDB | [Tải bộ dữ liệu MongoDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_dataset_v5.1.0.zip) | 46.10 MB |
 <!-- GIS_DOWNLOAD_TABLE:END -->
 
 ## Mục lục
@@ -495,6 +495,6 @@ Nếu bạn phát hiện lỗi trong bộ dữ liệu GIS hoặc có đề xuấ
 
 **Cập nhật gần nhất:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_v5.1.0.zip
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_v5.1.0.zip
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_v5.1.0.zip
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip

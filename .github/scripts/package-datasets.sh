@@ -127,7 +127,7 @@ packaged=0
       continue
     fi
 
-    archive="vn_provinces_${id}_${VERSION}.zip"
+    archive="vn_provinces_${id}_dataset_${VERSION}.zip"
     path="$OUT_DIR/$archive"
     bytes=0
     human="0 B"
