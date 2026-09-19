@@ -5,13 +5,11 @@ set -euo pipefail
 # `downloads.json` manifest (archive name, size, sha256, public URL).
 #
 # Usage:
-#   ./.github/scripts/package-datasets.sh <version> <output-dir> [options]
+#   package-datasets.sh <version> <output-dir> [--repo-root DIR]
 #
 # Options:
 #   --repo-root DIR   Repository root containing the dataset folders
 #                     (default: this repository's root)
-#   --only ID[,ID]    Package only the given dataset id(s) (repeatable)
-#   --dry-run         Do not create archives; still write downloads.json
 #
 # Environment:
 #   R2_PUBLIC_BASE_URL  Public CDN base URL
@@ -20,8 +18,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEFAULT_REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
-# Published dataset folders. The folder name doubles as the R2 key prefix
-# (lowercase, e.g. "postgresql", "elasticsearch").
+# Published dataset folders. The folder name doubles as the R2 key prefix.
 DATASETS=(
   postgresql
   mysql
@@ -34,20 +31,30 @@ DATASETS=(
 )
 
 usage() {
-  sed -n '3,18p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
+  cat <<'EOF'
+Packages each published dataset folder into a ZIP archive and writes a
+`downloads.json` manifest (archive name, size, sha256, public URL).
+
+Usage:
+  package-datasets.sh <version> <output-dir> [--repo-root DIR]
+
+Options:
+  --repo-root DIR   Repository root containing the dataset folders
+                    (default: this repository's root)
+
+Environment:
+  R2_PUBLIC_BASE_URL  Public CDN base URL
+                      (default: https://vn-provinces-ds.thanglequoc.xyz)
+EOF
 }
 
 VERSION=""
 OUT_DIR=""
 REPO_ROOT="$DEFAULT_REPO_ROOT"
-DRY_RUN=0
-ONLY=""
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --repo-root) REPO_ROOT="${2:?--repo-root needs a value}"; shift 2 ;;
-    --only)      ONLY="${ONLY:+$ONLY,}${2:?--only needs a value}"; shift 2 ;;
-    --dry-run)   DRY_RUN=1; shift ;;
     -h|--help)   usage; exit 0 ;;
     -*)          echo "error: unknown option: $1" >&2; usage >&2; exit 2 ;;
     *)
@@ -76,13 +83,6 @@ GENERATED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
 command -v zip >/dev/null 2>&1 || { echo "error: 'zip' is not installed" >&2; exit 1; }
 
-should_package() {
-  local id="$1"
-  [[ -z "$ONLY" ]] && return 0
-  case ",$ONLY," in *",$id,"*) return 0 ;; esac
-  return 1
-}
-
 sha256() {
   if command -v sha256sum >/dev/null 2>&1; then
     sha256sum "$1" | awk '{print $1}'
@@ -105,12 +105,9 @@ echo "Packaging datasets for ${VERSION}"
 echo "  repo root : ${REPO_ROOT}"
 echo "  output dir: ${OUT_DIR}"
 echo "  base url  : ${R2_PUBLIC_BASE_URL}"
-[[ -n "$ONLY" ]] && echo "  only      : ${ONLY}"
-[[ "$DRY_RUN" -eq 1 ]] && echo "  mode      : dry-run"
 echo
 
 json="$OUT_DIR/downloads.json"
-packaged=0
 {
   echo "{"
   printf '  "version": "%s",\n' "$VERSION"
@@ -119,30 +116,21 @@ packaged=0
   echo '  "datasets": ['
   first=1
   for id in "${DATASETS[@]}"; do
-    should_package "$id" || continue
-
     if [[ ! -d "$REPO_ROOT/$id" ]]; then
-      echo "warning: dataset folder not found, skipping: $REPO_ROOT/$id" >&2
-      continue
+      echo "error: dataset folder not found: $REPO_ROOT/$id" >&2
+      exit 1
     fi
 
     archive="vn_provinces_${id}_dataset_${VERSION}.zip"
     path="$OUT_DIR/$archive"
-    bytes=0
-    human="0 B"
-    sha=""
 
-    if [[ "$DRY_RUN" -eq 1 ]]; then
-      echo "  [dry-run] would create ${archive} from ${id}/" >&2
-    else
-      rm -f "$path"
-      ( cd "$REPO_ROOT" && zip -r -X -9 -q "$path" "$id" \
-          -x '*.DS_Store' -x '*/__MACOSX/*' -x '*/Thumbs.db' -x 'Thumbs.db' )
-      bytes="$(wc -c < "$path" | tr -d ' ')"
-      human="$(human_size "$bytes")"
-      sha="$(sha256 "$path")"
-      printf '  %-42s %10s  %s\n' "$archive" "$human" "$sha" >&2
-    fi
+    rm -f "$path"
+    ( cd "$REPO_ROOT" && zip -r -X -9 -q "$path" "$id" \
+        -x '*.DS_Store' -x '*/__MACOSX/*' -x '*/Thumbs.db' -x 'Thumbs.db' )
+    bytes="$(wc -c < "$path" | tr -d ' ')"
+    human="$(human_size "$bytes")"
+    sha="$(sha256 "$path")"
+    printf '  %-42s %10s  %s\n' "$archive" "$human" "$sha" >&2
 
     url="${R2_PUBLIC_BASE_URL%/}/$VERSION/$id/$archive"
 
@@ -158,17 +146,11 @@ packaged=0
       printf '      "url": "%s"\n' "$url"
       echo -n "    }"
     }
-    packaged=$((packaged + 1))
   done
   echo
   echo "  ]"
   echo "}"
 } > "$json"
-
-if [[ "$packaged" -eq 0 ]]; then
-  echo "error: no dataset folders were packaged (check --repo-root and --only)" >&2
-  exit 1
-fi
 
 echo
 echo "Wrote ${json}"

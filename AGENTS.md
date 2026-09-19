@@ -785,10 +785,9 @@ dataset and opens a PR against `master`.
   is newest-*published*-first, so future-effective decrees are skipped.
 - **Version bump**: `go run ./cmd/decreecheck --apply --decree "<n>"` minor-bumps
   `dataset_version` (middle digit) and updates `latest_decree`.
-- **Archive publishing**: the `generate` job chains the same scripts used by the manual
-  `publish-dataset-archives.yml` workflow — `package-datasets.sh` → `upload-archives-to-r2.sh`
-  → `update_download_tables.py` — so the freshly generated version is uploaded to R2 and
-  its download tables are updated in the same PR.
+- **Archive publishing**: not part of this workflow. After the dataset PR is merged and the
+  release is tagged, archives are published separately by `publish-dataset-archives.yml`
+  (see below).
 - **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
   `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
 - **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
@@ -799,9 +798,13 @@ A manually-triggered workflow (`workflow_dispatch`) packages each published data
 folder into a ZIP archive, uploads the archives to Cloudflare R2, and opens a PR that
 refreshes the download tables in the root READMEs and `docs/gis/`.
 
-- **Trigger**: manual only. Inputs: `version` (optional; defaults to the latest GitHub
-  Release tag via `gh release view`) and `dry_run` (build without uploading/PR).
-- **Packaging**: `.github/scripts/package-datasets.sh <version> <out-dir> [--repo-root DIR] [--only ID,ID] [--dry-run]`
+- **Trigger**: manual only, run after the dataset PR is merged and the release tag exists.
+  The version is read from `dataset-generation-scripts/version.txt` (`dataset_version`),
+  which must match the git tag; that tag is checked out to package the released data.
+- **Release order (standard route)**: merge dataset update → create `patch/<version>/` and
+  release notes → `git tag vX.Y.Z` (with `version.txt` matching) → run this workflow →
+  merge the docs PR it opens.
+- **Packaging**: `.github/scripts/package-datasets.sh <version> <out-dir> [--repo-root DIR]`
   zips the 8 dataset folders as-is and writes `downloads.json` (name, size, sha256, URL).
 - **Upload**: `aws-cli` against the R2 S3 endpoint
   (`AWS_ENDPOINT_URL_S3=https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com`,
@@ -811,8 +814,6 @@ refreshes the download tables in the root READMEs and `docs/gis/`.
 - **Secrets**: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; **variables**:
   `R2_ACCOUNT_ID`, `R2_BUCKET_NAME`, `R2_PUBLIC_BASE_URL`. Optional
   `DECREE_AUTOMATION_PAT` so the docs PR triggers `test-go.yml`.
-- **Local test**: `.github/scripts/r2-reachability-test.sh` (loads credentials from the
-  git-ignored `.env.r2`, see `.env.r2.example`).
 - **Plan doc**: `development/217_DownloadableDatasetArchives.md`.
 
 ---
@@ -844,6 +845,7 @@ This project maintains persistent learnings:
 | [README.md](README.md) | User guide — dataset installation & usage |
 | [CLAUDE.md](dataset-generation-scripts/CLAUDE.md) | Code agent guide — detailed subsystem context |
 | [dataset-generation-scripts/README.md](dataset-generation-scripts/README.md) | Maintainer guide — how to run generation scripts |
+| [dataset-generation-scripts/RELEASE.md](dataset-generation-scripts/RELEASE.md) | Maintainer guide — full release & generation process (secrets, R2, tagging, publishing) |
 | [docs/gis/](docs/gis/) | User-facing GIS documentation (readme, example queries) |
 | [development/](development/) | Feature documentation & planning artifacts |
 | [patch/](patch/) | Historical decree patches & changelog |
