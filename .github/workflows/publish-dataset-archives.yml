@@ -1,8 +1,13 @@
 name: Publish Dataset Archives
 
-# Manually packages each published dataset folder into a ZIP archive, uploads
-# the archives to the maintainer's Cloudflare R2 bucket, and opens a PR that
+# Packages each published dataset folder into a ZIP archive, uploads the
+# archives to the maintainer's Cloudflare R2 bucket, and opens a PR that
 # refreshes the download tables in the READMEs / GIS docs.
+#
+# Run this after the dataset PR is merged and the release tag exists. The
+# version is read from `dataset-generation-scripts/version.txt`
+# (`dataset_version`), which must match the git tag; that tag is checked out so
+# the archives contain the exact released data.
 #
 # Required repository secrets:
 #   R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
@@ -14,15 +19,6 @@ name: Publish Dataset Archives
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'Release tag to package (default: latest GitHub release)'
-        required: false
-        type: string
-      dry_run:
-        description: 'Build archives and print URLs without uploading or opening a PR'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -41,28 +37,22 @@ jobs:
       version: ${{ steps.version.outputs.version }}
 
     steps:
-      - name: Resolve version
-        id: version
-        env:
-          INPUT_VERSION: ${{ inputs.version }}
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          if [[ -n "${INPUT_VERSION}" ]]; then
-            VERSION="${INPUT_VERSION}"
-          else
-            VERSION="$(gh release view --repo "${GITHUB_REPOSITORY}" --json tagName -q .tagName)"
-          fi
-          [[ "${VERSION}" == v* ]] || VERSION="v${VERSION}"
-          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
-          echo "Resolved version: ${VERSION}"
-
       - name: Checkout tooling
         uses: actions/checkout@v7
         with:
           path: repo
           fetch-depth: 1
           sparse-checkout: .github
+
+      - name: Resolve version
+        id: version
+        run: |
+          set -euo pipefail
+          VERSION="$(git -C repo show HEAD:dataset-generation-scripts/version.txt \
+            | grep -E '^dataset_version=' | head -1 | cut -d= -f2 | tr -d '[:space:]')"
+          [[ -n "${VERSION}" ]] || { echo "error: could not read dataset_version from version.txt" >&2; exit 1; }
+          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+          echo "Resolved version: ${VERSION}"
 
       - name: Checkout dataset at ${{ steps.version.outputs.version }}
         uses: actions/checkout@v7
@@ -90,7 +80,6 @@ jobs:
             --repo-root data
 
       - name: Upload archives to Cloudflare R2
-        if: ${{ inputs.dry_run != true }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -109,10 +98,6 @@ jobs:
           {
             echo "## Dataset archives — $(jq -r .version "${MANIFEST}")"
             echo
-            if [[ "${{ inputs.dry_run }}" == "true" ]]; then
-              echo "**Dry run** — archives were built but not uploaded."
-              echo
-            fi
             echo "| Dataset | Size | URL |"
             echo "|---------|------|-----|"
             jq -r '.datasets[] | "| \(.id) | \(.size_human) | \(.url) |"' "${MANIFEST}"
@@ -128,7 +113,6 @@ jobs:
   docs:
     name: Update download tables and open PR
     needs: package
-    if: ${{ inputs.dry_run != true }}
     runs-on: ubuntu-latest
 
     steps:
