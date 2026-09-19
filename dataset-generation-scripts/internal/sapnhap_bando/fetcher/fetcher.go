@@ -9,19 +9,60 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/dto"
 )
 
 const (
-	GET_GIS_COORDINATES_URL    = "https://sapnhap.bando.com.vn/pread_json"
-	GET_METADATA_FROM_MALK_URL = "https://sapnhap.bando.com.vn/p.co_dvhc_id"
-	MAX_RETRIES                = 5
-	RETRY_DELAY                = 300 * time.Millisecond
-	MAX_DELAY                  = 5 * time.Second
+	// DefaultGISServerBaseURL is the production GIS server. Override it with the
+	// GIS_SERVER_BASE_URL environment variable to point at the local mock server
+	// (see cmd/mockgis) for offline dataset generation.
+	DefaultGISServerBaseURL = "https://sapnhap.bando.com.vn"
+
+	PREAD_JSON_PATH = "/pread_json"
+	CO_DVHC_ID_PATH = "/p.co_dvhc_id"
+	MAX_RETRIES     = 5
+	RETRY_DELAY     = 300 * time.Millisecond
+	MAX_DELAY       = 5 * time.Second
 )
+
+// baseURLLogOnce ensures the active GIS server base URL is logged only once.
+var baseURLLogOnce sync.Once
+
+// GISServerBaseURL resolves the active GIS server base URL from the
+// GIS_SERVER_BASE_URL environment variable, falling back to the production
+// server. Trailing slashes are trimmed so path joins stay well-formed.
+func GISServerBaseURL() string {
+	if v := strings.TrimSpace(os.Getenv("GIS_SERVER_BASE_URL")); v != "" {
+		return strings.TrimRight(v, "/")
+	}
+	return DefaultGISServerBaseURL
+}
+
+// LogActiveGISServer logs the active GIS server base URL once per process and
+// flags whether it is the production government server or a custom/mock server.
+// Safe to call multiple times; only the first call logs.
+func LogActiveGISServer() {
+	base := GISServerBaseURL()
+	baseURLLogOnce.Do(func() {
+		source := "government server"
+		if base != DefaultGISServerBaseURL {
+			source = "custom/mock server"
+		}
+		log.Printf("🌐 GIS server base URL: %s (%s)", base, source)
+	})
+}
+
+// gisEndpoint builds an absolute URL for a GIS server path and logs the active
+// base URL once per process to make mock vs. real runs obvious in the logs.
+func gisEndpoint(path string) string {
+	LogActiveGISServer()
+	return GISServerBaseURL() + path
+}
 
 /*
 API Look up to get all wards of a province from the sapnhap site
@@ -33,7 +74,7 @@ func GetMetadataOfSapNhapGeoObject(ctx context.Context, malk string) (dto.SapNha
 	req, err := http.NewRequestWithContext(
 		ctx,
 		http.MethodPost,
-		"https://sapnhap.bando.com.vn/p.co_dvhc_id",
+		gisEndpoint(CO_DVHC_ID_PATH),
 		strings.NewReader(form.Encode()),
 	)
 	if err != nil {
@@ -83,21 +124,21 @@ func GetGISLocationCoordinates(gisLocationID string) (dto.GISLocationResponse, e
 		form.Add("id", gisLocationID)
 
 		// Make HTTP request
-		res, err := http.Post(GET_GIS_COORDINATES_URL, "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
+		res, err := http.Post(gisEndpoint(PREAD_JSON_PATH), "application/x-www-form-urlencoded", bytes.NewBufferString(form.Encode()))
 		if err != nil {
 			lastErr = fmt.Errorf("http request failed: %w", err)
 			log.Printf("Attempt %d failed with error: %v", attempt+1, lastErr)
 			continue
 		}
 
-		defer res.Body.Close()
-
 		// Check if response is healthy
 		if res.StatusCode == http.StatusOK {
 			// Success - decode response
 			var gisLocationResponse dto.GISLocationResponse
-			if err := json.NewDecoder(res.Body).Decode(&gisLocationResponse); err != nil {
-				return dto.GISLocationResponse{}, fmt.Errorf("failed to decode response: %w", err)
+			decodeErr := json.NewDecoder(res.Body).Decode(&gisLocationResponse)
+			res.Body.Close()
+			if decodeErr != nil {
+				return dto.GISLocationResponse{}, fmt.Errorf("failed to decode response: %w", decodeErr)
 			}
 
 			if attempt > 0 {
@@ -107,6 +148,7 @@ func GetGISLocationCoordinates(gisLocationID string) (dto.GISLocationResponse, e
 		}
 
 		// Non-OK status code
+		res.Body.Close()
 		lastErr = fmt.Errorf("received status code: %d", res.StatusCode)
 		log.Printf("Attempt %d failed with status code: %d", attempt+1, res.StatusCode)
 	}

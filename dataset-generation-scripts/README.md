@@ -84,6 +84,54 @@ The maintainer-controlled version source is `version.txt` (`dataset_version` +
 
 **Skipping GIS**: The `INCLUDE_GIS` constant in `main.go` defaults to `true`. Set it to `false` for a faster, admin-only run that skips GIS data fetching and geometry output — no internet connection required.
 
+### Local GIS mock server (offline testing)
+
+By default the GIS phase calls the government server at `https://sapnhap.bando.com.vn`
+for every geo object (2 requests × 3,355 objects per run). Because that data changes
+very rarely, it can be captured once into a local cache and replayed by a local mock
+server. The cache is **gitignored** (it is large), so pull it once on each machine:
+
+```bash
+./pull-gis-cache.sh
+```
+
+**Run the generator against the mock:**
+
+```bash
+# Terminal 1 — start the mock server
+go run ./cmd/mockgis --data ./resources/gis/gis_server_cache --addr 127.0.0.1:18080
+
+# Terminal 2 — point the generator at it
+GIS_SERVER_BASE_URL=http://127.0.0.1:18080 go run main.go
+```
+
+You can also persist the override in `.env`:
+
+```
+GIS_SERVER_BASE_URL=http://127.0.0.1:18080
+```
+
+**Refreshing the cache** (only needed when the upstream GIS data changes):
+
+```bash
+./pull-gis-cache.sh --source db   # authoritative malk list from sapnhap_geojson_objects
+```
+
+`pull-gis-cache.sh` wraps `go run ./cmd/giscapture`, which dumps both endpoints into
+`resources/gis/gis_server_cache/`:
+
+```
+gis_server_cache/
+├── manifest.json            # source URL, capture time, dataset version, counts
+├── pread_json/<malk>.json.gz
+└── co_dvhc_id/<malk>.json.gz
+```
+
+The command is resumable (existing files are skipped without `--force`) and reads the
+`malk` list from the committed `sapnhap-bando-crawler/donvi_tinhthanh.json` by default;
+use `--source db` to read from `sapnhap_geojson_objects` instead. It exits non-zero if
+any response is missing, and records the missing keys in `manifest.json`.
+
 ## Automated decree detection (GitHub Actions)
 
 The [`.github/workflows/new-decree-data-patch.yml`](../.github/workflows/new-decree-data-patch.yml)

@@ -14,6 +14,13 @@ cd dataset-generation-scripts
 # Run the generation scripts
 go run main.go
 
+# Run the generation scripts offline against the local GIS mock server
+go run ./cmd/mockgis --data ./resources/gis/gis_server_cache --addr 127.0.0.1:18080   # terminal 1
+GIS_SERVER_BASE_URL=http://127.0.0.1:18080 go run main.go                             # terminal 2
+
+# Refresh the GIS response cache from the government server (rarely needed, gitignored)
+./pull-gis-cache.sh
+
 # Start Postgres/PostGIS for integration tests
 docker compose -f docker/docker-compose.yaml up -d
 
@@ -27,6 +34,7 @@ go test -v ./...
 
 **Gotchas**:
 - GIS generation is gated by `const INCLUDE_GIS = true` in `main.go`. Turn it off to skip all GIS fetch/patch/validate steps.
+- The GIS phase calls `https://sapnhap.bando.com.vn` twice per geo object (6,710 requests/run). Set `GIS_SERVER_BASE_URL` to the local mock (`cmd/mockgis`) to avoid hitting the government server during testing.
 - `go run main.go` tees all stdout+stderr to `output/generation-log.txt` — check that file if console output seems truncated.
 
 ## Database Query Skill
@@ -623,6 +631,7 @@ vietnamese-provinces-database/
 │   │   ├── db_region_administrative_unit.sql  # Region & administrative unit seed data
 │   │   ├── fresh_cleanup.sql         # DB cleanup script (run before each generation)
 │   │   ├── gis/
+│   │   │   ├── gis_server_cache/      # Local (gitignored) captured GIS responses for the mock server (gzip per malk)
 │   │   │   ├── geojson_11Mar2026/    # GeoJSON geometry (An Giang patch source, from deprecated API)
 │   │   │   ├── sapnhapbando_geojson/ # Auxiliary GIS GeoJSON resources (3,355 files)
 │   │   │   ├── sapnhapbando_init_geo_json_objects_tbl.sql  # Creates sapnhap_geojson_objects (the only GIS table)
@@ -687,8 +696,9 @@ Current generation flow (exact order in `main.go`):
 3. `BeginDumpingDataWithDvhcvnDirectSource()` — DVHCVN SOAP dump into `provinces_tmp`/`wards_tmp` (the only ingestion path; no fallback flag)
 4. `postal_code.ImportPostalCodes()` — imports postal codes from `resources/postal/` seed files into `provinces_tmp.postal_code_prefix` / `wards_tmp.postal_code` (name-based match scoped by province, tone-stripped `name_en` fallback)
 5. `ReadAndGenerateSQLDatasets()` — non-GIS exports (SQL/JSON/MongoDB/Redis/Elasticsearch), each carrying the `vn_provinces_metadata` version info
-6. If `INCLUDE_GIS`: `BootstrapGISDataStructure()` → `BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()` (name-based match) → `FetchGISDataFromSapNhapBando()` (live WKT fetch) → `PatchIslandProvincesGeometry()` → `ValidateAndFixGeometries()` → `GenerateGISSQLDatasets()`
+6. If `INCLUDE_GIS`: `BootstrapGISDataStructure()` → `BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()` (name-based match) → `FetchGISDataFromSapNhapBando()` (live WKT fetch from `GIS_SERVER_BASE_URL`, default the government server) → `PatchIslandProvincesGeometry()` → `ValidateAndFixGeometries()` → `GenerateGISSQLDatasets()`
 - `resources/manual_seeds/` still exists but is **not wired into the Go code** — the direct DVHCVN source is the only dumper.
+- `resources/gis/gis_server_cache/` is a gitignored, gzip-compressed capture of the two GIS endpoints; pull it with `./pull-gis-cache.sh`, replay with `cmd/mockgis` (issue #223).
 
 Geographic data migration context (March 2026):
 - **Before**: GIS metadata fetched from SAPNhap API (`/pcotinh`, `/ptracuu`)

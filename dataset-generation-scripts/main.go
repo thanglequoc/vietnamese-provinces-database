@@ -11,6 +11,7 @@ import (
 	dumper "github.com/thanglequoc-vn-provinces/v2/internal/dumper"
 	postal_code "github.com/thanglequoc-vn-provinces/v2/internal/postal_code"
 	sapnhap "github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando"
+	"github.com/thanglequoc-vn-provinces/v2/internal/sapnhap_bando/fetcher"
 )
 
 const INCLUDE_GIS = true
@@ -52,6 +53,7 @@ func main() {
 	dataset_writer.ReadAndGenerateSQLDatasets()
 
 	if INCLUDE_GIS {
+		fetcher.LogActiveGISServer()
 		db.BootstrapGISDataStructure()
 		sapnhap.BackfillProvinceAndWardCodesInSapNhapGeojsonObjects()
 		sapnhap.FetchGISDataFromSapNhapBando()
