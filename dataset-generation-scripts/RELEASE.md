@@ -109,7 +109,6 @@ The download tables are generated between markers and must not be hand-edited:
 
 ```
 <!-- DOWNLOAD_TABLE:START -->   … <!-- DOWNLOAD_TABLE:END -->        (README.md, README_vi.md)
-<!-- GIS_DOWNLOAD_TABLE:START --> … <!-- GIS_DOWNLOAD_TABLE:END -->  (docs/gis/gis_readme*.md)
 ```
 
 ---

@@ -123,7 +123,6 @@ jobs:
           fetch-depth: 1
           sparse-checkout: |
             .github
-            docs/gis
 
       - name: Download manifest artifact
         uses: actions/download-artifact@v8
@@ -151,12 +150,10 @@ jobs:
           add-paths: |
             README.md
             README_vi.md
-            docs/gis/gis_readme.md
-            docs/gis/gis_readme_vi.md
           body: |
             Automated dataset archive publication for `${{ needs.package.outputs.version }}`.
 
             - Archives uploaded to Cloudflare R2 under `<version>/<format>/`
-            - Download tables refreshed in `README.md`, `README_vi.md`, and `docs/gis/`
+            - Download tables refreshed in `README.md` and `README_vi.md`
 
             Triggered manually via `.github/workflows/publish-dataset-archives.yml`.

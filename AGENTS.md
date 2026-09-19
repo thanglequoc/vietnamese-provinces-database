@@ -642,7 +642,7 @@ vietnamese-provinces-database/
 │   ├── cleanup_old_reference/         # Completed cleanup plans (e.g., remove_bando_gisserver_references.md)
 │   └── include_geojson_export/        # GeoJSON export feature planning
 ├── docs/
-│   └── gis/                          # User-facing GIS documentation (gis_readme.md, gis_readme_vi.md, gis_example_query.md)
+│   └── gis/                          # User-facing GIS documentation (README.md, README_vi.md, gis_example_query.md)
 ├── json/, mysql/, postgresql/, oracle/, sqlserver/, mongodb/, redis/
 │   └── Generated dataset exports in various formats
 └── .github/workflows/                # CI/CD pipelines (test-go.yml runs Go tests with PostGIS)
@@ -810,7 +810,7 @@ refreshes the download tables in the root READMEs and `docs/gis/`.
   (`AWS_ENDPOINT_URL_S3=https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com`,
   `AWS_DEFAULT_REGION=auto`). Key layout: `<version>/<format>/vn_provinces_<format>_dataset_<version>.zip`.
 - **README update**: `.github/scripts/update_download_tables.py` regenerates the
-  `<!-- DOWNLOAD_TABLE -->` / `<!-- GIS_DOWNLOAD_TABLE -->` marker blocks.
+  `<!-- DOWNLOAD_TABLE -->` marker blocks in the root READMEs.
 - **Secrets**: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; **variables**:
   `R2_ACCOUNT_ID`, `R2_BUCKET_NAME`, `R2_PUBLIC_BASE_URL`. Optional
   `DECREE_AUTOMATION_PAT` so the docs PR triggers `test-go.yml`.

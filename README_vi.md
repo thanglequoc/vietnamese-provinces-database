@@ -298,7 +298,7 @@ Phần mở rộng GIS cung cấp dữ liệu hình học ranh giới hành chí
 - ElasticSearch
 - MongoDB
 
-Xem thêm: [Bộ dữ liệu GIS](./docs/gis/gis_readme_vi.md)
+Xem thêm: [Bộ dữ liệu GIS](./docs/gis/README_vi.md)
 
 ## Câu hỏi thường gặp
 
