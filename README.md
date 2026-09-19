@@ -65,8 +65,26 @@ The following table contains a list of issued decrees and their effective dates,
 - Assigned administrative units to province and ward data  
 - Generated English names for provinces and wards, offering both full and short forms  
 - Generated code names (slugs) for provinces and wards  
-- Added `vn_provinces_metadata` table (dataset version, latest decree, generation timestamp)  
-- **Add-on**: Additional GIS dataset for administrative units
+- **Add-on**: Additional GIS dataset and Postal Codes
+
+## Download
+
+You can download a ready-to-use archive for your database or format below. Each archive contains the complete dataset folder of the latest release.
+
+> Archives are published for the latest release tag. Older versions remain available under their own version path on the CDN.
+
+<!-- DOWNLOAD_TABLE:START -->
+| Dataset | Format | Version | Size | Download |
+|---------|--------|---------|------|----------|
+| PostgreSQL / PostGIS | SQL | v5.1.0 | 41.82 MB | [vn_provinces_postgresql_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip) |
+| MySQL / MariaDB | SQL | v5.1.0 | 40.70 MB | [vn_provinces_mysql_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip) |
+| Microsoft SQL Server | SQL | v5.1.0 | 41.84 MB | [vn_provinces_sqlserver_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip) |
+| Oracle | SQL | v5.1.0 | 88.43 KB | [vn_provinces_oracle_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/OracleDataSet/vn_provinces_oracle_dataset_v5.1.0.zip) |
+| JSON | JSON | v5.1.0 | 96.18 MB | [vn_provinces_json_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_dataset_v5.1.0.zip) |
+| MongoDB | NoSQL | v5.1.0 | 46.10 MB | [vn_provinces_mongodb_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_dataset_v5.1.0.zip) |
+| Redis | NoSQL | v5.1.0 | 170.17 KB | [vn_provinces_redis_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/RedisDataSet/vn_provinces_redis_dataset_v5.1.0.zip) |
+| Elasticsearch | NoSQL | v5.1.0 | 42.91 MB | [vn_provinces_elasticsearch_dataset_v5.1.0.zip](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_dataset_v5.1.0.zip) |
+<!-- DOWNLOAD_TABLE:END -->
 
 ## Installation
 

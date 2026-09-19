@@ -1,13 +1,16 @@
 # Phần mở rộng Dữ liệu GIS — Vietnamese Provinces Database
-**Dữ liệu GIS Dataset mới nhất: **v4.0.0** (June 20, 2026)**
+**Dữ liệu GIS Dataset mới nhất: v5.1.0**
 
-|Nền tảng|Link tải|Kích thước|
-|--------|-------------|---------|
-|PostgreSQL/PostGIS|[Tải về file SQL GIS Dataset cho PostgreSQL][gis_dataset_postgresql_bucket_url]|~152.07 MB|
-|MySQL|[Tải về file SQL GIS Dataset cho MySQL][gis_dataset_mysql_bucket_url]|~150.44 MB|
-|Microsoft SQL Server|[Tải về file SQL GIS Dataset cho SQL Server][gis_dataset_sqlserver_bucket_url]|~152.13 MB|
-|Elasticsearch| Truy cập dữ liệu GIS trong thư mục `elasticsearch/` của repository này | - |
-|MongoDB| Truy cập dữ liệu GIS trong thư mục `mongodb/gis/` của repository này | - |
+<!-- GIS_DOWNLOAD_TABLE:START -->
+| Nền tảng | Link tải | Kích thước |
+|----------|----------|------------|
+| PostgreSQL / PostGIS | [Tải bộ dữ liệu PostgreSQL / PostGIS (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip) | 41.82 MB |
+| MySQL / MariaDB | [Tải bộ dữ liệu MySQL / MariaDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip) | 40.70 MB |
+| Microsoft SQL Server | [Tải bộ dữ liệu Microsoft SQL Server (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip) | 41.84 MB |
+| JSON | [Tải bộ dữ liệu JSON (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_dataset_v5.1.0.zip) | 96.18 MB |
+| Elasticsearch | [Tải bộ dữ liệu Elasticsearch (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_dataset_v5.1.0.zip) | 42.91 MB |
+| MongoDB | [Tải bộ dữ liệu MongoDB (bao gồm GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_dataset_v5.1.0.zip) | 46.10 MB |
+<!-- GIS_DOWNLOAD_TABLE:END -->
 
 ## Mục lục
 
@@ -492,6 +495,6 @@ Nếu bạn phát hiện lỗi trong bộ dữ liệu GIS hoặc có đề xuấ
 
 **Cập nhật gần nhất:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/postgresql_ImportData_gis_2026-06-20__12_32_01.sql.manifest
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mysql_ImportData_gis_2026-06-20__12_32_01.sql.manifest
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.0.0/GISDataSet/mssql_ImportData_gis_2026-06-20__12_32_02.sql.manifest
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip

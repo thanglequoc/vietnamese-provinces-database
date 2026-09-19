@@ -1,14 +1,16 @@
 # GIS Dataset Add-on — Vietnamese Provinces Database
-**Latest GIS dataset version: **v4.0.0** (June 20, 2026)**
+**Latest GIS dataset version: v5.1.0**
 
-|Platform|Download Link|File Size|
-|--------|-------------|---------|
-|PostgreSQL/PostGIS|[Download raw GIS Dataset for PostgreSQL][gis_dataset_postgresql_bucket_url]|~152.07 MB|
-|MySQL|[Download raw GIS Dataset for MySQL][gis_dataset_mysql_bucket_url]|~150.44 MB|
-|Microsoft SQL Server|[Download raw GIS Dataset for SQL Server][gis_dataset_sqlserver_bucket_url]|~152.13 MB|
-|GeoJSON| Access the geojson data in the `json/geojson/` folder of this repository | - |
-|Elasticsearch| Access the GIS data in the `elasticsearch/` folder of this repository | - |
-|MongoDB| Access the GIS data in the `mongodb/gis/` folder of this repository | - |
+<!-- GIS_DOWNLOAD_TABLE:START -->
+| Platform | Download Link | File Size |
+|----------|---------------|-----------|
+| PostgreSQL / PostGIS | [Download PostgreSQL / PostGIS dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip) | 41.82 MB |
+| MySQL / MariaDB | [Download MySQL / MariaDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip) | 40.70 MB |
+| Microsoft SQL Server | [Download Microsoft SQL Server dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip) | 41.84 MB |
+| JSON | [Download JSON dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/JSONDataSet/vn_provinces_json_dataset_v5.1.0.zip) | 96.18 MB |
+| Elasticsearch | [Download Elasticsearch dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/ElasticsearchDataSet/vn_provinces_elasticsearch_dataset_v5.1.0.zip) | 42.91 MB |
+| MongoDB | [Download MongoDB dataset (includes GIS)](https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MongoDBDataSet/vn_provinces_mongodb_dataset_v5.1.0.zip) | 46.10 MB |
+<!-- GIS_DOWNLOAD_TABLE:END -->
 
 ## Table of Contents
 
@@ -500,6 +502,6 @@ If you find issues with the GIS dataset or have suggestions for improvements, pl
 
 **Last Updated:** August 2, 2026
 
-[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/postgresql_ImportData_gis_2026-07-12__19_50_50.sql.manifest
-[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mysql_ImportData_gis_2026-07-12__19_50_50.sql.manifest
-[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v4.1.0/GISDataSet/mssql_ImportData_gis_2026-07-12__19_50_51.sql.manifest
+[gis_dataset_postgresql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/PostgreSQLDataSet/vn_provinces_postgresql_dataset_v5.1.0.zip
+[gis_dataset_mysql_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/MySQLDataSet/vn_provinces_mysql_dataset_v5.1.0.zip
+[gis_dataset_sqlserver_bucket_url]: https://vn-provinces-ds.thanglequoc.xyz/v5.1.0/SQLServerDataSet/vn_provinces_sqlserver_dataset_v5.1.0.zip

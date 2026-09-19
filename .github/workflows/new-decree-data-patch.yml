@@ -10,6 +10,10 @@ name: New Decree Data Patch
 #   Contents RW + Pull requests RW). A PAT is required so the generated PR
 #   triggers the `Test Go Code` workflow (PRs opened with the default
 #   GITHUB_TOKEN do not trigger `pull_request` workflows).
+#
+# Also required (archive publishing, shared with publish-dataset-archives.yml):
+#   Secrets   : R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
+#   Variables : R2_ACCOUNT_ID, R2_BUCKET_NAME, R2_PUBLIC_BASE_URL
 
 on:
   schedule:
@@ -131,6 +135,45 @@ jobs:
         working-directory: ./dataset-generation-scripts
         run: ./copy-datasets-to-repo.sh
 
+      - name: Resolve generated dataset version
+        id: dataset_version
+        working-directory: ./dataset-generation-scripts
+        run: |
+          set -euo pipefail
+          VERSION="$(grep -E '^dataset_version=' version.txt | head -1 | cut -d= -f2 | tr -d '[:space:]')"
+          [[ -n "${VERSION}" ]] || { echo "error: could not read dataset_version from version.txt" >&2; exit 1; }
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "Generated dataset version: ${VERSION}"
+
+      - name: Package dataset archives
+        env:
+          R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
+        run: |
+          ./.github/scripts/package-datasets.sh \
+            "${{ steps.dataset_version.outputs.version }}" \
+            "${RUNNER_TEMP}/archives" \
+            --repo-root .
+
+      - name: Upload archives to Cloudflare R2
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run != true }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          AWS_ENDPOINT_URL_S3: https://${{ vars.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
+        run: |
+          ./.github/scripts/upload-archives-to-r2.sh \
+            "${{ steps.dataset_version.outputs.version }}" \
+            "${RUNNER_TEMP}/archives"
+
+      - name: Update download tables
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run != true }}
+        run: |
+          python3 ./.github/scripts/update_download_tables.py \
+            --downloads "${RUNNER_TEMP}/archives/downloads.json" \
+            --repo-root .
+
       - name: Upload generation logs on failure
         if: failure()
         uses: actions/upload-artifact@v7
@@ -163,6 +206,10 @@ jobs:
             redis
             elasticsearch
             dataset-generation-scripts/version.txt
+            README.md
+            README_vi.md
+            docs/gis/gis_readme.md
+            docs/gis/gis_readme_vi.md
           body: |
             Automated dataset update triggered by the scheduled decree check.
 
@@ -175,3 +222,6 @@ jobs:
 
             Regenerated with `go run main.go` and published via `copy-datasets-to-repo.sh`
             by `.github/workflows/new-decree-data-patch.yml`.
+
+            Dataset archives were also uploaded to Cloudflare R2 and the download
+            tables in `README.md`, `README_vi.md`, and `docs/gis/` were refreshed.

@@ -785,9 +785,35 @@ dataset and opens a PR against `master`.
   is newest-*published*-first, so future-effective decrees are skipped.
 - **Version bump**: `go run ./cmd/decreecheck --apply --decree "<n>"` minor-bumps
   `dataset_version` (middle digit) and updates `latest_decree`.
+- **Archive publishing**: the `generate` job chains the same scripts used by the manual
+  `publish-dataset-archives.yml` workflow — `package-datasets.sh` → `upload-archives-to-r2.sh`
+  → `update_download_tables.py` — so the freshly generated version is uploaded to R2 and
+  its download tables are updated in the same PR.
 - **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
   `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
 - **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
+
+### Dataset Archive Publication (`.github/workflows/publish-dataset-archives.yml`)
+
+A manually-triggered workflow (`workflow_dispatch`) packages each published dataset
+folder into a ZIP archive, uploads the archives to Cloudflare R2, and opens a PR that
+refreshes the download tables in the root READMEs and `docs/gis/`.
+
+- **Trigger**: manual only. Inputs: `version` (optional; defaults to the latest GitHub
+  Release tag via `gh release view`) and `dry_run` (build without uploading/PR).
+- **Packaging**: `.github/scripts/package-datasets.sh <version> <out-dir> [--repo-root DIR] [--only ID,ID] [--dry-run]`
+  zips the 8 dataset folders as-is and writes `downloads.json` (name, size, sha256, URL).
+- **Upload**: `aws-cli` against the R2 S3 endpoint
+  (`AWS_ENDPOINT_URL_S3=https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com`,
+  `AWS_DEFAULT_REGION=auto`). Key layout: `<version>/<DataSetName>/vn_provinces_<format>_dataset_<version>.zip`.
+- **README update**: `.github/scripts/update_download_tables.py` regenerates the
+  `<!-- DOWNLOAD_TABLE -->` / `<!-- GIS_DOWNLOAD_TABLE -->` marker blocks.
+- **Secrets**: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; **variables**:
+  `R2_ACCOUNT_ID`, `R2_BUCKET_NAME`, `R2_PUBLIC_BASE_URL`. Optional
+  `DECREE_AUTOMATION_PAT` so the docs PR triggers `test-go.yml`.
+- **Local test**: `.github/scripts/r2-reachability-test.sh` (loads credentials from the
+  git-ignored `.env.r2`, see `.env.r2.example`).
+- **Plan doc**: `development/217_DownloadableDatasetArchives.md`.
 
 ---
 
