@@ -805,7 +805,7 @@ refreshes the download tables in the root READMEs and `docs/gis/`.
   zips the 8 dataset folders as-is and writes `downloads.json` (name, size, sha256, URL).
 - **Upload**: `aws-cli` against the R2 S3 endpoint
   (`AWS_ENDPOINT_URL_S3=https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com`,
-  `AWS_DEFAULT_REGION=auto`). Key layout: `<version>/<DataSetName>/vn_provinces_<format>_dataset_<version>.zip`.
+  `AWS_DEFAULT_REGION=auto`). Key layout: `<version>/<format>/vn_provinces_<format>_dataset_<version>.zip`.
 - **README update**: `.github/scripts/update_download_tables.py` regenerates the
   `<!-- DOWNLOAD_TABLE -->` / `<!-- GIS_DOWNLOAD_TABLE -->` marker blocks.
 - **Secrets**: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; **variables**:

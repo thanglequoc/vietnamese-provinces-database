@@ -115,7 +115,7 @@ jobs:
             fi
             echo "| Dataset | Size | URL |"
             echo "|---------|------|-----|"
-            jq -r '.datasets[] | "| \(.dataset_name) | \(.size_human) | \(.url) |"' "${MANIFEST}"
+            jq -r '.datasets[] | "| \(.id) | \(.size_human) | \(.url) |"' "${MANIFEST}"
           } >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Upload manifest artifact
@@ -172,7 +172,7 @@ jobs:
           body: |
             Automated dataset archive publication for `${{ needs.package.outputs.version }}`.
 
-            - Archives uploaded to Cloudflare R2 under `<version>/<DataSetName>/`
+            - Archives uploaded to Cloudflare R2 under `<version>/<format>/`
             - Download tables refreshed in `README.md`, `README_vi.md`, and `docs/gis/`
 
             Triggered manually via `.github/workflows/publish-dataset-archives.yml`.
