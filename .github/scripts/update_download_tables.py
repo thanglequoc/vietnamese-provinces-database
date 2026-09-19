@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate the dataset download tables from a downloads.json manifest.
 
-Reads the manifest produced by ``package-datasets.sh`` and rewrites:
-  * the dataset table between the DOWNLOAD_TABLE markers in README.md /
-    README_vi.md;
-  * the GIS table between the GIS_DOWNLOAD_TABLE markers in
-    docs/gis/gis_readme.md / gis_readme_vi.md, plus the "latest GIS dataset
-    version" line and the legacy ``[gis_dataset_*_bucket_url]`` definitions.
+Reads the manifest produced by ``package-datasets.sh`` and rewrites the dataset
+table between the DOWNLOAD_TABLE markers in README.md / README_vi.md.
 
 Usage:
     update_download_tables.py --downloads <downloads.json> [--repo-root DIR]
@@ -32,12 +28,9 @@ DATASETS = {
 }
 
 ROOT_ORDER = ["postgresql", "mysql", "sqlserver", "oracle", "json", "mongodb", "redis", "elasticsearch"]
-GIS_ORDER = ["postgresql", "mysql", "sqlserver", "json", "elasticsearch", "mongodb"]
 
 ROOT_START = "<!-- DOWNLOAD_TABLE:START -->"
 ROOT_END = "<!-- DOWNLOAD_TABLE:END -->"
-GIS_START = "<!-- GIS_DOWNLOAD_TABLE:START -->"
-GIS_END = "<!-- GIS_DOWNLOAD_TABLE:END -->"
 
 
 def replace_block(text: str, start: str, end: str, body: str, path: Path) -> str:
@@ -70,63 +63,11 @@ def root_table(lang: str, version: str, entries: dict) -> str:
     return "\n".join(rows)
 
 
-def gis_table(lang: str, entries: dict) -> str:
-    if lang == "vi":
-        header = "| Nền tảng | Link tải | Kích thước |"
-        sep = "|----------|----------|------------|"
-        link = "Tải bộ dữ liệu {name} (bao gồm GIS)"
-    else:
-        header = "| Platform | Download Link | File Size |"
-        sep = "|----------|---------------|-----------|"
-        link = "Download {name} dataset (includes GIS)"
-
-    rows = [header, sep]
-    for dataset_id in GIS_ORDER:
-        entry = entries.get(dataset_id)
-        if not entry:
-            continue
-        name = DATASETS[dataset_id][lang]
-        rows.append(f"| {name} | [{link.format(name=name)}]({entry['url']}) | {entry['size_human']} |")
-    return "\n".join(rows)
-
-
 def update_root_readme(path: Path, lang: str, version: str, entries: dict) -> bool:
     text = path.read_text(encoding="utf-8")
     updated = replace_block(text, ROOT_START, ROOT_END, root_table(lang, version, entries), path)
     if updated != text:
         path.write_text(updated, encoding="utf-8")
-        return True
-    return False
-
-
-def update_gis_readme(path: Path, lang: str, version: str, entries: dict) -> bool:
-    text = path.read_text(encoding="utf-8")
-    original = text
-
-    text = replace_block(text, GIS_START, GIS_END, gis_table(lang, entries), path)
-
-    version_line = (
-        f"**Dữ liệu GIS Dataset mới nhất: {version}**"
-        if lang == "vi"
-        else f"**Latest GIS dataset version: {version}**"
-    )
-    prefix = "Dữ liệu GIS Dataset mới nhất" if lang == "vi" else "Latest GIS dataset version"
-    text = re.sub(rf"^\*\*{re.escape(prefix)}:.*$", version_line, text, count=1, flags=re.MULTILINE)
-
-    for dataset_id in ("postgresql", "mysql", "sqlserver"):
-        entry = entries.get(dataset_id)
-        if not entry:
-            continue
-        text = re.sub(
-            rf"^\[gis_dataset_{dataset_id}_bucket_url\]:.*$",
-            f"[gis_dataset_{dataset_id}_bucket_url]: {entry['url']}",
-            text,
-            count=1,
-            flags=re.MULTILINE,
-        )
-
-    if text != original:
-        path.write_text(text, encoding="utf-8")
         return True
     return False
 
@@ -145,8 +86,6 @@ def main() -> int:
     targets = [
         (root / "README.md", lambda p: update_root_readme(p, "en", version, entries)),
         (root / "README_vi.md", lambda p: update_root_readme(p, "vi", version, entries)),
-        (root / "docs/gis/gis_readme.md", lambda p: update_gis_readme(p, "en", version, entries)),
-        (root / "docs/gis/gis_readme_vi.md", lambda p: update_gis_readme(p, "vi", version, entries)),
     ]
 
     changed = 0

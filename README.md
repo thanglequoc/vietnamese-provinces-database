@@ -303,7 +303,7 @@ The GIS add-on provides administrative boundary geometries for Vietnamese admini
 - ElasticSearch
 - MongoDB
 
-See [GIS Dataset](./docs/gis/gis_readme.md)
+See [GIS Dataset](./docs/gis/README.md)
 
 ## FAQ
 
