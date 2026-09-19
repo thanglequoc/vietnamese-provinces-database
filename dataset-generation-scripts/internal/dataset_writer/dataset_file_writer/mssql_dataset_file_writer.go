@@ -247,7 +247,6 @@ func (w *MssqlDatasetFileWriter) WriteGISDataToFile(sapNhapProvincesGIS []*sapnh
 
 	header := chunkHeaderInfo{
 		Banner:     "Add-on GIS Dataset for Microsoft SQL Server of Vietnamese Provinces Database",
-		CreatedAt:  time.Now().Format(time.RFC1123Z),
 		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
 

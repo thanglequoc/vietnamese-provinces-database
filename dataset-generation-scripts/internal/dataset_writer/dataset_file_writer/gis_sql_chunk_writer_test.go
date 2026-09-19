@@ -16,7 +16,6 @@ func TestWriteChunkedSQLFile_SinglePart(t *testing.T) {
 
 	header := chunkHeaderInfo{
 		Banner:     "Add-on GIS Dataset for MySQL of Vietnamese Provinces Database",
-		CreatedAt:  "Mon, 10 Aug 2026 21:55:01 +0700",
 		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
 	blocks := [][]byte{
@@ -34,7 +33,7 @@ func TestWriteChunkedSQLFile_SinglePart(t *testing.T) {
 	contentStr := string(content)
 	assert.Contains(t, contentStr, "/* === Add-on GIS Dataset for MySQL of Vietnamese Provinces Database === */")
 	assert.Contains(t, contentStr, "/* Part 1 of 1 */")
-	assert.Contains(t, contentStr, "/* Created at:  Mon, 10 Aug 2026 21:55:01 +0700 */")
+	assert.NotContains(t, contentStr, "Created at", "GIS chunk header must not embed a generation timestamp")
 	assert.Contains(t, contentStr, "/* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */")
 	assert.Contains(t, contentStr, "INSERT INTO gis_provinces(province_code, gis_server_id) VALUES ('01','x');")
 
@@ -58,7 +57,6 @@ func TestWriteChunkedSQLFile_MultipleParts(t *testing.T) {
 
 	header := chunkHeaderInfo{
 		Banner:     "Add-on GIS Dataset for PostgreSQL of Vietnamese Provinces Database",
-		CreatedAt:  "Mon, 10 Aug 2026 21:55:01 +0700",
 		Repository: "https://github.com/thanglequoc/vietnamese-provinces-database",
 	}
 
