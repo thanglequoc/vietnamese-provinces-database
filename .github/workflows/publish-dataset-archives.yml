@@ -143,8 +143,8 @@ jobs:
           base: master
           branch: auto/downloads-${{ needs.package.outputs.version }}
           delete-branch: true
-          author: 'vn-provinces-bot <noreply@users.noreply.github.com>'
-          committer: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
+          committer: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
           title: 'chore: publish dataset archives for ${{ needs.package.outputs.version }}'
           commit-message: 'docs: add download links for ${{ needs.package.outputs.version }}'
           add-paths: |

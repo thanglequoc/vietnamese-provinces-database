@@ -150,8 +150,8 @@ jobs:
           base: master
           branch: auto/decree-${{ needs.detect.outputs.decree_slug }}
           delete-branch: true
-          author: 'vn-provinces-bot <noreply@users.noreply.github.com>'
-          committer: 'vn-provinces-bot <noreply@users.noreply.github.com>'
+          author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
+          committer: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
           title: 'chore: update dataset to decree ${{ needs.detect.outputs.decree }}'
           commit-message: 'feat: update dataset with latest decree ${{ needs.detect.outputs.decree }}'
           add-paths: |
