@@ -9422,10 +9422,10 @@
   "Code": "24",
   "Name": "Bắc Ninh",
   "NameEn": "Bac Ninh",
-  "FullName": "Tỉnh Bắc Ninh",
-  "FullNameEn": "Bac Ninh Province",
+  "FullName": "Thành phố Bắc Ninh",
+  "FullNameEn": "Bac Ninh City",
   "CodeName": "bac_ninh",
-  "AdministrativeUnitId": 2,
+  "AdministrativeUnitId": 1,
   "PostalCodePrefix": "16, 26",
   "Wards": [
    {
@@ -9505,11 +9505,11 @@
     "Code": "07294",
     "Name": "Bố Hạ",
     "NameEn": "Bo Ha",
-    "FullName": "Xã Bố Hạ",
-    "FullNameEn": "Bo Ha Commune",
+    "FullName": "Phường Bố Hạ",
+    "FullNameEn": "Bo Ha Ward",
     "CodeName": "bo_ha",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "26723"
    },
    {
@@ -9577,11 +9577,11 @@
     "Code": "07375",
     "Name": "Lạng Giang",
     "NameEn": "Lang Giang",
-    "FullName": "Xã Lạng Giang",
-    "FullNameEn": "Lang Giang Commune",
+    "FullName": "Phường Lạng Giang",
+    "FullNameEn": "Lang Giang Ward",
     "CodeName": "lang_giang",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "26629"
    },
    {
@@ -9601,11 +9601,11 @@
     "Code": "07399",
     "Name": "Kép",
     "NameEn": "Kep",
-    "FullName": "Xã Kép",
-    "FullNameEn": "Kep Commune",
+    "FullName": "Phường Kép",
+    "FullNameEn": "Kep Ward",
     "CodeName": "kep",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "26610"
    },
    {
@@ -9637,11 +9637,11 @@
     "Code": "07444",
     "Name": "Lục Nam",
     "NameEn": "Luc Nam",
-    "FullName": "Xã Lục Nam",
-    "FullNameEn": "Luc Nam Commune",
+    "FullName": "Phường Lục Nam",
+    "FullNameEn": "Luc Nam Ward",
     "CodeName": "luc_nam",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "26333"
    },
    {
@@ -10093,11 +10093,11 @@
     "Code": "07840",
     "Name": "Hiệp Hoà",
     "NameEn": "Hiep Hoa",
-    "FullName": "Xã Hiệp Hoà",
-    "FullNameEn": "Hiep Hoa Commune",
+    "FullName": "Phường Hiệp Hoà",
+    "FullNameEn": "Hiep Hoa Ward",
     "CodeName": "hiep_hoa",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "26932"
    },
    {
@@ -10165,11 +10165,11 @@
     "Code": "09193",
     "Name": "Yên Phong",
     "NameEn": "Yen Phong",
-    "FullName": "Xã Yên Phong",
-    "FullNameEn": "Yen Phong Commune",
+    "FullName": "Phường Yên Phong",
+    "FullNameEn": "Yen Phong Ward",
     "CodeName": "yen_phong",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16220"
    },
    {
@@ -10273,11 +10273,11 @@
     "Code": "09292",
     "Name": "Phù Lãng",
     "NameEn": "Phu Lang",
-    "FullName": "Xã Phù Lãng",
-    "FullNameEn": "Phu Lang Commune",
+    "FullName": "Phường Phù Lãng",
+    "FullNameEn": "Phu Lang Ward",
     "CodeName": "phu_lang",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16826"
    },
    {
@@ -10309,11 +10309,11 @@
     "Code": "09313",
     "Name": "Chi Lăng",
     "NameEn": "Chi Lang",
-    "FullName": "Xã Chi Lăng",
-    "FullNameEn": "Chi Lang Commune",
+    "FullName": "Phường Chi Lăng",
+    "FullNameEn": "Chi Lang Ward",
     "CodeName": "chi_lang",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16819"
    },
    {
@@ -10321,11 +10321,11 @@
     "Code": "09319",
     "Name": "Tiên Du",
     "NameEn": "Tien Du",
-    "FullName": "Xã Tiên Du",
-    "FullNameEn": "Tien Du Commune",
+    "FullName": "Phường Tiên Du",
+    "FullNameEn": "Tien Du Ward",
     "CodeName": "tien_du",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16420"
    },
    {
@@ -10513,11 +10513,11 @@
     "Code": "09454",
     "Name": "Gia Bình",
     "NameEn": "Gia Binh",
-    "FullName": "Xã Gia Bình",
-    "FullNameEn": "Gia Binh Commune",
+    "FullName": "Phường Gia Bình",
+    "FullNameEn": "Gia Binh Ward",
     "CodeName": "gia_binh",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16706"
    },
    {
@@ -10549,11 +10549,11 @@
     "Code": "09475",
     "Name": "Nhân Thắng",
     "NameEn": "Nhan Thang",
-    "FullName": "Xã Nhân Thắng",
-    "FullNameEn": "Nhan Thang Commune",
+    "FullName": "Phường Nhân Thắng",
+    "FullNameEn": "Nhan Thang Ward",
     "CodeName": "nhan_thang",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16708"
    },
    {
@@ -10573,11 +10573,11 @@
     "Code": "09496",
     "Name": "Lương Tài",
     "NameEn": "Luong Tai",
-    "FullName": "Xã Lương Tài",
-    "FullNameEn": "Luong Tai Commune",
+    "FullName": "Phường Lương Tài",
+    "FullNameEn": "Luong Tai Ward",
     "CodeName": "luong_tai",
     "ProvinceCode": "24",
-    "AdministrativeUnitId": 4,
+    "AdministrativeUnitId": 3,
     "PostalCode": "16620"
    },
    {
