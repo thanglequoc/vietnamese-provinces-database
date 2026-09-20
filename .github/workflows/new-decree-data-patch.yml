@@ -13,7 +13,8 @@ name: New Decree Data Patch
 
 on:
   schedule:
-    - cron: '0 1 * * *' # 08:00 ICT (GMT+7) — daily
+    - cron: '0 9 * * *' # 09:00 ICT (GMT+7) — daily
+      timezone: 'Asia/Ho_Chi_Minh'
   workflow_dispatch:
     inputs:
       force:
