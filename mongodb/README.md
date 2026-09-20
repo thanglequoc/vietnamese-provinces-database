@@ -1,6 +1,6 @@
 # MongoDB Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 13:13:17 +0000**
 
 MongoDB documents for Vietnamese provinces and wards, with an optional GIS add-on.
 
@@ -8,8 +8,8 @@ MongoDB documents for Vietnamese provinces and wards, with an optional GIS add-o
 
 - `administrative_units.json` — Array of 8 administrative unit types (1016 B)
 - `administrative_regions.json` — Array of 8 regions (1.15 KB)
-- `mongo_data_vn_unit.json` — Array of 34 province documents, each embedding its Wards array (953.51 KB)
-- `mongo_data_vn_provinces_metadata.json` — Single dataset metadata document (version, decree, timestamp) (104 B)
+- `mongo_data_vn_unit.json` — Array of 34 province documents, each embedding its Wards array (953.55 KB)
+- `mongo_data_vn_provinces_metadata.json` — Single dataset metadata document (version, decree, timestamp) (107 B)
 
 ## Overview
 

@@ -1,12 +1,12 @@
 # Microsoft SQL Server Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 13:13:17 +0000**
 
 Import script for the Vietnamese Provinces Database on Microsoft SQL Server.
 
 ## Files
 
-- `mssql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (359.45 KB)
+- `mssql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (359.49 KB)
 
 ## Overview
 

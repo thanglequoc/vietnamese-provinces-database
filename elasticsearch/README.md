@@ -1,13 +1,13 @@
 # Elasticsearch Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 13:13:17 +0000**
 
 Provinces and wards as Elasticsearch documents in two indices: `provinces` (no geometry) and `provinces-gis` (with GIS geometry).
 
 ## Files
 
 - `provinces.ndjson` — Bulk API NDJSON for the provinces index (1.18 MB)
-- `vn_provinces_metadata.ndjson` — Bulk API NDJSON for the vn_provinces_metadata index (150 B)
+- `vn_provinces_metadata.ndjson` — Bulk API NDJSON for the vn_provinces_metadata index (153 B)
 - `mappings/provinces.json` — Index mapping for provinces (2.72 KB)
 - `mappings/vn_provinces_metadata.json` — Index mapping for vn_provinces_metadata (248 B)
 
