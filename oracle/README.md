@@ -1,12 +1,12 @@
 # Oracle Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 07:13:47 +0000**
 
 Import script for the Vietnamese Provinces Database on Oracle.
 
 ## Files
 
-- `oracle_ImportData_vn_units.sql` — INSERT ALL statements for regions, units, provinces, and wards (723.30 KB)
+- `oracle_ImportData_vn_units.sql` — INSERT ALL statements for regions, units, provinces, and wards (723.34 KB)
 
 ## Overview
 

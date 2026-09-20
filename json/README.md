@@ -1,17 +1,17 @@
 # JSON Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 07:13:47 +0000**
 
 Administrative unit JSON data for Vietnam: provinces with embedded wards, in full and simplified forms.
 
 ## Files
 
 - `full_json_generated_data_vn_units.json` — Full dataset (provinces + wards + administrative info) (1.51 MB)
-- `simplified_json_generated_data_vn_units.json` — Simplified dataset (pretty-printed) (786.42 KB)
-- `simplified_json_generated_data_vn_units_minified.json` — Simplified dataset (minified) (603.51 KB)
-- `vn_only_simplified_json_generated_data_vn_units.json` — Vietnamese-only simplified (pretty-printed) (393.83 KB)
-- `vn_only_simplified_json_generated_data_vn_units_minified.json` — Vietnamese-only simplified (minified) (289.29 KB)
-- `vn_provinces_metadata.json` — Dataset version, latest decree, and generation timestamp (104 B)
+- `simplified_json_generated_data_vn_units.json` — Simplified dataset (pretty-printed) (786.46 KB)
+- `simplified_json_generated_data_vn_units_minified.json` — Simplified dataset (minified) (603.54 KB)
+- `vn_only_simplified_json_generated_data_vn_units.json` — Vietnamese-only simplified (pretty-printed) (393.91 KB)
+- `vn_only_simplified_json_generated_data_vn_units_minified.json` — Vietnamese-only simplified (minified) (289.36 KB)
+- `vn_provinces_metadata.json` — Dataset version, latest decree, and generation timestamp (107 B)
 
 ## Overview
 

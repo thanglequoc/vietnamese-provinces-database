@@ -4715,7 +4715,7 @@
  },
  {
   "Code": "24",
-  "FullName": "Tỉnh Bắc Ninh",
+  "FullName": "Thành phố Bắc Ninh",
   "PostalCodePrefix": "16, 26",
   "Wards": [
    {
@@ -4756,7 +4756,7 @@
    },
    {
     "Code": "07294",
-    "FullName": "Xã Bố Hạ",
+    "FullName": "Phường Bố Hạ",
     "ProvinceCode": "24",
     "PostalCode": "26723"
    },
@@ -4792,7 +4792,7 @@
    },
    {
     "Code": "07375",
-    "FullName": "Xã Lạng Giang",
+    "FullName": "Phường Lạng Giang",
     "ProvinceCode": "24",
     "PostalCode": "26629"
    },
@@ -4804,7 +4804,7 @@
    },
    {
     "Code": "07399",
-    "FullName": "Xã Kép",
+    "FullName": "Phường Kép",
     "ProvinceCode": "24",
     "PostalCode": "26610"
    },
@@ -4822,7 +4822,7 @@
    },
    {
     "Code": "07444",
-    "FullName": "Xã Lục Nam",
+    "FullName": "Phường Lục Nam",
     "ProvinceCode": "24",
     "PostalCode": "26333"
    },
@@ -5050,7 +5050,7 @@
    },
    {
     "Code": "07840",
-    "FullName": "Xã Hiệp Hoà",
+    "FullName": "Phường Hiệp Hoà",
     "ProvinceCode": "24",
     "PostalCode": "26932"
    },
@@ -5086,7 +5086,7 @@
    },
    {
     "Code": "09193",
-    "FullName": "Xã Yên Phong",
+    "FullName": "Phường Yên Phong",
     "ProvinceCode": "24",
     "PostalCode": "16220"
    },
@@ -5140,7 +5140,7 @@
    },
    {
     "Code": "09292",
-    "FullName": "Xã Phù Lãng",
+    "FullName": "Phường Phù Lãng",
     "ProvinceCode": "24",
     "PostalCode": "16826"
    },
@@ -5158,13 +5158,13 @@
    },
    {
     "Code": "09313",
-    "FullName": "Xã Chi Lăng",
+    "FullName": "Phường Chi Lăng",
     "ProvinceCode": "24",
     "PostalCode": "16819"
    },
    {
     "Code": "09319",
-    "FullName": "Xã Tiên Du",
+    "FullName": "Phường Tiên Du",
     "ProvinceCode": "24",
     "PostalCode": "16420"
    },
@@ -5260,7 +5260,7 @@
    },
    {
     "Code": "09454",
-    "FullName": "Xã Gia Bình",
+    "FullName": "Phường Gia Bình",
     "ProvinceCode": "24",
     "PostalCode": "16706"
    },
@@ -5278,7 +5278,7 @@
    },
    {
     "Code": "09475",
-    "FullName": "Xã Nhân Thắng",
+    "FullName": "Phường Nhân Thắng",
     "ProvinceCode": "24",
     "PostalCode": "16708"
    },
@@ -5290,7 +5290,7 @@
    },
    {
     "Code": "09496",
-    "FullName": "Xã Lương Tài",
+    "FullName": "Phường Lương Tài",
     "ProvinceCode": "24",
     "PostalCode": "16620"
    },

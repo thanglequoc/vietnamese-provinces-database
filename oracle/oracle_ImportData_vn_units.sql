@@ -1,5 +1,5 @@
 /* === Vietnamese Provinces Database Dataset for Oracle === */
-/* Created at:  Sat, 12 Sep 2026 14:42:08 +0700 */
+/* Created at:  Sun, 20 Sep 2026 07:13:47 +0000 */
 /* Reference: https://github.com/thanglequoc/vietnamese-provinces-database */
 /* =============================================== */
 
@@ -34,7 +34,7 @@ INSERT ALL
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('19','Thái Nguyên','Thai Nguyen','Tỉnh Thái Nguyên','Thai Nguyen Province','thai_nguyen',2,'23, 24')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('20','Lạng Sơn','Lang Son','Tỉnh Lạng Sơn','Lang Son Province','lang_son',2,'25')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('22','Quảng Ninh','Quang Ninh','Thành phố Quảng Ninh','Quang Ninh City','quang_ninh',1,'01, 02')
-	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('24','Bắc Ninh','Bac Ninh','Tỉnh Bắc Ninh','Bac Ninh Province','bac_ninh',2,'16, 26')
+	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('24','Bắc Ninh','Bac Ninh','Thành phố Bắc Ninh','Bac Ninh City','bac_ninh',1,'16, 26')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('25','Phú Thọ','Phu Tho','Tỉnh Phú Thọ','Phu Tho Province','phu_tho',2,'15, 35, 36')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('31','Hải Phòng','Haiphong','Thành phố Hải Phòng','Haiphong City','hai_phong',1,'03, 04, 05')
 	INTO provinces(code,name,name_en,full_name,full_name_en,code_name,administrative_unit_id,postal_code_prefix) VALUES('33','Hưng Yên','Hung Yen','Tỉnh Hưng Yên','Hung Yen Province','hung_yen',2,'06, 17')
@@ -871,18 +871,18 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07264','Tam Tiến','Tam Tien','Xã Tam Tiến','Tam Tien Commune','tam_tien','24',4,'26714')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07282','Đồng Kỳ','Dong Ky','Xã Đồng Kỳ','Dong Ky Commune','dong_ky','24',4,'26724')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07288','Yên Thế','Yen The','Xã Yên Thế','Yen The Commune','yen_the','24',4,'26727')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07294','Bố Hạ','Bo Ha','Xã Bố Hạ','Bo Ha Commune','bo_ha','24',4,'26723')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07294','Bố Hạ','Bo Ha','Phường Bố Hạ','Bo Ha Ward','bo_ha','24',3,'26723')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07306','Nhã Nam','Nha Nam','Xã Nhã Nam','Nha Nam Commune','nha_nam','24',4,'26811')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07330','Phúc Hoà','Phuc Hoa','Xã Phúc Hoà','Phuc Hoa Commune','phuc_hoa','24',4,'26809')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07333','Quang Trung','Quang Trung','Xã Quang Trung','Quang Trung Commune','quang_trung','24',4,'26813')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07339','Tân Yên','Tan Yen','Xã Tân Yên','Tan Yen Commune','tan_yen','24',4,'26830')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07351','Ngọc Thiện','Ngoc Thien','Xã Ngọc Thiện','Ngoc Thien Commune','ngoc_thien','24',4,'26825')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07375','Lạng Giang','Lang Giang','Xã Lạng Giang','Lang Giang Commune','lang_giang','24',4,'26629')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07375','Lạng Giang','Lang Giang','Phường Lạng Giang','Lang Giang Ward','lang_giang','24',3,'26629')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07381','Tiên Lục','Tien Luc','Xã Tiên Lục','Tien Luc Commune','tien_luc','24',4,'26618')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07399','Kép','Kep','Xã Kép','Kep Commune','kep','24',4,'26610')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07399','Kép','Kep','Phường Kép','Kep Ward','kep','24',3,'26610')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07420','Mỹ Thái','My Thai','Xã Mỹ Thái','My Thai Commune','my_thai','24',4,'26622')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07432','Tân Dĩnh','Tan Dinh','Xã Tân Dĩnh','Tan Dinh Commune','tan_dinh','24',4,'26626')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07444','Lục Nam','Luc Nam','Xã Lục Nam','Luc Nam Commune','luc_nam','24',4,'26333')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07444','Lục Nam','Luc Nam','Phường Lục Nam','Luc Nam Ward','luc_nam','24',3,'26333')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07450','Đông Phú','Dong Phu','Xã Đông Phú','Dong Phu Commune','dong_phu','24',4,'26310')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07462','Bảo Đài','Bao Dai','Xã Bảo Đài','Bao Dai Commune','bao_dai','24',4,'26313')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07486','Nghĩa Phương','Nghia Phuong','Xã Nghĩa Phương','Nghia Phuong Commune','nghia_phuong','24',4,'26327')
@@ -923,7 +923,7 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07795','Nếnh','Nenh','Phường Nếnh','Nenh Ward','nenh','24',3,'26169')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07798','Vân Hà','Van Ha','Phường Vân Hà','Van Ha Ward','van_ha','24',3,'26166')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07822','Hoàng Vân','Hoang Van','Xã Hoàng Vân','Hoang Van Commune','hoang_van','24',4,'26912')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07840','Hiệp Hoà','Hiep Hoa','Xã Hiệp Hoà','Hiep Hoa Commune','hiep_hoa','24',4,'26932')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07840','Hiệp Hoà','Hiep Hoa','Phường Hiệp Hoà','Hiep Hoa Ward','hiep_hoa','24',3,'26932')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07864','Hợp Thịnh','Hop Thinh','Xã Hợp Thịnh','Hop Thinh Commune','hop_thinh','24',4,'26920')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07870','Xuân Cẩm','Xuan Cam','Xã Xuân Cẩm','Xuan Cam Commune','xuan_cam','24',4,'26924')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('07894','Nông Trang','Nong Trang','Phường Nông Trang','Nong Trang Ward','nong_trang','25',3,'35120')
@@ -1041,7 +1041,7 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09169','Vũ Ninh','Vu Ninh','Phường Vũ Ninh','Vu Ninh Ward','vu_ninh','24',3,'16111')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09187','Kinh Bắc','Kinh Bac','Phường Kinh Bắc','Kinh Bac Ward','kinh_bac','24',3,'16114')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09190','Võ Cường','Vo Cuong','Phường Võ Cường','Vo Cuong Ward','vo_cuong','24',3,'16118')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09193','Yên Phong','Yen Phong','Xã Yên Phong','Yen Phong Commune','yen_phong','24',4,'16220')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09193','Yên Phong','Yen Phong','Phường Yên Phong','Yen Phong Ward','yen_phong','24',3,'16220')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09202','Tam Giang','Tam Giang','Xã Tam Giang','Tam Giang Commune','tam_giang','24',4,'16215')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09205','Yên Trung','Yen Trung','Xã Yên Trung','Yen Trung Commune','yen_trung','24',4,'16213')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09208','Tam Đa','Tam Da','Xã Tam Đa','Tam Da Commune','tam_da','24',4,'16211')
@@ -1050,11 +1050,11 @@ INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09253','Nhân Hoà','Nhan Hoa','Phường Nhân Hoà','Nhan Hoa Ward','nhan_hoa','24',3,'16811')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09265','Phương Liễu','Phuong Lieu','Phường Phương Liễu','Phuong Lieu Ward','phuong_lieu','24',3,'16814')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09286','Nam Sơn','Nam Son','Phường Nam Sơn','Nam Son Ward','nam_son','24',3,'16121')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09292','Phù Lãng','Phu Lang','Xã Phù Lãng','Phu Lang Commune','phu_lang','24',4,'16826')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09292','Phù Lãng','Phu Lang','Phường Phù Lãng','Phu Lang Ward','phu_lang','24',3,'16826')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09295','Bồng Lai','Bong Lai','Phường Bồng Lai','Bong Lai Ward','bong_lai','24',3,'16820')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09301','Đào Viên','Dao Vien','Phường Đào Viên','Dao Vien Ward','dao_vien','24',3,'16822')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09313','Chi Lăng','Chi Lang','Xã Chi Lăng','Chi Lang Commune','chi_lang','24',4,'16819')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09319','Tiên Du','Tien Du','Xã Tiên Du','Tien Du Commune','tien_du','24',4,'16420')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09313','Chi Lăng','Chi Lang','Phường Chi Lăng','Chi Lang Ward','chi_lang','24',3,'16819')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09319','Tiên Du','Tien Du','Phường Tiên Du','Tien Du Ward','tien_du','24',3,'16420')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09325','Hạp Lĩnh','Hap Linh','Phường Hạp Lĩnh','Hap Linh Ward','hap_linh','24',3,'16120')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09334','Liên Bão','Lien Bao','Xã Liên Bão','Lien Bao Commune','lien_bao','24',4,'16419')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09340','Đại Đồng','Dai Dong','Xã Đại Đồng','Dai Dong Commune','dai_dong','24',4,'16410')
@@ -1073,12 +1073,12 @@ INSERT ALL
 INSERT ALL
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09433','Song Liễu','Song Lieu','Phường Song Liễu','Song Lieu Ward','song_lieu','24',3,'16514')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09445','Ninh Xá','Ninh Xa','Phường Ninh Xá','Ninh Xa Ward','ninh_xa','24',3,'16518')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09454','Gia Bình','Gia Binh','Xã Gia Bình','Gia Binh Commune','gia_binh','24',4,'16706')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09454','Gia Bình','Gia Binh','Phường Gia Bình','Gia Binh Ward','gia_binh','24',3,'16706')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09466','Cao Đức','Cao Duc','Xã Cao Đức','Cao Duc Commune','cao_duc','24',4,'16710')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09469','Đại Lai','Dai Lai','Xã Đại Lai','Dai Lai Commune','dai_lai','24',4,'16713')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09475','Nhân Thắng','Nhan Thang','Xã Nhân Thắng','Nhan Thang Commune','nhan_thang','24',4,'16708')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09475','Nhân Thắng','Nhan Thang','Phường Nhân Thắng','Nhan Thang Ward','nhan_thang','24',3,'16708')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09487','Đông Cứu','Dong Cuu','Xã Đông Cứu','Dong Cuu Commune','dong_cuu','24',4,'16717')
-	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09496','Lương Tài','Luong Tai','Xã Lương Tài','Luong Tai Commune','luong_tai','24',4,'16620')
+	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09496','Lương Tài','Luong Tai','Phường Lương Tài','Luong Tai Ward','luong_tai','24',3,'16620')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09499','Trung Kênh','Trung Kenh','Xã Trung Kênh','Trung Kenh Commune','trung_kenh','24',4,'16611')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09523','Trung Chính','Trung Chinh','Xã Trung Chính','Trung Chinh Commune','trung_chinh','24',4,'16607')
 	INTO wards(code,name,name_en,full_name,full_name_en,code_name,province_code,administrative_unit_id,postal_code) VALUES('09529','Lâm Thao','Lam Thao','Xã Lâm Thao','Lam Thao Commune','lam_thao','24',4,'16618')
@@ -3588,7 +3588,7 @@ INSERT ALL
 -- ----------------------------------
 
 -- DATA for vn_provinces_metadata --
-INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES('v5.1.0','36/2026/QH16',TO_TIMESTAMP('2026-09-12 07:42:08','YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO vn_provinces_metadata(dataset_version,latest_decree,generated_at) VALUES('v5.2.0','388/NQ-UBTVQH16',TO_TIMESTAMP('2026-09-20 07:13:47','YYYY-MM-DD HH24:MI:SS'));
 -- ----------------------------------
 
 -- END OF SCRIPT FILE --

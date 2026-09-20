@@ -1,12 +1,12 @@
 # MySQL Dataset — Vietnamese Provinces Database
 
-**Generated at: Sat, 12 Sep 2026 14:42:08 +0700**
+**Generated at: Sun, 20 Sep 2026 07:13:47 +0000**
 
 Import script for the Vietnamese Provinces Database on MySQL/MariaDB.
 
 ## Files
 
-- `mysql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (343.00 KB)
+- `mysql_ImportData_vn_units.sql` — INSERT statements for regions, units, provinces, and wards (343.04 KB)
 
 ## Overview
 
