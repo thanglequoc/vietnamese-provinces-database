@@ -1,0 +1,119 @@
+name: Tag Release
+
+# Creates the release tag and GitHub release for the version in
+# `dataset-generation-scripts/version.txt` (`dataset_version`).
+#
+# Run this LAST, after the "Publish Dataset Archives" PR
+# (`auto/downloads-<version>`) has been merged. That ordering ensures the tag
+# points at a commit whose READMEs already link to the published archives
+# instead of the previous release's download links.
+#
+# The release body is taken from `docs/release_notes/<version>.md` when that file
+# exists; otherwise GitHub generates the notes automatically. The notes file is
+# never a prerequisite for tagging.
+#
+# Optional repository secret:
+#   DECREE_AUTOMATION_PAT — PAT used to push the tag / create the release
+#   (falls back to the default GITHUB_TOKEN).
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: Release title (defaults to the version, e.g. v5.2.0)
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tag-release
+  cancel-in-progress: false
+
+jobs:
+  tag:
+    name: Tag and create release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v7
+        with:
+          ref: master
+          fetch-depth: 1
+          # Cone mode keeps root files (README*.md) plus docs/.
+          sparse-checkout: docs
+          token: ${{ secrets.DECREE_AUTOMATION_PAT || github.token }}
+
+      - name: Resolve version
+        id: version
+        run: |
+          set -euo pipefail
+          VERSION="$(git show HEAD:dataset-generation-scripts/version.txt \
+            | grep -E '^dataset_version=' | head -1 | cut -d= -f2 | tr -d '[:space:]')"
+          [[ -n "${VERSION}" ]] || { echo "error: could not read dataset_version from version.txt" >&2; exit 1; }
+          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+          echo "Resolved version: ${VERSION}"
+
+      - name: Verify README download links are published
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          if ! grep -q "dataset_${VERSION}.zip" README.md; then
+            echo "error: README.md does not reference the ${VERSION} archives yet." >&2
+            echo "       Merge the 'auto/downloads-${VERSION}' PR (Publish Dataset Archives) first." >&2
+            exit 1
+          fi
+          echo "README.md links to the ${VERSION} archives."
+
+      # Resumable: a previous run may have pushed the tag but failed before the
+      # release was created. Only fail when the existing tag points elsewhere.
+      - name: Create and push tag
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          HEAD_SHA="$(git rev-parse HEAD)"
+          REMOTE_SHA="$(git ls-remote --tags origin "refs/tags/${VERSION}" | awk '{print $1}')"
+          if [[ -n "${REMOTE_SHA}" ]]; then
+            if [[ "${REMOTE_SHA}" != "${HEAD_SHA}" ]]; then
+              echo "error: tag ${VERSION} already exists at ${REMOTE_SHA}, not at HEAD ${HEAD_SHA}" >&2
+              exit 1
+            fi
+            echo "Tag ${VERSION} already exists at HEAD (${HEAD_SHA}); skipping tag creation."
+          else
+            git tag "${VERSION}"
+            git push origin "${VERSION}"
+            echo "Created tag ${VERSION} at ${HEAD_SHA}."
+          fi
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.DECREE_AUTOMATION_PAT || github.token }}
+          RELEASE_TITLE: ${{ inputs.title }}
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          if gh release view "${VERSION}" >/dev/null 2>&1; then
+            echo "Release ${VERSION} already exists; nothing to do."
+            exit 0
+          fi
+          TITLE="${RELEASE_TITLE:-$VERSION}"
+          NOTES_FILE="docs/release_notes/${VERSION}.md"
+          if [[ -f "${NOTES_FILE}" ]]; then
+            gh release create "${VERSION}" --title "${TITLE}" --notes-file "${NOTES_FILE}"
+          else
+            echo "::warning::${NOTES_FILE} not found; generating release notes automatically."
+            gh release create "${VERSION}" --title "${TITLE}" --generate-notes
+          fi
+
+      - name: Write run summary
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          COMMIT="$(git rev-parse HEAD)"
+          {
+            echo "## Release ${VERSION} tagged"
+            echo
+            echo "Tag \`${VERSION}\` created at \`${COMMIT}\` and GitHub release published."
+          } >> "${GITHUB_STEP_SUMMARY}"

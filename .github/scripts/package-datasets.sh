@@ -5,11 +5,13 @@ set -euo pipefail
 # `downloads.json` manifest (archive name, size, sha256, public URL).
 #
 # Usage:
-#   package-datasets.sh <version> <output-dir> [--repo-root DIR]
+#   package-datasets.sh <version> <output-dir> [--repo-root DIR] [--source-commit SHA]
 #
 # Options:
-#   --repo-root DIR   Repository root containing the dataset folders
-#                     (default: this repository's root)
+#   --repo-root DIR      Repository root containing the dataset folders
+#                        (default: this repository's root)
+#   --source-commit SHA  Git commit the datasets were packaged from; recorded in
+#                        `downloads.json` as provenance (optional)
 #
 # Environment:
 #   R2_PUBLIC_BASE_URL  Public CDN base URL
@@ -36,11 +38,13 @@ Packages each published dataset folder into a ZIP archive and writes a
 `downloads.json` manifest (archive name, size, sha256, public URL).
 
 Usage:
-  package-datasets.sh <version> <output-dir> [--repo-root DIR]
+  package-datasets.sh <version> <output-dir> [--repo-root DIR] [--source-commit SHA]
 
 Options:
-  --repo-root DIR   Repository root containing the dataset folders
-                    (default: this repository's root)
+  --repo-root DIR      Repository root containing the dataset folders
+                       (default: this repository's root)
+  --source-commit SHA  Git commit the datasets were packaged from; recorded in
+                       `downloads.json` as provenance (optional)
 
 Environment:
   R2_PUBLIC_BASE_URL  Public CDN base URL
@@ -51,10 +55,12 @@ EOF
 VERSION=""
 OUT_DIR=""
 REPO_ROOT="$DEFAULT_REPO_ROOT"
+SOURCE_COMMIT=""
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --repo-root) REPO_ROOT="${2:?--repo-root needs a value}"; shift 2 ;;
+    --source-commit) SOURCE_COMMIT="${2:?--source-commit needs a value}"; shift 2 ;;
     -h|--help)   usage; exit 0 ;;
     -*)          echo "error: unknown option: $1" >&2; usage >&2; exit 2 ;;
     *)
@@ -105,6 +111,9 @@ echo "Packaging datasets for ${VERSION}"
 echo "  repo root : ${REPO_ROOT}"
 echo "  output dir: ${OUT_DIR}"
 echo "  base url  : ${R2_PUBLIC_BASE_URL}"
+if [[ -n "$SOURCE_COMMIT" ]]; then
+  echo "  source    : ${SOURCE_COMMIT}"
+fi
 echo
 
 json="$OUT_DIR/downloads.json"
@@ -113,6 +122,9 @@ json="$OUT_DIR/downloads.json"
   printf '  "version": "%s",\n' "$VERSION"
   printf '  "generated_at": "%s",\n' "$GENERATED_AT"
   printf '  "base_url": "%s",\n' "${R2_PUBLIC_BASE_URL%/}"
+  if [[ -n "$SOURCE_COMMIT" ]]; then
+    printf '  "source_commit": "%s",\n' "$SOURCE_COMMIT"
+  fi
   echo '  "datasets": ['
   first=1
   for id in "${DATASETS[@]}"; do

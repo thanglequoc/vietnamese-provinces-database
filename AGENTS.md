@@ -795,9 +795,9 @@ dataset and opens a PR against `master`.
   is newest-*published*-first, so future-effective decrees are skipped.
 - **Version bump**: `go run ./cmd/decreecheck --apply --decree "<n>"` minor-bumps
   `dataset_version` (middle digit) and updates `latest_decree`.
-- **Archive publishing**: not part of this workflow. After the dataset PR is merged and the
-  release is tagged, archives are published separately by `publish-dataset-archives.yml`
-  (see below).
+- **Archive publishing**: not part of this workflow. After the dataset PR is merged,
+  archives are published by `publish-dataset-archives.yml`, and the release is tagged last
+  by `tag-release.yml` (see below).
 - **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
   `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
 - **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
@@ -806,16 +806,19 @@ dataset and opens a PR against `master`.
 
 A manually-triggered workflow (`workflow_dispatch`) packages each published dataset
 folder into a ZIP archive, uploads the archives to Cloudflare R2, and opens a PR that
-refreshes the download tables in the root READMEs and `docs/gis/`.
+refreshes the download tables in the root READMEs.
 
-- **Trigger**: manual only, run after the dataset PR is merged and the release tag exists.
-  The version is read from `dataset-generation-scripts/version.txt` (`dataset_version`),
-  which must match the git tag; that tag is checked out to package the released data.
+- **Trigger**: manual only, run after the dataset PR is merged and **before** the release
+  tag exists. The version is read from `dataset-generation-scripts/version.txt`
+  (`dataset_version`) and used to name the R2 keys, manifest and PR branch; the archives
+  themselves are packaged from `master`, since the tag does not exist yet.
 - **Release order (standard route)**: merge dataset update → create `patch/<version>/` and
-  release notes → `git tag vX.Y.Z` (with `version.txt` matching) → run this workflow →
-  merge the docs PR it opens.
-- **Packaging**: `.github/scripts/package-datasets.sh <version> <out-dir> [--repo-root DIR]`
-  zips the 8 dataset folders as-is and writes `downloads.json` (name, size, sha256, URL).
+  release notes → run this workflow → merge the downloads PR it opens → tag the release
+  last via `tag-release.yml` (with `version.txt` matching). Tagging last keeps
+  `git show vX.Y.Z:README.md` pointing at the archives for that same version.
+- **Packaging**: `.github/scripts/package-datasets.sh <version> <out-dir> [--repo-root DIR] [--source-commit SHA]`
+  zips the 8 dataset folders as-is and writes `downloads.json` (name, size, sha256, URL,
+  optional source commit).
 - **Upload**: `aws-cli` against the R2 S3 endpoint
   (`AWS_ENDPOINT_URL_S3=https://<R2_ACCOUNT_ID>.r2.cloudflarestorage.com`,
   `AWS_DEFAULT_REGION=auto`). Key layout: `<version>/<format>/vn_provinces_<format>_dataset_<version>.zip`.
