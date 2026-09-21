@@ -35,7 +35,7 @@ Bảng dưới thông kê các nghị định đã được ban hành, cùng th�
 
 |Nghị định/Mô tả|Ngày ban hành|Ngày có hiệu lực|Phiên bản|
 |-------------|-----------|-------------|---------------|
-|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Chưa triển khai|
+|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|v5.2.0|
 |[36/2026/QH16][decree 36/2026/QH16]; bảng metadata dataset cho tất cả các định dạng|24/08/2026|01/09/2026|v5.1.0|
 |Mã bưu chính cho tất cả các định dạng; sửa mã xã Ba Chẽ|---|---|v5.0.0|
 |Thêm GIS dataset cho ElasticSearch, MongoDB|---|---|v4.2.0|

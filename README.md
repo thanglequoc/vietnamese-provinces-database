@@ -36,7 +36,7 @@ The following table contains a list of issued decrees and their effective dates,
 
 |Issued Decree/Description|Issued on |Effect from|Release Version|
 |-------------|-----------|-------------|---------------|
-|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|Work in Progress|
+|[39/2026/QH16][decree 39/2026/QH16], [388/NQ-UBTVQH16][decree 388/NQ-UBTVQH16]|04/08/2026|20/09/2026|v5.2.0|
 |[36/2026/QH16][decree 36/2026/QH16]; dataset metadata table for all formats|24/08/2026|01/09/2026|v5.1.0|
 |Postal codes for all formats; Ba Chẽ ward code correction|---|---|v5.0.0|
 |Add GIS dataset for ElasticSearch, MongoDB|---|---|v4.2.0|
