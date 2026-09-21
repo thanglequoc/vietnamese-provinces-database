@@ -98,7 +98,7 @@ jobs:
           AWS_ENDPOINT_URL_S3: https://${{ vars.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
           R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
         run: |
-          ./repo/.github/scripts/upload-archives-to-r2.sh \
+          ./.github/scripts/upload-archives-to-r2.sh \
             "${{ steps.version.outputs.version }}" \
             "${RUNNER_TEMP}/archives"
 
