@@ -10,11 +10,15 @@ This is the **only supported release route**. It is:
 2. Review & merge the dataset PR
 3. Create the upgrade patch        (patch/<version>/)
 4. Write the release notes         (docs/release_notes/<version>.md)
-5. Tag the release                 (git tag vX.Y.Z, version.txt must match)
-6. Run "Publish Dataset Archives"  (upload to R2 + open README/docs PR)
-7. Merge the README/docs PR        (release complete)
+5. Run "Publish Dataset Archives"  (upload to R2 + open README download-table PR)
+6. Merge the README PR             (download links now point at <version>)
+7. Tag the release                 ("Tag Release"; version.txt must match)
 8. Verify
 ```
+
+> The tag is deliberately created **last**, after the download links are merged.
+> That way `git show vX.Y.Z:README.md` — and the GitHub release page — point at
+> the archives for that same version, not the previous release's links.
 
 ---
 
@@ -81,11 +85,12 @@ POSTGRES_TMP_DB_NAME=vn_provinces_tmp
 | `dataset-generation-scripts/main.go` | Entry point. `INCLUDE_GIS` const (`true` by default) gates the GIS pipeline. |
 | `dataset-generation-scripts/copy-datasets-to-repo.sh` | Copies `output/` into the published folders (`json/`, `postgresql/`, …). |
 | `.github/workflows/new-decree-data-patch.yml` | **New Decree Data Patch** — scheduled decree detection + regeneration, opens the dataset PR. |
-| `.github/workflows/publish-dataset-archives.yml` | **Publish Dataset Archives** — manual; packages + uploads to R2 and opens the README/docs PR. |
+| `.github/workflows/publish-dataset-archives.yml` | **Publish Dataset Archives** — manual; packages `master` + uploads to R2 and opens the README download-table PR (run *before* tagging). |
+| `.github/workflows/tag-release.yml` | **Tag Release** — manual; creates the release tag + GitHub release from `version.txt` (run *after* the download PR merges). |
 | `.github/workflows/test-go.yml` | **Test Go Code** — runs on PRs. |
 | `.github/scripts/package-datasets.sh` | Zips each dataset folder + writes `downloads.json`. |
 | `.github/scripts/upload-archives-to-r2.sh` | Uploads archives + manifest to R2, verifies CDN URLs. |
-| `.github/scripts/update_download_tables.py` | Regenerates the README/GIS download tables from `downloads.json`. |
+| `.github/scripts/update_download_tables.py` | Regenerates the root README download tables from `downloads.json`. |
 | `.opencode/skills/vn-provinces-patch` | Generates the data-only SQL upgrade patch. |
 | `.opencode/skills/vn-provinces-release-notes` | Generates the bilingual release note + README version tables. |
 
@@ -184,9 +189,58 @@ release tables in `README.md` / `README_vi.md`. Commit it.
 > Steps 3 and 4 are independent of the R2 publish; both can go in a small PR or a
 > direct commit.
 
-### Step 5 — Tag the release
+### Step 5 — Publish the archives
 
-`version.txt` **must equal** the tag.
+**Actions → Publish Dataset Archives → Run workflow** (branch `master`).
+
+> The tag does **not** exist yet at this point — that is intentional. The archives
+> are packaged from the merged `master` data, and the tag is created in Step 7 so
+> that it includes the updated download links.
+
+The workflow:
+1. reads `dataset_version` from `version.txt` (used for the R2 keys, the manifest
+   and the PR branch);
+2. checks out `master` and zips each dataset folder → `downloads.json`
+   (recording the source commit);
+3. uploads to R2 at `<version>/<format>/…` and verifies the CDN returns HTTP 200;
+4. opens a PR `auto/downloads-<version>` that refreshes the README download tables.
+
+CLI equivalent:
+
+```bash
+gh workflow run "Publish Dataset Archives" --ref master
+gh run watch "$(gh run list --workflow 'Publish Dataset Archives' --limit 1 --json databaseId -q '.[0].databaseId')"
+```
+
+### Step 6 — Merge the README PR
+
+Merge `auto/downloads-<version>`. This makes the published links live in the root
+READMEs. Re-running the workflow for the same version is idempotent (no PR when the
+tables already match).
+
+Confirm the links are live before tagging:
+
+```bash
+grep -c 'dataset_v5.2.0.zip' README.md README_vi.md   # expect a non-zero count
+```
+
+### Step 7 — Tag the release
+
+**Actions → Tag Release → Run workflow** (branch `master`).
+
+The workflow:
+1. reads `dataset_version` from `version.txt` and uses it as the tag name;
+2. fails if the READMEs do not yet link to the published archives, or if a tag
+   with the same name already exists at a *different* commit;
+3. creates and pushes the tag on the current `master` HEAD (safe to re-run — an
+   existing tag at the same commit is reused);
+4. creates the GitHub release, using `docs/release_notes/<version>.md` as the body
+   when present, and GitHub-generated notes otherwise.
+
+> The release-note file is **not** required to tag; it only provides a curated
+> release body.
+
+CLI equivalent (the workflow is a thin wrapper around this):
 
 ```bash
 # confirm the version
@@ -200,29 +254,8 @@ gh release create v5.2.0 \
   --notes-file docs/release_notes/v5.2.0.md
 ```
 
-### Step 6 — Publish the archives
-
-**Actions → Publish Dataset Archives → Run workflow** (branch `master`).
-
-The workflow:
-1. reads `dataset_version` from `version.txt`;
-2. checks out that version as a git tag (fails if the tag is missing);
-3. zips each dataset folder → `downloads.json`;
-4. uploads to R2 at `<version>/<format>/…` and verifies the CDN returns HTTP 200;
-5. opens a PR `auto/downloads-<version>` that refreshes the README/GIS download tables.
-
-CLI equivalent:
-
-```bash
-gh workflow run "Publish Dataset Archives" --ref master
-gh run watch "$(gh run list --workflow 'Publish Dataset Archives' --limit 1 --json databaseId -q '.[0].databaseId')"
-```
-
-### Step 7 — Merge the README/docs PR
-
-Merge `auto/downloads-<version>`. This makes the published links live in the root
-READMEs and `docs/gis/`. Re-running the workflow for the same version is idempotent
-(no PR when the tables already match).
+Because the tag is created after Step 6, `git show v5.2.0:README.md` points at the
+v5.2.0 archives.
 
 ### Step 8 — Verify
 
@@ -287,8 +320,11 @@ Expected: **34** provinces, **3,321** wards, **34** `gis_provinces`, **3,321** `
 
 | Symptom | Cause | Fix |
 |---------|-------|-----|
-| Publish workflow fails at "Checkout dataset at vX.Y.Z" | Tag missing or `version.txt` ≠ tag | Create the tag, or fix `version.txt` |
+| Publish workflow packages the wrong data | `master` moved / `version.txt` bumped without merging the dataset | Check the run summary's `master@<sha>` and re-run after fixing `master` |
 | "could not read dataset_version from version.txt" | `version.txt` malformed | Ensure a line `dataset_version=vX.Y.Z` |
+| Tag Release warns "docs/release_notes/vX.Y.Z.md not found" | Release note file absent | Non-blocking — GitHub generates the body. Commit the note (Step 4) to use a curated body |
+| Tag Release fails at "README.md does not reference the vX.Y.Z archives" | The `auto/downloads-<version>` PR is not merged | Merge the downloads PR (Step 6), then re-run |
+| Tag Release fails at "tag vX.Y.Z already exists at <sha>, not at HEAD" | A tag for that version exists at another commit | Bump `version.txt`, or delete the misplaced tag |
 | CDN URL returns non-200 after upload | Custom domain not connected / not propagated | Check R2 custom domain; re-run the workflow |
 | `connect: connection refused` on 15432 | Docker not running | `docker compose -f docker/docker-compose.yaml up -d` |
 | Decree check "markup may have changed" | GSO page markup changed | Update `internal/decree_check` patterns + testdata |
@@ -319,9 +355,9 @@ cd dataset-generation-scripts && go run main.go && ./copy-datasets-to-repo.sh
 # Check for a new decree (offline sample)
 go run ./cmd/decreecheck --html-file ./internal/decree_check/testdata/nghidinh_sample.html --today 2026-09-21
 
-# Tag a release
-git tag v5.2.0 && git push origin v5.2.0
-
-# Publish archives
+# Publish archives (run before tagging)
 gh workflow run "Publish Dataset Archives" --ref master
+
+# Tag a release (after the downloads PR merges)
+gh workflow run "Tag Release" --ref master
 ```

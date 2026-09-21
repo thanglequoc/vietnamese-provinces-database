@@ -2,12 +2,16 @@ name: Publish Dataset Archives
 
 # Packages each published dataset folder into a ZIP archive, uploads the
 # archives to the maintainer's Cloudflare R2 bucket, and opens a PR that
-# refreshes the download tables in the READMEs / GIS docs.
+# refreshes the download tables in the READMEs.
 #
-# Run this after the dataset PR is merged and the release tag exists. The
-# version is read from `dataset-generation-scripts/version.txt`
-# (`dataset_version`), which must match the git tag; that tag is checked out so
-# the archives contain the exact released data.
+# Run this AFTER the dataset PR is merged to `master` and BEFORE the release
+# tag is created. The version is read from
+# `dataset-generation-scripts/version.txt` (`dataset_version`) and is used to
+# name the R2 keys, the manifest and the PR branch. The archives themselves are
+# packaged from `master`, because the tag does not exist yet at this point: it
+# is created last by `.github/workflows/tag-release.yml`, after the download PR
+# merges, so the tag points at a commit whose READMEs already link to the
+# published archives.
 #
 # Required repository secrets:
 #   R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
@@ -35,32 +39,20 @@ jobs:
     timeout-minutes: 45
     outputs:
       version: ${{ steps.version.outputs.version }}
+      source_commit: ${{ steps.source.outputs.commit }}
 
     steps:
-      - name: Checkout tooling
+      # The release tag does not exist yet at this stage (it is created last, by
+      # tag-release.yml). The dataset PR is already merged, so `master` holds the
+      # exact data being released. A single checkout keeps the tooling
+      # (`.github`) and the packaged dataset folders on the same commit.
+      - name: Checkout master
         uses: actions/checkout@v7
         with:
-          path: repo
-          fetch-depth: 1
-          sparse-checkout: .github
-
-      - name: Resolve version
-        id: version
-        run: |
-          set -euo pipefail
-          VERSION="$(git -C repo show HEAD:dataset-generation-scripts/version.txt \
-            | grep -E '^dataset_version=' | head -1 | cut -d= -f2 | tr -d '[:space:]')"
-          [[ -n "${VERSION}" ]] || { echo "error: could not read dataset_version from version.txt" >&2; exit 1; }
-          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
-          echo "Resolved version: ${VERSION}"
-
-      - name: Checkout dataset at ${{ steps.version.outputs.version }}
-        uses: actions/checkout@v7
-        with:
-          ref: ${{ steps.version.outputs.version }}
-          path: data
+          ref: master
           fetch-depth: 1
           sparse-checkout: |
+            .github
             postgresql
             mysql
             sqlserver
@@ -70,14 +62,33 @@ jobs:
             redis
             elasticsearch
 
+      - name: Resolve version
+        id: version
+        run: |
+          set -euo pipefail
+          VERSION="$(git show HEAD:dataset-generation-scripts/version.txt \
+            | grep -E '^dataset_version=' | head -1 | cut -d= -f2 | tr -d '[:space:]')"
+          [[ -n "${VERSION}" ]] || { echo "error: could not read dataset_version from version.txt" >&2; exit 1; }
+          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+          echo "Resolved version: ${VERSION}"
+
+      - name: Record source commit
+        id: source
+        run: |
+          set -euo pipefail
+          COMMIT="$(git rev-parse HEAD)"
+          echo "commit=${COMMIT}" >> "${GITHUB_OUTPUT}"
+          echo "Packaging from master@${COMMIT}"
+
       - name: Package datasets
         env:
           R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
         run: |
-          ./repo/.github/scripts/package-datasets.sh \
+          ./.github/scripts/package-datasets.sh \
             "${{ steps.version.outputs.version }}" \
             "${RUNNER_TEMP}/archives" \
-            --repo-root data
+            --repo-root . \
+            --source-commit "${{ steps.source.outputs.commit }}"
 
       - name: Upload archives to Cloudflare R2
         env:
@@ -97,6 +108,8 @@ jobs:
           MANIFEST="${RUNNER_TEMP}/archives/downloads.json"
           {
             echo "## Dataset archives — $(jq -r .version "${MANIFEST}")"
+            echo
+            echo "Packaged from \`master@${{ steps.source.outputs.commit }}\`."
             echo
             echo "| Dataset | Size | URL |"
             echo "|---------|------|-----|"
@@ -153,7 +166,12 @@ jobs:
           body: |
             Automated dataset archive publication for `${{ needs.package.outputs.version }}`.
 
+            - Archives packaged from `master@${{ needs.package.outputs.source_commit }}`
             - Archives uploaded to Cloudflare R2 under `<version>/<format>/`
             - Download tables refreshed in `README.md` and `README_vi.md`
+
+            Merge this PR **before** tagging the release (`Tag Release` workflow).
+            The tag is created last so it points at a commit whose READMEs already
+            link to the published archives.
 
             Triggered manually via `.github/workflows/publish-dataset-archives.yml`.
