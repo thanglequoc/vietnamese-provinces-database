@@ -2,7 +2,11 @@
 set -euo pipefail
 
 # Uploads the packaged archives and downloads.json manifest to Cloudflare R2,
-# then verifies that the public CDN URLs return HTTP 200 (warns only).
+# then verifies that the public CDN URLs are reachable (warns only).
+#
+# Verification issues a 1-byte range request per archive so it does not download
+# the whole file (a plain GET pulled 40-100 MB per URL). The CDN answers with
+# HTTP 206; a server that ignores Range still answers HTTP 200, which also passes.
 #
 # Usage:
 #   upload-archives-to-r2.sh <version> <archives-dir>
@@ -34,13 +38,15 @@ done < <(jq -r '.datasets[] | [.archive, .id] | @tsv' "$MANIFEST")
 aws s3 cp "$MANIFEST" "s3://${R2_BUCKET_NAME}/${VERSION}/downloads.json" --no-progress
 
 echo
-echo "Verifying CDN URLs"
+echo "Verifying CDN URLs (1-byte range request)"
 fail=0
 while read -r url; do
-  code="$(curl -s -o /dev/null -w '%{http_code}' "$url")"
+  # Request a single byte so the check does not download the entire archive.
+  # 206 = range honoured, 200 = range ignored (full body) — both mean reachable.
+  code="$(curl -s -o /dev/null -w '%{http_code}' -r 0-0 --max-time 30 "$url")"
   echo "  ${code} ${url}"
-  [[ "$code" == "200" ]] || fail=1
+  [[ "$code" == "200" || "$code" == "206" ]] || fail=1
 done < <(jq -r '.datasets[].url' "$MANIFEST")
 if [[ "$fail" -ne 0 ]]; then
-  echo "::warning::One or more CDN URLs did not return HTTP 200. Check the bucket's public access / custom domain configuration."
+  echo "::warning::One or more CDN URLs did not return HTTP 200/206. Check the bucket's public access / custom domain configuration."
 fi
