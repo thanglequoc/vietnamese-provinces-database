@@ -647,9 +647,8 @@ vietnamese-provinces-database/
 │   ├── output/                       # Generated artifacts (gitignored, staging area)
 │   └── tmp/                          # Temporary working directory
 ├── development/                       # Feature documentation & planning artifacts
-│   ├── adapt_the_removal_of_sapnhap_api.md  # Context: API → file-based migration
-│   ├── cleanup_old_reference/         # Completed cleanup plans (e.g., remove_bando_gisserver_references.md)
-│   └── include_geojson_export/        # GeoJSON export feature planning
+│   ├── 223_StoreGisResultForLocalReuse.md  # GIS response caching + local mock server
+│   └── 227_StandardizeAutoPatchCommitIdentity.md  # Automated patch commit identity
 ├── docs/
 │   └── gis/                          # User-facing GIS documentation (README.md, README_vi.md, gis_example_query.md)
 ├── json/, mysql/, postgresql/, oracle/, sqlserver/, mongodb/, redis/
@@ -733,7 +732,8 @@ Vietnamese government issues administrative change decrees (e.g., `30/2026/QH16`
 5. Update dumper logic if systematic changes required
 6. Generate and validate patches for all database formats
 
-**See**: `development/adapt_the_removal_of_sapnhap_api.md` for a recent complex migration example.
+**See**: `dataset-generation-scripts/RELEASE.md` for the end-to-end release process, and the
+`patch/<version>/` folders for past decree patches.
 
 ---
 
@@ -800,7 +800,7 @@ dataset and opens a PR against `master`.
   by `tag-release.yml` (see below).
 - **Secret**: `DECREE_AUTOMATION_PAT` is required so the generated PR triggers
   `test-go.yml` (default `GITHUB_TOKEN` PRs do not trigger `pull_request` workflows).
-- **Plan doc**: `development/180_AutomatedWorkflowToDetectNewDecree.md`.
+- **Runbook**: `dataset-generation-scripts/RELEASE.md` (Step 1, "Produce the dataset update").
 
 ### Dataset Archive Publication (`.github/workflows/publish-dataset-archives.yml`)
 
@@ -827,7 +827,7 @@ refreshes the download tables in the root READMEs.
 - **Secrets**: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; **variables**:
   `R2_ACCOUNT_ID`, `R2_BUCKET_NAME`, `R2_PUBLIC_BASE_URL`. Optional
   `DECREE_AUTOMATION_PAT` so the docs PR triggers `test-go.yml`.
-- **Plan doc**: `development/217_DownloadableDatasetArchives.md`.
+- **Runbook**: `dataset-generation-scripts/RELEASE.md` (Steps 5–7: publish, merge, tag).
 
 ---
 
