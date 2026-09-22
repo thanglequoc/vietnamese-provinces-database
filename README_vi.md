@@ -14,7 +14,7 @@
 # Dữ liệu Tỉnh thành, Quận huyện Việt Nam
 
 Đây là tập lệnh cơ sở dữ liệu SQL của toàn bộ đơn vị hành chính Việt Nam, bao gồm **34 tỉnh thành** và các Quận huyện, phường xã liên quan.  
-Dữ liệu được cập nhật theo nghị định gần nhất: [36/2026/QH16][source government decree]  
+Dữ liệu được cập nhật theo nghị định gần nhất: [388/NQ-UBTVQH16][source government decree]  
 **Add-ons mở rộng**: 
 - Dataset toạ độ địa lý (GIS)
 - Dataset mã bưu chính (Postal Code)
