@@ -5,6 +5,7 @@ End-user release notes for the Vietnamese Provinces Database. Notes are generate
 
 | Version | Date | Summary |
 |---------|------|---------|
+| [v5.2.0](./v5.2.0.md) | 2026-09-20 | Bắc Ninh becomes a city; 12 Bắc Ninh wards established (decrees 39/2026/QH16, 388/NQ-UBTVQH16); metadata v5.2.0 |
 | [v5.1.0](./v5.1.0.md) | 2026-09-12 | Dataset metadata table across all formats; Quảng Ninh becomes a city (decree 36/2026/QH16); duplicate file cleanup |
 | [v5.0.0](./v5.0.0.md) | 2026-08-31 | Postal codes for all formats; Ba Chẽ ward code correction |
 | [v4.2.0](../release_notes_v4.2.0.md) | 2026-08-02 | Elasticsearch dataset, MongoDB GIS collections, automatic GIS geometry validation & fix |
